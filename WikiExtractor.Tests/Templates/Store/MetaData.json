@@ -1,0 +1,418 @@
+[
+  {
+    "MasterId": 1,
+    "Key": "Info",
+    "Value": "Pope Saint\r\nJohn Paul II",
+    "Type": "HeaderInfo",
+    "Sequence": 1,
+    "Id": 1
+  },
+  {
+    "MasterId": 1,
+    "Key": "Church",
+    "Value": "Catholic Church",
+    "Type": "Detail",
+    "Sequence": 3,
+    "Id": 2
+  },
+  {
+    "MasterId": 1,
+    "Key": "Papacy began",
+    "Value": "16 October 1978",
+    "Type": "Detail",
+    "Sequence": 4,
+    "Id": 3
+  },
+  {
+    "MasterId": 1,
+    "Key": "Papacy ended",
+    "Value": "2 April 2005",
+    "Type": "Detail",
+    "Sequence": 5,
+    "Id": 4
+  },
+  {
+    "MasterId": 1,
+    "Key": "Predecessor",
+    "Value": "John Paul I",
+    "Type": "Detail",
+    "Sequence": 6,
+    "Id": 5
+  },
+  {
+    "MasterId": 1,
+    "Key": "Successor",
+    "Value": "Benedict XVI",
+    "Type": "Detail",
+    "Sequence": 7,
+    "Id": 6
+  },
+  {
+    "MasterId": 1,
+    "Key": "Header",
+    "Value": "Orders",
+    "Type": "Header",
+    "Sequence": 8,
+    "Id": 7
+  },
+  {
+    "MasterId": 1,
+    "Key": "Ordination",
+    "Value": "1 November 1946\r\nby Adam Stefan Sapieha",
+    "Type": "Detail",
+    "Sequence": 9,
+    "Id": 8
+  },
+  {
+    "MasterId": 1,
+    "Key": "Consecration",
+    "Value": "28 September 1958\r\nby Eugeniusz Baziak",
+    "Type": "Detail",
+    "Sequence": 10,
+    "Id": 9
+  },
+  {
+    "MasterId": 1,
+    "Key": "Created cardinal",
+    "Value": "26 June 1967\r\nby Paul VI",
+    "Type": "Detail",
+    "Sequence": 11,
+    "Id": 10
+  },
+  {
+    "MasterId": 1,
+    "Key": "Rank",
+    "Value": "Cardinal priest (1967–1978)",
+    "Type": "Detail",
+    "Sequence": 12,
+    "Id": 11
+  },
+  {
+    "MasterId": 1,
+    "Key": "Header",
+    "Value": "Personal details",
+    "Type": "Header",
+    "Sequence": 13,
+    "Id": 12
+  },
+  {
+    "MasterId": 1,
+    "Key": "Born",
+    "Value": "Karol Józef Wojtyła\r\n(1920-05-18) 18 May 1920\r\nWadowice, Kraków Voivodeship, Poland",
+    "Type": "Detail",
+    "Sequence": 14,
+    "Id": 13
+  },
+  {
+    "MasterId": 1,
+    "Key": "Died",
+    "Value": "2 April 2005 (2005-04-02) (aged 84)\r\nApostolic Palace, Vatican City",
+    "Type": "Detail",
+    "Sequence": 15,
+    "Id": 14
+  },
+  {
+    "MasterId": 1,
+    "Key": "Denomination",
+    "Value": "Catholic",
+    "Type": "Detail",
+    "Sequence": 16,
+    "Id": 15
+  },
+  {
+    "MasterId": 1,
+    "Key": "Previous post(s)",
+    "Value": " Auxiliary Bishop of Kraków, Poland (1958–1964) Titular Bishop of Ombi (1958–1964) Archbishop of Kraków, Poland (1964–1978) Cardinal Priest of San Cesareo in Palatio (1967–1978) ",
+    "Type": "Detail",
+    "Sequence": 17,
+    "Id": 16
+  },
+  {
+    "MasterId": 1,
+    "Key": "Education",
+    "Value": "Pontifical University of Saint Thomas Aquinas ( STL, PhD )\r\nJagiellonian University ( PhD )",
+    "Type": "Detail",
+    "Sequence": 18,
+    "Id": 17
+  },
+  {
+    "MasterId": 1,
+    "Key": "Motto",
+    "Value": "Totus tuus\r\n('Totally yours')",
+    "Type": "Detail",
+    "Sequence": 19,
+    "Id": 18
+  },
+  {
+    "MasterId": 1,
+    "Key": "Signature",
+    "Value": "",
+    "Type": "Detail",
+    "Sequence": 20,
+    "Id": 19
+  },
+  {
+    "MasterId": 1,
+    "Key": "Coat of arms",
+    "Value": "",
+    "Type": "Detail",
+    "Sequence": 21,
+    "Id": 20
+  },
+  {
+    "MasterId": 1,
+    "Key": "Header",
+    "Value": "Sainthood",
+    "Type": "Header",
+    "Sequence": 22,
+    "Id": 21
+  },
+  {
+    "MasterId": 1,
+    "Key": "Feast day",
+    "Value": "22 October",
+    "Type": "Detail",
+    "Sequence": 23,
+    "Id": 22
+  },
+  {
+    "MasterId": 1,
+    "Key": "Venerated in",
+    "Value": "Catholic Church",
+    "Type": "Detail",
+    "Sequence": 24,
+    "Id": 23
+  },
+  {
+    "MasterId": 1,
+    "Key": "Beatified",
+    "Value": "1 May 2011\r\nSt. Peter's Square, Vatican City\r\nby Benedict XVI",
+    "Type": "Detail",
+    "Sequence": 25,
+    "Id": 24
+  },
+  {
+    "MasterId": 1,
+    "Key": "Canonized",
+    "Value": "27 April 2014\r\nSt. Peter's Square, Vatican City\r\nby Francis",
+    "Type": "Detail",
+    "Sequence": 26,
+    "Id": 25
+  },
+  {
+    "MasterId": 1,
+    "Key": "Attributes",
+    "Value": "Papal ferulaPapal vestments",
+    "Type": "Detail",
+    "Sequence": 27,
+    "Id": 26
+  },
+  {
+    "MasterId": 1,
+    "Key": "Patronage",
+    "Value": "PolandArchdiocese of KrakówWorld Youth Day (co-Patron)World Meeting of Families 2015 (co-patron)Young CatholicsFamiliesŚwidnicaTrecastelliBorgo MantovanoRivignano Teor Paradahan, Tanza, Cavite",
+    "Type": "Detail",
+    "Sequence": 28,
+    "Id": 27
+  },
+  {
+    "MasterId": 1,
+    "Key": "Notable work",
+    "Value": " Love and Responsibility Theology of the Body 1983 Code of Canon Law (promulgated) Memory and Identity ",
+    "Type": "Detail",
+    "Sequence": 29,
+    "Id": 28
+  },
+  {
+    "MasterId": 1,
+    "Key": "Era",
+    "Value": "20th-century philosophy",
+    "Type": "Detail",
+    "Sequence": 30,
+    "Id": 29
+  },
+  {
+    "MasterId": 1,
+    "Key": "Region",
+    "Value": "Western philosophy",
+    "Type": "Detail",
+    "Sequence": 31,
+    "Id": 30
+  },
+  {
+    "MasterId": 1,
+    "Key": "School",
+    "Value": "PersonalismPhenomenological Thomism",
+    "Type": "Detail",
+    "Sequence": 32,
+    "Id": 31
+  },
+  {
+    "MasterId": 1,
+    "Key": "Notable ideas",
+    "Value": "Culture of lifeSocial mortgage",
+    "Type": "Detail",
+    "Sequence": 33,
+    "Id": 32
+  },
+  {
+    "MasterId": 1,
+    "Key": "Header",
+    "Value": " Ordination history",
+    "Type": "Header",
+    "Sequence": 34,
+    "Id": 33
+  },
+  {
+    "MasterId": 1,
+    "Key": "Info",
+    "Value": "History",
+    "Type": "HeaderInfo",
+    "Sequence": 35,
+    "Id": 34
+  },
+  {
+    "MasterId": 1,
+    "Key": "Header",
+    "Value": "Diaconal ordination",
+    "Type": "Header",
+    "Sequence": 36,
+    "Id": 35
+  },
+  {
+    "MasterId": 1,
+    "Key": "Ordained by",
+    "Value": "Adam Stefan Sapieha ( Kraków )",
+    "Type": "Detail",
+    "Sequence": 37,
+    "Id": 36
+  },
+  {
+    "MasterId": 1,
+    "Key": "Info",
+    "Value": "Episcopal succession",
+    "Type": "HeaderInfo",
+    "Sequence": 38,
+    "Id": 37
+  },
+  {
+    "MasterId": 1,
+    "Key": "Header",
+    "Value": "Bishops consecrated by Pope John Paul II as principal consecrator",
+    "Type": "Header",
+    "Sequence": 39,
+    "Id": 38
+  },
+  {
+    "MasterId": 1,
+    "Key": "Piotr Bednarczyk",
+    "Value": "21 April 1968",
+    "Type": "Detail",
+    "Sequence": 40,
+    "Id": 39
+  },
+  {
+    "MasterId": 1,
+    "Key": "Info",
+    "Value": "Papal styles of\r\nPope John Paul II",
+    "Type": "HeaderInfo",
+    "Sequence": 41,
+    "Id": 40
+  },
+  {
+    "MasterId": 1,
+    "Key": "Reference style",
+    "Value": "His Holiness",
+    "Type": "Detail",
+    "Sequence": 43,
+    "Id": 41
+  },
+  {
+    "MasterId": 1,
+    "Key": "Spoken style",
+    "Value": "Your Holiness",
+    "Type": "Detail",
+    "Sequence": 44,
+    "Id": 42
+  },
+  {
+    "MasterId": 1,
+    "Key": "Posthumous style",
+    "Value": "Pope Saint",
+    "Type": "Detail",
+    "Sequence": 45,
+    "Id": 43
+  },
+  {
+    "MasterId": 1,
+    "Key": "Info",
+    "Value": "Pope Saint\r\nJohn Paul II\r\nPatriarch of Rome",
+    "Type": "HeaderInfo",
+    "Sequence": 46,
+    "Id": 44
+  },
+  {
+    "MasterId": 1,
+    "Key": "Header",
+    "Value": "Pope and Confessor",
+    "Type": "Header",
+    "Sequence": 48,
+    "Id": 45
+  },
+  {
+    "MasterId": 1,
+    "Key": "Born",
+    "Value": "18 May 1920\r\nWadowice, Poland",
+    "Type": "Detail",
+    "Sequence": 49,
+    "Id": 46
+  },
+  {
+    "MasterId": 1,
+    "Key": "Died",
+    "Value": "2 April 2005 (aged 84)\r\nApostolic Palace, Vatican City",
+    "Type": "Detail",
+    "Sequence": 50,
+    "Id": 47
+  },
+  {
+    "MasterId": 1,
+    "Key": "Beatified",
+    "Value": "1 May 2011, Saint Peter's Square, Vatican City by Pope Benedict XVI",
+    "Type": "Detail",
+    "Sequence": 52,
+    "Id": 48
+  },
+  {
+    "MasterId": 1,
+    "Key": "Canonized",
+    "Value": "27 April 2014, Saint Peter's Square, Vatican City by Pope Francis",
+    "Type": "Detail",
+    "Sequence": 53,
+    "Id": 49
+  },
+  {
+    "MasterId": 1,
+    "Key": "Feast",
+    "Value": "22 October",
+    "Type": "Detail",
+    "Sequence": 54,
+    "Id": 50
+  },
+  {
+    "MasterId": 1,
+    "Key": "Attributes",
+    "Value": "Papal ferula, Papal vestments",
+    "Type": "Detail",
+    "Sequence": 55,
+    "Id": 51
+  },
+  {
+    "MasterId": 1,
+    "Key": "Patronage",
+    "Value": "Kraków, Poland, World Youth Day, young Catholics, Świdnica, families, World Meeting of Families 2015",
+    "Type": "Detail",
+    "Sequence": 56,
+    "Id": 52
+  }
+]

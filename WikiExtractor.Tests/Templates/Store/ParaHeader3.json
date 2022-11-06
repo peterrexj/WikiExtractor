@@ -1,0 +1,345 @@
+[
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 3,
+    "Header": "Call to the episcopate",
+    "Sequence": 1,
+    "Id": 1
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 3,
+    "Header": "Participation in Vatican II and subsequent events",
+    "Sequence": 3,
+    "Id": 2
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 4,
+    "Header": "Election",
+    "Sequence": 1,
+    "Id": 3
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 4,
+    "Header": "Pastoral journeys",
+    "Sequence": 6,
+    "Id": 4
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 4,
+    "Header": "World Youth Days",
+    "Sequence": 11,
+    "Id": 5
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 4,
+    "Header": "Dedicated Years",
+    "Sequence": 12,
+    "Id": 6
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 4,
+    "Header": "Great Jubilee of 2000",
+    "Sequence": 13,
+    "Id": 7
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 5,
+    "Header": "Social and political stances",
+    "Sequence": 2,
+    "Id": 8
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 5,
+    "Header": "Apartheid in South Africa",
+    "Sequence": 7,
+    "Id": 9
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 5,
+    "Header": "Capital punishment",
+    "Sequence": 8,
+    "Id": 10
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 5,
+    "Header": "European Union",
+    "Sequence": 11,
+    "Id": 11
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 5,
+    "Header": "Evolution",
+    "Sequence": 14,
+    "Id": 12
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 5,
+    "Header": "Iraq War",
+    "Sequence": 16,
+    "Id": 13
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 5,
+    "Header": "Liberation theology",
+    "Sequence": 17,
+    "Id": 14
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 5,
+    "Header": "Organised crime",
+    "Sequence": 20,
+    "Id": 15
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 5,
+    "Header": "Persian Gulf War",
+    "Sequence": 22,
+    "Id": 16
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 5,
+    "Header": "Rwandan genocide",
+    "Sequence": 24,
+    "Id": 17
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 5,
+    "Header": "Views on sexuality",
+    "Sequence": 25,
+    "Id": 18
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 6,
+    "Header": "1983 Code of Canon Law",
+    "Sequence": 4,
+    "Id": 19
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 6,
+    "Header": "Code of Canons of the Eastern Churches",
+    "Sequence": 5,
+    "Id": 20
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 6,
+    "Header": "Pastor bonus",
+    "Sequence": 6,
+    "Id": 21
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 8,
+    "Header": "Chile",
+    "Sequence": 2,
+    "Id": 22
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 8,
+    "Header": "Haiti",
+    "Sequence": 6,
+    "Id": 23
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 8,
+    "Header": "Paraguay",
+    "Sequence": 9,
+    "Id": 24
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 9,
+    "Header": "Role as spiritual inspiration and catalyst",
+    "Sequence": 1,
+    "Id": 25
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 9,
+    "Header": "Communist attempt to compromise John Paul II",
+    "Sequence": 5,
+    "Id": 26
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 10,
+    "Header": "Churches of the East",
+    "Sequence": 2,
+    "Id": 27
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 10,
+    "Header": "Protestantism",
+    "Sequence": 10,
+    "Id": 28
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 12,
+    "Header": "Animism",
+    "Sequence": 1,
+    "Id": 29
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 12,
+    "Header": "Buddhism",
+    "Sequence": 4,
+    "Id": 30
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 12,
+    "Header": "Islam",
+    "Sequence": 5,
+    "Id": 31
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 12,
+    "Header": "Jainism",
+    "Sequence": 11,
+    "Id": 32
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 16,
+    "Header": "Final months",
+    "Sequence": 1,
+    "Id": 33
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 16,
+    "Header": "Final illness and death",
+    "Sequence": 2,
+    "Id": 34
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 16,
+    "Header": "Aftermath",
+    "Sequence": 4,
+    "Id": 35
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 17,
+    "Header": "Title \"the Great\"",
+    "Sequence": 1,
+    "Id": 36
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 17,
+    "Header": "Beatification",
+    "Sequence": 4,
+    "Id": 37
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 17,
+    "Header": "Canonisation",
+    "Sequence": 13,
+    "Id": 38
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 17,
+    "Header": "Beatification of the Pope's parents",
+    "Sequence": 18,
+    "Id": 39
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 18,
+    "Header": "Sex abuse scandals",
+    "Sequence": 2,
+    "Id": 40
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 18,
+    "Header": "Opus Dei controversies",
+    "Sequence": 11,
+    "Id": 41
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 18,
+    "Header": "Banco Ambrosiano scandal",
+    "Sequence": 13,
+    "Id": 42
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 18,
+    "Header": "Problems with traditionalists",
+    "Sequence": 16,
+    "Id": 43
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 18,
+    "Header": "Religion and AIDS",
+    "Sequence": 18,
+    "Id": 44
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 18,
+    "Header": "Social programmes",
+    "Sequence": 19,
+    "Id": 45
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 18,
+    "Header": "Dictatorships in Latin America",
+    "Sequence": 20,
+    "Id": 46
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 18,
+    "Header": "Ian Paisley",
+    "Sequence": 22,
+    "Id": 47
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 18,
+    "Header": "Međugorje apparitions",
+    "Sequence": 23,
+    "Id": 48
+  },
+  {
+    "MasterId": 1,
+    "ParagraphHeader2Id": 18,
+    "Header": "Beatification controversy",
+    "Sequence": 24,
+    "Id": 49
+  }
+]

@@ -1,0 +1,40 @@
+﻿using Pj.Library.Mobile.Sqlite;
+using Pj.Library;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using WikiExtractor.DbModels;
+
+namespace WikiExtractor.Repository
+{
+    public class WikiPictureRepository : RepositoryBase<WikiPicture>, IRepositoryBase<WikiPicture>, IRepositoryBaseAppExtension
+    {
+        public WikiPictureRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblWikiPicture",
+           "MasterId, Sequence, Width, Height, Path, Caption, IsPrimary",
+           "MasterId, Path")
+        { }
+
+        public string SchemaScript(int databaseVersion)
+        {
+            var createStr = new StringBuilder();
+            if (databaseVersion <= 0)
+            {
+                createStr.Append($@"CREATE TABLE [{_tableName}] (
+	                                [Id]	        INTEGER NOT NULL UNIQUE,
+	                                [MasterId]	    INTEGER,
+	                                [Sequence]		INTEGER,
+	                                [Width]		    INTEGER,
+	                                [Height]		INTEGER,
+	                                [Path]		    TEXT,
+	                                [Caption]	    TEXT,
+	                                [IsPrimary]	    INTEGER,
+	                                PRIMARY KEY([Id] AUTOINCREMENT)
+                                    );");
+            }
+
+            return createStr.ToString();
+        }
+    }
+}
