@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Pj.Library;
 using UIKit;
 
 namespace GeneralInformation.iOS
@@ -22,6 +23,7 @@ namespace GeneralInformation.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(CryptoHelper.Decrypt("+QcTizXqAlBO5w3z7WWab6WlQqM96TUQ8OC8rPLrTVeTC1plyteIfJwEGTzq1TCWGELzS3AF87Z2LeXwOcc0Y6WV67I9nEFo61Uz71rzy0evCgpa221FX0GMc1/eQIc6"));
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 

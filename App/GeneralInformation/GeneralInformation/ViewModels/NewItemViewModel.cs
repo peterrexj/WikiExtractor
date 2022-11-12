@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace GeneralInformation.ViewModels
 {
-    public class NewItemViewModel : BaseViewModel
+    public class NewItemViewModel : BaseViewModel_NotUsed
     {
         private string text;
         private string description;

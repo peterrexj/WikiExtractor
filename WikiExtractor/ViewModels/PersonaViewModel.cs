@@ -9,6 +9,7 @@ namespace WikiExtractor.ViewModels
 {
     public class PersonaViewModel
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public string WikiPath { get; set; }
         public string MainContent { get; set; }
@@ -16,7 +17,9 @@ namespace WikiExtractor.ViewModels
         public string PicturePrimaryCaption { get; set; }
         public List<MetadataViewModel> Metadatas { get; set; }
         public List<PictureViewModel> Pictures { get; set; }
-        public List<ParagraphContentViewModel> Paragraphs { get; set; }
+        public List<Paragraph2ContentViewModel> Paragraphs { get; set; }
+
+        
         //public List<(string PicturePrimaryPath, string PicturePrimaryCaption)> PictureImages { get; }
     }
 
@@ -35,12 +38,26 @@ namespace WikiExtractor.ViewModels
         public int Sequence { get; set; }
     }
 
-    public class ParagraphContentViewModel
+    public class Paragraph2ContentViewModel
     {
         public string Header2 { get; set; }
+        public string Content { get; set; }
+        public int Sequence { get; set; }
+        public List<Paragraph3ContentViewModel>? Para3s { get; set; }
+        public bool ContainsHeader3 => Para3s != null && Para3s.Any();
+        public bool ContainsHeader2Content => Content.HasValue();
+    }
+
+    public class Paragraph3ContentViewModel
+    {
         public string Header3 { get; set; }
         public string Content { get; set; }
         public int Sequence { get; set; }
-        public bool ContainsSubHeader3 => Header3.HasValue();
+    }
+
+    public class PersonaAutoCompleteModel
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

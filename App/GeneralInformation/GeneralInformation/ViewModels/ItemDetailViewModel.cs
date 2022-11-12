@@ -7,7 +7,7 @@ using Xamarin.Forms;
 namespace GeneralInformation.ViewModels
 {
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
-    public class ItemDetailViewModel : BaseViewModel
+    public class ItemDetailViewModel : BaseViewModel_NotUsed
     {
         private string itemId;
         private string text;

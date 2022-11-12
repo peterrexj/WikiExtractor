@@ -2,7 +2,6 @@
 using Pj.Library;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,21 +22,24 @@ namespace WikiExtractor.Process
             var tableRows = document.DocumentNode.SelectNodes("//table[contains(@class, 'infobox vcard')]/tbody/tr");
             var metaDataDict = new List<MetaDataModel>();
 
-            foreach (var tableRow in tableRows)
+            if (tableRows?.Count > 0)
             {
-                var loadedInnerHtml = helperHtml.LoadHtmlDocument(tableRow.InnerHtml);
+                foreach (var tableRow in tableRows)
+                {
+                    var loadedInnerHtml = helperHtml.LoadHtmlDocument(tableRow.InnerHtml);
 
-                var infoboxAbove = ExtractInfoboxAbove(loadedInnerHtml);
-                if (infoboxAbove != null) metaDataDict.Add(infoboxAbove);
+                    var infoboxAbove = ExtractInfoboxAbove(loadedInnerHtml);
+                    if (infoboxAbove != null) metaDataDict.Add(infoboxAbove);
 
-                var infoboxImage = ExtractInfoboxImage(loadedInnerHtml);
-                if (infoboxImage != null) metaDataDict.Add(infoboxImage);
+                    var infoboxImage = ExtractInfoboxImage(loadedInnerHtml);
+                    if (infoboxImage != null) metaDataDict.Add(infoboxImage);
 
-                var infoboxHeader = ExtractInfoboxHeader(loadedInnerHtml);
-                if (infoboxHeader != null) metaDataDict.Add(infoboxHeader);
+                    var infoboxHeader = ExtractInfoboxHeader(loadedInnerHtml);
+                    if (infoboxHeader != null) metaDataDict.Add(infoboxHeader);
 
-                var infoboxLabel = ExtractInfoboxLabel(loadedInnerHtml); //, metaDataDict.Count);
-                if (infoboxLabel != null) metaDataDict.Add(infoboxLabel);
+                    var infoboxLabel = ExtractInfoboxLabel(loadedInnerHtml); //, metaDataDict.Count);
+                    if (infoboxLabel != null) metaDataDict.Add(infoboxLabel);
+                }
             }
 
             return metaDataDict;

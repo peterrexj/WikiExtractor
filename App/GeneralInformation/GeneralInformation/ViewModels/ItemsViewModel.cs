@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace GeneralInformation.ViewModels
 {
-    public class ItemsViewModel : BaseViewModel
+    public class ItemsViewModel : BaseViewModel_NotUsed
     {
         private Item _selectedItem;
 

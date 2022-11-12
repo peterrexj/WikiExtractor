@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace GeneralInformation.ViewModels
 {
-    public class AboutViewModel : BaseViewModel
+    public class AboutViewModel : BaseViewModel_NotUsed
     {
         public AboutViewModel()
         {

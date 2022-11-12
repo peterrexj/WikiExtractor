@@ -21,7 +21,7 @@ namespace WikiExtractor.Process
             return document.DocumentNode.SelectNodes("//div[contains(@class, 'mw-body-content')]//div[contains(@class,'mw-parser-output')]").FirstOrDefault()?.ChildNodes;
         }
 
-        public WikiPageModel? ExtractParaInfo(HtmlDocument document, string route)
+        public WikiPageModel? ExtractParaInfo(HtmlDocument document, string route, string name)
         {
             try
             {
@@ -134,7 +134,7 @@ namespace WikiExtractor.Process
                 var headerText = document.DocumentNode.SelectSingleNode("//h1//span").DecodedInnerText(removeNewLine: true);
                 var returnValue = new WikiPageModel
                 {
-                    Header = headerText,
+                    Header = headerText.HasValue() && headerText.Length > name.Length ? headerText : name,
                     Route = route,
                     WikiParaCollection = returnList,
                     WikiPictureCollection = imageDetailsList,

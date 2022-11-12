@@ -60,7 +60,7 @@ namespace WikiExtractor.Tests
         public void Should_Return_Items_Paragraph_Live_Items_NotNull(string route)
         {
             var htmlDoc = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
-            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route);
+            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route, string.Empty);
             Assert.That(items, Is.Not.Null);
         }
 
@@ -69,7 +69,7 @@ namespace WikiExtractor.Tests
         public void Should_Return_Items_Paragraph_Live_Header(string route)
         {
             var htmlDoc = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
-            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route);
+            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route, string.Empty);
 
             Assert.That(items.Header.HasValue(), Is.True);
         }
@@ -79,7 +79,7 @@ namespace WikiExtractor.Tests
         public void Should_Return_Items_Paragraph_Live_Route(string route)
         {
             var htmlDoc = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
-            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route);
+            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route, string.Empty);
 
             Assert.That(items.Route.HasValue(), Is.True);
         }
@@ -89,7 +89,7 @@ namespace WikiExtractor.Tests
         public void Should_Return_Items_Paragraph_Live_MainParagraph(string route)
         {
             var htmlDoc = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
-            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route);
+            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route, string.Empty);
 
             Assert.That(items.MainParagraph, Is.Not.Null);
             Assert.That(items.MainParagraph.Count > 1, Is.True);
@@ -100,7 +100,7 @@ namespace WikiExtractor.Tests
         public void Should_Return_Items_Paragraph_Live_WikiParaCollection(string route)
         {
             var htmlDoc = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
-            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route);
+            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route, string.Empty);
 
             Assert.That(items.WikiParaCollection, Is.Not.Null);
             Assert.That(items.WikiParaCollection.Count > 1, Is.True);
@@ -111,7 +111,7 @@ namespace WikiExtractor.Tests
         public void Should_Return_Items_Paragraph_Live_WikiPictureCollection(string route)
         {
             var htmlDoc = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
-            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route);
+            var items = paragraphExtractor.ExtractParaInfo(htmlDoc, route, null);
 
             Assert.That(items.WikiPictureCollection, Is.Not.Null);
             Assert.That(items.WikiPictureCollection.Count > 1, Is.True);
@@ -126,7 +126,7 @@ namespace WikiExtractor.Tests
             //SerializationHelper.SerializeToJson(actualItems, "");
 
             var htmlDoc = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, File.ReadAllText(TemplateCompileFile));
-            var actualItems = paragraphExtractor.ExtractParaInfo(htmlDoc, route);
+            var actualItems = paragraphExtractor.ExtractParaInfo(htmlDoc, route, null);
             var expectedItems = SerializationHelper.DeSerializeFromJsonFile<WikiPageModel>(TemplateCompileItemsFile);
 
             Assert.That(actualItems, Is.Not.Null);

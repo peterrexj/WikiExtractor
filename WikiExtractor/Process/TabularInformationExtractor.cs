@@ -15,10 +15,11 @@ namespace WikiExtractor.Process
         public Dictionary<string, string> ExtractTabularData(HtmlDocument document)
         {
             Dictionary<string, string> listOfNames = new Dictionary<string, string>();
-            var temp = document.DocumentNode
-                .SelectNodes("//table[contains(@class, 'wikitable ')]/tbody/tr");
+            var temp = document.DocumentNode.SelectNodes("//table[contains(@class, 'wikitable ')]/tbody/tr");
+            bool hasExtracted = false;
             foreach (var item in temp)
             {
+                hasExtracted = false;
                 if (item.ChildNodes.Any(f => f.Name == "td"))
                 {
                     var cell = item.ChildNodes.FirstOrDefault(f => f.Name == "td");
@@ -31,9 +32,10 @@ namespace WikiExtractor.Process
                                anchor.Attributes.Any(a => a.Name == "title" && a.Value.HasValue()))
                             {
                                 listOfNames.AddOrUpdate(
-                                    anchor.Attributes["title"].Value, 
+                                    anchor.Attributes["title"].Value,
                                     HttpUtility.UrlDecode(
                                         HtmlAgilityEx.DecodedInnerText(content: anchor.Attributes["href"].Value, removeNewLine: false)));
+                                hasExtracted = true;
                             }
                         }
                     }

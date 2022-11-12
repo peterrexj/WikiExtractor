@@ -10,7 +10,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace WikiExtractor.Repository
 {
-    public class WikiDatabase
+    public class WikiDatabase : IWikiDatabase
     {
         AppDatabase appDatabase;
         public MasterRepository MasterRepository { get; set; }
@@ -27,7 +27,7 @@ namespace WikiExtractor.Repository
         public WikiDatabase()
         {
             repoExtensions = new List<IRepositoryBaseAppExtension>();
-            appDatabase = new AppDatabase(true);
+            appDatabase = new AppDatabase(false);
             InitializeDatabase();
         }
 

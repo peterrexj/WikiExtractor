@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pj.Library;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,6 +15,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Storage;
+using GeneralInformation.UWP.DeviceDependencyImpl;
 
 namespace GeneralInformation.UWP
 {
@@ -28,8 +31,14 @@ namespace GeneralInformation.UWP
         /// </summary>
         public App()
         {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(CryptoHelper.Decrypt("+QcTizXqAlBO5w3z7WWab6WlQqM96TUQ8OC8rPLrTVeTC1plyteIfJwEGTzq1TCWGELzS3AF87Z2LeXwOcc0Y6WV67I9nEFo61Uz71rzy0evCgpa221FX0GMc1/eQIc6"));
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            //Windows.Storage.StorageFolder installedLocation = Windows.ApplicationModel.Package.Current.InstalledLocation;
+            //var temp = new SqliteFileHelper_Uwp();
+            //temp.CopyDatabase();
+            
         }
 
         /// <summary>

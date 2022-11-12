@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
+             xmlns:syncfusionExpander="clr-namespace:Syncfusion.XForms.Expander;assembly=Syncfusion.Expander.XForms"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:carousel="clr-namespace:Syncfusion.SfCarousel.XForms;assembly=Syncfusion.SfCarousel.XForms"
+             x:Class="GeneralInformation.Views.PersonaDetailPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <tabView:SfTabView x:Name="tabView"
+                               TabHeight="30">
+                <tabView:SfTabItem Title="Basic Info" x:Name="tabUsefulInfo">
+                    <tabView:SfTabItem.Content>
+                        <StackLayout>
+                            <Frame Margin="2,2,2,2" Padding="1">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.25*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
+                                        <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.75*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Source="{Binding Persona.PicturePrimaryPath}" Grid.Column="0" HeightRequest="100" WidthRequest="100" Aspect="AspectFit" 
+                                           IsVisible="{Binding IsPrimaryPictureAvailable}"
+                                           BackgroundColor="Red" HorizontalOptions="Start"/>
+                                    <Label Text="{Binding Persona.Name}" Grid.Column="1" TextColor="Black" LineBreakMode="WordWrap"
+                                           Padding="2,2,5,2" VerticalTextAlignment="Center"
+                                           HeightRequest="60"
+                                           FontAttributes="Bold"
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=20, Tablet=26}, iOS={OnIdiom Phone=12, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
+
+                                </Grid>
+
+                            </Frame>
+                            <syncfusionList:SfListView x:Name="lstSaints" 
+                                BackgroundColor="DarkSeaGreen"
+                                ItemsSource="{Binding Persona.Metadatas}" 
+                                AllowSwiping="True" AutoFitMode="DynamicHeight">
+                                <syncfusionList:SfListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Frame BackgroundColor="Green" Padding="1" 
+                                            Margin="2,2,2,2"
+                                            HasShadow="{OnPlatform Android=true, iOS=false, UWP=true, WPF=true}">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.25*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
+                                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.75*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
+                                                </Grid.ColumnDefinitions>
+
+                                                <Label Text="{Binding Key}" Grid.Column="0" TextColor="Black" LineBreakMode="WordWrap" 
+                                                   Padding="5,0,0,0" VerticalTextAlignment="Center"
+                                                   FontAttributes="Bold"
+                                                FontSize="{OnPlatform Android={OnIdiom Phone=14, Tablet=20}, iOS={OnIdiom Phone=14, Tablet=20}, UWP={OnIdiom Phone=16, Tablet=20, Desktop=24}, macOS=22, WPF=26}" />
+                                                <Label Text="{Binding Description}" Grid.Column="1" TextColor="Black" LineBreakMode="WordWrap"
+                                                   Padding="2,2,5,2" VerticalTextAlignment="Center"
+                                                FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=13}, iOS={OnIdiom Phone=12, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
+
+                                            </Grid>
+                                        </Frame>
+                                    </DataTemplate>
+                                </syncfusionList:SfListView.ItemTemplate>
+                            </syncfusionList:SfListView>
+                        </StackLayout>
+                    </tabView:SfTabItem.Content>
+                </tabView:SfTabItem>
+                <tabView:SfTabItem Title="Pictures" x:Name="tabPictures" IsVisible="{Binding ArePicturesAvailable}" BackgroundColor="LightBlue">
+                    <tabView:SfTabItem.Content>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.15*}, iOS={OnIdiom Phone=0.15*, Tablet=0.15*}, UWP={OnIdiom Desktop=0.15*, Phone=0.15*, Tablet=0.15*}, macOS=0.15*, WPF=auto}" />
+                            </Grid.RowDefinitions>
+
+                            <carousel:SfCarousel Grid.Row="0" x:Name="carousel"  
+                                 ItemsSource="{Binding Persona.Pictures}" 
+                                 BackgroundColor="Coral"
+                                 ItemSpacing="10"
+                                 SelectionChanged="carousel_SelectionChanged">
+                                <carousel:SfCarousel.ItemTemplate>
+                                    <DataTemplate>
+                                        <Image Source="{Binding PicturePath}" Aspect="AspectFit"/>
+                                    </DataTemplate>
+                                </carousel:SfCarousel.ItemTemplate>
+                            </carousel:SfCarousel>
+
+                            <Label Grid.Row="1" Text="{Binding CurrentSelectedPictureCaption}" HorizontalTextAlignment="Center" 
+                                   FontAttributes="Bold"
+                                   FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=16, Tablet=22}, UWP={OnIdiom Phone=14, Tablet=24, Desktop=24}, macOS=22, WPF=26}" />
+                        </Grid>
+
+                    </tabView:SfTabItem.Content>
+                </tabView:SfTabItem>
+                <tabView:SfTabItem Title="Details" x:Name="tabDetailContent">
+                    <tabView:SfTabItem.Content>
+                        <ScrollView>
+                            <StackLayout>
+                                <syncfusionList:SfListView Grid.Row="1" x:Name="lstMeanings" 
+                                                   ItemsSource="{Binding Persona.Paragraphs}" 
+                                                   AllowSwiping="True" AutoFitMode="DynamicHeight" >
+                                    <syncfusionList:SfListView.LayoutManager>
+                                        <syncfusionList:LinearLayout />
+                                    </syncfusionList:SfListView.LayoutManager>
+                                    <syncfusionList:SfListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <ViewCell>
+                                                <ViewCell.View>
+                                                    <StackLayout>
+                                                        <syncfusionExpander:SfExpander>
+                                                            <syncfusionExpander:SfExpander.Header>
+                                                                <Grid>
+                                                                    <Label>
+                                                                        <Label.FormattedText>
+                                                                            <FormattedString>
+                                                                                <Span Text=" " />
+                                                                                <Span Text="{Binding Header2}" FontAttributes="Italic" FontSize="{OnIdiom Phone=15, Tablet=18}"/>
+                                                                            </FormattedString>
+                                                                        </Label.FormattedText>
+                                                                    </Label>
+                                                                </Grid>
+                                                            </syncfusionExpander:SfExpander.Header>
+
+                                                            <syncfusionExpander:SfExpander.Content>
+                                                                <!--<ScrollView>-->
+                                                                <StackLayout>
+                                                                    <Label Text="{Binding Content}" />
+                                                                    
+                                                                    <!--Para3 Expander -->
+                                                                    <syncfusionList:SfListView x:Name="lstMeanings01" ItemsSource="{Binding Para3}" AllowSwiping="True" AutoFitMode="DynamicHeight" >
+                                                                        <syncfusionList:SfListView.LayoutManager>
+                                                                            <syncfusionList:LinearLayout />
+                                                                        </syncfusionList:SfListView.LayoutManager>
+                                                                        <syncfusionList:SfListView.ItemTemplate>
+                                                                            <DataTemplate>
+                                                                                <ViewCell>
+                                                                                    <ViewCell.View>
+                                                                                        <StackLayout>
+                                                                                            <syncfusionExpander:SfExpander>
+                                                                                                <syncfusionExpander:SfExpander.Header>
+                                                                                                    <Grid>
+                                                                                                        <Label>
+                                                                                                            <Label.FormattedText>
+                                                                                                                <FormattedString>
+                                                                                                                    <Span Text=" " />
+                                                                                                                    <Span Text="{Binding Header3}" FontAttributes="Italic" FontSize="{OnIdiom Phone=15, Tablet=18}"/>
+                                                                                                                </FormattedString>
+                                                                                                            </Label.FormattedText>
+                                                                                                        </Label>
+                                                                                                    </Grid>
+                                                                                                </syncfusionExpander:SfExpander.Header>
+                                                                                                <syncfusionExpander:SfExpander.Content>
+                                                                                                    <StackLayout>
+                                                                                                        <!--<Label Text="{Binding Content}" />-->
+                                                                                                    </StackLayout>
+                                                                                                </syncfusionExpander:SfExpander.Content>
+                                                                                            </syncfusionExpander:SfExpander>
+                                                                                        </StackLayout>
+                                                                                    </ViewCell.View>
+                                                                                </ViewCell>
+                                                                            </DataTemplate>
+                                                                        </syncfusionList:SfListView.ItemTemplate>
+                                                                    </syncfusionList:SfListView>
+
+                                                                </StackLayout>
+                                                                <!--</ScrollView>-->
+                                                            </syncfusionExpander:SfExpander.Content>
+                                                        </syncfusionExpander:SfExpander>
+                                                    </StackLayout>
+                                                </ViewCell.View>
+                                            </ViewCell>
+                                        </DataTemplate>
+                                    </syncfusionList:SfListView.ItemTemplate>
+
+                                </syncfusionList:SfListView>
+                            </StackLayout>
+                        </ScrollView>
+                    </tabView:SfTabItem.Content>
+                </tabView:SfTabItem>
+            </tabView:SfTabView>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+

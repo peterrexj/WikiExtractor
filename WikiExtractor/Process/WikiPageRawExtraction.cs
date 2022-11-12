@@ -79,11 +79,11 @@ namespace WikiExtractor.Process
             return tabularInformationExtractor.ExtractTabularData(response);
         }
 
-        public int PersonaSinglePageContentExtractWithSaveToStore(string route)
+        public int PersonaSinglePageContentExtractWithSaveToStore(string route, string name)
         {
             var response = WikiPageRouteResponseAsHtmlDocument(route, null);
 
-            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route);
+            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, name);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
             return storeProcess.StoreInformation(paraInfo, metadata);

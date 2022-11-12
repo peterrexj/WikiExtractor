@@ -39,12 +39,10 @@ namespace WikiExtractor.Tests
         [TestCase(Route)]
         public void Shoud_Save_Data_Master(string route)
         {
-
-
             var response = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
             Assert.IsNotNull(response);
 
-            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route);
+            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
             var masterid = storeProcess.StoreInformation(paraInfo, metadata);
@@ -59,7 +57,7 @@ namespace WikiExtractor.Tests
             var response = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
             Assert.IsNotNull(response);
 
-            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route);
+            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
             var masterid = storeProcess.StoreInformation(paraInfo, metadata);
@@ -89,7 +87,7 @@ namespace WikiExtractor.Tests
             var response = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
             Assert.IsNotNull(response);
 
-            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route);
+            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
             var masterid = storeProcess.StoreInformation(paraInfo, metadata);
@@ -116,7 +114,7 @@ namespace WikiExtractor.Tests
             var response = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
             Assert.IsNotNull(response);
 
-            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route);
+            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
             var masterid = storeProcess.StoreInformation(paraInfo, metadata);
@@ -149,7 +147,7 @@ namespace WikiExtractor.Tests
             var response = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
             Assert.IsNotNull(response);
 
-            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route);
+            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
             var masterid = storeProcess.StoreInformation(paraInfo, metadata);
@@ -177,7 +175,7 @@ namespace WikiExtractor.Tests
             var response = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
             Assert.IsNotNull(response);
 
-            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route);
+            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
             var masterid = storeProcess.StoreInformation(paraInfo, metadata);
@@ -207,7 +205,7 @@ namespace WikiExtractor.Tests
             var response = wikiPageExtraction.WikiPageRouteResponseAsHtmlDocument(route, null);
             Assert.IsNotNull(response);
 
-            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route);
+            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
             var masterid = storeProcess.StoreInformation(paraInfo, metadata);

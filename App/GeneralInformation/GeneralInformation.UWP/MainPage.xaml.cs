@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Syncfusion.ListView.XForms.UWP;
+using Syncfusion.XForms.UWP.TreeView;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -21,6 +23,8 @@ namespace GeneralInformation.UWP
         {
             this.InitializeComponent();
 
+            SfListViewRenderer.Init();
+            SfTreeViewRenderer.Init();
             LoadApplication(new GeneralInformation.App());
         }
     }
