@@ -2,6 +2,7 @@
 using GeneralInformation.ViewModels;
 using Pj.Library;
 using Syncfusion.SfAutoComplete.XForms;
+using Syncfusion.XForms.EffectsView;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,15 +25,13 @@ namespace GeneralInformation.Views
         {
             InitializeComponent();
             wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
-            var data = wikiAppController.GetListOfWikiItems().Where(f => f.Name.StartsWith("Alb"));
+            var data = wikiAppController.GetListOfWikiItems(); //.Where(f => f.Name.StartsWith("Alb"));
 
             BindingContext = personaListViewModel = new PersonaListViewModel
             {
                 Personas = data,
                 AutocompleteList = data.Select(f => new WikiExtractor.ViewModels.PersonaAutoCompleteModel { Id = f.Id, Name = f.Name })
             };
-
-            btnTabDefinitionsHeader.Text = DatabaseService.AppDatabase.MasterRepository.GetAll()?.FirstOrDefault()?.Name;
         }
 
         private void autoComplete_SelectionChanged(object sender, Syncfusion.SfAutoComplete.XForms.SelectionChangedEventArgs e)
@@ -72,6 +71,19 @@ namespace GeneralInformation.Views
                 var masterId = (e.AddedItems.First() as PersonaViewModel).Id;
                 var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
                 await Shell.Current.GoToAsync(route); 
+            }
+        }
+
+        private async void lstItemEffectsView_AnimationCompleted(object sender, EventArgs e)
+        {
+            if (sender != null)
+            {
+                if (sender is SfEffectsView && (sender as SfEffectsView).AutomationId.HasValue())
+                {
+                    var masterId = (sender as SfEffectsView).AutomationId;
+                    var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
+                    await Shell.Current.GoToAsync(route);
+                }
             }
         }
     }

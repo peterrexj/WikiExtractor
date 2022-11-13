@@ -4,42 +4,93 @@
              xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
              xmlns:syncfusionExpander="clr-namespace:Syncfusion.XForms.Expander;assembly=Syncfusion.Expander.XForms"
+             xmlns:sfTreeView="clr-namespace:Syncfusion.XForms.TreeView;assembly=Syncfusion.SfTreeView.XForms"
+             xmlns:treeviewengine="clr-namespace:Syncfusion.TreeView.Engine;assembly=Syncfusion.SfTreeView.XForms"
              xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
+             xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    	     xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
              xmlns:carousel="clr-namespace:Syncfusion.SfCarousel.XForms;assembly=Syncfusion.SfCarousel.XForms"
              x:Class="GeneralInformation.Views.PersonaDetailPage">
     <ContentPage.Content>
         <StackLayout>
+            <Frame Padding="4" MinimumHeightRequest="100" >
+                <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" TouchDownEffects="Ripple"
+												  CornerRadius="5" RippleAnimationDuration="300" >
+
+                    <!--<sfEffectsView:SfEffectsView.HeightRequest>
+                        <OnIdiom x:TypeArguments="x:Double" Desktop="100" Tablet="50" Phone="50"/>
+                    </sfEffectsView:SfEffectsView.HeightRequest>-->
+
+                    <Grid>
+                        <sfGradient:SfGradientView >
+                            <sfGradient:SfGradientView.BackgroundBrush>
+                                <sfGradient:SfLinearGradientBrush>
+                                    <sfGradient:SfLinearGradientBrush.GradientStops>
+                                        <sfGradient:SfGradientStop Color="#283747" Offset="0.0" />
+                                        <sfGradient:SfGradientStop Color="#85929E" Offset="0.8" />
+                                        <sfGradient:SfGradientStop Color="#283747" Offset="1" />
+                                    </sfGradient:SfLinearGradientBrush.GradientStops>
+                                </sfGradient:SfLinearGradientBrush>
+                            </sfGradient:SfGradientView.BackgroundBrush>
+                        </sfGradient:SfGradientView>
+                        <sfBorder:SfBorder BackgroundColor="Transparent" BorderColor="Transparent" 
+											   BorderWidth="0" VerticalOptions="Center">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=2, Tablet=0.25*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.25*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.85*, Tablet=0.75*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source="{Binding Persona.PicturePrimaryPath}" Grid.Column="1" Aspect="AspectFit" 
+                                       BackgroundColor="Transparent" HorizontalOptions="Start"/>
+                                <StackLayout Grid.Column="2" VerticalOptions="Center" >
+                                    <Label LineBreakMode="WordWrap"  Padding="2,0,0,10" 
+                                           VerticalTextAlignment="Center" HorizontalTextAlignment="Start">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text=" " />
+                                                <Span Text="{Binding Persona.Name}" TextColor="Black"
+                                                      FontAttributes="Bold"
+                                                      FontSize="{OnPlatform Android={OnIdiom Phone=20, Tablet=26}, iOS={OnIdiom Phone=12, Tablet=13}, UWP={OnIdiom Phone=20, Tablet=26, Desktop=20}, macOS=13, WPF=20}"/>
+                                                <Span Text="{Binding Persona.NameSubstitueFormatted}" 
+                                                      TextColor="Black" 
+                                                      FontAttributes="Bold" 
+                                                      FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=12}, iOS={OnIdiom Phone=8, Tablet=10}, UWP={OnIdiom Phone=8, Tablet=10, Desktop=10}, macOS=10, WPF=10}"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </StackLayout>
+
+                            </Grid>
+                        </sfBorder:SfBorder>
+                    </Grid>
+                </sfEffectsView:SfEffectsView>
+            </Frame>
+
             <tabView:SfTabView x:Name="tabView"
-                               TabHeight="30">
-                <tabView:SfTabItem Title="Basic Info" x:Name="tabUsefulInfo">
+                VisibleHeaderCount="3" 
+                               HorizontalOptions="FillAndExpand" 
+                               VerticalOptions="FillAndExpand" DisplayMode="Text"
+                               TabHeight="40">
+                <tabView:SfTabView.SelectionIndicatorSettings>
+                    <tabView:SelectionIndicatorSettings
+                        Color="#283747" 
+                        Position="Fill" />
+                </tabView:SfTabView.SelectionIndicatorSettings>
+                <tabView:SfTabItem Title="Basic Info" x:Name="tabUsefulInfo" IsVisible="{Binding IsMetaDataAvailable}">
                     <tabView:SfTabItem.Content>
                         <StackLayout>
-                            <Frame Margin="2,2,2,2" Padding="1">
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.25*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
-                                        <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.75*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
-                                    </Grid.ColumnDefinitions>
-
-                                    <Image Source="{Binding Persona.PicturePrimaryPath}" Grid.Column="0" HeightRequest="100" WidthRequest="100" Aspect="AspectFit" 
-                                           IsVisible="{Binding IsPrimaryPictureAvailable}"
-                                           BackgroundColor="Red" HorizontalOptions="Start"/>
-                                    <Label Text="{Binding Persona.Name}" Grid.Column="1" TextColor="Black" LineBreakMode="WordWrap"
-                                           Padding="2,2,5,2" VerticalTextAlignment="Center"
-                                           HeightRequest="60"
-                                           FontAttributes="Bold"
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=20, Tablet=26}, iOS={OnIdiom Phone=12, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
-
-                                </Grid>
-
-                            </Frame>
                             <syncfusionList:SfListView x:Name="lstSaints" 
-                                BackgroundColor="DarkSeaGreen"
+                                BackgroundColor="Transparent"
                                 ItemsSource="{Binding Persona.Metadatas}" 
+                                                       SelectionMode="None"
+                                                       
                                 AllowSwiping="True" AutoFitMode="DynamicHeight">
                                 <syncfusionList:SfListView.ItemTemplate>
                                     <DataTemplate>
-                                        <Frame BackgroundColor="Green" Padding="1" 
+                                        <Frame Padding="1" 
                                             Margin="2,2,2,2"
                                             HasShadow="{OnPlatform Android=true, iOS=false, UWP=true, WPF=true}">
                                             <Grid>
@@ -64,7 +115,7 @@
                         </StackLayout>
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
-                <tabView:SfTabItem Title="Pictures" x:Name="tabPictures" IsVisible="{Binding ArePicturesAvailable}" BackgroundColor="LightBlue">
+                <tabView:SfTabItem Title="Pictures" x:Name="tabPictures" IsVisible="{Binding ArePicturesAvailable}">
                     <tabView:SfTabItem.Content>
                         <Grid>
                             <Grid.RowDefinitions>
@@ -74,7 +125,7 @@
 
                             <carousel:SfCarousel Grid.Row="0" x:Name="carousel"  
                                  ItemsSource="{Binding Persona.Pictures}" 
-                                 BackgroundColor="Coral"
+                                 BackgroundColor="Transparent"
                                  ItemSpacing="10"
                                  SelectionChanged="carousel_SelectionChanged">
                                 <carousel:SfCarousel.ItemTemplate>
@@ -84,9 +135,25 @@
                                 </carousel:SfCarousel.ItemTemplate>
                             </carousel:SfCarousel>
 
-                            <Label Grid.Row="1" Text="{Binding CurrentSelectedPictureCaption}" HorizontalTextAlignment="Center" 
+                            <Grid Grid.Row="1">
+                                <sfGradient:SfGradientView >
+                                    <sfGradient:SfGradientView.BackgroundBrush>
+                                        <sfGradient:SfLinearGradientBrush>
+                                            <sfGradient:SfLinearGradientBrush.GradientStops>
+                                                <sfGradient:SfGradientStop Color="#F8F9F9" Offset="0.0" />
+                                                <sfGradient:SfGradientStop Color="#CACFD2" Offset="0.6" />
+                                                <sfGradient:SfGradientStop Color="#F8F9F9" Offset="0.8" />
+                                            </sfGradient:SfLinearGradientBrush.GradientStops>
+                                        </sfGradient:SfLinearGradientBrush>
+                                    </sfGradient:SfGradientView.BackgroundBrush>
+                                </sfGradient:SfGradientView>
+                                <Label Text="{Binding CurrentSelectedPictureCaption}" 
+                                       TextColor="Black"
+                                       HorizontalTextAlignment="Center" 
+                                       Padding="8,5,8,2"
                                    FontAttributes="Bold"
                                    FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=16, Tablet=22}, UWP={OnIdiom Phone=14, Tablet=24, Desktop=24}, macOS=22, WPF=26}" />
+                            </Grid>
                         </Grid>
 
                     </tabView:SfTabItem.Content>
@@ -95,85 +162,107 @@
                     <tabView:SfTabItem.Content>
                         <ScrollView>
                             <StackLayout>
-                                <syncfusionList:SfListView Grid.Row="1" x:Name="lstMeanings" 
-                                                   ItemsSource="{Binding Persona.Paragraphs}" 
-                                                   AllowSwiping="True" AutoFitMode="DynamicHeight" >
-                                    <syncfusionList:SfListView.LayoutManager>
-                                        <syncfusionList:LinearLayout />
-                                    </syncfusionList:SfListView.LayoutManager>
-                                    <syncfusionList:SfListView.ItemTemplate>
-                                        <DataTemplate>
-                                            <ViewCell>
-                                                <ViewCell.View>
-                                                    <StackLayout>
-                                                        <syncfusionExpander:SfExpander>
-                                                            <syncfusionExpander:SfExpander.Header>
-                                                                <Grid>
-                                                                    <Label>
-                                                                        <Label.FormattedText>
-                                                                            <FormattedString>
-                                                                                <Span Text=" " />
-                                                                                <Span Text="{Binding Header2}" FontAttributes="Italic" FontSize="{OnIdiom Phone=15, Tablet=18}"/>
-                                                                            </FormattedString>
-                                                                        </Label.FormattedText>
-                                                                    </Label>
-                                                                </Grid>
-                                                            </syncfusionExpander:SfExpander.Header>
+                                <StackLayout x:Name="ParaContentsStack">
+                                </StackLayout>
 
-                                                            <syncfusionExpander:SfExpander.Content>
-                                                                <!--<ScrollView>-->
-                                                                <StackLayout>
-                                                                    <Label Text="{Binding Content}" />
-                                                                    
-                                                                    <!--Para3 Expander -->
-                                                                    <syncfusionList:SfListView x:Name="lstMeanings01" ItemsSource="{Binding Para3}" AllowSwiping="True" AutoFitMode="DynamicHeight" >
-                                                                        <syncfusionList:SfListView.LayoutManager>
-                                                                            <syncfusionList:LinearLayout />
-                                                                        </syncfusionList:SfListView.LayoutManager>
-                                                                        <syncfusionList:SfListView.ItemTemplate>
-                                                                            <DataTemplate>
-                                                                                <ViewCell>
-                                                                                    <ViewCell.View>
-                                                                                        <StackLayout>
-                                                                                            <syncfusionExpander:SfExpander>
-                                                                                                <syncfusionExpander:SfExpander.Header>
-                                                                                                    <Grid>
-                                                                                                        <Label>
-                                                                                                            <Label.FormattedText>
-                                                                                                                <FormattedString>
-                                                                                                                    <Span Text=" " />
-                                                                                                                    <Span Text="{Binding Header3}" FontAttributes="Italic" FontSize="{OnIdiom Phone=15, Tablet=18}"/>
-                                                                                                                </FormattedString>
-                                                                                                            </Label.FormattedText>
-                                                                                                        </Label>
-                                                                                                    </Grid>
-                                                                                                </syncfusionExpander:SfExpander.Header>
-                                                                                                <syncfusionExpander:SfExpander.Content>
-                                                                                                    <StackLayout>
-                                                                                                        <!--<Label Text="{Binding Content}" />-->
-                                                                                                    </StackLayout>
-                                                                                                </syncfusionExpander:SfExpander.Content>
-                                                                                            </syncfusionExpander:SfExpander>
-                                                                                        </StackLayout>
-                                                                                    </ViewCell.View>
-                                                                                </ViewCell>
-                                                                            </DataTemplate>
-                                                                        </syncfusionList:SfListView.ItemTemplate>
-                                                                    </syncfusionList:SfListView>
+                                <!--<Grid>
+                                    <sfGradient:SfGradientView >
+                                        <sfGradient:SfGradientView.BackgroundBrush>
+                                            <sfGradient:SfLinearGradientBrush>
+                                                <sfGradient:SfLinearGradientBrush.GradientStops>
+                                                    <sfGradient:SfGradientStop Color="#0eddeb" Offset="0.0" />
+                                                    <sfGradient:SfGradientStop Color="#006ed9" Offset="1" />
+                                                </sfGradient:SfLinearGradientBrush.GradientStops>
+                                            </sfGradient:SfLinearGradientBrush>
+                                        </sfGradient:SfGradientView.BackgroundBrush>
+                                    </sfGradient:SfGradientView>
+                                    <sfBorder:SfBorder BorderColor="Black" 
+											   BorderWidth="1" VerticalOptions="Center">
+                                        <StackLayout Padding="10,0,7,0">
+                                            <StackLayout.VerticalOptions>
+                                                <OnPlatform x:TypeArguments="LayoutOptions">
+                                                    <On Platform="macOS" Value="CenterAndExpand"/>
+                                                </OnPlatform>
+                                            </StackLayout.VerticalOptions>
+                                            <Label Text="Header Header Header" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
+                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
+                                            <Label Text="Sub Header 1" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
+                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
+                                        </StackLayout>
+                                    </sfBorder:SfBorder>
+                                </Grid>
 
-                                                                </StackLayout>
-                                                                <!--</ScrollView>-->
-                                                            </syncfusionExpander:SfExpander.Content>
-                                                        </syncfusionExpander:SfExpander>
-                                                    </StackLayout>
-                                                </ViewCell.View>
-                                            </ViewCell>
-                                        </DataTemplate>
-                                    </syncfusionList:SfListView.ItemTemplate>
+                                <Grid>
+                                    <sfGradient:SfGradientView >
+                                        <sfGradient:SfGradientView.BackgroundBrush>
+                                            <sfGradient:SfLinearGradientBrush>
+                                                <sfGradient:SfLinearGradientBrush.GradientStops>
+                                                    <sfGradient:SfGradientStop Color="#0eddeb" Offset="0.0" />
+                                                    <sfGradient:SfGradientStop Color="#006ed9" Offset="1" />
+                                                </sfGradient:SfLinearGradientBrush.GradientStops>
+                                            </sfGradient:SfLinearGradientBrush>
+                                        </sfGradient:SfGradientView.BackgroundBrush>
+                                    </sfGradient:SfGradientView>
+                                    <sfBorder:SfBorder BorderColor="Black" 
+											   BorderWidth="1" VerticalOptions="Center">
+                                        <StackLayout Padding="10,0,7,0">
+                                            <StackLayout.VerticalOptions>
+                                                <OnPlatform x:TypeArguments="LayoutOptions">
+                                                    <On Platform="macOS" Value="CenterAndExpand"/>
+                                                </OnPlatform>
+                                            </StackLayout.VerticalOptions>
+                                            <Label Text="Header Header Header" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
+                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
+                                            <Label Text="Sub Header 1" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
+                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
+                                        </StackLayout>
+                                    </sfBorder:SfBorder>
+                                </Grid>
 
-                                </syncfusionList:SfListView>
+                                <Grid>
+                                    <sfGradient:SfGradientView >
+                                        <sfGradient:SfGradientView.BackgroundBrush>
+                                            <sfGradient:SfLinearGradientBrush>
+                                                <sfGradient:SfLinearGradientBrush.GradientStops>
+                                                    <sfGradient:SfGradientStop Color="#0eddeb" Offset="0.0" />
+                                                    <sfGradient:SfGradientStop Color="#006ed9" Offset="1" />
+                                                </sfGradient:SfLinearGradientBrush.GradientStops>
+                                            </sfGradient:SfLinearGradientBrush>
+                                        </sfGradient:SfGradientView.BackgroundBrush>
+                                    </sfGradient:SfGradientView>
+                                    <sfBorder:SfBorder BorderColor="Black" 
+											   BorderWidth="1" VerticalOptions="Center">
+                                        <StackLayout Padding="10,0,7,0">
+                                            <StackLayout.VerticalOptions>
+                                                <OnPlatform x:TypeArguments="LayoutOptions">
+                                                    <On Platform="macOS" Value="CenterAndExpand"/>
+                                                </OnPlatform>
+                                            </StackLayout.VerticalOptions>
+                                            <Label Text="Header Header Header" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
+                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
+                                            <Label Text="Sub Header 1" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
+                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
+                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
+                                        </StackLayout>
+                                    </sfBorder:SfBorder>
+                                </Grid>-->
                             </StackLayout>
                         </ScrollView>
+                        <!--<ScrollView>-->
+                        <!--<StackLayout x:Name="ParaContentsStack">
+                            </StackLayout>-->
+                        <!--</ScrollView>-->
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
             </tabView:SfTabView>

@@ -21,8 +21,9 @@ namespace GeneralInformation.ViewModels
         }
 
         public bool ArePicturesAvailable => Persona.Pictures.Any();
-        public bool IsPrimaryPictureAvailable => Persona.PicturePrimaryPath.HasValue();
+        public bool IsPrimaryPictureAvailable => Persona != null && Persona.PicturePrimaryPath.HasValue();
 
+        public bool IsMetaDataAvailable => Persona != null && Persona.Metadatas.Any();
 
         private string _currentSelectedPictureCaption;
         public string CurrentSelectedPictureCaption

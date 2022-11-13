@@ -66,13 +66,14 @@ namespace WikiExtractor.Process
                 if (metadatas.FirstOrDefault()!.TypeByEnum == MetadataType.PrimaryHeader &&
                     metadatas.FirstOrDefault()!.Value.HasValue())
                 {
-                    persona.Metadatas.Add(new MetadataViewModel
-                    {
-                        GroupHeader = "",
-                        Key = "",
-                        Description = metadatas.FirstOrDefault()!.Value,
-                        Sequence = metadatas.FirstOrDefault()!.Sequence
-                    });
+                    persona.NameSubstitue = metadatas.FirstOrDefault()!.Value;
+                    //persona.Metadatas.Add(new MetadataViewModel
+                    //{
+                    //    GroupHeader = "",
+                    //    Key = "",
+                    //    Description = metadatas.FirstOrDefault()!.Value,
+                    //    Sequence = metadatas.FirstOrDefault()!.Sequence
+                    //});
                 }
 
                 string currentGroup = "";

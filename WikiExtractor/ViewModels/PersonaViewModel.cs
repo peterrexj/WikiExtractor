@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WikiExtractor.DbModels;
 
 namespace WikiExtractor.ViewModels
 {
@@ -11,8 +12,11 @@ namespace WikiExtractor.ViewModels
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public string NameSubstitue { get; set; }
+        public string NameSubstitueFormatted => NameSubstitue.HasValue() ? $"{Environment.NewLine}({NameSubstitue})" : string.Empty;
         public string WikiPath { get; set; }
         public string MainContent { get; set; }
+        
         public string PicturePrimaryPath { get; set; }
         public string PicturePrimaryCaption { get; set; }
         public List<MetadataViewModel> Metadatas { get; set; }
