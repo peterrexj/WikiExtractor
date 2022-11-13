@@ -2,4 +2,4 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-[assembly: ExportFont("calibri.ttf", Alias = "Calibri")]
+//[assembly: ExportFont("OpenSans-Regular.ttf", Alias = "OpenSans")]

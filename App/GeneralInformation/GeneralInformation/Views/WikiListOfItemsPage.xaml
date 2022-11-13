@@ -136,6 +136,7 @@
                                                 <Label Text="{Binding Name}" 
                                                        TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
                                                        Padding="0,0,3,0"
+                                                       FontFamily="OpenSans"
                                                        FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
                                                 <Label Grid.Row="1" TextColor="Black" LineBreakMode="WordWrap" MaxLines="7" 
                                                        Padding="0,0,3,0" 
