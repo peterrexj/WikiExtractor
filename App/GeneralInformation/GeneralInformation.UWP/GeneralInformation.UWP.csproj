@@ -166,6 +166,9 @@
     <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete">
       <Version>20.3.0.52</Version>
     </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator">
+      <Version>20.3.0.52</Version>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfCarousel">
       <Version>20.3.0.52</Version>
     </PackageReference>

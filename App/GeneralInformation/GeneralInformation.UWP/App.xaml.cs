@@ -18,6 +18,7 @@ using Windows.UI.Xaml.Navigation;
 using Windows.Storage;
 using GeneralInformation.UWP.DeviceDependencyImpl;
 using System.Reflection;
+using Syncfusion.SfBusyIndicator.XForms.UWP;
 
 namespace GeneralInformation.UWP
 {
@@ -66,6 +67,7 @@ namespace GeneralInformation.UWP
                 assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.EffectsView.SfEffectsViewRenderer).GetTypeInfo().Assembly);
                 assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.Border.SfBorderRenderer).GetTypeInfo().Assembly);
                 assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.Graphics.SfGradientViewRenderer).GetTypeInfo().Assembly);
+                assembliesToInclude.Add(typeof(SfBusyIndicatorRenderer).GetTypeInfo().Assembly);
 
                 // Create a Frame to act as the navigation context and navigate to the first page
                 rootFrame = new Frame();

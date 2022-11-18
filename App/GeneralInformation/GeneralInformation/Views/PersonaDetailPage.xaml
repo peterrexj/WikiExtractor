@@ -123,14 +123,14 @@
                                 <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.15*}, iOS={OnIdiom Phone=0.15*, Tablet=0.15*}, UWP={OnIdiom Desktop=0.15*, Phone=0.15*, Tablet=0.15*}, macOS=0.15*, WPF=auto}" />
                             </Grid.RowDefinitions>
 
-                            <carousel:SfCarousel Grid.Row="0" x:Name="carousel"  
+                            <carousel:SfCarousel Grid.Row="0" x:Name="carousel"
                                  ItemsSource="{Binding Persona.Pictures}" 
                                  BackgroundColor="Transparent"
-                                 ItemSpacing="10"
+                                 ItemSpacing="15"
                                  SelectionChanged="carousel_SelectionChanged">
                                 <carousel:SfCarousel.ItemTemplate>
                                     <DataTemplate>
-                                        <Image Source="{Binding PicturePath}" Aspect="AspectFit"/>
+                                        <Image Source="{Binding PicturePath}" Aspect="AspectFill"/>
                                     </DataTemplate>
                                 </carousel:SfCarousel.ItemTemplate>
                             </carousel:SfCarousel>

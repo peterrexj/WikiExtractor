@@ -4,6 +4,7 @@
              xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
              xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:sfBusyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
     	     xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
              xmlns:syncAutoComplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
              x:Class="GeneralInformation.Views.WikiListOfItemsPage"
@@ -119,13 +120,20 @@
                                                 <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.75*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
                                             </Grid.ColumnDefinitions>
 
-                                            <!--<sfBorder:SfBorder BorderColor="#909497" BorderThickness="1" CornerRadius="2">-->
-
-                                            <Image Source="{Binding PicturePrimaryPath}" Margin="5,0,0,0"
+                                            <StackLayout Grid.Column="0">
+                                                <!--<sfBorder:SfBorder BorderColor="#909497" BorderThickness="1" CornerRadius="2">-->
+                                                <Image x:Name="imgList" Source="{Binding PicturePrimaryPath}" Margin="5,0,0,0"
                                                    HorizontalOptions="FillAndExpand" 
                                                    VerticalOptions="FillAndExpand" 
                                                        HeightRequest="130" WidthRequest="120" Aspect="AspectFit"/>
-                                            <!--</sfBorder:SfBorder>-->
+                                                <!--<ActivityIndicator BindingContext="{x:Reference imgList}" IsRunning="{Binding IsLoading}" />-->
+                                                <sfBusyindicator:SfBusyIndicator x:Name="busyindicator" AnimationType="Globe" 
+                                                                                 ViewBoxWidth = "40" 
+                                                                                 ViewBoxHeight="40" 
+                                                                                 BindingContext="{x:Reference imgList}"
+                                                                                 IsBusy="{Binding IsLoading}"/>
+                                                <!--</sfBorder:SfBorder>-->
+                                            </StackLayout>
 
                                             <StackLayout Grid.Column="1" Padding="10,0,0,0">
                                                 <StackLayout.VerticalOptions>

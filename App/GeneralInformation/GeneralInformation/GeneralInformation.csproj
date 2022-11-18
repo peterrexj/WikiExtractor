@@ -51,6 +51,7 @@
 		<PackageReference Include="Syncfusion.Xamarin.Core" Version="20.3.0.52" />
 		<PackageReference Include="Syncfusion.Xamarin.Expander" Version="20.3.0.52" />
 		<PackageReference Include="Syncfusion.Xamarin.SfAutoComplete" Version="20.3.0.52" />
+		<PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="20.3.0.52" />
 		<PackageReference Include="Syncfusion.Xamarin.SfCarousel" Version="20.3.0.52" />
 		<PackageReference Include="Syncfusion.Xamarin.SfListView" Version="20.3.0.52" />
 		<PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="20.3.0.52" />
