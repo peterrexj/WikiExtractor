@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WikiExtractor.Exts;
 using WikiExtractor.Models;
 using WikiExtractor.Repository;
 using WikiExtractor.ViewModels;
@@ -54,7 +55,7 @@ namespace WikiExtractor.Process
                 .Select(f => new PictureViewModel
                 {
                     PicturePath = f.Path,
-                    PictureCaption = f.Caption,
+                    PictureCaption = f.Caption.HasValue() && f.Caption.Length >= ConfigData.MinLengthOfPictureCaption ? f.Caption : string.Empty,
                     Sequence = f.Sequence
                 }));
 
@@ -179,7 +180,7 @@ namespace WikiExtractor.Process
                     Name = item.Name,
                     WikiPath = item.Route,
                     MainContent = primaryContent.FirstOrDefault(m => m.MasterId == item.Id)?.Content ?? "",
-                    PicturePrimaryPath = pictures.FirstOrDefault(m => m.MasterId == item.Id)?.Path ?? "",
+                    PicturePrimaryPath = pictures.FirstOrDefault(m => m.MasterId == item.Id)?.Path ?? "NoImageAvailable.png",
                     PicturePrimaryCaption = pictures.FirstOrDefault(m => m.MasterId == item.Id)?.Caption ?? ""
                 });
             }

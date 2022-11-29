@@ -63,7 +63,9 @@ namespace WikiExtractor.Exts
             {
                 image.Caption = HtmlAgilityEx.DecodedInnerText(GetValueMetaDataAttribute(model.CustomMetadata, "alt"), removeNewLine: true);
             }
-            if (image.Caption.HasValue() && image.Caption!.Contains("."))
+            if (image.Caption.HasValue() &&
+                image.Caption!.Contains(".") &&
+                image.Caption!.SplitAndTrim(".").Last()?.Length < 4)
             {
                 image.Caption = Path.GetFileNameWithoutExtension(image.Caption);
             }
