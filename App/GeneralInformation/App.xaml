@@ -10,40 +10,46 @@
     <Application.Resources>
         <ResourceDictionary>
             <!-- -->
-            <Color x:Key="PrimaryLight">White</Color>
-            <Color x:Key="PrimaryDark">Black</Color>
+            <Color x:Key="PrimaryLight">#F5F5F5</Color>
+            <Color x:Key="PrimaryDark">#202020</Color>
 
-            <Color x:Key="BackgroundLight">White</Color>
+            <Color x:Key="BackgroundLight">#F5F5F5</Color>
             <Color x:Key="BackgroundDark">#202020</Color>
 
-            <Color x:Key="TextForeLight">Black</Color>
-            <Color x:Key="TextForeDark">White</Color>
+            <Color x:Key="TextForeLight">#202020</Color>
+            <Color x:Key="TextForeDark">#F5F5F5</Color>
 
-            <Color x:Key="SearchTextDropBackLight">#707B7C</Color>
+            <Color x:Key="SearchTextDropBackLight">#A8A8A8</Color>
             <Color x:Key="SearchTextDropBackDark">#101010</Color>
-            
-            <Color x:Key="SearchTextDropHighlightBackLight">#707B7C</Color>
+
+            <Color x:Key="SearchTextDropHighlightBackLight">#943126</Color>
             <Color x:Key="SearchTextDropHighlightBackDark">#148F77</Color>
+
+            <Color x:Key="SearchTextWatermarkTextForeLight">#505050</Color>
+            <Color x:Key="SearchTextWatermarkTextForeDark">#707B7C</Color>
             
-            <Color x:Key="EachItemBackGradientStartLight">#707B7C</Color>
-            <Color x:Key="EachItemBackGradientEndLight">#707B7C</Color>
+            <Color x:Key="EachItemBackGradientStartLight">#C8C8C8</Color>
+            <Color x:Key="EachItemBackGradientEndLight">#F8F8F8</Color>
             <Color x:Key="EachItemBackGradientStartDark">#202020</Color>
             <Color x:Key="EachItemBackGradientEndDark">#101010</Color>
 
             <!--Personal -->
-            <Color x:Key="PersonalBannerGradient01Light">#707B7C</Color>
-            <Color x:Key="PersonalBannerGradient02Light">#707B7C</Color>
-            <Color x:Key="PersonalBannerGradient03Light">#707B7C</Color>
+            <Color x:Key="PersonalBannerGradient01Light">#A8A8A8</Color>
+            <Color x:Key="PersonalBannerGradient02Light">#F8F8F8</Color>
+            <Color x:Key="PersonalBannerGradient03Light">#A8A8A8</Color>
             <Color x:Key="PersonalBannerGradient01Dark">#202020</Color>
             <Color x:Key="PersonalBannerGradient02Dark">#404040</Color>
             <Color x:Key="PersonalBannerGradient03Dark">#101010</Color>
 
             <Color x:Key="TabBackColorApplyLight">#181818</Color>
             <Color x:Key="TabBackColorApplyDark">#F4F6F7</Color>
-            
-            
-            
-            
+
+            <Color x:Key="BasicInfoItemBackgroundLight">#C8C8C8</Color>
+            <Color x:Key="BasicInfoItemBackgroundDark">#303030</Color>
+
+            <Color x:Key="PictureCaptionBackgroundLight">#C8C8C8</Color>
+            <Color x:Key="PictureCaptionBackgroundDark">#181818</Color>
+
 
             <Style x:Key="sfTabEffectsViewHeaderStyle" TargetType="syncEffectsView:SfEffectsView">
                 <!--<Setter Property="HeightRequest" Value="40" />-->
@@ -58,27 +64,6 @@
                 <Setter Property="BackgroundColor" Value="Transparent" />
                 <!--<Setter Property="HeightRequest" Value="40" />-->
                 <!--<Setter Property="WidthRequest" Value="97" />-->
-            </Style>
-            
-            <Style TargetType="Button">
-                <Setter Property="TextColor" Value="White"></Setter>
-                <Setter Property="VisualStateManager.VisualStateGroups">
-                    <VisualStateGroupList>
-                        <VisualStateGroup x:Name="CommonStates">
-                            <VisualState x:Name="Normal">
-                                <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{AppThemeBinding 
-                                      Dark={StaticResource PrimaryDark}, Light={StaticResource PrimaryLight}}" />
-                                </VisualState.Setters>
-                            </VisualState>
-                            <VisualState x:Name="Disabled">
-                                <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="#332196F3" />
-                                </VisualState.Setters>
-                            </VisualState>
-                        </VisualStateGroup>
-                    </VisualStateGroupList>
-                </Setter>
             </Style>
         </ResourceDictionary>        
     </Application.Resources>

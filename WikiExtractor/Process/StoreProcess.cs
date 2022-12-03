@@ -167,24 +167,24 @@ namespace WikiExtractor.Process
             StoreWikiPictures(wikiPageModel, metadatas, masterId);
             StoreParagraph(wikiPageModel, masterId);
 
-            var all = wikiDatabase.MasterRepository.GetAll().ToList();
-            var a01With = wikiDatabase.ParagraphHeader3Repository.GetAll().ToList();
-            var allMeta = wikiDatabase.MetadataRepository.GetAll();
-            var allMain = wikiDatabase.ParagraphPrimaryContentRepository.GetAll();
+            //var all = wikiDatabase.MasterRepository.GetAll().ToList();
+            //var a01With = wikiDatabase.ParagraphHeader3Repository.GetAll().ToList();
+            //var allMeta = wikiDatabase.MetadataRepository.GetAll();
+            //var allMain = wikiDatabase.ParagraphPrimaryContentRepository.GetAll();
 
-            if (allMeta.Count() != metadatas.Count)
-            {
-                var except = metadatas.Where(f => !allMeta.Any(a => a.Key == f.Name && a.Value == f.Description && a.Type == f.Type.ToString() && a.Sequence == f.Sequence)).ToList();
-            }
+            //if (allMeta.Count() != metadatas.Count)
+            //{
+            //    var except = metadatas.Where(f => !allMeta.Any(a => a.Key == f.Name && a.Value == f.Description && a.Type == f.Type.ToString() && a.Sequence == f.Sequence)).ToList();
+            //}
 
-            var allHeader = wikiDatabase.ParagraphHeader2Repository.GetAll().ToList();
-            var allSubHeader = wikiDatabase.ParagraphHeader3Repository.GetAll().ToList();
-            var allContent = wikiDatabase.ParagraphContentRepository.GetAll().ToList();
+            //var allHeader = wikiDatabase.ParagraphHeader2Repository.GetAll().ToList();
+            //var allSubHeader = wikiDatabase.ParagraphHeader3Repository.GetAll().ToList();
+            //var allContent = wikiDatabase.ParagraphContentRepository.GetAll().ToList();
 
-            var allRawList = metadatas.Where(f => f.Type == MetadataType.Image).Select(s => s.ToImageDbModel()).Select(s => s.Path)
-                .Union(wikiPageModel.WikiPictureCollection.Select(s => s.ToImageDbModel()).Select(s => s.Path))
-                .ToList();
-            var allImages = wikiDatabase.WikiPictureRepository.GetAll().ToList();
+            //var allRawList = metadatas.Where(f => f.Type == MetadataType.Image).Select(s => s.ToImageDbModel()).Select(s => s.Path)
+            //    .Union(wikiPageModel.WikiPictureCollection.Select(s => s.ToImageDbModel()).Select(s => s.Path))
+            //    .ToList();
+            //var allImages = wikiDatabase.WikiPictureRepository.GetAll().ToList();
 
             return masterId;
         }

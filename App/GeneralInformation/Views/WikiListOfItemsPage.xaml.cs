@@ -51,7 +51,7 @@ namespace GeneralInformation.Views
         {
             InitializeComponent();
             wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
-            var data = wikiAppController.GetListOfWikiItems(); //.Where(f => f.Name.StartsWith("Alb"));
+            var data = wikiAppController.GetListOfWikiItems();
 
             BindingContext = personaListViewModel = new PersonaListViewModel
             {

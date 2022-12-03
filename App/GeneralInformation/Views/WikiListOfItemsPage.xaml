@@ -80,6 +80,8 @@
                                              SuggestionMode="Contains"
                                              AutoCompleteMode="Suggest"
                                              ShowBorder="False"
+                                             WatermarkColor="{AppThemeBinding 
+                Dark={StaticResource SearchTextWatermarkTextForeDark}, Light={StaticResource SearchTextWatermarkTextForeLight}}"
                                              BackgroundColor="{AppThemeBinding 
                 Dark={StaticResource SearchTextDropBackDark}, Light={StaticResource SearchTextDropBackLight}}"
                                              DropDownBackgroundColor="{AppThemeBinding 

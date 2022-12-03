@@ -30,7 +30,7 @@ namespace GeneralInformation.ViewModels
         public bool IsPicturesAvailable => Persona.Pictures.Any();
         public bool IsPrimaryPictureAvailable => Persona != null && Persona.PicturePrimaryPath.HasValue();
         public bool IsMetaDataAvailable => Persona != null && Persona.Metadatas.Any();
-        public bool IsDetailsAvailable => Persona != null && Persona.Metadatas.Any();
+        public bool IsDetailsAvailable => Persona != null && Persona.Paragraphs.Any();
 
         private int? _availableCount;
         public int? AvailableTabCount 
