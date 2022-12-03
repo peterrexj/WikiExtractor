@@ -1,7 +1,10 @@
-﻿using GeneralInformation.Repository;
+﻿using GeneralInformation.Exts;
+using GeneralInformation.Repository;
+using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
 using Pj.Library;
 using Syncfusion.SfAutoComplete.XForms;
+using Syncfusion.SfCarousel.XForms;
 using Syncfusion.XForms.EffectsView;
 using System;
 using System.Collections.Generic;
@@ -21,6 +24,29 @@ namespace GeneralInformation.Views
         private readonly PersonaListViewModel personaListViewModel;
         private readonly WikiAppController wikiAppController;
 
+        //#region Back Press
+        //public static Action EmulateBackPressed;
+        //private bool AcceptBack;
+
+        //protected override bool OnBackButtonPressed()
+        //{
+        //    if (AcceptBack)
+        //        return false;
+
+        //    PromptForExit();
+        //    return true;
+        //}
+
+        //private async void PromptForExit()
+        //{
+        //    if (await DisplayAlert("", "Are you sure to exit?", "Yes", "No"))
+        //    {
+        //        AcceptBack = true;
+        //        EmulateBackPressed();
+        //    }
+        //}
+        //#endregion
+
         public WikiListOfItemsPage()
         {
             InitializeComponent();
@@ -32,6 +58,7 @@ namespace GeneralInformation.Views
                 Personas = data,
                 AutocompleteList = data.Select(f => new WikiExtractor.ViewModels.PersonaAutoCompleteModel { Id = f.Id, Name = f.Name })
             };
+            ThemeHelper.SetTheme();
         }
 
         private void autoComplete_SelectionChanged(object sender, Syncfusion.SfAutoComplete.XForms.SelectionChangedEventArgs e)

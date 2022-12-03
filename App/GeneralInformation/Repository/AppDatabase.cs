@@ -19,6 +19,7 @@ namespace GeneralInformation.Repository
         public ParagraphHeader3Repository ParagraphHeader3Repository { get; set; }
         public ParagraphContentRepository ParagraphContentRepository { get; set; }
         public WikiPictureRepository WikiPictureRepository { get; set; }
+        public PhoneSettingsRepository PhoneSettingsRepository { get; set; }
 
         public override void InitializeDatabase()
         {
@@ -29,10 +30,11 @@ namespace GeneralInformation.Repository
             ParagraphHeader3Repository = new ParagraphHeader3Repository(_dbHelper);
             ParagraphContentRepository = new ParagraphContentRepository(_dbHelper);
             WikiPictureRepository = new WikiPictureRepository(_dbHelper);
+            PhoneSettingsRepository = new PhoneSettingsRepository(_dbHelper);
 
             base.CollectRepository(MasterRepository, MetadataRepository, ParagraphPrimaryContentRepository,
                 ParagraphHeader2Repository, ParagraphHeader3Repository, ParagraphContentRepository,
-                WikiPictureRepository);
+                WikiPictureRepository, PhoneSettingsRepository);
 
             base.InitializeDatabase();
         }

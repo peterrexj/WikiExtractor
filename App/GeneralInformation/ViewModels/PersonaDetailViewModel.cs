@@ -9,6 +9,13 @@ namespace GeneralInformation.ViewModels
 {
     public class PersonaDetailViewModel : BaseViewModel
     {
+        public PersonaDetailViewModel()
+        {
+            selectedTabIndex = -1;
+        }
+        private int selectedTabIndex;
+        public int SelectedTabIndex { get => selectedTabIndex; set => SetProperty(ref selectedTabIndex, value); }
+
         private PersonaViewModel _persona;
         public PersonaViewModel Persona
         {

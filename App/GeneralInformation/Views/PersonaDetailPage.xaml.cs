@@ -1,6 +1,7 @@
 ﻿using GeneralInformation.Repository;
 using GeneralInformation.ViewModels;
 using Pj.Library;
+using Syncfusion.SfCarousel.XForms;
 using Syncfusion.XForms.Border;
 using Syncfusion.XForms.Expander;
 using Syncfusion.XForms.Graphics;
@@ -33,7 +34,7 @@ namespace GeneralInformation.Views
             BindingContext = personaDetailViewModel = new PersonaDetailViewModel();
         }
 
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
             base.OnAppearing();
             int.TryParse(MasterId, out var result);
@@ -48,6 +49,7 @@ namespace GeneralInformation.Views
             {
                 ParaContentsStack.Children.Add(RenderPara2ContentV2(para));
             }
+            await ApplyTabSelectionChangeEvent();
         }
 
         private Grid RenderPara2ContentV2(Paragraph2ContentViewModel paraContent)
@@ -239,6 +241,141 @@ namespace GeneralInformation.Views
             if (e != null && e.SelectedItem != null)
             {
                 personaDetailViewModel.CurrentSelectedPictureCaption = (e.SelectedItem as PictureViewModel).PictureCaption;
+            }
+        }
+        public void RunOnAppDispatcher(Action action)
+        {
+            try
+            {
+                App.Current.Dispatcher.BeginInvokeOnMainThread(() =>
+                {
+                    action();
+                });
+            }
+            catch (Exception ex)
+            {
+                
+            }
+        }
+
+        private async void btnTabBtn_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                personaDetailViewModel.IsBusy = true;
+                var tIndex = ((Syncfusion.XForms.Buttons.SfButton)sender).TabIndex;
+                var data = string.Empty;
+                if (tIndex == 100) data = "BasicInfo";
+                else if (tIndex == 101) data = "Pictures";
+                else if (tIndex == 102) data = "Details";
+                await ApplyTabSelectionChangeEvent(context: data);
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                personaDetailViewModel.IsBusy = false;
+            }
+        }
+
+        async Task ApplyTabSelectionChangeEvent(int selectedIndex = -1, string context = "")
+        {
+            await Task.Run(() =>
+            {
+                RunOnAppDispatcher(() =>
+                {
+                    try
+                    {
+                        if (selectedIndex == -1 && context.HasValue())
+                        {
+                            if (context == "BasicInfo") selectedIndex = 0;
+                            else if (context == "Pictures") selectedIndex = 1;
+                            else if (context == "Details") selectedIndex = 2;
+                            else selectedIndex = 0;
+
+                            tabView.SelectedIndex = selectedIndex;
+                            personaDetailViewModel.SelectedTabIndex = selectedIndex;
+                        }
+                        else if (personaDetailViewModel.SelectedTabIndex == -1)
+                        {
+                            personaDetailViewModel.SelectedTabIndex = 0;
+                        }
+                        else if (personaDetailViewModel.SelectedTabIndex != selectedIndex && selectedIndex != -1)
+                        {
+                            tabView.SelectedIndex = selectedIndex;
+                            personaDetailViewModel.SelectedTabIndex = selectedIndex;
+                        }
+
+                        var applyBackColor = Application.Current.UserAppTheme == OSAppTheme.Light ?
+                            (Color)Application.Current.Resources["TabBackColorApplyLight"] :
+                            (Color)Application.Current.Resources["TabBackColorApplyDark"];
+                        var removeBackColor = Application.Current.UserAppTheme == OSAppTheme.Light ?
+                            (Color)Application.Current.Resources["TabBackColorApplyDark"] :
+                            (Color)Application.Current.Resources["TabBackColorApplyLight"];
+                        var applyTextColor = Application.Current.UserAppTheme == OSAppTheme.Light ?
+                            (Color)Application.Current.Resources["TabBackColorApplyDark"] :
+                            (Color)Application.Current.Resources["TabBackColorApplyLight"];
+                        var removeTextColor = Application.Current.UserAppTheme == OSAppTheme.Light ?
+                            (Color)Application.Current.Resources["TabBackColorApplyLight"] :
+                            (Color)Application.Current.Resources["TabBackColorApplyDark"];
+
+
+                        Action<Syncfusion.XForms.Buttons.SfButton> applyStyle = (btn) =>
+                        {
+                            btn.BackgroundColor = applyBackColor;
+                            btn.TextColor = applyTextColor;
+                        };
+
+                        Action<Syncfusion.XForms.Buttons.SfButton> removeStyle = (btn) =>
+                        {
+                            btn.BackgroundColor = removeBackColor;
+                            btn.TextColor = removeTextColor;
+                        };
+
+                        if (personaDetailViewModel.SelectedTabIndex == 0)
+                        {
+                            applyStyle(btnTabBasicInfo);
+                            removeStyle(btnTabPicture);
+                            removeStyle(btnTabDetails);
+                        }
+                        else if (personaDetailViewModel.SelectedTabIndex == 1)
+                        {
+                            removeStyle(btnTabBasicInfo);
+                            applyStyle(btnTabPicture);
+                            removeStyle(btnTabDetails);
+                        }
+                        else if (personaDetailViewModel.SelectedTabIndex == 2)
+                        {
+                            removeStyle(btnTabBasicInfo);
+                            removeStyle(btnTabPicture);
+                            applyStyle(btnTabDetails);
+                        }
+                    }
+                    catch (Exception ex)
+                    { }
+                });
+            });
+
+        }
+
+        private async void tabView_SelectionChanged(object sender, Syncfusion.XForms.TabView.SelectionChangedEventArgs e)
+        {
+            try
+            {
+                personaDetailViewModel.IsBusy = true;
+                if (tabView.SelectedIndex != personaDetailViewModel.SelectedTabIndex)
+                {
+                    await ApplyTabSelectionChangeEvent(selectedIndex: tabView.SelectedIndex);
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            finally
+            {
+                personaDetailViewModel.IsBusy = false;
             }
         }
     }

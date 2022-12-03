@@ -3,18 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
-             xmlns:syncfusionExpander="clr-namespace:Syncfusion.XForms.Expander;assembly=Syncfusion.Expander.XForms"
-             xmlns:sfTreeView="clr-namespace:Syncfusion.XForms.TreeView;assembly=Syncfusion.SfTreeView.XForms"
-             xmlns:treeviewengine="clr-namespace:Syncfusion.TreeView.Engine;assembly=Syncfusion.SfTreeView.XForms"
-             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
              xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     	     xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
              xmlns:carousel="clr-namespace:Syncfusion.SfCarousel.XForms;assembly=Syncfusion.SfCarousel.XForms"
              x:Class="GeneralInformation.Views.PersonaDetailPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Frame Padding="4" MinimumHeightRequest="100" >
+        <StackLayout BackgroundColor="{AppThemeBinding 
+                                      Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}">
+            <Frame Padding="4" MinimumHeightRequest="100" BackgroundColor="Transparent" >
                 <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" TouchDownEffects="Ripple"
 												  CornerRadius="5" RippleAnimationDuration="300" >
 
@@ -27,9 +25,12 @@
                             <sfGradient:SfGradientView.BackgroundBrush>
                                 <sfGradient:SfLinearGradientBrush>
                                     <sfGradient:SfLinearGradientBrush.GradientStops>
-                                        <sfGradient:SfGradientStop Color="#283747" Offset="0.0" />
-                                        <sfGradient:SfGradientStop Color="#85929E" Offset="0.8" />
-                                        <sfGradient:SfGradientStop Color="#283747" Offset="1" />
+                                        <sfGradient:SfGradientStop Color="{AppThemeBinding 
+                Dark={StaticResource PersonalBannerGradient01Dark}, Light={StaticResource PersonalBannerGradient01Light}}" Offset="0.0" />
+                                        <sfGradient:SfGradientStop Color="{AppThemeBinding 
+                Dark={StaticResource PersonalBannerGradient02Dark}, Light={StaticResource PersonalBannerGradient02Light}}" Offset="0.6" />
+                                        <sfGradient:SfGradientStop Color="{AppThemeBinding 
+                Dark={StaticResource PersonalBannerGradient03Dark}, Light={StaticResource PersonalBannerGradient03Light}}" Offset="1" />
                                     </sfGradient:SfLinearGradientBrush.GradientStops>
                                 </sfGradient:SfLinearGradientBrush>
                             </sfGradient:SfGradientView.BackgroundBrush>
@@ -43,12 +44,14 @@
                                     <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.85*, Tablet=0.75*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
                                 </Grid.ColumnDefinitions>
 
-                                <Image Source="{Binding Persona.PicturePrimaryPath}" Grid.Column="1" Aspect="AspectFit" 
+                                <Image Source="{Binding Persona.PicturePrimaryPath}" Grid.Column="1" 
+                                       Aspect="AspectFit" 
                                        BackgroundColor="Transparent" HorizontalOptions="Start"/>
                                 <StackLayout Grid.Column="2" VerticalOptions="Center" >
                                     <Label LineBreakMode="WordWrap"  Padding="2,0,0,10" 
                                            VerticalTextAlignment="Center" HorizontalTextAlignment="Start"
-                                           TextColor="#85929E">
+                                           TextColor="{AppThemeBinding 
+                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}">
                                         <Label.FormattedText>
                                             <FormattedString>
                                                 <Span Text=" " />
@@ -73,17 +76,37 @@
                 VisibleHeaderCount="3" 
                                HorizontalOptions="FillAndExpand" 
                                VerticalOptions="FillAndExpand" DisplayMode="Text"
-                               TabHeight="40">
+                               TabHeight="40"
+                               SelectionChanged="tabView_SelectionChanged">
                 <tabView:SfTabView.SelectionIndicatorSettings>
                     <tabView:SelectionIndicatorSettings
-                        Color="#283747" 
+                        Color="{AppThemeBinding 
+                Dark={StaticResource PersonalBannerGradient01Dark}, Light={StaticResource PersonalBannerGradient01Light}}" 
                         Position="Fill" />
                 </tabView:SfTabView.SelectionIndicatorSettings>
-                <tabView:SfTabItem Title="Basic Info" x:Name="tabUsefulInfo" IsVisible="{Binding IsMetaDataAvailable}">
+                <tabView:SfTabItem x:Name="tabUsefulInfo" IsVisible="{Binding IsMetaDataAvailable}">
+                    <tabView:SfTabItem.HeaderContent>
+                        <Grid x:Name="gridHeaderTabUsefullInfo">
+                            <Grid.RowDefinitions>
+                                <!--<RowDefinition Height="50"/>-->
+                            </Grid.RowDefinitions>
+                            <sfEffectsView:SfEffectsView Grid.Row="0"
+                                                         WidthRequest="{Binding Source={x:Reference gridHeaderTabUsefullInfo}, Path=Width}"
+                                                         Style="{StaticResource sfTabEffectsViewHeaderStyle}">
+                                <buttons:SfButton x:Name="btnTabBasicInfo" 
+                                              Text="Basic Info" TabIndex="100"
+                                                  WidthRequest="{Binding x:Reference Pare}"
+                                                  HorizontalOptions="FillAndExpand"
+                                    Style="{StaticResource sfTabHeaderSytle}"
+                                                  Clicked="btnTabBtn_Clicked"/>
+                            </sfEffectsView:SfEffectsView>
+                        </Grid>
+                    </tabView:SfTabItem.HeaderContent>
                     <tabView:SfTabItem.Content>
                         <StackLayout>
                             <syncfusionList:SfListView x:Name="lstSaints" 
-                                BackgroundColor="Transparent"
+                                BackgroundColor="{AppThemeBinding 
+                                      Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}"
                                 ItemsSource="{Binding Persona.Metadatas}" 
                                                        SelectionMode="None"
                                                        
@@ -92,6 +115,8 @@
                                     <DataTemplate>
                                         <Frame Padding="1" 
                                             Margin="2,2,2,2"
+                                               BackgroundColor="{AppThemeBinding 
+                Dark={StaticResource PersonalBannerGradient01Dark}, Light={StaticResource PersonalBannerGradient01Light}}"
                                             HasShadow="{OnPlatform Android=true, iOS=false, UWP=true, WPF=true}">
                                             <Grid>
                                                 <Grid.ColumnDefinitions>
@@ -99,11 +124,17 @@
                                                     <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.75*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
                                                 </Grid.ColumnDefinitions>
 
-                                                <Label Text="{Binding Key}" Grid.Column="0" TextColor="Black" LineBreakMode="WordWrap" 
+                                                <Label Text="{Binding Key}" Grid.Column="0" 
+                                                       TextColor="{AppThemeBinding 
+                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
+                                                       LineBreakMode="WordWrap" 
                                                    Padding="5,0,0,0" VerticalTextAlignment="Center"
                                                    FontAttributes="Bold"
                                                 FontSize="{OnPlatform Android={OnIdiom Phone=14, Tablet=20}, iOS={OnIdiom Phone=14, Tablet=20}, UWP={OnIdiom Phone=16, Tablet=20, Desktop=24}, macOS=22, WPF=26}" />
-                                                <Label Text="{Binding Description}" Grid.Column="1" TextColor="Black" LineBreakMode="WordWrap"
+                                                <Label Text="{Binding Description}" Grid.Column="1" 
+                                                       TextColor="{AppThemeBinding 
+                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
+                                                       LineBreakMode="WordWrap"
                                                    Padding="2,2,5,2" VerticalTextAlignment="Center"
                                                 FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=13}, iOS={OnIdiom Phone=12, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
 
@@ -115,24 +146,42 @@
                         </StackLayout>
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
-                <tabView:SfTabItem Title="{Binding PictureTitle}" x:Name="tabPictures" IsVisible="{Binding IsPicturesAvailable}">
+                <tabView:SfTabItem x:Name="tabPictures" 
+                                   IsVisible="{Binding IsPicturesAvailable}">
+                    <tabView:SfTabItem.HeaderContent>
+                        <Grid x:Name="gridHeaderTabPictures">
+                            <Grid.RowDefinitions>
+                                <!--<RowDefinition Height="50"/>-->
+                            </Grid.RowDefinitions>
+                            <sfEffectsView:SfEffectsView Grid.Row="0" 
+                                                         WidthRequest="{Binding Source={x:Reference gridHeaderTabPictures}, Path=Width}"
+                                                         Style="{StaticResource sfTabEffectsViewHeaderStyle}">
+                                <buttons:SfButton x:Name="btnTabPicture" 
+                                              Text="{Binding PictureTitle}" TabIndex="101"
+                                                  HorizontalOptions="FillAndExpand"
+                                    Style="{StaticResource sfTabHeaderSytle}"
+                                                  Clicked="btnTabBtn_Clicked"/>
+                            </sfEffectsView:SfEffectsView>
+                        </Grid>
+                    </tabView:SfTabItem.HeaderContent>
                     <tabView:SfTabItem.Content>
-                        <Grid>
+                        <Grid BackgroundColor="{AppThemeBinding 
+                Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="10" />
                                 <RowDefinition Height="*" />
-                                <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.15*}, iOS={OnIdiom Phone=0.15*, Tablet=0.15*}, UWP={OnIdiom Desktop=0.15*, Phone=0.15*, Tablet=0.15*}, macOS=0.15*, WPF=auto}" />
+                                <RowDefinition x:Name="rowImageInContainerGrid" Height="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.15*}, iOS={OnIdiom Phone=0.15*, Tablet=0.15*}, UWP={OnIdiom Desktop=0.15*, Phone=0.15*, Tablet=0.15*}, macOS=0.15*, WPF=auto}" />
                                 <RowDefinition Height="10" />
                             </Grid.RowDefinitions>
 
                             <carousel:SfCarousel Grid.Row="1" x:Name="carousel"
                                  ItemsSource="{Binding Persona.Pictures}" 
-                                 BackgroundColor="Transparent"
+                                 ItemHeight="{Binding Source={x:Reference rowImageInContainerGrid}, Path=Height}"
                                  ItemSpacing="15"
                                  SelectionChanged="carousel_SelectionChanged">
                                 <carousel:SfCarousel.ItemTemplate>
                                     <DataTemplate>
-                                        <Image Source="{Binding PicturePath}" Aspect="AspectFill"/>
+                                        <Image Source="{Binding PicturePath}" Aspect="AspectFit"/>
                                     </DataTemplate>
                                 </carousel:SfCarousel.ItemTemplate>
                             </carousel:SfCarousel>
@@ -150,10 +199,13 @@
                                     </sfGradient:SfGradientView.BackgroundBrush>
                                 </sfGradient:SfGradientView>
                                 <Label Text="{Binding CurrentSelectedPictureCaption}" 
-                                       TextColor="Black"
+                                       TextColor="{AppThemeBinding 
+                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
                                        HorizontalTextAlignment="Center" 
                                        Padding="8,5,8,2"
                                    FontAttributes="Bold"
+                                       BackgroundColor="{AppThemeBinding 
+                Dark={StaticResource TabBackColorApplyLight}, Light={StaticResource TabBackColorApplyDark}}"
                                    FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=16, Tablet=22}, UWP={OnIdiom Phone=14, Tablet=24, Desktop=24}, macOS=22, WPF=26}" />
                             </Grid>
                         </Grid>
@@ -161,6 +213,22 @@
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
                 <tabView:SfTabItem Title="Details" x:Name="tabDetailContent" IsVisible="{Binding IsDetailsAvailable}">
+                    <tabView:SfTabItem.HeaderContent>
+                        <Grid x:Name="gridHeaderTabDetails">
+                            <Grid.RowDefinitions>
+                                <!--<RowDefinition Height="50"/>-->
+                            </Grid.RowDefinitions>
+                            <sfEffectsView:SfEffectsView Grid.Row="0" 
+                                                         WidthRequest="{Binding Source={x:Reference gridHeaderTabDetails}, Path=Width}"
+                                                         Style="{StaticResource sfTabEffectsViewHeaderStyle}">
+                                <buttons:SfButton x:Name="btnTabDetails" 
+                                              Text="Details" TabIndex="102"
+                                                  HorizontalOptions="FillAndExpand"
+                                    Style="{StaticResource sfTabHeaderSytle}"
+                                                  Clicked="btnTabBtn_Clicked"/>
+                            </sfEffectsView:SfEffectsView>
+                        </Grid>
+                    </tabView:SfTabItem.HeaderContent>
                     <tabView:SfTabItem.Content>
                         <ScrollView>
                             <StackLayout>

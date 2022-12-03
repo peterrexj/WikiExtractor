@@ -13,6 +13,7 @@
 		<Compile Include="..\..\WikiExtractor\DbModels\ParagraphHeader2.cs" Link="Models\DbModels\ParagraphHeader2.cs" />
 		<Compile Include="..\..\WikiExtractor\DbModels\ParagraphHeader3.cs" Link="Models\DbModels\ParagraphHeader3.cs" />
 		<Compile Include="..\..\WikiExtractor\DbModels\ParagraphPrimaryContent.cs" Link="Models\DbModels\ParagraphPrimaryContent.cs" />
+		<Compile Include="..\..\WikiExtractor\DbModels\PhoneSettings.cs" Link="Models\DbModels\PhoneSettings.cs" />
 		<Compile Include="..\..\WikiExtractor\Exts\ConfigData.cs" Link="Exts\ConfigData.cs" />
 		<Compile Include="..\..\WikiExtractor\Exts\HelperHtml.cs" Link="Exts\HelperHtml.cs" />
 		<Compile Include="..\..\WikiExtractor\Exts\HtmlAgilityEx.cs" Link="Exts\HtmlAgilityEx.cs" />
@@ -37,6 +38,7 @@
 		<Compile Include="..\..\WikiExtractor\Repository\ParagraphHeader2Repository.cs" Link="Repository\ParagraphHeader2Repository.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\ParagraphHeader3Repository.cs" Link="Repository\ParagraphHeader3Repository.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\ParagraphPrimaryContentRepository.cs" Link="Repository\ParagraphPrimaryContentRepository.cs" />
+		<Compile Include="..\..\WikiExtractor\Repository\PhoneSettingsRepository.cs" Link="Repository\PhoneSettingsRepository.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\WikiPictureRepository.cs" Link="Repository\WikiPictureRepository.cs" />
 		<Compile Include="..\..\WikiExtractor\ViewModels\PersonaViewModel.cs" Link="Models\ViewModels\PersonaViewModel.cs" />
 		<Compile Include="..\..\WikiExtractor\DbModels\Image.cs" Link="Models\DbModels\Image.cs" />
@@ -62,9 +64,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Models\DbModels\" />
 		<Folder Include="Models\ExtractModels\" />
-		<Folder Include="Exts\" />
 		<Folder Include="Models\ViewModels\" />
 		<Folder Include="Resources\" />
 		<Folder Include="WikiProcess\" />

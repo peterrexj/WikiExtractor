@@ -11,6 +11,7 @@ namespace WikiExtractor.Repository
         ParagraphHeader3Repository ParagraphHeader3Repository { get; set; }
         ParagraphPrimaryContentRepository ParagraphPrimaryContentRepository { get; set; }
         WikiPictureRepository WikiPictureRepository { get; set; }
+        PhoneSettingsRepository PhoneSettingsRepository { get; set; }
 
         void InitializeDatabase();
     }

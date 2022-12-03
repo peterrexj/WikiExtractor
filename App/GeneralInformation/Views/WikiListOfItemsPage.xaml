@@ -10,7 +10,8 @@
              x:Class="GeneralInformation.Views.WikiListOfItemsPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Padding="5" Spacing="10">
+        <StackLayout Orientation="Vertical" Padding="5" Spacing="10" BackgroundColor="{AppThemeBinding 
+                                      Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}">
             <!--<Grid>
                 <sfGradient:SfGradientView >
                     <sfGradient:SfGradientView.BackgroundBrush>
@@ -70,23 +71,37 @@
                 </syncfusionExpander:SfExpander.Content>
             </syncfusionExpander:SfExpander>-->
 
-            <syncAutoComplete:SfAutoComplete x:Name="autoComplete" DataSource="{Binding AutocompleteList}"  DisplayMemberPath="Name"
+            <syncAutoComplete:SfAutoComplete x:Name="autoComplete" DataSource="{Binding AutocompleteList}"  
+                                             DisplayMemberPath="Name"
                                              HeightRequest="40"
                                              TextHighlightMode="MultipleOccurrence"
                                              Watermark="Enter here to search"
                                              IgnoreDiacritic="False"
                                              SuggestionMode="Contains"
                                              AutoCompleteMode="Suggest"
-                                             HighlightedTextColor="Green"
                                              ShowBorder="False"
-                                             TextColor="Black"
+                                             BackgroundColor="{AppThemeBinding 
+                Dark={StaticResource SearchTextDropBackDark}, Light={StaticResource SearchTextDropBackLight}}"
+                                             DropDownBackgroundColor="{AppThemeBinding 
+                Dark={StaticResource SearchTextDropBackDark}, Light={StaticResource SearchTextDropBackLight}}"
+                                             HighlightedTextColor="{AppThemeBinding 
+                Dark={StaticResource SearchTextDropHighlightBackDark}, Light={StaticResource SearchTextDropHighlightBackLight}}"
+                                             TextColor="{AppThemeBinding 
+                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
+                                             DropDownTextColor="{AppThemeBinding 
+                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
                                              HighlightedTextFontAttributes="Bold"
+                                             ClearButtonColor="{AppThemeBinding 
+                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
+                                             NoResultsFoundTextColor="{AppThemeBinding 
+                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
                                              MaximumSuggestion="10"
-                                             LoadMoreText="More Options"
+                                             LoadMoreText=" Tap to load"
                                              NoResultsFoundText="No Results Found"
                                              SelectionChanged="autoComplete_SelectionChanged"
                                              Completed="autoComplete_Completed"
                                              ShowClearButton="True"
+                                             
                                              />
             <syncfusionList:SfListView x:Name="lstSaints" 
                                        BackgroundColor="Transparent"
@@ -97,20 +112,23 @@
                     <DataTemplate>
                         <ViewCell>
                             <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" TouchDownEffects="Ripple" WidthRequest="344" 
-												 Margin="0,0,0,10" CornerRadius="5" RippleAnimationDuration="300"
-                                                         AutomationId="{Binding Id}"
-                                                         AnimationCompleted="lstItemEffectsView_AnimationCompleted">
+												Margin="0,0,0,10" CornerRadius="5" RippleAnimationDuration="300"
+                                                AutomationId="{Binding Id}"
+                                                
+                                                AnimationCompleted="lstItemEffectsView_AnimationCompleted">
                                 <sfEffectsView:SfEffectsView.HeightRequest>
                                     <OnIdiom x:TypeArguments="x:Double" Desktop="128" Tablet="128" Phone="148"/>
                                 </sfEffectsView:SfEffectsView.HeightRequest>
 
-                                <Grid>
+                                <Grid >
                                     <sfGradient:SfGradientView >
                                         <sfGradient:SfGradientView.BackgroundBrush>
                                             <sfGradient:SfLinearGradientBrush>
                                                 <sfGradient:SfLinearGradientBrush.GradientStops>
-                                                    <sfGradient:SfGradientStop Color="#E5E7E9" Offset="0.0" />
-                                                    <sfGradient:SfGradientStop Color="#CACFD2" Offset="1" />
+                                                    <sfGradient:SfGradientStop Color="{AppThemeBinding 
+                Dark={StaticResource EachItemBackGradientStartDark}, Light={StaticResource EachItemBackGradientStartLight}}" Offset="0.0" />
+                                                    <sfGradient:SfGradientStop Color="{AppThemeBinding 
+                Dark={StaticResource EachItemBackGradientEndDark}, Light={StaticResource EachItemBackGradientEndLight}}" Offset="1" />
                                                 </sfGradient:SfLinearGradientBrush.GradientStops>
                                             </sfGradient:SfLinearGradientBrush>
                                         </sfGradient:SfGradientView.BackgroundBrush>
@@ -145,11 +163,15 @@
                                                     </OnPlatform>
                                                 </StackLayout.VerticalOptions>
                                                 <Label Text="{Binding Name}" 
-                                                       TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
+                                                       TextColor="{AppThemeBinding 
+                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
+                                                       LineBreakMode="WordWrap" FontAttributes="Bold"
                                                        Padding="0,0,3,0"
                                                        FontFamily="OpenSans"
                                                        FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
-                                                <Label Grid.Row="1" TextColor="Black" LineBreakMode="WordWrap" MaxLines="7" 
+                                                <Label Grid.Row="1" TextColor="{AppThemeBinding 
+                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
+                                                       LineBreakMode="WordWrap" MaxLines="4" 
                                                        Padding="0,0,3,0" 
                                                        Text="{Binding MainContent}" FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
                                             </StackLayout>

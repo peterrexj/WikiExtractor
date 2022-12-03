@@ -40,8 +40,8 @@ foreach (var saints in listOfSaints)
     try
     {
         extractProcess.PersonaSinglePageContentExtractWithSaveToStore(saints.Value, saints.Key);
-        Console.WriteLine($"[{currentIndex}/{totalCount}] Saints [{saints.Key}]: {saints.Value}");
-        Thread.Sleep(1000);
+        Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Saints [{saints.Key}]: {saints.Value}");
+        //Thread.Sleep(1000);
         currentIndex = currentIndex + 1;
     }
     catch (Exception ex)
@@ -62,6 +62,6 @@ foreach (var saints in listOfSaints)
 ////var tt = appCtrl.GetViewModel("/wiki/Pope_John_Paul_II");
 
 
-//int u = 0;
+int u = 0;
 
 
