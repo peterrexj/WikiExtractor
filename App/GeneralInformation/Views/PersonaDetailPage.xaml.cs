@@ -57,13 +57,23 @@ namespace GeneralInformation.Views
             var mainGrid = new Grid();
 
             var sfGradient = new SfGradientView();
+            
+
+            var grStart = new SfGradientStop();
+            grStart.Offset = 0.0;
+            grStart.SetAppThemeColor(SfGradientStop.ColorProperty,
+                (Color)App.Current.Resources["DetailContentBackgroundColorGradientStartLight"],
+                (Color)App.Current.Resources["DetailContentBackgroundColorGradientStartDark"]);
+
+            var grStop = new SfGradientStop();
+            grStop.Offset = 0.8;
+            grStop.SetAppThemeColor(SfGradientStop.ColorProperty,
+                (Color)App.Current.Resources["DetailContentBackgroundColorGradientEndLight"],
+                (Color)App.Current.Resources["DetailContentBackgroundColorGradientEndDark"]);
+
             sfGradient.BackgroundBrush = new SfLinearGradientBrush
             {
-                GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection()
-                {
-                    new SfGradientStop { Color = Color.FromHex("#F2F3F4"), Offset = 0.0 },
-                    new SfGradientStop { Color = Color.FromHex("#E5E7E9"), Offset = 1 },
-                }
+                GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection() { grStart, grStop }
             };
 
             var stackLayout = new StackLayout
@@ -73,166 +83,149 @@ namespace GeneralInformation.Views
             };
             if (paraContent.Content.HasValue())
             {
-                var lblMainHeader = new Label
-                {
-                    Text = paraContent.Header2,
-                    TextColor = Color.Black,
-                    LineBreakMode = LineBreakMode.WordWrap,
-                    FontAttributes = FontAttributes.Bold,
-                    FontSize = 18
-                };
-
-                var lblMainContent = new Label
-                {
-                    Text = paraContent.Content,
-                    TextColor = Color.Black,
-                    LineBreakMode = LineBreakMode.WordWrap,
-                    FontSize = 13,
-                    Padding = new Thickness(0, 0, 0, 4),
-                };
-
-                stackLayout.Children.Add(lblMainHeader);
-                stackLayout.Children.Add(lblMainContent);
+                stackLayout.Children.Add(RenderHeaderLabel(paraContent.Header2, 20));
+                stackLayout.Children.Add(RenderContentLabel(paraContent.Content, 14));
             }
 
             if (paraContent.Para3s != null && paraContent.Para3s.Any())
             {
                 foreach (var p3 in paraContent.Para3s)
                 {
-                    var lblSubHeader = new Label
-                    {
-                        Text = p3.Header3,
-                        TextColor = Color.Black,
-                        LineBreakMode = LineBreakMode.WordWrap,
-                        FontAttributes = FontAttributes.Bold,
-                        FontSize = 15
-                    };
-
-                    var lblSubContent = new Label
-                    {
-                        Text = p3.Content,
-                        TextColor = Color.Black,
-                        LineBreakMode = LineBreakMode.WordWrap,
-                        FontSize = 13,
-                        Padding = new Thickness(0, 0, 0, 4),
-                    };
-
-                    stackLayout.Children.Add(lblSubHeader);
-                    stackLayout.Children.Add(lblSubContent);
+                    stackLayout.Children.Add(RenderHeaderLabel(p3.Header3, 16));
+                    stackLayout.Children.Add(RenderContentLabel(p3.Content, 14));
                 }
             }
 
             mainGrid.Children.Add(sfGradient);
             mainGrid.Children.Add(stackLayout);
-            //lblMainContent.TextColor = txtColor;
-            //lblMainContent.Padding = new Thickness(10, 3, 0, 3);
-            //lblMainContent.LineHeight = 1.3;
-            //lblMainContent.FontSize = 15;
-            //lblMainContent.VerticalOptions = LayoutOptions.CenterAndExpand;
-            //lblMainContent.FormattedText = lblMainContentFormatString;
-
-            //if (paraContent.Content.HasValue())
-            //{
-            //    lblMainContentFormatString.Spans.Add(new Span
-            //    {
-            //        FontSize = 13,
-            //        Text = paraContent.Content
-            //    });
-            //}
-
             return mainGrid;
         }
-        private SfExpander RenderPara2Content(Paragraph2ContentViewModel paraContent)
+
+        private Label RenderHeaderLabel(string content, double fontSize)
         {
-            Color bgColor = Color.FromHex("#D1DBE1");
-            var txtColor = Color.FromHex("#495F6E");
-
-            var mainExpander = new SfExpander
+            var lbl = new Label
             {
-                HeaderIconPosition = IconPosition.End,
-                BackgroundColor = bgColor,
-                HeaderBackgroundColor = bgColor,
-                AnimationDuration = 10,
-                MinimumHeightRequest = 100,
-                IsExpanded = true
+                Text = content,
+                TextColor = Color.Black,
+                LineBreakMode = LineBreakMode.WordWrap,
+                FontAttributes = FontAttributes.Bold,
+                FontSize = fontSize
             };
-
-            var headerFrame = new Frame
-            {
-                Padding = new Thickness(4)
-            };
-
-            var headerLabel = new Label
-            {
-                TextColor = txtColor,
-                BackgroundColor = bgColor,
-                Text = paraContent.Header2,
-                FontSize = 16,
-                HorizontalTextAlignment = TextAlignment.Start,
-                VerticalOptions = LayoutOptions.Center,
-                Padding = new Thickness(10, 3, 0, 3)
-            };
-
-            headerFrame.Content = headerLabel;
-            mainExpander.Header = headerFrame;
-
-            //Content
-            var lblMainContentFormatString = new FormattedString();
-
-            if (paraContent.Content.HasValue())
-            {
-                lblMainContentFormatString.Spans.Add(new Span
-                {
-                    FontSize = 13,
-                    Text = paraContent.Content
-                });
-            }
-
-            if (paraContent.Para3s != null && paraContent.Para3s.Any())
-            {
-                foreach (var p3 in paraContent.Para3s)
-                {
-                    lblMainContentFormatString.Spans.Add(new Span { Text = Environment.NewLine });
-                    lblMainContentFormatString.Spans.Add(new Span
-                    {
-                        FontSize = 15,
-                        FontAttributes = FontAttributes.Bold,
-                        Text = p3.Header3
-                    });
-                    lblMainContentFormatString.Spans.Add(new Span { Text = Environment.NewLine });
-                    lblMainContentFormatString.Spans.Add(new Span
-                    {
-                        FontSize = 13,
-                        Text = p3.Content
-                    });
-                }
-            }
-
-            var lblMainContent = new Label();
-            lblMainContent.TextColor = txtColor;
-            lblMainContent.Padding = new Thickness(10, 3, 0, 3);
-            lblMainContent.LineHeight = 1.3;
-            lblMainContent.FontSize = 15;
-            lblMainContent.VerticalOptions = LayoutOptions.CenterAndExpand;
-            lblMainContent.FormattedText = lblMainContentFormatString;
-
-            var boxView = new BoxView
-            {
-                Color = bgColor,
-                CornerRadius = 2,
-            };
-
-            var contentGrid = new Grid();
-            contentGrid.BackgroundColor = bgColor;
-            contentGrid.Children.Add(boxView);
-            contentGrid.Children.Add(lblMainContent);
-
-            mainExpander.Content = contentGrid;
-
-
-
-            return mainExpander;
+            lbl.SetAppThemeColor(Label.TextColorProperty,
+                (Color)App.Current.Resources["DetailContentHeaderTextColorLight"],
+                (Color)App.Current.Resources["DetailContentHeaderTextColorDark"]);
+            return lbl;
         }
+
+        private Label RenderContentLabel(string content, double fontSize)
+        {
+            var lbl = new Label
+            {
+                Text = content,
+                TextColor = Color.Black,
+                LineBreakMode = LineBreakMode.WordWrap,
+                FontSize = fontSize,
+                Padding = new Thickness(0, 0, 0, 4),
+                CharacterSpacing = 0.8,
+            };
+            lbl.SetAppThemeColor(Label.TextColorProperty,
+                (Color)App.Current.Resources["DetailContentBodyTextColorLight"],
+                (Color)App.Current.Resources["DetailContentBodyTextColorDark"]);
+            return lbl;
+        }
+
+
+        //private SfExpander RenderPara2Content(Paragraph2ContentViewModel paraContent)
+        //{
+        //    Color bgColor = Color.FromHex("#D1DBE1");
+        //    var txtColor = Color.FromHex("#495F6E");
+
+        //    var mainExpander = new SfExpander
+        //    {
+        //        HeaderIconPosition = IconPosition.End,
+        //        BackgroundColor = bgColor,
+        //        HeaderBackgroundColor = bgColor,
+        //        AnimationDuration = 10,
+        //        MinimumHeightRequest = 100,
+        //        IsExpanded = true
+        //    };
+
+        //    var headerFrame = new Frame
+        //    {
+        //        Padding = new Thickness(4)
+        //    };
+
+        //    var headerLabel = new Label
+        //    {
+        //        TextColor = txtColor,
+        //        BackgroundColor = bgColor,
+        //        Text = paraContent.Header2,
+        //        FontSize = 16,
+        //        HorizontalTextAlignment = TextAlignment.Start,
+        //        VerticalOptions = LayoutOptions.Center,
+        //        Padding = new Thickness(10, 3, 0, 3)
+        //    };
+
+        //    headerFrame.Content = headerLabel;
+        //    mainExpander.Header = headerFrame;
+
+        //    //Content
+        //    var lblMainContentFormatString = new FormattedString();
+
+        //    if (paraContent.Content.HasValue())
+        //    {
+        //        lblMainContentFormatString.Spans.Add(new Span
+        //        {
+        //            FontSize = 13,
+        //            Text = paraContent.Content
+        //        });
+        //    }
+
+        //    if (paraContent.Para3s != null && paraContent.Para3s.Any())
+        //    {
+        //        foreach (var p3 in paraContent.Para3s)
+        //        {
+        //            lblMainContentFormatString.Spans.Add(new Span { Text = Environment.NewLine });
+        //            lblMainContentFormatString.Spans.Add(new Span
+        //            {
+        //                FontSize = 15,
+        //                FontAttributes = FontAttributes.Bold,
+        //                Text = p3.Header3
+        //            });
+        //            lblMainContentFormatString.Spans.Add(new Span { Text = Environment.NewLine });
+        //            lblMainContentFormatString.Spans.Add(new Span
+        //            {
+        //                FontSize = 13,
+        //                Text = p3.Content
+        //            });
+        //        }
+        //    }
+
+        //    var lblMainContent = new Label();
+        //    lblMainContent.TextColor = txtColor;
+        //    lblMainContent.Padding = new Thickness(10, 3, 0, 3);
+        //    lblMainContent.LineHeight = 1.3;
+        //    lblMainContent.FontSize = 15;
+        //    lblMainContent.VerticalOptions = LayoutOptions.CenterAndExpand;
+        //    lblMainContent.FormattedText = lblMainContentFormatString;
+
+        //    var boxView = new BoxView
+        //    {
+        //        Color = bgColor,
+        //        CornerRadius = 2,
+        //    };
+
+        //    var contentGrid = new Grid();
+        //    contentGrid.BackgroundColor = bgColor;
+        //    contentGrid.Children.Add(boxView);
+        //    contentGrid.Children.Add(lblMainContent);
+
+        //    mainExpander.Content = contentGrid;
+
+
+
+        //    return mainExpander;
+        //}
 
 
 

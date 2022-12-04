@@ -50,6 +50,15 @@
             <Color x:Key="PictureCaptionBackgroundLight">#C8C8C8</Color>
             <Color x:Key="PictureCaptionBackgroundDark">#181818</Color>
 
+            <Color x:Key="DetailContentBackgroundColorGradientStartLight">#F8F8F8</Color>
+            <Color x:Key="DetailContentBackgroundColorGradientEndLight">#C8C8C8</Color>
+            <Color x:Key="DetailContentBackgroundColorGradientStartDark">#303030</Color>
+            <Color x:Key="DetailContentBackgroundColorGradientEndDark">#181818</Color>
+            <Color x:Key="DetailContentBackgroundColorDark">#C8C8C8</Color>
+            <Color x:Key="DetailContentHeaderTextColorLight">#303030</Color>
+            <Color x:Key="DetailContentHeaderTextColorDark">#C8C8C8</Color>
+            <Color x:Key="DetailContentBodyTextColorLight">#303030</Color>
+            <Color x:Key="DetailContentBodyTextColorDark">#C8C8C8</Color>
 
             <Style x:Key="sfTabEffectsViewHeaderStyle" TargetType="syncEffectsView:SfEffectsView">
                 <!--<Setter Property="HeightRequest" Value="40" />-->
