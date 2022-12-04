@@ -12,13 +12,10 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}">
             <Frame Padding="4" MinimumHeightRequest="100" BackgroundColor="Transparent" >
-                <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" TouchDownEffects="Ripple"
-												  CornerRadius="5" RippleAnimationDuration="300" >
-
-                    <!--<sfEffectsView:SfEffectsView.HeightRequest>
-                        <OnIdiom x:TypeArguments="x:Double" Desktop="100" Tablet="50" Phone="50"/>
-                    </sfEffectsView:SfEffectsView.HeightRequest>-->
-
+                <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" 
+                                             TouchDownEffects="Ripple"
+                                             CornerRadius="5" 
+                                             RippleAnimationDuration="300" >
                     <Grid>
                         <sfGradient:SfGradientView >
                             <sfGradient:SfGradientView.BackgroundBrush>
@@ -75,9 +72,8 @@
                     TabHeight="40"
                     SelectionChanged="tabView_SelectionChanged">
                 <tabView:SfTabView.SelectionIndicatorSettings>
-                    <tabView:SelectionIndicatorSettings
-                        Color="{AppThemeBinding Dark={StaticResource PersonalBannerGradient01Dark}, Light={StaticResource PersonalBannerGradient01Light}}" 
-                        Position="Fill" />
+                    <tabView:SelectionIndicatorSettings Color="{AppThemeBinding Dark={StaticResource PersonalBannerGradient01Dark}, Light={StaticResource PersonalBannerGradient01Light}}" 
+                                                        Position="Fill" />
                 </tabView:SfTabView.SelectionIndicatorSettings>
                 <tabView:SfTabItem x:Name="tabUsefulInfo" IsVisible="{Binding IsMetaDataAvailable}">
                     <tabView:SfTabItem.HeaderContent>
@@ -192,9 +188,9 @@
                                                          WidthRequest="{Binding Source={x:Reference gridHeaderTabDetails}, Path=Width}"
                                                          Style="{StaticResource sfTabEffectsViewHeaderStyle}">
                                 <buttons:SfButton x:Name="btnTabDetails" 
-                                              Text="Details" TabIndex="102"
+                                                  Text="Details" TabIndex="102"
                                                   HorizontalOptions="FillAndExpand"
-                                    Style="{StaticResource sfTabHeaderSytle}"
+                                                  Style="{StaticResource sfTabHeaderSytle}"
                                                   Clicked="btnTabBtn_Clicked"/>
                             </sfEffectsView:SfEffectsView>
                         </Grid>
@@ -202,113 +198,12 @@
                     <tabView:SfTabItem.Content>
                         <ScrollView>
                             <StackLayout>
-                                <StackLayout x:Name="ParaContentsStack">
-                                </StackLayout>
-
-                                <!--<Grid>
-                                    <sfGradient:SfGradientView >
-                                        <sfGradient:SfGradientView.BackgroundBrush>
-                                            <sfGradient:SfLinearGradientBrush>
-                                                <sfGradient:SfLinearGradientBrush.GradientStops>
-                                                    <sfGradient:SfGradientStop Color="#0eddeb" Offset="0.0" />
-                                                    <sfGradient:SfGradientStop Color="#006ed9" Offset="1" />
-                                                </sfGradient:SfLinearGradientBrush.GradientStops>
-                                            </sfGradient:SfLinearGradientBrush>
-                                        </sfGradient:SfGradientView.BackgroundBrush>
-                                    </sfGradient:SfGradientView>
-                                    <sfBorder:SfBorder BorderColor="Black" 
-											   BorderWidth="1" VerticalOptions="Center">
-                                        <StackLayout Padding="10,0,7,0">
-                                            <StackLayout.VerticalOptions>
-                                                <OnPlatform x:TypeArguments="LayoutOptions">
-                                                    <On Platform="macOS" Value="CenterAndExpand"/>
-                                                </OnPlatform>
-                                            </StackLayout.VerticalOptions>
-                                            <Label Text="Header Header Header" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
-                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
-                                            <Label Text="Sub Header 1" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
-                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
-                                        </StackLayout>
-                                    </sfBorder:SfBorder>
-                                </Grid>
-
-                                <Grid>
-                                    <sfGradient:SfGradientView >
-                                        <sfGradient:SfGradientView.BackgroundBrush>
-                                            <sfGradient:SfLinearGradientBrush>
-                                                <sfGradient:SfLinearGradientBrush.GradientStops>
-                                                    <sfGradient:SfGradientStop Color="#0eddeb" Offset="0.0" />
-                                                    <sfGradient:SfGradientStop Color="#006ed9" Offset="1" />
-                                                </sfGradient:SfLinearGradientBrush.GradientStops>
-                                            </sfGradient:SfLinearGradientBrush>
-                                        </sfGradient:SfGradientView.BackgroundBrush>
-                                    </sfGradient:SfGradientView>
-                                    <sfBorder:SfBorder BorderColor="Black" 
-											   BorderWidth="1" VerticalOptions="Center">
-                                        <StackLayout Padding="10,0,7,0">
-                                            <StackLayout.VerticalOptions>
-                                                <OnPlatform x:TypeArguments="LayoutOptions">
-                                                    <On Platform="macOS" Value="CenterAndExpand"/>
-                                                </OnPlatform>
-                                            </StackLayout.VerticalOptions>
-                                            <Label Text="Header Header Header" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
-                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
-                                            <Label Text="Sub Header 1" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
-                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
-                                        </StackLayout>
-                                    </sfBorder:SfBorder>
-                                </Grid>
-
-                                <Grid>
-                                    <sfGradient:SfGradientView >
-                                        <sfGradient:SfGradientView.BackgroundBrush>
-                                            <sfGradient:SfLinearGradientBrush>
-                                                <sfGradient:SfLinearGradientBrush.GradientStops>
-                                                    <sfGradient:SfGradientStop Color="#0eddeb" Offset="0.0" />
-                                                    <sfGradient:SfGradientStop Color="#006ed9" Offset="1" />
-                                                </sfGradient:SfLinearGradientBrush.GradientStops>
-                                            </sfGradient:SfLinearGradientBrush>
-                                        </sfGradient:SfGradientView.BackgroundBrush>
-                                    </sfGradient:SfGradientView>
-                                    <sfBorder:SfBorder BorderColor="Black" 
-											   BorderWidth="1" VerticalOptions="Center">
-                                        <StackLayout Padding="10,0,7,0">
-                                            <StackLayout.VerticalOptions>
-                                                <OnPlatform x:TypeArguments="LayoutOptions">
-                                                    <On Platform="macOS" Value="CenterAndExpand"/>
-                                                </OnPlatform>
-                                            </StackLayout.VerticalOptions>
-                                            <Label Text="Header Header Header" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
-                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
-                                            <Label Text="Sub Header 1" TextColor="Black" LineBreakMode="WordWrap" FontAttributes="Bold"
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
-                                            <Label TextColor="Black" LineBreakMode="WordWrap" Text="The CornerRadius property is of type CornerRadius; the property can be set to a single double uniform corner radius value, or a CornerRadius structure defined by four double values that are applied to the top left, top right, bottom left, and bottom right of the BoxView. The WidthRequest and HeightRequest properties only play a role if the BoxView is unconstrained in layout. This is the case when the layout container needs to know the child's size, for example, when the BoxView is a child of an auto-sized cell in the Grid layout. A BoxView is also unconstrained when its HorizontalOptions and VerticalOptions properties are set to values other than LayoutOptions.Fill. If the BoxView is unconstrained, but the WidthRequest and HeightRequest properties are not set, then the width or height are set to default values of 40 units, or about 1/4 inch on mobile devices."
-                                           FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
-                                        </StackLayout>
-                                    </sfBorder:SfBorder>
-                                </Grid>-->
+                                <StackLayout x:Name="ParaContentsStack" />
                             </StackLayout>
                         </ScrollView>
-                        <!--<ScrollView>-->
-                        <!--<StackLayout x:Name="ParaContentsStack">
-                            </StackLayout>-->
-                        <!--</ScrollView>-->
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
             </tabView:SfTabView>
-
-
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
