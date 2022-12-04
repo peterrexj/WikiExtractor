@@ -74,6 +74,35 @@
                 <!--<Setter Property="HeightRequest" Value="40" />-->
                 <!--<Setter Property="WidthRequest" Value="97" />-->
             </Style>
+
+
+            <Style x:Key="DetailsTabHeaderText" TargetType="Label">
+                <Setter Property="LineBreakMode" Value="WordWrap" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource DetailContentHeaderTextColorDark}, Light={StaticResource DetailContentHeaderTextColorLight}}" />
+                <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=20, Tablet=26}, iOS={OnIdiom Phone=20, Tablet=26}, UWP={OnIdiom Phone=20, Tablet=26, Desktop=26}, macOS=26, WPF=26}" />
+            </Style>
+            <Style x:Key="DetailsTabSubHeaderText" TargetType="Label">
+                <Setter Property="LineBreakMode" Value="WordWrap" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource DetailContentHeaderTextColorDark}, Light={StaticResource DetailContentHeaderTextColorLight}}" />
+                <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=16, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=22, Desktop=22}, macOS=22, WPF=22}" />
+            </Style>
+            <Style x:Key="DetailsTabContentText" TargetType="Label">
+                <Setter Property="LineBreakMode" Value="WordWrap" />
+                <Setter Property="Padding" Value="0, 0, 0, 4" />
+                <Setter Property="CharacterSpacing" Value="{OnPlatform Android={OnIdiom Phone=0.3, Tablet=0.4}, iOS={OnIdiom Phone=0.3, Tablet=0.4}, UWP={OnIdiom Phone=0.3, Tablet=0.4, Desktop=0.4}, macOS=0.4, WPF=0.4}" />
+                <Setter Property="LineHeight" Value="{OnPlatform Android={OnIdiom Phone=1.1, Tablet=1.2}, iOS={OnIdiom Phone=1, Tablet=1.2}, UWP={OnIdiom Phone=1, Tablet=1.2, Desktop=1.2}, macOS=1.2, WPF=1.2}" />
+                <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource DetailContentBodyTextColorDark}, Light={StaticResource DetailContentBodyTextColorLight}}" />
+                <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=14, Tablet=17}, iOS={OnIdiom Phone=14, Tablet=17}, UWP={OnIdiom Phone=14, Tablet=17, Desktop=17}, macOS=17, WPF=17}" />
+            </Style>
+            
+            <!--<OnPlatform x:Key="MyFontSize" x:TypeArguments="Font" >
+                <OnPlatform.Android>
+                    <OnIdiom Phone="" />
+                    <OnIdiom Tablet="" />
+                </OnPlatform.Android>
+            </OnPlatform>-->
         </ResourceDictionary>        
     </Application.Resources>
 </Application>

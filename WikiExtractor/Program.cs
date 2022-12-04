@@ -27,7 +27,7 @@ IoHelper.DeleteFile(ProcessConstants.DatabasePath);
 var extractProcess = new WikiPageRawExtraction();
 // /wiki/Alberto_Hurtado
 //extractProcess.PersonaSinglePageContentExtractWithSaveToStore(saints.Value, saints.Key);
-//extractProcess.PersonaSinglePageContentExtractWithSaveToStore("/wiki/Benedict_of_Nursia", "Alberto Hurtado");
+//extractProcess.PersonaSinglePageContentExtractWithSaveToStore("/wiki/Bernard_of_Clairvaux", "Alberto Hurtado");
 
 var listOfSaints = extractProcess.TabularPageContentExtractWithSave("/wiki/List_of_saints");
 //var listOfBeatified = extractProcess.TabularPageContentExtractWithSave("/wiki/List_of_beatified_people");

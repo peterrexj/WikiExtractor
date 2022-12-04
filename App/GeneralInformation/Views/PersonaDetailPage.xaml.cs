@@ -7,6 +7,7 @@ using Syncfusion.XForms.Expander;
 using Syncfusion.XForms.Graphics;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -54,10 +55,10 @@ namespace GeneralInformation.Views
 
         private Grid RenderPara2ContentV2(Paragraph2ContentViewModel paraContent)
         {
+
             var mainGrid = new Grid();
 
             var sfGradient = new SfGradientView();
-            
 
             var grStart = new SfGradientStop();
             grStart.Offset = 0.0;
@@ -83,16 +84,16 @@ namespace GeneralInformation.Views
             };
             if (paraContent.Content.HasValue())
             {
-                stackLayout.Children.Add(RenderHeaderLabel(paraContent.Header2, 20));
-                stackLayout.Children.Add(RenderContentLabel(paraContent.Content, 14));
+                stackLayout.Children.Add(RenderDynamicContentLabel(paraContent.Header2, "DetailsTabHeaderText"));
+                stackLayout.Children.Add(RenderDynamicContentLabel(paraContent.Content, "DetailsTabContentText"));
             }
 
             if (paraContent.Para3s != null && paraContent.Para3s.Any())
             {
                 foreach (var p3 in paraContent.Para3s)
                 {
-                    stackLayout.Children.Add(RenderHeaderLabel(p3.Header3, 16));
-                    stackLayout.Children.Add(RenderContentLabel(p3.Content, 14));
+                    stackLayout.Children.Add(RenderDynamicContentLabel(p3.Header3, "DetailsTabSubHeaderText"));
+                    stackLayout.Children.Add(RenderDynamicContentLabel(p3.Content, "DetailsTabContentText"));
                 }
             }
 
@@ -101,38 +102,102 @@ namespace GeneralInformation.Views
             return mainGrid;
         }
 
-        private Label RenderHeaderLabel(string content, double fontSize)
+        private Label RenderDynamicContentLabel(string content, string style)
         {
-            var lbl = new Label
-            {
-                Text = content,
-                TextColor = Color.Black,
-                LineBreakMode = LineBreakMode.WordWrap,
-                FontAttributes = FontAttributes.Bold,
-                FontSize = fontSize
-            };
-            lbl.SetAppThemeColor(Label.TextColorProperty,
-                (Color)App.Current.Resources["DetailContentHeaderTextColorLight"],
-                (Color)App.Current.Resources["DetailContentHeaderTextColorDark"]);
+            var lbl = new Label { Text = content };
+            var resource = Application.Current.Resources[style];
+            if (resource != null && resource.GetType() == typeof(Style))
+                lbl.Style = (Style)resource;
             return lbl;
         }
 
-        private Label RenderContentLabel(string content, double fontSize)
-        {
-            var lbl = new Label
-            {
-                Text = content,
-                TextColor = Color.Black,
-                LineBreakMode = LineBreakMode.WordWrap,
-                FontSize = fontSize,
-                Padding = new Thickness(0, 0, 0, 4),
-                CharacterSpacing = 0.8,
-            };
-            lbl.SetAppThemeColor(Label.TextColorProperty,
-                (Color)App.Current.Resources["DetailContentBodyTextColorLight"],
-                (Color)App.Current.Resources["DetailContentBodyTextColorDark"]);
-            return lbl;
-        }
+        //private Label RenderHeaderLabel(string content)
+        //{
+        //    var lbl = new Label
+        //    {
+        //        Text = content,
+        //        //TextColor = Color.Black,
+        //        //LineBreakMode = LineBreakMode.WordWrap,
+        //        //FontAttributes = FontAttributes.Bold,
+        //        //FontSize = fontSize
+        //    };
+        //    //lbl.SetAppThemeColor(Label.TextColorProperty,
+        //    //    (Color)App.Current.Resources["DetailContentHeaderTextColorLight"],
+        //    //    (Color)App.Current.Resources["DetailContentHeaderTextColorDark"]);
+        //    return lbl;
+        //}
+        //private Label RenderContentLabel(string content)
+        //{
+        //    var lbl = new Label
+        //    {
+        //        Text = content,
+        //        //TextColor = Color.Black,
+        //        //LineBreakMode = LineBreakMode.WordWrap,
+        //        //FontSize = fontSize,
+        //        //Padding = new Thickness(0, 0, 0, 4),
+        //        //CharacterSpacing = 0.5,
+        //    };
+
+        //    var resource = Application.Current.Resources["DetailsTabContentText"];
+        //    if (resource != null && resource.GetType() == typeof(Style))
+        //        lbl.Style = (Style)resource;
+
+        //    //lbl.SetAppThemeColor(Label.TextColorProperty,
+        //    //    (Color)App.Current.Resources["DetailContentBodyTextColorLight"],
+        //    //    (Color)App.Current.Resources["DetailContentBodyTextColorDark"]);
+        //    return lbl;
+        //}
+        //private int FontSizeHeaderBasedOnDevice() => Device.RuntimePlatform switch
+        //    {
+        //        Device.Android => Device.Idiom switch
+        //        {
+        //            TargetIdiom.Phone => 20,
+        //            TargetIdiom.Tablet => 26,
+        //            _ => 20,
+        //        },
+        //        Device.iOS => Device.Idiom switch
+        //        {
+        //            TargetIdiom.Phone => 20,
+        //            TargetIdiom.Tablet => 26,
+        //            _ => 20,
+        //        },
+        //        _ => 20
+        //    };
+
+        //private int FontSizeSubHeaderBasedOnDevice() => Device.RuntimePlatform switch
+        //{
+        //    Device.Android => Device.Idiom switch
+        //    {
+        //        TargetIdiom.Phone => 16,
+        //        TargetIdiom.Tablet => 22,
+        //        _ => 16,
+        //    },
+        //    Device.iOS => Device.Idiom switch
+        //    {
+        //        TargetIdiom.Phone => 16,
+        //        TargetIdiom.Tablet => 22,
+        //        _ => 16,
+        //    },
+        //    _ => 16
+        //};
+        //private int FontSizeContentBasedOnDevice() => Device.RuntimePlatform switch
+        //{
+        //    Device.Android => Device.Idiom switch
+        //    {
+        //        TargetIdiom.Phone => 14,
+        //        TargetIdiom.Tablet => 17,
+        //        _ => 14,
+        //    },
+        //    Device.iOS => Device.Idiom switch
+        //    {
+        //        TargetIdiom.Phone => 14,
+        //        TargetIdiom.Tablet => 17,
+        //        _ => 14,
+        //    },
+        //    _ => 14
+        //};
+
+
 
 
         //private SfExpander RenderPara2Content(Paragraph2ContentViewModel paraContent)
@@ -247,7 +312,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-                
+
             }
         }
 

@@ -80,23 +80,15 @@
                                              SuggestionMode="Contains"
                                              AutoCompleteMode="Suggest"
                                              ShowBorder="False"
-                                             WatermarkColor="{AppThemeBinding 
-                Dark={StaticResource SearchTextWatermarkTextForeDark}, Light={StaticResource SearchTextWatermarkTextForeLight}}"
-                                             BackgroundColor="{AppThemeBinding 
-                Dark={StaticResource SearchTextDropBackDark}, Light={StaticResource SearchTextDropBackLight}}"
-                                             DropDownBackgroundColor="{AppThemeBinding 
-                Dark={StaticResource SearchTextDropBackDark}, Light={StaticResource SearchTextDropBackLight}}"
-                                             HighlightedTextColor="{AppThemeBinding 
-                Dark={StaticResource SearchTextDropHighlightBackDark}, Light={StaticResource SearchTextDropHighlightBackLight}}"
-                                             TextColor="{AppThemeBinding 
-                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
-                                             DropDownTextColor="{AppThemeBinding 
-                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
+                                             WatermarkColor="{AppThemeBinding Dark={StaticResource SearchTextWatermarkTextForeDark}, Light={StaticResource SearchTextWatermarkTextForeLight}}"
+                                             BackgroundColor="{AppThemeBinding Dark={StaticResource SearchTextDropBackDark}, Light={StaticResource SearchTextDropBackLight}}"
+                                             DropDownBackgroundColor="{AppThemeBinding Dark={StaticResource SearchTextDropBackDark}, Light={StaticResource SearchTextDropBackLight}}"
+                                             HighlightedTextColor="{AppThemeBinding Dark={StaticResource SearchTextDropHighlightBackDark}, Light={StaticResource SearchTextDropHighlightBackLight}}"
+                                             TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
+                                             DropDownTextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
                                              HighlightedTextFontAttributes="Bold"
-                                             ClearButtonColor="{AppThemeBinding 
-                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
-                                             NoResultsFoundTextColor="{AppThemeBinding 
-                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
+                                             ClearButtonColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
+                                             NoResultsFoundTextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
                                              MaximumSuggestion="10"
                                              LoadMoreText=" Tap to load"
                                              NoResultsFoundText="No Results Found"
@@ -116,7 +108,6 @@
                             <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" TouchDownEffects="Ripple" WidthRequest="344" 
 												Margin="0,0,0,10" CornerRadius="5" RippleAnimationDuration="300"
                                                 AutomationId="{Binding Id}"
-                                                
                                                 AnimationCompleted="lstItemEffectsView_AnimationCompleted">
                                 <sfEffectsView:SfEffectsView.HeightRequest>
                                     <OnIdiom x:TypeArguments="x:Double" Desktop="128" Tablet="128" Phone="148"/>
@@ -127,10 +118,8 @@
                                         <sfGradient:SfGradientView.BackgroundBrush>
                                             <sfGradient:SfLinearGradientBrush>
                                                 <sfGradient:SfLinearGradientBrush.GradientStops>
-                                                    <sfGradient:SfGradientStop Color="{AppThemeBinding 
-                Dark={StaticResource EachItemBackGradientStartDark}, Light={StaticResource EachItemBackGradientStartLight}}" Offset="0.0" />
-                                                    <sfGradient:SfGradientStop Color="{AppThemeBinding 
-                Dark={StaticResource EachItemBackGradientEndDark}, Light={StaticResource EachItemBackGradientEndLight}}" Offset="1" />
+                                                    <sfGradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource EachItemBackGradientStartDark}, Light={StaticResource EachItemBackGradientStartLight}}" Offset="0.0" />
+                                                    <sfGradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource EachItemBackGradientEndDark}, Light={StaticResource EachItemBackGradientEndLight}}" Offset="1" />
                                                 </sfGradient:SfLinearGradientBrush.GradientStops>
                                             </sfGradient:SfLinearGradientBrush>
                                         </sfGradient:SfGradientView.BackgroundBrush>
@@ -139,8 +128,8 @@
 											   BorderWidth="0" VerticalOptions="Center">
                                         <Grid>
                                             <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.25*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
-                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.75*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
+                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.15*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
+                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.85*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
                                             </Grid.ColumnDefinitions>
 
                                             <!--<StackLayout Grid.Column="0">-->
@@ -165,17 +154,16 @@
                                                     </OnPlatform>
                                                 </StackLayout.VerticalOptions>
                                                 <Label Text="{Binding Name}" 
-                                                       TextColor="{AppThemeBinding 
-                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
+                                                       TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
                                                        LineBreakMode="WordWrap" FontAttributes="Bold"
                                                        Padding="0,0,3,0"
                                                        FontFamily="OpenSans"
                                                        FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
-                                                <Label Grid.Row="1" TextColor="{AppThemeBinding 
-                Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
+                                                <Label Grid.Row="1" TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
                                                        LineBreakMode="WordWrap" MaxLines="4" 
                                                        Padding="0,0,3,0" 
-                                                       Text="{Binding MainContent}" FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=13}, iOS={OnIdiom Phone=11, Tablet=13}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
+                                                       Text="{Binding MainContent}" 
+                                                       FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=11, Tablet=16}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
                                             </StackLayout>
                                         </Grid>
                                     </sfBorder:SfBorder>

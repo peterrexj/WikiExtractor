@@ -146,7 +146,7 @@ namespace WikiExtractor.Process
                         {
                             appendSpace = " ";
                         }
-                        var listItems = helperHtml.LoadHtmlAndSelectNodes(cNode.InnerHtml, "//li")?.Select(f => f.InnerText)?.ToList() ?? new List<string>();
+                        var listItems = helperHtml.LoadHtmlAndSelectNodes(cNode.InnerHtml, "//li")?.Select(f => HtmlAgilityEx.DecodedInnerText(f.InnerText, false).Trim())?.ToList() ?? new List<string>();
                         if (listItems.Count > 0)
                         {
                             var rawContent = cNode.DecodedInnerText(removeNewLine: true);
