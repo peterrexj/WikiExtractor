@@ -146,7 +146,22 @@ namespace WikiExtractor.Process
                         {
                             appendSpace = " ";
                         }
-                        content.Append($"{appendSpace}{cNode.DecodedInnerText(removeNewLine: true)}");
+                        var listItems = helperHtml.LoadHtmlAndSelectNodes(cNode.InnerHtml, "//li")?.Select(f => f.InnerText)?.ToList() ?? new List<string>();
+                        if (listItems.Count > 0)
+                        {
+                            var rawContent = cNode.DecodedInnerText(removeNewLine: true);
+                            foreach (var listItem in listItems)
+                            {
+                                rawContent = rawContent.Replace(listItem, "");
+                            }
+                            rawContent += string.Join(Environment.NewLine, listItems);
+                            content.Append($"{appendSpace}{rawContent}");
+                        }
+                        else
+                        {
+                            content.Append($"{appendSpace}{cNode.DecodedInnerText(removeNewLine: true)}");
+                        }
+
                     }
                 }
             }
