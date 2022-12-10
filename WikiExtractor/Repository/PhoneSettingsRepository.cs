@@ -74,8 +74,8 @@ namespace WikiExtractor.Repository
         #endregion
 
         #region Google Ads Service
-        private const int __FirstLimitOnAds = 1;
-        private const int __ThenOnLimitOnAds = 1;
+        private const int __FirstLimitOnAds = 2;
+        private const int __ThenOnLimitOnAds = 5;
 
         public void InitializeGoogleAds()
         {
