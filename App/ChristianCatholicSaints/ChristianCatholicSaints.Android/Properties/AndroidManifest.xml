@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.christiancatholicsaints">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.pj.christiancatholicsaints" android:versionCode="1" android:versionName="1.0"  android:installLocation="preferExternal">
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
-    <application android:label="ChristianCatholicSaints.Android" android:theme="@style/MainTheme"></application>
+    <application android:label="Christian Catholic Saints" android:theme="@style/MainTheme" android:icon="@mipmap/appicon">
+		<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-4219645367584712~8231475165" />
+	</application>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 </manifest>

@@ -46,17 +46,6 @@ namespace WikiExtractor.Repository
                                     );");
             }
 
-            //if (databaseVersion < 2)
-            //{
-            //    createStr.Append("ALTER TABLE [tblSettings] ADD COLUMN Owner TEXT;");
-            //}
-
-            //if (databaseVersion < 3)
-            //{
-            //    createStr.Append("ALTER TABLE [tblSettings] ADD COLUMN CreatedDate DATE;");
-            //}
-
-
             return createStr.ToString();
         }
 
@@ -85,8 +74,8 @@ namespace WikiExtractor.Repository
         #endregion
 
         #region Google Ads Service
-        private const int __FirstLimitOnAds = 5;
-        private const int __ThenOnLimitOnAds = 20;
+        private const int __FirstLimitOnAds = 1;
+        private const int __ThenOnLimitOnAds = 1;
 
         public void InitializeGoogleAds()
         {

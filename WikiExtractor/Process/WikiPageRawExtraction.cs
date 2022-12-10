@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using WikiExtractor.Models;
 
 namespace WikiExtractor.Process
 {
@@ -73,20 +74,43 @@ namespace WikiExtractor.Process
             return doc;
         }
 
-        public Dictionary<string, string> TabularPageContentExtractWithSave(string route)
+        public List<WikiWhatToExtractModel> ExtractListOfSaintsTabularData(string route, List<string>? tags)
         {
-            var response = WikiPageRouteResponseAsHtmlDocument(route, null);
-            return tabularInformationExtractor.ExtractTabularData(response);
+            return tabularInformationExtractor.ExtractListOfSaintsTabularData(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
         }
 
-        public int PersonaSinglePageContentExtractWithSaveToStore(string route, string name)
+        public List<WikiWhatToExtractModel> ExtractPatronSaintsListData(string route, List<string>? tags)
         {
             var response = WikiPageRouteResponseAsHtmlDocument(route, null);
+            return tabularInformationExtractor.ExtractPatronSaintsListData(response, tags);
+        }
 
-            var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, name);
+        public List<WikiWhatToExtractModel> ExtractSaintsByAllPopeListData(string route, List<string>? tags)
+        {
+            var response = WikiPageRouteResponseAsHtmlDocument(route, null);
+            return tabularInformationExtractor.ExtractSaintsByAllPopeListData(response, tags);
+        }
+
+        public List<WikiWhatToExtractModel> ExtractSaintsByEachPopeListData(string route, List<string>? tags)
+        {
+            var response = WikiPageRouteResponseAsHtmlDocument(route, null);
+            return tabularInformationExtractor.ExtractSaintsByEachPopeListData(response, tags);
+        }
+
+        public List<WikiWhatToExtractModel> ExtractSaintsByCentury(string route, List<string>? tags)
+        {
+            var response = WikiPageRouteResponseAsHtmlDocument(route, null);
+            return tabularInformationExtractor.ExtractSaintsByCentury(response, tags);
+        }
+
+        public int PersonaSinglePageContentExtractWithSaveToStore(WikiWhatToExtractModel wikiData)
+        {
+            var response = WikiPageRouteResponseAsHtmlDocument(wikiData.Route, null);
+
+            var paraInfo = paragraphExtractor.ExtractParaInfo(response, wikiData.Route, wikiData.Title);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
-            return storeProcess.StoreInformation(paraInfo, metadata);
+            return storeProcess.StoreInformation(paraInfo, metadata, wikiData);
         }
     }
 }

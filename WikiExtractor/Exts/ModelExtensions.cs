@@ -25,7 +25,8 @@ namespace WikiExtractor.Exts
             image.Path = GetValueMetaDataAttribute(model.CustomMetadata, "src");
             if (image.Path.StartsWith("//"))
             {
-                image.Path = $"https:{HttpUtility.UrlDecode(image.Path)}";
+                //image.Path = $"https:{HttpUtility.UrlDecode(image.Path)}";
+                image.Path = $"https:{image.Path}";
             }
             image.Width = GetValueMetaDataAttribute(model.CustomMetadata, "data-file-width").ToInteger();
             image.Height = GetValueMetaDataAttribute(model.CustomMetadata, "data-file-height").ToInteger();
@@ -76,6 +77,11 @@ namespace WikiExtractor.Exts
         private static string GetValueMetaDataAttribute(Dictionary<string, string> customMetadata, string key)
         {
             return customMetadata.ContainsKey(key) && customMetadata[key].HasValue() ? customMetadata[key] : string.Empty;
+        }
+
+        public static List<WikiWhatToExtractModel> WithDefaultFilters(this List<WikiWhatToExtractModel> data)
+        {
+            return data.Where(f => !f.Title.ContainsIgnoreCase("page does not exist")).ToList();
         }
     }
 }

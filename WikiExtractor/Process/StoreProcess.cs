@@ -15,13 +15,24 @@ namespace WikiExtractor.Process
             wikiDatabase = new WikiDatabase();
         }
 
-        private int StoreMaster(WikiPageModel wikiPageModel)
+        private int StoreMaster(WikiPageModel wikiPageModel, WikiWhatToExtractModel wikiExtractInfo)
         {
             return wikiDatabase.MasterRepository.Add(new Master
             {
                 Name = wikiPageModel.Header,
                 Route = wikiPageModel.Route,
+                Sequence= wikiExtractInfo.Sequence,
             }, checkAlreadyExists: true);
+        }
+
+        private void StoreTags(List<string> tags, int masterId)
+        {
+            if (tags == null || tags.Count == 0) { return; }
+            foreach (var tag in tags)
+            {
+                var tagId = wikiDatabase.TagRepository.Add(new Tag { Name = tag.Trim() }, true);
+                wikiDatabase.TagItemRepository.Add(new TagItem { MasterId= masterId, TagId = tagId }, true);
+            }
         }
 
         private void StoreMetadata(List<MetaDataModel> metadatas, int masterId)
@@ -154,14 +165,22 @@ namespace WikiExtractor.Process
             }
         }
 
-        public int StoreInformation(WikiPageModel wikiPageModel, List<MetaDataModel> metadatas)
+        public int StoreInformation(WikiPageModel wikiPageModel, List<MetaDataModel> metadatas, WikiWhatToExtractModel wikiExtractInfo)
         {
             if (wikiPageModel == null)
             {
                 return 0;
             }
 
-            var masterId = StoreMaster(wikiPageModel);
+            if ((metadatas == null || metadatas.IsEmpty()) && 
+                (wikiPageModel.WikiParaCollection == null || wikiPageModel.WikiParaCollection.IsEmpty()) &&
+                (wikiPageModel.MainParagraph == null || wikiPageModel.MainParagraph.IsEmpty()))
+            {
+                return 0;
+            }
+
+            var masterId = StoreMaster(wikiPageModel, wikiExtractInfo);
+            StoreTags(wikiExtractInfo.Tags, masterId);
             StoreMetadata(metadatas, masterId);
             StorePrimaryContent(wikiPageModel, masterId);
             StoreWikiPictures(wikiPageModel, metadatas, masterId);

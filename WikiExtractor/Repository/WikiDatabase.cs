@@ -22,6 +22,10 @@ namespace WikiExtractor.Repository
         public WikiPictureRepository WikiPictureRepository { get; set; }
         public SettingsRepository SettingsRepository { get; set; }
         public PhoneSettingsRepository PhoneSettingsRepository { get; set; }
+        public TagRepository TagRepository { get; set; }
+        public TagItemRepository TagItemRepository { get; set; }
+        public AppMenuItemRepository AppMenuItemRepository { get; set; }
+        public RequestRecordRepository RequestRecordRepository { get; set; }
 
         protected List<IRepositoryBaseAppExtension> repoExtensions;
 
@@ -45,6 +49,10 @@ namespace WikiExtractor.Repository
             ParagraphContentRepository = new ParagraphContentRepository(appDatabase._dbHelper);
             WikiPictureRepository = new WikiPictureRepository(appDatabase._dbHelper);
             PhoneSettingsRepository = new PhoneSettingsRepository(appDatabase._dbHelper);
+            TagRepository = new TagRepository(appDatabase._dbHelper);
+            TagItemRepository = new TagItemRepository(appDatabase._dbHelper);
+            AppMenuItemRepository = new AppMenuItemRepository(appDatabase._dbHelper);
+            RequestRecordRepository = new RequestRecordRepository(appDatabase._dbHelper);
 
             repoExtensions.Add(SettingsRepository);
             repoExtensions.Add(MasterRepository);
@@ -55,6 +63,10 @@ namespace WikiExtractor.Repository
             repoExtensions.Add(ParagraphContentRepository);
             repoExtensions.Add(WikiPictureRepository);
             repoExtensions.Add(PhoneSettingsRepository);
+            repoExtensions.Add(TagRepository);
+            repoExtensions.Add(TagItemRepository);
+            repoExtensions.Add(AppMenuItemRepository);
+            repoExtensions.Add(RequestRecordRepository);
 
             int currentDbVersion = 0;
             bool requireDbInitialization = false;

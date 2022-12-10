@@ -3,7 +3,11 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:GeneralInformation.Views"
        Title="GeneralInformation"
-       x:Class="GeneralInformation.AppShell">
+       x:Class="GeneralInformation.AppShell"
+       xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+       FlyoutBackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}"
+       FlyoutWidth="{OnPlatform Android={OnIdiom Phone=200, Tablet=350}, iOS={OnIdiom Phone=200, Tablet=350}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=350}, macOS=350, WPF=auto}"
+       >
 
     <!--
         The overall app visual hierarchy is defined here, along with navigation.
@@ -11,18 +15,151 @@
         https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
     -->
 
+    <!--<Shell.FlyoutContentTemplate>
+        <DataTemplate>
+            <StackLayout>
+                <ListView x:Name="MenuItemsListView"
+                          SeparatorVisibility="None"
+                          HasUnevenRows="true"
+                          ItemsSource="{Binding FlyoutItems}">
+                    <ListView.Header>
+                        <Grid BackgroundColor="#8f0000">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="10"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="80"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="10"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="2" Grid.Column="1"
+                                   TextColor="#d7d9b4"
+                                   Text="How is this?"
+                                   FontSize="24"/>
+                        </Grid>
+                    </ListView.Header>
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="15,10"
+                                             HorizontalOptions="FillAndExpand">
+                                    <Label VerticalOptions="FillAndExpand"
+                                           VerticalTextAlignment="Center"
+                                           Text="{Binding Route}"
+                                           TextColor="Black"
+                                           FontSize="20"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </DataTemplate>
+    </Shell.FlyoutContentTemplate>-->
+    
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid x:Name="FlyoutItemLayout" HeightRequest="{x:OnPlatform Android=50}" ColumnSpacing="{x:OnPlatform UWP=0}" RowSpacing="{x:OnPlatform UWP=0}">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{x:OnPlatform UWP=Transparent, iOS=White}" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{AppThemeBinding Dark={StaticResource ShellTitleDark}, Light={StaticResource ShellTitleLight}}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{AppThemeBinding 
+                                        Dark={StaticResource FlyoutItemSelectedBackgroundDark}, 
+                                        Light={StaticResource FlyoutItemSelectedBackgroundLight}}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </VisualStateManager.VisualStateGroups>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.05*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Image x:Name="FlyoutItemImage" Source="{Binding FlyoutIcon}" VerticalOptions="Center"
+                           HorizontalOptions="{x:OnPlatform Default=Center, UWP=Start}"
+                           HeightRequest="{x:OnPlatform Android=24, iOS=22, UWP=16}"
+                           WidthRequest="{x:OnPlatform Android=24, iOS=22, UWP=16}">
+                    <Image.Margin>
+                        <OnPlatform x:TypeArguments="Thickness">
+                            <OnPlatform.Platforms>
+                                <On Platform="UWP" Value="12,0,12,0" />
+                            </OnPlatform.Platforms>
+                        </OnPlatform>
+                    </Image.Margin>
+                </Image>
+                <Label x:Name="FlyoutItemLabel"
+                       Grid.Column="1"
+                       Text="{Binding Title}"
+                       FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=12, Tablet=16}, UWP={OnIdiom Phone=8, Tablet=10, Desktop=10}, macOS=10, WPF=10}"
+                       HorizontalOptions="{x:OnPlatform UWP=Start}"
+                       HorizontalTextAlignment="{x:OnPlatform UWP=Start}"
+                       FontAttributes="{x:OnPlatform iOS=Bold}"
+                       VerticalTextAlignment="Center"
+                       TextColor="{AppThemeBinding Dark={StaticResource ShellTitleDark}, Light={StaticResource ShellTitleLight}}">
+                    <Label.Margin>
+                        <OnPlatform x:TypeArguments="Thickness">
+                            <OnPlatform.Platforms>
+                                <On Platform="Android" Value="10, 0, 1, 0" />
+                            </OnPlatform.Platforms>
+                        </OnPlatform>
+                    </Label.Margin>
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <OnPlatform.Platforms>
+                                <On Platform="Android" Value="sans-serif-medium" />
+                            </OnPlatform.Platforms>
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <Shell.FlyoutFooter>
+        <Grid>
+            <sfGradient:SfGradientView >
+                <sfGradient:SfGradientView.BackgroundBrush>
+                    <sfGradient:SfLinearGradientBrush>
+                        <sfGradient:SfLinearGradientBrush.GradientStops>
+                            <sfGradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource EachItemBackGradientEndDark}, Light={StaticResource EachItemBackGradientEndLight}}" Offset="0.3" />
+                            <sfGradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource EachItemBackGradientStartDark}, Light={StaticResource EachItemBackGradientStartLight}}" Offset="0.7" />
+                            <sfGradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource EachItemBackGradientEndDark}, Light={StaticResource EachItemBackGradientEndLight}}" Offset="0.9" />
+                        </sfGradient:SfLinearGradientBrush.GradientStops>
+                    </sfGradient:SfLinearGradientBrush>
+                </sfGradient:SfGradientView.BackgroundBrush>
+            </sfGradient:SfGradientView>
+            <Label Text="Powered By Wikipedia" Margin="5"
+                   FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=12, Tablet=16}, UWP={OnIdiom Phone=8, Tablet=10, Desktop=10}, macOS=10, WPF=10}"
+                   TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
+                   FontAttributes="Italic"
+                   HorizontalOptions="Center"/>
+        </Grid>
+    </Shell.FlyoutFooter>
+    
     <Shell.Resources>
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{AppThemeBinding Dark={StaticResource PrimaryDark}, Light={StaticResource PrimaryLight}}" />
-                <Setter Property="Shell.ForegroundColor" Value="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" />
-                <Setter Property="Shell.TitleColor" Value="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" />
-                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
-                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="{AppThemeBinding Dark={StaticResource PrimaryDark}, Light={StaticResource PrimaryLight}}" />
+                <Setter Property="Shell.BackgroundColor" Value="{AppThemeBinding Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}" />
+                <Setter Property="Shell.ForegroundColor" Value="{AppThemeBinding Dark={StaticResource ShellTitleDark}, Light={StaticResource ShellTitleLight}}" />
+                <Setter Property="Shell.TitleColor" Value="{AppThemeBinding Dark={StaticResource ShellTitleDark}, Light={StaticResource ShellTitleLight}}" />
+                <Setter Property="Shell.DisabledColor" Value="{AppThemeBinding Dark={StaticResource ShellTitleDark}, Light={StaticResource ShellTitleLight}}" />
+                <Setter Property="Shell.UnselectedColor" Value="Transparent" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="Transparent" />
                 <Setter Property="Shell.TabBarForegroundColor" Value="{AppThemeBinding Dark={StaticResource PrimaryLight}, Light={StaticResource PrimaryDark}}"/>
-                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
-                <Setter Property="Shell.TabBarTitleColor" Value="{AppThemeBinding Dark={StaticResource PrimaryLight}, Light={StaticResource PrimaryDark}}"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="Transparent"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="{AppThemeBinding Dark={StaticResource ShellTitleDark}, Light={StaticResource ShellTitleLight}}"/>
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
@@ -31,7 +168,7 @@
             Default Styles for all Flyout Items
             https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#flyoutitem-and-menuitem-style-classes
             -->
-            <Style Class="FlyoutItemLabelStyle" TargetType="Label">
+            <!--<Style Class="FlyoutItemLabelStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="White"></Setter>
             </Style>
             <Style Class="FlyoutItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
@@ -41,20 +178,20 @@
                             <VisualState x:Name="Normal">
                                 <VisualState.Setters>
                                     <Setter Property="BackgroundColor" Value="{x:OnPlatform UWP=Transparent, iOS=White}" />
-                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{AppThemeBinding 
-                                      Dark={StaticResource PrimaryDark}, Light={StaticResource PrimaryLight}}" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="Green" />
                                 </VisualState.Setters>
                             </VisualState>
                             <VisualState x:Name="Selected">
                                 <VisualState.Setters>
                                     <Setter Property="BackgroundColor" Value="{AppThemeBinding 
-                                      Dark={StaticResource PrimaryDark}, Light={StaticResource PrimaryLight}}" />
+                                        Dark={StaticResource FlyoutItemSelectedBackgroundDark}, 
+                                        Light={StaticResource FlyoutItemSelectedBackgroundLight}}" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
                     </VisualStateGroupList>
                 </Setter>
-            </Style>
+            </Style>-->
 
             <!--
             Custom Style you can apply to any Flyout Item
@@ -65,8 +202,7 @@
                         <VisualStateGroup x:Name="CommonStates">
                             <VisualState x:Name="Normal">
                                 <VisualState.Setters>
-                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{AppThemeBinding 
-                                      Dark={StaticResource PrimaryDark}, Light={StaticResource PrimaryLight}}" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="Purple" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
@@ -82,10 +218,16 @@
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
 
-    <!--<FlyoutItem Title="Saints" Icon="icon_about.png">
-        <ShellContent Route="SaintsPage" ContentTemplate="{DataTemplate local:WikiListOfItemsPage}"/>
+    <!--<FlyoutItem Title="Saints" AutomationId="Canonized by Pope Benedict XVI" Icon="icon_about.png">
+        <ShellContent Route="All" ContentTemplate="{DataTemplate local:WikiListOfItemsPage}" />
     </FlyoutItem>-->
-    
+    <!--<FlyoutItem Title="Canonized by Pope Leo XIII">
+        <ShellContent Route="Canonized by Pope Leo XIII" ContentTemplate="{DataTemplate local:WikiListOfItemsPage}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Canonized by Pope John XXIII">
+        <ShellContent Route="Canonized by Pope John XXIII" ContentTemplate="{DataTemplate local:WikiListOfItemsPage}"/>
+    </FlyoutItem>-->
+
     <!--<FlyoutItem Title="About" Icon="icon_about.png">
         <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
     </FlyoutItem>
@@ -104,11 +246,11 @@
         content you can do so by calling 
         await Shell.Current.GoToAsync("//LoginPage");
     -->
-    <TabBar>
+    <!--<TabBar>
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate local:WikiListOfItemsPage}" />
         </Tab>
-    </TabBar>
+    </TabBar>-->
     <!--<TabBar>
         <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
     </TabBar>-->

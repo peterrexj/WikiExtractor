@@ -8,6 +8,7 @@
              xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     	     xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
              xmlns:carousel="clr-namespace:Syncfusion.SfCarousel.XForms;assembly=Syncfusion.SfCarousel.XForms"
+             xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              x:Class="GeneralInformation.Views.PersonaDetailPage">
     <ContentPage.Content>
         <StackLayout BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}">
@@ -41,23 +42,50 @@
                                 <Image Source="{Binding Persona.PicturePrimaryPath}" Grid.Column="1" 
                                        Aspect="AspectFit" 
                                        BackgroundColor="Transparent" HorizontalOptions="Start"/>
-                                <StackLayout Grid.Column="2" VerticalOptions="Center" >
-                                    <Label LineBreakMode="WordWrap"  Padding="2,0,0,10" 
+
+                                <Grid Grid.Column="2">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="0.2*" />
+                                    </Grid.RowDefinitions>
+
+                                    <StackLayout Grid.Row="0"  VerticalOptions="Center" >
+                                        <Label LineBreakMode="WordWrap"  Padding="2,0,0,10" 
                                            VerticalTextAlignment="Center" HorizontalTextAlignment="Start"
                                            TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}">
-                                        <Label.FormattedText>
-                                            <FormattedString>
-                                                <Span Text=" " />
-                                                <Span Text="{Binding Persona.Name}"
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text=" " />
+                                                    <Span Text="{Binding Persona.Name}"
                                                       FontAttributes="Bold"
                                                       FontSize="{OnPlatform Android={OnIdiom Phone=20, Tablet=28}, iOS={OnIdiom Phone=12, Tablet=13}, UWP={OnIdiom Phone=20, Tablet=26, Desktop=20}, macOS=13, WPF=20}"/>
-                                                <Span Text="{Binding Persona.NameSubstitueFormatted}" 
+                                                    <Span Text="{Binding Persona.NameSubstitueFormatted}" 
                                                       FontAttributes="Bold" 
                                                       FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=8, Tablet=10}, UWP={OnIdiom Phone=8, Tablet=10, Desktop=10}, macOS=10, WPF=10}"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </StackLayout>
+                                    <Label Grid.Row="1"
+                                                       Margin="0,0,8,2"
+                                                       TextDecorations="Underline"
+                                                       FontSize="{OnPlatform Android={OnIdiom Phone=10, Tablet=12}, iOS={OnIdiom Phone=10, Tablet=16}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}"
+                                                       VerticalOptions="CenterAndExpand"
+                                                       HorizontalOptions="EndAndExpand">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Wiki Source">
+                                                    <Span.GestureRecognizers>
+                                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapHyperLinkToWikiPage}" 
+                                                                                          CommandParameter="{Binding Persona.WikiPath}"/>
+                                                        <!--Command="{Binding Path=BindingContext.TapHyperLinkToWikiPage, Source={x:Reference lstSaints}}" CommandParameter="{x:Reference WikiPath}" />-->
+                                                    </Span.GestureRecognizers>
+                                                </Span>
                                             </FormattedString>
                                         </Label.FormattedText>
                                     </Label>
-                                </StackLayout>
+                                </Grid>
+                                
 
                             </Grid>
                         </sfBorder:SfBorder>
@@ -204,6 +232,10 @@
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
             </tabView:SfTabView>
+            <!--This is test ads-->
+            <admob:MTAdView AdsId="ca-app-pub-3940256099942544/6300978111" HeightRequest="50" />
+            <!--This is real ads-->
+            <!--<admob:MTAdView AdsId="ca-app-pub-4219645367584712/7880993518" />-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

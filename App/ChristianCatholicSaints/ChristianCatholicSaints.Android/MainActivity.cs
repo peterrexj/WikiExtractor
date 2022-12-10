@@ -10,6 +10,7 @@ using GeneralInformation;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using System.IO;
+using Android.Gms.Ads;
 
 namespace ChristianCatholicSaints.Droid
 {
@@ -24,6 +25,7 @@ namespace ChristianCatholicSaints.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             DisplayCrashReport();
+            MobileAds.Initialize(ApplicationContext);
 
             LoadApplication(new App());
         }

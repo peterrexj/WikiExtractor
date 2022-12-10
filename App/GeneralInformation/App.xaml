@@ -27,7 +27,7 @@
 
             <Color x:Key="SearchTextWatermarkTextForeLight">#505050</Color>
             <Color x:Key="SearchTextWatermarkTextForeDark">#707B7C</Color>
-            
+
             <Color x:Key="EachItemBackGradientStartLight">#C8C8C8</Color>
             <Color x:Key="EachItemBackGradientEndLight">#F8F8F8</Color>
             <Color x:Key="EachItemBackGradientStartDark">#202020</Color>
@@ -96,13 +96,19 @@
                 <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource DetailContentBodyTextColorDark}, Light={StaticResource DetailContentBodyTextColorLight}}" />
                 <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=14, Tablet=17}, iOS={OnIdiom Phone=14, Tablet=17}, UWP={OnIdiom Phone=14, Tablet=17, Desktop=17}, macOS=17, WPF=17}" />
             </Style>
-            
-            <!--<OnPlatform x:Key="MyFontSize" x:TypeArguments="Font" >
-                <OnPlatform.Android>
-                    <OnIdiom Phone="" />
-                    <OnIdiom Tablet="" />
-                </OnPlatform.Android>
-            </OnPlatform>-->
-        </ResourceDictionary>        
+
+            <!-- Flyouts -->
+
+            <!--<Style TargetType="Shell">
+                <Setter Property="FlyoutBackgroundColor" Value="DarkCyan" />
+            </Style>-->
+            <Color x:Key="ShellTitleLight">#34495E</Color>
+            <Color x:Key="ShellTitleDark">#B2BABB</Color>
+
+            <Color x:Key="FlyoutItemSelectedBackgroundLight">#B2BABB</Color>
+            <Color x:Key="FlyoutItemSelectedBackgroundDark">#505050</Color>
+
+           
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

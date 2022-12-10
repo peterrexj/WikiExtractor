@@ -13,7 +13,7 @@ namespace WikiExtractor.Repository
     {
         public MasterRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblMaster",
            "Name, Route",
-           "Name, Route")
+           "Route")
             { }
 
         public string SchemaScript(int databaseVersion)

@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WikiExtractor.DbModels;
 using WikiExtractor.Exts;
 using WikiExtractor.Models;
 using WikiExtractor.Repository;
@@ -99,7 +100,7 @@ namespace WikiExtractor.Process
             }
 
             var primaryContent = wikiDatabase.ParagraphPrimaryContentRepository.Get(m => m.MasterId == master.Id).FirstOrDefault();
-            if (primaryContent != null && primaryContent.Content.HasValue()) 
+            if (primaryContent != null && primaryContent.Content.HasValue())
             {
                 persona.Paragraphs.Add(new Paragraph2ContentViewModel
                 {
@@ -107,7 +108,7 @@ namespace WikiExtractor.Process
                     Header2 = persona.Name,
                     Sequence = 0
                 });
-                persona.MainContent= primaryContent.Content;
+                persona.MainContent = primaryContent.Content;
             }
 
 
@@ -156,35 +157,60 @@ namespace WikiExtractor.Process
                             }
                         }
                     }
-                    
+
                 }
             }
 
             return persona;
         }
 
-        public List<PersonaViewModel> GetListOfWikiItems()
+        public IEnumerable<PersonaViewModel> GetListOfWikiItems(List<string> tags = null)
         {
             var masters = wikiDatabase.MasterRepository.GetAll();
             if (masters == null || masters.IsEmpty()) return new List<PersonaViewModel>();
 
-            var pictures = wikiDatabase.WikiPictureRepository.Get(p => p.IsPrimaryBool);
-            var primaryContent = wikiDatabase.ParagraphPrimaryContentRepository.GetAll();
+            return from master in wikiDatabase.MasterRepository.GetAll()
 
-            var wikiItems = new List<PersonaViewModel>();
-            foreach (var item in masters)
-            {
-                wikiItems.Add(new PersonaViewModel
-                {
-                    Id = item.Id,
-                    Name = item.Name,
-                    WikiPath = item.Route,
-                    MainContent = primaryContent.FirstOrDefault(m => m.MasterId == item.Id)?.Content ?? "",
-                    PicturePrimaryPath = pictures.FirstOrDefault(m => m.MasterId == item.Id)?.Path ?? "NoImageAvailable.png",
-                    PicturePrimaryCaption = pictures.FirstOrDefault(m => m.MasterId == item.Id)?.Caption ?? ""
-                });
-            }
-            return wikiItems;
+                   join tagItemJoin in wikiDatabase.TagItemRepository.GetAll() on master.Id equals tagItemJoin.MasterId into tagItemGrp
+                   from tagItem in tagItemGrp.DefaultIfEmpty(new TagItem { Id = 0, MasterId = master.Id })
+
+                   join tagJoin in wikiDatabase.TagRepository.GetAll() on tagItem.TagId equals tagJoin.Id into tagGroup
+                   from tag in tagGroup.DefaultIfEmpty(new Tag { Id = 0, Name = string.Empty })
+
+                   join primaryPicJoin in wikiDatabase.WikiPictureRepository.Get(p => p.IsPrimaryBool) on master.Id equals primaryPicJoin.MasterId into primaryPicGroup
+                   from primaryPic in primaryPicGroup.DefaultIfEmpty(new WikiPicture { MasterId = master.Id, Path = "NoImageAvailable.png", Caption = string.Empty })
+
+                   join mainCont in wikiDatabase.ParagraphPrimaryContentRepository.GetAll() on master.Id equals mainCont.MasterId into mainContGroup
+                   from mainContItem in mainContGroup.DefaultIfEmpty(new ParagraphPrimaryContent { MasterId = master.Id, Content = string.Empty })
+
+                   where tags?.Contains(tag.Name) == true || tag.Name.IsEmpty()
+                   select new PersonaViewModel
+                   {
+                       Id = master.Id,
+                       Name = master.Name,
+                       WikiPath = master.Route,
+                       MainContent = mainContItem?.Content ?? "",
+                       PicturePrimaryPath = primaryPic?.Path ?? "NoImageAvailable.png",
+                       PicturePrimaryCaption = primaryPic?.Caption ?? ""
+                   };
+
+            //var pictures = wikiDatabase.WikiPictureRepository.Get(p => p.IsPrimaryBool);
+            //var primaryContent = wikiDatabase.ParagraphPrimaryContentRepository.GetAll();
+
+            //var wikiItems = new List<PersonaViewModel>();
+            //foreach (var item in masters)
+            //{
+            //    wikiItems.Add(new PersonaViewModel
+            //    {
+            //        Id = item.Id,
+            //        Name = item.Name,
+            //        WikiPath = item.Route,
+            //        MainContent = primaryContent.FirstOrDefault(m => m.MasterId == item.Id)?.Content ?? "",
+            //        PicturePrimaryPath = pictures.FirstOrDefault(m => m.MasterId == item.Id)?.Path ?? "NoImageAvailable.png",
+            //        PicturePrimaryCaption = pictures.FirstOrDefault(m => m.MasterId == item.Id)?.Caption ?? ""
+            //    });
+            //}
+            //return wikiItems;
         }
 
         public void MetadataBuild()
@@ -207,6 +233,16 @@ namespace WikiExtractor.Process
                     Images = g.Select(f => f.Path).ToList()
                 })
                 .ToList();
+        }
+
+        public void AddMenuItem(string menuItemName, string tags, string titleOnThePage, int sequence)
+        {
+            wikiDatabase.AppMenuItemRepository.Add(new AppMenuItem { MenuItemName = menuItemName, Tags = tags, TitleOnThePage = titleOnThePage, Sequence = sequence }, checkAlreadyExists: true);
+        }
+
+        public IEnumerable<AppMenuItem> AppMenuItems()
+        {
+            return wikiDatabase.AppMenuItemRepository.GetAll().OrderBy(o => o.Sequence);
         }
     }
 }

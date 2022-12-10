@@ -20,6 +20,10 @@ namespace GeneralInformation.Repository
         public ParagraphContentRepository ParagraphContentRepository { get; set; }
         public WikiPictureRepository WikiPictureRepository { get; set; }
         public PhoneSettingsRepository PhoneSettingsRepository { get; set; }
+        public TagRepository TagRepository { get; set; }
+        public TagItemRepository TagItemRepository { get; set; }
+        public AppMenuItemRepository AppMenuItemRepository { get; set; }
+        public RequestRecordRepository RequestRecordRepository { get; set; }
 
         public override void InitializeDatabase()
         {
@@ -31,10 +35,15 @@ namespace GeneralInformation.Repository
             ParagraphContentRepository = new ParagraphContentRepository(_dbHelper);
             WikiPictureRepository = new WikiPictureRepository(_dbHelper);
             PhoneSettingsRepository = new PhoneSettingsRepository(_dbHelper);
+            TagItemRepository = new TagItemRepository(_dbHelper);
+            TagRepository = new TagRepository(_dbHelper);
+            AppMenuItemRepository= new AppMenuItemRepository(_dbHelper);
+            RequestRecordRepository = new RequestRecordRepository(_dbHelper);
 
             base.CollectRepository(MasterRepository, MetadataRepository, ParagraphPrimaryContentRepository,
                 ParagraphHeader2Repository, ParagraphHeader3Repository, ParagraphContentRepository,
-                WikiPictureRepository, PhoneSettingsRepository);
+                WikiPictureRepository, PhoneSettingsRepository, TagItemRepository, TagRepository,
+                AppMenuItemRepository, RequestRecordRepository);
 
             base.InitializeDatabase();
         }

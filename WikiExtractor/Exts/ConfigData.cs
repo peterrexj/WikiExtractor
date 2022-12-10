@@ -10,8 +10,9 @@ namespace WikiExtractor.Exts
     {
         public static int MinLengthOfPictureCaption { get; set; } = 6;
 
-        public const string AdsIntersitialUnitId = "ca-app-pub-4219645367584712/3930965285";
-        public static int AdsIntersitialLimitOnRecord { get; set; } = 5;
+        public const string AdsIntersitialUnitId = "ca-app-pub-4219645367584712/3235891676";
+        //public const string AdsIntersitialUnitId = "ca-app-pub-3940256099942544/1033173712"; //Test
+        public static int AdsIntersitialLimitOnRecord { get; set; } = 1;
 
     }
 }

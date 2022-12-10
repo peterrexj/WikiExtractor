@@ -2,6 +2,7 @@
 using GeneralInformation.Repository;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
+using MarcTron.Plugin;
 using Pj.Library;
 using Syncfusion.SfAutoComplete.XForms;
 using Syncfusion.SfCarousel.XForms;
@@ -11,8 +12,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using WikiExtractor.Exts;
 using WikiExtractor.Process;
 using WikiExtractor.ViewModels;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -21,7 +25,10 @@ namespace GeneralInformation.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class WikiListOfItemsPage : ContentPage
     {
-        private readonly PersonaListViewModel personaListViewModel;
+        public static string Tag { get; set; }
+        public List<string> Tags => Tag.HasValue() ? Tag.SplitAndTrim(",").ToList() : new List<string>();
+
+        private PersonaListViewModel personaListViewModel;
         private readonly WikiAppController wikiAppController;
 
         //#region Back Press
@@ -51,16 +58,51 @@ namespace GeneralInformation.Views
         {
             InitializeComponent();
             wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
-            var data = wikiAppController.GetListOfWikiItems();
+            var data = wikiAppController.GetListOfWikiItems(Tags);
+            var title = wikiAppController.AppMenuItems().FirstOrDefault(f => f.Tags == string.Join(",", Tags)).TitleOnThePage ?? string.Empty;
 
             BindingContext = personaListViewModel = new PersonaListViewModel
             {
+                Title = title,
                 Personas = data,
                 AutocompleteList = data.Select(f => new WikiExtractor.ViewModels.PersonaAutoCompleteModel { Id = f.Id, Name = f.Name })
             };
             ThemeHelper.SetTheme();
+
+            try
+            {
+                DatabaseService.AppDatabase.PhoneSettingsRepository.InitializeGoogleAds();
+                CrossMTAdmob.Current.LoadInterstitial(ConfigData.AdsIntersitialUnitId);
+                CrossMTAdmob.Current.OnInterstitialOpened += Current_OnInterstitialOpened;
+            }
+            catch (Exception)
+            { }
         }
 
+        public void RunOnAppDispatcher(Action action)
+        {
+            try
+            {
+                App.Current.Dispatcher.BeginInvokeOnMainThread(() =>
+                {
+                    action();
+                });
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
+        private void Current_OnInterstitialOpened(object sender, EventArgs e)
+        {
+            try
+            {
+                DatabaseService.AppDatabase.PhoneSettingsRepository.GoogleAdsIntersitialUpdateLimit();
+            }
+            catch (Exception ex)
+            {
+            }
+        }
         private void autoComplete_SelectionChanged(object sender, Syncfusion.SfAutoComplete.XForms.SelectionChangedEventArgs e)
         {
             if (sender is SfAutoComplete)
@@ -72,9 +114,6 @@ namespace GeneralInformation.Views
                 }
             }
         }
-
-        //private string _filterText => 
-
         private bool FilterPersonas(object obj)
         {
             var filterText = string.Empty;
@@ -95,15 +134,30 @@ namespace GeneralInformation.Views
             return persona.Name.ContainsIgnoreCase(filterText);
         }
 
-        private async void lstSaints_SelectionChanged(object sender, Syncfusion.ListView.XForms.ItemSelectionChangedEventArgs e)
-        {
-            if (e != null && e.AddedItems.Count > 0)
-            {
-                var masterId = (e.AddedItems.First() as PersonaViewModel).Id;
-                var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
-                await Shell.Current.GoToAsync(route);
-            }
-        }
+        //private async void lstSaints_SelectionChanged(object sender, Syncfusion.ListView.XForms.ItemSelectionChangedEventArgs e)
+        //{
+        //    if (e != null && e.AddedItems.Count > 0)
+        //    {
+        //        DatabaseService.AppDatabase.RequestRecordRepository.UpdateCount();
+
+        //        if (/*ConfigData.AdsIsIntersitialDisplayed == false && */
+        //               DatabaseService.AppDatabase.RequestRecordRepository.RequestOnLimit &&
+        //               CrossMTAdmob.Current.IsInterstitialLoaded())
+        //        {
+        //            //RunOnAppDispatcher(() =>
+        //            //{
+        //            //    CrossMTAdmob.Current.ShowInterstitial();
+        //            //    CrossMTAdmob.Current.LoadInterstitial(ConfigData.AdsIntersitialUnitId);
+        //            //});
+        //        }
+        //        else
+        //        {
+        //            var masterId = (e.AddedItems.First() as PersonaViewModel).Id;
+        //            var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
+        //            await Shell.Current.GoToAsync(route);
+        //        }
+        //    }
+        //}
 
         private async void lstItemEffectsView_AnimationCompleted(object sender, EventArgs e)
         {
@@ -111,9 +165,22 @@ namespace GeneralInformation.Views
             {
                 if (sender is SfEffectsView && (sender as SfEffectsView).AutomationId.HasValue())
                 {
-                    var masterId = (sender as SfEffectsView).AutomationId;
-                    var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
-                    await Shell.Current.GoToAsync(route);
+                    DatabaseService.AppDatabase.RequestRecordRepository.UpdateCount();
+                    if (DatabaseService.AppDatabase.RequestRecordRepository.RequestOnLimit &&
+                        CrossMTAdmob.Current.IsInterstitialLoaded())
+                    {
+                        RunOnAppDispatcher(() =>
+                        {
+                            CrossMTAdmob.Current.ShowInterstitial();
+                            CrossMTAdmob.Current.LoadInterstitial(ConfigData.AdsIntersitialUnitId);
+                        });
+                    }
+                    else
+                    {
+                        var masterId = (sender as SfEffectsView).AutomationId;
+                        var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
+                        await Shell.Current.GoToAsync(route);
+                    }
                 }
             }
         }

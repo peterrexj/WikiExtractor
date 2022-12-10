@@ -47,126 +47,155 @@ namespace WikiExtractor.Process
 
         private MetaDataModel? ExtractInfoboxAbove(HtmlDocument htmlDoc)
         {
-            var nodes = helperHtml.LoadHtmlAndSelectNodes(htmlDoc, "//th[contains(@class, 'infobox-above')]");
-            if (nodes == null || nodes.IsEmpty()) return null;
-
-            var childNodes = nodes.FirstOrDefault()?.ChildNodes;
-            if (childNodes?.IsEmpty() == true) return null;
-
-            StringBuilder content = new();
-
-            var metaData = new MetaDataModel(_counter++, "Info", MetadataType.PrimaryHeader);
-            foreach (var cNode in childNodes!)
+            try
             {
-                if (cNode.Name.EqualsIgnoreCase("br"))
-                {
-                    content.Append(" ");
-                    //content.AppendLine();
-                }
-                else
-                {
-                    content.Append(cNode.DecodedInnerText(removeNewLine: true));
-                }
-            }
+                var nodes = helperHtml.LoadHtmlAndSelectNodes(htmlDoc, "//th[contains(@class, 'infobox-above')]");
+                if (nodes == null || nodes.IsEmpty()) return null;
 
-            metaData.Description = content.ToString();
-            return metaData;
+                var childNodes = nodes.FirstOrDefault()?.ChildNodes;
+                if (childNodes?.IsEmpty() == true) return null;
+
+                StringBuilder content = new();
+
+                var metaData = new MetaDataModel(_counter++, "Info", MetadataType.PrimaryHeader);
+                foreach (var cNode in childNodes!)
+                {
+                    if (cNode.Name.EqualsIgnoreCase("br"))
+                    {
+                        content.Append(" ");
+                        //content.AppendLine();
+                    }
+                    else
+                    {
+                        content.Append(cNode.DecodedInnerText(removeNewLine: true));
+                    }
+                }
+
+                metaData.Description = content.ToString();
+                return metaData;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
         private MetaDataModel? ExtractInfoboxImage(HtmlDocument htmlDoc)
         {
-            var nodes = helperHtml.LoadHtmlAndSelectNodes(htmlDoc, "//td[contains(@class, 'infobox-image')]");
-            if (nodes == null || nodes.IsEmpty()) return null;
-
-            var childNodes = nodes.FirstOrDefault()?.ChildNodes;
-            if (childNodes?.IsEmpty() == true) return null;
-
-            var metaData = new MetaDataModel(_counter++, "Image", MetadataType.Image);
-            foreach (var cNode in childNodes!)
+            try
             {
-                if (cNode.Name.EqualsIgnoreCase("a"))
+                var nodes = helperHtml.LoadHtmlAndSelectNodes(htmlDoc, "//td[contains(@class, 'infobox-image')]");
+                if (nodes == null || nodes.IsEmpty()) return null;
+
+                var childNodes = nodes.FirstOrDefault()?.ChildNodes;
+                if (childNodes?.IsEmpty() == true) return null;
+
+                var metaData = new MetaDataModel(_counter++, "Image", MetadataType.Image);
+                foreach (var cNode in childNodes!)
                 {
-                    var img = cNode.ChildNodes?.Where(c => c.Name.EqualsIgnoreCase("img"))?.FirstOrDefault() ?? null;
-                    if (img != null)
+                    if (cNode.Name.EqualsIgnoreCase("a"))
                     {
-                        img.Attributes?.Where(s => s.Name.HasValue() && s.Value.HasValue())
-                            .Iter(s => metaData.CustomMetadata.AddOrUpdate(s.Name, s.Value));
+                        var img = cNode.ChildNodes?.Where(c => c.Name.EqualsIgnoreCase("img"))?.FirstOrDefault() ?? null;
+                        if (img != null)
+                        {
+                            img.Attributes?.Where(s => s.Name.HasValue() && s.Value.HasValue())
+                                .Iter(s => metaData.CustomMetadata.AddOrUpdate(s.Name, s.Value));
+                        }
                     }
                 }
+                return metaData;
             }
-            return metaData;
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         private MetaDataModel? ExtractInfoboxHeader(HtmlDocument htmlDoc)
         {
-            var nodes = helperHtml.LoadHtmlAndSelectNodes(htmlDoc, "//th[contains(@class, 'infobox-header')]");
-            if (nodes == null || nodes.IsEmpty()) return null;
-
-            var description = nodes.FirstOrDefault()?.DecodedInnerText(removeNewLine: true) ?? string.Empty;
-            if (description.IsEmpty()) return null;
-
-            return new MetaDataModel(_counter++, "Header", MetadataType.GroupHeader)
+            try
             {
-                Description = description
-            };
+                var nodes = helperHtml.LoadHtmlAndSelectNodes(htmlDoc, "//th[contains(@class, 'infobox-header')]");
+                if (nodes == null || nodes.IsEmpty()) return null;
+
+                var description = nodes.FirstOrDefault()?.DecodedInnerText(removeNewLine: true) ?? string.Empty;
+                if (description.IsEmpty()) return null;
+
+                return new MetaDataModel(_counter++, "Header", MetadataType.GroupHeader)
+                {
+                    Description = description
+                };
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         private MetaDataModel? ExtractInfoboxLabel(HtmlDocument htmlDoc)//, int currentCount)
         {
-            var nodes = helperHtml.LoadHtmlAndSelectNodes(htmlDoc, "//th[contains(@class, 'infobox-label')]");
-            if (nodes == null || nodes.IsEmpty()) return null;
-
-            var nextSiblingChildNodes = nodes.FirstOrDefault()?.NextSibling?.ChildNodes;
-            if (nextSiblingChildNodes == null || nextSiblingChildNodes.IsEmpty()) return null;
-
-            var metaData = new MetaDataModel(_counter++, "", MetadataType.Detail)
+            try
             {
-                Name = nodes.FirstOrDefault()?.DecodedInnerText(removeNewLine: true) ?? ""
-            };
+                var nodes = helperHtml.LoadHtmlAndSelectNodes(htmlDoc, "//th[contains(@class, 'infobox-label')]");
+                if (nodes == null || nodes.IsEmpty()) return null;
 
-            StringBuilder content = new();
+                var nextSiblingChildNodes = nodes.FirstOrDefault()?.NextSibling?.ChildNodes;
+                if (nextSiblingChildNodes == null || nextSiblingChildNodes.IsEmpty()) return null;
 
-            foreach (var cNode in nextSiblingChildNodes)
-            {
-                if (cNode.Name.EqualsIgnoreCase("br"))
+                var metaData = new MetaDataModel(_counter++, "", MetadataType.Detail)
                 {
-                    content.Append(" ");
-                    //content.AppendLine();
-                }
-                else
+                    Name = nodes.FirstOrDefault()?.DecodedInnerText(removeNewLine: true) ?? ""
+                };
+
+                StringBuilder content = new();
+
+                foreach (var cNode in nextSiblingChildNodes)
                 {
-                    if (cNode.DecodedInnerText(removeNewLine: true).HasValue())
+                    if (cNode.Name.EqualsIgnoreCase("br"))
                     {
-                        string appendSpace = "";
-                        if (content.ToString().HasValue() &&
-                            !(content.ToString().EndsWith(" ") ||
-                                cNode.DecodedInnerText(removeNewLine: true).StartsWith(" ") ||
-                                cNode.DecodedInnerText(removeNewLine: true).StartsWith(",") ||
-                                content.ToString().EndsWith(Environment.NewLine)))
+                        content.Append(" ");
+                        //content.AppendLine();
+                    }
+                    else
+                    {
+                        if (cNode.DecodedInnerText(removeNewLine: true).HasValue())
                         {
-                            appendSpace = " ";
-                        }
-                        var listItems = helperHtml.LoadHtmlAndSelectNodes(cNode.InnerHtml, "//li")?.Select(f => HtmlAgilityEx.DecodedInnerText(f.InnerText, false).Trim())?.ToList() ?? new List<string>();
-                        if (listItems.Count > 0)
-                        {
-                            var rawContent = cNode.DecodedInnerText(removeNewLine: true);
-                            foreach (var listItem in listItems)
+                            string appendSpace = "";
+                            if (content.ToString().HasValue() &&
+                                !(content.ToString().EndsWith(" ") ||
+                                    cNode.DecodedInnerText(removeNewLine: true).StartsWith(" ") ||
+                                    cNode.DecodedInnerText(removeNewLine: true).StartsWith(",") ||
+                                    content.ToString().EndsWith(Environment.NewLine)))
                             {
-                                rawContent = rawContent.Replace(listItem, "");
+                                appendSpace = " ";
                             }
-                            rawContent += string.Join(Environment.NewLine, listItems);
-                            content.Append($"{appendSpace}{rawContent}");
-                        }
-                        else
-                        {
-                            content.Append($"{appendSpace}{cNode.DecodedInnerText(removeNewLine: true)}");
-                        }
+                            var listItems = helperHtml.LoadHtmlAndSelectNodes(cNode.InnerHtml, "//li")?.Select(f => HtmlAgilityEx.DecodedInnerText(f.InnerText, false).Trim())?.ToList() ?? new List<string>();
+                            if (listItems.Count > 0 && listItems.Any(f => f.HasValue()))
+                            {
+                                var rawContent = cNode.DecodedInnerText(removeNewLine: true);
+                                foreach (var listItem in listItems.Where(f => f.HasValue()))
+                                {
+                                    rawContent = rawContent.Replace(listItem, "");
+                                }
+                                rawContent += string.Join(Environment.NewLine, listItems);
+                                content.Append($"{appendSpace}{rawContent}");
+                            }
+                            else
+                            {
+                                content.Append($"{appendSpace}{cNode.DecodedInnerText(removeNewLine: true)}");
+                            }
 
+                        }
                     }
                 }
+                metaData.Description = content.ToString();
+                return metaData;
             }
-            metaData.Description = content.ToString();
-            return metaData;
+            catch (Exception)
+            {
+                //throw;
+                return null;
+            }
         }
     }
 }

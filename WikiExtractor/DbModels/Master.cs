@@ -11,5 +11,6 @@ namespace WikiExtractor.DbModels
     {
         public string Name { get; set; }
         public string Route { get; set; }
+        public int Sequence { get; set; }
     }
 }

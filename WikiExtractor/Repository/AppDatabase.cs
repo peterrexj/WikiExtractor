@@ -23,7 +23,7 @@ namespace WikiExtractor.Repository
         {
             if (!AppDatabase.IsInitialized && CreateNew)
             {
-                IoHelper.DeleteFile(ProcessConstants.DatabasePath);
+                //IoHelper.DeleteFile(ProcessConstants.DatabasePath);
                 _dbHelper = new DatabaseHelper(DatabaseHelper.DatabaseType.SqLite, new[] { ProcessConstants.DatabasePath });
                 ApplySchema();
             }

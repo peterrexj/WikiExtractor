@@ -7,15 +7,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using WikiExtractor.Exts;
+using WikiExtractor.Models;
 
 namespace WikiExtractor.Process
 {
     public class TabularInformationExtractor
     {
-        public Dictionary<string, string> ExtractTabularData(HtmlDocument document)
+        public List<WikiWhatToExtractModel> ExtractListOfSaintsTabularData(HtmlDocument document, List<string>? tags)
         {
-            Dictionary<string, string> listOfNames = new Dictionary<string, string>();
+            List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
             var temp = document.DocumentNode.SelectNodes("//table[contains(@class, 'wikitable ')]/tbody/tr");
+            int counter = 0;
             bool hasExtracted = false;
             foreach (var item in temp)
             {
@@ -31,11 +33,132 @@ namespace WikiExtractor.Process
                             if (anchor.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()) &&
                                anchor.Attributes.Any(a => a.Name == "title" && a.Value.HasValue()))
                             {
-                                listOfNames.AddOrUpdate(
-                                    anchor.Attributes["title"].Value,
-                                    HttpUtility.UrlDecode(
-                                        HtmlAgilityEx.DecodedInnerText(content: anchor.Attributes["href"].Value, removeNewLine: false)));
+                                var route = HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: anchor.Attributes["href"].Value, removeNewLine: false));
+                                var title = HtmlAgilityEx.DecodedInnerText(anchor.Attributes["title"].Value, false);
+                                if (!listOfNames.Any(f => f.Route == route))
+                                {
+                                    listOfNames.Add(new WikiWhatToExtractModel { Route = route, Title = title, Tags = tags, Sequence = ++counter });
+                                }
                                 hasExtracted = true;
+                            }
+                        }
+                    }
+                }
+            }
+            return listOfNames;
+        }
+
+        public List<WikiWhatToExtractModel> ExtractPatronSaintsListData(HtmlDocument document, List<string>? tags)
+        {
+            List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
+            var temp = document.DocumentNode.SelectNodes("//li");
+            int counter = 0;
+            foreach (var item in temp)
+            {
+                if (item.InnerText.EqualsIgnoreCase("Saints portal"))
+                {
+                    break;
+                }
+                else if (item.InnerText.RegexMatching("(\\S+) - (\\S+)"))
+                {
+                    var splits = string.Join("", item.InnerHtml.SplitAndTrim("-").Skip(1));
+                    var tempDoc = new HtmlDocument();
+                    tempDoc.LoadHtml(splits);
+                    var anchors = tempDoc.DocumentNode.SelectNodes("//a");
+                    foreach (var anchor in anchors)
+                    {
+                        if (anchor != null && anchor.Attributes.Count > 0)
+                        {
+                            if (anchor.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()) &&
+                               anchor.Attributes.Any(a => a.Name == "title" && a.Value.HasValue()))
+                            {
+                                var route = HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: anchor.Attributes["href"].Value, removeNewLine: false));
+                                var title = HtmlAgilityEx.DecodedInnerText(anchor.Attributes["title"].Value, false);
+                                if (!listOfNames.Any(f => f.Route == route))
+                                {
+                                    listOfNames.Add(new WikiWhatToExtractModel { Route = route, Title = title, Tags = tags, Sequence = ++counter });
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            return listOfNames;
+        }
+
+        public List<WikiWhatToExtractModel> ExtractSaintsByAllPopeListData(HtmlDocument document, List<string>? tags)
+        {
+            List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
+            var temp = document.DocumentNode.SelectNodes("//table[contains(@class, 'wikitable')]//tr//td/a");
+            int counter = 0;
+            foreach (var item in temp)
+            {
+                if (item.Name.EqualsIgnoreCase("a"))
+                {
+                    if (item.Attributes.Count > 0)
+                    {
+                        if (item.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()) &&
+                           item.Attributes.Any(a => a.Name == "title" && a.Value.HasValue()))
+                        {
+                            var route = HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: item.Attributes["href"].Value, removeNewLine: false));
+                            var title = HtmlAgilityEx.DecodedInnerText(item.Attributes["title"].Value, false);
+                            if (!listOfNames.Any(f => f.Route == route))
+                            {
+                                listOfNames.Add(new WikiWhatToExtractModel { Route = route, Title = title, Tags = tags, Sequence = ++counter });
+                            }
+                        }
+                    }
+                }
+            }
+            return listOfNames;
+        }
+
+        public List<WikiWhatToExtractModel> ExtractSaintsByEachPopeListData(HtmlDocument document, List<string>? tags)
+        {
+            List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
+            var temp = document.DocumentNode.SelectNodes("//table[contains(@class, 'wikitable')]//tr//td[2]/a");
+            int counter = 0;
+            foreach (var item in temp)
+            {
+                if (item.Name.EqualsIgnoreCase("a"))
+                {
+                    if (item.Attributes.Count > 0)
+                    {
+                        if (item.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()) &&
+                           item.Attributes.Any(a => a.Name == "title" && a.Value.HasValue()))
+                        {
+                            var route = HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: item.Attributes["href"].Value, removeNewLine: false));
+                            var title = HtmlAgilityEx.DecodedInnerText(item.Attributes["title"].Value, false);
+                            if (!listOfNames.Any(f => f.Route == route))
+                            {
+                                listOfNames.Add(new WikiWhatToExtractModel { Route = route, Title = title, Tags = tags, Sequence = ++counter });
+                            }
+                        }
+                    }
+                }
+            }
+            return listOfNames;
+        }
+
+        public List<WikiWhatToExtractModel> ExtractSaintsByCentury(HtmlDocument document, List<string>? tags)
+        {
+            List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
+            var temp = document.DocumentNode.SelectNodes("//table[contains(@class, 'wikitable')]//tr//td[1]/a");
+            int counter = 0;
+            foreach (var item in temp)
+            {
+                if (item.Name.EqualsIgnoreCase("a"))
+                {
+                    if (item.Attributes.Count > 0)
+                    {
+                        if (item.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()) &&
+                           item.Attributes.Any(a => a.Name == "title" && a.Value.HasValue()))
+                        {
+                            var route = HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: item.Attributes["href"].Value, removeNewLine: false));
+                            var title = HtmlAgilityEx.DecodedInnerText(item.Attributes["title"].Value, false);
+                            if (!listOfNames.Any(f => f.Route == route))
+                            {
+                                listOfNames.Add(new WikiWhatToExtractModel { Route = route, Title = title, Tags = tags, Sequence = ++counter });
                             }
                         }
                     }

@@ -3,7 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Input;
 using WikiExtractor.ViewModels;
+using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace GeneralInformation.ViewModels
 {
@@ -15,6 +18,7 @@ namespace GeneralInformation.ViewModels
         }
         private int selectedTabIndex;
         public int SelectedTabIndex { get => selectedTabIndex; set => SetProperty(ref selectedTabIndex, value); }
+        public ICommand TapHyperLinkToWikiPage => new Command<string>(async (url) => await Launcher.OpenAsync($"https://en.wikipedia.org/{url}"));
 
         private PersonaViewModel _persona;
         public PersonaViewModel Persona

@@ -12,6 +12,9 @@ namespace WikiExtractor.Repository
         ParagraphPrimaryContentRepository ParagraphPrimaryContentRepository { get; set; }
         WikiPictureRepository WikiPictureRepository { get; set; }
         PhoneSettingsRepository PhoneSettingsRepository { get; set; }
+        TagRepository TagRepository { get; set; }
+        TagItemRepository TagItemRepository { get; set; }
+        AppMenuItemRepository AppMenuItemRepository { get; set; }
 
         void InitializeDatabase();
     }

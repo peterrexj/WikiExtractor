@@ -134,7 +134,7 @@ namespace WikiExtractor.Process
                 var headerText = document.DocumentNode.SelectSingleNode("//h1//span").DecodedInnerText(removeNewLine: true);
                 var returnValue = new WikiPageModel
                 {
-                    Header = headerText.HasValue() && headerText.Length > name.Length ? headerText : name,
+                    Header = headerText.HasValue() && headerText.Length > name?.Length ? headerText : name,
                     Route = route,
                     WikiParaCollection = returnList,
                     WikiPictureCollection = imageDetailsList,
