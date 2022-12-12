@@ -58,19 +58,25 @@
       <Version>1.9.0.3</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library">
-      <Version>1.0.4.12</Version>
+      <Version>1.0.4.14</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Datastore">
-      <Version>1.0.4.12</Version>
+      <Version>1.0.4.14</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Mobile">
-      <Version>1.0.4.12</Version>
+      <Version>1.0.4.14</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Secure">
-      <Version>1.0.4.12</Version>
+      <Version>1.0.4.14</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
+    <PackageReference Include="Xamarin.AndroidX.Browser">
+      <Version>1.4.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Ads">
+      <Version>121.3.0</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeviceDependencyImpl\SqliteFileHelper_Android.cs" />

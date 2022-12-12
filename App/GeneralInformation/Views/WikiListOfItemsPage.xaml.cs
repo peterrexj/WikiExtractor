@@ -3,6 +3,7 @@ using GeneralInformation.Repository;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
 using MarcTron.Plugin;
+using Microsoft.AppCenter.Crashes;
 using Pj.Library;
 using Syncfusion.SfAutoComplete.XForms;
 using Syncfusion.SfCarousel.XForms;
@@ -72,11 +73,13 @@ namespace GeneralInformation.Views
             try
             {
                 DatabaseService.AppDatabase.PhoneSettingsRepository.InitializeGoogleAds();
-                CrossMTAdmob.Current.LoadInterstitial(ConfigData.AdsIntersitialUnitId);
+                CrossMTAdmob.Current.LoadInterstitial(personaListViewModel.AdsInterstitialId);
                 CrossMTAdmob.Current.OnInterstitialOpened += Current_OnInterstitialOpened;
             }
-            catch (Exception)
-            { }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
         }
 
         public void RunOnAppDispatcher(Action action)
@@ -90,6 +93,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
+                Crashes.TrackError(ex);
             }
         }
 
@@ -101,37 +105,53 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
+                Crashes.TrackError(ex);
             }
         }
         private void autoComplete_SelectionChanged(object sender, Syncfusion.SfAutoComplete.XForms.SelectionChangedEventArgs e)
         {
-            if (sender is SfAutoComplete)
+            try
             {
-                if (lstSaints.DataSource != null)
+                if (sender is SfAutoComplete)
                 {
-                    lstSaints.DataSource.Filter = FilterPersonas;
-                    lstSaints.DataSource.RefreshFilter();
+                    if (lstSaints.DataSource != null)
+                    {
+                        lstSaints.DataSource.Filter = FilterPersonas;
+                        lstSaints.DataSource.RefreshFilter();
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
             }
         }
         private bool FilterPersonas(object obj)
         {
-            var filterText = string.Empty;
-            if (autoComplete.SelectedItem != null)
+            try
             {
-                filterText = (autoComplete.SelectedItem as PersonaAutoCompleteModel).Name;
+                var filterText = string.Empty;
+                if (autoComplete.SelectedItem != null)
+                {
+                    filterText = (autoComplete.SelectedItem as PersonaAutoCompleteModel).Name;
+                }
+                else if (autoComplete.Text.HasValue())
+                {
+                    filterText = autoComplete.Text;
+                }
+                else if (autoComplete.Text.IsEmpty())
+                {
+                    return true;
+                }
+
+                var persona = obj as PersonaViewModel;
+                return persona.Name.ContainsIgnoreCase(filterText);
             }
-            else if (autoComplete.Text.HasValue())
+            catch (Exception ex)
             {
-                filterText = autoComplete.Text;
-            }
-            else if (autoComplete.Text.IsEmpty())
-            {
+                Crashes.TrackError(ex);
                 return true;
             }
-
-            var persona = obj as PersonaViewModel;
-            return persona.Name.ContainsIgnoreCase(filterText);
         }
 
         //private async void lstSaints_SelectionChanged(object sender, Syncfusion.ListView.XForms.ItemSelectionChangedEventArgs e)
@@ -161,40 +181,54 @@ namespace GeneralInformation.Views
 
         private async void lstItemEffectsView_AnimationCompleted(object sender, EventArgs e)
         {
-            if (sender != null)
+            try
             {
-                if (sender is SfEffectsView && (sender as SfEffectsView).AutomationId.HasValue())
+                if (sender != null)
                 {
-                    DatabaseService.AppDatabase.RequestRecordRepository.UpdateCount();
-                    if (DatabaseService.AppDatabase.RequestRecordRepository.RequestOnLimit &&
-                        CrossMTAdmob.Current.IsInterstitialLoaded())
+                    if (sender is SfEffectsView && (sender as SfEffectsView).AutomationId.HasValue())
                     {
-                        RunOnAppDispatcher(() =>
+                        DatabaseService.AppDatabase.RequestRecordRepository.UpdateCount();
+                        if (DatabaseService.AppDatabase.RequestRecordRepository.RequestOnLimit &&
+                            CrossMTAdmob.Current.IsInterstitialLoaded())
                         {
-                            CrossMTAdmob.Current.ShowInterstitial();
-                            CrossMTAdmob.Current.LoadInterstitial(ConfigData.AdsIntersitialUnitId);
-                        });
-                    }
-                    else
-                    {
-                        var masterId = (sender as SfEffectsView).AutomationId;
-                        var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
-                        await Shell.Current.GoToAsync(route);
+                            RunOnAppDispatcher(() =>
+                            {
+                                CrossMTAdmob.Current.ShowInterstitial();
+                                CrossMTAdmob.Current.LoadInterstitial(personaListViewModel.AdsInterstitialId);
+                            });
+                        }
+                        else
+                        {
+                            var masterId = (sender as SfEffectsView).AutomationId;
+                            var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
+                            await Shell.Current.GoToAsync(route);
+                        }
                     }
                 }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
             }
         }
 
         private void autoComplete_Completed(object sender, EventArgs e)
         {
-            if (sender is SfAutoComplete)
+            try
             {
-                if (lstSaints.DataSource != null)
+                if (sender is SfAutoComplete)
                 {
-                    lstSaints.DataSource.Filter = FilterPersonas;
-                    lstSaints.DataSource.RefreshFilter();
-                    autoComplete.IsDropDownOpen = false;
+                    if (lstSaints.DataSource != null)
+                    {
+                        lstSaints.DataSource.Filter = FilterPersonas;
+                        lstSaints.DataSource.RefreshFilter();
+                        autoComplete.IsDropDownOpen = false;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
             }
         }
     }

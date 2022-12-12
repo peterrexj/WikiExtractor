@@ -5,6 +5,9 @@ using System;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace GeneralInformation
 {
@@ -14,6 +17,16 @@ namespace GeneralInformation
         {
             InitializeComponent();
             MainPage = new AppShell();
+            if (!AppCenter.Configured)
+            {
+                AppCenter.Start("android=4a88ff7e-2001-4194-8ed2-3913845c6fe0;"
+                      //  +
+                      //"uwp={Your UWP App secret here};" +
+                      //"ios={Your iOS App secret here};" +
+                      //"macos={Your macOS App secret here};"
+                      ,
+                      typeof(Analytics), typeof(Crashes));
+            }
         }
 
         protected override void OnStart()

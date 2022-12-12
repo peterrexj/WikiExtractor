@@ -1,8 +1,6 @@
-﻿using Pj.Library;
-using System;
-using System.Collections.Generic;
+﻿using GeneralInformation.Services;
+using Pj.Library;
 using System.Linq;
-using System.Text;
 using System.Windows.Input;
 using WikiExtractor.ViewModels;
 using Xamarin.Essentials;
@@ -15,6 +13,9 @@ namespace GeneralInformation.ViewModels
         public PersonaDetailViewModel()
         {
             selectedTabIndex = -1;
+
+            AdsInterstitialId = DependencyService.Get<IAppInformation>().AdsInterstitialId;
+            AdsBannerId = DependencyService.Get<IAppInformation>().AdsBannerId;
         }
         private int selectedTabIndex;
         public int SelectedTabIndex { get => selectedTabIndex; set => SetProperty(ref selectedTabIndex, value); }
@@ -83,5 +84,35 @@ namespace GeneralInformation.ViewModels
                 OnPropertyChanged("CurrentSelectedPictureCaption");
             }
         }
+
+        #region Ads
+        private string _adsBannerId;
+        public string AdsBannerId
+        {
+            get
+            {
+                return _adsBannerId;
+            }
+            set
+            {
+                _adsBannerId = value;
+                OnPropertyChanged("AdsBannerId");
+            }
+        }
+
+        private string _adsInterstitialId;
+        public string AdsInterstitialId
+        {
+            get
+            {
+                return _adsInterstitialId;
+            }
+            set
+            {
+                _adsInterstitialId = value;
+                OnPropertyChanged("AdsInterstitialId");
+            }
+        }
+        #endregion
     }
 }
