@@ -1,5 +1,6 @@
 ﻿using GeneralInformation.Repository;
 using GeneralInformation.ViewModels;
+using Microsoft.AppCenter.Crashes;
 using Pj.Library;
 using Syncfusion.SfCarousel.XForms;
 using Syncfusion.XForms.Border;
@@ -29,35 +30,47 @@ namespace GeneralInformation.Views
 
         public PersonaDetailPage()
         {
-            InitializeComponent();
-            wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
-            personaDetailViewModel = new PersonaDetailViewModel();
-            BindingContext = personaDetailViewModel = new PersonaDetailViewModel();
+            try
+            {
+                InitializeComponent();
+                wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
+                personaDetailViewModel = new PersonaDetailViewModel();
+                BindingContext = personaDetailViewModel = new PersonaDetailViewModel();
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
         }
 
         protected override async void OnAppearing()
         {
-            base.OnAppearing();
-            int.TryParse(MasterId, out var result);
-            personaDetailViewModel.Persona = wikiAppController.GetViewModelById(result);
-            tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount;
-            if (personaDetailViewModel.IsPicturesAvailable)
+            try
             {
-                personaDetailViewModel.CurrentSelectedPictureCaption = personaDetailViewModel.Persona.Pictures.FirstOrDefault().PictureCaption;
-            }
+                base.OnAppearing();
+                int.TryParse(MasterId, out var result);
+                personaDetailViewModel.Persona = wikiAppController.GetViewModelById(result);
+                tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount;
+                if (personaDetailViewModel.IsPicturesAvailable)
+                {
+                    personaDetailViewModel.CurrentSelectedPictureCaption = personaDetailViewModel.Persona.Pictures.FirstOrDefault().PictureCaption;
+                }
 
-            foreach (var para in personaDetailViewModel.Persona.Paragraphs)
-            {
-                ParaContentsStack.Children.Add(RenderPara2ContentV2(para));
+                foreach (var para in personaDetailViewModel.Persona.Paragraphs)
+                {
+                    ParaContentsStack.Children.Add(RenderPara2ContentV2(para));
+                }
+                await ApplyTabSelectionChangeEvent();
             }
-            await ApplyTabSelectionChangeEvent();
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
         }
 
         private Grid RenderPara2ContentV2(Paragraph2ContentViewModel paraContent)
         {
-
             var mainGrid = new Grid();
-
             var sfGradient = new SfGradientView();
 
             var grStart = new SfGradientStop();
@@ -296,9 +309,16 @@ namespace GeneralInformation.Views
 
         private void carousel_SelectionChanged(object sender, Syncfusion.SfCarousel.XForms.SelectionChangedEventArgs e)
         {
-            if (e != null && e.SelectedItem != null)
+            try
             {
-                personaDetailViewModel.CurrentSelectedPictureCaption = (e.SelectedItem as PictureViewModel).PictureCaption;
+                if (e != null && e.SelectedItem != null)
+                {
+                    personaDetailViewModel.CurrentSelectedPictureCaption = (e.SelectedItem as PictureViewModel).PictureCaption;
+                }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
             }
         }
         public void RunOnAppDispatcher(Action action)
@@ -312,7 +332,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-
+                Crashes.TrackError(ex);
             }
         }
 
@@ -330,6 +350,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
+                Crashes.TrackError(ex);
             }
             finally
             {
@@ -411,7 +432,9 @@ namespace GeneralInformation.Views
                         }
                     }
                     catch (Exception ex)
-                    { }
+                    { 
+                        Crashes.TrackError(ex);
+                    }
                 });
             });
 
@@ -429,7 +452,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-
+                Crashes.TrackError(ex);
             }
             finally
             {

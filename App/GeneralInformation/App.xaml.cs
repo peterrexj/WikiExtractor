@@ -19,7 +19,7 @@ namespace GeneralInformation
             MainPage = new AppShell();
             if (!AppCenter.Configured)
             {
-                AppCenter.Start("android=4a88ff7e-2001-4194-8ed2-3913845c6fe0;"
+                AppCenter.Start($"android={DependencyService.Get<IAppInformation>().AppCentreAppKeyDroid};"
                       //  +
                       //"uwp={Your UWP App secret here};" +
                       //"ios={Your iOS App secret here};" +

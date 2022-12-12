@@ -232,7 +232,7 @@
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
             </tabView:SfTabView>
-            <admob:MTAdView AdsId="{Binding AdsBannerId}" HeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=90}, iOS={OnIdiom Phone=50, Tablet=90}, UWP={OnIdiom Phone=50, Tablet=90, Desktop=90}, macOS=90, WPF=90}" />
+            <admob:MTAdView AdsId="{Binding AdsBannerId}" HeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=50}, iOS={OnIdiom Phone=50, Tablet=50}, UWP={OnIdiom Phone=50, Tablet=90, Desktop=90}, macOS=90, WPF=90}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
