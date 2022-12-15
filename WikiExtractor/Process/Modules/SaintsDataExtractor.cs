@@ -27,6 +27,7 @@ namespace WikiExtractor.Process.Modules
             var appCtrl = new WikiAppController(new WikiDatabase());
             var extractProcess = new WikiPageExtractionStore();
 
+            //Adding Menu Items
             appCtrl.AddMenuItem("All Saints", "All", "Saints", 1);
             appCtrl.AddMenuItem("Canonized by Pope Francis", "Canonized by Pope Francis", "Canonized by Pope Francis", 2);
             appCtrl.AddMenuItem("Canonized by Pope John Paul II", "Canonized by Pope John Paul II", "Canonized by Pope John Paul II", 3);
@@ -61,6 +62,7 @@ namespace WikiExtractor.Process.Modules
             appCtrl.AddMenuItem("2nd Century", "2nd Century", "2nd Century Saints", 32);
             appCtrl.AddMenuItem("1st Century", "1st Century", "1st Century Saints", 33);
 
+            //Extracting data based on tags
             var listOfSaintsByEachPope01 = extractProcess.SaintsExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Benedict_XVI", new List<string> { "All", "Canonized by Pope John Paul II" });
             var listOfSaintsByEachPope02 = extractProcess.SaintsExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_John_Paul_II", new List<string> { "All", "Canonized by Pope John Paul II" });
             var listOfSaintsByEachPope03 = extractProcess.SaintsExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Leo_XIII", new List<string> { "All", "Canonized by Pope Leo XIII" });
@@ -92,6 +94,7 @@ namespace WikiExtractor.Process.Modules
             var listOfSaintsByCentury20 = extractProcess.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_20th_century", new List<string> { "All", "20th Century" });
             var listOfSaintsByCentury21 = extractProcess.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_21st_century", new List<string> { "All", "21th Century" });
 
+            
             var listOfSaintsByAllPope = extractProcess.SaintsExtractByAllPopeListData("/wiki/List_of_saints_by_pope", new List<string> { "All", "By Pope" });
             var listOfPatronSaints = extractProcess.SaintsExtractPatronSaintsListData("/wiki/List_of_patron_saints_by_occupation_and_activity", new List<string> { "All", "Patron Saints" });
             var listOfSaints = extractProcess.SaintsExtractListTabularData("/wiki/List_of_saints", new List<string> { "All" });

@@ -31,16 +31,18 @@
                                              HighlightedTextFontAttributes="Bold"
                                              ClearButtonColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
                                              NoResultsFoundTextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
-                                             
+                                             IsEnabled="{Binding IsBusy}"
                                              NoResultsFoundText="No Results Found"
                                              SelectionChanged="autoComplete_SelectionChanged"
                                              Completed="autoComplete_Completed"
+                                             ValueChanged="autoComplete_ValueChanged"
                                              ShowClearButton="True"
-                                             />
+                />
             <!--MaximumSuggestion="10" LoadMoreText=" Tap to load"-->
-            <syncfusionList:SfListView x:Name="lstSaints" 
+            <syncfusionList:SfListView x:Name="lstListOfItems" 
                                        BackgroundColor="Transparent"
                                        SelectionMode="None"
+                                       IsEnabled="{Binding IsBusy}"
                                        ItemsSource="{Binding Personas}" 
                                        AllowSwiping="True" AutoFitMode="DynamicHeight">
                 <syncfusionList:SfListView.ItemTemplate>
@@ -69,8 +71,8 @@
 											   BorderWidth="0" VerticalOptions="Center">
                                         <Grid>
                                             <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.15*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
-                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.85*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
+                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.10*}, iOS={OnIdiom Phone=0.35*, Tablet=0.10*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
+                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.90*}, iOS={OnIdiom Phone=0.65*, Tablet=0.90*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
                                             </Grid.ColumnDefinitions>
 
 

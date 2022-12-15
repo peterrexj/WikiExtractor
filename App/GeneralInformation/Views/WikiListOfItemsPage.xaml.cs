@@ -58,17 +58,24 @@ namespace GeneralInformation.Views
         public WikiListOfItemsPage()
         {
             InitializeComponent();
-            wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
-            var data = wikiAppController.GetListOfWikiItems(Tags);
-            var title = wikiAppController.AppMenuItems().FirstOrDefault(f => f.Tags == string.Join(",", Tags)).TitleOnThePage ?? string.Empty;
-
-            BindingContext = personaListViewModel = new PersonaListViewModel
+            try
             {
-                Title = title,
-                Personas = data,
-                AutocompleteList = data.Select(f => new WikiExtractor.ViewModels.PersonaAutoCompleteModel { Id = f.Id, Name = f.Name })
-            };
-            ThemeHelper.SetTheme();
+                wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
+                var data = wikiAppController.GetListOfWikiItems(Tags);
+                var title = wikiAppController.AppMenuItems().FirstOrDefault(f => f.Tags == string.Join(",", Tags)).TitleOnThePage ?? string.Empty;
+
+                BindingContext = personaListViewModel = new PersonaListViewModel
+                {
+                    Title = title,
+                    Personas = data,
+                    AutocompleteList = data.Select(f => new WikiExtractor.ViewModels.PersonaAutoCompleteModel { Id = f.Id, Name = f.Name })
+                };
+                ThemeHelper.SetTheme();
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
 
             try
             {
@@ -80,6 +87,7 @@ namespace GeneralInformation.Views
             {
                 Crashes.TrackError(ex);
             }
+            personaListViewModel.IsBusy = false;
         }
 
         public void RunOnAppDispatcher(Action action)
@@ -112,18 +120,23 @@ namespace GeneralInformation.Views
         {
             try
             {
+                personaListViewModel.IsBusy = true;
                 if (sender is SfAutoComplete)
                 {
-                    if (lstSaints.DataSource != null)
+                    if (lstListOfItems.DataSource != null)
                     {
-                        lstSaints.DataSource.Filter = FilterPersonas;
-                        lstSaints.DataSource.RefreshFilter();
+                        lstListOfItems.DataSource.Filter = FilterPersonas;
+                        lstListOfItems.DataSource.RefreshFilter();
                     }
                 }
             }
             catch (Exception ex)
             {
                 Crashes.TrackError(ex);
+            }
+            finally
+            {
+                personaListViewModel.IsBusy = false;
             }
         }
         private bool FilterPersonas(object obj)
@@ -154,7 +167,7 @@ namespace GeneralInformation.Views
             }
         }
 
-        //private async void lstSaints_SelectionChanged(object sender, Syncfusion.ListView.XForms.ItemSelectionChangedEventArgs e)
+        //private async void lstListOfItems_SelectionChanged(object sender, Syncfusion.ListView.XForms.ItemSelectionChangedEventArgs e)
         //{
         //    if (e != null && e.AddedItems.Count > 0)
         //    {
@@ -187,6 +200,7 @@ namespace GeneralInformation.Views
                 {
                     if (sender is SfEffectsView && (sender as SfEffectsView).AutomationId.HasValue())
                     {
+                        personaListViewModel.IsBusy = true;
                         DatabaseService.AppDatabase.RequestRecordRepository.UpdateCount();
                         if (DatabaseService.AppDatabase.RequestRecordRepository.RequestOnLimit &&
                             CrossMTAdmob.Current.IsInterstitialLoaded())
@@ -210,6 +224,10 @@ namespace GeneralInformation.Views
             {
                 Crashes.TrackError(ex);
             }
+            finally
+            {
+                personaListViewModel.IsBusy = false;
+            }
         }
 
         private void autoComplete_Completed(object sender, EventArgs e)
@@ -218,10 +236,30 @@ namespace GeneralInformation.Views
             {
                 if (sender is SfAutoComplete)
                 {
-                    if (lstSaints.DataSource != null)
+                    if (lstListOfItems.DataSource != null)
                     {
-                        lstSaints.DataSource.Filter = FilterPersonas;
-                        lstSaints.DataSource.RefreshFilter();
+                        lstListOfItems.DataSource.Filter = FilterPersonas;
+                        lstListOfItems.DataSource.RefreshFilter();
+                        autoComplete.IsDropDownOpen = false;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
+        }
+
+        private void autoComplete_ValueChanged(object sender, Syncfusion.SfAutoComplete.XForms.ValueChangedEventArgs e)
+        {
+            try
+            {
+                if (autoComplete.Text.IsEmpty())
+                {
+                    if (lstListOfItems.DataSource != null)
+                    {
+                        lstListOfItems.DataSource.Filter = FilterPersonas;
+                        lstListOfItems.DataSource.RefreshFilter();
                         autoComplete.IsDropDownOpen = false;
                     }
                 }
