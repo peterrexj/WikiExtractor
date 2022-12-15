@@ -13,7 +13,7 @@ namespace WikiExtractor.Tests
 {
     public class StoreProcessTests
     {
-        WikiPageRawExtraction wikiPageExtraction;
+        WikiPageExtractionStore wikiPageExtraction;
         ParagraphExtractor paragraphExtractor;
         MetadataExtractor metadataExtractor;
         StoreProcess storeProcess;
@@ -26,7 +26,7 @@ namespace WikiExtractor.Tests
         {
             ProcessConstants.DatabasePath = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Tests", "Db", "WikiStore.db");
             ProcessConstants.CacheFolder = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Tests", "Cache");
-            wikiPageExtraction = new WikiPageRawExtraction();
+            wikiPageExtraction = new WikiPageExtractionStore();
             paragraphExtractor = new ParagraphExtractor();
             metadataExtractor = new MetadataExtractor();
             //IoHelper.DeleteFile(ProcessConstants.DatabasePath);
@@ -45,7 +45,7 @@ namespace WikiExtractor.Tests
             var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
-            var masterid = storeProcess.StoreInformation(paraInfo, metadata);
+            var masterid = storeProcess.StoreInformation(paraInfo, metadata, new Models.WikiWhatToExtractModel { Route = route });
             Assert.IsNotNull(masterid);
             Assert.IsTrue(masterid > 0);
         }
@@ -60,7 +60,7 @@ namespace WikiExtractor.Tests
             var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
-            var masterid = storeProcess.StoreInformation(paraInfo, metadata);
+            var masterid = storeProcess.StoreInformation(paraInfo, metadata, new Models.WikiWhatToExtractModel { Route = route });
             var actualData = wikiDatabase.MetadataRepository.Get(f => f.MasterId == masterid).ToList();
 
             //Un comment if there is change in the data, this line will update the source of truth
@@ -90,7 +90,7 @@ namespace WikiExtractor.Tests
             var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
-            var masterid = storeProcess.StoreInformation(paraInfo, metadata);
+            var masterid = storeProcess.StoreInformation(paraInfo, metadata, new Models.WikiWhatToExtractModel { Route = route });
             var actualData = wikiDatabase.ParagraphPrimaryContentRepository.Get(f => f.MasterId == masterid).ToList();
 
             //Un comment if there is change in the data, this line will update the source of truth
@@ -117,7 +117,7 @@ namespace WikiExtractor.Tests
             var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
-            var masterid = storeProcess.StoreInformation(paraInfo, metadata);
+            var masterid = storeProcess.StoreInformation(paraInfo, metadata, new Models.WikiWhatToExtractModel { Route = route });
             var actualData = wikiDatabase.WikiPictureRepository.Get(f => f.MasterId == masterid).ToList();
 
             //Un comment if there is change in the data, this line will update the source of truth
@@ -150,7 +150,7 @@ namespace WikiExtractor.Tests
             var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
-            var masterid = storeProcess.StoreInformation(paraInfo, metadata);
+            var masterid = storeProcess.StoreInformation(paraInfo, metadata, new Models.WikiWhatToExtractModel { Route = route });
             var actualData = wikiDatabase.ParagraphHeader2Repository.Get(f => f.MasterId == masterid).ToList();
 
             //Un comment if there is change in the data, this line will update the source of truth
@@ -178,7 +178,7 @@ namespace WikiExtractor.Tests
             var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
-            var masterid = storeProcess.StoreInformation(paraInfo, metadata);
+            var masterid = storeProcess.StoreInformation(paraInfo, metadata, new Models.WikiWhatToExtractModel { Route = route });
             var actualData = wikiDatabase.ParagraphHeader3Repository.Get(f => f.MasterId == masterid).ToList();
 
             //Un comment if there is change in the data, this line will update the source of truth
@@ -208,7 +208,7 @@ namespace WikiExtractor.Tests
             var paraInfo = paragraphExtractor.ExtractParaInfo(response, route, string.Empty);
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
-            var masterid = storeProcess.StoreInformation(paraInfo, metadata);
+            var masterid = storeProcess.StoreInformation(paraInfo, metadata, new Models.WikiWhatToExtractModel { Route = route });
             var actualData = wikiDatabase.ParagraphContentRepository.Get(f => f.MasterId == masterid).ToList();
 
             //Un comment if there is change in the data, this line will update the source of truth

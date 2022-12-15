@@ -33,9 +33,7 @@
 		<Compile Include="..\..\WikiExtractor\Process\MetadataExtractor.cs" Link="WikiProcess\MetadataExtractor.cs" />
 		<Compile Include="..\..\WikiExtractor\Process\ParagraphExtractor.cs" Link="WikiProcess\ParagraphExtractor.cs" />
 		<Compile Include="..\..\WikiExtractor\Process\ProcessConstants.cs" Link="WikiProcess\ProcessConstants.cs" />
-		<Compile Include="..\..\WikiExtractor\Process\TabularInformationExtractor.cs" Link="WikiProcess\TabularInformationExtractor.cs" />
 		<Compile Include="..\..\WikiExtractor\Process\WikiAppController.cs" Link="WikiProcess\WikiAppController.cs" />
-		<Compile Include="..\..\WikiExtractor\Process\WikiMasterTablePageExtractor.cs" Link="WikiProcess\WikiMasterTablePageExtractor.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\AppMenuItemRepository.cs" Link="Repository\AppMenuItemRepository.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\IWikiDatabase.cs" Link="Repository\IWikiDatabase.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\MasterRepository.cs" Link="Repository\MasterRepository.cs" />

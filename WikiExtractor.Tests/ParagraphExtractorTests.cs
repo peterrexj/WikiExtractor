@@ -11,7 +11,7 @@ namespace WikiExtractor.Tests
         private string TemplateCompileFile;
         private string TemplateCompileItemsFile;
         ParagraphExtractor paragraphExtractor;
-        WikiPageRawExtraction wikiPageExtraction;
+        WikiPageExtractionStore wikiPageExtraction;
 
         [SetUp]
         public void Setup()
@@ -19,7 +19,7 @@ namespace WikiExtractor.Tests
             ProcessConstants.DatabasePath = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Tests", "Db", "WikiStore.db");
             ProcessConstants.CacheFolder = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Tests", "Cache");
             paragraphExtractor = new ParagraphExtractor();
-            wikiPageExtraction = new WikiPageRawExtraction();
+            wikiPageExtraction = new WikiPageExtractionStore();
             TemplateRuntimeFile = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Tests", "TemplateRuntime", "ResponseContent.dat");
             TemplateCompileFile = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Templates", "RouteResponse.txt");
             TemplateCompileItemsFile = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Templates", "ParagraphItems.json");

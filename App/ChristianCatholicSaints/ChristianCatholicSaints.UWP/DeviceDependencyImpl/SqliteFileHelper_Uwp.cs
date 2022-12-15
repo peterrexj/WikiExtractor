@@ -20,7 +20,7 @@ namespace ChristianCatholicSaints.UWP.DeviceDependencyImpl
 
         public string PlatformDatabasePath => Path.Combine(Windows.ApplicationModel.Package.Current.InstalledLocation.Path, "Assets", DatabaseFileName);
 
-        public string DatabaseFileName => "WikiStore.db";
+        public string DatabaseFileName => "WikiStoreSaints.db";
 
         public bool IsDatabaseOnCopyMode => true;
 

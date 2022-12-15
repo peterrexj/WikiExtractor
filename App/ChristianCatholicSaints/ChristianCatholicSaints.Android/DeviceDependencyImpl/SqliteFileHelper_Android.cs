@@ -36,7 +36,7 @@ namespace ChristianCatholicSaints.Droid.DeviceDependencyImpl
 
         public string PlatformDatabasePath =>
             Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), DatabaseFileName);
-        public string DatabaseFileName => "WikiStore.db";
+        public string DatabaseFileName => "WikiStoreSaints.db";
         public bool IsDatabaseOnCopyMode => true;
         public int CurrentVersion => 0;
         public bool HasSettingsTable => true;
