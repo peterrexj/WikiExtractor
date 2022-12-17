@@ -9,7 +9,6 @@ namespace WikiExtractor.Exts
     public static class ConfigData
     {
         public static int MinLengthOfPictureCaption { get; set; } = 6;
-        public static int AdsIntersitialLimitOnRecord { get; set; } = 1;
-
+        public static int AdsIntersitialLimitOnRecord { get; set; } = 5;
     }
 }
