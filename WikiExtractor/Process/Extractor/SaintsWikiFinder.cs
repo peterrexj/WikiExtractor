@@ -1,17 +1,17 @@
 ﻿using HtmlAgilityPack;
-using Pj.Library;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
-using WikiExtractor.Exts;
 using WikiExtractor.Models;
+using Pj.Library;
+using WikiExtractor.Exts;
 
-namespace WikiExtractor.Process
+namespace WikiExtractor.Process.Extractor
 {
-    public class WikiInformationExtractor
+    public class SaintsWikiFinder
     {
         public List<WikiWhatToExtractModel> SaintsExtractListTabularData(HtmlDocument document, List<string>? tags)
         {

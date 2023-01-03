@@ -13,28 +13,12 @@ using WikiExtractor.Repository;
 
 namespace WikiExtractor.Process.Modules
 {
-    public class SaintsDataExtractor
+    public class SaintsDataExtractor: DataExtractorBase
     {
-        private WikiAppController? wikiAppController = null;
-        private WikiPageExtractionStore? wikiPageExtractionStore = null;
-
-        public SaintsDataExtractor()
+        public SaintsDataExtractor() : base("Saints", "WikiStoreSaints.db")
         {
-            Console.WriteLine("Hello, Saints Extractor!");
-            ProcessConstants.CacheFolder = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Cache");
-            ProcessConstants.DatabasePath = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Db", "WikiStoreSaints.db");
+            
         }
-
-        void Initialize(bool doClean)
-        {
-            if (doClean)
-            {
-                IoHelper.DeleteFile(ProcessConstants.DatabasePath);
-            }
-            wikiAppController = new WikiAppController(new WikiDatabase());
-            wikiPageExtractionStore = new WikiPageExtractionStore();
-        }
-
         public void ExtractData()
         {
             Initialize(true);
@@ -139,7 +123,7 @@ namespace WikiExtractor.Process.Modules
                 {
                     wikiPageExtractionStore.PersonaSinglePageContentExtractWithSaveToStore(saint);
                     Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Saints [{saint.Title}]: {saint.Route}");
-                    Thread.Sleep(1000);
+                    //Thread.Sleep(1000);
                     currentIndex = currentIndex + 1;
                 }
                 catch (Exception ex)
