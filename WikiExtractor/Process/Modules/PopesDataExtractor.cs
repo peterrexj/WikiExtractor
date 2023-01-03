@@ -8,16 +8,25 @@ using WikiExtractor.Process.Extractor;
 
 namespace WikiExtractor.Process.Modules
 {
-    internal class PopesDataExtractor
+    internal class PopesDataExtractor : DataExtractorBase
     {
-        private WikiAppController? wikiAppController = null;
-        private SaintsWikiExtractionToStore? wikiPageExtractionStore = null;
+        protected PopesWikiExtractionToStore? toStore = null;
 
-        public PopesDataExtractor()
+        public PopesDataExtractor() : base("Popes", "WikiStorePopes.db") { }
+
+        protected override void Initialize(bool doClean)
         {
-            Console.WriteLine("Hello, Popes Extractor!");
-            ProcessConstants.CacheFolder = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Cache");
-            ProcessConstants.DatabasePath = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Db", "WikiStoreSaints.db");
+            base.Initialize(doClean);
+            toStore = new PopesWikiExtractionToStore();
+        }
+
+        public void ExtractData()
+        {
+            Initialize(true);
+            var centuryPopes01 = toStore.ExtractListTabularByCentury("/wiki/List_of_saints_canonized_by_Pope_Benedict_XVI",
+                "1st century",
+                new List<string> { "All", "1st century" });
+
         }
     }
 }

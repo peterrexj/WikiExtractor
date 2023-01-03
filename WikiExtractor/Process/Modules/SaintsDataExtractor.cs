@@ -9,15 +9,20 @@ using System.Web;
 using WikiExtractor.DbModels;
 using WikiExtractor.Exts;
 using WikiExtractor.Models;
+using WikiExtractor.Process.Extractor;
 using WikiExtractor.Repository;
 
 namespace WikiExtractor.Process.Modules
 {
-    public class SaintsDataExtractor: DataExtractorBase
+    public class SaintsDataExtractor : DataExtractorBase
     {
-        public SaintsDataExtractor() : base("Saints", "WikiStoreSaints.db")
+        protected SaintsWikiExtractionToStore? toStore = null;
+        public SaintsDataExtractor() : base("Saints", "WikiStoreSaints.db") { }
+
+        protected override void Initialize(bool doClean)
         {
-            
+            base.Initialize(doClean);
+            toStore = new SaintsWikiExtractionToStore();
         }
         public void ExtractData()
         {
@@ -58,44 +63,44 @@ namespace WikiExtractor.Process.Modules
             wikiAppController.AddMenuItem("1st Century", "1st Century", "1st Century Saints", 33);
 
             //Extracting data based on tags
-            var listOfSaintsFromLocalUrlFile01 = wikiPageExtractionStore!.GenericLoadUrlFile(
+            var listOfSaintsFromLocalUrlFile01 = toStore!.GenericLoadUrlFile(
                 IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Resources", "Saints_AddtionalLinks.txt"), new List<string> { "All" });
 
-            var listOfSaintsByEachPope01 = wikiPageExtractionStore.SaintsExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Benedict_XVI", new List<string> { "All", "Canonized by Pope John Paul II" });
-            var listOfSaintsByEachPope02 = wikiPageExtractionStore.SaintsExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_John_Paul_II", new List<string> { "All", "Canonized by Pope John Paul II" });
-            var listOfSaintsByEachPope03 = wikiPageExtractionStore.SaintsExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Leo_XIII", new List<string> { "All", "Canonized by Pope Leo XIII" });
-            var listOfSaintsByEachPope04 = wikiPageExtractionStore.SaintsExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Pius_XI", new List<string> { "All", "Canonized by Pope Pius XI" });
-            var listOfSaintsByEachPope05 = wikiPageExtractionStore.SaintsExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Pius_XII", new List<string> { "All", "Canonized by Pope Pius XII" });
-            var listOfSaintsByEachPope06 = wikiPageExtractionStore.SaintsExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_John_XXIII", new List<string> { "All", "Canonized by Pope John XXIII" });
-            var listOfSaintsByEachPope07 = wikiPageExtractionStore.SaintsExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Paul_VI", new List<string> { "All", "Canonized by Pope Paul VI" });
-            var listOfSaintsByEachPope08 = wikiPageExtractionStore.SaintsExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Francis", new List<string> { "All", "Canonized by Pope Francis" });
+            var listOfSaintsByEachPope01 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Benedict_XVI", new List<string> { "All", "Canonized by Pope John Paul II" });
+            var listOfSaintsByEachPope02 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_John_Paul_II", new List<string> { "All", "Canonized by Pope John Paul II" });
+            var listOfSaintsByEachPope03 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Leo_XIII", new List<string> { "All", "Canonized by Pope Leo XIII" });
+            var listOfSaintsByEachPope04 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Pius_XI", new List<string> { "All", "Canonized by Pope Pius XI" });
+            var listOfSaintsByEachPope05 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Pius_XII", new List<string> { "All", "Canonized by Pope Pius XII" });
+            var listOfSaintsByEachPope06 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_John_XXIII", new List<string> { "All", "Canonized by Pope John XXIII" });
+            var listOfSaintsByEachPope07 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Paul_VI", new List<string> { "All", "Canonized by Pope Paul VI" });
+            var listOfSaintsByEachPope08 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Francis", new List<string> { "All", "Canonized by Pope Francis" });
 
-            var listOfSaintsByCentury1 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_in_the_1st_century", new List<string> { "All", "1st Century" });
-            var listOfSaintsByCentury2 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_in_the_2nd_century", new List<string> { "All", "2nd Century" });
-            var listOfSaintsByCentury3 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_in_the_3rd_century", new List<string> { "All", "3rd Century" });
-            var listOfSaintsByCentury4 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_in_the_4th_century", new List<string> { "All", "4th Century" });
-            var listOfSaintsByCentury5 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_in_the_5th_century", new List<string> { "All", "5th Century" });
-            var listOfSaintsByCentury6 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_in_the_6th_century", new List<string> { "All", "6th Century" });
-            var listOfSaintsByCentury7 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_in_the_7th_century", new List<string> { "All", "7th Century" });
-            var listOfSaintsByCentury8 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_in_the_8th_century", new List<string> { "All", "8th Century" });
-            var listOfSaintsByCentury9 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_in_the_9th_century", new List<string> { "All", "9th Century" });
-            var listOfSaintsByCentury10 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_in_the_10th_century", new List<string> { "All", "10th Century" });
-            var listOfSaintsByCentury11 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_11th_century", new List<string> { "All", "11th Century" });
-            var listOfSaintsByCentury12 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_12th_century", new List<string> { "All", "12th Century" });
-            var listOfSaintsByCentury13 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_13th_century", new List<string> { "All", "13th Century" });
-            var listOfSaintsByCentury14 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_14th_century", new List<string> { "All", "14th Century" });
-            var listOfSaintsByCentury15 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_15th_century", new List<string> { "All", "15th Century" });
-            var listOfSaintsByCentury16 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_16th_century", new List<string> { "All", "16th Century" });
-            var listOfSaintsByCentury17 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_17th_century", new List<string> { "All", "17th Century" });
-            var listOfSaintsByCentury18 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_18th_century", new List<string> { "All", "18th Century" });
-            var listOfSaintsByCentury19 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_19th_century", new List<string> { "All", "19th Century" });
-            var listOfSaintsByCentury20 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_20th_century", new List<string> { "All", "20th Century" });
-            var listOfSaintsByCentury21 = wikiPageExtractionStore.SaintsExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_21st_century", new List<string> { "All", "21th Century" });
+            var listOfSaintsByCentury1 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_in_the_1st_century", new List<string> { "All", "1st Century" });
+            var listOfSaintsByCentury2 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_in_the_2nd_century", new List<string> { "All", "2nd Century" });
+            var listOfSaintsByCentury3 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_in_the_3rd_century", new List<string> { "All", "3rd Century" });
+            var listOfSaintsByCentury4 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_in_the_4th_century", new List<string> { "All", "4th Century" });
+            var listOfSaintsByCentury5 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_in_the_5th_century", new List<string> { "All", "5th Century" });
+            var listOfSaintsByCentury6 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_in_the_6th_century", new List<string> { "All", "6th Century" });
+            var listOfSaintsByCentury7 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_in_the_7th_century", new List<string> { "All", "7th Century" });
+            var listOfSaintsByCentury8 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_in_the_8th_century", new List<string> { "All", "8th Century" });
+            var listOfSaintsByCentury9 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_in_the_9th_century", new List<string> { "All", "9th Century" });
+            var listOfSaintsByCentury10 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_in_the_10th_century", new List<string> { "All", "10th Century" });
+            var listOfSaintsByCentury11 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_11th_century", new List<string> { "All", "11th Century" });
+            var listOfSaintsByCentury12 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_12th_century", new List<string> { "All", "12th Century" });
+            var listOfSaintsByCentury13 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_13th_century", new List<string> { "All", "13th Century" });
+            var listOfSaintsByCentury14 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_14th_century", new List<string> { "All", "14th Century" });
+            var listOfSaintsByCentury15 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_15th_century", new List<string> { "All", "15th Century" });
+            var listOfSaintsByCentury16 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_16th_century", new List<string> { "All", "16th Century" });
+            var listOfSaintsByCentury17 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_17th_century", new List<string> { "All", "17th Century" });
+            var listOfSaintsByCentury18 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_18th_century", new List<string> { "All", "18th Century" });
+            var listOfSaintsByCentury19 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_19th_century", new List<string> { "All", "19th Century" });
+            var listOfSaintsByCentury20 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_20th_century", new List<string> { "All", "20th Century" });
+            var listOfSaintsByCentury21 = toStore.ExtractByCentury("/wiki/Chronological_list_of_saints_and_blesseds_in_the_21st_century", new List<string> { "All", "21th Century" });
 
-            var listOfSaintsByAllPope = wikiPageExtractionStore.SaintsExtractByAllPopeListData("/wiki/List_of_saints_by_pope", new List<string> { "All", "By Pope" });
-            var listOfPatronSaints = wikiPageExtractionStore.SaintsExtractPatronSaintsListData("/wiki/List_of_patron_saints_by_occupation_and_activity", new List<string> { "All", "Patron Saints" });
-            var listOfSaints = wikiPageExtractionStore.SaintsExtractListTabularData("/wiki/List_of_saints", new List<string> { "All" });
-            var listOfBeatified = wikiPageExtractionStore.SaintsExtractListTabularData("/wiki/List_of_beatified_people", new List<string> { "All", "Beatified" });
+            var listOfSaintsByAllPope = toStore.ExtractByAllPopeListData("/wiki/List_of_saints_by_pope", new List<string> { "All", "By Pope" });
+            var listOfPatronSaints = toStore.ExtractPatronSaintsListData("/wiki/List_of_patron_saints_by_occupation_and_activity", new List<string> { "All", "Patron Saints" });
+            var listOfSaints = toStore.ExtractListTabularData("/wiki/List_of_saints", new List<string> { "All" });
+            var listOfBeatified = toStore.ExtractListTabularData("/wiki/List_of_beatified_people", new List<string> { "All", "Beatified" });
 
             var saintsCollection = listOfPatronSaints
                 .Union(listOfSaintsByAllPope)
@@ -121,7 +126,7 @@ namespace WikiExtractor.Process.Modules
             {
                 try
                 {
-                    wikiPageExtractionStore.PersonaSinglePageContentExtractWithSaveToStore(saint);
+                    toStore.PersonaSinglePageContentExtractWithSaveToStore(saint);
                     Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Saints [{saint.Title}]: {saint.Route}");
                     //Thread.Sleep(1000);
                     currentIndex = currentIndex + 1;
@@ -184,7 +189,7 @@ namespace WikiExtractor.Process.Modules
             foreach (var item in data.Where(f => f.Ignored))
             {
                 Console.WriteLine($"Delete Ignore list item: {item.Item.Name}");
-                wikiPageExtractionStore!.CleanEntry(item.Item.Id);
+                toStore!.CleanEntry(item.Item.Id);
             }
         }
         private void CleanDuplicateNames(List<WikiDataCleanerModel> data,
@@ -217,7 +222,7 @@ namespace WikiExtractor.Process.Modules
                     var tags = dupItem.Items.SelectMany(f => f.Item.Tags).Distinct().ToList();
                     foreach (var item in dupItem.Items)
                     {
-                        wikiPageExtractionStore!.UpdateTags(tags, item.Item.Id);
+                        toStore!.UpdateTags(tags, item.Item.Id);
                     }
                     if (optionDelete)
                     {
@@ -226,7 +231,7 @@ namespace WikiExtractor.Process.Modules
                             for (int i = 1; i < dupItem.Items.Count; i++)
                             {
                                 Console.WriteLine($"Delete Duplicate list item: {dupItem.Items[i].Item.Name}");
-                                wikiPageExtractionStore!.CleanEntry(dupItem.Items[i].Item.Id);
+                                toStore!.CleanEntry(dupItem.Items[i].Item.Id);
                             }
                         }
                     }
@@ -238,7 +243,7 @@ namespace WikiExtractor.Process.Modules
                             var url = dupItem.Items[i].Item.WikiPath;
                             url = HttpUtility.UrlDecode(url);
                             url = url.Substring(url.LastIndexOf('/') + 1).ReplaceMultiple(" ", "_");
-                            wikiPageExtractionStore!.UpdateName(url, dupItem.Items[i].Item.Id);
+                            toStore!.UpdateName(url, dupItem.Items[i].Item.Id);
                         }
                     }
                 }

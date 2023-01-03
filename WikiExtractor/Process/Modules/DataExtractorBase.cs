@@ -12,7 +12,6 @@ namespace WikiExtractor.Process.Modules
     public class DataExtractorBase
     {
         protected WikiAppController? wikiAppController = null;
-        protected SaintsWikiExtractionToStore? wikiPageExtractionStore = null;
 
         public DataExtractorBase(string extractorName, string dbFileName)
         {
@@ -21,14 +20,13 @@ namespace WikiExtractor.Process.Modules
             ProcessConstants.DatabasePath = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Db", dbFileName);
         }
 
-        protected void Initialize(bool doClean)
+        protected virtual void Initialize(bool doClean)
         {
             if (doClean)
             {
                 IoHelper.DeleteFile(ProcessConstants.DatabasePath);
             }
             wikiAppController = new WikiAppController(new WikiDatabase());
-            wikiPageExtractionStore = new SaintsWikiExtractionToStore();
         }
     }
 }

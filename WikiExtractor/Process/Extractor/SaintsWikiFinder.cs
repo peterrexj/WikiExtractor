@@ -13,7 +13,7 @@ namespace WikiExtractor.Process.Extractor
 {
     public class SaintsWikiFinder
     {
-        public List<WikiWhatToExtractModel> SaintsExtractListTabularData(HtmlDocument document, List<string>? tags)
+        public List<WikiWhatToExtractModel> ExtractListTabularData(HtmlDocument document, List<string>? tags)
         {
             List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
             var temp = document.DocumentNode.SelectNodes("//table[contains(@class, 'wikitable ')]/tbody/tr");
@@ -48,7 +48,7 @@ namespace WikiExtractor.Process.Extractor
             return listOfNames;
         }
 
-        public List<WikiWhatToExtractModel> SaintsExtractPatronSaintsListData(HtmlDocument document, List<string>? tags)
+        public List<WikiWhatToExtractModel> ExtractPatronSaintsListData(HtmlDocument document, List<string>? tags)
         {
             List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
             var temp = document.DocumentNode.SelectNodes("//li");
@@ -86,7 +86,7 @@ namespace WikiExtractor.Process.Extractor
             return listOfNames;
         }
 
-        public List<WikiWhatToExtractModel> SaintsExtractByAllPopeListData(HtmlDocument document, List<string>? tags)
+        public List<WikiWhatToExtractModel> ExtractByAllPopeListData(HtmlDocument document, List<string>? tags)
         {
             List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
             var temp = document.DocumentNode.SelectNodes("//table[contains(@class, 'wikitable')]//tr//td/a");
@@ -113,7 +113,7 @@ namespace WikiExtractor.Process.Extractor
             return listOfNames;
         }
 
-        public List<WikiWhatToExtractModel> SaintsExtractByEachPopeListData(HtmlDocument document, List<string>? tags)
+        public List<WikiWhatToExtractModel> ExtractByEachPopeListData(HtmlDocument document, List<string>? tags)
         {
             List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
             var temp = document.DocumentNode.SelectNodes("//table[contains(@class, 'wikitable')]//tr//td[2]/a");
@@ -140,7 +140,7 @@ namespace WikiExtractor.Process.Extractor
             return listOfNames;
         }
 
-        public List<WikiWhatToExtractModel> SaintsExtractByCentury(HtmlDocument document, List<string>? tags)
+        public List<WikiWhatToExtractModel> ExtractByCentury(HtmlDocument document, List<string>? tags)
         {
             List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
             var temp = document.DocumentNode.SelectNodes("//table[contains(@class, 'wikitable')]//tr//td[1]/a");

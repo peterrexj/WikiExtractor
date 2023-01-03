@@ -7,6 +7,8 @@ using WikiExtractor.Process.Modules;
 var serviceProvider = ContainerConfiguration.Configure();
 var saintsExtractor = new SaintsDataExtractor();
 
+
+
 saintsExtractor.ExtractData();
 //saintsExtractor.TestData();
 saintsExtractor.DumpData();

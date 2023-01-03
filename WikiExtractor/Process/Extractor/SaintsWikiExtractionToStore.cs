@@ -12,27 +12,27 @@ namespace WikiExtractor.Process.Extractor
 {
     public class SaintsWikiExtractionToStore : WikiExtractionToStoreBase
     {
-        private readonly SaintsWikiFinder tabularInformationExtractor = new SaintsWikiFinder();
+        private readonly SaintsWikiFinder wikiFinder = new SaintsWikiFinder();
 
-        public List<WikiWhatToExtractModel> SaintsExtractListTabularData(string route, List<string>? tags)
+        public List<WikiWhatToExtractModel> ExtractListTabularData(string route, List<string>? tags)
         {
-            return tabularInformationExtractor.SaintsExtractListTabularData(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+            return wikiFinder.ExtractListTabularData(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
         }
-        public List<WikiWhatToExtractModel> SaintsExtractPatronSaintsListData(string route, List<string>? tags)
+        public List<WikiWhatToExtractModel> ExtractPatronSaintsListData(string route, List<string>? tags)
         {
-            return tabularInformationExtractor.SaintsExtractPatronSaintsListData(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+            return wikiFinder.ExtractPatronSaintsListData(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
         }
-        public List<WikiWhatToExtractModel> SaintsExtractByAllPopeListData(string route, List<string>? tags)
+        public List<WikiWhatToExtractModel> ExtractByAllPopeListData(string route, List<string>? tags)
         {
-            return tabularInformationExtractor.SaintsExtractByAllPopeListData(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+            return wikiFinder.ExtractByAllPopeListData(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
         }
-        public List<WikiWhatToExtractModel> SaintsExtractByEachPopeListData(string route, List<string>? tags)
+        public List<WikiWhatToExtractModel> ExtractByEachPopeListData(string route, List<string>? tags)
         {
-            return tabularInformationExtractor.SaintsExtractByEachPopeListData(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+            return wikiFinder.ExtractByEachPopeListData(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
         }
-        public List<WikiWhatToExtractModel> SaintsExtractByCentury(string route, List<string>? tags)
+        public List<WikiWhatToExtractModel> ExtractByCentury(string route, List<string>? tags)
         {
-            return tabularInformationExtractor.SaintsExtractByCentury(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+            return wikiFinder.ExtractByCentury(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
         }
     }
 }
