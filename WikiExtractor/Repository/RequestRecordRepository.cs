@@ -57,6 +57,5 @@ namespace WikiExtractor.Repository
         }
         public int IncrementCount() => GetCount() + 1;
         public bool RequestOnLimit => GetCount() % ConfigData.AdsIntersitialLimitOnRecord == 0;
-
     }
 }

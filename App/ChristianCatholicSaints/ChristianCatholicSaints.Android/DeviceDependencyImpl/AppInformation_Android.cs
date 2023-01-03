@@ -11,6 +11,10 @@ namespace ChristianCatholicSaints.Droid.DeviceDependencyImpl
 
         public string AdsBannerId => "ca-app-pub-4219645367584712/9833451000";
 
-        public string AdsInterstitialId => "ca-app-pub-4219645367584712/7880993518";
+        public string AdsInterstitialId => "ca-app-pub-4219645367584712/3235891676";
+
+        public int ShowFirstInterstitialAdOnClickLimit => 3;
+
+        public int ShowLaterInterstitialAdOnClickLimit => 8;
     }
 }

@@ -79,6 +79,9 @@ namespace GeneralInformation.Views
 
             try
             {
+                DatabaseService.AppDatabase.PhoneSettingsRepository.UpdateLimitsOnInitialize(
+                    DependencyService.Get<IAppInformation>().ShowFirstInterstitialAdOnClickLimit,
+                    DependencyService.Get<IAppInformation>().ShowLaterInterstitialAdOnClickLimit);
                 DatabaseService.AppDatabase.PhoneSettingsRepository.InitializeGoogleAds();
                 CrossMTAdmob.Current.LoadInterstitial(personaListViewModel.AdsInterstitialId);
                 CrossMTAdmob.Current.OnInterstitialOpened += Current_OnInterstitialOpened;
@@ -194,6 +197,7 @@ namespace GeneralInformation.Views
 
         private async void lstItemEffectsView_AnimationCompleted(object sender, EventArgs e)
         {
+            PersonaViewModel personaObj = null;
             try
             {
                 if (sender != null)
@@ -201,7 +205,15 @@ namespace GeneralInformation.Views
                     if (sender is SfEffectsView && (sender as SfEffectsView).AutomationId.HasValue())
                     {
                         personaListViewModel.IsBusy = true;
-                        DatabaseService.AppDatabase.RequestRecordRepository.UpdateCount();
+                        var masterId = (sender as SfEffectsView).AutomationId;
+                        personaObj = personaListViewModel.Personas.FirstOrDefault(f => f.Id == masterId.ToInteger());
+                        if (personaObj != null)
+                        {
+                            personaObj.IsBusy = true;
+                        }
+                        var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
+                        await Shell.Current.GoToAsync(route);
+
                         if (DatabaseService.AppDatabase.RequestRecordRepository.RequestOnLimit &&
                             CrossMTAdmob.Current.IsInterstitialLoaded())
                         {
@@ -211,18 +223,7 @@ namespace GeneralInformation.Views
                                 CrossMTAdmob.Current.LoadInterstitial(personaListViewModel.AdsInterstitialId);
                             });
                         }
-                        else
-                        {
-                            var masterId = (sender as SfEffectsView).AutomationId;
-                            var personaObj = personaListViewModel.Personas.FirstOrDefault(f => f.Id == masterId.ToInteger());
-                            if (personaObj != null)
-                            {
-                                personaObj.IsBusy = true;
-                            }
-                            var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
-                            await Shell.Current.GoToAsync(route);
-                            personaObj.IsBusy = false;
-                        }
+                        DatabaseService.AppDatabase.RequestRecordRepository.UpdateCount();
                     }
                 }
             }
@@ -233,6 +234,10 @@ namespace GeneralInformation.Views
             finally
             {
                 personaListViewModel.IsBusy = false;
+                if (personaObj != null) 
+                {
+                    personaObj.IsBusy = false;
+                }
             }
         }
 
