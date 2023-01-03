@@ -8,6 +8,8 @@ var serviceProvider = ContainerConfiguration.Configure();
 var saintsExtractor = new SaintsDataExtractor();
 
 saintsExtractor.ExtractData();
+//saintsExtractor.TestData();
+saintsExtractor.DumpData();
 
 
 int u = 0;

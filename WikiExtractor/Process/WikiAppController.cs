@@ -191,26 +191,42 @@ namespace WikiExtractor.Process
                        WikiPath = master.Route,
                        MainContent = mainContItem?.Content ?? "",
                        PicturePrimaryPath = primaryPic?.Path ?? "NoImageAvailable.png",
-                       PicturePrimaryCaption = primaryPic?.Caption ?? ""
+                       PicturePrimaryCaption = primaryPic?.Caption ?? "",
                    };
+        }
 
-            //var pictures = wikiDatabase.WikiPictureRepository.Get(p => p.IsPrimaryBool);
-            //var primaryContent = wikiDatabase.ParagraphPrimaryContentRepository.GetAll();
+        public List<PersonaViewModel> UpdateTags(List<PersonaViewModel> datas)
+        {
+            var temp = from master in wikiDatabase.MasterRepository.GetAll()
+                       join tagItemJoin in wikiDatabase.TagItemRepository.GetAll() on master.Id equals tagItemJoin.MasterId into tagItemGrp
+                       from tagItem in tagItemGrp.DefaultIfEmpty(new TagItem { Id = 0, MasterId = master.Id })
 
-            //var wikiItems = new List<PersonaViewModel>();
-            //foreach (var item in masters)
-            //{
-            //    wikiItems.Add(new PersonaViewModel
-            //    {
-            //        Id = item.Id,
-            //        Name = item.Name,
-            //        WikiPath = item.Route,
-            //        MainContent = primaryContent.FirstOrDefault(m => m.MasterId == item.Id)?.Content ?? "",
-            //        PicturePrimaryPath = pictures.FirstOrDefault(m => m.MasterId == item.Id)?.Path ?? "NoImageAvailable.png",
-            //        PicturePrimaryCaption = pictures.FirstOrDefault(m => m.MasterId == item.Id)?.Caption ?? ""
-            //    });
-            //}
-            //return wikiItems;
+                       join tagJoin in wikiDatabase.TagRepository.GetAll() on tagItem.TagId equals tagJoin.Id into tagGroup
+                       from tag in tagGroup.DefaultIfEmpty(new Tag { Id = 0, Name = string.Empty })
+
+                       select new
+                       {
+                           Masterid = master.Id,
+                           Name = master.Name,
+                           Tags = tag.Name
+                       };
+
+            var grpTags = temp.GroupBy(f => f.Masterid)
+                .Select(f => new { MasterId = f.Key, Items = f.ToList() })
+                .ToList();
+
+            foreach(var data in datas)
+            {
+                data.Tags = grpTags.FirstOrDefault(f => f.MasterId == data.Id)?.Items.Select(f => f.Tags).ToList() ?? new List<string>();
+            }
+
+            return datas;
+
+
+            //var temp = from tagItems in wikiDatabase.TagItemRepository.GetAll()
+            //           join tagJoin in wikiDatabase.TagRepository.GetAll() on tagItems.TagId equals tagJoin.Id into tagGroup
+            //           from tag in tagGroup.DefaultIfEmpty(new Tag { Id = 0, Name = string.Empty })
+            //           where 
         }
 
         public void MetadataBuild()

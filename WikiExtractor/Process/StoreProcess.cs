@@ -21,17 +21,17 @@ namespace WikiExtractor.Process
             {
                 Name = wikiPageModel.Header,
                 Route = wikiPageModel.Route,
-                Sequence= wikiExtractInfo.Sequence,
+                Sequence = wikiExtractInfo.Sequence,
             }, checkAlreadyExists: true);
         }
 
-        private void StoreTags(List<string> tags, int masterId)
+        public void StoreTags(List<string> tags, int masterId)
         {
             if (tags == null || tags.Count == 0) { return; }
             foreach (var tag in tags)
             {
                 var tagId = wikiDatabase.TagRepository.Add(new Tag { Name = tag.Trim() }, true);
-                wikiDatabase.TagItemRepository.Add(new TagItem { MasterId= masterId, TagId = tagId }, true);
+                wikiDatabase.TagItemRepository.Add(new TagItem { MasterId = masterId, TagId = tagId }, true);
             }
         }
 
@@ -96,7 +96,7 @@ namespace WikiExtractor.Process
                 wikiDatabase.WikiPictureRepository.Add(imageType, checkAlreadyExists: true);
             }
 
-            
+
         }
 
         private void StoreParagraph(WikiPageModel wikiPageModel, int masterId)
@@ -172,7 +172,7 @@ namespace WikiExtractor.Process
                 return 0;
             }
 
-            if ((metadatas == null || metadatas.IsEmpty()) && 
+            if ((metadatas == null || metadatas.IsEmpty()) &&
                 (wikiPageModel.WikiParaCollection == null || wikiPageModel.WikiParaCollection.IsEmpty()) &&
                 (wikiPageModel.MainParagraph == null || wikiPageModel.MainParagraph.IsEmpty()))
             {
@@ -206,6 +206,28 @@ namespace WikiExtractor.Process
             //var allImages = wikiDatabase.WikiPictureRepository.GetAll().ToList();
 
             return masterId;
+        }
+
+        public void CleanEntry(int masterId)
+        {
+            wikiDatabase.ParagraphHeader3Repository.DeleteByMasterId(masterId);
+            wikiDatabase.ParagraphHeader2Repository.DeleteByMasterId(masterId);
+            wikiDatabase.ParagraphContentRepository.DeleteByMasterId(masterId);
+            wikiDatabase.ParagraphPrimaryContentRepository.DeleteByMasterId(masterId);
+            wikiDatabase.WikiPictureRepository.DeleteByMasterId(masterId);
+            wikiDatabase.MetadataRepository.DeleteByMasterId(masterId);
+            wikiDatabase.TagItemRepository.DeleteByMasterId(masterId);
+            wikiDatabase.MasterRepository.Delete(masterId.ToString());
+        }
+
+        public void UpdateName(string name, int masterId)
+        {
+            var masterData = wikiDatabase.MasterRepository.Get(f => f.Id == masterId).FirstOrDefault();
+            if (masterData != null)
+            {
+                masterData.Name = name;
+                wikiDatabase.MasterRepository.Update(masterData, "Name");
+            }
         }
     }
 }

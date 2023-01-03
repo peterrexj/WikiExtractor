@@ -21,6 +21,7 @@ namespace WikiExtractor.ViewModels
         public List<MetadataViewModel> Metadatas { get; set; }
         public List<PictureViewModel> Pictures { get; set; }
         public List<Paragraph2ContentViewModel> Paragraphs { get; set; }
+        public List<string> Tags { get; set; }
 
         //public List<(string PicturePrimaryPath, string PicturePrimaryCaption)> PictureImages { get; }
     }

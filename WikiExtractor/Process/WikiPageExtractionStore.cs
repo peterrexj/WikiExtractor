@@ -94,6 +94,22 @@ namespace WikiExtractor.Process
         {
             return tabularInformationExtractor.SaintsExtractByCentury(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
         }
+        public List<WikiWhatToExtractModel> GenericLoadUrlFile(string filePath, List<string>? tags)
+        {
+            var whatToExtract = new List<WikiWhatToExtractModel>();
+            if (File.Exists(filePath))
+            {
+                int counter = 1;
+                var urls = File.ReadAllLines(filePath).Select(f => f.Trim().Replace(f.GetDomain(), ""));
+                foreach (var url in urls)
+                {
+                    var response = WikiPageRouteResponseAsHtmlDocument(url, null);
+                    var paraInfo = paragraphExtractor.ExtractParaInfo(response, url, string.Empty);
+                    whatToExtract.Add(new WikiWhatToExtractModel { Route = url, Title = paraInfo.Header, Tags = tags, Sequence = counter++ });
+                }
+            }
+            return whatToExtract;
+        }
 
         public int PersonaSinglePageContentExtractWithSaveToStore(WikiWhatToExtractModel wikiData)
         {
@@ -103,6 +119,21 @@ namespace WikiExtractor.Process
             var metadata = metadataExtractor.ExtractMetadataInfo(response);
 
             return storeProcess.StoreInformation(paraInfo, metadata, wikiData);
+        }
+
+        public void UpdateTags(List<string> tags, int masterId)
+        {
+            storeProcess.StoreTags(tags, masterId);
+        }
+
+        public void CleanEntry(int masterId)
+        {
+            storeProcess.CleanEntry(masterId);
+        }
+
+        public void UpdateName(string name, int masterId)
+        {
+            storeProcess.UpdateName(name, masterId);
         }
     }
 }

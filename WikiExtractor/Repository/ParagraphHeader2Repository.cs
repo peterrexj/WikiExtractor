@@ -32,5 +32,17 @@ namespace WikiExtractor.Repository
 
             return createStr.ToString();
         }
+
+        public void DeleteByMasterId(int masterId)
+        {
+            var ids = GetAll()
+                .Where(f => f.MasterId == masterId)
+                .Select(f => f.Id);
+
+            foreach (var id in ids)
+            {
+                Delete(id.ToString());
+            }
+        }
     }
 }
