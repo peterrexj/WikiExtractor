@@ -23,7 +23,7 @@ namespace WikiExtractor.Process.Modules
         public void ExtractData()
         {
             Initialize(true);
-            var centuryPopes01 = toStore.ExtractListTabularByCentury("/wiki/List_of_saints_canonized_by_Pope_Benedict_XVI",
+            var centuryPopes01 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes",
                 "1st century",
                 new List<string> { "All", "1st century" });
 
