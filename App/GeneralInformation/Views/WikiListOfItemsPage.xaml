@@ -105,14 +105,17 @@
                                                             <On Platform="macOS" Value="CenterAndExpand"/>
                                                         </OnPlatform>
                                                     </StackLayout.VerticalOptions>
-                                                    <Label Text="{Binding Name}" 
-                                                       TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
-                                                       LineBreakMode="WordWrap" FontAttributes="Bold"
-                                                       Padding="0,0,3,0"
-                                                       FontFamily="OpenSans"
-                                                       FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
-                                                    <Label Grid.Row="1" TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
-                                                       LineBreakMode="WordWrap" MaxLines="4" 
+                                                    <FlexLayout AlignContent="Start">
+                                                        <Label Text="{Binding Name}" 
+                                                               TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
+                                                               LineBreakMode="TailTruncation" FontAttributes="Bold"
+                                                               Padding="0,0,3,0"
+                                                               FontFamily="OpenSans"
+                                                               FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
+                                                        <ActivityIndicator IsRunning="{Binding IsFree}" HeightRequest="{OnPlatform Android={OnIdiom Phone=30, Tablet=40}, iOS={OnIdiom Phone=30, Tablet=40}, UWP={OnIdiom Phone=30, Tablet=40, Desktop=40}, macOS=40, WPF=40}" />
+                                                    </FlexLayout>
+                                                    <Label TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
+                                                       LineBreakMode="TailTruncation" MaxLines="4" 
                                                        Padding="0,0,3,0" 
                                                        Text="{Binding MainContent}" 
                                                        FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=11, Tablet=16}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />

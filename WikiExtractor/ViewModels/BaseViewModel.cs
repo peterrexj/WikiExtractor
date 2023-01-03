@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GeneralInformation.ViewModels
+﻿namespace WikiExtractor.ViewModels
 {
     public class BaseViewModel : BasePropertyChangeModel
     {

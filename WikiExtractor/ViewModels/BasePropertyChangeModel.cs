@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace GeneralInformation.ViewModels
+namespace WikiExtractor.ViewModels
 {
     public class BasePropertyChangeModel : INotifyPropertyChanged
     {

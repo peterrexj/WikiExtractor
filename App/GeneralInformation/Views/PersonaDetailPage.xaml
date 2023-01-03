@@ -98,8 +98,7 @@
                     VisibleHeaderCount="3" 
                     HorizontalOptions="FillAndExpand" 
                     VerticalOptions="FillAndExpand" DisplayMode="Text"
-                    TabHeight="40"
-                    SelectionChanged="tabView_SelectionChanged">
+                    TabHeight="40">
                 <tabView:SfTabView.SelectionIndicatorSettings>
                     <tabView:SelectionIndicatorSettings Color="{AppThemeBinding Dark={StaticResource PersonalBannerGradient01Dark}, Light={StaticResource PersonalBannerGradient01Light}}" 
                                                         Position="Fill" />

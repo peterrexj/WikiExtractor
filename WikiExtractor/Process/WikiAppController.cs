@@ -192,6 +192,10 @@ namespace WikiExtractor.Process
                        MainContent = mainContItem?.Content ?? "",
                        PicturePrimaryPath = primaryPic?.Path ?? "NoImageAvailable.png",
                        PicturePrimaryCaption = primaryPic?.Caption ?? "",
+<<<<<<< HEAD
+=======
+                       IsBusy = false
+>>>>>>> applying loading icon for the click to internal
                    };
         }
 

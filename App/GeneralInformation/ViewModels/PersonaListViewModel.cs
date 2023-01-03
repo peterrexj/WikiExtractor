@@ -16,7 +16,10 @@ namespace GeneralInformation.ViewModels
         }
 
         public string Title { get; set; }
-        public IEnumerable<PersonaViewModel> Personas { get; set; }
+
+        private IList<PersonaViewModel> _personas;
+        public IList<PersonaViewModel> Personas { get => _personas; set => SetProperty(ref _personas, value); }
+
         public IEnumerable<PersonaAutoCompleteModel> AutocompleteList { get; set; }
         public ICommand TapHyperLinkToWikiPage => new Command<string>(async (url) => await Launcher.OpenAsync($"https://en.wikipedia.org/{url}"));
 

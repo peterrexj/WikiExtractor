@@ -47,6 +47,8 @@
 		<Compile Include="..\..\WikiExtractor\Repository\TagItemRepository.cs" Link="Repository\TagItemRepository.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\TagRepository.cs" Link="Repository\TagRepository.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\WikiPictureRepository.cs" Link="Repository\WikiPictureRepository.cs" />
+		<Compile Include="..\..\WikiExtractor\ViewModels\BasePropertyChangeModel.cs" Link="Models\ViewModels\BasePropertyChangeModel.cs" />
+		<Compile Include="..\..\WikiExtractor\ViewModels\BaseViewModel.cs" Link="Models\ViewModels\BaseViewModel.cs" />
 		<Compile Include="..\..\WikiExtractor\ViewModels\PersonaViewModel.cs" Link="Models\ViewModels\PersonaViewModel.cs" />
 		<Compile Include="..\..\WikiExtractor\DbModels\Image.cs" Link="Models\DbModels\Image.cs" />
 	</ItemGroup>

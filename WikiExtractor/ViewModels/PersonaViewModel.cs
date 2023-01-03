@@ -8,8 +8,14 @@ using WikiExtractor.DbModels;
 
 namespace WikiExtractor.ViewModels
 {
-    public class PersonaViewModel
+    public class PersonaViewModel : BaseViewModel
     {
+        public PersonaViewModel()
+        {
+            Metadatas = new List<MetadataViewModel>();
+            Pictures = new List<PictureViewModel>();
+            Paragraphs = new List<Paragraph2ContentViewModel>();
+        }
         public int Id { get; set; }
         public string Name { get; set; }
         public string NameSubstitue { get; set; }

@@ -34,8 +34,7 @@ namespace GeneralInformation.Views
             {
                 InitializeComponent();
                 wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
-                personaDetailViewModel = new PersonaDetailViewModel();
-                BindingContext = personaDetailViewModel = new PersonaDetailViewModel();
+                BindingContext = personaDetailViewModel = new PersonaDetailViewModel { Persona = new PersonaViewModel() };
             }
             catch (Exception ex)
             {
@@ -50,6 +49,11 @@ namespace GeneralInformation.Views
                 base.OnAppearing();
                 int.TryParse(MasterId, out var result);
                 personaDetailViewModel.Persona = wikiAppController.GetViewModelById(result);
+                if (personaDetailViewModel.IsMetaDataAvailable == false)
+                {
+                    personaDetailViewModel.Persona.Metadatas.Add(new MetadataViewModel { Key = "", Description = personaDetailViewModel.Persona.Name });
+                }
+
                 tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount;
                 if (personaDetailViewModel.IsPicturesAvailable)
                 {
@@ -368,9 +372,19 @@ namespace GeneralInformation.Views
                     {
                         if (selectedIndex == -1 && context.HasValue())
                         {
-                            if (context == "BasicInfo") selectedIndex = 0;
-                            else if (context == "Pictures") selectedIndex = 1;
-                            else if (context == "Details") selectedIndex = 2;
+                            if (context == "BasicInfo")
+                            {
+                                selectedIndex = 0;
+                            }
+                            else if (context == "Pictures")
+                            {
+                                selectedIndex = personaDetailViewModel.IsMetaDataAvailable ? 1 : 0;
+                            }
+                            else if (context == "Details")
+                            {
+                                selectedIndex = personaDetailViewModel.IsMetaDataAvailable && personaDetailViewModel.IsPicturesAvailable ? 2 :
+                                    personaDetailViewModel.IsMetaDataAvailable == false && personaDetailViewModel.IsPicturesAvailable == false ? 0 : 1;
+                            }
                             else selectedIndex = 0;
 
                             tabView.SelectedIndex = selectedIndex;

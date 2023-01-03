@@ -61,7 +61,7 @@ namespace GeneralInformation.Views
             try
             {
                 wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
-                var data = wikiAppController.GetListOfWikiItems(Tags);
+                var data = wikiAppController.GetListOfWikiItems(Tags).ToList();
                 var title = wikiAppController.AppMenuItems().FirstOrDefault(f => f.Tags == string.Join(",", Tags)).TitleOnThePage ?? string.Empty;
 
                 BindingContext = personaListViewModel = new PersonaListViewModel
@@ -214,8 +214,14 @@ namespace GeneralInformation.Views
                         else
                         {
                             var masterId = (sender as SfEffectsView).AutomationId;
+                            var personaObj = personaListViewModel.Personas.FirstOrDefault(f => f.Id == masterId.ToInteger());
+                            if (personaObj != null)
+                            {
+                                personaObj.IsBusy = true;
+                            }
                             var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
                             await Shell.Current.GoToAsync(route);
+                            personaObj.IsBusy = false;
                         }
                     }
                 }
