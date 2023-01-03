@@ -12,7 +12,7 @@
              x:Class="GeneralInformation.Views.PersonaDetailPage">
     <ContentPage.Content>
         <StackLayout BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}">
-            <Frame Padding="4" MinimumHeightRequest="{OnPlatform Android={OnIdiom Phone=100, Tablet=60}, iOS={OnIdiom Phone=100, Tablet=60}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=60}, macOS=60, WPF=auto}" 
+            <Frame Padding="4" MinimumHeightRequest="{OnPlatform Android={OnIdiom Phone=100, Tablet=70}, iOS={OnIdiom Phone=100, Tablet=70}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=60}, macOS=60, WPF=auto}" 
                    BackgroundColor="Transparent" >
                 <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" 
                                              TouchDownEffects="Ripple"
