@@ -11,9 +11,9 @@ namespace WikiExtractor.Process.Extractor
     {
         private readonly PopesWikiFinder wikiFinder = new PopesWikiFinder();
 
-        public List<WikiWhatToExtractModel> ExtractListTabularByCentury(string route, string century, List<string>? tags)
+        public List<WikiWhatToExtractModel> ExtractListTabularByCentury(string route, string tableFinderText, List<string>? tags, bool hasPortrait, bool hasPersonalName)
         {
-            return wikiFinder.ExtractByCenturyFromTable(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+            return wikiFinder.ExtractByCenturyFromTable(WikiPageRouteResponseAsHtmlDocument(route, null), tableFinderText, tags, hasPortrait, hasPersonalName);
         }
     }
 }
