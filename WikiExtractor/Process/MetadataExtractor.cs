@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
+using System.Xml.Linq;
 using WikiExtractor.Exts;
 using WikiExtractor.Models;
 
@@ -16,11 +17,26 @@ namespace WikiExtractor.Process
         private readonly HelperHtml helperHtml = new();
         private int _counter = 0;
 
-        public List<MetaDataModel> ExtractMetadataInfo(HtmlDocument document)
+        public List<MetaDataModel> ExtractMetadataInfo(HtmlDocument document, Dictionary<string, string>? additionalDataCaptured)
         {
             _counter = 1;
             var tableRows = document.DocumentNode.SelectNodes("//table[contains(@class, 'infobox vcard')]/tbody/tr");
             var metaDataDict = new List<MetaDataModel>();
+
+            if (additionalDataCaptured != null)
+            {
+                foreach (var additionalData in additionalDataCaptured)
+                {
+                    if (additionalData.Value.HasValue())
+                    {
+                        metaDataDict.Add(new MetaDataModel(_counter++, "", MetadataType.Detail)
+                        {
+                            Name = additionalData.Key,
+                            Description = additionalData.Value
+                        });
+                    }
+                }
+            }
 
             if (tableRows?.Count > 0)
             {
@@ -156,7 +172,7 @@ namespace WikiExtractor.Process
                         content.Append(" ");
                         //content.AppendLine();
                     }
-                    else
+                    else if (cNode.Name != "style")
                     {
                         if (cNode.DecodedInnerText(removeNewLine: true).HasValue())
                         {

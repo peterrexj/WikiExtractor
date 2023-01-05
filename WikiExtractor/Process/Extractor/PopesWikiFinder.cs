@@ -23,8 +23,7 @@ namespace WikiExtractor.Process.Extractor
         private const string _metadata_AgeAtStartEndOfPapacy = "Age at start/nend of papacy";
         private const string _metadata_Notes = "Notes";
         private const string _metadata_PersonalName = "Personal Name";
-
-
+        private const string _metadata_PortaritImage = "Portait Image";
 
         public List<WikiWhatToExtractModel> ExtractByCenturyFromTable(HtmlDocument document, string tableFinderText, List<string>? tags, bool hasPortrait, bool hasPersonalName)
         {
@@ -78,33 +77,38 @@ namespace WikiExtractor.Process.Extractor
 
             foreach (var item in tableData)
             {
+                if (item.ChildNodes.Count(f => f.Name == "td") <= 5)
+                {
+                    continue;
+                }
+                var elements = item.ChildNodes.Where(f => f.Name == "td").ToArray();
+
+                if (elements[elePos_Names].ChildNodes.Count < 4) //Name column does not contain enough information
+                {
+                    continue;
+                }
 
                 var listOfName = new WikiWhatToExtractModel();
                 int counter = 1;
-                var elements = item.ChildNodes.Where(f => f.Name == "td").ToArray();
                 listOfName.AdditionalMetaData!.Add(_metadata_PontiffNumber, elements[elePos_Poitiff].DecodedInnerText(removeNewLine: true).Trim());
                 listOfName.AdditionalMetaData!.Add(_metadata_Pontificate, elements[elePos_Pontificate].DecodedInnerText(removeNewLine: true).Trim());
-                listOfName.AdditionalMetaData!.Add(_metadata_DateAndPlaceOfBirth, elements[elePos_DateAndPlaceOfBirth].DecodedInnerText(removeNewLine: true).Trim());
-                listOfName.AdditionalMetaData!.Add(_metadata_AgeAtStartEndOfPapacy, elements[elePos_AgeAtStartEndOfPapacy].DecodedInnerText(removeNewLine: true).Trim());
-                listOfName.AdditionalMetaData!.Add(_metadata_Notes, elements[elePos_Notes].DecodedInnerText(removeNewLine: false).Trim());
 
-                if (hasPersonalName)
-                {
-                    listOfName.AdditionalMetaData!.Add(_metadata_PersonalName, elements[elePos_PersonalName].DecodedInnerText(removeNewLine: true).Trim());
-                }
+
                 if (hasPortrait)
                 {
+                    //skip portait from this extraction as the images are extracted from the source page of each item
 
+                    //var portraitAnchor = elements[elePos_Potrait].ChildNodes.FirstOrDefault(f => f.Name == "a");
+                    //if (portraitAnchor != null && portraitAnchor.Attributes.Count > 0 && portraitAnchor.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()))
+                    //{
+                    //    listOfName.AdditionalMetaData!.Add(_metadata_PortaritImage, HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: portraitAnchor.Attributes["href"].Value, removeNewLine: false)));
+                    //}
                 }
 
                 //Names with HyperLinks
                 if (elements[elePos_Names].ChildNodes.Count >= 4)
                 {
                     var engName = elements[elePos_Names].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i" || f.Name == "a")?.DecodedInnerText(removeNewLine: true).Trim();
-                    //if (engName.IsEmpty())
-                    //{
-                    //    engName = elements[elePos_Names].ChildNodes.FirstOrDefault(f => f.Name == "a" || f.Name == "i")?.DecodedInnerText(removeNewLine: true).Trim();
-                    //}
                     listOfName.AdditionalMetaData!.AddOrUpdate(_metadata_EnglishName, engName);
                     listOfName.AdditionalMetaData!.AddOrUpdate(_metadata_LatinName, elements[elePos_Names].ChildNodes.FirstOrDefault(f => f.Name == "span")?.DecodedInnerText(removeNewLine: true).Trim());
                     if (elements[elePos_Names].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i")?.ChildNodes.Where(f => f.Name == "a").Count() == 1)
@@ -138,62 +142,16 @@ namespace WikiExtractor.Process.Extractor
                 {
                     throw new Exception("There is more nodes than expected, take a closer look");
                 }
-                
 
-                
+                if (hasPersonalName)
+                {
+                    listOfName.AdditionalMetaData!.Add(_metadata_PersonalName, elements[elePos_PersonalName].DecodedInnerText(removeNewLine: true).Trim());
+                }
 
-                //foreach (var column in item.ChildNodes.Where(f => f.Name == "td"))
-                //{
+                listOfName.AdditionalMetaData!.Add(_metadata_DateAndPlaceOfBirth, elements[elePos_DateAndPlaceOfBirth].DecodedInnerText(removeNewLine: true).Trim());
+                listOfName.AdditionalMetaData!.Add(_metadata_AgeAtStartEndOfPapacy, elements[elePos_AgeAtStartEndOfPapacy].DecodedInnerText(removeNewLine: true).Trim());
+                listOfName.AdditionalMetaData!.Add(_metadata_Notes, elements[elePos_Notes].DecodedInnerText(removeNewLine: false).Trim());
 
-                //    if (counter == 1)
-                //    {
-                //        listOfName.AdditionalMetaData!.Add(_metadata_PontiffNumber, column.DecodedInnerText(removeNewLine: true).Trim());
-                //    }
-                //    else if (counter == 2)
-                //    {
-                //        listOfName.AdditionalMetaData!.Add(_metadata_Pontificate, column.DecodedInnerText(removeNewLine: true).Trim());
-                //    }
-                //    else if (counter == 3)
-                //    {
-                //        if (column.ChildNodes.Count >= 4)
-                //        {
-                //            listOfName.AdditionalMetaData!.AddOrUpdate(_metadata_EnglishName, column.ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i")?.DecodedInnerText(removeNewLine: true).Trim());
-                //            listOfName.AdditionalMetaData!.AddOrUpdate(_metadata_LatinName, column.ChildNodes.FirstOrDefault(f => f.Name == "span")?.DecodedInnerText(removeNewLine: true).Trim());
-                //            if (column.ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i")?.ChildNodes.Where(f => f.Name == "a").Count() == 1)
-                //            {
-                //                var anchor = column.ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i" )?.ChildNodes.FirstOrDefault(f => f.Name == "a");
-                //                if (anchor != null && anchor.Attributes.Count > 0)
-                //                {
-                //                    if (anchor.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()))
-                //                    {
-                //                        listOfName.Route = HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: anchor.Attributes["href"].Value, removeNewLine: false));
-                //                    }
-                //                }
-                //            }
-                //            else
-                //            {
-                //                throw new Exception("There is more than 1 <a>, take a closer look");
-                //            }
-                //        }
-                //        else
-                //        {
-                //            throw new Exception("There is more nodes than expected, take a closer look");
-                //        }
-                //    }
-                //    else if (counter == 4)
-                //    {
-                //        listOfName.AdditionalMetaData!.Add(_metadata_DateAndPlaceOfBirth, column.DecodedInnerText(removeNewLine: true).Trim());
-                //    }
-                //    else if (counter == 5)
-                //    {
-                //        listOfName.AdditionalMetaData!.Add(_metadata_AgeAtStartEndOfPapacy, column.DecodedInnerText(removeNewLine: true).Trim());
-                //    }
-                //    else if (counter == 6)
-                //    {
-                //        listOfName.AdditionalMetaData!.Add(_metadata_Notes, column.DecodedInnerText(removeNewLine: false).Trim());
-                //    }
-                //    counter++;
-                //}
                 if (listOfName.Route.IsEmpty())
                 {
                     throw new Exception("Did not extract the route!");
@@ -214,8 +172,23 @@ namespace WikiExtractor.Process.Extractor
                 listOfName.Sequence = sequence++;
 
                 listOfNames.Add(listOfName);
+
+                Console.WriteLine($"Extraction -> {listOfName.AdditionalMetaData[_metadata_PontiffNumber]} - {listOfName.AdditionalMetaData[_metadata_EnglishName]} [{listOfName.AdditionalMetaData[_metadata_LatinName]}]");
+                Console.WriteLine($"Details -> Pontificate: {listOfName.AdditionalMetaData[_metadata_Pontificate]}");
+                Console.WriteLine($"Details -> Date and Place of birth: {listOfName.AdditionalMetaData[_metadata_DateAndPlaceOfBirth]}");
+                Console.WriteLine($"Details -> Age at start & end of papacy: {listOfName.AdditionalMetaData[_metadata_AgeAtStartEndOfPapacy]}");
+                if (listOfName.AdditionalMetaData.ContainsKey(_metadata_PersonalName))
+                {
+                    Console.WriteLine($"Details -> Personal Name: {listOfName.AdditionalMetaData[_metadata_PersonalName]}");
+                }
+                if (listOfName.AdditionalMetaData.ContainsKey(_metadata_PortaritImage))
+                {
+                    Console.WriteLine($"Details -> Portait Link: {listOfName.AdditionalMetaData[_metadata_PortaritImage]}");
+                }
+                Console.WriteLine("-----------------------------------------------------------------------");
+                Console.WriteLine("");
             }
-            return listOfNames;
+            return listOfNames.OrderByDescending(f => f.Sequence).ToList();
         }
 
         private void ValidateAdditionalMetaData(Dictionary<string, string> data, string field)
@@ -228,7 +201,7 @@ namespace WikiExtractor.Process.Extractor
             {
                 throw new Exception($"Additional data extraction failed to extract {field}");
             }
-            if (data.ContainsKey(field) && data[field].IsEmpty()) 
+            if (data.ContainsKey(field) && data[field].IsEmpty())
             {
                 throw new Exception($"Additional data extraction failed to extract any data for the {field}");
             }

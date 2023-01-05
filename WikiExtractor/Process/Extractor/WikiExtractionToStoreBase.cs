@@ -94,7 +94,7 @@ namespace WikiExtractor.Process.Extractor
             var response = WikiPageRouteResponseAsHtmlDocument(wikiData.Route, null);
 
             var paraInfo = paragraphExtractor.ExtractParaInfo(response, wikiData.Route, wikiData.Title);
-            var metadata = metadataExtractor.ExtractMetadataInfo(response);
+            var metadata = metadataExtractor.ExtractMetadataInfo(response, wikiData.AdditionalMetaData);
 
             return storeProcess.StoreInformation(paraInfo, metadata, wikiData);
         }
