@@ -8,6 +8,7 @@ var serviceProvider = ContainerConfiguration.Configure();
 var saintsExtractor = new SaintsDataExtractor();
 var popesExtractor = new PopesDataExtractor();
 
+popesExtractor.Test();
 popesExtractor.ExtractData();
 
 //saintsExtractor.ExtractData();

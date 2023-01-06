@@ -46,7 +46,7 @@ namespace WikiExtractor.Process.Modules
             var centuryPopes20 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 20th century", new List<string> { "All", "20th century" }, hasPortrait: true, hasPersonalName: true);
             var centuryPopes21 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 21st century", new List<string> { "All", "21st century" }, hasPortrait: true, hasPersonalName: true);
 
-            wikiAppController!.AddMenuItem("All Popes", "All", "Popes", 1);
+            wikiAppController!.AddMenuItem("All Popes", "All", "Popes Of Church", 1);
             wikiAppController.AddMenuItem("21st century", "21st century", "21st Century", 2);
             wikiAppController.AddMenuItem("20th century", "20th century", "20th Century", 3);
             wikiAppController.AddMenuItem("19th century", "19th century", "19th Century", 4);
@@ -68,6 +68,8 @@ namespace WikiExtractor.Process.Modules
             wikiAppController.AddMenuItem("3rd century", "3rd century", "3rd Century", 20);
             wikiAppController.AddMenuItem("2nd century", "2nd century", "2nd Century", 21);
             wikiAppController.AddMenuItem("1st century", "1st century", "1st Century", 22);
+
+            wikiAppController.EnableWithPrimaryMetadataContent(new List<string> { "Pontiff number", "English Name", "Personal Name", "Date & Place Of Birth" });
 
             var popesCollection = centuryPopes21
                  .Union(centuryPopes20).Union(centuryPopes19).Union(centuryPopes18).Union(centuryPopes17).Union(centuryPopes16)
@@ -97,6 +99,14 @@ namespace WikiExtractor.Process.Modules
                 }
 
             });
+        }
+
+
+        public void Test()
+        {
+            Initialize(false);
+            var data = wikiAppController.GetListOfWikiItems(new List<string> { "21st century" }).ToList();
+            var perData = wikiAppController.GetViewModelById(1);
         }
     }
 }

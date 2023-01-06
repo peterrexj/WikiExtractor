@@ -33,6 +33,15 @@ namespace WikiExtractor.Repository
             return Get(s => s.Name.EqualsIgnoreCase(name)).FirstOrDefault()?.Value ?? "";
         }
 
+        public void DeleteByName(string name)
+        {
+            var id = Get(f => f.Name == "")?.FirstOrDefault()?.Id;
+            if (id != null && id != 0)
+            {
+                Delete(id.Value.ToString());
+            }
+        }
+
         public string SchemaScript(int databaseVersion)
         {
             var createStr = new StringBuilder();
@@ -77,7 +86,6 @@ namespace WikiExtractor.Repository
         private int _firstLimitOnAds = 3;
         private int _thenOnLimitOnAds = 6;
 
-
         public void UpdateLimitsOnInitialize(int firstLimit, int thenLimit)
         {
             _firstLimitOnAds = firstLimit;
@@ -95,6 +103,78 @@ namespace WikiExtractor.Repository
             Update("AdsIntersitialLimitOnRecord", _thenOnLimitOnAds.ToString());
             ConfigData.AdsIntersitialLimitOnRecord = _thenOnLimitOnAds;
         }
+        #endregion
+
+        #region Primary Metadata Display
+
+        public void EnablePrimaryMetadatDisplay()
+        {
+            Update("PrimaryMetadatDisplay", "true");
+        }
+
+        public void DisablePrimaryMetadatDisplay()
+        {
+            Update("PrimaryMetadatDisplay", "false");
+        }
+
+        public bool IsPrimaryMetadatDisplayEnabled => GetValue("PrimaryMetadatDisplay").ToBool();
+
+        public void AddPrimaryMetadatDisplayContent(string value)
+        {
+            if (IsPrimaryMetadatDisplayEnabled)
+            {
+                var content = PrimaryMetadatDisplayContent;
+                content.Add(value);
+                var newContent = string.Join(",", content.Distinct());
+
+                RemoveAllPrimaryMetadatDisplayContent();
+                Update("PrimaryMetadatDisplayContent", newContent);
+            }
+            else
+            {
+                throw new Exception("The [PrimaryMetadatDisplay] is not enabled in the store, you need to enable that first!");
+            }
+        }
+        public void AddPrimaryMetadatDisplayContent(List<string> values)
+        {
+            if (IsPrimaryMetadatDisplayEnabled)
+            {
+                var content = PrimaryMetadatDisplayContent;
+                content.AddRange(values);
+                var newContent = string.Join(",", content.Distinct());
+
+                RemoveAllPrimaryMetadatDisplayContent();
+                Update("PrimaryMetadatDisplayContent", newContent);
+            }
+            else
+            {
+                throw new Exception("The [PrimaryMetadatDisplay] is not enabled in the store, you need to enable that first!");
+            }
+        }
+
+        public void RemovePrimaryMetadatDisplayContent(string value)
+        {
+            if (IsPrimaryMetadatDisplayEnabled)
+            {
+                var content = PrimaryMetadatDisplayContent;
+                var newContent = string.Join(",", content.Where(f => f != value).Distinct());
+
+                RemoveAllPrimaryMetadatDisplayContent();
+                Update("PrimaryMetadatDisplayContent", newContent);
+            }
+            else
+            {
+                throw new Exception("The [PrimaryMetadatDisplay] is not enabled in the store, you need to enable that first!");
+            }
+        }
+
+        public void RemoveAllPrimaryMetadatDisplayContent()
+        {
+            DeleteByName("PrimaryMetadatDisplayContent");
+        }
+
+        public List<string> PrimaryMetadatDisplayContent => GetValue("PrimaryMetadatDisplayContent").SplitAndTrim(",").ToList();
+
         #endregion
     }
 }

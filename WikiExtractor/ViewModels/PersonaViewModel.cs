@@ -15,6 +15,7 @@ namespace WikiExtractor.ViewModels
             Metadatas = new List<MetadataViewModel>();
             Pictures = new List<PictureViewModel>();
             Paragraphs = new List<Paragraph2ContentViewModel>();
+            PrimaryMetadataContent = new List<MetadataViewModel>();
         }
         public int Id { get; set; }
         public string Name { get; set; }
@@ -24,6 +25,11 @@ namespace WikiExtractor.ViewModels
         public string MainContent { get; set; }
         public string PicturePrimaryPath { get; set; }
         public string PicturePrimaryCaption { get; set; }
+        public bool IsPrimaryMetadataContentEnabled { get; set; }
+        public bool ShowPrimaryContentMetadata => IsPrimaryMetadataContentEnabled;
+        public bool HidePrimaryContentMetadata => !IsPrimaryMetadataContentEnabled;
+
+        public List<MetadataViewModel> PrimaryMetadataContent { get; set; }
         public List<MetadataViewModel> Metadatas { get; set; }
         public List<PictureViewModel> Pictures { get; set; }
         public List<Paragraph2ContentViewModel> Paragraphs { get; set; }

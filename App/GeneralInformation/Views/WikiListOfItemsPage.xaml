@@ -95,8 +95,8 @@
 
                                             <Grid Grid.Column="1">
                                                 <Grid.RowDefinitions>
+                                                    <RowDefinition Height="25" />
                                                     <RowDefinition Height="*" />
-                                                    <RowDefinition Height="0.2*" />
                                                 </Grid.RowDefinitions>
 
                                                 <StackLayout Grid.Row="0" Padding="10,0,0,0">
@@ -114,13 +114,47 @@
                                                                FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
                                                         <ActivityIndicator IsRunning="{Binding IsFree}" HeightRequest="{OnPlatform Android={OnIdiom Phone=30, Tablet=40}, iOS={OnIdiom Phone=30, Tablet=40}, UWP={OnIdiom Phone=30, Tablet=40, Desktop=40}, macOS=40, WPF=40}" />
                                                     </FlexLayout>
-                                                    <Label TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
-                                                       LineBreakMode="TailTruncation" MaxLines="4" 
-                                                       Padding="0,0,3,0" 
-                                                       Text="{Binding MainContent}" 
-                                                       FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=11, Tablet=16}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
                                                 </StackLayout>
-                                                <Label Grid.Row="1" IsVisible="false"
+                                                <Label Grid.Row="1" IsVisible="{Binding HidePrimaryContentMetadata}"
+                                                           TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
+                                                           LineBreakMode="TailTruncation" MaxLines="{OnPlatform Android={OnIdiom Phone=6, Tablet=4}, iOS={OnIdiom Phone=6, Tablet=4}, UWP={OnIdiom Phone=6, Tablet=4, Desktop=4}, macOS=4, WPF=4}"
+                                                           Padding="10,0,0,0"
+                                                           Text="{Binding MainContent}" 
+                                                           FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=11, Tablet=16}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
+                                                
+                                                <syncfusionList:SfListView Grid.Row="1" Padding="10,0,0,0" IsVisible="{Binding ShowPrimaryContentMetadata}" 
+                                                                           ItemsSource="{Binding PrimaryMetadataContent}" 
+                                                                           AutoFitMode="DynamicHeight"
+                                                                           SelectionMode="None"
+                                                                           IsEnabled="False"
+                                                                           BackgroundColor="Transparent">
+                                                    <syncfusionList:SfListView.LayoutManager>
+                                                        <syncfusionList:LinearLayout />
+                                                    </syncfusionList:SfListView.LayoutManager>
+
+                                                    <syncfusionList:SfListView.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <ViewCell>
+                                                                <ViewCell.View>
+                                                                    <Grid >
+                                                                        <StackLayout Orientation="Horizontal">
+                                                                            <Label>
+                                                                                <Label.FormattedText>
+                                                                                    <FormattedString>
+                                                                                        <Span Text="{Binding Key}" FontSize="{OnIdiom Phone=11, Tablet=16}" />
+                                                                                        <Span Text=": " FontSize="{OnIdiom Phone=12, Tablet=16}"/>
+                                                                                        <Span Text="{Binding Description}" FontAttributes="Bold,Italic" FontSize="{OnIdiom Phone=11, Tablet=16}"/>
+                                                                                    </FormattedString>
+                                                                                </Label.FormattedText>
+                                                                            </Label>
+                                                                        </StackLayout>
+                                                                    </Grid>
+                                                                </ViewCell.View>
+                                                            </ViewCell>
+                                                        </DataTemplate>
+                                                    </syncfusionList:SfListView.ItemTemplate>
+                                                </syncfusionList:SfListView>
+                                                <!--<Label Grid.Row="1" IsVisible="false"
                                                        Margin="0,0,8,0"
                                                        TextDecorations="Underline"
                                                        FontSize="{OnPlatform Android={OnIdiom Phone=10, Tablet=12}, iOS={OnIdiom Phone=10, Tablet=16}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}"
@@ -132,12 +166,12 @@
                                                                 <Span.GestureRecognizers>
                                                                     <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapHyperLinkToWikiPage}" 
                                                                                           CommandParameter="{Binding WikiPath}"/>
-                                                                    <!--Command="{Binding Path=BindingContext.TapHyperLinkToWikiPage, Source={x:Reference lstSaints}}" CommandParameter="{x:Reference WikiPath}" />-->
+                                                                    --><!--Command="{Binding Path=BindingContext.TapHyperLinkToWikiPage, Source={x:Reference lstSaints}}" CommandParameter="{x:Reference WikiPath}" />--><!--
                                                                 </Span.GestureRecognizers>
                                                             </Span>
                                                         </FormattedString>
                                                     </Label.FormattedText>
-                                                </Label>
+                                                </Label>-->
                                             </Grid>
 
                                         </Grid>

@@ -169,6 +169,9 @@ namespace WikiExtractor.Process
             var masters = wikiDatabase.MasterRepository.GetAll();
             if (masters == null || masters.IsEmpty()) return new List<PersonaViewModel>();
 
+            var isPrimaryMetadataContentEnabled = wikiDatabase.PhoneSettingsRepository.IsPrimaryMetadatDisplayEnabled;
+            var primaryMetadataContentFields = wikiDatabase.PhoneSettingsRepository.PrimaryMetadatDisplayContent;
+
             return from master in wikiDatabase.MasterRepository.GetAll()
 
                    join tagItemJoin in wikiDatabase.TagItemRepository.GetAll() on master.Id equals tagItemJoin.MasterId into tagItemGrp
@@ -183,15 +186,29 @@ namespace WikiExtractor.Process
                    join mainCont in wikiDatabase.ParagraphPrimaryContentRepository.GetAll() on master.Id equals mainCont.MasterId into mainContGroup
                    from mainContItem in mainContGroup.DefaultIfEmpty(new ParagraphPrimaryContent { MasterId = master.Id, Content = string.Empty })
 
+
+                   join metadataJoin in wikiDatabase.MetadataRepository.GetAll() on master.Id equals metadataJoin.MasterId into metadataGrp
+                   from metadata in metadataGrp.DefaultIfEmpty(new Metadata { Id = 0, MasterId = master.Id })
+
                    where tags?.Contains(tag.Name) == true || tag.Name.IsEmpty()
+                   group new { master, mainContItem, primaryPic, metadata, tagItem, tag } by new { master.Id } into masterGroup
+
                    select new PersonaViewModel
                    {
-                       Id = master.Id,
-                       Name = master.Name,
-                       WikiPath = master.Route,
-                       MainContent = mainContItem?.Content ?? "",
-                       PicturePrimaryPath = primaryPic?.Path ?? "NoImageAvailable.png",
-                       PicturePrimaryCaption = primaryPic?.Caption ?? "",
+                       Id = masterGroup.FirstOrDefault()!.master.Id,
+                       Name = masterGroup.FirstOrDefault()!.master.Name,
+                       WikiPath = masterGroup.FirstOrDefault()!.master.Route,
+                       MainContent = masterGroup.FirstOrDefault()!.mainContItem?.Content ?? "",
+                       PicturePrimaryPath = masterGroup.FirstOrDefault()!.primaryPic?.Path ?? "NoImageAvailable.png",
+                       PicturePrimaryCaption = masterGroup.FirstOrDefault()!.primaryPic?.Caption ?? "",
+                       IsPrimaryMetadataContentEnabled = isPrimaryMetadataContentEnabled,
+                       PrimaryMetadataContent = isPrimaryMetadataContentEnabled ? masterGroup.Select(f => f.metadata).Where(f => primaryMetadataContentFields.Contains(f.Key) && f.Value.HasValue())
+                        .Select(f => new MetadataViewModel
+                           {
+                               Key = f.Key,
+                               Description = f.Value
+                           }).ToList() : new List<MetadataViewModel>(),
+                       //Tags = masterGroup.Select(f => f.tag).Select(f => f.Name).Distinct().ToList(),
                        IsBusy = false
                    };
         }
@@ -216,7 +233,7 @@ namespace WikiExtractor.Process
                 .Select(f => new { MasterId = f.Key, Items = f.ToList() })
                 .ToList();
 
-            foreach(var data in datas)
+            foreach (var data in datas)
             {
                 data.Tags = grpTags.FirstOrDefault(f => f.MasterId == data.Id)?.Items.Select(f => f.Tags).ToList() ?? new List<string>();
             }
@@ -256,10 +273,20 @@ namespace WikiExtractor.Process
         {
             wikiDatabase.AppMenuItemRepository.Add(new AppMenuItem { MenuItemName = menuItemName, Tags = tags, TitleOnThePage = titleOnThePage, Sequence = sequence }, checkAlreadyExists: true);
         }
-
         public IEnumerable<AppMenuItem> AppMenuItems()
         {
             return wikiDatabase.AppMenuItemRepository.GetAll().OrderBy(o => o.Sequence);
+        }
+
+        public void EnableWithPrimaryMetadataContent(List<string> primaryMetadataContent)
+        {
+            wikiDatabase.PhoneSettingsRepository.EnablePrimaryMetadatDisplay();
+            wikiDatabase.PhoneSettingsRepository.AddPrimaryMetadatDisplayContent(primaryMetadataContent);
+        }
+        public void DisablePrimaryMetadataContent()
+        {
+            wikiDatabase.PhoneSettingsRepository.RemoveAllPrimaryMetadatDisplayContent();
+            wikiDatabase.PhoneSettingsRepository.DisablePrimaryMetadatDisplay();
         }
     }
 }

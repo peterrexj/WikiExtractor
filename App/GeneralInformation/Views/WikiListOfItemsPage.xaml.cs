@@ -197,35 +197,47 @@ namespace GeneralInformation.Views
 
         private async void lstItemEffectsView_AnimationCompleted(object sender, EventArgs e)
         {
-            PersonaViewModel personaObj = null;
             try
             {
                 if (sender != null)
                 {
                     if (sender is SfEffectsView && (sender as SfEffectsView).AutomationId.HasValue())
                     {
-                        personaListViewModel.IsBusy = true;
                         var masterId = (sender as SfEffectsView).AutomationId;
-                        personaObj = personaListViewModel.Personas.FirstOrDefault(f => f.Id == masterId.ToInteger());
-                        if (personaObj != null)
-                        {
-                            personaObj.IsBusy = true;
-                        }
-                        var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
-                        await Shell.Current.GoToAsync(route);
-
-                        if (DatabaseService.AppDatabase.RequestRecordRepository.RequestOnLimit &&
-                            CrossMTAdmob.Current.IsInterstitialLoaded())
-                        {
-                            RunOnAppDispatcher(() =>
-                            {
-                                CrossMTAdmob.Current.ShowInterstitial();
-                                CrossMTAdmob.Current.LoadInterstitial(personaListViewModel.AdsInterstitialId);
-                            });
-                        }
-                        DatabaseService.AppDatabase.RequestRecordRepository.UpdateCount();
+                        await NavigateToChildPage(masterId.ToInteger());
                     }
                 }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
+        }
+
+        private async Task NavigateToChildPage(int masterId)
+        {
+            PersonaViewModel personaObj = null;
+            try
+            {
+                personaListViewModel.IsBusy = true;
+                personaObj = personaListViewModel.Personas.FirstOrDefault(f => f.Id == masterId);
+                if (personaObj != null)
+                {
+                    personaObj.IsBusy = true;
+                }
+                var route = $"{nameof(PersonaDetailPage)}?MasterId={masterId}";
+                await Shell.Current.GoToAsync(route);
+
+                if (DatabaseService.AppDatabase.RequestRecordRepository.RequestOnLimit &&
+                    CrossMTAdmob.Current.IsInterstitialLoaded())
+                {
+                    RunOnAppDispatcher(() =>
+                    {
+                        CrossMTAdmob.Current.ShowInterstitial();
+                        CrossMTAdmob.Current.LoadInterstitial(personaListViewModel.AdsInterstitialId);
+                    });
+                }
+                DatabaseService.AppDatabase.RequestRecordRepository.UpdateCount();
             }
             catch (Exception ex)
             {
@@ -234,7 +246,7 @@ namespace GeneralInformation.Views
             finally
             {
                 personaListViewModel.IsBusy = false;
-                if (personaObj != null) 
+                if (personaObj != null)
                 {
                     personaObj.IsBusy = false;
                 }
