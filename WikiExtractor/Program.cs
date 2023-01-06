@@ -6,14 +6,15 @@ using WikiExtractor.Process.Modules;
 
 var serviceProvider = ContainerConfiguration.Configure();
 var saintsExtractor = new SaintsDataExtractor();
-var popesExtractor = new PopesDataExtractor();
+//var popesExtractor = new PopesDataExtractor();
 
 //popesExtractor.Test();
-popesExtractor.ExtractData();
+//popesExtractor.ExtractData();
 
 //saintsExtractor.ExtractData();
+
 ////saintsExtractor.TestData();
-//saintsExtractor.DumpData();
+saintsExtractor.DumpData();
 
 
 int u = 0;
