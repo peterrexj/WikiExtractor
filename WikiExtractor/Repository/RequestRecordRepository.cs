@@ -56,6 +56,14 @@ namespace WikiExtractor.Repository
                 return data.RequestCount;
         }
         public int IncrementCount() => GetCount() + 1;
-        public bool RequestOnLimit => GetCount() % ConfigData.AdsIntersitialLimitOnRecord == 0;
+        public bool RequestOnLimit
+        {
+            get
+            {
+                var count = GetCount();
+                if (count < ConfigData.AdsIntersitialLimitOnRecord) return false;
+                return count % ConfigData.AdsIntersitialLimitOnRecord == 0;
+            }
+        }
     }
 }

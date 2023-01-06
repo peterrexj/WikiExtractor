@@ -191,9 +191,9 @@ namespace WikiExtractor.Process
                                 var rawContent = cNode.DecodedInnerText(removeNewLine: true);
                                 foreach (var listItem in listItems.Where(f => f.HasValue()))
                                 {
-                                    rawContent = rawContent.Replace(listItem, "");
+                                    rawContent = rawContent.Replace(listItem, "").Trim();
                                 }
-                                rawContent += string.Join(Environment.NewLine, listItems);
+                                rawContent += string.Join(Environment.NewLine, listItems).Trim();
                                 content.Append($"{appendSpace}{rawContent}");
                             }
                             else
@@ -204,7 +204,7 @@ namespace WikiExtractor.Process
                         }
                     }
                 }
-                metaData.Description = content.ToString();
+                metaData.Description = content.ToString().Trim();
                 return metaData;
             }
             catch (Exception)

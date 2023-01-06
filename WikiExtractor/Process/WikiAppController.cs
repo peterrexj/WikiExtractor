@@ -111,8 +111,6 @@ namespace WikiExtractor.Process
                 persona.MainContent = primaryContent.Content;
             }
 
-
-
             var parah2 = wikiDatabase.ParagraphHeader2Repository.Get(m => m.MasterId == master.Id).ToList();
             var parah3 = wikiDatabase.ParagraphHeader3Repository.Get(m => m.MasterId == master.Id).ToList();
             var parahContents = wikiDatabase.ParagraphContentRepository.Get(m => m.MasterId == master.Id).ToList();
