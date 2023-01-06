@@ -12,7 +12,7 @@
              x:Class="GeneralInformation.Views.PersonaDetailPage">
     <ContentPage.Content>
         <StackLayout BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}">
-            <Frame Padding="4" MinimumHeightRequest="{OnPlatform Android={OnIdiom Phone=100, Tablet=70}, iOS={OnIdiom Phone=100, Tablet=70}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=60}, macOS=60, WPF=auto}" 
+            <Frame Padding="4" MinimumHeightRequest="{OnPlatform Android={OnIdiom Phone=100, Tablet=80}, iOS={OnIdiom Phone=100, Tablet=70}, UWP={OnIdiom Phone=100, Tablet=70, Desktop=100}}" 
                    BackgroundColor="Transparent" >
                 <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" 
                                              TouchDownEffects="Ripple"
@@ -36,9 +36,9 @@
                         <sfBorder:SfBorder BackgroundColor="Transparent" BorderColor="Transparent" BorderWidth="0" VerticalOptions="Center">
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=2, Tablet=15}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
-                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.08*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
-                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.85*, Tablet=0.85*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=2, Tablet=15}, iOS={OnIdiom Phone=2, Tablet=15}, UWP=15, macOS=15, WPF=auto}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.08*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP=0.08*, macOS=0.15*, WPF=auto}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.85*, Tablet=0.85*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP=0.85*, macOS=*, WPF=*}" />
                                 </Grid.ColumnDefinitions>
                                 <Image Source="{Binding Persona.PicturePrimaryPath}" Grid.Column="1" 
                                        Aspect="AspectFit" 
@@ -59,10 +59,10 @@
                                                     <Span Text=" " />
                                                     <Span Text="{Binding Persona.Name}"
                                                       FontAttributes="Bold"
-                                                      FontSize="{OnPlatform Android={OnIdiom Phone=20, Tablet=28}, iOS={OnIdiom Phone=12, Tablet=13}, UWP={OnIdiom Phone=20, Tablet=26, Desktop=20}, macOS=13, WPF=20}"/>
+                                                      FontSize="{OnPlatform Android={OnIdiom Phone=20, Tablet=28}, iOS={OnIdiom Phone=12, Tablet=13}, UWP={OnIdiom Phone=20, Tablet=26, Desktop=28}, macOS=13, WPF=20}"/>
                                                     <Span Text="{Binding Persona.NameSubstitueFormatted}" 
                                                       FontAttributes="Bold" 
-                                                      FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=8, Tablet=10}, UWP={OnIdiom Phone=8, Tablet=10, Desktop=10}, macOS=10, WPF=10}"/>
+                                                      FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=8, Tablet=10}, UWP={OnIdiom Phone=8, Tablet=10, Desktop=16}, macOS=10, WPF=10}"/>
                                                 </FormattedString>
                                             </Label.FormattedText>
                                         </Label>
@@ -70,7 +70,7 @@
                                     <Label Grid.Row="1"
                                                        Margin="0,0,8,2"
                                                        TextDecorations="Underline"
-                                                       FontSize="{OnPlatform Android={OnIdiom Phone=10, Tablet=12}, iOS={OnIdiom Phone=10, Tablet=16}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}"
+                                                       FontSize="{OnPlatform Android={OnIdiom Phone=10, Tablet=12}, iOS={OnIdiom Phone=10, Tablet=12}, UWP={OnIdiom Phone=10, Tablet=12, Desktop=12}, macOS=13, WPF=16}"
                                                        VerticalOptions="CenterAndExpand"
                                                        HorizontalOptions="EndAndExpand">
                                         <Label.FormattedText>
@@ -128,26 +128,26 @@
                                 <syncfusionList:SfListView.ItemTemplate>
                                     <DataTemplate>
                                         <Frame Padding="{OnPlatform Android={OnIdiom Phone=1, Tablet=4}, iOS={OnIdiom Phone=1, Tablet=4}, UWP={OnIdiom Desktop=4, Tablet=5, Phone=1}}" 
-                                               Margin="{OnPlatform Android={OnIdiom Phone=2, Tablet=5}, iOS={OnIdiom Phone=2, Tablet=5}, UWP={OnIdiom Desktop=4, Tablet=5, Phone=2}}" 
+                                               Margin="{OnPlatform Android={OnIdiom Phone=2, Tablet=5}, iOS={OnIdiom Phone=2, Tablet=5}, UWP={OnIdiom Desktop=5, Tablet=5, Phone=2}}" 
                                                BackgroundColor="{AppThemeBinding Dark={StaticResource BasicInfoItemBackgroundDark}, Light={StaticResource BasicInfoItemBackgroundLight}}"
                                                HasShadow="{OnPlatform Android=true, iOS=false, UWP=true, WPF=true}">
                                             <Grid>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.15*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
-                                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.85*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
+                                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.30*, Tablet=0.12*}, iOS={OnIdiom Phone=0.30*, Tablet=0.12*}, UWP={OnIdiom Desktop=0.12*, Phone=0.30*, Tablet=0.12*}, macOS=0.12*, WPF=auto}" />
+                                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.70*, Tablet=0.88*}, iOS={OnIdiom Phone=0.70*, Tablet=0.88*}, UWP={OnIdiom Desktop=0.85*, Phone=0.70*, Tablet=0.88*}, macOS=*, WPF=*}" />
                                                 </Grid.ColumnDefinitions>
 
                                                 <Label Text="{Binding Key}" Grid.Column="0" 
                                                        TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
                                                        LineBreakMode="WordWrap" Padding="5,0,0,0" VerticalTextAlignment="Center"
                                                        FontAttributes="Bold"
-                                                       FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=16, Tablet=22}, UWP={OnIdiom Phone=18, Tablet=22, Desktop=22}, macOS=22, WPF=22}" />
+                                                       FontSize="{OnPlatform Android={OnIdiom Phone=14, Tablet=18}, iOS={OnIdiom Phone=14, Tablet=18}, UWP={OnIdiom Phone=14, Tablet=18, Desktop=20}, macOS=20, WPF=20}" />
                                                 <Label Text="{Binding Description}" Grid.Column="1" 
                                                        TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
                                                        LineBreakMode="WordWrap" Padding="2,2,5,2" VerticalTextAlignment="Center"
-                                                       CharacterSpacing="{OnPlatform Android={OnIdiom Phone=0.3, Tablet=0.4}, iOS={OnIdiom Phone=0.3, Tablet=0.4}, UWP={OnIdiom Phone=0.3, Tablet=0.4, Desktop=0.4}, macOS=0.4, WPF=0.4}"
-                                                       LineHeight="{OnPlatform Android={OnIdiom Phone=1.1, Tablet=1.2}, iOS={OnIdiom Phone=1, Tablet=1.2}, UWP={OnIdiom Phone=1, Tablet=1.2, Desktop=1.2}, macOS=1.2, WPF=1.2}"
-                                                       FontSize="{OnPlatform Android={OnIdiom Phone=14, Tablet=17}, iOS={OnIdiom Phone=14, Tablet=17}, UWP={OnIdiom Phone=14, Tablet=17, Desktop=17}, macOS=17, WPF=17}" />
+                                                       CharacterSpacing="{OnPlatform Android={OnIdiom Phone=0.3, Tablet=0.2}, iOS={OnIdiom Phone=0.3, Tablet=0.4}, UWP={OnIdiom Phone=0.3, Tablet=0.4, Desktop=0.4}, macOS=0.4, WPF=0.4}"
+                                                       LineHeight="{OnPlatform Android={OnIdiom Phone=1.1, Tablet=1.0}, iOS={OnIdiom Phone=1, Tablet=1.2}, UWP={OnIdiom Phone=1, Tablet=1.2, Desktop=1.2}, macOS=1.2, WPF=1.2}"
+                                                       FontSize="{OnPlatform Android={OnIdiom Phone=13, Tablet=18}, iOS={OnIdiom Phone=13, Tablet=17}, UWP={OnIdiom Phone=14, Tablet=17, Desktop=17}, macOS=17, WPF=17}" />
 
                                             </Grid>
                                         </Frame>
@@ -180,7 +180,7 @@
                                 <RowDefinition Height="10" />
                                 <RowDefinition Height="*" />
                                 <RowDefinition x:Name="rowImageInContainerGrid" Height="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.15*}, iOS={OnIdiom Phone=0.15*, Tablet=0.15*}, UWP={OnIdiom Desktop=0.15*, Phone=0.15*, Tablet=0.15*}, macOS=0.15*, WPF=auto}" />
-                                <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=5, Tablet=25}, iOS={OnIdiom Phone=5, Tablet=25}, UWP={OnIdiom Phone=5, Tablet=25, Desktop=25}, macOS=25, WPF=25}" />
+                                <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=5, Tablet=25}, iOS={OnIdiom Phone=5, Tablet=25}, UWP={OnIdiom Phone=5, Tablet=25, Desktop=0}, macOS=25, WPF=25}" />
                             </Grid.RowDefinitions>
 
                             <carousel:SfCarousel Grid.Row="1" x:Name="carousel"
@@ -203,7 +203,6 @@
                                        FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=16, Tablet=22}, UWP={OnIdiom Phone=14, Tablet=24, Desktop=24}, macOS=22, WPF=26}" />
                             </Grid>
                         </Grid>
-
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
                 <tabView:SfTabItem Title="Details" x:Name="tabDetailContent" IsVisible="{Binding IsDetailsAvailable}">
@@ -232,7 +231,9 @@
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
             </tabView:SfTabView>
-            <admob:MTAdView AdsId="{Binding AdsBannerId}" HeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=50}, iOS={OnIdiom Phone=50, Tablet=50}, UWP={OnIdiom Phone=50, Tablet=90, Desktop=90}, macOS=90, WPF=90}" />
+            <admob:MTAdView AdsId="{Binding AdsBannerId}" 
+                            IsVisible="{OnPlatform Android=true, iOS=true, UWP=false, macOS=false, WPF=false}"
+                            HeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=50}, iOS={OnIdiom Phone=50, Tablet=50}}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

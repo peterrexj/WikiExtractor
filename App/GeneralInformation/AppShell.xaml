@@ -6,7 +6,7 @@
        x:Class="GeneralInformation.AppShell"
        xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
        FlyoutBackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}"
-       FlyoutWidth="{OnPlatform Android={OnIdiom Phone=200, Tablet=350}, iOS={OnIdiom Phone=200, Tablet=350}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=350}, macOS=350, WPF=auto}"
+       FlyoutWidth="{OnPlatform Android={OnIdiom Phone=200, Tablet=350}, iOS={OnIdiom Phone=200, Tablet=350}, UWP=350, macOS=350, WPF=auto}"
        >
 
     <!--
@@ -141,7 +141,7 @@
                 </sfGradient:SfGradientView.BackgroundBrush>
             </sfGradient:SfGradientView>
             <Label Text="Powered By Wikipedia" Margin="5"
-                   FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=12, Tablet=16}, UWP={OnIdiom Phone=8, Tablet=10, Desktop=10}, macOS=10, WPF=10}"
+                   FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=12, Tablet=16}, UWP=16, macOS=10, WPF=10}"
                    TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
                    FontAttributes="Italic,Bold"
                    HorizontalOptions="Center"/>

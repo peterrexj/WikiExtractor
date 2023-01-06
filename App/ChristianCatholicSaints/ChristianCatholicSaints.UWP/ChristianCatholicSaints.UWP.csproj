@@ -94,6 +94,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="DeviceDependencyImpl\AppEnvironment_Uwp.cs" />
+    <Compile Include="DeviceDependencyImpl\AppInformation_Android.cs" />
     <Compile Include="DeviceDependencyImpl\SqliteFileHelper_Uwp.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>

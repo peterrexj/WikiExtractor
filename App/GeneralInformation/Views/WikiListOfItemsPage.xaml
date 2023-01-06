@@ -71,8 +71,8 @@
 											   BorderWidth="0" VerticalOptions="Center">
                                         <Grid>
                                             <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.10*}, iOS={OnIdiom Phone=0.35*, Tablet=0.10*}, UWP={OnIdiom Desktop=auto, Phone=auto, Tablet=0.55*}, macOS=0.15*, WPF=auto}" />
-                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.90*}, iOS={OnIdiom Phone=0.65*, Tablet=0.90*}, UWP={OnIdiom Desktop=*, Phone=*, Tablet=0.15*}, macOS=*, WPF=*}" />
+                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.10*}, iOS={OnIdiom Phone=0.35*, Tablet=0.10*}, UWP=0.10*, macOS=0.15*, WPF=auto}" />
+                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.90*}, iOS={OnIdiom Phone=0.65*, Tablet=0.90*}, UWP=0.90*, macOS=*, WPF=*}" />
                                             </Grid.ColumnDefinitions>
 
 
@@ -111,16 +111,17 @@
                                                                LineBreakMode="TailTruncation" FontAttributes="Bold"
                                                                Padding="0,0,3,0"
                                                                FontFamily="OpenSans"
-                                                               FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=26, Desktop=26}, macOS=22, WPF=26}" />
-                                                        <ActivityIndicator IsRunning="{Binding IsFree}" HeightRequest="{OnPlatform Android={OnIdiom Phone=30, Tablet=40}, iOS={OnIdiom Phone=30, Tablet=40}, UWP={OnIdiom Phone=30, Tablet=40, Desktop=40}, macOS=40, WPF=40}" />
+                                                               FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP=22, macOS=22, WPF=26}" />
+                                                        <ActivityIndicator IsRunning="{Binding IsFree}" IsVisible="{OnPlatform Android=true, iOS=true, UWP=false, macOS=false, WPF=false}"
+                                                                           HeightRequest="{OnPlatform Android={OnIdiom Phone=30, Tablet=40}, iOS={OnIdiom Phone=30, Tablet=40}, UWP=40, macOS=40, WPF=40}" />
                                                     </FlexLayout>
                                                 </StackLayout>
                                                 <Label Grid.Row="1" IsVisible="{Binding HidePrimaryContentMetadata}"
                                                            TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
-                                                           LineBreakMode="TailTruncation" MaxLines="{OnPlatform Android={OnIdiom Phone=6, Tablet=4}, iOS={OnIdiom Phone=6, Tablet=4}, UWP={OnIdiom Phone=6, Tablet=4, Desktop=4}, macOS=4, WPF=4}"
+                                                           LineBreakMode="TailTruncation" MaxLines="{OnPlatform Android={OnIdiom Phone=6, Tablet=4}, iOS={OnIdiom Phone=6, Tablet=4}, UWP=4, macOS=4, WPF=4}"
                                                            Padding="10,0,0,0"
                                                            Text="{Binding MainContent}" 
-                                                           FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=11, Tablet=16}, UWP={OnIdiom Phone=10, Tablet=14, Desktop=16}, macOS=13, WPF=16}" />
+                                                           FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=11, Tablet=16}, UWP=16, macOS=13, WPF=16}" />
                                                 
                                                 <syncfusionList:SfListView Grid.Row="1" Padding="10,0,0,0" IsVisible="{Binding ShowPrimaryContentMetadata}" 
                                                                            ItemsSource="{Binding PrimaryMetadataContent}" 
@@ -182,7 +183,9 @@
                     </DataTemplate>
                 </syncfusionList:SfListView.ItemTemplate>
             </syncfusionList:SfListView>
-            <admob:MTAdView AdsId="{Binding AdsBannerId}" HeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=50}, iOS={OnIdiom Phone=50, Tablet=50}, UWP={OnIdiom Phone=50, Tablet=90, Desktop=90}, macOS=90, WPF=90}" />
+            <admob:MTAdView AdsId="{Binding AdsBannerId}" 
+                            IsVisible="{OnPlatform Android=true, iOS=true, UWP=false, macOS=false, WPF=false}"
+                            HeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=50}, iOS={OnIdiom Phone=50, Tablet=50}}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
