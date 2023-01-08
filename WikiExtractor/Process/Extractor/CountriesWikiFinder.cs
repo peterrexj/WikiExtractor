@@ -1,4 +1,5 @@
 ﻿using HtmlAgilityPack;
+using Pj.Library;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,13 @@ namespace WikiExtractor.Process.Extractor
                 var elements = tableRow.ChildNodes.Where(f => f.Name == "td").ToArray();
 
                 var num = elements[0].DecodedInnerText(removeNewLine: true).Trim();
+                var isValid = num.HasValue() && !num.Contains("–");
 
+                if (isValid)
+                {
+                    listOfName.AdditionalMetaData.Add("Number", num);
+                    listOfNames.Add(listOfName);
+                }
             }
 
             return listOfNames;
