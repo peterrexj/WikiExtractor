@@ -25,6 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopesOfChurch.Android", "Po
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{CD0B9399-282C-4E15-B9C1-58C6DCEF94CF}"
 	ProjectSection(SolutionItems) = preProject
+		Databases\WikiStorePopes.db = Databases\WikiStorePopes.db
 		Databases\WikiStoreSaints.db = Databases\WikiStoreSaints.db
 	EndProjectSection
 EndProject
