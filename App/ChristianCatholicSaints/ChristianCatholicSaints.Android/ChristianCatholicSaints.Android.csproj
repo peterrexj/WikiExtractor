@@ -106,7 +106,9 @@
     <Compile Include="SplashActivity.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\WikiStoreSaints.db" />
+    <AndroidAsset Include="..\..\Databases\WikiStoreSaints.db">
+      <Link>Assets\WikiStoreSaints.db</Link>
+    </AndroidAsset>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
