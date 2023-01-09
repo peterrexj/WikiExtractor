@@ -11,9 +11,14 @@ namespace WikiExtractor.Process.Extractor
     {
         private readonly CountriesWikiFinder wikiFinder = new CountriesWikiFinder();
 
-        public List<WikiWhatToExtractModel> ListByDependencyArea(string route, List<string>? tags)
+        public List<WikiWhatToExtractModel> ListByDependencyArea_ForCountries(string route, List<string>? tags)
         {
-            return wikiFinder.ListByDependencyArea(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+            return wikiFinder.ListByDependencyArea_ForCountries(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+        }
+
+        public List<WikiWhatToExtractModel> ListByDependencyArea_ForNonCountries(string route, List<string>? tags)
+        {
+            return wikiFinder.ListByDependencyArea_ForNonCountries(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
         }
     }
 }
