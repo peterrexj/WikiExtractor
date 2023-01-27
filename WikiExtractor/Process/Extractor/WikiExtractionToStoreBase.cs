@@ -89,12 +89,13 @@ namespace WikiExtractor.Process.Extractor
             return whatToExtract;
         }
 
-        public int PersonaSinglePageContentExtractWithSaveToStore(WikiWhatToExtractModel wikiData)
+        public int PersonaSinglePageContentExtractWithSaveToStore(WikiWhatToExtractModel wikiData, 
+            List<string> excludedAdditionalMetadata = null)
         {
             var response = WikiPageRouteResponseAsHtmlDocument(wikiData.Route, null);
 
             var paraInfo = paragraphExtractor.ExtractParaInfo(response, wikiData.Route, wikiData.Title);
-            var metadata = metadataExtractor.ExtractMetadataInfo(response, wikiData.AdditionalMetaData);
+            var metadata = metadataExtractor.ExtractMetadataInfo(response, wikiData.AdditionalMetaData, excludedAdditionalMetadata);
 
             return storeProcess.StoreInformation(paraInfo, metadata, wikiData);
         }

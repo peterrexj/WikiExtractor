@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace ChristianCatholicSaints.UWP
+namespace PopesOfChurch.UWP
 {
     public sealed partial class MainPage
     {

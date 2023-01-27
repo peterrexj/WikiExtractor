@@ -23,36 +23,42 @@ namespace WikiExtractor.Process.Modules
         public void ExtractData()
         {
             Initialize(true);
+            var excludedMetadata = new List<string> { "Rank", "FlagImage" };
+            var countries = toStore!.ListByDependencyArea_ForCountries("/wiki/List_of_countries_and_dependencies_by_area", new List<string> { "Countries", "All" }).ToList();
+            var noncountries = toStore!.ListByDependencyArea_ForNonCountries("/wiki/List_of_countries_and_dependencies_by_area", new List<string> { "Non Countries", "All" }).ToList();
 
-            var countries = toStore!.ListByDependencyArea_ForCountries("/wiki/List_of_countries_and_dependencies_by_area", new List<string> { "Countries" }).ToList();
-            var noncountries = toStore!.ListByDependencyArea_ForNonCountries("/wiki/List_of_countries_and_dependencies_by_area", new List<string> { "Non Countries" }).ToList();
-            
             var groupByCountryStartLetter = countries.Select(f => f.Title).OrderBy(f => f).GroupBy(f => f.Substring(0, 1)).Select(f => new { f.Key, Countries = f.ToList() });
+
+            int menuItemCounter = 0;
+            wikiAppController!.AddMenuItem("All", "All", "Countries & Non Countries", menuItemCounter++);
+            wikiAppController!.AddMenuItem("Countries", "Countries", "Countries", menuItemCounter++);
+            wikiAppController!.AddMenuItem("Non Countries", "Non Countries", "Non Countries", menuItemCounter++);
 
             foreach (var startLetterContent in groupByCountryStartLetter)
             {
                 foreach (var country in startLetterContent.Countries)
                 {
                     var coun = countries.FirstOrDefault(f => f.Title == country);
-                    coun?.Tags?.Add($"Country {startLetterContent.Key}");
+                    coun?.Tags?.Add($"Country with [{startLetterContent.Key}]");
                 }
+                wikiAppController!.AddMenuItem($"Country with [{startLetterContent.Key}]", $"Country with [{startLetterContent.Key}]", $"Country with [{startLetterContent.Key}]", menuItemCounter++);
             }
 
             wikiAppController.EnableWithPrimaryMetadataContent(new List<string> { "Total in km2 (mi2)", "Land in km2 (mi2)", "Water in km2 (mi2)" });
 
-            var countriesCollection = countries.Union(noncountries).ToList().WithDefaultFilters();
+            var countriesCollection = countries.OrderBy(f => f.Sequence).Union(noncountries.OrderBy(f => f.Sequence)).ToList().WithDefaultFilters();
 
             int totalCount = countriesCollection.Count;
             int currentIndex = 1;
 
             //foreach (var saints in saintsCollection)
-            Parallel.ForEach(countriesCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, saint =>
+            Parallel.ForEach(countriesCollection/*.Where(f => f.Route.ContainsIgnoreCase("india"))*//*.Take(10)*/, new ParallelOptions { MaxDegreeOfParallelism = 1 }, saint =>
             {
                 try
                 {
-                    toStore.PersonaSinglePageContentExtractWithSaveToStore(saint);
+                    toStore.PersonaSinglePageContentExtractWithSaveToStore(saint, excludedMetadata);
                     Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Saints [{saint.Title}]: {saint.Route}");
-                    Thread.Sleep(1000);
+                    //Thread.Sleep(1000);
                     currentIndex = currentIndex + 1;
                 }
                 catch (Exception ex)
@@ -61,6 +67,13 @@ namespace WikiExtractor.Process.Modules
                 }
 
             });
+
+
+            ////Temp code
+            //IoHelper.CopyFile(@"C:\GIT\Other\peterrexj\WikiExtractor\WikiExtractor\bin\Debug\net6.0\Db\WikiStoreCountries.db",
+            //    @"C:\GIT\Other\peterrexj\WikiExtractor\App\Popes\PopesOfChurch.UWP\Assets\WikiStoreCountries.db");
+            //IoHelper.MoveFile(@"C:\GIT\Other\peterrexj\WikiExtractor\WikiExtractor\bin\Debug\net6.0\Db\WikiStoreCountries.db",
+            //    @"C:\GIT\Other\peterrexj\WikiExtractor\App\Popes\PopesOfChurch.UWP\Assets", isTargetFolder: true);
         }
     }
 }

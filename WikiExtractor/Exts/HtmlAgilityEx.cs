@@ -35,7 +35,28 @@ namespace WikiExtractor.Exts
             {
                 content = content.Replace(Environment.NewLine, " ");
             }
+            return content.Trim();
+        }
+
+        public static bool ContainsStartDot(string content) => content.StartsWith("•");
+        public static string RemoveStartDot(string content)
+        {
+            if (content.StartsWith("•"))
+            {
+                content = content.Replace("•", "");
+            }
             return content;
+        }
+
+        public static List<HtmlNode> ExtractAllChildNodes(HtmlNodeCollection htmlNodes)
+        {
+            var nodes = new List<HtmlNode>();
+            foreach (var node in htmlNodes)
+            {
+                nodes.Add(node);
+                nodes.AddRange(ExtractAllChildNodes(node.ChildNodes));
+            }
+            return nodes;
         }
     }
 }

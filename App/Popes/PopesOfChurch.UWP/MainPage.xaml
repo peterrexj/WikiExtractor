@@ -1,9 +1,9 @@
 ﻿<forms:WindowsPage
-    x:Class="ChristianCatholicSaints.UWP.MainPage"
+    x:Class="PopesOfChurch.UWP.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:forms="using:Xamarin.Forms.Platform.UWP"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:ChristianCatholicSaints.UWP"
+    xmlns:local="using:PopesOfChurch.UWP"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">

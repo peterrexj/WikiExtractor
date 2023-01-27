@@ -63,7 +63,7 @@ namespace WikiExtractor.Process
         private void StoreWikiPictures(WikiPageModel wikiPageModel, List<MetaDataModel> metadatas, int masterId)
         {
             bool hasPrimaryWikiPictureIdentified = false;
-
+            int counter = 0;
             foreach (var imageType in metadatas.Where(f => f.Type == MetadataType.Image).Select(s => s.ToImageDbModel()).OrderBy(f => f.Sequence))
             {
                 imageType.MasterId = masterId;
@@ -76,7 +76,7 @@ namespace WikiExtractor.Process
                 {
                     imageType.IsPrimary = 0;
                 }
-
+                imageType.Sequence = counter++;
                 wikiDatabase.WikiPictureRepository.Add(imageType, checkAlreadyExists: true);
             }
 

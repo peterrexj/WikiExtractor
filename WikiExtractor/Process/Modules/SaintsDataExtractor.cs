@@ -128,7 +128,7 @@ namespace WikiExtractor.Process.Modules
                 {
                     toStore.PersonaSinglePageContentExtractWithSaveToStore(saint);
                     Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Saints [{saint.Title}]: {saint.Route}");
-                    //Thread.Sleep(1000);
+                    Thread.Sleep(1000);
                     currentIndex = currentIndex + 1;
                 }
                 catch (Exception ex)
@@ -285,7 +285,9 @@ namespace WikiExtractor.Process.Modules
 
         public void Test()
         {
-            //var pp = appCtrl.GetListOfWikiItems(new List<string> { "Canonized by Pope Leo XIII" });
+            Initialize(false);
+            var pp = wikiAppController.GetListOfWikiItems(new List<string> { "All" }).First();
+            var test = wikiAppController.GetViewModelById(pp.Id);
             //var ppA = appCtrl.GetListOfWikiItems(new List<string> { "All" });
             //var tt = appCtrl.GetViewModelByRoute("/wiki/Paul_the_Apostle");
 

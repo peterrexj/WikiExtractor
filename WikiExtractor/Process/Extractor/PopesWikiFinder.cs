@@ -21,7 +21,7 @@ namespace WikiExtractor.Process.Extractor
         private const string _metadata_LatinName = "Latin Name";
         private const string _metadata_DateAndPlaceOfBirth = "Date & Place Of Birth";
         private const string _metadata_AgeAtStartEndOfPapacy = "Age at start/nend of papacy";
-        private const string _metadata_Notes = "Notes";
+        private const string _metadata_Notes = "Extras";
         private const string _metadata_PersonalName = "Personal Name";
         private const string _metadata_PortaritImage = "Portait Image";
 

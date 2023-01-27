@@ -28,9 +28,111 @@ namespace WikiExtractor.Process
         }
         public PersonaViewModel GetViewModelById(int id)
         {
-            return GetViewModel(wikiDatabase.MasterRepository.Get(m => m.Id == id).FirstOrDefault());
+            return GetViewModelv2(id);
         }
 
+        private PersonaViewModel GetViewModelv2(int masterId)
+        {
+            var persona = (from master in wikiDatabase.MasterRepository.GetAll()
+
+                           join picJoin in wikiDatabase.WikiPictureRepository.GetAll() on master.Id equals picJoin.MasterId into picGroup
+                           from pic in picGroup.DefaultIfEmpty(new WikiPicture { MasterId = master.Id, Path = "NoImageAvailable.png", Caption = string.Empty })
+
+                           join metadataJoin in wikiDatabase.MetadataRepository.GetAll() on master.Id equals metadataJoin.MasterId into metadataGrp
+                           from metadata in metadataGrp.DefaultIfEmpty(new Metadata { Id = 0, MasterId = master.Id })
+
+                           join mainCont in wikiDatabase.ParagraphPrimaryContentRepository.GetAll() on master.Id equals mainCont.MasterId into mainContGroup
+                           from mainContItem in mainContGroup.DefaultIfEmpty(new ParagraphPrimaryContent { MasterId = master.Id, Content = string.Empty })
+
+                           where master.Id == masterId
+                           group new { master, pic, metadata, mainContItem } by new { master.Id } into masterGroup
+                           let mainContentData = masterGroup.Select(f => f.mainContItem).Distinct().FirstOrDefault(f => f != null && f.Content.HasValue())
+                           let masterData = masterGroup.FirstOrDefault()
+                           let primaryPicData = masterGroup.Select(f => f.pic).Where(f => f.Path.HasValue()).FirstOrDefault(f => f.IsPrimaryBool)
+                           let picData = masterGroup.Select(f => f.pic).Distinct().Where(f => f.Path.HasValue()).OrderBy(f => f.Sequence)
+                           let metaData = masterGroup.Select(f => f.metadata).Distinct().OrderBy(f => f.Sequence)
+                                    .Where(item => item.TypeByEnum == MetadataType.Detail && item.Value.HasValue())
+
+                           select new PersonaViewModel
+                           {
+                               Name = masterData.master.Name,
+                               WikiPath = masterData.master.Route,
+                               PicturePrimaryPath = primaryPicData?.Path ?? "",
+                               PicturePrimaryCaption = primaryPicData?.Caption ?? "",
+                               Pictures = picData
+                                   .Select(f => new PictureViewModel
+                                   {
+                                       PicturePath = f.Path,
+                                       PictureCaption = f.Caption.HasValue() && f.Caption.Length >= ConfigData.MinLengthOfPictureCaption ? f.Caption : string.Empty,
+                                       Sequence = f.Sequence
+                                   }).ToList(),
+                               Metadatas = metaData
+                                    .Select(item => new MetadataViewModel
+                                    {
+                                        Key = item.Key,
+                                        Description = item.Value,
+                                        Sequence = item.Sequence,
+                                        GroupHeader = item.Value //Need to get the group header
+                                    }).ToList(),
+                               MainContent = mainContentData?.Content ?? "",
+                               Paragraphs = new List<Paragraph2ContentViewModel> { new Paragraph2ContentViewModel
+                            {
+                                Content = mainContentData.Content,
+                                Header2 = masterData.master.Name,
+                                Sequence = 0
+                            } }
+                           }).FirstOrDefault();
+
+            var parah2 = wikiDatabase.ParagraphHeader2Repository.Get(m => m.MasterId == masterId).ToList();
+            var parah3 = wikiDatabase.ParagraphHeader3Repository.Get(m => m.MasterId == masterId).ToList();
+            var parahContents = wikiDatabase.ParagraphContentRepository.Get(m => m.MasterId == masterId).ToList();
+
+            if (parahContents.Any())
+            {
+                int sequence = 1;
+                foreach (var para2Item in parah2.OrderBy(f => f.Sequence))
+                {
+                    if (parahContents.Any(f => f.ParagraphHeader2Id != para2Item.Id))
+                    {
+                        persona.Paragraphs.Add(new Paragraph2ContentViewModel
+                        {
+                            Content = parahContents.FirstOrDefault(f => f.ParagraphHeader2Id == para2Item.Id)!.Content,
+                            Header2 = para2Item.Header,
+                            Para3s = new List<Paragraph3ContentViewModel>(),
+                            Sequence = sequence++
+                        });
+                    }
+                    else
+                    {
+                        persona.Paragraphs.Add(new Paragraph2ContentViewModel
+                        {
+                            Content = string.Empty,
+                            Header2 = "Details",
+                            Para3s = new List<Paragraph3ContentViewModel>(),
+                            Sequence = sequence++
+                        });
+                    }
+
+                    if (parah3.Any(f => f.ParagraphHeader2Id == para2Item.Id)) //Any items matching the para2 header
+                    {
+                        foreach (var para3Item in parah3.Where(f => f.ParagraphHeader2Id == para2Item.Id).OrderBy(f => f.Sequence))
+                        {
+                            if (parahContents.Any(f => f.ParagraphHeader2Id == para2Item.Id && f.ParagraphHeader3Id == para3Item.Id))
+                            {
+                                persona.Paragraphs.Last().Para3s!.Add(new Paragraph3ContentViewModel
+                                {
+                                    Content = parahContents.FirstOrDefault(f => f.ParagraphHeader2Id == para2Item.Id && f.ParagraphHeader3Id == para3Item.Id)!.Content,
+                                    Header3 = para3Item.Header,
+                                    Sequence = sequence++,
+                                });
+                            }
+                        }
+                    }
+
+                }
+            }
+            return persona;
+        }
         private PersonaViewModel GetViewModel(DbModels.Master master)
         {
             if (master == null) return null;
@@ -111,9 +213,9 @@ namespace WikiExtractor.Process
                 persona.MainContent = primaryContent.Content;
             }
 
-            var parah2 = wikiDatabase.ParagraphHeader2Repository.Get(m => m.MasterId == master.Id).ToList();
-            var parah3 = wikiDatabase.ParagraphHeader3Repository.Get(m => m.MasterId == master.Id).ToList();
-            var parahContents = wikiDatabase.ParagraphContentRepository.Get(m => m.MasterId == master.Id).ToList();
+            var parah2 = wikiDatabase.ParagraphHeader2Repository.Get(m => m.MasterId == master.Id);
+            var parah3 = wikiDatabase.ParagraphHeader3Repository.Get(m => m.MasterId == master.Id);
+            var parahContents = wikiDatabase.ParagraphContentRepository.Get(m => m.MasterId == master.Id);
             if (parahContents.Any())
             {
                 int sequence = 1;
@@ -164,8 +266,8 @@ namespace WikiExtractor.Process
 
         public IEnumerable<PersonaViewModel> GetListOfWikiItems(List<string> tags = null)
         {
-            var masters = wikiDatabase.MasterRepository.GetAll();
-            if (masters == null || masters.IsEmpty()) return new List<PersonaViewModel>();
+            //var masters = wikiDatabase.MasterRepository.GetAll();
+            //if (masters == null || masters.IsEmpty()) return new List<PersonaViewModel>();
 
             var isPrimaryMetadataContentEnabled = wikiDatabase.PhoneSettingsRepository.IsPrimaryMetadatDisplayEnabled;
             var primaryMetadataContentFields = wikiDatabase.PhoneSettingsRepository.PrimaryMetadatDisplayContent;
@@ -202,10 +304,10 @@ namespace WikiExtractor.Process
                        IsPrimaryMetadataContentEnabled = isPrimaryMetadataContentEnabled,
                        PrimaryMetadataContent = isPrimaryMetadataContentEnabled ? masterGroup.Select(f => f.metadata).Where(f => primaryMetadataContentFields.Contains(f.Key) && f.Value.HasValue())
                         .Select(f => new MetadataViewModel
-                           {
-                               Key = f.Key,
-                               Description = f.Value
-                           }).ToList() : new List<MetadataViewModel>(),
+                        {
+                            Key = f.Key,
+                            Description = f.Value
+                        }).ToList() : new List<MetadataViewModel>(),
                        //Tags = masterGroup.Select(f => f.tag).Select(f => f.Name).Distinct().ToList(),
                        IsBusy = false
                    };

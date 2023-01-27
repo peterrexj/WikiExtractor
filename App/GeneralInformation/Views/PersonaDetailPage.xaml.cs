@@ -59,12 +59,18 @@ namespace GeneralInformation.Views
                 {
                     personaDetailViewModel.CurrentSelectedPictureCaption = personaDetailViewModel.Persona.Pictures.FirstOrDefault().PictureCaption;
                 }
-
-                foreach (var para in personaDetailViewModel.Persona.Paragraphs)
-                {
-                    ParaContentsStack.Children.Add(RenderPara2ContentV2(para));
-                }
-                await ApplyTabSelectionChangeEvent();
+                var taskGroup = new TaskGroup();
+                taskGroup.Add(() =>
+                    RunOnAppDispatcher(() =>
+                    {
+                        foreach (var para in personaDetailViewModel.Persona.Paragraphs)
+                        {
+                            ParaContentsStack.Children.Add(RenderPara2ContentV2(para));
+                        }
+                    })
+                );
+                taskGroup.Add(() => ApplyTabSelectionChangeEvent());
+                taskGroup.WaitAll();
             }
             catch (Exception ex)
             {
@@ -446,7 +452,7 @@ namespace GeneralInformation.Views
                         }
                     }
                     catch (Exception ex)
-                    { 
+                    {
                         Crashes.TrackError(ex);
                     }
                 });
