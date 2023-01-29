@@ -7,5 +7,7 @@
         string AdsInterstitialId { get; }
         int ShowFirstInterstitialAdOnClickLimit { get; }
         int ShowLaterInterstitialAdOnClickLimit { get; }
+
+        int StyleOnImageHeightRequestOnListPage { get; }
     }
 }

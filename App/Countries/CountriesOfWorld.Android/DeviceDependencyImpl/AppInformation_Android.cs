@@ -16,5 +16,11 @@ namespace CountriesOfWorld.Droid.DeviceDependencyImpl
         public int ShowFirstInterstitialAdOnClickLimit => 3;
 
         public int ShowLaterInterstitialAdOnClickLimit => 8;
+
+        #region Style Implementation
+
+        public int StyleOnImageHeightRequestOnListPage => 100;
+
+        #endregion
     }
 }

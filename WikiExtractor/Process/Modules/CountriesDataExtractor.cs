@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WikiExtractor.Process.Extractor;
 using WikiExtractor.Exts;
+using Pj.Library;
 
 namespace WikiExtractor.Process.Modules
 {
@@ -52,7 +53,7 @@ namespace WikiExtractor.Process.Modules
             int currentIndex = 1;
 
             //foreach (var saints in saintsCollection)
-            Parallel.ForEach(countriesCollection/*.Where(f => f.Route.ContainsIgnoreCase("india"))*//*.Take(10)*/, new ParallelOptions { MaxDegreeOfParallelism = 1 }, saint =>
+            Parallel.ForEach(countriesCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, saint =>
             {
                 try
                 {

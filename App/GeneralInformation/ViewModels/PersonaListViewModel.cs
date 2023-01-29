@@ -1,5 +1,6 @@
 ﻿using GeneralInformation.Services;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using System.Windows.Input;
 using WikiExtractor.ViewModels;
 using Xamarin.Essentials;
@@ -11,8 +12,13 @@ namespace GeneralInformation.ViewModels
     {
         public PersonaListViewModel()
         {
-            AdsInterstitialId = DependencyService.Get<IAppInformation>().AdsInterstitialId;
-            AdsBannerId = DependencyService.Get<IAppInformation>().AdsBannerId;
+            var appInfo = DependencyService.Get<IAppInformation>();
+            AdsInterstitialId = appInfo.AdsInterstitialId;
+            AdsBannerId = appInfo.AdsBannerId;
+            StyleDrive = new StyleDrive
+            {
+                StyleOnImageHeightRequestOnListPage = appInfo.StyleOnImageHeightRequestOnListPage,
+            };
         }
 
         public string Title { get; set; }
@@ -22,7 +28,7 @@ namespace GeneralInformation.ViewModels
 
         public IEnumerable<PersonaAutoCompleteModel> AutocompleteList { get; set; }
         public ICommand TapHyperLinkToWikiPage => new Command<string>(async (url) => await Launcher.OpenAsync($"https://en.wikipedia.org/{url}"));
-
+        public StyleDrive StyleDrive { get; set; }
 
         #region Ads
         private string _adsBannerId;
@@ -53,5 +59,10 @@ namespace GeneralInformation.ViewModels
             }
         }
         #endregion
+    }
+
+    public class StyleDrive
+    {
+        public int StyleOnImageHeightRequestOnListPage { get; set;}
     }
 }

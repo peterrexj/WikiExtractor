@@ -8,7 +8,7 @@
              xmlns:syncAutoComplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
              xmlns:sfBusyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
              xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
-             x:Class="GeneralInformation.Views.WikiListOfItemsPage"
+             x:Class="GeneralInformation.Views.WikiListOfItemsPage" x:Name="ListViewPage"
              Shell.NavBarIsVisible="True" Title="{Binding Title}">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="5" Spacing="10" BackgroundColor="{AppThemeBinding 
@@ -81,8 +81,8 @@
                                             <!--<Frame BorderColor="Black" BackgroundColor="Transparent" >-->
                                             <Image x:Name="imgList" Source="{Binding PicturePrimaryPath}" Margin="5,0,0,0"
                                                    HorizontalOptions="FillAndExpand" 
-                                                   VerticalOptions="FillAndExpand" 
-                                                       HeightRequest="130" WidthRequest="120" Aspect="AspectFit"/>
+                                                   VerticalOptions="Start" 
+                                                       HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnImageHeightRequestOnListPage}" WidthRequest="120" Aspect="AspectFit"/>
                                             <!--</Frame>-->
                                             <ActivityIndicator BindingContext="{x:Reference imgList}" IsRunning="{Binding IsLoading}" />
                                             <!--<sfBusyindicator:SfBusyIndicator x:Name="busyindicator" AnimationType="Globe" 
