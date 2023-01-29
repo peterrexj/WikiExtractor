@@ -22,5 +22,7 @@ namespace PopesOfChurch.Droid.DeviceDependencyImpl
         public int StyleOnImageHeightRequestOnListPage => 130;
 
         #endregion
+
+        public string TextOnFirstTabInformationOnDetailPage => "Pope facts";
     }
 }
