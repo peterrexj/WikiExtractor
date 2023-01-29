@@ -112,7 +112,7 @@
                                                          WidthRequest="{Binding Source={x:Reference gridHeaderTabUsefullInfo}, Path=Width}"
                                                          Style="{StaticResource sfTabEffectsViewHeaderStyle}">
                                 <buttons:SfButton x:Name="btnTabBasicInfo" 
-                                                  Text="Basic Info" TabIndex="100"
+                                                  Text="{Binding TextOnFirstTabInformationOnDetailPage}" TabIndex="100"
                                                   HorizontalOptions="FillAndExpand"
                                                   Style="{StaticResource sfTabHeaderSytle}" Clicked="btnTabBtn_Clicked"/>
                             </sfEffectsView:SfEffectsView>

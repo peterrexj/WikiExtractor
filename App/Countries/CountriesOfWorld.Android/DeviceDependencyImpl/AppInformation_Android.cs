@@ -22,5 +22,6 @@ namespace CountriesOfWorld.Droid.DeviceDependencyImpl
         public int StyleOnImageHeightRequestOnListPage => 100;
 
         #endregion
+        public string TextOnFirstTabInformationOnDetailPage => "Country facts";
     }
 }

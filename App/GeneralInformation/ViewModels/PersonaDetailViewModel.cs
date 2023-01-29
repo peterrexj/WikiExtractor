@@ -13,9 +13,11 @@ namespace GeneralInformation.ViewModels
         public PersonaDetailViewModel()
         {
             selectedTabIndex = -1;
+            var appInfo = DependencyService.Get<IAppInformation>();
 
-            AdsInterstitialId = DependencyService.Get<IAppInformation>().AdsInterstitialId;
-            AdsBannerId = DependencyService.Get<IAppInformation>().AdsBannerId;
+            AdsInterstitialId = appInfo.AdsInterstitialId;
+            AdsBannerId = appInfo.AdsBannerId;
+            TextOnFirstTabInformationOnDetailPage = appInfo.TextOnFirstTabInformationOnDetailPage;
         }
         private int selectedTabIndex;
         public int SelectedTabIndex { get => selectedTabIndex; set => SetProperty(ref selectedTabIndex, value); }
@@ -38,7 +40,7 @@ namespace GeneralInformation.ViewModels
         public bool IsDetailsAvailable => Persona != null && Persona.Paragraphs != null && Persona.Paragraphs.Any();
 
         private int? _availableCount;
-        public int? AvailableTabCount 
+        public int? AvailableTabCount
         {
             get
             {
@@ -114,5 +116,7 @@ namespace GeneralInformation.ViewModels
             }
         }
         #endregion
+
+        public string TextOnFirstTabInformationOnDetailPage { get; set; }
     }
 }

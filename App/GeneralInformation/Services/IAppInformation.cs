@@ -9,5 +9,7 @@
         int ShowLaterInterstitialAdOnClickLimit { get; }
 
         int StyleOnImageHeightRequestOnListPage { get; }
+
+        string TextOnFirstTabInformationOnDetailPage { get; }
     }
 }
