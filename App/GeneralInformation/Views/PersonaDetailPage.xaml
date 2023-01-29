@@ -186,6 +186,8 @@
                                                  ItemsSource="{Binding Persona.Pictures}" 
                                                  ItemHeight="{Binding Source={x:Reference rowImageInContainerGrid}, Path=Height}"
                                                  ItemSpacing="10"
+                                                 LoadMoreItemsCount="{Binding CarouselImageLoadMoreItemsCount}"
+                                                 ViewMode="Default"
                                  SelectionChanged="carousel_SelectionChanged">
                                 <carousel:SfCarousel.ItemTemplate>
                                     <DataTemplate>

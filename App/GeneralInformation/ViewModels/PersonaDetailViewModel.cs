@@ -18,7 +18,10 @@ namespace GeneralInformation.ViewModels
             AdsInterstitialId = appInfo.AdsInterstitialId;
             AdsBannerId = appInfo.AdsBannerId;
             TextOnFirstTabInformationOnDetailPage = appInfo.TextOnFirstTabInformationOnDetailPage;
+            CarouselImageLoadMoreItemsCount = appInfo.CarouselImageLoadMoreItemsCount;
+            CarouselImageLoadComplete = false;
         }
+
         private int selectedTabIndex;
         public int SelectedTabIndex { get => selectedTabIndex; set => SetProperty(ref selectedTabIndex, value); }
         public ICommand TapHyperLinkToWikiPage => new Command<string>(async (url) => await Launcher.OpenAsync($"https://en.wikipedia.org/{url}"));
@@ -86,6 +89,11 @@ namespace GeneralInformation.ViewModels
                 OnPropertyChanged("CurrentSelectedPictureCaption");
             }
         }
+
+        public bool CarouselImageLoadComplete { get; set; }
+        public int CarouselImageTotalClicksToLoadComplete { get; set; }
+        public int CarouselImageCurrentClickIndex { get; set; }
+        public int CarouselImageLoadMoreItemsCount { get; set; }
 
         #region Ads
         private string _adsBannerId;

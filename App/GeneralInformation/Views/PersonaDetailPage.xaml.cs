@@ -71,6 +71,17 @@ namespace GeneralInformation.Views
                 );
                 taskGroup.Add(() => ApplyTabSelectionChangeEvent());
                 taskGroup.WaitAll();
+
+                personaDetailViewModel.CarouselImageCurrentClickIndex = 0;
+                if (personaDetailViewModel.Persona.Pictures.Count > personaDetailViewModel.CarouselImageLoadMoreItemsCount)
+                {
+                    personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = personaDetailViewModel.Persona.Pictures.Count / personaDetailViewModel.CarouselImageLoadMoreItemsCount + 1;
+                }
+                else
+                {
+                    personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = 0;
+                    personaDetailViewModel.CarouselImageLoadComplete = true;
+                }
             }
             catch (Exception ex)
             {
@@ -324,6 +335,18 @@ namespace GeneralInformation.Views
                 if (e != null && e.SelectedItem != null)
                 {
                     personaDetailViewModel.CurrentSelectedPictureCaption = (e.SelectedItem as PictureViewModel).PictureCaption;
+                    if (personaDetailViewModel.CarouselImageLoadComplete == false)
+                    {
+                        if (personaDetailViewModel.CarouselImageCurrentClickIndex < personaDetailViewModel.CarouselImageTotalClicksToLoadComplete)
+                        {
+                            personaDetailViewModel.CarouselImageCurrentClickIndex++;
+                            carousel.LoadMore();
+                        }
+                        else
+                        {
+                            personaDetailViewModel.CarouselImageLoadComplete = true;
+                        }
+                    }
                 }
             }
             catch (Exception ex)

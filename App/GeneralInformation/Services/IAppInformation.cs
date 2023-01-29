@@ -11,5 +11,6 @@
         int StyleOnImageHeightRequestOnListPage { get; }
 
         string TextOnFirstTabInformationOnDetailPage { get; }
+        int CarouselImageLoadMoreItemsCount { get; }
     }
 }

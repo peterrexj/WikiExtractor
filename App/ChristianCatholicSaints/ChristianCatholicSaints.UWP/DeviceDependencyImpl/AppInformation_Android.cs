@@ -23,5 +23,6 @@ namespace ChristianCatholicSaints.Droid.DeviceDependencyImpl
 
         #endregion
         public string TextOnFirstTabInformationOnDetailPage => "Saint facts";
+        public int CarouselImageLoadMoreItemsCount => 5;
     }
 }

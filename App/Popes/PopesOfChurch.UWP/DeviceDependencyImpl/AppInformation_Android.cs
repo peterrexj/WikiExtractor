@@ -24,5 +24,6 @@ namespace PopesOfChurch.Droid.DeviceDependencyImpl
         #endregion
 
         public string TextOnFirstTabInformationOnDetailPage => "Pope facts";
+        public int CarouselImageLoadMoreItemsCount => 5;
     }
 }
