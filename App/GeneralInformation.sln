@@ -23,13 +23,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Popes", "Popes", "{7215129C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopesOfChurch.Android", "Popes\PopesOfChurch.Android\PopesOfChurch.Android.csproj", "{DD3C65BA-4093-4228-8D79-72A2F879F8D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopesOfChurch.UWP", "Popes\PopesOfChurch.UWP\PopesOfChurch.UWP.csproj", "{9BDC730B-F773-42A4-88E2-AA6D599778A2}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{CD0B9399-282C-4E15-B9C1-58C6DCEF94CF}"
 	ProjectSection(SolutionItems) = preProject
 		Databases\WikiStorePopes.db = Databases\WikiStorePopes.db
 		Databases\WikiStoreSaints.db = Databases\WikiStoreSaints.db
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopesOfChurch.UWP", "Popes\PopesOfChurch.UWP\PopesOfChurch.UWP.csproj", "{9BDC730B-F773-42A4-88E2-AA6D599778A2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Countries", "Countries", "{8BD3352D-5C45-4F04-B75A-D875A8D7C60A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesOfWorld.Android", "Countries\CountriesOfWorld.Android\CountriesOfWorld.Android.csproj", "{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +223,30 @@ Global
 		{9BDC730B-F773-42A4-88E2-AA6D599778A2}.Release|x86.ActiveCfg = Release|x86
 		{9BDC730B-F773-42A4-88E2-AA6D599778A2}.Release|x86.Build.0 = Release|x86
 		{9BDC730B-F773-42A4-88E2-AA6D599778A2}.Release|x86.Deploy.0 = Release|x86
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|ARM.Build.0 = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|ARM.Deploy.0 = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|x64.Build.0 = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|x86.Build.0 = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|ARM.Build.0 = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|ARM.Deploy.0 = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|x64.ActiveCfg = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|x64.Build.0 = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|x64.Deploy.0 = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|x86.Build.0 = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|x86.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -230,6 +258,7 @@ Global
 		{1354958C-15A8-42AC-BAF5-1B0BF0BE06F2} = {C9C4A67A-BDA6-4F39-8340-1D2B180E498A}
 		{DD3C65BA-4093-4228-8D79-72A2F879F8D3} = {7215129C-8C36-465E-B55A-50979199FB1E}
 		{9BDC730B-F773-42A4-88E2-AA6D599778A2} = {7215129C-8C36-465E-B55A-50979199FB1E}
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1} = {8BD3352D-5C45-4F04-B75A-D875A8D7C60A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84F28530-2A4C-4DC5-8790-47BBFC43F235}

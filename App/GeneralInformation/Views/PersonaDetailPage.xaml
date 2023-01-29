@@ -12,7 +12,7 @@
              x:Class="GeneralInformation.Views.PersonaDetailPage">
     <ContentPage.Content>
         <StackLayout BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}">
-            <Frame Padding="4" MinimumHeightRequest="{OnPlatform Android={OnIdiom Phone=100, Tablet=80}, iOS={OnIdiom Phone=100, Tablet=70}, UWP={OnIdiom Phone=100, Tablet=70, Desktop=100}}" 
+            <Frame Padding="4" MinimumHeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=50}, iOS={OnIdiom Phone=50, Tablet=50}, UWP={OnIdiom Phone=50, Tablet=50, Desktop=50}}" 
                    BackgroundColor="Transparent" >
                 <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" 
                                              TouchDownEffects="Ripple"
@@ -36,12 +36,13 @@
                         <sfBorder:SfBorder BackgroundColor="Transparent" BorderColor="Transparent" BorderWidth="0" VerticalOptions="Center">
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=2, Tablet=15}, iOS={OnIdiom Phone=2, Tablet=15}, UWP=15, macOS=15, WPF=auto}" />
-                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.08*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP=0.08*, macOS=0.15*, WPF=auto}" />
-                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.85*, Tablet=0.85*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP=0.85*, macOS=*, WPF=*}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=2, Tablet=2}, iOS={OnIdiom Phone=2, Tablet=15}, UWP=15, macOS=15, WPF=auto}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.05*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP=0.08*, macOS=0.15*, WPF=auto}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.85*, Tablet=0.95*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP=0.85*, macOS=*, WPF=*}" />
                                 </Grid.ColumnDefinitions>
                                 <Image Source="{Binding Persona.PicturePrimaryPath}" Grid.Column="1" 
                                        Aspect="AspectFit" 
+                                       HeightRequest="50"
                                        BackgroundColor="Transparent" HorizontalOptions="Start"/>
 
                                 <Grid Grid.Column="2">
@@ -68,7 +69,7 @@
                                         </Label>
                                     </StackLayout>
                                     <Label Grid.Row="1"
-                                                       Margin="0,0,8,2"
+                                                       Margin="0,-8,8,2"
                                                        TextDecorations="Underline"
                                                        FontSize="{OnPlatform Android={OnIdiom Phone=10, Tablet=12}, iOS={OnIdiom Phone=10, Tablet=12}, UWP={OnIdiom Phone=10, Tablet=12, Desktop=12}, macOS=13, WPF=16}"
                                                        VerticalOptions="CenterAndExpand"
@@ -86,8 +87,6 @@
                                         </Label.FormattedText>
                                     </Label>
                                 </Grid>
-                                
-
                             </Grid>
                         </sfBorder:SfBorder>
                     </Grid>

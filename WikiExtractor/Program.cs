@@ -5,19 +5,19 @@ using WikiExtractor;
 using WikiExtractor.Process.Modules;
 
 var serviceProvider = ContainerConfiguration.Configure();
-var saintsExtractor = new SaintsDataExtractor();
+//var saintsExtractor = new SaintsDataExtractor();
 //var popesExtractor = new PopesDataExtractor();
-//var countriesExtractor = new CountriesDataExtractor();
+var countriesExtractor = new CountriesDataExtractor();
 
 //popesExtractor.Test();
 //popesExtractor.ExtractData();
 
-saintsExtractor.Test();
+//saintsExtractor.Test();
 //saintsExtractor.ExtractData();
 //saintsExtractor.TestData();
 //saintsExtractor.DumpData();
 
-//countriesExtractor.ExtractData();
+countriesExtractor.ExtractData();
 
 int u = 0;
 

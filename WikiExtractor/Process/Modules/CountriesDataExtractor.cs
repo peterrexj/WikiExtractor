@@ -30,7 +30,7 @@ namespace WikiExtractor.Process.Modules
             var groupByCountryStartLetter = countries.Select(f => f.Title).OrderBy(f => f).GroupBy(f => f.Substring(0, 1)).Select(f => new { f.Key, Countries = f.ToList() });
 
             int menuItemCounter = 0;
-            wikiAppController!.AddMenuItem("All", "All", "Countries & Non Countries", menuItemCounter++);
+            //wikiAppController!.AddMenuItem("All", "All", "Countries & Non Countries", menuItemCounter++);
             wikiAppController!.AddMenuItem("Countries", "Countries", "Countries", menuItemCounter++);
             wikiAppController!.AddMenuItem("Non Countries", "Non Countries", "Non Countries", menuItemCounter++);
 
