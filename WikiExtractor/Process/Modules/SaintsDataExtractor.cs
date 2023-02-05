@@ -1,5 +1,6 @@
 ﻿using Pj.Library;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -27,46 +28,47 @@ namespace WikiExtractor.Process.Modules
         public void ExtractData()
         {
             Initialize(true);
+            
             //Adding Menu Items
-            wikiAppController.AddMenuItem("All Saints", "All", "Saints", 1);
-            wikiAppController.AddMenuItem("Canonized by Pope Francis", "Canonized by Pope Francis", "Canonized by Pope Francis", 2);
-            wikiAppController.AddMenuItem("Canonized by Pope John Paul II", "Canonized by Pope John Paul II", "Canonized by Pope John Paul II", 3);
-            wikiAppController.AddMenuItem("Canonized by Pope John Paul II", "Canonized by Pope John Paul II", "Canonized by Pope John Paul II", 4);
-            wikiAppController.AddMenuItem("Canonized by Pope Leo XIII", "Canonized by Pope Leo XIII", "Canonized by Pope Leo XIII", 5);
-            wikiAppController.AddMenuItem("Canonized by Pope Pius XI", "Canonized by Pope Pius XI", "Canonized by Pope Pius XI", 6);
-            wikiAppController.AddMenuItem("Canonized by Pope Pius XII", "Canonized by Pope Pius XII", "Canonized by Pope Pius XII", 7);
-            wikiAppController.AddMenuItem("Canonized by Pope John XXIII", "Canonized by Pope John XXIII", "Canonized by Pope John XXIII", 8);
-            wikiAppController.AddMenuItem("Canonized by Pope Paul VI", "Canonized by Pope Paul VI", "Canonized by Pope Paul VI", 9);
-            wikiAppController.AddMenuItem("Patron Saints", "Patron Saints", "Patron Saints", 10);
-            wikiAppController.AddMenuItem("Beatified", "Beatified", "Beatified", 11);
-            wikiAppController.AddMenuItem("Pope", "By Pope", "Pope", 12);
-            wikiAppController.AddMenuItem("21th Century", "21th Century", "21th Century Saints", 13);
-            wikiAppController.AddMenuItem("20th Century", "20th Century", "20th Century Saints", 14);
-            wikiAppController.AddMenuItem("19th Century", "19th Century", "19th Century Saints", 15);
-            wikiAppController.AddMenuItem("18th Century", "18th Century", "18th Century Saints", 16);
-            wikiAppController.AddMenuItem("17th Century", "17th Century", "17th Century Saints", 17);
-            wikiAppController.AddMenuItem("16th Century", "16th Century", "16th Century Saints", 18);
-            wikiAppController.AddMenuItem("15th Century", "15th Century", "15th Century Saints", 19);
-            wikiAppController.AddMenuItem("14th Century", "14th Century", "14th Century Saints", 20);
-            wikiAppController.AddMenuItem("13th Century", "13th Century", "13th Century Saints", 21);
-            wikiAppController.AddMenuItem("12th Century", "12th Century", "12th Century Saints", 22);
-            wikiAppController.AddMenuItem("11th Century", "11th Century", "11th Century Saints", 23);
-            wikiAppController.AddMenuItem("10th Century", "10th Century", "10th Century Saints", 24);
-            wikiAppController.AddMenuItem("9th Century", "9th Century", "9th Century Saints", 25);
-            wikiAppController.AddMenuItem("8th Century", "8th Century", "8th Century Saints", 26);
-            wikiAppController.AddMenuItem("7th Century", "7th Century", "7th Century Saints", 27);
-            wikiAppController.AddMenuItem("6th Century", "6th Century", "6th Century Saints", 28);
-            wikiAppController.AddMenuItem("5th Century", "5th Century", "5th Century Saints", 29);
-            wikiAppController.AddMenuItem("4th Century", "4th Century", "4th Century Saints", 30);
-            wikiAppController.AddMenuItem("3rd Century", "3rd Century", "3rd Century Saints", 31);
-            wikiAppController.AddMenuItem("2nd Century", "2nd Century", "2nd Century Saints", 32);
-            wikiAppController.AddMenuItem("1st Century", "1st Century", "1st Century Saints", 33);
+            int menuItemCounter = 0;
+            wikiAppController!.AddMenuItem("All Saints", "All", "Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("Canonized by Pope Francis", "Canonized by Pope Francis", "Canonized by Pope Francis", menuItemCounter++);
+            wikiAppController.AddMenuItem("Canonized by Pope John Paul II", "Canonized by Pope John Paul II", "Canonized by Pope John Paul II", menuItemCounter++);
+            wikiAppController.AddMenuItem("Canonized by Pope Leo XIII", "Canonized by Pope Leo XIII", "Canonized by Pope Leo XIII", menuItemCounter++);
+            wikiAppController.AddMenuItem("Canonized by Pope Pius XI", "Canonized by Pope Pius XI", "Canonized by Pope Pius XI", menuItemCounter++);
+            wikiAppController.AddMenuItem("Canonized by Pope Pius XII", "Canonized by Pope Pius XII", "Canonized by Pope Pius XII", menuItemCounter++);
+            wikiAppController.AddMenuItem("Canonized by Pope John XXIII", "Canonized by Pope John XXIII", "Canonized by Pope John XXIII", menuItemCounter++);
+            wikiAppController.AddMenuItem("Canonized by Pope Paul VI", "Canonized by Pope Paul VI", "Canonized by Pope Paul VI", menuItemCounter++);
+            wikiAppController.AddMenuItem("Patron Saints", "Patron Saints", "Patron Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("Beatified", "Beatified", "Beatified", menuItemCounter++);
+            wikiAppController.AddMenuItem("Pope", "By Pope", "Pope", menuItemCounter++);
+            wikiAppController.AddMenuItem("21th Century", "21th Century", "21th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("20th Century", "20th Century", "20th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("19th Century", "19th Century", "19th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("18th Century", "18th Century", "18th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("17th Century", "17th Century", "17th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("16th Century", "16th Century", "16th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("15th Century", "15th Century", "15th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("14th Century", "14th Century", "14th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("13th Century", "13th Century", "13th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("12th Century", "12th Century", "12th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("11th Century", "11th Century", "11th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("10th Century", "10th Century", "10th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("9th Century", "9th Century", "9th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("8th Century", "8th Century", "8th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("7th Century", "7th Century", "7th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("6th Century", "6th Century", "6th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("5th Century", "5th Century", "5th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("4th Century", "4th Century", "4th Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("3rd Century", "3rd Century", "3rd Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("2nd Century", "2nd Century", "2nd Century Saints", menuItemCounter++);
+            wikiAppController.AddMenuItem("1st Century", "1st Century", "1st Century Saints", menuItemCounter++);
 
             //Extracting data based on tags
             var listOfSaintsFromLocalUrlFile01 = toStore!.GenericLoadUrlFile(
                 IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Resources", "Saints_AddtionalLinks.txt"), new List<string> { "All" });
 
-            var listOfSaintsByEachPope01 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Benedict_XVI", new List<string> { "All", "Canonized by Pope John Paul II" });
+            var listOfSaintsByEachPope01 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Benedict_XVI", new List<string> { "All", "Pope Benedict XVI" });
             var listOfSaintsByEachPope02 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_John_Paul_II", new List<string> { "All", "Canonized by Pope John Paul II" });
             var listOfSaintsByEachPope03 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Leo_XIII", new List<string> { "All", "Canonized by Pope Leo XIII" });
             var listOfSaintsByEachPope04 = toStore.ExtractByEachPopeListData("/wiki/List_of_saints_canonized_by_Pope_Pius_XI", new List<string> { "All", "Canonized by Pope Pius XI" });
@@ -121,23 +123,58 @@ namespace WikiExtractor.Process.Modules
             int totalCount = saintsCollection.Count;
             int currentIndex = 1;
 
+            ConcurrentBag<Tuple<WikiPageModel, List<MetaDataModel>, WikiWhatToExtractModel>> bag = new();
+            Parallel.ForEach(saintsCollection, new ParallelOptions { MaxDegreeOfParallelism = 5 }, saint =>
+            {
+                try
+                {
+                    //Thread.Sleep(1000);
+                    lock (_lock)
+                    {
+                        Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Saints [{saint.Title}]: {saint.Route}");
+                        currentIndex = currentIndex + 1;
+                    }
+                    var rawData = toStore.SinglePageContentExtract(saint);
+                    bag.Add(new Tuple<WikiPageModel, List<MetaDataModel>, WikiWhatToExtractModel>(rawData.Item1, rawData.Item2, saint));
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            });
+
+
+            //foreach (var saints in saintsCollection)
+            Parallel.ForEach(saintsCollection, new ParallelOptions { MaxDegreeOfParallelism = 5 }, saint =>
+            {
+                var bagItem = bag.FirstOrDefault(f => f.Item3.Id == saint.Id);
+                if (bagItem == null || bagItem.Item1 == null || bagItem.Item2 == null || bagItem.Item3 == null)
+                {
+                    throw new Exception("Bag item cannot be mapped, this could be due to the extraction failure");
+                }
+            });
+
+            currentIndex = 1;
             //foreach (var saints in saintsCollection)
             Parallel.ForEach(saintsCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, saint =>
             {
                 try
                 {
-                    toStore.PersonaSinglePageContentExtractWithSaveToStore(saint);
+                    var bagItem = bag.FirstOrDefault(f => f.Item3.Id == saint.Id);
+                    toStore.SinglePageContentStore(bagItem.Item1, bagItem.Item2, bagItem.Item3);
                     Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Saints [{saint.Title}]: {saint.Route}");
-                    Thread.Sleep(1000);
+                    //Thread.Sleep(1000);
                     currentIndex = currentIndex + 1;
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
                 }
-
             });
 
+
+            //Clean the data
+            CleanDataWithDump();
         }
 
         private List<WikiDataCleanerModel> PrepareDumpData()
@@ -253,7 +290,7 @@ namespace WikiExtractor.Process.Modules
                 }
             }
         }
-        public void DumpData()
+        public void CleanDataWithDump()
         {
             Initialize(false);
 
@@ -266,6 +303,13 @@ namespace WikiExtractor.Process.Modules
             var toWrite = toRaw.Select(f => new WikiDataCleanerWriteModel(f)).OrderBy(f => f.Name);
             CsvHelperEx.WriteToCsv(toWrite,
                IoHelper.CombinePath(Pj.Library.PjUtility.Runtime.ExecutingFolder, "Db", "WikiStoreSaintsDump.csv"),
+               hasHeaderRecords: true);
+
+            var dataFullWrite = wikiAppController?.GetListOfWikiItems(new List<string> { "All" }).ToList()
+                .Select(f => new { f.Name, f.WikiPath, f.PrimaryMetadataContent }).OrderBy(f => f.Name);
+
+            CsvHelperEx.WriteToCsv(dataFullWrite,
+               IoHelper.CombinePath(Pj.Library.PjUtility.Runtime.ExecutingFolder, "Db", "WikiStoreSaintsDumpFullNames.csv"),
                hasHeaderRecords: true);
         }
 

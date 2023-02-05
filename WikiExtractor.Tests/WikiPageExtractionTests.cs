@@ -5,12 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WikiExtractor.Process;
+using WikiExtractor.Process.Extractor;
 
 namespace WikiExtractor.Tests
 {
     internal class WikiPageExtractionTests
     {
-        WikiPageExtractionStore wikiPageExtraction;
+        SaintsWikiExtractionToStore wikiPageExtraction;
         private const string Route = "/wiki/Pope_John_Paul_II";
 
         [SetUp]
@@ -19,7 +20,7 @@ namespace WikiExtractor.Tests
             ProcessConstants.DatabasePath = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Tests", "Db", "WikiStore.db");
             ProcessConstants.CacheFolder = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Tests", "Cache");
             //IoHelper.DeleteFile(ProcessConstants.DatabasePath);
-            wikiPageExtraction = new WikiPageExtractionStore();
+            wikiPageExtraction = new SaintsWikiExtractionToStore();
         }
 
         [Order(1)]

@@ -11,8 +11,10 @@ namespace WikiExtractor.Models
         public WikiWhatToExtractModel()
         {
             AdditionalMetaData = new Dictionary<string, string>();
+            Id = Guid.NewGuid();
         }
 
+        public Guid Id { get; set; }
         public string Route { get; set; }
         public string Title { get; set; }
         public List<string>? Tags { get; set; }

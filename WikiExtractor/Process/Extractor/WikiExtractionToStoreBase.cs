@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using WikiExtractor.DbModels;
 using WikiExtractor.Models;
 
 namespace WikiExtractor.Process.Extractor
@@ -87,6 +88,20 @@ namespace WikiExtractor.Process.Extractor
                 }
             }
             return whatToExtract;
+        }
+
+        public (WikiPageModel, List<MetaDataModel>) SinglePageContentExtract(WikiWhatToExtractModel wikiData,
+            List<string> excludedAdditionalMetadata = null)
+        {
+            var response = WikiPageRouteResponseAsHtmlDocument(wikiData.Route, null);
+            var paraInfo = paragraphExtractor.ExtractParaInfo(response, wikiData.Route, wikiData.Title);
+            var metadata = metadataExtractor.ExtractMetadataInfo(response, wikiData.AdditionalMetaData, excludedAdditionalMetadata);
+            return (paraInfo, metadata);
+        }
+        public int SinglePageContentStore(WikiPageModel wikiPageModel, List<MetaDataModel> metaDatas,
+            WikiWhatToExtractModel wikiData)
+        {
+            return storeProcess.StoreInformation(wikiPageModel, metaDatas, wikiData);
         }
 
         public int PersonaSinglePageContentExtractWithSaveToStore(WikiWhatToExtractModel wikiData, 

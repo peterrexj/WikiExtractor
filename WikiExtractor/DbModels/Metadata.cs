@@ -15,6 +15,6 @@ namespace WikiExtractor.DbModels
 		public string Value { get; set; }
 		public string Type { get; set; }
 		public int Sequence { get; set; }
-		public MetadataType TypeByEnum => (MetadataType)Enum.Parse(typeof(MetadataType), Type);
+		public MetadataType TypeByEnum => Type != null ? (MetadataType)Enum.Parse(typeof(MetadataType), Type) : MetadataType.GroupHeader;
     }
 }

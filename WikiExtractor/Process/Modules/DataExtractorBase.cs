@@ -12,6 +12,7 @@ namespace WikiExtractor.Process.Modules
     public class DataExtractorBase
     {
         protected WikiAppController? wikiAppController = null;
+        protected readonly object _lock = new object();
 
         public DataExtractorBase(string extractorName, string dbFileName)
         {
