@@ -7,9 +7,9 @@ using WikiExtractor.Process.Modules;
 var serviceProvider = ContainerConfiguration.Configure();
 
 
-var saintsExtractor = new SaintsDataExtractor();
+//var saintsExtractor = new SaintsDataExtractor();
 //saintsExtractor.Test();
-saintsExtractor.ExtractData();
+//saintsExtractor.ExtractData();
 //saintsExtractor.TestData();
 //saintsExtractor.CleanDataWithDump();
 
@@ -17,8 +17,9 @@ saintsExtractor.ExtractData();
 //popesExtractor.Test();
 //popesExtractor.ExtractData();
 
-//var countriesExtractor = new CountriesDataExtractor();
-//countriesExtractor.ExtractData();
+var countriesExtractor = new CountriesDataExtractor();
+countriesExtractor.ExtractData();
+countriesExtractor.Test();
 
 
 

@@ -21,6 +21,9 @@ namespace ChristianCatholicSaints.Droid.DeviceDependencyImpl
 
         public int StyleOnImageHeightRequestOnListPage => 130;
 
+        public int StyleOnListItemHeightRequestOnListPagePhone => 148;
+        public int StyleOnListItemHeightRequestOnListPageTablet => 128;
+        public int StyleOnListItemHeightRequestOnListPageDesktop => 128;
         #endregion
         public string TextOnFirstTabInformationOnDetailPage => "Saint facts";
         public int CarouselImageLoadMoreItemsCount => 5;

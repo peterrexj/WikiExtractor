@@ -21,6 +21,9 @@ namespace CountriesOfWorld.Droid.DeviceDependencyImpl
 
         public int StyleOnImageHeightRequestOnListPage => 100;
 
+        public int StyleOnListItemHeightRequestOnListPagePhone => 250;
+        public int StyleOnListItemHeightRequestOnListPageTablet => 250;
+        public int StyleOnListItemHeightRequestOnListPageDesktop => 250;
         #endregion
         public string TextOnFirstTabInformationOnDetailPage => "Country facts";
         public int CarouselImageLoadMoreItemsCount => 5;

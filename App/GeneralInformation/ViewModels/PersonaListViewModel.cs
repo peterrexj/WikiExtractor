@@ -19,6 +19,18 @@ namespace GeneralInformation.ViewModels
             {
                 StyleOnImageHeightRequestOnListPage = appInfo.StyleOnImageHeightRequestOnListPage,
             };
+            if (Device.Idiom == TargetIdiom.Phone) 
+            {
+                StyleDrive.StyleOnListItemHeightRequestOnListPage = appInfo.StyleOnListItemHeightRequestOnListPagePhone;
+            }
+            else if (Device.Idiom == TargetIdiom.Tablet)
+            {
+                StyleDrive.StyleOnListItemHeightRequestOnListPage = appInfo.StyleOnListItemHeightRequestOnListPageTablet;
+            }
+            else if (Device.Idiom == TargetIdiom.Desktop)
+            {
+                StyleDrive.StyleOnListItemHeightRequestOnListPage = appInfo.StyleOnListItemHeightRequestOnListPageDesktop;
+            }
         }
 
         public string Title { get; set; }
@@ -64,5 +76,6 @@ namespace GeneralInformation.ViewModels
     public class StyleDrive
     {
         public int StyleOnImageHeightRequestOnListPage { get; set;}
+        public int StyleOnListItemHeightRequestOnListPage { get; set; }
     }
 }

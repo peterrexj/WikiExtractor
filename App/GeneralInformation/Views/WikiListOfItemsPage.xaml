@@ -49,13 +49,10 @@
                     <DataTemplate>
                         <ViewCell>
                             <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" TouchDownEffects="Ripple" WidthRequest="344" 
-												Margin="0,0,0,10" CornerRadius="5" RippleAnimationDuration="300"
-                                                AutomationId="{Binding Id}"
-                                                AnimationCompleted="lstItemEffectsView_AnimationCompleted">
-                                <sfEffectsView:SfEffectsView.HeightRequest>
-                                    <OnIdiom x:TypeArguments="x:Double" Desktop="128" Tablet="128" Phone="148"/>
-                                </sfEffectsView:SfEffectsView.HeightRequest>
-
+                                                         Margin="0,0,0,10" CornerRadius="5" RippleAnimationDuration="300"
+                                                         AutomationId="{Binding Id}"
+                                                         AnimationCompleted="lstItemEffectsView_AnimationCompleted"
+                                                         HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnListItemHeightRequestOnListPage}">
                                 <Grid >
                                     <sfGradient:SfGradientView >
                                         <sfGradient:SfGradientView.BackgroundBrush>
@@ -139,7 +136,8 @@
                                                                 <ViewCell.View>
                                                                     <Grid >
                                                                         <StackLayout Orientation="Horizontal">
-                                                                            <Label>
+                                                                            <Label 
+                                                                                 TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" >
                                                                                 <Label.FormattedText>
                                                                                     <FormattedString>
                                                                                         <Span Text="{Binding Key}" FontSize="{OnIdiom Phone=11, Tablet=16}" />

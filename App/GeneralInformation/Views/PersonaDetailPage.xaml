@@ -140,13 +140,13 @@
                                                        TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
                                                        LineBreakMode="WordWrap" Padding="5,0,0,0" VerticalTextAlignment="Center"
                                                        FontAttributes="Bold"
-                                                       FontSize="{OnPlatform Android={OnIdiom Phone=14, Tablet=18}, iOS={OnIdiom Phone=14, Tablet=18}, UWP={OnIdiom Phone=14, Tablet=18, Desktop=20}, macOS=20, WPF=20}" />
+                                                       FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=15}, iOS={OnIdiom Phone=14, Tablet=18}, UWP={OnIdiom Phone=14, Tablet=18, Desktop=20}, macOS=20, WPF=20}" />
                                                 <Label Text="{Binding Description}" Grid.Column="1" 
                                                        TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
                                                        LineBreakMode="WordWrap" Padding="2,2,5,2" VerticalTextAlignment="Center"
                                                        CharacterSpacing="{OnPlatform Android={OnIdiom Phone=0.3, Tablet=0.2}, iOS={OnIdiom Phone=0.3, Tablet=0.4}, UWP={OnIdiom Phone=0.3, Tablet=0.4, Desktop=0.4}, macOS=0.4, WPF=0.4}"
                                                        LineHeight="{OnPlatform Android={OnIdiom Phone=1.1, Tablet=1.0}, iOS={OnIdiom Phone=1, Tablet=1.2}, UWP={OnIdiom Phone=1, Tablet=1.2, Desktop=1.2}, macOS=1.2, WPF=1.2}"
-                                                       FontSize="{OnPlatform Android={OnIdiom Phone=13, Tablet=18}, iOS={OnIdiom Phone=13, Tablet=17}, UWP={OnIdiom Phone=14, Tablet=17, Desktop=17}, macOS=17, WPF=17}" />
+                                                       FontSize="{OnPlatform Android={OnIdiom Phone=13, Tablet=17}, iOS={OnIdiom Phone=13, Tablet=17}, UWP={OnIdiom Phone=14, Tablet=17, Desktop=17}, macOS=17, WPF=17}" />
 
                                             </Grid>
                                         </Frame>
@@ -197,11 +197,13 @@
                             </carousel:SfCarousel>
 
                             <Grid Grid.Row="2" BackgroundColor="{AppThemeBinding Dark={StaticResource PictureCaptionBackgroundDark}, Light={StaticResource PictureCaptionBackgroundLight}}">
-                                <Label Text="{Binding CurrentSelectedPictureCaption}" 
+                                <ScrollView>
+                                    <Label Text="{Binding CurrentSelectedPictureCaption}" 
                                        TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
                                        HorizontalTextAlignment="Center" 
                                        Padding="8,5,8,2" FontAttributes="Bold"
                                        FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=16, Tablet=22}, UWP={OnIdiom Phone=14, Tablet=24, Desktop=24}, macOS=22, WPF=26}" />
+                                </ScrollView>
                             </Grid>
                         </Grid>
                     </tabView:SfTabItem.Content>

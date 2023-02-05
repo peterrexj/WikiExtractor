@@ -9,6 +9,9 @@
         int ShowLaterInterstitialAdOnClickLimit { get; }
 
         int StyleOnImageHeightRequestOnListPage { get; }
+        int StyleOnListItemHeightRequestOnListPagePhone { get; }
+        int StyleOnListItemHeightRequestOnListPageTablet { get; }
+        int StyleOnListItemHeightRequestOnListPageDesktop { get; }
 
         string TextOnFirstTabInformationOnDetailPage { get; }
         int CarouselImageLoadMoreItemsCount { get; }

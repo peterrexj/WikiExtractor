@@ -347,7 +347,7 @@ namespace WikiExtractor.Process
             //           where 
         }
 
-        public void MetadataBuild()
+        public void CommonMetadata()
         {
             var t = wikiDatabase.MetadataRepository.Get(f => f.TypeByEnum == MetadataType.Detail).ToList();
             var properties = t.GroupBy(f => f.Key)
