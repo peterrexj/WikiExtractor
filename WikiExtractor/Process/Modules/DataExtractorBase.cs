@@ -29,5 +29,11 @@ namespace WikiExtractor.Process.Modules
             }
             wikiAppController = new WikiAppController(new WikiDatabase());
         }
+
+        public void CopyDatabaseFileToRootDbFolder()
+        {
+            IoHelper.CopyFile(ProcessConstants.DatabasePath,
+                IoHelper.CombinePath(PjUtility.Runtime.ExecutingRepositoryRootFolder, $"App\\Databases\\{Path.GetFileName(ProcessConstants.DatabasePath)}"));
+        }
     }
 }

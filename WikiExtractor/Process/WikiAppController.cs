@@ -271,6 +271,7 @@ namespace WikiExtractor.Process
 
             var isPrimaryMetadataContentEnabled = wikiDatabase.PhoneSettingsRepository.IsPrimaryMetadatDisplayEnabled;
             var primaryMetadataContentFields = wikiDatabase.PhoneSettingsRepository.PrimaryMetadatDisplayContent;
+            var maxMetadataItems = wikiDatabase.PhoneSettingsRepository.MaxMetadataItemToDisplay;
 
             return from master in wikiDatabase.MasterRepository.GetAll()
 
@@ -293,6 +294,15 @@ namespace WikiExtractor.Process
                    where tags?.Contains(tag.Name) == true || tag.Name.IsEmpty()
                    group new { master, mainContItem, primaryPic, metadata, tagItem, tag } by new { master.Id } into masterGroup
 
+                   let primaryMetadata = isPrimaryMetadataContentEnabled ? masterGroup.Select(f => f.metadata).Where(f => primaryMetadataContentFields.Contains(f.Key) && f.Value.HasValue())
+                            .Take(maxMetadataItems)
+                            .Select(f => new MetadataViewModel
+                            {
+                                Key = f.Key,
+                                Description = f.Value
+                            }).ToList() : new List<MetadataViewModel>()
+                   let isPrimaryMetadataEnabled = isPrimaryMetadataContentEnabled ? primaryMetadata.Any() : false
+
                    select new PersonaViewModel
                    {
                        Id = masterGroup.FirstOrDefault()!.master.Id,
@@ -301,13 +311,8 @@ namespace WikiExtractor.Process
                        MainContent = masterGroup.FirstOrDefault()!.mainContItem?.Content ?? "",
                        PicturePrimaryPath = masterGroup.FirstOrDefault()!.primaryPic?.Path ?? "NoImageAvailable.png",
                        PicturePrimaryCaption = masterGroup.FirstOrDefault()!.primaryPic?.Caption ?? "",
-                       IsPrimaryMetadataContentEnabled = isPrimaryMetadataContentEnabled,
-                       PrimaryMetadataContent = isPrimaryMetadataContentEnabled ? masterGroup.Select(f => f.metadata).Where(f => primaryMetadataContentFields.Contains(f.Key) && f.Value.HasValue())
-                        .Select(f => new MetadataViewModel
-                        {
-                            Key = f.Key,
-                            Description = f.Value
-                        }).ToList() : new List<MetadataViewModel>(),
+                       IsPrimaryMetadataContentEnabled = isPrimaryMetadataEnabled,
+                       PrimaryMetadataContent = primaryMetadata,
                        //Tags = masterGroup.Select(f => f.tag).Select(f => f.Name).Distinct().ToList(),
                        IsBusy = false
                    };
@@ -378,9 +383,9 @@ namespace WikiExtractor.Process
             return wikiDatabase.AppMenuItemRepository.GetAll().OrderBy(o => o.Sequence);
         }
 
-        public void EnableWithPrimaryMetadataContent(List<string> primaryMetadataContent)
+        public void EnableWithPrimaryMetadataContent(List<string> primaryMetadataContent, int maxItemToDisplay)
         {
-            wikiDatabase.PhoneSettingsRepository.EnablePrimaryMetadatDisplay();
+            wikiDatabase.PhoneSettingsRepository.EnablePrimaryMetadatDisplay(maxItemToDisplay);
             wikiDatabase.PhoneSettingsRepository.AddPrimaryMetadatDisplayContent(primaryMetadataContent);
         }
         public void DisablePrimaryMetadataContent()

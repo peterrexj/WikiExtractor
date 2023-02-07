@@ -69,7 +69,7 @@ namespace WikiExtractor.Process.Modules
             wikiAppController.AddMenuItem("2nd century", "2nd century", "2nd Century", 21);
             wikiAppController.AddMenuItem("1st century", "1st century", "1st Century", 22);
 
-            wikiAppController.EnableWithPrimaryMetadataContent(new List<string> { "Pontiff number", "English Name", "Personal Name", "Date & Place Of Birth" });
+            EnablePrimaryMetadataContent();
 
             var popesCollection = centuryPopes21
                  .Union(centuryPopes20).Union(centuryPopes19).Union(centuryPopes18).Union(centuryPopes17).Union(centuryPopes16)
@@ -101,6 +101,20 @@ namespace WikiExtractor.Process.Modules
             });
         }
 
+        public void EnablePrimaryMetadataContent()
+        {
+            if (wikiAppController == null)
+            {
+                Initialize(false);
+            }
+            wikiAppController!.EnableWithPrimaryMetadataContent(new List<string> 
+            { 
+                "Pontiff number", 
+                "English Name", 
+                "Personal Name", 
+                "Date & Place Of Birth" 
+            }, 4);
+        }
 
         public void Test()
         {

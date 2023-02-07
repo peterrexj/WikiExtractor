@@ -45,7 +45,7 @@ namespace WikiExtractor.Process.Modules
                 wikiAppController!.AddMenuItem($"Country start with [{startLetterContent.Key}]", $"Country start with [{startLetterContent.Key}]", $"Country start with [{startLetterContent.Key}]", menuItemCounter++);
             }
 
-            wikiAppController.EnableWithPrimaryMetadataContent(new List<string> { "Total in km2 (mi2)", "Time zone", "Currency", "Government", "Density (Population)", "Per capita (GDP (PPP))", "Calling code", "Land in km2 (mi2)", "Water in km2 (mi2)" });
+            EnablePrimaryMetadataContent();
 
             var countriesCollection = countries.OrderBy(f => f.Sequence).Union(noncountries.OrderBy(f => f.Sequence)).ToList().WithDefaultFilters();
 
@@ -75,6 +75,26 @@ namespace WikiExtractor.Process.Modules
             //    @"C:\GIT\Other\peterrexj\WikiExtractor\App\Popes\PopesOfChurch.UWP\Assets\WikiStoreCountries.db");
             //IoHelper.MoveFile(@"C:\GIT\Other\peterrexj\WikiExtractor\WikiExtractor\bin\Debug\net6.0\Db\WikiStoreCountries.db",
             //    @"C:\GIT\Other\peterrexj\WikiExtractor\App\Popes\PopesOfChurch.UWP\Assets", isTargetFolder: true);
+        }
+
+        public void EnablePrimaryMetadataContent()
+        {
+            if (wikiAppController == null)
+            {
+                Initialize(false);
+            }
+            wikiAppController!.EnableWithPrimaryMetadataContent(new List<string>
+            {
+                "Total in km2 (mi2)",
+                "Time zone",
+                "Currency",
+                "Government",
+                "Density (Population)",
+                "Per capita (GDP (PPP))",
+                "Calling code",
+                "Land in km2 (mi2)",
+                "Water in km2 (mi2)"
+            }, 9);
         }
 
         public void Test()

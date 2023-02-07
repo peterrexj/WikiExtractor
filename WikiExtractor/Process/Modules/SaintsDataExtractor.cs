@@ -64,6 +64,8 @@ namespace WikiExtractor.Process.Modules
             wikiAppController.AddMenuItem("2nd Century", "2nd Century", "2nd Century Saints", menuItemCounter++);
             wikiAppController.AddMenuItem("1st Century", "1st Century", "1st Century Saints", menuItemCounter++);
 
+            EnablePrimaryMetadataContent();
+
             //Extracting data based on tags
             var listOfSaintsFromLocalUrlFile01 = toStore!.GenericLoadUrlFile(
                 IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Resources", "Saints_AddtionalLinks.txt"), new List<string> { "All" });
@@ -172,9 +174,31 @@ namespace WikiExtractor.Process.Modules
                 }
             });
 
-
             //Clean the data
             CleanDataWithDump();
+        }
+
+        public void EnablePrimaryMetadataContent()
+        {
+            if (wikiAppController == null)
+            {
+                Initialize(false);
+            }
+            wikiAppController!.EnableWithPrimaryMetadataContent(new List<string>
+            {
+                "Born",
+                "Died",
+                "Feast",
+                "Feast day",
+                "Beatified",
+                "Major shrine",
+                "Church",
+                "Buried",
+                "Venerated in",
+                "Canonized",
+                "Predecessor"
+            }, 5);
+            
         }
 
         private List<WikiDataCleanerModel> PrepareDumpData()
@@ -330,6 +354,8 @@ namespace WikiExtractor.Process.Modules
         public void Test()
         {
             Initialize(false);
+            wikiAppController.CommonMetadata();
+
             var pp = wikiAppController.GetListOfWikiItems(new List<string> { "All" }).First();
             var test = wikiAppController.GetViewModelById(pp.Id);
             //var ppA = appCtrl.GetListOfWikiItems(new List<string> { "All" });

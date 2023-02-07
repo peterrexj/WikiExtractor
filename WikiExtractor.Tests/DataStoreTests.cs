@@ -227,11 +227,13 @@ namespace WikiExtractor.Tests
 
             var isPrimaryMetadataContentEnabled = wikiDatabase.PhoneSettingsRepository.IsPrimaryMetadatDisplayEnabled;
             var primaryMetadataContentFields = wikiDatabase.PhoneSettingsRepository.PrimaryMetadatDisplayContent;
+            var maxMetadataItems = wikiDatabase.PhoneSettingsRepository.MaxMetadataItemToDisplay;
 
             if (isPrimaryMetadataContentEnabled)
             {
                 Assert.NotNull(primaryMetadataContentFields);
                 Assert.IsTrue(primaryMetadataContentFields.Any());
+                Assert.IsTrue(maxMetadataItems > 0);
             }
 
             foreach (var menu in wikiAppController.AppMenuItems())
@@ -240,7 +242,7 @@ namespace WikiExtractor.Tests
                 foreach (var item in items)
                 {
                     Assert.NotNull(item);
-                    if (isPrimaryMetadataContentEnabled)
+                    if (item.IsPrimaryMetadataContentEnabled)
                     {
                         Assert.IsTrue(item.PrimaryMetadataContent.Any());
                         Assert.IsTrue(item.ShowPrimaryContentMetadata);

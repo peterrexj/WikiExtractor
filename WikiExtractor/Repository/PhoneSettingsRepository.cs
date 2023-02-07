@@ -107,9 +107,15 @@ namespace WikiExtractor.Repository
 
         #region Primary Metadata Display
 
-        public void EnablePrimaryMetadatDisplay()
+        public void EnablePrimaryMetadatDisplay(int maxItemToDisplay)
         {
+            if (maxItemToDisplay <= 0)
+            {
+                throw new Exception("The Max Items to display should be more than 0!");
+            }
+
             Update("PrimaryMetadatDisplay", "true");
+            Update("MaxPrimaryMetadatDisplay", maxItemToDisplay.ToString());
         }
 
         public void DisablePrimaryMetadatDisplay()
@@ -118,6 +124,7 @@ namespace WikiExtractor.Repository
         }
 
         public bool IsPrimaryMetadatDisplayEnabled => GetValue("PrimaryMetadatDisplay").ToBool();
+        public int MaxMetadataItemToDisplay => GetValue("MaxPrimaryMetadatDisplay").ToInteger();
 
         public void AddPrimaryMetadatDisplayContent(string value)
         {
