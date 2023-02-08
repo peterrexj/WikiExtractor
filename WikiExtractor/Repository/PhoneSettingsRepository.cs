@@ -35,7 +35,7 @@ namespace WikiExtractor.Repository
 
         public void DeleteByName(string name)
         {
-            var id = Get(f => f.Name == "")?.FirstOrDefault()?.Id;
+            var id = Get(f => f.Name == name)?.FirstOrDefault()?.Id;
             if (id != null && id != 0)
             {
                 Delete(id.Value.ToString());

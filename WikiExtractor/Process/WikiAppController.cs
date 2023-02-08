@@ -352,8 +352,16 @@ namespace WikiExtractor.Process
             //           where 
         }
 
+        public List<string> GetPrimaryImages()
+        {
+            return wikiDatabase.WikiPictureRepository.Get(f => f.IsPrimaryBool).Select(f => f.Path).Where(f => f.HasValue()).ToList();
+        }
+
         public void CommonMetadata()
         {
+
+            var primaryContent = wikiDatabase.PhoneSettingsRepository.PrimaryMetadatDisplayContent;
+
             var t = wikiDatabase.MetadataRepository.Get(f => f.TypeByEnum == MetadataType.Detail).ToList();
             var properties = t.GroupBy(f => f.Key)
                 .Select(f => new

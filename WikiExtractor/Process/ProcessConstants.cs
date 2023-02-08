@@ -10,5 +10,6 @@ namespace WikiExtractor.Process
     {
         public static string DatabasePath { get; set; }
         public static string CacheFolder { get; set; }
+        public static bool UseCache { get; set; } = true;
     }
 }

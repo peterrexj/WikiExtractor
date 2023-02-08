@@ -23,6 +23,8 @@ namespace WikiExtractor.Process.Extractor
         }
         protected string GetFromCache(string route)
         {
+            if (ProcessConstants.UseCache == false) return string.Empty;
+
             var file = GetRouteToFileName(route);
             if (IoHelper.FileExists(file))
             {

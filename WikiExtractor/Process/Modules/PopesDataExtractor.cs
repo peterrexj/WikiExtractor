@@ -1,7 +1,9 @@
 ﻿using Pj.Library;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using WikiExtractor.Exts;
@@ -119,8 +121,19 @@ namespace WikiExtractor.Process.Modules
         public void Test()
         {
             Initialize(false);
-            var data = wikiAppController.GetListOfWikiItems(new List<string> { "21st century" }).ToList();
-            var perData = wikiAppController.GetViewModelById(1);
+            //wikiAppController.DisablePrimaryMetadataContent();
+            //wikiAppController.EnableWithPrimaryMetadataContent(new List<string> { "Pontiff number", "English Name", "Personal Name", "Latin Name", "Date & Place Of Birth", "Died", "Church" });
+
+            var images = wikiAppController.GetPrimaryImages();
+
+            foreach (var image in images)
+            {
+
+                var resp = new TestApiHttp()
+                       .OpenFullUrl(image)
+                       .Download("");
+            }
+
         }
     }
 }
