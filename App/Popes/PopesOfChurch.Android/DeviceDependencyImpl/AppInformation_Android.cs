@@ -21,8 +21,8 @@ namespace PopesOfChurch.Droid.DeviceDependencyImpl
 
         public int StyleOnImageHeightRequestOnListPage => 130;
 
-        public int StyleOnListItemHeightRequestOnListPagePhone => 220;
-        public int StyleOnListItemHeightRequestOnListPageTablet => 220;
+        public int StyleOnListItemHeightRequestOnListPagePhone => 200;
+        public int StyleOnListItemHeightRequestOnListPageTablet => 200;
         public int StyleOnListItemHeightRequestOnListPageDesktop => 128;
         #endregion
         public string TextOnFirstTabInformationOnDetailPage => "Pope facts";

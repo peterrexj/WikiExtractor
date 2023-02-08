@@ -114,8 +114,11 @@ namespace WikiExtractor.Process.Modules
                 "Pontiff number", 
                 "English Name", 
                 "Personal Name", 
-                "Date & Place Of Birth" 
-            }, 4);
+                "Latin Name", 
+                "Date & Place Of Birth",
+                "Died", 
+                "Church"
+            }, 7);
         }
 
         public void Test()

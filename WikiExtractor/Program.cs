@@ -18,17 +18,17 @@ var serviceProvider = ContainerConfiguration.Configure();
 
 ProcessConstants.UseCache = false;
 
-//var popesExtractor = new PopesDataExtractor();
+var popesExtractor = new PopesDataExtractor();
+//popesExtractor.ExtractData();
+popesExtractor.EnablePrimaryMetadataContent();
+popesExtractor.CopyDatabaseFileToRootDbFolder();
 ////popesExtractor.Test();
-////popesExtractor.ExtractData();
-//popesExtractor.EnablePrimaryMetadataContent();
-//popesExtractor.CopyDatabaseFileToRootDbFolder();
 
-var countriesExtractor = new CountriesDataExtractor();
+//var countriesExtractor = new CountriesDataExtractor();
 //countriesExtractor.ExtractData();
 //countriesExtractor.Test();
-countriesExtractor.EnablePrimaryMetadataContent();
-countriesExtractor.CopyDatabaseFileToRootDbFolder();
+//countriesExtractor.EnablePrimaryMetadataContent();
+//countriesExtractor.CopyDatabaseFileToRootDbFolder();
 
 
 
