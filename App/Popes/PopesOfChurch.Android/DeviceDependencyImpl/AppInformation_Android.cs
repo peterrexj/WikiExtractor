@@ -13,9 +13,9 @@ namespace PopesOfChurch.Droid.DeviceDependencyImpl
 
         public string AdsInterstitialId => "ca-app-pub-4219645367584712/3071004011";
 
-        public int ShowFirstInterstitialAdOnClickLimit => 3;
+        public int ShowFirstInterstitialAdOnClickLimit => 2;
 
-        public int ShowLaterInterstitialAdOnClickLimit => 8;
+        public int ShowLaterInterstitialAdOnClickLimit => 7;
 
         #region Style Implementation
 
