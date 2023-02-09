@@ -126,7 +126,13 @@ namespace WikiExtractor.Process.Modules
             int currentIndex = 1;
 
             ConcurrentBag<Tuple<WikiPageModel, List<MetaDataModel>, WikiWhatToExtractModel>> bag = new();
-            Parallel.ForEach(saintsCollection, new ParallelOptions { MaxDegreeOfParallelism = 5 }, saint =>
+
+            var parallelOptions = new ParallelOptions
+            {
+                MaxDegreeOfParallelism = ProcessConstants.UseCache ? 5 : 1
+            };
+            
+            Parallel.ForEach(saintsCollection, parallelOptions, saint =>
             {
                 try
                 {

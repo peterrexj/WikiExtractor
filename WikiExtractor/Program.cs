@@ -7,21 +7,21 @@ using WikiExtractor.Process.Modules;
 
 var serviceProvider = ContainerConfiguration.Configure();
 
-//var saintsExtractor = new SaintsDataExtractor();
+ProcessConstants.UseCache = true;
+
+var saintsExtractor = new SaintsDataExtractor();
+saintsExtractor.ExtractData();
 //saintsExtractor.EnablePrimaryMetadataContent();
-
-//saintsExtractor.ExtractData();
-//saintsExtractor.CleanDataWithDump();
+saintsExtractor.CleanDataWithDump();
 //saintsExtractor.TestData();
-//saintsExtractor.CopyDatabaseFileToRootDbFolder();
+saintsExtractor.CopyDatabaseFileToRootDbFolder();
 
 
-ProcessConstants.UseCache = false;
 
-var popesExtractor = new PopesDataExtractor();
+//var popesExtractor = new PopesDataExtractor();
 //popesExtractor.ExtractData();
-popesExtractor.EnablePrimaryMetadataContent();
-popesExtractor.CopyDatabaseFileToRootDbFolder();
+//popesExtractor.EnablePrimaryMetadataContent();
+//popesExtractor.CopyDatabaseFileToRootDbFolder();
 ////popesExtractor.Test();
 
 //var countriesExtractor = new CountriesDataExtractor();
