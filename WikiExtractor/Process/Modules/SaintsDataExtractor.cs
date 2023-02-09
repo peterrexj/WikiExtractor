@@ -106,12 +106,13 @@ namespace WikiExtractor.Process.Modules
             var listOfSaints = toStore.ExtractListTabularData("/wiki/List_of_saints", new List<string> { "All" });
             var listOfBeatified = toStore.ExtractListTabularData("/wiki/List_of_beatified_people", new List<string> { "All", "Beatified" });
 
-            var saintsCollection = listOfPatronSaints
-                .Union(listOfSaintsByAllPope)
-                .Union(listOfBeatified)
-                .Union(listOfSaints)
+            var saintsCollection = listOfSaints
                 .Union(listOfSaintsByEachPope01).Union(listOfSaintsByEachPope02).Union(listOfSaintsByEachPope03).Union(listOfSaintsByEachPope04).Union(listOfSaintsByEachPope05)
-                .Union(listOfSaintsByEachPope06).Union(listOfSaintsByEachPope07).Union(listOfSaintsByEachPope08).Union(listOfSaintsByCentury1)
+                .Union(listOfSaintsByEachPope06).Union(listOfSaintsByEachPope07).Union(listOfSaintsByEachPope08)
+                .Union(listOfSaintsByAllPope)
+                .Union(listOfPatronSaints)
+                .Union(listOfBeatified)
+                .Union(listOfSaintsByCentury1)
                 .Union(listOfSaintsByCentury1).Union(listOfSaintsByCentury2).Union(listOfSaintsByCentury3).Union(listOfSaintsByCentury4).Union(listOfSaintsByCentury5)
                 .Union(listOfSaintsByCentury6).Union(listOfSaintsByCentury7).Union(listOfSaintsByCentury8).Union(listOfSaintsByCentury9).Union(listOfSaintsByCentury10)
                 .Union(listOfSaintsByCentury11).Union(listOfSaintsByCentury12).Union(listOfSaintsByCentury13).Union(listOfSaintsByCentury14).Union(listOfSaintsByCentury15)
@@ -121,6 +122,22 @@ namespace WikiExtractor.Process.Modules
                 //.Take(100)
                 .ToList()
                 .WithDefaultFilters();
+
+            //var saintsCollection = listOfPatronSaints
+            //    .Union(listOfSaintsByAllPope)
+            //    .Union(listOfBeatified)
+            //    .Union(listOfSaints)
+            //    .Union(listOfSaintsByEachPope01).Union(listOfSaintsByEachPope02).Union(listOfSaintsByEachPope03).Union(listOfSaintsByEachPope04).Union(listOfSaintsByEachPope05)
+            //    .Union(listOfSaintsByEachPope06).Union(listOfSaintsByEachPope07).Union(listOfSaintsByEachPope08).Union(listOfSaintsByCentury1)
+            //    .Union(listOfSaintsByCentury1).Union(listOfSaintsByCentury2).Union(listOfSaintsByCentury3).Union(listOfSaintsByCentury4).Union(listOfSaintsByCentury5)
+            //    .Union(listOfSaintsByCentury6).Union(listOfSaintsByCentury7).Union(listOfSaintsByCentury8).Union(listOfSaintsByCentury9).Union(listOfSaintsByCentury10)
+            //    .Union(listOfSaintsByCentury11).Union(listOfSaintsByCentury12).Union(listOfSaintsByCentury13).Union(listOfSaintsByCentury14).Union(listOfSaintsByCentury15)
+            //    .Union(listOfSaintsByCentury16).Union(listOfSaintsByCentury17).Union(listOfSaintsByCentury18).Union(listOfSaintsByCentury19).Union(listOfSaintsByCentury20)
+            //    .Union(listOfSaintsByCentury21)
+            //    .Union(listOfSaintsFromLocalUrlFile01)
+            //    //.Take(100)
+            //    .ToList()
+            //    .WithDefaultFilters();
 
             int totalCount = saintsCollection.Count;
             int currentIndex = 1;

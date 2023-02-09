@@ -13,17 +13,17 @@ namespace ChristianCatholicSaints.Droid.DeviceDependencyImpl
 
         public string AdsInterstitialId => "ca-app-pub-4219645367584712/3235891676";
 
-        public int ShowFirstInterstitialAdOnClickLimit => 3;
+        public int ShowFirstInterstitialAdOnClickLimit => 2;
 
-        public int ShowLaterInterstitialAdOnClickLimit => 8;
+        public int ShowLaterInterstitialAdOnClickLimit => 7;
 
         #region Style Implementation
 
         public int StyleOnImageHeightRequestOnListPage => 130;
 
-        public int StyleOnListItemHeightRequestOnListPagePhone => 148;
-        public int StyleOnListItemHeightRequestOnListPageTablet => 128;
-        public int StyleOnListItemHeightRequestOnListPageDesktop => 128;
+        public int StyleOnListItemHeightRequestOnListPagePhone => 200;
+        public int StyleOnListItemHeightRequestOnListPageTablet => 200;
+        public int StyleOnListItemHeightRequestOnListPageDesktop => 200;
         #endregion
         public string TextOnFirstTabInformationOnDetailPage => "Saint facts";
         public int CarouselImageLoadMoreItemsCount => 5;
