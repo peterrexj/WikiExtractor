@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>La Chaise-Dieu - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"82ea7e7c-2ccc-4e57-881c-f3f53acc527a",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"La_Chaise-Dieu","wgTitle":"La Chaise-Dieu","wgCurRevisionId":1114815026,"wgRevisionId":1114815026,"wgArticleId":3058980,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 French-language sources (fr)","Articles with French-language sources (fr)","Articles needing additional references from January 2017","All articles needing additional references","Articles with short description","Short description is different from Wikidata","Infobox mapframe without OSM relation ID on Wikidata","Coordinates on Wikidata","Pages using infobox settlement with image map1 but not image map","Articles with Polish-language sources (pl)","Commons link is on Wikidata","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BNF identifiers","Articles with GND identifiers",
+"Articles with J9U identifiers","Articles with LCCN identifiers","Articles with SUDOC identifiers","Pages using the Kartographer extension","Communes of Haute-Loire","Auvergne"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"La_Chaise-Dieu","wgRelevantArticleId":3058980,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":5000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgKartographerLiveData":{"_47b97427266771083808b18dc1af79dfcbc32e34":[{"type":
+"ExternalData","service":"geoshape","url":"https://maps.wikimedia.org/geoshape?getgeojson=1\u0026ids=Q249464","properties":{"title":"La Chaise-Dieu","fill-opacity":0.5,"stroke":"#FF0000","stroke-width":3,"fill":"#606060"}},{"type":"ExternalData","service":"geoline","url":"https://maps.wikimedia.org/geoline?getgeojson=1\u0026ids=Q249464","properties":{"stroke-width":5,"stroke":"#FF0000","title":"La Chaise-Dieu"}},{"type":"Feature","geometry":{"coordinates":[3.6966666666667,45.321388888889],"type":"Point"},"properties":{"title":"La Chaise-Dieu","marker-color":"#5E74F3"}}]},"wgCoordinates":{"lat":45.3222,"lon":3.6975},"wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q249464","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles"
+:"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.kartographer.style":"ready","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.kartographer.staticframe","ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP",
+"ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.kartographer.style%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/La-Chaise-Dieu_JPG0_%287%29.JPG/1200px-La-Chaise-Dieu_JPG0_%287%29.JPG"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="900"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/La-Chaise-Dieu_JPG0_%287%29.JPG/800px-La-Chaise-Dieu_JPG0_%287%29.JPG"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="600"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/La-Chaise-Dieu_JPG0_%287%29.JPG/640px-La-Chaise-Dieu_JPG0_%287%29.JPG"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="480"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="La Chaise-Dieu - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/La_Chaise-Dieu"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=La_Chaise-Dieu&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/La_Chaise-Dieu"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-La_Chaise-Dieu rootpage-La_Chaise-Dieu skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=La+Chaise-Dieu" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=La+Chaise-Dieu"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=La+Chaise-Dieu"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/La_Chaise-Dieu" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/La_Chaise-Dieu" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=La_Chaise-Dieu&amp;oldid=1114815026" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=La_Chaise-Dieu&amp;id=1114815026&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q249464" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=La_Chaise-Dieu&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=La_Chaise-Dieu&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/La_Chaise-Dieu" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Geography"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Geography">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Geography</div>
+		</a>
+		
+		<ul id="toc-Geography-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-History"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#History">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>History</div>
+		</a>
+		
+		<ul id="toc-History-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Population"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Population">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Population</div>
+		</a>
+		
+		<ul id="toc-Population-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Culture"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Culture">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Culture</div>
+		</a>
+		
+		<ul id="toc-Culture-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">La Chaise-Dieu</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 40 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-40"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">40 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ast mw-list-item"><a href="https://ast.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Asturian" lang="ast" hreflang="ast" class="interlanguage-link-target"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a href="https://zh-min-nan.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Chinese (Min Nan)" lang="nan" hreflang="nan" class="interlanguage-link-target"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/La_Chasa_de_Dieu" title="La Chasa de Dieu – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-ceb mw-list-item"><a href="https://ceb.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Cebuano" lang="ceb" hreflang="ceb" class="interlanguage-link-target"><span>Cebuano</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a href="https://kk.wikipedia.org/wiki/%D0%9B%D0%B0-%D0%A8%D0%B5%D0%B7-%D0%94%D1%8C%D0%B5" title="Ла-Шез-Дье – Kazakh" lang="kk" hreflang="kk" class="interlanguage-link-target"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a href="https://lb.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Luxembourgish" lang="lb" hreflang="lb" class="interlanguage-link-target"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-mg mw-list-item"><a href="https://mg.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Malagasy" lang="mg" hreflang="mg" class="interlanguage-link-target"><span>Malagasy</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a href="https://ms.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Malay" lang="ms" hreflang="ms" class="interlanguage-link-target"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%BB%E3%82%B7%E3%82%A7%E3%83%BC%E3%82%BA%EF%BC%9D%E3%83%87%E3%83%A5%E3%83%BC" title="ラ・シェーズ＝デュー – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ce mw-list-item"><a href="https://ce.wikipedia.org/wiki/%D0%9B%D0%B0-%D0%A8%D0%B5%D0%B7-%D0%94%D1%8C%D0%B5" title="Ла-Шез-Дье – Chechen" lang="ce" hreflang="ce" class="interlanguage-link-target"><span>Нохчийн</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a href="https://oc.wikipedia.org/wiki/La_Chaa_Dieu" title="La Chaa Dieu – Occitan" lang="oc" hreflang="oc" class="interlanguage-link-target"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a href="https://uz.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Uzbek" lang="uz" hreflang="uz" class="interlanguage-link-target"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a href="https://pms.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Piedmontese" lang="pms" hreflang="pms" class="interlanguage-link-target"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/La_Chaise-Dieu_(obec)" title="La Chaise-Dieu (obec) – Slovak" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Slovenian" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%A8%D0%B5%D0%B7_%D0%94%D1%98%D0%B5" title="Шез Дје – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Chaise-Dieu" title="Chaise-Dieu – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a href="https://tt.wikipedia.org/wiki/%D0%9B%D0%B0-%D0%A8%D0%B5%D0%B7-%D0%94%D1%8C%D0%B5" title="Ла-Шез-Дье – Tatar" lang="tt" hreflang="tt" class="interlanguage-link-target"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-bug mw-list-item"><a href="https://bug.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Buginese" lang="bug" hreflang="bug" class="interlanguage-link-target"><span>ᨅᨔ ᨕᨘᨁᨗ</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%9B%D0%B0-%D0%A8%D0%B5%D0%B7-%D0%94%D1%8C%D1%94" title="Ла-Шез-Дьє – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a href="https://ur.wikipedia.org/wiki/%D9%84%D8%A7_%D8%B4%D8%A7%D8%A6%D8%B3%DB%8C-%DA%88%DB%8C%DB%8C%D9%88" title="لا شائسی-ڈییو – Urdu" lang="ur" hreflang="ur" class="interlanguage-link-target"><span>اردو</span></a></li><li class="interlanguage-link interwiki-vec mw-list-item"><a href="https://vec.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Venetian" lang="vec" hreflang="vec" class="interlanguage-link-target"><span>Vèneto</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Vietnamese" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a href="https://war.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Waray" lang="war" hreflang="war" class="interlanguage-link-target"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-diq mw-list-item"><a href="https://diq.wikipedia.org/wiki/La_Chaise-Dieu" title="La Chaise-Dieu – Zazaki" lang="diq" hreflang="diq" class="interlanguage-link-target"><span>Zazaki</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E6%8B%89%E8%B0%A2%E6%96%AF%E8%BF%AA%E7%BA%A6" title="拉谢斯迪约 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q249464#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/La_Chaise-Dieu" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:La_Chaise-Dieu" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/La_Chaise-Dieu"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/La_Chaise-Dieu"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">For the village in the Eure department, see <a href="/wiki/Chaise-Dieu-du-Theil" title="Chaise-Dieu-du-Theil">Chaise-Dieu-du-Theil</a>.</div>
+<style data-mw-deduplicate="TemplateStyles:r1097763485">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+link+.ambox,.mw-parser-output .ambox+link+style+.ambox,.mw-parser-output .ambox+link+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+style+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+link+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}html.client-js body.skin-minerva .mw-parser-output .mbox-text-span{margin-left:23px!important}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}</style><table class="box-More_citations_needed plainlinks metadata ambox ambox-content ambox-Refimprove" role="presentation"><tbody><tr><td class="mbox-image"><div class="mbox-image-div"><a href="/wiki/File:Question_book-new.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" decoding="async" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" data-file-width="512" data-file-height="399" /></a></div></td><td class="mbox-text"><div class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>.<span class="hide-when-compact"> Please help <a class="external text" href="https://en.wikipedia.org/w/index.php?title=La_Chaise-Dieu&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Referencing_for_beginners" title="Help:Referencing for beginners">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.<br /><small><span class="plainlinks"><i>Find sources:</i>&#160;<a rel="nofollow" class="external text" href="//www.google.com/search?as_eq=wikipedia&amp;q=%22La+Chaise-Dieu%22">"La Chaise-Dieu"</a>&#160;–&#160;<a rel="nofollow" class="external text" href="//www.google.com/search?tbm=nws&amp;q=%22La+Chaise-Dieu%22+-wikipedia&amp;tbs=ar:1">news</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="//www.google.com/search?&amp;q=%22La+Chaise-Dieu%22&amp;tbs=bkt:s&amp;tbm=bks">newspapers</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="//www.google.com/search?tbs=bks:1&amp;q=%22La+Chaise-Dieu%22+-wikipedia">books</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="//scholar.google.com/scholar?q=%22La+Chaise-Dieu%22">scholar</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="https://www.jstor.org/action/doBasicSearch?Query=%22La+Chaise-Dieu%22&amp;acc=on&amp;wc=on">JSTOR</a></span></small></span>  <span class="date-container"><i>(<span class="date">January 2017</span>)</i></span><span class="hide-when-compact"><i> (<small><a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a></small>)</i></span></div></td></tr></tbody></table>
+<div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Commune in Auvergne-Rhône-Alpes, France</div><style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><style data-mw-deduplicate="TemplateStyles:r1043192559">.mw-parser-output .ib-settlement{width:23em;border-collapse:collapse;line-height:1.2em}.mw-parser-output .ib-settlement td,.mw-parser-output .ib-settlement th{border-top:1px solid #a2a9b1;padding:0.4em 0.6em 0.4em 0.6em}.mw-parser-output .ib-settlement .mergedtoprow .infobox-full-data,.mw-parser-output .ib-settlement .mergedtoprow .infobox-header,.mw-parser-output .ib-settlement .mergedtoprow .infobox-data,.mw-parser-output .ib-settlement .mergedtoprow .infobox-label,.mw-parser-output .ib-settlement .mergedtoprow .infobox-below{border-top:1px solid #a2a9b1;padding:0.4em 0.6em 0.2em 0.6em}.mw-parser-output .ib-settlement .mergedrow .infobox-full-data,.mw-parser-output .ib-settlement .mergedrow .infobox-data,.mw-parser-output .ib-settlement .mergedrow .infobox-label{border:0;padding:0 0.6em 0.2em 0.6em}.mw-parser-output .ib-settlement .mergedbottomrow .infobox-full-data,.mw-parser-output .ib-settlement .mergedbottomrow .infobox-data,.mw-parser-output .ib-settlement .mergedbottomrow .infobox-label{border-top:0;border-bottom:1px solid #a2a9b1;padding:0 0.6em 0.4em 0.6em}.mw-parser-output .ib-settlement .maptable{border:0;padding:0}.mw-parser-output .ib-settlement .infobox-header,.mw-parser-output .ib-settlement .infobox-below{text-align:left}.mw-parser-output .ib-settlement .infobox-above{font-size:125%;line-height:1.3em}.mw-parser-output .ib-settlement .infobox-subheader{background-color:#cddeff;font-weight:bold}.mw-parser-output .ib-settlement-native{font-weight:normal;padding-top:0.2em}.mw-parser-output .ib-settlement-other-name{font-size:78%}.mw-parser-output .ib-settlement-official{font-weight:bold}.mw-parser-output .ib-settlement-caption{padding:0.3em 0 0 0}.mw-parser-output .ib-settlement-caption-link{padding:0.2em 0}.mw-parser-output .ib-settlement-nickname{display:inline}.mw-parser-output .ib-settlement-fn{font-weight:normal;display:inline}</style><table class="infobox ib-settlement vcard"><tbody><tr><th colspan="2" class="infobox-above"><div class="fn org">La Chaise-Dieu</div></th></tr><tr><td colspan="2" class="infobox-subheader"><div class="category">Commune</div></td></tr><tr class="mergedtoprow"><td colspan="2" class="infobox-full-data"><a href="/wiki/File:La-Chaise-Dieu_JPG0_(7).JPG" class="image" title="Saint-Robert abbey"><img alt="Saint-Robert abbey" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/La-Chaise-Dieu_JPG0_%287%29.JPG/270px-La-Chaise-Dieu_JPG0_%287%29.JPG" decoding="async" width="270" height="203" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/La-Chaise-Dieu_JPG0_%287%29.JPG/405px-La-Chaise-Dieu_JPG0_%287%29.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b5/La-Chaise-Dieu_JPG0_%287%29.JPG/540px-La-Chaise-Dieu_JPG0_%287%29.JPG 2x" data-file-width="1600" data-file-height="1200" /></a><div class="ib-settlement-caption">Saint-Robert abbey</div></td></tr><tr class="mergedtoprow"><td colspan="2" class="infobox-full-data maptable"><style data-mw-deduplicate="TemplateStyles:r1028600610">.mw-parser-output .ib-settlement-cols{text-align:center;display:table;width:100%}.mw-parser-output .ib-settlement-cols-row{display:table-row}.mw-parser-output .ib-settlement-cols-cell{display:table-cell;vertical-align:middle}.mw-parser-output .ib-settlement-cols-cellt{display:table-cell;vertical-align:top}</style>
+<div class="ib-settlement-cols">
+<div class="ib-settlement-cols-row"><div class="ib-settlement-cols-cell"><a href="/wiki/File:Blason_ville_fr_ChaiseDieu_(HauteLoire).svg" class="image" title="Coat of arms of La Chaise-Dieu"><img alt="Coat of arms of La Chaise-Dieu" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Blason_ville_fr_ChaiseDieu_%28HauteLoire%29.svg/73px-Blason_ville_fr_ChaiseDieu_%28HauteLoire%29.svg.png" decoding="async" width="73" height="80" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Blason_ville_fr_ChaiseDieu_%28HauteLoire%29.svg/109px-Blason_ville_fr_ChaiseDieu_%28HauteLoire%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Blason_ville_fr_ChaiseDieu_%28HauteLoire%29.svg/145px-Blason_ville_fr_ChaiseDieu_%28HauteLoire%29.svg.png 2x" data-file-width="600" data-file-height="660" /></a><div class="ib-settlement-caption-link">Coat of arms</div></div></div></div></td></tr><tr class="mergedrow"><td colspan="2" class="infobox-full-data"><style data-mw-deduplicate="TemplateStyles:r1127642053">.mw-parser-output .hidden-begin{box-sizing:border-box;width:100%;padding:5px;border:none;font-size:95%}.mw-parser-output .hidden-title{font-weight:bold;line-height:1.6;text-align:left}.mw-parser-output .hidden-content{text-align:left}</style><div class="hidden-begin mw-collapsible mw-collapsed" style="border:none;"><div class="hidden-title" style="text-align:center;">Location of La Chaise-Dieu</div><div class="hidden-content mw-collapsible-content" style="height:5px;">
+<div class="center" style="margin-top:1em"><a class="mw-kartographer-map mw-kartographer-container center" style="width: 270px; height: 200px;" data-mw="interface" data-style="osm-intl" data-width="270" data-height="200" data-zoom="11" data-overlays="[&quot;_47b97427266771083808b18dc1af79dfcbc32e34&quot;]" href="/wiki/Special:Map/11/a/a/en"><img src="https://maps.wikimedia.org/img/osm-intl,11,a,a,270x200.png?lang=en&amp;domain=%2F%2Fen.wikipedia.org&amp;title=La+Chaise-Dieu&amp;revid=1114815026&amp;groups=_47b97427266771083808b18dc1af79dfcbc32e34" alt="" width="270" height="200" decoding="async" srcset="https://maps.wikimedia.org/img/osm-intl,11,a,a,270x200@2x.png?lang=en&amp;domain=%2F%2Fen.wikipedia.org&amp;title=La+Chaise-Dieu&amp;revid=1114815026&amp;groups=_47b97427266771083808b18dc1af79dfcbc32e34 2x" /></a></div></div></div></td></tr><tr class="mergedtoprow"><td colspan="2" class="infobox-full-data"><div class="switcher-container"><style data-mw-deduplicate="TemplateStyles:r997900035">.mw-parser-output .locmap .od{position:absolute}.mw-parser-output .locmap .id{position:absolute;line-height:0}.mw-parser-output .locmap .l0{font-size:0;position:absolute}.mw-parser-output .locmap .pv{line-height:110%;position:absolute;text-align:center}.mw-parser-output .locmap .pl{line-height:110%;position:absolute;top:-0.75em;text-align:right}.mw-parser-output .locmap .pr{line-height:110%;position:absolute;top:-0.75em;text-align:left}.mw-parser-output .locmap .pv>div{display:inline;padding:1px}.mw-parser-output .locmap .pl>div{display:inline;padding:1px;float:right}.mw-parser-output .locmap .pr>div{display:inline;padding:1px;float:left}</style><div class="center"><div class="locmap" style="width:270px;float:none;clear:both;margin-left:auto;margin-right:auto"><div style="width:270px;padding:0"><div style="position:relative;width:270px"><a href="/wiki/File:France_location_map-Regions_and_departements-2016.svg" class="image" title="La Chaise-Dieu is located in France"><img alt="La Chaise-Dieu is located in France" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/France_location_map-Regions_and_departements-2016.svg/270px-France_location_map-Regions_and_departements-2016.svg.png" decoding="async" width="270" height="259" class="notpageimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/France_location_map-Regions_and_departements-2016.svg/405px-France_location_map-Regions_and_departements-2016.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e9/France_location_map-Regions_and_departements-2016.svg/540px-France_location_map-Regions_and_departements-2016.svg.png 2x" data-file-width="2000" data-file-height="1922" /></a><div class="od" style="top:58.836%;left:60.111%"><div class="id" style="left:-3px;top:-3px"><img alt="La Chaise-Dieu" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/6px-Red_pog.svg.png" decoding="async" title="La Chaise-Dieu" width="6" height="6" class="notpageimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/9px-Red_pog.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/12px-Red_pog.svg.png 2x" data-file-width="64" data-file-height="64" /></div><div class="pl" style="font-size:91%;width:6em;right:4px"><div>La Chaise-Dieu</div></div></div></div><div style="padding-top:0.2em"></div><span class="switcher-label" style="display:none">Show map of France</span></div></div></div><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r997900035"/><div class="center"><div class="locmap" style="width:270px;float:none;clear:both;margin-left:auto;margin-right:auto"><div style="width:270px;padding:0"><div style="position:relative;width:270px"><a href="/wiki/File:Auvergne-Rh%C3%B4ne-Alpes_region_location_map.svg" class="image" title="La Chaise-Dieu is located in Auvergne-Rhône-Alpes"><img alt="La Chaise-Dieu is located in Auvergne-Rhône-Alpes" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Auvergne-Rh%C3%B4ne-Alpes_region_location_map.svg/270px-Auvergne-Rh%C3%B4ne-Alpes_region_location_map.svg.png" decoding="async" width="270" height="212" class="notpageimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Auvergne-Rh%C3%B4ne-Alpes_region_location_map.svg/405px-Auvergne-Rh%C3%B4ne-Alpes_region_location_map.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Auvergne-Rh%C3%B4ne-Alpes_region_location_map.svg/540px-Auvergne-Rh%C3%B4ne-Alpes_region_location_map.svg.png 2x" data-file-width="1052" data-file-height="825" /></a><div class="od" style="top:54.89%;left:33.065%"><div class="id" style="left:-3px;top:-3px"><img alt="La Chaise-Dieu" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/6px-Red_pog.svg.png" decoding="async" title="La Chaise-Dieu" width="6" height="6" class="notpageimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/9px-Red_pog.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/12px-Red_pog.svg.png 2x" data-file-width="64" data-file-height="64" /></div><div class="pl" style="font-size:91%;width:6em;right:4px"><div>La Chaise-Dieu</div></div></div></div><div style="padding-top:0.2em"></div><span class="switcher-label" style="display:none">Show map of Auvergne-Rhône-Alpes</span></div></div></div></div></td></tr><tr class="mergedbottomrow"><td colspan="2" class="infobox-full-data">Coordinates: <style data-mw-deduplicate="TemplateStyles:r1073938472">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class="plainlinks nourlexpansion"><a class="external text" href="//geohack.toolforge.org/geohack.php?pagename=La_Chaise-Dieu&amp;params=45.3222_N_3.6975_E_type:city(616)_region:FR-ARA"><span class="geo-default"><span class="geo-dms" title="Maps, aerial photos, and other data for this location"><span class="latitude">45°19′20″N</span> <span class="longitude">3°41′51″E</span></span></span><span class="geo-multi-punct">&#xfeff; / &#xfeff;</span><span class="geo-nondefault"><span class="geo-dec" title="Maps, aerial photos, and other data for this location">45.3222°N 3.6975°E</span><span style="display:none">&#xfeff; / <span class="geo">45.3222; 3.6975</span></span></span></a></span><span style="font-size: small;"><span id="coordinates"><a href="/wiki/Geographic_coordinate_system" title="Geographic coordinate system">Coordinates</a>: <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1073938472"/><span class="plainlinks nourlexpansion"><a class="external text" href="//geohack.toolforge.org/geohack.php?pagename=La_Chaise-Dieu&amp;params=45.3222_N_3.6975_E_type:city(616)_region:FR-ARA"><span class="geo-default"><span class="geo-dms" title="Maps, aerial photos, and other data for this location"><span class="latitude">45°19′20″N</span> <span class="longitude">3°41′51″E</span></span></span><span class="geo-multi-punct">&#xfeff; / &#xfeff;</span><span class="geo-nondefault"><span class="geo-dec" title="Maps, aerial photos, and other data for this location">45.3222°N 3.6975°E</span><span style="display:none">&#xfeff; / <span class="geo">45.3222; 3.6975</span></span></span></a></span></span></span></td></tr><tr class="mergedtoprow"><th scope="row" class="infobox-label">Country</th><td class="infobox-data"><a href="/wiki/France" title="France">France</a></td></tr><tr class="mergedrow"><th scope="row" class="infobox-label"><a href="/wiki/Regions_of_France" title="Regions of France">Region</a></th><td class="infobox-data"><a href="/wiki/Auvergne-Rh%C3%B4ne-Alpes" title="Auvergne-Rhône-Alpes">Auvergne-Rhône-Alpes</a></td></tr><tr class="mergedrow"><th scope="row" class="infobox-label"><a href="/wiki/Departments_of_France" title="Departments of France">Department</a></th><td class="infobox-data"><a href="/wiki/Haute-Loire" title="Haute-Loire">Haute-Loire</a></td></tr><tr class="mergedrow"><th scope="row" class="infobox-label"><a href="/wiki/Arrondissements_of_France" title="Arrondissements of France">Arrondissement</a></th><td class="infobox-data"><a href="/wiki/Arrondissement_of_Brioude" title="Arrondissement of Brioude">Brioude</a></td></tr><tr class="mergedrow"><th scope="row" class="infobox-label"><a href="/wiki/Cantons_of_France" title="Cantons of France">Canton</a></th><td class="infobox-data"><a href="/wiki/Canton_of_Plateau_du_Haut-Velay_granitique" title="Canton of Plateau du Haut-Velay granitique">Plateau du Haut-Velay granitique</a></td></tr><tr class="mergedrow"><th scope="row" class="infobox-label"><a href="/wiki/Communes_of_France#Intercommunality" title="Communes of France">Intercommunality</a></th><td class="infobox-data"><a href="/wiki/Communaut%C3%A9_d%27agglom%C3%A9ration_du_Puy-en-Velay" title="Communauté d&#39;agglomération du Puy-en-Velay">CA du Puy-en-Velay</a></td></tr><tr class="mergedtoprow"><th colspan="2" class="infobox-header">Government<div class="ib-settlement-fn"></div></th></tr><tr class="mergedrow"><th scope="row" class="infobox-label">&#160;•&#160;Mayor <style data-mw-deduplicate="TemplateStyles:r886047488">.mw-parser-output .nobold{font-weight:normal}</style><span class="nobold">(2020&#8211;2026) </span></th><td class="infobox-data">André Brivadis<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup></td></tr><tr class="mergedtoprow"><th scope="row" class="infobox-label">Area<div class="ib-settlement-fn"><sup><b>1</b></sup></div></th><td class="infobox-data">13.58&#160;km<sup>2</sup> (5.24&#160;sq&#160;mi)</td></tr><tr class="mergedtoprow"><th scope="row" class="infobox-label">Population<div class="ib-settlement-fn"><span class="nowrap">&#160;</span>(Jan.&#160;2019)<sup id="cite_ref-popleg2019_2-0" class="reference"><a href="#cite_note-popleg2019-2">&#91;2&#93;</a></sup></div></th><td class="infobox-data">616</td></tr><tr class="mergedrow"><th scope="row" class="infobox-label">&#160;•&#160;Density</th><td class="infobox-data">45/km<sup>2</sup> (120/sq&#160;mi)</td></tr><tr class="mergedtoprow"><th scope="row" class="infobox-label"><a href="/wiki/Time_zone" title="Time zone">Time zone</a></th><td class="infobox-data"><a href="/wiki/UTC%2B01:00" title="UTC+01:00">UTC+01:00</a> (<a href="/wiki/Central_European_Time" title="Central European Time">CET</a>)</td></tr><tr class="mergedrow"><th scope="row" class="infobox-label"><span class="nowrap">&#160;•&#160;Summer (<a href="/wiki/Daylight_saving_time" title="Daylight saving time">DST</a>)</span></th><td class="infobox-data"><a href="/wiki/UTC%2B02:00" title="UTC+02:00">UTC+02:00</a> (<a href="/wiki/Central_European_Summer_Time" title="Central European Summer Time">CEST</a>)</td></tr><tr class="mergedtoprow"><th scope="row" class="infobox-label"><a href="/wiki/INSEE_code" title="INSEE code">INSEE</a>/Postal code</th><td class="infobox-data adr"><div class="postal-code"><a rel="nofollow" class="external text" href="https://www.insee.fr/fr/statistiques/1405599?geo=COM-43048">43048</a> /43160</div></td></tr><tr class="mergedtoprow"><th scope="row" class="infobox-label">Elevation</th><td class="infobox-data">916–1,120&#160;m (3,005–3,675&#160;ft) <br />(avg. 1,083&#160;m or 3,553&#160;ft)</td></tr><tr><td colspan="2" class="infobox-below"><sup><b>1</b></sup> French Land Register data, which excludes lakes, ponds, glaciers &gt; 1&#160;km<sup>2</sup> (0.386&#160;sq&#160;mi or 247 acres) and river estuaries.</td></tr></tbody></table>
+<p><b>La Chaise-Dieu</b> (<small>French pronunciation:&#160;&#8203;</small><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA" lang="fr-Latn-fonipa"><a href="/wiki/Help:IPA/French" title="Help:IPA/French">[la ʃɛz djø]</a></span>; <a href="/wiki/Auvergnat_dialect" class="mw-redirect" title="Auvergnat dialect">Auvergnat</a>: <i>La Chasa Dieu</i>) is a <a href="/wiki/Communes_of_France" title="Communes of France">commune</a> in the <a href="/wiki/Haute-Loire" title="Haute-Loire">Haute-Loire</a> <a href="/wiki/Departments_of_France" title="Departments of France">department</a> in south-central <a href="/wiki/France" title="France">France</a>. Its inhabitants are called <i>Casadéens</i>, from the <a href="/wiki/Latin" title="Latin">Latin</a> name of the city.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Geography">Geography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=edit&amp;section=1" title="Edit section: Geography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>La Chaise-Dieu occupies a 1082 m <a href="/wiki/Butte" title="Butte">butte</a> which dominates a plain between the mounts of <a href="/w/index.php?title=Livradois&amp;action=edit&amp;redlink=1" class="new" title="Livradois (page does not exist)">Livradois</a> and <a href="/wiki/Velay" title="Velay">Velay</a>.  The closest cities are <a href="/wiki/Brioude" title="Brioude">Brioude</a>, <a href="/wiki/Ambert" title="Ambert">Ambert</a>, and <a href="/wiki/Le_Puy-en-Velay" title="Le Puy-en-Velay">Le Puy-en-Velay</a>.
+</p><p>The <a href="/wiki/Senouire" title="Senouire">Senouire</a> forms most of the commune's eastern and western borders.
+</p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=edit&amp;section=2" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>La Chaise-Dieu means "the Seat of God" in French (from the <a href="/wiki/Occitan_language" title="Occitan language">Occitan</a> "Chasa Dieu") and is a reference to the <a href="/wiki/Rule_of_Saint_Benedict" title="Rule of Saint Benedict">Benedictine</a> <a href="/wiki/Abbey" title="Abbey">abbey</a><sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup> which was founded on the site in 1043 by <a href="/wiki/Robert_de_Turlande" title="Robert de Turlande">Robert de Turlande</a>, a kinsman of <a href="/wiki/Gerald_of_Aurillac" title="Gerald of Aurillac">Gerald of Aurillac</a> and canon of <a href="/wiki/St._Julian_of_Brioude" class="mw-redirect" title="St. Julian of Brioude">Saint Julian's</a> church at Brioude, nearby. Robert served an apprenticeship at <a href="/wiki/Cluny_Abbey" title="Cluny Abbey">Cluny</a> under <a href="/wiki/Odilo_of_Cluny" title="Odilo of Cluny">Abbot Odilo</a>, then served as abbot in the community he founded in the wilderness here, initially in the company of a repentant knight, Stephen.   The traditional date of the founding is 28 December 1043. The abbey had over 300 monks and 42 outlying <a href="/wiki/Priory" title="Priory">priories</a> depending on it when Robert de Turlande died, probably in 1067. After his death, Robert was quickly canonized (1095) as <b>Saint Robert de Turlande</b> (also known as Saint Robert of Chaise-Dieu).<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup> The Chaise-Dieu continued to grow throughout the <a href="/wiki/Middle_Ages" title="Middle Ages">Middle Ages</a>, becoming the motherhouse of further congregations of Black Monks. <a href="/wiki/Pope_Clement_VI" title="Pope Clement VI">Pope Clement VI</a> began his vocation as a monk at Chaise Dieu and was the patron of the vast abbey church (built 1344–1350), a suitable setting for his tomb.
+</p>
+<div class="thumb tleft"><div class="thumbinner" style="width:302px;"><a href="/wiki/File:La-Chaise-Dieu_JPG0_(6).JPG" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/La-Chaise-Dieu_JPG0_%286%29.JPG/300px-La-Chaise-Dieu_JPG0_%286%29.JPG" decoding="async" width="300" height="225" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/La-Chaise-Dieu_JPG0_%286%29.JPG/450px-La-Chaise-Dieu_JPG0_%286%29.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/db/La-Chaise-Dieu_JPG0_%286%29.JPG/600px-La-Chaise-Dieu_JPG0_%286%29.JPG 2x" data-file-width="1600" data-file-height="1200" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:La-Chaise-Dieu_JPG0_(6).JPG" class="internal" title="Enlarge"></a></div>The abbey church</div></div></div>
+<p>The monks were driven out and the abbey secularized during the <a href="/wiki/French_Revolution" title="French Revolution">French Revolution</a>. Clement's vast abbey church, his tomb and the abbey cloister remain. The fresco of the <a href="/wiki/Danse_Macabre" title="Danse Macabre">Dance of Death</a> (ca 1470) is a famous example of this motif, which gained wide currency following the visitations of the <a href="/wiki/Black_Death" title="Black Death">Black Death</a>. The partners of the figures are skeletons and the parade strictly follows precedence of contemporary society, with Adam and Eve preceding all:  the pope then the emperor, the legate, the prince, the cardinal, the High Constable, the patriarch, the knight, then the abbot, the townsman, the merchant, the lady, ending with the lawyer, the minstrel, the clerk, the ploughman, the monk, the innocent child and the pilgrim.
+</p><p>Between 1727 and 1740, the <a href="/wiki/Jansenism" title="Jansenism">Jansenist</a> <a href="/wiki/Bishop" title="Bishop">bishop</a> <a href="/wiki/Jean_Soanen" title="Jean Soanen">Jean Soanen</a> was exiled to the abbey.
+</p>
+<h2><span class="mw-headline" id="Population">Population</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=edit&amp;section=3" title="Edit section: Population">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="toccolours" style="width:30em;border-top-width:0;border-spacing: 0;float:none;clear:none;margin:0.5em 1em 0.5em 0;"><caption style="border-top:1px #aaa solid;border-left:1px #aaa solid;border-right:1px #aaa solid;background-color:lavender;padding:0.25em;font-weight:bold">Historical population</caption><tbody><tr valign="top"><td style="padding:0 0.5em"><table style="border-spacing:0;width:15em"><tbody><tr style="font-size:95%"><th style="border-bottom:1px solid black;padding:1px;width:3em">Year</th><th style="border-bottom:1px solid black;padding:1px 2px;text-align:right"><abbr title="Population">Pop.</abbr></th><th style="border-bottom:1px solid black;padding:1px;text-align:right"><abbr title="Percent change">±%</abbr></th></tr><tr><th style="text-align:center;padding:1px">1793</th><td style="text-align:right;padding:1px">1,464</td><td style="text-align:right;padding:1px">—&#160;&#160;&#160;&#160;</td></tr><tr><th style="text-align:center;padding:1px">1806</th><td style="text-align:right;padding:1px">1,578</td><td style="text-align:right;padding:1px">+7.8%</td></tr><tr><th style="text-align:center;padding:1px">1821</th><td style="text-align:right;padding:1px">1,759</td><td style="text-align:right;padding:1px">+11.5%</td></tr><tr><th style="text-align:center;padding:1px">1831</th><td style="text-align:right;padding:1px">1,835</td><td style="text-align:right;padding:1px">+4.3%</td></tr><tr><th style="text-align:center;padding:1px;border-bottom:1px solid #bbbbbb">1841</th><td style="text-align:right;padding:1px;border-bottom:1px solid #bbbbbb">1,923</td><td style="text-align:right;padding:1px;border-bottom:1px solid #bbbbbb">+4.8%</td></tr><tr><th style="text-align:center;padding:1px">1851</th><td style="text-align:right;padding:1px">1,977</td><td style="text-align:right;padding:1px">+2.8%</td></tr><tr><th style="text-align:center;padding:1px">1861</th><td style="text-align:right;padding:1px">1,722</td><td style="text-align:right;padding:1px">−12.9%</td></tr><tr><th style="text-align:center;padding:1px">1872</th><td style="text-align:right;padding:1px">1,736</td><td style="text-align:right;padding:1px">+0.8%</td></tr><tr><th style="text-align:center;padding:1px">1881</th><td style="text-align:right;padding:1px">1,742</td><td style="text-align:right;padding:1px">+0.3%</td></tr><tr><th style="text-align:center;padding:1px;border-bottom:1px solid #bbbbbb">1891</th><td style="text-align:right;padding:1px;border-bottom:1px solid #bbbbbb">1,634</td><td style="text-align:right;padding:1px;border-bottom:1px solid #bbbbbb">−6.2%</td></tr><tr><th style="text-align:center;padding:1px">1901</th><td style="text-align:right;padding:1px">1,774</td><td style="text-align:right;padding:1px">+8.6%</td></tr><tr><th style="text-align:center;padding:1px">1911</th><td style="text-align:right;padding:1px">1,537</td><td style="text-align:right;padding:1px">−13.4%</td></tr></tbody></table></td><td style="padding:0 0.5em;border-left:solid 1px #aaa"><table style="border-spacing:0;width:15em"><tbody><tr style="font-size:95%"><th style="border-bottom:1px solid black;padding:1px;width:3em">Year</th><th style="border-bottom:1px solid black;padding:1px 2px;text-align:right"><abbr title="Population">Pop.</abbr></th><th style="border-bottom:1px solid black;padding:1px;text-align:right"><abbr title="Percent change">±%</abbr></th></tr><tr><th style="text-align:center;padding:1px">1921</th><td style="text-align:right;padding:1px">1,207</td><td style="text-align:right;padding:1px">−21.5%</td></tr><tr><th style="text-align:center;padding:1px">1931</th><td style="text-align:right;padding:1px">1,102</td><td style="text-align:right;padding:1px">−8.7%</td></tr><tr><th style="text-align:center;padding:1px;border-bottom:1px solid #bbbbbb">1946</th><td style="text-align:right;padding:1px;border-bottom:1px solid #bbbbbb">1,011</td><td style="text-align:right;padding:1px;border-bottom:1px solid #bbbbbb">−8.3%</td></tr><tr><th style="text-align:center;padding:1px">1954</th><td style="text-align:right;padding:1px">983</td><td style="text-align:right;padding:1px">−2.8%</td></tr><tr><th style="text-align:center;padding:1px">1962</th><td style="text-align:right;padding:1px">923</td><td style="text-align:right;padding:1px">−6.1%</td></tr><tr><th style="text-align:center;padding:1px">1968</th><td style="text-align:right;padding:1px">900</td><td style="text-align:right;padding:1px">−2.5%</td></tr><tr><th style="text-align:center;padding:1px">1975</th><td style="text-align:right;padding:1px">907</td><td style="text-align:right;padding:1px">+0.8%</td></tr><tr><th style="text-align:center;padding:1px;border-bottom:1px solid #bbbbbb">1982</th><td style="text-align:right;padding:1px;border-bottom:1px solid #bbbbbb">789</td><td style="text-align:right;padding:1px;border-bottom:1px solid #bbbbbb">−13.0%</td></tr><tr><th style="text-align:center;padding:1px">1990</th><td style="text-align:right;padding:1px">778</td><td style="text-align:right;padding:1px">−1.4%</td></tr><tr><th style="text-align:center;padding:1px">1999</th><td style="text-align:right;padding:1px">772</td><td style="text-align:right;padding:1px">−0.8%</td></tr><tr><th style="text-align:center;padding:1px">2009</th><td style="text-align:right;padding:1px">730</td><td style="text-align:right;padding:1px">−5.4%</td></tr><tr><th style="text-align:center;padding:1px">2017</th><td style="text-align:right;padding:1px">620</td><td style="text-align:right;padding:1px">−15.1%</td></tr></tbody></table></td></tr></tbody></table>
+<h2><span class="mw-headline" id="Culture">Culture</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=edit&amp;section=4" title="Edit section: Culture">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>French pianist <a href="/wiki/Georges_Cziffra" class="mw-redirect" title="Georges Cziffra">Georges Cziffra</a> started an annual <a href="/wiki/Festival_de_musique_de_La_Chaise-Dieu" title="Festival de musique de La Chaise-Dieu">festival of sacred music in La Chaise-Dieu</a> in 1966.
+</p>
+<div style="clear:left;"></div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=edit&amp;section=5" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite class="citation web cs1 cs1-prop-foreign-lang-source"><a rel="nofollow" class="external text" href="https://www.data.gouv.fr/fr/datasets/r/2876a346-d50c-4911-934e-19ee07b0e503">"Répertoire national des élus: les maires"</a>. <i>data.gouv.fr, Plateforme ouverte des données publiques françaises</i> (in French). 2 December 2020.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=data.gouv.fr%2C+Plateforme+ouverte+des+donn%C3%A9es+publiques+fran%C3%A7aises&amp;rft.atitle=R%C3%A9pertoire+national+des+%C3%A9lus%3A+les+maires&amp;rft.date=2020-12-02&amp;rft_id=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2Fdatasets%2Fr%2F2876a346-d50c-4911-934e-19ee07b0e503&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALa+Chaise-Dieu" class="Z3988"></span></span>
+</li>
+<li id="cite_note-popleg2019-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-popleg2019_2-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.insee.fr/fr/statistiques/6005800?geo=COM-43048">"Populations légales 2019"</a>. <a href="/wiki/Institut_national_de_la_statistique_et_des_%C3%A9tudes_%C3%A9conomiques" title="Institut national de la statistique et des études économiques">The National Institute of Statistics and Economic Studies</a>. 29 December 2021.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Populations+l%C3%A9gales+2019&amp;rft.pub=The+National+Institute+of+Statistics+and+Economic+Studies&amp;rft.date=2021-12-29&amp;rft_id=https%3A%2F%2Fwww.insee.fr%2Ffr%2Fstatistiques%2F6005800%3Fgeo%3DCOM-43048&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALa+Chaise-Dieu" class="Z3988"></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.abbaye-chaise-dieu.com/">La Chaise-Dieu Abbey website</a><span class="languageicon">(in French)</span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.saintpatrickdc.org/ss/0417.shtml">Saint of the Day</a></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=edit&amp;section=6" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="https://www.vacances-livradois-forez.com/destination/une-destination-quatre-territoires/la-chaise-dieu-chef-d-oeuvre-d-architecture-gothique-et-volcans/">Visit La Chaise Dieu - Official website for tourism</a></li>
+<li><span class="languageicon">(in Polish)</span> <a rel="nofollow" class="external text" href="https://sekulada.com/opactwo-w-la-chaise-dieu/">Photos of La Chaise-Dieu</a></li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=La_Chaise-Dieu&amp;action=edit&amp;section=7" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Communes_of_the_Haute-Loire_department" title="Communes of the Haute-Loire department">Communes of the Haute-Loire department</a></li></ul>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-text plainlist">Wikimedia Commons has media related to <a href="https://commons.wikimedia.org/wiki/La_Chaise-Dieu" class="extiw" title="commons:La Chaise-Dieu"><span style="font-style:italic; font-weight:bold;">La Chaise-Dieu</span></a>.</div></div>
+</div>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Communes_of_the_Haute-Loire_department_23x15px&amp;#124;border_&amp;#124;alt=&amp;#124;link=" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Haute-Loire_communes" title="Template:Haute-Loire communes"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Haute-Loire_communes" title="Template talk:Haute-Loire communes"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Haute-Loire_communes&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Communes_of_the_Haute-Loire_department_23x15px&amp;#124;border_&amp;#124;alt=&amp;#124;link=" style="font-size:114%;margin:0 4em"><a href="/wiki/Communes_of_the_Haute-Loire_department" title="Communes of the Haute-Loire department">Communes</a> of the <a href="/wiki/Haute-Loire" title="Haute-Loire">Haute-Loire</a> department <span class="flagicon"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/35px-Flag_of_France.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png 2x" data-file-width="900" data-file-height="600" /></span></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Agnat" title="Agnat">Agnat</a></li>
+<li><a href="/wiki/Aiguilhe" title="Aiguilhe">Aiguilhe</a></li>
+<li><a href="/wiki/All%C3%A8gre" title="Allègre">Allègre</a></li>
+<li><a href="/wiki/Alleyrac" title="Alleyrac">Alleyrac</a></li>
+<li><a href="/wiki/Alleyras" title="Alleyras">Alleyras</a></li>
+<li><a href="/wiki/Ally,_Haute-Loire" title="Ally, Haute-Loire">Ally</a></li>
+<li><a href="/wiki/Araules" title="Araules">Araules</a></li>
+<li><a href="/wiki/Arlempdes" title="Arlempdes">Arlempdes</a></li>
+<li><a href="/wiki/Arlet" title="Arlet">Arlet</a></li>
+<li><a href="/wiki/Arsac-en-Velay" title="Arsac-en-Velay">Arsac-en-Velay</a></li>
+<li><a href="/wiki/Aubazat" title="Aubazat">Aubazat</a></li>
+<li><a href="/wiki/Aurec-sur-Loire" title="Aurec-sur-Loire">Aurec-sur-Loire</a></li>
+<li><a href="/wiki/Autrac" title="Autrac">Autrac</a></li>
+<li><a href="/wiki/Auvers,_Haute-Loire" title="Auvers, Haute-Loire">Auvers</a></li>
+<li><a href="/wiki/Auzon" title="Auzon">Auzon</a></li>
+<li><a href="/wiki/Az%C3%A9rat" title="Azérat">Azérat</a></li>
+<li><a href="/wiki/Bains,_Haute-Loire" title="Bains, Haute-Loire">Bains</a></li>
+<li><a href="/wiki/Barges,_Haute-Loire" title="Barges, Haute-Loire">Barges</a></li>
+<li><a href="/wiki/Bas-en-Basset" title="Bas-en-Basset">Bas-en-Basset</a></li>
+<li><a href="/wiki/Beaulieu,_Haute-Loire" title="Beaulieu, Haute-Loire">Beaulieu</a></li>
+<li><a href="/wiki/Beaumont,_Haute-Loire" title="Beaumont, Haute-Loire">Beaumont</a></li>
+<li><a href="/wiki/Beaune-sur-Arzon" title="Beaune-sur-Arzon">Beaune-sur-Arzon</a></li>
+<li><a href="/wiki/Beaux" title="Beaux">Beaux</a></li>
+<li><a href="/wiki/Beauzac" title="Beauzac">Beauzac</a></li>
+<li><a href="/wiki/Bellevue-la-Montagne" title="Bellevue-la-Montagne">Bellevue-la-Montagne</a></li>
+<li><a href="/wiki/Berbezit" title="Berbezit">Berbezit</a></li>
+<li><a href="/wiki/Bessamorel" title="Bessamorel">Bessamorel</a></li>
+<li><a href="/wiki/La_Besseyre-Saint-Mary" title="La Besseyre-Saint-Mary">La Besseyre-Saint-Mary</a></li>
+<li><a href="/wiki/Blanzac,_Haute-Loire" title="Blanzac, Haute-Loire">Blanzac</a></li>
+<li><a href="/wiki/Blassac" title="Blassac">Blassac</a></li>
+<li><a href="/wiki/Blavozy" title="Blavozy">Blavozy</a></li>
+<li><a href="/wiki/Blesle" title="Blesle">Blesle</a></li>
+<li><a href="/wiki/Boisset,_Haute-Loire" title="Boisset, Haute-Loire">Boisset</a></li>
+<li><a href="/wiki/Bonneval,_Haute-Loire" title="Bonneval, Haute-Loire">Bonneval</a></li>
+<li><a href="/wiki/Borne,_Haute-Loire" title="Borne, Haute-Loire">Borne</a></li>
+<li><a href="/wiki/Le_Bouchet-Saint-Nicolas" title="Le Bouchet-Saint-Nicolas">Le Bouchet-Saint-Nicolas</a></li>
+<li><a href="/wiki/Bournoncle-Saint-Pierre" title="Bournoncle-Saint-Pierre">Bournoncle-Saint-Pierre</a></li>
+<li><a href="/wiki/Le_Brignon" title="Le Brignon">Le Brignon</a></li>
+<li><a href="/wiki/Brioude" title="Brioude">Brioude</a><sup>subpr</sup></li>
+<li><a href="/wiki/Brives-Charensac" title="Brives-Charensac">Brives-Charensac</a></li>
+<li><a href="/wiki/Cayres" title="Cayres">Cayres</a></li>
+<li><a href="/wiki/C%C3%A9aux-d%27All%C3%A8gre" title="Céaux-d&#39;Allègre">Céaux-d'Allègre</a></li>
+<li><a href="/wiki/Cerzat" title="Cerzat">Cerzat</a></li>
+<li><a href="/wiki/Ceyssac" title="Ceyssac">Ceyssac</a></li>
+<li><a href="/wiki/Chadrac" title="Chadrac">Chadrac</a></li>
+<li><a href="/wiki/Chadron,_Haute-Loire" title="Chadron, Haute-Loire">Chadron</a></li>
+<li><a class="mw-selflink selflink">La Chaise-Dieu</a></li>
+<li><a href="/wiki/Chamali%C3%A8res-sur-Loire" title="Chamalières-sur-Loire">Chamalières-sur-Loire</a></li>
+<li><a href="/wiki/Chambezon" title="Chambezon">Chambezon</a></li>
+<li><a href="/wiki/Le_Chambon-sur-Lignon" title="Le Chambon-sur-Lignon">Le Chambon-sur-Lignon</a></li>
+<li><a href="/wiki/Champagnac-le-Vieux" title="Champagnac-le-Vieux">Champagnac-le-Vieux</a></li>
+<li><a href="/wiki/Champclause" title="Champclause">Champclause</a></li>
+<li><a href="/wiki/Chanaleilles" title="Chanaleilles">Chanaleilles</a></li>
+<li><a href="/wiki/Chaniat" title="Chaniat">Chaniat</a></li>
+<li><a href="/wiki/Chanteuges" title="Chanteuges">Chanteuges</a></li>
+<li><a href="/wiki/La_Chapelle-Bertin" title="La Chapelle-Bertin">La Chapelle-Bertin</a></li>
+<li><a href="/wiki/La_Chapelle-d%27Aurec" title="La Chapelle-d&#39;Aurec">La Chapelle-d'Aurec</a></li>
+<li><a href="/wiki/La_Chapelle-Geneste" title="La Chapelle-Geneste">La Chapelle-Geneste</a></li>
+<li><a href="/wiki/Charraix" title="Charraix">Charraix</a></li>
+<li><a href="/wiki/Chaspinhac" title="Chaspinhac">Chaspinhac</a></li>
+<li><a href="/wiki/Chaspuzac" title="Chaspuzac">Chaspuzac</a></li>
+<li><a href="/wiki/Chassagnes" title="Chassagnes">Chassagnes</a></li>
+<li><a href="/wiki/Chassignolles,_Haute-Loire" title="Chassignolles, Haute-Loire">Chassignolles</a></li>
+<li><a href="/wiki/Chastel,_Haute-Loire" title="Chastel, Haute-Loire">Chastel</a></li>
+<li><a href="/wiki/Chaudeyrolles" title="Chaudeyrolles">Chaudeyrolles</a></li>
+<li><a href="/wiki/Chavaniac-Lafayette" title="Chavaniac-Lafayette">Chavaniac-Lafayette</a></li>
+<li><a href="/wiki/Chazelles,_Haute-Loire" title="Chazelles, Haute-Loire">Chazelles</a></li>
+<li><a href="/wiki/Chenereilles,_Haute-Loire" title="Chenereilles, Haute-Loire">Chenereilles</a></li>
+<li><a href="/wiki/Chilhac" title="Chilhac">Chilhac</a></li>
+<li><a href="/wiki/Chomelix" title="Chomelix">Chomelix</a></li>
+<li><a href="/wiki/La_Chomette" title="La Chomette">La Chomette</a></li>
+<li><a href="/wiki/Cistri%C3%A8res" title="Cistrières">Cistrières</a></li>
+<li><a href="/wiki/Cohade" title="Cohade">Cohade</a></li>
+<li><a href="/wiki/Collat" title="Collat">Collat</a></li>
+<li><a href="/wiki/Connangles" title="Connangles">Connangles</a></li>
+<li><a href="/wiki/Costaros" title="Costaros">Costaros</a></li>
+<li><a href="/wiki/Coubon" title="Coubon">Coubon</a></li>
+<li><a href="/wiki/Couteuges" title="Couteuges">Couteuges</a></li>
+<li><a href="/wiki/Craponne-sur-Arzon" title="Craponne-sur-Arzon">Craponne-sur-Arzon</a></li>
+<li><a href="/wiki/Cronce" title="Cronce">Cronce</a></li>
+<li><a href="/wiki/Cubelles,_Haute-Loire" title="Cubelles, Haute-Loire">Cubelles</a></li>
+<li><a href="/wiki/Cussac-sur-Loire" title="Cussac-sur-Loire">Cussac-sur-Loire</a></li>
+<li><a href="/wiki/Desges" title="Desges">Desges</a></li>
+<li><a href="/wiki/Domeyrat" title="Domeyrat">Domeyrat</a></li>
+<li><a href="/wiki/Duni%C3%A8res" title="Dunières">Dunières</a></li>
+<li><a href="/wiki/Espalem" title="Espalem">Espalem</a></li>
+<li><a href="/wiki/Espaly-Saint-Marcel" title="Espaly-Saint-Marcel">Espaly-Saint-Marcel</a></li>
+<li><a href="/wiki/Esplantas-Vazeilles" title="Esplantas-Vazeilles">Esplantas-Vazeilles</a></li>
+<li><a href="/wiki/Les_Estables" title="Les Estables">Les Estables</a></li>
+<li><a href="/wiki/Fay-sur-Lignon" title="Fay-sur-Lignon">Fay-sur-Lignon</a></li>
+<li><a href="/wiki/F%C3%A9lines,_Haute-Loire" title="Félines, Haute-Loire">Félines</a></li>
+<li><a href="/wiki/Ferrussac" title="Ferrussac">Ferrussac</a></li>
+<li><a href="/wiki/Fix-Saint-Geneys" title="Fix-Saint-Geneys">Fix-Saint-Geneys</a></li>
+<li><a href="/wiki/Fontannes" title="Fontannes">Fontannes</a></li>
+<li><a href="/wiki/Freycenet-la-Cuche" title="Freycenet-la-Cuche">Freycenet-la-Cuche</a></li>
+<li><a href="/wiki/Freycenet-la-Tour" title="Freycenet-la-Tour">Freycenet-la-Tour</a></li>
+<li><a href="/wiki/Fruger%C3%A8s-les-Mines" title="Frugerès-les-Mines">Frugerès-les-Mines</a></li>
+<li><a href="/wiki/Frugi%C3%A8res-le-Pin" title="Frugières-le-Pin">Frugières-le-Pin</a></li>
+<li><a href="/wiki/Goudet" title="Goudet">Goudet</a></li>
+<li><a href="/wiki/Grazac,_Haute-Loire" title="Grazac, Haute-Loire">Grazac</a></li>
+<li><a href="/wiki/Grenier-Montgon" title="Grenier-Montgon">Grenier-Montgon</a></li>
+<li><a href="/wiki/Gr%C3%A8zes,_Haute-Loire" title="Grèzes, Haute-Loire">Grèzes</a></li>
+<li><a href="/wiki/Javaugues" title="Javaugues">Javaugues</a></li>
+<li><a href="/wiki/Jax,_Haute-Loire" title="Jax, Haute-Loire">Jax</a></li>
+<li><a href="/wiki/Josat" title="Josat">Josat</a></li>
+<li><a href="/wiki/Jullianges" title="Jullianges">Jullianges</a></li>
+<li><a href="/wiki/Lafarre,_Haute-Loire" title="Lafarre, Haute-Loire">Lafarre</a></li>
+<li><a href="/wiki/Lamothe,_Haute-Loire" title="Lamothe, Haute-Loire">Lamothe</a></li>
+<li><a href="/wiki/Landos" title="Landos">Landos</a></li>
+<li><a href="/wiki/Langeac" title="Langeac">Langeac</a></li>
+<li><a href="/wiki/Lantriac" title="Lantriac">Lantriac</a></li>
+<li><a href="/wiki/Lapte" title="Lapte">Lapte</a></li>
+<li><a href="/wiki/Laussonne" title="Laussonne">Laussonne</a></li>
+<li><a href="/wiki/Laval-sur-Doulon" title="Laval-sur-Doulon">Laval-sur-Doulon</a></li>
+<li><a href="/wiki/Lavaudieu" title="Lavaudieu">Lavaudieu</a></li>
+<li><a href="/wiki/Lavo%C3%BBte-Chilhac" title="Lavoûte-Chilhac">Lavoûte-Chilhac</a></li>
+<li><a href="/wiki/Lavo%C3%BBte-sur-Loire" title="Lavoûte-sur-Loire">Lavoûte-sur-Loire</a></li>
+<li><a href="/wiki/Lempdes-sur-Allagnon" title="Lempdes-sur-Allagnon">Lempdes-sur-Allagnon</a></li>
+<li><a href="/wiki/L%C3%A9otoing" title="Léotoing">Léotoing</a></li>
+<li><a href="/wiki/Lissac,_Haute-Loire" title="Lissac, Haute-Loire">Lissac</a></li>
+<li><a href="/wiki/Lorlanges" title="Lorlanges">Lorlanges</a></li>
+<li><a href="/wiki/Loudes" title="Loudes">Loudes</a></li>
+<li><a href="/wiki/Lubilhac" title="Lubilhac">Lubilhac</a></li>
+<li><a href="/wiki/Malrevers" title="Malrevers">Malrevers</a></li>
+<li><a href="/wiki/Malvalette" title="Malvalette">Malvalette</a></li>
+<li><a href="/wiki/Malvi%C3%A8res" title="Malvières">Malvières</a></li>
+<li><a href="/wiki/Le_Mas-de-Tence" title="Le Mas-de-Tence">Le Mas-de-Tence</a></li>
+<li><a href="/wiki/Mazerat-Aurouze" title="Mazerat-Aurouze">Mazerat-Aurouze</a></li>
+<li><a href="/wiki/Mazet-Saint-Voy" title="Mazet-Saint-Voy">Mazet-Saint-Voy</a></li>
+<li><a href="/wiki/Mazeyrat-d%27Allier" title="Mazeyrat-d&#39;Allier">Mazeyrat-d'Allier</a></li>
+<li><a href="/wiki/Merc%C5%93ur,_Haute-Loire" title="Mercœur, Haute-Loire">Mercœur</a></li>
+<li><a href="/wiki/M%C3%A9z%C3%A8res" title="Mézères">Mézères</a></li>
+<li><a href="/wiki/Le_Monastier-sur-Gazeille" title="Le Monastier-sur-Gazeille">Le Monastier-sur-Gazeille</a></li>
+<li><a href="/wiki/Monistrol-d%27Allier" title="Monistrol-d&#39;Allier">Monistrol-d'Allier</a></li>
+<li><a href="/wiki/Monistrol-sur-Loire" title="Monistrol-sur-Loire">Monistrol-sur-Loire</a></li>
+<li><a href="/wiki/Monlet" title="Monlet">Monlet</a></li>
+<li><a href="/wiki/Montclard" title="Montclard">Montclard</a></li>
+<li><a href="/wiki/Le_Monteil,_Haute-Loire" title="Le Monteil, Haute-Loire">Le Monteil</a></li>
+<li><a href="/wiki/Montfaucon-en-Velay" title="Montfaucon-en-Velay">Montfaucon-en-Velay</a></li>
+<li><a href="/wiki/Montregard" title="Montregard">Montregard</a></li>
+<li><a href="/wiki/Montusclat" title="Montusclat">Montusclat</a></li>
+<li><a href="/wiki/Moudeyres" title="Moudeyres">Moudeyres</a></li>
+<li><a href="/wiki/Ouides" title="Ouides">Ouides</a></li>
+<li><a href="/wiki/Paulhac,_Haute-Loire" title="Paulhac, Haute-Loire">Paulhac</a></li>
+<li><a href="/wiki/Paulhaguet" title="Paulhaguet">Paulhaguet</a></li>
+<li><a href="/wiki/P%C3%A9brac" title="Pébrac">Pébrac</a></li>
+<li><a href="/wiki/Le_Pertuis" title="Le Pertuis">Le Pertuis</a></li>
+<li><a href="/wiki/Pinols" title="Pinols">Pinols</a></li>
+<li><a href="/wiki/Polignac,_Haute-Loire" title="Polignac, Haute-Loire">Polignac</a></li>
+<li><a href="/wiki/Pont-Salomon" title="Pont-Salomon">Pont-Salomon</a></li>
+<li><a href="/wiki/Pradelles,_Haute-Loire" title="Pradelles, Haute-Loire">Pradelles</a></li>
+<li><a href="/wiki/Prades,_Haute-Loire" title="Prades, Haute-Loire">Prades</a></li>
+<li><a href="/wiki/Pr%C3%A9sailles" title="Présailles">Présailles</a></li>
+<li><a href="/wiki/Le_Puy-en-Velay" title="Le Puy-en-Velay">Le Puy-en-Velay</a><sup>pref</sup></li>
+<li><a href="/wiki/Queyri%C3%A8res" title="Queyrières">Queyrières</a></li>
+<li><a href="/wiki/Raucoules" title="Raucoules">Raucoules</a></li>
+<li><a href="/wiki/Rauret" title="Rauret">Rauret</a></li>
+<li><a href="/wiki/Retournac" title="Retournac">Retournac</a></li>
+<li><a href="/wiki/Riotord" title="Riotord">Riotord</a></li>
+<li><a href="/wiki/Roche-en-R%C3%A9gnier" title="Roche-en-Régnier">Roche-en-Régnier</a></li>
+<li><a href="/wiki/Rosi%C3%A8res,_Haute-Loire" title="Rosières, Haute-Loire">Rosières</a></li>
+<li><a href="/wiki/Saint-Andr%C3%A9-de-Chalencon" title="Saint-André-de-Chalencon">Saint-André-de-Chalencon</a></li>
+<li><a href="/wiki/Saint-Arcons-d%27Allier" title="Saint-Arcons-d&#39;Allier">Saint-Arcons-d'Allier</a></li>
+<li><a href="/wiki/Saint-Arcons-de-Barges" title="Saint-Arcons-de-Barges">Saint-Arcons-de-Barges</a></li>
+<li><a href="/wiki/Saint-Austremoine" title="Saint-Austremoine">Saint-Austremoine</a></li>
+<li><a href="/wiki/Saint-Beauzire,_Haute-Loire" title="Saint-Beauzire, Haute-Loire">Saint-Beauzire</a></li>
+<li><a href="/wiki/Saint-B%C3%A9rain" title="Saint-Bérain">Saint-Bérain</a></li>
+<li><a href="/wiki/Saint-Bonnet-le-Froid" title="Saint-Bonnet-le-Froid">Saint-Bonnet-le-Froid</a></li>
+<li><a href="/wiki/Saint-Christophe-d%27Allier" title="Saint-Christophe-d&#39;Allier">Saint-Christophe-d'Allier</a></li>
+<li><a href="/wiki/Saint-Christophe-sur-Dolaison" title="Saint-Christophe-sur-Dolaison">Saint-Christophe-sur-Dolaison</a></li>
+<li><a href="/wiki/Saint-Cirgues,_Haute-Loire" title="Saint-Cirgues, Haute-Loire">Saint-Cirgues</a></li>
+<li><a href="/wiki/Saint-Didier-en-Velay" title="Saint-Didier-en-Velay">Saint-Didier-en-Velay</a></li>
+<li><a href="/wiki/Saint-Didier-sur-Doulon" title="Saint-Didier-sur-Doulon">Saint-Didier-sur-Doulon</a></li>
+<li><a href="/wiki/Sainte-Eug%C3%A9nie-de-Villeneuve" title="Sainte-Eugénie-de-Villeneuve">Sainte-Eugénie-de-Villeneuve</a></li>
+<li><a href="/wiki/Sainte-Florine" title="Sainte-Florine">Sainte-Florine</a></li>
+<li><a href="/wiki/Sainte-Marguerite,_Haute-Loire" title="Sainte-Marguerite, Haute-Loire">Sainte-Marguerite</a></li>
+<li><a href="/wiki/Sainte-Sigol%C3%A8ne" title="Sainte-Sigolène">Sainte-Sigolène</a></li>
+<li><a href="/wiki/Saint-%C3%89tienne-du-Vigan" title="Saint-Étienne-du-Vigan">Saint-Étienne-du-Vigan</a></li>
+<li><a href="/wiki/Saint-%C3%89tienne-Lardeyrol" title="Saint-Étienne-Lardeyrol">Saint-Étienne-Lardeyrol</a></li>
+<li><a href="/wiki/Saint-%C3%89tienne-sur-Blesle" title="Saint-Étienne-sur-Blesle">Saint-Étienne-sur-Blesle</a></li>
+<li><a href="/wiki/Saint-Ferr%C3%A9ol-d%27Auroure" title="Saint-Ferréol-d&#39;Auroure">Saint-Ferréol-d'Auroure</a></li>
+<li><a href="/wiki/Saint-Front,_Haute-Loire" title="Saint-Front, Haute-Loire">Saint-Front</a></li>
+<li><a href="/wiki/Saint-Geneys-pr%C3%A8s-Saint-Paulien" title="Saint-Geneys-près-Saint-Paulien">Saint-Geneys-près-Saint-Paulien</a></li>
+<li><a href="/wiki/Saint-Georges-d%27Aurac" title="Saint-Georges-d&#39;Aurac">Saint-Georges-d'Aurac</a></li>
+<li><a href="/wiki/Saint-Georges-Lagricol" title="Saint-Georges-Lagricol">Saint-Georges-Lagricol</a></li>
+<li><a href="/wiki/Saint-Germain-Laprade" title="Saint-Germain-Laprade">Saint-Germain-Laprade</a></li>
+<li><a href="/wiki/Saint-G%C3%A9ron" title="Saint-Géron">Saint-Géron</a></li>
+<li><a href="/wiki/Saint-Haon" title="Saint-Haon">Saint-Haon</a></li>
+<li><a href="/wiki/Saint-Hilaire,_Haute-Loire" title="Saint-Hilaire, Haute-Loire">Saint-Hilaire</a></li>
+<li><a href="/wiki/Saint-Hostien" title="Saint-Hostien">Saint-Hostien</a></li>
+<li><a href="/wiki/Saint-Ilpize" title="Saint-Ilpize">Saint-Ilpize</a></li>
+<li><a href="/wiki/Saint-Jean-d%27Aubrigoux" title="Saint-Jean-d&#39;Aubrigoux">Saint-Jean-d'Aubrigoux</a></li>
+<li><a href="/wiki/Saint-Jean-de-Nay" title="Saint-Jean-de-Nay">Saint-Jean-de-Nay</a></li>
+<li><a href="/wiki/Saint-Jean-Lachalm" title="Saint-Jean-Lachalm">Saint-Jean-Lachalm</a></li>
+<li><a href="/wiki/Saint-Jeures" title="Saint-Jeures">Saint-Jeures</a></li>
+<li><a href="/wiki/Saint-Julien-Chapteuil" title="Saint-Julien-Chapteuil">Saint-Julien-Chapteuil</a></li>
+<li><a href="/wiki/Saint-Julien-d%27Ance" title="Saint-Julien-d&#39;Ance">Saint-Julien-d'Ance</a></li>
+<li><a href="/wiki/Saint-Julien-des-Chazes" title="Saint-Julien-des-Chazes">Saint-Julien-des-Chazes</a></li>
+<li><a href="/wiki/Saint-Julien-du-Pinet" title="Saint-Julien-du-Pinet">Saint-Julien-du-Pinet</a></li>
+<li><a href="/wiki/Saint-Julien-Molhesabate" title="Saint-Julien-Molhesabate">Saint-Julien-Molhesabate</a></li>
+<li><a href="/wiki/Saint-Just-Malmont" title="Saint-Just-Malmont">Saint-Just-Malmont</a></li>
+<li><a href="/wiki/Saint-Just-pr%C3%A8s-Brioude" title="Saint-Just-près-Brioude">Saint-Just-près-Brioude</a></li>
+<li><a href="/wiki/Saint-Laurent-Chabreuges" title="Saint-Laurent-Chabreuges">Saint-Laurent-Chabreuges</a></li>
+<li><a href="/wiki/Saint-Martin-de-Fug%C3%A8res" title="Saint-Martin-de-Fugères">Saint-Martin-de-Fugères</a></li>
+<li><a href="/wiki/Saint-Maurice-de-Lignon" title="Saint-Maurice-de-Lignon">Saint-Maurice-de-Lignon</a></li>
+<li><a href="/wiki/Saint-Pal-de-Chalencon" title="Saint-Pal-de-Chalencon">Saint-Pal-de-Chalencon</a></li>
+<li><a href="/wiki/Saint-Pal-de-Mons" title="Saint-Pal-de-Mons">Saint-Pal-de-Mons</a></li>
+<li><a href="/wiki/Saint-Pal-de-Senouire" title="Saint-Pal-de-Senouire">Saint-Pal-de-Senouire</a></li>
+<li><a href="/wiki/Saint-Paul-de-Tartas" title="Saint-Paul-de-Tartas">Saint-Paul-de-Tartas</a></li>
+<li><a href="/wiki/Saint-Paulien" title="Saint-Paulien">Saint-Paulien</a></li>
+<li><a href="/wiki/Saint-Pierre-du-Champ" title="Saint-Pierre-du-Champ">Saint-Pierre-du-Champ</a></li>
+<li><a href="/wiki/Saint-Pierre-Eynac" title="Saint-Pierre-Eynac">Saint-Pierre-Eynac</a></li>
+<li><a href="/wiki/Saint-Pr%C3%A9jet-Armandon" title="Saint-Préjet-Armandon">Saint-Préjet-Armandon</a></li>
+<li><a href="/wiki/Saint-Pr%C3%A9jet-d%27Allier" title="Saint-Préjet-d&#39;Allier">Saint-Préjet-d'Allier</a></li>
+<li><a href="/wiki/Saint-Privat-d%27Allier" title="Saint-Privat-d&#39;Allier">Saint-Privat-d'Allier</a></li>
+<li><a href="/wiki/Saint-Privat-du-Dragon" title="Saint-Privat-du-Dragon">Saint-Privat-du-Dragon</a></li>
+<li><a href="/wiki/Saint-Romain-Lachalm" title="Saint-Romain-Lachalm">Saint-Romain-Lachalm</a></li>
+<li><a href="/wiki/Saint-V%C3%A9n%C3%A9rand" title="Saint-Vénérand">Saint-Vénérand</a></li>
+<li><a href="/wiki/Saint-Vert" title="Saint-Vert">Saint-Vert</a></li>
+<li><a href="/wiki/Saint-Victor-Malescours" title="Saint-Victor-Malescours">Saint-Victor-Malescours</a></li>
+<li><a href="/wiki/Saint-Victor-sur-Arlanc" title="Saint-Victor-sur-Arlanc">Saint-Victor-sur-Arlanc</a></li>
+<li><a href="/wiki/Saint-Vidal" title="Saint-Vidal">Saint-Vidal</a></li>
+<li><a href="/wiki/Saint-Vincent,_Haute-Loire" title="Saint-Vincent, Haute-Loire">Saint-Vincent</a></li>
+<li><a href="/wiki/Salettes,_Haute-Loire" title="Salettes, Haute-Loire">Salettes</a></li>
+<li><a href="/wiki/Salzuit" title="Salzuit">Salzuit</a></li>
+<li><a href="/wiki/Sanssac-l%27%C3%89glise" title="Sanssac-l&#39;Église">Sanssac-l'Église</a></li>
+<li><a href="/wiki/Saugues" title="Saugues">Saugues</a></li>
+<li><a href="/wiki/La_S%C3%A9auve-sur-Sem%C3%A8ne" title="La Séauve-sur-Semène">La Séauve-sur-Semène</a></li>
+<li><a href="/wiki/Sembadel" title="Sembadel">Sembadel</a></li>
+<li><a href="/wiki/S%C3%A9neujols" title="Séneujols">Séneujols</a></li>
+<li><a href="/wiki/Siaugues-Sainte-Marie" title="Siaugues-Sainte-Marie">Siaugues-Sainte-Marie</a></li>
+<li><a href="/wiki/Solignac-sous-Roche" title="Solignac-sous-Roche">Solignac-sous-Roche</a></li>
+<li><a href="/wiki/Solignac-sur-Loire" title="Solignac-sur-Loire">Solignac-sur-Loire</a></li>
+<li><a href="/wiki/Tailhac" title="Tailhac">Tailhac</a></li>
+<li><a href="/wiki/Tence" title="Tence">Tence</a></li>
+<li><a href="/wiki/Thoras" title="Thoras">Thoras</a></li>
+<li><a href="/wiki/Tiranges" title="Tiranges">Tiranges</a></li>
+<li><a href="/wiki/Torsiac" title="Torsiac">Torsiac</a></li>
+<li><a href="/wiki/Valprivas" title="Valprivas">Valprivas</a></li>
+<li><a href="/wiki/Vals-le-Chastel" title="Vals-le-Chastel">Vals-le-Chastel</a></li>
+<li><a href="/wiki/Vals-pr%C3%A8s-le-Puy" title="Vals-près-le-Puy">Vals-près-le-Puy</a></li>
+<li><a href="/wiki/Varennes-Saint-Honorat" title="Varennes-Saint-Honorat">Varennes-Saint-Honorat</a></li>
+<li><a href="/wiki/Les_Vastres" title="Les Vastres">Les Vastres</a></li>
+<li><a href="/wiki/Vazeilles-Limandre" title="Vazeilles-Limandre">Vazeilles-Limandre</a></li>
+<li><a href="/wiki/Venteuges" title="Venteuges">Venteuges</a></li>
+<li><a href="/wiki/Vergezac" title="Vergezac">Vergezac</a></li>
+<li><a href="/wiki/Vergongheon" title="Vergongheon">Vergongheon</a></li>
+<li><a href="/wiki/Vernassal" title="Vernassal">Vernassal</a></li>
+<li><a href="/wiki/Le_Vernet,_Haute-Loire" title="Le Vernet, Haute-Loire">Le Vernet</a></li>
+<li><a href="/wiki/V%C3%A9z%C3%A9zoux" title="Vézézoux">Vézézoux</a></li>
+<li><a href="/wiki/Vieille-Brioude" title="Vieille-Brioude">Vieille-Brioude</a></li>
+<li><a href="/wiki/Vielprat" title="Vielprat">Vielprat</a></li>
+<li><a href="/wiki/Villeneuve-d%27Allier" title="Villeneuve-d&#39;Allier">Villeneuve-d'Allier</a></li>
+<li><a href="/wiki/Les_Villettes" title="Les Villettes">Les Villettes</a></li>
+<li><a href="/wiki/Vissac-Auteyrac" title="Vissac-Auteyrac">Vissac-Auteyrac</a></li>
+<li><a href="/wiki/Vorey" title="Vorey">Vorey</a></li>
+<li><a href="/wiki/Yssingeaux" title="Yssingeaux">Yssingeaux</a><sup>subpr</sup></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow hlist" colspan="2"><div>
+<ul><li><sup>pref</sup>: <a href="/wiki/Prefectures_in_France" title="Prefectures in France">prefecture</a></li>
+<li><sup>subpr</sup>: <a href="/wiki/Subprefectures_in_France" title="Subprefectures in France">subprefecture</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q249464#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q249464#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q249464#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/152027615">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n82059960/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb15259953g">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb15259953g">(data)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/4491606-1">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007566809505171">Israel</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n82059960">United States</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/027482758">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1368
+Cached time: 20230207141939
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 1.219 seconds
+Real time usage: 1.472 seconds
+Preprocessor visited node count: 5646/1000000
+Post‐expand include size: 116745/2097152 bytes
+Template argument size: 23788/2097152 bytes
+Highest expansion depth: 30/100
+Expensive parser function count: 16/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 28974/5000000 bytes
+Lua time usage: 0.850/10.000 seconds
+Lua memory usage: 20877407/52428800 bytes
+Number of Wikibase entities loaded: 2/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 1329.845      1 -total
+ 58.38%  776.356      1 Template:Infobox_French_commune
+ 57.18%  760.449      1 Template:Infobox_settlement
+ 50.16%  667.002      1 Template:Infobox
+ 19.53%  259.703      9 Template:Wikidata
+ 18.52%  246.341      3 Template:France_metadata_Wikidata
+ 13.31%  177.063      1 Template:Reflist
+ 10.38%  137.996      1 Template:Haute-Loire_communes
+ 10.16%  135.077      1 Template:Navbox
+  9.44%  125.537      2 Template:In_lang
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:3058980-0!canonical and timestamp 20230207141937 and revision id 1114815026. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=La_Chaise-Dieu&amp;oldid=1114815026">https://en.wikipedia.org/w/index.php?title=La_Chaise-Dieu&amp;oldid=1114815026</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Communes_of_Haute-Loire" title="Category:Communes of Haute-Loire">Communes of Haute-Loire</a></li><li><a href="/wiki/Category:Auvergne" title="Category:Auvergne">Auvergne</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_French-language_sources_(fr)" title="Category:CS1 French-language sources (fr)">CS1 French-language sources (fr)</a></li><li><a href="/wiki/Category:Articles_with_French-language_sources_(fr)" title="Category:Articles with French-language sources (fr)">Articles with French-language sources (fr)</a></li><li><a href="/wiki/Category:Articles_needing_additional_references_from_January_2017" title="Category:Articles needing additional references from January 2017">Articles needing additional references from January 2017</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Infobox_mapframe_without_OSM_relation_ID_on_Wikidata" title="Category:Infobox mapframe without OSM relation ID on Wikidata">Infobox mapframe without OSM relation ID on Wikidata</a></li><li><a href="/wiki/Category:Coordinates_on_Wikidata" title="Category:Coordinates on Wikidata">Coordinates on Wikidata</a></li><li><a href="/wiki/Category:Pages_using_infobox_settlement_with_image_map1_but_not_image_map" title="Category:Pages using infobox settlement with image map1 but not image map">Pages using infobox settlement with image map1 but not image map</a></li><li><a href="/wiki/Category:Articles_with_Polish-language_sources_(pl)" title="Category:Articles with Polish-language sources (pl)">Articles with Polish-language sources (pl)</a></li><li><a href="/wiki/Category:Commons_link_is_on_Wikidata" title="Category:Commons link is on Wikidata">Commons link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li><li><a href="/wiki/Category:Pages_using_the_Kartographer_extension" title="Category:Pages using the Kartographer extension">Pages using the Kartographer extension</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 8 October 2022, at 11:47<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=La_Chaise-Dieu&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.219","walltime":"1.472","ppvisitednodes":{"value":5646,"limit":1000000},"postexpandincludesize":{"value":116745,"limit":2097152},"templateargumentsize":{"value":23788,"limit":2097152},"expansiondepth":{"value":30,"limit":100},"expensivefunctioncount":{"value":16,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":28974,"limit":5000000},"entityaccesscount":{"value":2,"limit":400},"timingprofile":["100.00% 1329.845      1 -total"," 58.38%  776.356      1 Template:Infobox_French_commune"," 57.18%  760.449      1 Template:Infobox_settlement"," 50.16%  667.002      1 Template:Infobox"," 19.53%  259.703      9 Template:Wikidata"," 18.52%  246.341      3 Template:France_metadata_Wikidata"," 13.31%  177.063      1 Template:Reflist"," 10.38%  137.996      1 Template:Haute-Loire_communes"," 10.16%  135.077      1 Template:Navbox","  9.44%  125.537      2 Template:In_lang"]},"scribunto":{"limitreport-timeusage":{"value":"0.850","limit":"10.000"},"limitreport-memusage":{"value":20877407,"limit":52428800}},"cachereport":{"origin":"mw1368","timestamp":"20230207141939","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"La Chaise-Dieu","url":"https:\/\/en.wikipedia.org\/wiki\/La_Chaise-Dieu","sameAs":"http:\/\/www.wikidata.org\/entity\/Q249464","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q249464","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-11-02T01:56:41Z","dateModified":"2022-10-08T11:47:30Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/b5\/La-Chaise-Dieu_JPG0_%287%29.JPG","headline":"commune in Haute-Loire, France"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"La Chaise-Dieu","url":"https:\/\/en.wikipedia.org\/wiki\/La_Chaise-Dieu","sameAs":"http:\/\/www.wikidata.org\/entity\/Q249464","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q249464","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-11-02T01:56:41Z","dateModified":"2022-10-08T11:47:30Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/b5\/La-Chaise-Dieu_JPG0_%287%29.JPG","headline":"commune in Haute-Loire, France"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":106,"wgHostname":"mw2312"});});</script>
+</body>
+</html>

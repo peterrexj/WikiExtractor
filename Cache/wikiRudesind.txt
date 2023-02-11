@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Rudesind - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"5193f8d0-7b9e-40c1-938e-6b30641bb7a7",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Rudesind","wgTitle":"Rudesind","wgCurRevisionId":1080203792,"wgRevisionId":1080203792,"wgArticleId":14317325,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Webarchive template wayback links","Articles with short description","Short description is different from Wikidata","All articles with unsourced statements","Articles with unsourced statements from November 2019","Articles containing Galician-language text","Articles containing Portuguese-language text","Articles containing Latin-language text","Articles containing Spanish-language text","Commons category link is on Wikidata","Articles with Spanish-language sources (es)","Pages using S-rel template with ca parameter","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BNF identifiers",
+"Articles with GND identifiers","Articles with LCCN identifiers","Articles with VcBA identifiers","Articles with FAST identifiers","Articles with SUDOC identifiers","907 births","977 deaths","Portuguese Roman Catholic saints","Bishops of Mondoñedo","Spanish Benedictines","Galician nobility","10th-century Galician bishops","10th-century Christian saints"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Rudesind","wgRelevantArticleId":14317325,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":9000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,
+"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q2659457","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};
+RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg/1200px-Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="1845"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg/800px-Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="1230"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg/640px-Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="984"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Rudesind - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Rudesind"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Rudesind&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Rudesind"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Rudesind rootpage-Rudesind skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Rudesind" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Rudesind"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Rudesind"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Rudesind" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Rudesind" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Rudesind&amp;oldid=1080203792" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Rudesind&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Rudesind&amp;id=1080203792&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2659457" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Rudesind&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Rudesind&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Rosendo_de_Celanova" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Founder_of_monasteries"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Founder_of_monasteries">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Founder of monasteries</div>
+		</a>
+		
+		<ul id="toc-Founder_of_monasteries-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Administrative_and_military_career"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Administrative_and_military_career">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Administrative and military career</div>
+		</a>
+		
+		<ul id="toc-Administrative_and_military_career-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Second_Episcopal_career"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Second_Episcopal_career">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Second Episcopal career</div>
+		</a>
+		
+		<ul id="toc-Second_Episcopal_career-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Career_as_abbot"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Career_as_abbot">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Career as abbot</div>
+		</a>
+		
+		<ul id="toc-Career_as_abbot-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Veneration"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Veneration">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>Veneration</div>
+		</a>
+		
+		<ul id="toc-Veneration-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Legends"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Legends">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>Legends</div>
+		</a>
+		
+		<ul id="toc-Legends-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Notes"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Notes">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">8</span>Notes</div>
+		</a>
+		
+		<ul id="toc-Notes-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">9</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Rudesind</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 11 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-11"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">11 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Rossend_de_Celanova" title="Rossend de Celanova – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Rosendo_de_Celanova" title="Rosendo de Celanova – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Rosendo_(santo)" title="Rosendo (santo) – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Rosendo_de_Celanova" title="Rosendo de Celanova – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Rudesindo" title="Rudesindo – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Rudesindo" title="Rudesindo – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%B1%D9%88%D8%AF%D9%8A%D8%B3%D8%A7%D9%8A%D9%86" title="روديساين – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Rosendo_de_Celanova" title="Rosendo de Celanova – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Rosendo_de_Celanova" title="Rosendo de Celanova – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D0%B5%D0%BD%D0%B4%D0%BE" title="Росендо – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D0%B5%D0%BD%D0%B4%D0%BE_(%D1%81%D0%B2%D1%8F%D1%82%D0%B8%D0%B9)" title="Росендо (святий) – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2659457#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Rudesind" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Rudesind" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Rudesind"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Rudesind&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Rudesind&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Rudesind"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Rudesind&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Rudesind&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">10th century Galician bishop and abbot</div>
+<style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">For the earlier bishop of Dumium, see <a href="/wiki/Rudesind_I" title="Rudesind I">Rudesind I</a>.</div>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div style="display:inline;" class="fn">Saint Rudesind</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg" class="image"><img alt="Estatua no frontal do Mosteiro de San Salvador de Celanova - Galiza.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg/250px-Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg" decoding="async" width="250" height="384" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg/375px-Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg/500px-Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg 2x" data-file-width="1698" data-file-height="2611" /></a><div class="infobox-caption">Saint Rudesind, Saint Salvator Monastery, <a href="/wiki/Celanova" title="Celanova">Celanova</a>, <a href="/wiki/Galicia_(Spain)" title="Galicia (Spain)">Galicia</a> (Spain)</div></td></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">November 26, 907<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (November 2019)">citation needed</span></a></i>&#93;</sup><br />Monte Córdova,
+Santo Tirso, Portugal (in 907 County of Portucale)<sup id="cite_ref-Centenario_de_la_Diócesis_1-0" class="reference"><a href="#cite_note-Centenario_de_la_Diócesis-1">&#91;1&#93;</a></sup> Galicia</td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">March 1, 977<br />Celanova</td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Roman_Catholic_Church" class="mw-redirect" title="Roman Catholic Church">Roman Catholic Church</a><br /><a href="/wiki/Eastern_Orthodox_Church" title="Eastern Orthodox Church">Eastern Orthodox Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data">1195 by Pope Celestine III</td></tr><tr><th scope="row" class="infobox-label"><span class="nowrap">Major <a href="/wiki/Shrine" title="Shrine">shrine</a></span></th><td class="infobox-data">Celanova Abbey</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">March 1</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data"><a href="/wiki/Pinar_del_R%C3%ADo" title="Pinar del Río">Pinar del Río</a>, <a href="/wiki/Cuba" title="Cuba">Cuba</a></td></tr></tbody></table>
+<p>Saint <b>Rudesind</b> (<a href="/wiki/Galician_language" title="Galician language">Galician</a>: <i lang="gl">San Rosendo, Rudesindo</i>; <a href="/wiki/Portuguese_language" title="Portuguese language">Portuguese</a>: <i lang="pt">São Rosendo</i> <a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Rudesindus</i>) (November 26, 907 – March 1, 977) was a <a href="/wiki/Galician_people" class="mw-redirect" title="Galician people">Galician</a> <a href="/wiki/Bishop" title="Bishop">bishop</a> and <a href="/wiki/Abbot" title="Abbot">abbot</a>. He was also a regional administrator and military leader under his kinsmen, the Kings of León.
+</p><p>Rudesind was born into the nobility: his father was Count <a href="/wiki/Gutierre_Men%C3%A9ndez" class="mw-redirect" title="Gutierre Menéndez">Gutierre Menéndez</a> (<a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Gutiher Ermegildi</i>), brother-in-law to <a href="/wiki/Ordo%C3%B1o_II" class="mw-redirect" title="Ordoño II">Ordoño II</a> and supporter of <a href="/wiki/Alfonso_III_of_Le%C3%B3n" class="mw-redirect" title="Alfonso III of León">Alfonso III of León</a>, and his mother was St. Ilduara Eriz (<a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Hilduara Erici</i>),<sup id="cite_ref-Centenario_de_la_Diócesis_1-1" class="reference"><a href="#cite_note-Centenario_de_la_Diócesis-1">&#91;1&#93;</a></sup><sup id="cite_ref-San_Rosendo_Celanova_2-0" class="reference"><a href="#cite_note-San_Rosendo_Celanova-2">&#91;2&#93;</a></sup> daughter of count <a href="/wiki/Ero_Fern%C3%A1ndez" title="Ero Fernández">Ero Fernández</a>. His sister Hermesenda became wife of Count Pelayo González and mother-in-law of count <a href="/wiki/Gonzalo_Men%C3%A9ndez" title="Gonzalo Menéndez">Gonzalo Menéndez</a>. Rudesind was the grandson of Ermesenda Gatónez, sister of his predecessor in the see of <a href="/wiki/Mondo%C3%B1edo" title="Mondoñedo">Mondoñedo</a> (<i>Dumium</i>), Bishop <a href="/wiki/Savaric_II_(Bishop_of_Mondo%C3%B1edo)" class="mw-redirect" title="Savaric II (Bishop of Mondoñedo)">Sabarico II</a>, and was also related to the abbess <a href="/wiki/Saint_Senorina" class="mw-redirect" title="Saint Senorina">Saint Senorina</a>. He became a <a href="/wiki/Monk" title="Monk">monk</a> at a young age and became bishop of Mondoñedo at the age of 18 (as <b>Rudesind II</b>).<sup id="cite_ref-San_Rosendo_Celanova_2-1" class="reference"><a href="#cite_note-San_Rosendo_Celanova-2">&#91;2&#93;</a></sup> He served as bishop from 925 to 950, then after a hiatus in which his nephew <a href="/w/index.php?title=Arias_N%C3%BAnez&amp;action=edit&amp;redlink=1" class="new" title="Arias Núnez (page does not exist)">Arias Núnez</a> filled the role, again served briefly from 955 to 958, to be followed again by Arias.  Another nephew, <a href="/w/index.php?title=Arias_Pel%C3%A1ez&amp;action=edit&amp;redlink=1" class="new" title="Arias Peláez (page does not exist)">Arias Peláez</a>, would later hold the see.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Founder_of_monasteries">Founder of monasteries</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rudesind&amp;action=edit&amp;section=1" title="Edit section: Founder of monasteries">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/wiki/File:Mosteiro_de_San_Xo%C3%A1n_de_Caaveiro,_Galicia.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mosteiro_de_San_Xo%C3%A1n_de_Caaveiro%2C_Galicia.jpg/180px-Mosteiro_de_San_Xo%C3%A1n_de_Caaveiro%2C_Galicia.jpg" decoding="async" width="180" height="135" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mosteiro_de_San_Xo%C3%A1n_de_Caaveiro%2C_Galicia.jpg/270px-Mosteiro_de_San_Xo%C3%A1n_de_Caaveiro%2C_Galicia.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mosteiro_de_San_Xo%C3%A1n_de_Caaveiro%2C_Galicia.jpg/360px-Mosteiro_de_San_Xo%C3%A1n_de_Caaveiro%2C_Galicia.jpg 2x" data-file-width="1600" data-file-height="1200" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Mosteiro_de_San_Xo%C3%A1n_de_Caaveiro,_Galicia.jpg" class="internal" title="Enlarge"></a></div>Monastery of Saint John of Caaveiro.</div></div></div>
+<p>He founded, allegedly under the <a href="/wiki/Benedictine_Rule" class="mw-redirect" title="Benedictine Rule">Benedictine Rule</a>, monasteries such as <a href="/wiki/Saint_John_of_Caaveiro" class="mw-redirect" title="Saint John of Caaveiro">Saint John of Caaveiro</a> (San Xoán de Caaveiro) (934) and the <a href="/wiki/Monastery_of_San_Salvador_de_Celanova" title="Monastery of San Salvador de Celanova">Monastery of San Salvador de Celanova</a> (September 12, 936).
+</p><p>To build Celanova, he managed to make his brother <a href="/wiki/Spanish_language" title="Spanish language">Spanish</a>: <i lang="es">Fruela</i> (<a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Froyla</i>) and his cousin <a href="/wiki/Spanish_language" title="Spanish language">Spanish</a>: <i lang="es">Jimena</i> (<a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Scemena</i>) give up their rights to the land of <i>Villar</i>, where he founded this monastery.<sup id="cite_ref-San_Rosendo,_Obispo_Y_Abad_4-0" class="reference"><a href="#cite_note-San_Rosendo,_Obispo_Y_Abad-4">&#91;4&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Administrative_and_military_career">Administrative and military career</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rudesind&amp;action=edit&amp;section=2" title="Edit section: Administrative and military career">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In 955, he was named by <a href="/wiki/Ordo%C3%B1o_III_of_Le%C3%B3n" title="Ordoño III of León">King Ordoño III</a> governor of the lands of Celanova. Rudesind also had jurisdiction over the lands that extended from <a href="/w/index.php?title=Riocaldo&amp;action=edit&amp;redlink=1" class="new" title="Riocaldo (page does not exist)">Riocaldo</a> (the southern boundary of Galicia) to Santa Maria de <a href="/wiki/Ortigueira" title="Ortigueira">Ortigueira</a> (on the <a href="/wiki/Bay_of_Biscay" title="Bay of Biscay">Cantabrian</a> coast).<sup id="cite_ref-San_Rosendo_Celanova_2-2" class="reference"><a href="#cite_note-San_Rosendo_Celanova-2">&#91;2&#93;</a></sup> Later, at the request of <a href="/wiki/Elvira_Ram%C3%ADrez_of_Le%C3%B3n" class="mw-redirect" title="Elvira Ramírez of León">Elvira Ramírez of León</a> (<a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Geloyra Renamiri</i>), aunt of the future <a href="/wiki/Ramiro_III_of_Le%C3%B3n" title="Ramiro III of León">Ramiro III</a>, he was made governor of Galicia, from spring of 968 to early 969.<sup id="cite_ref-San_Rosendo_Celanova_2-3" class="reference"><a href="#cite_note-San_Rosendo_Celanova-2">&#91;2&#93;</a></sup>
+</p><p>He led forces against <a href="/wiki/Norsemen" title="Norsemen">Norse</a> and <a href="/wiki/Moorish" class="mw-redirect" title="Moorish">Moorish</a> armies. The Moors had crossed the <a href="/wiki/Mondego_River" title="Mondego River">Mondego</a> and had reached the <a href="/wiki/Minho_River" class="mw-redirect" title="Minho River">Minho</a>.<sup id="cite_ref-San_Rosendo,_Obispo_Y_Abad_4-1" class="reference"><a href="#cite_note-San_Rosendo,_Obispo_Y_Abad-4">&#91;4&#93;</a></sup>
+</p><p>In 966, the Norsemen had raided <a href="/wiki/Kingdom_of_Galicia" title="Kingdom of Galicia">Galicia</a> and killed the warlord and bishop of Santiago de Compostela Sisnand in battle, but Rudesind later rallied the local forces and killed their leader <a href="/wiki/Gunrod" title="Gunrod">Gundered</a>.
+</p>
+<h2><span class="mw-headline" id="Second_Episcopal_career">Second Episcopal career</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rudesind&amp;action=edit&amp;section=3" title="Edit section: Second Episcopal career">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Rudesind had already served as bishop of Mondoñedo - Dumio. After the killing of Sisnand in the battle of Fornelos, Rudesind was appointed administrator of the See of <a href="/wiki/Iria_Flavia" title="Iria Flavia">Iria Flavia</a>, and he was in charge of that diocese from 968 to 977.  After 977, he retired from his sees (he was succeeded at Compostela by Pelayo Rodríguez, a monk of Celanova).
+</p>
+<h2><span class="mw-headline" id="Career_as_abbot">Career as abbot</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rudesind&amp;action=edit&amp;section=4" title="Edit section: Career as abbot">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Rudesind succeeded <a href="/w/index.php?title=St._Franquila&amp;action=edit&amp;redlink=1" class="new" title="St. Franquila (page does not exist)">St. Franquila</a> (originally from the monastery of <a href="/wiki/Ribas_de_Sil" title="Ribas de Sil">Ribas de Sil</a>) as abbot of Celanova.  As abbot of Celanova, he was a leading figure of his time, and received visits from religious leaders throughout <a href="/wiki/Galicia_(Spain)" title="Galicia (Spain)">Galicia</a> and <a href="/wiki/Portugal" title="Portugal">Portugal</a> who wanted spiritual advice.<sup id="cite_ref-St._Rudesind_-_Catholic_Online_5-0" class="reference"><a href="#cite_note-St._Rudesind_-_Catholic_Online-5">&#91;5&#93;</a></sup>  A <a href="/wiki/Deacon" title="Deacon">deacon</a> named Egila, in a donation that he made to Celanova, wrote this to Rudesind: "To you, eminent bishop, Rudesind, holiest father, true teacher, who teaches your subjects with your words and deeds...".<sup id="cite_ref-San_Rosendo,_Obispo_Y_Abad_4-2" class="reference"><a href="#cite_note-San_Rosendo,_Obispo_Y_Abad-4">&#91;4&#93;</a></sup>  He earned a reputation for performing <a href="/wiki/Miracles" class="mw-redirect" title="Miracles">miracles</a>.<sup id="cite_ref-St._Rudesind_-_Catholic_Online_5-1" class="reference"><a href="#cite_note-St._Rudesind_-_Catholic_Online-5">&#91;5&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Veneration">Veneration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rudesind&amp;action=edit&amp;section=5" title="Edit section: Veneration">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In 1601, his <a href="/wiki/Relics" class="mw-redirect" title="Relics">relics</a> were exhumed and placed in a silver <a href="/wiki/Urn" title="Urn">urn</a> at the principal altar of the church of Celanova Abbey.<sup id="cite_ref-San_Rosendo_Celanova_2-4" class="reference"><a href="#cite_note-San_Rosendo_Celanova-2">&#91;2&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Legends">Legends</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rudesind&amp;action=edit&amp;section=6" title="Edit section: Legends">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A legend told of Rudesind concerns his birth.  His mother had previous children, but they had all died in infancy.  When her husband Gutierre went on an expedition to <a href="/wiki/Coimbra" title="Coimbra">Coimbra</a> with Alfonso III, Ilduara accompanied him.  She prayed at the hermitage of San Salvador on Monte Cordova, after climbing up to it alone and barefoot.  There she received the knowledge, from <a href="/wiki/Saint_Michael" class="mw-redirect" title="Saint Michael">Saint Michael</a>, that she would bear a son who would become not only a great leader of men but also a holy man.  In gratitude, she ordered the construction of a church there and remained until Rudesind had been born.  She wanted to baptize her son at San Salvador, but the cart used to haul up the <a href="/wiki/Baptismal_font" title="Baptismal font">baptismal font</a> broke down.  The workers went to get another cart.  Meanwhile, however, Saint Michael had the broken cart move up the hill on its own accord.<sup id="cite_ref-San_Rosendo,_Obispo_Y_Abad_4-3" class="reference"><a href="#cite_note-San_Rosendo,_Obispo_Y_Abad-4">&#91;4&#93;</a></sup><sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rudesind&amp;action=edit&amp;section=7" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1130092004">.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;justify-content:center;align-items:baseline}.mw-parser-output .portal-bar-bordered{padding:0 2em;background-color:#fdfdfd;border:1px solid #a2a9b1;clear:both;margin:1em auto 0}.mw-parser-output .portal-bar-related{font-size:100%;justify-content:flex-start}.mw-parser-output .portal-bar-unbordered{padding:0 1.7em;margin-left:0}.mw-parser-output .portal-bar-header{margin:0 1em 0 0.5em;flex:0 0 auto;min-height:24px}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;flex:0 1 auto;padding:0.15em 0;column-gap:1em;align-items:baseline;margin:0;list-style:none}.mw-parser-output .portal-bar-content-related{margin:0;list-style:none}.mw-parser-output .portal-bar-item{display:inline-block;margin:0.15em 0.2em;min-height:24px;line-height:24px}@media screen and (max-width:768px){.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;flex-flow:column wrap;align-items:baseline}.mw-parser-output .portal-bar-header{text-align:center;flex:0;padding-left:0.5em;margin:0 auto}.mw-parser-output .portal-bar-related{font-size:100%;align-items:flex-start}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;align-items:center;flex:0;column-gap:1em;border-top:1px solid #a2a9b1;margin:0 auto;list-style:none}.mw-parser-output .portal-bar-content-related{border-top:none;margin:0;list-style:none}}.mw-parser-output .navbox+link+.portal-bar,.mw-parser-output .navbox+style+.portal-bar,.mw-parser-output .navbox+link+.portal-bar-bordered,.mw-parser-output .navbox+style+.portal-bar-bordered,.mw-parser-output .sister-bar+link+.portal-bar,.mw-parser-output .sister-bar+style+.portal-bar,.mw-parser-output .portal-bar+.navbox-styles+.navbox,.mw-parser-output .portal-bar+.navbox-styles+.sister-bar{margin-top:-1px}</style><div class="portal-bar noprint metadata noviewer portal-bar-bordered" role="navigation" aria-label="Portals"><span class="portal-bar-header"><a href="/wiki/Wikipedia:Contents/Portals" title="Wikipedia:Contents/Portals">Portals</a>:</span><ul class="portal-bar-content"><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/19px-P_vip.svg.png" decoding="async" width="19" height="19" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/28px-P_vip.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/37px-P_vip.svg.png 2x" data-file-width="1911" data-file-height="1944" />&#160;<a href="/wiki/Portal:Biography" title="Portal:Biography">Biography</a></li><li class="portal-bar-item"><a href="/wiki/File:046CupolaSPietro.jpg" class="image"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/21px-046CupolaSPietro.jpg" decoding="async" width="21" height="16" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/32px-046CupolaSPietro.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/42px-046CupolaSPietro.jpg 2x" data-file-width="800" data-file-height="600" /></a>&#160;<a href="/wiki/Portal:Catholicism" class="mw-redirect" title="Portal:Catholicism">Catholicism</a></li><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/21px-Gloriole_blur.svg.png" decoding="async" width="21" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/32px-Gloriole_blur.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/42px-Gloriole_blur.svg.png 2x" data-file-width="32" data-file-height="28" />&#160;<a href="/wiki/Portal:Saints" title="Portal:Saints">Saints</a></li><li class="portal-bar-item"><img alt="flag" src="//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/21px-Flag_of_Spain.svg.png" decoding="async" width="21" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/32px-Flag_of_Spain.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/42px-Flag_of_Spain.svg.png 2x" data-file-width="750" data-file-height="500" />&#160;<a href="/wiki/Portal:Spain" title="Portal:Spain">Spain</a></li></ul></div>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rudesind&amp;action=edit&amp;section=8" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:Rosendo_de_Celanova" class="extiw" title="commons:Category:Rosendo de Celanova">Rosendo de Celanova</a></span>.</div></div>
+</div>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-Centenario_de_la_Diócesis-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-Centenario_de_la_Diócesis_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Centenario_de_la_Diócesis_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.vitral.org/vitral/vitral52/centdio.htm">Centenario de la Diócesis</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20071227033907/http://www.vitral.org/vitral/vitral52/centdio.htm">Archived</a> 2007-12-27 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a></span>
+</li>
+<li id="cite_note-San_Rosendo_Celanova-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-San_Rosendo_Celanova_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-San_Rosendo_Celanova_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-San_Rosendo_Celanova_2-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-San_Rosendo_Celanova_2-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-San_Rosendo_Celanova_2-4"><sup><i><b>e</b></i></sup></a></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFVazquez" class="citation web cs1">Vazquez, Manuel. <a rel="nofollow" class="external text" href="http://www.terradecelanova.com/html/san_rosendo.htm">"San Rosendo Celanova"</a>. <i>www.terradecelanova.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2018-08-06</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.terradecelanova.com&amp;rft.atitle=San+Rosendo+Celanova&amp;rft.aulast=Vazquez&amp;rft.aufirst=Manuel&amp;rft_id=http%3A%2F%2Fwww.terradecelanova.com%2Fhtml%2Fsan_rosendo.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARudesind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Manuel Carriedo Tejedo, <a rel="nofollow" class="external text" href="https://dialnet.unirioja.es/servlet/articulo?codigo=602294&amp;orden=416794&amp;info=link">"Cronología de los obispos mindonienses del siglo X"</a>, <i>El legado cultural de la iglesia mindoniense&#160;: Ferrol, 16, 17, 18 de setembro, 1999&#160;: I Congreso do Patrimonio da Diocesis de Mondoñedo</i>, pp. 235–253</span>
+</li>
+<li id="cite_note-San_Rosendo,_Obispo_Y_Abad-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-San_Rosendo,_Obispo_Y_Abad_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-San_Rosendo,_Obispo_Y_Abad_4-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-San_Rosendo,_Obispo_Y_Abad_4-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-San_Rosendo,_Obispo_Y_Abad_4-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.mercaba.org/SANTORAL/Vida/03/03-01_san_rosendo.htm">"SAN ROSENDO, OBISPO Y ABAD"</a>. <i>www.mercaba.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2018-08-06</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.mercaba.org&amp;rft.atitle=SAN+ROSENDO%2C+OBISPO+Y+ABAD&amp;rft_id=http%3A%2F%2Fwww.mercaba.org%2FSANTORAL%2FVida%2F03%2F03-01_san_rosendo.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARudesind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-St._Rudesind_-_Catholic_Online-5"><span class="mw-cite-backlink">^ <a href="#cite_ref-St._Rudesind_-_Catholic_Online_5-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-St._Rudesind_-_Catholic_Online_5-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFOnline" class="citation web cs1">Online, Catholic. <a rel="nofollow" class="external text" href="http://www.catholic.org/saints/saint.php?saint_id=4646">"St. Rudesind - Saints &amp; Angels - Catholic Online"</a>. <i>Catholic Online</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2018-08-06</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Catholic+Online&amp;rft.atitle=St.+Rudesind+-+Saints+%26+Angels+-+Catholic+Online&amp;rft.aulast=Online&amp;rft.aufirst=Catholic&amp;rft_id=http%3A%2F%2Fwww.catholic.org%2Fsaints%2Fsaint.php%3Fsaint_id%3D4646&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARudesind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://catholicforum.com/saints/saintr1h.htm">Patron Saints Index: Saint Rudesind</a></span>
+</li>
+</ol></div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rudesind&amp;action=edit&amp;section=9" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://catholicforum.com/saints/saintr1h.htm">Saint Rudesind</a></li>
+<li><span class="languageicon">(in Spanish)</span> <a rel="nofollow" class="external text" href="http://www.terradecelanova.com/html/san_rosendo.htm">San Rosendo</a></li>
+<li><span class="languageicon">(in Spanish)</span> <a rel="nofollow" class="external text" href="http://www.mercaba.org/SANTORAL/Vida/03/03-01_san_rosendo.htm">SAN ROSENDO, OBISPO Y ABAD</a></li>
+<li><span class="languageicon">(in Spanish)</span> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20071227033907/http://www.vitral.org/vitral/vitral52/centdio.htm">San Rosendo: Nuestro Patrono</a></li></ul>
+<table class="wikitable succession-box noprint" style="margin:0.5em auto; font-size:95%;clear:both;">
+
+<tbody><tr>
+<th colspan="3" style="border-top: 5px solid #FABE60;"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church titles</a>
+</th></tr>
+
+<tr style="text-align:center;">
+<td style="width:30%;" rowspan="1">Preceded&#160;by<div style="font-weight: bold"><a href="/wiki/Savaric_II_(Bishop_of_Mondo%C3%B1edo)" class="mw-redirect" title="Savaric II (Bishop of Mondoñedo)">Sabaricus II</a></div>
+</td>
+<td style="width: 40%; text-align: center;" rowspan="1"><b> <a href="/wiki/Roman_Catholic_Diocese_of_Mondo%C3%B1edo-Ferrol" title="Roman Catholic Diocese of Mondoñedo-Ferrol">Bishop of Dumium</a> </b><br />925&#8211;950
+</td>
+<td style="width: 30%; text-align: center;" rowspan="1">Succeeded&#160;by<div style="font-weight: bold"><a href="/w/index.php?title=Arias_N%C3%BAnez&amp;action=edit&amp;redlink=1" class="new" title="Arias Núnez (page does not exist)">Arias Núnez</a></div>
+</td></tr>
+
+
+<tr style="text-align:center;">
+<td style="width:30%;" rowspan="1">Preceded&#160;by<div style="font-weight: bold"><a href="/w/index.php?title=Arias_N%C3%BAnez&amp;action=edit&amp;redlink=1" class="new" title="Arias Núnez (page does not exist)">Arias Núnez</a></div>
+</td>
+<td style="width: 40%; text-align: center;" rowspan="1"><b> <a href="/wiki/Roman_Catholic_Diocese_of_Mondo%C3%B1edo-Ferrol" title="Roman Catholic Diocese of Mondoñedo-Ferrol">Bishop of Dumium</a> </b><br />950&#8211;958
+</td>
+<td style="width: 30%; text-align: center;" rowspan="1">Succeeded&#160;by<div style="font-weight: bold"><a href="/w/index.php?title=Arias_N%C3%BAnez&amp;action=edit&amp;redlink=1" class="new" title="Arias Núnez (page does not exist)">Arias Núnez</a></div>
+</td></tr>
+
+
+<tr style="text-align:center;">
+<td style="width:30%;" rowspan="1">Preceded&#160;by<div style="font-weight: bold"><a href="/wiki/Sisnando_Men%C3%A9ndez" title="Sisnando Menéndez">Sisnando Menéndez</a><br />(Bishop)</div>
+</td>
+<td style="width: 40%; text-align: center;" rowspan="1"><b> <a href="/wiki/Iria_Flavia" title="Iria Flavia">Administrator of Diocese of Iria Flavia</a> </b><br />970&#8211;977
+</td>
+<td style="width: 30%; text-align: center;" rowspan="1">Succeeded&#160;by<div style="font-weight: bold"><a href="/wiki/Pelayo_Rodr%C3%ADguez_(bishop)" title="Pelayo Rodríguez (bishop)">Pelayo Rodríguez</a><br />(Bishop)</div>
+</td></tr>
+</tbody></table>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q2659457#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q2659457#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q2659457#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/000000004821288X">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/263158872">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-nr92033659/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb15772964q">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb15772964q">(data)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/121291405">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/nr92033659">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.vatlib.it/auth/detail/495_339748">Vatican</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/3339220/">FAST</a></span>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/333922/">2</a></span></li></ul></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/128155558">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2359
+Cached time: 20230207193820
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.400 seconds
+Real time usage: 0.554 seconds
+Preprocessor visited node count: 2261/1000000
+Post‐expand include size: 31730/2097152 bytes
+Template argument size: 3397/2097152 bytes
+Highest expansion depth: 18/100
+Expensive parser function count: 15/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 20366/5000000 bytes
+Lua time usage: 0.272/10.000 seconds
+Lua memory usage: 21968434/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  501.664      1 -total
+ 17.17%   86.132      1 Template:Authority_control
+ 16.69%   83.703      1 Template:Lang-gl
+ 14.03%   70.379      1 Template:Infobox_saint
+ 13.32%   66.816      1 Template:Infobox
+ 12.89%   64.662      3 Template:Cite_web
+  9.70%   48.660      1 Template:Short_description
+  7.90%   39.631      4 Template:Br_separated_entries
+  6.47%   32.455      1 Template:Commons_category
+  6.28%   31.489      1 Template:Portal_bar
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:14317325-0!canonical and timestamp 20230207193820 and revision id 1080203792. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Rudesind&amp;oldid=1080203792">https://en.wikipedia.org/w/index.php?title=Rudesind&amp;oldid=1080203792</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:907_births" title="Category:907 births">907 births</a></li><li><a href="/wiki/Category:977_deaths" title="Category:977 deaths">977 deaths</a></li><li><a href="/wiki/Category:Portuguese_Roman_Catholic_saints" title="Category:Portuguese Roman Catholic saints">Portuguese Roman Catholic saints</a></li><li><a href="/wiki/Category:Bishops_of_Mondo%C3%B1edo" title="Category:Bishops of Mondoñedo">Bishops of Mondoñedo</a></li><li><a href="/wiki/Category:Spanish_Benedictines" title="Category:Spanish Benedictines">Spanish Benedictines</a></li><li><a href="/wiki/Category:Galician_nobility" title="Category:Galician nobility">Galician nobility</a></li><li><a href="/wiki/Category:10th-century_Galician_bishops" title="Category:10th-century Galician bishops">10th-century Galician bishops</a></li><li><a href="/wiki/Category:10th-century_Christian_saints" title="Category:10th-century Christian saints">10th-century Christian saints</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Webarchive_template_wayback_links" title="Category:Webarchive template wayback links">Webarchive template wayback links</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_November_2019" title="Category:Articles with unsourced statements from November 2019">Articles with unsourced statements from November 2019</a></li><li><a href="/wiki/Category:Articles_containing_Galician-language_text" title="Category:Articles containing Galician-language text">Articles containing Galician-language text</a></li><li><a href="/wiki/Category:Articles_containing_Portuguese-language_text" title="Category:Articles containing Portuguese-language text">Articles containing Portuguese-language text</a></li><li><a href="/wiki/Category:Articles_containing_Latin-language_text" title="Category:Articles containing Latin-language text">Articles containing Latin-language text</a></li><li><a href="/wiki/Category:Articles_containing_Spanish-language_text" title="Category:Articles containing Spanish-language text">Articles containing Spanish-language text</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_Spanish-language_sources_(es)" title="Category:Articles with Spanish-language sources (es)">Articles with Spanish-language sources (es)</a></li><li><a href="/wiki/Category:Pages_using_S-rel_template_with_ca_parameter" title="Category:Pages using S-rel template with ca parameter">Pages using S-rel template with ca parameter</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 30 March 2022, at 21:47<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Rudesind&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.400","walltime":"0.554","ppvisitednodes":{"value":2261,"limit":1000000},"postexpandincludesize":{"value":31730,"limit":2097152},"templateargumentsize":{"value":3397,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":15,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":20366,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  501.664      1 -total"," 17.17%   86.132      1 Template:Authority_control"," 16.69%   83.703      1 Template:Lang-gl"," 14.03%   70.379      1 Template:Infobox_saint"," 13.32%   66.816      1 Template:Infobox"," 12.89%   64.662      3 Template:Cite_web","  9.70%   48.660      1 Template:Short_description","  7.90%   39.631      4 Template:Br_separated_entries","  6.47%   32.455      1 Template:Commons_category","  6.28%   31.489      1 Template:Portal_bar"]},"scribunto":{"limitreport-timeusage":{"value":"0.272","limit":"10.000"},"limitreport-memusage":{"value":21968434,"limit":52428800}},"cachereport":{"origin":"mw2359","timestamp":"20230207193820","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Rudesind","url":"https:\/\/en.wikipedia.org\/wiki\/Rudesind","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2659457","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2659457","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-11-19T16:34:53Z","dateModified":"2022-03-30T21:47:29Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1c\/Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg","headline":"Galician bishop and abbot"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Rudesind","url":"https:\/\/en.wikipedia.org\/wiki\/Rudesind","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2659457","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2659457","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-11-19T16:34:53Z","dateModified":"2022-03-30T21:47:29Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1c\/Estatua_no_frontal_do_Mosteiro_de_San_Salvador_de_Celanova_-_Galiza.jpg","headline":"Galician bishop and abbot"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":104,"wgHostname":"mw2388"});});</script>
+</body>
+</html>

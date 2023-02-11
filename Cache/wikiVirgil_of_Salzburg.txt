@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Virgil of Salzburg - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"2fe4a396-47f2-4986-97ac-976a8eb408ae",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Virgil_of_Salzburg","wgTitle":"Virgil of Salzburg","wgCurRevisionId":1092974753,"wgRevisionId":1092974753,"wgArticleId":2833132,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 errors: generic title","Articles with short description","Short description is different from Wikidata","Use dmy dates from October 2013","Articles incorporating a citation from the 1913 Catholic Encyclopedia without Wikisource reference","Articles incorporating text from the 1913 Catholic Encyclopedia without Wikisource reference","Commons category link is on Wikidata","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with GND identifiers","Articles with LCCN identifiers","Articles with NLA identifiers","Articles with NTA identifiers","Articles with VcBA identifiers",
+"Articles with DIB identifiers","Articles with DTBIO identifiers","Articles with CINII identifiers","Articles with FAST identifiers","Articles with SUDOC identifiers","Articles with Trove identifiers","8th-century births","784 deaths","Austrian astronomers","Irish astronomers","Irish expatriate Catholic bishops","8th-century bishops in Bavaria","Irish Christian missionaries","Clergy from Salzburg","8th-century Frankish saints","8th-century Irish writers","Medieval Irish saints","Medieval Irish saints on the Continent","Colombanian saints","Irish mathematicians","Geometers","Irish expatriates in France","Irish expatriates in Austria","8th-century astronomers","8th-century mathematicians","Irish Latinists","8th-century Frankish writers","8th-century Latin writers","Missionary linguists"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Virgil_of_Salzburg","wgRelevantArticleId":2833132,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,
+"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q561251","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":
+"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher",
+"ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Saint_Virgilius%2C_Salzburg.jpg/1200px-Saint_Virgilius%2C_Salzburg.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="1600"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Saint_Virgilius%2C_Salzburg.jpg/800px-Saint_Virgilius%2C_Salzburg.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="1067"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Saint_Virgilius%2C_Salzburg.jpg/640px-Saint_Virgilius%2C_Salzburg.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="853"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Virgil of Salzburg - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Virgil_of_Salzburg"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Virgil_of_Salzburg"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Virgil_of_Salzburg rootpage-Virgil_of_Salzburg skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Virgil+of+Salzburg" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Virgil+of+Salzburg"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Virgil+of+Salzburg"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Virgil_of_Salzburg" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Virgil_of_Salzburg" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Virgil_of_Salzburg&amp;oldid=1092974753" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Virgil_of_Salzburg&amp;id=1092974753&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q561251" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Virgil_of_Salzburg&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Virgil_of_Salzburg&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Virgilius_of_Salzburg" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikisource mw-list-item"><a href="https://en.wikisource.org/wiki/Author:Vergilius_of_Salzburg" hreflang="en"><span>Wikisource</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Biography"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Biography">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Biography</div>
+		</a>
+		
+		<ul id="toc-Biography-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Veneration"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Veneration">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Veneration</div>
+		</a>
+		
+			<button aria-controls="toc-Veneration-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-Veneration-sublist" class="vector-toc-list">
+			<li id="toc-Dedications"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Dedications">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1</span>Dedications</div>
+			</a>
+			
+			<ul id="toc-Dedications-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Art_and_culture"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Art_and_culture">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.2</span>Art and culture</div>
+			</a>
+			
+			<ul id="toc-Art_and_culture-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Notes"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Notes">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Notes</div>
+		</a>
+		
+		<ul id="toc-Notes-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Sources"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Sources">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>Sources</div>
+		</a>
+		
+		<ul id="toc-Sources-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Virgil of Salzburg</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 23 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-23"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">23 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%81%D9%8A%D8%B1%D8%BA%D9%8A%D9%84%D9%8A%D9%88%D8%B3_%D8%B3%D8%A7%D9%84%D8%B2%D8%A8%D9%88%D8%B1%D8%BA" title="فيرغيليوس سالزبورغ – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/%D0%A1%D0%B2%D1%8F%D1%82%D1%8B_%D0%92%D1%96%D1%80%D0%B3%D1%96%D0%BB%D1%96%D0%B9" title="Святы Віргілій – Belarusian" lang="be" hreflang="be" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Svat%C3%BD_Virgil" title="Svatý Virgil – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Virgil_von_Salzburg" title="Virgil von Salzburg – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Virgilio_de_Salcburgo" title="Virgilio de Salcburgo – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Virgile_de_Salzbourg" title="Virgile de Salzbourg – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a href="https://ga.wikipedia.org/wiki/Naomh_Feargal" title="Naomh Feargal – Irish" lang="ga" hreflang="ga" class="interlanguage-link-target"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EB%B9%84%EB%A5%B4%EA%B8%B8_%ED%8F%B0_%EC%9E%98%EC%B8%A0%EB%B6%80%EB%A5%B4%ED%81%AC" title="비르길 폰 잘츠부르크 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Vergilius_dari_Salzburg" title="Vergilius dari Salzburg – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Virgilio_di_Salisburgo" title="Virgilio di Salisburgo – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Vijili_wa_Salzburg" title="Vijili wa Salzburg – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Virgilius_Salisburgensis" title="Virgilius Salisburgensis – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a href="https://lb.wikipedia.org/wiki/Virgilius" title="Virgilius – Luxembourgish" lang="lb" hreflang="lb" class="interlanguage-link-target"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Szent_Virgil" title="Szent Virgil – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D9%81%D9%8A%D8%B1%D8%AC%D9%8A%D9%84%D9%8A%D9%88%D8%B3_%D8%B3%D8%A7%D9%84%D8%B2%D8%A8%D9%88%D8%B1%D8%AC" title="فيرجيليوس سالزبورج – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Virgilius_van_Salzburg" title="Virgilius van Salzburg – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Wirgiliusz_z_Salzburga" title="Wirgiliusz z Salzburga – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Virgil_de_Salzburg" title="Virgil de Salzburg – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B9_%D0%92%D0%B8%D1%80%D0%B3%D0%B8%D0%BB%D0%B8%D0%B9" title="Святой Виргилий – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wikipedia.org/wiki/Virgjili_i_Salcburgut" title="Virgjili i Salcburgut – Albanian" lang="sq" hreflang="sq" class="interlanguage-link-target"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Virgilije_od_Salzburga" title="Virgilije od Salzburga – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Salzburglu_Virgil" title="Salzburglu Virgil – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%92%D1%96%D1%80%D0%B3%D1%96%D0%BB%D1%96%D0%B9_%D0%97%D0%B0%D0%BB%D1%8C%D1%86%D0%B1%D1%83%D1%80%D0%B7%D1%8C%D0%BA%D0%B8%D0%B9" title="Віргілій Зальцбурзький – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q561251#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Virgil_of_Salzburg" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Virgil_of_Salzburg" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Virgil_of_Salzburg"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Virgil_of_Salzburg"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Irish churchman, astronomer and bishop</div>
+<p class="mw-empty-elt">
+</p>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;"><a href="/wiki/Saint" title="Saint">Saint</a></div><br /><div style="display:inline;" class="fn">Virgil of Salzburg</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Saint_Virgilius,_Salzburg.jpg" class="image"><img alt="Saint Virgilius, Salzburg.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Saint_Virgilius%2C_Salzburg.jpg/225px-Saint_Virgilius%2C_Salzburg.jpg" decoding="async" width="225" height="300" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Saint_Virgilius%2C_Salzburg.jpg/338px-Saint_Virgilius%2C_Salzburg.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Saint_Virgilius%2C_Salzburg.jpg/450px-Saint_Virgilius%2C_Salzburg.jpg 2x" data-file-width="1944" data-file-height="2592" /></a><div class="infobox-caption">Statue of Saint Virgil at the Salzburg Cathedral</div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Bishop</th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">c. 700<br />Ireland</td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">27 November 784<br /><a href="/wiki/Salzburg" title="Salzburg">Salzburg</a>, <a href="/wiki/Avar_March" title="Avar March">Avar March</a>, <a href="/wiki/Frankish_Empire" class="mw-redirect" title="Frankish Empire">Frankish Empire</a></td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a><br /><a href="/wiki/Eastern_Orthodox_Church" title="Eastern Orthodox Church">Eastern Orthodox Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data">1233 by <a href="/wiki/Pope_Gregory_IX" title="Pope Gregory IX">Pope Gregory IX</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">27 November</td></tr></tbody></table>
+<p><b>Virgil</b> (<abbr title="circa">c.</abbr><span style="white-space:nowrap;">&#8201;700</span>– 27 November 784), also spelled <b>Vergil</b>, <b>Vergilius</b>, <b>Virgilius</b>, <b>Feirgil</b> or <b>Fearghal</b>, was an <a href="/wiki/Irish_people" title="Irish people">Irish</a> churchman and early <a href="/wiki/Astronomer" title="Astronomer">astronomer</a>. He left Ireland around 745, intending to visit the <a href="/wiki/Holy_Land" title="Holy Land">Holy Land</a>; but, like many of his countrymen, he settled in <a href="/wiki/Francia" title="Francia">Francia</a>. Virgil served as <a href="/wiki/Abbey_of_Aghaboe" class="mw-redirect" title="Abbey of Aghaboe">abbot of Aghaboe</a>, <a href="/wiki/Diocese_of_Ossory" class="mw-redirect" title="Diocese of Ossory">bishop of Ossory</a> and later <a href="/wiki/Bishop_of_Salzburg" class="mw-redirect" title="Bishop of Salzburg">bishop of Salzburg</a>. He was called "the Apostle of <a href="/wiki/Carinthia" title="Carinthia">Carinthia</a>"<sup id="cite_ref-Warren1881_1-0" class="reference"><a href="#cite_note-Warren1881-1">&#91;1&#93;</a></sup> and "the <a href="/wiki/Geometer" class="mw-redirect" title="Geometer">geometer</a>".
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Biography">Biography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit&amp;section=1" title="Edit section: Biography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>He originated from a noble family of Ireland, where his name was <a href="/wiki/Fearghal" title="Fearghal">Feirgil or Fearghal</a>, and is said to have been a descendant of <a href="/wiki/Niall_of_the_Nine_Hostages" title="Niall of the Nine Hostages">Niall of the Nine Hostages</a>. Feirgil was probably educated at the <a href="/wiki/Iona_Abbey" title="Iona Abbey">Iona</a> monastery.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup>
+</p><p>In <i><a href="/wiki/Annals_of_the_Four_Masters" title="Annals of the Four Masters">Annals of the Four Masters</a></i> and <i><a href="/wiki/Annals_of_Ulster" title="Annals of Ulster">Annals of Ulster</a></i>, he is referenced as the Abbot of <a href="/wiki/Abbey_of_Aghaboe" class="mw-redirect" title="Abbey of Aghaboe">Aghaboe</a>,<sup id="cite_ref-turner_3-0" class="reference"><a href="#cite_note-turner-3">&#91;3&#93;</a></sup> in <a href="/wiki/County_Laois" title="County Laois">County Laois</a>, where he was known as "the Geometer" because of his knowledge of geography.<sup id="cite_ref-stevens_4-0" class="reference"><a href="#cite_note-stevens-4">&#91;4&#93;</a></sup>
+</p><p>Around 745, he left Ireland, intending to visit the Holy Land; but, like many of his countrymen, who seemed to have adopted this practice as a work of piety, he settled down in France, where he was received with great favour by <a href="/wiki/Pippin_the_Younger" class="mw-redirect" title="Pippin the Younger">Pippin the Younger</a>, who was then <a href="/wiki/Mayor_of_the_Palace" class="mw-redirect" title="Mayor of the Palace">Mayor of the Palace</a> under <a href="/wiki/Childeric_III" title="Childeric III">Childeric III</a> of <a href="/wiki/Franconia" title="Franconia">Franconia</a>. He was an adviser to Pippin. He probably used a copy of the <i><a href="/wiki/Collectio_canonum_Hibernensis" title="Collectio canonum Hibernensis">Collectio canonum Hibernensis</a></i> (an Irish collection of canon law) to advise him to receive royal unction in 751, to assist his recognition as king Pippin III after the deposition of Childeric.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup> After spending two years at <a href="/wiki/Cressy,_Seine-Maritime" title="Cressy, Seine-Maritime">Cressy</a>, near <a href="/wiki/Compi%C3%A8gne" title="Compiègne">Compiègne</a>, he went to <a href="/wiki/Bavaria" title="Bavaria">Bavaria</a>, at the invitation of <a href="/wiki/Odilo_of_Bavaria" class="mw-redirect" title="Odilo of Bavaria">Duke Odilo</a>, where he founded the <a href="/wiki/Herrenchiemsee#Old_Palace_(Herrenchiemsee_Abbey)" title="Herrenchiemsee">monastery of Chiemsee</a>, and within a year or two, was made Abbot of <a href="/wiki/St_Peter%27s_Abbey,_Salzburg" title="St Peter&#39;s Abbey, Salzburg">St Peter's Abbey</a> at <a href="/wiki/Salzburg" title="Salzburg">Salzburg</a>. Among his notable accomplishments was the conversion of the <a href="/wiki/Slavic_settlement_of_the_Eastern_Alps" title="Slavic settlement of the Eastern Alps">Alpine Slavs</a> to Christianity; he also sent missionaries to Hungary.<sup id="cite_ref-stevens_4-1" class="reference"><a href="#cite_note-stevens-4">&#91;4&#93;</a></sup>
+</p><p>As Abbot of St Peter's, he clashed with <a href="/wiki/Saint_Boniface" title="Saint Boniface">Saint Boniface</a>. A priest having, through ignorance, conferred the <a href="/wiki/Sacrament" title="Sacrament">Sacrament</a> of <a href="/wiki/Baptism" title="Baptism">Baptism</a> using, in place of the correct formula, the words "<i>Baptizo te in nomine patria et filia et spiritu sancta</i>" (instead of "<i>Baptizo te in nomine patris et filii et spiritus sancti</i>"), Vergilius held that the sacrament had been validly conferred, but Boniface complained to <a href="/wiki/Pope_Zachary" title="Pope Zachary">Pope Zachary</a>. The latter, however, decided in favour of Virgil. Later on, Boniface accused Virgil of spreading discord between himself and Duke Odilo of Bavaria and of teaching a doctrine in regard to men descended not from Adam, which was "contrary to the Scriptures". Pope Zachary's decision in this case was that "if it shall be clearly established that he professes belief in another world and other people existing beneath the earth, or in [another] sun and moon there, thou art to hold a council, and deprive him of his sacerdotal rank, and expel him from the church."<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>
+</p><p>The treatise in which Virgil expounded his doctrine no longer exists. Two things, however, are certain: first, that there was involved the problem of <a href="/wiki/Original_sin" title="Original sin">original sin</a> and the universality of redemption; secondly, that Virgil succeeded in freeing himself from the charge of teaching a doctrine contrary to Scripture. It is likely that Boniface, already biased against Virgil because of the preceding case, misunderstood him, taking it for granted, perhaps, that if there are <a href="/wiki/Antipodes" title="Antipodes">antipodes</a>, the "other race of men" are not descendants of <a href="/wiki/Adam_(Bible)" class="mw-redirect" title="Adam (Bible)">Adam</a> and were not redeemed by Christ.<sup id="cite_ref-turner_3-1" class="reference"><a href="#cite_note-turner-3">&#91;3&#93;</a></sup>
+</p><p>After the martyrdom of Boniface, Virgil was made <a href="/wiki/Archdiocese_of_Salzburg" class="mw-redirect" title="Archdiocese of Salzburg">Bishop of Salzburg</a> in 766 or 767 and laboured successfully for the upbuilding of his diocese as well as for the <a href="/wiki/Germanic_Christianity" class="mw-redirect" title="Germanic Christianity">spread of Christianity</a> in neighbouring <a href="/wiki/Germanic_paganism" title="Germanic paganism">heathen</a> countries, especially in <a href="/wiki/Carantania" title="Carantania">Carinthia</a>.<sup id="cite_ref-turner_3-2" class="reference"><a href="#cite_note-turner-3">&#91;3&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Veneration">Veneration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit&amp;section=2" title="Edit section: Veneration">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:St.Adolari_-_Empore_6_Virgil.jpg" class="image"><img alt="St.Adolari - Empore 6 Virgil.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/St.Adolari_-_Empore_6_Virgil.jpg/220px-St.Adolari_-_Empore_6_Virgil.jpg" decoding="async" width="220" height="329" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/St.Adolari_-_Empore_6_Virgil.jpg/330px-St.Adolari_-_Empore_6_Virgil.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a3/St.Adolari_-_Empore_6_Virgil.jpg/440px-St.Adolari_-_Empore_6_Virgil.jpg 2x" data-file-width="1712" data-file-height="2560" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:St.Adolari_-_Empore_6_Virgil.jpg" class="internal" title="Enlarge"></a></div></div></div></div>
+<p>He is venerated as a saint in the <a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a> and the <a href="/wiki/Eastern_Orthodox_Church" title="Eastern Orthodox Church">Eastern Orthodox Church</a>. In 1233, he was formally canonized by Pope <a href="/wiki/Gregory_IX" class="mw-redirect" title="Gregory IX">Gregory IX</a>.<sup id="cite_ref-stevens_4-2" class="reference"><a href="#cite_note-stevens-4">&#91;4&#93;</a></sup>
+</p><p>His doctrine that the earth is a sphere was derived from the teaching of ancient geographers, and his belief in the existence of the antipodes was probably influenced by the accounts which the ancient Irish voyagers gave of their journeys. This, at least, is the opinion of Rettberg (<i>Kirchengesch. Deutschlands</i>, II, 236).
+</p>
+<h3><span class="mw-headline" id="Dedications">Dedications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit&amp;section=3" title="Edit section: Dedications">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Aside from being personally associated with <a href="/wiki/Abbey_of_Aghaboe" class="mw-redirect" title="Abbey of Aghaboe">Aghaboe Abbey</a> and <a href="/wiki/Salzburg_Cathedral" title="Salzburg Cathedral">Salzburg Cathedral</a>, a number of parishes around the world are dedicated to him, mostly being founded by small populations of far-flung <a href="/wiki/Irish_Catholic" class="mw-redirect" title="Irish Catholic">Irish Catholics</a>, like himself.
+</p><p>There is a church dedicated to him in <a href="/wiki/Broad_Channel,_Queens" title="Broad Channel, Queens">Broad Channel, Queens</a>, New York, which merged with another parish in 2008.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> A parish in <a href="/wiki/Morris_Plains" class="mw-redirect" title="Morris Plains">Morris Plains</a>, New Jersey, is also dedicated to him.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup> Fittingly for this Irish geometer who predicted antipodes, several churches in the <a href="/wiki/Southern_Hemisphere" title="Southern Hemisphere">Southern Hemisphere</a> are dedicated to him. <a href="/wiki/St_Virgil%27s_College" title="St Virgil&#39;s College">St Virgil's College</a> in <a href="/wiki/Hobart" title="Hobart">Hobart</a>, <a href="/wiki/Tasmania" title="Tasmania">Tasmania</a> is named for him.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup> There was a St Virgilius Church in <a href="/wiki/Balclutha,_New_Zealand" title="Balclutha, New Zealand">Balclutha, New Zealand</a> designed by <a href="/wiki/List_of_buildings_by_Francis_Petre" title="List of buildings by Francis Petre">Francis Petre</a> which moved and was re-dedicated to <a href="/wiki/Mary_MacKillop" title="Mary MacKillop">Mary MacKillop</a>, however the new chapel remains dedicated to Virgilius.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup><sup id="cite_ref-dhiraja.srichinmoycentre.org_11-0" class="reference"><a href="#cite_note-dhiraja.srichinmoycentre.org-11">&#91;11&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Art_and_culture">Art and culture</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit&amp;section=4" title="Edit section: Art and culture">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>A large marble statue of him stands outside the doors of Salzburg Cathedral. A <a href="/wiki/Stained-glass" class="mw-redirect" title="Stained-glass">stained-glass</a> window of St Virgil contemplating the antipodes sits in <a href="/wiki/St_John%27s_College,_University_of_Sydney" title="St John&#39;s College, University of Sydney">St John's College, University of Sydney</a>.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup><sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;13&#93;</a></sup> Sebastian Stief painted him amidst Salzburg's construction,<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup> Alec Szolomiak painted him,<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;15&#93;</a></sup> as did <a href="/wiki/Jan_Toorop" title="Jan Toorop">Jan Toorop</a>,<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup> and Dhiraja McBryde.<sup id="cite_ref-dhiraja.srichinmoycentre.org_11-1" class="reference"><a href="#cite_note-dhiraja.srichinmoycentre.org-11">&#91;11&#93;</a></sup> <a href="/wiki/Yalumba" title="Yalumba">Yalumba</a>, Australia's oldest family-owned winery, produces a <a href="/wiki/Viognier" title="Viognier">Viognier</a> named <i>Virgilius</i>.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit&amp;section=5" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1130092004">.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;justify-content:center;align-items:baseline}.mw-parser-output .portal-bar-bordered{padding:0 2em;background-color:#fdfdfd;border:1px solid #a2a9b1;clear:both;margin:1em auto 0}.mw-parser-output .portal-bar-related{font-size:100%;justify-content:flex-start}.mw-parser-output .portal-bar-unbordered{padding:0 1.7em;margin-left:0}.mw-parser-output .portal-bar-header{margin:0 1em 0 0.5em;flex:0 0 auto;min-height:24px}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;flex:0 1 auto;padding:0.15em 0;column-gap:1em;align-items:baseline;margin:0;list-style:none}.mw-parser-output .portal-bar-content-related{margin:0;list-style:none}.mw-parser-output .portal-bar-item{display:inline-block;margin:0.15em 0.2em;min-height:24px;line-height:24px}@media screen and (max-width:768px){.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;flex-flow:column wrap;align-items:baseline}.mw-parser-output .portal-bar-header{text-align:center;flex:0;padding-left:0.5em;margin:0 auto}.mw-parser-output .portal-bar-related{font-size:100%;align-items:flex-start}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;align-items:center;flex:0;column-gap:1em;border-top:1px solid #a2a9b1;margin:0 auto;list-style:none}.mw-parser-output .portal-bar-content-related{border-top:none;margin:0;list-style:none}}.mw-parser-output .navbox+link+.portal-bar,.mw-parser-output .navbox+style+.portal-bar,.mw-parser-output .navbox+link+.portal-bar-bordered,.mw-parser-output .navbox+style+.portal-bar-bordered,.mw-parser-output .sister-bar+link+.portal-bar,.mw-parser-output .sister-bar+style+.portal-bar,.mw-parser-output .portal-bar+.navbox-styles+.navbox,.mw-parser-output .portal-bar+.navbox-styles+.sister-bar{margin-top:-1px}</style><div class="portal-bar noprint metadata noviewer portal-bar-bordered" role="navigation" aria-label="Portals"><span class="portal-bar-header"><a href="/wiki/Wikipedia:Contents/Portals" title="Wikipedia:Contents/Portals">Portals</a>:</span><ul class="portal-bar-content"><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/19px-P_vip.svg.png" decoding="async" width="19" height="19" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/28px-P_vip.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/37px-P_vip.svg.png 2x" data-file-width="1911" data-file-height="1944" />&#160;<a href="/wiki/Portal:Biography" title="Portal:Biography">Biography</a></li><li class="portal-bar-item"><a href="/wiki/File:046CupolaSPietro.jpg" class="image"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/21px-046CupolaSPietro.jpg" decoding="async" width="21" height="16" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/32px-046CupolaSPietro.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/42px-046CupolaSPietro.jpg 2x" data-file-width="800" data-file-height="600" /></a>&#160;<a href="/wiki/Portal:Catholicism" class="mw-redirect" title="Portal:Catholicism">Catholicism</a></li><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/21px-Gloriole_blur.svg.png" decoding="async" width="21" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/32px-Gloriole_blur.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/42px-Gloriole_blur.svg.png 2x" data-file-width="32" data-file-height="28" />&#160;<a href="/wiki/Portal:Saints" title="Portal:Saints">Saints</a></li><li class="portal-bar-item"><img alt="flag" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/21px-Flag_of_Austria.svg.png" decoding="async" width="21" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/32px-Flag_of_Austria.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/42px-Flag_of_Austria.svg.png 2x" data-file-width="900" data-file-height="600" />&#160;<a href="/wiki/Portal:Austria" title="Portal:Austria">Austria</a></li><li class="portal-bar-item"><img alt="flag" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Four_Provinces_Flag.svg/21px-Four_Provinces_Flag.svg.png" decoding="async" width="21" height="11" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Four_Provinces_Flag.svg/32px-Four_Provinces_Flag.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/65/Four_Provinces_Flag.svg/42px-Four_Provinces_Flag.svg.png 2x" data-file-width="1320" data-file-height="680" />&#160;<a href="/wiki/Portal:Ireland" title="Portal:Ireland">Ireland</a></li></ul></div>
+<ul><li><a href="/wiki/Modestus_(Apostle_of_Carantania)" title="Modestus (Apostle of Carantania)">Modestus (Apostle of Carantania)</a></li>
+<li><a href="/wiki/Portal:Catholic_Church/Patron_Archive/November_27" title="Portal:Catholic Church/Patron Archive/November 27">Saint Vergilius of Salzburg, patron saint archive</a></li></ul>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit&amp;section=6" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist reflist-lower-alpha">
+</div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit&amp;section=7" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1011085734"/><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-Warren1881-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-Warren1881_1-0">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFWarren1881" class="citation book cs1">Warren, Frederick Edward (1881). <a rel="nofollow" class="external text" href="https://archive.org/details/liturgyandritua01warrgoog"><i>The Liturgy and Ritual of the Celtic Church</i></a>. Oxford: Clarendon Press. p.&#160;<a rel="nofollow" class="external text" href="https://archive.org/details/liturgyandritua01warrgoog/page/n71">45</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Liturgy+and+Ritual+of+the+Celtic+Church&amp;rft.place=Oxford&amp;rft.pages=45&amp;rft.pub=Clarendon+Press&amp;rft.date=1881&amp;rft.aulast=Warren&amp;rft.aufirst=Frederick+Edward&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fliturgyandritua01warrgoog&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFClancyGilbert1995" class="citation book cs1">Clancy, Thomas Owen; Gilbert, Márkus (1995). <i>Iona: The Earliest Poetry of a Celtic Monastery</i>. Edinburgh University Press. p.&#160;17.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Iona%3A+The+Earliest+Poetry+of+a+Celtic+Monastery&amp;rft.pages=17&amp;rft.pub=Edinburgh+University+Press&amp;rft.date=1995&amp;rft.aulast=Clancy&amp;rft.aufirst=Thomas+Owen&amp;rft.au=Gilbert%2C+M%C3%A1rkus&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-turner-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-turner_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-turner_3-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-turner_3-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.newadvent.org/cathen/15353d.htm">"CATHOLIC ENCYCLOPEDIA: St. Vergilius of Salzburg"</a>. <i>www.newadvent.org</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.newadvent.org&amp;rft.atitle=CATHOLIC+ENCYCLOPEDIA%3A+St.+Vergilius+of+Salzburg&amp;rft_id=https%3A%2F%2Fwww.newadvent.org%2Fcathen%2F15353d.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-stevens-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-stevens_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-stevens_4-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-stevens_4-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.ewtn.com/library/MARY/VIRGILIU.HTM">"Stevens, Clifford. <i>The One Year Book of Saints</i>, Our Sunday Visitor Publishing Division, Our Sunday Visitor, Inc., Huntington, Indiana"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Stevens%2C+Clifford.+The+One+Year+Book+of+Saints%2C+Our+Sunday+Visitor+Publishing+Division%2C+Our+Sunday+Visitor%2C+Inc.%2C+Huntington%2C+Indiana&amp;rft_id=http%3A%2F%2Fwww.ewtn.com%2Flibrary%2FMARY%2FVIRGILIU.HTM&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Enright, M.J. Iona, Tara, and Soissons: The Origin of the Royal Anointing Ritual. (Arbeiten zur Fruhmittelalterforschung, 17). Berlin and New York: Walter de Gruyter, 1985. pp. ix, 198</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><i><a href="/wiki/Monumenta_Germaniae_Historica" title="Monumenta Germaniae Historica">MGH</a></i>, Epistolae Selectae, 1, 80, pp. 178–9 <a rel="nofollow" class="external autonumber" href="http://www.dmgh.de/">[1]</a>; translation in M. L. W. Laistner, <i>Thought and Letters in Western Europe</i>, pp. 184–5.; see also Jaffe, <i>Biblioth. rerum germ.</i>, III, 191</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://stcstv.com/">"St. Camillus-St. Virgillus Roman Catholic Church"</a>. Stcstv.com<span class="reference-accessdate">. Retrieved <span class="nowrap">15 May</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=St.+Camillus-St.+Virgillus+Roman+Catholic+Church&amp;rft.pub=Stcstv.com&amp;rft_id=http%3A%2F%2Fstcstv.com%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://stvirgilparish.org/patron">"Patron"</a>. <i>St. Virgil's Parish</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=St.+Virgil%27s+Parish&amp;rft.atitle=Patron&amp;rft_id=https%3A%2F%2Fstvirgilparish.org%2Fpatron&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://stvirgils.tas.edu.au/">"St Virgil's College – St Virgil's College Hobart"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=St+Virgil%27s+College+%E2%80%93+St+Virgil%27s+College+Hobart&amp;rft_id=https%3A%2F%2Fstvirgils.tas.edu.au%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.sosj.org.au/our-foundress-mary-mackillop/marys-story/mary-story-beginnings/">"Beginnings"</a>. <i>Sisters of Saint Joseph of the Sacred Heart</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Sisters+of+Saint+Joseph+of+the+Sacred+Heart&amp;rft.atitle=Beginnings&amp;rft_id=https%3A%2F%2Fwww.sosj.org.au%2Four-foundress-mary-mackillop%2Fmarys-story%2Fmary-story-beginnings%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-dhiraja.srichinmoycentre.org-11"><span class="mw-cite-backlink">^ <a href="#cite_ref-dhiraja.srichinmoycentre.org_11-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-dhiraja.srichinmoycentre.org_11-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://dhiraja.srichinmoycentre.org/a_saint_for_this_neck_of_the_woods">"A Saint for this Neck of the Woods - Dhiraja"</a>. Dhiraja.srichinmoycentre.org<span class="reference-accessdate">. Retrieved <span class="nowrap">15 May</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=A+Saint+for+this+Neck+of+the+Woods+-+Dhiraja&amp;rft.pub=Dhiraja.srichinmoycentre.org&amp;rft_id=http%3A%2F%2Fdhiraja.srichinmoycentre.org%2Fa_saint_for_this_neck_of_the_woods&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.dawsoncentre.org/wp-content/uploads/2014/04/IMG_4259-lowres.jpeg">"Photo"</a>. www.dawsoncentre.org<span class="reference-accessdate">. Retrieved <span class="nowrap">15 May</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Photo&amp;rft.pub=www.dawsoncentre.org&amp;rft_id=http%3A%2F%2Fwww.dawsoncentre.org%2Fwp-content%2Fuploads%2F2014%2F04%2FIMG_4259-lowres.jpeg&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFCentre2014" class="citation web cs1">Centre, Christopher Dawson (8 April 2014). <a rel="nofollow" class="external text" href="https://www.dawsoncentre.org/our-goals/">"OUR GOALS &#124; The Christopher Dawson Centre for Cultural Studies"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=OUR+GOALS+%26%23124%3B+The+Christopher+Dawson+Centre+for+Cultural+Studies&amp;rft.date=2014-04-08&amp;rft.aulast=Centre&amp;rft.aufirst=Christopher+Dawson&amp;rft_id=https%3A%2F%2Fwww.dawsoncentre.org%2Four-goals%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://austria-forum.org/af/Bilder_und_Videos/Historische_Bilder_IMAGNO/Virgil%2C_Heiliger/00479289">"St. Virgilius erbaut den ersten Salzburger Dom"</a>. <i>Austria-Forum</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Austria-Forum&amp;rft.atitle=St.+Virgilius+erbaut+den+ersten+Salzburger+Dom&amp;rft_id=https%3A%2F%2Faustria-forum.org%2Faf%2FBilder_und_Videos%2FHistorische_Bilder_IMAGNO%2FVirgil%252C_Heiliger%2F00479289&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.flickr.com/photos/stvirgil/3448813306/">"St. Virgil-Painting-Hobart Tasmania"</a>. 29 December 2008 &#8211; via Flickr.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=St.+Virgil-Painting-Hobart+Tasmania&amp;rft.date=2008-12-29&amp;rft_id=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fstvirgil%2F3448813306%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.jan-toorop.com/artwork/562">"jan-toorop.com - This website is for sale! - jan toorop Resources and Information"</a>. <i>www.jan-toorop.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.jan-toorop.com&amp;rft.atitle=jan-toorop.com+-+This+website+is+for+sale%21+-+jan+toorop+Resources+and+Information.&amp;rft_id=http%3A%2F%2Fwww.jan-toorop.com%2Fartwork%2F562&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span> <span class="cs1-visible-error citation-comment"><code class="cs1-code">{{<a href="/wiki/Template:Cite_web" title="Template:Cite web">cite web</a>}}</code>: </span><span class="cs1-visible-error citation-comment">Cite uses generic title (<a href="/wiki/Help:CS1_errors#generic_title" title="Help:CS1 errors">help</a>)</span></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.yalumba.com/portfolio/wines/virgilius">"The Virgilius Viognier ∙ Yalumba"</a>. <i>www.yalumba.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.yalumba.com&amp;rft.atitle=The+Virgilius+Viognier+%E2%88%99+Yalumba&amp;rft_id=https%3A%2F%2Fwww.yalumba.com%2Fportfolio%2Fwines%2Fvirgilius&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="Sources">Sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit&amp;section=8" title="Edit section: Sources">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Laistner, M.L.W. <i>Thought and Letters in Western Europe: A.D. 500 to 900</i>, 2nd. ed. Ithaca: Cornell Univ. Pr., 1955. <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-8014-9037-5" title="Special:BookSources/0-8014-9037-5">0-8014-9037-5</a></li></ul>
+<dl><dd><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/12px-PD-icon.svg.png" decoding="async" width="12" height="12" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/18px-PD-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/24px-PD-icon.svg.png 2x" data-file-width="196" data-file-height="196" />&#160;This article incorporates text from a publication now in the <a href="/wiki/Public_domain" title="Public domain">public domain</a>:&#160;<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFTurner1912" class="citation encyclopaedia cs1">Turner, William (1912). <a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/15353d.htm">"St. Vergilius of Salzburg"</a>.  In Herbermann, Charles (ed.). <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i>. Vol.&#160;15. New York: Robert Appleton Company.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=St.+Vergilius+of+Salzburg&amp;rft.btitle=Catholic+Encyclopedia&amp;rft.place=New+York&amp;rft.pub=Robert+Appleton+Company&amp;rft.date=1912&amp;rft.aulast=Turner&amp;rft.aufirst=William&amp;rft_id=http%3A%2F%2Fwww.newadvent.org%2Fcathen%2F15353d.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVirgil+of+Salzburg" class="Z3988"></span></dd></dl>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Virgil_of_Salzburg&amp;action=edit&amp;section=9" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/File:Commons-logo.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" decoding="async" width="12" height="16" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> Media related to <a href="https://commons.wikimedia.org/wiki/Category:Virgilius_of_Salzburg" class="extiw" title="commons:Category:Virgilius of Salzburg">Virgilius of Salzburg</a> at Wikimedia Commons
+</p>
+<ul><li><a rel="nofollow" class="external text" href="http://www.ewtn.com/library/MARY/VIRGILIU.htm">Saint Virgilius</a> from the <a href="/wiki/EWTN" title="EWTN">EWTN</a> library</li></ul>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Hiberno-Latin_culture_to_1169" style="padding:3px"><table class="nowraplinks hlist mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Hiberno-Latin_to_1169" title="Template:Hiberno-Latin to 1169"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Hiberno-Latin_to_1169" title="Template talk:Hiberno-Latin to 1169"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Hiberno-Latin_to_1169&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Hiberno-Latin_culture_to_1169" style="font-size:114%;margin:0 4em"><a href="/wiki/Hiberno-Latin" title="Hiberno-Latin">Hiberno-Latin culture to 1169</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">Authors</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Adomn%C3%A1n" title="Adomnán">Adomnán</a></li>
+<li><a href="/wiki/Ailer%C3%A1n" title="Ailerán">Ailerán</a></li>
+<li><a href="/wiki/De_mirabilibus_sacrae_scripturae" title="De mirabilibus sacrae scripturae">Augustinus Hibernicus</a></li>
+<li><a href="/wiki/Cenn_F%C3%A1elad_mac_Aillila" class="mw-redirect" title="Cenn Fáelad mac Aillila">Cenn Fáelad mac Aillila</a></li>
+<li><a href="/wiki/Cogitosus" title="Cogitosus">Cogitosus</a></li>
+<li><a href="/wiki/C%C3%BA_Chuimne" title="Cú Chuimne">Cú Chuimne</a></li>
+<li><a href="/wiki/Cumm%C3%A9ne_Fota" title="Cumméne Fota">Cumméne Fota</a></li>
+<li><a href="/wiki/Diarmaid_the_Just" title="Diarmaid the Just">Diarmaid the Just</a></li>
+<li><a href="/wiki/Finnian_of_Movilla" title="Finnian of Movilla">Finnian of Moville</a></li>
+<li><a href="/wiki/Fint%C3%A1n_of_Taghmon" title="Fintán of Taghmon">Fintán of Taghmon</a></li>
+<li><a href="/wiki/Gilla_Cr%C3%ADst_Ua_M%C3%A1el_E%C3%B3in" title="Gilla Críst Ua Máel Eóin">Gilla Críst Ua Máel Eóin</a></li>
+<li><a href="/wiki/Gilla_P%C3%A1traic" title="Gilla Pátraic">Gilla Pátraic</a></li>
+<li><a href="/wiki/Laidcenn_mac_Buith_Bannaig" title="Laidcenn mac Buith Bannaig">Laidcenn mac Buith Bannaig</a></li>
+<li><a href="/wiki/Laurentius_of_Echternach" title="Laurentius of Echternach">Laurentius of Echternach</a></li>
+<li><a href="/wiki/M%C3%A1el_Dub" title="Máel Dub">Máel Dub</a></li>
+<li><a href="/wiki/Manch%C3%A1n_of_Min_Droichit" title="Manchán of Min Droichit">Manchán of Min Droichit</a></li>
+<li><a href="/wiki/Mo_Sinu_moccu_Min" title="Mo Sinu moccu Min">Mo Sinu moccu Min</a></li>
+<li><a href="/wiki/Muirchu_moccu_Machtheni" class="mw-redirect" title="Muirchu moccu Machtheni">Muirchu moccu Machtheni</a></li>
+<li><a href="/wiki/Palladius_(bishop_of_Ireland)" title="Palladius (bishop of Ireland)">Palladius</a></li>
+<li><a href="/wiki/Saint_Patrick" title="Saint Patrick">Saint Patrick</a></li>
+<li><a href="/wiki/Ruben_of_Dairinis" title="Ruben of Dairinis">Ruben of Dairinis</a></li>
+<li><a href="/wiki/T%C3%ADrech%C3%A1n" title="Tírechán">Tírechán</a></li></ul>
+</div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th id="On_thecontinent" scope="row" class="navbox-group" style="width:1%">On the<br />continent</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Cadac-Andreas" title="Cadac-Andreas">Cadac-Andreas</a></li>
+<li><a href="/wiki/Cellanus" title="Cellanus">Cellanus</a></li>
+<li><a href="/wiki/Clement_of_Ireland" title="Clement of Ireland">Clement of Ireland</a></li>
+<li><a href="/wiki/Coelius_Sedulius" title="Coelius Sedulius">Coelius Sedulius</a></li>
+<li><a href="/wiki/Colman_nepos_Cracavist" title="Colman nepos Cracavist">Colman nepos Cracavist</a></li>
+<li><a href="/wiki/Columbanus" title="Columbanus">Columbanus</a></li>
+<li><a href="/wiki/Dicuil" title="Dicuil">Dicuil</a></li>
+<li><a href="/wiki/Donatus_of_Fiesole" title="Donatus of Fiesole">Donatus of Fiesole</a></li>
+<li><a href="/wiki/Dungal_of_Bobbio" title="Dungal of Bobbio">Dungal</a></li>
+<li><a href="/wiki/Hibernicus_exul" title="Hibernicus exul">Hibernicus exul</a></li>
+<li><a href="/wiki/John_Scotus_Eriugena" title="John Scotus Eriugena">John Scotus Eriugena</a></li>
+<li><a href="/wiki/Joseph_Scottus" title="Joseph Scottus">Joseph Scottus</a></li>
+<li><a href="/wiki/Blessed_Marianus_Scotus" class="mw-redirect" title="Blessed Marianus Scotus">Blessed Marianus Scotus</a></li>
+<li><a href="/wiki/Marianus_Scotus" title="Marianus Scotus">Marianus Scotus</a></li>
+<li><a href="/wiki/Martianus_Hiberniensis" title="Martianus Hiberniensis">Martianus Hiberniensis</a></li>
+<li><a href="/wiki/Sedulius_Scottus" title="Sedulius Scottus">Sedulius Scottus</a></li>
+<li><a href="/wiki/Tuotilo" title="Tuotilo">Tuotilo</a></li>
+<li><a class="mw-selflink selflink">Virgil of Salzburg</a></li>
+<li><a href="/wiki/Virgilius_Maro_Grammaticus" title="Virgilius Maro Grammaticus">Virgilius Maro Grammaticus</a></li></ul>
+</div></td></tr></tbody></table><div>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Texts</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Altus_Prosator" class="mw-redirect" title="Altus Prosator">Altus Prosator</a></i></li>
+<li><i><a href="/wiki/Cambrai_Homily" title="Cambrai Homily">Cambrai Homily</a></i></li>
+<li><i><a href="/wiki/Collectio_canonum_Hibernensis" title="Collectio canonum Hibernensis">Collectio canonum Hibernensis</a></i></li>
+<li><i><a href="/wiki/Hisperica_Famina" class="mw-redirect" title="Hisperica Famina">Hisperica Famina</a></i></li>
+<li><i><a href="/wiki/De_mirabilibus_sacrae_scripturae" title="De mirabilibus sacrae scripturae">De mirabilibus sacrae scripturae</a></i></li>
+<li><i><a href="/wiki/Proverbia_Grecorum" title="Proverbia Grecorum">Proverbia Grecorum</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Manuscripts</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Antiphonary_of_Bangor" title="Antiphonary of Bangor">Antiphonary of Bangor</a></li>
+<li><a href="/wiki/Gospels_of_Mael_Brigte" class="mw-redirect" title="Gospels of Mael Brigte">Gospels of Mael Brigte</a></li>
+<li><a href="/wiki/Reichenau_Primer" title="Reichenau Primer">Reichenau Primer</a></li>
+<li><a href="/wiki/Stowe_Missal" title="Stowe Missal">Stowe Missal</a></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<dl><dt>See also</dt>
+<dd><a href="/wiki/Celtic_Christianity" title="Celtic Christianity">Celtic Christianity</a></dd>
+<dd><a href="/wiki/Hiberno-Scottish_mission" title="Hiberno-Scottish mission">Hiberno-Scottish mission</a></dd>
+<dd><a href="/wiki/Template:Hiberno-Latin_post-1169" title="Template:Hiberno-Latin post-1169">Hiberno-Latin after 1169</a></dd></dl>
+</div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q561251#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q561251#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q561251#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000078205138">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/55726630">1</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/272159474047827661049">2</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n88621958/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/118804723">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n88621958">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://nla.gov.au/anbd.aut-an49886211">Australia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p072378646">Netherlands</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.vatlib.it/auth/detail/495_359167">Vatican</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://doi.org/10.3318/dib.003043.v1">Ireland</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118804723.html?language=en">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Scientific databases</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://ci.nii.ac.jp/author/DA12097451?l=en">CiNii (Japan)</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/1856164/">FAST</a></span></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/081515200">1</a></span></li></ul></li>
+<li><a href="/wiki/Trove_(identifier)" class="mw-redirect" title="Trove (identifier)">Trove (Australia)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://trove.nla.gov.au/people/1525656">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2316
+Cached time: 20230207183914
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.381 seconds
+Real time usage: 0.530 seconds
+Preprocessor visited node count: 2091/1000000
+Post‐expand include size: 55568/2097152 bytes
+Template argument size: 1882/2097152 bytes
+Highest expansion depth: 14/100
+Expensive parser function count: 20/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 60178/5000000 bytes
+Lua time usage: 0.240/10.000 seconds
+Lua memory usage: 8263323/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  458.754      1 -total
+ 27.33%  125.395      2 Template:Reflist
+ 16.05%   73.635      1 Template:Hiberno-Latin_authors
+ 15.52%   71.193      2 Template:Navbox
+ 15.29%   70.158      2 Template:Cite_book
+ 11.15%   51.136      1 Template:Short_description
+  8.84%   40.550      1 Template:Infobox_saint
+  8.57%   39.303      1 Template:Portal_bar
+  8.07%   37.027      1 Template:Infobox
+  8.00%   36.682      1 Template:Commons_category-inline
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2833132-0!canonical and timestamp 20230207183913 and revision id 1092974753. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Virgil_of_Salzburg&amp;oldid=1092974753">https://en.wikipedia.org/w/index.php?title=Virgil_of_Salzburg&amp;oldid=1092974753</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:8th-century_births" title="Category:8th-century births">8th-century births</a></li><li><a href="/wiki/Category:784_deaths" title="Category:784 deaths">784 deaths</a></li><li><a href="/wiki/Category:Austrian_astronomers" title="Category:Austrian astronomers">Austrian astronomers</a></li><li><a href="/wiki/Category:Irish_astronomers" title="Category:Irish astronomers">Irish astronomers</a></li><li><a href="/wiki/Category:Irish_expatriate_Catholic_bishops" title="Category:Irish expatriate Catholic bishops">Irish expatriate Catholic bishops</a></li><li><a href="/wiki/Category:8th-century_bishops_in_Bavaria" title="Category:8th-century bishops in Bavaria">8th-century bishops in Bavaria</a></li><li><a href="/wiki/Category:Irish_Christian_missionaries" title="Category:Irish Christian missionaries">Irish Christian missionaries</a></li><li><a href="/wiki/Category:Clergy_from_Salzburg" title="Category:Clergy from Salzburg">Clergy from Salzburg</a></li><li><a href="/wiki/Category:8th-century_Frankish_saints" title="Category:8th-century Frankish saints">8th-century Frankish saints</a></li><li><a href="/wiki/Category:8th-century_Irish_writers" title="Category:8th-century Irish writers">8th-century Irish writers</a></li><li><a href="/wiki/Category:Medieval_Irish_saints" title="Category:Medieval Irish saints">Medieval Irish saints</a></li><li><a href="/wiki/Category:Medieval_Irish_saints_on_the_Continent" title="Category:Medieval Irish saints on the Continent">Medieval Irish saints on the Continent</a></li><li><a href="/wiki/Category:Colombanian_saints" title="Category:Colombanian saints">Colombanian saints</a></li><li><a href="/wiki/Category:Irish_mathematicians" title="Category:Irish mathematicians">Irish mathematicians</a></li><li><a href="/wiki/Category:Geometers" title="Category:Geometers">Geometers</a></li><li><a href="/wiki/Category:Irish_expatriates_in_France" title="Category:Irish expatriates in France">Irish expatriates in France</a></li><li><a href="/wiki/Category:Irish_expatriates_in_Austria" title="Category:Irish expatriates in Austria">Irish expatriates in Austria</a></li><li><a href="/wiki/Category:8th-century_astronomers" title="Category:8th-century astronomers">8th-century astronomers</a></li><li><a href="/wiki/Category:8th-century_mathematicians" title="Category:8th-century mathematicians">8th-century mathematicians</a></li><li><a href="/wiki/Category:Irish_Latinists" title="Category:Irish Latinists">Irish Latinists</a></li><li><a href="/wiki/Category:8th-century_Frankish_writers" title="Category:8th-century Frankish writers">8th-century Frankish writers</a></li><li><a href="/wiki/Category:8th-century_Latin_writers" title="Category:8th-century Latin writers">8th-century Latin writers</a></li><li><a href="/wiki/Category:Missionary_linguists" title="Category:Missionary linguists">Missionary linguists</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_errors:_generic_title" title="Category:CS1 errors: generic title">CS1 errors: generic title</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_October_2013" title="Category:Use dmy dates from October 2013">Use dmy dates from October 2013</a></li><li><a href="/wiki/Category:Articles_incorporating_a_citation_from_the_1913_Catholic_Encyclopedia_without_Wikisource_reference" title="Category:Articles incorporating a citation from the 1913 Catholic Encyclopedia without Wikisource reference">Articles incorporating a citation from the 1913 Catholic Encyclopedia without Wikisource reference</a></li><li><a href="/wiki/Category:Articles_incorporating_text_from_the_1913_Catholic_Encyclopedia_without_Wikisource_reference" title="Category:Articles incorporating text from the 1913 Catholic Encyclopedia without Wikisource reference">Articles incorporating text from the 1913 Catholic Encyclopedia without Wikisource reference</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NLA_identifiers" title="Category:Articles with NLA identifiers">Articles with NLA identifiers</a></li><li><a href="/wiki/Category:Articles_with_NTA_identifiers" title="Category:Articles with NTA identifiers">Articles with NTA identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_DIB_identifiers" title="Category:Articles with DIB identifiers">Articles with DIB identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_CINII_identifiers" title="Category:Articles with CINII identifiers">Articles with CINII identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li><li><a href="/wiki/Category:Articles_with_Trove_identifiers" title="Category:Articles with Trove identifiers">Articles with Trove identifiers</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 13 June 2022, at 19:55<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Virgil_of_Salzburg&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.381","walltime":"0.530","ppvisitednodes":{"value":2091,"limit":1000000},"postexpandincludesize":{"value":55568,"limit":2097152},"templateargumentsize":{"value":1882,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":20,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":60178,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  458.754      1 -total"," 27.33%  125.395      2 Template:Reflist"," 16.05%   73.635      1 Template:Hiberno-Latin_authors"," 15.52%   71.193      2 Template:Navbox"," 15.29%   70.158      2 Template:Cite_book"," 11.15%   51.136      1 Template:Short_description","  8.84%   40.550      1 Template:Infobox_saint","  8.57%   39.303      1 Template:Portal_bar","  8.07%   37.027      1 Template:Infobox","  8.00%   36.682      1 Template:Commons_category-inline"]},"scribunto":{"limitreport-timeusage":{"value":"0.240","limit":"10.000"},"limitreport-memusage":{"value":8263323,"limit":52428800}},"cachereport":{"origin":"mw2316","timestamp":"20230207183914","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Virgil of Salzburg","url":"https:\/\/en.wikipedia.org\/wiki\/Virgil_of_Salzburg","sameAs":"http:\/\/www.wikidata.org\/entity\/Q561251","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q561251","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-10-04T17:41:23Z","dateModified":"2022-06-13T19:55:26Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4d\/Saint_Virgilius%2C_Salzburg.jpg","headline":"Irish churchman, astronomer, bishop of Salzburg"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Virgil of Salzburg","url":"https:\/\/en.wikipedia.org\/wiki\/Virgil_of_Salzburg","sameAs":"http:\/\/www.wikidata.org\/entity\/Q561251","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q561251","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-10-04T17:41:23Z","dateModified":"2022-06-13T19:55:26Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4d\/Saint_Virgilius%2C_Salzburg.jpg","headline":"Irish churchman, astronomer, bishop of Salzburg"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":105,"wgHostname":"mw2333"});});</script>
+</body>
+</html>

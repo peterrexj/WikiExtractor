@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Saint Cajetan - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"9e9f7969-a925-402f-93f6-1317050fa5b9",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Saint_Cajetan","wgTitle":"Saint Cajetan","wgCurRevisionId":1136343579,"wgRevisionId":1136343579,"wgArticleId":883653,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description is different from Wikidata","Articles containing Latin-language text","Commons category link is on Wikidata","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BNF identifiers","Articles with CANTICN identifiers","Articles with GND identifiers","Articles with ICCU identifiers","Articles with LCCN identifiers","Articles with NTA identifiers","Articles with PLWABN identifiers","Articles with VcBA identifiers","Articles with ULAN identifiers","Articles with DBI identifiers","Articles with DTBIO identifiers",
+"Articles with FAST identifiers","Articles with SNAC-ID identifiers","Articles with SUDOC identifiers","1480 births","1547 deaths","People from Vicenza","Founders of Catholic religious communities","Catholicism in Argentina","Christianity in Buenos Aires","Counts","16th-century Italian lawyers","16th-century Italian Roman Catholic priests","Theatines","Beatifications by Pope Urban VIII","Canonizations by Pope Clement X"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Saint_Cajetan","wgRelevantArticleId":883653,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Saint_Cajetan_of_Thiene","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":
+false,"wgWMEPageLength":8000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Saint_Cajetan","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q379914","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":
+"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/a/a2/Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="2135"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/a/a2/Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="1423"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="1139"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Saint Cajetan - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Saint_Cajetan"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Saint_Cajetan&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Saint_Cajetan"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Saint_Cajetan rootpage-Saint_Cajetan skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Saint+Cajetan" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Saint+Cajetan"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Saint+Cajetan"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Saint_Cajetan" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Saint_Cajetan" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Saint_Cajetan&amp;oldid=1136343579" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Saint_Cajetan&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Saint_Cajetan&amp;id=1136343579&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q379914" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Saint_Cajetan&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Saint_Cajetan&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Cajetan" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Life"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Life">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Life</div>
+		</a>
+		
+		<ul id="toc-Life-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Theatines"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Theatines">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Theatines</div>
+		</a>
+		
+		<ul id="toc-Theatines-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Veneration"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Veneration">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Veneration</div>
+		</a>
+		
+		<ul id="toc-Veneration-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Saint Cajetan</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 29 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-29"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">29 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-gn mw-list-item"><a href="https://gn.wikipedia.org/wiki/Kajet%C3%A1no_Marangatu" title="Kajetáno Marangatu – Guarani" lang="gn" hreflang="gn" class="interlanguage-link-target"><span>Avañe'ẽ</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a href="https://br.wikipedia.org/wiki/Gaetano_Thiene" title="Gaetano Thiene – Breton" lang="br" hreflang="br" class="interlanguage-link-target"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Gaiet%C3%A0_de_Thiene" title="Gaietà de Thiene – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Kajet%C3%A1n_z_Tiene" title="Kajetán z Tiene – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Kajetan_von_Thiene" title="Kajetan von Thiene – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Cayetano_de_Thiene" title="Cayetano de Thiene – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Gaetano_Thiene" title="Gaetano Thiene – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/Gaitan_Thienekoa" title="Gaitan Thienekoa – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Ga%C3%A9tan_de_Thi%C3%A8ne" title="Gaétan de Thiène – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Caetano_de_Thiene" title="Caetano de Thiene – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Sveti_Kajetan_iz_Tijene" title="Sveti Kajetan iz Tijene – Croatian" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Cajetan" title="Cajetan – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Gaetano_Thiene" title="Gaetano Thiene – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Gaetano_wa_Thiene" title="Gaetano wa Thiene – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Caietanus_Thienaeus" title="Caietanus Thienaeus – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a href="https://lv.wikipedia.org/wiki/Sv%C4%93tais_Kajet%C4%81ns" title="Svētais Kajetāns – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Thienei_Szent_Kajet%C3%A1n" title="Thienei Szent Kajetán – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-mt mw-list-item"><a href="https://mt.wikipedia.org/wiki/San_Gejtanu" title="San Gejtanu – Maltese" lang="mt" hreflang="mt" class="interlanguage-link-target"><span>Malti</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%B3%D8%A7%D9%8A%D9%86%D8%AA_%D9%83%D8%A7%DA%86%D9%8A%D8%AA%D8%A7%D9%86" title="ساينت كاچيتان – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Cajetanus_van_Thiene" title="Cajetanus van Thiene – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Kajetan_z_Thieny" title="Kajetan z Thieny – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Caetano_de_Thiene" title="Caetano de Thiene – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%8D%D1%82%D0%B0%D0%BD_%D0%A2%D0%B8%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9" title="Каэтан Тиенский – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sc mw-list-item"><a href="https://sc.wikipedia.org/wiki/Gaetanu_Thiene" title="Gaetanu Thiene – Sardinian" lang="sc" hreflang="sc" class="interlanguage-link-target"><span>Sardu</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Cajetan_Thienel%C3%A4inen" title="Cajetan Thieneläinen – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Gaetano_av_Thiene" title="Gaetano av Thiene – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%B0%D1%94%D1%82%D0%B0%D0%BD_%D0%A2%D1%96%D1%94%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9" title="Каєтан Тієнський – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-vec mw-list-item"><a href="https://vec.wikipedia.org/wiki/Gaetano_de_Thiene" title="Gaetano de Thiene – Venetian" lang="vec" hreflang="vec" class="interlanguage-link-target"><span>Vèneto</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E8%81%96%E5%98%89%E8%80%B6%E7%95%B6" title="聖嘉耶當 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q379914#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Saint_Cajetan" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Saint_Cajetan" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Saint_Cajetan"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Saint_Cajetan&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Saint_Cajetan&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Saint_Cajetan"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Saint_Cajetan&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Saint_Cajetan&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"><span class="mw-redirectedfrom">(Redirected from <a href="/w/index.php?title=Saint_Cajetan_of_Thiene&amp;redirect=no" class="mw-redirect" title="Saint Cajetan of Thiene">Saint Cajetan of Thiene</a>)</span></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Italian Catholic priest (1480–1547)</div>
+<style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">This article is about Italian Catholic priest. For Cardinal Cajetan, see <a href="/wiki/Thomas_Cajetan" title="Thomas Cajetan">Thomas Cajetan</a>. For Saint Cajetan Catanoso, see <a href="/wiki/Gaetano_Catanoso" title="Gaetano Catanoso">Gaetano Catanoso</a>.</div>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;"><a href="/wiki/Saint" title="Saint">Saint</a></div><br /><div style="display:inline;" class="fn">Cajetan</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg" class="image"><img alt="Francesco Solimena - Estasi di San Gaetano da Thiene.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg/220px-Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg" decoding="async" width="220" height="391" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg/330px-Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/a/a2/Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg 2x" data-file-width="385" data-file-height="685" /></a><div class="infobox-caption">Portrait of Saint Cajetan</div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Priest and Confessor</th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">1 October 1480<br /><a href="/wiki/Vicenza,_Veneto" class="mw-redirect" title="Vicenza, Veneto">Vicenza, Veneto</a>, <a href="/wiki/Republic_of_Venice" title="Republic of Venice">Republic of Venice</a> (now Italy)</td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">7 August 1547<span style="display:none">(1547-08-07)</span> (aged&#160;66)<br /><a href="/wiki/Naples,_Campania" class="mw-redirect" title="Naples, Campania">Naples, Campania</a>, <a href="/wiki/Kingdom_of_Naples" title="Kingdom of Naples">Kingdom of Naples</a></td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Beatification" title="Beatification">Beatified</a></th><td class="infobox-data">8 October 1629, <a href="/wiki/Saint_Peter%27s_Basilica" class="mw-redirect" title="Saint Peter&#39;s Basilica">Saint Peter's Basilica</a>, <a href="/wiki/Papal_States" title="Papal States">Papal States</a> by <a href="/wiki/Pope_Urban_VIII" title="Pope Urban VIII">Pope Urban VIII</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data">12 April 1671, Saint Peter's Basilica, Papal States by <a href="/wiki/Pope_Clement_X" title="Pope Clement X">Pope Clement X</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data"><a href="/wiki/7_August" class="mw-redirect" title="7 August">7 August</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Saint_symbolism" title="Saint symbolism">Attributes</a></th><td class="infobox-data"><a href="/wiki/Cassock" title="Cassock">Priest's cassock</a><br /><a href="/wiki/Book" title="Book">Book</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data">Bankers; unemployed people; workers; gamblers; document controllers; job seekers;&#160;; <a href="/wiki/Albania" title="Albania">Albania</a>; Italy; <a href="/wiki/%C4%A6amrun" class="mw-redirect" title="Ħamrun">Ħamrun</a> (<a href="/wiki/Malta" title="Malta">Malta</a>); Argentina; Brazil; <a href="/wiki/El_Salvador" title="El Salvador">El Salvador</a>; <a href="/wiki/Guatemala" title="Guatemala">Guatemala</a>; <a href="/wiki/Labo,_Camarines_Norte" title="Labo, Camarines Norte">Labo, Camarines Norte</a>, Philippines</td></tr></tbody></table>
+<p><b>Gaetano dei Conti di Thiene</b> (6 October 1480 – 7 August 1547), known as <b>Saint Cajetan</b> (<span class="rt-commentedText nowrap"><span class="IPA nopopups noexcerpt" lang="en-fonipa"><a href="/wiki/Help:IPA/English" title="Help:IPA/English">/<span style="border-bottom:1px dotted"><span title="/ˈ/: primary stress follows">ˈ</span><span title="&#39;k&#39; in &#39;kind&#39;">k</span><span title="/æ/: &#39;a&#39; in &#39;bad&#39;">æ</span><span title="/dʒ/: &#39;j&#39; in &#39;jam&#39;">dʒ</span><span title="/ə/: &#39;a&#39; in &#39;about&#39;">ə</span><span title="&#39;t&#39; in &#39;tie&#39;">t</span><span title="/ən/: &#39;on&#39; in &#39;button&#39;">ən</span></span>/</a></span></span> <a href="/wiki/Help:Pronunciation_respelling_key" title="Help:Pronunciation respelling key"><i title="English pronunciation respelling"><span style="font-size:90%">KAJ</span>-ə-tən</i></a>), was an Italian Catholic priest and religious reformer, co-founder of the <a href="/wiki/Theatines" title="Theatines">Theatines</a>. He is recognised as a <a href="/wiki/Saint" title="Saint">saint</a> in the <a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a>, and his feast day is 7 August.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Life">Life</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Cajetan&amp;action=edit&amp;section=1" title="Edit section: Life">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Cajetan was born in October 1480, the son of Gaspar, lord of <a href="/wiki/Thiene" title="Thiene">Thiene</a>, and Mary Porta, persons of the first rank among the nobility of the territory of Vicenza, in <a href="/wiki/Veneto" title="Veneto">Veneto</a><sup id="cite_ref-butler_1-0" class="reference"><a href="#cite_note-butler-1">&#91;1&#93;</a></sup> Region.
+</p><p>His father died when he was two years of age. Quiet and retiring by nature,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> he was predisposed to piety by his mother. Cajetan studied <a href="/wiki/Law" title="Law">law</a> in <a href="/wiki/Padua" title="Padua">Padua</a>, receiving his degree as <i><a href="/wiki/Doctor_utriusque_juris" class="mw-redirect" title="Doctor utriusque juris">doctor utriusque juris</a></i> (i.e., in civil and canon law) at age 24. In 1506 he worked as a diplomat for <a href="/wiki/Pope_Julius_II" title="Pope Julius II">Pope Julius II</a>, with whom he helped reconcile the <a href="/wiki/Republic_of_Venice" title="Republic of Venice">Republic of Venice</a>.<sup id="cite_ref-keating_3-0" class="reference"><a href="#cite_note-keating-3">&#91;3&#93;</a></sup> But he was not ordained a <a href="/wiki/Priest" title="Priest">priest</a> until the year 1516.
+</p><p>With the death of <a href="/wiki/Pope_Julius_II" title="Pope Julius II">Pope Julius II</a> in 1513, Cajetan withdrew from the papal court.<sup id="cite_ref-keating_3-1" class="reference"><a href="#cite_note-keating-3">&#91;3&#93;</a></sup> Recalled to Vicenza by the death of his mother, he founded in 1522 a <a href="/wiki/Hospital" title="Hospital">hospital</a> for incurables there.<sup id="cite_ref-foley_4-0" class="reference"><a href="#cite_note-foley-4">&#91;4&#93;</a></sup> By 1523 he had established a hospital in Venice, as well. His interests were as much or more devoted to spiritual healing than the physical kind, and he joined a confraternity in Rome called the "<a href="/wiki/Oratory_of_Divine_Love" title="Oratory of Divine Love">Oratory of Divine Love</a>".<sup id="cite_ref-butler_1-1" class="reference"><a href="#cite_note-butler-1">&#91;1&#93;</a></sup> He intended to form a group that would combine the spirit of <a href="/wiki/Monasticism" title="Monasticism">monasticism</a> with the exercises of the active ministry.
+</p>
+<h2><span class="mw-headline" id="Theatines">Theatines</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Cajetan&amp;action=edit&amp;section=2" title="Edit section: Theatines">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A new congregation was canonically erected by <a href="/wiki/Pope_Clement_VII" title="Pope Clement VII">Pope Clement VII</a> in the year 1524. One of his four companions was Giovanni Pietro Carafa, the Bishop of Chieti, elected first superior of the order, who later became pope as <a href="/wiki/Pope_Paul_IV" title="Pope Paul IV">Paul IV</a>. From the name of the city of <a href="/wiki/Chieti" title="Chieti">Chieti</a> (in <a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Theate</i>), arose the name by which the order is known, the "<a href="/wiki/Theatines" title="Theatines">Theatines</a>".<sup id="cite_ref-foley_4-1" class="reference"><a href="#cite_note-foley-4">&#91;4&#93;</a></sup> The order grew at a fairly slow pace: there were only twelve Theatines during the <a href="/wiki/Sack_of_Rome_(1527)" title="Sack of Rome (1527)">sack of Rome in 1527</a>, during which Cajetan was tortured by the Spanish soldiers of <a href="/wiki/Charles_V,_Holy_Roman_Emperor" title="Charles V, Holy Roman Emperor">Charles V</a> who had mutinied.<sup id="cite_ref-Mullett_5-0" class="reference"><a href="#cite_note-Mullett-5">&#91;5&#93;</a></sup> The Theatines managed to escape to Venice.<sup id="cite_ref-foley_4-2" class="reference"><a href="#cite_note-foley-4">&#91;4&#93;</a></sup>
+</p><p>There Cajetan met <a href="/wiki/Jerome_Emiliani" class="mw-redirect" title="Jerome Emiliani">Jerome Emiliani</a>, whom he assisted in the establishment of his <a href="/wiki/Somaschi_Fathers" title="Somaschi Fathers">Congregation of Clerks Regular</a>. In 1533 he founded a house in Naples. The year 1540 found him in Venice again and from there he extended his work to <a href="/wiki/Verona" title="Verona">Verona</a>.<sup id="cite_ref-keating_3-2" class="reference"><a href="#cite_note-keating-3">&#91;3&#93;</a></sup> He founded a bank to help the poor and offer an alternative to usurers (who charged high interest rates).<sup id="cite_ref-cna_6-0" class="reference"><a href="#cite_note-cna-6">&#91;6&#93;</a></sup> It later became the <a href="/wiki/Banco_di_Napoli" title="Banco di Napoli">Banco di Napoli</a>.
+</p><p>Cajetan died in <a href="/wiki/Naples" title="Naples">Naples</a> on 7 August 1547.<sup id="cite_ref-cna_6-1" class="reference"><a href="#cite_note-cna-6">&#91;6&#93;</a></sup> His remains are in the church of <a href="/wiki/San_Paolo_Maggiore" title="San Paolo Maggiore">San Paolo Maggiore</a> in Naples;<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> outside the church is Piazza San Gaetano, with a statue.
+</p>
+<h2><span class="mw-headline" id="Veneration">Veneration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Cajetan&amp;action=edit&amp;section=3" title="Edit section: Veneration">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>He was <a href="/wiki/Beatified" class="mw-redirect" title="Beatified">beatified</a> on 8 October 1629 by <a href="/wiki/Pope_Urban_VIII" title="Pope Urban VIII">Pope Urban VIII</a>. On 12 April 1671 Cajetan was <a href="/wiki/Canonized" class="mw-redirect" title="Canonized">canonized</a>.<sup id="cite_ref-cna_6-2" class="reference"><a href="#cite_note-cna-6">&#91;6&#93;</a></sup> Saint Cajetan's <a href="/wiki/Feast_day" class="mw-redirect" title="Feast day">feast day</a> is celebrated on 7 August.
+</p><p>Jesuit missionary <a href="/wiki/Eusebio_Kino" title="Eusebio Kino">Eusebio Kino</a> in 1691 established the mission San Cayetano de Tumacácori in honor of Cajetan. It is now <a href="/wiki/Tumacacori_National_Historical_Park" class="mw-redirect" title="Tumacacori National Historical Park">Tumacacori National Historical Park</a> in <a href="/wiki/Arizona" title="Arizona">Arizona</a>.
+</p><p>He is known as the <a href="/wiki/Patron_saint" title="Patron saint">patron saint</a> of Argentina, the unemployed,<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup> gamblers, document controllers, and good fortune. He was a spiritual aspirant in the mould of St. Francis of Assisi who gave up his riches for leading a life of Christian piety. Fully committed and dedicated as one who practiced total renunciation of material riches would be, he was unwavering in his pursuit of the spiritual goals he had set for completion and never allowed himself to be distracted from realizing them. To the end, he was immersed in his work; and, after being made the patron saint of the unemployed, he meets, fully and favourably, the hopes and aspirations of those searching for work.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Cajetan&amp;action=edit&amp;section=4" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1132942124">.mw-parser-output .portalbox{padding:0;margin:0.5em 0;display:table;box-sizing:border-box;max-width:175px;list-style:none}.mw-parser-output .portalborder{border:solid #aaa 1px;padding:0.1em;background:#f9f9f9}.mw-parser-output .portalbox-entry{display:table-row;font-size:85%;line-height:110%;height:1.9em;font-style:italic;font-weight:bold}.mw-parser-output .portalbox-image{display:table-cell;padding:0.2em;vertical-align:middle;text-align:center}.mw-parser-output .portalbox-link{display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle}@media(min-width:720px){.mw-parser-output .portalleft{clear:left;float:left;margin:0.5em 1em 0.5em 0}.mw-parser-output .portalright{clear:right;float:right;margin:0.5em 0 0.5em 1em}}</style><ul role="navigation" aria-label="Portals" class="noprint portalbox portalborder portalright">
+<li class="portalbox-entry"><span class="portalbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/28px-P_vip.svg.png" decoding="async" width="28" height="28" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/41px-P_vip.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/55px-P_vip.svg.png 2x" data-file-width="1911" data-file-height="1944" /></span><span class="portalbox-link"><a href="/wiki/Portal:Biography" title="Portal:Biography">Biography portal</a></span></li><li class="portalbox-entry"><span class="portalbox-image"><a href="/wiki/File:046CupolaSPietro.jpg" class="image"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/32px-046CupolaSPietro.jpg" decoding="async" width="32" height="24" class="noviewer thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/48px-046CupolaSPietro.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/64px-046CupolaSPietro.jpg 2x" data-file-width="800" data-file-height="600" /></a></span><span class="portalbox-link"><a href="/wiki/Portal:Catholicism" class="mw-redirect" title="Portal:Catholicism">Catholicism portal</a></span></li><li class="portalbox-entry"><span class="portalbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/32px-Gloriole_blur.svg.png" decoding="async" width="32" height="28" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/48px-Gloriole_blur.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/64px-Gloriole_blur.svg.png 2x" data-file-width="32" data-file-height="28" /></span><span class="portalbox-link"><a href="/wiki/Portal:Saints" title="Portal:Saints">Saints portal</a></span></li><li class="portalbox-entry"><span class="portalbox-image"><img alt="flag" src="//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/32px-Flag_of_Italy.svg.png" decoding="async" width="32" height="21" class="noviewer thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/48px-Flag_of_Italy.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/64px-Flag_of_Italy.svg.png 2x" data-file-width="1500" data-file-height="1000" /></span><span class="portalbox-link"><a href="/wiki/Portal:Italy" title="Portal:Italy">Italy portal</a></span></li></ul>
+<ul><li><a href="/wiki/Theatines" title="Theatines">Theatines</a></li>
+<li><a href="/wiki/Sant%27Andrea_della_Valle" title="Sant&#39;Andrea della Valle">Sant'Andrea della Valle</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Cajetan&amp;action=edit&amp;section=5" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-butler-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-butler_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-butler_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.bartleby.com/210/8/071.html">Butler, Alban. <i>Lives of the Saints</i>, Vol. VIII, 1866</a></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFLewis2001" class="citation book cs1">Lewis, Mark A. (2001). "Recovering the Apostolic Way of Life".  In O'Malley, John W.; Comerford, Kathleen M.; Pabel, Hilmar M. (eds.). <a rel="nofollow" class="external text" href="https://books.google.com/?id=rNcNtSowTZEC&amp;pg=PA287"><i>Early Modern Catholicism: Essays in Honour of John W. O'Malley, S.J</i></a>. University of Toronto Press. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9780802084170" title="Special:BookSources/9780802084170"><bdi>9780802084170</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Recovering+the+Apostolic+Way+of+Life&amp;rft.btitle=Early+Modern+Catholicism%3A+Essays+in+Honour+of+John+W.+O%27Malley%2C+S.J&amp;rft.pub=University+of+Toronto+Press&amp;rft.date=2001&amp;rft.isbn=9780802084170&amp;rft.aulast=Lewis&amp;rft.aufirst=Mark+A.&amp;rft_id=https%3A%2F%2Fbooks.google.com%2F%3Fid%3DrNcNtSowTZEC%26pg%3DPA287&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Cajetan" class="Z3988"></span></span>
+</li>
+<li id="cite_note-keating-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-keating_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-keating_3-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-keating_3-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/03145a.htm">Keating, Joseph. "St. Cajetan." The Catholic Encyclopedia. Vol. 3. New York: Robert Appleton Company, 1908. 15 April 2013</a></span>
+</li>
+<li id="cite_note-foley-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-foley_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-foley_4-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-foley_4-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.americancatholic.org/features/saints/saint.aspx?id=1100">Foley O.F.M., Leonard. <i>Saint of the Day, Lives, Lessons, and Feast</i>, (revised by Pat McCloskey O.F.M.), Franciscan Media</a> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-86716-887-7" title="Special:BookSources/978-0-86716-887-7">978-0-86716-887-7</a></span>
+</li>
+<li id="cite_note-Mullett-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-Mullett_5-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=jqaEAgAAQBAJ&amp;pg=PA71&amp;dq=Theatines&amp;hl=en&amp;sa=X&amp;ei=3NANVbj1KYa-ggTWiIHACQ&amp;ved=0CE0Q6AEwCTgK#v=onepage&amp;q=Theatines&amp;f=false">Mullet, Michael. <i>The Catholic Reformation</i>, Routledge, 2002</a> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9781134658534" title="Special:BookSources/9781134658534">9781134658534</a></span>
+</li>
+<li id="cite_note-cna-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-cna_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-cna_6-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-cna_6-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.catholicnewsagency.com/saint.php?n=562">"St. Cajetan", Catholic News Agancy</a></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://catholicsaints.info/new-catholic-dictionary-saint-cajetan/">“Saint Cajetan”. <i>New Catholic Dictionary</i>. CatholicSaints.Info. 20 May 2016</a></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFWooden2013" class="citation news cs1">Wooden, Cindy (April 7, 2013). <a rel="nofollow" class="external text" href="http://webarchive.loc.gov/all/20140205233155/http://www.catholicnews.com/data/stories/cns/1303392.htm">"Pope joins pilgrims -via video- at Shrine of St. Cajetan"</a>. Catholic News Service. Archived from <a rel="nofollow" class="external text" href="http://www.catholicnews.com/data/stories/cns/1303392.htm">the original</a> on February 5, 2014<span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2017</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Pope+joins+pilgrims+-via+video-+at+Shrine+of+St.+Cajetan&amp;rft.date=2013-04-07&amp;rft.aulast=Wooden&amp;rft.aufirst=Cindy&amp;rft_id=http%3A%2F%2Fwww.catholicnews.com%2Fdata%2Fstories%2Fcns%2F1303392.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Cajetan" class="Z3988"></span></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Cajetan&amp;action=edit&amp;section=6" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Cajetan" class="extiw" title="commons:Category:Saint Cajetan">Saint Cajetan</a></span>.</div></div>
+</div>
+<ul><li><a rel="nofollow" class="external autonumber" href="https://sites.google.com/view/san-gaetano/home">[1]</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.zenit.org/en/articles/pope-francis-message-for-the-feast-of-saint-cajetan">"Pope Francis' Message for the Feast of Saint Cajetan", <i>Zenit</i>, August 7, 2013</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.stpetersbasilica.info/Exterior/Colonnades/Saints/St%20Cajetan-122/StCajetan.htm">Colonnade Statue in St Peter's Square</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.stpetersbasilica.info/Statues/Founders/Cajetan/Cajetan.htm">Founder Statue in St Peter's Basilica</a></li></ul>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q379914#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q379914#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q379914#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000108787299">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/22477916">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n92804730/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb11968042z">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb11968042z">(data)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://cantic.bnc.cat/registre/981058614814806706">Catalonia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/118702211">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.sbn.it/nome/CFIV093017">Italy</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n92804730">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p07359251X">Netherlands</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://mak.bn.org.pl/cgi-bin/KHW/makwww.exe?BM=1&amp;NU=1&amp;IM=4&amp;WI=9810529868005606">Poland</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.vatlib.it/auth/detail/495_16458">Vatican</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Art research institutes</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.getty.edu/vow/ULANFullDisplay?find=&amp;role=&amp;nation=&amp;subjectid=500354195">Artist Names (Getty)</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.treccani.it/enciclopedia/santo-gaetano-thiene_(Dizionario-Biografico)">Italian People</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118702211.html?language=en">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/309479/">FAST</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://snaccooperative.org/ark:/99166/w6qz52n7">Social Networks and Archival Context</a></span></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/027692744">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2414
+Cached time: 20230207175913
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.427 seconds
+Real time usage: 0.593 seconds
+Preprocessor visited node count: 1545/1000000
+Post‐expand include size: 29963/2097152 bytes
+Template argument size: 2075/2097152 bytes
+Highest expansion depth: 16/100
+Expensive parser function count: 23/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 21879/5000000 bytes
+Lua time usage: 0.311/10.000 seconds
+Lua memory usage: 18093423/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  549.234      1 -total
+ 20.65%  113.418      1 Template:Reflist
+ 18.84%  103.494      1 Template:Lang-la
+ 17.89%   98.247      1 Template:Authority_control
+ 12.47%   68.470      1 Template:Cite_book
+ 10.93%   60.043      1 Template:Short_description
+  9.16%   50.332      1 Template:Commons_category
+  8.79%   48.257      1 Template:Sister_project
+  8.49%   46.637      1 Template:Side_box
+  8.48%   46.577      1 Template:Infobox_saint
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:883653-0!canonical and timestamp 20230207175912 and revision id 1136343579. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Saint_Cajetan&amp;oldid=1136343579">https://en.wikipedia.org/w/index.php?title=Saint_Cajetan&amp;oldid=1136343579</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1480_births" title="Category:1480 births">1480 births</a></li><li><a href="/wiki/Category:1547_deaths" title="Category:1547 deaths">1547 deaths</a></li><li><a href="/wiki/Category:People_from_Vicenza" title="Category:People from Vicenza">People from Vicenza</a></li><li><a href="/wiki/Category:Founders_of_Catholic_religious_communities" title="Category:Founders of Catholic religious communities">Founders of Catholic religious communities</a></li><li><a href="/wiki/Category:Catholicism_in_Argentina" title="Category:Catholicism in Argentina">Catholicism in Argentina</a></li><li><a href="/wiki/Category:Christianity_in_Buenos_Aires" title="Category:Christianity in Buenos Aires">Christianity in Buenos Aires</a></li><li><a href="/wiki/Category:Counts" title="Category:Counts">Counts</a></li><li><a href="/wiki/Category:16th-century_Italian_lawyers" title="Category:16th-century Italian lawyers">16th-century Italian lawyers</a></li><li><a href="/wiki/Category:16th-century_Italian_Roman_Catholic_priests" title="Category:16th-century Italian Roman Catholic priests">16th-century Italian Roman Catholic priests</a></li><li><a href="/wiki/Category:Theatines" title="Category:Theatines">Theatines</a></li><li><a href="/wiki/Category:Beatifications_by_Pope_Urban_VIII" title="Category:Beatifications by Pope Urban VIII">Beatifications by Pope Urban VIII</a></li><li><a href="/wiki/Category:Canonizations_by_Pope_Clement_X" title="Category:Canonizations by Pope Clement X">Canonizations by Pope Clement X</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Articles_containing_Latin-language_text" title="Category:Articles containing Latin-language text">Articles containing Latin-language text</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_CANTICN_identifiers" title="Category:Articles with CANTICN identifiers">Articles with CANTICN identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_ICCU_identifiers" title="Category:Articles with ICCU identifiers">Articles with ICCU identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NTA_identifiers" title="Category:Articles with NTA identifiers">Articles with NTA identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_ULAN_identifiers" title="Category:Articles with ULAN identifiers">Articles with ULAN identifiers</a></li><li><a href="/wiki/Category:Articles_with_DBI_identifiers" title="Category:Articles with DBI identifiers">Articles with DBI identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_SNAC-ID_identifiers" title="Category:Articles with SNAC-ID identifiers">Articles with SNAC-ID identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 29 January 2023, at 22:11<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Saint_Cajetan&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.427","walltime":"0.593","ppvisitednodes":{"value":1545,"limit":1000000},"postexpandincludesize":{"value":29963,"limit":2097152},"templateargumentsize":{"value":2075,"limit":2097152},"expansiondepth":{"value":16,"limit":100},"expensivefunctioncount":{"value":23,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":21879,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  549.234      1 -total"," 20.65%  113.418      1 Template:Reflist"," 18.84%  103.494      1 Template:Lang-la"," 17.89%   98.247      1 Template:Authority_control"," 12.47%   68.470      1 Template:Cite_book"," 10.93%   60.043      1 Template:Short_description","  9.16%   50.332      1 Template:Commons_category","  8.79%   48.257      1 Template:Sister_project","  8.49%   46.637      1 Template:Side_box","  8.48%   46.577      1 Template:Infobox_saint"]},"scribunto":{"limitreport-timeusage":{"value":"0.311","limit":"10.000"},"limitreport-memusage":{"value":18093423,"limit":52428800}},"cachereport":{"origin":"mw2414","timestamp":"20230207175913","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Saint Cajetan","url":"https:\/\/en.wikipedia.org\/wiki\/Saint_Cajetan","sameAs":"http:\/\/www.wikidata.org\/entity\/Q379914","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q379914","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-08-07T14:02:17Z","dateModified":"2023-01-29T22:11:00Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a2\/Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg","headline":"(1480\u20131547) Founder of the Theatines"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Saint Cajetan","url":"https:\/\/en.wikipedia.org\/wiki\/Saint_Cajetan","sameAs":"http:\/\/www.wikidata.org\/entity\/Q379914","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q379914","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-08-07T14:02:17Z","dateModified":"2023-01-29T22:11:00Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a2\/Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg","headline":"(1480\u20131547) Founder of the Theatines"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":109,"wgHostname":"mw2409"});});</script>
+</body>
+</html>

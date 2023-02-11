@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Scholastica - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"b16425c2-4ef0-4b45-958f-b7131abf7466",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Scholastica","wgTitle":"Scholastica","wgCurRevisionId":1115846486,"wgRevisionId":1115846486,"wgArticleId":67849,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description matches Wikidata","Use dmy dates from March 2019","Commons category link is on Wikidata","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with GND identifiers","Articles with NKC identifiers","Articles with NTA identifiers","Articles with PLWABN identifiers","Articles with DBI identifiers","Articles with DTBIO identifiers","Year of birth uncertain","480 births","543 deaths","People from Norcia","Benedictine abbesses","Benedictine spirituality","Benedictine saints","6th-century Italian nuns","Italian Roman Catholic saints",
+"Founders of Catholic religious communities","Italian twins","5th-century Italo-Roman people","6th-century Italo-Roman people","5th-century Christian saints","6th-century Christian saints","Christian female saints of the Middle Ages","Anglican saints","Consecrated virgins"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Scholastica","wgRelevantArticleId":67849,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":
+"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q231300","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready",
+"jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/1/11/Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="871"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg/800px-Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="581"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg/640px-Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="465"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Scholastica - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Scholastica"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Scholastica&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Scholastica"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Scholastica rootpage-Scholastica skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Scholastica" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Scholastica"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Scholastica"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Scholastica" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Scholastica" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Scholastica&amp;oldid=1115846486" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Scholastica&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Scholastica&amp;id=1115846486&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q231300" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Scholastica&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Scholastica&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Scholastica" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Life"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Life">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Life</div>
+		</a>
+		
+		<ul id="toc-Life-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Narrative_from_the_Dialogues"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Narrative_from_the_Dialogues">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Narrative from the <i>Dialogues</i></div>
+		</a>
+		
+		<ul id="toc-Narrative_from_the_Dialogues-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Studies"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Studies">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Studies</div>
+		</a>
+		
+		<ul id="toc-Studies-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Veneration"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Veneration">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Veneration</div>
+		</a>
+		
+		<ul id="toc-Veneration-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Scholastica</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 27 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-27"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">27 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%B3%D9%83%D9%88%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D8%A7" title="سكولاستيكا – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a href="https://ast.wikipedia.org/wiki/Escol%C3%A1stica_de_Nurcia" title="Escolástica de Nurcia – Asturian" lang="ast" hreflang="ast" class="interlanguage-link-target"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D0%B0_%D0%A1%D0%BA%D0%BE%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0" title="Света Сколастика – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Escol%C3%A0stica_de_N%C3%BArsia" title="Escolàstica de Núrsia – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Svat%C3%A1_Scholastika" title="Svatá Scholastika – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Scholastika_von_Nursia" title="Scholastika von Nursia – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Escol%C3%A1stica_de_Nursia" title="Escolástica de Nursia – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Skolastika_de_Nursio" title="Skolastika de Nursio – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/Eskolastika_Nursiakoa" title="Eskolastika Nursiakoa – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Scholastique_de_Nursie" title="Scholastique de Nursie – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%BD%9C%EB%9D%BC%EC%8A%A4%ED%8B%B0%EC%B9%B4" title="스콜라스티카 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Skolastika" title="Skolastika – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Scolastica_da_Norcia" title="Scolastica da Norcia – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Skolastika_wa_Nursia" title="Skolastika wa Nursia – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Scholastica_de_Nursia" title="Scholastica de Nursia – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Szent_Skolasztika" title="Szent Skolasztika – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%A7%D8%B3%D9%83%D9%88%D9%84%D8%B3%D8%AA%D9%8A%D9%83%D8%A7" title="اسكولستيكا – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Scholastica" title="Scholastica – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%B3%E3%83%A9%E3%82%B9%E3%83%86%E3%82%A3%E3%82%AB" title="スコラスティカ – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a href="https://nn.wikipedia.org/wiki/Heilage_Scholastica" title="Heilage Scholastica – Norwegian Nynorsk" lang="nn" hreflang="nn" class="interlanguage-link-target"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_Scholastyka" title="Święta Scholastyka – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Santa_Escol%C3%A1stica" title="Santa Escolástica – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Scolastica_(sf%C3%A2nt%C4%83)" title="Scolastica (sfântă) – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%85%D0%BE%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0_(%D1%81%D0%B2%D1%8F%D1%82%D0%B0%D1%8F)" title="Схоластика (святая) – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Sveta_Skolastika" title="Sveta Skolastika – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Pyh%C3%A4_Scholastica" title="Pyhä Scholastica – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Scholastica" title="Scholastica – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q231300#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Scholastica" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Scholastica" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Scholastica"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Scholastica&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Scholastica&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Scholastica"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Scholastica&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Scholastica&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Italian saint</div>
+<style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">This article is about the Christian <a href="/wiki/Saint" title="Saint">saint</a>. For other uses, see <a href="/wiki/Scholastica_(disambiguation)" class="mw-disambig" title="Scholastica (disambiguation)">Scholastica (disambiguation)</a>.</div>
+<p class="mw-empty-elt">
+</p>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;">Saint</div><br /><div style="display:inline;" class="fn">Scholastica</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Jean_Baptiste_de_Champaigne_(1631-1681)_(attributed_to)_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg" class="image"><img alt="Jean Baptiste de Champaigne (1631-1681) (attributed to) - Saint Benedict and Saint Scholastica and Two Companions in a Landscape - 290251 - National Trust.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg/220px-Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg" decoding="async" width="220" height="160" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg/330px-Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg/440px-Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg 2x" data-file-width="1200" data-file-height="871" /></a><div class="infobox-caption">Saint Scholastica, Saint Benedict and companions</div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Virgin</th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">c. 480<br /><a href="/wiki/Nursia" class="mw-redirect" title="Nursia">Nursia</a>, <a href="/wiki/Umbria" title="Umbria">Umbria</a>, <a href="/wiki/Italy" title="Italy">Italy</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">10 February 543<br />near <a href="/wiki/Monte_Cassino" title="Monte Cassino">Monte Cassino</a></td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a><br /><a href="/wiki/Eastern_Orthodox_Church" title="Eastern Orthodox Church">Eastern Orthodox Church</a><br /><a href="/wiki/Anglican_Communion" title="Anglican Communion">Anglican Communion</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data"><a href="/wiki/Pre-congregation" class="mw-redirect" title="Pre-congregation">Pre-Congregation</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">10 February</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Saint_symbolism" title="Saint symbolism">Attributes</a></th><td class="infobox-data">nun with <a href="/wiki/Crosier" title="Crosier">crozier</a> and crucifix; nun with dove flying from her mouth<sup id="cite_ref-autogenerated1_1-0" class="reference"><a href="#cite_note-autogenerated1-1">&#91;1&#93;</a></sup></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data">Patroness of Benedictine women's communities; school; tests; books; reading; <a href="/wiki/Convulsion" title="Convulsion">convulsive</a> children; <a href="/wiki/Nun" title="Nun">nuns</a>; invoked against <a href="/wiki/Storm" title="Storm">storms</a> and <a href="/wiki/Rain" title="Rain">rain</a>; <a href="/wiki/Le_Mans" title="Le Mans">Le Mans</a></td></tr></tbody></table>
+<p><b>Scholastica</b> (c. 480 – 10 February 543) is a <a href="/wiki/Saint" title="Saint">saint</a> of the <a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a>, the <a href="/wiki/Eastern_Orthodox_Churches" class="mw-redirect" title="Eastern Orthodox Churches">Eastern Orthodox Churches</a> and the <a href="/wiki/Anglican_Communion" title="Anglican Communion">Anglican Communion</a>. She was born in Italy. According to a ninth century tradition, she was the <a href="/wiki/Twin" title="Twin">twin</a> sister of <a href="/wiki/Benedict_of_Nursia" title="Benedict of Nursia">Benedict of Nursia</a>.<sup id="cite_ref-engs_2-0" class="reference"><a href="#cite_note-engs-2">&#91;2&#93;</a></sup> Her feast day is 10 February, Saint Scholastica's Day.<sup id="cite_ref-Mazar2000_3-0" class="reference"><a href="#cite_note-Mazar2000-3">&#91;3&#93;</a></sup> Scholastica is traditionally regarded as the founder of the <a href="/wiki/Benedictines" title="Benedictines">Benedictine nuns</a>.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Life">Life</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scholastica&amp;action=edit&amp;section=1" title="Edit section: Life">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>According to the <i><a href="/wiki/Dialogues_(Pope_Gregory)" class="mw-redirect" title="Dialogues (Pope Gregory)">Dialogues</a></i> of <a href="/wiki/Gregory_the_Great" class="mw-redirect" title="Gregory the Great">Gregory the Great</a>, Scholastica was born c. 480 in <a href="/wiki/Nursia" class="mw-redirect" title="Nursia">Nursia</a>, <a href="/wiki/Umbria" title="Umbria">Umbria</a>, of wealthy parents (Anicius Eupropius and his wife Claudia Abondantia Reguardati). While Gregory states that Scholastica was Benedict's sister, a later tradition says she was his twin (whether this is meant biologically or spiritually, or both is unclear). Gregory also says she was dedicated to God from a young age. She and her brother Benedict were brought up together until the time he left to pursue studies in <a href="/wiki/Rome" title="Rome">Rome</a>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup> 
+</p><p>A young Roman woman of Scholastica's class and time would likely have remained in her father's house until marriage (likely arranged) or entry into consecrated life. On occasion several <a href="/wiki/Consecrated_virgin" title="Consecrated virgin">consecrated virgins</a> would live together in a household and form a community.<sup id="cite_ref-engs_2-1" class="reference"><a href="#cite_note-engs-2">&#91;2&#93;</a></sup>
+</p><p>Benedictine tradition holds that Scholastica established a hermitage about five miles from <a href="/wiki/Monte_Cassino" title="Monte Cassino">Monte Cassino</a> and that this was the first convent of Benedictine nuns.<sup id="cite_ref-osb_5-0" class="reference"><a href="#cite_note-osb-5">&#91;5&#93;</a></sup> However, it is possible that Scholastica lived in a hermitage with one or two other consecrated virgins in a cluster of houses at the base of Mount Cassino where there is an ancient church under her patronage Monastero di Santa Scolastica. <a href="/wiki/Ruth_Clifford_Engs" class="mw-redirect" title="Ruth Clifford Engs">Ruth Clifford Engs</a> notes that since <i>Dialogues</i> indicates that Scholastica was dedicated to God at an early age, perhaps she lived in her father's house with other religious women until his death and then moved nearer to Benedict.<sup id="cite_ref-engs_2-2" class="reference"><a href="#cite_note-engs-2">&#91;2&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Narrative_from_the_Dialogues">Narrative from the <i>Dialogues</i></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scholastica&amp;action=edit&amp;section=2" title="Edit section: Narrative from the Dialogues">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tleft"><div class="thumbinner" style="width:242px;"><a href="/wiki/File:Klosterkirche_Elchingen_10.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Klosterkirche_Elchingen_10.jpg/240px-Klosterkirche_Elchingen_10.jpg" decoding="async" width="240" height="161" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Klosterkirche_Elchingen_10.jpg/360px-Klosterkirche_Elchingen_10.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Klosterkirche_Elchingen_10.jpg/480px-Klosterkirche_Elchingen_10.jpg 2x" data-file-width="3449" data-file-height="2313" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Klosterkirche_Elchingen_10.jpg" class="internal" title="Enlarge"></a></div>Saints Benedict and Scholastica in conversation, Klosterkirche Elchingen</div></div></div>
+<p>The most commonly told story about her is that Scholastica would, once a year, go and visit her brother at a place near his abbey, and they would spend the day worshiping together and discussing sacred texts and issues.<sup id="cite_ref-Gregory_6-0" class="reference"><a href="#cite_note-Gregory-6">&#91;6&#93;</a></sup>
+</p><p>One day they had supper and continued their conversation. When Benedict indicated it was time for him to leave, Scholastica, perhaps sensing that the time of her death was drawing near, asked him to stay with her for the evening so they could continue their discussions. Not wishing to break <a href="/wiki/Rule_of_Saint_Benedict" title="Rule of Saint Benedict">his own Rule</a>, Benedict refused, insisting that he needed to return to his cell. At that point, Scholastica closed her hands in prayer, and after a moment, a wild storm started outside of the guest house in which they were staying. Benedict asked, "What have you done?", to which she replied, "I asked you and you would not listen; so I asked my God and he did listen. So now go off, if you can; leave me and return to your monastery." Benedict was unable to return to his monastery, and they spent the night in discussion.<sup id="cite_ref-Gregory_6-1" class="reference"><a href="#cite_note-Gregory-6">&#91;6&#93;</a></sup>
+</p><p>Three days later, from his cell, he saw his sister's <a href="/wiki/Soul_(spirit)" class="mw-redirect" title="Soul (spirit)">soul</a> leaving the earth and ascending to heaven in the form of a shining white dove.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> Benedict had her body brought to his monastery, where he had it laid in the tomb which he had prepared for himself.<sup id="cite_ref-Gregory_6-2" class="reference"><a href="#cite_note-Gregory-6">&#91;6&#93;</a></sup>
+</p><p>The Anglo-Saxon bishop and scholar <a href="/wiki/Aldhelm" title="Aldhelm">Aldhelm</a> recounts the story in both the <i>De Laude Virginitatis</i>, written for the nuns at <a href="/wiki/Barking_Abbey" title="Barking Abbey">Barking</a>, and in the shorter <i>Carmen de virginitate</i>.
+</p>
+<h2><span class="mw-headline" id="Studies">Studies</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scholastica&amp;action=edit&amp;section=3" title="Edit section: Studies">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>What is known of Scholastica derives from the <i>Dialogues</i> of Gregory the Great. Early calendars and place names in the area around Monte Cassino support the historical accuracy of St. Gregory the Great's account of her life.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup> Gregory names as his sources four of Benedict's contemporaries. A contemporary, <a href="/wiki/Caesarius_of_Arles" title="Caesarius of Arles">Caesarius of Arles</a>, wrote the <i>Regula virginum</i> (Rule for Virgins), a rule drawn up for virgins living in community, for a community which was headed by his sister, Caesaria.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Veneration">Veneration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scholastica&amp;action=edit&amp;section=4" title="Edit section: Veneration">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Scholastica is the patron saint of Benedictine <a href="/wiki/Nun" title="Nun">nuns</a>, education, and <a href="/wiki/Convulsion" title="Convulsion">convulsive</a> children, and is invoked against storms and rain. 
+Her feast is celebrated on <a href="/wiki/February_10" title="February 10">February 10</a>.<sup id="cite_ref-Mazar2000_3-1" class="reference"><a href="#cite_note-Mazar2000-3">&#91;3&#93;</a></sup>  Saint Scholastica's Day bears special importance in the Benedictine monastic calendar.<sup id="cite_ref-Webber2008_10-0" class="reference"><a href="#cite_note-Webber2008-10">&#91;10&#93;</a></sup> 
+</p><p>In iconography, Scholastica is represented in a Benedictine <a href="/wiki/Religious_habit" title="Religious habit">habit</a>, often as an <a href="/wiki/Abbess" title="Abbess">abbess</a>, and holding the <a href="/wiki/Rule_of_Saint_Benedict" title="Rule of Saint Benedict">Rule of Saint Benedict</a>, with a crucifix or an ascending dove.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup>
+</p><p>Scholastica was selected as the main motif for a high value commemorative coin: the <a href="/wiki/Euro_gold_and_silver_commemorative_coins_(Austria)#2002_coinage" title="Euro gold and silver commemorative coins (Austria)">Austria €50 'The Christian Religious Orders'</a>, issued 13 March 2002. On the obverse (heads) side of the coin Scholastica is depicted alongside Benedict. 
+</p><p>Scholastica is honored on the calendars of the <a href="/wiki/Calendar_of_saints_(Church_of_England)" title="Calendar of saints (Church of England)">Church of England</a><sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup> and the <a href="/wiki/Calendar_of_saints_(Episcopal_Church)" title="Calendar of saints (Episcopal Church)">Episcopal Church</a><sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;13&#93;</a></sup> on <a href="/wiki/February_10" title="February 10">10 February</a>.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scholastica&amp;action=edit&amp;section=5" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/List_of_Catholic_saints" title="List of Catholic saints">List of Catholic saints</a></li>
+<li><a href="/wiki/St_Scholastica_Day_riot" title="St Scholastica Day riot">St Scholastica Day riot</a></li>
+<li><a href="/wiki/Portal:Catholic_Church/Patron_Archive/February_10" title="Portal:Catholic Church/Patron Archive/February 10">Saint Scholastica, patron saint archive</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scholastica&amp;action=edit&amp;section=6" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-autogenerated1-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-autogenerated1_1-0">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20120207160156/http://saints.sqpn.com/saints06.htm">"Patron Saints Index: Saint Scholastica"</a>. Saints.sqpn.com. Archived from <a rel="nofollow" class="external text" href="http://saints.sqpn.com/saints06.htm">the original</a> on 7 February 2012<span class="reference-accessdate">. Retrieved <span class="nowrap">20 May</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Patron+Saints+Index%3A+Saint+Scholastica&amp;rft.pub=Saints.sqpn.com&amp;rft_id=http%3A%2F%2Fsaints.sqpn.com%2Fsaints06.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScholastica" class="Z3988"></span></span>
+</li>
+<li id="cite_note-engs-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-engs_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-engs_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-engs_2-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.indiana.edu/~engs/scholas.htm">"St. Scholastica - Traditional twin of St. Benedict"</a>. <i>www.indiana.edu</i><span class="reference-accessdate">. Retrieved <span class="nowrap">12 February</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.indiana.edu&amp;rft.atitle=St.+Scholastica+-+Traditional+twin+of+St.+Benedict&amp;rft_id=https%3A%2F%2Fwww.indiana.edu%2F~engs%2Fscholas.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScholastica" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Mazar2000-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-Mazar2000_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Mazar2000_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFMazar2000" class="citation book cs1">Mazar, Peter (2000). <i>School Year, Church Year</i>. LiturgyTrainingPublications. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1-56854-240-9" title="Special:BookSources/978-1-56854-240-9"><bdi>978-1-56854-240-9</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=School+Year%2C+Church+Year&amp;rft.pub=LiturgyTrainingPublications&amp;rft.date=2000&amp;rft.isbn=978-1-56854-240-9&amp;rft.aulast=Mazar&amp;rft.aufirst=Peter&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScholastica" class="Z3988"></span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=jAPnDqXxVmMC&amp;pg=PA5&amp;dq=Saint+Scholastica&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwidzY7up4TbAhWiTt8KHcDUACs4ChDoAQhSMAg#v=onepage&amp;q=Saint%20Scholastica&amp;f=false">Mary Richard Boo OSB and Joan M. Braun OSB, <i>Emerging from the Shadows: St. Scholastica</i>, in <i>Medieval Women Monastics</i></a>, (Miriam Schmitt OSB and Linda Kulzer OSB, eds) The Liturgical Press, Collegeville, 1996  <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9780814622926" title="Special:BookSources/9780814622926">9780814622926</a></span>
+</li>
+<li id="cite_note-osb-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-osb_5-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.osb.org//gen/scholastica.html">"Saint Scholastica, Virgin and Religious Founder. OSB"</a>. <i>www.osb.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">12 February</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.osb.org&amp;rft.atitle=Saint+Scholastica%2C+Virgin+and+Religious+Founder.+OSB.&amp;rft_id=https%3A%2F%2Fwww.osb.org%2F%2Fgen%2Fscholastica.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScholastica" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Gregory-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-Gregory_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Gregory_6-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Gregory_6-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.osb.org//gen/scholastica.html">"Saint Scholastica, Virgin and Religious Founder. OSB"</a>. <i>www.osb.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">12 February</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.osb.org&amp;rft.atitle=Saint+Scholastica%2C+Virgin+and+Religious+Founder.+OSB.&amp;rft_id=https%3A%2F%2Fwww.osb.org%2F%2Fgen%2Fscholastica.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScholastica" class="Z3988"></span></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.osb.org//gen/scholastica.html">"Saint Scholastica, Virgin and Religious Founder. OSB"</a>. <i>www.osb.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">12 February</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.osb.org&amp;rft.atitle=Saint+Scholastica%2C+Virgin+and+Religious+Founder.+OSB.&amp;rft_id=https%3A%2F%2Fwww.osb.org%2F%2Fgen%2Fscholastica.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScholastica" class="Z3988"></span></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Beau, A., <i>Le Culte et les reliques de Saint Benoît et de Sainte Scholastique</i>, Abadia de Montserrat/University of Virginia, (1979) <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9788472023666" title="Special:BookSources/9788472023666">9788472023666</a></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/03135b.htm">Shahan, Thomas. "St. Caesarius of Arles." The Catholic Encyclopedia</a> Vol. 3. New York: Robert Appleton Company, 1908. 10 February 2018</span>
+</li>
+<li id="cite_note-Webber2008-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-Webber2008_10-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFWebber2008" class="citation book cs1">Webber, Donald (2008). <i>Silence and Peace</i>. Lulu. p.&#160;63. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-615-20507-6" title="Special:BookSources/978-0-615-20507-6"><bdi>978-0-615-20507-6</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Silence+and+Peace&amp;rft.pages=63&amp;rft.pub=Lulu&amp;rft.date=2008&amp;rft.isbn=978-0-615-20507-6&amp;rft.aulast=Webber&amp;rft.aufirst=Donald&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScholastica" class="Z3988"></span></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><i>Lexikon der christlichen Ikonographie</i>, (Kirschbaum and Bandmann, eds.),8.315-16</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/common-worship/churchs-year/calendar">"The Calendar"</a>. <i>The Church of England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">27 March</span> 2021</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Church+of+England&amp;rft.atitle=The+Calendar&amp;rft_id=https%3A%2F%2Fwww.churchofengland.org%2Fprayer-and-worship%2Fworship-texts-and-resources%2Fcommon-worship%2Fchurchs-year%2Fcalendar&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScholastica" class="Z3988"></span></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.episcopalchurch.org/lectionary/scholastica-of-nursia/">"Scholastica of Nursia, Monastic, 543"</a>. <i>The Episcopal Church</i><span class="reference-accessdate">. Retrieved <span class="nowrap">21 July</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Episcopal+Church&amp;rft.atitle=Scholastica+of+Nursia%2C+Monastic%2C+543&amp;rft_id=https%3A%2F%2Fwww.episcopalchurch.org%2Flectionary%2Fscholastica-of-nursia%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScholastica" class="Z3988"></span></span>
+</li>
+</ol></div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scholastica&amp;action=edit&amp;section=7" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Scholastica" class="extiw" title="commons:Category:Saint Scholastica">Saint Scholastica</a></span>.</div></div>
+</div>
+<ul><li><a rel="nofollow" class="external text" href="http://d.lib.rochester.edu/teams/text/whatley-saints-lives-in-middle-english-collections-life-of-st-scholastica-introduction">Whatley, E. Gordon, Thompson, Anne B., and Upchurch, Robert K. "The Life of St. Scholastica:Introduction", <i>Saints Lives in Middle English Collections</i>, Medieval Institute Publications, Kalamazoo, Michigan, 2004</a></li>
+<li>Adrienne von Speyr, ″Book of All Saints: Scholastica″, pp. 347–349. San Francisco: Ignatius Press, 2008.</li>
+<li><a rel="nofollow" class="external text" href="http://www.ewtn.com/saintsHoly/saints/S/stscholastica.asp">Butler, Alban. "St. Scholastica", <i>The Lives or the Fathers, Martyrs and Other Principal Saints</i>, Vol.I, D. &amp; J. Sadlier, &amp; Company, 1864</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.americancatholic.org/Features/Saints/saint.aspx?id=1287">Foley O.F.M., Leonard, "Saint Scholastica", <i>Saint of the Day</i>, Franciscan Media</a></li></ul>
+<style data-mw-deduplicate="TemplateStyles:r1130092004">.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;justify-content:center;align-items:baseline}.mw-parser-output .portal-bar-bordered{padding:0 2em;background-color:#fdfdfd;border:1px solid #a2a9b1;clear:both;margin:1em auto 0}.mw-parser-output .portal-bar-related{font-size:100%;justify-content:flex-start}.mw-parser-output .portal-bar-unbordered{padding:0 1.7em;margin-left:0}.mw-parser-output .portal-bar-header{margin:0 1em 0 0.5em;flex:0 0 auto;min-height:24px}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;flex:0 1 auto;padding:0.15em 0;column-gap:1em;align-items:baseline;margin:0;list-style:none}.mw-parser-output .portal-bar-content-related{margin:0;list-style:none}.mw-parser-output .portal-bar-item{display:inline-block;margin:0.15em 0.2em;min-height:24px;line-height:24px}@media screen and (max-width:768px){.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;flex-flow:column wrap;align-items:baseline}.mw-parser-output .portal-bar-header{text-align:center;flex:0;padding-left:0.5em;margin:0 auto}.mw-parser-output .portal-bar-related{font-size:100%;align-items:flex-start}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;align-items:center;flex:0;column-gap:1em;border-top:1px solid #a2a9b1;margin:0 auto;list-style:none}.mw-parser-output .portal-bar-content-related{border-top:none;margin:0;list-style:none}}.mw-parser-output .navbox+link+.portal-bar,.mw-parser-output .navbox+style+.portal-bar,.mw-parser-output .navbox+link+.portal-bar-bordered,.mw-parser-output .navbox+style+.portal-bar-bordered,.mw-parser-output .sister-bar+link+.portal-bar,.mw-parser-output .sister-bar+style+.portal-bar,.mw-parser-output .portal-bar+.navbox-styles+.navbox,.mw-parser-output .portal-bar+.navbox-styles+.sister-bar{margin-top:-1px}</style><div class="portal-bar noprint metadata noviewer portal-bar-bordered" role="navigation" aria-label="Portals"><span class="portal-bar-header"><a href="/wiki/Wikipedia:Contents/Portals" title="Wikipedia:Contents/Portals">Portals</a>:</span><ul class="portal-bar-content"><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/21px-Gloriole_blur.svg.png" decoding="async" width="21" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/32px-Gloriole_blur.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/42px-Gloriole_blur.svg.png 2x" data-file-width="32" data-file-height="28" />&#160;<a href="/wiki/Portal:Saints" title="Portal:Saints">Saints</a></li><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/19px-P_vip.svg.png" decoding="async" width="19" height="19" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/28px-P_vip.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/37px-P_vip.svg.png 2x" data-file-width="1911" data-file-height="1944" />&#160;<a href="/wiki/Portal:Biography" title="Portal:Biography">Biography</a></li><li class="portal-bar-item"><a href="/wiki/File:046CupolaSPietro.jpg" class="image"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/21px-046CupolaSPietro.jpg" decoding="async" width="21" height="16" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/32px-046CupolaSPietro.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/42px-046CupolaSPietro.jpg 2x" data-file-width="800" data-file-height="600" /></a>&#160;<a href="/wiki/Portal:Catholicism" class="mw-redirect" title="Portal:Catholicism">Catholicism</a></li><li class="portal-bar-item"><a href="/wiki/File:P_christianity.svg" class="image"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/21px-P_christianity.svg.png" decoding="async" width="21" height="19" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/32px-P_christianity.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/42px-P_christianity.svg.png 2x" data-file-width="400" data-file-height="360" /></a>&#160;<a href="/wiki/Portal:Christianity" title="Portal:Christianity">Christianity</a></li><li class="portal-bar-item"><img alt="flag" src="//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/21px-Flag_of_Italy.svg.png" decoding="async" width="21" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/32px-Flag_of_Italy.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/42px-Flag_of_Italy.svg.png 2x" data-file-width="1500" data-file-height="1000" />&#160;<a href="/wiki/Portal:Italy" title="Portal:Italy">Italy</a></li></ul></div>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q231300#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q231300#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q231300#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000080457895">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/121911013">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/viaf-121911013/">WorldCat</a></span>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/viaf-50109958/">2</a></span></li></ul></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/122475127">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=xx0029968&amp;CON_LNG=ENG">Czech Republic</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p071894268">Netherlands</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://mak.bn.org.pl/cgi-bin/KHW/makwww.exe?BM=1&amp;NU=1&amp;IM=4&amp;WI=9810570500605606">Poland</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.treccani.it/enciclopedia/santa-scolastica_(Dizionario-Biografico)">Italian People</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd122475127.html?language=en">Germany</a></span></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2387
+Cached time: 20230204153444
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.350 seconds
+Real time usage: 0.478 seconds
+Preprocessor visited node count: 1678/1000000
+Post‐expand include size: 32506/2097152 bytes
+Template argument size: 1882/2097152 bytes
+Highest expansion depth: 15/100
+Expensive parser function count: 16/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 38332/5000000 bytes
+Lua time usage: 0.231/10.000 seconds
+Lua memory usage: 7101893/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  431.679      1 -total
+ 20.45%   88.273      7 Template:Cite_web
+ 18.38%   79.357      1 Template:Authority_control
+ 13.81%   59.627      1 Template:Short_description
+ 10.17%   43.902      1 Template:Commons_category
+ 10.14%   43.755      1 Template:Infobox_saint
+  9.72%   41.938      1 Template:Sister_project
+  9.31%   40.173      1 Template:Side_box
+  9.27%   40.032      1 Template:Infobox
+  8.68%   37.460      1 Template:Subject_bar
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:67849-0!canonical and timestamp 20230204153443 and revision id 1115846486. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Scholastica&amp;oldid=1115846486">https://en.wikipedia.org/w/index.php?title=Scholastica&amp;oldid=1115846486</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:480_births" title="Category:480 births">480 births</a></li><li><a href="/wiki/Category:543_deaths" title="Category:543 deaths">543 deaths</a></li><li><a href="/wiki/Category:People_from_Norcia" title="Category:People from Norcia">People from Norcia</a></li><li><a href="/wiki/Category:Benedictine_abbesses" title="Category:Benedictine abbesses">Benedictine abbesses</a></li><li><a href="/wiki/Category:Benedictine_spirituality" title="Category:Benedictine spirituality">Benedictine spirituality</a></li><li><a href="/wiki/Category:Benedictine_saints" title="Category:Benedictine saints">Benedictine saints</a></li><li><a href="/wiki/Category:6th-century_Italian_nuns" title="Category:6th-century Italian nuns">6th-century Italian nuns</a></li><li><a href="/wiki/Category:Italian_Roman_Catholic_saints" title="Category:Italian Roman Catholic saints">Italian Roman Catholic saints</a></li><li><a href="/wiki/Category:Founders_of_Catholic_religious_communities" title="Category:Founders of Catholic religious communities">Founders of Catholic religious communities</a></li><li><a href="/wiki/Category:Italian_twins" title="Category:Italian twins">Italian twins</a></li><li><a href="/wiki/Category:5th-century_Italo-Roman_people" title="Category:5th-century Italo-Roman people">5th-century Italo-Roman people</a></li><li><a href="/wiki/Category:6th-century_Italo-Roman_people" title="Category:6th-century Italo-Roman people">6th-century Italo-Roman people</a></li><li><a href="/wiki/Category:5th-century_Christian_saints" title="Category:5th-century Christian saints">5th-century Christian saints</a></li><li><a href="/wiki/Category:6th-century_Christian_saints" title="Category:6th-century Christian saints">6th-century Christian saints</a></li><li><a href="/wiki/Category:Christian_female_saints_of_the_Middle_Ages" title="Category:Christian female saints of the Middle Ages">Christian female saints of the Middle Ages</a></li><li><a href="/wiki/Category:Anglican_saints" title="Category:Anglican saints">Anglican saints</a></li><li><a href="/wiki/Category:Consecrated_virgins" title="Category:Consecrated virgins">Consecrated virgins</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_matches_Wikidata" title="Category:Short description matches Wikidata">Short description matches Wikidata</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_March_2019" title="Category:Use dmy dates from March 2019">Use dmy dates from March 2019</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_NTA_identifiers" title="Category:Articles with NTA identifiers">Articles with NTA identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_DBI_identifiers" title="Category:Articles with DBI identifiers">Articles with DBI identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Year_of_birth_uncertain" title="Category:Year of birth uncertain">Year of birth uncertain</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 13 October 2022, at 14:20<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Scholastica&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.350","walltime":"0.478","ppvisitednodes":{"value":1678,"limit":1000000},"postexpandincludesize":{"value":32506,"limit":2097152},"templateargumentsize":{"value":1882,"limit":2097152},"expansiondepth":{"value":15,"limit":100},"expensivefunctioncount":{"value":16,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":38332,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  431.679      1 -total"," 20.45%   88.273      7 Template:Cite_web"," 18.38%   79.357      1 Template:Authority_control"," 13.81%   59.627      1 Template:Short_description"," 10.17%   43.902      1 Template:Commons_category"," 10.14%   43.755      1 Template:Infobox_saint","  9.72%   41.938      1 Template:Sister_project","  9.31%   40.173      1 Template:Side_box","  9.27%   40.032      1 Template:Infobox","  8.68%   37.460      1 Template:Subject_bar"]},"scribunto":{"limitreport-timeusage":{"value":"0.231","limit":"10.000"},"limitreport-memusage":{"value":7101893,"limit":52428800}},"cachereport":{"origin":"mw2387","timestamp":"20230204153444","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Scholastica","url":"https:\/\/en.wikipedia.org\/wiki\/Scholastica","sameAs":"http:\/\/www.wikidata.org\/entity\/Q231300","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q231300","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-08-05T03:27:00Z","dateModified":"2022-10-13T14:20:06Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/11\/Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg","headline":"Italian saint"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Scholastica","url":"https:\/\/en.wikipedia.org\/wiki\/Scholastica","sameAs":"http:\/\/www.wikidata.org\/entity\/Q231300","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q231300","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-08-05T03:27:00Z","dateModified":"2022-10-13T14:20:06Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/11\/Jean_Baptiste_de_Champaigne_%281631-1681%29_%28attributed_to%29_-_Saint_Benedict_and_Saint_Scholastica_and_Two_Companions_in_a_Landscape_-_290251_-_National_Trust.jpg","headline":"Italian saint"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":108,"wgHostname":"mw2392"});});</script>
+</body>
+</html>

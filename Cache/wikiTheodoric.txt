@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Theodoric - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"f8d74285-2623-445a-a24f-092be83cc8e8",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Theodoric","wgTitle":"Theodoric","wgCurRevisionId":1114962900,"wgRevisionId":1114962900,"wgArticleId":75260,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing Latin-language text","Articles containing Old English (ca. 450-1100)-language text","Articles with short description","Short description is different from Wikidata","All set index articles","Given names","Germanic given names"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Theodoric","wgRelevantArticleId":75260,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},
+"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q15884118","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready",
+"skins.vector.icons":"ready","mediawiki.ui.icon":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/c/c0/Teodorico_re_dei_Goti_%28493-526%29.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="1200"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/c/c0/Teodorico_re_dei_Goti_%28493-526%29.png"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="800"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="640"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Theodoric - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Theodoric"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Theodoric&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Theodoric"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Theodoric rootpage-Theodoric skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Theodoric" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Theodoric"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Theodoric"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Theodoric" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Theodoric" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Theodoric&amp;oldid=1114962900" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Theodoric&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Theodoric&amp;id=1114962900&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q15884118" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Theodoric&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Theodoric&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Theodoric_(given_name)" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Overview"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Overview">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Overview</div>
+		</a>
+		
+		<ul id="toc-Overview-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Late_antiquity_to_early_Middle_Ages"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Late_antiquity_to_early_Middle_Ages">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Late antiquity to early Middle Ages</div>
+		</a>
+		
+		<ul id="toc-Late_antiquity_to_early_Middle_Ages-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-High_and_late_Middle_Ages"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#High_and_late_Middle_Ages">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>High and late Middle Ages</div>
+		</a>
+		
+		<ul id="toc-High_and_late_Middle_Ages-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Modern_era"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Modern_era">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Modern era</div>
+		</a>
+		
+		<ul id="toc-Modern_era-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Fictional"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Fictional">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>Fictional</div>
+		</a>
+		
+		<ul id="toc-Fictional-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Notes"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Notes">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>Notes</div>
+		</a>
+		
+		<ul id="toc-Notes-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Theodoric</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 3 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-3"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">3 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-br mw-list-item"><a href="https://br.wikipedia.org/wiki/Teodorig" title="Teodorig – Breton" lang="br" hreflang="br" class="interlanguage-link-target"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Teodoryk_(imi%C4%99)" title="Teodoryk (imię) – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Theodoric" title="Theodoric – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q15884118#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Theodoric" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Theodoric" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Theodoric"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Theodoric&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Theodoric&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Theodoric"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Theodoric&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Theodoric&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox"><caption class="infobox-title">Theodoric</caption><tbody><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Teodorico_re_dei_Goti_(493-526).png" class="image"><img alt="Teodorico re dei Goti (493-526).png" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Teodorico_re_dei_Goti_%28493-526%29.png/220px-Teodorico_re_dei_Goti_%28493-526%29.png" decoding="async" width="220" height="220" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Teodorico_re_dei_Goti_%28493-526%29.png/330px-Teodorico_re_dei_Goti_%28493-526%29.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Teodorico_re_dei_Goti_%28493-526%29.png/440px-Teodorico_re_dei_Goti_%28493-526%29.png 2x" data-file-width="600" data-file-height="600" /></a><div class="infobox-caption"><a href="/wiki/Theodoric_the_Great" title="Theodoric the Great">Theodoric the Great</a></div></td></tr><tr><th scope="row" class="infobox-label">Gender</th><td class="infobox-data">Male</td></tr><tr><th scope="row" class="infobox-label">Language(s)</th><td class="infobox-data"><a href="/wiki/Germanic_language" class="mw-redirect" title="Germanic language">Germanic</a></td></tr><tr><th colspan="2" class="infobox-header" style="background:#ADD8E6">Origin</th></tr><tr><th scope="row" class="infobox-label">Meaning</th><td class="infobox-data"><i><a href="/wiki/%C3%9Eeudo" class="mw-redirect" title="Þeudo">þeudo</a></i> "people" and <i><a href="/wiki/R%C4%ABks" class="mw-redirect" title="Rīks">rīks</a></i> "ruler"</td></tr><tr><th colspan="2" class="infobox-header" style="background:#ADD8E6">Other names</th></tr><tr><th scope="row" class="infobox-label">Alternative spelling</th><td class="infobox-data"><a href="/wiki/Theoderic" class="mw-redirect" title="Theoderic">Theoderic</a>, <a href="/wiki/Theudoric" class="mw-redirect" title="Theudoric">Theudoric</a>, <a href="/wiki/Theuderic" class="mw-redirect" title="Theuderic">Theuderic</a>, <a href="/wiki/Theuderich" class="mw-redirect" title="Theuderich">Theuderich</a>, Þjóðríkr, Tjodrik, <a href="/wiki/Dietrich_(name)" class="mw-redirect" title="Dietrich (name)">Dietrich</a>, Ditrik, <a href="/wiki/Dedrick_(disambiguation)" class="mw-redirect mw-disambig" title="Dedrick (disambiguation)">Dedrick</a>, <a href="/wiki/Diederik" title="Diederik">Diederik</a></td></tr><tr><th scope="row" class="infobox-label">Derived</th><td class="infobox-data"><a href="/wiki/Dieter_(disambiguation)" class="mw-redirect mw-disambig" title="Dieter (disambiguation)">Dieter</a>, <a href="/wiki/Derek" title="Derek">Derek</a>, <a href="/wiki/Derrick_(name)" title="Derrick (name)">Derrick</a>, <a href="/wiki/Dirk_(name)" title="Dirk (name)">Dirk</a>, <a href="/wiki/Teodorico" title="Teodorico">Teodorico</a>, <a href="/wiki/Thierry" title="Thierry">Thierry</a>, <a href="/wiki/Terry" title="Terry">Terry</a>, <a href="/wiki/Tietje" title="Tietje">Tietje</a>, Diede, <a href="/wiki/Tudur" title="Tudur">Tudur</a></td></tr><tr><th scope="row" class="infobox-label">See also</th><td class="infobox-data"><a href="/wiki/Theodore_(name)" class="mw-redirect" title="Theodore (name)">Theodore (name)</a></td></tr></tbody></table>
+<p><b>Theodoric</b>  is a <a href="/wiki/Germanic_given_name" class="mw-redirect" title="Germanic given name">Germanic given name</a>. First attested as a <a href="/wiki/Gothic_name" title="Gothic name">Gothic name</a> in the 5th century, it became widespread in the Germanic-speaking world, not least due to its most famous bearer, <a href="/wiki/Theodoric_the_Great" title="Theodoric the Great">Theodoric the Great</a>, king of the <a href="/wiki/Ostrogoths" title="Ostrogoths">Ostrogoths</a>.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Theodoric&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The name was <a href="/wiki/Latinisation_of_names" title="Latinisation of names">Latinized</a> as <i>Theodoricus</i> or <i>Theodericus</i>, originally from a <a href="/wiki/Proto-Germanic_language" title="Proto-Germanic language">Common Germanic</a> form <i>*<a href="https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/%C3%9Eeudar%C4%ABks" class="extiw" title="wikt:Reconstruction:Proto-Germanic/Þeudarīks">Þeudarīks</a></i> ("people-ruler") from *<i><a href="https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/%C3%BEeud%C5%8D" class="extiw" title="wikt:Reconstruction:Proto-Germanic/þeudō">þeudō</a></i> ("people") and *<i><a href="https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/r%C4%ABks" class="extiw" title="wikt:Reconstruction:Proto-Germanic/rīks">rīks</a></i>, which would have resulted in a <a href="/wiki/Gothic_language" title="Gothic language">Gothic</a> *𐌸𐌹𐌿𐌳𐌰𐍂𐌴𐌹𐌺𐍃 (*þiudareiks).<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup>  Anglicized spellings of the name during Late Antiquity and the Early Middle Ages include <i>Theodoric</i>, <i>Theoderic</i>, <i>Theudoric</i>, <i>Theuderic</i>.
+<a href="/wiki/Gregory_of_Tours" title="Gregory of Tours">Gregory of Tours</a> Latinized the name as   <i><a href="/wiki/Theodore_(given_name)" title="Theodore (given name)">Theodorus</a></i>, in origin the unrelated Greek name <a href="/wiki/Theodore_(given_name)" title="Theodore (given name)">Theodore</a> (Θεόδωρος, meaning "God's gift").
+</p><p>As the name survived throughout the Middle Ages, it transformed into a multitude of forms in the languages of Western Europe. 
+These include the  <a href="/wiki/German_language" title="German language">High German</a>  form  <i><a href="/wiki/Dietrich_(disambiguation)" class="mw-redirect mw-disambig" title="Dietrich (disambiguation)">Dietrich</a></i>, abbreviated <i><a href="/wiki/Dieter_(disambiguation)" class="mw-redirect mw-disambig" title="Dieter (disambiguation)">Dieter</a></i>, the  Low German and Dutch form <i><a href="/wiki/Diederik" title="Diederik">Diederik</a></i>, or <i>Dierik</i>, abbreviated <i><a href="/wiki/Dirck" title="Dirck">Dirck</a></i>,  <i><a href="/wiki/Dirk_(disambiguation)" class="mw-disambig" title="Dirk (disambiguation)">Dirk</a></i>, <i><a href="/wiki/Dik_(disambiguation)" class="mw-redirect mw-disambig" title="Dik (disambiguation)">Dik</a></i> or <i>Diede</i>,  the <a href="/wiki/Norwegian_language" title="Norwegian language">Norwegian</a>  <i>Tjodrik</i>, <i>Diderik</i> and <i>Didrik</i>. Of the Romance languages, French has <i><a href="/wiki/Thierry_(disambiguation)" class="mw-redirect" title="Thierry (disambiguation)">Thierry</a></i> and <a href="/wiki/Italian_(language)" class="mw-redirect" title="Italian (language)">Italian</a>, <a href="/wiki/Portuguese_(language)" class="mw-redirect" title="Portuguese (language)">Portuguese</a> and <a href="/wiki/Spanish_language" title="Spanish language">Spanish</a> has <i>Teodorico</i>.
+</p><p>The English forms <i><a href="/wiki/Derek" title="Derek">Derek</a></i>, <i><a href="/wiki/Derrick_(name)" title="Derrick (name)">Derrick</a></i> and <i><a href="/wiki/Terry" title="Terry">Terry</a></i> have been re-introduced from the continent, from Low German, Dutch and French sources. The derived Welsh form is <i><a href="/wiki/Tewdrig" title="Tewdrig">Tewdrig</a></i>, however there also exists the related Welsh name <i><a href="/wiki/Tudur_(disambiguation)" class="mw-redirect" title="Tudur (disambiguation)">Tudur</a></i> (from <a href="/wiki/Proto-Celtic" class="mw-redirect" title="Proto-Celtic">Proto-Celtic</a> <i>*Toutorīxs</i>, exactly cognate with Proto-Germanic <i>*Þeudarīks</i>) which is the origin of the name of the English <a href="/wiki/Tudor_dynasty" class="mw-redirect" title="Tudor dynasty">Tudor dynasty</a>.
+</p>
+<h2><span class="mw-headline" id="Late_antiquity_to_early_Middle_Ages">Late antiquity to early Middle Ages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Theodoric&amp;action=edit&amp;section=2" title="Edit section: Late antiquity to early Middle Ages">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><span class="anchor" id="Apollo_Teutorix"></span>
+The earliest record of the name is in a Roman-era (3rd century) inscription, discovered in 1784 in <a href="/wiki/Wiesbaden" title="Wiesbaden">Wiesbaden</a> (at the time known as <i>Aquae Mattiacorum</i> in <a href="/wiki/Germania_Superior" title="Germania Superior">Germania Superior</a>), edited in <i>Codex inscriptionum romanarum Danubii et Rheni</i> as no. 684: <span title="Latin-language text"><i lang="la">IN. H. D. D. APOLLINI. TOVTIORIGI</i></span>, interpreted as <i>In honorem domus divinae, Apolloni toutiorigi</i>.
+This has given rise to a supposed "Apollo Teutorix" in 19th-century literature.
+Rhys (1892) opined that "the interest attached to the word <i>Toutiorix</i> is out of all proportion to its single occurrence".<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup>
+The existence of a genuinely <a href="/wiki/Celtic_name" class="mw-redirect" title="Celtic name">Celtic name</a> <i>Teutorix</i> or <i>Tout(i)orix</i> is uncertain, though Welsh <i><a href="/wiki/Tudur_(disambiguation)" class="mw-redirect" title="Tudur (disambiguation)">Tudur</a></i>, Old Welsh <i>Tutir</i> presupposes a precise cognate of <i>Toutorix</i> at least in <a href="/wiki/Common_Brittonic" title="Common Brittonic">ancient British Celtic</a>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+Rhys surmises that the "historical Teuton" (viz. <a href="/wiki/Theoderic_the_Great" class="mw-redirect" title="Theoderic the Great">Theoderic the Great</a>) bore a name of the <a href="/wiki/Gaulish_Apollo" class="mw-redirect" title="Gaulish Apollo">Gaulish Apollo</a> as adopted into early <a href="/wiki/Ancient_Germanic_religion" class="mw-redirect" title="Ancient Germanic religion">Germanic religion</a>.
+</p><p>The first known bearer of the name  was <a href="/wiki/Theodoric_I" title="Theodoric I">Theodoric I</a>, son of <a href="/wiki/Alaric_I" title="Alaric I">Alaric I</a>, king of the <a href="/wiki/Visigoths" title="Visigoths">Visigoths</a> (d. 451). The <a href="/wiki/Gothic_language" title="Gothic language">Gothic</a> form of the name would have been <i>Þiudareiks</i>, which was Latinized as <i>Theodericus</i>. The notability of the name is due to <a href="/wiki/Theoderic_the_Great" class="mw-redirect" title="Theoderic the Great">Theoderic the Great</a>, son of <a href="/wiki/Theodemir_(Ostrogothic_king)" title="Theodemir (Ostrogothic king)">Theodemir</a>, king of the <a href="/wiki/Ostrogoths" title="Ostrogoths">Ostrogoths</a> (454&#8211;526), who became a legendary figure of the <a href="/wiki/Germanic_Heroic_Age" title="Germanic Heroic Age">Germanic Heroic Age</a> as <a href="/wiki/Dietrich_von_Bern" title="Dietrich von Bern">Dietrich von Bern</a>.
+</p><p>After the end of <a href="/wiki/Late_Antiquity" class="mw-redirect" title="Late Antiquity">Late Antiquity</a>, during the 6th to 8th century there were also several kings of the <a href="/wiki/Franks" title="Franks">Franks</a> called Theodoric (or Theuderic).
+Finally, there was an early <a href="/wiki/Anglo-Saxons" title="Anglo-Saxons">Anglo-Saxon</a> king of <a href="/wiki/Bernicia" title="Bernicia">Bernicia</a>  called <a href="/wiki/Theodric_of_Bernicia" title="Theodric of Bernicia">Theodric</a> (also spelled <i>Deoric</i>, Old English <i><span title="Old English (ca. 450-1100)-language text"><i lang="ang">Þēodrīc</i></span></i>).
+</p>
+<ul><li><a href="/wiki/Theodoric_I" title="Theodoric I">Theodoric I</a> (died 451), king of the Visigoths</li>
+<li><a href="/wiki/Theodoric_II" title="Theodoric II">Theodoric II</a> (died 466), king of the Visigoths</li>
+<li><a href="/wiki/Theoderic_the_Great" class="mw-redirect" title="Theoderic the Great">Theoderic the Great</a> (454–526), ruler of the Ostrogoths, Italy, and the Visigoths</li>
+<li><a href="/wiki/Theodoric_Strabo" title="Theodoric Strabo">Theodoric Strabo</a> (died 481)</li>
+<li><a href="/wiki/Theuderic_I" title="Theuderic I">Theuderic I</a> (died ca. 534), Frankish king</li>
+<li><a href="/wiki/Theuderic_II" title="Theuderic II">Theuderic II</a> (587–613), Frankish king</li>
+<li><a href="/wiki/Theuderic_III" title="Theuderic III">Theuderic III</a> (died 691), king of the Franks</li>
+<li><a href="/wiki/Theuderic_IV" title="Theuderic IV">Theuderic IV</a> (died 737), king of the Franks</li>
+<li><a href="/wiki/Theodric_of_Bernicia" title="Theodric of Bernicia">Theodric of Bernicia</a>, 6th century Anglo-Saxon king</li>
+<li><a href="/wiki/Theodoric_of_Mont_d%27Hor" title="Theodoric of Mont d&#39;Hor">Theodoric of Mont d'Hor</a> died 533), disciple of Saint Remigius who became abbot of <a href="/wiki/Saint-Thierry_Abbey" title="Saint-Thierry Abbey">Saint-Thierry Abbey</a> near Reims, France</li>
+<li><a href="/wiki/Tewdrig" title="Tewdrig">Saint Tewdrig</a> (alternatively Tewdric or Theodoric) (c. 580 – c. 630), Welsh king of Gwent and Glywysing, who was martyred fighting the Saxons</li>
+<li><a href="/wiki/Martyrs_of_Ebsdorf" title="Martyrs of Ebsdorf">Theodoric, Bishop of Minden</a> (died 880)</li>
+<li><a href="/wiki/Theodoric_I_of_Paderborn" title="Theodoric I of Paderborn">Theodoric I, Bishop of Paderborn</a> (died 916)</li>
+<li><a href="/wiki/Dirk_I,_Count_of_Holland" title="Dirk I, Count of Holland">Dirk I, Count of Holland</a> (c. 870–928/944), in Latin Theodoric</li>
+<li><a href="/wiki/Dirk_II,_Count_of_Holland" title="Dirk II, Count of Holland">Dirk II, Count of Holland</a> (920/930–988)</li></ul>
+<h2><span class="mw-headline" id="High_and_late_Middle_Ages">High and late Middle Ages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Theodoric&amp;action=edit&amp;section=3" title="Edit section: High and late Middle Ages">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>While the Anglo-Saxon name <i>Theodric</i> (<i>Deoric</i>, old form: th = d) became extinct in the Middle English period, it was adopted in Welsh as <i><a href="/wiki/Tewdrig" title="Tewdrig">Tewdrig</a></i>.
+The name remains popular in medieval German as <i>Dietrich</i>, and is adopted into French as <i>Thierry</i>. It is rendered in <a href="/wiki/Medieval_Latin" title="Medieval Latin">Medieval Latin</a> as <i>Theodoricus</i> or as <i>Theodericus</i>. 
+The <a href="/wiki/Middle_High_German" title="Middle High German">Middle High German</a> legend of <i><a href="/wiki/Dietrich_von_Bern" title="Dietrich von Bern">Dietrich von Bern</a></i> is based on the historical Theodoric, king of the Ostrogoths. The German <i>Dietrich von Bern</i> is reflected as <i>Þiðrekr af Bern</i> in the Old Norse <a href="/wiki/Thidrekssaga" class="mw-redirect" title="Thidrekssaga">Thidrekssaga</a>. The medieval German legend gives rise to the <i>Dietrich</i> of the <a href="/wiki/German_Renaissance" title="German Renaissance">Renaissance era</a> <i><a href="/wiki/Heldenb%C3%BCcher" class="mw-redirect" title="Heldenbücher">Heldenbücher</a></i>.
+The Old Norse form of the name was  Þjóðríkr (spelled þiaurikʀ on the 9th-century <a href="/wiki/R%C3%B6k_runestone" title="Rök runestone">Rök runestone</a>). This became <i>Tjodrik</i> in <a href="/wiki/Middle_Norwegian" title="Middle Norwegian">Middle Norwegian</a>.
+</p><p>The Dutch form <i><a href="/wiki/Derek" title="Derek">Derek</a></i> was used in England from the 15th century. Similarly, the Scandinavian <i>Tjodrik</i> is attested for the 12th century, but it is replaced by the Low German forms <i>Ditrik, Dirk</i> in the late medieval period. The spread of the Low German form to <a href="/wiki/Middle_Norwegian" title="Middle Norwegian">Middle Norwegian</a>, <a href="/wiki/Middle_Danish" class="mw-redirect" title="Middle Danish">Middle Danish</a> and <a href="/wiki/Late_Middle_English" class="mw-redirect" title="Late Middle English">late Middle English</a>  or <a href="/wiki/Early_Modern_English" title="Early Modern English">Early Modern English</a> are part of a larger linguistic trend due to the influence of the <a href="/wiki/Hanseatic_League" title="Hanseatic League">Hanseatic League</a> during this period.
+</p>
+<ul><li><a href="/wiki/Antipope_Theodoric" title="Antipope Theodoric">Antipope Theodoric</a> (died 1102)</li>
+<li><a href="/wiki/Thierry_of_Chartres" title="Thierry of Chartres">Thierry of Chartres</a> (died before 1155), philosopher also known as Theodoric the Breton</li>
+<li><a href="/wiki/Theodoric_the_Monk" title="Theodoric the Monk">Theodoric the Monk</a>, 12th century Norwegian Benedictine monk</li>
+<li>Theoderic (fl. c. 1172), author of the <i><a href="/wiki/Libellus_de_locis_sanctis" title="Libellus de locis sanctis">Libellus de locis sanctis</a></i>, a travelogue and pilgrim's guide book of Palestine</li>
+<li><a href="/wiki/Theoderich_von_Treyden" title="Theoderich von Treyden">Theoderich von Treyden</a> (died 1219), missionary and first bishop of Livonia</li>
+<li><a href="/wiki/Master_Theodoric" title="Master Theodoric">Master Theodoric</a> (before 1328?–1381), court painter to Charles&#160;IV</li>
+<li><a href="/wiki/Theodoric_of_Freiberg" title="Theodoric of Freiberg">Theodoric of Freiberg</a> (c. 1250–c. 1311), German theologian and scientist</li>
+<li><a href="/wiki/Dirk_III,_Count_of_Holland" title="Dirk III, Count of Holland">Dirk III, Count of Holland</a> (c. 982–1039), in Latin Theodoric</li>
+<li><a href="/wiki/Dirk_IV,_Count_of_Holland" title="Dirk IV, Count of Holland">Dirk IV, Count of Holland</a> (c. 1020/1030–1049)</li>
+<li><a href="/wiki/Dirk_V,_Count_of_Holland" title="Dirk V, Count of Holland">Dirk V, Count of Holland</a> (1052–1091)</li>
+<li><a href="/wiki/Dirk_VI,_Count_of_Holland" title="Dirk VI, Count of Holland">Dirk VI, Count of Holland</a> (c. 1114–1157)</li>
+<li><a href="/wiki/Dirk_VII,_Count_of_Holland" title="Dirk VII, Count of Holland">Dirk VII, Count of Holland</a> (died 1203)</li></ul>
+<h2><span class="mw-headline" id="Modern_era">Modern era</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Theodoric&amp;action=edit&amp;section=4" title="Edit section: Modern era">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The German form <i><a href="/wiki/Dietrich_(disambiguation)" class="mw-redirect mw-disambig" title="Dietrich (disambiguation)">Dietrich</a></i> was abbreviated to <i><a href="/wiki/Dieter_(disambiguation)" class="mw-redirect mw-disambig" title="Dieter (disambiguation)">Dieter</a></i>. The Low German and Dutch  languages abbreviated <i><a href="/wiki/Diederik" title="Diederik">Diederik</a></i> as <i><a href="/wiki/Dirk" title="Dirk">Dirk</a></i> or  <i><a href="/w/index.php?title=Diede&amp;action=edit&amp;redlink=1" class="new" title="Diede (page does not exist)">Diede</a></i>. 
+French retains <i><a href="/wiki/Thierry_(disambiguation)" class="mw-redirect" title="Thierry (disambiguation)">Thierry</a></i>.
+The  Scandinavian languages have  borrowed <i>Dirk</i> and <a href="/wiki/Diderik" title="Diderik">Diderik</a>, replacing the native <i>Tjodrik</i>, while English borrowed <i><a href="/wiki/Derek" title="Derek">Derek</a></i> from Dutch and <i><a href="/wiki/Terry" title="Terry">Terry</a></i> from French.
+</p>
+<h2><span class="mw-headline" id="Fictional">Fictional</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Theodoric&amp;action=edit&amp;section=5" title="Edit section: Fictional">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Prince Theodoric, an exiled Balkan royal in London in the sequence of novels <i><a href="/wiki/A_Dance_to_the_Music_of_Time" title="A Dance to the Music of Time">A Dance to the Music of Time</a></i> by <a href="/wiki/Anthony_Powell" title="Anthony Powell">Anthony Powell</a> - a character based to some extent on <a href="/wiki/Prince_Paul_of_Yugoslavia" title="Prince Paul of Yugoslavia">Prince Paul of Yugoslavia</a></li>
+<li><a href="/wiki/Theodoric_of_York,_Medieval_Barber" title="Theodoric of York, Medieval Barber">Theodoric of York</a>, <i>Saturday Night Live</i> character by Steve Martin</li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Theodoric&amp;action=edit&amp;section=6" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Theodore_(name)" class="mw-redirect" title="Theodore (name)">Theodore</a></li></ul>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Theodoric&amp;action=edit&amp;section=7" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">The Proto-Germanic and Gothic forms are reconstructions. The <i>-riks</i> element was ultimately a borrowing from <a href="/wiki/Continental_Celtic" class="mw-redirect" title="Continental Celtic">Celtic</a>, see <a href="/wiki/Reich#Etymology" title="Reich">Reich#Etymology</a>.</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">
+John Rhys, <i>Lectures on the origin and growth of religion as illustrated by Celtic heathendom</i> (1892), p. 30.
+<a rel="nofollow" class="external autonumber" href="https://archive.org/details/lecturesonorigin00rhys">[1]</a></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFZimmer2006" class="citation journal cs1">Zimmer, Stefan (2006). <a rel="nofollow" class="external text" href="https://www.academia.edu/4135527">"Some Names and Epithets in "Culhwch ac Olwen"<span class="cs1-kern-right"></span>"</a>. <i>Studi Celtici</i>. <b>3</b>: 163–179<span class="reference-accessdate">. Retrieved <span class="nowrap">13 January</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Studi+Celtici&amp;rft.atitle=Some+Names+and+Epithets+in+%22Culhwch+ac+Olwen%22&amp;rft.volume=3&amp;rft.pages=163-179&amp;rft.date=2006&amp;rft.aulast=Zimmer&amp;rft.aufirst=Stefan&amp;rft_id=https%3A%2F%2Fwww.academia.edu%2F4135527&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATheodoric" class="Z3988"></span> (See p. 11, n. 34 in the online version.)</span>
+</li>
+</ol></div></div>
+<style data-mw-deduplicate="TemplateStyles:r1097304697">.mw-parser-output .dmbox{display:flex;align-items:center;clear:both;margin:0.9em 1em;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding:0.25em 0.35em;font-style:italic}.mw-parser-output .dmbox>*{flex-shrink:0;margin:0 0.25em}.mw-parser-output .dmbox-body{flex-grow:1;flex-shrink:1;padding:0.1em 0}.mw-parser-output .dmbox-invalid-type{text-align:center}</style>
+<div role="note" id="setindexbox" class="metadata plainlinks dmbox dmbox-setindex"><div><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/WPanthroponymy.svg/30px-WPanthroponymy.svg.png" decoding="async" width="30" height="29" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/WPanthroponymy.svg/45px-WPanthroponymy.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/WPanthroponymy.svg/60px-WPanthroponymy.svg.png 2x" data-file-width="53" data-file-height="51" /></div><div class="dmbox-body"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Name list</div>This page or section lists people that share the same <a href="/wiki/Given_name" title="Given name">given name</a>. <br /><small>If an <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/Theodoric&amp;namespace=0">internal link</a> led you here, you may wish to change that link to point directly to the intended article.</small></div>
+</div>
+<!-- 
+NewPP limit report
+Parsed by mw2367
+Cached time: 20230206234848
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.252 seconds
+Real time usage: 0.343 seconds
+Preprocessor visited node count: 925/1000000
+Post‐expand include size: 10236/2097152 bytes
+Template argument size: 1966/2097152 bytes
+Highest expansion depth: 11/100
+Expensive parser function count: 2/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 5794/5000000 bytes
+Lua time usage: 0.166/10.000 seconds
+Lua memory usage: 17721541/52428800 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  299.548      1 -total
+ 31.38%   94.002      2 Template:Lang
+ 27.71%   82.992      1 Template:Reflist
+ 23.99%   71.871      1 Template:Cite_journal
+ 22.68%   67.938      1 Template:Given_name
+ 20.50%   61.418      1 Template:Dmbox
+ 16.29%   48.801      1 Template:Infobox_given_name
+ 13.69%   40.997      1 Template:Infobox
+ 13.34%   39.948      1 Template:Short_description
+  5.47%   16.399      2 Template:Pagetype
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:75260-0!canonical and timestamp 20230206234847 and revision id 1114962900. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Theodoric&amp;oldid=1114962900">https://en.wikipedia.org/w/index.php?title=Theodoric&amp;oldid=1114962900</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Given_names" title="Category:Given names">Given names</a></li><li><a href="/wiki/Category:Germanic_given_names" title="Category:Germanic given names">Germanic given names</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_containing_Latin-language_text" title="Category:Articles containing Latin-language text">Articles containing Latin-language text</a></li><li><a href="/wiki/Category:Articles_containing_Old_English_(ca._450-1100)-language_text" title="Category:Articles containing Old English (ca. 450-1100)-language text">Articles containing Old English (ca. 450-1100)-language text</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:All_set_index_articles" title="Category:All set index articles">All set index articles</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 9 October 2022, at 04:59<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Theodoric&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.252","walltime":"0.343","ppvisitednodes":{"value":925,"limit":1000000},"postexpandincludesize":{"value":10236,"limit":2097152},"templateargumentsize":{"value":1966,"limit":2097152},"expansiondepth":{"value":11,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":5794,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  299.548      1 -total"," 31.38%   94.002      2 Template:Lang"," 27.71%   82.992      1 Template:Reflist"," 23.99%   71.871      1 Template:Cite_journal"," 22.68%   67.938      1 Template:Given_name"," 20.50%   61.418      1 Template:Dmbox"," 16.29%   48.801      1 Template:Infobox_given_name"," 13.69%   40.997      1 Template:Infobox"," 13.34%   39.948      1 Template:Short_description","  5.47%   16.399      2 Template:Pagetype"]},"scribunto":{"limitreport-timeusage":{"value":"0.166","limit":"10.000"},"limitreport-memusage":{"value":17721541,"limit":52428800}},"cachereport":{"origin":"mw2367","timestamp":"20230206234848","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Theodoric","url":"https:\/\/en.wikipedia.org\/wiki\/Theodoric","sameAs":"http:\/\/www.wikidata.org\/entity\/Q15884118","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q15884118","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-08-23T15:47:07Z","dateModified":"2022-10-09T04:59:12Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/c\/c0\/Teodorico_re_dei_Goti_%28493-526%29.png","headline":"male given name"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Theodoric","url":"https:\/\/en.wikipedia.org\/wiki\/Theodoric","sameAs":"http:\/\/www.wikidata.org\/entity\/Q15884118","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q15884118","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-08-23T15:47:07Z","dateModified":"2022-10-09T04:59:12Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/c\/c0\/Teodorico_re_dei_Goti_%28493-526%29.png","headline":"male given name"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":96,"wgHostname":"mw2407"});});</script>
+</body>
+</html>

@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>John of Capistrano - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"761653d8-8502-4fd4-b19b-b3ae52955514",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"John_of_Capistrano","wgTitle":"John of Capistrano","wgCurRevisionId":1132302377,"wgRevisionId":1132302377,"wgArticleId":720407,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference","Wikipedia articles incorporating text from the 1911 Encyclopædia Britannica","Webarchive template wayback links","Articles with short description","Short description is different from Wikidata","Articles needing additional references from November 2021","All articles needing additional references","Articles containing Italian-language text","Articles containing Hungarian-language text","Articles containing Polish-language text","Articles containing Croatian-language text",
+"Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference","Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference","Commons category link is on Wikidata","CS1 Italian-language sources (it)","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BIBSYS identifiers","Articles with BNE identifiers","Articles with BNF identifiers","Articles with CANTICN identifiers","Articles with GND identifiers","Articles with ICCU identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with NKC identifiers","Articles with NLA identifiers","Articles with NTA identifiers","Articles with PLWABN identifiers","Articles with VcBA identifiers","Articles with ULAN identifiers","Articles with DBI identifiers","Articles with DTBIO identifiers","Articles with FAST identifiers","Articles with RERO identifiers","Articles with SNAC-ID identifiers",
+"Articles with SUDOC identifiers","Articles with Trove identifiers","1386 births","1456 deaths","People from the Province of L'Aquila","University of Perugia alumni","Diplomats of the Holy See","14th-century Italian writers","15th-century Italian writers","Italian Friars Minor","Franciscan saints","Italian Roman Catholic saints","15th-century Christian saints","Canonizations by Pope Alexander VIII","15th-century deaths from plague (disease)"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"John_of_Capistrano","wgRelevantArticleId":720407,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,
+"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q310359","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.page.gallery.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready",
+"ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.page.gallery.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/8/84/82Johannes_von_Capestrano.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="2643"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/8/84/82Johannes_von_Capestrano.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="1762"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/82Johannes_von_Capestrano.jpg/640px-82Johannes_von_Capestrano.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="1409"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="John of Capistrano - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/John_of_Capistrano"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=John_of_Capistrano&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/John_of_Capistrano"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-John_of_Capistrano rootpage-John_of_Capistrano skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=John+of+Capistrano" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=John+of+Capistrano"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=John+of+Capistrano"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/John_of_Capistrano" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/John_of_Capistrano" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=John_of_Capistrano&amp;oldid=1132302377" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=John_of_Capistrano&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=John_of_Capistrano&amp;id=1132302377&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q310359" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=John_of_Capistrano&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=John_of_Capistrano&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:John_of_Capistrano" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Early_life"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Early_life">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Early life</div>
+		</a>
+		
+		<ul id="toc-Early_life-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Friar_and_preacher"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Friar_and_preacher">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Friar and preacher</div>
+		</a>
+		
+		<ul id="toc-Friar_and_preacher-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Reformer"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Reformer">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Reformer</div>
+		</a>
+		
+		<ul id="toc-Reformer-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Anti-Jewish_incitement"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Anti-Jewish_incitement">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Anti-Jewish incitement</div>
+		</a>
+		
+		<ul id="toc-Anti-Jewish_incitement-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-The_soldier_saint"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#The_soldier_saint">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>The soldier saint</div>
+		</a>
+		
+		<ul id="toc-The_soldier_saint-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Sainthood_and_feast_day"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Sainthood_and_feast_day">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>Sainthood and feast day</div>
+		</a>
+		
+		<ul id="toc-Sainthood_and_feast_day-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Eponym"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Eponym">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>Eponym</div>
+		</a>
+		
+		<ul id="toc-Eponym-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Patron_saint"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Patron_saint">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">8</span>Patron saint</div>
+		</a>
+		
+		<ul id="toc-Patron_saint-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-John_of_Capistrano_in_literature"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#John_of_Capistrano_in_literature">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">9</span>John of Capistrano in literature</div>
+		</a>
+		
+		<ul id="toc-John_of_Capistrano_in_literature-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">10</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">11</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Further_reading"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Further_reading">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">12</span>Further reading</div>
+		</a>
+		
+		<ul id="toc-Further_reading-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">John of Capistrano</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 32 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-32"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">32 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/%D0%86%D0%B0%D0%B0%D0%BD_%D0%9A%D0%B0%D0%BF%D1%96%D1%81%D1%82%D1%80%D0%B0%D0%BD" title="Іаан Капістран – Belarusian" lang="be" hreflang="be" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%99%D0%BE%D0%B0%D0%BD_%D0%BE%D1%82_%D0%9A%D0%B0%D0%BF%D0%B8%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%BE" title="Йоан от Капистрано – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Joan_de_Capistrano" title="Joan de Capistrano – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-ceb mw-list-item"><a href="https://ceb.wikipedia.org/wiki/Juan_Capistrano" title="Juan Capistrano – Cebuano" lang="ceb" hreflang="ceb" class="interlanguage-link-target"><span>Cebuano</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Jan_Kapistr%C3%A1n" title="Jan Kapistrán – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Johannes_Capistranus" title="Johannes Capistranus – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Juan_de_Capistrano" title="Juan de Capistrano – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Johano_de_Capestrano" title="Johano de Capestrano – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Jean_de_Capistran" title="Jean de Capistran – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Ivan_Kapistran" title="Ivan Kapistran – Croatian" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Yohanes_dari_Capistrano" title="Yohanes dari Capistrano – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Giovanni_da_Capestrano" title="Giovanni da Capestrano – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%92%27%D7%95%D7%91%D7%A0%D7%99_%D7%93%D7%94_%D7%A7%D7%A4%D7%99%D7%A1%D7%98%D7%A8%D7%A0%D7%95" title="ג&#039;ובני דה קפיסטרנו – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Yohane_wa_Kapestrano" title="Yohane wa Kapestrano – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Ioannes_Capistranus" title="Ioannes Capistranus – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a href="https://lv.wikipedia.org/wiki/Joans_Kapistr%C4%81no" title="Joans Kapistrāno – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a href="https://lfn.wikipedia.org/wiki/Joan_de_Capestrano" title="Joan de Capestrano – Lingua Franca Nova" lang="lfn" hreflang="lfn" class="interlanguage-link-target"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Kapisztr%C3%A1n_Szent_J%C3%A1nos" title="Kapisztrán Szent János – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%AC%D9%88%D9%86_%D9%83%D8%A7%D8%A8%D9%8A%D8%B3%D8%AA%D8%B1%D8%A7%D9%86%D9%88" title="جون كابيسترانو – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Johannes_van_Capestrano" title="Johannes van Capestrano – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Giovanni_da_Capistrano" title="Giovanni da Capistrano – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Jan_Kapistran" title="Jan Kapistran – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Jo%C3%A3o_de_Capistrano" title="João de Capistrano – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Ioan_de_Capistrano" title="Ioan de Capistrano – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BE%D0%B0%D0%BD%D0%BD_%D0%9A%D0%B0%D0%BF%D0%B8%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9" title="Иоанн Капистранский – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sc mw-list-item"><a href="https://sc.wikipedia.org/wiki/Giovanni_da_Capestrano" title="Giovanni da Capestrano – Sardinian" lang="sc" hreflang="sc" class="interlanguage-link-target"><span>Sardu</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/J%C3%A1n_Kapistr%C3%A1nsky" title="Ján Kapistránsky – Slovak" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/Janez_Kapistran" title="Janez Kapistran – Slovenian" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%88%D0%BE%D0%B2%D0%B0%D0%BD_%D0%9A%D0%B0%D0%BF%D0%B8%D1%81%D1%82%D1%80%D0%B0%D0%BD" title="Јован Капистран – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Ivan_Kapistran" title="Ivan Kapistran – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Johannes_Capistranolainen" title="Johannes Capistranolainen – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Giovanni_da_Capistrano" title="Giovanni da Capistrano – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q310359#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/John_of_Capistrano" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:John_of_Capistrano" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/John_of_Capistrano"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=John_of_Capistrano&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/John_of_Capistrano"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=John_of_Capistrano&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Patron saint of military chaplains</div>
+<style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">"Capistrano" redirects here. For other uses, see <a href="/wiki/Capistrano_(disambiguation)" class="mw-disambig" title="Capistrano (disambiguation)">Capistrano (disambiguation)</a>.</div>
+<style data-mw-deduplicate="TemplateStyles:r1097763485">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+link+.ambox,.mw-parser-output .ambox+link+style+.ambox,.mw-parser-output .ambox+link+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+style+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+link+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}html.client-js body.skin-minerva .mw-parser-output .mbox-text-span{margin-left:23px!important}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}</style><table class="box-More_citations_needed plainlinks metadata ambox ambox-content ambox-Refimprove" role="presentation"><tbody><tr><td class="mbox-image"><div class="mbox-image-div"><a href="/wiki/File:Question_book-new.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" decoding="async" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" data-file-width="512" data-file-height="399" /></a></div></td><td class="mbox-text"><div class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>.<span class="hide-when-compact"> Please help <a class="external text" href="https://en.wikipedia.org/w/index.php?title=John_of_Capistrano&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Referencing_for_beginners" title="Help:Referencing for beginners">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.<br /><small><span class="plainlinks"><i>Find sources:</i>&#160;<a rel="nofollow" class="external text" href="//www.google.com/search?as_eq=wikipedia&amp;q=%22John+of+Capistrano%22">"John of Capistrano"</a>&#160;–&#160;<a rel="nofollow" class="external text" href="//www.google.com/search?tbm=nws&amp;q=%22John+of+Capistrano%22+-wikipedia&amp;tbs=ar:1">news</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="//www.google.com/search?&amp;q=%22John+of+Capistrano%22&amp;tbs=bkt:s&amp;tbm=bks">newspapers</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="//www.google.com/search?tbs=bks:1&amp;q=%22John+of+Capistrano%22+-wikipedia">books</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="//scholar.google.com/scholar?q=%22John+of+Capistrano%22">scholar</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="https://www.jstor.org/action/doBasicSearch?Query=%22John+of+Capistrano%22&amp;acc=on&amp;wc=on">JSTOR</a></span></small></span>  <span class="date-container"><i>(<span class="date">November 2021</span>)</i></span><span class="hide-when-compact"><i> (<small><a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a></small>)</i></span></div></td></tr></tbody></table>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;">Saint</div><br /><div style="display:inline;" class="fn">John of Capistrano</div><br /><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;">O.F.M.</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:82Johannes_von_Capestrano.jpg" class="image"><img alt="82Johannes von Capestrano.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/84/82Johannes_von_Capestrano.jpg/200px-82Johannes_von_Capestrano.jpg" decoding="async" width="200" height="440" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/84/82Johannes_von_Capestrano.jpg/300px-82Johannes_von_Capestrano.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/84/82Johannes_von_Capestrano.jpg/400px-82Johannes_von_Capestrano.jpg 2x" data-file-width="643" data-file-height="1416" /></a><div class="infobox-caption"><a href="/wiki/Illuminated_manuscript" title="Illuminated manuscript">Illumination</a> depicting St. John of Capistrano<br />(c.&#160;1470)</div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Confessor</th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">24 June 1386<br /><a href="/wiki/Capestrano" title="Capestrano">Capestrano</a>, <a href="/wiki/Abruzzi" class="mw-redirect" title="Abruzzi">Abruzzi</a>, <a href="/wiki/Kingdom_of_Naples" title="Kingdom of Naples">Kingdom of Naples</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">23 October 1456<span style="display:none">(1456-10-23)</span> (aged&#160;70)<br /><a href="/wiki/Ilok" title="Ilok">Ilok</a>, <a href="/wiki/Syrmia" title="Syrmia">Syrmia</a>, <a href="/wiki/Kingdom_of_Hungary" title="Kingdom of Hungary">Kingdom of Hungary</a></td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Roman_Catholic_Church" class="mw-redirect" title="Roman Catholic Church">Roman Catholic Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data">1690 or 1724, <a href="/wiki/Rome" title="Rome">Rome</a> by either <a href="/wiki/Pope_Alexander_VIII" title="Pope Alexander VIII">Pope Alexander VIII</a> or <a href="/wiki/Pope_Benedict_XIII" title="Pope Benedict XIII">Pope Benedict XIII</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">23 October; 28 March (<a href="/wiki/General_Roman_Calendar" title="General Roman Calendar">General Roman Calendar</a>, 1890–1969)</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data"><a href="/wiki/Jurists" class="mw-redirect" title="Jurists">Jurists</a>, <a href="/wiki/Belgrade" title="Belgrade">Belgrade</a> and <a href="/wiki/Hungary" title="Hungary">Hungary</a></td></tr></tbody></table>
+<p><b>John of Capistrano</b> (<a href="/wiki/Italian_language" title="Italian language">Italian</a>: <i lang="it">San Giovanni da Capestrano</i>, <a href="/wiki/Hungarian_language" title="Hungarian language">Hungarian</a>: <i lang="hu">Kapisztrán János</i>, <a href="/wiki/Polish_language" title="Polish language">Polish</a>: <i lang="pl">Jan Kapistran</i>, <a href="/wiki/Croatian_language" title="Croatian language">Croatian</a>: <i lang="hr">Ivan Kapistran</i>) (24 June 1386 – 23 October 1456) was a <a href="/wiki/Order_of_Friars_Minor" title="Order of Friars Minor">Franciscan</a> <a href="/wiki/Friar" title="Friar">friar</a> and <a href="/wiki/Catholic_priest" class="mw-redirect" title="Catholic priest">Catholic priest</a> from the Italian town of <a href="/wiki/Capestrano" title="Capestrano">Capestrano</a>, <a href="/wiki/Abruzzo" title="Abruzzo">Abruzzo</a>. Famous as a preacher, theologian, and <a href="/wiki/Inquisitor" title="Inquisitor">inquisitor</a>, he earned himself the nickname “the Soldier Saint” when in 1456 at age 70 he led a <a href="/wiki/Crusade" class="mw-redirect" title="Crusade">crusade</a> against the invading <a href="/wiki/Ottoman_Empire" title="Ottoman Empire">Ottoman Empire</a> at the <a href="/wiki/Siege_of_Belgrade_(1456)" title="Siege of Belgrade (1456)">siege of Belgrade</a> with the <a href="/wiki/Hungary" title="Hungary">Hungarian</a> military commander <a href="/wiki/John_Hunyadi" title="John Hunyadi">John Hunyadi</a>.
+</p><p>Elevated to sainthood, he is the patron saint of <a href="/wiki/Jurist" title="Jurist">jurists</a> and <a href="/wiki/Military_chaplain" title="Military chaplain">military chaplains</a>, as well as the namesake of the Franciscan <a href="/wiki/List_of_Spanish_missions" class="mw-redirect" title="List of Spanish missions">missions</a>  <a href="/wiki/Mission_San_Juan_Capistrano" title="Mission San Juan Capistrano">San Juan Capistrano</a> in <a href="/wiki/Southern_California" title="Southern California">Southern California</a> and <a href="/wiki/Mission_San_Juan_Capistrano_(Texas)" title="Mission San Juan Capistrano (Texas)">San Juan Capistrano</a> in <a href="/wiki/San_Antonio,_Texas" class="mw-redirect" title="San Antonio, Texas">San Antonio, Texas</a>.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Early_life">Early life</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=1" title="Edit section: Early life">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>As was the custom of this time, John is denoted by the village of <a href="/wiki/Capestrano" title="Capestrano">Capestrano</a>, in the <a href="/wiki/Diocese_of_Sulmona" class="mw-redirect" title="Diocese of Sulmona">Diocese of Sulmona</a>, in the <a href="/wiki/Abruzzi" class="mw-redirect" title="Abruzzi">Abruzzi</a> region, <a href="/wiki/Kingdom_of_Naples" title="Kingdom of Naples">Kingdom of Naples</a>. His father had come to Italy with the <a href="/wiki/House_of_Valois-Anjou" title="House of Valois-Anjou">Angevin</a> court of <a href="/wiki/Louis_I_of_Anjou" title="Louis I of Anjou">Louis I of Anjou</a>, titular King of <a href="/wiki/Naples" title="Naples">Naples</a>. He studied law at the <a href="/wiki/University_of_Perugia" title="University of Perugia">University of Perugia</a>.<sup id="cite_ref-hess_1-0" class="reference"><a href="#cite_note-hess-1">&#91;1&#93;</a></sup>
+</p><p>In 1412, King <a href="/wiki/Ladislaus_of_Naples" title="Ladislaus of Naples">Ladislaus of Naples</a> appointed him Governor of Perugia, a tumultuous and resentful papal fief held by Ladislas as the pope's <a href="/wiki/Champion" title="Champion">champion</a>, in order to effectively establish public order. When war broke out between Perugia and the <a href="/wiki/House_of_Malatesta" title="House of Malatesta">Malatestas</a> in 1416, John was sent as ambassador to broker a peace, but Malatesta threw him in prison. It was during this imprisonment that he began to study theology. When he was released in he decided to give up the world and become a Franciscan friar,<sup id="cite_ref-FaithND_2-0" class="reference"><a href="#cite_note-FaithND-2">&#91;2&#93;</a></sup> citing a dream where Saint <a href="/wiki/Francis_of_Assisi" title="Francis of Assisi">Francis of Assisi</a> ordered him to enter the Order. He had married before the war, but asserted the marriage was never consummated and received permission to take <a href="/wiki/Holy_orders" title="Holy orders">holy orders</a>.
+</p>
+<h2><span class="mw-headline" id="Friar_and_preacher">Friar and preacher</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=2" title="Edit section: Friar and preacher">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Together with <a href="/wiki/James_of_the_Marches" title="James of the Marches">James of the Marches</a>, John entered the <a href="/wiki/Order_of_Friars_Minor" title="Order of Friars Minor">Order of Friars Minor</a> at <a href="/wiki/Perugia" title="Perugia">Perugia</a> on 4 October 1416. Along with James, he studied <a href="/wiki/Theology" title="Theology">theology</a> at <a href="/wiki/Fiesole" title="Fiesole">Fiesole</a>, near Florence,<sup id="cite_ref-foley_3-0" class="reference"><a href="#cite_note-foley-3">&#91;3&#93;</a></sup> under <a href="/wiki/Bernardine_of_Siena" class="mw-redirect" title="Bernardine of Siena">Bernardine of Siena</a>.<sup id="cite_ref-hess_1-1" class="reference"><a href="#cite_note-hess-1">&#91;1&#93;</a></sup> He soon gave himself up to the most rigorous <a href="/wiki/Asceticism" title="Asceticism">asceticism</a>, violently defending the ideal of strict observance and <a href="/wiki/Orthodoxy" title="Orthodoxy">orthodoxy</a>,<sup id="cite_ref-EB1911_4-0" class="reference"><a href="#cite_note-EB1911-4">&#91;4&#93;</a></sup> following the example set by Bernardine. From 1420 onwards, he preached with great effect in numerous cities and eventually became well known. He was ordained in 1425.
+</p><p>Unlike most Italian preachers of <a href="/wiki/Repentance" title="Repentance">repentance</a> in the 15th century, John was effective in <a href="/wiki/Northern_Europe" title="Northern Europe">northern</a> and <a href="/wiki/Central_Europe" title="Central Europe">central Europe</a>—in <a href="/wiki/Germany" title="Germany">German</a> states of <a href="/wiki/Holy_Roman_Empire" title="Holy Roman Empire">Holy Roman Empire</a>, <a href="/wiki/Bohemia" title="Bohemia">Bohemia</a>, <a href="/wiki/Moravia" title="Moravia">Moravia</a>, <a href="/wiki/Austria" title="Austria">Austria</a>, <a href="/wiki/Hungary" title="Hungary">Hungary</a>, <a href="/wiki/Croatia" title="Croatia">Croatia</a> and the <a href="/wiki/Kingdom_of_Poland_(1385%E2%80%931569)" class="mw-redirect" title="Kingdom of Poland (1385–1569)">Kingdom of Poland</a>. The largest churches could not hold the crowds, so he preached in the public squares—at <a href="/wiki/Brescia" title="Brescia">Brescia</a> in Italy, he preached to a crowd of 126,000.<sup id="cite_ref-hess_1-2" class="reference"><a href="#cite_note-hess-1">&#91;1&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Reformer">Reformer</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=3" title="Edit section: Reformer">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Santi_Buglioni_-_San_Giovanni_di_Capistrano_c1550.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Santi_Buglioni_-_San_Giovanni_di_Capistrano_c1550.jpg/220px-Santi_Buglioni_-_San_Giovanni_di_Capistrano_c1550.jpg" decoding="async" width="220" height="330" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Santi_Buglioni_-_San_Giovanni_di_Capistrano_c1550.jpg/330px-Santi_Buglioni_-_San_Giovanni_di_Capistrano_c1550.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Santi_Buglioni_-_San_Giovanni_di_Capistrano_c1550.jpg/440px-Santi_Buglioni_-_San_Giovanni_di_Capistrano_c1550.jpg 2x" data-file-width="2336" data-file-height="3504" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Santi_Buglioni_-_San_Giovanni_di_Capistrano_c1550.jpg" class="internal" title="Enlarge"></a></div>San Giovanni di Capistrano, by Santi Buglioni c.1550</div></div></div>
+<p>When he was not preaching, John was  writing tracts against <a href="/wiki/Heresy" title="Heresy">heresy</a> of every kind. This facet of his life is covered in great detail by his early biographers, Nicholas of Fara, Christopher of Varese and Girlamo of Udine. While he was thus evangelizing, he was actively engaged in assisting Bernardine of Siena in the reform of the Franciscan Order, largely in the interests of a more rigorous discipline in the Franciscan communities.<sup id="cite_ref-foley_3-1" class="reference"><a href="#cite_note-foley-3">&#91;3&#93;</a></sup> Like Bernardine, he strongly emphasized devotion to the <a href="/wiki/Holy_Name_of_Jesus" title="Holy Name of Jesus">Holy Name of Jesus</a>, and, together with Bernardine, was accused of <a href="/wiki/Heresy" title="Heresy">heresy</a> on this account. In 1429, these Observant friars were called to Rome to answer charges of heresy, and John was chosen by his companions to speak for them. They were both acquitted by the Commission of <a href="/wiki/Cardinal_(Catholicism)" class="mw-redirect" title="Cardinal (Catholicism)">Cardinals</a> appointed to judge the accusations.
+</p><p>He was frequently deployed to embassies by Popes <a href="/wiki/Pope_Eugene_IV" title="Pope Eugene IV">Eugene IV</a> and <a href="/wiki/Pope_Nicholas_V" title="Pope Nicholas V">Nicholas V</a>: in 1439, he was sent as <a href="/wiki/Legatus" title="Legatus">legate</a> to <a href="/wiki/Milan" title="Milan">Milan</a> and <a href="/wiki/Duchy_of_Burgundy" title="Duchy of Burgundy">Burgundy</a>, to oppose the claims of the <a href="/wiki/Amadeus_VIII_of_Savoy" class="mw-redirect" title="Amadeus VIII of Savoy">Antipope Felix V</a>; in 1446, he was on a mission to the King of France; in 1451 he went at the request of the emperor as <a href="/wiki/Apostolic_Nuncio" class="mw-redirect" title="Apostolic Nuncio">Apostolic Nuncio</a> to Austria. During the period of his nunciature, John visited all parts of the Empire.  As legate, or inquisitor, he prosecuted the last <a href="/wiki/Fraticelli" title="Fraticelli">Fraticelli</a> of <a href="/wiki/Ferrara" title="Ferrara">Ferrara</a>, the <a href="/wiki/Jesuati" title="Jesuati">Jesuati</a> of <a href="/wiki/Venice" title="Venice">Venice</a>, the <a href="/wiki/Crypto-Jew" class="mw-redirect" title="Crypto-Jew">Crypto-Jews</a> of <a href="/wiki/Sicily" title="Sicily">Sicily</a>, <a href="/wiki/Moldavia" title="Moldavia">Moldavia</a> and <a href="/wiki/Poland" title="Poland">Poland</a>, and, above all, the <a href="/wiki/Hussite" class="mw-redirect" title="Hussite">Hussites</a> of <a href="/wiki/Germany" title="Germany">Germany</a>, <a href="/wiki/Hungary" title="Hungary">Hungary</a> and <a href="/wiki/Bohemia" title="Bohemia">Bohemia</a>; his aim in the last case was to make talks impossible between the representatives of <a href="/wiki/Rome" title="Rome">Rome</a> and the <a href="/wiki/Bohemia" title="Bohemia">Bohemians</a>, for every attempt at conciliation seemed to him to be conniving at heresy.<sup id="cite_ref-EB1911_4-1" class="reference"><a href="#cite_note-EB1911-4">&#91;4&#93;</a></sup>
+</p><p>He also worked for the reform of the Order of Friars Minor.  He upheld, in his writings, speeches and sermons, theories of <a href="/wiki/Papal_supremacy" title="Papal supremacy">papal supremacy</a> rather than the theological wranglings of councils (see <a href="/wiki/Conciliar_Movement" class="mw-redirect" title="Conciliar Movement">Conciliar Movement</a>).<sup id="cite_ref-EB1911_4-2" class="reference"><a href="#cite_note-EB1911-4">&#91;4&#93;</a></sup> John, together with his teacher, Bernardine, his colleague, James of the Marche, and <a href="/wiki/Albert_Berdini_of_Sarteano" title="Albert Berdini of Sarteano">Albert Berdini of Sarteano</a>, are considered the four great pillars of the Observant reform among the Friars Minor.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Anti-Jewish_incitement">Anti-Jewish incitement</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=4" title="Edit section: Anti-Jewish incitement">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>John was known as the "Scourge of the Jews".<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup> Like some other Franciscans, he ranged over a broad area on both sides of the Alps, and his preaching to mass open-air congregations often led to <a href="/wiki/Pogrom" title="Pogrom">pogroms</a>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> In 1450 the Franciscan "Jew-baiter" arranged a forced disputation at Rome with a certain Gamaliel called "Synagogæ Romanæ magister".<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup><sup id="cite_ref-JE-Disputations_9-0" class="reference"><a href="#cite_note-JE-Disputations-9">&#91;9&#93;</a></sup><sup id="cite_ref-BenSasson-JVL-Debates_10-0" class="reference"><a href="#cite_note-BenSasson-JVL-Debates-10">&#91;10&#93;</a></sup> Between 1451 and 1453, his fiery sermons against Jews persuaded  many southern German regions to expel their entire Jewish population, and in <a href="/wiki/Silesia" title="Silesia">Silesia</a>, then <a href="/wiki/Kingdom_of_Bohemia" title="Kingdom of Bohemia">Kingdom of Bohemia</a>, at <a href="/wiki/Wroclaw" class="mw-redirect" title="Wroclaw">Wroclaw</a> many were <a href="/wiki/Burned_at_the_stake" class="mw-redirect" title="Burned at the stake">burned at the stake</a>.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup><sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="The_soldier_saint">The soldier saint</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=5" title="Edit section: The soldier saint">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:134px;"><a href="/wiki/File:JohnofCapistranoCoat.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/9/94/JohnofCapistranoCoat.jpg" decoding="async" width="132" height="220" class="thumbimage" data-file-width="132" data-file-height="220" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:JohnofCapistranoCoat.jpg" class="internal" title="Enlarge"></a></div>The saint's coat of arms, with a sword piercing a crescent moon, on the Papal <a href="/wiki/Ombrellino" class="mw-redirect" title="Ombrellino">Ombrellino</a> at <a href="/wiki/Mission_Basilica_San_Juan_Capistrano" title="Mission Basilica San Juan Capistrano">Mission Basilica San Juan Capistrano</a>.</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Coat_of_Arms_Saint_John_of_Capistrano_reconstruction.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Coat_of_Arms_Saint_John_of_Capistrano_reconstruction.png/220px-Coat_of_Arms_Saint_John_of_Capistrano_reconstruction.png" decoding="async" width="220" height="220" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Coat_of_Arms_Saint_John_of_Capistrano_reconstruction.png/330px-Coat_of_Arms_Saint_John_of_Capistrano_reconstruction.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/67/Coat_of_Arms_Saint_John_of_Capistrano_reconstruction.png/440px-Coat_of_Arms_Saint_John_of_Capistrano_reconstruction.png 2x" data-file-width="3465" data-file-height="3465" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Coat_of_Arms_Saint_John_of_Capistrano_reconstruction.png" class="internal" title="Enlarge"></a></div>Reconstructed Coat of arms of John of Capistrano</div></div></div> 
+<p>After the <a href="/wiki/Fall_of_Constantinople" title="Fall of Constantinople">Fall of Constantinople</a> in 1453, the <a href="/wiki/Ottoman_Empire" title="Ottoman Empire">Ottoman Empire</a>, under Sultan <a href="/wiki/Mehmed_II" title="Mehmed II">Mehmed II</a>, threatened Christian Europe. That following year <a href="/wiki/Pope_Callixtus_III" title="Pope Callixtus III">Pope Callixtus III</a> sent John, who was already aged seventy, to preach a <a href="/wiki/Crusade" class="mw-redirect" title="Crusade">Crusade</a> against the invading <a href="/wiki/Ottoman_Empire" title="Ottoman Empire">Turks</a> at the <a href="/wiki/Imperial_Diet_(Holy_Roman_Empire)" title="Imperial Diet (Holy Roman Empire)">Imperial Diet</a> of <a href="/wiki/Frankfurt" title="Frankfurt">Frankfurt</a>. Gaining little response in Bavaria and Austria, he decided to concentrate his efforts in Hungary. By July 1456 Capistrano managed to raise a large, albeit poorly trained force made up of peasants and local countryside landlords, with which he advanced towards Belgrade which was under siege by Turkish forces.. Though poorly equipped they were highly motivated. Capistrano and <a href="/wiki/John_Hunyadi" title="John Hunyadi">John Hunyadi</a> traveled together, though commanding the army separately. Between them, they had gathered around 40,000–50,000 troops altogether. 
+</p><p>Hunyadi managed to break the naval blockade on the Danube, and breach the siege, bringing reinforcements and supplies to the city. By some accounts, the peasant soldiers started a spontaneous action, and forced Capistrano and Hunyadi to take advantage of it. Despite Hunyadi's orders to the defenders not to try to loot the Ottoman positions, some of the units crept out from demolished ramparts, took up positions across from the Ottoman line, and began harassing enemy soldiers. Ottoman Sipahis tried without success to disperse the harassing force. As more defenders joined those outside the wall. What began as an isolated incident quickly escalated into a full-scale battle.
+</p><p>John of Capistrano at first tried to order his men back inside the walls, but soon found himself surrounded by about 2,000 peasant levymen. He then began leading them toward the Ottoman rear across the Sava river. At the same time, Hunyadi started a desperate charge out of the fort to take the cannon positions in the Ottoman encampment. In the aftermath of a fierce battle, the Ottomans withdrew and retreated under cover of darkness; the siege was lifted. His involvement led to Capistrano being called “the Soldier Priest”. Although he survived the battle, John fell victim to the <a href="/wiki/Bubonic_plague" title="Bubonic plague">bubonic plague</a>, which flourished in the unsanitary conditions prevailing among armies of the day. He died on 23 October 1456<sup id="cite_ref-foley_3-2" class="reference"><a href="#cite_note-foley-3">&#91;3&#93;</a></sup> at the nearby town of <a href="/wiki/Ilok" title="Ilok">Ilok</a> (now a <a href="/wiki/Croatia" title="Croatia">Croatian</a> border town on the <a href="/wiki/Danube" title="Danube">Danube</a>).
+</p>
+<h2><span class="mw-headline" id="Sainthood_and_feast_day">Sainthood and feast day</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=6" title="Edit section: Sainthood and feast day">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The year of John of Capistrano's <a href="/wiki/Canonization" title="Canonization">canonization</a> is variously given as 1690 <sup id="cite_ref-lodi_13-0" class="reference"><a href="#cite_note-lodi-13">&#91;13&#93;</a></sup> by <a href="/wiki/Pope_Alexander_VIII" title="Pope Alexander VIII">Pope Alexander VIII</a> or as 1724 by <a href="/wiki/Pope_Benedict_XIII" title="Pope Benedict XIII">Pope Benedict XIII</a>. In 1890, his feast day was included for the first time in the <a href="/wiki/General_Roman_Calendar" title="General Roman Calendar">General Roman Calendar</a> and assigned to 28 March.<sup id="cite_ref-hun-saints_14-0" class="reference"><a href="#cite_note-hun-saints-14">&#91;14&#93;</a></sup> In 1969, <a href="/wiki/Pope_Paul_VI" title="Pope Paul VI">Pope Paul VI</a> moved his feast day to 23 October, the day of his death. Where Mass and the Office are said according to the <a href="/wiki/1962_Roman_Missal" class="mw-redirect" title="1962 Roman Missal">1962 Roman Missal</a> and its concomitant calendar, his feast day remains on March 28.
+</p>
+<ul class="gallery mw-gallery-traditional">
+		<li class="gallerybox" style="width: 175px"><div style="width: 175px">
+			<div class="thumb" style="width: 170px;"><div style="margin:15px auto;"><a href="/wiki/File:Kapisztran_statue,_Budapest.jpg" class="image" title="Statue of John of Capistrano in Budapest, Hungary"><img alt="Statue of John of Capistrano in Budapest, Hungary" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Kapisztran_statue%2C_Budapest.jpg/133px-Kapisztran_statue%2C_Budapest.jpg" decoding="async" width="133" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Kapisztran_statue%2C_Budapest.jpg/200px-Kapisztran_statue%2C_Budapest.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Kapisztran_statue%2C_Budapest.jpg/266px-Kapisztran_statue%2C_Budapest.jpg 2x" data-file-width="2592" data-file-height="3888" /></a></div></div>
+			<div class="gallerytext">
+<p>Statue of John of Capistrano in <a href="/wiki/Budapest" title="Budapest">Budapest</a>, Hungary
+</p>
+			</div>
+		</div></li>
+		<li class="gallerybox" style="width: 175px"><div style="width: 175px">
+			<div class="thumb" style="width: 170px;"><div style="margin:15px auto;"><a href="/wiki/File:Ilok_church.jpg" class="image" title="Painting in St. John of Capistrano Church in Ilok, Croatia, where he was buried"><img alt="Painting in St. John of Capistrano Church in Ilok, Croatia, where he was buried" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ilok_church.jpg/133px-Ilok_church.jpg" decoding="async" width="133" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ilok_church.jpg/200px-Ilok_church.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ilok_church.jpg/266px-Ilok_church.jpg 2x" data-file-width="1088" data-file-height="1632" /></a></div></div>
+			<div class="gallerytext">
+<p>Painting in St. John of Capistrano Church in <a href="/wiki/Ilok" title="Ilok">Ilok</a>, Croatia, where he was buried
+</p>
+			</div>
+		</div></li>
+		<li class="gallerybox" style="width: 175px"><div style="width: 175px">
+			<div class="thumb" style="width: 170px;"><div style="margin:15px auto;"><a href="/wiki/File:Saint_Jean_de_Capistran_Cath%C3%A9drale_Vienne.jpg" class="image" title="Monument in Vienna, near St. Stephen&#39;s Cathedral"><img alt="Monument in Vienna, near St. Stephen&#39;s Cathedral" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Saint_Jean_de_Capistran_Cath%C3%A9drale_Vienne.jpg/123px-Saint_Jean_de_Capistran_Cath%C3%A9drale_Vienne.jpg" decoding="async" width="123" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Saint_Jean_de_Capistran_Cath%C3%A9drale_Vienne.jpg/184px-Saint_Jean_de_Capistran_Cath%C3%A9drale_Vienne.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/60/Saint_Jean_de_Capistran_Cath%C3%A9drale_Vienne.jpg/246px-Saint_Jean_de_Capistran_Cath%C3%A9drale_Vienne.jpg 2x" data-file-width="2003" data-file-height="3258" /></a></div></div>
+			<div class="gallerytext">
+<p>Monument in Vienna, near St. Stephen's Cathedral
+</p>
+			</div>
+		</div></li>
+		<li class="gallerybox" style="width: 175px"><div style="width: 175px">
+			<div class="thumb" style="width: 170px;"><div style="margin:21.5px auto;"><a href="/wiki/File:Nuremberg_chronicles_f_249v_2_(Johannes_capistranus).jpg" class="image" title="In the Nuremberg Chronicle"><img alt="In the Nuremberg Chronicle" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Nuremberg_chronicles_f_249v_2_%28Johannes_capistranus%29.jpg/140px-Nuremberg_chronicles_f_249v_2_%28Johannes_capistranus%29.jpg" decoding="async" width="140" height="187" srcset="//upload.wikimedia.org/wikipedia/commons/0/04/Nuremberg_chronicles_f_249v_2_%28Johannes_capistranus%29.jpg 1.5x" data-file-width="207" data-file-height="277" /></a></div></div>
+			<div class="gallerytext">
+<p>In the <i><a href="/wiki/Nuremberg_Chronicle" title="Nuremberg Chronicle">Nuremberg Chronicle</a></i>
+</p>
+			</div>
+		</div></li>
+</ul>
+<h2><span class="mw-headline" id="Eponym">Eponym</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=7" title="Edit section: Eponym">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>As a Franciscan reformer preaching simplicity, John became the <a href="/wiki/Eponym" title="Eponym">eponym</a> of two Spanish <a href="/wiki/List_of_Spanish_missions" class="mw-redirect" title="List of Spanish missions">missions</a> founded by the Franciscan friars in the north of the then-Spanish Americas: <a href="/wiki/Mission_San_Juan_Capistrano" title="Mission San Juan Capistrano">Mission San Juan Capistrano</a> in present-day <a href="/wiki/Southern_California" title="Southern California">Southern California</a><sup id="cite_ref-FaithND_2-1" class="reference"><a href="#cite_note-FaithND-2">&#91;2&#93;</a></sup> and <a href="/wiki/Mission_San_Juan_Capistrano_(Texas)" title="Mission San Juan Capistrano (Texas)">Mission San Juan Capistrano</a> just outside the city center of present-day <a href="/wiki/San_Antonio,_Texas" class="mw-redirect" title="San Antonio, Texas">San Antonio</a> in Texas.<sup id="cite_ref-engelhardt_15-0" class="reference"><a href="#cite_note-engelhardt-15">&#91;15&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Patron_saint">Patron saint</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=8" title="Edit section: Patron saint">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>He is the patron saint of military chaplains and jurists.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="John_of_Capistrano_in_literature">John of Capistrano in literature</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=9" title="Edit section: John of Capistrano in literature">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Wilhelm von Scholz wrote a novel entitled "The Way to Ilok" ("Der Weg nach Ilok").</li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=10" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Church_of_St._Wojciech" class="mw-redirect" title="Church of St. Wojciech">Church of St. Wojciech</a>, in <a href="/wiki/Krak%C3%B3w" title="Kraków">Kraków</a>, <a href="/wiki/Poland" title="Poland">Poland</a>, sermons</li>
+<li><a href="/wiki/Mission_San_Juan_Capistrano_(Texas)" title="Mission San Juan Capistrano (Texas)">Mission San Juan Capistrano</a> in <a href="/wiki/San_Antonio,_Texas" class="mw-redirect" title="San Antonio, Texas">San Antonio, Texas</a></li>
+<li><a href="/wiki/Portal:Catholicism/Patron_Archive/March_28" class="mw-redirect" title="Portal:Catholicism/Patron Archive/March 28">Saint John of Capistrano, patron saint archive (March 28)</a></li>
+<li><a href="/wiki/Portal:Catholicism/Patron_Archive/October_23" class="mw-redirect" title="Portal:Catholicism/Patron Archive/October 23">Saint John of Capistrano, patron saint archive (October 23)</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=11" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-hess-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-hess_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-hess_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-hess_1-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/08452a.htm">Hess, Lawrence. "St. John Capistran." The Catholic Encyclopedia. Vol. 8. New York: Robert Appleton Company, 1910. 1 Feb. 2014</a></span>
+</li>
+<li id="cite_note-FaithND-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-FaithND_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FaithND_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://faith.nd.edu/s/1210/faith/interior.aspx?sid=1210&amp;gid=609&amp;calcid=53508&amp;calpgid=61&amp;pgid=16743&amp;crid=0">"St. John Capistrano", Faith ND</a></span>
+</li>
+<li id="cite_note-foley-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-foley_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-foley_3-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-foley_3-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.franciscanmedia.org/saint-of-the-day/saint-john-of-capistrano">"Saint John of Capistrano", Saint of the Day, Franciscan Media</a></span>
+</li>
+<li id="cite_note-EB1911-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-EB1911_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-EB1911_4-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-EB1911_4-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><span class="noprint"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png" decoding="async" width="12" height="13" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/18px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/24px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430" />&#160;</span>One or more of the preceding sentences&#160;incorporates text from a publication now in the <a href="/wiki/Public_domain" title="Public domain">public domain</a>:&#160;<style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFAlphandéry1911" class="citation encyclopaedia cs1">Alphandéry, Paul Daniel (1911). "<a href="https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Capistrano,_Giovanni_di" class="extiw" title="s:1911 Encyclopædia Britannica/Capistrano, Giovanni di">Capistrano, Giovanni di</a>".  In Chisholm, Hugh (ed.). <i><a href="/wiki/Encyclop%C3%A6dia_Britannica_Eleventh_Edition" title="Encyclopædia Britannica Eleventh Edition">Encyclopædia Britannica</a></i>. Vol.&#160;5 (11th&#160;ed.). Cambridge University Press. p.&#160;275.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Capistrano%2C+Giovanni+di&amp;rft.btitle=Encyclop%C3%A6dia+Britannica&amp;rft.pages=275&amp;rft.edition=11th&amp;rft.pub=Cambridge+University+Press&amp;rft.date=1911&amp;rft.aulast=Alphand%C3%A9ry&amp;rft.aufirst=Paul+Daniel&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJohn+of+Capistrano" class="Z3988"></span></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.americancatholic.org/features/saints/saint.aspx?id=1213">American Catholic.org "St. James of the Marche"</a></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.jewishencyclopedia.com/articles/4004-capistrano-john-of">Jewish Encyclopedia, 1908</a></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a href="/wiki/Paul_Johnson_(writer)" title="Paul Johnson (writer)">Paul Johnson</a>, <i>A History of the Jews</i>, p. 216</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Vogelstein and Rieger, "Gesch. der Juden in Rom", 1895, ii. 14</span>
+</li>
+<li id="cite_note-JE-Disputations-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-JE-Disputations_9-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.jewishencyclopedia.com/articles/5226-disputations">"DISPUTATIONS"</a>. JewishEncyclopedia.com<span class="reference-accessdate">. Retrieved <span class="nowrap">9 February</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=DISPUTATIONS&amp;rft.pub=JewishEncyclopedia.com&amp;rft_id=http%3A%2F%2Fwww.jewishencyclopedia.com%2Farticles%2F5226-disputations&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJohn+of+Capistrano" class="Z3988"></span></span>
+</li>
+<li id="cite_note-BenSasson-JVL-Debates-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-BenSasson-JVL-Debates_10-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFBen-Sasson" class="citation web cs1">Ben-Sasson, Haim Hillel. <a rel="nofollow" class="external text" href="http://www.jewishvirtuallibrary.org/jsource/judaica/ejud_0002_0005_0_05259.html">"DISPUTATIONS AND POLEMICS"</a>. jewishvirtuallibrary.org (The Gale Group)<span class="reference-accessdate">. Retrieved <span class="nowrap">9 February</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=DISPUTATIONS+AND+POLEMICS&amp;rft.pub=jewishvirtuallibrary.org+%28The+Gale+Group%29&amp;rft.aulast=Ben-Sasson&amp;rft.aufirst=Haim+Hillel&amp;rft_id=http%3A%2F%2Fwww.jewishvirtuallibrary.org%2Fjsource%2Fjudaica%2Fejud_0002_0005_0_05259.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJohn+of+Capistrano" class="Z3988"></span></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><i>Antisemitism: A Historical Encyclopedia of Prejudice and Persecution</i>, Richard S. Levy, published by ABC-CLIO, 2005, and available here <a rel="nofollow" class="external autonumber" href="https://books.google.com/books?id=Tdn6FFZklkcC&amp;pg=RA1-PA96&amp;lpg=RA1-PA96&amp;dq=%22John+of+capistrano%22+Jews&amp;source=bl&amp;oi=book_result&amp;ct=result&amp;resnum=6">[1]</a></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">Will Durant, <i>The Reformation</i>, Simon &amp; Schuster (1957), page 731</span>
+</li>
+<li id="cite_note-lodi-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-lodi_13-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.ewtn.com/library/MARY/JOHNCAPI.HTM">Lodi, Enzo. <i>Saints of the Roman Calendar</i>, Alba House</a></span>
+</li>
+<li id="cite_note-hun-saints-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-hun-saints_14-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.katolikus.hu/hun-saints/john.html">ST JOHN OF CAPISTRANO (A.D. 1456)</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20110721110457/http://www.katolikus.hu/hun-saints/john.html">Archived</a> 2011-07-21 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a> Retrieved September 13, 2006; <i>Calendarium Romanum</i> (Libreria Editrice Vaticana, 1969), p. 106</span>
+</li>
+<li id="cite_note-engelhardt-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-engelhardt_15-0">^</a></b></span> <span class="reference-text">Engelhardt, Zephyrin, O.F.M. <i>San Juan Capistrano Mission</i>. 1922. Standard Printing Co., Los Angeles, CA.</span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFCraughwell2009" class="citation web cs1">Craughwell, Thomas (23 October 2009). <a rel="nofollow" class="external text" href="http://www.catholicmil.org/index.php?option=com_content&amp;view=article&amp;id=1524:st-john-of-capistrano-patron-of-military-chaplains&amp;catid=57:military-saints&amp;Itemid=91">"St. John of Capistrano: Patron of Military Chaplains"</a>. CatholicMil.org (reprinted from Arlington Catholic Herald)<span class="reference-accessdate">. Retrieved <span class="nowrap">2009-12-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=St.+John+of+Capistrano%3A+Patron+of+Military+Chaplains&amp;rft.pub=CatholicMil.org+%28reprinted+from+Arlington+Catholic+Herald%29&amp;rft.date=2009-10-23&amp;rft.aulast=Craughwell&amp;rft.aufirst=Thomas&amp;rft_id=http%3A%2F%2Fwww.catholicmil.org%2Findex.php%3Foption%3Dcom_content%26view%3Darticle%26id%3D1524%3Ast-john-of-capistrano-patron-of-military-chaplains%26catid%3D57%3Amilitary-saints%26Itemid%3D91&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJohn+of+Capistrano" class="Z3988"></span></span>
+</li>
+</ol></div></div>
+<p><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png" decoding="async" width="12" height="13" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/18px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/24px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430" />&#160;This article incorporates text from a publication now in the <a href="/wiki/Public_domain" title="Public domain">public domain</a>:&#160;<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHerbermann1913" class="citation encyclopaedia cs1">Herbermann, Charles, ed. (1913). "<a href="https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)/St._John_Capistran" class="extiw" title="s:Catholic Encyclopedia (1913)/St. John Capistran">St. John Capistran</a>". <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i>. New York: Robert Appleton Company.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=St.+John+Capistran&amp;rft.btitle=Catholic+Encyclopedia&amp;rft.place=New+York&amp;rft.pub=Robert+Appleton+Company&amp;rft.date=1913&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJohn+of+Capistrano" class="Z3988"></span>
+</p>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=John_of_Capistrano&amp;action=edit&amp;section=12" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:John_of_Capistrano" class="extiw" title="commons:Category:John of Capistrano">John of Capistrano</a></span>.</div></div>
+</div>
+<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFAndrić2016" class="citation journal cs1">Andrić, Stanko (2016). <a rel="nofollow" class="external text" href="https://www.academia.edu/34480630/Saint_John_Capistran_and_Despot_George_Brankovi%C4%87_An_Impossible_Compromise">"Saint John Capistran and Despot George Branković: An Impossible Compromise"</a>. <i>Byzantinoslavica</i>. <b>74</b> (1–2): 202–227.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Byzantinoslavica&amp;rft.atitle=Saint+John+Capistran+and+Despot+George+Brankovi%C4%87%3A+An+Impossible+Compromise&amp;rft.volume=74&amp;rft.issue=1%E2%80%932&amp;rft.pages=202-227&amp;rft.date=2016&amp;rft.aulast=Andri%C4%87&amp;rft.aufirst=Stanko&amp;rft_id=https%3A%2F%2Fwww.academia.edu%2F34480630%2FSaint_John_Capistran_and_Despot_George_Brankovi%25C4%2587_An_Impossible_Compromise&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJohn+of+Capistrano" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFAngiolini2000" class="citation book cs1 cs1-prop-foreign-lang-source">Angiolini, Hélène (2000). <a rel="nofollow" class="external text" href="https://www.treccani.it/enciclopedia/giovanni-da-capestrano-santo_(Dizionario-Biografico)">"GIOVANNI da Capestrano, santo"</a>. <i><a href="/wiki/Dizionario_Biografico_degli_Italiani" title="Dizionario Biografico degli Italiani">Dizionario Biografico degli Italiani</a>, Volume 55: Ginammi–Giovanni da Crema</i> (in Italian). Rome: <a href="/wiki/Istituto_dell%27Enciclopedia_Italiana" class="mw-redirect" title="Istituto dell&#39;Enciclopedia Italiana">Istituto dell'Enciclopedia Italiana</a>. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-8-81200032-6" title="Special:BookSources/978-8-81200032-6"><bdi>978-8-81200032-6</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=GIOVANNI+da+Capestrano%2C+santo&amp;rft.btitle=Dizionario+Biografico+degli+Italiani%2C+Volume+55%3A+Ginammi%E2%80%93Giovanni+da+Crema&amp;rft.place=Rome&amp;rft.pub=Istituto+dell%27Enciclopedia+Italiana&amp;rft.date=2000&amp;rft.isbn=978-8-81200032-6&amp;rft.aulast=Angiolini&amp;rft.aufirst=H%C3%A9l%C3%A8ne&amp;rft_id=https%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fgiovanni-da-capestrano-santo_%28Dizionario-Biografico%29&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJohn+of+Capistrano" class="Z3988"></span></li></ul>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q310359#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q310359#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q310359#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000110293132">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/72188800">1</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/287721154">2</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n85319312/">WorldCat</a></span>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/viaf-287721154/">2</a></span></li></ul></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://authority.bibsys.no/authority/rest/authorities/html/8072669">Norway</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX5338816">Spain</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb10603462k">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb10603462k">(data)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://cantic.bnc.cat/registre/981058523808806706">Catalonia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/118712632">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.sbn.it/nome/CFIV037427">Italy</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007301830405171">Israel</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n85319312">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=jn20020903032&amp;CON_LNG=ENG">Czech Republic</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://nla.gov.au/anbd.aut-an49866031">Australia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p197160166">Netherlands</a></span>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p074995669">2</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://mak.bn.org.pl/cgi-bin/KHW/makwww.exe?BM=1&amp;NU=1&amp;IM=4&amp;WI=9810602008105606">Poland</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.vatlib.it/auth/detail/495_24013">Vatican</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Art research institutes</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.getty.edu/vow/ULANFullDisplay?find=&amp;role=&amp;nation=&amp;subjectid=500353731">Artist Names (Getty)</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.treccani.it/enciclopedia/giovanni-da-capestrano-santo_(Dizionario-Biografico)">Italian People</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118712632.html?language=en">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/167735/">FAST</a></span></li>
+<li><a href="/wiki/RERO_(identifier)" class="mw-redirect" title="RERO (identifier)">RERO (Switzerland)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://data.rero.ch/02-A018835401">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://snaccooperative.org/ark:/99166/w6ns113s">Social Networks and Archival Context</a></span></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/107700638">1</a></span></li></ul></li>
+<li><a href="/wiki/Trove_(identifier)" class="mw-redirect" title="Trove (identifier)">Trove (Australia)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://trove.nla.gov.au/people/1526951">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2393
+Cached time: 20230207153156
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.460 seconds
+Real time usage: 0.629 seconds
+Preprocessor visited node count: 1996/1000000
+Post‐expand include size: 53114/2097152 bytes
+Template argument size: 2188/2097152 bytes
+Highest expansion depth: 13/100
+Expensive parser function count: 27/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 36072/5000000 bytes
+Lua time usage: 0.322/10.000 seconds
+Lua memory usage: 22744907/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  565.592      1 -total
+ 19.19%  108.545      1 Template:Reflist
+ 18.16%  102.725      1 Template:Authority_control
+ 13.87%   78.439      1 Template:Lang-it
+ 12.43%   70.305      1 Template:EB1911
+  9.09%   51.387      1 Template:Commons_category
+  9.00%   50.881      1 Template:Refimprove
+  8.70%   49.213      1 Template:Sister_project
+  8.50%   48.058      1 Template:Short_description
+  8.43%   47.654      1 Template:Side_box
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:720407-0!canonical and timestamp 20230207153156 and revision id 1132302377. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=John_of_Capistrano&amp;oldid=1132302377">https://en.wikipedia.org/w/index.php?title=John_of_Capistrano&amp;oldid=1132302377</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1386_births" title="Category:1386 births">1386 births</a></li><li><a href="/wiki/Category:1456_deaths" title="Category:1456 deaths">1456 deaths</a></li><li><a href="/wiki/Category:People_from_the_Province_of_L%27Aquila" title="Category:People from the Province of L&#039;Aquila">People from the Province of L'Aquila</a></li><li><a href="/wiki/Category:University_of_Perugia_alumni" title="Category:University of Perugia alumni">University of Perugia alumni</a></li><li><a href="/wiki/Category:Diplomats_of_the_Holy_See" title="Category:Diplomats of the Holy See">Diplomats of the Holy See</a></li><li><a href="/wiki/Category:14th-century_Italian_writers" title="Category:14th-century Italian writers">14th-century Italian writers</a></li><li><a href="/wiki/Category:15th-century_Italian_writers" title="Category:15th-century Italian writers">15th-century Italian writers</a></li><li><a href="/wiki/Category:Italian_Friars_Minor" title="Category:Italian Friars Minor">Italian Friars Minor</a></li><li><a href="/wiki/Category:Franciscan_saints" title="Category:Franciscan saints">Franciscan saints</a></li><li><a href="/wiki/Category:Italian_Roman_Catholic_saints" title="Category:Italian Roman Catholic saints">Italian Roman Catholic saints</a></li><li><a href="/wiki/Category:15th-century_Christian_saints" title="Category:15th-century Christian saints">15th-century Christian saints</a></li><li><a href="/wiki/Category:Canonizations_by_Pope_Alexander_VIII" title="Category:Canonizations by Pope Alexander VIII">Canonizations by Pope Alexander VIII</a></li><li><a href="/wiki/Category:15th-century_deaths_from_plague_(disease)" title="Category:15th-century deaths from plague (disease)">15th-century deaths from plague (disease)</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Wikipedia_articles_incorporating_a_citation_from_the_1911_Encyclopaedia_Britannica_with_Wikisource_reference" title="Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference">Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference</a></li><li><a href="/wiki/Category:Wikipedia_articles_incorporating_text_from_the_1911_Encyclop%C3%A6dia_Britannica" title="Category:Wikipedia articles incorporating text from the 1911 Encyclopædia Britannica">Wikipedia articles incorporating text from the 1911 Encyclopædia Britannica</a></li><li><a href="/wiki/Category:Webarchive_template_wayback_links" title="Category:Webarchive template wayback links">Webarchive template wayback links</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Articles_needing_additional_references_from_November_2021" title="Category:Articles needing additional references from November 2021">Articles needing additional references from November 2021</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="/wiki/Category:Articles_containing_Italian-language_text" title="Category:Articles containing Italian-language text">Articles containing Italian-language text</a></li><li><a href="/wiki/Category:Articles_containing_Hungarian-language_text" title="Category:Articles containing Hungarian-language text">Articles containing Hungarian-language text</a></li><li><a href="/wiki/Category:Articles_containing_Polish-language_text" title="Category:Articles containing Polish-language text">Articles containing Polish-language text</a></li><li><a href="/wiki/Category:Articles_containing_Croatian-language_text" title="Category:Articles containing Croatian-language text">Articles containing Croatian-language text</a></li><li><a href="/wiki/Category:Articles_incorporating_a_citation_from_the_1913_Catholic_Encyclopedia_with_Wikisource_reference" title="Category:Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference">Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference</a></li><li><a href="/wiki/Category:Articles_incorporating_text_from_the_1913_Catholic_Encyclopedia_with_Wikisource_reference" title="Category:Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference">Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:CS1_Italian-language_sources_(it)" title="Category:CS1 Italian-language sources (it)">CS1 Italian-language sources (it)</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BIBSYS_identifiers" title="Category:Articles with BIBSYS identifiers">Articles with BIBSYS identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNE_identifiers" title="Category:Articles with BNE identifiers">Articles with BNE identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_CANTICN_identifiers" title="Category:Articles with CANTICN identifiers">Articles with CANTICN identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_ICCU_identifiers" title="Category:Articles with ICCU identifiers">Articles with ICCU identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_NLA_identifiers" title="Category:Articles with NLA identifiers">Articles with NLA identifiers</a></li><li><a href="/wiki/Category:Articles_with_NTA_identifiers" title="Category:Articles with NTA identifiers">Articles with NTA identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_ULAN_identifiers" title="Category:Articles with ULAN identifiers">Articles with ULAN identifiers</a></li><li><a href="/wiki/Category:Articles_with_DBI_identifiers" title="Category:Articles with DBI identifiers">Articles with DBI identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_RERO_identifiers" title="Category:Articles with RERO identifiers">Articles with RERO identifiers</a></li><li><a href="/wiki/Category:Articles_with_SNAC-ID_identifiers" title="Category:Articles with SNAC-ID identifiers">Articles with SNAC-ID identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li><li><a href="/wiki/Category:Articles_with_Trove_identifiers" title="Category:Articles with Trove identifiers">Articles with Trove identifiers</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 8 January 2023, at 06:28<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=John_of_Capistrano&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.460","walltime":"0.629","ppvisitednodes":{"value":1996,"limit":1000000},"postexpandincludesize":{"value":53114,"limit":2097152},"templateargumentsize":{"value":2188,"limit":2097152},"expansiondepth":{"value":13,"limit":100},"expensivefunctioncount":{"value":27,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":36072,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  565.592      1 -total"," 19.19%  108.545      1 Template:Reflist"," 18.16%  102.725      1 Template:Authority_control"," 13.87%   78.439      1 Template:Lang-it"," 12.43%   70.305      1 Template:EB1911","  9.09%   51.387      1 Template:Commons_category","  9.00%   50.881      1 Template:Refimprove","  8.70%   49.213      1 Template:Sister_project","  8.50%   48.058      1 Template:Short_description","  8.43%   47.654      1 Template:Side_box"]},"scribunto":{"limitreport-timeusage":{"value":"0.322","limit":"10.000"},"limitreport-memusage":{"value":22744907,"limit":52428800}},"cachereport":{"origin":"mw2393","timestamp":"20230207153156","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"John of Capistrano","url":"https:\/\/en.wikipedia.org\/wiki\/John_of_Capistrano","sameAs":"http:\/\/www.wikidata.org\/entity\/Q310359","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q310359","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-06-12T20:38:15Z","dateModified":"2023-01-08T06:28:16Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/84\/82Johannes_von_Capestrano.jpg","headline":"Franciscan monk, catholic saint (1386\u20131456)"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"John of Capistrano","url":"https:\/\/en.wikipedia.org\/wiki\/John_of_Capistrano","sameAs":"http:\/\/www.wikidata.org\/entity\/Q310359","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q310359","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-06-12T20:38:15Z","dateModified":"2023-01-08T06:28:16Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/84\/82Johannes_von_Capestrano.jpg","headline":"Franciscan monk, catholic saint (1386\u20131456)"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":125,"wgHostname":"mw2363"});});</script>
+</body>
+</html>

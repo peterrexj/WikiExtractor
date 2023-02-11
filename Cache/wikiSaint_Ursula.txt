@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Saint Ursula - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"ad29c2e6-aa3f-49c6-84af-12a101c95c70",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Saint_Ursula","wgTitle":"Saint Ursula","wgCurRevisionId":1133348996,"wgRevisionId":1133348996,"wgArticleId":588117,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference","Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference","Webarchive template wayback links","CS1 Catalan-language sources (ca)","Articles with short description","Short description is different from Wikidata","Use dmy dates from July 2021","EngvarB from October 2020","Articles containing German-language text","All articles with unsourced statements","Articles with unsourced statements from July 2021","Articles with unsourced statements from October 2022","Articles containing Catalan-language text",
+"Articles with unsourced statements from June 2012","Commons category link is on Wikidata","Articles with Italian-language sources (it)","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with GND identifiers","Articles with LCCN identifiers","Articles with NKC identifiers","Articles with DTBIO identifiers","Articles with FAST identifiers","Year of birth unknown","383 deaths","4th-century Christian saints","4th-century Roman women","Christian child saints","Christian royal saints","Christianity in Cologne","Late Ancient Christian female saints","Medieval legends","Romano-British saints","Legendary Romans"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Saint_Ursula","wgRelevantArticleId":588117,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{
+"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q369691","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading",
+"ext.cite.styles":"ready","mediawiki.page.gallery.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth",
+"ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.page.gallery.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/9d/Carlo_Crivelli_041.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="1915"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Carlo_Crivelli_041.jpg/800px-Carlo_Crivelli_041.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="1277"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Carlo_Crivelli_041.jpg/640px-Carlo_Crivelli_041.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="1021"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Saint Ursula - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Saint_Ursula"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Saint_Ursula&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Saint_Ursula"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Saint_Ursula rootpage-Saint_Ursula skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Saint+Ursula" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Saint+Ursula"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Saint+Ursula"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Saint_Ursula" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Saint_Ursula" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Saint_Ursula&amp;oldid=1133348996" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Saint_Ursula&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Saint_Ursula&amp;id=1133348996&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q369691" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Saint_Ursula&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Saint_Ursula&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Ursula" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Legend_of_the_Eleven_Thousand_Companions"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Legend_of_the_Eleven_Thousand_Companions">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Legend of the Eleven Thousand Companions</div>
+		</a>
+		
+			<button aria-controls="toc-Legend_of_the_Eleven_Thousand_Companions-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-Legend_of_the_Eleven_Thousand_Companions-sublist" class="vector-toc-list">
+			<li id="toc-Lack_of_historical_credibility"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Lack_of_historical_credibility">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.1</span>Lack of historical credibility</div>
+			</a>
+			
+			<ul id="toc-Lack_of_historical_credibility-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Tenth-century_legend"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Tenth-century_legend">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.2</span>Tenth-century legend</div>
+			</a>
+			
+			<ul id="toc-Tenth-century_legend-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Misreading_of_Latin"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Misreading_of_Latin">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.3</span>Misreading of Latin</div>
+			</a>
+			
+			<ul id="toc-Misreading_of_Latin-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Skeletal_remains"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Skeletal_remains">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.4</span>Skeletal remains</div>
+			</a>
+			
+			<ul id="toc-Skeletal_remains-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Catholic_official_stance"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Catholic_official_stance">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.5</span>Catholic official stance</div>
+			</a>
+			
+			<ul id="toc-Catholic_official_stance-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Veneration"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Veneration">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Veneration</div>
+		</a>
+		
+			<button aria-controls="toc-Veneration-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-Veneration-sublist" class="vector-toc-list">
+			<li id="toc-Catholic_order"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Catholic_order">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1</span>Catholic order</div>
+			</a>
+			
+			<ul id="toc-Catholic_order-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Celebrations"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Celebrations">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.2</span>Celebrations</div>
+			</a>
+			
+			<ul id="toc-Celebrations-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Church_music_and_art"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Church_music_and_art">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.3</span>Church music and art</div>
+			</a>
+			
+			<ul id="toc-Church_music_and_art-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Places_named_after_her_companions"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Places_named_after_her_companions">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.4</span>Places named after her companions</div>
+			</a>
+			
+			<ul id="toc-Places_named_after_her_companions-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-UK_and_Anglican_Church"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#UK_and_Anglican_Church">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.5</span>UK and Anglican Church</div>
+			</a>
+			
+			<ul id="toc-UK_and_Anglican_Church-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Visions"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Visions">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.6</span>Visions</div>
+			</a>
+			
+			<ul id="toc-Visions-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Cordula,_Ursula&#039;s_companion"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Cordula,_Ursula&#039;s_companion">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Cordula, Ursula's companion</div>
+		</a>
+		
+		<ul id="toc-Cordula,_Ursula&#039;s_companion-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Similarities_with_Sunniva"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Similarities_with_Sunniva">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Similarities with Sunniva</div>
+		</a>
+		
+		<ul id="toc-Similarities_with_Sunniva-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Saint Ursula</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 35 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-35"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">35 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%A3%D1%80%D1%81%D1%83%D0%BB%D0%B0" title="Урсула – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a href="https://br.wikipedia.org/wiki/Ursula_(santez)" title="Ursula (santez) – Breton" lang="br" hreflang="br" class="interlanguage-link-target"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/%C3%9Arsula_de_Col%C3%B2nia" title="Úrsula de Colònia – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Svat%C3%A1_Vor%C5%A1ila" title="Svatá Voršila – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a href="https://cy.wikipedia.org/wiki/Ursula" title="Ursula – Welsh" lang="cy" hreflang="cy" class="interlanguage-link-target"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wikipedia.org/wiki/Sankt_Ursula" title="Sankt Ursula – Danish" lang="da" hreflang="da" class="interlanguage-link-target"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Ursula_von_K%C3%B6ln" title="Ursula von Köln – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a href="https://et.wikipedia.org/wiki/Ursula" title="Ursula – Estonian" lang="et" hreflang="et" class="interlanguage-link-target"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%91%CE%B3%CE%AF%CE%B1_%CE%9F%CF%8D%CF%81%CF%83%CE%BF%CF%85%CE%BB%CE%B1" title="Αγία Ούρσουλα – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/%C3%9Arsula_de_Colonia" title="Úrsula de Colonia – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Ursulo_de_Kolonjo" title="Ursulo de Kolonjo – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/Santa_Urtsula" title="Santa Urtsula – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Ursule_de_Cologne" title="Ursule de Cologne – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a href="https://ga.wikipedia.org/wiki/Naomh_Ursula" title="Naomh Ursula – Irish" lang="ga" hreflang="ga" class="interlanguage-link-target"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%A5%B4%EC%88%A0%EB%9D%BC" title="우르술라 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Sveta_Ur%C5%A1ula" title="Sveta Uršula – Croatian" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Ursula_dari_K%C3%B6ln" title="Ursula dari Köln – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Sant%27Orsola" title="Sant&#039;Orsola – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Ursula_Mtakatifu" title="Ursula Mtakatifu – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Ursula_Coloniensis" title="Ursula Coloniensis – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Szent_Orsolya" title="Szent Orsolya – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Ursula_van_Keulen" title="Ursula van Keulen – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E8%81%96%E3%82%A6%E3%83%AB%E3%82%B9%E3%83%A9" title="聖ウルスラ – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Urszula_z_Kolonii" title="Urszula z Kolonii – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/%C3%9Arsula_de_Col%C3%B4nia" title="Úrsula de Colônia – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Sf%C3%A2nta_Ursula" title="Sfânta Ursula – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D1%8F%D1%82%D0%B0%D1%8F_%D0%A3%D1%80%D1%81%D1%83%D0%BB%D0%B0" title="Святая Урсула – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/Ur%C5%A1u%C4%BEa_(sv%C3%A4tica)" title="Uršuľa (svätica) – Slovak" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/Sveta_Ur%C5%A1ula" title="Sveta Uršula – Slovenian" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D0%B0_%D0%A3%D1%80%D1%81%D1%83%D0%BB%D0%B0" title="Света Урсула – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Sveta_Ursula" title="Sveta Ursula – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Ursula_(pyhimys)" title="Ursula (pyhimys) – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Ursula_(helgon)" title="Ursula (helgon) – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Ursula_(azize)" title="Ursula (azize) – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%A3%D1%80%D1%81%D1%83%D0%BB%D0%B0_%D0%9A%D0%BE%D0%BB%D0%BE%D0%BD%D1%81%D1%8C%D0%BA%D0%B0" title="Урсула Колонська – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q369691#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Saint_Ursula" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Saint_Ursula" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Saint_Ursula"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Saint_Ursula&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Saint_Ursula&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Saint_Ursula"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Saint_Ursula&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Saint_Ursula&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">4th century Frankish saint</div>
+<style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">This article is about the saint. For other uses, see <a href="/wiki/Saint_Ursula_(disambiguation)" class="mw-disambig" title="Saint Ursula (disambiguation)">Saint Ursula (disambiguation)</a>.</div>
+<p class="mw-empty-elt">
+
+</p>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;"><a href="/wiki/Saint" title="Saint">Saint</a></div><br /><div style="display:inline;" class="fn">Ursula</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Carlo_Crivelli_041.jpg" class="image"><img alt="Carlo Crivelli 041.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Carlo_Crivelli_041.jpg/220px-Carlo_Crivelli_041.jpg" decoding="async" width="220" height="351" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Carlo_Crivelli_041.jpg/330px-Carlo_Crivelli_041.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Carlo_Crivelli_041.jpg/440px-Carlo_Crivelli_041.jpg 2x" data-file-width="1000" data-file-height="1596" /></a></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Virgin and martyr</th></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">21 October 383 or 21 October 385</td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class="plainlist"><ul><li><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a></li><li><a href="/wiki/Anglican_Communion" title="Anglican Communion">Anglican Communion</a></li></ul></div></td></tr><tr><th scope="row" class="infobox-label"><span class="nowrap">Major <a href="/wiki/Shrine" title="Shrine">shrine</a></span></th><td class="infobox-data"><a href="/wiki/Church_of_St._Ursula" class="mw-redirect" title="Church of St. Ursula">Church of St. Ursula</a>, Cologne</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">21 October</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Saint_symbolism" title="Saint symbolism">Attributes</a></th><td class="infobox-data">arrow; banner; cloak; clock; maiden shot with arrows; depicted accompanied by a varied number of companions who are being martyred in various ways; ship</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data"><a href="/wiki/Cologne" title="Cologne">Cologne</a>, England, <a href="/wiki/Gozo" title="Gozo">Island of Gozo</a>,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> <a href="/wiki/Archery" title="Archery">archers</a>, orphans, female students, <a href="/wiki/Binangonan" title="Binangonan">Binangonan</a>, <a href="/wiki/Rizal" title="Rizal">Rizal</a></td></tr></tbody></table>
+<p><b>Saint Ursula</b> (<a href="/wiki/Latin" title="Latin">Latin</a> for 'little female bear', German: <i lang="de">Heilige Ursula</i>) is a legendary <a href="/wiki/Romano-British_culture" title="Romano-British culture">Romano-British</a> <a href="/wiki/Celtic_Christianity" title="Celtic Christianity">Christian</a> <a href="/wiki/Saint" title="Saint">saint</a> who died on 21 October 383 or 385. Her <a href="/wiki/Feast_day" class="mw-redirect" title="Feast day">feast day</a> in the pre-1970 <a href="/wiki/General_Roman_Calendar" title="General Roman Calendar">General Roman Calendar</a> is 21 October. There is little information about her and the anonymous group of holy virgins who accompanied and, on an uncertain date, were killed along with her at <a href="/wiki/Cologne" title="Cologne">Cologne</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> They remain in the <a href="/wiki/Roman_Martyrology" title="Roman Martyrology">Roman Martyrology</a>,<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup> although their commemoration does not appear in the simplified Calendarium Romanum Generale (<a href="/wiki/General_Roman_Calendar" title="General Roman Calendar">General Roman Calendar</a>) of the 1970 Missale Romanum.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup>
+</p><p>The earliest evidence of a cult of martyred virgins at Cologne is an inscription from c. 400 in the <a href="/wiki/Basilica_of_St._Ursula,_Cologne" title="Basilica of St. Ursula, Cologne">Church of St. Ursula</a>, located on Ursulaplatz in Cologne which states that the ancient basilica had been restored on the site where some holy virgins were killed. The earliest source to name one of these virgins Ursula is from the 10th century.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup>
+</p><p>Her legendary status comes from a medieval story<sup id="cite_ref-Poncelet_1912_6-0" class="reference"><a href="#cite_note-Poncelet_1912-6">&#91;6&#93;</a></sup> in which she was a princess who, at the request of her father King <a href="/wiki/Dionotus" title="Dionotus">Dionotus</a> of <a href="/wiki/Dumnonia" title="Dumnonia">Dumnonia</a> in south-west Britain, set sail along with 11,000 virginal handmaidens to join her future husband, the pagan governor <a href="/wiki/Conan_Meriadoc" title="Conan Meriadoc">Conan Meriadoc</a> of <a href="/wiki/Armorica" title="Armorica">Armorica</a>. After a miraculous storm brought them over the sea in a single day to a Gaulish port, Ursula declared that before her marriage she would undertake a pan-European <a href="/wiki/Pilgrimage" title="Pilgrimage">pilgrimage</a>. She headed for Rome with her followers and persuaded the Pope, Cyriacus (unknown in the pontifical records, though from late 384 AD there was a <a href="/wiki/Pope_Siricius" title="Pope Siricius">Pope Siricius</a>), and Sulpicius, <a href="/wiki/Bishop_of_Ravenna" title="Bishop of Ravenna">bishop of Ravenna</a>, to join them. After setting out for Cologne, which was being besieged by <a href="/wiki/Huns" title="Huns">Huns</a>, all the virgins were beheaded in a massacre. The Huns' leader fatally shot Ursula with an arrow in about 383 AD (the date varies).
+</p><p>There is only one church dedicated to Saint Ursula in the United Kingdom. It is located in Wales at <a href="/wiki/Llangwyryfon" title="Llangwyryfon">Llangwyryfon</a>, <a href="/wiki/Ceredigion" title="Ceredigion">Ceredigion</a>.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (July 2021)">citation needed</span></a></i>&#93;</sup>
+</p><p>The <a href="/wiki/Virgin_Islands" title="Virgin Islands">Virgin Islands</a> and the <a href="/wiki/Ursulines" title="Ursulines">Ursulines</a> are named in her honor.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Legend_of_the_Eleven_Thousand_Companions">Legend of the Eleven Thousand Companions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=1" title="Edit section: Legend of the Eleven Thousand Companions">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Hans_Memling_074.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Hans_Memling_074.jpg/220px-Hans_Memling_074.jpg" decoding="async" width="220" height="320" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Hans_Memling_074.jpg/330px-Hans_Memling_074.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Hans_Memling_074.jpg/440px-Hans_Memling_074.jpg 2x" data-file-width="2024" data-file-height="2946" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Hans_Memling_074.jpg" class="internal" title="Enlarge"></a></div><a href="/wiki/Hans_Memling" title="Hans Memling">Hans Memling</a>, <i><a href="/wiki/St._Ursula_Shrine" title="St. Ursula Shrine">The Martyrdom of Saint Ursula</a></i></div></div></div>
+<h3><span class="mw-headline" id="Lack_of_historical_credibility">Lack of historical credibility</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=2" title="Edit section: Lack of historical credibility">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i> (1912) article on Saint Ursula states that "this legend, with its countless variants and increasingly fabulous developments, would fill more than a hundred pages. Various characteristics of it were already regarded with suspicion by certain medieval writers, and since <a href="/wiki/Caesar_Baronius" title="Caesar Baronius">[Caesar] Baronius</a> have been universally rejected".<sup id="cite_ref-Poncelet_1912_6-1" class="reference"><a href="#cite_note-Poncelet_1912-6">&#91;6&#93;</a></sup> Neither <a href="/wiki/Jerome" title="Jerome">Jerome</a> nor <a href="/wiki/Gregory_of_Tours" title="Gregory of Tours">Gregory of Tours</a> refers to Ursula in his writings.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> Gregory of Tours mentions the legend of the <a href="/wiki/Theban_Legion" title="Theban Legion">Theban Legion</a>, to whom a church that once stood in Cologne was dedicated.<sup id="cite_ref-FOOTNOTEArcherGrieve1911803_8-0" class="reference"><a href="#cite_note-FOOTNOTEArcherGrieve1911803-8">&#91;8&#93;</a></sup> The most important hagiographers (<a href="/wiki/Bede" title="Bede">Bede</a>, <a href="/wiki/Ado_(archbishop)" class="mw-redirect" title="Ado (archbishop)">Ado</a>, <a href="/wiki/Usuard" title="Usuard">Usuard</a>, <a href="/wiki/Notker_the_Stammerer" title="Notker the Stammerer">Notker the Stammerer</a>, <a href="/wiki/Rabanus_Maurus" title="Rabanus Maurus">Hrabanus Maurus</a>) of the early <a href="/wiki/Middle_Ages" title="Middle Ages">Middle Ages</a> also do not enter Ursula under 21 October, her feast day.<sup id="cite_ref-FOOTNOTEArcherGrieve1911803_8-1" class="reference"><a href="#cite_note-FOOTNOTEArcherGrieve1911803-8">&#91;8&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Tenth-century_legend">Tenth-century legend</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=3" title="Edit section: Tenth-century legend">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>A legend resembling Ursula's appeared in the first half of the tenth century; it does not mention the name <i>Ursula</i>, but rather gives the leader of the martyred group as <i>Pinnosa</i> or <i>Vinnosa</i>. Pinnosa's relics were transferred about 947 from Cologne to Essen,<sup id="cite_ref-Montgomery_9-0" class="reference"><a href="#cite_note-Montgomery-9">&#91;9&#93;</a></sup> and from this point forward Ursula's role was emphasised.<sup id="cite_ref-FOOTNOTEArcherGrieve1911803_8-2" class="reference"><a href="#cite_note-FOOTNOTEArcherGrieve1911803-8">&#91;8&#93;</a></sup><sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup> In 970, for example, the first <i>Passio Ursulae</i> was written, naming Ursula rather than Pinnosa as the group's leader (although Pinnosa is mentioned as one of the group's members). This change might also be due in part to the discovery at this time of an epitaph speaking of Ursula, the "innocent virgin".<sup id="cite_ref-Montgomery_9-1" class="reference"><a href="#cite_note-Montgomery-9">&#91;9&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Misreading_of_Latin">Misreading of Latin</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=4" title="Edit section: Misreading of Latin">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Bernardo_Cavallino_-_Saint_Ursula_-_1929.6.152_-_Smithsonian_American_Art_Museum.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bernardo_Cavallino_-_Saint_Ursula_-_1929.6.152_-_Smithsonian_American_Art_Museum.jpg/220px-Bernardo_Cavallino_-_Saint_Ursula_-_1929.6.152_-_Smithsonian_American_Art_Museum.jpg" decoding="async" width="220" height="261" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bernardo_Cavallino_-_Saint_Ursula_-_1929.6.152_-_Smithsonian_American_Art_Museum.jpg/330px-Bernardo_Cavallino_-_Saint_Ursula_-_1929.6.152_-_Smithsonian_American_Art_Museum.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bernardo_Cavallino_-_Saint_Ursula_-_1929.6.152_-_Smithsonian_American_Art_Museum.jpg/440px-Bernardo_Cavallino_-_Saint_Ursula_-_1929.6.152_-_Smithsonian_American_Art_Museum.jpg 2x" data-file-width="5567" data-file-height="6597" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Bernardo_Cavallino_-_Saint_Ursula_-_1929.6.152_-_Smithsonian_American_Art_Museum.jpg" class="internal" title="Enlarge"></a></div>Saint Ursula, c. 1650, Italy</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:The_Martyrdom_of_Saint_Ursula_by_Nat_Lamina.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/The_Martyrdom_of_Saint_Ursula_by_Nat_Lamina.jpg/220px-The_Martyrdom_of_Saint_Ursula_by_Nat_Lamina.jpg" decoding="async" width="220" height="256" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/The_Martyrdom_of_Saint_Ursula_by_Nat_Lamina.jpg/330px-The_Martyrdom_of_Saint_Ursula_by_Nat_Lamina.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ee/The_Martyrdom_of_Saint_Ursula_by_Nat_Lamina.jpg/440px-The_Martyrdom_of_Saint_Ursula_by_Nat_Lamina.jpg 2x" data-file-width="1280" data-file-height="1491" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:The_Martyrdom_of_Saint_Ursula_by_Nat_Lamina.jpg" class="internal" title="Enlarge"></a></div><i>The Martyrdom of Saint Ursula</i>, Painting by Nat Lamina</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:StaUrsulaCepleanu.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/StaUrsulaCepleanu.jpg/220px-StaUrsulaCepleanu.jpg" decoding="async" width="220" height="307" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/StaUrsulaCepleanu.jpg/330px-StaUrsulaCepleanu.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/08/StaUrsulaCepleanu.jpg/440px-StaUrsulaCepleanu.jpg 2x" data-file-width="922" data-file-height="1287" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:StaUrsulaCepleanu.jpg" class="internal" title="Enlarge"></a></div>The Martyrdom of Saint Ursula (German school, 16th century)</div></div></div>
+<p>According to <a href="/wiki/Geoffrey_of_Monmouth" title="Geoffrey of Monmouth">Geoffrey of Monmouth</a>, a 12th-century British cleric and writer, Ursula was the daughter of <a href="/wiki/Dionotus" title="Dionotus">Dionotus</a>, ruler of Cornwall. However, this may have been based on his misreading of the words <i>Deo notus</i> in the second <i>Passio Ursulae</i>, written about 1105. The plot may have been influenced by a story told by the 6th-century writer <a href="/wiki/Procopius" title="Procopius">Procopius</a> about a British queen sailing with 100,000 soldiers to the mouth of the Rhine in order to compel her unwilling groom Radigis, king of the <a href="/wiki/Warini" title="Warini">Varni</a>, to marry her.
+</p><p>While there was a tradition of virgin martyrs in Cologne by the fifth century, their number may have been limited to between two and eleven, according to different sources. Yet the cleric <a href="/wiki/Wandelbert" title="Wandelbert">Wandelbert</a> of the <a href="/wiki/Abbey_of_Pr%C3%BCm" class="mw-redirect" title="Abbey of Prüm">Abbey of Prüm</a> stated in his <a href="/wiki/Martyrology" title="Martyrology">martyrology</a> in 848 that the number of martyrs counted "thousands of saints" who were slaughtered on the boards of the River Rhine.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup> The figure of 11,000 first appears in the late-9th century; suggestions as to where this number came from have included the reading of a name <i>Undecimillia</i> or <i>Ximillia</i> as a number, or reading the letters <i>XI. M. V.</i> as 'eleven thousand [in Roman numerals] virgins' rather than as 'eleven martyred virgins'. One scholar has suggested that in the eighth or ninth century, when the relics of virgin martyrs were found, they included those of a girl named Ursula, who was eleven years old—in <a href="/wiki/Latin" title="Latin">Latin</a>, <i>undecimilia</i>. This was subsequently misread or misinterpreted as <i>undicimila</i> ('eleven thousand'), thus producing the legend of the 11,000 virgins.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup> In fact, the stone bearing the virgin Ursula's name states that she lived eight years and two months. Another theory suggests that there was only one virgin martyr, named Undecimilla, "which by some blundering monk was changed into eleven thousand".<sup id="cite_ref-rochester1_13-0" class="reference"><a href="#cite_note-rochester1-13">&#91;13&#93;</a></sup>
+It has also been suggested that <i>cum [...] militibus</i>, "with [...] soldiers", was misread as <i>cum [...] millibus</i>, "with [...] thousands".<sup id="cite_ref-FOOTNOTEArcherGrieve1911804_14-0" class="reference"><a href="#cite_note-FOOTNOTEArcherGrieve1911804-14">&#91;14&#93;</a></sup> Most contemporary sources, however, cling to the number 11,000. The <i>Passio</i> from the 970s tries to bridge conflicting traditions by stating that the eleven maidens each commanded a ship containing one thousand virgins. Implicitly, the legend also refers to the twelve heavenly legions, mentioned in Matthew 26:53.
+</p>
+<h3><span class="mw-headline" id="Skeletal_remains">Skeletal remains</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=5" title="Edit section: Skeletal remains">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:St_Ursula_bones.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/St_Ursula_bones.jpg/220px-St_Ursula_bones.jpg" decoding="async" width="220" height="138" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/St_Ursula_bones.jpg/330px-St_Ursula_bones.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/St_Ursula_bones.jpg/440px-St_Ursula_bones.jpg 2x" data-file-width="4985" data-file-height="3132" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:St_Ursula_bones.jpg" class="internal" title="Enlarge"></a></div>One of the walls of bones in the Golden Chamber</div></div></div>
+<p>The <a href="/wiki/Basilica_of_St._Ursula,_Cologne" title="Basilica of St. Ursula, Cologne">Basilica of St. Ursula in Cologne</a> holds the alleged <a href="/wiki/Relics" class="mw-redirect" title="Relics">relics</a> of Ursula and her 11,000 companions.<sup id="cite_ref-rochester1_13-1" class="reference"><a href="#cite_note-rochester1-13">&#91;13&#93;</a></sup> It contains what has been described as a "veritable tsunami of ribs, shoulder blades, and femurs ... arranged in zigzags and swirls and even in the shapes of Latin words".<sup id="cite_ref-autogenerated169_15-0" class="reference"><a href="#cite_note-autogenerated169-15">&#91;15&#93;</a></sup> The Goldene Kammer (Golden Chamber), a 17th-century chapel attached to the Basilica of St. Ursula, contains sculptures of their heads and torsos, "some of the heads encased in silver, others covered with stuff of gold and caps of cloth of gold and velvet; loose bones thickly texture the upper walls".<sup id="cite_ref-rochester1_13-2" class="reference"><a href="#cite_note-rochester1-13">&#91;13&#93;</a></sup><sup id="cite_ref-autogenerated169_15-1" class="reference"><a href="#cite_note-autogenerated169-15">&#91;15&#93;</a></sup> The peculiarities of the relics themselves have thrown doubt upon the historicity of Ursula and her 11,000 maidens. When skeletons of little children ranging in age from two months to seven years were found buried with one of the sacred virgins in 1183, <a href="/wiki/Hermann_Joseph" class="mw-redirect" title="Hermann Joseph">Saint Hermann Joseph</a>, a <a href="/wiki/Praemonstratensian" class="mw-redirect" title="Praemonstratensian">Praemonstratensian</a> <a href="/wiki/Canon_(priest)" class="mw-redirect" title="Canon (priest)">canon</a> at Steinfeld, explained that they were distant relatives of the eleven thousand.<sup id="cite_ref-FOOTNOTEArcherGrieve1911804_14-1" class="reference"><a href="#cite_note-FOOTNOTEArcherGrieve1911804-14">&#91;14&#93;</a></sup> A surgeon of eminence was once banished from Cologne for suggesting that, among the collection of bones which are said to pertain to the heads, there were several belonging to full-grown <a href="/wiki/English_Mastiff" title="English Mastiff">mastiffs</a>.<sup id="cite_ref-rochester1_13-3" class="reference"><a href="#cite_note-rochester1-13">&#91;13&#93;</a></sup> The relics may have come from a forgotten burial ground.<sup id="cite_ref-ecole_16-0" class="reference"><a href="#cite_note-ecole-16">&#91;16&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Catholic_official_stance">Catholic official stance</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=6" title="Edit section: Catholic official stance">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Nothing reliable is known about the girls said to have been martyred at the spot. A <a href="/wiki/Commemoration_(liturgy)" title="Commemoration (liturgy)">commemoration</a> of Saint Ursula and her companions in the <a href="/wiki/Mass_(liturgy)" title="Mass (liturgy)">Mass</a> of Saint <a href="/wiki/Hilarion" title="Hilarion">Hilarion</a>, formerly in the <a href="/wiki/General_Roman_Calendar" title="General Roman Calendar">General Roman Calendar</a> on 21 October, was removed in 1969, because "their <i>Passio</i> is entirely fabulous: nothing, not even their names, is known about the virgin saints who were killed at Cologne at some uncertain time".<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup> However, they are still mentioned in the <a href="/wiki/Roman_Martyrology" title="Roman Martyrology">Roman Martyrology</a>, the official but professedly incomplete list of saints recognised by the Catholic Church, which speaks of them as follows: "At Cologne in Germany, commemoration of virgin saints who ended their life in martyrdom for Christ in the place where afterwards the city's basilica was built, dedicated in honour of the innocent young girl Ursula who is looked on as their leader".<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Veneration">Veneration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=7" title="Edit section: Veneration">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Catholic_order">Catholic order</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=8" title="Edit section: Catholic order">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>The <a href="/wiki/Order_of_Ursulines" class="mw-redirect" title="Order of Ursulines">Order of Ursulines</a>, founded in 1535 by <a href="/wiki/Angela_Merici" title="Angela Merici">Angela Merici</a>, and devoted to the <a href="/wiki/Education_of_young_girls" class="mw-redirect" title="Education of young girls">education of young girls</a>, has also helped to spread Ursula's name throughout the world.<sup id="cite_ref-Poncelet_1912_6-2" class="reference"><a href="#cite_note-Poncelet_1912-6">&#91;6&#93;</a></sup> St. Ursula was named the patron saint of school girls.</li></ul>
+<h3><span class="mw-headline" id="Celebrations">Celebrations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=9" title="Edit section: Celebrations">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>The town of <a href="/wiki/Binangonan" title="Binangonan">Binangonan</a> in the province of Rizal in the Philippines also has a church dedicated to St. Ursula, where her feast is celebrated on 21 October. A fluvial procession at Laguna Lake is carried out to commemorate Ursula's journey. It is made up of a group of men and women in colourful, traditional Filipino costumes dancing in the streets with the image of Ursula and chanting joyfully. Prior to her feast day, a nine-day <a href="/wiki/Novena" title="Novena">novena</a> is held at the 224-year-old Santa Ursula Church. During this novena, a woman is assigned as cantor to sing a chant in honour of Ursula.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (October 2022)">citation needed</span></a></i>&#93;</sup></li>
+<li>The town of <a href="/wiki/Valls" title="Valls">Valls</a>, Catalonia, Spain, celebrates the "<span title="Catalan-language text"><i lang="ca">Fira de Santa Úrsula</i></span>" in the days around 21 October.<sup id="cite_ref-festes.208.2022.10.20_19-0" class="reference"><a href="#cite_note-festes.208.2022.10.20-19">&#91;19&#93;</a></sup> The fair concludes on the Sunday after 21 October with "one of the most important" <a href="/wiki/Castell" title="Castell">castell</a> (human tower) competitions.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup><sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;21&#93;</a></sup></li></ul>
+<h3><span class="mw-headline" id="Church_music_and_art">Church music and art</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=10" title="Edit section: Church music and art">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="/wiki/Hildegard_of_Bingen" title="Hildegard of Bingen">Hildegard of Bingen</a> composed many chants in honour of Ursula.</li>
+<li><a href="/wiki/Michael_Haydn" title="Michael Haydn">Michael Haydn</a> wrote the <i><a href="/wiki/Missa_in_honorem_Sanctae_Ursulae" title="Missa in honorem Sanctae Ursulae">Missa in honorem Sanctae Ursulae</a></i> to commemorate the day Ursula Oswald joined a Benedictine Abbey.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (June 2012)">citation needed</span></a></i>&#93;</sup></li>
+<li><a href="/wiki/Hans_Memling" title="Hans Memling">Hans Memling</a> fashioned during the 1480s a <a href="/wiki/Shrine_of_St_Ursula" class="mw-redirect" title="Shrine of St Ursula">wooden shrine that contained the relics of Ursula</a>, which is now at the <a href="/wiki/Hans_Memling_Museum" class="mw-redirect" title="Hans Memling Museum">Hans Memling Museum</a> in <a href="/wiki/Bruges" title="Bruges">Bruges</a>. It tells the story of Ursula in six bow-arched panels, with the two front panels showing Ursula accompanied by 10 virgins, each representing 1,000 virgins.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">&#91;22&#93;</a></sup></li>
+<li>There is also a painting by <a href="/wiki/Caravaggio" title="Caravaggio">Caravaggio</a>, <i><a href="/wiki/The_Martyrdom_of_Saint_Ursula_(Caravaggio)" title="The Martyrdom of Saint Ursula (Caravaggio)">The Martyrdom of Saint Ursula</a></i> in the Gallaria d'italia in Naples. His last known work.</li></ul>
+<h3><span class="mw-headline" id="Places_named_after_her_companions">Places named after her companions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=11" title="Edit section: Places named after her companions">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="/wiki/Christopher_Columbus" title="Christopher Columbus">Christopher Columbus</a> named the <a href="/wiki/Virgin_Islands" title="Virgin Islands">Virgin Islands</a> in the <a href="/wiki/Caribbean" title="Caribbean">Caribbean</a> in her honour when sailing past them in 1493.</li>
+<li><a href="/wiki/Ferdinand_Magellan" title="Ferdinand Magellan">Ferdinand Magellan</a> rounded <a href="/wiki/Cape_Virgenes" title="Cape Virgenes">Cape Virgenes</a> on 21 October 1520, and entered the <a href="/wiki/Straits_of_Magellan" class="mw-redirect" title="Straits of Magellan">Straits of Magellan</a>, naming the cape after Ursula's virgins.</li>
+<li><a href="/wiki/Jo%C3%A3o_%C3%81lvares_Fagundes" title="João Álvares Fagundes">João Álvares Fagundes</a>, a Portuguese explorer, gave in 1521 the name <i>Eleven Thousand Virgins</i> to what is now known as <a href="/wiki/Saint-Pierre_and_Miquelon" class="mw-redirect" title="Saint-Pierre and Miquelon">Saint-Pierre and Miquelon</a>.</li>
+<li><a href="/wiki/Basel" title="Basel">Basel</a>, a Swiss city about 400&#160;km south of Cologne, has tradition of Ursula and her companions passing through Basel intending to go to Rome. The legend gave name to the Eleven Thousand Virgins Alley (<i>Elftausendjungfern-Gässlein</i>), which climbs one side of the Münsterberg, a hill in the center of the city.</li></ul>
+<h3><span class="mw-headline" id="UK_and_Anglican_Church">UK and Anglican Church</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=12" title="Edit section: UK and Anglican Church">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>The small village of <a href="/wiki/Llangwyryfon" title="Llangwyryfon">Llangwyryfon</a>, near <a href="/wiki/Aberystwyth" title="Aberystwyth">Aberystwyth</a> in west Wales, has a church dedicated to Ursula. The village name translates as 'Church of the Virgins'. She is believed to have come from this area.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (July 2021)">citation needed</span></a></i>&#93;</sup></li>
+<li>There are Anglican churches dedicated to St. Ursula in the United Kingdom, Switzerland, the United States and the Caribbean.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">&#91;23&#93;</a></sup><sup id="cite_ref-24" class="reference"><a href="#cite_note-24">&#91;24&#93;</a></sup><sup id="cite_ref-25" class="reference"><a href="#cite_note-25">&#91;25&#93;</a></sup></li>
+<li>The street in London called <a href="/wiki/St_Mary_Axe" title="St Mary Axe">St Mary Axe</a> is named after the <a href="/wiki/Church_of_St_Mary_Axe" title="Church of St Mary Axe">Church of St Mary Axe</a>, originally dedicated to St. Mary the Virgin, St. Ursula and the 11,000 virgins. It was demolished in the late 16th century; the site is located close to where the skyscraper informally known as <i><a href="/wiki/30_St_Mary_Axe" title="30 St Mary Axe">The Gherkin</a></i> now stands. A manuscript dated 1514 claims that the church contained a <a href="/wiki/Holy_relic" class="mw-redirect" title="Holy relic">holy relic</a>: an <a href="/wiki/Axe" title="Axe">axe</a> used by the Huns to execute the virgins.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">&#91;26&#93;</a></sup></li>
+<li><a href="/wiki/Whitelands_College" title="Whitelands College">Whitelands College</a> in <a href="/wiki/Roehampton" title="Roehampton">Roehampton</a>, London, the oldest educational institution of the <a href="/wiki/Church_of_England" title="Church of England">Church of England</a>, has been under the patronage of St. Ursula since its formation. She is the patron saint of the college's chapel.</li></ul>
+<h3><span class="mw-headline" id="Visions">Visions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=13" title="Edit section: Visions">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>It was recorded that <a href="/wiki/Elizabeth_of_Sch%C3%B6nau" class="mw-redirect" title="Elizabeth of Schönau">Elizabeth of Schönau</a> experienced a vision that revealed to her the martyrdom of Ursula and her companions.<sup id="cite_ref-ecole_16-1" class="reference"><a href="#cite_note-ecole-16">&#91;16&#93;</a></sup></li></ul>
+<ul class="gallery mw-gallery-traditional">
+		<li class="gallerybox" style="width: 235px"><div style="width: 235px">
+			<div class="thumb" style="width: 230px;"><div style="margin:15px auto;"><a href="/wiki/File:Dlieja_Sacun_Santa_Ursula.JPG" class="image" title="Saint Ursula in a 15th-century fresco on St. Jacob church in Urtijëi in Val Gardena"><img alt="Saint Ursula in a 15th-century fresco on St. Jacob church in Urtijëi in Val Gardena" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Dlieja_Sacun_Santa_Ursula.JPG/103px-Dlieja_Sacun_Santa_Ursula.JPG" decoding="async" width="103" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Dlieja_Sacun_Santa_Ursula.JPG/154px-Dlieja_Sacun_Santa_Ursula.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Dlieja_Sacun_Santa_Ursula.JPG/206px-Dlieja_Sacun_Santa_Ursula.JPG 2x" data-file-width="3135" data-file-height="6090" /></a></div></div>
+			<div class="gallerytext">
+<p>Saint Ursula in a 15th-century fresco on St. Jacob church in <a href="/wiki/Urtij%C3%ABi" title="Urtijëi">Urtijëi</a> in <a href="/wiki/Val_Gardena" title="Val Gardena">Val Gardena</a>
+</p>
+			</div>
+		</div></li>
+		<li class="gallerybox" style="width: 235px"><div style="width: 235px">
+			<div class="thumb" style="width: 230px;"><div style="margin:15px auto;"><a href="/wiki/File:Sta.UrsulaParishChurchjf5008_11.JPG" class="image" title="Venerated image of St. Ursula in Binangonan, Rizal, Philippines."><img alt="Venerated image of St. Ursula in Binangonan, Rizal, Philippines." src="//upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sta.UrsulaParishChurchjf5008_11.JPG/150px-Sta.UrsulaParishChurchjf5008_11.JPG" decoding="async" width="150" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sta.UrsulaParishChurchjf5008_11.JPG/225px-Sta.UrsulaParishChurchjf5008_11.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sta.UrsulaParishChurchjf5008_11.JPG/300px-Sta.UrsulaParishChurchjf5008_11.JPG 2x" data-file-width="3456" data-file-height="4608" /></a></div></div>
+			<div class="gallerytext">
+<p>Venerated image of St. Ursula in Binangonan, Rizal, Philippines.
+</p>
+			</div>
+		</div></li>
+		<li class="gallerybox" style="width: 235px"><div style="width: 235px">
+			<div class="thumb" style="width: 230px;"><div style="margin:15px auto;"><a href="/wiki/File:Accademia_-_Sogno_di_sant%27Orsola_-_Vittore_Carpaccio.jpg" class="image" title="The Dream of St. Ursula, Vittore Carpaccio, 1495; tempera on canvas, 274 × 267 cm, Gallerie dell&#39;Accademia, Venice."><img alt="The Dream of St. Ursula, Vittore Carpaccio, 1495; tempera on canvas, 274 × 267 cm, Gallerie dell&#39;Accademia, Venice." src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Accademia_-_Sogno_di_sant%27Orsola_-_Vittore_Carpaccio.jpg/194px-Accademia_-_Sogno_di_sant%27Orsola_-_Vittore_Carpaccio.jpg" decoding="async" width="194" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Accademia_-_Sogno_di_sant%27Orsola_-_Vittore_Carpaccio.jpg/291px-Accademia_-_Sogno_di_sant%27Orsola_-_Vittore_Carpaccio.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Accademia_-_Sogno_di_sant%27Orsola_-_Vittore_Carpaccio.jpg/388px-Accademia_-_Sogno_di_sant%27Orsola_-_Vittore_Carpaccio.jpg 2x" data-file-width="3575" data-file-height="3684" /></a></div></div>
+			<div class="gallerytext">
+<p><i>The Dream of St. Ursula</i>, <a href="/wiki/Vittore_Carpaccio" title="Vittore Carpaccio">Vittore Carpaccio</a>, 1495; tempera on canvas, 274 × 267 cm, Gallerie dell'Accademia, Venice.
+</p>
+			</div>
+		</div></li>
+</ul>
+<h2><span id="Cordula.2C_Ursula.27s_companion"></span><span class="mw-headline" id="Cordula,_Ursula's_companion">Cordula, Ursula's companion</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=14" title="Edit section: Cordula, Ursula&#039;s companion">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Cordula was, according to a legend in an edition of the <i><a href="/wiki/Roman_Martyrology" title="Roman Martyrology">Roman Martyrology</a></i> presented in an English translation on a <a href="/wiki/Traditionalist_Catholic" class="mw-redirect" title="Traditionalist Catholic">traditionalist Catholic</a> website,<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">&#91;27&#93;</a></sup> one of Ursula's companions: "Being terrified by the punishments and slaughter of the others, Cordula hid herself, but repenting her deed, on the next day she declared herself to the Huns of her own accord, and thus was the last of them all to receive the crown of martyrdom". In his <i>Albert the Great</i>,<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">&#91;28&#93;</a></sup> Joachim Sighart recounts that, on 14 February 1277, while work was being done at the church of St John the Baptist (<i>Johanniterkirche</i>) in Cologne, Cordula's body was discovered; it was fragrant and on her forehead was written: <i>Cordula, Queen and Virgin</i>. When <a href="/wiki/Albert_the_Great" class="mw-redirect" title="Albert the Great">Albert the Great</a> heard of the finding, he sang mass and <a href="/wiki/Translation_(relics)" class="mw-redirect" title="Translation (relics)">transferred</a> the relics. Later, Cordula's supposed remains were moved to <a href="/wiki/K%C3%B6nigswinter" title="Königswinter">Königswinter</a> and <a href="/wiki/Rimini" title="Rimini">Rimini</a>.<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">&#91;29&#93;</a></sup> Cordula's head was claimed by the Cathedral of <a href="/wiki/Palencia" title="Palencia">Palencia</a>.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">&#91;30&#93;</a></sup> She is listed in the <i>Roman Martyrology</i> on 22 October.<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">&#91;31&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Similarities_with_Sunniva">Similarities with Sunniva</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=15" title="Edit section: Similarities with Sunniva">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There are striking parallels between the 11th-century legend of Ursula and the story of <a href="/wiki/Sunniva" title="Sunniva">Sunniva of Selje</a>. Their names were sometimes confused by contemporaries. Both saints were considered to be Christian princesses who fled their homeland by ship in order to postpone or avert an undesired marriage with a pagan king. Both were accompanied by a large group of associates, both became victims of hostile foes. The development of their legends may have been interdependent. The martyrdom of Sunniva, however, took place after the first draft of the <i>Passio Ursulae</i>.
+</p>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=16" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist reflist-columns references-column-width" style="column-width: 33em;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFSpiteri2021" class="citation news cs1">Spiteri, Charles (19 October 2021). <a rel="nofollow" class="external text" href="https://timesofmalta.com/articles/view/celebrating-st-ursula-patron-of-gozo.908959">"Celebrating St Ursula, patron of Gozo"</a>. <i><a href="/wiki/Times_of_Malta" title="Times of Malta">Times of Malta</a></i><span class="reference-accessdate">. Retrieved <span class="nowrap">20 October</span> 2021</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Times+of+Malta&amp;rft.atitle=Celebrating+St+Ursula%2C+patron+of+Gozo&amp;rft.date=2021-10-19&amp;rft.aulast=Spiteri&amp;rft.aufirst=Charles&amp;rft_id=https%3A%2F%2Ftimesofmalta.com%2Farticles%2Fview%2Fcelebrating-st-ursula-patron-of-gozo.908959&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Ursula" class="Z3988"></span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><i>Calendarium Romanum</i> (Libreria Editrice Vaticana, 1969), p. 143</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><i>Martyrologium Romanum</i> (Libreria Editrice Vaticana, 2004), p. 582</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><i>Missale Romanum</i> (Typis Polyglottis Vaticanis, 1970), p. 113</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Carole M. Cusack, <a rel="nofollow" class="external text" href="https://www.academia.edu/738448/Hagiography_and_History_the_Legend_of_Saint_Ursula">"Hagiography and History: the Legend of Saint Ursula"</a>, in Carole M. Cusack and Peter Oldmeadow (eds), <i>This Immense Panorama Studies in Honour of Eric J. Sharpe</i>, Sydney Studies in Religion 2 (1999), pp. 89–104.</span>
+</li>
+<li id="cite_note-Poncelet_1912-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-Poncelet_1912_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Poncelet_1912_6-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Poncelet_1912_6-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFPoncelet1912" class="citation encyclopaedia cs1">Poncelet, Albert (1912). <span class="cs1-ws-icon" title="s:Catholic Encyclopedia (1913)/St. Ursula and the Eleven Thousand Virgins"><a class="external text" href="https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)/St._Ursula_and_the_Eleven_Thousand_Virgins">"St. Ursula and the Eleven Thousand Virgins"&#160;</a></span>.  In Herbermann, Charles (ed.). <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i>. Vol.&#160;15. New York: Robert Appleton Company.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=St.+Ursula+and+the+Eleven+Thousand+Virgins&amp;rft.btitle=Catholic+Encyclopedia&amp;rft.place=New+York&amp;rft.pub=Robert+Appleton+Company&amp;rft.date=1912&amp;rft.aulast=Poncelet&amp;rft.aufirst=Albert&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Ursula" class="Z3988"></span></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFArcherGrieve1911" class="citation encyclopaedia cs1">Archer, Thomas Andrew; Grieve, Alexander James (1911). <span class="cs1-ws-icon" title="s:1911 Encyclopædia Britannica/Ursula, St"><a class="external text" href="https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ursula,_St">"Ursula, St"&#160;</a></span>.  In Chisholm, Hugh (ed.). <i><a href="/wiki/Encyclop%C3%A6dia_Britannica_Eleventh_Edition" title="Encyclopædia Britannica Eleventh Edition">Encyclopædia Britannica</a></i>. Vol.&#160;27 (11th&#160;ed.). Cambridge University Press. p.&#160;803.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Ursula%2C+St&amp;rft.btitle=Encyclop%C3%A6dia+Britannica&amp;rft.pages=803&amp;rft.edition=11th&amp;rft.pub=Cambridge+University+Press&amp;rft.date=1911&amp;rft.aulast=Archer&amp;rft.aufirst=Thomas+Andrew&amp;rft.au=Grieve%2C+Alexander+James&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Ursula" class="Z3988"></span></span>
+</li>
+<li id="cite_note-FOOTNOTEArcherGrieve1911803-8"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEArcherGrieve1911803_8-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEArcherGrieve1911803_8-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-FOOTNOTEArcherGrieve1911803_8-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFArcherGrieve1911">Archer &amp; Grieve 1911</a>, p.&#160;803.</span>
+</li>
+<li id="cite_note-Montgomery-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-Montgomery_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Montgomery_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFMontgomery2009" class="citation book cs1">Montgomery, Scott B. (1 January 2009). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=ZzurV89qYvgC&amp;q=pinnosa+essen&amp;pg=PA13"><i>St. Ursula and the Eleven Thousand Virgins of Cologne: Relics, Reliquaries and the Visual Culture of Group Sanctity in Late Medieval Europe</i></a>. Peter Lang. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9783039118526" title="Special:BookSources/9783039118526"><bdi>9783039118526</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=St.+Ursula+and+the+Eleven+Thousand+Virgins+of+Cologne%3A+Relics%2C+Reliquaries+and+the+Visual+Culture+of+Group+Sanctity+in+Late+Medieval+Europe&amp;rft.pub=Peter+Lang&amp;rft.date=2009-01-01&amp;rft.isbn=9783039118526&amp;rft.aulast=Montgomery&amp;rft.aufirst=Scott+B.&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DZzurV89qYvgC%26q%3Dpinnosa%2Bessen%26pg%3DPA13&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Ursula" class="Z3988"></span></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">Wilhelm Levison, 'Das Werden der Ursula Legende', in: <i>Bonner Jahrbücher</i> 132 (1927), 1-164.</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">Levison, <i>Das Werden der Ursula-Legende</i>.</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.santiebeati.it/dettaglio/74550">Santi Beati: Sant'Orsola e compagne</a></span>
+</li>
+<li id="cite_note-rochester1-13"><span class="mw-cite-backlink">^ <a href="#cite_ref-rochester1_13-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-rochester1_13-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-rochester1_13-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-rochester1_13-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text">
+<a rel="nofollow" class="external text" href="http://www.history.rochester.edu/pennymag/212/cologne.htm"><i>The Penny Magazine</i>: Cologne</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20111103013103/http://www.history.rochester.edu/pennymag/212/cologne.htm">Archived</a> 3 November 2011 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a></span>
+</li>
+<li id="cite_note-FOOTNOTEArcherGrieve1911804-14"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEArcherGrieve1911804_14-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEArcherGrieve1911804_14-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFArcherGrieve1911">Archer &amp; Grieve 1911</a>, p.&#160;804.</span>
+</li>
+<li id="cite_note-autogenerated169-15"><span class="mw-cite-backlink">^ <a href="#cite_ref-autogenerated169_15-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-autogenerated169_15-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Quigley, Christine (2001) <i>Skulls and Skeletons: Human Bone Collections and Accumulations</i>, Jefferson, N.C.; London: McFarland; p. 169.</span>
+</li>
+<li id="cite_note-ecole-16"><span class="mw-cite-backlink">^ <a href="#cite_ref-ecole_16-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ecole_16-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://ecole.evansville.edu/glossary/ursula.html">The Ecole Glossary: Ursula</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20130204143340/http://ecole.evansville.edu/glossary/ursula.html">Archived</a> 4 February 2013 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><i>Calendarium Romanum</i>. Città del Vaticano: Libreria Editrice Vaticana, 1969; p. 143</span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><i>Martyrologium Romanum</i>. Città del Vaticano: Libreria Editrice Vaticana, 2001 <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/88-209-7210-7" title="Special:BookSources/88-209-7210-7">88-209-7210-7</a></span>
+</li>
+<li id="cite_note-festes.208.2022.10.20-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-festes.208.2022.10.20_19-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1 cs1-prop-foreign-lang-source"><a rel="nofollow" class="external text" href="http://www.festes.org/articles.php?id=208">"Fira de Santa Úrsula"</a> &#91;Santa Úrsula Fair&#93;. <i>festes.org</i> (in Catalan)<span class="reference-accessdate">. Retrieved <span class="nowrap">20 October</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=festes.org&amp;rft.atitle=Fira+de+Santa+%C3%9Arsula&amp;rft_id=http%3A%2F%2Fwww.festes.org%2Farticles.php%3Fid%3D208&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Ursula" class="Z3988"></span></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1 cs1-prop-foreign-lang-source"><a rel="nofollow" class="external text" href="https://www.calmaginet.cat/fira-de-santa-ursula/">"Fira de Santa Úrsula"</a> &#91;Santa Úrsula Fair&#93;. <i>Cal Maginet</i> (in Catalan)<span class="reference-accessdate">. Retrieved <span class="nowrap">20 October</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Cal+Maginet&amp;rft.atitle=Fira+de+Santa+%C3%9Arsula&amp;rft_id=https%3A%2F%2Fwww.calmaginet.cat%2Ffira-de-santa-ursula%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Ursula" class="Z3988"></span></span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1 cs1-prop-foreign-lang-source"><a rel="nofollow" class="external text" href="https://www.diarimes.com/noticies/camp_tarragona/2022/10/17/explosio_castellera_cultura_popular_per_fira_santa_ursula_128949_1093.html">"Explosió castellera i de cultura popular per la Fira de Santa Úrsula"</a> &#91;Explosion of human towers and popular culture for the Santa Úrsula Fair&#93;. <i>Diari Més</i> (in Catalan). 17 October 2022.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Diari+M%C3%A9s&amp;rft.atitle=Explosi%C3%B3+castellera+i+de+cultura+popular+per+la+Fira+de+Santa+%C3%9Arsula&amp;rft.date=2022-10-17&amp;rft_id=https%3A%2F%2Fwww.diarimes.com%2Fnoticies%2Fcamp_tarragona%2F2022%2F10%2F17%2Fexplosio_castellera_cultura_popular_per_fira_santa_ursula_128949_1093.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Ursula" class="Z3988"></span></span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.trabel.com/brugge-m-memling.htm">The Memling Museum in Bruges, Brugge</a></span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.stursula.ch/index.html">St Ursula's</a> Anglican Church in Switzerland.</span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.episcopalchurch.org/parish/st-ursulas-episcopal-church-st-john-usvi">St Ursula's</a> Anglican Church in the Virgin Islands.</span>
+</li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.churchinwales.org.uk/structure/places/churches/?id=3136">St Ursula's</a> Anglican Church in Wales.</span>
+</li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.motco.com/Harben/3562.htm">***Harben Dictionary Window***</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160303234044/http://www.motco.com/Harben/3562.htm">Archived</a> 3 March 2016 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a></span>
+</li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20101031025716/http://breviary.net/martyrology/mart10/mart1022.htm">"Martyrology; Oct 22"</a>. Archived from <a rel="nofollow" class="external text" href="http://www.breviary.net/martyrology/mart10/mart1022.htm">the original</a> on 31 October 2010<span class="reference-accessdate">. Retrieved <span class="nowrap">21 October</span> 2009</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Martyrology%3B+Oct+22&amp;rft_id=http%3A%2F%2Fwww.breviary.net%2Fmartyrology%2Fmart10%2Fmart1022.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Ursula" class="Z3988"></span></span>
+</li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text">R. Washbourne, 1876, 360–362</span>
+</li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.cordula.ws/quotes/stcordula.html">"St Cordula's Day"</a>. <i>Cordula's Web</i><span class="reference-accessdate">. Retrieved <span class="nowrap">21 October</span> 2009</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Cordula%27s+Web&amp;rft.atitle=St+Cordula%27s+Day&amp;rft_id=http%3A%2F%2Fwww.cordula.ws%2Fquotes%2Fstcordula.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Ursula" class="Z3988"></span></span>
+</li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.liverpoolmuseums.org.uk/picture-of-month/displayPicture.asp?id=49&amp;venue=7">"Artwork highlights, Liverpool museums"</a>. <i>www.liverpoolmuseums.org.uk</i><span class="reference-accessdate">. Retrieved <span class="nowrap">17 July</span> 2018</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.liverpoolmuseums.org.uk&amp;rft.atitle=Artwork+highlights%2C+Liverpool+museums&amp;rft_id=http%3A%2F%2Fwww.liverpoolmuseums.org.uk%2Fpicture-of-month%2FdisplayPicture.asp%3Fid%3D49%26venue%3D7&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Ursula" class="Z3988"></span></span>
+</li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.boston-catholic-journal.com/roman-martrylogy-in-english/roman-martyrology-october-in-english.htm#October_22nd">"Roman Martyrology October, in English"</a>. <i>www.boston-catholic-journal.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">17 July</span> 2018</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.boston-catholic-journal.com&amp;rft.atitle=Roman+Martyrology+October%2C+in+English&amp;rft_id=http%3A%2F%2Fwww.boston-catholic-journal.com%2Froman-martrylogy-in-english%2Froman-martyrology-october-in-english.htm%23October_22nd&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASaint+Ursula" class="Z3988"></span></span>
+</li>
+</ol></div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Saint_Ursula&amp;action=edit&amp;section=17" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1126788409"/>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/38px-Wikisource-logo.svg.png" decoding="async" width="38" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/57px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/76px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430" /></div>
+<div class="side-box-text plainlist"><a href="/wiki/Wikisource" title="Wikisource">Wikisource</a> has original text related to this article:
+<div style="margin-left: 10px;"><b><a href="https://en.wikisource.org/wiki/Ursula_(DNB00)" class="extiw" title="wikisource:Ursula (DNB00)">Ursula (DNB00)</a></b></div></div></div>
+</div>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1134653256"/><div class="side-box side-box-right plainlinks sistersitebox"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1126788409"/>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Ursula" class="extiw" title="commons:Category:Saint Ursula">Saint Ursula</a></span>.</div></div>
+</div>
+<ul><li><span class="languageicon">(In Italian)</span> <a rel="nofollow" class="external text" href="http://www.santiebeati.it/dettaglio/74550">Sant' Orsola e compagne</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.stpetersbasilica.info/Exterior/Colonnades/Saints/St%20Ursula-9/StUrsula.htm">Colonnade Statue St Peter's Square</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.historic-uk.com/HistoryUK/HistoryofEngland/Saint-Ursula-the-11000-British-Virgins/">Saint Ursula and the 11,000 British Virgins</a></li></ul>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q369691#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q369691#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q369691#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/000000008339528X">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/16626696">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n2004148047/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/118625616">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n2004148047">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=jx20080702019&amp;CON_LNG=ENG">Czech Republic</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118625616.html?language=en">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/1599370/">FAST</a></span></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2339
+Cached time: 20230207130654
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.532 seconds
+Real time usage: 0.717 seconds
+Preprocessor visited node count: 3284/1000000
+Post‐expand include size: 52951/2097152 bytes
+Template argument size: 5159/2097152 bytes
+Highest expansion depth: 16/100
+Expensive parser function count: 14/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 54429/5000000 bytes
+Lua time usage: 0.336/10.000 seconds
+Lua memory usage: 18342401/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  650.109      1 -total
+ 24.63%  160.090      1 Template:Reflist
+ 12.57%   81.734      1 Template:Authority_control
+ 12.31%   80.053      1 Template:Lang-de
+  9.42%   61.230      1 Template:Cite_news
+  8.72%   56.664      1 Template:Infobox_saint
+  8.03%   52.220      1 Template:Infobox
+  7.85%   51.026      1 Template:Short_description
+  7.09%   46.088      4 Template:Fix
+  6.05%   39.354      2 Template:Cn
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:588117-0!canonical and timestamp 20230207130654 and revision id 1133348996. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Saint_Ursula&amp;oldid=1133348996">https://en.wikipedia.org/w/index.php?title=Saint_Ursula&amp;oldid=1133348996</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:383_deaths" title="Category:383 deaths">383 deaths</a></li><li><a href="/wiki/Category:4th-century_Christian_saints" title="Category:4th-century Christian saints">4th-century Christian saints</a></li><li><a href="/wiki/Category:4th-century_Roman_women" title="Category:4th-century Roman women">4th-century Roman women</a></li><li><a href="/wiki/Category:Christian_child_saints" title="Category:Christian child saints">Christian child saints</a></li><li><a href="/wiki/Category:Christian_royal_saints" title="Category:Christian royal saints">Christian royal saints</a></li><li><a href="/wiki/Category:Christianity_in_Cologne" title="Category:Christianity in Cologne">Christianity in Cologne</a></li><li><a href="/wiki/Category:Late_Ancient_Christian_female_saints" title="Category:Late Ancient Christian female saints">Late Ancient Christian female saints</a></li><li><a href="/wiki/Category:Medieval_legends" title="Category:Medieval legends">Medieval legends</a></li><li><a href="/wiki/Category:Romano-British_saints" title="Category:Romano-British saints">Romano-British saints</a></li><li><a href="/wiki/Category:Legendary_Romans" title="Category:Legendary Romans">Legendary Romans</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_incorporating_a_citation_from_the_1913_Catholic_Encyclopedia_with_Wikisource_reference" title="Category:Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference">Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference</a></li><li><a href="/wiki/Category:Wikipedia_articles_incorporating_a_citation_from_the_1911_Encyclopaedia_Britannica_with_Wikisource_reference" title="Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference">Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference</a></li><li><a href="/wiki/Category:Webarchive_template_wayback_links" title="Category:Webarchive template wayback links">Webarchive template wayback links</a></li><li><a href="/wiki/Category:CS1_Catalan-language_sources_(ca)" title="Category:CS1 Catalan-language sources (ca)">CS1 Catalan-language sources (ca)</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_July_2021" title="Category:Use dmy dates from July 2021">Use dmy dates from July 2021</a></li><li><a href="/wiki/Category:EngvarB_from_October_2020" title="Category:EngvarB from October 2020">EngvarB from October 2020</a></li><li><a href="/wiki/Category:Articles_containing_German-language_text" title="Category:Articles containing German-language text">Articles containing German-language text</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_July_2021" title="Category:Articles with unsourced statements from July 2021">Articles with unsourced statements from July 2021</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_October_2022" title="Category:Articles with unsourced statements from October 2022">Articles with unsourced statements from October 2022</a></li><li><a href="/wiki/Category:Articles_containing_Catalan-language_text" title="Category:Articles containing Catalan-language text">Articles containing Catalan-language text</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_June_2012" title="Category:Articles with unsourced statements from June 2012">Articles with unsourced statements from June 2012</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_Italian-language_sources_(it)" title="Category:Articles with Italian-language sources (it)">Articles with Italian-language sources (it)</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Year_of_birth_unknown" title="Category:Year of birth unknown">Year of birth unknown</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 13 January 2023, at 09:55<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Saint_Ursula&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.532","walltime":"0.717","ppvisitednodes":{"value":3284,"limit":1000000},"postexpandincludesize":{"value":52951,"limit":2097152},"templateargumentsize":{"value":5159,"limit":2097152},"expansiondepth":{"value":16,"limit":100},"expensivefunctioncount":{"value":14,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":54429,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  650.109      1 -total"," 24.63%  160.090      1 Template:Reflist"," 12.57%   81.734      1 Template:Authority_control"," 12.31%   80.053      1 Template:Lang-de","  9.42%   61.230      1 Template:Cite_news","  8.72%   56.664      1 Template:Infobox_saint","  8.03%   52.220      1 Template:Infobox","  7.85%   51.026      1 Template:Short_description","  7.09%   46.088      4 Template:Fix","  6.05%   39.354      2 Template:Cn"]},"scribunto":{"limitreport-timeusage":{"value":"0.336","limit":"10.000"},"limitreport-memusage":{"value":18342401,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n    [\"CITEREFArcherGrieve1911\"] = 1,\n    [\"CITEREFMontgomery2009\"] = 1,\n    [\"CITEREFPoncelet1912\"] = 1,\n    [\"CITEREFSpiteri2021\"] = 1,\n}\ntemplate_list = table#1 {\n    [\"About\"] = 1,\n    [\"Authority control\"] = 1,\n    [\"Citation needed\"] = 2,\n    [\"Cite CE1913\"] = 1,\n    [\"Cite EB1911\"] = 1,\n    [\"Cite book\"] = 1,\n    [\"Cite news\"] = 1,\n    [\"Cite web\"] = 7,\n    [\"Cn\"] = 2,\n    [\"Commons category\"] = 1,\n    [\"DEFAULTSORT:Ursula\"] = 1,\n    [\"EngvarB\"] = 1,\n    [\"ISBN\"] = 1,\n    [\"In lang\"] = 1,\n    [\"Infobox saint\"] = 1,\n    [\"Lang\"] = 1,\n    [\"Lang-de\"] = 1,\n    [\"Reflist\"] = 1,\n    [\"Sfn\"] = 5,\n    [\"Short description\"] = 1,\n    [\"Ubl\"] = 1,\n    [\"Use dmy dates\"] = 1,\n    [\"Webarchive\"] = 3,\n    [\"Wikisource\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw2339","timestamp":"20230207130654","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Saint Ursula","url":"https:\/\/en.wikipedia.org\/wiki\/Saint_Ursula","sameAs":"http:\/\/www.wikidata.org\/entity\/Q369691","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q369691","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-04-10T16:30:48Z","dateModified":"2023-01-13T09:55:44Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9d\/Carlo_Crivelli_041.jpg","headline":"Frankish saint"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Saint Ursula","url":"https:\/\/en.wikipedia.org\/wiki\/Saint_Ursula","sameAs":"http:\/\/www.wikidata.org\/entity\/Q369691","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q369691","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-04-10T16:30:48Z","dateModified":"2023-01-13T09:55:44Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9d\/Carlo_Crivelli_041.jpg","headline":"Frankish saint"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":108,"wgHostname":"mw2305"});});</script>
+</body>
+</html>

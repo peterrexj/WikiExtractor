@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Oliver Plunkett - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"dacfee7c-4087-4f78-921f-ed81fd3a989b",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Oliver_Plunkett","wgTitle":"Oliver Plunkett","wgCurRevisionId":1134276716,"wgRevisionId":1134276716,"wgArticleId":1338706,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description is different from Wikidata","Use dmy dates from September 2020","Articles containing Irish-language text","Articles using small message boxes","Incomplete lists from February 2014","Commons category link is on Wikidata","Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference","Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference","Pages using S-rel template with ca parameter","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with GND identifiers",
+"Articles with J9U identifiers","Articles with LCCN identifiers","Articles with DIB identifiers","Articles with DTBIO identifiers","Articles with FAST identifiers","Articles with SNAC-ID identifiers","Articles with SUDOC identifiers","Articles with Trove identifiers","1625 births","1681 deaths","17th-century Irish-language poets","17th-century Roman Catholic archbishops in Ireland","17th-century Roman Catholic martyrs","24 Irish Catholic Martyrs","Beatifications by Pope Benedict XV","Canonizations by Pope Paul VI","Catholic martyrs of England and Wales","Executed Irish people","Irish Roman Catholic saints","Martyred Roman Catholic bishops","People associated with the Popish Plot","People executed at Tyburn","People executed by Stuart England by hanging, drawing and quartering","People executed under the Stuarts for treason against England","People from County Meath","People from Drogheda","Poet priests","Roman Catholic archbishops of Armagh","Victims of the Popish Plot"],
+"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Oliver_Plunkett","wgRelevantArticleId":1338706,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q706874","GEHomepageSuggestedEditsEnableTopics":true,
+"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents",
+"ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Oliver_Plunket_by_Edward_Luttrell.jpg/1200px-Oliver_Plunket_by_Edward_Luttrell.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="1418"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Oliver_Plunket_by_Edward_Luttrell.jpg/800px-Oliver_Plunket_by_Edward_Luttrell.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="945"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Oliver_Plunket_by_Edward_Luttrell.jpg/640px-Oliver_Plunket_by_Edward_Luttrell.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="756"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Oliver Plunkett - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Oliver_Plunkett"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Oliver_Plunkett&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Oliver_Plunkett"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Oliver_Plunkett rootpage-Oliver_Plunkett skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Oliver+Plunkett" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Oliver+Plunkett"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Oliver+Plunkett"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Oliver_Plunkett" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Oliver_Plunkett" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Oliver_Plunkett&amp;oldid=1134276716" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Oliver_Plunkett&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Oliver_Plunkett&amp;id=1134276716&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q706874" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Oliver_Plunkett&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Oliver_Plunkett&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Oliver_Plunket" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Biography"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Biography">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Biography</div>
+		</a>
+		
+		<ul id="toc-Biography-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Popish_Plot"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Popish_Plot">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Popish Plot</div>
+		</a>
+		
+			<button aria-controls="toc-Popish_Plot-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-Popish_Plot-sublist" class="vector-toc-list">
+			<li id="toc-Trial"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Trial">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1</span>Trial</div>
+			</a>
+			
+			<ul id="toc-Trial-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Execution"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Execution">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.2</span>Execution</div>
+			</a>
+			
+			<ul id="toc-Execution-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Legacy"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Legacy">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Legacy</div>
+		</a>
+		
+			<button aria-controls="toc-Legacy-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-Legacy-sublist" class="vector-toc-list">
+			<li id="toc-Dedications_to_Oliver_Plunkett"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Dedications_to_Oliver_Plunkett">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">3.1</span>Dedications to Oliver Plunkett</div>
+			</a>
+			
+			<ul id="toc-Dedications_to_Oliver_Plunkett-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-In_popular_culture"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#In_popular_culture">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">3.2</span>In popular culture</div>
+			</a>
+			
+			<ul id="toc-In_popular_culture-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Timeline"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Timeline">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Timeline</div>
+		</a>
+		
+		<ul id="toc-Timeline-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Works_cited"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Works_cited">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>Works cited</div>
+		</a>
+		
+		<ul id="toc-Works_cited-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Oliver Plunkett</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 14 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-14"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">14 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%A3%D9%88%D9%84%D9%8A%D9%81%D8%B1_%D8%A8%D9%84%D8%A7%D9%86%D9%83%D9%8A%D8%AA" title="أوليفر بلانكيت – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Oliver_Plunkett" title="Oliver Plunkett – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Olivier_Plunket" title="Olivier Plunket – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a href="https://ga.wikipedia.org/wiki/Oilibh%C3%A9ar_Pluinc%C3%A9ad" title="Oilibhéar Pluincéad – Irish" lang="ga" hreflang="ga" class="interlanguage-link-target"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%98%AC%EB%A6%AC%EB%B2%84_%ED%94%8C%EB%9F%B0%EC%BC%93" title="올리버 플런켓 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Oliver_Plunkett" title="Oliver Plunkett – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Oliver_Plunkett" title="Oliver Plunkett – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Oliverius_Plunkett" title="Oliverius Plunkett – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Plunkett_Szent_Oliv%C3%A9r" title="Plunkett Szent Olivér – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%A7%D9%88%D9%84%D9%8A%D9%81%D8%B1_%D8%A8%D9%84%D8%A7%D9%86%D9%83%D9%8A%D8%AA" title="اوليفر بلانكيت – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Oliver_Plunkett" title="Oliver Plunkett – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Oliver_Plunkett" title="Oliver Plunkett – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D0%BD%D0%BA%D0%B5%D1%82%D1%82,_%D0%9E%D0%BB%D0%B8%D0%B2%D0%B5%D1%80" title="Планкетт, Оливер – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Oliver_Plunkett" title="Oliver Plunkett – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q706874#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Oliver_Plunkett" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Oliver_Plunkett" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Oliver_Plunkett"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Oliver_Plunkett&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Oliver_Plunkett"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Oliver_Plunkett&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Irish Catholic archbishop and saint (1625–1681)</div>
+<style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">This article is about the archbishop. For the judge, see <a href="/wiki/Oliver_Plunkett_(judge)" title="Oliver Plunkett (judge)">Oliver Plunkett (judge)</a>.</div>
+<p class="mw-empty-elt">
+</p>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div style="display:inline;" class="fn">Saint Oliver Plunkett</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Oliver_Plunket_by_Edward_Luttrell.jpg" class="image"><img alt="Oliver Plunket by Edward Luttrell.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Oliver_Plunket_by_Edward_Luttrell.jpg/250px-Oliver_Plunket_by_Edward_Luttrell.jpg" decoding="async" width="250" height="295" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Oliver_Plunket_by_Edward_Luttrell.jpg/375px-Oliver_Plunket_by_Edward_Luttrell.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Oliver_Plunket_by_Edward_Luttrell.jpg/500px-Oliver_Plunket_by_Edward_Luttrell.jpg 2x" data-file-width="2400" data-file-height="2836" /></a><div class="infobox-caption">Oliver Plunkett in a portrait by Edward Luttrell</div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Martyr, Archbishop and Primate of All Ireland</th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data"><span style="display:none">(<span class="bday">1625-11-01</span>)</span>1 November 1625<br /><a href="/wiki/Loughcrew" title="Loughcrew">Loughcrew</a>, <a href="/wiki/County_Meath" title="County Meath">County Meath</a>, Ireland</td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">1 July 1681<span style="display:none">(1681-07-01)</span> (aged&#160;55)<br /><a href="/wiki/Tyburn" title="Tyburn">Tyburn</a>, <a href="/wiki/London" title="London">London</a>, England</td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Beatification" title="Beatification">Beatified</a></th><td class="infobox-data">23 May 1920, Rome by <a href="/wiki/Pope_Benedict_XV" title="Pope Benedict XV">Pope Benedict XV</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data">12 October 1975, Rome by <a href="/wiki/Pope_Paul_VI" title="Pope Paul VI">Pope Paul VI</a></td></tr><tr><th scope="row" class="infobox-label"><span class="nowrap">Major <a href="/wiki/Shrine" title="Shrine">shrine</a></span></th><td class="infobox-data"><a href="/wiki/St._Peter%27s_Roman_Catholic_Church,_Drogheda" title="St. Peter&#39;s Roman Catholic Church, Drogheda">St. Peter's Roman Catholic Church, Drogheda</a>, Ireland</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">1 July</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data">Peace and reconciliation in Ireland</td></tr></tbody></table>
+<p><b>Oliver Plunkett</b> (or <b>Oliver Plunket</b>) (<a href="/wiki/Irish_language" title="Irish language">Irish</a>: <i lang="ga">Oilibhéar Pluincéid</i>), (1 November 1625&#160;– 1 July 1681) was the <a href="/wiki/Catholic" class="mw-redirect" title="Catholic">Catholic</a> <a href="/wiki/Archbishop_of_Armagh" title="Archbishop of Armagh">Archbishop of Armagh</a> and <a href="/wiki/Primate_of_All_Ireland" class="mw-redirect" title="Primate of All Ireland">Primate of All Ireland</a> who was the last victim of the <a href="/wiki/Popish_Plot" title="Popish Plot">Popish Plot</a>. He was <a href="/wiki/Beatified" class="mw-redirect" title="Beatified">beatified</a> in 1920 and <a href="/wiki/Canonised" class="mw-redirect" title="Canonised">canonised</a> in 1975, thus becoming the first new Irish saint in almost seven hundred years.<sup id="cite_ref-FOOTNOTEGlinert200980_1-0" class="reference"><a href="#cite_note-FOOTNOTEGlinert200980-1">&#91;1&#93;</a></sup>
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Biography">Biography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit&amp;section=1" title="Edit section: Biography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Oliver Plunkett was born on 1 November 1625 (earlier biographers gave his date of birth as 1 November 1629, but 1625 has been the consensus since the 1930s)<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> in <a href="/wiki/Loughcrew" title="Loughcrew">Loughcrew</a>, <a href="/wiki/County_Meath" title="County Meath">County Meath</a>, <a href="/wiki/Ireland" title="Ireland">Ireland</a>, to well-to-do parents with <a href="/wiki/Hiberno-Norman" class="mw-redirect" title="Hiberno-Norman">Hiberno-Norman</a> ancestors. A grandson of <a href="/wiki/Baron_Killeen" class="mw-redirect" title="Baron Killeen">James Plunket, 8th Baron Killeen</a> (died 1595), he was related by birth to a number of <a href="/wiki/Landed_gentry" title="Landed gentry">landed</a> families, such as the recently ennobled <a href="/wiki/Earls_of_Roscommon" class="mw-redirect" title="Earls of Roscommon">Earls of Roscommon</a>, as well as the long-established <a href="/wiki/Earls_of_Fingall" class="mw-redirect" title="Earls of Fingall">Earls of Fingall</a>, <a href="/wiki/Baron_Louth" title="Baron Louth">Lords Louth</a>, and <a href="/wiki/Baron_Dunsany" class="mw-redirect" title="Baron Dunsany">Lords Dunsany</a>.<sup id="cite_ref-FOOTNOTEComyn19814_3-0" class="reference"><a href="#cite_note-FOOTNOTEComyn19814-3">&#91;3&#93;</a></sup> Until his sixteenth year, the boy's education was entrusted to his cousin Patrick Plunkett, Abbot of St Mary's, Dublin and brother of <a href="/wiki/Luke_Plunkett,_1st_Earl_of_Fingall" class="mw-redirect" title="Luke Plunkett, 1st Earl of Fingall">Luke Plunkett, the first Earl of Fingall</a>, who later became successively <a href="/wiki/Bishop_of_Ardagh" title="Bishop of Ardagh">Bishop of Ardagh</a> and <a href="/wiki/Bishop_of_Meath" title="Bishop of Meath">of Meath</a>. As an aspirant to the priesthood, he set out for Rome in 1647, under the care of Father <a href="/wiki/Pierfrancesco_Scarampi" title="Pierfrancesco Scarampi">Pierfrancesco Scarampi</a> of the Roman Oratory. At this time the <a href="/wiki/Irish_Confederate_Wars" title="Irish Confederate Wars">Irish Confederate Wars</a> were raging in Ireland; these were essentially conflicts between native Irish <a href="/wiki/Catholic" class="mw-redirect" title="Catholic">Catholics</a>, English and Irish <a href="/wiki/Anglicans" class="mw-redirect" title="Anglicans">Anglicans</a> and <a href="/wiki/Nonconformist_(Protestantism)" title="Nonconformist (Protestantism)">Nonconformists</a>. Scarampi was the Papal envoy to the Catholic movement known as the <a href="/wiki/Confederate_Ireland" title="Confederate Ireland">Confederation of Ireland</a>. Many of Plunkett's relatives were involved in this organisation.
+</p>
+<div class="thumb tleft"><div class="thumbinner" style="width:176px;"><a href="/wiki/File:Saint_Oliver_Plunkett.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/b/b3/Saint_Oliver_Plunkett.jpg" decoding="async" width="174" height="300" class="thumbimage" data-file-width="174" data-file-height="300" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Saint_Oliver_Plunkett.jpg" class="internal" title="Enlarge"></a></div>Portrait of Oliver Plunkett</div></div></div>
+<p>He was admitted to the <a href="/wiki/Irish_College_in_Rome" class="mw-redirect" title="Irish College in Rome">Irish College in Rome</a> and proved to be an able pupil.<sup id="cite_ref-FOOTNOTEComyn19814_3-1" class="reference"><a href="#cite_note-FOOTNOTEComyn19814-3">&#91;3&#93;</a></sup> He was ordained a priest in 1654, and deputed by the Irish bishops to act as their representative in Rome. Meanwhile, the <a href="/wiki/Cromwellian_conquest_of_Ireland" title="Cromwellian conquest of Ireland">Cromwellian conquest of Ireland</a> (1649–53) had defeated the Catholic cause in Ireland; in the aftermath, the public practice of Catholicism was banned and Catholic clergy were executed. As a result, it was impossible for Plunkett to return to Ireland for many years. He petitioned to remain in Rome and, in 1657, became a professor of theology.<sup id="cite_ref-FOOTNOTEComyn19814_3-2" class="reference"><a href="#cite_note-FOOTNOTEComyn19814-3">&#91;3&#93;</a></sup> Throughout the period of the <a href="/wiki/English_Commonwealth" class="mw-redirect" title="English Commonwealth">Commonwealth</a> and the first years of <a href="/wiki/Charles_II_of_England" title="Charles II of England">Charles II</a>'s reign, he successfully pleaded the cause of the Irish Catholic Church, and also served as theological professor at the <a href="/wiki/Roman_Colleges" title="Roman Colleges">College of Propaganda Fide</a>. At the Congregation of Propaganda Fide on 9 July 1669 he was appointed <a href="/wiki/Archbishop_of_Armagh" title="Archbishop of Armagh">Archbishop of Armagh</a>,<sup id="cite_ref-FOOTNOTEComyn19814_3-3" class="reference"><a href="#cite_note-FOOTNOTEComyn19814-3">&#91;3&#93;</a></sup> the Irish primatial see, and was consecrated on 30 November at <a href="/wiki/Ghent" title="Ghent">Ghent</a> by the <a href="/wiki/Bishop_of_Ghent" class="mw-redirect" title="Bishop of Ghent">Bishop of Ghent</a>, Eugeen-Albert, count d'Allamont. He eventually set foot on Irish soil again on 7 March 1670, as the <a href="/wiki/English_Restoration" class="mw-redirect" title="English Restoration">English Restoration</a> of 1660 had begun on a basis of toleration. The <a href="/wiki/Pallium" title="Pallium">pallium</a> was granted him in the <a href="/wiki/Papal_consistory" title="Papal consistory">Consistory</a> of 28 July 1670.
+</p><p>After arriving back in Ireland, he tackled drunkenness among the clergy, writing: "Let us remove this defect from an Irish priest, and he will be a saint". The <a href="/wiki/Penal_Laws" title="Penal Laws">Penal Laws</a> had been relaxed in line with the <a href="/wiki/Declaration_of_Breda" title="Declaration of Breda">Declaration of Breda</a> in 1660<sup id="cite_ref-FOOTNOTEComyn19815_4-0" class="reference"><a href="#cite_note-FOOTNOTEComyn19815-4">&#91;4&#93;</a></sup> and he was able to establish a <a href="/wiki/Jesuit" class="mw-redirect" title="Jesuit">Jesuit</a> College in <a href="/wiki/Drogheda" title="Drogheda">Drogheda</a> in 1670. A year later 150 students attended the college, no fewer than 40 of whom were Protestant, making this college the first integrated school in Ireland. His ministry was a successful one and he is said to have confirmed 48,000 Catholics over a 4-year period. The <a href="/wiki/History_of_Ireland_(1536%E2%80%931691)" title="History of Ireland (1536–1691)">government in Dublin</a>, especially under the <a href="/wiki/Lord_Lieutenant_of_Ireland" title="Lord Lieutenant of Ireland">Lord Lieutenant of Ireland</a>, the <a href="/wiki/James_Butler,_1st_Duke_of_Ormonde" class="mw-redirect" title="James Butler, 1st Duke of Ormonde">Duke of Ormonde</a> (the Protestant son of Catholic parents) extended a generous measure of toleration to the Catholic hierarchy until the mid-1670s. Plunkett was executed in Tyburn, England on 1 July 1681. He was hanged, drawn, and quartered for treason and “promoting the Roman faith."
+</p>
+<h2><span class="mw-headline" id="Popish_Plot">Popish Plot</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit&amp;section=2" title="Edit section: Popish Plot">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1033289096"/><div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Popish_Plot" title="Popish Plot">Popish Plot</a></div>
+<div class="thumb tright"><div class="thumbinner" style="width:202px;"><a href="/wiki/File:Titus_Oates.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Titus_Oates.jpg/200px-Titus_Oates.jpg" decoding="async" width="200" height="250" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Titus_Oates.jpg/300px-Titus_Oates.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Titus_Oates.jpg/400px-Titus_Oates.jpg 2x" data-file-width="800" data-file-height="1001" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Titus_Oates.jpg" class="internal" title="Enlarge"></a></div><a href="/wiki/Titus_Oates" title="Titus Oates">Titus Oates</a>, perpetrator of the "<a href="/wiki/Popish_Plot" title="Popish Plot">Popish Plot</a>"</div></div></div>
+<p>On the enactment of the <a href="/wiki/Test_Act" class="mw-redirect" title="Test Act">Test Act</a> in 1673, to which Plunkett would not agree for doctrinal reasons, the college was closed and demolished. Plunkett went into hiding, travelling only in disguise, and refused a government edict to register at a seaport to await passage into exile. For the next few years he was largely left in peace since the Dublin government, except when put under pressure from the English government in <a href="/wiki/London" title="London">London</a>, preferred to leave the Catholic bishops alone.
+</p><p>In 1678 the so-called <a href="/wiki/Popish_Plot" title="Popish Plot">Popish Plot</a>, concocted in England by clergyman <a href="/wiki/Titus_Oates" title="Titus Oates">Titus Oates</a>, led to further anti-Catholic action. <a href="/wiki/Archbishop_Peter_Talbot" class="mw-redirect" title="Archbishop Peter Talbot">Archbishop Peter Talbot</a> of <a href="/wiki/Dublin" title="Dublin">Dublin</a> was arrested, and Plunkett again went into hiding. The <a href="/wiki/Privy_Council_of_England" title="Privy Council of England">Privy Council of England</a>, in Westminster, was told that Plunkett had plotted a French invasion. The moving spirit behind the campaign is said to have been <a href="/wiki/Arthur_Capell,_1st_Earl_of_Essex" title="Arthur Capell, 1st Earl of Essex">Arthur Capell, the first Earl of Essex</a>, who had been Lord Lieutenant of Ireland in 1672-77 and hoped to resume the office by discrediting the Duke of Ormonde. However Essex was not normally a ruthless or unprincipled man, and his later plea for mercy suggests that he had never intended that Plunkett should actually die.<sup id="cite_ref-FOOTNOTEKenyon2000225_5-0" class="reference"><a href="#cite_note-FOOTNOTEKenyon2000225-5">&#91;5&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Trial">Trial</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit&amp;section=3" title="Edit section: Trial">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Despite being on the run and with a price on his head, Plunkett refused to leave his flock. At some point before his final <a href="/wiki/Incarceration" class="mw-redirect" title="Incarceration">incarceration</a>, he took refuge in a church that once stood in the townland of Killartry, in the parish of <a href="/wiki/Clogherhead" title="Clogherhead">Clogherhead</a> in <a href="/wiki/County_Louth" title="County Louth">County Louth</a>, seven miles outside Drogheda. He was arrested in Dublin on 6 December 1679 and imprisoned in <a href="/wiki/Dublin_Castle" title="Dublin Castle">Dublin Castle</a>, where he gave absolution to the dying Talbot. Plunkett was tried at <a href="/wiki/Dundalk" title="Dundalk">Dundalk</a> for conspiring against the state by allegedly plotting to bring 20,000 French soldiers into the country, and for levying a tax on his clergy to support 70,000 men for rebellion. Though this was unproven, some in government circles were worried about the possibility that a repetition of the <a href="/wiki/Irish_rebellion_of_1641" class="mw-redirect" title="Irish rebellion of 1641">Irish rebellion of 1641</a> was being planned and in any case, this was a convenient excuse for proceeding against Plunkett. The Duke of Ormonde, aware that Lord Essex was using the crisis to undermine him, did not defend Plunkett in public. In private however, he made clear his belief in Plunkett's innocence and his contempt for the informers against him: "silly drunken vagabonds... whom no schoolboy would trust to rob an orchard".<sup id="cite_ref-FOOTNOTEKenyon2000233_6-0" class="reference"><a href="#cite_note-FOOTNOTEKenyon2000233-6">&#91;6&#93;</a></sup>
+</p>
+<div class="thumb tleft"><div class="thumbinner" style="width:202px;"><a href="/wiki/File:Microcosm_of_London_Plate_094_-_Westminster_Hall_(tone).jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Microcosm_of_London_Plate_094_-_Westminster_Hall_%28tone%29.jpg/200px-Microcosm_of_London_Plate_094_-_Westminster_Hall_%28tone%29.jpg" decoding="async" width="200" height="266" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Microcosm_of_London_Plate_094_-_Westminster_Hall_%28tone%29.jpg/300px-Microcosm_of_London_Plate_094_-_Westminster_Hall_%28tone%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/de/Microcosm_of_London_Plate_094_-_Westminster_Hall_%28tone%29.jpg/400px-Microcosm_of_London_Plate_094_-_Westminster_Hall_%28tone%29.jpg 2x" data-file-width="2108" data-file-height="2804" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Microcosm_of_London_Plate_094_-_Westminster_Hall_(tone).jpg" class="internal" title="Enlarge"></a></div><a href="/wiki/Westminster_Hall" class="mw-redirect" title="Westminster Hall">Westminster Hall</a>, where Plunkett was tried</div></div></div>
+<p>Plunkett did not object to facing an all-Protestant jury, but the trial soon collapsed as the prosecution witnesses were themselves wanted men and afraid to turn up in court. <a href="/wiki/Anthony_Ashley-Cooper,_1st_Earl_of_Shaftesbury" class="mw-redirect" title="Anthony Ashley-Cooper, 1st Earl of Shaftesbury">Lord Shaftesbury</a> knew Plunkett would never be convicted in Ireland, irrespective of the jury's composition, and so had Plunkett moved to <a href="/wiki/Newgate_Prison" title="Newgate Prison">Newgate Prison</a> in London in order to face trial at <a href="/wiki/Westminster_Hall" class="mw-redirect" title="Westminster Hall">Westminster Hall</a>. The first grand jury found no <a href="/wiki/True_bill" class="mw-redirect" title="True bill">true bill</a>, but he was not released. The second trial has generally been regarded as a serious miscarriage of justice; Plunkett was denied defending counsel (although <a href="/wiki/Hugh_Reily" title="Hugh Reily">Hugh Reily</a> acted as his legal advisor) and time to assemble his defence witnesses, and he was also frustrated in his attempts to obtain the criminal records of those who were to give evidence against him. His servant James McKenna, and a relative, John Plunkett, had travelled back to Ireland and failed within the time available to bring back witnesses and evidence for the defence. During the trial, Archbishop Plunkett had disputed the right of the court to try him in England and he also drew attention to the criminal past of the witnesses, but to no avail. <a href="/wiki/Lord_Chief_Justice_of_England_and_Wales" title="Lord Chief Justice of England and Wales">Lord Chief Justice</a> Sir <a href="/wiki/Francis_Pemberton" title="Francis Pemberton">Francis Pemberton</a> addressing these complaints said to Plunkett: "Look you, Mr. Plunket, it is in vain for you to talk and make this discourse here now..."<sup id="cite_ref-FOOTNOTECobbett1810450_7-0" class="reference"><a href="#cite_note-FOOTNOTECobbett1810450-7">&#91;7&#93;</a></sup> and later on again: "Look you, Mr. Plunket, don't mis-spend your own time; for the more you trifle in these things, the less time you will have for your defence".<sup id="cite_ref-FOOTNOTECobbett1810481_8-0" class="reference"><a href="#cite_note-FOOTNOTECobbett1810481-8">&#91;8&#93;</a></sup>
+</p><p>The <a href="/wiki/Scottish_people" title="Scottish people">Scottish</a> clergyman and future <a href="/wiki/Bishop_of_Salisbury" title="Bishop of Salisbury">Bishop of Salisbury</a>, <a href="/wiki/Gilbert_Burnet" title="Gilbert Burnet">Gilbert Burnet</a>, an eyewitness to the Plot trials, had no doubt of the innocence of Plunkett, whom he praised as a wise and sober man who wished only to live peacefully and tend to his congregation.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup> Writing in the 19th century, <a href="/wiki/John_Campbell,_1st_Baron_Campbell" title="John Campbell, 1st Baron Campbell">Lord Campbell</a> said of the judge, Pemberton, that the trial was a disgrace to himself and his country. More recently the <a href="/wiki/High_Court_of_Justice" title="High Court of Justice">High Court</a> judge <a href="/wiki/James_Comyn" title="James Comyn">Sir James Comyn</a> called it a grave mistake: while Plunkett, by virtue of his office, was clearly guilty of "promoting the Catholic faith", and may possibly have had some dealings with the French, there was never the slightest evidence that he had conspired against the King's life.<sup id="cite_ref-FOOTNOTEComyn19819_10-0" class="reference"><a href="#cite_note-FOOTNOTEComyn19819-10">&#91;10&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Execution">Execution</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit&amp;section=4" title="Edit section: Execution">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:202px;"><a href="/wiki/File:Tyburn_gallows_1746.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tyburn_gallows_1746.jpg/200px-Tyburn_gallows_1746.jpg" decoding="async" width="200" height="198" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/a/a6/Tyburn_gallows_1746.jpg 1.5x" data-file-width="250" data-file-height="247" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Tyburn_gallows_1746.jpg" class="internal" title="Enlarge"></a></div>Map of Tyburn <a href="/wiki/Gallows" title="Gallows">gallows</a> and immediate surroundings</div></div></div>
+<p><a href="/wiki/Archbishop" title="Archbishop">Archbishop</a> Plunkett was found guilty of high treason in June 1681 "for promoting the Roman faith", and was condemned to death.<sup id="cite_ref-FOOTNOTEKenyon2000233_6-1" class="reference"><a href="#cite_note-FOOTNOTEKenyon2000233-6">&#91;6&#93;</a></sup> In passing judgement, the Chief Justice said: "You have done as much as you could to dishonour God in this case; for the bottom of your treason was your setting up your false religion, than which there is not any thing more displeasing to God, or more pernicious to mankind in the world".<sup id="cite_ref-FOOTNOTECobbett1810492_11-0" class="reference"><a href="#cite_note-FOOTNOTECobbett1810492-11">&#91;11&#93;</a></sup> The jury returned within fifteen minutes with a guilty verdict and Archbishop Plunkett replied: "<i>Deo Gratias</i>" (Latin for "Thanks be to God").
+</p><p>Numerous pleas for mercy were made but Charles II, although himself a reputed crypto-Catholic,<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup> thought it too politically dangerous to spare Plunkett.<sup id="cite_ref-FOOTNOTEKenyon2000234_13-0" class="reference"><a href="#cite_note-FOOTNOTEKenyon2000234-13">&#91;13&#93;</a></sup> The French ambassador to England, <a href="/wiki/Paul_Barillon" title="Paul Barillon">Paul Barillon</a>, conveyed a plea for mercy from his king, <a href="/wiki/Louis_XIV_of_France" class="mw-redirect" title="Louis XIV of France">Louis XIV</a>. Charles told him frankly that he knew Plunkett to be innocent, but that the time was not right to take so bold a step as to pardon him.<sup id="cite_ref-FOOTNOTEKenyon2000234_13-1" class="reference"><a href="#cite_note-FOOTNOTEKenyon2000234-13">&#91;13&#93;</a></sup> Lord Essex, apparently realising too late that his intrigues had led to the condemnation of an innocent man, made a similar plea for mercy. The King, normally the most self-controlled of men, turned on Essex in fury, saying: "his blood be on your head – you could have saved him but would not, I would save him and dare not".<sup id="cite_ref-FOOTNOTEKenyon2000234_13-2" class="reference"><a href="#cite_note-FOOTNOTEKenyon2000234-13">&#91;13&#93;</a></sup>
+</p><p>Plunkett was <a href="/wiki/Hanged,_drawn_and_quartered" title="Hanged, drawn and quartered">hanged, drawn and quartered</a> at <a href="/wiki/Tyburn,_London" class="mw-redirect" title="Tyburn, London">Tyburn</a> on 1 July 1681 (11 July <a href="/wiki/Old_Style_and_New_Style_dates" title="Old Style and New Style dates">NS</a>), aged 55, the last Catholic <a href="/wiki/Martyr" title="Martyr">martyr</a> to die in England.<sup id="cite_ref-FOOTNOTEKenyon2000234_13-3" class="reference"><a href="#cite_note-FOOTNOTEKenyon2000234-13">&#91;13&#93;</a></sup> His body was initially buried in two tin boxes, next to five <a href="/wiki/Jesuits" title="Jesuits">Jesuits</a> who had died previously, in the courtyard of <a href="/wiki/St_Giles_in_the_Fields" title="St Giles in the Fields">St Giles in the Fields church</a>. The remains were exhumed in 1683 and moved to the Benedictine monastery at <a href="/wiki/Lamspringe" title="Lamspringe">Lamspringe</a>, near <a href="/wiki/Hildesheim" title="Hildesheim">Hildesheim</a> in <a href="/wiki/Germany" title="Germany">Germany</a>. The head was brought to Rome, and from there to <a href="/wiki/Armagh" title="Armagh">Armagh</a>, and eventually to Drogheda where since 29 June 1921 it has rested in <a href="/wiki/St._Peter%27s_Roman_Catholic_Church,_Drogheda" title="St. Peter&#39;s Roman Catholic Church, Drogheda">Saint Peter's Church</a>. Most of the body was brought to <a href="/wiki/Downside_Abbey" title="Downside Abbey">Downside Abbey</a>, England, where the major part is located today, with some parts remaining at Lamspringe. On the occasion of his canonization in 1975 his casket was opened and some parts of his body were given to St Peter's Church in Drogheda Ireland.
+</p>
+<h2><span class="mw-headline" id="Legacy">Legacy</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit&amp;section=5" title="Edit section: Legacy">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a href="/wiki/File:Oliver_Plunkett_Shrine,_St_Peter%27s_Church,_Drogheda,_Ireland_-_Diliff.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Oliver_Plunkett_Shrine%2C_St_Peter%27s_Church%2C_Drogheda%2C_Ireland_-_Diliff.jpg/250px-Oliver_Plunkett_Shrine%2C_St_Peter%27s_Church%2C_Drogheda%2C_Ireland_-_Diliff.jpg" decoding="async" width="250" height="392" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Oliver_Plunkett_Shrine%2C_St_Peter%27s_Church%2C_Drogheda%2C_Ireland_-_Diliff.jpg/375px-Oliver_Plunkett_Shrine%2C_St_Peter%27s_Church%2C_Drogheda%2C_Ireland_-_Diliff.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/05/Oliver_Plunkett_Shrine%2C_St_Peter%27s_Church%2C_Drogheda%2C_Ireland_-_Diliff.jpg/500px-Oliver_Plunkett_Shrine%2C_St_Peter%27s_Church%2C_Drogheda%2C_Ireland_-_Diliff.jpg 2x" data-file-width="2743" data-file-height="4302" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Oliver_Plunkett_Shrine,_St_Peter%27s_Church,_Drogheda,_Ireland_-_Diliff.jpg" class="internal" title="Enlarge"></a></div>St Oliver Plunkett's head</div></div></div>
+<p>Oliver Plunkett was beatified in 1920 and canonized in 1975, the first new Irish saint for almost seven hundred years,<sup id="cite_ref-FOOTNOTEGlinert200980_1-1" class="reference"><a href="#cite_note-FOOTNOTEGlinert200980-1">&#91;1&#93;</a></sup> and the first of the <a href="/wiki/Irish_martyrs" class="mw-redirect" title="Irish martyrs">Irish martyrs</a> to be beatified. For the canonisation, the customary second miracle was waived. He has since been followed by 17 other Irish martyrs who were <a href="/wiki/Beatified" class="mw-redirect" title="Beatified">beatified</a> by <a href="/wiki/Pope_John_Paul_II" title="Pope John Paul II">Pope John Paul II</a> in 1992. Among them were Archbishop <a href="/wiki/Dermot_O%27Hurley" title="Dermot O&#39;Hurley">Dermot O'Hurley</a>, <a href="/wiki/Margaret_Ball" title="Margaret Ball">Margaret Ball</a>, and the <a href="/wiki/Wexford_Martyrs" title="Wexford Martyrs">Wexford Martyrs</a>.
+</p><p>In 1920 a mosaic of him at <a href="/wiki/Westminster_Cathedral" title="Westminster Cathedral">Westminster Cathedral</a>, London, was created by <a href="/wiki/Boris_Anrep" title="Boris Anrep">Boris Anrep</a>.
+</p><p>As a spectacle alone, a rally and Mass for St Oliver Plunkett on London's <a href="/wiki/Clapham_Common" title="Clapham Common">Clapham Common</a> was a remarkable triumph. The Common was virtually taken over for a celebration of the 300th anniversary of Plunkett's martyrdom. Cardinal <a href="/wiki/Tom%C3%A1s_%C3%93_Fiaich" title="Tomás Ó Fiaich">Tomás Ó Fiaich</a>, twenty enrobed bishops and a number of abbots mounted a stage beneath a scaffolding shelter on 1 July 1981. Ó Fiaich had flown there in a helicopter with Plunkett's head. The occasion attracted thousands of pilgrims to the park.
+</p><p>In 1997 Plunkett was made a patron saint for peace and reconciliation in Ireland, adopted by the prayer group campaigning for peace in Ireland, "St. Oliver Plunkett for Peace and Reconciliation".
+</p>
+<h3><span class="mw-headline" id="Dedications_to_Oliver_Plunkett">Dedications to Oliver Plunkett</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit&amp;section=6" title="Edit section: Dedications to Oliver Plunkett">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:202px;"><a href="/wiki/File:1_Shrine_of_St_Oliver_Plunkett,_Drogheda_2007-10-5.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/1_Shrine_of_St_Oliver_Plunkett%2C_Drogheda_2007-10-5.jpg/200px-1_Shrine_of_St_Oliver_Plunkett%2C_Drogheda_2007-10-5.jpg" decoding="async" width="200" height="297" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/1_Shrine_of_St_Oliver_Plunkett%2C_Drogheda_2007-10-5.jpg/300px-1_Shrine_of_St_Oliver_Plunkett%2C_Drogheda_2007-10-5.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/30/1_Shrine_of_St_Oliver_Plunkett%2C_Drogheda_2007-10-5.jpg/400px-1_Shrine_of_St_Oliver_Plunkett%2C_Drogheda_2007-10-5.jpg 2x" data-file-width="2460" data-file-height="3648" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:1_Shrine_of_St_Oliver_Plunkett,_Drogheda_2007-10-5.jpg" class="internal" title="Enlarge"></a></div>The shrine of St Oliver Plunkett, in St Peter's, Drogheda</div></div></div>
+<style data-mw-deduplicate="TemplateStyles:r1097763485">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+link+.ambox,.mw-parser-output .ambox+link+style+.ambox,.mw-parser-output .ambox+link+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+style+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+link+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}html.client-js body.skin-minerva .mw-parser-output .mbox-text-span{margin-left:23px!important}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}</style><table class="plainlinks metadata ambox mbox-small-left ambox-notice" role="presentation" style="width: auto;"><tbody><tr><td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/1/1d/Information_icon4.svg/20px-Information_icon4.svg.png" decoding="async" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/1/1d/Information_icon4.svg/30px-Information_icon4.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/1/1d/Information_icon4.svg/40px-Information_icon4.svg.png 2x" data-file-width="620" data-file-height="620" /></td><td class="mbox-text" style="width: auto;"><div class="mbox-text-span">This list is <a href="/wiki/Wikipedia:WikiProject_Lists#Incomplete_lists" title="Wikipedia:WikiProject Lists">incomplete</a>; you can help by <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Oliver_Plunkett&amp;action=edit">adding missing items</a>.  <span class="date-container"><i>(<span class="date">February 2014</span>)</i></span></div></td></tr></tbody></table>
+<p><b>Religious and church sites</b>:
+</p>
+<ul><li>St. Oliver Plunkett Church, <a href="/wiki/Diocese_of_Down_and_Connor" class="mw-redirect" title="Diocese of Down and Connor">Diocese of Down and Connor</a>, <a href="/wiki/County_Antrim" title="County Antrim">County Antrim</a></li>
+<li>St. Oliver Plunkett Church, <a rel="nofollow" class="external text" href="http://limerickdioceseheritage.org/MungretCrecoraRaheen.htm">Mungret, Limerick</a></li>
+<li><a href="/wiki/St._Peter%27s_Roman_Catholic_Church,_Drogheda" title="St. Peter&#39;s Roman Catholic Church, Drogheda">St. Peter's Catholic Church</a>, Drogheda, County Louth</li>
+<li>Church of St. Oliver Plunkett, <a href="/wiki/Blackrock,_County_Louth" title="Blackrock, County Louth">Blackrock, County Louth</a></li>
+<li>St. Oliver Plunkett's Church, <a href="/wiki/Clonmel" title="Clonmel">Clonmel</a>, <a href="/wiki/County_Tipperary" title="County Tipperary">County Tipperary</a></li>
+<li>St. Oliver Plunkett Church, <a href="/wiki/Renmore" title="Renmore">Renmore</a>, <a href="/wiki/County_Galway" title="County Galway">County Galway</a></li>
+<li>Shrine at Loughcrew, County Meath</li>
+<li>Downside Abbey, <a href="/wiki/Somerset" title="Somerset">Somerset</a></li>
+<li>St. Oliver Plunkett Catholic Church, <a href="/wiki/Snellville,_Georgia" title="Snellville, Georgia">Snellville, Georgia</a></li>
+<li>St. Oliver Plunkett Catholic Church, Strathfoyle, County Londonderry, Northern Ireland <a href="/wiki/Roman_Catholic_Diocese_of_Derry" title="Roman Catholic Diocese of Derry">Diocese of Derry</a></li>
+<li>St. Oliver Plunkett Parish (Consolidated), <a href="/wiki/Fredericktown,_Pennsylvania" title="Fredericktown, Pennsylvania">Fredericktown, Pennsylvania</a></li>
+<li>St. Oliver's Cemetery, <a href="/wiki/Cork_City" class="mw-redirect" title="Cork City">Cork City</a>, <a href="/wiki/County_Cork" title="County Cork">County Cork</a></li>
+<li>St. Oliver Plunkett's Parish, <a href="/wiki/Cannon_Hill,_Queensland" title="Cannon Hill, Queensland">Cannon Hill, Queensland</a> Australia</li>
+<li>St. Oliver Plunkett's Parish, <a href="/wiki/Harris_Park,_New_South_Wales" title="Harris Park, New South Wales">Harris Park, New South Wales</a>, Australia</li></ul>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Catholic_church_Pascoe_Vale,_Victoria.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Catholic_church_Pascoe_Vale%2C_Victoria.jpg/220px-Catholic_church_Pascoe_Vale%2C_Victoria.jpg" decoding="async" width="220" height="141" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Catholic_church_Pascoe_Vale%2C_Victoria.jpg/330px-Catholic_church_Pascoe_Vale%2C_Victoria.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Catholic_church_Pascoe_Vale%2C_Victoria.jpg/440px-Catholic_church_Pascoe_Vale%2C_Victoria.jpg 2x" data-file-width="2734" data-file-height="1754" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Catholic_church_Pascoe_Vale,_Victoria.jpg" class="internal" title="Enlarge"></a></div>St Oliver Plunkett Catholic Church Pascoe Vale, Victoria Australia</div></div></div>
+<ul><li>St. Oliver Plunkett's Parish, <a href="/wiki/Pascoe_Vale,_Victoria" title="Pascoe Vale, Victoria">Pascoe Vale, Victoria</a>, Australia</li>
+<li><a href="/wiki/The_Church_of_Our_Lady_St_Mary_of_Glastonbury" title="The Church of Our Lady St Mary of Glastonbury">The Church of Our Lady St Mary of Glastonbury</a>, Somerset, England, contains relics from Oliver Plunkett in all of its reliquaries.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup></li></ul>
+<p><b>Schools</b>:
+</p>
+<ul><li>St. Oliver Plunkett's Post Primary School, <a href="/wiki/Oldcastle,_County_Meath" title="Oldcastle, County Meath">Oldcastle, County Meath</a></li>
+<li>Scoil Oilibhéir SN, Baile Átha Cliath 15</li>
+<li>St. Oliver Plunkett's National School, Clonmel, County Tipperary</li>
+<li>St. Oliver Plunkett Primary School, <a href="/wiki/Beragh" title="Beragh">Beragh</a>, <a href="/wiki/County_Tyrone" title="County Tyrone">County Tyrone</a></li>
+<li>St. Oliver Plunket National School, Blackrock, County Louth</li>
+<li>St. Oliver Plunket National School, Newcastle, <a href="/wiki/Athenry" title="Athenry">Athenry</a></li>
+<li>St. Oliver Plunkett School, <a href="/wiki/Belfast" title="Belfast">Belfast</a>, County Antrim</li>
+<li>St. Oliver Plunkett's Primary School, <a href="/wiki/Forkhill" title="Forkhill">Forkhill</a>, <a href="/wiki/County_Armagh" title="County Armagh">County Armagh</a></li>
+<li>St. Oliver Plunkett's Primary School, <a href="/wiki/Kilmore,_County_Armagh" title="Kilmore, County Armagh">Kilmore</a>, County Armagh</li>
+<li>St. Oliver Plunkett School, <a href="/wiki/Malahide" title="Malahide">Malahide</a>, County Dublin</li>
+<li>Blessed Oliver Plunkett Boys' National School, <a href="/wiki/Moate" title="Moate">Moate</a>, <a href="/wiki/County_Westmeath" title="County Westmeath">County Westmeath</a></li>
+<li>St. Oliver Plunkett National School, <a href="/wiki/Navan" title="Navan">Navan</a>, County Meath</li>
+<li>St. Oliver Plunkett's Primary School, <a href="/wiki/Newtownhamilton" title="Newtownhamilton">Newtownhamilton</a>, County Armagh</li>
+<li><a href="/wiki/Downside_School" title="Downside School">Downside School</a>, Somerset</li>
+<li>Oliver Plunkett's Primary School, <a href="/wiki/Strathfoyle" title="Strathfoyle">Strathfoyle</a>, <a href="/wiki/County_Londonderry" title="County Londonderry">County Londonderry</a></li>
+<li><a href="/wiki/Mayfield_College" title="Mayfield College">Mayfield College</a>, <a href="/wiki/Sussex" title="Sussex">Sussex</a></li>
+<li>St. Oliver's Primary School, Harris Park, New South Wales, Australia</li>
+<li>St. Oliver Plunkett Primary School, Cannon Hill, Queensland, Australia</li>
+<li>St. Oliver Plunkett Primary School, Pascoe Vale, Victoria, Australia</li>
+<li>St. Oliver Plunkett NS, Monkstown, Co. Dublin</li>
+<li>St. Oliver Plunkett NS, Killina, <a href="/wiki/Co._Kildare" class="mw-redirect" title="Co. Kildare">Co. Kildare</a></li></ul>
+<p><b>Sports</b>:
+</p>
+<ul><li><a href="/wiki/Crossmaglen_Rangers_GAC" title="Crossmaglen Rangers GAC">St. Oliver Plunkett Park</a>, <a href="/wiki/Crossmaglen" title="Crossmaglen">Crossmaglen</a>, County Armagh</li>
+<li><a href="/w/index.php?title=Emyvale_GFC&amp;action=edit&amp;redlink=1" class="new" title="Emyvale GFC (page does not exist)">St. Oliver Plunkett Park</a>, <a href="/wiki/Emyvale" title="Emyvale">Emyvale</a>, Co. Monaghan</li>
+<li>Oliver Plunketts GAA, Drogheda, County Louth.</li>
+<li><a href="/wiki/Oliver_Plunketts_GAA" title="Oliver Plunketts GAA">Oliver Plunketts GAA</a>, <a href="/wiki/Ahiohill" title="Ahiohill">Ahiohill</a>, County Cork</li>
+<li><a href="/wiki/St_Oliver_Plunketts/Eoghan_Ruadh_GAA" title="St Oliver Plunketts/Eoghan Ruadh GAA">St Oliver Plunketts/Eoghan Ruadh GAA</a>, Dublin, County Dublin</li>
+<li><a href="/wiki/Greenlough_GAC" title="Greenlough GAC">Greenlough GAC</a>, <a href="/wiki/Clady,_County_Londonderry" title="Clady, County Londonderry">Clady</a>, County Londonderry</li>
+<li>Oliver Plunkett Cup of the <a href="/wiki/Cavan_Senior_Football_Championship" title="Cavan Senior Football Championship">Cavan Senior Football Championship</a></li>
+<li>St Oliver's Boys, <a href="/w/index.php?title=Clonmel,_County_Tipperary&amp;action=edit&amp;redlink=1" class="new" title="Clonmel, County Tipperary (page does not exist)">Clonmel, County Tipperary</a> (defunct, now known as Clonmel Celtic FC)</li></ul>
+<p><b>Other</b>:
+</p>
+<ul><li><a href="/wiki/Oliver_Plunkett_Street" title="Oliver Plunkett Street">Oliver Plunkett Street</a>, Cork City, County Cork</li>
+<li>St. Oliver Plunkett Road, <a href="/wiki/Letterkenny" title="Letterkenny">Letterkenny</a>, <a href="/wiki/County_Donegal" title="County Donegal">County Donegal</a></li>
+<li>St Oliver Plunkett Rd. Ballymore Eustace. Co.Kildare</li>
+<li>St. Oliver Plunkett's Bridge, <a href="/wiki/County_Offaly" title="County Offaly">County Offaly</a></li>
+<li>Oliver Plunkett Street, <a href="/wiki/Mullingar" title="Mullingar">Mullingar</a>, County Westmeath</li>
+<li>St. Oliver Plunkett's GAA, Drogheda, Co. Louth</li>
+<li>Oliver Plunkett Road, Monkstown, County Dublin</li>
+<li>Oliver Plunkett Avenue, Monkstown, County Dublin</li>
+<li>St Oliver's GAA, Waterford</li></ul>
+<p>An Aer Lingus plane is named for him
+</p><p>. Plunkett Avenue, Mervue, Galway city.
+</p>
+<h3><span class="mw-headline" id="In_popular_culture">In popular culture</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit&amp;section=7" title="Edit section: In popular culture">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>In <a href="/wiki/Harold_Pinter" title="Harold Pinter">Harold Pinter</a>'s <i><a href="/wiki/The_Birthday_Party_(play)" title="The Birthday Party (play)">The Birthday Party</a></i>, McCann asks Stanley "What about the blessed Oliver Plunkett?"</li>
+<li>In <a href="/wiki/J._P._Donleavy" title="J. P. Donleavy">J. P. Donleavy</a>'s <i><a href="/wiki/The_Ginger_Man" title="The Ginger Man">The Ginger Man</a></i>, Sebastian Dangerfield repeatedly calls on the name of "the Blessed Oliver" and, towards the end of the book, receives a wooden carving of the saint's head.</li>
+<li>In <a href="/wiki/David_Caffrey" title="David Caffrey">David Caffrey</a>'s 2001 film <i><a href="/wiki/On_the_Nose_(film)" title="On the Nose (film)">On the Nose</a></i>, Nana, played by <a href="/w/index.php?title=Francis_Burke_(actor)&amp;action=edit&amp;redlink=1" class="new" title="Francis Burke (actor) (page does not exist)">Francis Burke</a> refers to an Aboriginal person's head in a large specimen jar as "Oliver Plunkett".</li>
+<li>In <a href="/wiki/Colin_Bateman" title="Colin Bateman">Colin Bateman</a>'s 2004 novel, <i><a href="/wiki/Bring_Me_the_Head_of_Oliver_Plunkett" title="Bring Me the Head of Oliver Plunkett">Bring Me the Head of Oliver Plunkett</a></i>, the head of Oliver Plunkett is stolen from St. Peter's Church.</li>
+<li><a href="/wiki/Too_Much_Joy" title="Too Much Joy">Too Much Joy</a>'s 2021 album <i>Mistakes Were Made</i> includes a song called "Oliver Plunkett's Head".</li></ul>
+<h2><span class="mw-headline" id="Timeline">Timeline</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit&amp;section=8" title="Edit section: Timeline">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>4 March 1651&#160;– <a href="/wiki/Tonsure" title="Tonsure">tonsure</a> &amp; <a href="/wiki/Minor_orders" title="Minor orders">minor orders</a></li>
+<li>20 December 1653&#160;– <a href="/wiki/Ordained" class="mw-redirect" title="Ordained">ordained</a> as <a href="/wiki/Subdeacon" title="Subdeacon">subdeacon</a></li>
+<li>26 December 1653&#160;– ordained as <a href="/wiki/Deacon" title="Deacon">deacon</a></li>
+<li>1 January 1654&#160;– ordained as <a href="/wiki/Priest" title="Priest">priest</a> in Rome</li>
+<li>November 1657&#160;– appointed Professor of Theology at <a href="/wiki/Congregation_for_the_Evangelization_of_Peoples" title="Congregation for the Evangelization of Peoples">Propaganda college</a>, Rome</li>
+<li>1 December 1669&#160;– <a href="/wiki/Consecrated" class="mw-redirect" title="Consecrated">consecrated</a> as archbishop</li>
+<li>7 March 1670&#160;– landed at Ringsend, Dublin, ending 23 years of self-imposed exile abroad</li>
+<li>6 December 1679&#160;– arrested</li>
+<li>23 July 1680&#160;– trial</li>
+<li>24 October 1680&#160;– transfer from Ireland to London</li>
+<li>8 June 1681&#160;– trial</li>
+<li>15 June 1681&#160;– sentenced to death</li>
+<li>1 July 1681 (<a href="/wiki/Old_Style_and_New_Style_dates" title="Old Style and New Style dates">OS</a>) = 11 July 1681 (NS)&#160;– hanged, drawn, quartered (the punishment for treason against the state), beheaded</li>
+<li>9 December 1886 declared <a href="/wiki/Venerable" class="mw-redirect" title="Venerable">venerable</a></li>
+<li>17 March 1918&#160;– declaration of <a href="/wiki/Martyrdom" class="mw-redirect" title="Martyrdom">martyrdom</a></li>
+<li><a href="/wiki/Pentecost_Sunday" class="mw-redirect" title="Pentecost Sunday">Pentecost Sunday</a>, 23 May 1920 &#160;– beatified</li>
+<li>12 October 1975&#160;– <a href="/wiki/Canonized" class="mw-redirect" title="Canonized">canonized</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit&amp;section=9" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist reflist-columns references-column-width" style="column-width: 30em;">
+<ol class="references">
+<li id="cite_note-FOOTNOTEGlinert200980-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEGlinert200980_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEGlinert200980_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFGlinert2009">Glinert (2009)</a>, p.&#160;80.</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Earlier biographers gave his date of birth as 1 November four years later, but since the discovery of an ancient reference to Oliver Plunkett’s birth in the Bodleian Library, Ashmolean, MS.436, which stated "He was born on 1st. November 1625", biographers of Plunkett since the 1930s agree on 1625. These include Hanly, O'Fiaich, Forristal, Curtis, O'Higgins, Walsh, Bennett, Stokes, Concannon, Carty, Matthews, Murphy, Nowak, Burns, Meagher and the St. Oliver web-site.</span>
+</li>
+<li id="cite_note-FOOTNOTEComyn19814-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEComyn19814_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEComyn19814_3-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-FOOTNOTEComyn19814_3-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-FOOTNOTEComyn19814_3-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFComyn1981">Comyn (1981)</a>, p.&#160;4.</span>
+</li>
+<li id="cite_note-FOOTNOTEComyn19815-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEComyn19815_4-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFComyn1981">Comyn (1981)</a>, p.&#160;5.</span>
+</li>
+<li id="cite_note-FOOTNOTEKenyon2000225-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEKenyon2000225_5-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFKenyon2000">Kenyon (2000)</a>, p.&#160;225.</span>
+</li>
+<li id="cite_note-FOOTNOTEKenyon2000233-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEKenyon2000233_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEKenyon2000233_6-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFKenyon2000">Kenyon (2000)</a>, p.&#160;233.</span>
+</li>
+<li id="cite_note-FOOTNOTECobbett1810450-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTECobbett1810450_7-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFCobbett1810">Cobbett (1810)</a>, p.&#160;450.</span>
+</li>
+<li id="cite_note-FOOTNOTECobbett1810481-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTECobbett1810481_8-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFCobbett1810">Cobbett (1810)</a>, p.&#160;481.</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a href="/wiki/Gilbert_Burnet" title="Gilbert Burnet">Gilbert Burnet</a> <i>History of his Own Time</i> Everyman Abridgment 1991, p. 182.</span>
+</li>
+<li id="cite_note-FOOTNOTEComyn19819-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEComyn19819_10-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFComyn1981">Comyn (1981)</a>, p.&#160;9.</span>
+</li>
+<li id="cite_note-FOOTNOTECobbett1810492-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTECobbett1810492_11-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFCobbett1810">Cobbett (1810)</a>, p.&#160;492.</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">England's Wars of Religion Revisited, p. 286, Glenn Burgess and Charles W A Prior, Ashgate, 2013</span>
+</li>
+<li id="cite_note-FOOTNOTEKenyon2000234-13"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEKenyon2000234_13-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEKenyon2000234_13-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-FOOTNOTEKenyon2000234_13-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-FOOTNOTEKenyon2000234_13-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFKenyon2000">Kenyon (2000)</a>, p.&#160;234.</span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.glastonburyshrine.co.uk/Shrine/Openingofthepresentchurch.php">"Opening of the present church - Glastonbury Shrine"</a>. <i>www.glastonburyshrine.co.uk</i><span class="reference-accessdate">. Retrieved <span class="nowrap">18 September</span> 2021</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.glastonburyshrine.co.uk&amp;rft.atitle=Opening+of+the+present+church+-+Glastonbury+Shrine&amp;rft_id=http%3A%2F%2Fwww.glastonburyshrine.co.uk%2FShrine%2FOpeningofthepresentchurch.php&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOliver+Plunkett" class="Z3988"></span></span>
+</li>
+</ol></div>
+<h2><span class="mw-headline" id="Works_cited">Works cited</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit&amp;section=10" title="Edit section: Works cited">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><i>Blessed Oliver Plunkett: Historical Studies</i>, Gill, Dublin, 1937.</li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFCobbett1810" class="citation cs2">Cobbett;  et&#160;al. (1810), <i>Cobbett's Complete Collection of State Trials, Volume 8</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Cobbett%27s+Complete+Collection+of+State+Trials%2C+Volume+8&amp;rft.date=1810&amp;rft.au=Cobbett&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOliver+Plunkett" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFComyn1981" class="citation book cs1"><a href="/wiki/James_Comyn" title="James Comyn">Comyn, Sir James</a> (1981). <i>Irish at Law</i>. London: Secker and Warburg.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Irish+at+Law&amp;rft.place=London&amp;rft.pub=Secker+and+Warburg&amp;rft.date=1981&amp;rft.aulast=Comyn&amp;rft.aufirst=Sir+James&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOliver+Plunkett" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFForristal1975" class="citation cs2">Forristal, Desmond (1975), <i>Oliver Plunkett in his own Words</i>, Veritas Publications, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1853905674" title="Special:BookSources/1853905674"><bdi>1853905674</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Oliver+Plunkett+in+his+own+Words&amp;rft.pub=Veritas+Publications&amp;rft.date=1975&amp;rft.isbn=1853905674&amp;rft.aulast=Forristal&amp;rft.aufirst=Desmond&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOliver+Plunkett" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFGlinert2009" class="citation cs2">Glinert, Ed (2009), <span class="cs1-lock-registration" title="Free registration required"><a rel="nofollow" class="external text" href="https://archive.org/details/martyrsmystics0000glin"><i>Martyrs &amp; Mystics</i></a></span>, Collins, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-00-728642-3" title="Special:BookSources/978-0-00-728642-3"><bdi>978-0-00-728642-3</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Martyrs+%26+Mystics&amp;rft.pub=Collins&amp;rft.date=2009&amp;rft.isbn=978-0-00-728642-3&amp;rft.aulast=Glinert&amp;rft.aufirst=Ed&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fmartyrsmystics0000glin&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOliver+Plunkett" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHanly1979" class="citation cs2">Hanly, John, ed. (1979), <i>The Letters of Saint Oliver Plunkett</i>, Dolmen Press</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Letters+of+Saint+Oliver+Plunkett&amp;rft.pub=Dolmen+Press&amp;rft.date=1979&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOliver+Plunkett" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFKenyon2000" class="citation book cs1">Kenyon, J.P. (2000). <i>The Popish Plot</i>. Phoenix Press Reissue.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Popish+Plot&amp;rft.pub=Phoenix+Press+Reissue&amp;rft.date=2000&amp;rft.aulast=Kenyon&amp;rft.aufirst=J.P.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOliver+Plunkett" class="Z3988"></span></li></ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Oliver_Plunkett&amp;action=edit&amp;section=11" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:Oliver_Plunket" class="extiw" title="commons:Category:Oliver Plunket">Oliver Plunket</a></span>.</div></div>
+</div>
+<ul><li><a rel="nofollow" class="external text" href="https://books.google.com/books?id=bgcKAAAAIAAJ&amp;pg=PT237#v=onepage&amp;f=false">Cobbett's Complete Collection of State Trials</a> digitised by Google Books</li>
+<li><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/12169b.htm">Biography of St Oliver Plunket</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.saintoliverplunkett.com">St Oliver Plunkett webpage</a> maintained by Drogheda Borough Council &amp; St. Peter's Church</li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHerbermann1913" class="citation encyclopaedia cs1">Herbermann, Charles, ed. (1913). <span class="cs1-ws-icon" title="s:Catholic Encyclopedia (1913)/Ven. Oliver Plunket"><a class="external text" href="https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)/Ven._Oliver_Plunket">"Ven. Oliver Plunket"&#160;</a></span>. <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i>. New York: Robert Appleton Company.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Ven.+Oliver+Plunket&amp;rft.btitle=Catholic+Encyclopedia&amp;rft.place=New+York&amp;rft.pub=Robert+Appleton+Company&amp;rft.date=1913&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOliver+Plunkett" class="Z3988"></span></li></ul>
+<p><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png" decoding="async" width="12" height="13" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/18px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/24px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430" />&#160;This article incorporates text from a publication now in the <a href="/wiki/Public_domain" title="Public domain">public domain</a>:&#160;<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHerbermann1913" class="citation encyclopaedia cs1">Herbermann, Charles, ed. (1913). "<a href="https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)/Ven._Oliver_Plunket" class="extiw" title="s:Catholic Encyclopedia (1913)/Ven. Oliver Plunket">Ven. Oliver Plunket</a>". <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i>. New York: Robert Appleton Company.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Ven.+Oliver+Plunket&amp;rft.btitle=Catholic+Encyclopedia&amp;rft.place=New+York&amp;rft.pub=Robert+Appleton+Company&amp;rft.date=1913&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOliver+Plunkett" class="Z3988"></span>
+</p>
+<table class="wikitable succession-box noprint" style="margin:0.5em auto; font-size:95%;clear:both;">
+
+<tbody><tr>
+<th colspan="3" style="border-top: 5px solid #FABE60;"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church titles</a>
+</th></tr>
+<tr style="text-align:center;">
+<td style="width:30%;" rowspan="1">Preceded&#160;by<div style="font-weight: bold"><a href="/wiki/Edmund_O%27Reilly_(bishop)" title="Edmund O&#39;Reilly (bishop)">Edmund O'Reilly</a></div>
+</td>
+<td style="width: 40%; text-align: center;" rowspan="1"><b> <a href="/wiki/Archbishop_of_Armagh" title="Archbishop of Armagh">Archbishop of Armagh</a> </b><br />1669 &#8211; 1681
+</td>
+<td style="width: 30%; text-align: center;" rowspan="1">Succeeded&#160;by<div style="font-weight: bold"><a href="/wiki/Dominic_Maguire" title="Dominic Maguire">Dominic Maguire</a></div>
+</td></tr>
+
+</tbody></table>
+<style data-mw-deduplicate="TemplateStyles:r1130092004">.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;justify-content:center;align-items:baseline}.mw-parser-output .portal-bar-bordered{padding:0 2em;background-color:#fdfdfd;border:1px solid #a2a9b1;clear:both;margin:1em auto 0}.mw-parser-output .portal-bar-related{font-size:100%;justify-content:flex-start}.mw-parser-output .portal-bar-unbordered{padding:0 1.7em;margin-left:0}.mw-parser-output .portal-bar-header{margin:0 1em 0 0.5em;flex:0 0 auto;min-height:24px}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;flex:0 1 auto;padding:0.15em 0;column-gap:1em;align-items:baseline;margin:0;list-style:none}.mw-parser-output .portal-bar-content-related{margin:0;list-style:none}.mw-parser-output .portal-bar-item{display:inline-block;margin:0.15em 0.2em;min-height:24px;line-height:24px}@media screen and (max-width:768px){.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;flex-flow:column wrap;align-items:baseline}.mw-parser-output .portal-bar-header{text-align:center;flex:0;padding-left:0.5em;margin:0 auto}.mw-parser-output .portal-bar-related{font-size:100%;align-items:flex-start}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;align-items:center;flex:0;column-gap:1em;border-top:1px solid #a2a9b1;margin:0 auto;list-style:none}.mw-parser-output .portal-bar-content-related{border-top:none;margin:0;list-style:none}}.mw-parser-output .navbox+link+.portal-bar,.mw-parser-output .navbox+style+.portal-bar,.mw-parser-output .navbox+link+.portal-bar-bordered,.mw-parser-output .navbox+style+.portal-bar-bordered,.mw-parser-output .sister-bar+link+.portal-bar,.mw-parser-output .sister-bar+style+.portal-bar,.mw-parser-output .portal-bar+.navbox-styles+.navbox,.mw-parser-output .portal-bar+.navbox-styles+.sister-bar{margin-top:-1px}</style><div class="portal-bar noprint metadata noviewer portal-bar-bordered" role="navigation" aria-label="Portals"><span class="portal-bar-header"><a href="/wiki/Wikipedia:Contents/Portals" title="Wikipedia:Contents/Portals">Portals</a>:</span><ul class="portal-bar-content"><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/21px-Gloriole_blur.svg.png" decoding="async" width="21" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/32px-Gloriole_blur.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/42px-Gloriole_blur.svg.png 2x" data-file-width="32" data-file-height="28" />&#160;<a href="/wiki/Portal:Saints" title="Portal:Saints">Saints</a></li><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/19px-P_vip.svg.png" decoding="async" width="19" height="19" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/28px-P_vip.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/37px-P_vip.svg.png 2x" data-file-width="1911" data-file-height="1944" />&#160;<a href="/wiki/Portal:Biography" title="Portal:Biography">Biography</a></li><li class="portal-bar-item"><a href="/wiki/File:046CupolaSPietro.jpg" class="image"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/21px-046CupolaSPietro.jpg" decoding="async" width="21" height="16" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/32px-046CupolaSPietro.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/42px-046CupolaSPietro.jpg 2x" data-file-width="800" data-file-height="600" /></a>&#160;<a href="/wiki/Portal:Catholicism" class="mw-redirect" title="Portal:Catholicism">Catholicism</a></li><li class="portal-bar-item"><img alt="flag" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Four_Provinces_Flag.svg/21px-Four_Provinces_Flag.svg.png" decoding="async" width="21" height="11" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Four_Provinces_Flag.svg/32px-Four_Provinces_Flag.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/65/Four_Provinces_Flag.svg/42px-Four_Provinces_Flag.svg.png 2x" data-file-width="1320" data-file-height="680" />&#160;<a href="/wiki/Portal:Ireland" title="Portal:Ireland">Ireland</a></li></ul></div>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q706874#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q706874#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q706874#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000080131297">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/120783754">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n82268500/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/118595229">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007433042105171">Israel</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n82268500">United States</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://doi.org/10.3318/dib.007392.v1">Ireland</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118595229.html?language=en">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/125617/">FAST</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://snaccooperative.org/ark:/99166/w6xw8t95">Social Networks and Archival Context</a></span></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/118752383">1</a></span></li></ul></li>
+<li><a href="/wiki/Trove_(identifier)" class="mw-redirect" title="Trove (identifier)">Trove (Australia)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://trove.nla.gov.au/people/1234318">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2383
+Cached time: 20230207122508
+Cache expiry: 86400
+Reduced expiry: true
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.615 seconds
+Real time usage: 0.801 seconds
+Preprocessor visited node count: 3479/1000000
+Post‐expand include size: 44773/2097152 bytes
+Template argument size: 4255/2097152 bytes
+Highest expansion depth: 18/100
+Expensive parser function count: 20/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 33924/5000000 bytes
+Lua time usage: 0.417/10.000 seconds
+Lua memory usage: 15423055/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  707.796      1 -total
+ 15.30%  108.262      1 Template:Reflist
+ 12.64%   89.469      1 Template:Infobox_saint
+ 12.57%   89.003      1 Template:Lang-ga
+ 12.44%   88.041      1 Template:Cite_web
+ 11.97%   84.742      1 Template:Infobox
+ 11.32%   80.154      1 Template:Authority_control
+  9.85%   69.714     18 Template:Sfnp
+  7.62%   53.911      4 Template:Br_separated_entries
+  7.18%   50.826      1 Template:Short_description
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1338706-0!canonical and timestamp 20230207122507 and revision id 1134276716. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Oliver_Plunkett&amp;oldid=1134276716">https://en.wikipedia.org/w/index.php?title=Oliver_Plunkett&amp;oldid=1134276716</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1625_births" title="Category:1625 births">1625 births</a></li><li><a href="/wiki/Category:1681_deaths" title="Category:1681 deaths">1681 deaths</a></li><li><a href="/wiki/Category:17th-century_Irish-language_poets" title="Category:17th-century Irish-language poets">17th-century Irish-language poets</a></li><li><a href="/wiki/Category:17th-century_Roman_Catholic_archbishops_in_Ireland" title="Category:17th-century Roman Catholic archbishops in Ireland">17th-century Roman Catholic archbishops in Ireland</a></li><li><a href="/wiki/Category:17th-century_Roman_Catholic_martyrs" title="Category:17th-century Roman Catholic martyrs">17th-century Roman Catholic martyrs</a></li><li><a href="/wiki/Category:24_Irish_Catholic_Martyrs" title="Category:24 Irish Catholic Martyrs">24 Irish Catholic Martyrs</a></li><li><a href="/wiki/Category:Beatifications_by_Pope_Benedict_XV" title="Category:Beatifications by Pope Benedict XV">Beatifications by Pope Benedict XV</a></li><li><a href="/wiki/Category:Canonizations_by_Pope_Paul_VI" title="Category:Canonizations by Pope Paul VI">Canonizations by Pope Paul VI</a></li><li><a href="/wiki/Category:Catholic_martyrs_of_England_and_Wales" title="Category:Catholic martyrs of England and Wales">Catholic martyrs of England and Wales</a></li><li><a href="/wiki/Category:Executed_Irish_people" title="Category:Executed Irish people">Executed Irish people</a></li><li><a href="/wiki/Category:Irish_Roman_Catholic_saints" title="Category:Irish Roman Catholic saints">Irish Roman Catholic saints</a></li><li><a href="/wiki/Category:Martyred_Roman_Catholic_bishops" title="Category:Martyred Roman Catholic bishops">Martyred Roman Catholic bishops</a></li><li><a href="/wiki/Category:People_associated_with_the_Popish_Plot" title="Category:People associated with the Popish Plot">People associated with the Popish Plot</a></li><li><a href="/wiki/Category:People_executed_at_Tyburn" title="Category:People executed at Tyburn">People executed at Tyburn</a></li><li><a href="/wiki/Category:People_executed_by_Stuart_England_by_hanging,_drawing_and_quartering" title="Category:People executed by Stuart England by hanging, drawing and quartering">People executed by Stuart England by hanging, drawing and quartering</a></li><li><a href="/wiki/Category:People_executed_under_the_Stuarts_for_treason_against_England" title="Category:People executed under the Stuarts for treason against England">People executed under the Stuarts for treason against England</a></li><li><a href="/wiki/Category:People_from_County_Meath" title="Category:People from County Meath">People from County Meath</a></li><li><a href="/wiki/Category:People_from_Drogheda" title="Category:People from Drogheda">People from Drogheda</a></li><li><a href="/wiki/Category:Poet_priests" title="Category:Poet priests">Poet priests</a></li><li><a href="/wiki/Category:Roman_Catholic_archbishops_of_Armagh" title="Category:Roman Catholic archbishops of Armagh">Roman Catholic archbishops of Armagh</a></li><li><a href="/wiki/Category:Victims_of_the_Popish_Plot" title="Category:Victims of the Popish Plot">Victims of the Popish Plot</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_September_2020" title="Category:Use dmy dates from September 2020">Use dmy dates from September 2020</a></li><li><a href="/wiki/Category:Articles_containing_Irish-language_text" title="Category:Articles containing Irish-language text">Articles containing Irish-language text</a></li><li><a href="/wiki/Category:Articles_using_small_message_boxes" title="Category:Articles using small message boxes">Articles using small message boxes</a></li><li><a href="/wiki/Category:Incomplete_lists_from_February_2014" title="Category:Incomplete lists from February 2014">Incomplete lists from February 2014</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_incorporating_a_citation_from_the_1913_Catholic_Encyclopedia_with_Wikisource_reference" title="Category:Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference">Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference</a></li><li><a href="/wiki/Category:Articles_incorporating_text_from_the_1913_Catholic_Encyclopedia_with_Wikisource_reference" title="Category:Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference">Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference</a></li><li><a href="/wiki/Category:Pages_using_S-rel_template_with_ca_parameter" title="Category:Pages using S-rel template with ca parameter">Pages using S-rel template with ca parameter</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_DIB_identifiers" title="Category:Articles with DIB identifiers">Articles with DIB identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_SNAC-ID_identifiers" title="Category:Articles with SNAC-ID identifiers">Articles with SNAC-ID identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li><li><a href="/wiki/Category:Articles_with_Trove_identifiers" title="Category:Articles with Trove identifiers">Articles with Trove identifiers</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 17 January 2023, at 21:42<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Oliver_Plunkett&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.615","walltime":"0.801","ppvisitednodes":{"value":3479,"limit":1000000},"postexpandincludesize":{"value":44773,"limit":2097152},"templateargumentsize":{"value":4255,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":20,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":33924,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  707.796      1 -total"," 15.30%  108.262      1 Template:Reflist"," 12.64%   89.469      1 Template:Infobox_saint"," 12.57%   89.003      1 Template:Lang-ga"," 12.44%   88.041      1 Template:Cite_web"," 11.97%   84.742      1 Template:Infobox"," 11.32%   80.154      1 Template:Authority_control","  9.85%   69.714     18 Template:Sfnp","  7.62%   53.911      4 Template:Br_separated_entries","  7.18%   50.826      1 Template:Short_description"]},"scribunto":{"limitreport-timeusage":{"value":"0.417","limit":"10.000"},"limitreport-memusage":{"value":15423055,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n    [\"CITEREFCobbett1810\"] = 1,\n    [\"CITEREFComyn1981\"] = 1,\n    [\"CITEREFForristal1975\"] = 1,\n    [\"CITEREFGlinert2009\"] = 1,\n    [\"CITEREFHanly1979\"] = 1,\n    [\"CITEREFHerbermann1913\"] = 2,\n    [\"CITEREFKenyon2000\"] = 1,\n}\ntemplate_list = table#1 {\n    [\"About\"] = 1,\n    [\"Authority control\"] = 1,\n    [\"Birth date\"] = 1,\n    [\"CathEncy\"] = 1,\n    [\"Catholic\"] = 1,\n    [\"Citation\"] = 4,\n    [\"Cite book\"] = 2,\n    [\"Cite web\"] = 1,\n    [\"Commons category\"] = 1,\n    [\"DEFAULTSORT:Plunkett, Oliver\"] = 1,\n    [\"Death date and age\"] = 1,\n    [\"End\"] = 1,\n    [\"Incomplete list\"] = 1,\n    [\"Infobox saint\"] = 1,\n    [\"Lang-ga\"] = 1,\n    [\"Main\"] = 1,\n    [\"Reflist\"] = 1,\n    [\"S-aft\"] = 1,\n    [\"S-bef\"] = 1,\n    [\"S-rel\"] = 1,\n    [\"S-start\"] = 1,\n    [\"S-ttl\"] = 1,\n    [\"Sfnp\"] = 18,\n    [\"Short description\"] = 1,\n    [\"Subject bar\"] = 1,\n    [\"Use dmy dates\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw2383","timestamp":"20230207122508","ttl":86400,"transientcontent":true}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Oliver Plunkett","url":"https:\/\/en.wikipedia.org\/wiki\/Oliver_Plunkett","sameAs":"http:\/\/www.wikidata.org\/entity\/Q706874","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q706874","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-12-29T00:44:53Z","dateModified":"2023-01-17T21:42:47Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/d0\/Oliver_Plunket_by_Edward_Luttrell.jpg","headline":"Irish archbishop, martyr and saint; (1629-1681)"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Oliver Plunkett","url":"https:\/\/en.wikipedia.org\/wiki\/Oliver_Plunkett","sameAs":"http:\/\/www.wikidata.org\/entity\/Q706874","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q706874","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-12-29T00:44:53Z","dateModified":"2023-01-17T21:42:47Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/d0\/Oliver_Plunket_by_Edward_Luttrell.jpg","headline":"Irish archbishop, martyr and saint; (1629-1681)"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":121,"wgHostname":"mw2276"});});</script>
+</body>
+</html>

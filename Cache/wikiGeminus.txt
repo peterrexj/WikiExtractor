@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Geminus - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"5f2b758d-29f7-4d4f-8437-12b03d4cbdb7",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Geminus","wgTitle":"Geminus","wgCurRevisionId":1136172771,"wgRevisionId":1136172771,"wgArticleId":1591774,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages with missing ISBNs","Articles with short description","Short description matches Wikidata","Articles with hCards","Pages using infobox scientist with unknown parameters","Articles containing Greek-language text","All articles with unsourced statements","Articles with unsourced statements from December 2021","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BIBSYS identifiers","Articles with BNE identifiers","Articles with BNF identifiers","Articles with CANTICN identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers",
+"Articles with NLA identifiers","Articles with NLG identifiers","Articles with NTA identifiers","Articles with PLWABN identifiers","Articles with SELIBR identifiers","Articles with VcBA identifiers","Articles with DTBIO identifiers","Articles with CINII identifiers","Articles with ZBMATH identifiers","Articles with FAST identifiers","Articles with RERO identifiers","Articles with SUDOC identifiers","Articles with Trove identifiers","Ancient Greek astronomers","Ancient Greek mathematicians","Ancient Rhodian scientists","Roman-era Rhodians","Stoic philosophers","1st-century BC Rhodians","1st-century BC writers","1st-century BC mathematicians","1st-century BC astronomers"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Geminus","wgRelevantArticleId":1591774,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{
+"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":6000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q379987","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading",
+"ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface",
+"ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Geminus - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Geminus"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Geminus&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Geminus"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Geminus rootpage-Geminus skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Geminus" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Geminus"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Geminus"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Geminus" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Geminus" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Geminus&amp;oldid=1136172771" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Geminus&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Geminus&amp;id=1136172771&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q379987" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Geminus&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Geminus&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-wikisource mw-list-item"><a href="https://en.wikisource.org/wiki/Author:Geminus_of_Rhodes" hreflang="en"><span>Wikisource</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Life"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Life">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Life</div>
+		</a>
+		
+		<ul id="toc-Life-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Astronomy"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Astronomy">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Astronomy</div>
+		</a>
+		
+		<ul id="toc-Astronomy-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Mathematics"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Mathematics">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Mathematics</div>
+		</a>
+		
+		<ul id="toc-Mathematics-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Notes"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Notes">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Notes</div>
+		</a>
+		
+		<ul id="toc-Notes-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Bibliography"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Bibliography">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>Bibliography</div>
+		</a>
+		
+		<ul id="toc-Bibliography-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Geminus</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 22 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-22"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">22 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%AC%D9%8A%D9%85%D9%8A%D9%86%D9%88%D8%B3" title="جيمينوس – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Gem%C3%AD_de_Rodes" title="Gemí de Rodes – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Geminos_von_Rhodos" title="Geminos von Rhodos – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%93%CE%AD%CE%BC%CE%B9%CE%BD%CE%BF%CF%82_%CE%BF_%CE%A1%CF%8C%CE%B4%CE%B9%CE%BF%CF%82" title="Γέμινος ο Ρόδιος – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/G%C3%A9mino_de_Rodas" title="Gémino de Rodas – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-ext mw-list-item"><a href="https://ext.wikipedia.org/wiki/G%C3%A9minu" title="Géminu – Extremaduran" lang="ext" hreflang="ext" class="interlanguage-link-target"><span>Estremeñu</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Geminos" title="Geminos – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/X%C3%A9mino_de_Rodas" title="Xémino de Rodas – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Gemino" title="Gemino – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a href="https://lb.wikipedia.org/wiki/Geminos_vu_Rhodos" title="Geminos vu Rhodos – Luxembourgish" lang="lb" hreflang="lb" class="interlanguage-link-target"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Geminus" title="Geminus – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%9F%E3%83%8E%E3%82%B9" title="ゲミノス – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Geminos_z_Rodos" title="Geminos z Rodos – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/G%C3%AAmino" title="Gêmino – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Geminus_din_Rhodos" title="Geminus din Rhodos – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BC%D0%B8%D0%BD_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA)" title="Гемин (математик) – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/Gemin" title="Gemin – Slovenian" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Gemin" title="Gemin – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Geminos" title="Geminos – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Geminos" title="Geminos – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Geminus" title="Geminus – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%93%D0%B5%D0%BC%D1%96%D0%BD_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA)" title="Гемін (математик) – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q379987#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Geminus" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Geminus" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Geminus"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Geminus&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Geminus&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Geminus"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Geminus&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Geminus&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Ancient Greek astronomer and mathematician</div>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox biography vcard"><tbody><tr><th colspan="2" class="infobox-above" style="font-size:125%;"><div class="fn" style="display:inline">Geminus</div></th></tr><tr><td colspan="2" class="infobox-subheader" style="font-size:125%; font-weight:bold;"><div class="nickname" lang="el">Γεμῖνος ὁ Ῥόδιος</div></td></tr><tr><th scope="row" class="infobox-label">Nationality</th><td class="infobox-data category">Greek</td></tr><tr><th scope="row" class="infobox-label">Known&#160;for</th><td class="infobox-data"><a href="/wiki/Astronomer" title="Astronomer">Astronomer</a> and mathematician</td></tr><tr><td colspan="2" class="infobox-full-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"/><b>Scientific career</b></td></tr><tr><th scope="row" class="infobox-label">Academic advisors</th><td class="infobox-data"><a href="/wiki/Posidonius" title="Posidonius">Posidonius</a></td></tr><tr style="display:none"><td colspan="2">
+</td></tr></tbody></table>
+<p><b>Geminus</b> of <a href="/wiki/Rhodes" title="Rhodes">Rhodes</a> (<a href="/wiki/Greek_language" title="Greek language">Greek</a>: <span lang="el">Γεμῖνος ὁ Ῥόδιος</span>), was a <a href="/wiki/Ancient_Greece" title="Ancient Greece">Greek</a> <a href="/wiki/Astronomer" title="Astronomer">astronomer</a> and <a href="/wiki/Mathematician" title="Mathematician">mathematician</a>, who flourished in the 1st century BC. An <a href="/wiki/Astronomy" title="Astronomy">astronomy</a> work of his, the <i>Introduction to the Phenomena</i>, still survives; it was intended as an introductory astronomy book for students. He also wrote a work on <a href="/wiki/Mathematics" title="Mathematics">mathematics</a>, of which only fragments quoted by later authors survive.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Life">Life</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Geminus&amp;action=edit&amp;section=1" title="Edit section: Life">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Nothing is known about the life of Geminus. It is not even certain that he was born in Rhodes, but references to mountains on Rhodes in his astronomical works suggests that he worked there. His dates are not known with any certainty either. A passage in his works referring to the <i>Annus Vagus</i> (Wandering Year) of the <a href="/wiki/Egyptian_calendar" title="Egyptian calendar">Egyptian calendar</a> of 120 years before his own time, has been used to imply a date of c. 70 BC for the time of writing,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> which would be consistent with the idea that he may have been a pupil of <a href="/wiki/Posidonius" title="Posidonius">Posidonius</a>, but a date as late as 50 AD has also been suggested.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup>
+</p><p>The crater <a href="/wiki/Geminus_(crater)" title="Geminus (crater)">Geminus</a> on the <a href="/wiki/Moon" title="Moon">Moon</a> is named after him.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (December 2021)">citation needed</span></a></i>&#93;</sup>
+</p>
+<h2><span class="mw-headline" id="Astronomy">Astronomy</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Geminus&amp;action=edit&amp;section=2" title="Edit section: Astronomy">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The only work of Geminus to survive is his <i>Introduction to the Phenomena</i> (<a href="/wiki/Greek_language" title="Greek language">Greek</a>: <span lang="el">Εἰσαγωγὴ εἰς τὰ Φαινόμενα</span>), often just called the <i>Isagoge</i>.  This introductory astronomy book, based on the works of earlier astronomers such as <a href="/wiki/Hipparchus" title="Hipparchus">Hipparchus</a>, was intended to teach astronomy for beginning students in the subject. In it, Geminus describes the <a href="/wiki/Zodiac" title="Zodiac">zodiac</a> and the motion of the <a href="/wiki/Sun" title="Sun">Sun</a>, the <a href="/wiki/Constellation" title="Constellation">constellations</a>, the <a href="/wiki/Celestial_sphere" title="Celestial sphere">celestial sphere</a>, days and nights, the risings and settings of the zodiacal signs, luni-solar periods and their application to <a href="/wiki/Calendars" class="mw-redirect" title="Calendars">calendars</a>, <a href="/wiki/Phases_of_the_Moon" class="mw-redirect" title="Phases of the Moon">phases of the Moon</a>, <a href="/wiki/Eclipses" class="mw-redirect" title="Eclipses">eclipses</a>, star phases, terrestrial zones and geographical places, and the foolishness of making weather predictions by the stars.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+</p><p>He also wrote a commentary on Posidonius' work <i>On Meteorology</i>. Fragments of this commentary are preserved by <a href="/wiki/Simplicius_of_Cilicia" title="Simplicius of Cilicia">Simplicius</a> in his commentary on <a href="/wiki/Aristotle" title="Aristotle">Aristotle's</a> <i>Physics</i>.
+</p>
+<h2><span class="mw-headline" id="Mathematics">Mathematics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Geminus&amp;action=edit&amp;section=3" title="Edit section: Mathematics">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Geminus also wrote extensively on <a href="/wiki/Mathematics" title="Mathematics">mathematics</a>, including a comprehensive <i>Doctrine, (or Theory) of Mathematics.</i><sup id="cite_ref-heath1_4-0" class="reference"><a href="#cite_note-heath1-4">&#91;4&#93;</a></sup> Although this work has not survived, many extracts are preserved by <a href="/wiki/Proclus" title="Proclus">Proclus</a>, <a href="/wiki/Eutocius" class="mw-redirect" title="Eutocius">Eutocius</a>, and others. He divided mathematics into two parts: <i>Mental</i> (<a href="/wiki/Greek_language" title="Greek language">Greek</a>: <span lang="el">νοητά</span>) and <i>Observable</i> (<a href="/wiki/Greek_language" title="Greek language">Greek</a>: <span lang="el">αἰσθητά</span>), or in other words, <a href="/wiki/Pure_mathematics" title="Pure mathematics">Pure</a> and <a href="/wiki/Applied_mathematics" title="Applied mathematics">Applied</a>. In the first category he placed <a href="/wiki/Geometry" title="Geometry">geometry</a> and <a href="/wiki/Arithmetic" title="Arithmetic">arithmetic</a> (including <a href="/wiki/Number_theory" title="Number theory">number theory</a>), and in the second category he placed <a href="/wiki/Mechanics" title="Mechanics">mechanics</a>, <a href="/wiki/Astronomy" title="Astronomy">astronomy</a>, <a href="/wiki/Optics" title="Optics">optics</a>, <a href="/wiki/Geodesy" title="Geodesy">geodesy</a>, canonics (<a href="/wiki/Harmony" title="Harmony">musical harmony</a>), and <a href="/wiki/Logistics" title="Logistics">logistics</a>. Long extracts of his work are also preserved by <a href="/wiki/Al-Nayrizi" title="Al-Nayrizi">Al-Nayrizi</a> in his commentary on <a href="/wiki/Euclid%27s_Elements" title="Euclid&#39;s Elements">Euclid's <i>Elements</i></a>.
+</p>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Geminus&amp;action=edit&amp;section=4" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Dicks, D., <i>Dictionary of Scientific Biography.</i> New York. (1970).<sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources"><span title="Please supply an &#73;SBN for this book.">ISBN&#160;missing</span></a></i>&#93;</sup></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Neugebauer, O., <i>A History of Ancient Mathematical Astronomy.</i> New York. (1975).<sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources"><span title="Please supply an &#73;SBN for this book.">ISBN&#160;missing</span></a></i>&#93;</sup></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Evans, J., <i>The History and Practice of Ancient Astronomy</i>, p. 91. Oxford University Press. (1998).<sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources"><span title="Please supply an &#73;SBN for this book.">ISBN&#160;missing</span></a></i>&#93;</sup></span>
+</li>
+<li id="cite_note-heath1-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-heath1_4-0">^</a></b></span> <span class="reference-text">Heath, T., A Manual of Greek Mathematics, Dover Publications. (2003).</span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="Bibliography">Bibliography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Geminus&amp;action=edit&amp;section=5" title="Edit section: Bibliography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Evans, J., Berggren, J.L., <a rel="nofollow" class="external text" href="http://press.princeton.edu/titles/8330.html"><i>Geminos's Introduction to the Phenomena: A Translation and Study of a Hellenistic Survey of Astronomy.</i></a> (Princeton University Press, 2006.)</li></ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Geminus&amp;action=edit&amp;section=6" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="https://www.astrologicon.org/geminus-rhodius/geminus-introduction-to-phaenomena.html">Εἰσαγωγή εἰς τὰ Φαινόμενα (Introduction to Phaenomena), original text online</a></li>
+<li><a rel="nofollow" class="external text" href="https://archive.today/20020623142024/http://www.tmth.edu.gr/en/aet/2/49.html">Technology Museum of Thessaloniki Entry</a></li>
+<li><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite class="citation cs2"><a href="/wiki/John_J._O%27Connor_(mathematician)" class="mw-redirect" title="John J. O&#39;Connor (mathematician)">O'Connor, John J.</a>; <a href="/wiki/Edmund_F._Robertson" title="Edmund F. Robertson">Robertson, Edmund F.</a>, <a rel="nofollow" class="external text" href="https://mathshistory.st-andrews.ac.uk/Biographies/Geminus.html">"Geminus"</a>, <i><a href="/wiki/MacTutor_History_of_Mathematics_archive" title="MacTutor History of Mathematics archive">MacTutor History of Mathematics archive</a></i>, <a href="/wiki/University_of_St_Andrews" title="University of St Andrews">University of St Andrews</a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Geminus&amp;rft.btitle=MacTutor+History+of+Mathematics+archive&amp;rft.pub=University+of+St+Andrews&amp;rft.aulast=O%27Connor&amp;rft.aufirst=John+J.&amp;rft.au=Robertson%2C+Edmund+F.&amp;rft_id=https%3A%2F%2Fmathshistory.st-andrews.ac.uk%2FBiographies%2FGeminus.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGeminus" class="Z3988"></span></li>
+<li><a rel="nofollow" class="external text" href="http://www.wilbourhall.org">PDF scans of Manitius' edition of the Geminus'  <i>Elementa Astronomiae</i> ("Elements of Astronomy") – public domain</a> (Classical Greek with German translation)]</li></ul>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Ancient_Greek_astronomy" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Ancient_Greek_astronomy" title="Template:Ancient Greek astronomy"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Ancient_Greek_astronomy" title="Template talk:Ancient Greek astronomy"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Ancient_Greek_astronomy&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Ancient_Greek_astronomy" style="font-size:114%;margin:0 4em"><a href="/wiki/Ancient_Greek_astronomy" title="Ancient Greek astronomy">Ancient Greek astronomy</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">Astronomers</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Aglaonice" title="Aglaonice">Aglaonice</a></li>
+<li><a href="/wiki/Agrippa_(astronomer)" title="Agrippa (astronomer)">Agrippa</a></li>
+<li><a href="/wiki/Anaximander" title="Anaximander">Anaximander</a></li>
+<li><a href="/wiki/Andronicus_of_Cyrrhus" title="Andronicus of Cyrrhus">Andronicus</a></li>
+<li><a href="/wiki/Apollonius_of_Perga" title="Apollonius of Perga">Apollonius</a></li>
+<li><a href="/wiki/Aratus" title="Aratus">Aratus</a></li>
+<li><a href="/wiki/Aristarchus_of_Samos" title="Aristarchus of Samos">Aristarchus</a></li>
+<li><a href="/wiki/Aristyllus" title="Aristyllus">Aristyllus</a></li>
+<li><a href="/wiki/Attalus_of_Rhodes" title="Attalus of Rhodes">Attalus</a></li>
+<li><a href="/wiki/Autolycus_of_Pitane" title="Autolycus of Pitane">Autolycus</a></li>
+<li><a href="/wiki/Bion_of_Abdera" title="Bion of Abdera">Bion</a></li>
+<li><a href="/wiki/Callippus" title="Callippus">Callippus</a></li>
+<li><a href="/wiki/Cleomedes" title="Cleomedes">Cleomedes</a></li>
+<li><a href="/wiki/Cleostratus" title="Cleostratus">Cleostratus</a></li>
+<li><a href="/wiki/Conon_of_Samos" title="Conon of Samos">Conon</a></li>
+<li><a href="/wiki/Eratosthenes" title="Eratosthenes">Eratosthenes</a></li>
+<li><a href="/wiki/Euctemon" title="Euctemon">Euctemon</a></li>
+<li><a href="/wiki/Eudoxus_of_Cnidus" title="Eudoxus of Cnidus">Eudoxus</a></li>
+<li><a class="mw-selflink selflink">Geminus</a></li>
+<li><a href="/wiki/Heraclides_Ponticus" title="Heraclides Ponticus">Heraclides</a></li>
+<li><a href="/wiki/Hicetas" title="Hicetas">Hicetas</a></li>
+<li><a href="/wiki/Hipparchus" title="Hipparchus">Hipparchus</a></li>
+<li><a href="/wiki/Hippocrates_of_Chios" title="Hippocrates of Chios">Hippocrates of Chios</a></li>
+<li><a href="/wiki/Hypsicles" title="Hypsicles">Hypsicles</a></li>
+<li><a href="/wiki/Menelaus_of_Alexandria" title="Menelaus of Alexandria">Menelaus</a></li>
+<li><a href="/wiki/Meton_of_Athens" title="Meton of Athens">Meton</a></li>
+<li><a href="/wiki/Oenopides" title="Oenopides">Oenopides</a></li>
+<li><a href="/wiki/Philip_of_Opus" title="Philip of Opus">Philip of Opus</a></li>
+<li><a href="/wiki/Philolaus" title="Philolaus">Philolaus</a></li>
+<li><a href="/wiki/Posidonius" title="Posidonius">Posidonius</a></li>
+<li><a href="/wiki/Ptolemy" title="Ptolemy">Ptolemy</a></li>
+<li><a href="/wiki/Pytheas" title="Pytheas">Pytheas</a></li>
+<li><a href="/wiki/Seleucus_of_Seleucia" title="Seleucus of Seleucia">Seleucus</a></li>
+<li><a href="/wiki/Sosigenes_of_Alexandria" class="mw-redirect" title="Sosigenes of Alexandria">Sosigenes of Alexandria</a></li>
+<li><a href="/wiki/Sosigenes_the_Peripatetic" title="Sosigenes the Peripatetic">Sosigenes the Peripatetic</a></li>
+<li><a href="/wiki/Strabo" title="Strabo">Strabo</a></li>
+<li><a href="/wiki/Thales_of_Miletus" title="Thales of Miletus">Thales</a></li>
+<li><a href="/wiki/Theodosius_of_Bithynia" title="Theodosius of Bithynia">Theodosius</a></li>
+<li><a href="/wiki/Theon_of_Alexandria" title="Theon of Alexandria">Theon of Alexandria</a></li>
+<li><a href="/wiki/Theon_of_Smyrna" title="Theon of Smyrna">Theon of Smyrna</a></li>
+<li><a href="/wiki/Timocharis" title="Timocharis">Timocharis</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Works</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Almagest" title="Almagest"><i>Almagest</i> <span style="font-size:85%;">(Ptolemy)</span></a></li>
+<li><a href="/wiki/On_Sizes_and_Distances_(Hipparchus)" title="On Sizes and Distances (Hipparchus)"><i>On Sizes and Distances</i> <span style="font-size:85%;">(Hipparchus)</span></a></li>
+<li><a href="/wiki/On_the_Sizes_and_Distances_(Aristarchus)" title="On the Sizes and Distances (Aristarchus)"><i>On the Sizes and Distances</i> <span style="font-size:85%;">(Aristarchus)</span></a></li>
+<li><a href="/wiki/On_the_Heavens" title="On the Heavens"><i>On the Heavens</i> <span style="font-size:85%;">(Aristotle)</span></a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Instruments</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Antikythera_mechanism" title="Antikythera mechanism">Antikythera mechanism</a></li>
+<li><a href="/wiki/Armillary_sphere" title="Armillary sphere">Armillary sphere</a></li>
+<li><a href="/wiki/Astrolabe" title="Astrolabe">Astrolabe</a></li>
+<li><a href="/wiki/Dioptra" title="Dioptra">Dioptra</a></li>
+<li><a href="/wiki/Equatorial_ring" title="Equatorial ring">Equatorial ring</a></li>
+<li><a href="/wiki/Gnomon" title="Gnomon">Gnomon</a></li>
+<li><a href="/wiki/Mural_instrument" title="Mural instrument">Mural instrument</a></li>
+<li><a href="/wiki/Triquetrum_(astronomy)" title="Triquetrum (astronomy)">Triquetrum</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Concepts</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Callippic_cycle" title="Callippic cycle">Callippic cycle</a></li>
+<li><a href="/wiki/Celestial_spheres" title="Celestial spheres">Celestial spheres</a></li>
+<li><a href="/wiki/Circle_of_latitude" title="Circle of latitude">Circle of latitude</a></li>
+<li><a href="/wiki/Counter-Earth" title="Counter-Earth">Counter-Earth</a></li>
+<li><a href="/wiki/Deferent_and_epicycle" title="Deferent and epicycle">Deferent and epicycle</a></li>
+<li><a href="/wiki/Equant" title="Equant">Equant</a></li>
+<li><a href="/wiki/Geocentric_model" title="Geocentric model">Geocentrism</a></li>
+<li><a href="/wiki/Heliocentrism" title="Heliocentrism">Heliocentrism</a></li>
+<li><a href="/wiki/Hipparchic_cycle" title="Hipparchic cycle">Hipparchic cycle</a></li>
+<li><a href="/wiki/Metonic_cycle" title="Metonic cycle">Metonic cycle</a></li>
+<li><a href="/wiki/Octaeteris" title="Octaeteris">Octaeteris</a></li>
+<li><a href="/wiki/Solstice" title="Solstice">Solstice</a></li>
+<li><a href="/wiki/Spherical_Earth" title="Spherical Earth">Spherical Earth</a></li>
+<li><a href="/wiki/Sublunary_sphere" title="Sublunary sphere">Sublunary sphere</a></li>
+<li><a href="/wiki/Zodiac" title="Zodiac">Zodiac</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Influences</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Babylonian_astronomy" title="Babylonian astronomy">Babylonian astronomy</a></li>
+<li><a href="/wiki/Egyptian_astronomy" title="Egyptian astronomy">Egyptian astronomy</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Influenced</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/European_science_in_the_Middle_Ages" title="European science in the Middle Ages">Medieval European science</a></li>
+<li><a href="/wiki/Indian_astronomy" title="Indian astronomy">Indian astronomy</a></li>
+<li><a href="/wiki/Astronomy_in_the_medieval_Islamic_world" title="Astronomy in the medieval Islamic world">Medieval Islamic astronomy</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox" aria-labelledby="Ancient_Greek_and_Hellenistic_mathematics" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"/><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Ancient_Greek_mathematics" title="Template:Ancient Greek mathematics"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Ancient_Greek_mathematics" title="Template talk:Ancient Greek mathematics"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Ancient_Greek_mathematics&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Ancient_Greek_and_Hellenistic_mathematics" style="font-size:114%;margin:0 4em"><a href="/wiki/Greek_mathematics" title="Greek mathematics">Ancient Greek and Hellenistic mathematics</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/List_of_Greek_mathematicians" title="List of Greek mathematicians">Mathematicians</a><br /><a href="/wiki/Timeline_of_ancient_Greek_mathematicians" title="Timeline of ancient Greek mathematicians">(timeline)</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Anaxagoras" title="Anaxagoras">Anaxagoras</a></li>
+<li><a href="/wiki/Anthemius_of_Tralles" title="Anthemius of Tralles">Anthemius</a></li>
+<li><a href="/wiki/Archytas" title="Archytas">Archytas</a></li>
+<li><a href="/wiki/Aristaeus_the_Elder" title="Aristaeus the Elder">Aristaeus the Elder</a></li>
+<li><a href="/wiki/Aristarchus_of_Samos" title="Aristarchus of Samos">Aristarchus</a></li>
+<li><a href="/wiki/Apollonius_of_Perga" title="Apollonius of Perga">Apollonius</a></li>
+<li><a href="/wiki/Archimedes" title="Archimedes">Archimedes</a></li>
+<li><a href="/wiki/Autolycus_of_Pitane" title="Autolycus of Pitane">Autolycus</a></li>
+<li><a href="/wiki/Bion_of_Abdera" title="Bion of Abdera">Bion</a></li>
+<li><a href="/wiki/Bryson_of_Heraclea" title="Bryson of Heraclea">Bryson</a></li>
+<li><a href="/wiki/Callippus" title="Callippus">Callippus</a></li>
+<li><a href="/wiki/Carpus_of_Antioch" title="Carpus of Antioch">Carpus</a></li>
+<li><a href="/wiki/Chrysippus" title="Chrysippus">Chrysippus</a></li>
+<li><a href="/wiki/Cleomedes" title="Cleomedes">Cleomedes</a></li>
+<li><a href="/wiki/Conon_of_Samos" title="Conon of Samos">Conon</a></li>
+<li><a href="/wiki/Ctesibius" title="Ctesibius">Ctesibius</a></li>
+<li><a href="/wiki/Democritus" title="Democritus">Democritus</a></li>
+<li><a href="/wiki/Dicaearchus" title="Dicaearchus">Dicaearchus</a></li>
+<li><a href="/wiki/Diocles_(mathematician)" title="Diocles (mathematician)">Diocles</a></li>
+<li><a href="/wiki/Diophantus" title="Diophantus">Diophantus</a></li>
+<li><a href="/wiki/Dinostratus" title="Dinostratus">Dinostratus</a></li>
+<li><a href="/wiki/Dionysodorus" title="Dionysodorus">Dionysodorus</a></li>
+<li><a href="/wiki/Domninus_of_Larissa" title="Domninus of Larissa">Domninus</a></li>
+<li><a href="/wiki/Eratosthenes" title="Eratosthenes">Eratosthenes</a></li>
+<li><a href="/wiki/Eudemus_of_Rhodes" title="Eudemus of Rhodes">Eudemus</a></li>
+<li><a href="/wiki/Euclid" title="Euclid">Euclid</a></li>
+<li><a href="/wiki/Eudoxus_of_Cnidus" title="Eudoxus of Cnidus">Eudoxus</a></li>
+<li><a href="/wiki/Eutocius_of_Ascalon" title="Eutocius of Ascalon">Eutocius</a></li>
+<li><a class="mw-selflink selflink">Geminus</a></li>
+<li><a href="/wiki/Heliodorus_of_Larissa" title="Heliodorus of Larissa">Heliodorus</a></li>
+<li><a href="/wiki/Hero_of_Alexandria" title="Hero of Alexandria">Heron</a></li>
+<li><a href="/wiki/Hipparchus" title="Hipparchus">Hipparchus</a></li>
+<li><a href="/wiki/Hippasus" title="Hippasus">Hippasus</a></li>
+<li><a href="/wiki/Hippias" title="Hippias">Hippias</a></li>
+<li><a href="/wiki/Hippocrates_of_Chios" title="Hippocrates of Chios">Hippocrates</a></li>
+<li><a href="/wiki/Hypatia" title="Hypatia">Hypatia</a></li>
+<li><a href="/wiki/Hypsicles" title="Hypsicles">Hypsicles</a></li>
+<li><a href="/wiki/Isidore_of_Miletus" title="Isidore of Miletus">Isidore of Miletus</a></li>
+<li><a href="/wiki/Leon_(mathematician)" title="Leon (mathematician)">Leon</a></li>
+<li><a href="/wiki/Marinus_of_Neapolis" title="Marinus of Neapolis">Marinus</a></li>
+<li><a href="/wiki/Menaechmus" title="Menaechmus">Menaechmus</a></li>
+<li><a href="/wiki/Menelaus_of_Alexandria" title="Menelaus of Alexandria">Menelaus</a></li>
+<li><a href="/wiki/Metrodorus_(grammarian)" title="Metrodorus (grammarian)">Metrodorus</a></li>
+<li><a href="/wiki/Nicomachus" title="Nicomachus">Nicomachus</a></li>
+<li><a href="/wiki/Nicomedes_(mathematician)" title="Nicomedes (mathematician)">Nicomedes</a></li>
+<li><a href="/wiki/Nicoteles_of_Cyrene" title="Nicoteles of Cyrene">Nicoteles</a></li>
+<li><a href="/wiki/Oenopides" title="Oenopides">Oenopides</a></li>
+<li><a href="/wiki/Pappus_of_Alexandria" title="Pappus of Alexandria">Pappus</a></li>
+<li><a href="/wiki/Perseus_(geometer)" title="Perseus (geometer)">Perseus</a></li>
+<li><a href="/wiki/Philolaus" title="Philolaus">Philolaus</a></li>
+<li><a href="/wiki/Philon" title="Philon">Philon</a></li>
+<li><a href="/wiki/Philonides_of_Laodicea" title="Philonides of Laodicea">Philonides</a></li>
+<li><a href="/wiki/Porphyry_(philosopher)" title="Porphyry (philosopher)">Porphyry</a></li>
+<li><a href="/wiki/Posidonius" title="Posidonius">Posidonius</a></li>
+<li><a href="/wiki/Proclus" title="Proclus">Proclus</a></li>
+<li><a href="/wiki/Ptolemy" title="Ptolemy">Ptolemy</a></li>
+<li><a href="/wiki/Pythagoras" title="Pythagoras">Pythagoras</a></li>
+<li><a href="/wiki/Serenus_of_Antino%C3%B6polis" title="Serenus of Antinoöpolis">Serenus </a></li>
+<li><a href="/wiki/Simplicius_of_Cilicia" title="Simplicius of Cilicia">Simplicius</a></li>
+<li><a href="/wiki/Sosigenes_of_Alexandria" class="mw-redirect" title="Sosigenes of Alexandria">Sosigenes</a></li>
+<li><a href="/wiki/Sporus_of_Nicaea" title="Sporus of Nicaea">Sporus</a></li>
+<li><a href="/wiki/Thales_of_Miletus" title="Thales of Miletus">Thales</a></li>
+<li><a href="/wiki/Theaetetus_(mathematician)" title="Theaetetus (mathematician)">Theaetetus</a></li>
+<li><a href="/wiki/Theano_(philosopher)" title="Theano (philosopher)">Theano</a></li>
+<li><a href="/wiki/Theodorus_of_Cyrene" title="Theodorus of Cyrene">Theodorus</a></li>
+<li><a href="/wiki/Theodosius_of_Bithynia" title="Theodosius of Bithynia">Theodosius</a></li>
+<li><a href="/wiki/Theon_of_Alexandria" title="Theon of Alexandria">Theon of Alexandria</a></li>
+<li><a href="/wiki/Theon_of_Smyrna" title="Theon of Smyrna">Theon of Smyrna</a></li>
+<li><a href="/wiki/Thymaridas" title="Thymaridas">Thymaridas</a></li>
+<li><a href="/wiki/Xenocrates" title="Xenocrates">Xenocrates</a></li>
+<li><a href="/wiki/Zeno_of_Elea" title="Zeno of Elea">Zeno of Elea</a></li>
+<li><a href="/wiki/Zeno_of_Sidon" title="Zeno of Sidon">Zeno of Sidon</a></li>
+<li><a href="/wiki/Zenodorus_(mathematician)" title="Zenodorus (mathematician)">Zenodorus</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Treatises</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Almagest" title="Almagest">Almagest</a></i></li>
+<li><a href="/wiki/Archimedes_Palimpsest" title="Archimedes Palimpsest">Archimedes Palimpsest</a></li>
+<li><i><a href="/wiki/Arithmetica" title="Arithmetica">Arithmetica</a></i></li>
+<li><a href="/wiki/Apollonius_of_Perga#Conics" title="Apollonius of Perga"><i>Conics</i> <span style="font-size:85%;">(Apollonius)</span></a></li>
+<li><i><a href="/wiki/Catoptrics" title="Catoptrics">Catoptrics</a></i></li>
+<li><a href="/wiki/Data_(Euclid)" title="Data (Euclid)"><i>Data</i> <span style="font-size:85%;">(Euclid)</span></a></li>
+<li><a href="/wiki/Euclid%27s_Elements" title="Euclid&#39;s Elements"><i>Elements</i> <span style="font-size:85%;">(Euclid)</span></a></li>
+<li><i><a href="/wiki/Measurement_of_a_Circle" title="Measurement of a Circle">Measurement of a Circle</a></i></li>
+<li><i><a href="/wiki/On_Conoids_and_Spheroids" title="On Conoids and Spheroids">On Conoids and Spheroids</a></i></li>
+<li><a href="/wiki/On_the_Sizes_and_Distances_(Aristarchus)" title="On the Sizes and Distances (Aristarchus)"><i>On the Sizes and Distances</i> <span style="font-size:85%;">(Aristarchus)</span></a></li>
+<li><a href="/wiki/On_Sizes_and_Distances_(Hipparchus)" title="On Sizes and Distances (Hipparchus)"><i>On Sizes and Distances</i> <span style="font-size:85%;">(Hipparchus)</span></a></li>
+<li><a href="/wiki/Autolycus_of_Pitane" title="Autolycus of Pitane"><i>On the Moving Sphere</i> <span style="font-size:85%;">(Autolycus)</span></a></li>
+<li><a href="/wiki/Euclid%27s_Optics" title="Euclid&#39;s Optics"><i>Optics</i> <span style="font-size:85%;">(Euclid)</span></a></li>
+<li><i><a href="/wiki/On_Spirals" title="On Spirals">On Spirals</a></i></li>
+<li><i><a href="/wiki/On_the_Sphere_and_Cylinder" title="On the Sphere and Cylinder">On the Sphere and Cylinder</a></i></li>
+<li><i><a href="/wiki/Ostomachion" title="Ostomachion">Ostomachion</a></i></li>
+<li><i><a href="/wiki/Planisphaerium" title="Planisphaerium">Planisphaerium</a></i></li>
+<li><i><a href="/wiki/Sphaerics" title="Sphaerics">Sphaerics</a></i></li>
+<li><i><a href="/wiki/The_Quadrature_of_the_Parabola" class="mw-redirect" title="The Quadrature of the Parabola">The Quadrature of the Parabola</a></i></li>
+<li><i><a href="/wiki/The_Sand_Reckoner" title="The Sand Reckoner">The Sand Reckoner</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Problems</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Constructible_number" title="Constructible number">Constructible numbers</a>
+<ul><li><a href="/wiki/Angle_trisection" title="Angle trisection">Angle trisection</a></li>
+<li><a href="/wiki/Doubling_the_cube" title="Doubling the cube">Doubling the cube</a></li>
+<li><a href="/wiki/Squaring_the_circle" title="Squaring the circle">Squaring the circle</a></li></ul></li>
+<li><a href="/wiki/Problem_of_Apollonius" title="Problem of Apollonius">Problem of Apollonius</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Concepts<br />and definitions</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Angle" title="Angle">Angle</a>
+<ul><li><a href="/wiki/Central_angle" title="Central angle">Central</a></li>
+<li><a href="/wiki/Inscribed_angle" title="Inscribed angle">Inscribed</a></li></ul></li>
+<li><a href="/wiki/Axiomatic_system" title="Axiomatic system">Axiomatic system</a>
+<ul><li><a href="/wiki/Axiom" title="Axiom">Axiom</a></li></ul></li>
+<li><a href="/wiki/Chord_(geometry)" title="Chord (geometry)">Chord</a></li>
+<li><a href="/wiki/Circles_of_Apollonius" title="Circles of Apollonius">Circles of Apollonius</a>
+<ul><li><a href="/wiki/Apollonian_circles" title="Apollonian circles">Apollonian circles</a></li>
+<li><a href="/wiki/Apollonian_gasket" title="Apollonian gasket">Apollonian gasket</a></li></ul></li>
+<li><a href="/wiki/Circumscribed_circle" title="Circumscribed circle">Circumscribed circle</a></li>
+<li><a href="/wiki/Commensurability_(mathematics)" title="Commensurability (mathematics)">Commensurability</a></li>
+<li><a href="/wiki/Diophantine_equation" title="Diophantine equation">Diophantine equation</a></li>
+<li><a href="https://en.wikiquote.org/wiki/Doctrine_of_proportion_(mathematics)" class="extiw" title="wikiquote:Doctrine of proportion (mathematics)">Doctrine of proportionality</a></li>
+<li><a href="/wiki/Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a></li>
+<li><a href="/wiki/Golden_ratio" title="Golden ratio">Golden ratio</a></li>
+<li><a href="/wiki/Greek_numerals" title="Greek numerals">Greek numerals</a></li>
+<li><a href="/wiki/Incircle_and_excircles_of_a_triangle" title="Incircle and excircles of a triangle">Incircle and excircles of a triangle</a></li>
+<li><a href="/wiki/Method_of_exhaustion" title="Method of exhaustion">Method of exhaustion</a></li>
+<li><a href="/wiki/Parallel_postulate" title="Parallel postulate">Parallel postulate</a></li>
+<li><a href="/wiki/Platonic_solid" title="Platonic solid">Platonic solid</a></li>
+<li><a href="/wiki/Lune_of_Hippocrates" title="Lune of Hippocrates">Lune of Hippocrates</a></li>
+<li><a href="/wiki/Quadratrix_of_Hippias" title="Quadratrix of Hippias">Quadratrix of Hippias</a></li>
+<li><a href="/wiki/Regular_polygon" title="Regular polygon">Regular polygon</a></li>
+<li><a href="/wiki/Straightedge_and_compass_construction" title="Straightedge and compass construction">Straightedge and compass construction</a></li>
+<li><a href="/wiki/Triangle_center" title="Triangle center">Triangle center</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Results</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">In <a href="/wiki/Euclid%27s_elements" class="mw-redirect" title="Euclid&#39;s elements"><i>Elements</i></a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Angle_bisector_theorem" title="Angle bisector theorem">Angle bisector theorem</a></li>
+<li><a href="/wiki/Exterior_angle_theorem" title="Exterior angle theorem">Exterior angle theorem</a></li>
+<li><a href="/wiki/Euclidean_algorithm" title="Euclidean algorithm">Euclidean algorithm</a></li>
+<li><a href="/wiki/Euclid%27s_theorem" title="Euclid&#39;s theorem">Euclid's theorem</a></li>
+<li><a href="/wiki/Geometric_mean_theorem" title="Geometric mean theorem">Geometric mean theorem</a></li>
+<li><a href="/wiki/Greek_geometric_algebra" class="mw-redirect" title="Greek geometric algebra">Greek geometric algebra</a></li>
+<li><a href="/wiki/Hinge_theorem" title="Hinge theorem">Hinge theorem</a></li>
+<li><a href="/wiki/Inscribed_angle_theorem" class="mw-redirect" title="Inscribed angle theorem">Inscribed angle theorem</a></li>
+<li><a href="/wiki/Intercept_theorem" title="Intercept theorem">Intercept theorem</a></li>
+<li><a href="/wiki/Intersecting_chords_theorem" title="Intersecting chords theorem">Intersecting chords theorem</a></li>
+<li><a href="/wiki/Intersecting_secants_theorem" title="Intersecting secants theorem">Intersecting secants theorem</a></li>
+<li><a href="/wiki/Law_of_cosines" title="Law of cosines">Law of cosines</a></li>
+<li><a href="/wiki/Pons_asinorum" title="Pons asinorum">Pons asinorum</a></li>
+<li><a href="/wiki/Pythagorean_theorem" title="Pythagorean theorem">Pythagorean theorem</a></li>
+<li><a href="/wiki/Tangent-secant_theorem" class="mw-redirect" title="Tangent-secant theorem">Tangent-secant theorem</a></li>
+<li><a href="/wiki/Thales%27s_theorem" title="Thales&#39;s theorem">Thales's theorem</a></li>
+<li><a href="/wiki/Theorem_of_the_gnomon" title="Theorem of the gnomon">Theorem of the gnomon</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Apollonius_of_Tyana" title="Apollonius of Tyana">Apollonius</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Apollonius%27s_theorem" title="Apollonius&#39;s theorem">Apollonius's theorem</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Aristarchus%27s_inequality" title="Aristarchus&#39;s inequality">Aristarchus's inequality</a></li>
+<li><a href="/wiki/Crossbar_theorem" title="Crossbar theorem">Crossbar theorem</a></li>
+<li><a href="/wiki/Heron%27s_formula" title="Heron&#39;s formula">Heron's formula</a></li>
+<li><a href="/wiki/Irrational_number" title="Irrational number">Irrational numbers</a></li>
+<li><a href="/wiki/Law_of_sines" title="Law of sines">Law of sines</a></li>
+<li><a href="/wiki/Menelaus%27s_theorem" title="Menelaus&#39;s theorem">Menelaus's theorem</a></li>
+<li><a href="/wiki/Pappus%27s_area_theorem" title="Pappus&#39;s area theorem">Pappus's area theorem</a></li>
+<li><a href="/wiki/Diophantus_II.VIII" title="Diophantus II.VIII">Problem II.8 of <i>Arithmetica</i></a></li>
+<li><a href="/wiki/Ptolemy%27s_inequality" title="Ptolemy&#39;s inequality">Ptolemy's inequality</a></li>
+<li><a href="/wiki/Ptolemy%27s_table_of_chords" title="Ptolemy&#39;s table of chords">Ptolemy's table of chords</a></li>
+<li><a href="/wiki/Ptolemy%27s_theorem" title="Ptolemy&#39;s theorem">Ptolemy's theorem</a></li>
+<li><a href="/wiki/Spiral_of_Theodorus" title="Spiral of Theodorus">Spiral of Theodorus</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Centers</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Cyrene,_Libya" title="Cyrene, Libya">Cyrene</a></li>
+<li><a href="/wiki/Musaeum" title="Musaeum">Mouseion of Alexandria</a></li>
+<li><a href="/wiki/Platonic_Academy" title="Platonic Academy">Platonic Academy</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Related</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Ancient_Greek_astronomy" title="Ancient Greek astronomy">Ancient Greek astronomy</a></li>
+<li><a href="/wiki/Attic_numerals" title="Attic numerals">Attic numerals</a></li>
+<li><a href="/wiki/Greek_numerals" title="Greek numerals">Greek numerals</a></li>
+<li><a href="/wiki/Latin_translations_of_the_12th_century" title="Latin translations of the 12th century">Latin translations of the 12th century</a></li>
+<li><a href="/wiki/Non-Euclidean_geometry" title="Non-Euclidean geometry">Non-Euclidean geometry</a></li>
+<li><a href="/wiki/Philosophy_of_mathematics" title="Philosophy of mathematics">Philosophy of mathematics</a></li>
+<li><a href="/wiki/Neusis_construction" title="Neusis construction">Neusis construction</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">History of</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/History_of_algebra" title="History of algebra">algebra</a>
+<ul><li><a href="/wiki/Timeline_of_algebra" title="Timeline of algebra">timeline</a></li></ul></li>
+<li><a href="/wiki/History_of_arithmetic" title="History of arithmetic">arithmetic</a>
+<ul><li><a href="/wiki/Timeline_of_numerals_and_arithmetic" title="Timeline of numerals and arithmetic">timeline</a></li></ul></li>
+<li><a href="/wiki/History_of_calculus" title="History of calculus">calculus</a>
+<ul><li><a href="/wiki/Timeline_of_calculus_and_mathematical_analysis" title="Timeline of calculus and mathematical analysis">timeline</a></li></ul></li>
+<li><a href="/wiki/History_of_geometry" title="History of geometry">geometry</a>
+<ul><li><a href="/wiki/Timeline_of_geometry" title="Timeline of geometry">timeline</a></li></ul></li>
+<li><a href="/wiki/History_of_logic" title="History of logic">logic</a>
+<ul><li><a href="/wiki/Timeline_of_mathematical_logic" title="Timeline of mathematical logic">timeline</a></li></ul></li>
+<li><a href="/wiki/History_of_mathematics" title="History of mathematics">mathematics</a>
+<ul><li><a href="/wiki/Timeline_of_mathematics" title="Timeline of mathematics">timeline</a></li></ul></li>
+<li><a href="/wiki/History_of_numbers" class="mw-redirect" title="History of numbers">numbers</a>
+<ul><li><a href="/wiki/Prehistoric_counting" title="Prehistoric counting">prehistoric counting</a></li></ul></li>
+<li><a href="/wiki/History_of_ancient_numeral_systems" title="History of ancient numeral systems">numeral systems</a>
+<ul><li><a href="/wiki/List_of_numeral_systems" title="List of numeral systems">list</a></li></ul></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other cultures</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Mathematics_in_the_medieval_Islamic_world" title="Mathematics in the medieval Islamic world">Arabian/Islamic</a></li>
+<li><a href="/wiki/Babylonian_mathematics" title="Babylonian mathematics">Babylonian</a></li>
+<li><a href="/wiki/Chinese_mathematics" title="Chinese mathematics">Chinese</a></li>
+<li><a href="/wiki/Ancient_Egyptian_mathematics" title="Ancient Egyptian mathematics">Egyptian</a></li>
+<li><a href="/wiki/Mathematics_of_the_Incas" title="Mathematics of the Incas">Incan</a></li>
+<li><a href="/wiki/Indian_mathematics" title="Indian mathematics">Indian</a></li>
+<li><a href="/wiki/Japanese_mathematics" title="Japanese mathematics">Japanese</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><b><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Parthenon_from_west.jpg/16px-Parthenon_from_west.jpg" decoding="async" width="16" height="12" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Parthenon_from_west.jpg/24px-Parthenon_from_west.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Parthenon_from_west.jpg/32px-Parthenon_from_west.jpg 2x" data-file-width="2048" data-file-height="1536" />&#160;<a href="/wiki/Portal:Ancient_Greece" title="Portal:Ancient Greece">Ancient Greece&#32;portal</a></b>&#160;&#8226;&#32; <b><a href="/wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg" class="image"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/16px-Nuvola_apps_edu_mathematics_blue-p.svg.png" decoding="async" width="16" height="16" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/24px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/32px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" data-file-width="128" data-file-height="128" /></a>&#160;<a href="/wiki/Portal:Mathematics" title="Portal:Mathematics">Mathematics&#32;portal</a></b></div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox" aria-labelledby="Stoicism" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"/><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Stoicism" title="Template:Stoicism"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Stoicism" title="Template talk:Stoicism"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Stoicism&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Stoicism" style="font-size:114%;margin:0 4em"><a href="/wiki/Stoicism" title="Stoicism">Stoicism</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/List_of_Stoic_philosophers" title="List of Stoic philosophers">Philosophers</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Zeno_of_Citium" title="Zeno of Citium">Zeno of Citium</a></li>
+<li><a href="/wiki/Cleanthes" title="Cleanthes">Cleanthes</a></li>
+<li><a href="/wiki/Chrysippus" title="Chrysippus">Chrysippus</a></li>
+<li><a href="/wiki/Diogenes_of_Babylon" title="Diogenes of Babylon">Diogenes of Babylon</a></li>
+<li><a href="/wiki/Antipater_of_Tarsus" title="Antipater of Tarsus">Antipater of Tarsus</a></li>
+<li><a href="/wiki/Panaetius" title="Panaetius">Panaetius</a></li>
+<li><a href="/wiki/Posidonius" title="Posidonius">Posidonius</a></li>
+<li><a href="/wiki/Seneca_the_Younger" title="Seneca the Younger">Seneca</a></li>
+<li><a href="/wiki/Lucius_Annaeus_Cornutus" title="Lucius Annaeus Cornutus">Cornutus</a></li>
+<li><a href="/wiki/Gaius_Musonius_Rufus" title="Gaius Musonius Rufus">Musonius Rufus</a></li>
+<li><a href="/wiki/Epictetus" title="Epictetus">Epictetus</a></li>
+<li><a href="/wiki/Marcus_Aurelius" title="Marcus Aurelius">Marcus Aurelius</a></li>
+<li><a href="/wiki/List_of_Stoic_philosophers" title="List of Stoic philosophers">more...</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Glossary_of_Stoicism_terms" title="Glossary of Stoicism terms">Philosophical concepts</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%;font-weight:normal;"><a href="/wiki/Stoic_logic" title="Stoic logic">Logic</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Adiaphora" title="Adiaphora">Adiaphora</a></i></li>
+<li><i><a href="/wiki/Katalepsis" title="Katalepsis">Katalepsis</a></i></li>
+<li><i><a href="/wiki/Kathekon" title="Kathekon">Kathekon</a></i></li>
+<li><i><a href="/wiki/Logos" title="Logos">Logos</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;font-weight:normal;"><a href="/wiki/Stoic_physics" title="Stoic physics">Physics</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Physis" title="Physis">Physis</a></i></li>
+<li><i><a href="/wiki/Pneuma" title="Pneuma">Pneuma</a></i></li>
+<li><a href="/wiki/Fire_(classical_element)" title="Fire (classical element)">Fire</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;font-weight:normal;">Ethics</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Stoic_passions" title="Stoic passions">Pathos</a></i></li>
+<li><i><a href="/wiki/Apatheia" title="Apatheia">Apatheia</a></i></li>
+<li><i><a href="/wiki/Eudaimonia" title="Eudaimonia">Eudaimonia</a></i></li>
+<li><i><a href="/wiki/Oikei%C3%B4sis" title="Oikeiôsis">Oikeiôsis</a></i></li>
+<li><i><a href="/wiki/Prohairesis" title="Prohairesis">Prohairesis</a></i></li>
+<li><i><a href="/wiki/Sage_(philosophy)" title="Sage (philosophy)">Sophos</a></i></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Works</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/On_Passions" title="On Passions"><i>On Passions</i> (Chrysippus)</a></li>
+<li><a href="/wiki/Gaius_Musonius_Rufus#Writings" title="Gaius Musonius Rufus"><i>Lectures</i> (Musonius Rufus)</a></li>
+<li><a href="/wiki/Epistulae_Morales_ad_Lucilium" title="Epistulae Morales ad Lucilium"><i>Letters to Lucilius</i> (Seneca)</a></li>
+<li><a href="/wiki/Seneca_the_Younger#Essays" title="Seneca the Younger">Seneca's Essays</a></li>
+<li><a href="/wiki/Seneca%27s_Consolations" title="Seneca&#39;s Consolations">Seneca's Consolations</a></li>
+<li><i><a href="/wiki/Discourses_of_Epictetus" title="Discourses of Epictetus">Discourses of Epictetus</a></i></li>
+<li><i><a href="/wiki/Enchiridion_of_Epictetus" title="Enchiridion of Epictetus">Enchiridion of Epictetus</a></i></li>
+<li><a href="/wiki/Meditations" title="Meditations"><i>Meditations of Marcus Aurelius</i></a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Related articles</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Paradoxa_Stoicorum" title="Paradoxa Stoicorum">Paradoxa Stoicorum</a></i></li>
+<li><i><a href="/wiki/Stoicorum_Veterum_Fragmenta" title="Stoicorum Veterum Fragmenta">Stoicorum Veterum Fragmenta</a></i></li>
+<li><a href="/wiki/Stoa_Poikile" title="Stoa Poikile">Stoa Poikile</a></li>
+<li><a href="/wiki/Stoic_Opposition" title="Stoic Opposition">Stoic Opposition</a></li>
+<li><a href="/wiki/Neostoicism" title="Neostoicism">Neostoicism</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q379987#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q379987#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q379987#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000105248388">1</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000385984231">2</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/250472024">1</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/50016791">2</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/288516892">3</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/1667159478046227990007">4</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/215978190">5</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/408159474203927661637">6</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/1006159474338227662558">7</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/13144814259737921339">8</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/8285159248406504870008">9</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/viaf-50016791/">WorldCat</a></span>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-no97037977/">2</a></span></li></ul></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://authority.bibsys.no/authority/rest/authorities/html/90333829">Norway</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX1001844">Spain</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb11904540f">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb11904540f">(data)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://cantic.bnc.cat/registre/981058615897606706">Catalonia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/118538357">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007261643605171">Israel</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/no97037977">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://nla.gov.au/anbd.aut-an49783297">Australia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://data.nlg.gr/resource/authority/record16426">Greece</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p069606773">Netherlands</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://mak.bn.org.pl/cgi-bin/KHW/makwww.exe?BM=1&amp;NU=1&amp;IM=4&amp;WI=9810546213905606">Poland</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://libris.kb.se/auth/55567">Sweden</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.vatlib.it/auth/detail/495_44427">Vatican</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118538357.html?language=en">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Scientific databases</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://ci.nii.ac.jp/author/DA01321473?l=en">CiNii (Japan)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://zbmath.org/authors/?q=ai:geminus-of-rhodes.">zbMATH</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/393555/">FAST</a></span></li>
+<li><a href="/wiki/RERO_(identifier)" class="mw-redirect" title="RERO (identifier)">RERO (Switzerland)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://data.rero.ch/02-A003286869">1</a></span></li></ul></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/026886774">1</a></span></li></ul></li>
+<li><a href="/wiki/Trove_(identifier)" class="mw-redirect" title="Trove (identifier)">Trove (Australia)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://trove.nla.gov.au/people/1495530">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2365
+Cached time: 20230207200855
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.451 seconds
+Real time usage: 0.610 seconds
+Preprocessor visited node count: 2927/1000000
+Post‐expand include size: 90505/2097152 bytes
+Template argument size: 2286/2097152 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 26/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 33489/5000000 bytes
+Lua time usage: 0.284/10.000 seconds
+Lua memory usage: 21081594/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  515.383      1 -total
+ 21.01%  108.271      1 Template:Infobox_scientist
+ 19.82%  102.130      1 Template:Infobox_person
+ 18.94%   97.617      4 Template:Navbox
+ 17.90%   92.262      4 Template:Lang-el
+ 13.62%   70.187      1 Template:Greek_astronomy
+ 12.63%   65.102      1 Template:MacTutor_Biography
+  9.91%   51.093      1 Template:Short_description
+  8.56%   44.117      1 Template:Authority_control
+  5.43%   27.986      1 Template:Citation_needed
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1591774-0!canonical and timestamp 20230207200855 and revision id 1136172771. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Geminus&amp;oldid=1136172771">https://en.wikipedia.org/w/index.php?title=Geminus&amp;oldid=1136172771</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Ancient_Greek_astronomers" title="Category:Ancient Greek astronomers">Ancient Greek astronomers</a></li><li><a href="/wiki/Category:Ancient_Greek_mathematicians" title="Category:Ancient Greek mathematicians">Ancient Greek mathematicians</a></li><li><a href="/wiki/Category:Ancient_Rhodian_scientists" title="Category:Ancient Rhodian scientists">Ancient Rhodian scientists</a></li><li><a href="/wiki/Category:Roman-era_Rhodians" title="Category:Roman-era Rhodians">Roman-era Rhodians</a></li><li><a href="/wiki/Category:Stoic_philosophers" title="Category:Stoic philosophers">Stoic philosophers</a></li><li><a href="/wiki/Category:1st-century_BC_Rhodians" title="Category:1st-century BC Rhodians">1st-century BC Rhodians</a></li><li><a href="/wiki/Category:1st-century_BC_writers" title="Category:1st-century BC writers">1st-century BC writers</a></li><li><a href="/wiki/Category:1st-century_BC_mathematicians" title="Category:1st-century BC mathematicians">1st-century BC mathematicians</a></li><li><a href="/wiki/Category:1st-century_BC_astronomers" title="Category:1st-century BC astronomers">1st-century BC astronomers</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Pages_with_missing_ISBNs" title="Category:Pages with missing ISBNs">Pages with missing ISBNs</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_matches_Wikidata" title="Category:Short description matches Wikidata">Short description matches Wikidata</a></li><li><a href="/wiki/Category:Articles_with_hCards" title="Category:Articles with hCards">Articles with hCards</a></li><li><a href="/wiki/Category:Pages_using_infobox_scientist_with_unknown_parameters" title="Category:Pages using infobox scientist with unknown parameters">Pages using infobox scientist with unknown parameters</a></li><li><a href="/wiki/Category:Articles_containing_Greek-language_text" title="Category:Articles containing Greek-language text">Articles containing Greek-language text</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_December_2021" title="Category:Articles with unsourced statements from December 2021">Articles with unsourced statements from December 2021</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BIBSYS_identifiers" title="Category:Articles with BIBSYS identifiers">Articles with BIBSYS identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNE_identifiers" title="Category:Articles with BNE identifiers">Articles with BNE identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_CANTICN_identifiers" title="Category:Articles with CANTICN identifiers">Articles with CANTICN identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NLA_identifiers" title="Category:Articles with NLA identifiers">Articles with NLA identifiers</a></li><li><a href="/wiki/Category:Articles_with_NLG_identifiers" title="Category:Articles with NLG identifiers">Articles with NLG identifiers</a></li><li><a href="/wiki/Category:Articles_with_NTA_identifiers" title="Category:Articles with NTA identifiers">Articles with NTA identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_SELIBR_identifiers" title="Category:Articles with SELIBR identifiers">Articles with SELIBR identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_CINII_identifiers" title="Category:Articles with CINII identifiers">Articles with CINII identifiers</a></li><li><a href="/wiki/Category:Articles_with_ZBMATH_identifiers" title="Category:Articles with ZBMATH identifiers">Articles with ZBMATH identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_RERO_identifiers" title="Category:Articles with RERO identifiers">Articles with RERO identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li><li><a href="/wiki/Category:Articles_with_Trove_identifiers" title="Category:Articles with Trove identifiers">Articles with Trove identifiers</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 29 January 2023, at 02:35<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Geminus&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.451","walltime":"0.610","ppvisitednodes":{"value":2927,"limit":1000000},"postexpandincludesize":{"value":90505,"limit":2097152},"templateargumentsize":{"value":2286,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":26,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":33489,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  515.383      1 -total"," 21.01%  108.271      1 Template:Infobox_scientist"," 19.82%  102.130      1 Template:Infobox_person"," 18.94%   97.617      4 Template:Navbox"," 17.90%   92.262      4 Template:Lang-el"," 13.62%   70.187      1 Template:Greek_astronomy"," 12.63%   65.102      1 Template:MacTutor_Biography","  9.91%   51.093      1 Template:Short_description","  8.56%   44.117      1 Template:Authority_control","  5.43%   27.986      1 Template:Citation_needed"]},"scribunto":{"limitreport-timeusage":{"value":"0.284","limit":"10.000"},"limitreport-memusage":{"value":21081594,"limit":52428800},"limitreport-logs":"table#1 {\n    [\"size\"] = \"tiny\",\n}\ntable#1 {\n    [\"size\"] = \"tiny\",\n}\n"},"cachereport":{"origin":"mw2365","timestamp":"20230207200855","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Geminus","url":"https:\/\/en.wikipedia.org\/wiki\/Geminus","sameAs":"http:\/\/www.wikidata.org\/entity\/Q379987","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q379987","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-03-10T23:33:19Z","dateModified":"2023-01-29T02:35:58Z","headline":"ancient Greek astronomer and mathematician"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Geminus","url":"https:\/\/en.wikipedia.org\/wiki\/Geminus","sameAs":"http:\/\/www.wikidata.org\/entity\/Q379987","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q379987","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-03-10T23:33:19Z","dateModified":"2023-01-29T02:35:58Z","headline":"ancient Greek astronomer and mathematician"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":107,"wgHostname":"mw2386"});});</script>
+</body>
+</html>

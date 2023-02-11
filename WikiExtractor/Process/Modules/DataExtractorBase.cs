@@ -17,7 +17,7 @@ namespace WikiExtractor.Process.Modules
         public DataExtractorBase(string extractorName, string dbFileName)
         {
             Console.WriteLine($"Hello, {extractorName} Extractor!");
-            ProcessConstants.CacheFolder = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Cache");
+            ProcessConstants.CacheFolder = IoHelper.CombinePath(PjUtility.Runtime.ExecutingRepositoryRootFolder, "Cache");
             ProcessConstants.DatabasePath = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Db", dbFileName);
         }
 

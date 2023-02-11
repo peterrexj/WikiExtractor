@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Evesham Abbey - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"078cb87f-8a2a-4a2d-b5f7-36d8031c937a",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Evesham_Abbey","wgTitle":"Evesham Abbey","wgCurRevisionId":1120766083,"wgRevisionId":1120766083,"wgArticleId":254915,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: multiple names: authors list","Articles incorporating Cite DNB template","Use dmy dates from September 2019","Use British English from September 2019","All articles with unsourced statements","Articles with unsourced statements from November 2022","Articles containing potentially dated statements from 2022","All articles containing potentially dated statements","Commons category link from Wikidata","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with LCCN identifiers","Coordinates on Wikidata","Evesham Abbey","Anglo-Saxon monastic houses","Christian monasteries established in the 8th century",
+"Benedictine monasteries in England","Monasteries in Worcestershire","Burial sites of the House of Montfort","Grade I listed buildings in Worcestershire","8th-century establishments in England","Religious buildings and structures completed in the 700s"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Evesham_Abbey","wgRelevantArticleId":254915,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English",
+"wgCoordinates":{"lat":52.0913,"lon":-1.9468},"wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q2564352","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site",
+"mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Evesham_Abbey_Bell_Tower.jpg/1200px-Evesham_Abbey_Bell_Tower.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="2315"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Evesham_Abbey_Bell_Tower.jpg/800px-Evesham_Abbey_Bell_Tower.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="1544"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Evesham_Abbey_Bell_Tower.jpg/640px-Evesham_Abbey_Bell_Tower.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="1235"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Evesham Abbey - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Evesham_Abbey"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Evesham_Abbey&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Evesham_Abbey"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Evesham_Abbey rootpage-Evesham_Abbey skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Evesham+Abbey" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Evesham+Abbey"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Evesham+Abbey"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Evesham_Abbey" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Evesham_Abbey" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Evesham_Abbey&amp;oldid=1120766083" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Evesham_Abbey&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Evesham_Abbey&amp;id=1120766083&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2564352" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Evesham_Abbey&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Evesham_Abbey&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Evesham_Abbey" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Foundation"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Foundation">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Foundation</div>
+		</a>
+		
+		<ul id="toc-Foundation-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Surviving_structures"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Surviving_structures">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Surviving structures</div>
+		</a>
+		
+		<ul id="toc-Surviving_structures-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Relics_of_saints"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Relics_of_saints">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Relics of saints</div>
+		</a>
+		
+		<ul id="toc-Relics_of_saints-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Other_burials"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Other_burials">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Other burials</div>
+		</a>
+		
+		<ul id="toc-Other_burials-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Commemoration"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Commemoration">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>Commemoration</div>
+		</a>
+		
+		<ul id="toc-Commemoration-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Conservation"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Conservation">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>Conservation</div>
+		</a>
+		
+		<ul id="toc-Conservation-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">8</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Bibliography"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Bibliography">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">9</span>Bibliography</div>
+		</a>
+		
+		<ul id="toc-Bibliography-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">10</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Evesham Abbey</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 9 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-9"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">9 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Abadia_d%27Evesham" title="Abadia d&#039;Evesham – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Kl%C3%A1%C5%A1ter_Evesham" title="Klášter Evesham – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Abad%C3%ADa_de_Evesham" title="Abadía de Evesham – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Abbaye_d%27Evesham" title="Abbaye d&#039;Evesham – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Biara_Evesham" title="Biara Evesham – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Abbazia_di_Evesham" title="Abbazia di Evesham – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Abbatia_Eveshamensis" title="Abbatia Eveshamensis – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Abdij_van_Evesham" title="Abdij van Evesham – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%98%D0%B2%D1%88%D0%B5%D0%BC%D1%81%D0%BA%D0%BE%D0%B5_%D0%B0%D0%B1%D0%B1%D0%B0%D1%82%D1%81%D1%82%D0%B2%D0%BE" title="Ившемское аббатство – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2564352#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Evesham_Abbey" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Evesham_Abbey" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Evesham_Abbey"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Evesham_Abbey&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Evesham_Abbey"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Evesham_Abbey&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p class="mw-empty-elt">
+
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Evesham_Abbey_Bell_Tower.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Evesham_Abbey_Bell_Tower.jpg/220px-Evesham_Abbey_Bell_Tower.jpg" decoding="async" width="220" height="424" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Evesham_Abbey_Bell_Tower.jpg/330px-Evesham_Abbey_Bell_Tower.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/41/Evesham_Abbey_Bell_Tower.jpg/440px-Evesham_Abbey_Bell_Tower.jpg 2x" data-file-width="1204" data-file-height="2323" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Evesham_Abbey_Bell_Tower.jpg" class="internal" title="Enlarge"></a></div>Evesham Abbey bell tower</div></div></div>
+<p><b>Evesham Abbey</b> was founded by <a href="/wiki/Saint" title="Saint">Saint</a> <a href="/wiki/Egwin" class="mw-redirect" title="Egwin">Egwin</a> at <a href="/wiki/Evesham" title="Evesham">Evesham</a> in Worcestershire, England between 700 and 710 following an alleged vision of the <a href="/wiki/Blessed_Virgin_Mary" class="mw-redirect" title="Blessed Virgin Mary">Virgin Mary</a> by a swineherd by the name of <a href="/wiki/Eof" title="Eof">Eof</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup>
+</p><p>According to the monastic history, Evesham came through the <a href="/wiki/Norman_Conquest" title="Norman Conquest">Norman Conquest</a> unusually well, because of a quick approach by Abbot <a href="/wiki/%C3%86thelwig" title="Æthelwig">Æthelwig</a> to <a href="/wiki/William_the_Conqueror" title="William the Conqueror">William the Conqueror</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> The <a href="/wiki/Abbey" title="Abbey">abbey</a> is of <a href="/wiki/St._Benedict" class="mw-redirect" title="St. Benedict">Benedictine</a> origin, and became in its heyday one of the wealthiest in the country. <a href="/wiki/Simon_de_Montfort,_6th_Earl_of_Leicester" title="Simon de Montfort, 6th Earl of Leicester">Simon de Montfort</a> (1208–1265) is buried near the <a href="/wiki/High_altar" class="mw-redirect" title="High altar">high altar</a> of the ruined abbey, the spot marked by an altar-like memorial monument dedicated by the <a href="/wiki/Archbishop_of_Canterbury" title="Archbishop of Canterbury">Archbishop of Canterbury</a> in 1965.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+</p><p>During the 16th-century <a href="/wiki/Dissolution_of_the_monasteries" title="Dissolution of the monasteries">dissolution of the monasteries</a>, almost all of the abbey was demolished. Today, only one section of walling survives from the abbey itself, although fragments of the 13th-century <a href="/wiki/Chapter_house" title="Chapter house">chapter house</a>, together with the <a href="/wiki/Almonry" title="Almonry">almonry</a>, the 16th-century <a href="/wiki/Bell_tower" title="Bell tower">bell tower</a> and a gateway remain. The abbey's site is a scheduled monument and has several listed structures within it and adjacent to it, of which four are designated at the highest <a href="/wiki/Grade_I" class="mw-redirect" title="Grade I">Grade I</a> level.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Foundation">Foundation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit&amp;section=1" title="Edit section: Foundation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The year of the foundation of the abbey (that is, when a monastic community was first established) is problematic. <a href="/wiki/William_Tindal" title="William Tindal">William Tindal</a> (1794) comments that "I have a MS. but without name or reference, which says that he [i.e. <a href="/wiki/Egwin_of_Evesham" title="Egwin of Evesham">Ecgwine</a>] began his Abbey in the year 682. This is before he was made bishop, and seems improbable. <a href="/wiki/Thomas_Tanner_(bishop)" title="Thomas Tanner (bishop)">Tanner</a> [Not. Mon. p.168] says in 701. The date of <a href="/wiki/Pope_Constantine" title="Pope Constantine">Pope Constantine</a>’s charter may decide the point as to the consecration of his Abbey, but there is reason to suppose that Egwin began to build as early as the year 702".<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup> George May gives 701 as the year that <a href="/wiki/%C3%86thelred_of_Mercia" title="Æthelred of Mercia">Ethelred</a> conferred on Ecgwine the whole peninsula <sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup> with the erection of the monastery commencing in the same year.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>
+</p><p>On the other hand, the year of the consecration derives from the grant of the first privilege to the abbey from Pope Constantine "written in the seven hundred and ninth year of our Lord’s incarnation."<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> <a href="/wiki/Egwin_of_Evesham" title="Egwin of Evesham">Ecgwine</a> allegedly returned from Rome bearing this charter, which was apparently read out by <a href="/wiki/Berhtwald" title="Berhtwald">Archbishop Berhtwald</a> at a council of "the whole of England" held at <a href="/wiki/Alcester" title="Alcester">Alcester</a>,<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup> although that meeting was probably fictitious.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup> <a href="/wiki/Thomas_of_Marlborough" title="Thomas of Marlborough">Thomas of Marlborough</a> records that, in accordance with the apostolic command, a community of monks was then established<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup> (meaning the foundation has also been dated to 709):
+</p><p>"When the blessed Ecgwine saw that longed-for day when the place which he had built would be consecrated, and a monastic order established to serve God in that place, he then abandoned all concerns for worldly matters, and devoted himself to a contemplative way of life. Following the example of the Lord by humbling himself, he resigned his bishop's see, and became abbot of the monastery."<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup>
+</p><p>The alleged charter of Ecgwine (purportedly written in 714) records that on the feast of All Saints "Bishop Wilfrid and I consecrated the church which I had built to God, the Blessed Mary, and to all Christ’s elect".<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup>  The feast of All Saints became established in the West after 609 or 610 under <a href="/wiki/Pope_Boniface_IV" title="Pope Boniface IV">Pope Boniface IV</a>; its observance on 1 November dates from the time of <a href="/wiki/Pope_Gregory_III" title="Pope Gregory III">Pope Gregory III</a> (died 741).<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;13&#93;</a></sup> A <a href="/wiki/Wilfrith_I_(bishop_of_Worcester)" title="Wilfrith I (bishop of Worcester)">Bishop Wilfrid</a> was Egwin’s successor to the see of <a href="/wiki/Bishop_of_Worcester" title="Bishop of Worcester">Worcester</a> (though he is sometimes confused with <a href="/wiki/Wilfrid" title="Wilfrid">Wilfrid, Bishop of York</a>, who died c. 709).
+</p><p>Although the exact year of the foundation remains unclear, it has sometimes been assumed that the date of the abbey's consecration was the <a href="/wiki/All_Saints%27_Day" title="All Saints&#39; Day">feast of All Saints</a> in 709.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (November 2022)">citation needed</span></a></i>&#93;</sup> That the consecration occurred on this feast day would provide a neat connection with <a href="/wiki/All_Saints_Church,_Evesham" title="All Saints Church, Evesham">All Saints' Church</a> in Evesham. That Abbot Clement Lichfield lies buried beneath the Chantry Chapel, now known as the Lichfield Chapel in consequence, provides a link to the closing days of the life of the abbey.
+</p>
+<h2><span class="mw-headline" id="Surviving_structures">Surviving structures</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit&amp;section=2" title="Edit section: Surviving structures">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>During the <a href="/wiki/Dissolution_of_the_monasteries" title="Dissolution of the monasteries">dissolution of the monasteries</a>, on its surrender to the king in 1540 the abbey was plundered and razed to the ground, although the <a href="/wiki/Evesham_Bell_Tower" title="Evesham Bell Tower">bell tower</a> built earlier that century was saved.<sup id="cite_ref-vch_14-0" class="reference"><a href="#cite_note-vch-14">&#91;14&#93;</a></sup> The tower stands 110 feet (34&#160;m) tall and is a <a href="/wiki/Grade_I_listed_building" class="mw-redirect" title="Grade I listed building">Grade I listed building</a>.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;15&#93;</a></sup> Other remains include:
+</p>
+<ul><li>The abbey's <a href="/wiki/Almonry" title="Almonry">almonry</a>, from the 15th century and earlier, Grade I listed,<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup> has been restored and houses the <a href="/wiki/Almonry_Museum_and_Heritage_Centre" title="Almonry Museum and Heritage Centre">Almonry Museum and Heritage Centre</a></li>
+<li>The L-shaped house which is now numbers 53 and 54, Merstow Green, incorporates the abbey's Great Gate from the early 14th century and a vaulted passage from the same period; Grade I listed<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup></li>
+<li>Abbot Reginald's gateway and wall, c.1120 with 15th-century room above; Grade I listed<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup><sup id="cite_ref-19" class="reference"><a href="#cite_note-19">&#91;19&#93;</a></sup></li>
+<li>Part of the south wall of the abbey precinct, restored, including an arched doorway<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup></li>
+<li>A 13th-century archway which led to the chapter house<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;21&#93;</a></sup></li>
+<li>Fragmentary remains of the west wall of the north transept of the abbey<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">&#91;22&#93;</a></sup></li>
+<li>A wall, blocked arches and a window which are the remains of the abbey stables, 14th and 15th centuries; Grade II* listed<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">&#91;23&#93;</a></sup></li></ul>
+<p>The full area of the abbey precincts, most of which is today a public park, was designated as a <a href="/wiki/Scheduled_monuments_in_Greater_Manchester" title="Scheduled monuments in Greater Manchester">scheduled monument</a> in 1949.<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">&#91;24&#93;</a></sup> As of 2022<sup class="plainlinks noexcerpt noprint asof-tag update" style="display:none;"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Evesham_Abbey&amp;action=edit">&#91;update&#93;</a></sup>, the site in general and in particular the almonry and Abbot Reginald's wall, are on Historic England's <a href="/wiki/Heritage_at_Risk_Register" title="Heritage at Risk Register">Heritage at Risk register</a> owing to their vulnerable condition.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">&#91;25&#93;</a></sup><sup id="cite_ref-26" class="reference"><a href="#cite_note-26">&#91;26&#93;</a></sup><sup id="cite_ref-27" class="reference"><a href="#cite_note-27">&#91;27&#93;</a></sup>
+</p><p>Other buildings linked to the history of the abbey include <a href="/wiki/Middle_Littleton_Tythe_Barn" title="Middle Littleton Tythe Barn">Middle Littleton tythe barn</a>.
+</p><p>The antiquary <a href="/wiki/Edward_Rudge" title="Edward Rudge">Edward Rudge</a> began excavations of the abbey, on parts of his property, between 1811 and 1834. The results were given to the <a href="/wiki/Society_of_Antiquaries_of_London" title="Society of Antiquaries of London">Society of Antiquaries of London</a>; illustrations of the discoveries were published in their <i>Vetusta Monumenta</i> with a memoir by his son, <a href="/wiki/Edward_John_Rudge" title="Edward John Rudge">Edward John Rudge</a> and illustrations by his wife, <a href="/wiki/Anne_Rudge" title="Anne Rudge">Anne Rudge</a>.<sup id="cite_ref-DNB00_28-0" class="reference"><a href="#cite_note-DNB00-28">&#91;28&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Relics_of_saints">Relics of saints</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit&amp;section=3" title="Edit section: Relics of saints">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Saint <a href="/wiki/Egwin" class="mw-redirect" title="Egwin">Egwin</a>, third <a href="/wiki/Bishop_of_Worcester" title="Bishop of Worcester">bishop of Worcester</a> and founder of Evesham Abbey</li>
+<li>Saint <a href="/wiki/Credan" title="Credan">Credan</a>,<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">&#91;29&#93;</a></sup> abbot of the abbey during the reign of King <a href="/wiki/Offa" class="mw-redirect" title="Offa">Offa</a> of <a href="/wiki/Mercia" title="Mercia">Mercia</a><sup id="cite_ref-30" class="reference"><a href="#cite_note-30">&#91;30&#93;</a></sup></li>
+<li>Saint <a href="/wiki/Wigstan_of_Mercia" class="mw-redirect" title="Wigstan of Mercia">Wigstan of Mercia</a> (aka Wulstan and Wystan)<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">&#91;31&#93;</a></sup></li>
+<li>Saint <a href="/wiki/Odulf" title="Odulf">Odulf</a>,<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">&#91;32&#93;</a></sup><sup id="cite_ref-33" class="reference"><a href="#cite_note-33">&#91;33&#93;</a></sup> a <a href="/wiki/Frisians" title="Frisians">Frisian</a> saint<sup id="cite_ref-34" class="reference"><a href="#cite_note-34">&#91;34&#93;</a></sup> and <a href="/wiki/Missionary" title="Missionary">missionary</a><sup id="cite_ref-pager_19_35-0" class="reference"><a href="#cite_note-pager_19-35">&#91;35&#93;</a></sup> (d. 855)<sup id="cite_ref-pager_19_35-1" class="reference"><a href="#cite_note-pager_19-35">&#91;35&#93;</a></sup> recorded in the <a href="/wiki/Hagiographies" class="mw-redirect" title="Hagiographies">Hagiographies</a> of <a href="/wiki/Secgan" class="mw-redirect" title="Secgan">Secgan</a>,<sup id="cite_ref-36" class="reference"><a href="#cite_note-36">&#91;36&#93;</a></sup> '<a href="/wiki/Ecgwine" class="mw-redirect" title="Ecgwine">Saint Ecgwine</a>',<sup id="cite_ref-37" class="reference"><a href="#cite_note-37">&#91;37&#93;</a></sup> and <a href="/wiki/Dominic_of_Evesham" title="Dominic of Evesham">hagiography of St Odulf</a>, the <i>Ave presul gloriose Augustine</i> <a href="/wiki/Psalter" title="Psalter">psalter</a>,<sup id="cite_ref-38" class="reference"><a href="#cite_note-38">&#91;38&#93;</a></sup> and <a href="/wiki/Chronicon_Abbatiae_de_Evesham" title="Chronicon Abbatiae de Evesham">Chronicon Abbatiae de Evesham</a><sup id="cite_ref-39" class="reference"><a href="#cite_note-39">&#91;39&#93;</a></sup></li></ul>
+<h2><span class="mw-headline" id="Other_burials">Other burials</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit&amp;section=4" title="Edit section: Other burials">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:172px;"><a href="/wiki/File:De_montfort_evesham.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/De_montfort_evesham.jpg/170px-De_montfort_evesham.jpg" decoding="async" width="170" height="227" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/De_montfort_evesham.jpg/255px-De_montfort_evesham.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/72/De_montfort_evesham.jpg/340px-De_montfort_evesham.jpg 2x" data-file-width="778" data-file-height="1037" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:De_montfort_evesham.jpg" class="internal" title="Enlarge"></a></div>Memorial to <a href="/wiki/Simon_de_Montfort,_6th_Earl_of_Leicester" title="Simon de Montfort, 6th Earl of Leicester">Simon de Montfort, 6th Earl of Leicester</a></div></div></div>
+<ul><li><a href="/wiki/Simon_de_Montfort,_6th_Earl_of_Leicester" title="Simon de Montfort, 6th Earl of Leicester">Simon de Montfort, 6th Earl of Leicester</a><sup id="cite_ref-40" class="reference"><a href="#cite_note-40">&#91;40&#93;</a></sup></li>
+<li><a href="/wiki/Henry_de_Montfort" title="Henry de Montfort">Henry de Montfort</a><sup id="cite_ref-41" class="reference"><a href="#cite_note-41">&#91;41&#93;</a></sup></li>
+<li><a href="/wiki/Hugh_le_Despencer,_1st_Baron_le_Despencer" class="mw-redirect" title="Hugh le Despencer, 1st Baron le Despencer">Hugh le Despencer, 1st Baron le Despencer</a><sup id="cite_ref-42" class="reference"><a href="#cite_note-42">&#91;42&#93;</a></sup></li>
+<li><a href="/wiki/Robert_de_Stafford" title="Robert de Stafford">Robert de Stafford</a></li>
+<li><a href="/wiki/Thomas_of_Marlborough" title="Thomas of Marlborough">Thomas of Marlborough</a></li></ul>
+<h2><span class="mw-headline" id="Commemoration">Commemoration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit&amp;section=5" title="Edit section: Commemoration">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>One of the <a href="/wiki/Great_Western_Railway" title="Great Western Railway">Great Western Railway</a> <a href="/wiki/Star_class_locomotive" class="mw-redirect" title="Star class locomotive">Star class locomotives</a> was named Evesham Abbey and numbered 4065.  It was subsequently rebuilt as a <a href="/wiki/Castle_class_locomotive" class="mw-redirect" title="Castle class locomotive">Castle class locomotive</a>, being renumbered as 5085 while retaining the name Evesham Abbey.
+</p><p>The <a href="/wiki/Coat_of_arms" title="Coat of arms">coat of arms</a> of Evesham Abbey is used as the crest of <a href="/wiki/Prince_Henry%27s_High_School" title="Prince Henry&#39;s High School">Prince Henry's High School</a>, Evesham.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (November 2022)">citation needed</span></a></i>&#93;</sup>
+</p>
+<h2><span class="mw-headline" id="Conservation">Conservation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit&amp;section=6" title="Edit section: Conservation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Evesham Abbey Trust, a charity and <a href="/wiki/Charitable_incorporated_organisation" title="Charitable incorporated organisation">charitable incorporated organisation</a> registered in 2016, aims to conserve, preserve and improve the abbey site and environs.<sup id="cite_ref-43" class="reference"><a href="#cite_note-43">&#91;43&#93;</a></sup> Since May 2017, the trust owns the freehold of much of the site following its gifting by the Rudge family.<sup id="cite_ref-44" class="reference"><a href="#cite_note-44">&#91;44&#93;</a></sup> The trust in 2019 obtained over £1m of funding from the <a href="/wiki/National_Lottery_Heritage_Fund" title="National Lottery Heritage Fund">National Lottery Heritage Fund</a>, <a href="/wiki/Historic_England" title="Historic England">Historic England</a> and other local and regional funders to begin the conservation and restoration of the abbey walls and the creation of a set of interpretive gardens.<sup id="cite_ref-45" class="reference"><a href="#cite_note-45">&#91;45&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit&amp;section=7" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Abbot_of_Evesham" title="Abbot of Evesham">Abbot of Evesham</a>, for a list of abbots</li>
+<li><a href="/wiki/Worcester_Cathedral" title="Worcester Cathedral">Worcester Cathedral</a></li>
+<li><a href="/wiki/Chronicon_Abbatiae_de_Evesham" title="Chronicon Abbatiae de Evesham">Chronicle of Evesham Abbey</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit&amp;section=8" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite class="citation encyclopaedia cs1"><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/05648a.htm">"Evesham Abbey"</a>. <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i><span class="reference-accessdate">. Retrieved <span class="nowrap">18 February</span> 2007</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Evesham+Abbey&amp;rft.btitle=Catholic+Encyclopedia&amp;rft_id=http%3A%2F%2Fwww.newadvent.org%2Fcathen%2F05648a.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?hl=en&amp;id=zltHwzNyZYcC&amp;dq=%22Mannig%22+Abbot+of+Evesham&amp;printsec=frontcover&amp;source=web&amp;ots=zI7GDKYUju&amp;sig=qjT03uSOxqcx5viUorfQJLheli8&amp;sa=X&amp;oi=book_result&amp;resnum=6&amp;ct=result#PRA1-PA163,M1">Historia</a></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20110511084002/http://www.simondemontfort.org/simon_de_montfort.htm">"Simon de Montfort"</a>. Archived from <a rel="nofollow" class="external text" href="http://www.simondemontfort.org/simon_de_montfort.htm">the original</a> on 11 May 2011<span class="reference-accessdate">. Retrieved <span class="nowrap">27 December</span> 2010</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Simon+de+Montfort&amp;rft_id=http%3A%2F%2Fwww.simondemontfort.org%2Fsimon_de_montfort.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">William Tindal, <i>The History and Antiquities of the Abbey and Borough of Evesham</i> (Evesham: John Agg, 1794), p.2 third footnote. The year 702 is also given in <i>Saint Egwin and his Abbey of Evesham</i> by the Benedictines of Stanbrook (London: Burns &amp; Oates, 1904), p.15.  Tindal (1756–1804), a Fellow of <a href="/wiki/Trinity_College,_Oxford" title="Trinity College, Oxford">Trinity College, Oxford</a> and chaplain of the <a href="/wiki/Tower_of_London" title="Tower of London">Tower of London</a>, was the grandson of the historian Rev <a href="/wiki/Nicolas_Tindal" title="Nicolas Tindal">Nicolas Tindal</a>. (Dictionary of National Biography)</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFMay,_George_of_Evesham,_England.1845" class="citation cs2">May, George of Evesham, England. (1845), <i>A descriptive history of the town of Evesham, from the foundation of its Saxon monastery, with notices respecting the ancient deanery of its vale</i>, Evesham, [Eng.]: G. May, <a href="/wiki/OCLC_(identifier)" class="mw-redirect" title="OCLC (identifier)">OCLC</a>&#160;<a rel="nofollow" class="external text" href="//www.worldcat.org/oclc/4784873">4784873</a>, <a href="/wiki/OL_(identifier)" class="mw-redirect" title="OL (identifier)">OL</a>&#160;<a rel="nofollow" class="external text" href="//openlibrary.org/books/OL7173099M">7173099M</a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+descriptive+history+of+the+town+of+Evesham%2C+from+the+foundation+of+its+Saxon+monastery%2C+with+notices+respecting+the+ancient+deanery+of+its+vale&amp;rft.place=Evesham%2C+%5BEng.%5D&amp;rft.pub=G.+May&amp;rft.date=1845&amp;rft_id=info%3Aoclcnum%2F4784873&amp;rft_id=%2F%2Fopenlibrary.org%2Fbooks%2FOL7173099M%23id-name%3DOL&amp;rft.au=May%2C+George+of+Evesham%2C+England.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span><span class="cs1-maint citation-comment"><code class="cs1-code">{{<a href="/wiki/Template:Citation" title="Template:Citation">citation</a>}}</code>:  CS1 maint: multiple names: authors list (<a href="/wiki/Category:CS1_maint:_multiple_names:_authors_list" title="Category:CS1 maint: multiple names: authors list">link</a>)</span>, p.21</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">George May (1845), p.24</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Sayers &amp; Watkiss, <i>Thomas of Marlborough: History of the Abbey of Evesham</i> (Oxford: Clarendon Press, 2003), section 323, page 319</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><i>Thomas of Marlborough: History of the Abbey of Evesham</i>, p.lxxxiv.</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><i>Thomas of Marlborough: History of the Abbey of Evesham</i>, footnote 2, page 20</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><i>Thomas of Marlborough: History of the Abbey of Evesham</i>, section 18, page 23.</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><i>Thomas of Marlborough: History of the Abbey of Evesham</i>, section 18, page 23</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><i>Thomas of Marlborough: History of the Abbey of Evesham</i>, section 32, page 39</span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><i>Thomas of Marlborough: History of the Abbey of Evesham</i>, footnote 2 to page 38</span>
+</li>
+<li id="cite_note-vch-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-vch_14-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFWillis-BundPage1971" class="citation book cs1"><a href="/wiki/John_William_Willis-Bund" title="John William Willis-Bund">Willis-Bund, J. W.</a>; <a href="/wiki/William_Page_(historian)" title="William Page (historian)">Page, William</a>, eds. (1971). "Houses of Benedictine monks: Abbey of Evesham". <a rel="nofollow" class="external text" href="https://www.british-history.ac.uk/vch/worcs/vol2/pp112-127"><i>A History of the County of Worcester, Volume 2</i></a>. <a href="/wiki/Victoria_County_History" title="Victoria County History">Victoria County History</a>. University of London. pp.&#160;112–127<span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span> &#8211; via British History Online.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Houses+of+Benedictine+monks%3A+Abbey+of+Evesham&amp;rft.btitle=A+History+of+the+County+of+Worcester%2C+Volume+2&amp;rft.series=Victoria+County+History&amp;rft.pages=112-127&amp;rft.pub=University+of+London&amp;rft.date=1971&amp;rft_id=https%3A%2F%2Fwww.british-history.ac.uk%2Fvch%2Fworcs%2Fvol2%2Fpp112-127&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHistoric_England1081353" class="citation web cs1"><a href="/wiki/Historic_England" title="Historic England">Historic England</a>. <a rel="nofollow" class="external text" href="https://HistoricEngland.org.uk/listing/the-list/list-entry/1081353">"The Bell Tower (1081353)"</a>. <i><a href="/wiki/National_Heritage_List_for_England" title="National Heritage List for England">National Heritage List for England</a></i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Heritage+List+for+England&amp;rft.atitle=The+Bell+Tower+%281081353%29&amp;rft.au=Historic+England&amp;rft_id=https%3A%2F%2FHistoricEngland.org.uk%2Flisting%2Fthe-list%2Flist-entry%2F1081353&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHistoric_England1302722" class="citation web cs1">Historic England. <a rel="nofollow" class="external text" href="https://HistoricEngland.org.uk/listing/the-list/list-entry/1302722">"The Almonry, Merstow Green (1302722)"</a>. <i>National Heritage List for England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Heritage+List+for+England&amp;rft.atitle=The+Almonry%2C+Merstow+Green+%281302722%29&amp;rft.au=Historic+England&amp;rft_id=https%3A%2F%2FHistoricEngland.org.uk%2Flisting%2Fthe-list%2Flist-entry%2F1302722&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHistoric_England1156720" class="citation web cs1">Historic England. <a rel="nofollow" class="external text" href="https://HistoricEngland.org.uk/listing/the-list/list-entry/1156720">"Nos 53 and 54 incorporating Remains of Abbey Gate (1156720)"</a>. <i>National Heritage List for England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Heritage+List+for+England&amp;rft.atitle=Nos+53+and+54+incorporating+Remains+of+Abbey+Gate+%281156720%29&amp;rft.au=Historic+England&amp;rft_id=https%3A%2F%2FHistoricEngland.org.uk%2Flisting%2Fthe-list%2Flist-entry%2F1156720&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHistoric_England1081349" class="citation web cs1">Historic England. <a rel="nofollow" class="external text" href="https://HistoricEngland.org.uk/listing/the-list/list-entry/1081349">"Abbot Reginald's Gateway (1081349)"</a>. <i>National Heritage List for England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Heritage+List+for+England&amp;rft.atitle=Abbot+Reginald%27s+Gateway+%281081349%29&amp;rft.au=Historic+England&amp;rft_id=https%3A%2F%2FHistoricEngland.org.uk%2Flisting%2Fthe-list%2Flist-entry%2F1081349&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHistoric_England1005298" class="citation web cs1">Historic England. <a rel="nofollow" class="external text" href="https://HistoricEngland.org.uk/listing/the-list/list-entry/1005298">"Abbot Reginald's Gateway and Old Vicarage (scheduled monument) (1005298)"</a>. <i>National Heritage List for England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Heritage+List+for+England&amp;rft.atitle=Abbot+Reginald%27s+Gateway+and+Old+Vicarage+%28scheduled+monument%29+%281005298%29&amp;rft.au=Historic+England&amp;rft_id=https%3A%2F%2FHistoricEngland.org.uk%2Flisting%2Fthe-list%2Flist-entry%2F1005298&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHistoric_England1156586" class="citation web cs1">Historic England. <a rel="nofollow" class="external text" href="https://HistoricEngland.org.uk/listing/the-list/list-entry/1156586">"Remains of south wall of Abbey Precinct (1156586)"</a>. <i>National Heritage List for England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Heritage+List+for+England&amp;rft.atitle=Remains+of+south+wall+of+Abbey+Precinct+%281156586%29&amp;rft.au=Historic+England&amp;rft_id=https%3A%2F%2FHistoricEngland.org.uk%2Flisting%2Fthe-list%2Flist-entry%2F1156586&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHistoric_England1081391" class="citation web cs1">Historic England. <a rel="nofollow" class="external text" href="https://HistoricEngland.org.uk/listing/the-list/list-entry/1081391">"Archway to south of the remains of west wall of north transept of Abbey (1081391)"</a>. <i>National Heritage List for England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Heritage+List+for+England&amp;rft.atitle=Archway+to+south+of+the+remains+of+west+wall+of+north+transept+of+Abbey+%281081391%29&amp;rft.au=Historic+England&amp;rft_id=https%3A%2F%2FHistoricEngland.org.uk%2Flisting%2Fthe-list%2Flist-entry%2F1081391&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHistoric_England1156614" class="citation web cs1">Historic England. <a rel="nofollow" class="external text" href="https://HistoricEngland.org.uk/listing/the-list/list-entry/1156614">"Remains of west wall of North Transept of Abbey (1156614)"</a>. <i>National Heritage List for England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Heritage+List+for+England&amp;rft.atitle=Remains+of+west+wall+of+North+Transept+of+Abbey+%281156614%29&amp;rft.au=Historic+England&amp;rft_id=https%3A%2F%2FHistoricEngland.org.uk%2Flisting%2Fthe-list%2Flist-entry%2F1156614&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHistoric_England1350068" class="citation web cs1">Historic England. <a rel="nofollow" class="external text" href="https://HistoricEngland.org.uk/listing/the-list/list-entry/1350068">"Remains of Abbey Stables (1350068)"</a>. <i>National Heritage List for England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Heritage+List+for+England&amp;rft.atitle=Remains+of+Abbey+Stables+%281350068%29&amp;rft.au=Historic+England&amp;rft_id=https%3A%2F%2FHistoricEngland.org.uk%2Flisting%2Fthe-list%2Flist-entry%2F1350068&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHistoric_England1005297" class="citation web cs1">Historic England. <a rel="nofollow" class="external text" href="https://HistoricEngland.org.uk/listing/the-list/list-entry/1005297">"Evesham Abbey (remains of) (scheduled monument) (1005297)"</a>. <i>National Heritage List for England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Heritage+List+for+England&amp;rft.atitle=Evesham+Abbey+%28remains+of%29+%28scheduled+monument%29+%281005297%29&amp;rft.au=Historic+England&amp;rft_id=https%3A%2F%2FHistoricEngland.org.uk%2Flisting%2Fthe-list%2Flist-entry%2F1005297&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://historicengland.org.uk/advice/heritage-at-risk/search-register/list-entry/37189">"Evesham Abbey (remains of)"</a>. <i>Heritage at Risk</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Heritage+at+Risk&amp;rft.atitle=Evesham+Abbey+%28remains+of%29&amp;rft_id=https%3A%2F%2Fhistoricengland.org.uk%2Fadvice%2Fheritage-at-risk%2Fsearch-register%2Flist-entry%2F37189&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://historicengland.org.uk/advice/heritage-at-risk/search-register/list-entry/253063">"The Almonry, Merstow Green, Evesham"</a>. <i>Heritage at Risk</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Heritage+at+Risk&amp;rft.atitle=The+Almonry%2C+Merstow+Green%2C+Evesham&amp;rft_id=https%3A%2F%2Fhistoricengland.org.uk%2Fadvice%2Fheritage-at-risk%2Fsearch-register%2Flist-entry%2F253063&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://historicengland.org.uk/advice/heritage-at-risk/search-register/list-entry/48001">"Abbot Reginalds Wall, Evesham Abbey"</a>. <i>Heritage at Risk</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Heritage+at+Risk&amp;rft.atitle=Abbot+Reginalds+Wall%2C+Evesham+Abbey&amp;rft_id=https%3A%2F%2Fhistoricengland.org.uk%2Fadvice%2Fheritage-at-risk%2Fsearch-register%2Flist-entry%2F48001&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-DNB00-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-DNB00_28-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFWoodward1897" class="citation encyclopaedia cs1"><a href="/wiki/Bernard_Barham_Woodward" title="Bernard Barham Woodward">Woodward, Bernard Barham</a> (1897). <span class="cs1-ws-icon" title="s:Dictionary of National Biography, 1885-1900/Rudge, Edward"><a class="external text" href="https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Rudge,_Edward">"Rudge, Edward"&#160;</a></span>.  In <a href="/wiki/Sidney_Lee" title="Sidney Lee">Lee, Sidney</a> (ed.). <i><a href="/wiki/Dictionary_of_National_Biography" title="Dictionary of National Biography">Dictionary of National Biography</a></i>. Vol.&#160;49. London: Smith, Elder &amp; Co. <q><i>sources:</i> [Burke's <i>Landed Gentry</i>; <i>Proc. Linn. Soc.</i> i. 315, 337; <i>Gent. Mag.</i> 1846 ii. 652, and 1817 i. 181; Britten and Boulger's <i>English Botanists</i>; Royal Soc. Cat.; Brit. Mus. Cat.]</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Rudge%2C+Edward&amp;rft.btitle=Dictionary+of+National+Biography&amp;rft.place=London&amp;rft.pub=Smith%2C+Elder+%26+Co&amp;rft.date=1897&amp;rft.aulast=Woodward&amp;rft.aufirst=Bernard+Barham&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><i>Evesham Abbey and the Parish Churches: A Guide</i>, p.8, and <i>The Victoria History of the County of Worcester</i>, p.387</span>
+</li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.catholic.org/saints/saint.php?saint_id=2753">Saint Credan</a> at Catholic.org</span>
+</li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text">'The Medieval Hagiography of Saint Ecgwine', p.79 &amp; p.83. This notes that Abbot Ælfweard occupied himself with increasing Evesham’s prestige, and instigated the translation of Saint Wigstan to Evesham, and <i>Evesham Abbey and the Parish Churches: A Guide</i>, p.8. <a href="/wiki/Edward_John_Rudge" title="Edward John Rudge">E.J. Rudge</a>, p.13 notes that Ælfweard entreated King Canute to present the abbey church with the relics of Wystan. George May (1834), p.47 refers to St Wulstan. Also see <i>The Victoria History of the County of Worcester</i>, p.387 and 'The Mitred Abbey of St. Mary, Evesham', p.12.</span>
+</li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text">'The Medieval Hagiography of Saint Ecgwine', p.79 &amp; p.83. This notes that Abbot Ælfweard occupied himself with increasing Evesham’s prestige, and purchased the relics of Saint Odulf.</span>
+</li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><i>Evesham Abbey and the Parish Churches: A Guide</i>, p.8; <i>The Victoria History of the County of Worcester</i>, p.387</span>
+</li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text">The <a href="/wiki/Oxford_Dictionary_of_Saints" title="Oxford Dictionary of Saints">Oxford Dictionary of Saints</a>, <a href="/wiki/Oxford_University_Press" title="Oxford University Press">Oxford University Press</a>.</span>
+</li>
+<li id="cite_note-pager_19-35"><span class="mw-cite-backlink">^ <a href="#cite_ref-pager_19_35-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-pager_19_35-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Emma Hornby, David Nicholas Maw, Essays on the History of English Music in Honour of John Caldwell (Boydell &amp; Brewer, 2010) <a rel="nofollow" class="external text" href="https://books.google.com/books?id=ERDFUoTmK0sC&amp;pg=PA10">p.10</a></span>
+</li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://archive.today/20140103065303/http://www.bl.uk/manuscripts/Viewer.aspx?ref=stowe_ms_944_f029v">Stowe MS 944</a>, <a href="/wiki/British_Library" title="British Library">British Library</a></span>
+</li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text">On St. Odulf see ‘The Medieval <a href="/wiki/Dominic_of_Evesham" title="Dominic of Evesham">Hagiographies of Saint Ecgwine</a>’, p.79 &amp; p.83. This notes that Abbot Ælfweard occupied himself with increasing Evesham’s prestige, and purchased the relics of <a href="/w/index.php?title=Saint_Odulf&amp;action=edit&amp;redlink=1" class="new" title="Saint Odulf (page does not exist)">Saint Odulf</a> and see also the <i><a href="/wiki/Dominic_of_Evesham" title="Dominic of Evesham">hagiography of St Odulf</a></i></span>
+</li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text">In the Ave presul gloriose I Augustine he is linked with <a href="/wiki/Oda_of_Canterbury" title="Oda of Canterbury">Oda of Canterbury</a></span>
+</li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text">Mullins, E. L. C. (1958). Texts and Calendars I: An Analytical Guide to Serial Publications. Royal Historical Society Guides and Handbooks No. 7. London: Royal Historical Society.</span>
+</li>
+<li id="cite_note-40"><span class="mw-cite-backlink"><b><a href="#cite_ref-40">^</a></b></span> <span class="reference-text">On the burial of Simon de Montfort see George May, <i>The History of Evesham</i> (1834), p.65; E.J. Rudge, <i>A Short History of Evesham</i>, p.141; William Tindal, <i>History and Antiquities of Evesham</i>, p.137; <i>Evesham Abbey and the Parish Churches: A Guide</i>, p.8.</span>
+</li>
+<li id="cite_note-41"><span class="mw-cite-backlink"><b><a href="#cite_ref-41">^</a></b></span> <span class="reference-text">George May (1834), p.65; E.J. Rudge, p.141; Tindal, p.137; Douglas Greenwood, p.81</span>
+</li>
+<li id="cite_note-42"><span class="mw-cite-backlink"><b><a href="#cite_ref-42">^</a></b></span> <span class="reference-text">George May (1834), p.65; Tindal, p.137; E.J. Rudge, p.141.</span>
+</li>
+<li id="cite_note-43"><span class="mw-cite-backlink"><b><a href="#cite_ref-43">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFCharity_Commission5070917" class="citation web cs1"><a rel="nofollow" class="external text" href="https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=5070917&amp;subId=0">"<i>Evesham Abbey Trust, registered charity no. 5070917</i>"</a>. <a href="/wiki/Charity_Commission_for_England_and_Wales" title="Charity Commission for England and Wales">Charity Commission for England and Wales</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Evesham+Abbey+Trust%2C+registered+charity+no.+5070917&amp;rft.pub=Charity+Commission+for+England+and+Wales&amp;rft_id=https%3A%2F%2Fregister-of-charities.charitycommission.gov.uk%2Fcharity-details%2F%3FregId%3D5070917%26subId%3D0&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-44"><span class="mw-cite-backlink"><b><a href="#cite_ref-44">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.eveshamabbey.org.uk/About/About_Us.html">"About Us"</a>. <i>Evesham Abbey Trust</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Evesham+Abbey+Trust&amp;rft.atitle=About+Us&amp;rft_id=https%3A%2F%2Fwww.eveshamabbey.org.uk%2FAbout%2FAbout_Us.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+<li id="cite_note-45"><span class="mw-cite-backlink"><b><a href="#cite_ref-45">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.eveshamabbey.org.uk/Programme.html">"Programme"</a>. <i>Evesham Abbey Trust</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Evesham+Abbey+Trust&amp;rft.atitle=Programme&amp;rft_id=https%3A%2F%2Fwww.eveshamabbey.org.uk%2FProgramme.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEvesham+Abbey" class="Z3988"></span></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="Bibliography">Bibliography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit&amp;section=9" title="Edit section: Bibliography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Thomas of Marlborough (c.1190–1236) <i>History of the Abbey of Evesham</i> Ed. and trans. by Jane Sayers and Leslie Watkiss, Oxford University Press <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-19-820480-0" title="Special:BookSources/978-0-19-820480-0">978-0-19-820480-0</a>, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-19-820480-9" title="Special:BookSources/0-19-820480-9">0-19-820480-9</a></li>
+<li>Cox, David, <i>The Church and Vale of Evesham 700-1215: Lordship, Landscape and Prayer</i> Boydell Press, 2015. <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1-78327-077-4" title="Special:BookSources/978-1-78327-077-4">978-1-78327-077-4</a>.</li>
+<li><i>Evesham Abbey and the Parish Churches: A Guide</i></li>
+<li><i>Evesham Abbey and Local Society in the Late Middle Ages: The Abbot's Household Account 1456–7 and the Priors' Registers 1520–40</i>, ed. David Cox, Worcestershire Historical Society, new ser. 30, 2021</li>
+<li>Walker, John A., Selection of curious articles from the Gentleman's magazine, vol. 1, 1811, Chap. LXXXV, <i><a rel="nofollow" class="external text" href="https://books.google.com/books?id=DI9PAAAAMAAJ&amp;pg=PA334&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U2TQ3E6LvE3yuf9k4DlvG8dB8iYRQ&amp;ci=165%2C780%2C765%2C67&amp;edge=0">Historical Account of the Abbey of Evesham</a></i>, pp.&#160;334&#8211;342. Accessed 31 July 2012.</li></ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Evesham_Abbey&amp;action=edit&amp;section=10" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/File:Commons-logo.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" decoding="async" width="12" height="16" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> Media related to <a href="https://commons.wikimedia.org/wiki/Category:Evesham_Abbey" class="extiw" title="commons:Category:Evesham Abbey">Evesham Abbey</a> at Wikimedia Commons
+</p>
+<ul><li><a rel="nofollow" class="external text" href="https://www.eveshamabbey.org.uk/">Evesham Abbey Trust</a></li></ul>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Monasteries_in_Worcestershire" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Monasteries_in_Worcestershire" title="Template:Monasteries in Worcestershire"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Monasteries_in_Worcestershire" title="Template talk:Monasteries in Worcestershire"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Monasteries_in_Worcestershire&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Monasteries_in_Worcestershire" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_monastic_houses_in_Worcestershire" title="List of monastic houses in Worcestershire">Monasteries in Worcestershire</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Augustinians" title="Augustinians">Augustinian</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Beckford_Priory" title="Beckford Priory">Beckford Priory</a></li>
+<li><a href="/wiki/Dodford_Priory" title="Dodford Priory">Dodford Priory</a></li>
+<li><a href="/wiki/Droitwich_Austin_Friars" title="Droitwich Austin Friars">Droitwich Austin Friars</a></li>
+<li>Witton Priory</li></ul>
+</div></td><td class="noviewer navbox-image" rowspan="10" style="width:1px;padding:0 0 0 2px"><div><a href="/wiki/File:Worcestershire_flag.svg" class="image"><img alt="Worcestershire flag.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Worcestershire_flag.svg/166px-Worcestershire_flag.svg.png" decoding="async" width="166" height="100" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Worcestershire_flag.svg/249px-Worcestershire_flag.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Worcestershire_flag.svg/332px-Worcestershire_flag.svg.png 2x" data-file-width="512" data-file-height="308" /></a></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Order_of_Saint_Benedict" class="mw-redirect" title="Order of Saint Benedict">Benedictine</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Astley_Priory" title="Astley Priory">Astley Priory</a></li>
+<li>Bredon Monastery</li>
+<li><a class="mw-selflink selflink">Evesham Abbey</a></li>
+<li><a href="/wiki/Great_Malvern_Priory" title="Great Malvern Priory">Great Malvern Priory</a></li>
+<li><a href="/wiki/Little_Malvern_Priory" title="Little Malvern Priory">Little Malvern Priory</a></li>
+<li><a href="/wiki/Pershore_Abbey" title="Pershore Abbey">Pershore Abbey</a></li>
+<li><a href="/wiki/Stanbrook_Abbey" title="Stanbrook Abbey">Stanbrook Abbey</a></li>
+<li><a href="/wiki/Worcester_Cathedral" title="Worcester Cathedral">Worcester Priory</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Brothers_of_Penitence" title="Brothers of Penitence">Brothers of Penitence</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li>Worcester Friars of the Sack</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Cistercian" class="mw-redirect" title="Cistercian">Cistercian</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Bordesley_Abbey" title="Bordesley Abbey">Bordesley Abbey</a></li>
+<li><a href="/wiki/Cookhill_Priory" title="Cookhill Priory">Cookhill Priory</a></li>
+<li><a href="/wiki/Whistones_Priory" title="Whistones Priory">Whistones Priory</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Dominican_Order" title="Dominican Order">Dominican</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Worcester_Blackfriars" title="Worcester Blackfriars">Worcester Blackfriars</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Franciscan" class="mw-redirect" title="Franciscan">Franciscan</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Greyfriars,_Worcester" title="Greyfriars, Worcester">Greyfriars, Worcester</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Penitent Sisters</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li>Worcester Penitent Sisters Friary</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Premonstratensian" class="mw-redirect" title="Premonstratensian">Premonstratensian</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Dodford_Priory" title="Dodford Priory">Dodford Priory</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Congregation_of_Savigny" title="Congregation of Savigny">Savigniac</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Bordesley_Abbey" title="Bordesley Abbey">Bordesley Abbey</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Independent</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li>Alderminster</li>
+<li>Fladbury Monastery</li>
+<li><a href="/wiki/Hanbury,_Worcestershire#Hanbury_Monastery" title="Hanbury, Worcestershire">Hanbury Monastery</a></li>
+<li>Kempsey Monastery</li></ul>
+</div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox" aria-labelledby="Benedictine_abbeys_and_priories_in_medieval_England_and_Wales" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"/><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Benedictine_houses_of_England_and_Wales" title="Template:Benedictine houses of England and Wales"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Benedictine_houses_of_England_and_Wales" title="Template talk:Benedictine houses of England and Wales"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Benedictine_houses_of_England_and_Wales&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Benedictine_abbeys_and_priories_in_medieval_England_and_Wales" style="font-size:114%;margin:0 4em"><a href="/wiki/Benedictine" class="mw-redirect" title="Benedictine">Benedictine</a> <a href="/wiki/Abbey" title="Abbey">abbeys</a> and <a href="/wiki/Priory" title="Priory">priories</a> in medieval England and Wales</div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">Independent<br />houses</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Abbotsbury_Abbey" title="Abbotsbury Abbey">Abbotsbury</a></li>
+<li><a href="/wiki/Priory_Church_of_St_Mary,_Abergavenny" title="Priory Church of St Mary, Abergavenny">Abergavenny</a></li>
+<li><a href="/wiki/Abingdon_Abbey" title="Abingdon Abbey">Abingdon</a></li>
+<li><a href="/wiki/Alcester_Abbey" title="Alcester Abbey">Alcester</a></li>
+<li><a href="/wiki/Athelney_Abbey" title="Athelney Abbey">Athelney</a></li>
+<li><a href="/wiki/Bardney_Abbey" title="Bardney Abbey">Bardney</a></li>
+<li><a href="/wiki/Bath_Abbey" title="Bath Abbey">Bath</a></li>
+<li><a href="/wiki/Battle_Abbey" title="Battle Abbey">Battle</a></li>
+<li><a href="/wiki/Bedford_Abbey" title="Bedford Abbey">Bedford</a></li>
+<li><a href="/wiki/Birkenhead_Priory" title="Birkenhead Priory">Birkenhead</a></li>
+<li><a href="/wiki/Bradwell_Abbey" title="Bradwell Abbey">Bradwell</a></li>
+<li><a href="/wiki/Black_Ladies_Priory" title="Black Ladies Priory">Brewood (Black Ladies)</a></li>
+<li><a href="/wiki/Buckfast_Abbey" title="Buckfast Abbey">Buckfast</a></li>
+<li><a href="/wiki/Burton_Abbey" title="Burton Abbey">Burton</a></li>
+<li><a href="/wiki/Bury_St_Edmunds_Abbey" title="Bury St Edmunds Abbey">Bury St Edmunds</a></li>
+<li><a href="/wiki/Canterbury_Cathedral" title="Canterbury Cathedral">Canterbury (Christ Church)</a></li>
+<li><a href="/wiki/St_Augustine%27s_Abbey" title="St Augustine&#39;s Abbey">Canterbury (St Augustine's)</a></li>
+<li><a href="/wiki/Canwell_Priory" title="Canwell Priory">Canwell</a></li>
+<li><a href="/wiki/Cerne_Abbey" title="Cerne Abbey">Cerne</a></li>
+<li><a href="/wiki/Chertsey_Abbey" title="Chertsey Abbey">Chertsey</a></li>
+<li><a href="/wiki/Chester_Cathedral" title="Chester Cathedral">Chester</a></li>
+<li><a href="/wiki/Cholsey_Abbey" title="Cholsey Abbey">Cholsey</a></li>
+<li><a href="/wiki/St._John%27s_Abbey,_Colchester" class="mw-redirect" title="St. John&#39;s Abbey, Colchester">Colchester</a></li>
+<li><a href="/wiki/Coventry_Cathedral" title="Coventry Cathedral">Coventry</a></li>
+<li><a href="/wiki/Crowland_Abbey" title="Crowland Abbey">Crowland</a></li>
+<li><a href="/wiki/Durham_Cathedral_Priory" class="mw-redirect" title="Durham Cathedral Priory">Durham</a></li>
+<li><a href="/wiki/Ely_Cathedral" title="Ely Cathedral">Ely</a></li>
+<li><a class="mw-selflink selflink">Evesham</a></li>
+<li><a href="/wiki/Eynsham_Abbey" title="Eynsham Abbey">Eynsham</a></li>
+<li><a href="/wiki/Farewell_Priory" title="Farewell Priory">Farewell Priory</a></li>
+<li><a href="/wiki/Faversham_Abbey" title="Faversham Abbey">Faversham</a></li>
+<li><a href="/wiki/Glastonbury_Abbey" title="Glastonbury Abbey">Glastonbury</a></li>
+<li><a href="/wiki/Gloucester_Abbey" class="mw-redirect" title="Gloucester Abbey">Gloucester</a></li>
+<li><a href="/wiki/Humberston_Abbey" title="Humberston Abbey">Humberston</a></li>
+<li><a href="/wiki/Luffield_Abbey" title="Luffield Abbey">Luffield</a></li>
+<li><a href="/wiki/Malmesbury_Abbey" title="Malmesbury Abbey">Malmesbury</a></li>
+<li><a href="/wiki/Milton_Abbey_School" title="Milton Abbey School">Milton</a></li>
+<li><a href="/wiki/Monk_Bretton_Priory" title="Monk Bretton Priory">Monk Bretton</a></li>
+<li><a href="/wiki/Muchelney_Abbey" title="Muchelney Abbey">Muchelney</a></li>
+<li><a href="/wiki/Molycourt_Priory" title="Molycourt Priory">Molycourt</a></li>
+<li><a href="/w/index.php?title=Norwich_Cathedral_Priory&amp;action=edit&amp;redlink=1" class="new" title="Norwich Cathedral Priory (page does not exist)">Norwich (Holy Trinity)</a></li>
+<li><a href="/wiki/Pershore_Abbey" title="Pershore Abbey">Pershore</a></li>
+<li><a href="/wiki/Peterborough_Cathedral" title="Peterborough Cathedral">Peterborough</a></li>
+<li><a href="/wiki/Ramsey_Abbey" title="Ramsey Abbey">Ramsey</a></li>
+<li><a href="/wiki/Reading_Abbey" title="Reading Abbey">Reading</a></li>
+<li><a href="/wiki/Repton_Abbey" title="Repton Abbey">Repton</a></li>
+<li><a href="/wiki/Rochester_Cathedral" title="Rochester Cathedral">Rochester</a></li>
+<li><a href="/wiki/St_Albans_Abbey" class="mw-redirect" title="St Albans Abbey">St Albans</a></li>
+<li><a href="/wiki/St_Benet%27s_Abbey" title="St Benet&#39;s Abbey">St Benet of Hulme</a></li>
+<li><a href="/wiki/Sandwell_Priory" title="Sandwell Priory">Sandwell</a></li>
+<li><a href="/wiki/Selby_Abbey" title="Selby Abbey">Selby</a></li>
+<li><a href="/wiki/Sherborne_Abbey" title="Sherborne Abbey">Sherborne</a></li>
+<li><a href="/wiki/Shrewsbury_Abbey" title="Shrewsbury Abbey">Shrewsbury</a></li>
+<li><a href="/wiki/Snelshall_Priory" title="Snelshall Priory">Snelshall</a></li>
+<li><a href="/wiki/Tavistock_Abbey" title="Tavistock Abbey">Tavistock</a></li>
+<li><a href="/wiki/Tewkesbury_Abbey" title="Tewkesbury Abbey">Tewkesbury</a></li>
+<li><a href="/wiki/Thorney_Abbey" title="Thorney Abbey">Thorney</a></li>
+<li><a href="/wiki/Upholland_Priory" class="mw-redirect" title="Upholland Priory">Upholland</a></li>
+<li><a href="/wiki/Walden_Abbey" title="Walden Abbey">Walden</a></li>
+<li><a href="/wiki/Westminster_Abbey" title="Westminster Abbey">Westminster</a></li>
+<li><a href="/wiki/Whitby_Abbey" title="Whitby Abbey">Whitby</a></li>
+<li><a href="/wiki/Winchcombe_Abbey" title="Winchcombe Abbey">Winchcombe</a></li>
+<li><a href="/wiki/Hyde_Abbey" title="Hyde Abbey">Winchester (New Minster)</a></li>
+<li><a href="/wiki/Winchester_Cathedral_Priory" title="Winchester Cathedral Priory">Winchester (St Swithun)</a></li>
+<li><a href="/wiki/Worcester_Cathedral" title="Worcester Cathedral">Worcester</a></li>
+<li><a href="/wiki/St_Mary%27s_Abbey,_York" title="St Mary&#39;s Abbey, York">York (St Mary's)</a></li></ul>
+</div></td><td class="noviewer navbox-image" rowspan="3" style="width:1px;padding:0 0 0 2px"><div><a href="/wiki/File:Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG" class="image"><img alt="Croyland Abbey &amp; Parish Church of Crowland.JPG" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG/150px-Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG" decoding="async" width="150" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG/225px-Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG/300px-Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG 2x" data-file-width="1944" data-file-height="2592" /></a></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Dependent<br />houses</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Aldeby_Priory" title="Aldeby Priory">Aldeby</a></li>
+<li><a href="/w/index.php?title=Alkborough_Priory&amp;action=edit&amp;redlink=1" class="new" title="Alkborough Priory (page does not exist)">Alkborough</a></li>
+<li><a href="/wiki/Alcester_Abbey" title="Alcester Abbey">Alcester</a></li>
+<li><a href="/wiki/Alvecote_Priory" title="Alvecote Priory">Alvecote</a></li>
+<li><a href="/wiki/Beadlow_Priory" title="Beadlow Priory">Beadlow</a></li>
+<li><a href="/wiki/Bedemans_Berg_Priory" class="mw-redirect" title="Bedemans Berg Priory">Bedemans Berg</a></li>
+<li><a href="/wiki/Belvoir_Priory" title="Belvoir Priory">Belvoir</a></li>
+<li><a href="/wiki/Binham_Priory" title="Binham Priory">Binham</a></li>
+<li><a href="/wiki/Breedon_Priory" class="mw-redirect" title="Breedon Priory">Breedon</a></li>
+<li><a href="/wiki/Brecon_Cathedral" title="Brecon Cathedral">Brecon</a></li>
+<li><a href="/wiki/St_James%27_Priory,_Bristol" title="St James&#39; Priory, Bristol">Bristol</a></li>
+<li><a href="/wiki/Bromfield_Priory" title="Bromfield Priory">Bromfield</a></li>
+<li><a href="/w/index.php?title=Cardiff_Priory&amp;action=edit&amp;redlink=1" class="new" title="Cardiff Priory (page does not exist)">Cardiff</a></li>
+<li><a href="/wiki/Cardigan_Priory" title="Cardigan Priory">Cardigan</a></li>
+<li><a href="/wiki/Cranborne_Priory" title="Cranborne Priory">Cranborne</a></li>
+<li><a href="/w/index.php?title=Darenth_Priory&amp;action=edit&amp;redlink=1" class="new" title="Darenth Priory (page does not exist)">Darenth</a></li>
+<li><a href="/w/index.php?title=Deeping_Priory&amp;action=edit&amp;redlink=1" class="new" title="Deeping Priory (page does not exist)">Deeping</a></li>
+<li><a href="/wiki/Dover_Priory" title="Dover Priory">Dover</a></li>
+<li><a href="/wiki/Dunster_Priory" title="Dunster Priory">Dunster</a></li>
+<li><a href="/wiki/Colne_Priory" title="Colne Priory">Earls Colne</a></li>
+<li><a href="/wiki/Ewenny_Priory" title="Ewenny Priory">Ewenny</a></li>
+<li><a href="/w/index.php?title=Ewyas_Harold_Priory&amp;action=edit&amp;redlink=1" class="new" title="Ewyas Harold Priory (page does not exist)">Ewyas Harold</a></li>
+<li><a href="/wiki/Exeter_Priory" class="mw-redirect" title="Exeter Priory">Exeter</a></li>
+<li><a href="/w/index.php?title=Farne_Priory&amp;action=edit&amp;redlink=1" class="new" title="Farne Priory (page does not exist)">Farne</a></li>
+<li><a href="/wiki/Felixstowe_Priory" class="mw-redirect" title="Felixstowe Priory">Felixstowe</a></li>
+<li><a href="/wiki/Finchale_Priory" title="Finchale Priory">Finchale</a></li>
+<li><a href="/wiki/Freiston_Priory" title="Freiston Priory">Freiston</a></li>
+<li><a href="/wiki/Great_Malvern_Priory" title="Great Malvern Priory">Great Malvern</a></li>
+<li><a href="/wiki/Hatfield_Peverel_Priory" title="Hatfield Peverel Priory">Hatfield Peverel</a></li>
+<li><a href="/wiki/Sandtoft_Priory" title="Sandtoft Priory">Henes (Sandtoft)</a></li>
+<li><a href="/wiki/Saint_Guthlac%27s_Priory" class="mw-redirect" title="Saint Guthlac&#39;s Priory">Hereford</a></li>
+<li><a href="/w/index.php?title=Hertford_Priory&amp;action=edit&amp;redlink=1" class="new" title="Hertford Priory (page does not exist)">Hertford</a></li>
+<li><a href="/wiki/Lindisfarne" title="Lindisfarne">Holy Island</a></li>
+<li><a href="/wiki/Horton_Priory" title="Horton Priory">Horton</a></li>
+<li><a href="/wiki/Hoxne_Priory" title="Hoxne Priory">Hoxne</a></li>
+<li><a href="/wiki/Hurley_Priory" title="Hurley Priory">Hurley</a></li>
+<li><a href="/wiki/Monkwearmouth%E2%80%93Jarrow_Abbey" title="Monkwearmouth–Jarrow Abbey">Jarrow</a></li>
+<li><a href="/wiki/Kidwelly_Priory" title="Kidwelly Priory">Kidwelly</a></li>
+<li><a href="/wiki/Kilpeck_Priory" title="Kilpeck Priory">Kilpeck </a></li>
+<li><a href="/wiki/King%27s_Mead_Priory" title="King&#39;s Mead Priory">King's Mead</a></li>
+<li><a href="/wiki/Benedictine_Priory,_King%27s_Lynn" title="Benedictine Priory, King&#39;s Lynn">Kings Lynn</a></li>
+<li><a href="/wiki/Lammana_Priory" title="Lammana Priory">Lammana</a></li>
+<li><a href="/wiki/Langley_Priory" title="Langley Priory">Langley</a></li>
+<li><a href="/wiki/Priory_Church,_Leominster" title="Priory Church, Leominster">Leominster</a></li>
+<li><a href="/wiki/Leonard_Stanley_Priory" title="Leonard Stanley Priory">Leonard Stanley</a></li>
+<li><a href="/w/index.php?title=Mary_Magdalen_Priory,_Lincoln&amp;action=edit&amp;redlink=1" class="new" title="Mary Magdalen Priory, Lincoln (page does not exist)">Lincoln</a></li>
+<li><a href="/wiki/Little_Malvern_Priory" title="Little Malvern Priory">Little Malvern</a></li>
+<li><a href="/wiki/Littlemore_Priory" class="mw-redirect" title="Littlemore Priory">Littlemore</a></li>
+<li><a href="/wiki/Lytham_Priory" title="Lytham Priory">Lytham</a></li>
+<li><a href="/wiki/Middlesbrough_Priory" title="Middlesbrough Priory">Middlesbrough</a></li>
+<li><a href="/wiki/St_Peter%27s_Church,_Monkwearmouth" title="St Peter&#39;s Church, Monkwearmouth">Monkwearmouth</a></li>
+<li><a href="/wiki/Morville_Priory" title="Morville Priory">Morville</a></li>
+<li><a href="/wiki/St._Leonard%27s_Priory,_Norwich" title="St. Leonard&#39;s Priory, Norwich">Norwich (St Leonard's)</a></li>
+<li><a href="/wiki/Canterbury_College,_Oxford" title="Canterbury College, Oxford">Oxford (of Canterbury)</a></li>
+<li><a href="/wiki/Durham_College,_Oxford" title="Durham College, Oxford">Oxford (of Durham)</a></li>
+<li><a href="/wiki/Gloucester_College,_Oxford" title="Gloucester College, Oxford">Oxford (of Gloucester)</a></li>
+<li><a href="/wiki/Penwortham_Priory" title="Penwortham Priory">Penwortham</a></li>
+<li><a href="/wiki/Pilton_Priory" class="mw-redirect" title="Pilton Priory">Pilton</a></li>
+<li><a href="/wiki/Redbourne_Priory" class="mw-redirect" title="Redbourne Priory">Redbourne</a></li>
+<li><a href="/wiki/Sheen_Priory" title="Sheen Priory">Richmond</a></li>
+<li><a href="/wiki/Rumburgh_Priory" title="Rumburgh Priory">Rumburgh</a></li>
+<li><a href="/wiki/St_Bees_Priory" title="St Bees Priory">St Bees</a></li>
+<li><a href="/wiki/St_Ives_Priory" title="St Ives Priory">St Ives</a></li>
+<li><a href="/w/index.php?title=Scilly_Priory&amp;action=edit&amp;redlink=1" class="new" title="Scilly Priory (page does not exist)">Scilly</a></li>
+<li><a href="/w/index.php?title=Snaith_Priory&amp;action=edit&amp;redlink=1" class="new" title="Snaith Priory (page does not exist)">Snaith</a></li>
+<li><a href="/wiki/Snape_Priory" title="Snape Priory">Snape</a></li>
+<li><a href="/w/index.php?title=Stamford_Priory&amp;action=edit&amp;redlink=1" class="new" title="Stamford Priory (page does not exist)">Stamford</a></li>
+<li><a href="/wiki/Studley_Priory,_Oxfordshire" title="Studley Priory, Oxfordshire">Studley (Oxfordshire)</a></li>
+<li><a href="/wiki/Studley_Priory,_Warwickshire" title="Studley Priory, Warwickshire">Studley (Warwickshire)</a></li>
+<li><a href="/wiki/Tickhill_Friary" title="Tickhill Friary">Tickhill</a></li>
+<li><a href="/wiki/Tynemouth_Castle_and_Priory" title="Tynemouth Castle and Priory">Tynemouth</a></li>
+<li><a href="/wiki/Wallingford_Priory" title="Wallingford Priory">Wallingford</a></li>
+<li><a href="/wiki/Holy_Trinity_Church,_Westbury_on_Trym" title="Holy Trinity Church, Westbury on Trym">Westbury-on-Trym</a></li>
+<li><a href="/wiki/Wetheral_Priory_Gatehouse" title="Wetheral Priory Gatehouse">Wetheral</a></li>
+<li><a href="/wiki/Wymondham_Abbey" title="Wymondham Abbey">Wymondham</a></li>
+<li><a href="/w/index.php?title=Yarmouth_Priory&amp;action=edit&amp;redlink=1" class="new" title="Yarmouth Priory (page does not exist)">Yarmouth</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Alien_priory" title="Alien priory">Alien<br />priories</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Allerton_Mauleverer_Priory" title="Allerton Mauleverer Priory">Allerton Mauleverer</a></li>
+<li><a href="/wiki/Andover_Priory" title="Andover Priory">Andover</a></li>
+<li><a href="/wiki/Andwell_Priory" title="Andwell Priory">Andwell</a></li>
+<li><a href="/w/index.php?title=Appuldurcombe_Priory&amp;action=edit&amp;redlink=1" class="new" title="Appuldurcombe Priory (page does not exist)">Appuldurcombe</a></li>
+<li><a href="/wiki/Arundel_Priory" title="Arundel Priory">Arundel</a></li>
+<li><a href="/wiki/Astley_Priory" title="Astley Priory">Astley </a></li>
+<li><a href="/w/index.php?title=Aston_Priory&amp;action=edit&amp;redlink=1" class="new" title="Aston Priory (page does not exist)">Aston Priors</a></li>
+<li><a href="/wiki/Atherington_Priory" class="mw-redirect" title="Atherington Priory">Atherington </a></li>
+<li><a href="/wiki/Avebury_Priory" title="Avebury Priory">Avebury</a></li>
+<li><a href="/wiki/Axmouth_Priory" class="mw-redirect" title="Axmouth Priory">Axmouth</a></li>
+<li><a href="/wiki/Blyth_Priory" title="Blyth Priory">Blyth</a></li>
+<li><a href="/wiki/Boxgrove_Priory" title="Boxgrove Priory">Boxgrove</a></li>
+<li><a href="/wiki/Brimpsfield_Priory" title="Brimpsfield Priory">Brimpsfield</a></li>
+<li><a href="/w/index.php?title=Burstall_Priory&amp;action=edit&amp;redlink=1" class="new" title="Burstall Priory (page does not exist)">Burstall</a></li>
+<li><a href="/wiki/Burwell_Priory" title="Burwell Priory">Burwell</a></li>
+<li><a href="/w/index.php?title=Caldy_Priory&amp;action=edit&amp;redlink=1" class="new" title="Caldy Priory (page does not exist)">Caldy</a></li>
+<li><a href="/wiki/Carisbrooke_Priory" title="Carisbrooke Priory">Carisbrooke</a></li>
+<li><a href="/wiki/St_Mary%27s_Church,_Chepstow" class="mw-redirect" title="St Mary&#39;s Church, Chepstow">Chepstow</a></li>
+<li><a href="/wiki/Clatford_Priory" title="Clatford Priory">Clatford</a></li>
+<li><a href="/wiki/Cogges#Benedictine_priory" title="Cogges">Cogges</a></li>
+<li><a href="/wiki/Corsham_Priory" class="mw-redirect" title="Corsham Priory">Corsham</a></li>
+<li><a href="/wiki/Covenham_Priory" title="Covenham Priory">Covenham</a></li>
+<li><a href="/w/index.php?title=Cowick_Priory&amp;action=edit&amp;redlink=1" class="new" title="Cowick Priory (page does not exist)">Cowick</a></li>
+<li><a href="/wiki/Creeting_St._Mary_Priory" class="mw-redirect" title="Creeting St. Mary Priory">Creeting (St. Mary)</a></li>
+<li><a href="/wiki/Creeting_St._Olave_Priory" class="mw-redirect" title="Creeting St. Olave Priory">Creeting (St. Olave)</a></li>
+<li><a href="/w/index.php?title=Debden_Priory&amp;action=edit&amp;redlink=1" class="new" title="Debden Priory (page does not exist)">Debden</a></li>
+<li><a href="/wiki/Deerhurst_Abbey" class="mw-redirect" title="Deerhurst Abbey">Deerhurst</a></li>
+<li><a href="/w/index.php?title=Dunwich_Priory&amp;action=edit&amp;redlink=1" class="new" title="Dunwich Priory (page does not exist)">Dunwich</a></li>
+<li><a href="/wiki/Ecclesfield_Priory" title="Ecclesfield Priory">Ecclesfield</a></li>
+<li><a href="/wiki/Edith_Weston_Priory" title="Edith Weston Priory">Edith Weston</a></li>
+<li><a href="/wiki/Ellingham_Priory" title="Ellingham Priory">Ellingham</a></li>
+<li><a href="/wiki/Everdon_Priory" title="Everdon Priory">Everdon</a></li>
+<li><a href="/wiki/Eye_Priory" title="Eye Priory">Eye</a></li>
+<li><a href="/wiki/Folkestone_Priory" title="Folkestone Priory">Folkestone</a></li>
+<li><a href="/wiki/Frampton_Priory" title="Frampton Priory">Frampton</a></li>
+<li><a href="/wiki/Goldcliff_Priory" title="Goldcliff Priory">Goldcliff</a></li>
+<li><a href="/wiki/Grovebury_Priory" title="Grovebury Priory">Grovebury</a></li>
+<li><a href="/w/index.php?title=Hamble_Priory&amp;action=edit&amp;redlink=1" class="new" title="Hamble Priory (page does not exist)">Hamble</a></li>
+<li><a href="/w/index.php?title=Harmondsworth_Priory&amp;action=edit&amp;redlink=1" class="new" title="Harmondsworth Priory (page does not exist)">Harmondsworth</a></li>
+<li><a href="/wiki/Hatfield_Regis_Priory" title="Hatfield Regis Priory">Hatfield Regis</a></li>
+<li><a href="/wiki/Haugham_Priory" title="Haugham Priory">Haugham</a></li>
+<li><a href="/w/index.php?title=Hayling_Priory&amp;action=edit&amp;redlink=1" class="new" title="Hayling Priory (page does not exist)">Hayling</a></li>
+<li><a href="/w/index.php?title=Headley_Priory&amp;action=edit&amp;redlink=1" class="new" title="Headley Priory (page does not exist)">Headley</a></li>
+<li><a href="/wiki/Hinckley_Priory" title="Hinckley Priory">Hinckley</a></li>
+<li><a href="/w/index.php?title=Holbeck_Priory&amp;action=edit&amp;redlink=1" class="new" title="Holbeck Priory (page does not exist)">Holbeck</a></li>
+<li><a href="/wiki/Horsham_St._Faith_Priory" title="Horsham St. Faith Priory">Horsham St Faith</a></li>
+<li><a href="/wiki/Horsley_Priory" title="Horsley Priory">Horsley</a></li>
+<li><a href="/wiki/Lancaster_Priory" title="Lancaster Priory">Lancaster</a></li>
+<li><a href="/wiki/Lapley_Priory" title="Lapley Priory">Lapley</a></li>
+<li><a href="/wiki/Lewisham_Priory" title="Lewisham Priory">Lewisham</a></li>
+<li><a href="/wiki/Isleham_Priory_Church" title="Isleham Priory Church">Isleham</a></li>
+<li><a href="/w/index.php?title=Livers_Ocle_Priory&amp;action=edit&amp;redlink=1" class="new" title="Livers Ocle Priory (page does not exist)">Livers Ocle</a></li>
+<li><a href="/w/index.php?title=Llangennith_Priory&amp;action=edit&amp;redlink=1" class="new" title="Llangennith Priory (page does not exist)">Llangennith</a></li>
+<li><a href="/w/index.php?title=Llangua_Priory&amp;action=edit&amp;redlink=1" class="new" title="Llangua Priory (page does not exist)">Llangua</a></li>
+<li><a href="/wiki/Loders_Priory" title="Loders Priory">Loders</a></li>
+<li><a href="/w/index.php?title=Minster_Priory&amp;action=edit&amp;redlink=1" class="new" title="Minster Priory (page does not exist)">Minster</a></li>
+<li><a href="/wiki/Minster_Lovell_Priory" title="Minster Lovell Priory">Minster Lovell</a></li>
+<li><a href="/wiki/Minting_Priory" title="Minting Priory">Minting</a></li>
+<li><a href="/wiki/Modbury_Priory" title="Modbury Priory">Modbury</a></li>
+<li><a href="/wiki/Monks_Kirby_Priory" title="Monks Kirby Priory">Monks Kirby</a></li>
+<li><a href="/wiki/Pamber_Priory" title="Pamber Priory">Monk Sherborne (Pamber)</a></li>
+<li><a href="/wiki/Monmouth_Priory" title="Monmouth Priory">Monmouth</a></li>
+<li><a href="/wiki/Newent_Priory" class="mw-redirect" title="Newent Priory">Newent</a></li>
+<li><a href="/wiki/Ogbourne_Priory" title="Ogbourne Priory">Ogbourne</a></li>
+<li><a href="/wiki/Otterton_Priory" title="Otterton Priory">Otterton</a></li>
+<li><a href="/wiki/Panfield_Priory" title="Panfield Priory">Panfield</a></li>
+<li><a href="/w/index.php?title=Pembroke_Priory&amp;action=edit&amp;redlink=1" class="new" title="Pembroke Priory (page does not exist)">Pembroke</a></li>
+<li><a href="/wiki/Pill_Priory" title="Pill Priory">Pill</a></li>
+<li><a href="/wiki/Ruislip_Priory" title="Ruislip Priory">Ruislip</a></li>
+<li><a href="/w/index.php?title=Runcton_Priory&amp;action=edit&amp;redlink=1" class="new" title="Runcton Priory (page does not exist)">Runcton</a></li>
+<li><a href="/wiki/St_Cross_Priory" title="St Cross Priory">St Cross</a></li>
+<li><a href="/w/index.php?title=St_Dogmells_Priory&amp;action=edit&amp;redlink=1" class="new" title="St Dogmells Priory (page does not exist)">St Dogmells</a></li>
+<li><a href="/w/index.php?title=St_Michael%27s_Mount_Priory&amp;action=edit&amp;redlink=1" class="new" title="St Michael&#39;s Mount Priory (page does not exist)">St Michael's Mount</a></li>
+<li><a href="/wiki/St_Neots_Priory" title="St Neots Priory">St Neots</a></li>
+<li><a href="/wiki/Sele_Priory" title="Sele Priory">Sele</a></li>
+<li><a href="/wiki/Spalding_Priory" title="Spalding Priory">Spalding</a></li>
+<li><a href="/wiki/Sporle_Priory" title="Sporle Priory">Sporle</a></li>
+<li><a href="/wiki/Standon_Priory" title="Standon Priory">Standon</a></li>
+<li><a href="/wiki/Priory_Cottages,_Steventon" title="Priory Cottages, Steventon">Steventon</a></li>
+<li><a href="/wiki/Priory_of_St._Andrews_of_the_Ards" title="Priory of St. Andrews of the Ards">Stogursey</a></li>
+<li><a href="/wiki/Stoke-by-Clare_Priory" title="Stoke-by-Clare Priory">Stoke-by-Clare</a></li>
+<li><a href="/wiki/Stratfield_Saye_Priory" title="Stratfield Saye Priory">Stratfield Saye</a></li>
+<li><a href="/wiki/Swavesey_Priory" title="Swavesey Priory">Swavesey</a></li>
+<li><a href="/wiki/Takeley_Priory" title="Takeley Priory">Takeley</a></li>
+<li><a href="/wiki/Throwley_Priory" title="Throwley Priory">Throwley</a></li>
+<li><a href="/wiki/Tickford_Priory" title="Tickford Priory">Tickford</a></li>
+<li><a href="/wiki/Titley_Priory" title="Titley Priory">Titley</a></li>
+<li><a href="/wiki/Toft_Monks_Priory" title="Toft Monks Priory">Toft Monks</a></li>
+<li><a href="/wiki/Totnes_Priory" title="Totnes Priory">Totnes</a></li>
+<li><a href="/wiki/Tutbury_Priory" title="Tutbury Priory">Tutbury</a></li>
+<li><a href="/wiki/Tywardreath_Priory" class="mw-redirect" title="Tywardreath Priory">Tywardreath</a></li>
+<li><a href="/wiki/Upavon_Priory" title="Upavon Priory">Upavon</a></li>
+<li><a href="/w/index.php?title=Ware_Priory&amp;action=edit&amp;redlink=1" class="new" title="Ware Priory (page does not exist)">Ware</a></li>
+<li><a href="/wiki/Wareham_Priory" title="Wareham Priory">Wareham</a></li>
+<li><a href="/w/index.php?title=Warminghurst_Grange&amp;action=edit&amp;redlink=1" class="new" title="Warminghurst Grange (page does not exist)">Warminghurst</a></li>
+<li><a href="/wiki/Warmington_Priory" title="Warmington Priory">Warmington</a></li>
+<li><a href="/w/index.php?title=Wath_Priory&amp;action=edit&amp;redlink=1" class="new" title="Wath Priory (page does not exist)">Wath</a></li>
+<li><a href="/wiki/Weedon_Beck_Priory" title="Weedon Beck Priory">Weedon Beck</a></li>
+<li><a href="/w/index.php?title=Weedon_Lois_Priory&amp;action=edit&amp;redlink=1" class="new" title="Weedon Lois Priory (page does not exist)">Weedon Lois</a></li>
+<li><a href="/wiki/West_Mersea_Priory" title="West Mersea Priory">West Mersea</a></li>
+<li><a href="/wiki/Wilsford_Priory" title="Wilsford Priory">Wilsford</a></li>
+<li><a href="/wiki/Wing_Priory" title="Wing Priory">Wing</a></li>
+<li><a href="/w/index.php?title=Winghale_Priory&amp;action=edit&amp;redlink=1" class="new" title="Winghale Priory (page does not exist)">Winghale</a></li>
+<li><a href="/wiki/Wolston_Priory" title="Wolston Priory">Wolston</a></li>
+<li><a href="/wiki/Wootton_Wawen_Priory" title="Wootton Wawen Priory">Wootton Wawen</a></li>
+<li><a href="/wiki/Holy_Trinity_Priory,_York" class="mw-redirect" title="Holy Trinity Priory, York">York (Holy Trinity)</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q2564352#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q2564352#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q2564352#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/124759589">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-nr00029204/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/nr00029204">United States</a></span></li></ul>
+</div></td></tr></tbody></table></div>
+<p><span style="font-size: small;"><span id="coordinates"><a href="/wiki/Geographic_coordinate_system" title="Geographic coordinate system">Coordinates</a>: <style data-mw-deduplicate="TemplateStyles:r1073938472">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class="plainlinks nourlexpansion"><a class="external text" href="//geohack.toolforge.org/geohack.php?pagename=Evesham_Abbey&amp;params=52.0913_N_1.9468_W_region:GB_type:landmark"><span class="geo-default"><span class="geo-dms" title="Maps, aerial photos, and other data for this location"><span class="latitude">52°05′29″N</span> <span class="longitude">1°56′48″W</span></span></span><span class="geo-multi-punct">&#xfeff; / &#xfeff;</span><span class="geo-nondefault"><span class="geo-dec" title="Maps, aerial photos, and other data for this location">52.0913°N 1.9468°W</span><span style="display:none">&#xfeff; / <span class="geo">52.0913; -1.9468</span></span></span></a></span></span></span>
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw2361
+Cached time: 20230207153036
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.462 seconds
+Real time usage: 0.620 seconds
+Preprocessor visited node count: 3919/1000000
+Post‐expand include size: 114851/2097152 bytes
+Template argument size: 3967/2097152 bytes
+Highest expansion depth: 14/100
+Expensive parser function count: 7/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 92791/5000000 bytes
+Lua time usage: 0.248/10.000 seconds
+Lua memory usage: 8842772/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  503.458      1 -total
+ 39.47%  198.714      1 Template:Reflist
+ 16.05%   80.780      1 Template:Monasteries_in_Worcestershire
+ 14.42%   72.604      2 Template:Navbox
+ 12.53%   63.106     10 Template:National_Heritage_List_for_England
+ 11.36%   57.172      1 Template:Cite_encyclopedia
+  8.97%   45.177      2 Template:Citation_needed
+  7.93%   39.943      2 Template:Fix
+  7.64%   38.485      1 Template:Commons_category_inline
+  7.03%   35.378      1 Template:Sister-inline
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:254915-0!canonical and timestamp 20230207153036 and revision id 1120766083. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Evesham_Abbey&amp;oldid=1120766083">https://en.wikipedia.org/w/index.php?title=Evesham_Abbey&amp;oldid=1120766083</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Evesham_Abbey" title="Category:Evesham Abbey">Evesham Abbey</a></li><li><a href="/wiki/Category:Anglo-Saxon_monastic_houses" title="Category:Anglo-Saxon monastic houses">Anglo-Saxon monastic houses</a></li><li><a href="/wiki/Category:Christian_monasteries_established_in_the_8th_century" title="Category:Christian monasteries established in the 8th century">Christian monasteries established in the 8th century</a></li><li><a href="/wiki/Category:Benedictine_monasteries_in_England" title="Category:Benedictine monasteries in England">Benedictine monasteries in England</a></li><li><a href="/wiki/Category:Monasteries_in_Worcestershire" title="Category:Monasteries in Worcestershire">Monasteries in Worcestershire</a></li><li><a href="/wiki/Category:Burial_sites_of_the_House_of_Montfort" title="Category:Burial sites of the House of Montfort">Burial sites of the House of Montfort</a></li><li><a href="/wiki/Category:Grade_I_listed_buildings_in_Worcestershire" title="Category:Grade I listed buildings in Worcestershire">Grade I listed buildings in Worcestershire</a></li><li><a href="/wiki/Category:8th-century_establishments_in_England" title="Category:8th-century establishments in England">8th-century establishments in England</a></li><li><a href="/wiki/Category:Religious_buildings_and_structures_completed_in_the_700s" title="Category:Religious buildings and structures completed in the 700s">Religious buildings and structures completed in the 700s</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_maint:_multiple_names:_authors_list" title="Category:CS1 maint: multiple names: authors list">CS1 maint: multiple names: authors list</a></li><li><a href="/wiki/Category:Articles_incorporating_Cite_DNB_template" title="Category:Articles incorporating Cite DNB template">Articles incorporating Cite DNB template</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_September_2019" title="Category:Use dmy dates from September 2019">Use dmy dates from September 2019</a></li><li><a href="/wiki/Category:Use_British_English_from_September_2019" title="Category:Use British English from September 2019">Use British English from September 2019</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_November_2022" title="Category:Articles with unsourced statements from November 2022">Articles with unsourced statements from November 2022</a></li><li><a href="/wiki/Category:Articles_containing_potentially_dated_statements_from_2022" title="Category:Articles containing potentially dated statements from 2022">Articles containing potentially dated statements from 2022</a></li><li><a href="/wiki/Category:All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li><li><a href="/wiki/Category:Commons_category_link_from_Wikidata" title="Category:Commons category link from Wikidata">Commons category link from Wikidata</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Coordinates_on_Wikidata" title="Category:Coordinates on Wikidata">Coordinates on Wikidata</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 8 November 2022, at 18:24<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Evesham_Abbey&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.462","walltime":"0.620","ppvisitednodes":{"value":3919,"limit":1000000},"postexpandincludesize":{"value":114851,"limit":2097152},"templateargumentsize":{"value":3967,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":7,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":92791,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  503.458      1 -total"," 39.47%  198.714      1 Template:Reflist"," 16.05%   80.780      1 Template:Monasteries_in_Worcestershire"," 14.42%   72.604      2 Template:Navbox"," 12.53%   63.106     10 Template:National_Heritage_List_for_England"," 11.36%   57.172      1 Template:Cite_encyclopedia","  8.97%   45.177      2 Template:Citation_needed","  7.93%   39.943      2 Template:Fix","  7.64%   38.485      1 Template:Commons_category_inline","  7.03%   35.378      1 Template:Sister-inline"]},"scribunto":{"limitreport-timeusage":{"value":"0.248","limit":"10.000"},"limitreport-memusage":{"value":8842772,"limit":52428800}},"cachereport":{"origin":"mw2361","timestamp":"20230207153036","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Evesham Abbey","url":"https:\/\/en.wikipedia.org\/wiki\/Evesham_Abbey","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2564352","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2564352","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-06-29T11:55:58Z","dateModified":"2022-11-08T18:24:45Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/41\/Evesham_Abbey_Bell_Tower.jpg","headline":"former abbey at Evesham in Worcestershire, England"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Evesham Abbey","url":"https:\/\/en.wikipedia.org\/wiki\/Evesham_Abbey","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2564352","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2564352","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-06-29T11:55:58Z","dateModified":"2022-11-08T18:24:45Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/41\/Evesham_Abbey_Bell_Tower.jpg","headline":"former abbey at Evesham in Worcestershire, England"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":106,"wgHostname":"mw2307"});});</script>
+</body>
+</html>

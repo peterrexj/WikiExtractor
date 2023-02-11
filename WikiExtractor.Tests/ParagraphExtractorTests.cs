@@ -18,7 +18,7 @@ namespace WikiExtractor.Tests
         public void Setup()
         {
             ProcessConstants.DatabasePath = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Tests", "Db", "WikiStore.db");
-            ProcessConstants.CacheFolder = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Tests", "Cache");
+            ProcessConstants.CacheFolder = IoHelper.CombinePath(PjUtility.Runtime.ExecutingRepositoryRootFolder, "Tests", "Cache");
             paragraphExtractor = new ParagraphExtractor();
             wikiPageExtraction = new SaintsWikiExtractionToStore();
             TemplateRuntimeFile = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Tests", "TemplateRuntime", "ResponseContent.dat");

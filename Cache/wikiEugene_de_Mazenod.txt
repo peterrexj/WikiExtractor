@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Eugène de Mazenod - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"ccbf254f-c241-431d-ac1b-e81901ab4549",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Eugène_de_Mazenod","wgTitle":"Eugène de Mazenod","wgCurRevisionId":1135836229,"wgRevisionId":1135836229,"wgArticleId":1155211,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 Italian-language sources (it)","Articles with short description","Short description is different from Wikidata","Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference","Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference","Commons category link from Wikidata","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BNE identifiers","Articles with BNF identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with NKC identifiers",
+"Articles with NTA identifiers","Articles with PLWABN identifiers","Articles with VcBA identifiers","Articles with FAST identifiers","Articles with SUDOC identifiers","1782 births","1861 deaths","Founders of Catholic religious communities","Bishops of Marseille","French Roman Catholic saints","19th-century French Roman Catholic bishops","Missionary Oblates of Mary Immaculate","Beatifications by Pope Paul VI","Canonizations by Pope John Paul II","Venerated Catholics by Pope Paul VI"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Eugène_de_Mazenod","wgRelevantArticleId":1155211,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Eugene_de_Mazenod","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":
+false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Eug%C3%A8ne_de_Mazenod","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q967537","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons"
+:"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022",
+"ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/a/a9/St_eugene.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="1739"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/a/a9/St_eugene.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="1159"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="927"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Eugène de Mazenod - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Eug%C3%A8ne_de_Mazenod"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Eug%C3%A8ne_de_Mazenod"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Eugène_de_Mazenod rootpage-Eugène_de_Mazenod skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Eug%C3%A8ne+de+Mazenod" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Eug%C3%A8ne+de+Mazenod"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Eug%C3%A8ne+de+Mazenod"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Eug%C3%A8ne_de_Mazenod" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Eug%C3%A8ne_de_Mazenod" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;oldid=1135836229" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Eug%C3%A8ne_de_Mazenod&amp;id=1135836229&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q967537" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Eug%C3%A8ne_de_Mazenod&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Eug%C3%A8ne_de_Mazenod" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Biography"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Biography">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Biography</div>
+		</a>
+		
+			<button aria-controls="toc-Biography-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-Biography-sublist" class="vector-toc-list">
+			<li id="toc-Refugee"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Refugee">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.1</span>Refugee</div>
+			</a>
+			
+			<ul id="toc-Refugee-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Conversion"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Conversion">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.2</span>Conversion</div>
+			</a>
+			
+			<ul id="toc-Conversion-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Priest"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Priest">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.3</span>Priest</div>
+			</a>
+			
+			<ul id="toc-Priest-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Founder"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Founder">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Founder</div>
+		</a>
+		
+			<button aria-controls="toc-Founder-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-Founder-sublist" class="vector-toc-list">
+			<li id="toc-Oblates_of_Mary_Immaculate"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Oblates_of_Mary_Immaculate">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1</span>Oblates of Mary Immaculate</div>
+			</a>
+			
+			<ul id="toc-Oblates_of_Mary_Immaculate-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Foreign_Missions"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Foreign_Missions">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.2</span>Foreign Missions</div>
+			</a>
+			
+			<ul id="toc-Foreign_Missions-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Bishop"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Bishop">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Bishop</div>
+		</a>
+		
+		<ul id="toc-Bishop-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Veneration"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Veneration">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Veneration</div>
+		</a>
+		
+		<ul id="toc-Veneration-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Eugène de Mazenod</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 17 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-17"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">17 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/%D0%AF%D1%9E%D0%B3%D0%B5%D0%BD_%D0%B4%D1%8D_%D0%9C%D0%B0%D0%B7%D1%8D%D0%BD%D0%BE" title="Яўген дэ Мазэно – Belarusian" lang="be" hreflang="be" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Ev%C5%BEen_z_Mazenodu" title="Evžen z Mazenodu – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Eugen_von_Mazenod" title="Eugen von Mazenod – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Eugenio_de_Mazenod" title="Eugenio de Mazenod – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Eug%C3%A8ne_de_Mazenod" title="Eugène de Mazenod – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Eugenius_de_Mazenod" title="Eugenius de Mazenod – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Eug%C3%A8ne_de_Mazenod" title="Eugène de Mazenod – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Eujeni_Mazenod" title="Eujeni Mazenod – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%B4%D8%A7%D8%B1%D9%84_%DA%86%D9%88%D8%B2%D9%8A%D9%81_%D9%8A%D9%88%D8%AC%D9%8A%D9%86_%D8%AF%D9%89_%D9%85%D8%A7%D8%B2%D9%86%D9%88%D8%AF" title="شارل چوزيف يوجين دى مازنود – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Eug%C3%A8ne_de_Mazenod" title="Eugène de Mazenod – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Eug%C3%A8ne-Charles-Joseph_de_Mazenod" title="Eugène-Charles-Joseph de Mazenod – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Eugeniusz_de_Mazenod" title="Eugeniusz de Mazenod – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Eug%C3%AAnio_de_Mazenod" title="Eugênio de Mazenod – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B7%D0%B5%D0%BD%D0%BE,_%D0%A8%D0%B0%D1%80%D0%BB%D1%8C_%D0%96%D0%BE%D0%B7%D0%B5_%D0%AD%D0%B6%D0%B5%D0%BD_%D0%B4%D0%B5" title="Мазено, Шарль Жозе Эжен де – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a href="https://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%AF%E0%AF%82%E0%AE%9C%E0%AE%BF%E0%AE%A9%E0%AF%8D_%E0%AE%9F%E0%AE%BF_%E0%AE%AE%E0%AE%9A%E0%AF%86%E0%AE%A9%E0%AF%8B" title="இயூஜின் டி மசெனோ – Tamil" lang="ta" hreflang="ta" class="interlanguage-link-target"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a href="https://zh-yue.wikipedia.org/wiki/%E9%A6%AC%E5%96%84%E6%A8%82" title="馬善樂 – Cantonese" lang="yue" hreflang="yue" class="interlanguage-link-target"><span>粵語</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%96%84%E4%B9%90" title="马善乐 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q967537#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Eug%C3%A8ne_de_Mazenod" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Eug%C3%A8ne_de_Mazenod" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Eug%C3%A8ne_de_Mazenod"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Eug%C3%A8ne_de_Mazenod"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"><span class="mw-redirectedfrom">(Redirected from <a href="/w/index.php?title=Eugene_de_Mazenod&amp;redirect=no" class="mw-redirect" title="Eugene de Mazenod">Eugene de Mazenod</a>)</span></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">French Roman Catholic saint</div>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;"><a href="/wiki/Canonization" title="Canonization">Saint</a></div><br /><div style="display:inline;" class="fn">Eugène de Mazenod</div><br /><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;"><a href="/wiki/Missionary_Oblates_of_Mary_Immaculate" title="Missionary Oblates of Mary Immaculate">OMI</a></div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:St_eugene.jpg" class="image"><img alt="St eugene.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/St_eugene.jpg/210px-St_eugene.jpg" decoding="async" width="210" height="304" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/St_eugene.jpg/315px-St_eugene.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/a/a9/St_eugene.jpg 2x" data-file-width="343" data-file-height="497" /></a></td></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">Charles-Joseph-Eugène de Mazenod<br />1 August 1782<br /><a href="/wiki/Aix-en-Provence" title="Aix-en-Provence">Aix-en-Provence</a>, <a href="/wiki/France_in_the_early_modern_period" title="France in the early modern period">France</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">21 May 1861<br /><a href="/wiki/Marseilles" class="mw-redirect" title="Marseilles">Marseilles</a>, <a href="/wiki/Second_French_Empire" title="Second French Empire">France</a></td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Roman_Catholic_Church" class="mw-redirect" title="Roman Catholic Church">Roman Catholic Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Beatification" title="Beatification">Beatified</a></th><td class="infobox-data">19 October 1975 &amp; 19 April 1976, <a href="/wiki/St._Peter%27s_Basilica" title="St. Peter&#39;s Basilica">St. Peter's Basilica</a>, Vatican City by <a href="/wiki/Pope_Paul_VI" title="Pope Paul VI">Pope Paul VI</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data">3 December 1995 &amp; 3 June 1996, St. Peter's Basilica by <a href="/wiki/Pope_John_Paul_II" title="Pope John Paul II">Pope John Paul II</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">May 21<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup></td></tr></tbody></table>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"/><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color: #DFB0DF;"><div class="honorific-prefix" style="font-size: 77%; font-weight: normal;display:inline;">Most Reverend</div><br /><div style="display:inline" class="fn">Eugène de Mazenod</div><br /><div class="honorific-suffix" style="font-size: 77%; font-weight: normal;display:inline;"><a href="/wiki/Missionary_Oblates_of_Mary_Immaculate" title="Missionary Oblates of Mary Immaculate">OMI</a></div></th></tr><tr><th scope="row" class="infobox-label">See</th><td class="infobox-data"><a href="/wiki/Diocese_of_Marseille" class="mw-redirect" title="Diocese of Marseille">Marseille</a></td></tr><tr><th scope="row" class="infobox-label">Appointed</th><td class="infobox-data">2 October 1837</td></tr><tr class="note"><th scope="row" class="infobox-label">Installed</th><td class="infobox-data">1837</td></tr><tr class="note"><th scope="row" class="infobox-label">Term ended</th><td class="infobox-data">21 May 1861 (his death)</td></tr><tr><th scope="row" class="infobox-label">Predecessor</th><td class="infobox-data">Fortuné-Charles de Mazenod</td></tr><tr><th scope="row" class="infobox-label">Successor</th><td class="infobox-data">Patrice-François-Marie Cruice</td></tr><tr><th scope="row" class="infobox-label">Other post(s)</th><td class="infobox-data"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class="plainlist"><ul><li>Auxiliary Bishop of Marseilles (1832–37)</li><li>Titular Bishop of Icosia (1832–37)</li></ul></div></td></tr></tbody></table> 
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"/><table class="infobox"><tbody><tr><th colspan="2" class="infobox-header"><div style="font-weight:bold; background-color: #FFCF00 ;">
+  <span style="font-size:100%">Ordination history of</span><br /><span style="font-family:sans-serif;font-size:125%;color:black;background-color:transparent;;">Eugène de Mazenod</span></div></th></tr><tr><td colspan="2" class="infobox-full-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"/><table class="infobox mw-collapsible mw-collapsed" style="background-color: transparent; border-collapse:collapse; border-spacing:0px; border:none; width:100%; margin:0px; font-size:100%; clear:none; float:none"><tbody><tr><th colspan="2" class="infobox-above" style="font-size:100%; padding-left:2em; background-color:#eee"><span style="font-size:100%;">History</span></th></tr><tr><th colspan="2" class="infobox-header" style="background:#f2f2f2;"><div style="background:#f2f2f2; border-bottom: 3px solid #333; border-top: 3px solid #333">Priestly ordination</div></th></tr><tr><th scope="row" class="infobox-label">Date</th><td class="infobox-data">21 December 1811</td></tr><tr><th colspan="2" class="infobox-header" style="background:#f2f2f2;"><div style="background:#f2f2f2; border-bottom: 3px solid #800080; border-top: 3px solid #800080">Episcopal consecration</div></th></tr><tr><th scope="row" class="infobox-label">Principal consecrator</th><td class="infobox-data"><a href="/wiki/Carlo_Odescalchi" title="Carlo Odescalchi">Carlo Odescalchi, S.J.</a></td></tr><tr><th scope="row" class="infobox-label"><span class="nowrap">Co-consecrators</span></th><td class="infobox-data"><a href="/wiki/Chiarissimo_Falconieri_Mellini" class="mw-redirect" title="Chiarissimo Falconieri Mellini">Chiarissimo Falconieri Mellini</a>,<br />Luigi Frezza</td></tr><tr><th scope="row" class="infobox-label">Date</th><td class="infobox-data">14 October 1832</td></tr></tbody></table></td></tr><tr><td colspan="2" class="infobox-full-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"/><table class="infobox mw-collapsible mw-collapsed" style="background-color: transparent; border-collapse:collapse; border-spacing:0px; border:none; width:100%; margin:0px; font-size:100%; clear:none; float:none"><tbody><tr><th colspan="2" class="infobox-above" style="font-size:100%; padding-left:2em; background-color:#eee"><span style="font-size:100%;">Episcopal succession</span></th></tr><tr><th colspan="2" class="infobox-header"><div style="background:#f2f2f2; border-bottom: 3px solid #800080; border-top: 3px solid #800080">Bishops consecrated by Eugène de Mazenod as principal consecrator</div></th></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Joseph_Hippolyte_Guibert,_O.M.I." class="mw-redirect" title="Joseph Hippolyte Guibert, O.M.I.">Joseph Hippolyte Guibert, O.M.I.</a></th><td class="infobox-data">11 March 1842</td></tr><tr><th scope="row" class="infobox-label"><a href="/w/index.php?title=Marie-Jean-Fran%C3%A7ois_Allard,_O.M.I.&amp;action=edit&amp;redlink=1" class="new" title="Marie-Jean-François Allard, O.M.I. (page does not exist)">Marie-Jean-François Allard, O.M.I.</a></th><td class="infobox-data">13 July 1851</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Alexander-Antonine_Tach%C3%A9,_O.M.I." class="mw-redirect" title="Alexander-Antonine Taché, O.M.I.">Alexander-Antonine Taché, O.M.I.</a></th><td class="infobox-data">23 November 1851</td></tr><tr><th scope="row" class="infobox-label"><a href="/w/index.php?title=Jean-Etienne_S%C3%A9meria,_O.M.I.&amp;action=edit&amp;redlink=1" class="new" title="Jean-Etienne Sémeria, O.M.I. (page does not exist)">Jean-Etienne Sémeria, O.M.I.</a></th><td class="infobox-data">17 August 1856</td></tr><tr><th scope="row" class="infobox-label"><a href="/w/index.php?title=Jacques_Jeancard,_O.M.I.&amp;action=edit&amp;redlink=1" class="new" title="Jacques Jeancard, O.M.I. (page does not exist)">Jacques Jeancard, O.M.I.</a></th><td class="infobox-data">28 October 1858</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Vital-Justin_Grandin,_O.M.I." class="mw-redirect" title="Vital-Justin Grandin, O.M.I.">Vital-Justin Grandin, O.M.I.</a></th><td class="infobox-data">30 November 1859</td></tr></tbody></table></td></tr></tbody></table> 
+<p><b>Eugène de Mazenod</b> (born <b>Charles-Joseph-Eugène de Mazenod</b>; 1 August 1782 – 21 May 1861) was a French aristocrat and <a href="/wiki/Catholic_Church_in_France" title="Catholic Church in France">Catholic</a> priest. When he was eight years old, Mazenod's family fled the <a href="/wiki/French_Revolution" title="French Revolution">French Revolution</a>, leaving their considerable wealth behind. As refugees in <a href="/wiki/List_of_historic_states_of_Italy" title="List of historic states of Italy">Italy</a>, they were poor, and moved from place to place. He returned to <a href="/wiki/French_First_Republic" title="French First Republic">France</a> at the age of twenty and later became a priest. Mazenod founded the congregation of the <a href="/wiki/Missionary_Oblates_of_Mary_Immaculate" title="Missionary Oblates of Mary Immaculate">Missionary Oblates of Mary Immaculate</a>. Initially focused on rebuilding the Church in France after the Revolution, their work soon spread, particularly to Canada. Mazenod was appointed Bishop of Marseille in 1837, and Archbishop in 1851.
+</p><p>Bishop de Mazenod was beatified on October 19, 1975, and was canonized twenty years later on 3 December 1995.  The Catholic  Church commemorates him with an optional <a href="/wiki/Memorial_(liturgy)#Obligatory_and_optional_memorials" title="Memorial (liturgy)">memorial</a> on 21 May, the anniversary of his death.
+</p><p>Three schools are named for him, in the Australian cities of <a href="/wiki/St_Eugene_College" title="St Eugene College">Brisbane</a>, <a href="/wiki/Mazenod_College,_Perth" title="Mazenod College, Perth">Perth</a> and <a href="/wiki/Mazenod_College,_Victoria" title="Mazenod College, Victoria">Melbourne</a>.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Biography">Biography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit&amp;section=1" title="Edit section: Biography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Refugee">Refugee</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit&amp;section=2" title="Edit section: Refugee">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Eugène de Mazenod was born on 1 August 1782 and baptized the following day in the <a href="/wiki/%C3%89glise_de_la_Madeleine_(Aix-en-Provence)" title="Église de la Madeleine (Aix-en-Provence)">Église de la Madeleine</a> in <a href="/wiki/Aix-en-Provence" title="Aix-en-Provence">Aix-en-Provence</a>. His father, Charles Antoine de Mazenod, was one of the Presidents of the Court of Finances, and his mother was Marie Rose Joannis. Eugène began his schooling at the College Bourbon, but this was interrupted by the events of the <a href="/wiki/French_Revolution" title="French Revolution">French Revolution</a>. With the approach of the French revolutionary forces, the family  fled to <a href="/wiki/List_of_historic_states_of_Italy" title="List of historic states of Italy">Italy</a>.<sup id="cite_ref-va_2-0" class="reference"><a href="#cite_note-va-2">&#91;2&#93;</a></sup>
+</p><p>Eugène became a boarder at the College of Nobles in <a href="/wiki/Turin" title="Turin">Turin</a> (<a href="/wiki/Piedmont" title="Piedmont">Piedmont</a>), but a move to <a href="/wiki/Republic_of_Venice" title="Republic of Venice">Venice</a> meant the end to formal schooling.<sup id="cite_ref-va_2-1" class="reference"><a href="#cite_note-va-2">&#91;2&#93;</a></sup> With their money running out, Eugène's father sought various employments, none of which were successful. His mother and sister returned to France - eventually seeking a divorce so as to be able to regain their  seized property. Eugène was fortunate to be welcomed by the Zinelli family in Venice. One of their sons, the priest Bartolo Zinelli, took special care of Eugène and saw to his education in the well-provided family library where the young adolescent spent many hours each day. Don Bartolo was a major influence in the human, academic and spiritual development of Eugène.
+</p><p>Once again the French army chased the émigrés  from Venice, forcing Eugène and his father and two uncles to seek refuge in <a href="/wiki/Kingdom_of_Naples" title="Kingdom of Naples">Naples</a> for less than a year, and finally to flee to <a href="/wiki/Palermo" title="Palermo">Palermo</a> in <a href="/wiki/Kingdom_of_Sicily" title="Kingdom of Sicily">Sicily</a>. Here Eugène was invited to become part of the household of the Duke and Duchess of Cannizaro as a companion to their two sons. Being part of the high society of Sicily became the opportunity for Eugène to rediscover his noble origins and to live a lavish style of life. He took to himself the title of 'Comte' ("Count") de Mazenod, did all the courtly things, and dreamed of a bright future.<sup id="cite_ref-va_2-2" class="reference"><a href="#cite_note-va-2">&#91;2&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Conversion">Conversion</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit&amp;section=3" title="Edit section: Conversion">edit</a><span class="mw-editsection-bracket">]</span></span></h3><p>
+At the age of twenty, Eugène returned to France and lived with his mother in Aix en Provence. Initially he enjoyed all the pleasures of Aix as a rich young nobleman, intent on the pursuit of pleasure and money - and a rich girl who would bring a good dowry. Gradually he became aware of how empty his life was,<sup id="cite_ref-omi_3-0" class="reference"><a href="#cite_note-omi-3">&#91;3&#93;</a></sup> and began to search for meaning in more regular church involvement, reading and personal study, and charitable work among prisoners. His journey came to a climax on Good Friday, 1807 when he was 25 years old. Looking at the sight of the Cross, he had a religious experience.  He recounted the spiritual experience in his retreat journal: </p><blockquote><p>Can I forget the bitter tears that the sight of the cross brought streaming from my eyes one Good Friday? Indeed they welled up from the heart, there was no checking them, they were too abundant for me to be able to hide them from those who like myself were assisting at that moving ceremony. I was in a state of mortal sin and it was precisely this that made me grieve…Blessed, a thousand times blessed, that he, this good Father, notwithstanding my unworthiness, lavished on me all the richness of his mercy.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup></p></blockquote>
+<h3><span class="mw-headline" id="Priest">Priest</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit&amp;section=4" title="Edit section: Priest">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In 1808, he began his studies for the priesthood at the <a href="/wiki/Saint-Sulpice_Seminary" class="mw-redirect" title="Saint-Sulpice Seminary">Saint-Sulpice Seminary</a> in Paris and was ordained a priest at <a href="/wiki/Amiens" title="Amiens">Amiens</a> (<a href="/wiki/Picardy" title="Picardy">Picardy</a>), on 21 December 1811.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup> Since Napoleon had expelled the Sulpician priests from the seminary, Eugène stayed on as a formator for a semester. As a member of the Seminary, notwithstanding personal risk, Eugène committed himself to serve and assist <a href="/wiki/Pope_Pius_VII" title="Pope Pius VII">Pope Pius VII</a>, who at this time was a prisoner of emperor <a href="/wiki/Napoleon_I" class="mw-redirect" title="Napoleon I">Napoleon I</a> at <a href="/wiki/Fontainebleau" title="Fontainebleau">Fontainebleau</a>. In this way he experienced at firsthand the suffering of the post-Revolutionary Church.
+</p><p>On his return to Aix, Father de Mazenod asked not to be assigned to a parish but to dedicate himself fully to evangelizing those who were not being reached by the structures of the local church: the poor who spoke only the Provençal language, prisoners, youth, the inhabitants of poor villages who were ignorant of their faith.<sup id="cite_ref-omi_3-1" class="reference"><a href="#cite_note-omi-3">&#91;3&#93;</a></sup> The goal of his priestly preaching and ministry was always to lead others to develop themselves fully as humans, then as Christians and finally to become saints.
+</p>
+<h2><span class="mw-headline" id="Founder">Founder</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit&amp;section=5" title="Edit section: Founder">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Oblates_of_Mary_Immaculate">Oblates of Mary Immaculate</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit&amp;section=6" title="Edit section: Oblates of Mary Immaculate">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>On 25  January 1816, "impelled by a strong impulse from outside of himself" he invited other priests to join him in his life of total oblation to God and to the most abandoned of Provence. Initially called "Missionaries of Provence," they dedicated themselves to evangelization through preaching parish missions in the poor villages, youth and prison ministry. In 1818 a second community was established at the Marian shrine of <a href="/wiki/Our_Lady_of_Laus" title="Our Lady of Laus">Notre Dame du Laus</a>. This became the occasion for the missionaries to become a religious congregation, united through vows and the evangelical counsels. Changing their name to Missionary Oblates of Mary Immaculate, the group received papal approbation on 17 February 1826.<sup id="cite_ref-Morice_6-0" class="reference"><a href="#cite_note-Morice-6">&#91;6&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Foreign_Missions">Foreign Missions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit&amp;section=7" title="Edit section: Foreign Missions">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In 1841, Bishop Bourget of Montreal invited the Oblates to Canada. At the same time, there was an outreach to the <a href="/wiki/British_Isles" title="British Isles">British Isles</a>. This was the beginning of a history of missionary outreach to the most abandoned peoples in Canada, United States, Mexico, England and Ireland, Algeria, Southern Africa and Ceylon during the founder's lifetime. In 200 years this zeal spread and took root in the establishment of the Oblates in nearly 70 countries. 
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Mazenod-photo2.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Mazenod-photo2.jpg/220px-Mazenod-photo2.jpg" decoding="async" width="220" height="462" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/2/2d/Mazenod-photo2.jpg 1.5x" data-file-width="258" data-file-height="542" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Mazenod-photo2.jpg" class="internal" title="Enlarge"></a></div>Bishop Mazenod</div></div></div>
+<h2><span class="mw-headline" id="Bishop">Bishop</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit&amp;section=8" title="Edit section: Bishop">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>After having aided for some time his uncle, the aged Bishop of Marseilles, in the administration of his diocese, Father De Mazenod was called to Rome and, on 14 October 1832, consecrated titular Bishop of Icosium, which title in 1837 he exchanged for that of <a href="/wiki/Roman_Catholic_Archdiocese_of_Marseille" title="Roman Catholic Archdiocese of Marseille">Bishop of Marseilles</a>, a position he held until his death in 1861. During his episcopacy, he commissioned <a href="/wiki/Notre-Dame_de_la_Garde" title="Notre-Dame de la Garde">Notre-Dame de la Garde</a>, an ornate <a href="/wiki/Neo-Byzantine" class="mw-redirect" title="Neo-Byzantine">Neo-Byzantine</a> <a href="/wiki/Basilicas_in_the_Catholic_Church" title="Basilicas in the Catholic Church">basilica</a> on the south side of the old port of Marseille. He favoured the moral teachings of <a href="/wiki/Alphonsus_Liguori" title="Alphonsus Liguori">Alphonsus Liguori</a>, whose theological system he was the first to introduce in France, and whose first biography in French he caused to be written by one of the Oblates.<sup id="cite_ref-Morice_6-1" class="reference"><a href="#cite_note-Morice-6">&#91;6&#93;</a></sup>
+</p><p>He inspired local priest <a href="/wiki/Joseph-Marie_Timon-David" title="Joseph-Marie Timon-David">Joseph-Marie Timon-David</a> to found the <a href="/wiki/Congregation_of_the_Sacred_Heart_of_Jesus" class="mw-redirect" title="Congregation of the Sacred Heart of Jesus">Congregation of the Sacred Heart of Jesus</a> in Marseille in 1852.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup>
+</p><p>In spite of his well-known outspokenness, he was made a Peer of the French Empire, and in 1851 <a href="/wiki/Pope_Pius_IX" title="Pope Pius IX">Pope Pius IX</a> gave him the pallium.<sup id="cite_ref-Morice_6-2" class="reference"><a href="#cite_note-Morice-6">&#91;6&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Veneration">Veneration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit&amp;section=9" title="Edit section: Veneration">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Some forty-five years after his death, the Diocese of Marseille opened a three-year-long investigation for the cause for Bishop de Mazenod's canonization. In 1935, the cause was opened by the <a href="/wiki/Sacred_Congregation_of_Rites" title="Sacred Congregation of Rites">Sacred Congregation of Rites</a> at the <a href="/wiki/Roman_Curia" title="Roman Curia">Vatican</a>. In May 1970, the Congregation for the Causes of Saints recognized the heroic virtue of Eugène's life, and he was proclaimed "<a href="/wiki/The_Venerable#Catholic" title="The Venerable">venerable</a>".<sup id="cite_ref-:0_8-0" class="reference"><a href="#cite_note-:0-8">&#91;8&#93;</a></sup>
+</p><p>Five years later, after the same congregation attributed miracles of healing to Eugène's intercession, and, following that, <a href="/wiki/Pope_Paul_VI" title="Pope Paul VI">Pope Paul VI</a> <a href="/wiki/Beatification" title="Beatification">beatified</a> Bishop de Mazenod in Rome on 19 October 1975.<sup id="cite_ref-:0_8-1" class="reference"><a href="#cite_note-:0-8">&#91;8&#93;</a></sup>
+</p><p>
+In December 1994, the Congregation for Saints approved another miracle attributed to Blessed Eugène's intercession; <a href="/wiki/Pope_John_Paul_II" title="Pope John Paul II">John Paul II</a> celebrated his Mass of <a href="/wiki/Canonization#Catholic_Church" title="Canonization">canonization</a> in 1995, on 3 December.<sup id="cite_ref-:0_8-2" class="reference"><a href="#cite_note-:0-8">&#91;8&#93;</a></sup> In his homily at the Mass, celebrated on the First Sunday of <a href="/wiki/Advent" title="Advent">Advent</a>,<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup> the Pope proclaimed Saint Eugène a "Man of Advent", saying:</p><blockquote><p>Eugène de Mazenod, whom the Church today proclaims a saint, was a man of Advent, a man of the Coming. He not only looked forward to that Coming, but... he dedicated his whole life to preparing for it. His waiting reached the intensity of heroism, that is, it was marked by a heroic degree of faith, hope and apostolic charity. Eugène de Mazenod was one of those apostles who prepared the modern age, our age.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup><sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup><sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup></p></blockquote>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit&amp;section=10" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://saintsresource.com/eugene-de-mazenod">"Eugène de Mazenod", Saints Resource, RCL Benziger</a></span>
+</li>
+<li id="cite_note-va-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-va_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-va_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-va_2-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19951203_de-mazenod_en.html">"Eugene de Mazenod (1782-1861)", Vatican News Service</a></span>
+</li>
+<li id="cite_note-omi-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-omi_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-omi_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.omiworld.org/our-charism/founder/biography/">"Biography: Saint Eugene de Mazenod"</a>. <i>OMI World: The Official Website of the General Administration of the Missionary Oblates of Mary Immaculate</i>. 2017-08-08<span class="reference-accessdate">. Retrieved <span class="nowrap">2021-01-20</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=OMI+World%3A+The+Official+Website+of+the+General+Administration+of+the+Missionary+Oblates+of+Mary+Immaculate&amp;rft.atitle=Biography%3A+Saint+Eugene+de+Mazenod&amp;rft.date=2017-08-08&amp;rft_id=https%3A%2F%2Fwww.omiworld.org%2Four-charism%2Ffounder%2Fbiography%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEug%C3%A8ne+de+Mazenod" class="Z3988"></span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.eugenedemazenod.net/?p=2902">"Why the Cross as Focus? Because Its Love Conquers the Death of Sin | Eugene de Mazenod speaks to us"</a>. <i>www.eugenedemazenod.net</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2018-11-22</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.eugenedemazenod.net&amp;rft.atitle=Why+the+Cross+as+Focus%3F+Because+Its+Love+Conquers+the+Death+of+Sin+%7C+Eugene+de+Mazenod+speaks+to+us&amp;rft_id=http%3A%2F%2Fwww.eugenedemazenod.net%2F%3Fp%3D2902&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEug%C3%A8ne+de+Mazenod" class="Z3988"></span></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.franciscanmedia.org/saint-eugene-de-mazenod/">"Saint Eugene de Mazenod", Franciscan Media</a></span>
+</li>
+<li id="cite_note-Morice-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-Morice_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Morice_6-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Morice_6-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/10094a.htm">Morice, Adrian. "Charles Joseph Eugene de Mazenod." The Catholic Encyclopedia</a> Vol. 10. New York: Robert Appleton Company, 1911. 30 July 2018</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://data.bnf.fr/12185068/joseph_timon-david/">Joseph Timon-David (1823-1891)</a>, <a href="/wiki/Biblioth%C3%A8que_nationale_de_France" title="Bibliothèque nationale de France">Bibliothèque nationale de France</a></span>
+</li>
+<li id="cite_note-:0-8"><span class="mw-cite-backlink">^ <a href="#cite_ref-:0_8-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:0_8-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-:0_8-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.omiworld.org/our-charism/our-saints/saint-eugene-de-mazenod/history-of-the-cause/">"History of the Cause"</a>. <i>OMI World: The Official Site of the General Administration of the Missionary Oblates of Mary Immaculate</i>. 2017-08-11<span class="reference-accessdate">. Retrieved <span class="nowrap">2021-01-20</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=OMI+World%3A+The+Official+Site+of+the+General+Administration+of+the+Missionary+Oblates+of+Mary+Immaculate&amp;rft.atitle=History+of+the+Cause&amp;rft.date=2017-08-11&amp;rft_id=https%3A%2F%2Fwww.omiworld.org%2Four-charism%2Four-saints%2Fsaint-eugene-de-mazenod%2Fhistory-of-the-cause%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEug%C3%A8ne+de+Mazenod" class="Z3988"></span></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://thecrawfordfamily.net/cgi-bin/litInfo.cgi?inMon=11&amp;inYear=1995&amp;loop=calendar">"Catholic Liturgical Calendar | December 1995"</a>. <i>thecrawfordfamily.net</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2021-01-20</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=thecrawfordfamily.net&amp;rft.atitle=Catholic+Liturgical+Calendar+%7C+December+1995&amp;rft_id=http%3A%2F%2Fthecrawfordfamily.net%2Fcgi-bin%2FlitInfo.cgi%3FinMon%3D11%26inYear%3D1995%26loop%3Dcalendar&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEug%C3%A8ne+de+Mazenod" class="Z3988"></span></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.omiworld.org/reflection/december-3/">"Saint Eugene Proclaimed a Man of Advent"</a>. <i>OMI World: The Official Site of the General Administration of the Missionary Oblates of Mary Immaculate</i>. 2018-12-03<span class="reference-accessdate">. Retrieved <span class="nowrap">2021-01-20</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=OMI+World%3A+The+Official+Site+of+the+General+Administration+of+the+Missionary+Oblates+of+Mary+Immaculate&amp;rft.atitle=Saint+Eugene+Proclaimed+a+Man+of+Advent&amp;rft.date=2018-12-03&amp;rft_id=https%3A%2F%2Fwww.omiworld.org%2Freflection%2Fdecember-3%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEug%C3%A8ne+de+Mazenod" class="Z3988"></span></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1 cs1-prop-foreign-lang-source"><a rel="nofollow" class="external text" href="https://www.vatican.va/content/john-paul-ii/it/homilies/1995/documents/hf_jp-ii_hom_19951203_de-mazenod.html">"Omelia di Giovanni Paolo II per la Canonizzazione di Eugène de Mazenod, Fondatore dei Missionari Oblati di Maria Immacolata"</a>. <i>La Santa Sede</i> (in Italian). <a href="/wiki/The_Holy_See" class="mw-redirect" title="The Holy See">The Holy See</a>. 1995-12-03<span class="reference-accessdate">. Retrieved <span class="nowrap">2021-01-20</span></span> &#8211; via the Italian version of the Holy See's website, this is the text of the original version of John Paul II's homily at the Canonization Mass; quoted in the article is an unofficial translation from the website of the OMI's General Administration.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=La+Santa+Sede&amp;rft.atitle=Omelia+di+Giovanni+Paolo+II+per+la+Canonizzazione+di+Eug%C3%A8ne+de+Mazenod%2C+Fondatore+dei+Missionari+Oblati+di+Maria+Immacolata&amp;rft.date=1995-12-03&amp;rft_id=https%3A%2F%2Fwww.vatican.va%2Fcontent%2Fjohn-paul-ii%2Fit%2Fhomilies%2F1995%2Fdocuments%2Fhf_jp-ii_hom_19951203_de-mazenod.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEug%C3%A8ne+de+Mazenod" class="Z3988"></span></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=NGtHTrE24yw&amp;feature=youtu.be">"25th Anniversary of the Canonization of St. Eugene de Mazenod - YouTube"</a>. <i>YouTube</i> (Video reel of clips from the Canonization Mass; includes a recording of this quote from John Paul II's homily.). 2020-11-07. <a rel="nofollow" class="external text" href="https://ghostarchive.org/varchive/youtube/20211222/NGtHTrE24yw">Archived</a> from the original on 2021-12-22<span class="reference-accessdate">. Retrieved <span class="nowrap">2021-01-20</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=YouTube&amp;rft.atitle=25th+Anniversary+of+the+Canonization+of+St.+Eugene+de+Mazenod+-+YouTube&amp;rft.date=2020-11-07&amp;rft_id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNGtHTrE24yw%26feature%3Dyoutu.be&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEug%C3%A8ne+de+Mazenod" class="Z3988"></span></span>
+</li>
+</ol></div></div>
+<p><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png" decoding="async" width="12" height="13" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/18px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/24px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430" />&#160;This article incorporates text from a publication now in the <a href="/wiki/Public_domain" title="Public domain">public domain</a>:&#160;<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHerbermann1913" class="citation encyclopaedia cs1">Herbermann, Charles, ed. (1913). "<a href="https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)/Charles_Joseph_Eugene_de_Mazenod" class="extiw" title="s:Catholic Encyclopedia (1913)/Charles Joseph Eugene de Mazenod">Charles Joseph Eugene de Mazenod</a>". <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i>. New York: Robert Appleton Company.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Charles+Joseph+Eugene+de+Mazenod&amp;rft.btitle=Catholic+Encyclopedia&amp;rft.place=New+York&amp;rft.pub=Robert+Appleton+Company&amp;rft.date=1913&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEug%C3%A8ne+de+Mazenod" class="Z3988"></span>
+</p>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;action=edit&amp;section=11" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1126788409"/>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-text plainlist">Wikimedia Commons has media related to <a href="https://commons.wikimedia.org/wiki/Category:Eug%C3%A8ne_de_Mazenod" class="extiw" title="commons:Category:Eugène de Mazenod"><span style="font-style:italic; font-weight:bold;">Eugène de Mazenod</span></a>.</div></div>
+</div>
+<ul><li><a rel="nofollow" class="external text" href="http://www.eugenedemazenod.net/?page_id=11">Who is Eugène de Mazenod?</a></li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20160304192431/http://www.omiworld.org/upload/biblioteca/Bib_24-07-2012_21-52-12.pdf">JEAN LEFLON, Eugène de Mazenod. Bishop of Marseilles, Founder of the Oblates of Mary Immaculate. 1782-1861. Vol. 1</a></li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20160304190654/http://www.omiworld.org/upload/biblioteca/Bib_16-07-2012_09-45-23.pdf">J. Leflon Eugène de Mazenod.... Vol. 3</a></li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20160304051001/http://www.omiworld.org/upload/biblioteca/Bib_16-07-2012_09-47-30.pdf">J. Leflon Eugène de Mazenod.... Vol. 4</a></li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20160304191921/http://www.omiworld.org/upload/biblioteca/Bib_12-01-2011_19-35-08.pdf">F. SANTUCCI, Eugène de Mazenod, Cooperator of Christ the Saviour, Communicates his Spirit</a></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19951203_de-mazenod_en.html">"Eugene de Mazenod (1782-1861) - biography"</a>. Vatican Basilica. 3 December 1995<span class="reference-accessdate">. Retrieved <span class="nowrap">2007-03-09</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Eugene+de+Mazenod+%281782-1861%29+-+biography&amp;rft.pub=Vatican+Basilica&amp;rft.date=1995-12-03&amp;rft_id=https%3A%2F%2Fwww.vatican.va%2Fnews_services%2Fliturgy%2Fsaints%2Fns_lit_doc_19951203_de-mazenod_en.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEug%C3%A8ne+de+Mazenod" class="Z3988"></span></li>
+<li><a rel="nofollow" class="external text" href="http://www.omilacombe.ca//index.php?option=com_content&amp;task=view&amp;id=49&amp;Itemid=45&amp;lang=en">Biography of Eugène de Mazenod at OMI Lacombe</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.americancatholic.org/Features/Saints/saint.asp?id=1937">Biography of St. Eugène de Mazenod from American Catholic.org</a></li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20070812174614/http://www.snows.org/AboutUs.aspx?path=root%2Fenglish%2FAboutUs%2FOurFounder">Biography of St. Eugène de Mazenod</a> from the <a rel="nofollow" class="external text" href="http://www.oblatemissions.org">Oblate Missions Website</a> of <a rel="nofollow" class="external text" href="https://web.archive.org/web/20081010201551/http://www.snows.org/default.aspx">National Shrine of Our Lady of the Snows website</a> of <a rel="nofollow" class="external text" href="http://www.oblatesusa.org/">The Missionary Oblates of Mary Immaculate</a></li></ul>
+<style data-mw-deduplicate="TemplateStyles:r1130092004">.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;justify-content:center;align-items:baseline}.mw-parser-output .portal-bar-bordered{padding:0 2em;background-color:#fdfdfd;border:1px solid #a2a9b1;clear:both;margin:1em auto 0}.mw-parser-output .portal-bar-related{font-size:100%;justify-content:flex-start}.mw-parser-output .portal-bar-unbordered{padding:0 1.7em;margin-left:0}.mw-parser-output .portal-bar-header{margin:0 1em 0 0.5em;flex:0 0 auto;min-height:24px}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;flex:0 1 auto;padding:0.15em 0;column-gap:1em;align-items:baseline;margin:0;list-style:none}.mw-parser-output .portal-bar-content-related{margin:0;list-style:none}.mw-parser-output .portal-bar-item{display:inline-block;margin:0.15em 0.2em;min-height:24px;line-height:24px}@media screen and (max-width:768px){.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;flex-flow:column wrap;align-items:baseline}.mw-parser-output .portal-bar-header{text-align:center;flex:0;padding-left:0.5em;margin:0 auto}.mw-parser-output .portal-bar-related{font-size:100%;align-items:flex-start}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;align-items:center;flex:0;column-gap:1em;border-top:1px solid #a2a9b1;margin:0 auto;list-style:none}.mw-parser-output .portal-bar-content-related{border-top:none;margin:0;list-style:none}}.mw-parser-output .navbox+link+.portal-bar,.mw-parser-output .navbox+style+.portal-bar,.mw-parser-output .navbox+link+.portal-bar-bordered,.mw-parser-output .navbox+style+.portal-bar-bordered,.mw-parser-output .sister-bar+link+.portal-bar,.mw-parser-output .sister-bar+style+.portal-bar,.mw-parser-output .portal-bar+.navbox-styles+.navbox,.mw-parser-output .portal-bar+.navbox-styles+.sister-bar{margin-top:-1px}</style><div class="portal-bar noprint metadata noviewer portal-bar-bordered" role="navigation" aria-label="Portals"><span class="portal-bar-header"><a href="/wiki/Wikipedia:Contents/Portals" title="Wikipedia:Contents/Portals">Portals</a>:</span><ul class="portal-bar-content"><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/21px-Gloriole_blur.svg.png" decoding="async" width="21" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/32px-Gloriole_blur.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/42px-Gloriole_blur.svg.png 2x" data-file-width="32" data-file-height="28" />&#160;<a href="/wiki/Portal:Saints" title="Portal:Saints">Saints</a></li><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/19px-P_vip.svg.png" decoding="async" width="19" height="19" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/28px-P_vip.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/37px-P_vip.svg.png 2x" data-file-width="1911" data-file-height="1944" />&#160;<a href="/wiki/Portal:Biography" title="Portal:Biography">Biography</a></li><li class="portal-bar-item"><a href="/wiki/File:046CupolaSPietro.jpg" class="image"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/21px-046CupolaSPietro.jpg" decoding="async" width="21" height="16" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/32px-046CupolaSPietro.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/42px-046CupolaSPietro.jpg 2x" data-file-width="800" data-file-height="600" /></a>&#160;<a href="/wiki/Portal:Catholicism" class="mw-redirect" title="Portal:Catholicism">Catholicism</a></li><li class="portal-bar-item"><img alt="flag" src="//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/21px-Flag_of_France.svg.png" decoding="async" width="21" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/32px-Flag_of_France.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/42px-Flag_of_France.svg.png 2x" data-file-width="900" data-file-height="600" />&#160;<a href="/wiki/Portal:France" title="Portal:France">France</a></li></ul></div>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q967537#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q967537#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q967537#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000109224391">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/87920127">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n50078534/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX947812">Spain</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb11930287x">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb11930287x">(data)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/119223074">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007265127505171">Israel</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n50078534">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=jn20040428001&amp;CON_LNG=ENG">Czech Republic</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p083427597">Netherlands</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://mak.bn.org.pl/cgi-bin/KHW/makwww.exe?BM=1&amp;NU=1&amp;IM=4&amp;WI=9810537516805606">Poland</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.vatlib.it/auth/detail/495_45415">Vatican</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/19432/">FAST</a></span></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/027211398">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2385
+Cached time: 20230207160835
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.434 seconds
+Real time usage: 0.557 seconds
+Preprocessor visited node count: 5411/1000000
+Post‐expand include size: 62529/2097152 bytes
+Template argument size: 3699/2097152 bytes
+Highest expansion depth: 14/100
+Expensive parser function count: 18/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 38851/5000000 bytes
+Lua time usage: 0.277/10.000 seconds
+Lua memory usage: 7474426/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  501.828      1 -total
+ 49.95%  250.655      5 Template:Infobox
+ 25.28%  126.886      1 Template:Ordination
+ 19.22%   96.445      1 Template:Reflist
+ 16.53%   82.936      8 Template:Cite_web
+ 15.29%   76.708      1 Template:Authority_control
+  9.13%   45.815      1 Template:Short_description
+  7.62%   38.216      1 Template:Infobox_saint
+  7.00%   35.126      1 Template:Subject_bar
+  6.21%   31.177      9 Template:Comma_separated_entries
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1155211-0!canonical and timestamp 20230207160834 and revision id 1135836229. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Eugène_de_Mazenod&amp;oldid=1135836229">https://en.wikipedia.org/w/index.php?title=Eugène_de_Mazenod&amp;oldid=1135836229</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1782_births" title="Category:1782 births">1782 births</a></li><li><a href="/wiki/Category:1861_deaths" title="Category:1861 deaths">1861 deaths</a></li><li><a href="/wiki/Category:Founders_of_Catholic_religious_communities" title="Category:Founders of Catholic religious communities">Founders of Catholic religious communities</a></li><li><a href="/wiki/Category:Bishops_of_Marseille" title="Category:Bishops of Marseille">Bishops of Marseille</a></li><li><a href="/wiki/Category:French_Roman_Catholic_saints" title="Category:French Roman Catholic saints">French Roman Catholic saints</a></li><li><a href="/wiki/Category:19th-century_French_Roman_Catholic_bishops" title="Category:19th-century French Roman Catholic bishops">19th-century French Roman Catholic bishops</a></li><li><a href="/wiki/Category:Missionary_Oblates_of_Mary_Immaculate" title="Category:Missionary Oblates of Mary Immaculate">Missionary Oblates of Mary Immaculate</a></li><li><a href="/wiki/Category:Beatifications_by_Pope_Paul_VI" title="Category:Beatifications by Pope Paul VI">Beatifications by Pope Paul VI</a></li><li><a href="/wiki/Category:Canonizations_by_Pope_John_Paul_II" title="Category:Canonizations by Pope John Paul II">Canonizations by Pope John Paul II</a></li><li><a href="/wiki/Category:Venerated_Catholics_by_Pope_Paul_VI" title="Category:Venerated Catholics by Pope Paul VI">Venerated Catholics by Pope Paul VI</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_Italian-language_sources_(it)" title="Category:CS1 Italian-language sources (it)">CS1 Italian-language sources (it)</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Articles_incorporating_a_citation_from_the_1913_Catholic_Encyclopedia_with_Wikisource_reference" title="Category:Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference">Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference</a></li><li><a href="/wiki/Category:Articles_incorporating_text_from_the_1913_Catholic_Encyclopedia_with_Wikisource_reference" title="Category:Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference">Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference</a></li><li><a href="/wiki/Category:Commons_category_link_from_Wikidata" title="Category:Commons category link from Wikidata">Commons category link from Wikidata</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNE_identifiers" title="Category:Articles with BNE identifiers">Articles with BNE identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_NTA_identifiers" title="Category:Articles with NTA identifiers">Articles with NTA identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 27 January 2023, at 04:15<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Eug%C3%A8ne_de_Mazenod&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.434","walltime":"0.557","ppvisitednodes":{"value":5411,"limit":1000000},"postexpandincludesize":{"value":62529,"limit":2097152},"templateargumentsize":{"value":3699,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":18,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":38851,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  501.828      1 -total"," 49.95%  250.655      5 Template:Infobox"," 25.28%  126.886      1 Template:Ordination"," 19.22%   96.445      1 Template:Reflist"," 16.53%   82.936      8 Template:Cite_web"," 15.29%   76.708      1 Template:Authority_control","  9.13%   45.815      1 Template:Short_description","  7.62%   38.216      1 Template:Infobox_saint","  7.00%   35.126      1 Template:Subject_bar","  6.21%   31.177      9 Template:Comma_separated_entries"]},"scribunto":{"limitreport-timeusage":{"value":"0.277","limit":"10.000"},"limitreport-memusage":{"value":7474426,"limit":52428800}},"cachereport":{"origin":"mw2385","timestamp":"20230207160835","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Eug\u00e8ne de Mazenod","url":"https:\/\/en.wikipedia.org\/wiki\/Eug%C3%A8ne_de_Mazenod","sameAs":"http:\/\/www.wikidata.org\/entity\/Q967537","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q967537","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-11-10T20:10:45Z","dateModified":"2023-01-27T04:15:05Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a9\/St_eugene.jpg","headline":"French bishop and saint (1782-1861)"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Eug\u00e8ne de Mazenod","url":"https:\/\/en.wikipedia.org\/wiki\/Eug%C3%A8ne_de_Mazenod","sameAs":"http:\/\/www.wikidata.org\/entity\/Q967537","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q967537","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-11-10T20:10:45Z","dateModified":"2023-01-27T04:15:05Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a9\/St_eugene.jpg","headline":"French bishop and saint (1782-1861)"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":113,"wgHostname":"mw2407"});});</script>
+</body>
+</html>

@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Procopius - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"c47cf36f-684c-454a-9963-d9fcc29b7061",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Procopius","wgTitle":"Procopius","wgCurRevisionId":1131174605,"wgRevisionId":1131174605,"wgArticleId":23624,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description is different from Wikidata","Articles containing Ancient Greek (to 1453)-language text","Articles containing Latin-language text","CS1: abbreviated year range","CS1 Greek-language sources (el)","Articles with Project Gutenberg links","Articles with Internet Archive links","Articles with LibriVox links","Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BIBSYS identifiers","Articles with BNE identifiers","Articles with BNF identifiers",
+"Articles with GND identifiers","Articles with ICCU identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with LNB identifiers","Articles with NDL identifiers","Articles with NKC identifiers","Articles with NLG identifiers","Articles with NSK identifiers","Articles with NTA identifiers","Articles with PLWABN identifiers","Articles with SELIBR identifiers","Articles with VcBA identifiers","Articles with DTBIO identifiers","Articles with CINII identifiers","Articles with FAST identifiers","Articles with RERO identifiers","Articles with SNAC-ID identifiers","Articles with SUDOC identifiers","Articles with Trove identifiers","500 births","565 deaths","6th-century Byzantine historians","Historians of Justinian I","Secret histories","Sources on Germanic paganism","Vandalic War","People of the Roman–Sasanian Wars"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Procopius","wgRelevantArticleId":23624,"wgIsProbablyEditable"
+:true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":40000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q186153","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":
+"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons",
+"ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Procopius - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Procopius"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Procopius&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Procopius"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Procopius rootpage-Procopius skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Procopius" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Procopius"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Procopius"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Procopius" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Procopius" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Procopius&amp;oldid=1131174605" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Procopius&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Procopius&amp;id=1131174605&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q186153" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Procopius&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Procopius&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Procopius" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikisource mw-list-item"><a href="https://en.wikisource.org/wiki/Author:Procopius" hreflang="en"><span>Wikisource</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Life"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Life">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Life</div>
+		</a>
+		
+		<ul id="toc-Life-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Writings"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Writings">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Writings</div>
+		</a>
+		
+			<button aria-controls="toc-Writings-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-Writings-sublist" class="vector-toc-list">
+			<li id="toc-History_of_the_Wars"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#History_of_the_Wars">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1</span><i>History of the Wars</i></div>
+			</a>
+			
+			<ul id="toc-History_of_the_Wars-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Secret_History"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Secret_History">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.2</span><i>Secret History</i></div>
+			</a>
+			
+			<ul id="toc-Secret_History-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-The_Buildings"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#The_Buildings">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.3</span><i>The Buildings</i></div>
+			</a>
+			
+			<ul id="toc-The_Buildings-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Style"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Style">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Style</div>
+		</a>
+		
+		<ul id="toc-Style-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Legacy"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Legacy">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Legacy</div>
+		</a>
+		
+		<ul id="toc-Legacy-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-List_of_selected_works"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#List_of_selected_works">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>List of selected works</div>
+		</a>
+		
+		<ul id="toc-List_of_selected_works-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Notes"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Notes">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>Notes</div>
+		</a>
+		
+		<ul id="toc-Notes-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">8</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Further_reading"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Further_reading">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">9</span>Further reading</div>
+		</a>
+		
+		<ul id="toc-Further_reading-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">10</span>External links</div>
+		</a>
+		
+			<button aria-controls="toc-External_links-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+			<li id="toc-Texts_of_Procopius"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Texts_of_Procopius">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">10.1</span>Texts of Procopius</div>
+			</a>
+			
+			<ul id="toc-Texts_of_Procopius-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Secondary_material"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Secondary_material">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">10.2</span>Secondary material</div>
+			</a>
+			
+			<ul id="toc-Secondary_material-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Procopius</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 51 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-51"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">51 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%A8%D8%B1%D9%88%D9%83%D9%88%D8%A8%D9%8A%D9%88%D8%B3_%D8%A7%D9%84%D9%82%D9%8A%D8%B3%D8%B1%D8%A7%D9%86%D9%8A" title="بروكوبيوس القيسراني – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a href="https://azb.wikipedia.org/wiki/%D9%BE%D8%B1%D9%88%DA%A9%D9%88%D9%BE%DB%8C%D9%88%D8%B3" title="پروکوپیوس – South Azerbaijani" lang="azb" hreflang="azb" class="interlanguage-link-target"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%BA%D0%BE%D0%BF%D1%96%D0%B9_%D0%9A%D0%B5%D1%81%D0%B0%D1%80%D1%8B%D0%B9%D1%81%D0%BA%D1%96" title="Пракопій Кесарыйскі – Belarusian" lang="be" hreflang="be" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D0%B8%D0%B9_%D0%9A%D0%B5%D1%81%D0%B0%D1%80%D0%B8%D0%B9%D1%81%D0%BA%D0%B8" title="Прокопий Кесарийски – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a href="https://bs.wikipedia.org/wiki/Prokopije_iz_Cezareje" title="Prokopije iz Cezareje – Bosnian" lang="bs" hreflang="bs" class="interlanguage-link-target"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a href="https://br.wikipedia.org/wiki/Prokopios_Caesarea" title="Prokopios Caesarea – Breton" lang="br" hreflang="br" class="interlanguage-link-target"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Procopi_de_Cesarea" title="Procopi de Cesarea – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a href="https://cv.wikipedia.org/wiki/%D0%9A%D0%B5%D1%81%D0%B0%D1%80%D0%B8_%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D0%B8%D0%B9%D3%97" title="Кесари Прокопийӗ – Chuvash" lang="cv" hreflang="cv" class="interlanguage-link-target"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Prokopios_z_Kaisareie" title="Prokopios z Kaisareie – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wikipedia.org/wiki/Procopius" title="Procopius – Danish" lang="da" hreflang="da" class="interlanguage-link-target"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Prokopios_von_Caesarea" title="Prokopios von Caesarea – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%A0%CF%81%CE%BF%CE%BA%CF%8C%CF%80%CE%B9%CE%BF%CF%82_(%CE%B9%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%BA%CF%8C%CF%82)" title="Προκόπιος (ιστορικός) – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Procopio_de_Cesarea" title="Procopio de Cesarea – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Prokopio_el_Cezareo" title="Prokopio el Cezareo – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/Prokopio_Zesareakoa" title="Prokopio Zesareakoa – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D9%BE%D8%B1%D9%88%DA%A9%D9%88%D9%BE%DB%8C%D9%88%D8%B3" title="پروکوپیوس – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Procope_de_C%C3%A9sar%C3%A9e" title="Procope de Césarée – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Procopio_de_Cesarea" title="Procopio de Cesarea – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EC%BD%94%ED%94%BC%EC%98%A4%EC%8A%A4" title="프로코피오스 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a href="https://hy.wikipedia.org/wiki/%D5%8A%D6%80%D5%B8%D5%AF%D5%B8%D5%BA%D5%AB%D5%B8%D5%BD_%D4%BF%D5%A5%D5%BD%D5%A1%D6%80%D5%A1%D6%81%D5%AB" title="Պրոկոպիոս Կեսարացի – Armenian" lang="hy" hreflang="hy" class="interlanguage-link-target"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Prokopije" title="Prokopije – Croatian" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Procopius" title="Procopius – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Procopio_di_Cesarea" title="Procopio di Cesarea – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%95%D7%A7%D7%95%D7%A4%D7%99%D7%95%D7%A1" title="פרוקופיוס – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%9E%E1%83%A0%E1%83%9D%E1%83%99%E1%83%9D%E1%83%9E%E1%83%98_%E1%83%99%E1%83%94%E1%83%A1%E1%83%90%E1%83%A0%E1%83%98%E1%83%94%E1%83%9A%E1%83%98" title="პროკოპი კესარიელი – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Procopius" title="Procopius – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a href="https://lv.wikipedia.org/wiki/Prokopijs_no_C%C4%93zarejas" title="Prokopijs no Cēzarejas – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Prokopiosz_(t%C3%B6rt%C3%A9net%C3%ADr%C3%B3)" title="Prokopiosz (történetíró) – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a href="https://mk.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D0%B8%D1%98_%D0%9A%D0%B5%D1%81%D0%B0%D1%80%D0%B8%D1%81%D0%BA%D0%B8" title="Прокопиј Кесариски – Macedonian" lang="mk" hreflang="mk" class="interlanguage-link-target"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%A8%D8%B1%D9%88%D9%83%D9%88%D8%A8%D9%8A%D9%88%D8%B3_%D8%A7%D9%84%D9%82%D9%8A%D8%B3%D8%B1%D8%A7%D9%86%D9%89" title="بروكوبيوس القيسرانى – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Procopius" title="Procopius – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%82%B3%E3%83%94%E3%82%AA%E3%82%B9" title="プロコピオス – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Prokopios" title="Prokopios – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a href="https://nn.wikipedia.org/wiki/Prokopios" title="Prokopios – Norwegian Nynorsk" lang="nn" hreflang="nn" class="interlanguage-link-target"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a href="https://oc.wikipedia.org/wiki/Proc%C3%B2pi_de_Cesar%C3%A8a" title="Procòpi de Cesarèa – Occitan" lang="oc" hreflang="oc" class="interlanguage-link-target"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pl badge-Q17437798 badge-goodarticle mw-list-item" title="good article badge"><a href="https://pl.wikipedia.org/wiki/Prokopiusz_z_Cezarei" title="Prokopiusz z Cezarei – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Proc%C3%B3pio_de_Cesareia" title="Procópio de Cesareia – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Procopius_din_Cezareea" title="Procopius din Cezareea – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-rue mw-list-item"><a href="https://rue.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D0%B8%D0%B9_%D0%9A%D0%B5%D1%81%D0%B0%D1%80%D0%B8%D0%B9%D1%81%D0%BA%D1%8B%D0%B9" title="Прокопий Кесарийскый – Rusyn" lang="rue" hreflang="rue" class="interlanguage-link-target"><span>Русиньскый</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D0%B8%D0%B9_%D0%9A%D0%B5%D1%81%D0%B0%D1%80%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9" title="Прокопий Кесарийский – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wikipedia.org/wiki/Prokopi_i_%C3%87ezares%C3%AB" title="Prokopi i Çezaresë – Albanian" lang="sq" hreflang="sq" class="interlanguage-link-target"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a href="https://simple.wikipedia.org/wiki/Procopius" title="Procopius – Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/Prokopios_C%C3%A9zarejsk%C3%BD" title="Prokopios Cézarejský – Slovak" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/Prokopij_iz_Cezareje" title="Prokopij iz Cezareje – Slovenian" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D0%B8%D1%98%D0%B5_%D0%B8%D0%B7_%D0%A6%D0%B5%D0%B7%D0%B0%D1%80%D0%B5%D1%98%D0%B5" title="Прокопије из Цезареје – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Prokopije" title="Prokopije – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Prokopios" title="Prokopios – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Prokopios" title="Prokopios – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Prokopius" title="Prokopius – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D1%96%D0%B9_%D0%9A%D0%B5%D1%81%D0%B0%D1%80%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9" title="Прокопій Кесарійський – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E6%99%AE%E7%BD%97%E7%A7%91%E5%8C%B9%E5%8E%84%E6%96%AF" title="普罗科匹厄斯 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q186153#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Procopius" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Procopius" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Procopius"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Procopius&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Procopius&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Procopius"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Procopius&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Procopius&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">This article is about the historian and author of the <i>Secret History</i>. For other persons with the given name, see <a href="/wiki/Procopius_(given_name)" title="Procopius (given name)">Procopius (given name)</a>. For the spider genus, see <a href="/wiki/Procopius_(spider)" title="Procopius (spider)">Procopius (spider)</a>.</div>
+<div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">6th-century Byzantine scholar and historian</div>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above" style="font-size:125%;"><div style="display:inline;" class="fn">Procopius</div></th></tr><tr><th scope="row" class="infobox-label" style="line-height:1.2em; padding-right:0.65em;">Born</th><td class="infobox-data" style="line-height:1.4em;"><span title="circa">c.</span><span style="white-space:nowrap;">&#8201;500&#160;CE</span><br /><a href="/wiki/Caesarea_Maritima" title="Caesarea Maritima">Caesarea Maritima</a>, <a href="/wiki/Palaestina_Prima" title="Palaestina Prima">Palaestina Prima</a>, <a href="/wiki/Eastern_Roman_Empire" class="mw-redirect" title="Eastern Roman Empire">Eastern Roman Empire</a></td></tr><tr><th scope="row" class="infobox-label" style="line-height:1.2em; padding-right:0.65em;">Died</th><td class="infobox-data" style="line-height:1.4em;"><span title="circa">c.</span><span style="white-space:nowrap;">&#8201;565&#160;CE</span></td></tr><tr><th scope="row" class="infobox-label" style="line-height:1.2em; padding-right:0.65em;">Occupation</th><td class="infobox-data role" style="line-height:1.4em;">Legal adviser</td></tr><tr><th scope="row" class="infobox-label" style="line-height:1.2em; padding-right:0.65em;">Subject</th><td class="infobox-data" style="line-height:1.4em;">Secular history</td></tr><tr><th scope="row" class="infobox-label" style="line-height:1.2em; padding-right:0.65em;">Notable works</th><td class="infobox-data" style="line-height:1.4em;"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class="plainlist">
+<ul><li><i>History of the Wars</i></li>
+<li><i>Buildings</i></li>
+<li><i>Secret History</i></li></ul>
+</div></td></tr></tbody></table>
+<p><b>Procopius of Caesarea</b> (<a href="/wiki/Greek_language" title="Greek language">Greek</a>: <span title="Ancient Greek (to 1453)-language text"><span lang="grc">Προκόπιος ὁ Καισαρεύς</span></span> <i>Prokópios ho Kaisareús</i>; <a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Procopius Caesariensis</i>; <abbr title="circa">c.</abbr><span style="white-space:nowrap;">&#8201;500</span> – 565) was a prominent <a href="/wiki/Late_antiquity" title="Late antiquity">late antique</a> <a href="/wiki/Greeks" title="Greeks">Greek</a> scholar from <a href="/wiki/Caesarea_Maritima" title="Caesarea Maritima">Caesarea Maritima</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;a&#93;</a></sup><sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;2&#93;</a></sup> Accompanying the Roman general <a href="/wiki/Belisarius" title="Belisarius">Belisarius</a> in <a href="/wiki/Justinian_I" title="Justinian I">Emperor Justinian</a>'s wars, Procopius became the principal Roman historian of the 6th century, writing the <i>History of the Wars</i>, the <i>Buildings</i>, and the <i>Secret History</i>.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Life">Life</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=1" title="Edit section: Life">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Apart from his own writings the main source for Procopius's life was an entry in the <i><a href="/wiki/Suda" title="Suda">Suda</a></i>,<sup id="cite_ref-Suda_On_Line_4-0" class="reference"><a href="#cite_note-Suda_On_Line-4">&#91;3&#93;</a></sup> a Byzantine Greek encyclopaedia written sometime after 975 which discusses his early life. He was a native of <a href="/wiki/Caesarea" title="Caesarea">Caesarea</a> in the <a href="/wiki/Roman_province" title="Roman province">province</a> of <i><a href="/wiki/Palaestina_Prima" title="Palaestina Prima">Palaestina Prima</a></i>.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;4&#93;</a></sup> He would have received a conventional upper class education in the <a href="/wiki/Greek_literature" title="Greek literature">Greek classics</a> and <a href="/wiki/Rhetoric" title="Rhetoric">rhetoric</a>,<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;5&#93;</a></sup> perhaps at the famous school at Gaza.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;6&#93;</a></sup> He may have attended law school, possibly at <a href="/wiki/Law_School_of_Berytus" class="mw-redirect" title="Law School of Berytus">Berytus</a> (present-day <a href="/wiki/Beirut" title="Beirut">Beirut</a>) or <a href="/wiki/Constantinople" title="Constantinople">Constantinople</a> (now <a href="/wiki/Istanbul" title="Istanbul">Istanbul</a>),<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;7&#93;</a></sup><sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;b&#93;</a></sup> and became a lawyer (<i>rhetor</i>).<sup id="cite_ref-Suda_On_Line_4-1" class="reference"><a href="#cite_note-Suda_On_Line-4">&#91;3&#93;</a></sup> He evidently knew <a href="/wiki/Latin" title="Latin">Latin</a>, as was natural for a man with legal training.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;c&#93;</a></sup> In 527, the first year of the reign of the emperor <a href="/wiki/Justinian_I" title="Justinian I">Justinian<span class="nowrap">&#160;</span>I</a>, he became the legal adviser (<i><span title="Latin-language text"><i lang="la">adsessor</i></span></i>) for <a href="/wiki/Belisarius" title="Belisarius">Belisarius</a>, a general whom Justinian made his chief military commander in a great attempt to restore control over the lost western provinces of the empire.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;d&#93;</a></sup>
+</p><p>Procopius was with Belisarius on the eastern front until the latter was defeated at the <a href="/wiki/Battle_of_Callinicum" title="Battle of Callinicum">Battle of Callinicum</a> in 531<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;11&#93;</a></sup> and recalled to Constantinople.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;12&#93;</a></sup> Procopius witnessed the <a href="/wiki/Nika_riots" title="Nika riots">Nika riots</a> of January, 532, which Belisarius and his fellow general <a href="/wiki/Mundus_(general)" class="mw-redirect" title="Mundus (general)">Mundus</a> repressed with a massacre in the <a href="/wiki/Hippodrome_of_Constantinople" class="mw-redirect" title="Hippodrome of Constantinople">Hippodrome</a>.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;13&#93;</a></sup> In 533, he accompanied Belisarius on his victorious expedition against the <a href="/wiki/Vandal_Kingdom" title="Vandal Kingdom">Vandal kingdom</a> in <a href="/wiki/North_Africa" title="North Africa">North Africa</a>, took part in the capture of <a href="/wiki/Carthage" title="Carthage">Carthage</a>, and remained in Africa with Belisarius's successor <a href="/wiki/Solomon_(magister_militum)" title="Solomon (magister militum)">Solomon the Eunuch</a> when Belisarius returned east to the capital. Procopius recorded a few of the <a href="/wiki/Extreme_weather_events_of_535%E2%80%93536" class="mw-redirect" title="Extreme weather events of 535–536">extreme weather events of 535–536</a>, although these were presented as a backdrop to Byzantine military activities, such as <a href="/wiki/Stotzas" title="Stotzas">a mutiny in and around Carthage</a>.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;14&#93;</a></sup><sup id="cite_ref-19" class="reference"><a href="#cite_note-19">&#91;e&#93;</a></sup> He rejoined Belisarius for his campaign against the <a href="/wiki/Ostrogothic_Kingdom" title="Ostrogothic Kingdom">Ostrogothic kingdom</a> in Italy and experienced the <a href="/wiki/Siege_of_Rome_(537%E2%80%93538)" title="Siege of Rome (537–538)">Gothic siege of Rome</a> that lasted a year and nine days, ending in mid-March 538. He witnessed Belisarius's entry into the Gothic capital, <a href="/wiki/Ravenna" title="Ravenna">Ravenna</a>, in 540. Both the <i>Wars</i><sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;15&#93;</a></sup> and the <i>Secret History</i> suggest that his relationship with Belisarius cooled thereafter. When Belisarius was sent back to Italy in 544 to cope with <a href="/wiki/Gothic_War_(535%E2%80%93554)" title="Gothic War (535–554)">a renewal of the war with the Goths</a>, now led by the able king <a href="/wiki/Totila" title="Totila">Totila</a>, Procopius appears to have no longer been on Belisarius's staff.
+</p><p>As <i><a href="/wiki/Magister_militum" title="Magister militum">magister militum</a></i>, Belisarius was an "illustrious man" (<a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">vir illustris</i>; <a href="/wiki/Greek_language" title="Greek language">Greek</a>: <span title="Ancient Greek (to 1453)-language text"><span lang="grc">ἰλλούστριος</span></span>, <i>illoústrios</i>); being his <i><span title="Latin-language text"><i lang="la">adsessor</i></span></i>, Procopius must therefore have had at least the rank of a "visible man" (<i>vir spectabilis</i>). He thus belonged to the mid-ranking group of the senatorial order (<i><span title="Latin-language text"><i lang="la">ordo senatorius</i></span></i>).  However, the <i>Suda</i>, which is usually well informed in such matters, also describes Procopius himself as one of the <i><span title="Latin-language text"><i lang="la">illustres</i></span></i>. Should this information be correct, Procopius would have had a seat in <a href="/wiki/Byzantine_Senate" class="mw-redirect" title="Byzantine Senate">Constantinople's senate</a>, which was restricted to the <i><span title="Latin-language text"><i lang="la">illustres</i></span></i> under Justinian.  He also wrote that under Justinian's reign in 560, a major Christian church dedicated to the Virgin Mary was built <a href="/wiki/Temple_Mount#Byzantine_period" title="Temple Mount">on the site of the Temple Mount</a>.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;16&#93;</a></sup>
+</p><p>It is not certain when Procopius died. Many historians—including <a href="/wiki/James_Howard-Johnson" class="mw-redirect" title="James Howard-Johnson">Howard-Johnson</a>, <a href="/wiki/Averil_Cameron" title="Averil Cameron">Cameron</a>, and Geoffrey Greatrex—date his death to 554, but there was an urban prefect of Constantinople (<i><span title="Latin-language text"><i lang="la">praefectus urbi Constantinopolitanae</i></span></i>) called Procopius in 562. In that year, Belisarius was implicated in a conspiracy and was brought before this urban prefect.
+</p><p>In fact, some scholars have argued that Procopius died at least a few years after 565 as he unequivocally states in the beginning of his <i>Secret History</i> that he planned to publish it after the death of Justinian for fear he would be tortured and killed by the emperor (or even by general Belisarius) if the emperor (or the general) learned about what Procopius wrote (his scathing criticism of the emperor, of his wife, of Belisarius, of the general's wife, Antonia: calling the former "demons in human form" and the latter incompetent and treacherous) in this later history. However, most scholars believe that the <i>Secret History</i> was written in 550 and remained unpublished during Procopius' lifetime.
+</p>
+<h2><span class="mw-headline" id="Writings">Writings</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=2" title="Edit section: Writings">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:202px;"><a href="/wiki/File:Meister_von_San_Vitale_in_Ravenna.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Meister_von_San_Vitale_in_Ravenna.jpg/200px-Meister_von_San_Vitale_in_Ravenna.jpg" decoding="async" width="200" height="271" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Meister_von_San_Vitale_in_Ravenna.jpg/300px-Meister_von_San_Vitale_in_Ravenna.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/89/Meister_von_San_Vitale_in_Ravenna.jpg/400px-Meister_von_San_Vitale_in_Ravenna.jpg 2x" data-file-width="1409" data-file-height="1907" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Meister_von_San_Vitale_in_Ravenna.jpg" class="internal" title="Enlarge"></a></div>Emperor Justinian</div></div></div>
+<p>The writings of Procopius are the primary source of information for the rule of the emperor <a href="/wiki/Justinian_I" title="Justinian I">Justinian<span class="nowrap">&#160;</span>I</a>. Procopius was the author of a history in eight books on the wars prosecuted by Justinian, a <a href="/wiki/Panegyric" title="Panegyric">panegyric</a> on the emperor's public works projects throughout the empire, and a book known as the <i>Secret History</i> that claims to report the scandals that Procopius could not include in his officially sanctioned history for fear of angering the emperor, his wife, Belisarius, and the general's wife and had to wait until all of them were dead to avoid retaliation.
+</p><p><span class="anchor" id="History_of_the_Wars"></span><span class="anchor" id="The_Wars_of_Justinian"></span><span class="anchor" id="The_Wars"></span><span class="anchor" id="Procopius&#39;s_Wars"></span><span class="anchor" id="Procopius&#39;_Wars"></span><span class="anchor" id="De_Bellis"></span>
+</p>
+<h3><span class="mw-headline" id="History_of_the_Wars"><i>History of the Wars</i></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=3" title="Edit section: History of the Wars">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Procopius's <i>Wars</i> or <i>History of the Wars</i> (<a href="/wiki/Greek_language" title="Greek language">Greek</a>: <span title="Ancient Greek (to 1453)-language text"><span lang="grc">Ὑπὲρ τῶν Πολέμων Λόγοι</span></span>, <i>Hypèr tōn Polémon Lógoi</i>, "Words on the Wars"; <a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">De Bellis</i>, "On the Wars") is his most important work, although less well known than the <i>Secret History</i>.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">&#91;17&#93;</a></sup> The first seven books seem to have been largely completed by 545 and may have been published as a unit. They were, however, updated to mid-century before publication, with the latest mentioned event occurring in early 551. The eighth and final book brings the history to 553.
+</p><p><span class="anchor" id="Persian_War"></span><span class="anchor" id="De_Bello_Persico"></span>
+The first two books—often known as <i>The Persian War</i> (<a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">De Bello Persico</i>)—deal with the conflict between the Romans and <a href="/wiki/Sassanid_Persia" class="mw-redirect" title="Sassanid Persia">Sassanid Persia</a> in <a href="/wiki/Mesopotamia" title="Mesopotamia">Mesopotamia</a>, <a href="/wiki/Syria_(region)" title="Syria (region)">Syria</a>, <a href="/wiki/Armenia_(region)" class="mw-redirect" title="Armenia (region)">Armenia</a>, <a href="/wiki/Lazica" title="Lazica">Lazica</a>, and <a href="/wiki/Kingdom_of_Iberia_(antiquity)" class="mw-redirect" title="Kingdom of Iberia (antiquity)"> Iberia</a> (present-day <a href="/wiki/Georgia_(country)" title="Georgia (country)">Georgia</a>).<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">&#91;f&#93;</a></sup> It details the campaigns of the Sassanid shah <a href="/wiki/Kavadh_I" class="mw-redirect" title="Kavadh I"> Kavadh<span class="nowrap">&#160;</span>I</a>, the 532 <a href="/wiki/Nika_riots" title="Nika riots"> 'Nika' revolt</a>, the war by Kavadh's successor <a href="/wiki/Khosrau_I" class="mw-redirect" title="Khosrau I"> Khosrau<span class="nowrap">&#160;</span>I</a> in 540, his destruction of <a href="/wiki/Antioch_on_the_Orontes" class="mw-redirect" title="Antioch on the Orontes">Antioch</a> and deportation of its inhabitants to Mesopotamia, and the <a href="/wiki/Plague_of_Justinian" title="Plague of Justinian">great plague</a> that devastated the empire from 542. The <i>Persian War</i> also covers the early career of Procopius's patron <a href="/wiki/Belisarius" title="Belisarius">Belisarius</a> in some detail.
+</p><p><span class="anchor" id="Vandal_War"></span><span class="anchor" id="Vandalic_War"></span><span class="anchor" id="De_Bello_Vandalico"></span>
+The <i>Wars</i>’ next two books—known as <i>The Vandal War</i> or <i>Vandalic War</i> (<a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">De Bello Vandalico</i>)—cover Belisarius's <a href="/wiki/Vandalic_War" title="Vandalic War">successful campaign</a> against the <a href="/wiki/Vandal_Kingdom" title="Vandal Kingdom">Vandal kingdom</a> that had occupied Rome's provinces in <a href="/wiki/Northwest_Africa" class="mw-redirect" title="Northwest Africa">northwest Africa</a> for the last century.
+</p><p><span class="anchor" id="Gothic_War"></span><span class="anchor" id="De_Bello_Gothico"></span>
+The final four books—known as <i>The Gothic War</i> (<a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">De Bello Gothico</i>)—cover the <a href="/wiki/Gothic_War_(535%E2%80%93554)" title="Gothic War (535–554)">Italian campaigns</a> by Belisarius and others against <a href="/wiki/Ostrogothic_Kingdom" title="Ostrogothic Kingdom">the Ostrogoths</a>. Procopius includes accounts of the <a href="/wiki/Siege_of_Naples_(536)" title="Siege of Naples (536)">1st</a> and <a href="/wiki/Siege_of_Naples_(542%E2%80%9343)" class="mw-redirect" title="Siege of Naples (542–43)">2nd sieges of Naples</a> and the <a href="/wiki/Siege_of_Rome_(537%E2%80%93538)" title="Siege of Rome (537–538)">1st</a>, <a href="/wiki/Sack_of_Rome_(546)" title="Sack of Rome (546)">2nd</a>, and <a href="/wiki/Siege_of_Rome_(549%E2%80%93550)" title="Siege of Rome (549–550)">3rd sieges of Rome</a>. He also includes an account of the rise of the <a href="/wiki/Franks" title="Franks">Franks</a> (see <i><a href="/wiki/Arborychoi" title="Arborychoi">Arborychoi</a></i>). The last book describes the <a href="/wiki/Eunuch_(court_official)" class="mw-redirect" title="Eunuch (court official)">eunuch</a> <a href="/wiki/Narses" title="Narses">Narses</a>'s successful conclusion of the Italian campaign and includes some coverage of campaigns along the empire's eastern borders as well.
+</p><p>The <i>Wars</i> proved influential on later Byzantine historiography.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">&#91;19&#93;</a></sup>
+In the 570s <a href="/wiki/Agathias_of_Myrina" class="mw-redirect" title="Agathias of Myrina"> Agathias</a> wrote <i>Histories</i>, a continuation of Procopius's work in a similar style.
+</p><p><span class="anchor" id="Secret_History"></span><span class="anchor" id="Historia_Arcana"></span><span class="anchor" id="Anecdota"></span><span class="anchor" id="Anecdotes"></span>
+</p>
+<h3><span class="mw-headline" id="Secret_History"><i>Secret History</i></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=4" title="Edit section: Secret History">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Meister_von_San_Vitale_in_Ravenna_013.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Meister_von_San_Vitale_in_Ravenna_013.jpg/220px-Meister_von_San_Vitale_in_Ravenna_013.jpg" decoding="async" width="220" height="264" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Meister_von_San_Vitale_in_Ravenna_013.jpg/330px-Meister_von_San_Vitale_in_Ravenna_013.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/91/Meister_von_San_Vitale_in_Ravenna_013.jpg/440px-Meister_von_San_Vitale_in_Ravenna_013.jpg 2x" data-file-width="1576" data-file-height="1888" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Meister_von_San_Vitale_in_Ravenna_013.jpg" class="internal" title="Enlarge"></a></div>Belisarius may be this bearded figure on the right of Emperor <a href="/wiki/Justinian_I" title="Justinian I">Justinian I</a> in the mosaic in the <a href="/wiki/Basilica_of_San_Vitale" title="Basilica of San Vitale">Church of San Vitale</a>, <a href="/wiki/Ravenna" title="Ravenna">Ravenna</a>, which celebrates the reconquest of Italy by the <a href="/wiki/Byzantine_army" title="Byzantine army">Roman army</a> under the skillful leadership of Belisarius.</div></div></div>
+<p>Procopius's now famous <i>Anecdota</i>, also known as <i>Secret History</i> (<a href="/wiki/Greek_language" title="Greek language">Greek</a>: <span title="Ancient Greek (to 1453)-language text"><span lang="grc">Ἀπόκρυφη Ἱστορία</span></span>, <i>Apókryphe Historía</i>; <a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Historia Arcana</i>), was discovered centuries later at the <a href="/wiki/Vatican_Library" title="Vatican Library">Vatican Library</a> in Rome<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">&#91;20&#93;</a></sup> and published in <a href="/wiki/Lyon" title="Lyon">Lyon</a> by <a href="/wiki/Niccol%C3%B2_Alamanni" title="Niccolò Alamanni">Niccolò Alamanni</a> in 1623. Its existence was already known from the <i><a href="/wiki/Suda" title="Suda">Suda</a></i>, which referred to it as Procopius's "unpublished works" containing "comedy" and "invective" of Justinian, Theodora, Belisarius and Antonina. The <i>Secret History</i> covers roughly the same years as the first seven books of <i>The History of the Wars</i> and appears to have been written after they were published. Current consensus generally dates it to 550, or less commonly 558.
+</p><p>In the eyes of many scholars, the <i>Secret History</i> reveals an author who had become deeply disillusioned with Emperor Justinian, his wife <a href="/wiki/Theodora_(wife_of_Justinian_I)" title="Theodora (wife of Justinian I)">Theodora</a>, the general <a href="/wiki/Belisarius" title="Belisarius">Belisarius</a>, and his wife <a href="/wiki/Antonina_(wife_of_Belisarius)" title="Antonina (wife of Belisarius)">Antonina</a>. The work claims to expose the secret springs of their public actions, as well as the private lives of the emperor and his entourage. Justinian is portrayed as cruel, venal, prodigal, and incompetent. In one passage, it is even claimed that he was possessed by demonic spirits or was himself a demon:
+</p>
+<style data-mw-deduplicate="TemplateStyles:r996844942">.mw-parser-output .templatequote{overflow:hidden;margin:1em 0;padding:0 40px}.mw-parser-output .templatequote .templatequotecite{line-height:1.5em;text-align:left;padding-left:1.6em;margin-top:0}</style><blockquote class="templatequote"><p>And some of those who have been with Justinian at the palace late at night, men who were pure of spirit, have thought they saw a strange demoniac form taking his place. One man said that the Emperor suddenly rose from his throne and walked about, and indeed he was never wont to remain sitting for long, and immediately Justinian's head vanished, while the rest of his body seemed to ebb and flow; whereat the beholder stood aghast and fearful, wondering if his eyes were deceiving him. But presently he perceived the vanished head filling out and joining the body again as strangely as it had left it.<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">&#91;21&#93;</a></sup></p></blockquote>
+<p>Similarly, the Theodora of the <i>Secret History</i> is a garish portrait of vulgarity and insatiable lust juxtaposed with cold-blooded self-interest, shrewishness, and envious and fearful mean-spiritedness. Among the more titillating (and dubious) revelations in the <i>Secret History</i> is Procopius's account of Theodora's thespian accomplishments:
+</p>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r996844942"/><blockquote class="templatequote"><p>Often, even in the theatre, in the sight of all the people, she removed her costume and stood nude in their midst, except for a girdle about the groin: not that she was abashed at revealing that, too, to the audience, but because there was a law against appearing altogether naked on the stage, without at least this much of a fig-leaf. Covered thus with a ribbon, she would sink down to the stage floor and recline on her back. Slaves to whom the duty was entrusted would then scatter grains of barley from above into the calyx of this passion flower, whence geese, trained for the purpose, would next pick the grains one by one with their bills and eat.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">&#91;22&#93;</a></sup></p></blockquote>
+<p>Furthermore, <i>Secret History</i> portrays Belisarius as a weak man completely emasculated by his wife, Antonina, who is portrayed in very similar terms to Theodora. They are both said to be former actresses and close friends. Procopius claimed Antonina worked as an agent for Theodora against Belisarius, and had an ongoing affair with Belisarius' godson, Theodosius.
+</p><p>On the other hand, it has been argued that Procopius prepared the <i>Secret History</i> as an exaggerated document out of fear that a conspiracy might overthrow Justinian's regime, which—as a kind of court historian—might be reckoned to include him. The unpublished manuscript would then have been a kind of insurance, which could be offered to the new ruler as a way to avoid execution or exile after the coup. If this hypothesis were correct, the <i>Secret History</i> would not be proof that Procopius hated Justinian or Theodora.<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">&#91;23&#93;</a></sup>
+</p><p><span class="anchor" id="The_Buildings"></span><span class="anchor" id="The_Buildings_of_Justinian"></span><span class="anchor" id="Buildings"></span>
+</p>
+<h3><span class="mw-headline" id="The_Buildings"><i>The Buildings</i></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=5" title="Edit section: The Buildings">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:194px;"><a href="/wiki/File:Sangarius_Bridge._Drawing_01.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sangarius_Bridge._Drawing_01.jpg/192px-Sangarius_Bridge._Drawing_01.jpg" decoding="async" width="192" height="273" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sangarius_Bridge._Drawing_01.jpg/288px-Sangarius_Bridge._Drawing_01.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sangarius_Bridge._Drawing_01.jpg/384px-Sangarius_Bridge._Drawing_01.jpg 2x" data-file-width="1407" data-file-height="2000" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Sangarius_Bridge._Drawing_01.jpg" class="internal" title="Enlarge"></a></div>Triumphal arch at the entrance to the <a href="/wiki/Sangarius_Bridge" title="Sangarius Bridge">Sangarius Bridge</a></div></div></div>
+<p><i>The Buildings</i> (<a href="/wiki/Greek_language" title="Greek language">Greek</a>: <span title="Ancient Greek (to 1453)-language text"><span lang="grc">Περὶ Κτισμάτων</span></span>, <i>Perì Ktismáton</i>; <a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">De Aedificiis</i>, "On Buildings") is a <a href="/wiki/Panegyric" title="Panegyric">panegyric</a> on Justinian's public works projects throughout the empire.<sup id="cite_ref-Downey_30-0" class="reference"><a href="#cite_note-Downey-30">&#91;24&#93;</a></sup> The first book may date to before the collapse of the first dome of <a href="/wiki/Hagia_Sophia" title="Hagia Sophia">Hagia Sophia</a> in 557, but some scholars think that it is possible that the work postdates the building of the <a href="/wiki/Sangarius_Bridge" title="Sangarius Bridge">bridge over the Sangarius</a> in the late 550s.<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">&#91;25&#93;</a></sup> Historians consider <i>Buildings</i> to be an incomplete work due to evidence of the surviving version being a draft with two possible redactions.<sup id="cite_ref-Downey_30-1" class="reference"><a href="#cite_note-Downey-30">&#91;24&#93;</a></sup><sup id="cite_ref-32" class="reference"><a href="#cite_note-32">&#91;26&#93;</a></sup>
+</p><p><i>Buildings</i> was likely written at Justinian's behest, and it is doubtful that its sentiments expressed are sincere. It tells us nothing further about Belisarius, and it takes a sharply different attitude towards Justinian. He is presented as an idealised <a href="/wiki/Orthodox_Christianity" class="mw-redirect" title="Orthodox Christianity">Christian</a> emperor who built churches for the glory of God and defenses for the safety of his subjects. He is depicted showing particular concern for the water supply, building new <a href="/wiki/Roman_aqueduct" title="Roman aqueduct">aqueducts</a> and restoring those that had fallen into disuse. Theodora, who was dead when this panegyric was written, is mentioned only briefly, but Procopius's praise of her beauty is fulsome.
+</p><p>Due to the panegyrical nature of Procopius's <i>Buildings</i>, historians have discovered several discrepancies between claims made by Procopius and accounts in other primary sources. A prime example is Procopius's starting the reign of Justinian in 518, which was actually the start of the reign of his uncle and predecessor <span class="nowrap"><a href="/wiki/Justin_I" title="Justin I">Justin I</a>.</span> By treating the uncle's reign as part of his nephew's, Procopius was able to credit Justinian with buildings erected or begun under Justin's administration. Such works include renovation of the walls of <a href="/wiki/Edessa" title="Edessa">Edessa</a> after its 525 flood and consecration of several churches in the region. Similarly, Procopius falsely credits Justinian for the extensive refortification of the cities of <a href="/wiki/Constan%C8%9Ba" title="Constanța">Tomis</a> and <a href="/wiki/Histria_(Sinoe)" class="mw-redirect" title="Histria (Sinoe)">Histria</a> in <a href="/wiki/Scythia_Minor_(Roman_province)" class="mw-redirect" title="Scythia Minor (Roman province)">Scythia Minor</a>. This had actually been carried out under <span class="nowrap"><a href="/wiki/Anastasius_I_(emperor)" class="mw-redirect" title="Anastasius I (emperor)">Anastasius I</a>,</span> who reigned before Justin.<sup id="cite_ref-33" class="reference"><a href="#cite_note-33">&#91;27&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Style">Style</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=6" title="Edit section: Style">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Procopius belongs to the school of <a href="/wiki/Late_antiquity" title="Late antiquity">late antique</a> historians who continued the traditions of the <a href="/wiki/Second_Sophistic" title="Second Sophistic">Second Sophistic</a>. They wrote in <a href="/wiki/Attic_dialect" class="mw-redirect" title="Attic dialect">Attic Greek</a>. Their models were <a href="/wiki/Herodotus" title="Herodotus">Herodotus</a>, <a href="/wiki/Polybius" title="Polybius">Polybius</a> and in particular <a href="/wiki/Thucydides" title="Thucydides">Thucydides</a>. Their subject matter was secular history. They avoided vocabulary unknown to Attic Greek and inserted an explanation when they had to use contemporary words. Thus Procopius includes glosses of monks ("the most temperate of Christians") and churches (as equivalent to a "temple" or "shrine"), since monasticism was unknown to the ancient Athenians and their <i>ekklesía</i> had been <a href="/wiki/Ecclesia_(ancient_Athens)" class="mw-redirect" title="Ecclesia (ancient Athens)">a popular assembly</a>.<sup id="cite_ref-34" class="reference"><a href="#cite_note-34">&#91;28&#93;</a></sup> 
+</p><p>The secular historians eschewed the history of the Christian church.  Ecclesiastical history was left to a separate genre after <a href="/wiki/Eusebius_of_Caesarea" class="mw-redirect" title="Eusebius of Caesarea">Eusebius</a>. However, <a href="/wiki/Averil_Cameron" title="Averil Cameron">Cameron</a> has argued convincingly that Procopius's works reflect the tensions between the classical and Christian models of history in 6th-century Constantinople. This is supported by <a href="/w/index.php?title=Mary_Whitby&amp;action=edit&amp;redlink=1" class="new" title="Mary Whitby (page does not exist)">Whitby</a>'s analysis of Procopius's depiction of the capital and <a href="/wiki/Hagia_Sophia" title="Hagia Sophia">its cathedral</a> in comparison to contemporary pagan panegyrics.<sup id="cite_ref-35" class="reference"><a href="#cite_note-35">&#91;29&#93;</a></sup> Procopius can be seen as depicting Justinian as essentially God's <a href="/wiki/Vicegerent" title="Vicegerent">vicegerent</a>, making the case for buildings being a primarily religious panegyric.<sup id="cite_ref-36" class="reference"><a href="#cite_note-36">&#91;30&#93;</a></sup> Procopius indicates that he planned to write an ecclesiastical history himself<sup id="cite_ref-37" class="reference"><a href="#cite_note-37">&#91;31&#93;</a></sup> and, if he had, he would probably have followed the rules of that genre. As far as known, however, such an ecclesiastical history was never written.
+</p><p>Some historians have criticized Propocius's description of some barbarians, for example, he dehumanized the unfamiliar Moors as "not even properly human". This was however, inline with Byzantine ethnographic practice in late antiquity.<sup id="cite_ref-38" class="reference"><a href="#cite_note-38">&#91;32&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Legacy">Legacy</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=7" title="Edit section: Legacy">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A number of <a href="/wiki/Historical_novel" class="mw-redirect" title="Historical novel">historical novels</a> based on Procopius's works (along with other sources) have been written. <i><a href="/wiki/Count_Belisarius" title="Count Belisarius">Count Belisarius</a></i> was written by poet and novelist <a href="/wiki/Robert_Graves" title="Robert Graves">Robert Graves</a> in 1938. Procopius himself appears as a minor character in <a href="/wiki/Felix_Dahn" title="Felix Dahn">Felix Dahn</a>'s <i><a href="/wiki/A_Struggle_for_Rome" title="A Struggle for Rome">A Struggle for Rome</a></i> and in <a href="/wiki/L._Sprague_de_Camp" title="L. Sprague de Camp">L. Sprague de Camp</a>'s alternate history novel <i><a href="/wiki/Lest_Darkness_Fall" title="Lest Darkness Fall">Lest Darkness Fall</a></i>. The novel's main character, archaeologist Martin Padway, derives most of his knowledge of historical events from the <i>Secret History</i>.<sup id="cite_ref-39" class="reference"><a href="#cite_note-39">&#91;33&#93;</a></sup>
+</p><p>The narrator in <a href="/wiki/Herman_Melville" title="Herman Melville">Herman Melville</a>'s novel <i><a href="/wiki/Moby-Dick" title="Moby-Dick">Moby-Dick</a></i> cites Procopius's description of a captured sea monster as evidence of the narrative's feasibility.<sup id="cite_ref-40" class="reference"><a href="#cite_note-40">&#91;34&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="List_of_selected_works">List of selected works</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=8" title="Edit section: List of selected works">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFJ._Haury1962–64" class="citation book cs1 cs1-prop-year-range-abbreviated cs1-prop-foreign-lang-source">J. Haury, ed. (1962–64) [1905]. <a rel="nofollow" class="external text" href="https://www.google.com/books/edition/Procopii_Caesariensis_Opera_Omnia/66ECMwEACAAJ?hl=en"><i>Procopii Caesariensis opera omnia</i></a> (in Greek). revised by G. Wirth. Leipzig: <a href="/wiki/Teubner" class="mw-redirect" title="Teubner">Teubner</a>. <q>4 volumes</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Procopii+Caesariensis+opera+omnia&amp;rft.place=Leipzig&amp;rft.pub=Teubner&amp;rft.date=1962%2F1964&amp;rft_id=https%3A%2F%2Fwww.google.com%2Fbooks%2Fedition%2FProcopii_Caesariensis_Opera_Omnia%2F66ECMwEACAAJ%3Fhl%3Den&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFH._B._Dewing1914–40" class="citation book cs1 cs1-prop-year-range-abbreviated">H. B. Dewing, ed. (1914–40). <i>Procopius</i>. Loeb Classical Library. Cambridge, Mass.: Harvard University Press and London, Hutchinson. <q>7 volumes, Greek text and English translation</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Procopius&amp;rft.place=Cambridge%2C+Mass.&amp;rft.series=Loeb+Classical+Library&amp;rft.pub=Harvard+University+Press+and+London%2C+Hutchinson&amp;rft.date=1914%2F1940&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span>
+<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFDowneyDewing1940" class="citation book cs1"><a href="/wiki/Glanville_Downey" title="Glanville Downey">Downey, G.</a>; <a href="/w/index.php?title=Henry_B_Dewing&amp;action=edit&amp;redlink=1" class="new" title="Henry B Dewing (page does not exist)">Dewing, Henry B.</a>, eds. (1940). <i>Buildings of Justinian</i>. <a href="/wiki/Loeb_Classical_Library" title="Loeb Classical Library">Loeb Classical Library</a>. Cambridge, MA: Harvard University Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Buildings+of+Justinian&amp;rft.place=Cambridge%2C+MA&amp;rft.series=Loeb+Classical+Library&amp;rft.pub=Harvard+University+Press&amp;rft.date=1940&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span></li></ul></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFG._A._Williamson2007" class="citation book cs1"><a href="/wiki/G._A._Williamson" title="G. A. Williamson">G. A. Williamson</a>, ed. (2007) [1966]. <i>Procopius | The Secret History</i>. Loeb Classical Library. Translated by Peter Sarris. Harmondsworth: Penguin Books. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0140455281" title="Special:BookSources/978-0140455281"><bdi>978-0140455281</bdi></a>. <q>A readable and accessible English translation of the <i>Anecdota</i></q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Procopius+%7C+The+Secret+History&amp;rft.place=Harmondsworth&amp;rft.series=Loeb+Classical+Library&amp;rft.pub=Penguin+Books&amp;rft.date=2007&amp;rft.isbn=978-0140455281&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation book cs1"><i>Prokopios | The Secret History</i>. Translated by Anthony Kaldellis. Indianapolis: Hackett Publishing. 2010. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1603841801" title="Special:BookSources/978-1603841801"><bdi>978-1603841801</bdi></a>. <q>This edition includes related texts, an introductory essay, notes, maps, a timeline, a guide to the main sources from the period and a guide to scholarship in English. The translator uses blunt and precise English prose in order to adhere to the style of the original text.</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Prokopios+%7C+The+Secret+History&amp;rft.place=Indianapolis&amp;rft.pub=Hackett+Publishing&amp;rft.date=2010&amp;rft.isbn=978-1603841801&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span></li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=9" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Jordanes" title="Jordanes">Jordanes</a></li>
+<li><a href="/wiki/Gregory_of_Tours" title="Gregory of Tours">Gregory of Tours</a></li></ul>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=10" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist reflist-lower-alpha">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">"Like many Byzantine scholars, Procopius affected a remarkable traditional form of writing".<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">For an alternative reading of Procopius as a trained engineer, see Howard-Johnson.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;8&#93;</a></sup></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">Procopius uses and translates a number of Latin words in his <i>Wars</i>. Börm suggests a possible acquaintance with Vergil and Sallust.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;9&#93;</a></sup></span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">Procopius speaks of becoming Belisarius's advisor (<i>symboulos</i>) in that year.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;10&#93;</a></sup></span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text">Before modern times, European and Mediterranean historians, as far as weather is concerned, typically recorded only the extreme or major weather events for a year or a multi-year period, preferring to focus on the human activities of policy makers and warriors instead.</span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"> Börm provides a detailed analysis.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">&#91;18&#93;</a></sup></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=11" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1011085734"/><div class="reflist reflist-columns references-column-width" style="column-width: 30em;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">"Procopius", John Moorhead, <i>Encyclopedia of Historians and Historical Writing: M–Z</i>, Vol. II, Kelly Boyd, (Fitzroy Dearborn Publishers, 1999), 962.</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFMorcilloTrotha2020" class="citation book cs1">Morcillo, Jesús Muñoz; Trotha, Caroline Y. Robertson-von (2020-11-30). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=u0sFEAAAQBAJ"><i>Genealogy of Popular Science: From Ancient Ecphrasis to Virtual Reality</i></a>. transcript Verlag. p.&#160;332. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-8394-4835-9" title="Special:BookSources/978-3-8394-4835-9"><bdi>978-3-8394-4835-9</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Genealogy+of+Popular+Science%3A+From+Ancient+Ecphrasis+to+Virtual+Reality&amp;rft.pages=332&amp;rft.pub=transcript+Verlag&amp;rft.date=2020-11-30&amp;rft.isbn=978-3-8394-4835-9&amp;rft.aulast=Morcillo&amp;rft.aufirst=Jes%C3%BAs+Mu%C3%B1oz&amp;rft.au=Trotha%2C+Caroline+Y.+Robertson-von&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3Du0sFEAAAQBAJ&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Suda_On_Line-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-Suda_On_Line_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Suda_On_Line_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="/wiki/Suda" title="Suda">Suda</a> pi.2479. See under 'Procopius' on <a rel="nofollow" class="external text" href="http://www.stoa.org/sol/">Suda On Line</a>.</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Procopius, <i>Wars of Justinian</i> I.1.1; <a href="/wiki/Suda" title="Suda">Suda</a> pi.2479. See under 'Procopius' on <a rel="nofollow" class="external text" href="http://www.stoa.org/sol/">Suda On Line</a>.</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">Cameron, Averil: <i>Procopius and the Sixth Century</i>, London: Duckworth, 1985, p.7.</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Evans, James A. S.: <i>Procopius</i>. New York: Twayne Publishers, 1972, p. 31.</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Cameron, <i>Procopius and the Sixth Century</i>, p. 6.</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Howard-Johnson, James: 'The Education and Expertise of Procopius'; in <i>Antiquité Tardive</i> 10 (2002), 19–30.</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">Börm, Henning (2007) <i>Prokop und die Perser</i>, p.46. Franz Steiner Verlag, Stuttgart. <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-515-09052-0" title="Special:BookSources/978-3-515-09052-0">978-3-515-09052-0</a></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text">Procopius, <i>Wars</i>, 1.12.24.</span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><i>Wars</i>, I.18.1-56</span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><i>Wars</i>, I.21.2</span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><i>Wars</i>, I.24.1-58</span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.gutenberg.org/files/16765/16765-h/16765-h.htm">1</a>.</span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><i>Wars</i>, VIII.</span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFDolphin" class="citation web cs1">Dolphin, Lambert. <a rel="nofollow" class="external text" href="http://www.templemount.org/visittemp.html">"Visiting the Temple Mount"</a>. Temple Mount.org<span class="reference-accessdate">. Retrieved <span class="nowrap">February 5,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Visiting+the+Temple+Mount&amp;rft.pub=Temple+Mount.org&amp;rft.aulast=Dolphin&amp;rft.aufirst=Lambert&amp;rft_id=http%3A%2F%2Fwww.templemount.org%2Fvisittemp.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span></span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFProcopius1914" class="citation web cs1">Procopius (1914). <a rel="nofollow" class="external text" href="http://data.perseus.org/citations/urn:cts:greekLit:tlg4029.tlg001.perseus-grc1:1.1">"Procopius, de Bellis. H.B. (Henry Bronson) Dewing, Ed. &#91;First section:&#93; Procop. Pers. 1.1"</a>. <i>data.perseus.org</i>. Perseus Digital Library<span class="reference-accessdate">. Retrieved <span class="nowrap">24 December</span> 2022</span>. <q>[Opening line in Greek] Προκόπιος Καισαρεὺς τοὺς πολέμους ξυνέγραψεν οὓς Ἰουστινιανὸς ὁ Ῥωμαίων βασιλεὺς πρὸς βαρβάρους διήνεγκε τούς τε ἑῴους καὶ ἑσπερίους,... Translation: Procopius from Caesarea wrote the history of the wars of Roman Emperor Justinianus against the barbarians of the East and of the West..</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=data.perseus.org&amp;rft.atitle=Procopius%2C+de+Bellis.+H.B.+%28Henry+Bronson%29+Dewing%2C+Ed.+%5BFirst+section%3A%5D+Procop.+Pers.+1.1&amp;rft.date=1914&amp;rft.au=Procopius&amp;rft_id=http%3A%2F%2Fdata.perseus.org%2Fcitations%2Furn%3Acts%3AgreekLit%3Atlg4029.tlg001.perseus-grc1%3A1.1&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span>. Greek text edition by Henry Bronson Dewing, 1914.</span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text">Börm, Henning. <i><a rel="nofollow" class="external text" href="https://www.academia.edu/1012245/Prokop_und_die_Perser_Untersuchungen_zu_den_romisch-sasanidischen_Kontakten_in_der_ausgehenden_Spatantike_OrOcc_16_._Stuttgart_Franz_Steiner_Verlag_2007">Prokop und die Perser</a></i>. Stuttgart: Franz Steiner Verlag, 2007.</span>
+</li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text">
+Cresci, Lia Raffaella. "Procopio al confine tra due tradizioni storiografiche". <i>Rivista di Filologia e di Istruzione Classica</i> 129.1 (2001) 61–77.</span>
+</li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFMendelsohn2010" class="citation magazine cs1">Mendelsohn, Daniel (26 December 2010). <a rel="nofollow" class="external text" href="https://www.newyorker.com/reporting/2011/01/03/110103fa_fact_mendelsohn">"God's Librarians"</a>. <i><a href="/wiki/The_New_Yorker" title="The New Yorker">The New Yorker</a></i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+New+Yorker&amp;rft.atitle=God%27s+Librarians&amp;rft.date=2010-12-26&amp;rft.aulast=Mendelsohn&amp;rft.aufirst=Daniel&amp;rft_id=https%3A%2F%2Fwww.newyorker.com%2Freporting%2F2011%2F01%2F03%2F110103fa_fact_mendelsohn&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span></span>
+</li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text">Procopius, <i><a rel="nofollow" class="external text" href="http://www.fordham.edu/halsall/basis/procop-anec.html">Secret History</a></i> 12.20–22, trans. Atwater.</span>
+</li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text">Procopius <i><a rel="nofollow" class="external text" href="http://www.fordham.edu/halsall/basis/procop-anec.html">Secret History</a></i> 9.20–21, trans. Atwater.</span>
+</li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text">Cf. Börm (2015).</span>
+</li>
+<li id="cite_note-Downey-30"><span class="mw-cite-backlink">^ <a href="#cite_ref-Downey_30-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Downey_30-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Downey, Glanville: "The Composition of Procopius, De Aedificiis", in <i>Transactions and Proceedings of the American Philological Association</i> 78: pp.&#160;171&#8211;183; <a rel="nofollow" class="external text" href="https://www.jstor.org/pss/283492">abstract</a> from JSTOR</span>
+</li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text">Whitby, Michael: "Procopian Polemics: a review of A. Kaldellis <i>Procopius of Caesarea. Tyranny, History, and Philosophy at the End of Antiquity</i>", in <i>The Classical Review</i> 55 (2006), pp.&#160;648&#8211;</span>
+</li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text">Cameron, Averil. Procopius and the Sixth Century. London: Routledge, 1985.</span>
+</li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text">Croke, Brian and James Crow: "Procopius and Dara", in <i>The Journal of Roman Studies</i> 73 (1983), 143–159.</span>
+</li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><i>Wars</i>, 2.9.14 and 1.7.22.</span>
+</li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><i>Buildings</i>, Book I.</span>
+</li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text">Whitby, Mary: "Procopius' <i>Buildings</i> Book I: A Panegyrical Perspective", in <i>Antiquité Tardive</i> 8 (2000), 45–57.</span>
+</li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text"><i>Secret History</i>, 26.18.</span>
+</li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFKaldellis2013" class="citation book cs1">Kaldellis, Anthony (2013). <a rel="nofollow" class="external text" href="https://www.worldcat.org/oclc/859162344"><i>Ethnography after antiquity&#160;: foreign lands and peoples in Byzantine literature</i></a>. Philadelphia: University of Pennsylvania Press. p.&#160;10. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-8122-0840-5" title="Special:BookSources/978-0-8122-0840-5"><bdi>978-0-8122-0840-5</bdi></a>. <a href="/wiki/OCLC_(identifier)" class="mw-redirect" title="OCLC (identifier)">OCLC</a>&#160;<a rel="nofollow" class="external text" href="//www.worldcat.org/oclc/859162344">859162344</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Ethnography+after+antiquity+%3A+foreign+lands+and+peoples+in+Byzantine+literature&amp;rft.place=Philadelphia&amp;rft.pages=10&amp;rft.pub=University+of+Pennsylvania+Press&amp;rft.date=2013&amp;rft_id=info%3Aoclcnum%2F859162344&amp;rft.isbn=978-0-8122-0840-5&amp;rft.aulast=Kaldellis&amp;rft.aufirst=Anthony&amp;rft_id=https%3A%2F%2Fwww.worldcat.org%2Foclc%2F859162344&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span></span>
+</li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFde_Camp1949" class="citation book cs1">de Camp, L. Sprague (1949). <i>Lest Darkness Fall</i>. Ballantine Books. p.&#160;111.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Lest+Darkness+Fall&amp;rft.pages=111&amp;rft.pub=Ballantine+Books&amp;rft.date=1949&amp;rft.aulast=de+Camp&amp;rft.aufirst=L.+Sprague&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span></span>
+</li>
+<li id="cite_note-40"><span class="mw-cite-backlink"><b><a href="#cite_ref-40">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFMelville1851" class="citation book cs1">Melville, Herman (1851). <a rel="nofollow" class="external text" href="https://www.biodiversitylibrary.org/item/126294"><i>Moby-Dick, or, the Whale</i></a>. London: Harper &amp; Brothers. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.5962%2Fbhl.title.62077">10.5962/bhl.title.62077</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Moby-Dick%2C+or%2C+the+Whale&amp;rft.place=London&amp;rft.pub=Harper+%26+Brothers&amp;rft.date=1851&amp;rft_id=info%3Adoi%2F10.5962%2Fbhl.title.62077&amp;rft.aulast=Melville&amp;rft.aufirst=Herman&amp;rft_id=https%3A%2F%2Fwww.biodiversitylibrary.org%2Fitem%2F126294&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span></span>
+</li>
+</ol></div>
+<ul><li><i>This article is based on an <a rel="nofollow" class="external text" href="https://web.archive.org/web/20010822205003/http://www.nupedia.com/article/391/">earlier version</a>  by James Allan Evans, originally posted at <a href="/wiki/Nupedia" title="Nupedia">Nupedia</a>.</i></li></ul>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=12" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Adshead, Katherine: <i>Procopius' Poliorcetica: continuities and discontinuities</i>, in: G. Clarke et al. (eds.): <i>Reading the past in late antiquity</i>, Australian National UP, Rushcutters Bay 1990, pp.&#160;93–119</li>
+<li>Alonso-Núñez, J. M.: <i><a rel="nofollow" class="external text" href="http://brepols.metapress.com/content/h005k0l43p535213">Jordanes and Procopius on Northern Europe</a></i>, in: <i>Nottingham Medieval Studies</i> 31 (1987), 1–16.</li>
+<li>Amitay, Ory: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/1179971/Procopius_of_Caesarea_and_the_Girgashite_Diaspora">Procopius of Caesarea and the Girgashite Diaspora</a></i>, in: <i>Journal for the Study of the Pseudepigrapha</i> 20 (2011), 257–276.</li>
+<li>Anagnostakis, Ilias: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/5413582/Ilias_Anagnostakis_Procopius_s_dream_before_the_campaign_against_Libya_a_reading_of_Wars_3.12.1-5_in_C._Angelidi_and_G._Calofonos_eds_Dreaming_in_Byzantium_and_Beyond_Ashgate_Publishing_2014_79-94">Procopius's dream before the campaign against Libya: a reading of Wars 3.12.1-5</a></i>, in: C. Angelidi and G. Calofonos (eds.), <i><a rel="nofollow" class="external text" href="http://www.ashgate.com/isbn/9781409400554">Dreaming in Byzantium and Beyond</a></i>, Farnham: Ashgate Publishing 2014, 79–94.</li>
+<li>Bachrach, Bernard S.: <i><a rel="nofollow" class="external text" href="https://web.archive.org/web/20150403015217/http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;aid=7553520">Procopius, Agathias and the Frankish Military</a></i>, in: <i>Speculum</i> 45 (1970), 435–441.</li>
+<li>Bachrach, Bernard S.: <i>Procopius and the chronology of Clovis's reign</i>, in: <i>Viator</i> 1 (1970), 21–32.</li>
+<li>Baldwin, Barry: <i>An Aphorism in Procopius</i>, in: <i>Rheinisches Museum für Philologie</i> 125 (1982), 309–311.</li>
+<li>Baldwin, Barry: <i>Sexual Rhetoric in Procopius</i>, in: <i>Mnemosyne</i> 40 (1987), pp.&#160;150–152</li>
+<li>Belke, Klaus: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/1402492/Prokops_De_aedificiis_Buch_V_zu_Kleinasien._Antiquité_Tardive_8_2000_115_125">Prokops De aedificiis, Buch V, zu Kleinasien</a></i>, in: <i>Antiquité Tardive</i> 8 (2000), 115–125.</li>
+<li>Börm, Henning: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/1012245/Prokop_und_die_Perser_Untersuchungen_zu_den_romisch-sasanidischen_Kontakten_in_der_ausgehenden_Spatantike_OrOcc_16_._Stuttgart_Franz_Steiner_Verlag_2007">Prokop und die Perser</a></i>. Stuttgart: Franz Steiner Verlag, 2007. (<a rel="nofollow" class="external text" href="http://bmcr.brynmawr.edu/2008/2008-05-23.html">Review in English by G. Greatrex</a> and <a rel="nofollow" class="external text" href="http://www.degruyter.com/view/j/byzs.2009.101.issue-2/byzs.2008.025b/byzs.2008.025b.xml?format=INT">Review in English by A. Kaldellis</a>)</li>
+<li>Börm, Henning: <i><a rel="nofollow" class="external text" href="http://www.iranicaonline.org/articles/procopius">Procopius of Caesarea</a></i>, in <i>Encyclopaedia Iranica Online</i>, New York 2013.</li>
+<li>Börm, Henning: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/6966236/Procopius_his_Predecessors_and_the_Genesis_of_the_Anecdota_Antimonarchic_discourse_in_Late_Antique_Historiography_in_H._B%C3%B6rm_ed._Antimonarchic_Discourse_in_Antiquity_Stuttgart_Franz_Steiner_Verlag_2015_pp._305ff">Procopius, his predecessors, and the genesis of the Anecdota: Antimonarchic discourse in late antique historiography</a></i>, in: H. Börm (ed.): <i>Antimonarchic discourse in Antiquity</i>. Stuttgart: Franz Steiner Verlag 2015, 305–346.</li>
+<li>Braund, David: <i>Procopius on the Economy of Lazica</i>, in: <i>The Classical Quarterly</i> 41  (1991), 221–225.</li>
+<li>Brodka, Dariusz: <i>Die Geschichtsphilosophie in der spätantiken Historiographie. Studien zu Prokopios von Kaisareia, Agathias von Myrina und Theophylaktos Simokattes</i>. Frankfurt am Main: Peter Lang, 2004.</li>
+<li>Burn, A. R.: <i><a rel="nofollow" class="external text" href="https://www.jstor.org/discover/10.2307/557467?sid=21105682255551&amp;uid=4&amp;uid=2">Procopius and the island of ghosts</a></i>, in: <i><a href="/wiki/English_Historical_Review" class="mw-redirect" title="English Historical Review">English Historical Review</a></i> 70 (1955), 258–261.</li>
+<li>Cameron, Averil: <i>Procopius and the Sixth Century</i>. Berkeley: University of California Press, 1985.</li>
+<li>Cameron, Averil: <i>The scepticism of Procopius</i>, in: <i>Historia</i> 15 (1966), 466–482.</li>
+<li>Colvin, Ian: <i>Reporting Battles and Understanding Campaigns in Procopius and Agathias: Classicising Historians' Use of Archived Documents as Sources</i>, in: A. Sarantis (ed.): <i>War and warfare in late antiquity. Current perspectives</i>, Leiden: Brill 2013, 571–598.</li>
+<li>Cresci, Lia Raffaella: <i>Procopio al confine tra due tradizioni storiografiche</i>, in: <i>Rivista di Filologia e di Istruzione Classica</i> 129 (2001), 61–77.</li>
+<li>Cristini, Marco: <i>Il seguito ostrogoto di Amalafrida: confutazione di Procopio, Bellum Vandalicum 1.8.12</i>, in: <i>Klio</i> 99 (2017), 278–289.</li>
+<li>Cristini, Marco: <i>Totila and the Lucanian Peasants: Procop. Goth. 3.22.20</i>, in: <i>Greek, Roman and Byzantine Studies</i> 61 (2021), 73–84.</li>
+<li>Croke, Brian and James Crow: <i>Procopius and Dara</i>, in: <i>The Journal of Roman Studies</i> 73 (1983), 143–159.</li>
+<li>Downey, Glanville: <i><a rel="nofollow" class="external text" href="https://www.jstor.org/discover/10.2307/283492?sid=21105682495671&amp;uid=4&amp;uid=2">The Composition of Procopius, De Aedificiis</a></i>, in: <i>Transactions and Proceedings of the American Philological Association</i> 78 (1947), 171–183.</li>
+<li>Evans, James A. S.: <i>Justinian and the Historian Procopius</i>, in: <i>Greece &amp; Rome</i> 17 (1970), 218–223.</li>
+<li>Evans, James A. S.: <i>Procopius</i>. New York: Twayne Publishers, 1972.</li>
+<li>Gordon, C. D.: <i>Procopius and Justinian's Financial Policies</i>, in: <a href="/wiki/Phoenix_(classics_journal)" title="Phoenix (classics journal)">Phoenix</a> 13 (1959), 23–30.</li>
+<li>Greatrex, Geoffrey: <i>Procopius and the Persian Wars</i>, D.Phil. thesis, Oxford, 1994.</li>
+<li>Greatrex, Geoffrey: <i>The dates of Procopius' works</i>, in: <a href="/wiki/Byzantine_and_Modern_Greek_Studies" title="Byzantine and Modern Greek Studies">BMGS</a> 18 (1994), 101–114.</li>
+<li>Greatrex, Geoffrey: <i>The Composition of Procopius' Persian Wars and John the Cappadocian</i>, in: <i>Prudentia</i> 27 (1995), 1–13.</li>
+<li>Greatrex, Geoffrey: <i>Rome and Persia at War, 502–532</i>. London: Francis Cairns, 1998.</li>
+<li>Greatrex, Geoffrey: <i>Recent work on Procopius and the composition of Wars VIII</i>, in: <a href="/wiki/Byzantine_and_Modern_Greek_Studies" title="Byzantine and Modern Greek Studies">BMGS</a> 27 (2003), 45–67.</li>
+<li>Greatrex, Geoffrey: <i><a rel="nofollow" class="external text" href="http://research.ncl.ac.uk/histos/documents/2014A03GreatrexPerceptionsofProcopius.pdf">Perceptions of Procopius in Recent Scholarship</a></i>, in: <i>Histos</i> 8 (2014), 76–121 and 121a–e (<i>addenda</i>).</li>
+<li>Greatrex, Geoffrey: <i>Procopius of Caesarea: The Persian Wars. A Historical Commentary.</i> Cambridge, Cambridge University Press, 2022.</li>
+<li>Howard-Johnson, James: <i>The Education and Expertise of Procopius</i>, in: <i>Antiquité Tardive</i> 10 (2002), 19–30</li>
+<li>Kaçar, Turhan: "<a rel="nofollow" class="external text" href="https://histos.org/documents/SV09.19.KacarProcopiusinTurkish.pdf">Procopius in Turkey</a>", <i>Histos</i> Supplement 9 (2019) 19.1–8.</li>
+<li>Kaegi, Walter: <i>Procopius the military historian,</i> in: <i>Byzantinische Forschungen.</i> 15, 1990, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISSN_(identifier)" class="mw-redirect" title="ISSN (identifier)">ISSN</a>&#160;<a rel="nofollow" class="external text" href="https://www.worldcat.org/search?fq=x0:jrnl&amp;q=n2:0167-5346">0167-5346</a>, 53–85 (<a rel="nofollow" class="external text" href="https://web.archive.org/web/20070206192341/http://www.deremilitari.org/resources/pdfs/kaegi.pdf">online (PDF; 989 KB)</a>).</li>
+<li>Kaldellis, Anthony: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/14480463/_Classicism_Barbarism_and_Warfare_Prokopios_and_the_Conservative_Reaction_to_Later_Roman_Military_Policy_American_Journal_of_Ancient_History_n.s._3-4_2004-2005_2007_189-218">Classicism, Barbarism, and Warfare: Prokopios and the Conservative Reaction to Later Roman Military Policy</a></i>, <i>American Journal of Ancient History</i>, n.s. 3-4 (2004-2005 [2007]), 189–218.</li>
+<li>Kaldellis, Anthony: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/14480453/_Identifying_Dissident_Circles_in_Sixth-Century_Byzantium_The_Friendship_of_Prokopios_and_Ioannes_Lydos_Florilegium_21_2004_1-17">Identifying Dissident Circles in Sixth-Century Byzantium: The Friendship of Prokopios and Ioannes Lydos</a></i>, <i>Florilegium</i>, Vol. 21 (2004), 1–17.</li>
+<li>Kaldellis, Anthony: <i>Procopius of Caesarea: Tyranny, History and Philosophy at the End of Antiquity</i>. Philadelphia: University of Pennsylvania Press, 2004.</li>
+<li>Kaldellis, Anthony: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/14481622/_Prokopios_Persian_War_A_Thematic_and_Literary_Analysis_in_R._Macrides_ed._History_as_Literature_in_Byzantium_Aldershot_Ashgate_2010_253-273">Prokopios’ Persian War: A Thematic and Literary Analysis</a></i>, in: R. Macrides, ed., <i>History as Literature in Byzantium</i>, Aldershot: Ashgate, 2010, 253–273.</li>
+<li>Kaldellis, Anthony: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/21739559/_Prokopios_Vandal_War_Thematic_Trajectories_and_Hidden_Transcripts_in_S._T._Stevens_and_J._Conant_eds._North_Africa_under_Byzantium_and_Early_Islam_Washington_D.C_Dumbarton_Oaks_2016_13-21">Prokopios’ Vandal War: Thematic Trajectories and Hidden Transcripts</a></i>, in: S. T. Stevens &amp; J. Conant, eds., <i>North Africa under Byzantium and Early Islam</i>, Washington, D.C: Dumbarton Oaks, 2016, 13–21.</li>
+<li>Kaldellis, Anthony: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/14481490/_The_Date_and_Structure_of_Prokopios_Secret_History_and_his_Projected_Work_on_Church_History_Greek_Roman_and_Byzantine_Studies_49_2009_585-616">The Date and Structure of Prokopios’ Secret History and his Projected Work on Church History</a></i>, in: <i>Greek, Roman, and Byzantine Studies</i>, Vol. 49 (2009), 585–616.</li>
+<li>Kovács, Tamás: <a rel="nofollow" class="external text" href="https://digilib.phil.muni.cz/bitstream/handle/11222.digilib/141757/1_GraecoLatinaBrunensia_24-2019-2_10.pdf">"Procopius's Sibyl - the fall of Vitigis and the Ostrogoths"</a>, <i>Graeco-Latina Brunensia</i> 24.2 (2019), 113–124.</li>
+<li>Kruse, Marion: <i><a rel="nofollow" class="external text" href="http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;aid=9067489&amp;fileId=S0009838813000335">The Speech of the Armenians in Procopius: Justinian's Foreign Policy and the Transition between Books 1 and 2 of the Wars</a></i>, in: <a href="/wiki/The_Classical_Quarterly" class="mw-redirect" title="The Classical Quarterly">The Classical Quarterly</a> 63 (2013), 866–881.</li>
+<li>Lillington-Martin, Christopher, 2007–2017:
+<ul><li>2007, "Archaeological and Ancient Literary Evidence for a Battle near Dara Gap, Turkey, AD 530: Topography, Texts and Trenches" in BAR –S1717, 2007 The Late Roman Army in the Near East from Diocletian to the Arab Conquest Proceedings of a colloquium held at Potenza, Acerenza and Matera, Italy edited by Ariel S. Lewin and Pietrina Pellegrini, pp.&#160;299–311;</li>
+<li>2009, "Procopius, Belisarius and the Goths" in Journal of the Oxford University History Society,(2009) Odd Alliances edited by Heather Ellis and Graciela Iglesias Rogers. <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISSN_(identifier)" class="mw-redirect" title="ISSN (identifier)">ISSN</a>&#160;<a rel="nofollow" class="external text" href="https://www.worldcat.org/search?fq=x0:jrnl&amp;q=n2:1742-917X">1742-917X</a>, pages 1– 17, <a rel="nofollow" class="external free" href="https://sites.google.com/site/jouhsinfo/issue7specialissueforinternetexplorer">https://sites.google.com/site/jouhsinfo/issue7specialissueforinternetexplorer</a>;</li>
+<li>2011, "Secret Histories", <a rel="nofollow" class="external free" href="http://classicsconfidential.co.uk/2011/11/19/secret-histories/">http://classicsconfidential.co.uk/2011/11/19/secret-histories/</a>;</li>
+<li>2012, "Hard and Soft Power on the Eastern Frontier: a Roman Fortlet between Dara and Nisibis, Mesopotamia, Turkey: Prokopios’ Mindouos?" in The Byzantinist, edited by Douglas Whalin, Issue 2 (2012), pp.&#160;4–5, <a rel="nofollow" class="external free" href="http://oxfordbyzantinesociety.files.wordpress.com/2012/06/obsnews2012final.pdf">http://oxfordbyzantinesociety.files.wordpress.com/2012/06/obsnews2012final.pdf</a>;</li>
+<li>2013, <i>Procopius on the struggle for Dara and Rome</i>, in A. Sarantis, N. Christie (eds.): <i>War and Warfare in Late Antiquity: Current Perspectives</i> (Late Antique Archaeology 8.1–8.2 2010–11),  Leiden: Brill 2013, pp.&#160;599–630, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-90-04-25257-8" title="Special:BookSources/978-90-04-25257-8">978-90-04-25257-8</a>;</li>
+<li>2013 “La defensa de Roma por Belisario” in: <i>Justiniano I el Grande</i> (Desperta Ferro) edited by Alberto Pérez Rubio, no. 18 (July 2013), pages 40–45, ISSN 2171-9276;</li>
+<li>2017, <i>Procopius of Caesarea: Literary and Historical Interpretations</i> (editor), Routledge (July 2017), <a rel="nofollow" class="external text" href="http://www.routledge.com/9781472466044">www.routledge.com/9781472466044</a>;</li>
+<li>2017, "Introduction" and chapter 10, “Procopius, <i>πάρεδρος / quaestor, Codex Justinianus</i>, I.27 and Belisarius’ strategy in the Mediterranean” in <i>Procopius of Caesarea: Literary and Historical Interpretations</i>  above.</li></ul></li>
+<li>Maas, Michael Robert: <i>Strabo and Procopius: Classical Geography for a Christian Empire</i>, in H. Amirav et al. (eds.): <i>From Rome to Constantinople. Studies in Honour of Averil Cameron</i>, Leuven: Peeters, 2007, 67–84.</li>
+<li>Martindale, John: <i><a href="/wiki/The_Prosopography_of_the_Later_Roman_Empire" class="mw-redirect" title="The Prosopography of the Later Roman Empire">The Prosopography of the Later Roman Empire</a> III</i>, Cambridge 1992, 1060–1066.</li>
+<li>Max, Gerald E.,  "Procopius' Portrait of the (Western Roman) Emperor Majorian: History and Historiography,"  Sonderdruck Aus Band 74/1981, pp. 1-6.</li>
+<li>Meier, Mischa: <i>Prokop, Agathias, die Pest und das ′Ende′ der antiken Historiographie</i>, in <i><a href="/wiki/Historische_Zeitschrift" title="Historische Zeitschrift">Historische Zeitschrift</a></i> 278 (2004), 281–310.</li>
+<li>Meier, Mischa and Federico Montinaro (eds.): <i>A Companion to Procopius of Caesarea.</i> Brill, Leiden 2022, ISBN 978-3-89781-215-4.</li>
+<li>Pazdernik, Charles F.: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/1605355/Xenophon_s_Hellenica_in_Procopius_Wars_Pharnabazus_and_Belisarius">Xenophon’s Hellenica in Procopius’ Wars: Pharnabazus and Belisarius</a></i>, in: <i>Greek, Roman and Byzantine Studies</i> 46 (2006) 175–206.</li>
+<li>Rance, Philip: <i><a rel="nofollow" class="external text" href="https://www.academia.edu/3677007/_Narses_and_the_Battle_of_Taginae_552_AD_Procopius_and_Sixth-Century_Warfare_Historia._Zeitschrift_f%C3%BCr_Alte_Geschichte_30.4_2005_424-472">Narses and the Battle of Taginae (552 AD): Procopius and Sixth-Century Warfare</a></i>, in: <i>Historia. Zeitschrift für alte Geschichte</i> 30.4 (2005) 424–472.</li>
+<li>Rubin, Berthold: <i>Prokopios</i>, in <i><a href="/wiki/Realencyclop%C3%A4die_der_Classischen_Altertumswissenschaft" class="mw-redirect" title="Realencyclopädie der Classischen Altertumswissenschaft">Realencyclopädie der Classischen Altertumswissenschaft</a></i> 23/1 (1957), 273–599. Earlier published (with index) as <i>Prokopios von Kaisareia</i>, Stuttgart: Druckenmüller, 1954.</li>
+<li>Stewart, Michael, <i><a rel="nofollow" class="external text" href="http://ejournals.lib.auth.gr/parekbolai/article/view/4253">Contests of Andreia in Procopius’ Gothic Wars</a></i>, <i>Παρεκβολαι</i> 4 (2014), pp.&#160;21–54.</li>
+<li>Stewart, Michael, <i><a rel="nofollow" class="external text" href="http://openjournals.arts.uwa.edu.au/index.php/cerae/article/view/44/45">The Andreios Eunuch-Commander Narses: Sign of a Decoupling of martial Virtues and Hegemonic Masculinity in the early Byzantine Empire?</a></i>, Cerae 2 (2015), pp.&#160;1–25.</li>
+<li>Stewart, Michael, Masculinity, Identity, and Power Politics in the Age of Justinian: A Study of Procopius, Amsterdam: Amsterdam University Press, 2020:<a rel="nofollow" class="external free" href="https://www.aup.nl/en/book/9789462988231/masculinity-identity-and-power-politics-in-the-age-of-justinian">https://www.aup.nl/en/book/9789462988231/masculinity-identity-and-power-politics-in-the-age-of-justinian</a></li>
+<li>Treadgold, Warren: <i>The Early Byzantine Historians</i>, Basingstoke: Macmillan 2007, 176–226.</li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20151117022452/http://blogs.artinfo.com/secrethistoryofart/2011/11/16/vatican-mysteries-whats-so-secret-about-procopius-secret-history-2/">The Secret History of Art by Noah Charney on the Vatican Library and Procopius</a>. An article by art historian <a href="/wiki/Noah_Charney" title="Noah Charney">Noah Charney</a> about the Vatican Library and its famous manuscript, <i>Historia Arcana</i> by Procopius.</li>
+<li>Whately, Conor, <i>Battles and Generals: Combat, Culture, and Didacticism in Procopius' Wars</i>. Leiden, 2016.</li>
+<li>Whitby, L. M. "Procopius and the Development of Roman Defences in Upper Mesopotamia", in P. Freeman and D. Kennedy (ed.), <i><a href="/w/index.php?title=The_Defence_of_the_Roman_and_Byzantine_East&amp;action=edit&amp;redlink=1" class="new" title="The Defence of the Roman and Byzantine East (page does not exist)">The Defence of the Roman and Byzantine East</a></i>, Oxford, 1986, 717–35.</li></ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=13" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1126788409"/>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/38px-Wikisource-logo.svg.png" decoding="async" width="38" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/57px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/76px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430" /></div>
+<div class="side-box-text plainlist"><a href="/wiki/Wikisource" title="Wikisource">Wikisource</a> has original works by or about:<br /><b style="text-align: center;"><i><a href="https://en.wikisource.org/wiki/Author:Procopius" class="extiw" title="s:Author:Procopius">Procopius</a></i></b></div></div>
+</div>
+<h3><span class="mw-headline" id="Texts_of_Procopius">Texts of Procopius</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=14" title="Edit section: Texts of Procopius">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a rel="nofollow" class="external text" href="http://www.documentacatholicaomnia.eu/30_20_0490-0575-_Procopius_Caesariensis.html">Complete Works</a>, Greek text (Migne <a href="/wiki/Patrologia_Graeca" title="Patrologia Graeca">Patrologia Graeca</a>) with analytical indexes</li>
+<li><a rel="nofollow" class="external text" href="http://www.fordham.edu/halsall/basis/procop-anec.html">The Secret History</a>, English translation (Atwater, 1927) at the Internet Medieval Sourcebook</li>
+<li><a rel="nofollow" class="external text" href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Anecdota/home.html">The Secret History</a>, English translation (Dewing, 1935) at <a href="/wiki/LacusCurtius" title="LacusCurtius">LacusCurtius</a></li>
+<li><a rel="nofollow" class="external text" href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Buildings/home.html">The Buildings</a>, English translation (Dewing, 1935) at LacusCurtius</li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20080517032948/http://soltdm.com/sources/mss/proc/proc_0.htm">The Buildings, Book IV</a> Greek text with commentaries, index nominum, etc. at Sorin Olteanu's LTDM Project</li>
+<li><a rel="nofollow" class="external text" href="https://www.gutenberg.org/ebooks/author/4712">Works by Procopius</a> at <a href="/wiki/Project_Gutenberg" title="Project Gutenberg">Project Gutenberg</a></li>
+<li><a rel="nofollow" class="external text" href="https://archive.org/search.php?query=%28%28subject%3A%22Procopius%22%20OR%20creator%3A%22Procopius%22%20OR%20description%3A%22Procopius%22%20OR%20title%3A%22Procopius%22%29%20OR%20%28%22500-565%22%20AND%20Procopius%29%29%20AND%20%28-mediatype:software%29">Works by or about Procopius</a> at <a href="/wiki/Internet_Archive" title="Internet Archive">Internet Archive</a></li>
+<li><a rel="nofollow" class="external text" href="https://librivox.org/author/14427">Works by Procopius</a> at <a href="/wiki/LibriVox" title="LibriVox">LibriVox</a> (public domain audiobooks) <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/15px-Speaker_Icon.svg.png" decoding="async" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/23px-Speaker_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/30px-Speaker_Icon.svg.png 2x" data-file-width="500" data-file-height="500" /></li>
+<li>H. B. Dewing's Loeb edition of the works of Procopius: <a rel="nofollow" class="external text" href="https://archive.org/search.php?query=creator%3A%22Dewing%2C+H.+B.+%28Henry+Bronson%29%2C+1882-+%28Translator%29%22&amp;sort=titleSorter">vols. I–VI at the Internet Archive</a> (<i>History of the Wars</i>, <i>Secret History</i>)</li>
+<li><a href="/wiki/Palestine_Pilgrims%27_Text_Society" title="Palestine Pilgrims&#39; Text Society">Palestine Pilgrims' Text Society</a> (1888): <i><a rel="nofollow" class="external text" href="https://archive.org/details/cu31924028534224">Of the buildings of Justinian</a></i> by Procopius, (ca 560 A.D)</li>
+<li><a rel="nofollow" class="external text" href="https://archive.org/details/procopius00maltgoog">Complete Works 1</a>, Greek ed. by <a href="/wiki/Karl_Wilhelm_Dindorf" title="Karl Wilhelm Dindorf">K. W. Dindorf</a>, Latin trans. by <a href="/wiki/Claude_Maltret" title="Claude Maltret">Claude Maltret</a> in <i><a href="/wiki/Corpus_Scriptorum_Historiae_Byzantinae" title="Corpus Scriptorum Historiae Byzantinae">Corpus Scriptorum Historiae Byzantinae</a> Pars II Vol. 1</i>, 1833. (<i>Persian Wars I–II</i>, <i>Vandal Wars I–II</i>)</li>
+<li><a rel="nofollow" class="external text" href="https://archive.org/details/procopius01dindgoog">Complete Works 2</a>, Greek ed. by K. W. Dindorf, Latin trans. by Claude Maltret in <i>Corpus Scriptorum Historiae Byzantinae Pars II Vol. 2</i>, 1833. (<i>Gothic Wars I–IV</i>)</li>
+<li><a rel="nofollow" class="external text" href="https://books.google.com/books?id=-yEAAAAAYAAJ">Complete Works 3</a>, Greek ed. by K. W. Dindorf, Latin trans. by Claude Maltret in <i>Corpus Scriptorum Historiae Byzantinae Pars II Vol. 3</i>, 1838. (<i>Secret History</i>, <i>Buildings of Justinian</i>)</li></ul>
+<h3><span class="mw-headline" id="Secondary_material">Secondary material</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Procopius&amp;action=edit&amp;section=15" title="Edit section: Secondary material">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHerbermann1913" class="citation encyclopaedia cs1">Herbermann, Charles, ed. (1913). <span class="cs1-ws-icon" title="s:Catholic Encyclopedia (1913)/Procopius of Caesarea"><a class="external text" href="https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)/Procopius_of_Caesarea">"Procopius of Caesarea"&#160;</a></span>. <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i>. New York: Robert Appleton Company.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Procopius+of+Caesarea&amp;rft.btitle=Catholic+Encyclopedia&amp;rft.place=New+York&amp;rft.pub=Robert+Appleton+Company&amp;rft.date=1913&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProcopius" class="Z3988"></span></li>
+<li><a rel="nofollow" class="external text" href="http://www.stoa.org/sol-bin/search.pl?searchstr=Procopius&amp;field=hw_eng">Entry for Procopius</a> from the <i><a href="/wiki/Suda" title="Suda">Suda</a></i>.</li></ul>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Byzantine_historians" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Byzantine_historians" title="Template:Byzantine historians"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Byzantine_historians" title="Template talk:Byzantine historians"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Byzantine_historians&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Byzantine_historians" style="font-size:114%;margin:0 4em">Byzantine historians</div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align:center;">5th century</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Annianus_of_Alexandria" title="Annianus of Alexandria">Annianus of Alexandria</a></li>
+<li><a href="/wiki/Eunapius" title="Eunapius">Eunapius</a></li>
+<li><a href="/wiki/John_Rufus" title="John Rufus">John Rufus</a></li>
+<li><a href="/wiki/Malchus_(historian)" title="Malchus (historian)">Malchus</a></li>
+<li><a href="/wiki/Olympiodorus_of_Thebes" title="Olympiodorus of Thebes">Olympiodorus of Thebes</a></li>
+<li><a href="/wiki/Panodorus_of_Alexandria" title="Panodorus of Alexandria">Panodorus of Alexandria</a></li>
+<li><a href="/wiki/Philostorgius" title="Philostorgius">Philostorgius</a></li>
+<li><a href="/wiki/Priscus" title="Priscus">Priscus</a></li>
+<li><a href="/wiki/Sabinus_of_Heraclea" title="Sabinus of Heraclea">Sabinus of Heraclea</a></li>
+<li><a href="/wiki/Socrates_of_Constantinople" title="Socrates of Constantinople">Socrates of Constantinople</a></li>
+<li><a href="/wiki/Sozomen" title="Sozomen">Sozomen</a></li>
+<li><a href="/wiki/Theodoret" title="Theodoret">Theodoret</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align:center;">6th century</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Agathias" title="Agathias">Agathias</a></li>
+<li><a href="/wiki/Cyril_of_Scythopolis" title="Cyril of Scythopolis">Cyril of Scythopolis</a></li>
+<li><a href="/wiki/Eustathius_of_Epiphania" title="Eustathius of Epiphania">Eustathius of Epiphania</a></li>
+<li><a href="/wiki/Evagrius_Scholasticus" title="Evagrius Scholasticus">Evagrius Scholasticus</a></li>
+<li><a href="/wiki/Hesychius_of_Miletus" title="Hesychius of Miletus">Hesychius of Miletus</a></li>
+<li><a href="/wiki/John_Diakrinomenos" title="John Diakrinomenos">John Diakrinomenos</a></li>
+<li><a href="/wiki/John_of_Ephesus" title="John of Ephesus">John of Ephesus</a></li>
+<li><a href="/wiki/John_of_Epiphania" title="John of Epiphania">John of Epiphania</a></li>
+<li><a href="/wiki/Pseudo-Joshua_the_Stylite" class="mw-redirect" title="Pseudo-Joshua the Stylite">Pseudo-Joshua the Stylite</a></li>
+<li><a href="/wiki/Pseudo-Zacharias_Rhetor" title="Pseudo-Zacharias Rhetor">Pseudo-Zacharias Rhetor</a></li>
+<li><a href="/wiki/Jordanes" title="Jordanes">Jordanes</a></li>
+<li><a href="/wiki/John_Malalas" title="John Malalas">John Malalas</a></li>
+<li><a href="/wiki/Liberatus_of_Carthage" title="Liberatus of Carthage">Liberatus of Carthage</a></li>
+<li><a href="/wiki/Marcellinus_Comes" title="Marcellinus Comes">Marcellinus Comes</a></li>
+<li><a href="/wiki/Menander_Protector" title="Menander Protector">Menander Protector</a></li>
+<li><a href="/wiki/Nonnosus_(historian)" title="Nonnosus (historian)">Nonnosus</a></li>
+<li><a href="/wiki/Peter_the_Patrician" title="Peter the Patrician">Peter the Patrician</a></li>
+<li><a class="mw-selflink selflink">Procopius</a></li>
+<li><a href="/wiki/Theodorus_Lector" title="Theodorus Lector">Theodorus Lector</a></li>
+<li><a href="/wiki/Theophanes_of_Byzantium" title="Theophanes of Byzantium">Theophanes of Byzantium</a></li>
+<li><a href="/wiki/Zacharias_Rhetor" title="Zacharias Rhetor">Zacharias Rhetor</a></li>
+<li><a href="/wiki/Zosimus_(historian)" title="Zosimus (historian)">Zosimus</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align:center;">7th century</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/John_of_Antioch_(historian)" title="John of Antioch (historian)">John of Antioch</a></li>
+<li><a href="/wiki/Trajan_the_Patrician" title="Trajan the Patrician">Trajan the Patrician</a></li>
+<li><a href="/wiki/Theophylact_Simocatta" title="Theophylact Simocatta">Theophylact Simocatta</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align:center;">8th century</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Hippolytus_of_Thebes" title="Hippolytus of Thebes">Hippolytus of Thebes</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align:center;">9th century</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Theophanes_the_Confessor" title="Theophanes the Confessor">Theophanes the Confessor</a></li>
+<li><a href="/wiki/George_Syncellus" title="George Syncellus">George Syncellus</a></li>
+<li><a href="/wiki/Nikephoros_I_of_Constantinople" title="Nikephoros I of Constantinople">Nikephoros I of Constantinople</a></li>
+<li><a href="/wiki/George_Hamartolos" title="George Hamartolos">George Hamartolos</a></li>
+<li><i><a href="/wiki/Scriptor_Incertus" title="Scriptor Incertus">Scriptor Incertus</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align:center;">10th century</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Constantine_VII" title="Constantine VII">Constantine VII</a></li>
+<li><a href="/wiki/Joseph_Genesius" title="Joseph Genesius">Joseph Genesius</a></li>
+<li><a href="/wiki/John_Kaminiates" title="John Kaminiates">John Kaminiates</a></li>
+<li><a href="/wiki/Leo_the_Deacon" title="Leo the Deacon">Leo the Deacon</a></li>
+<li><a href="/wiki/Pseudo-Simeon" title="Pseudo-Simeon">Pseudo-Simeon</a></li>
+<li><a href="/wiki/Symeon_the_Logothete" class="mw-redirect" title="Symeon the Logothete">Symeon the Logothete</a></li>
+<li><a href="/wiki/Theophanes_Continuatus" title="Theophanes Continuatus">Theophanes Continuatus</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align:center;">11th century</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Michael_Attaleiates" title="Michael Attaleiates">Michael Attaleiates</a></li>
+<li><a href="/wiki/George_Kedrenos" title="George Kedrenos">George Kedrenos</a></li>
+<li><a href="/wiki/Michael_Psellos" title="Michael Psellos">Michael Psellos</a></li>
+<li><a href="/wiki/John_Skylitzes" title="John Skylitzes">John Skylitzes</a></li>
+<li><a href="/wiki/John_Xiphilinus" title="John Xiphilinus">John Xiphilinus</a></li>
+<li><a href="/wiki/Yahya_of_Antioch" title="Yahya of Antioch">Yahya of Antioch</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align:center;">12th century</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Nikephoros_Bryennios_the_Younger" title="Nikephoros Bryennios the Younger">Nikephoros Bryennios the Younger</a></li>
+<li><a href="/wiki/Niketas_Choniates" title="Niketas Choniates">Niketas Choniates</a></li>
+<li><a href="/wiki/Eustathius_of_Thessalonica" title="Eustathius of Thessalonica">Eustathius of Thessalonica</a></li>
+<li><a href="/wiki/Michael_Glykas" title="Michael Glykas">Michael Glykas</a></li>
+<li><a href="/wiki/Anna_Komnene" title="Anna Komnene">Anna Komnene</a></li>
+<li><a href="/wiki/John_Kinnamos" title="John Kinnamos">John Kinnamos</a></li>
+<li><a href="/wiki/Constantine_Manasses" title="Constantine Manasses">Constantine Manasses</a></li>
+<li><a href="/wiki/Joannes_Zonaras" title="Joannes Zonaras">Joannes Zonaras</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align:center;">13th century</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/George_Akropolites" title="George Akropolites">George Akropolites</a></li>
+<li><a href="/wiki/Theodore_Skoutariotes" title="Theodore Skoutariotes">Theodore Skoutariotes</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align:center;">14th century</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Nicephorus_Gregoras" title="Nicephorus Gregoras">Nicephorus Gregoras</a></li>
+<li><a href="/wiki/Nikephoros_Kallistos_Xanthopoulos" title="Nikephoros Kallistos Xanthopoulos">Nikephoros Kallistos Xanthopoulos</a></li>
+<li><a href="/wiki/John_VI_Kantakouzenos" title="John VI Kantakouzenos">John VI Kantakouzenos</a></li>
+<li><a href="/wiki/George_Kodinos" title="George Kodinos">George Kodinos</a></li>
+<li><a href="/wiki/George_Pachymeres" title="George Pachymeres">George Pachymeres</a></li>
+<li><a href="/wiki/Michael_Panaretos" title="Michael Panaretos">Michael Panaretos</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align:center;">15th century</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/John_Anagnostes" title="John Anagnostes">John Anagnostes</a></li>
+<li><a href="/wiki/John_Cananus" title="John Cananus">John Cananus</a></li>
+<li><a href="/wiki/Laonikos_Chalkokondyles" title="Laonikos Chalkokondyles">Laonikos Chalkokondyles</a></li>
+<li><a href="/wiki/Michael_Critobulus" title="Michael Critobulus">Michael Critobulus</a></li>
+<li><a href="/wiki/Doukas_(historian)" title="Doukas (historian)">Doukas</a></li>
+<li><a href="/wiki/George_Sphrantzes" title="George Sphrantzes">George Sphrantzes</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q186153#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q186153#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q186153#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000385245527">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/100172302">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/viaf-89376420/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://authority.bibsys.no/authority/rest/authorities/html/90741303">Norway</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX1380608">Spain</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb121468212">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb121468212">(data)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/118741985">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.sbn.it/nome/CUBV041039">Italy</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007266758905171">Israel</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n50025184">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://kopkatalogs.lv/F?func=direct&amp;local_base=lnc10&amp;doc_number=000185887&amp;P_CON_LNG=ENG">Latvia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.ndl.go.jp/auth/ndlna/001223646">Japan</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=kup19970000079796&amp;CON_LNG=ENG">Czech Republic</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://data.nlg.gr/resource/authority/record28166">Greece</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://katalog.nsk.hr/F/?func=direct&amp;doc_number=000029578&amp;local_base=nsk10">Croatia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p069343160">Netherlands</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://mak.bn.org.pl/cgi-bin/KHW/makwww.exe?BM=1&amp;NU=1&amp;IM=4&amp;WI=9810569389405606">Poland</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://libris.kb.se/auth/196713">Sweden</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.vatlib.it/auth/detail/495_37127">Vatican</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118741985.html?language=en">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Scientific databases</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://ci.nii.ac.jp/author/DA01455152?l=en">CiNii (Japan)</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/8316/">FAST</a></span></li>
+<li><a href="/wiki/RERO_(identifier)" class="mw-redirect" title="RERO (identifier)">RERO (Switzerland)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://data.rero.ch/02-A000133160">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://snaccooperative.org/ark:/99166/w66d5zc7">Social Networks and Archival Context</a></span></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/029951992">1</a></span></li></ul></li>
+<li><a href="/wiki/Trove_(identifier)" class="mw-redirect" title="Trove (identifier)">Trove (Australia)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://trove.nla.gov.au/people/1305632">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1453
+Cached time: 20230207121934
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.601 seconds
+Real time usage: 0.751 seconds
+Preprocessor visited node count: 3991/1000000
+Post‐expand include size: 79605/2097152 bytes
+Template argument size: 6151/2097152 bytes
+Highest expansion depth: 16/100
+Expensive parser function count: 28/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 64948/5000000 bytes
+Lua time usage: 0.363/10.000 seconds
+Lua memory usage: 21637390/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  654.015      1 -total
+ 15.82%  103.486     11 Template:Lang
+ 15.81%  103.404      9 Template:Cite_book
+ 15.26%   99.817      5 Template:Lang-grc-gre
+ 11.31%   73.988      2 Template:Reflist
+ 10.28%   67.201      1 Template:Byzantine_historians
+  9.98%   65.252      1 Template:Navbox
+  7.11%   46.486      1 Template:Infobox_writer
+  6.52%   42.654      1 Template:Infobox
+  5.66%   37.031      1 Template:Authority_control
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:23624-0!canonical and timestamp 20230207121933 and revision id 1131174605. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Procopius&amp;oldid=1131174605">https://en.wikipedia.org/w/index.php?title=Procopius&amp;oldid=1131174605</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:500_births" title="Category:500 births">500 births</a></li><li><a href="/wiki/Category:565_deaths" title="Category:565 deaths">565 deaths</a></li><li><a href="/wiki/Category:6th-century_Byzantine_historians" title="Category:6th-century Byzantine historians">6th-century Byzantine historians</a></li><li><a href="/wiki/Category:Historians_of_Justinian_I" title="Category:Historians of Justinian I">Historians of Justinian I</a></li><li><a href="/wiki/Category:Secret_histories" title="Category:Secret histories">Secret histories</a></li><li><a href="/wiki/Category:Sources_on_Germanic_paganism" title="Category:Sources on Germanic paganism">Sources on Germanic paganism</a></li><li><a href="/wiki/Category:Vandalic_War" title="Category:Vandalic War">Vandalic War</a></li><li><a href="/wiki/Category:People_of_the_Roman%E2%80%93Sasanian_Wars" title="Category:People of the Roman–Sasanian Wars">People of the Roman–Sasanian Wars</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Articles_containing_Ancient_Greek_(to_1453)-language_text" title="Category:Articles containing Ancient Greek (to 1453)-language text">Articles containing Ancient Greek (to 1453)-language text</a></li><li><a href="/wiki/Category:Articles_containing_Latin-language_text" title="Category:Articles containing Latin-language text">Articles containing Latin-language text</a></li><li><a href="/wiki/Category:CS1:_abbreviated_year_range" title="Category:CS1: abbreviated year range">CS1: abbreviated year range</a></li><li><a href="/wiki/Category:CS1_Greek-language_sources_(el)" title="Category:CS1 Greek-language sources (el)">CS1 Greek-language sources (el)</a></li><li><a href="/wiki/Category:Articles_with_Project_Gutenberg_links" title="Category:Articles with Project Gutenberg links">Articles with Project Gutenberg links</a></li><li><a href="/wiki/Category:Articles_with_Internet_Archive_links" title="Category:Articles with Internet Archive links">Articles with Internet Archive links</a></li><li><a href="/wiki/Category:Articles_with_LibriVox_links" title="Category:Articles with LibriVox links">Articles with LibriVox links</a></li><li><a href="/wiki/Category:Articles_incorporating_a_citation_from_the_1913_Catholic_Encyclopedia_with_Wikisource_reference" title="Category:Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference">Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BIBSYS_identifiers" title="Category:Articles with BIBSYS identifiers">Articles with BIBSYS identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNE_identifiers" title="Category:Articles with BNE identifiers">Articles with BNE identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_ICCU_identifiers" title="Category:Articles with ICCU identifiers">Articles with ICCU identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_LNB_identifiers" title="Category:Articles with LNB identifiers">Articles with LNB identifiers</a></li><li><a href="/wiki/Category:Articles_with_NDL_identifiers" title="Category:Articles with NDL identifiers">Articles with NDL identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_NLG_identifiers" title="Category:Articles with NLG identifiers">Articles with NLG identifiers</a></li><li><a href="/wiki/Category:Articles_with_NSK_identifiers" title="Category:Articles with NSK identifiers">Articles with NSK identifiers</a></li><li><a href="/wiki/Category:Articles_with_NTA_identifiers" title="Category:Articles with NTA identifiers">Articles with NTA identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_SELIBR_identifiers" title="Category:Articles with SELIBR identifiers">Articles with SELIBR identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_CINII_identifiers" title="Category:Articles with CINII identifiers">Articles with CINII identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_RERO_identifiers" title="Category:Articles with RERO identifiers">Articles with RERO identifiers</a></li><li><a href="/wiki/Category:Articles_with_SNAC-ID_identifiers" title="Category:Articles with SNAC-ID identifiers">Articles with SNAC-ID identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li><li><a href="/wiki/Category:Articles_with_Trove_identifiers" title="Category:Articles with Trove identifiers">Articles with Trove identifiers</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 2 January 2023, at 22:42<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Procopius&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.601","walltime":"0.751","ppvisitednodes":{"value":3991,"limit":1000000},"postexpandincludesize":{"value":79605,"limit":2097152},"templateargumentsize":{"value":6151,"limit":2097152},"expansiondepth":{"value":16,"limit":100},"expensivefunctioncount":{"value":28,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":64948,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  654.015      1 -total"," 15.82%  103.486     11 Template:Lang"," 15.81%  103.404      9 Template:Cite_book"," 15.26%   99.817      5 Template:Lang-grc-gre"," 11.31%   73.988      2 Template:Reflist"," 10.28%   67.201      1 Template:Byzantine_historians","  9.98%   65.252      1 Template:Navbox","  7.11%   46.486      1 Template:Infobox_writer","  6.52%   42.654      1 Template:Infobox","  5.66%   37.031      1 Template:Authority_control"]},"scribunto":{"limitreport-timeusage":{"value":"0.363","limit":"10.000"},"limitreport-memusage":{"value":21637390,"limit":52428800}},"cachereport":{"origin":"mw1453","timestamp":"20230207121934","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Procopius","url":"https:\/\/en.wikipedia.org\/wiki\/Procopius","sameAs":"http:\/\/www.wikidata.org\/entity\/Q186153","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q186153","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-09-17T17:37:35Z","dateModified":"2023-01-02T22:42:21Z","headline":"late antique historian"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Procopius","url":"https:\/\/en.wikipedia.org\/wiki\/Procopius","sameAs":"http:\/\/www.wikidata.org\/entity\/Q186153","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q186153","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-09-17T17:37:35Z","dateModified":"2023-01-02T22:42:21Z","headline":"late antique historian"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":104,"wgHostname":"mw2387"});});</script>
+</body>
+</html>

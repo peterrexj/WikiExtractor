@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Gregory of Tours - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"ee593e14-d633-4cfb-886a-f427ce9f526f",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Gregory_of_Tours","wgTitle":"Gregory of Tours","wgCurRevisionId":1136136305,"wgRevisionId":1136136305,"wgArticleId":50851,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description is different from Wikidata","All articles with unsourced statements","Articles with unsourced statements from April 2019","Articles with unsourced statements from March 2020","Articles needing additional references from August 2019","All articles needing additional references","Articles with peacock terms from April 2020","All articles with peacock terms","Commons category link is on Wikidata","CS1 Latin-language sources (la)","Webarchive template wayback links","CS1 French-language sources (fr)","Articles with LibriVox links","Articles with ISNI identifiers",
+"Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BIBSYS identifiers","Articles with BNF identifiers","Articles with CANTICN identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with LNB identifiers","Articles with NDL identifiers","Articles with NKC identifiers","Articles with NLA identifiers","Articles with NLG identifiers","Articles with NSK identifiers","Articles with NTA identifiers","Articles with PLWABN identifiers","Articles with SELIBR identifiers","Articles with VcBA identifiers","Articles with DTBIO identifiers","Articles with CINII identifiers","Articles with FAST identifiers","Articles with HDS identifiers","Articles with RERO identifiers","Articles with SNAC-ID identifiers","Articles with SUDOC identifiers","Articles with Trove identifiers","538 births","594 deaths","6th-century apocalypticists","6th-century Frankish bishops","6th-century Frankish saints",
+"6th-century Frankish writers","6th-century historians","6th-century Latin writers","Bishops of Tours","Christian anti-Gnosticism","Frankish historians","Hagiographers","Clergy from Clermont-Ferrand","Sources on Germanic paganism","6th-century Gallo-Roman people","Writers from Clermont-Ferrand"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Gregory_of_Tours","wgRelevantArticleId":50851,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":40000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,
+"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q67841","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site",
+"mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Gregory_of_Tours_cour_Napoleon_Louvre.jpg/1200px-Gregory_of_Tours_cour_Napoleon_Louvre.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="2667"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Gregory_of_Tours_cour_Napoleon_Louvre.jpg/800px-Gregory_of_Tours_cour_Napoleon_Louvre.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="1778"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Gregory_of_Tours_cour_Napoleon_Louvre.jpg/640px-Gregory_of_Tours_cour_Napoleon_Louvre.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="1422"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Gregory of Tours - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Gregory_of_Tours"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Gregory_of_Tours&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Gregory_of_Tours"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Gregory_of_Tours rootpage-Gregory_of_Tours skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Gregory+of+Tours" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Gregory+of+Tours"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Gregory+of+Tours"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Gregory_of_Tours" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Gregory_of_Tours" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Gregory_of_Tours&amp;oldid=1136136305" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Gregory_of_Tours&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Gregory_of_Tours&amp;id=1136136305&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q67841" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Gregory_of_Tours&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Gregory_of_Tours&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Gregory_of_Tours" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikisource mw-list-item"><a href="https://en.wikisource.org/wiki/Author:Gregory_of_Tours" hreflang="en"><span>Wikisource</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Biography"
+		class="vector-toc-list-item vector-toc-level-1">
+		<a class="vector-toc-link" href="#Biography">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Biography</div>
+		</a>
+		
+		<ul id="toc-Biography-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Works"
+		class="vector-toc-list-item vector-toc-level-1">
+		<a class="vector-toc-link" href="#Works">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Works</div>
+		</a>
+		
+			<button aria-controls="toc-Works-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-Works-sublist" class="vector-toc-list">
+			<li id="toc-History_of_the_Franks"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#History_of_the_Franks">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1</span><i>History of the Franks</i></div>
+			</a>
+			
+			<ul id="toc-History_of_the_Franks-sublist" class="vector-toc-list">
+				<li id="toc-Summary"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Summary">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.1</span>Summary</div>
+			</a>
+			
+			<ul id="toc-Summary-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Book_1"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Book_1">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.2</span>Book 1</div>
+			</a>
+			
+			<ul id="toc-Book_1-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Book_2_(397-511)"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Book_2_(397-511)">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.3</span>Book 2 (397-511)</div>
+			</a>
+			
+			<ul id="toc-Book_2_(397-511)-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Book_3_(511-548)"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Book_3_(511-548)">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.4</span>Book 3 (511-548)</div>
+			</a>
+			
+			<ul id="toc-Book_3_(511-548)-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Book_4_(548-575)"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Book_4_(548-575)">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.5</span>Book 4 (548-575)</div>
+			</a>
+			
+			<ul id="toc-Book_4_(548-575)-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Book_5_(575-581)"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Book_5_(575-581)">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.6</span>Book 5 (575-581)</div>
+			</a>
+			
+			<ul id="toc-Book_5_(575-581)-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Book_6_(581-584)"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Book_6_(581-584)">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.7</span>Book 6 (581-584)</div>
+			</a>
+			
+			<ul id="toc-Book_6_(581-584)-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Book_7_(584)"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Book_7_(584)">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.8</span>Book 7 (584)</div>
+			</a>
+			
+			<ul id="toc-Book_7_(584)-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Book_8_(585)"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Book_8_(585)">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.9</span>Book 8 (585)</div>
+			</a>
+			
+			<ul id="toc-Book_8_(585)-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Book_9_(586-587)"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Book_9_(586-587)">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.10</span>Book 9 (586-587)</div>
+			</a>
+			
+			<ul id="toc-Book_9_(586-587)-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Book_10_(587-591)"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Book_10_(587-591)">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.11</span>Book 10 (587-591)</div>
+			</a>
+			
+			<ul id="toc-Book_10_(587-591)-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Analysis"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Analysis">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.12</span>Analysis</div>
+			</a>
+			
+			<ul id="toc-Analysis-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Problems_of_interpretation"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Problems_of_interpretation">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1.13</span>Problems of interpretation</div>
+			</a>
+			
+			<ul id="toc-Problems_of_interpretation-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+		</li>
+		<li id="toc-Hagiographies"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Hagiographies">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.2</span>Hagiographies</div>
+			</a>
+			
+			<ul id="toc-Hagiographies-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Fighting_heresy"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Fighting_heresy">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.3</span>Fighting heresy</div>
+			</a>
+			
+			<ul id="toc-Fighting_heresy-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Gregory&#039;s_Creed"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Gregory&#039;s_Creed">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.4</span>Gregory's Creed</div>
+			</a>
+			
+			<ul id="toc-Gregory&#039;s_Creed-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Legacy"
+		class="vector-toc-list-item vector-toc-level-1">
+		<a class="vector-toc-link" href="#Legacy">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Legacy</div>
+		</a>
+		
+		<ul id="toc-Legacy-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>References</div>
+		</a>
+		
+			<button aria-controls="toc-References-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+			<li id="toc-Primary_sources"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Primary_sources">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">5.1</span>Primary sources</div>
+			</a>
+			
+			<ul id="toc-Primary_sources-sublist" class="vector-toc-list">
+				<li id="toc-Editions"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Editions">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">5.1.1</span>Editions</div>
+			</a>
+			
+			<ul id="toc-Editions-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Translations"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Translations">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">5.1.2</span>Translations</div>
+			</a>
+			
+			<ul id="toc-Translations-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Bilingual_editions"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Bilingual_editions">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">5.1.3</span>Bilingual editions</div>
+			</a>
+			
+			<ul id="toc-Bilingual_editions-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+		</li>
+		<li id="toc-Secondary_sources"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Secondary_sources">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">5.2</span>Secondary sources</div>
+			</a>
+			
+			<ul id="toc-Secondary_sources-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Gregory of Tours</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 45 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-45"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">45 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a href="https://af.wikipedia.org/wiki/Gregorius_van_Tours" title="Gregorius van Tours – Afrikaans" lang="af" hreflang="af" class="interlanguage-link-target"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a href="https://als.wikipedia.org/wiki/Gregor_von_Tours" title="Gregor von Tours – Alemannisch" lang="gsw" hreflang="gsw" class="interlanguage-link-target"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/%D0%93%D1%80%D1%8B%D0%B3%D0%BE%D1%80%D1%8B%D0%B9_%D0%A2%D1%83%D1%80%D1%81%D0%BA%D1%96" title="Грыгорый Турскі – Belarusian" lang="be" hreflang="be" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9_%D0%A2%D1%83%D1%80%D1%81%D0%BA%D0%B8" title="Григорий Турски – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a href="https://br.wikipedia.org/wiki/Gregor_Teurgn" title="Gregor Teurgn – Breton" lang="br" hreflang="br" class="interlanguage-link-target"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Gregori_de_Tours" title="Gregori de Tours – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/%C5%98eho%C5%99_z_Tours" title="Řehoř z Tours – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wikipedia.org/wiki/Gregor_af_Tours" title="Gregor af Tours – Danish" lang="da" hreflang="da" class="interlanguage-link-target"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Gregor_von_Tours" title="Gregor von Tours – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a href="https://et.wikipedia.org/wiki/Toursi_Gregorius" title="Toursi Gregorius – Estonian" lang="et" hreflang="et" class="interlanguage-link-target"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%93%CF%81%CE%B7%CE%B3%CF%8C%CF%81%CE%B9%CE%BF%CF%82_%CE%A4%CE%BF%CF%85%CF%81%CF%8E%CE%BD%CE%B7%CF%82" title="Γρηγόριος Τουρώνης – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Gregorio_de_Tours" title="Gregorio de Tours – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Gregorio_de_Tours" title="Gregorio de Tours – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/Gregorio_Tourskoa" title="Gregorio Tourskoa – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%DA%AF%D8%B1%DB%8C%DA%AF%D9%88%D8%B1%DB%8C_%D8%AA%D9%88%D8%B1" title="گریگوری تور – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Gr%C3%A9goire_de_Tours" title="Grégoire de Tours – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-fy mw-list-item"><a href="https://fy.wikipedia.org/wiki/Gregoarius_fan_Toers" title="Gregoarius fan Toers – Western Frisian" lang="fy" hreflang="fy" class="interlanguage-link-target"><span>Frysk</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Gregorio_de_Tours" title="Gregorio de Tours – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EA%B3%A0%EB%A6%AC%EC%9A%B0%EC%8A%A4_%ED%88%AC%EB%A1%9C%EB%84%A8%EC%8B%9C%EC%8A%A4" title="그레고리우스 투로넨시스 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a href="https://hy.wikipedia.org/wiki/%D4%B3%D6%80%D5%AB%D5%A3%D5%B8%D6%80_%D5%8F%D5%B8%D6%82%D6%80%D6%81%D5%AB" title="Գրիգոր Տուրցի – Armenian" lang="hy" hreflang="hy" class="interlanguage-link-target"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Grgur_iz_Toursa" title="Grgur iz Toursa – Croatian" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Gregorius_dari_Tours" title="Gregorius dari Tours – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Gregorio_di_Tours" title="Gregorio di Tours – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%92%D7%A8%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%A1_%D7%9E%D7%98%D7%95%D7%A8" title="גרגוריוס מטור – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%92%E1%83%A0%E1%83%98%E1%83%92%E1%83%9D%E1%83%9A_%E1%83%A2%E1%83%A3%E1%83%A0%E1%83%94%E1%83%9A%E1%83%98" title="გრიგოლ ტურელი – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Gregori_wa_Tours" title="Gregori wa Tours – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Gregorius_Turonensis" title="Gregorius Turonensis – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Tours-i_Szent_Gergely" title="Tours-i Szent Gergely – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a href="https://mk.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D1%98_%D0%A2%D1%83%D1%80%D1%81%D0%BA%D0%B8" title="Григориј Турски – Macedonian" lang="mk" hreflang="mk" class="interlanguage-link-target"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%AC%D8%B1%D9%8A%D8%AC%D9%88%D8%B1%D9%89_%D8%A7%D9%88%D9%81_%D8%AA%D9%88%D8%B1%D8%B2" title="جريجورى اوف تورز – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Gregorius_van_Tours" title="Gregorius van Tours – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%AB%E3%81%AE%E3%82%B0%E3%83%AC%E3%82%B4%E3%83%AA%E3%82%A6%E3%82%B9" title="トゥールのグレゴリウス – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Gregorius_av_Tours" title="Gregorius av Tours – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Grzegorz_z_Tours" title="Grzegorz z Tours – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Greg%C3%B3rio_de_Tours" title="Gregório de Tours – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Gregor_de_Tours" title="Gregor de Tours – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9_%D0%A2%D1%83%D1%80%D1%81%D0%BA%D0%B8%D0%B9" title="Григорий Турский – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/Gregor_Toursky" title="Gregor Toursky – Slovak" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%93%D1%80%D0%B3%D1%83%D1%80_%D0%A2%D1%83%D1%80%D1%81%D0%BA%D0%B8" title="Гргур Турски – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Gregor_od_Toursa" title="Gregor od Toursa – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Gregorius_Toursilainen" title="Gregorius Toursilainen – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Gregorius_av_Tours" title="Gregorius av Tours – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Gregorius_(Tours_piskoposu)" title="Gregorius (Tours piskoposu) – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%96%D0%B9_%D0%A2%D1%83%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9" title="Григорій Турський – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E9%83%BD%E7%88%BE%E7%9A%84%E9%A1%8D%E6%88%91%E7%95%A5" title="都爾的額我略 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q67841#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Gregory_of_Tours" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Gregory_of_Tours" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Gregory_of_Tours"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Gregory_of_Tours&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Gregory_of_Tours"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Gregory_of_Tours&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">6th-century historian and Bishop of Tours</div>
+<style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">"Historia Francorum" redirects here. For the history of the First Crusade, see <a href="/wiki/Historia_Francorum_qui_ceperunt_Iherusalem" title="Historia Francorum qui ceperunt Iherusalem">Historia Francorum qui ceperunt Iherusalem</a>. For the anonymous 8th-century chronicle, see <a href="/wiki/Liber_Historiae_Francorum" title="Liber Historiae Francorum">Liber Historiae Francorum</a>.</div>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div style="display:inline;" class="fn">Saint Gregory of Tours</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Gregory_of_Tours_cour_Napoleon_Louvre.jpg" class="image"><img alt="Gregory of Tours cour Napoleon Louvre.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Gregory_of_Tours_cour_Napoleon_Louvre.jpg/220px-Gregory_of_Tours_cour_Napoleon_Louvre.jpg" decoding="async" width="220" height="489" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Gregory_of_Tours_cour_Napoleon_Louvre.jpg/330px-Gregory_of_Tours_cour_Napoleon_Louvre.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/75/Gregory_of_Tours_cour_Napoleon_Louvre.jpg/440px-Gregory_of_Tours_cour_Napoleon_Louvre.jpg 2x" data-file-width="1580" data-file-height="3511" /></a><div class="infobox-caption">St. Gregory of Tours, 19th century statue by Jean Marcellin, in the <a href="/wiki/Louvre" title="Louvre">Louvre</a> in <a href="/wiki/Paris" title="Paris">Paris</a>, <a href="/wiki/France" title="France">France</a></div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Bishop of Tours</th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">30 November c. 538<br /><a href="/wiki/Auvergne_(province)" class="mw-redirect" title="Auvergne (province)">Auvergne</a>, <a href="/wiki/Austrasia" title="Austrasia">Austrasia</a> (<span style="font-size:85%;">now <a href="/wiki/France" title="France">France</a></span>)<sup id="cite_ref-patron_1-0" class="reference"><a href="#cite_note-patron-1">&#91;1&#93;</a></sup></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data"><span style="display:none">(<span class="dday deathdate">593-11-17</span>)</span>17 November 593 or 594<sup id="cite_ref-cathen_2-0" class="reference"><a href="#cite_note-cathen-2">&#91;2&#93;</a></sup><br /><a href="/wiki/Tours" title="Tours">Tours</a>, <a href="/wiki/List_of_Frankish_kings" title="List of Frankish kings">Kingdom of Orleans</a> (<span style="font-size:85%;">now <a href="/wiki/France" title="France">France</a></span>)</td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">17 November</td></tr></tbody></table>
+<p><b>Gregory of Tours</b> (born <b>Georgius Florentius</b>; 30 November <abbr title="circa">c.</abbr> 538 – 17 November 594 AD) was a <a href="/wiki/Gallo-Roman_culture" title="Gallo-Roman culture">Gallo-Roman</a> historian and <a href="/wiki/Bishop_of_Tours" class="mw-redirect" title="Bishop of Tours">Bishop of Tours</a> during the <a href="/wiki/Merovingian_dynasty" title="Merovingian dynasty">Merovingian period</a>.<sup id="cite_ref-cathen_2-1" class="reference"><a href="#cite_note-cathen-2">&#91;2&#93;</a></sup> He was considered a leading <a href="/wiki/Prelate" title="Prelate">prelate</a> in the Merovingian kingdom, which encompassed the historical region of <a href="/wiki/Gaul" title="Gaul">Gaul</a>.
+</p><p>Gregory's most notable work is the <i>Decem Libri Historiarum</i> (Ten Books of Histories), also known as the <i>Historia Francorum</i> (History of the Franks), which is considered a <a href="/wiki/Primary_source" title="Primary source">primary source</a> for the study of Merovingian history and chronicles the accounts of the <a href="/wiki/Franks" title="Franks">Franks</a> during the period. Gregory is also known for documenting accounts of religious figures, notably that of <a href="/wiki/Martin_of_Tours" title="Martin of Tours">Martin of Tours</a>. It is alleged that the <a href="/wiki/Basilica_of_Saint_Martin,_Tours" title="Basilica of Saint Martin, Tours">Tomb of St. Martin</a> became a <a href="/wiki/Christian_pilgrimage" title="Christian pilgrimage">Christian pilgrimage</a> site in the 6th century, due in part to Gregory's writings.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Biography">Biography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=1" title="Edit section: Biography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Gregory was born in <a href="/wiki/Clermont-Ferrand" title="Clermont-Ferrand">Clermont</a>, in the <a href="/wiki/Auvergne_(province)" class="mw-redirect" title="Auvergne (province)">Auvergne</a> region of central Gaul.<sup id="cite_ref-butler_3-0" class="reference"><a href="#cite_note-butler-3">&#91;3&#93;</a></sup> He was born into the upper stratum of Gallo-Roman society as the son of Florentius, <a href="/wiki/Roman_Senate#Senate_in_the_West" title="Roman Senate">Senator</a> of Clermont, by his wife Armentaria II, niece of <a href="/wiki/Nicetius_of_Lyon" title="Nicetius of Lyon">Bishop Nicetius of Lyon</a> and granddaughter of both Florentinus, Senator of Geneva, and Saint Gregory of Langres. Gregory had several noted bishops and saints as close relatives (his family effectively monopolised the Bishoprics of Tours, Lyon, and Langres at the time of his birth), and, according to Gregory, he was connected to thirteen of the eighteen bishops of Tours preceding him by ties of kinship. Gregory's paternal grandmother, Leocadia, descended from Vettius Epagathus, the illustrious martyr of Lyon.
+</p><p>His father died while Gregory was young and his widowed mother moved to <a href="/wiki/Burgundy_(region)" class="mw-redirect" title="Burgundy (region)">Burgundy</a> where she had property. Gregory went to live with his paternal uncle <a href="/wiki/Gal_I_(Bishop_of_Clermont)" title="Gal I (Bishop of Clermont)">St. Gallus, Bishop of Clermont</a>, under whom, and his successor St. Avitus, Gregory had his education. Gregory also received the clerical <a href="/wiki/Tonsure" title="Tonsure">tonsure</a> from Gallus. Having contracted a serious illness, he made a visit of devotion to the tomb of St. Martin at Tours. Upon his recovery, he began to pursue a clerical career and was ordained deacon by Avitus. Upon the death of <a href="/wiki/Eufronius" title="Eufronius">St. Euphronius</a>, he was chosen as bishop by the clergy and people, who had been charmed with his piety, learning, and humility. Their deputies overtook him at the court of <a href="/wiki/Sigebert_I" title="Sigebert I">King Sigebert of Austrasia</a>, and being compelled to acquiesce, though much against his will, Gregory was consecrated by Giles, Bishop of Rheims, on 22 August 573, at the age of thirty-four.<sup id="cite_ref-butler_3-1" class="reference"><a href="#cite_note-butler-3">&#91;3&#93;</a></sup>
+</p><p>He spent most of his career at Tours, although he assisted at the council of Paris in 577.<sup id="cite_ref-butler_3-2" class="reference"><a href="#cite_note-butler-3">&#91;3&#93;</a></sup> The rough world he lived in was on the cusp of the dying world of Antiquity and the new culture of early <a href="/wiki/Middle_Ages" title="Middle Ages">medieval</a> Europe. Gregory lived also on the border between the Frankish culture of the Merovingians to the north and the Gallo-Roman culture of the south of Gaul.
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Division_of_Gaul_-_511.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Division_of_Gaul_-_511.jpg/220px-Division_of_Gaul_-_511.jpg" decoding="async" width="220" height="201" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Division_of_Gaul_-_511.jpg/330px-Division_of_Gaul_-_511.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Division_of_Gaul_-_511.jpg/440px-Division_of_Gaul_-_511.jpg 2x" data-file-width="1241" data-file-height="1136" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Division_of_Gaul_-_511.jpg" class="internal" title="Enlarge"></a></div>Realms of <a href="/wiki/Merovingian" class="mw-redirect" title="Merovingian">Merovingian</a> Gaul at the death of <a href="/wiki/Clovis_I" title="Clovis I">Clovis</a> (511 AD).</div></div></div>
+<p>At Tours, Gregory could not have been better placed to hear everything and meet every one of influence in Merovingian culture. Tours lay on the watery highway of the navigable <a href="/wiki/Loire" title="Loire">Loire</a>. Five Roman roads radiated from Tours, which lay on the main thoroughfare between the Frankish north and Aquitania, with Spain beyond. At Tours the Frankish influences of the north and the Gallo-Roman influences of the south had their chief contact (see map). As the center for the popular cult of St Martin, Tours was a pilgrimage site, hospital, and a political sanctuary to which important leaders fled during periods of violence and turmoil in Merovingian politics.
+</p><p>Gregory struggled through personal relations with four Frankish kings, <a href="/wiki/Sigebert_I" title="Sigebert I">Sigebert I</a>, <a href="/wiki/Chilperic_I" title="Chilperic I">Chilperic I</a>, <a href="/wiki/Guntram" title="Guntram">Guntram</a>, and <a href="/wiki/Childebert_II" title="Childebert II">Childebert II</a>, and he personally knew most of the leading Franks.
+</p>
+<h2><span class="mw-headline" id="Works">Works</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=2" title="Edit section: Works">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Gregory wrote in <a href="/wiki/Late_Latin" title="Late Latin">Late Latin</a>, which frequently departed from <a href="/wiki/Classical_Latin" title="Classical Latin">classical</a> usage in both syntax and spelling, though with relatively few changes in inflection.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup>
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/wiki/File:Gr%C3%A9goire_de_Tours,_Histoire_des_Francs,_livres_1_%C3%A0_6,_page_de_frontispice.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Gr%C3%A9goire_de_Tours%2C_Histoire_des_Francs%2C_livres_1_%C3%A0_6%2C_page_de_frontispice.jpg/180px-Gr%C3%A9goire_de_Tours%2C_Histoire_des_Francs%2C_livres_1_%C3%A0_6%2C_page_de_frontispice.jpg" decoding="async" width="180" height="229" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Gr%C3%A9goire_de_Tours%2C_Histoire_des_Francs%2C_livres_1_%C3%A0_6%2C_page_de_frontispice.jpg/270px-Gr%C3%A9goire_de_Tours%2C_Histoire_des_Francs%2C_livres_1_%C3%A0_6%2C_page_de_frontispice.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Gr%C3%A9goire_de_Tours%2C_Histoire_des_Francs%2C_livres_1_%C3%A0_6%2C_page_de_frontispice.jpg/360px-Gr%C3%A9goire_de_Tours%2C_Histoire_des_Francs%2C_livres_1_%C3%A0_6%2C_page_de_frontispice.jpg 2x" data-file-width="472" data-file-height="600" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Gr%C3%A9goire_de_Tours,_Histoire_des_Francs,_livres_1_%C3%A0_6,_page_de_frontispice.jpg" class="internal" title="Enlarge"></a></div><a href="/wiki/Book_frontispiece" title="Book frontispiece">Frontispiece</a> of <i>Historia Francorum</i>.</div></div></div>
+<h3><span class="mw-headline" id="History_of_the_Franks"><i>History of the Franks</i></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=3" title="Edit section: History of the Franks">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span class="mw-headline" id="Summary">Summary</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=4" title="Edit section: Summary">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Gregory of Tours' history is a dense work, with numerous narratives and characters. It contains Christian tales of miracles, descriptions of omens and natural events, stories of Christian martyrs, dialogues of church debates, discussions of the lives of holy men, nobility, and eccentric peasants, frequent Bible verses and references, and explorations of the complex international relations between numerous tribes and nations including the <a href="/wiki/Lombards" title="Lombards">Lombards</a>, <a href="/wiki/Visigoths" title="Visigoths">Visigoths</a>, <a href="/wiki/Ostrogoths" title="Ostrogoths">Ostrogoths</a> and <a href="/wiki/Huns" title="Huns">Huns</a>, not to mention Gregory's personal biography and interpretation of events.
+</p>
+<h4><span class="mw-headline" id="Book_1">Book 1</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=5" title="Edit section: Book 1">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Book One begins with a pronouncement by the author that he is a Frankish Catholic clergyman who follows the Nicene Creed and abhors heresy like those of the “wicked” <a href="/wiki/Arianism" title="Arianism">Arian</a> sect among other heresies. The narrative history begins with a brief epitome of the Biblical <a href="/wiki/Old_Testament" title="Old Testament">Old Testament</a>, <a href="/wiki/New_Testament" title="New Testament">New Testament</a> and the subsequent spread of the Christian Religion into Gaul. Next Gregory covers the history of Christianity in Gaul and some of the major events in Roman-Gallo relations. It ends with the death of <a href="/wiki/Saint_Martin_of_Tours" class="mw-redirect" title="Saint Martin of Tours">Saint Martin of Tours</a> in 397.
+</p>
+<h4><span id="Book_2_.28397-511.29"></span><span class="mw-headline" id="Book_2_(397-511)">Book 2 (397-511)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=6" title="Edit section: Book 2 (397-511)">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Book Two covers the beginnings of the Merovingian dynasty, including King <a href="/wiki/Clovis_I" title="Clovis I">Clovis I</a>'s conversion to Christianity by his wife <a href="/wiki/Clotilde" title="Clotilde">Clotilde</a> and ending with his death in 511, after his conquest of large tracts of land in modern-day France.
+</p>
+<h4><span id="Book_3_.28511-548.29"></span><span class="mw-headline" id="Book_3_(511-548)">Book 3 (511-548)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=7" title="Edit section: Book 3 (511-548)">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Book Three follows the four sons of King Clovis who equally divide his realms after his death in 511. These four kings, <a href="/wiki/Theodoric_I" title="Theodoric I">Theodoric I</a>, <a href="/wiki/Chlothar_I" title="Chlothar I">Clothar I</a>, <a href="/wiki/Childebert_I" title="Childebert I">Childebert I</a>, and <a href="/wiki/Chlodomer" title="Chlodomer">Chlodomer</a>, quarrel and fight for supremacy of the Frankish realm. Despite their disputes, they occasionally work together against an outside threat, such as their attack of the <a href="/wiki/Kingdom_of_the_Burgundians" title="Kingdom of the Burgundians">Burgundians</a> in 523. Eventually Clothar becomes the most powerful King in the Frankish realm. After the death of King Theoderic I in 534, Book Three ends with the death of his son and successor King <a href="/wiki/Theudebert_I" title="Theudebert I">Theudebert I</a> in 548. After 548, the kingdom is inherited by <a href="/wiki/Theudebald" title="Theudebald">Theudebald</a> until his death in 555.
+</p>
+<h4><span id="Book_4_.28548-575.29"></span><span class="mw-headline" id="Book_4_(548-575)">Book 4 (548-575)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=8" title="Edit section: Book 4 (548-575)">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Book Four continues from when the two remaining sons of Clovis die: King Childebert in 558 and King Clothar in 561. The last years of his life see the entire realm of the Franks ruled by Clothar. At the time of his demise in 561 (like Clovis before him), the Kingdom is divided equally between four sons of Clothar; <a href="/wiki/Charibert_I" title="Charibert I">King Charibert I</a>, <a href="/wiki/Sigebert_I" title="Sigebert I">King Sigibert I</a>, <a href="/wiki/Guntram" title="Guntram">King Guntram</a> and <a href="/wiki/Chilperic_I" title="Chilperic I">King Chilperic I</a> and their quarrel for control of the entire kingdom. A truce between them is maintained until after the death of King Charibert I in 567. Clothar's remaining sons fight for the supremacy of the kingdom, with King Sigibert showing the strongest military force. Book Four ends with the killing of King Sigbert in 575, leaving King Chilperic as the dominant king. Gregory of Tours blames <a href="/wiki/Fredegund" title="Fredegund">Fredegund</a>, the wife of King Chilperic, for this assassination. Fredegund has long held a grudge against King Sigibert and his wife <a href="/wiki/Brunhilda_of_Austrasia" title="Brunhilda of Austrasia">Brunhilda</a>.
+</p>
+<h4><span id="Book_5_.28575-581.29"></span><span class="mw-headline" id="Book_5_(575-581)">Book 5 (575-581)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=9" title="Edit section: Book 5 (575-581)">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Book Five begins the part where the author has much personal knowledge about the events in the Frankish Kingdom. This book and the ones after, are considerably longer and more detailed than the previous, whilst covering a shorter amount of time. This book also contains Gregory's impressions of ecclesiastical issues he witnessed and had some bearing on. It describes a possible debate that Gregory had with a rival Arian church leader. Moreover, book 5 also introduces <a href="/wiki/Childebert_II" title="Childebert II">Childebert II</a>, the son of recently slain King Sigibert, and of the still living Brunhilda. Childebert is taken along with Brunhilda under the protection of King Gunthram, brother and sometime rival of King Chilperic.
+</p>
+<h4><span id="Book_6_.28581-584.29"></span><span class="mw-headline" id="Book_6_(581-584)">Book 6 (581-584)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=10" title="Edit section: Book 6 (581-584)">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>In Book Six, the young Childebert betrays his alliance with his adoptive uncle King Gunthram, who had protected Childebert and his mother after his father Sigibert's death. Now Childebert forms an alliance with his uncle, King Chilperic, who had often been an enemy of King Sigibert. Later, King Chilperic is murdered under mysterious circumstances in 584.
+</p>
+<h4><span id="Book_7_.28584.29"></span><span class="mw-headline" id="Book_7_(584)">Book 7 (584)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=11" title="Edit section: Book 7 (584)">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>In Book Seven, Fredegund assumes regency for her young son <a href="/wiki/Chlothar_II" title="Chlothar II">Clothar II</a>. In the future he will be king of all Franks until his death in 629, beyond Gregory's narrative which ends in roughly 593. Fredegund and her son are under the protection of King Gunthram. She remains in power until her death in 597. Also in this book is the rebellion of <a href="/wiki/Gundoald" title="Gundoald">Gundovald</a> and its failure. Gundovald claimed to be a lost illegitimate son of dead King Chlothar I. Many of the Frankish nobles and the Byzantine emperor <a href="/wiki/Maurice_(emperor)" title="Maurice (emperor)">Maurice</a> gave some support to this rebellion; however, it is swiftly crushed by King Guntram.
+</p>
+<h4><span id="Book_8_.28585.29"></span><span class="mw-headline" id="Book_8_(585)">Book 8 (585)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=12" title="Edit section: Book 8 (585)">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>“Many evil things were done at this time” as Gregory writes in Book VIII. It begins with the travels of King Guntram to Paris and Orleans and describes numerous confrontations between the king and some bishops. Meanwhile, king Guntram becomes ill and fears for his life. Gregory comments that the king's illness is a just punishment since he is planning to send a great number of bishops into exile. Fredegund gives two poisoned daggers to two clerics and sends them away with the order to assassinate King Childebert and Brunehild. However, the two clerics are arrested by Childebert, tortured and executed. Meanwhile, Fredegund is also behind the assassination of Bishop Praetextus of Rouen while he is praying in his church. King Guntram orders his army to march against Arian <a href="/wiki/Septimania" title="Septimania">Septimania</a> and Spain without success and blames his army commanders for having allowed atrocities and random destruction.
+</p>
+<h4><span id="Book_9_.28586-587.29"></span><span class="mw-headline" id="Book_9_(586-587)">Book 9 (586-587)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=13" title="Edit section: Book 9 (586-587)">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>In Book Nine, the <a href="/wiki/Treaty_of_Andelot" title="Treaty of Andelot">Treaty of Andelot</a> is signed in 587 between King Guntram, Brunhilda, and King Childebert II. The treaty is a close pact of alliance, wherein Childebert is formally adopted as Guntram's heir. Brunhilda also formally allies with Guntram and comes under his protection.
+</p>
+<h4><span id="Book_10_.28587-591.29"></span><span class="mw-headline" id="Book_10_(587-591)">Book 10 (587-591)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=14" title="Edit section: Book 10 (587-591)">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The last book is set around 589. Basina, the daughter of King Chilperic I and Clotilda, daughter of King Charibert leads a brief revolt from a nunnery. The 18 Bishops of Tours are named and described. It ends with a summary of Gregory's previous written works.
+</p>
+<h4><span class="mw-headline" id="Analysis">Analysis</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=15" title="Edit section: Analysis">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The <i>Historia Francorum</i> is made up of ten books. Books I to IV initially recount the world's history from the Creation (as was traditional);<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup> but move quickly on to the <a href="/wiki/Christianization_of_Gaul" class="mw-redirect" title="Christianization of Gaul">Christianization of Gaul</a>, the life and times of <a href="/wiki/Martin_of_Tours" title="Martin of Tours">Saint Martin of Tours</a>, the conversion of the Franks and the conquest of Gaul under <a href="/wiki/Clovis_I" title="Clovis I">Clovis</a>,<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup> and the more detailed history of the Frankish kings down to the death of <a href="/wiki/Sigebert_I" title="Sigebert I">Sigebert I</a> in 575. At this date Gregory had been bishop of Tours for two years.
+</p><p>With his fifth book, Gregory embarks (with some relief) on contemporary history, opening “Here, I am glad to say, begins Book V”.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> This, the second part of his history, books V and VI, closes with <a href="/wiki/Chilperic_I" title="Chilperic I">Chilperic I</a>'s death in 584.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2019)">citation needed</span></a></i>&#93;</sup> During the years that Chilperic held Tours, relations between him and Gregory were tense. After hearing rumours that the Bishop of Tours had slandered his wife, <a href="/wiki/Fredegund" title="Fredegund">Fredegund</a>, Chilperic had Gregory arrested and tried for treason – a charge which threatened both Gregory's bishopric and his life.<sup id="cite_ref-cathen_2-2" class="reference"><a href="#cite_note-cathen-2">&#91;2&#93;</a></sup> The most eloquent passage in the <i>Historia</i> is the closing chapter of book VI, in which Chilperic's character is summed up unsympathetically through the use of an invective: <a href="/wiki/Herod_Antipas" title="Herod Antipas">Herod</a> and <a href="/wiki/Nero" title="Nero">Nero</a> are among the comparisons employed.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup>
+</p><p>The third part, comprising books VII to X, takes his increasingly personal account to the year 591, and concludes with a plea for further chroniclers to preserve his work in entirety (as indeed would be done).<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup> An <a href="/wiki/Epilogue" title="Epilogue">epilogue</a> was written in 594, the year of Gregory's death.
+</p>
+<h4><span class="mw-headline" id="Problems_of_interpretation">Problems of interpretation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=16" title="Edit section: Problems of interpretation">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Readers of the <i>Historia Francorum</i> must decide whether this is a royal history or whether Gregory was writing to please his patrons. It is likely that one royal Frankish house is more generously treated than others. Gregory was also a Catholic bishop, and his writing reveals views typical of someone in his position. His views on perceived dangers of <a href="/wiki/Arianism" title="Arianism">Arianism</a>, still strong among the <a href="/wiki/Visigoths" title="Visigoths">Visigoths</a>,<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup> led him to preface the <i>Historia</i> with a detailed expression of his orthodoxy on the nature of Christ. In addition, his ridiculing of <a href="/wiki/Paganism" title="Paganism">pagans</a> and <a href="/wiki/Judaism" title="Judaism">Jews</a> reflected how his works were used to spread the <a href="/wiki/Christian_faith" class="mw-redirect" title="Christian faith">Christian faith</a>. For example, in book 2, chapters 28–31, he describes the pagans as incestuous and weak and then describes the process by which newly converted King Clovis leads a much better life than that of a pagan and is healed of all the conundrums he experienced as a pagan.
+</p><p>Gregory's education was the standard <a href="/wiki/Latin" title="Latin">Latin</a> one of <a href="/wiki/Late_Antiquity" class="mw-redirect" title="Late Antiquity">Late Antiquity</a>, focusing on <a href="/wiki/Virgil" title="Virgil">Virgil</a>'s <i><a href="/wiki/Aeneid" title="Aeneid">Aeneid</a></i> and <a href="/wiki/Martianus_Capella" title="Martianus Capella">Martianus Capella</a>'s <i>Liber de Nuptiis Mercurii et Philologiae</i>, but also other key texts such as <a href="/wiki/Orosius" title="Orosius">Orosius</a>'s <i>Chronicles</i>, which his <i>Historia</i> continues, and <a href="/wiki/Sallust" title="Sallust">Sallust</a>; he refers to all these works in his own. His education, as was typical for the time, did not extend to a broad acquaintance with the pagan classics,<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup> but rather progressed to mastery of the <a href="/wiki/Vulgate_Bible" class="mw-redirect" title="Vulgate Bible">Vulgate Bible</a>.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup> It is said that he constantly complained about his use of grammar.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;13&#93;</a></sup> He did not understand how to correctly write masculine and feminine phrases, reflecting either a lack of ability or changes in the Latin language. Though he had read <a href="/wiki/Virgil" title="Virgil">Virgil</a>, considered the greatest Latin stylist, he cautions that "We ought not to relate their lying fables, lest we fall under sentence of eternal death." By contrast, he seems to have thoroughly studied the lengthy and complex Vulgate Bible, as well as numerous religious works and historical treatises, which he frequently quotes, particularly in the earlier books of the <i>Historia</i>.
+</p><p>The main impression that historians once retained from the <i>Historia</i> focused on Gregory's anecdotes about violence;<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup> until recently, historians tended to conclude that Merovingian Gaul was a chaotic, brutal mess. Recent scholarship has refuted that view. Through more careful readings, scholars have concluded that Gregory's underlying purpose was to highlight the vanity of secular life and contrast it with the miracles of the Saints.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;15&#93;</a></sup> Though Gregory conveys political and other messages through the <i>Historia</i>, and these are studied very closely, historians now generally agree that this contrast is the central and ever-present narrative device.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (March 2020)">citation needed</span></a></i>&#93;</sup>
+</p>
+<div class="thumb tleft"><div class="thumbinner" style="width:262px;"><a href="/wiki/File:Chilp%C3%A9ric_Ier_et_%C3%A9v%C3%AAques.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Chilp%C3%A9ric_Ier_et_%C3%A9v%C3%AAques.jpg/260px-Chilp%C3%A9ric_Ier_et_%C3%A9v%C3%AAques.jpg" decoding="async" width="260" height="260" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Chilp%C3%A9ric_Ier_et_%C3%A9v%C3%AAques.jpg/390px-Chilp%C3%A9ric_Ier_et_%C3%A9v%C3%AAques.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Chilp%C3%A9ric_Ier_et_%C3%A9v%C3%AAques.jpg/520px-Chilp%C3%A9ric_Ier_et_%C3%A9v%C3%AAques.jpg 2x" data-file-width="986" data-file-height="986" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Chilp%C3%A9ric_Ier_et_%C3%A9v%C3%AAques.jpg" class="internal" title="Enlarge"></a></div>St Gregory and King <a href="/wiki/Chilperic_I" title="Chilperic I">Chilperic I</a>, from the <i><a href="/wiki/Grandes_Chroniques_de_France" title="Grandes Chroniques de France">Grandes Chroniques de France de Charles V</a></i>, 14th-century illumination.</div></div></div>
+<h3><span class="mw-headline" id="Hagiographies">Hagiographies</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=17" title="Edit section: Hagiographies">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<style data-mw-deduplicate="TemplateStyles:r1097763485">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+link+.ambox,.mw-parser-output .ambox+link+style+.ambox,.mw-parser-output .ambox+link+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+style+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+link+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}html.client-js body.skin-minerva .mw-parser-output .mbox-text-span{margin-left:23px!important}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}</style><table class="box-Unreferenced_section plainlinks metadata ambox ambox-content ambox-Unreferenced" role="presentation"><tbody><tr><td class="mbox-image"><div class="mbox-image-div"><a href="/wiki/File:Question_book-new.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" decoding="async" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" data-file-width="512" data-file-height="399" /></a></div></td><td class="mbox-text"><div class="mbox-text-span">This section <b>does not <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">sources</a></b>.<span class="hide-when-compact"> Please help <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Gregory_of_Tours&amp;action=edit">improve this section</a> by <a href="/wiki/Help:Referencing_for_beginners" title="Help:Referencing for beginners">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href="/wiki/Wikipedia:Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span>  <span class="date-container"><i>(<span class="date">August 2019</span>)</i></span><span class="hide-when-compact"><i> (<small><a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a></small>)</i></span></div></td></tr></tbody></table>
+<p>His <i>Life of the Fathers</i> comprises twenty hagiographies of the most prominent men of the preceding generation, taking in a wide range the spiritual community of early medieval Gaul, including lives of bishops, clerics, monks, abbots, holy men and hermits. <a href="/wiki/Illidius" title="Illidius">St. Illidius</a> is praised for his purity of heart, <a href="/wiki/Bracchio" title="Bracchio">St. Brachio</a> the abbot for his discipline and determination in study of the scriptures, <a href="/wiki/Patroclus_of_Bourges" title="Patroclus of Bourges">St Patroclus</a> for his unwavering faith in the face of weakness, and <a href="/wiki/Nicetius_of_Lyon" title="Nicetius of Lyon">St. Nicetius</a>, <a href="/wiki/Roman_Catholic_Archdiocese_of_Lyon" title="Roman Catholic Archdiocese of Lyon">bishop of Lyon</a>, for his justice. It is the life of <a href="/wiki/Nicetius_of_Trier" class="mw-redirect" title="Nicetius of Trier">St. Nicetius of Trier</a>, though, which dominates this book; his great authority and sense of episcopal responsibility which is the focus of Gregory's account as his figure, predestined to be great, bestrides the lives of the others. It is told that he felt a weight on his head, but he was unable to see what it was when turning around, though upon smelling its sweet scent he realised that it was the weight of episcopal responsibility. (<i>Life of the Fathers</i>, XVII, 1) He surmounts the others in the glory of his miracles and was chosen by <a href="/wiki/God" title="God">God</a> to have the entire succession of past and future Frankish kings revealed to him.
+</p><p>A further aspect of this work to note is the appearance of Gregory himself in certain sections, notably in the life of St. Leobardus. This is for two reasons: Firstly, it creates a distinct link between the temporal and the spiritual worlds, firmly placing the accounts of the lives in a world which is understandable and recognisable, or, seen from the other angle, confirming the presence of miracles in the temporal world.
+</p><p>In 587, Gregory began writing the <i>Book of the Glories of the Martyrs</i> (<i>Liber in gloria martyrum</i>), which deals “almost exclusively with the miracles wrought in Gaul by the martyrs of the Roman persecutions.”<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup> But it also tells the story of one Theodore who made a pilgrimage to India and reported the existence of a large monastery where the body of <a href="/wiki/Thomas_the_Apostle" title="Thomas the Apostle">Thomas the Apostle</a> was first interred and where miracles took place.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Fighting_heresy">Fighting heresy</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=18" title="Edit section: Fighting heresy">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1097763485"/><table class="box-Unreferenced_section plainlinks metadata ambox ambox-content ambox-Unreferenced" role="presentation"><tbody><tr><td class="mbox-image"><div class="mbox-image-div"><a href="/wiki/File:Question_book-new.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" decoding="async" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" data-file-width="512" data-file-height="399" /></a></div></td><td class="mbox-text"><div class="mbox-text-span">This section <b>does not <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">sources</a></b>.<span class="hide-when-compact"> Please help <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Gregory_of_Tours&amp;action=edit">improve this section</a> by <a href="/wiki/Help:Referencing_for_beginners" title="Help:Referencing for beginners">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href="/wiki/Wikipedia:Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span>  <span class="date-container"><i>(<span class="date">August 2019</span>)</i></span><span class="hide-when-compact"><i> (<small><a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a></small>)</i></span></div></td></tr></tbody></table>
+<p>Gregory's avowed aim in writing this book was to "fire others with that enthusiasm by which the saints deservedly climbed to heaven", though this was not his sole purpose, and he most surely did not expect his entire audience to show promise of such piety as to witness the power of God flowing through them in the way that it did for the fathers. More immediate concerns were at the forefront of his mind as he sought to create a further layer of religious commitment, not only to the Church at Rome, but also to local churches and cathedrals throughout Gaul. Along with his other books (notably the <i>Glory of the Confessors</i>, the <i>Glory of the Martyrs,</i> and the <i>Life of St. Martin)</i>, meticulous attention is paid to the local as opposed to the universal Christian experience. Within these grandiloquent lives are tales and anecdotes which tie miracles, saints, and their relics to a great diversity of local areas, furnishing his audience with greater knowledge of their local shrine, and providing them with evidence of the work of God in their immediate vicinity, thus greatly expanding their connection with and understanding of their faith. Attacks on heresy also appear throughout his hagiographies; Arianism is taken to be the common face of heresy across Europe, exposed to great ridicule. Often, the scenes which expose the weaknesses of heresy (<i>Glory of the Martyrs</i>, 79, 80) focus on images of fire and burning, whilst the Catholics are proved right by the protection lavished on them by God.
+</p><p>This was of great relevance to Gregory himself as he presided over the important see of Tours, where extensive use was made of the cult of St. Martin in establishing the authority of the bishopric with the congregation and in the context of the Frankish church. Gregory's hagiography was an essential component of this. However, this should not be seen as a selfish grab for power on behalf of the bishops who emerge so triumphantly from the <i>Life of the Fathers</i>, but rather as a bid for hegemony of doctrine and control over the practice of worship, which they believed to be in the best interests of their congregation and the wider church.
+</p>
+<h3><span id="Gregory.27s_Creed"></span><span class="mw-headline" id="Gregory's_Creed">Gregory's Creed</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=19" title="Edit section: Gregory&#039;s Creed">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>As an example of Gregory's zeal in his fight against heresy, the <i>Historia Francorum</i> includes a declaration of faith with which Gregory aimed to prove his orthodoxy with respect to the heresies of his time ("so that my reader may have no doubt that I am Catholic for they are.").<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup> The confession is in many phrases, each of which refutes a specific Christian heresy. Thus, Gregory's creed presents, in the negative, a virtual litany of heresies:
+</p>
+<style data-mw-deduplicate="TemplateStyles:r996844942">.mw-parser-output .templatequote{overflow:hidden;margin:1em 0;padding:0 40px}.mw-parser-output .templatequote .templatequotecite{line-height:1.5em;text-align:left;padding-left:1.6em;margin-top:0}</style><blockquote class="templatequote"><p>I believe, then, in God the Father omnipotent. I believe in <a href="/wiki/Jesus_Christ" class="mw-redirect" title="Jesus Christ">Jesus Christ</a> his only Son, our Lord God, born of the Father, not created. [I believe] that he has always been with the Father, not only since time began but before all time. For the Father could not have been so named unless he had a son; and there could be no son without a father. But as for those who say: "There was a time when he was not," [note: A leading belief of Arian Christology.] I reject them with curses, and call men to witness that they are separated from the church. I believe that the word of the Father by which all things were made was Christ. I believe that this word was made flesh and by its suffering the world was redeemed, and I believe that humanity, not deity, was subject to the suffering. I believe that he rose again on the third day, that he freed sinful man, that he ascended to heaven, that he sits on the right hand of the Father, that he will come to judge the living and the dead. I believe that the holy Spirit proceeded from the Father and the Son, that it is not inferior and is not of later origin, but is God, equal and always coeternal with the Father and the Son, consubstantial in its nature, equal in omnipotence, equally eternal in its essence, and that it has never existed apart from the Father and the Son and is not inferior to the Father and the Son. I believe that this holy Trinity exists with separation of persons, and one person is that of the Father, another that of the Son, another that of the Holy Spirit. And in this Trinity confess that there is one Deity, one power, one essence. I believe that the blessed Mary was a virgin after the birth as she was a virgin before. I believe that the soul is immortal but that nevertheless it has no part in deity. And I faithfully believe all things that were established at Nicæa by the three hundred and eighteen bishops. But as to the end of the world I hold beliefs which I learned from our forefathers, that Antichrist will come first. An Antichrist will first propose circumcision, asserting that he is Christ; next he will place his statue in the temple at Jerusalem to be worshiped, just as we read that the Lord said: "You shall see the abomination of desolation standing in the holy place." But the Lord himself declared that that day is hidden from all men, saying; "But of that day and that hour knoweth no one not even the angels in heaven, neither the Son, but the Father alone." Moreover we shall here make answer to the heretics [note: the Arians] who attack us, asserting that the Son is inferior to the Father since he is ignorant of this day. Let them learn then that Son here is the name applied to the Christian people, of whom God says: "I shall be to them a father and they shall be to me for sons." For if he had spoken these words of the only begotten Son he would never have given the angels first place. For he uses these words: "Not even the angels in heaven nor the Son," showing that he spoke these words not of the only-begotten but of the people of adoption. But our end is Christ himself, who will graciously bestow eternal life on us if we turn to him.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">&#91;19&#93;</a></sup></p></blockquote>
+<h2><span class="mw-headline" id="Legacy">Legacy</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=20" title="Edit section: Legacy">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1097763485"/><table class="box-Peacock plainlinks metadata ambox ambox-content ambox-peacock" role="presentation"><tbody><tr><td class="mbox-image"><div class="mbox-image-div"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" decoding="async" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" data-file-width="40" data-file-height="40" /></div></td><td class="mbox-text"><div class="mbox-text-span">This section contains wording that <b><a href="/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Puffery" title="Wikipedia:Manual of Style/Words to watch">promotes the subject in a subjective manner</a> without imparting real information</b>.<span class="hide-when-compact"> Please remove or replace such wording and instead of making proclamations about a subject's importance, use facts and attribution to demonstrate that importance.</span>  <span class="date-container"><i>(<span class="date">April 2020</span>)</i></span><span class="hide-when-compact"><i> (<small><a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a></small>)</i></span></div></td></tr></tbody></table>
+<p>The <i>Historia Francorum</i> is a central source for early Frankish history, representing the period of transition from late Roman antiquity to early Medieval times in a nascent Europe. It is believed to be the only reliable source of information to describe the emerging military and political power of the Franks in one kingdom.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup>
+</p><p>Gregory has often been compared to <a href="/wiki/Herodotus" title="Herodotus">Herodotus</a>;<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;21&#93;</a></sup> with his detailed interest in, and accounts of, ecclesiastical history and maneuverings, to a bloodier <a href="/wiki/Anthony_Trollope" title="Anthony Trollope">Trollope</a>.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">&#91;22&#93;</a></sup> Robert Win came to the conclusion:
+</p><p><br />
+</p><p>
+"There can be no argument that Gregory deliberately structured his narrative to protect himself from any political attacks and that it was the political circumstances around him that governed what he could and could not write.’<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">&#91;23&#93;</a></sup> Gregory's Latin was relatively poor in comparison with earlier centuries when writers were educated at secular Roman grammar and rhetorics schools and could write in learned Latin. He himself is aware of it and apologizes for his poor Latin in his Introduction:</p><blockquote><p>"Ista etenim atque et his similia iugiter intuens dici, pro commemoratione praeteritorum, ut notitiam adtingerint venientum, etsi incultu effatu, nequivi tamen obtegere vel certamena flagitiosorum vel vitam recte viventium; 
+</p><p>et praesertim his inlicitus stimulis, quod a nostris fari plerumque miratus sum, quia: 'Philosophantem rethorem intellegunt pauci, loquentem rusticum multi' 
+</p><p>('Hearing continually these complaints and others like them I have undertaken to commemorate the past, in order that it may come to the knowledge of the future; and although my speech is rude, I have been unable to be silent as to the struggles between the wicked and the upright; and I have been especially encouraged because, to my surprise, it has often been said by men of our day, that few understand the learned words of the rhetorician but many the rude language of the common people.')
+</p><p>
+'The 'Historia Francorum' is the only source of that period covering the beginning of the Franks in the decaying Roman Empire from around 397 (the death of Martin of Tours) to 590 (the early reign of king Chlothar II). Gregory's chronology of the Franks is continued with the Fourth Book of Fredegar and its continuations for the events up to 642. Likewise, the fourth Book of Fredegar and its continuations is the only source of any significance for much of the period it covers.</p></blockquote><p>Gregory's hagiographies are also a valuable source of anecdotes and stories which enrich modern understanding of life and belief in Merovingian Gaul. The motivation behind his works was to show readers the importance and strength of Christianity, and this bias should always be remembered. Alongside the most outstanding poet <a href="/wiki/Venantius_Fortunatus" title="Venantius Fortunatus">Venantius Fortunatus</a> in his lifetime, Gregory of Tours is the unique historian from the 6th century Merovingian world;<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">&#91;24&#93;</a></sup> and his extensive literary output is itself a testimony to the preservation of learning and to the lingering continuity of Gallo-Roman civic culture through the <a href="/wiki/Early_Middle_Ages" title="Early Middle Ages">early Middle Ages</a>.
+</p><h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=21" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r998391716">.mw-parser-output .div-col{margin-top:0.3em;column-width:30em}.mw-parser-output .div-col-small{font-size:90%}.mw-parser-output .div-col-rules{column-rule:1px solid #aaa}.mw-parser-output .div-col dl,.mw-parser-output .div-col ol,.mw-parser-output .div-col ul{margin-top:0}.mw-parser-output .div-col li,.mw-parser-output .div-col dd{page-break-inside:avoid;break-inside:avoid-column}</style><div class="div-col" style="column-width: 22em;">
+<ul><li><a href="/wiki/Bede" title="Bede">Bede</a></li>
+<li><a href="/wiki/Brunhilda_of_Austrasia" title="Brunhilda of Austrasia">Brunhilda of Austrasia</a></li>
+<li><a href="/wiki/Jordanes" title="Jordanes">Jordanes</a></li>
+<li><a href="/wiki/Widukind_of_Corvey" title="Widukind of Corvey">Widukind of Corvey</a></li></ul></div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=22" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-patron-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-patron_1-0">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFJones" class="citation web cs1">Jones, Terry. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20070110221417/http://www.catholic-forum.com/saints/saintg87.htm">"Gregory of Tours"</a>. <i>Patron Saints Index</i>. Archived from <a rel="nofollow" class="external text" href="http://www.catholic-forum.com/saints/saintg87.htm">the original</a> on 2007-01-10<span class="reference-accessdate">. Retrieved <span class="nowrap">2007-01-16</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Patron+Saints+Index&amp;rft.atitle=Gregory+of+Tours&amp;rft.aulast=Jones&amp;rft.aufirst=Terry&amp;rft_id=http%3A%2F%2Fwww.catholic-forum.com%2Fsaints%2Fsaintg87.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGregory+of+Tours" class="Z3988"></span></span>
+</li>
+<li id="cite_note-cathen-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-cathen_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-cathen_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-cathen_2-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/07018b.htm">Leclercq, Henri. "St. Gregory of Tours." <i>The Catholic Encyclopedia</i>. Vol. 7. New York, New York: Robert Appleton Company, 1910. 26 October 2014.</a></span>
+</li>
+<li id="cite_note-butler-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-butler_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-butler_3-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-butler_3-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.bartleby.com/210/11/173.html">Butler, Alban. <i>The Lives of the Saints</i>, Vol. XI, 1866</a></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Sandys, John Edwin. History of Classical Scholarship, Vol I. 434-435. Cambridge: CUP, 1903.</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">J Burrow, <i>A History of Histories</i> (London 2007) p. 198</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">J M Wallace-Hadrill, <i>The Barbarian West</i> (London 1952) p. 71-2</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Quoted in J Burrow, <i>A History of Histories</i> (London 2007) p. 205</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">J B Bury ed., <i>The Cambridge Medieval History Vol II</i> (Cambridge 1926) p. 122</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">J Burrow, <i>A History of Histories</i> (London 2007) p. 210</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">J Burrow, <i>A History of Histories</i> (London 2007) p. 204</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">J Burrow, <i>A History of Histories</i> (London 2007) p. 200</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFThorpe1974" class="citation book cs1">Thorpe, Lewis (1974). <span class="cs1-lock-registration" title="Free registration required"><a rel="nofollow" class="external text" href="https://archive.org/details/historyoffranks00greg/page/30"><i>The History of the Franks</i></a></span>. London: Penguin Books. pp.&#160;<a rel="nofollow" class="external text" href="https://archive.org/details/historyoffranks00greg/page/30">30</a>. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-14-044295-3" title="Special:BookSources/978-0-14-044295-3"><bdi>978-0-14-044295-3</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+History+of+the+Franks&amp;rft.place=London&amp;rft.pages=30&amp;rft.pub=Penguin+Books&amp;rft.date=1974&amp;rft.isbn=978-0-14-044295-3&amp;rft.aulast=Thorpe&amp;rft.aufirst=Lewis&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fhistoryoffranks00greg%2Fpage%2F30&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGregory+of+Tours" class="Z3988"></span></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text">Gregory of Tours, <i>The History of the Franks</i>. Harmondsworth: Penguin, 1974, p. 63.</span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">J Burrow, <i>A History of Histories</i> (London 2007) p. 203-4</span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text">See especially Goffart (1988) and Mitchell and Wood (2002)</span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/07018b.htm">Catholic Encyclopedia</a></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text">Robert Silverberg, <i>The Realm of Prester John</i>, Garden City, New York: Doubleday &amp; Company, Inc., 1972, page 27.</span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text">Book I.i</span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.fordham.edu/halsall/basis/gregory-hist.html#book3">Gregory of Tours (539-594): <i>History of the Franks</i>: Books I-X "In Christ's Name Here Begins The First Book Of The Histories."</a> Medieval Sourcebook</span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text">J. M. Wallace-Hadrill, <i>The Barbarian West</i> (London 1964) p. 91</span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text">H.M. Gwatkin ed., <i>The Cambridge Medieval History Vol II</i> (Cambridge 1926) p. 157</span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text">J. Burrow, <i>A History of Histories</i> (Penguin 2009) p. 208-9</span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text">Robert Win, Gregory of Tours, the Eastern Emperor, and Merovingian Gaul, in: Northwestern Review, 2017, pp.34-35</span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text">H.M. Gwatkin ed., <i>The Cambridge Medieval History Vol II</i> (Cambridge 1926) p. 156</span>
+</li>
+</ol></div></div>
+<p>The following represent key modern texts on Gregory of Tours, including the most recent translations of his work.
+</p><p>While <a href="/wiki/Lewis_Thorpe" title="Lewis Thorpe">Lewis Thorpe</a>'s translation of <i>The History of the Franks</i> is more accessible than Brehaut's, his introduction and commentary are not well regarded by contemporary historians (see Secondary Sources, below).
+</p>
+<h3><span class="mw-headline" id="Primary_sources">Primary sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=23" title="Edit section: Primary sources">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span class="mw-headline" id="Editions">Editions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=24" title="Edit section: Editions">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul><li><i>Gregorii episcopi Turonensis. Libri Historiarum X</i> (ed. <a href="/w/index.php?title=Bruno_Krusch&amp;action=edit&amp;redlink=1" class="new" title="Bruno Krusch (page does not exist)">Bruno Krusch</a> and <a href="/wiki/Wilhelm_Levison" title="Wilhelm Levison">Wilhelm Levison</a>), MGH SRM I 1, Hannover<sup>2</sup> 1951</li>
+<li><i>Miracula et opera minora</i> (ed. Bruno Krusch), MGH SRM I 2, Hannover 1969, 211-294 (repr. from 1885)</li></ul>
+<h4><span class="mw-headline" id="Translations">Translations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=25" title="Edit section: Translations">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul><li><i>Fränkische Geschichte</i>. 3 vols. (transl. by Wilhelm von Giesebrecht, rev. by Manfred Gebauer), Essen 1988.</li>
+<li><i>From Roman to Merovingian Gaul. A Reader</i> (ed. and transl. Alexander Callander Murray; Readings in medieval Civilisations and Cultures 5), Toronto 2000, 287-446</li>
+<li><i>Glory of the confessors</i> (ed. and transl. Raymond Van Dam; Translated Texts for Historians 4), Liverpool 2004 (2nd edition), <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-85323-226-1" title="Special:BookSources/0-85323-226-1">0-85323-226-1</a>.</li>
+<li><i>Glory of the Martyrs</i> (ed. and transl. Raymond Van Dam; Translated Texts for Historians 3), Liverpool 2004 (2nd edition), <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-85323-236-9" title="Special:BookSources/0-85323-236-9">0-85323-236-9</a>.</li>
+<li><i>Liber de passione et virtutibus sancti Iuliani martyris</i> und<i> Libri de virtutibus sancti Martini episcopi</i>, in: Raymond Van Dam (ed.), Saints and their Miracles in Late Antique Gaul, Princeton 1993, 153–317.</li>
+<li><i>Life of the Fathers</i> (ed. and transl. James Edward; Translated Texts for Historians 1), Liverpool 1991 (2nd edition), <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-85323-327-6" title="Special:BookSources/0-85323-327-6">0-85323-327-6</a>.</li>
+<li><i>The History of the Franks</i> (transl. M. Dalton), Oxford 1927.</li>
+<li><i>The History of the Franks</i> (transl. L. Thorpe), Penguin 1974.</li>
+<li><i>Historias</i> (transl. P. Herrera), Servicio de Publicaciones de la Universidad de Extremadura, 2013, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-84-7723-190-5" title="Special:BookSources/978-84-7723-190-5">978-84-7723-190-5</a></li>
+<li><a rel="nofollow" class="external text" href="https://books.google.com/books?id=0XUaAAAAYAAJ&amp;pg=PP9"><i>Histoire des Franks</i></a>, in French</li></ul>
+<h4><span class="mw-headline" id="Bilingual_editions">Bilingual editions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=26" title="Edit section: Bilingual editions">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul><li><i>Les livres des miracles et autres opuscules de Georges Florent Grégoire évêque de Tours</i> (ed. and transl. Léonard Bordier), vol. 1, Paris 1857.</li>
+<li><i>Zehn Bücher Geschichten. Band I-II.</i>(ed. and transl. Wilhelm Giesebrecht and Rudolf Buchner), Darmstadt 1955–1956.</li></ul>
+<h3><span class="mw-headline" id="Secondary_sources">Secondary sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=27" title="Edit section: Secondary sources">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>Bianchi, Dante, Da Gregorio Di Tours a Paolo Diacono, Aevum, Anno XXXV, Fasc. 1/2 (1961), pp. 150-166.</li>
+<li>Bonnet, Max, <i>Le Latin de Grégoire de Tours</i>, Paris: Librairie Hachette, 1890.</li>
+<li><a href="/wiki/Peter_Robert_Lamont_Brown" class="mw-redirect" title="Peter Robert Lamont Brown">Brown, Peter</a>, <i>The Cult of the Saints</i>, London 1981.</li>
+<li>Butzmann, Hans, Die Wolfenbütteler Fragmente der Historien des Gregor von Tours, Scriptorium, XX/1 (Année 1966), pp. 31-40</li>
+<li>Caires, Valerie Anne, Evagrius Scholasticus and Gregory of Tours: A Literary Comparison, Unpublished PhD thesis, University of California, Berkeley, 1976.</li>
+<li>Cameron, Averil, "The Byzantine Sources of Gregory of Tours", <i>The Journal of Theological Studies, New Series</i>, Vol. XXVI, No. 2 (October1975), pp. 421-426.</li>
+<li>Choda, Kamil, "Intellectual Sources of Historian's Legitimization - The Case of Gregory of Tours", Classica Cracoviensia, Vol. XVIII (2015), pp. 111-124.</li>
+<li>Choda, Kamil, "The Religious Other in the Histories of Gregory of Tours", Classica Cracoviensia, Vol. XVII (2014), pp. 5-19.</li>
+<li>Cuzzolin, Pierluigi, Osservazioni sul rapporto tra grafia e fonetica nel latino di Gregorio di Tours, XI Congreso International sobre el Latín Vulgar y Tardío (Oviedo, 1-5 de septiembre de 2014), eds. García Leal, Alfonso, Prieto Entrialgo, Clara Elena, Hildesheim Zürich Olms-Weidmann, 2017, p. 193-206.</li>
+<li>Dailey, E.T., <i>Queens, Consorts, Concubines: Gregory of Tours and Women of the Merovingian Elite</i>, Leiden, Brill, 2015.</li>
+<li>Diem, Albrecht, “Gregory’s Chess Board: Monastic Conflict and Competition in Early Medieval Gaul”, in <i>Compétition et sacré au haut Moyen Âge: entre médiation et exclusion</i>, Philippe Depreux, François Bougard and Régine Le Jan (eds.), Brepols, Turnhout 2015, pp. 165–191.</li>
+<li>Ersoy, Tolga, "Gregorius Turonensis’in 'Decem Libri Historiarum' Adlı Yapıtında Hunlara ve Avarlara Dair Kayıtların Değerlendirilmesi", <i>Bozkırın Oğlu: Ahmet Taşağıl’a Armağan</i>, ed. Tuğba Eray Biber, İstanbul, 2019, pp. 115-122.</li>
+<li>Goetz, Hans-Werner, "Grégoire de Tours: (comment) a-t-il perçu une «coopétition»?", <i>Coopétition: Rivaliser, coopérer dans les sociétés du haut Moyen Âge (500-1100)</i> (Haut Moyen Âge, 31), eds. Régine Le Jan, Geneviève Bührer-Thierry, and Stefano Gasparri, Turnhout: Brepols Publishers, 2018, pp. 49-60.</li>
+<li>Goffart, Walter, "Foreigners in the Histories of Gregory of Tours", <i>Florilegium</i>, Vol. IV, No. 1 (1982), 80-89.</li>
+<li><a href="/wiki/Walter_Goffart" title="Walter Goffart">Goffart, Walter</a>, <i>The Narrators of Barbarian History (A.D. 550–800): Jordanes, Gregory of Tours, Bede and Paul the Deacon</i>, Princeton 1988.</li>
+<li>Hailstone, Catherine-Rose, <i>Fear in the Mind and Works of Gregory of Tours</i>, Unpublished PhD thesis, University of York, 2020.</li>
+<li>Heinzelmann, Martin, <i>Gregory of Tours: History and Society in the Sixth Century</i>, trans. Christopher Carroll, Cambridge 2001.</li>
+<li>James, E.,<i>The Franks</i>, Oxford 1988.</li>
+<li>Kaiser, Reinhold, <i>Das römische Erbe und das Merowingerreich</i>, München 2004 (Enzyklopädie deutscher Geschichte 26).</li>
+<li>Keely, A., "Arians and Jews in the "Histories" of Gregory of Tours", <i>Journal of Medieval History</i>, Vol. XXIII/2 (1997), pp. 103-115.</li>
+<li>Loseby, S.T., “Marseille and the Pirenne thesis, I: Gregory of Tours, the Merovingian kings and 'un grand port'” in <i>The Sixth Century. Production, Distribution and Demand</i>, edited by Richard Hodges and William Bowden, pp.&#160;203–229, Brill Academic Publishers, Leiden 1998.</li>
+<li>Loseby, S.T., “Gregory's cities: urban functions in sixth-century Gaul”, in <i>Franks and Alamanni in the Merovingian period: an Ethnographic Perspective</i>, edited by Ian N. Wood, Boydell &amp; Brewer Ltd, Woodbridge 1998, pp. 239–270.</li>
+<li>McSheffrey, Shannon, <i>The History of the Franks</i>, Harmondsworth 1974.</li>
+<li>Mitchell. Kathleen; Wood. Ian (eds.), <i>The World of Gregory of Tours</i>, Leiden 2002.</li>
+<li>Moorhead, John, "Gregory of Tours on the Arian kingdoms", <i>Studi medievali</i>, Anno XXXVI, Fasc. 2 (1995), pp. 903-915.</li>
+<li>Murray, A.C. (ed.), <i>A Companion to Gregory of Tours</i>, Leiden 2016.</li>
+<li>Nie, Giselle de, <i>Views from a Many-Windowed Tower: Studies of Imagination in the Works of Gregory of Tours</i>, Amsterdam, Rodopi, 1987.</li>
+<li>Serra, Antonio, “L’<i>ingenium artis</i> di Gregorio di Tours. Preliminari d’indagine”, <i>Invigilata Lucernis</i> 32 (2010), pp. 157–175.</li>
+<li>Van Dam, Raymond, <i>Saints and their miracles in late antique Gaul</i>, Princeton 1993.</li>
+<li>Vieillard-Troiekouroff, May, <i>Les monuments religieux de la Gaule d'après les oeuvres de Grégoire de Tours</i>, Paris: H. Champion, 1976</li>
+<li>Vogüé, Adalbert de, "Grégoire le Grand, lecteur de Grégoire de Tours?", Analecta Bollandiana, Vol. XCIV, Issue 3-4 (1976), pp. 225-233.</li>
+<li>Wagner, Norbert, "Geirom studdo (Vsp. 21,4) und Gregor von Tours", <i>Zeitschrift für deutsches Altertum und deutsche Literatur</i>, 114. Bd., H. 2 (2nd Quarter, 1985), pp. 89-91.</li>
+<li>Wood, Ian N., <i>Gregory of Tours</i>, Bangor (GB) 1994.</li>
+<li>Wood, Ian N., <i>The Merovingian kingdoms 450-751</i>, London 1994.</li>
+<li>Wood, Ian N. "The secret histories of Gregory of Tours", <i>Revue belge de Philologie et d'Histoire</i>, LXXII/2 (Année 1993), pp. 253-270.</li></ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gregory_of_Tours&amp;action=edit&amp;section=28" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:Gregory_of_Tours" class="extiw" title="commons:Category:Gregory of Tours">Gregory of Tours</a></span>.</div></div>
+</div>
+<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFGregory_of_Tours_(c._538-594_A.D.)" class="citation web cs1 cs1-prop-foreign-lang-source">Gregory of Tours (c. 538-594 A.D.). <a rel="nofollow" class="external text" href="http://www.thelatinlibrary.com/gregorytours.html">"Historiae, Libri X"</a> (in Latin). The Latin Library.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Historiae%2C+Libri+X&amp;rft.pub=The+Latin+Library&amp;rft.au=Gregory+of+Tours+%28c.+538-594+A.D.%29&amp;rft_id=http%3A%2F%2Fwww.thelatinlibrary.com%2Fgregorytours.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGregory+of+Tours" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFGregory_of_Tours_(539-594)1997" class="citation book cs1">Gregory of Tours (539-594) (1997) [1916].  Halsall, Paul (ed.). <a rel="nofollow" class="external text" href="http://www.fordham.edu/halsall/basis/gregory-hist.html"><i>History of the Franks: Books I-X (Abridged)</i></a>. Translated by Earnest Brehaut. Medieval Sourcebook, Fordham University.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=History+of+the+Franks%3A+Books+I-X+%28Abridged%29&amp;rft.pub=Medieval+Sourcebook%2C+Fordham+University&amp;rft.date=1997&amp;rft.au=Gregory+of+Tours+%28539-594%29&amp;rft_id=http%3A%2F%2Fwww.fordham.edu%2Fhalsall%2Fbasis%2Fgregory-hist.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGregory+of+Tours" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFS._Georgii_Florentii_Gregorii_Turonensis_Episcopi1994" class="citation book cs1 cs1-prop-foreign-lang-source">S. Georgii Florentii Gregorii Turonensis Episcopi (1994) [1853].  Friedrich Haase (ed.). <a rel="nofollow" class="external text" href="http://www.dbc.wroc.pl/publication/1616"><i>liber ineditus De cursu stellarum: ratio qualiter ad officium implendum debeat observari: sive de cursibus ecclesiasticis</i></a> (in Latin). Bratislava: Jos. Max et Soc.; Dolnośląska Biblioteka Cyfrowa (dbc).</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=liber+ineditus+De+cursu+stellarum%3A+ratio+qualiter+ad+officium+implendum+debeat+observari%3A+sive+de+cursibus+ecclesiasticis&amp;rft.place=Bratislava&amp;rft.pub=Jos.+Max+et+Soc.%3B+Dolno%C5%9Bl%C4%85ska+Biblioteka+Cyfrowa+%28dbc%29&amp;rft.date=1994&amp;rft.au=S.+Georgii+Florentii+Gregorii+Turonensis+Episcopi&amp;rft_id=http%3A%2F%2Fwww.dbc.wroc.pl%2Fpublication%2F1616&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGregory+of+Tours" class="Z3988"></span></li>
+<li><a rel="nofollow" class="external text" href="http://bsbsbb.bsb.lrz.de/~db/0000/sbb00000157/images/index.html?seite=00154&amp;signatur=Msc.Patr.61">Staatsbibliothek Bamberg Msc.Patr.61</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20180308232739/http://bsbsbb.bsb.lrz.de/~db/0000/sbb00000157/images/index.html?seite=00154&amp;signatur=Msc.Patr.61">Archived</a> 2018-03-08 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a>, the primary witness of <i>De cursu stellarum</i></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFGregorius2011" class="citation book cs1 cs1-prop-foreign-lang-source cs1-prop-foreign-lang-source">Gregorius (2011) [1857-1864]. <a rel="nofollow" class="external text" href="https://books.google.com/books?id=6oB3k9PfPGgC"><i>Les livres des miracles et autres opuscules de Georges Florent Grégoire</i></a> (in Latin and French). Translated by Henri Léonard Bordier. Paris: J. Renouard.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Les+livres+des+miracles+et+autres+opuscules+de+Georges+Florent+Gr%C3%A9goire&amp;rft.place=Paris&amp;rft.pub=J.+Renouard&amp;rft.date=2011&amp;rft.au=Gregorius&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3D6oB3k9PfPGgC&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGregory+of+Tours" class="Z3988"></span></li>
+<li>History lecture by Paul Freedman on Procopius and Gregor of Tours in Yale University (fall 2011): <a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=pbN8OTHecuI">https://www.youtube.com/watch?v=pbN8OTHecuI</a></li>
+<li><a rel="nofollow" class="external text" href="https://librivox.org/author/14517">Works by Gregory of Tours</a> at <a href="/wiki/LibriVox" title="LibriVox">LibriVox</a> (public domain audiobooks) <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/15px-Speaker_Icon.svg.png" decoding="async" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/23px-Speaker_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/30px-Speaker_Icon.svg.png 2x" data-file-width="500" data-file-height="500" /></li></ul>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q67841#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q67841#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q67841#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000121442316">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/95289837">1</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/83984609">2</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n80128596/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://authority.bibsys.no/authority/rest/authorities/html/90131410">Norway</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb11905825m">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb11905825m">(data)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://cantic.bnc.cat/registre/981058512655006706">Catalonia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/118697439">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007262057605171">Israel</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n80128596">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://kopkatalogs.lv/F?func=direct&amp;local_base=lnc10&amp;doc_number=000074054&amp;P_CON_LNG=ENG">Latvia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.ndl.go.jp/auth/ndlna/00441670">Japan</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=jn19981001355&amp;CON_LNG=ENG">Czech Republic</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://nla.gov.au/anbd.aut-an35149546">Australia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://data.nlg.gr/resource/authority/record141133">Greece</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://katalog.nsk.hr/F/?func=direct&amp;doc_number=000192234&amp;local_base=nsk10">Croatia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p070516855">Netherlands</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://mak.bn.org.pl/cgi-bin/KHW/makwww.exe?BM=1&amp;NU=1&amp;IM=4&amp;WI=9810649118205606">Poland</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://libris.kb.se/auth/187796">Sweden</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.vatlib.it/auth/detail/495_22836">Vatican</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118697439.html?language=en">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Scientific databases</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://ci.nii.ac.jp/author/DA00364288?l=en">CiNii (Japan)</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/61732/">FAST</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://hls-dhs-dss.ch/fr/articles/010304">Historical Dictionary of Switzerland</a></span></li>
+<li><a href="/wiki/RERO_(identifier)" class="mw-redirect" title="RERO (identifier)">RERO (Switzerland)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://data.rero.ch/02-A000074328">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://snaccooperative.org/ark:/99166/w6nw354p">Social Networks and Archival Context</a></span></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/026902133">1</a></span></li></ul></li>
+<li><a href="/wiki/Trove_(identifier)" class="mw-redirect" title="Trove (identifier)">Trove (Australia)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://trove.nla.gov.au/people/842785">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2413
+Cached time: 20230207130751
+Cache expiry: 86400
+Reduced expiry: true
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.473 seconds
+Real time usage: 0.635 seconds
+Preprocessor visited node count: 3383/1000000
+Post‐expand include size: 64114/2097152 bytes
+Template argument size: 7597/2097152 bytes
+Highest expansion depth: 18/100
+Expensive parser function count: 34/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 39939/5000000 bytes
+Lua time usage: 0.277/10.000 seconds
+Lua memory usage: 7557961/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  556.378      1 -total
+ 16.41%   91.298      1 Template:Reflist
+ 15.82%   88.013      1 Template:Infobox_saint
+ 15.47%   86.088      1 Template:Authority_control
+ 15.09%   83.969      1 Template:Infobox
+ 12.61%   70.168      2 Template:Cite_web
+ 10.18%   56.627      4 Template:Br_separated_entries
+  8.85%   49.245      1 Template:Short_description
+  7.49%   41.660      1 Template:Death_date
+  6.73%   37.465      1 Template:Commons_category
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:50851-0!canonical and timestamp 20230207130750 and revision id 1136136305. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Gregory_of_Tours&amp;oldid=1136136305">https://en.wikipedia.org/w/index.php?title=Gregory_of_Tours&amp;oldid=1136136305</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:538_births" title="Category:538 births">538 births</a></li><li><a href="/wiki/Category:594_deaths" title="Category:594 deaths">594 deaths</a></li><li><a href="/wiki/Category:6th-century_apocalypticists" title="Category:6th-century apocalypticists">6th-century apocalypticists</a></li><li><a href="/wiki/Category:6th-century_Frankish_bishops" title="Category:6th-century Frankish bishops">6th-century Frankish bishops</a></li><li><a href="/wiki/Category:6th-century_Frankish_saints" title="Category:6th-century Frankish saints">6th-century Frankish saints</a></li><li><a href="/wiki/Category:6th-century_Frankish_writers" title="Category:6th-century Frankish writers">6th-century Frankish writers</a></li><li><a href="/wiki/Category:6th-century_historians" title="Category:6th-century historians">6th-century historians</a></li><li><a href="/wiki/Category:6th-century_Latin_writers" title="Category:6th-century Latin writers">6th-century Latin writers</a></li><li><a href="/wiki/Category:Bishops_of_Tours" title="Category:Bishops of Tours">Bishops of Tours</a></li><li><a href="/wiki/Category:Christian_anti-Gnosticism" title="Category:Christian anti-Gnosticism">Christian anti-Gnosticism</a></li><li><a href="/wiki/Category:Frankish_historians" title="Category:Frankish historians">Frankish historians</a></li><li><a href="/wiki/Category:Hagiographers" title="Category:Hagiographers">Hagiographers</a></li><li><a href="/wiki/Category:Clergy_from_Clermont-Ferrand" title="Category:Clergy from Clermont-Ferrand">Clergy from Clermont-Ferrand</a></li><li><a href="/wiki/Category:Sources_on_Germanic_paganism" title="Category:Sources on Germanic paganism">Sources on Germanic paganism</a></li><li><a href="/wiki/Category:6th-century_Gallo-Roman_people" title="Category:6th-century Gallo-Roman people">6th-century Gallo-Roman people</a></li><li><a href="/wiki/Category:Writers_from_Clermont-Ferrand" title="Category:Writers from Clermont-Ferrand">Writers from Clermont-Ferrand</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_April_2019" title="Category:Articles with unsourced statements from April 2019">Articles with unsourced statements from April 2019</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_March_2020" title="Category:Articles with unsourced statements from March 2020">Articles with unsourced statements from March 2020</a></li><li><a href="/wiki/Category:Articles_needing_additional_references_from_August_2019" title="Category:Articles needing additional references from August 2019">Articles needing additional references from August 2019</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="/wiki/Category:Articles_with_peacock_terms_from_April_2020" title="Category:Articles with peacock terms from April 2020">Articles with peacock terms from April 2020</a></li><li><a href="/wiki/Category:All_articles_with_peacock_terms" title="Category:All articles with peacock terms">All articles with peacock terms</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:CS1_Latin-language_sources_(la)" title="Category:CS1 Latin-language sources (la)">CS1 Latin-language sources (la)</a></li><li><a href="/wiki/Category:Webarchive_template_wayback_links" title="Category:Webarchive template wayback links">Webarchive template wayback links</a></li><li><a href="/wiki/Category:CS1_French-language_sources_(fr)" title="Category:CS1 French-language sources (fr)">CS1 French-language sources (fr)</a></li><li><a href="/wiki/Category:Articles_with_LibriVox_links" title="Category:Articles with LibriVox links">Articles with LibriVox links</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BIBSYS_identifiers" title="Category:Articles with BIBSYS identifiers">Articles with BIBSYS identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_CANTICN_identifiers" title="Category:Articles with CANTICN identifiers">Articles with CANTICN identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_LNB_identifiers" title="Category:Articles with LNB identifiers">Articles with LNB identifiers</a></li><li><a href="/wiki/Category:Articles_with_NDL_identifiers" title="Category:Articles with NDL identifiers">Articles with NDL identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_NLA_identifiers" title="Category:Articles with NLA identifiers">Articles with NLA identifiers</a></li><li><a href="/wiki/Category:Articles_with_NLG_identifiers" title="Category:Articles with NLG identifiers">Articles with NLG identifiers</a></li><li><a href="/wiki/Category:Articles_with_NSK_identifiers" title="Category:Articles with NSK identifiers">Articles with NSK identifiers</a></li><li><a href="/wiki/Category:Articles_with_NTA_identifiers" title="Category:Articles with NTA identifiers">Articles with NTA identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_SELIBR_identifiers" title="Category:Articles with SELIBR identifiers">Articles with SELIBR identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_CINII_identifiers" title="Category:Articles with CINII identifiers">Articles with CINII identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_HDS_identifiers" title="Category:Articles with HDS identifiers">Articles with HDS identifiers</a></li><li><a href="/wiki/Category:Articles_with_RERO_identifiers" title="Category:Articles with RERO identifiers">Articles with RERO identifiers</a></li><li><a href="/wiki/Category:Articles_with_SNAC-ID_identifiers" title="Category:Articles with SNAC-ID identifiers">Articles with SNAC-ID identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li><li><a href="/wiki/Category:Articles_with_Trove_identifiers" title="Category:Articles with Trove identifiers">Articles with Trove identifiers</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 28 January 2023, at 22:33<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Gregory_of_Tours&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.473","walltime":"0.635","ppvisitednodes":{"value":3383,"limit":1000000},"postexpandincludesize":{"value":64114,"limit":2097152},"templateargumentsize":{"value":7597,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":34,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":39939,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  556.378      1 -total"," 16.41%   91.298      1 Template:Reflist"," 15.82%   88.013      1 Template:Infobox_saint"," 15.47%   86.088      1 Template:Authority_control"," 15.09%   83.969      1 Template:Infobox"," 12.61%   70.168      2 Template:Cite_web"," 10.18%   56.627      4 Template:Br_separated_entries","  8.85%   49.245      1 Template:Short_description","  7.49%   41.660      1 Template:Death_date","  6.73%   37.465      1 Template:Commons_category"]},"scribunto":{"limitreport-timeusage":{"value":"0.277","limit":"10.000"},"limitreport-memusage":{"value":7557961,"limit":52428800}},"cachereport":{"origin":"mw2413","timestamp":"20230207130751","ttl":86400,"transientcontent":true}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Gregory of Tours","url":"https:\/\/en.wikipedia.org\/wiki\/Gregory_of_Tours","sameAs":"http:\/\/www.wikidata.org\/entity\/Q67841","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q67841","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-04-29T19:19:56Z","dateModified":"2023-01-28T22:33:27Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/75\/Gregory_of_Tours_cour_Napoleon_Louvre.jpg","headline":"Gallo-Roman historian and Bishop of Tours"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Gregory of Tours","url":"https:\/\/en.wikipedia.org\/wiki\/Gregory_of_Tours","sameAs":"http:\/\/www.wikidata.org\/entity\/Q67841","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q67841","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-04-29T19:19:56Z","dateModified":"2023-01-28T22:33:27Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/75\/Gregory_of_Tours_cour_Napoleon_Louvre.jpg","headline":"Gallo-Roman historian and Bishop of Tours"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":140,"wgHostname":"mw2275"});});</script>
+</body>
+</html>

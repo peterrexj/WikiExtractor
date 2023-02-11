@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Jovinian - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"197d9239-56c9-42fe-8318-9a1e3c3cea2a",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Jovinian","wgTitle":"Jovinian","wgCurRevisionId":1126611843,"wgRevisionId":1126611843,"wgArticleId":718168,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference","CS1 errors: missing periodical","Articles with short description","Short description matches Wikidata","Use dmy dates from February 2020","Pages using infobox theologian with embed equal yes","Articles with hCards","Articles containing Latin-language text","All articles with unsourced statements","Articles with unsourced statements from August 2021","Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers"
+,"Articles with BIBSYS identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with PLWABN identifiers","Articles with SELIBR identifiers","Articles with VcBA identifiers","Articles with DTBIO identifiers","Articles with CINII identifiers","Articles with FAST identifiers","Articles with RERO identifiers","Articles with SUDOC identifiers","4th-century Christian theologians","People excommunicated by the Catholic Church","4th-century Romans","4th-century Latin writers","Proto-Protestants"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Jovinian","wgRelevantArticleId":718168,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,
+"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q1709977","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":
+"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/2/27/Jovinianus.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="1422"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/2/27/Jovinianus.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="948"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="758"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Jovinian - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Jovinian"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Jovinian&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Jovinian"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Jovinian rootpage-Jovinian skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Jovinian" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Jovinian"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Jovinian"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Jovinian" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Jovinian" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Jovinian&amp;oldid=1126611843" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Jovinian&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Jovinian&amp;id=1126611843&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1709977" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Jovinian&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Jovinian&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Life"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Life">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Life</div>
+		</a>
+		
+		<ul id="toc-Life-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Teachings"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Teachings">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Teachings</div>
+		</a>
+		
+		<ul id="toc-Teachings-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Reaction"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Reaction">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Reaction</div>
+		</a>
+		
+		<ul id="toc-Reaction-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Jovinian</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 11 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-11"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">11 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Jovinian" title="Jovinian – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Joviniano" title="Joviniano – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Joviniano" title="Joviniano – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D8%AC%D9%88%DB%8C%D9%86%DB%8C%D8%A7%D9%86" title="جوینیان – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Jovinien_(moine)" title="Jovinien (moine) – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Gioviniano" title="Gioviniano – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Jowinian" title="Jowinian – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Joviniano" title="Joviniano – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BE%D0%B2%D0%B8%D0%BD%D0%B8%D0%B0%D0%BD" title="Иовиниан – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Jovinianus" title="Jovinianus – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Jovinianus" title="Jovinianus – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1709977#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Jovinian" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Jovinian" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Jovinian"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Jovinian&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Jovinian&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Jovinian"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Jovinian&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Jovinian&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">4th century opponent of Christian asceticism</div>
+<p class="mw-empty-elt">
+</p>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox biography vcard"><tbody><tr><th colspan="2" class="infobox-above" style="font-size:125%;"><div class="fn" style="display:inline">Jovinian</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Jovinianus.jpg" class="image"><img alt="Jovinianus.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Jovinianus.jpg/220px-Jovinianus.jpg" decoding="async" width="220" height="261" srcset="//upload.wikimedia.org/wikipedia/commons/2/27/Jovinianus.jpg 1.5x" data-file-width="292" data-file-height="346" /></a><div class="infobox-caption">Imaginary portrait, <abbr title="circa">c.</abbr><span style="white-space:nowrap;">&#8201;1700</span></div></td></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">4th century AD<br /><div style="display:inline" class="birthplace"><a href="/wiki/Corduene" title="Corduene">Corduene</a></div></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">405<hr /><b>Theology career</b><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"/></td></tr><tr><td colspan="2" class="infobox-full-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"/><b>Theological work</b></td></tr><tr><th scope="row" class="infobox-label">Era</th><td class="infobox-data"><a href="/wiki/Patristic_Age" class="mw-redirect" title="Patristic Age">Patristic Age</a></td></tr><tr><th scope="row" class="infobox-label">Tradition or movement</th><td class="infobox-data"><a href="/wiki/Jovinianism" title="Jovinianism">Jovinianism</a></td></tr><tr><th scope="row" class="infobox-label">Main interests</th><td class="infobox-data"><a href="/wiki/Asceticism" title="Asceticism">Asceticism</a></td></tr><tr><th scope="row" class="infobox-label">Notable ideas</th><td class="infobox-data"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class="plainlist"><ul><li><a href="/wiki/Christian_monasticism#Opposition" title="Christian monasticism">Opposition to Monasticism</a></li><li><a href="/wiki/Heaven" title="Heaven">Equality in heaven</a></li><li><a href="/wiki/Asceticism" title="Asceticism">Opposition to ascetism</a></li><li><a href="/wiki/Perpetual_virginity_of_Mary" title="Perpetual virginity of Mary">Denial of the perpetual virginity of Mary</a></li></ul></div></td></tr><tr style="display:none"><td colspan="2">
+</td></tr><tr style="display:none"><td colspan="2">
+</td></tr></tbody></table>
+<p><b>Jovinian</b> (<a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Iovinianus</i>; died c. 405) was an opponent of <a href="/wiki/Christianity" title="Christianity">Christian</a> <a href="/wiki/Asceticism" title="Asceticism">asceticism</a> in the 4th century and was condemned as a <a href="/wiki/Heresy" title="Heresy">heretic</a> at <a href="/wiki/Synod" title="Synod">synods</a> convened in <a href="/wiki/Rome" title="Rome">Rome</a> under <a href="/wiki/Pope_Siricius" title="Pope Siricius">Pope Siricius</a> and in <a href="/wiki/Milan" title="Milan">Milan</a> by <a href="/wiki/Ambrose" title="Ambrose">Ambrose</a> in 393, because of his anti-ascetic views.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> Our information about him is derived principally from the work of <a href="/wiki/Jerome" title="Jerome">Jerome</a> in two books, <i><a href="/wiki/Adversus_Jovinianum" class="mw-redirect" title="Adversus Jovinianum">Adversus Jovinianum</a></i>.<sup id="cite_ref-catholic_encyclopedia_2-0" class="reference"><a href="#cite_note-catholic_encyclopedia-2">&#91;2&#93;</a></sup> Jerome referred to him as the "<a href="/wiki/Epicurus" title="Epicurus">Epicurus</a> of Christianity".<sup id="cite_ref-catholic_encyclopedia_2-1" class="reference"><a href="#cite_note-catholic_encyclopedia-2">&#91;2&#93;</a></sup> He was a native of <a href="/wiki/Corduene" title="Corduene">Corduene</a>, in present day <a href="/wiki/Turkey" title="Turkey">Turkey</a>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>  <a href="/wiki/John_Henry_Newman" title="John Henry Newman">John Henry Newman</a> called <a href="/wiki/Aerius_of_Sebaste" title="Aerius of Sebaste">Aerius of Sebaste</a>, Jovinian and <a href="/wiki/Vigilantius" title="Vigilantius">Vigilantius</a> the forerunners of <a href="/wiki/Protestantism" title="Protestantism">Protestantism</a>, likening them to the "<a href="/wiki/Martin_Luther" title="Martin Luther">Luther</a>, <a href="/wiki/John_Calvin" title="John Calvin">Calvin</a>, and <a href="/wiki/Huldrich_Zwingli" class="mw-redirect" title="Huldrich Zwingli">Zwingli</a> of the fourth century".<sup id="cite_ref-newman_4-0" class="reference"><a href="#cite_note-newman-4">&#91;4&#93;</a></sup> Other Protestants also praise Jovinian as an <a href="/wiki/Proto-Protestantism" title="Proto-Protestantism">early reformer</a> or even credit him as the "first Protestant".<sup id="cite_ref-ccel.org_5-0" class="reference"><a href="#cite_note-ccel.org-5">&#91;5&#93;</a></sup><sup id="cite_ref-:1_6-0" class="reference"><a href="#cite_note-:1-6">&#91;6&#93;</a></sup> Jovinian's teachings received much popular support in <a href="/wiki/Rome" title="Rome">Rome</a> and <a href="/wiki/Milan" title="Milan">Milan</a> and his followers, <a href="/wiki/Sarmatio" title="Sarmatio">Sarmatio</a> and <a href="/wiki/Barbatianus" title="Barbatianus">Barbatianus</a> kept preaching his ideas after Jovinian was expelled.<sup id="cite_ref-:03_7-0" class="reference"><a href="#cite_note-:03-7">&#91;7&#93;</a></sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup><sup id="cite_ref-:2_9-0" class="reference"><a href="#cite_note-:2-9">&#91;9&#93;</a></sup>
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Life">Life</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Jovinian&amp;action=edit&amp;section=1" title="Edit section: Life">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Jovinian was a <a href="/wiki/Monk" title="Monk">monk</a> at one time in his life, but subsequently turned against monastic <a href="/wiki/Asceticism" title="Asceticism">asceticism</a>—though without giving up his status as monk.<sup id="cite_ref-catholic_encyclopedia_2-2" class="reference"><a href="#cite_note-catholic_encyclopedia-2">&#91;2&#93;</a></sup> Jovinian was apparently broadly read and adduced examples from secular literature, which did not sit well at the synods. He became the leader of a group of disciples: Auxentius, Genialis, Germinator, Felix, Prontinus, Martianus, Januarius and Ingeniosus are identified in the act of 390 condemning him.<sup id="cite_ref-catholic_encyclopedia_2-3" class="reference"><a href="#cite_note-catholic_encyclopedia-2">&#91;2&#93;</a></sup> His writings praising the excellence of marriage, which he published from Rome, were condemned at a synod held in Rome under Pope Siricius and subsequently at the Milan synod.<sup id="cite_ref-catholic_encyclopedia_2-4" class="reference"><a href="#cite_note-catholic_encyclopedia-2">&#91;2&#93;</a></sup>
+</p><p>Jovinian, in the polemical view of his chief opponent, Jerome, has some of the style of an "Epicurus of Christianity." The following is a passage attributed to Jovinian by Jerome in his "Against Jovinian:"
+</p>
+<blockquote>
+<p>I respond to your invitation, not that I may go through life with a high reputation, but may live free from idle rumour. I beseech the ground, the young shoots of our plantations, the plants and trees of tenderness snatched from the whirlpool of vice, to grant me audience and the support of many listeners. We know that the Church through hope, faith, charity, is inaccessible and impregnable. In it no one is immature: all are apt to learn: none can force a way into it by violence, or deceive it by craft.
+</p>
+</blockquote>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Adversus_Jovinianum_Libri_Duo.PNG" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Adversus_Jovinianum_Libri_Duo.PNG/220px-Adversus_Jovinianum_Libri_Duo.PNG" decoding="async" width="220" height="286" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Adversus_Jovinianum_Libri_Duo.PNG/330px-Adversus_Jovinianum_Libri_Duo.PNG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Adversus_Jovinianum_Libri_Duo.PNG/440px-Adversus_Jovinianum_Libri_Duo.PNG 2x" data-file-width="531" data-file-height="690" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Adversus_Jovinianum_Libri_Duo.PNG" class="internal" title="Enlarge"></a></div>Against Jovinian (12th century manuscript)</div></div></div>
+<p>Nothing is known of the later career of Jovinian.<sup id="cite_ref-catholic_encyclopedia_2-5" class="reference"><a href="#cite_note-catholic_encyclopedia-2">&#91;2&#93;</a></sup> From a remark in Jerome's work <i>Against Vigilantius</i>, written in 409, that he "amidst pheasants and pork rather belched out than breathed out his life", it is inferred by some (who assume Jerome to speaking from authoritative knowledge and not merely in his usual highly rhetorical mode of vituperation) that he was then dead, and had not been made to suffer for his views too strenuously.<sup id="cite_ref-catholic_encyclopedia_2-6" class="reference"><a href="#cite_note-catholic_encyclopedia-2">&#91;2&#93;</a></sup> In fact, penalties of quite a cruel nature were often meted out upon heretics during the reign of Theodosius, and legal records at the time show that the Roman state did prescribe cruel punishments for him, including flogging and (supposing he survived) exile "...to the Isle of Bua" in the Adriatic Sea. It is worth noting in this regard that Augustine, in a relatively recently discovered letter (10*), laments the use of the leaded thong on heretics, since, in the Saint's words, "...it so often leads to death."<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (August 2021)">citation needed</span></a></i>&#93;</sup>
+</p><p>Despite seeing marriage as an honorable state, Jovinian himself did not marry, so that he was not kept busy by the state of marriage.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Teachings">Teachings</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Jovinian&amp;action=edit&amp;section=2" title="Edit section: Teachings">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The writings of Jovinian were sent to Jerome by his friend <a href="/wiki/Pammachius" title="Pammachius">Pammachius</a>.<sup id="cite_ref-catholic_encyclopedia_2-7" class="reference"><a href="#cite_note-catholic_encyclopedia-2">&#91;2&#93;</a></sup> Jerome replied to them in a long treatise in two books, written in 393. Many of Jovinian's views could be considered contrary to ascetic ideals that were gaining prominence in the era, and would ultimately influence what constitutes Roman Catholic orthodoxy today.
+</p><p>He felt that virgins, widows and married women, even remarried widows, are of equal merit in the Christian community.<sup id="cite_ref-catholic_encyclopedia_2-8" class="reference"><a href="#cite_note-catholic_encyclopedia-2">&#91;2&#93;</a></sup> Jovinian addressed his virginal reader:
+</p>
+<blockquote>
+<p>I do you no wrong, Virgin: you have chosen a life of chastity on account of the present distress: you determined on the course in order to be holy in body and spirit: be not proud: you and your married sisters are members of the same Church…Now concerning virgins I have no commandment of the Lord: but I give my judgement, as one that hath obtained mercy of the Lord to be faithful. I think therefore that this is good by reason of the present distress, namely, that it is good for a man to be as he is…<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup> See, the Apostle confesses that as regards virgins he has no commandment of the Lord, and he who had with authority laid down the law respecting husbands and wives, does not dare to command what the Lord has not enjoined. And rightly too. For what is enjoined is commanded, what is commanded must be done, and that which must be done implies punishment if it be not done. For it is useless to order a thing to be done and yet leave the individual free to do it or not do it. If the Lord had commanded virginity He would have seemed to condemn marriage, and to do away with the seed-plot of mankind, of which virginity itself is a growth. If He had cut off the root, how was He to expect fruit&#160;? If the foundations were not first laid, how was He to build the edifice, and put on the roof to cover all&#160;! Excavators toil hard to remove mountains; the bowels of the earth are pierced in the search for gold. And, when the tiny particles, first by the blast of the furnace, then by the hand of the cunning workman have been fashioned into an ornament, men do not call him blessed who has separated the gold from the dross but him who wears the beautiful gold. Do not marvel then if, placed as we are, amid temptations of the flesh and incentives to vice, the angelic life be not exacted of us, but merely recommended. If advice be given, a man is free to proffer obedience; if there be a command, he is a servant bound to compliance.
+</p>
+</blockquote>
+<p>Jovinian also maintained that abstinence is no better than the partaking of food in the right disposition. Looking back into the creation, Jovinian stated that God gave dominion to humanity over the creation. After the great flood, God allowed humanity to take food not only from plants, but also from animals. St. Paul in the New Testament also teaches that all food is clean if they are eaten with thankfulness (Romans 14:20).<sup id="cite_ref-sbts.edu_12-0" class="reference"><a href="#cite_note-sbts.edu-12">&#91;12&#93;</a></sup> Another point that Jovinian argues is, "they who with full assurance of faith have been born again in baptism, cannot be overthrown by the devil." As Jerome critiques in his treatise, Jerome alters the word "overthrown" with "tempted".<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;13&#93;</a></sup> This may show that either Jerome missed a point that Jovinian was making, as his argument on this point was much shorter. The word "overthrow" may have indicated much more significance than a believer committing sin since Jovinian believed that a believer was able to sin after the baptism. He wrote that if they do sin, they must repent. Rather, Jovinian seems to have been arguing that something significant occurs in the life of the believer when he or she is baptized, something that goes beyond peccability.<sup id="cite_ref-sbts.edu_12-1" class="reference"><a href="#cite_note-sbts.edu-12">&#91;12&#93;</a></sup> This quote reveals a concern not simply over the presence of sin, but over the future state of believers. Jovinian evidently argued that baptism, administered “with full assurance of faith,” places believers in a state in which the blessings they experience as a result are not diminished by the presence of sin. 
+</p><p>In other words, Jovinian argued for what historian David Hunter called the final indefectibility of believers rather than their personal impeccability.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup> Those who are baptized into the Church are in a permanent state of grace. Jovinian limited the impossibility of relapse to the truly regenerate, thus his teaching on perseverance has affinities with Augustine's <a href="/wiki/Gift_of_perseverance" title="Gift of perseverance">gift of perseverance</a> and the Calvinist doctrine of <a href="/wiki/Perseverance_of_the_saints" title="Perseverance of the saints">perseverance of the saints</a>.However Jovinian did not derive his view of eternal security from a doctrine of <a href="/wiki/Predestination" title="Predestination">predestination</a>, but instead from his denial of works having merit.<sup id="cite_ref-:0_15-0" class="reference"><a href="#cite_note-:0-15">&#91;15&#93;</a></sup><sup id="cite_ref-:1_6-1" class="reference"><a href="#cite_note-:1-6">&#91;6&#93;</a></sup> 
+</p><p>The fourth proposition stated is, "there is one reward in the kingdom of heaven for all who have kept their baptismal vow." Referencing Matthew 25:31-46 about sheep and goats, the judgment of humanity through the flood, and the destruction of Sodom and Gomorrah, Jovinian stated, “There is one salvation for those who are released, one destruction for those who stay behind”.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup> Jovinian rejected the idea that believers should be divided into classes, some more spiritual than others, because the New Testament repeatedly emphasizes that all believers partake of the body and blood of Christ (John 6:56), that the Holy Spirit indwells all believers (1 Cor 6:19), and that the Church itself is one. For these reasons, the common teaching that an ascetic lifestyle produces greater reward should be rejected. All believers possess the presence of Christ and are part of the same body. Therefore, all experience the same reward.<sup id="cite_ref-sbts.edu_12-2" class="reference"><a href="#cite_note-sbts.edu-12">&#91;12&#93;</a></sup> 
+</p><p>Many scholars have argued that for Jovinian, works did not justify a man, thus holding to a Protestant view of justification, which is by <a href="/wiki/Sola_fide" title="Sola fide">faith alone</a>.<sup id="cite_ref-:2_9-1" class="reference"><a href="#cite_note-:2-9">&#91;9&#93;</a></sup><sup id="cite_ref-Jerome_17-0" class="reference"><a href="#cite_note-Jerome-17">&#91;17&#93;</a></sup><sup id="cite_ref-books.google.fi_18-0" class="reference"><a href="#cite_note-books.google.fi-18">&#91;18&#93;</a></sup><sup id="cite_ref-Letters,_Volume_4_165–203_19-0" class="reference"><a href="#cite_note-Letters,_Volume_4_165–203-19">&#91;19&#93;</a></sup> It has been argued that Jovinian believed in a distinction between the visible and <a href="/wiki/Church_invisible" title="Church invisible">invisible churches</a>, based on his statement that the Church is founded on faith, and that all in the Church are taught by God and that no "unripe" members exist within the Church and no one can anyone enter the church "by fraud".<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup><sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;21&#93;</a></sup><sup id="cite_ref-22" class="reference"><a href="#cite_note-22">&#91;22&#93;</a></sup><sup id="cite_ref-23" class="reference"><a href="#cite_note-23">&#91;23&#93;</a></sup><sup id="cite_ref-24" class="reference"><a href="#cite_note-24">&#91;24&#93;</a></sup>
+</p><p>Jovinian distinguished physical baptism and baptism of the Holy Spirit, which confers grace to the believer.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">&#91;25&#93;</a></sup><sup id="cite_ref-:0_15-1" class="reference"><a href="#cite_note-:0-15">&#91;15&#93;</a></sup>
+</p><p>From a letter of the synod at Milan to Pope Siricius (Ambrose, <i>Epistle</i> xlii) and from  <a href="/wiki/Augustine_of_Hippo" title="Augustine of Hippo">Augustine</a>'s book <i>Contra Julian.</i> ii, it is clear that Jovinian also denied the <a href="/wiki/Perpetual_virginity_of_Mary" title="Perpetual virginity of Mary">perpetual virginity of Mary</a>.<sup id="cite_ref-catholic_encyclopedia_2-9" class="reference"><a href="#cite_note-catholic_encyclopedia-2">&#91;2&#93;</a></sup>
+</p><p>The counter of Jerome to this "Epicurus of Christianity" took a whole book to praise virginity and disparage the state of marriage, based upon <a href="/wiki/Paul_of_Tarsus" class="mw-redirect" title="Paul of Tarsus">Paul</a>'s remarks in <i><a href="/wiki/1_Corinthians" class="mw-redirect" title="1 Corinthians">1 Corinthians</a></i> 7. The work was couched in abusive and intemperate language that appalled Pammachius, who found it excessive in its praise of virginity and in depreciation of marriage. Jerome did not approve of democratic distribution of bliss in the life to come:
+</p>
+<blockquote>
+<p>Perhaps those who have been married twice or thrice ought not to complain, for the same whoremonger if penitent is made equal in the kingdom of heaven even to virgins.
+</p>
+</blockquote>
+<p>Efforts to suppress it failed, however, and Jerome's work obtained a wide circulation.<sup id="cite_ref-catholic_encyclopedia_2-10" class="reference"><a href="#cite_note-catholic_encyclopedia-2">&#91;2&#93;</a></sup>
+</p><p>Chaucer mentions Jovinian with scorn in the "<a href="/wiki/Summoner%27s_Tale" class="mw-redirect" title="Summoner&#39;s Tale">Summoner's Tale</a>" of his <i><a href="/wiki/Canterbury_Tales" class="mw-redirect" title="Canterbury Tales">Canterbury Tales</a></i>, lines 221-3:
+</p>
+<blockquote>
+<p>...lyke Iouinian<br />
+Fat as a whale and walkynge as a swan<br />
+As vinolent as botel in the spence<br />
+</p>
+</blockquote>
+<h2><span class="mw-headline" id="Reaction">Reaction</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Jovinian&amp;action=edit&amp;section=3" title="Edit section: Reaction">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>After Jovinian attacked monasticism, Jerome attacked him harshly. Jerome gives a very bad picture of the character of Jovinian, clearly colored by bitterness. Jerome called Jovinian a servant of corruption, barbarous writer, while <a href="/wiki/Augustine_of_Hippo" title="Augustine of Hippo">Augustine</a> was more lenient, despite disagreeing with some views of Jovinian. <a href="/wiki/Pope_Siricius" title="Pope Siricius">Siricius</a> the bishop of Rome later excommunicated Jovinian and his followers, because he was zealously opposed to any marriage of clergy. Jovinian was also condemned by <a href="/wiki/Ambrose" title="Ambrose">Ambrose</a>, in the same fashion as Siricius, because of his high views on marriage.<sup id="cite_ref-:0_15-2" class="reference"><a href="#cite_note-:0-15">&#91;15&#93;</a></sup>
+</p><p>Later in the Protestant reformation, Jovinian has been seen as a "witness of truth", while he is most often seen as a heretic by Roman Catholics.<sup id="cite_ref-:0_15-3" class="reference"><a href="#cite_note-:0-15">&#91;15&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Jovinian&amp;action=edit&amp;section=4" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Proto-Protestantism" title="Proto-Protestantism">Proto-Protestantism</a></li>
+<li><a href="/wiki/Antidicomarianites" class="mw-redirect" title="Antidicomarianites">Antidicomarianites</a></li>
+<li><a href="/wiki/Bonosians" class="mw-redirect" title="Bonosians">Bonosians</a></li>
+<li><a href="/wiki/Helvidius" title="Helvidius">Helvidius</a></li>
+<li><a href="/wiki/Vigilantius" title="Vigilantius">Vigilantius</a></li>
+<li><a href="/wiki/Aerius_of_Sebaste" title="Aerius of Sebaste">Aerius</a></li>
+<li><a href="/wiki/Sarmatio" title="Sarmatio">Sarmatio</a></li>
+<li><a href="/wiki/Barbatianus" title="Barbatianus">Barbatinus</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Jovinian&amp;action=edit&amp;section=5" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><i>The Oxford Dictionary of the Christian Church</i> by F. L. Cross (Editor), E. A. Livingstone (Editor) Oxford University Press, USA; 3 edition p.904 (March 13, 1997)</span>
+</li>
+<li id="cite_note-catholic_encyclopedia-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-catholic_encyclopedia_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-catholic_encyclopedia_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-catholic_encyclopedia_2-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-catholic_encyclopedia_2-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-catholic_encyclopedia_2-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-catholic_encyclopedia_2-5"><sup><i><b>f</b></i></sup></a> <a href="#cite_ref-catholic_encyclopedia_2-6"><sup><i><b>g</b></i></sup></a> <a href="#cite_ref-catholic_encyclopedia_2-7"><sup><i><b>h</b></i></sup></a> <a href="#cite_ref-catholic_encyclopedia_2-8"><sup><i><b>i</b></i></sup></a> <a href="#cite_ref-catholic_encyclopedia_2-9"><sup><i><b>j</b></i></sup></a> <a href="#cite_ref-catholic_encyclopedia_2-10"><sup><i><b>k</b></i></sup></a></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFHealy1910" class="citation encyclopaedia cs1">Healy, Patrick Joseph (1910). <span class="cs1-ws-icon" title="s:Catholic Encyclopedia (1913)/Jovinianus"><a class="external text" href="https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)/Jovinianus">"Jovinianus"&#160;</a></span>.  In Herbermann, Charles (ed.). <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i>. Vol.&#160;8. New York: Robert Appleton Company.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Jovinianus&amp;rft.btitle=Catholic+Encyclopedia&amp;rft.place=New+York&amp;rft.pub=Robert+Appleton+Company&amp;rft.date=1910&amp;rft.aulast=Healy&amp;rft.aufirst=Patrick+Joseph&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">H. Schlagintweit, H. K. Forstner, <i>Lehrgang Kunstgeschichte: Von der Antike bis zur Moderne zum Selbststudium der Kunststile</i>, 186 pp., Schwabe Verlag Basel,, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/3-7965-0885-5" title="Special:BookSources/3-7965-0885-5">3-7965-0885-5</a>, pp.371-372</span>
+</li>
+<li id="cite_note-newman-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-newman_4-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.newmanreader.org/works/historical/volume1/primitive/jovinian.html">"Chapter 4. And what say Jovinian and his Companions?"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chapter+4.+And+what+say+Jovinian+and+his+Companions%3F&amp;rft_id=http%3A%2F%2Fwww.newmanreader.org%2Fworks%2Fhistorical%2Fvolume1%2Fprimitive%2Fjovinian.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-ccel.org-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-ccel.org_5-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.ccel.org/ccel/schaff/hcc3.iii.vii.xix.html">"Philip Schaff: History of the Christian Church, Volume III: Nicene and Post-Nicene Christianity. A.D. 311-600 - Christian Classics Ethereal Library"</a>. <i>www.ccel.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">21 December</span> 2021</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.ccel.org&amp;rft.atitle=Philip+Schaff%3A+History+of+the+Christian+Church%2C+Volume+III%3A+Nicene+and+Post-Nicene+Christianity.+A.D.+311-600+-+Christian+Classics+Ethereal+Library&amp;rft_id=https%3A%2F%2Fwww.ccel.org%2Fccel%2Fschaff%2Fhcc3.iii.vii.xix.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-:1-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-:1_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:1_6-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFStapert2007" class="citation book cs1">Stapert, Calvin (2007). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=llU0WicFpxAC&amp;dq=Jovinian+perseverance+of+the+saints&amp;pg=PA98"><i>A New Song for an Old World: Musical Thought in the Early Church</i></a>. Wm. B. Eerdmans Publishing. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-8028-3219-1" title="Special:BookSources/978-0-8028-3219-1"><bdi>978-0-8028-3219-1</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+New+Song+for+an+Old+World%3A+Musical+Thought+in+the+Early+Church&amp;rft.pub=Wm.+B.+Eerdmans+Publishing&amp;rft.date=2007&amp;rft.isbn=978-0-8028-3219-1&amp;rft.aulast=Stapert&amp;rft.aufirst=Calvin&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DllU0WicFpxAC%26dq%3DJovinian%2Bperseverance%2Bof%2Bthe%2Bsaints%26pg%3DPA98&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-:03-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-:03_7-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFGreenslade1956" class="citation book cs1">Greenslade, Stanley Lawrence (1 January 1956). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=130YTvKKClsC&amp;dq=Sarmatio+monk+Milan&amp;pg=PA266"><i>Early Latin Theology: Selections from Tertullian, Cyprian, Ambrose, and Jerome</i></a>. Westminster John Knox Press. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-664-24154-4" title="Special:BookSources/978-0-664-24154-4"><bdi>978-0-664-24154-4</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Early+Latin+Theology%3A+Selections+from+Tertullian%2C+Cyprian%2C+Ambrose%2C+and+Jerome&amp;rft.pub=Westminster+John+Knox+Press&amp;rft.date=1956-01-01&amp;rft.isbn=978-0-664-24154-4&amp;rft.aulast=Greenslade&amp;rft.aufirst=Stanley+Lawrence&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3D130YTvKKClsC%26dq%3DSarmatio%2Bmonk%2BMilan%26pg%3DPA266&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHunter2007" class="citation book cs1">Hunter, David G. (26 January 2007). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=FhFREAAAQBAJ&amp;dq=Sarmatio+monk+Milan&amp;pg=PA221"><i>Marriage, Celibacy, and Heresy in Ancient Christianity: The Jovinianist Controversy</i></a>. OUP Oxford. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-19-153553-6" title="Special:BookSources/978-0-19-153553-6"><bdi>978-0-19-153553-6</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Marriage%2C+Celibacy%2C+and+Heresy+in+Ancient+Christianity%3A+The+Jovinianist+Controversy&amp;rft.pub=OUP+Oxford&amp;rft.date=2007-01-26&amp;rft.isbn=978-0-19-153553-6&amp;rft.aulast=Hunter&amp;rft.aufirst=David+G.&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DFhFREAAAQBAJ%26dq%3DSarmatio%2Bmonk%2BMilan%26pg%3DPA221&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-:2-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-:2_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:2_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFG._Hunter1987" class="citation journal cs1">G. Hunter, David (1987). <a rel="nofollow" class="external text" href="http://cdn.theologicalstudies.net/48/48.1/48.1.3.pdf">"RESISTANCE TO THE VIRGINAL IDEAL IN LATE-FOURTH-CENTURY ROME: THE CASE OF"</a> <span class="cs1-format">(PDF)</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=RESISTANCE+TO+THE+VIRGINAL+IDEAL+IN+LATE-FOURTH-CENTURY+ROME%3A+THE+CASE+OF&amp;rft.date=1987&amp;rft.aulast=G.+Hunter&amp;rft.aufirst=David&amp;rft_id=http%3A%2F%2Fcdn.theologicalstudies.net%2F48%2F48.1%2F48.1.3.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span> <span class="cs1-hidden-error citation-comment"><code class="cs1-code">{{<a href="/wiki/Template:Cite_journal" title="Template:Cite journal">cite journal</a>}}</code>: </span><span class="cs1-hidden-error citation-comment">Cite journal requires <code class="cs1-code">&#124;journal=</code> (<a href="/wiki/Help:CS1_errors#missing_periodical" title="Help:CS1 errors">help</a>)</span></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://ccel.org/ccel/schaff/hcc3/hcc3.iii.vii.xix.html">"Philip Schaff: History of the Christian Church, Volume III: Nicene and Post-Nicene Christianity. A.D. 311-600 - Christian Classics Ethereal Library"</a>. <i>ccel.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">11 February</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=ccel.org&amp;rft.atitle=Philip+Schaff%3A+History+of+the+Christian+Church%2C+Volume+III%3A+Nicene+and+Post-Nicene+Christianity.+A.D.+311-600+-+Christian+Classics+Ethereal+Library&amp;rft_id=https%3A%2F%2Fccel.org%2Fccel%2Fschaff%2Fhcc3%2Fhcc3.iii.vii.xix.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">Jovinian quotes 1.Cor 7:8.</span>
+</li>
+<li id="cite_note-sbts.edu-12"><span class="mw-cite-backlink">^ <a href="#cite_ref-sbts.edu_12-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-sbts.edu_12-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-sbts.edu_12-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text">Wren, C. M., Jr. (2013, May 01). Marriage, Celibacy, and the Hierarchy of Merit in the Jovinian Controversy. Retrieved May 05, 2020, from <a rel="nofollow" class="external free" href="https://www.sbts.edu/family/2013/05/01/marriage-celibacy-and-the-hierarchy-of-merit-in-the-jovinian-controversy/">https://www.sbts.edu/family/2013/05/01/marriage-celibacy-and-the-hierarchy-of-merit-in-the-jovinian-controversy/</a></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text">Jerome, Against Jovinian, 2.1, 387. Jerome’s original wording is almost certainly an accurate record of Jovinian’s words. David Hunter argues that Jerome either did not understand Jovinian’s point about baptism, or by altering the wording he allowed himself to take on an issue he could easily refute, even if it was not exactly what Jovinian was teaching. See Hunter, Marriage, Celibacy, and Heresy in Ancient Christianity, 36. Jerome’s paraphrase of “overthrown” surely indicates an unwillingness to deal with the essential issues raised by Jovinian in this proposition.</span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">Hunter, idem, 36-37.</span>
+</li>
+<li id="cite_note-:0-15"><span class="mw-cite-backlink">^ <a href="#cite_ref-:0_15-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:0_15-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-:0_15-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-:0_15-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://ccel.org/ccel/schaff/hcc3/hcc3.iii.vii.xix.html">"Philip Schaff: History of the Christian Church, Volume III: Nicene and Post-Nicene Christianity. A.D. 311-600 - Christian Classics Ethereal Library"</a>. <i>ccel.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">26 January</span> 2022</span>. <q>Jovinian's second point has an apparent affinity with the Augustinian and Calvinistic doctrine of the perseverantia sanctorum. It is not referred by him, however, to the eternal and unchangeable counsel of God, but simply based on 1 Jno. iii. 9, and v. 18, and is connected with his abstract conception of the opposite moral states. He limits the impossibility of relapse to the truly regenerate, who "plena fide in baptismate renati sunt," and makes a distinction between the mere baptism of water and the baptism of the Spirit, which involves also a distinction between the actual and the ideal church.</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=ccel.org&amp;rft.atitle=Philip+Schaff%3A+History+of+the+Christian+Church%2C+Volume+III%3A+Nicene+and+Post-Nicene+Christianity.+A.D.+311-600+-+Christian+Classics+Ethereal+Library&amp;rft_id=https%3A%2F%2Fccel.org%2Fccel%2Fschaff%2Fhcc3%2Fhcc3.iii.vii.xix.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text">Jovinian, quoted in Jerome, Against Jovinianus, 2.18, in St. Jerome: Letters and Select Works, 402.</span>
+</li>
+<li id="cite_note-Jerome-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-Jerome_17-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFJeromeJerome2010" class="citation book cs1">Jerome; Jerome, Saint (April 2010). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=ExrZDKtgM34C&amp;dq=faith+alone+Jovinian&amp;pg=PR12"><i>Dogmatic and Polemical Works (The Fathers of the Church, Volume 53)</i></a>. CUA Press. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-8132-1153-4" title="Special:BookSources/978-0-8132-1153-4"><bdi>978-0-8132-1153-4</bdi></a>. <q>for Jovinian was preaching salvation by faith alone, and the uselessness of good works for salvation.</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Dogmatic+and+Polemical+Works+%28The+Fathers+of+the+Church%2C+Volume+53%29&amp;rft.pub=CUA+Press&amp;rft.date=2010-04&amp;rft.isbn=978-0-8132-1153-4&amp;rft.au=Jerome&amp;rft.au=Jerome%2C+Saint&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DExrZDKtgM34C%26dq%3Dfaith%2Balone%2BJovinian%26pg%3DPR12&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-books.google.fi-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-books.google.fi_18-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFJerome1965" class="citation book cs1">Jerome, Saint (June 1965). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=-bATfH6O0MMC&amp;dq=faith+alone+Jovinian&amp;pg=PA347"><i>The Fathers of the Church: A New Translation&#160;: Saint Jerome&#160;: Dogmatic and Polemical Works</i></a>. CUA Press. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-8132-0053-8" title="Special:BookSources/978-0-8132-0053-8"><bdi>978-0-8132-0053-8</bdi></a>. <q>Jovinian was, in effect, teaching salvation by faith alone.</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Fathers+of+the+Church%3A+A+New+Translation+%3A+Saint+Jerome+%3A+Dogmatic+and+Polemical+Works&amp;rft.pub=CUA+Press&amp;rft.date=1965-06&amp;rft.isbn=978-0-8132-0053-8&amp;rft.aulast=Jerome&amp;rft.aufirst=Saint&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3D-bATfH6O0MMC%26dq%3Dfaith%2Balone%2BJovinian%26pg%3DPA347&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Letters,_Volume_4_165–203-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-Letters,_Volume_4_165–203_19-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation book cs1"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=WMq10znkSiIC&amp;dq=faith+alone+Jovinian&amp;pg=PA12"><i>Letters, Volume 4 (165–203)</i></a>. CUA Press. July 2002. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-8132-1130-5" title="Special:BookSources/978-0-8132-1130-5"><bdi>978-0-8132-1130-5</bdi></a>. <q>Jovinian held that salvation comes by faith alone without good works.</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Letters%2C+Volume+4+%28165%E2%80%93203%29&amp;rft.pub=CUA+Press&amp;rft.date=2002-07&amp;rft.isbn=978-0-8132-1130-5&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DWMq10znkSiIC%26dq%3Dfaith%2Balone%2BJovinian%26pg%3DPA12&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFNeander1849" class="citation book cs1">Neander, August (1849). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=DC0PAAAAYAAJ&amp;dq=Jovinian+invisible+church&amp;pg=PA275"><i>General History of the Christian Religion and Church</i></a>. Crocker &amp; Brewster. <q>It is plainly evident that Jovinian could only have understood by the church , here , the invisible church</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=General+History+of+the+Christian+Religion+and+Church&amp;rft.pub=Crocker+%26+Brewster&amp;rft.date=1849&amp;rft.aulast=Neander&amp;rft.aufirst=August&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DDC0PAAAAYAAJ%26dq%3DJovinian%2Binvisible%2Bchurch%26pg%3DPA275&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFDorner1890" class="citation book cs1">Dorner, Isaac August (1890). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=4mdCAAAAIAAJ&amp;dq=Jovinian+invisible+church&amp;pg=PA348"><i>A System of Christian Doctrine</i></a>. T. &amp; T. Clark.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+System+of+Christian+Doctrine&amp;rft.pub=T.+%26+T.+Clark&amp;rft.date=1890&amp;rft.aulast=Dorner&amp;rft.aufirst=Isaac+August&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3D4mdCAAAAIAAJ%26dq%3DJovinian%2Binvisible%2Bchurch%26pg%3DPA348&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFM_́Clintock2020" class="citation book cs1">M ́Clintock, John Strong, James (17 April 2020). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=g7rdDwAAQBAJ&amp;dq=Jovinian+invisible+church&amp;pg=PA326"><i>Cyclopaedia of Biblical, Theological, and Ecclesiastical Literature: Volume II</i></a>. BoD – Books on Demand. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-8460-5024-8" title="Special:BookSources/978-3-8460-5024-8"><bdi>978-3-8460-5024-8</bdi></a>. <q>As Jovinian taught the Pauline doctrine of faith, so he did the Pauline idea of the invisible Church</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Cyclopaedia+of+Biblical%2C+Theological%2C+and+Ecclesiastical+Literature%3A+Volume+II&amp;rft.pub=BoD+%E2%80%93+Books+on+Demand&amp;rft.date=2020-04-17&amp;rft.isbn=978-3-8460-5024-8&amp;rft.aulast=M+%CC%81Clintock&amp;rft.aufirst=John+Strong%2C+James&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3Dg7rdDwAAQBAJ%26dq%3DJovinian%2Binvisible%2Bchurch%26pg%3DPA326&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFEvans2016" class="citation book cs1">Evans, Warren Felt (19 December 2016). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=lT-GDQAAQBAJ&amp;dq=Jovinian+invisible+church&amp;pg=PA69"><i>The Spiritual Journals of Warren Felt Evans: From Methodism to Mind Cure</i></a>. Indiana University Press. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-253-02255-4" title="Special:BookSources/978-0-253-02255-4"><bdi>978-0-253-02255-4</bdi></a>. <q>Jovinian (a <i>choice spirit</i> who differentiated the invisible from the visible church</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Spiritual+Journals+of+Warren+Felt+Evans%3A+From+Methodism+to+Mind+Cure&amp;rft.pub=Indiana+University+Press&amp;rft.date=2016-12-19&amp;rft.isbn=978-0-253-02255-4&amp;rft.aulast=Evans&amp;rft.aufirst=Warren+Felt&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DlT-GDQAAQBAJ%26dq%3DJovinian%2Binvisible%2Bchurch%26pg%3DPA69&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFEvans2016" class="citation book cs1">Evans, Warren Felt (19 December 2016). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=lT-GDQAAQBAJ&amp;dq=Jovinian+invisible+church&amp;pg=PA69"><i>The Spiritual Journals of Warren Felt Evans: From Methodism to Mind Cure</i></a>. Indiana University Press. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-253-02255-4" title="Special:BookSources/978-0-253-02255-4"><bdi>978-0-253-02255-4</bdi></a>. <q>But there is an invisible Church, which has existed in every century, which is pure and spotless. ... This whole train of thought has been suggested by reading the words of Jovinian, in Neander</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Spiritual+Journals+of+Warren+Felt+Evans%3A+From+Methodism+to+Mind+Cure&amp;rft.pub=Indiana+University+Press&amp;rft.date=2016-12-19&amp;rft.isbn=978-0-253-02255-4&amp;rft.aulast=Evans&amp;rft.aufirst=Warren+Felt&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DlT-GDQAAQBAJ%26dq%3DJovinian%2Binvisible%2Bchurch%26pg%3DPA69&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFRobertson1854" class="citation book cs1">Robertson, James Craigie (1854). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=_yJdAAAAcAAJ&amp;dq=Jovinian+baptism+of+the+spirit&amp;pg=PA330"><i>History of the Christian Church to the Pontificate of Gregory the Great, A.D. 590; intended for general readers as well as for students in theology. vol. 1, 2</i></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=History+of+the+Christian+Church+to+the+Pontificate+of+Gregory+the+Great%2C+A.D.+590%3B+intended+for+general+readers+as+well+as+for+students+in+theology.+vol.+1%2C+2&amp;rft.date=1854&amp;rft.aulast=Robertson&amp;rft.aufirst=James+Craigie&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3D_yJdAAAAcAAJ%26dq%3DJovinian%2Bbaptism%2Bof%2Bthe%2Bspirit%26pg%3DPA330&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></span>
+</li>
+</ol></div>
+<ul><li>Hunter, David G., "Rereading the Jovinianist Controversy: Aestheticism and Clerical Authority in Late Ancient Christianity," in Dale B. Martin and Patricia Cox Miller (eds), <i>The Cultural Turn in Late Ancient Studies: Gender, Asceticism, and Historiography</i> (Durham (NC), Duke University Press, 2005), 119–135.</li>
+<li>Hunter, David G. <i>Marriage, Celibacy, and Heresy in Ancient Christianity: The Jovinianist Controversy</i> (Oxford, OUP, 2007) (Oxford Early Christian Studies).</li></ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Jovinian&amp;action=edit&amp;section=6" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://www.ccel.org/ccel/schaff/hcc3.iii.vii.xix.html">Philip Schaff, <i>History of the Christian Church</i>, Volume III: Nicene and Post-Nicene Christianity. A.D. 311-600. § 46. Opposition to Monasticism. Jovinian.</a></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation encyclopaedia cs1"><span class="cs1-ws-icon" title="s:1911 Encyclopædia Britannica/Jovinianus"><a class="external text" href="https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Jovinianus">"Jovinianus"&#160;</a></span>. <i><a href="/wiki/Encyclop%C3%A6dia_Britannica_Eleventh_Edition" title="Encyclopædia Britannica Eleventh Edition">Encyclopædia Britannica</a></i>. Vol.&#160;15 (11th&#160;ed.). 1911. p.&#160;526.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Jovinianus&amp;rft.btitle=Encyclop%C3%A6dia+Britannica&amp;rft.pages=526&amp;rft.edition=11th&amp;rft.date=1911&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AJovinian" class="Z3988"></span></li></ul>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1709977#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1709977#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q1709977#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000101282722">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/24590140">1</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/150786132">2</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/1004144647702064696565">3</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/7332160667993203560003">4</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/525159474048527660596">5</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/79012443">6</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/154159818588313811041">7</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-no2003056123/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://authority.bibsys.no/authority/rest/authorities/html/6047560">Norway</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/102396345">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007310495505171">Israel</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/no2003056123">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://mak.bn.org.pl/cgi-bin/KHW/makwww.exe?BM=1&amp;NU=1&amp;IM=4&amp;WI=9811537033605606">Poland</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://libris.kb.se/auth/347810">Sweden</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.vatlib.it/auth/detail/495_68578">Vatican</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd102396345.html?language=en">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Scientific databases</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://ci.nii.ac.jp/author/DA15402700?l=en">CiNii (Japan)</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/1827614/">FAST</a></span></li>
+<li><a href="/wiki/RERO_(identifier)" class="mw-redirect" title="RERO (identifier)">RERO (Switzerland)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://data.rero.ch/02-A000095774">1</a></span></li></ul></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/074330799">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div><div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/></div><div role="navigation" class="navbox" aria-labelledby="Proto-Protestantism" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Proto-Protestantism" title="Template:Proto-Protestantism"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Proto-Protestantism" title="Template talk:Proto-Protestantism"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Proto-Protestantism&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Proto-Protestantism" style="font-size:114%;margin:0 4em"><a href="/wiki/Proto-Protestantism" title="Proto-Protestantism">Proto-Protestantism</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">400–1100 AD</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%;font-weight:normal;">People</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a class="mw-selflink selflink">Jovinian</a></i></li>
+<li><a href="/wiki/Claudius_of_Turin" title="Claudius of Turin">Claudius of Turin</a></li>
+<li><a href="/wiki/Gottschalk_of_Orbais" title="Gottschalk of Orbais">Gottschalk of Orbais</a></li>
+<li><a href="/wiki/Ratramnus" title="Ratramnus">Ratramnus</a></li>
+<li><a href="/wiki/Berengar_of_Tours" title="Berengar of Tours">Berengar of Tours</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;font-weight:normal;">Sects and groups</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Pataria" title="Pataria">Pataria</a></li>
+<li><a href="/wiki/Berengarians" title="Berengarians">Berengarians</a></li></ul>
+</div></td></tr></tbody></table><div></div></td><td class="noviewer navbox-image" rowspan="6" style="width:1px;padding:0 0 0 2px"><div><a href="/wiki/File:WycliffeYeamesLollards_01.jpg" class="image" title="John Wycliffe giving his bible to his Lollard followers"><img alt="John Wycliffe giving his bible to his Lollard followers" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/WycliffeYeamesLollards_01.jpg/300px-WycliffeYeamesLollards_01.jpg" decoding="async" width="300" height="225" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/WycliffeYeamesLollards_01.jpg/450px-WycliffeYeamesLollards_01.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/WycliffeYeamesLollards_01.jpg/600px-WycliffeYeamesLollards_01.jpg 2x" data-file-width="1200" data-file-height="900" /></a></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">1100–1400 AD</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%;font-weight:normal;">People</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Tanchelm" title="Tanchelm">Tanchelm</a></li>
+<li><i><a href="/wiki/Peter_of_Bruys" title="Peter of Bruys">Peter of Bruys</a></i></li>
+<li><i><a href="/wiki/Henry_of_Lausanne" title="Henry of Lausanne">Henry of Lausanne</a></i></li>
+<li><a href="/wiki/Arnold_of_Brescia" title="Arnold of Brescia">Arnold of Brescia</a></li>
+<li><a href="/wiki/Peter_Waldo" title="Peter Waldo">Peter Waldo</a></li>
+<li><a href="/wiki/John_Wycliffe" title="John Wycliffe">John Wycliffe</a></li>
+<li><a href="/wiki/Jan_Hus" title="Jan Hus">Jan Hus</a></li>
+<li><a href="/wiki/Jan_%C5%BDi%C5%BEka" title="Jan Žižka">Jan Žižka</a></li>
+<li><a href="/wiki/Jerome_of_Prague" title="Jerome of Prague">Jerome of Prague</a></li>
+<li><a href="/wiki/Marsilius_of_Padua" title="Marsilius of Padua">Marsilius of Padua</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;font-weight:normal;">Sects and groups</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Arnoldists" title="Arnoldists">Arnoldists</a></li>
+<li><a href="/wiki/Waldensians" title="Waldensians">Waldensians</a></li>
+<li><a href="/wiki/Lollardy" title="Lollardy">Lollardy</a></li>
+<li><a href="/wiki/Hussites" title="Hussites">Hussites</a>
+<ul><li><a href="/wiki/Taborites" title="Taborites">Taborites</a></li>
+<li><a href="/wiki/Orebites" title="Orebites">Orebites</a></li>
+<li><a href="/wiki/Utraquism" title="Utraquism">Utraquism</a></li>
+<li><a href="/wiki/Sirotci" title="Sirotci">Sirotci</a></li></ul></li>
+<li><i><a href="/wiki/Strigolniki" title="Strigolniki">Strigolniki</a></i></li>
+<li><a href="/wiki/Friends_of_God" title="Friends of God">Friends of God</a></li>
+<li><i><a href="/wiki/Petrobrusians" title="Petrobrusians">Petrobrusians</a></i></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">1400–1500 AD</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th id="People" scope="row" class="navbox-group" style="width:1%;font-weight:normal;">People</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Petr_Chel%C4%8Dick%C3%BD" title="Petr Chelčický">Petr Chelčický</a></li>
+<li><a href="/wiki/Johannes_von_Goch" title="Johannes von Goch">Johannes von Goch</a></li>
+<li><a href="/wiki/Johann_Ruchrat_von_Wesel" title="Johann Ruchrat von Wesel">Johann Ruchrat von Wesel</a></li>
+<li><a href="/wiki/Wessel_Gansfort" title="Wessel Gansfort">Wessel Gansfort</a></li>
+<li><a href="/wiki/Jacques_Lef%C3%A8vre_d%27%C3%89taples" title="Jacques Lefèvre d&#39;Étaples">Jacques Lefèvre d'Étaples</a></li>
+<li><a href="/wiki/Lorenzo_Valla" title="Lorenzo Valla">Lorenzo Valla</a></li>
+<li><i><a href="/wiki/Girolamo_Savonarola" title="Girolamo Savonarola">Girolamo Savonarola</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;font-weight:normal;">Sects and groups</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Piagnoni" title="Piagnoni">Piagnoni</a></i></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Events</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Bohemian_Reformation" title="Bohemian Reformation">Bohemian Reformation</a></li>
+<li><a href="/wiki/Savoyard%E2%80%93Waldensian_wars" title="Savoyard–Waldensian wars">Savoyard–Waldensian wars</a></li>
+<li><a href="/wiki/Hussite_Wars" title="Hussite Wars">Hussite Wars</a></li>
+<li><a href="/wiki/Compacts_of_Basel" title="Compacts of Basel">Compacts of Basel</a></li>
+<li><a href="/wiki/Oldcastle_Revolt" title="Oldcastle Revolt">Oldcastle Revolt</a></li>
+<li><a href="/wiki/M%C3%A9rindol_massacre" title="Mérindol massacre">Mérindol massacre</a></li>
+<li><a href="/wiki/Piedmontese_Easter" title="Piedmontese Easter">Piedmontese Easter</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Literature</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Wycliffe_bible" class="mw-redirect" title="Wycliffe bible">Wycliffe bible</a></li>
+<li><a href="/wiki/Hussite_Bible" title="Hussite Bible">Hussite Bible</a></li>
+<li><a href="/wiki/Jistebnice_hymn_book" title="Jistebnice hymn book">Jistebnice hymn book</a></li>
+<li><a href="/wiki/Ecclesiae_Regimen" title="Ecclesiae Regimen">Ecclesiae Regimen</a></li>
+<li><a href="/wiki/Twelve_Conclusions_of_the_Lollards" title="Twelve Conclusions of the Lollards">Twelve Conclusions of the Lollards</a></li>
+<li><i><a href="/wiki/Triumph_of_the_Cross_(Girolamo_Savonarola)" class="mw-redirect" title="Triumph of the Cross (Girolamo Savonarola)">Triumph of the Cross (Girolamo Savonarola)</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Comparison_of_Catharism_and_Protestantism" title="Comparison of Catharism and Protestantism">Comparison of Catharism and Protestantism</a></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="3"><div><div class="hlist"><ul><li><i>Italics</i> indicate their inclusion to be controversial or disputed.</li></ul></div></div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2373
+Cached time: 20230207160745
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.520 seconds
+Real time usage: 0.674 seconds
+Preprocessor visited node count: 4755/1000000
+Post‐expand include size: 88589/2097152 bytes
+Template argument size: 4924/2097152 bytes
+Highest expansion depth: 17/100
+Expensive parser function count: 17/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 79557/5000000 bytes
+Lua time usage: 0.340/10.000 seconds
+Lua memory usage: 25870414/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  615.674      1 -total
+ 37.43%  230.428      2 Template:Infobox_person
+ 14.44%   88.921     10 Template:Br_separated_entries
+ 13.61%   83.775      1 Template:Authority_control
+ 13.44%   82.723      1 Template:Lang-la
+ 12.12%   74.595      1 Template:Infobox_theologian
+ 10.73%   66.053      1 Template:Cite_Catholic_Encyclopedia
+  7.74%   47.649      1 Template:Short_description
+  7.08%   43.586     12 Template:Cite_book
+  5.62%   34.603     40 Template:Pluralize_from_text
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:718168-0!canonical and timestamp 20230207160744 and revision id 1126611843. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Jovinian&amp;oldid=1126611843">https://en.wikipedia.org/w/index.php?title=Jovinian&amp;oldid=1126611843</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:4th-century_Christian_theologians" title="Category:4th-century Christian theologians">4th-century Christian theologians</a></li><li><a href="/wiki/Category:People_excommunicated_by_the_Catholic_Church" title="Category:People excommunicated by the Catholic Church">People excommunicated by the Catholic Church</a></li><li><a href="/wiki/Category:4th-century_Romans" title="Category:4th-century Romans">4th-century Romans</a></li><li><a href="/wiki/Category:4th-century_Latin_writers" title="Category:4th-century Latin writers">4th-century Latin writers</a></li><li><a href="/wiki/Category:Proto-Protestants" title="Category:Proto-Protestants">Proto-Protestants</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_incorporating_a_citation_from_the_1913_Catholic_Encyclopedia_with_Wikisource_reference" title="Category:Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference">Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference</a></li><li><a href="/wiki/Category:CS1_errors:_missing_periodical" title="Category:CS1 errors: missing periodical">CS1 errors: missing periodical</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_matches_Wikidata" title="Category:Short description matches Wikidata">Short description matches Wikidata</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_February_2020" title="Category:Use dmy dates from February 2020">Use dmy dates from February 2020</a></li><li><a href="/wiki/Category:Pages_using_infobox_theologian_with_embed_equal_yes" title="Category:Pages using infobox theologian with embed equal yes">Pages using infobox theologian with embed equal yes</a></li><li><a href="/wiki/Category:Articles_with_hCards" title="Category:Articles with hCards">Articles with hCards</a></li><li><a href="/wiki/Category:Articles_containing_Latin-language_text" title="Category:Articles containing Latin-language text">Articles containing Latin-language text</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_August_2021" title="Category:Articles with unsourced statements from August 2021">Articles with unsourced statements from August 2021</a></li><li><a href="/wiki/Category:Wikipedia_articles_incorporating_a_citation_from_the_1911_Encyclopaedia_Britannica_with_Wikisource_reference" title="Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference">Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BIBSYS_identifiers" title="Category:Articles with BIBSYS identifiers">Articles with BIBSYS identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_SELIBR_identifiers" title="Category:Articles with SELIBR identifiers">Articles with SELIBR identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_CINII_identifiers" title="Category:Articles with CINII identifiers">Articles with CINII identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_RERO_identifiers" title="Category:Articles with RERO identifiers">Articles with RERO identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 10 December 2022, at 08:00<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Jovinian&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.520","walltime":"0.674","ppvisitednodes":{"value":4755,"limit":1000000},"postexpandincludesize":{"value":88589,"limit":2097152},"templateargumentsize":{"value":4924,"limit":2097152},"expansiondepth":{"value":17,"limit":100},"expensivefunctioncount":{"value":17,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":79557,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  615.674      1 -total"," 37.43%  230.428      2 Template:Infobox_person"," 14.44%   88.921     10 Template:Br_separated_entries"," 13.61%   83.775      1 Template:Authority_control"," 13.44%   82.723      1 Template:Lang-la"," 12.12%   74.595      1 Template:Infobox_theologian"," 10.73%   66.053      1 Template:Cite_Catholic_Encyclopedia","  7.74%   47.649      1 Template:Short_description","  7.08%   43.586     12 Template:Cite_book","  5.62%   34.603     40 Template:Pluralize_from_text"]},"scribunto":{"limitreport-timeusage":{"value":"0.340","limit":"10.000"},"limitreport-memusage":{"value":25870414,"limit":52428800}},"cachereport":{"origin":"mw2373","timestamp":"20230207160745","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Jovinian","url":"https:\/\/en.wikipedia.org\/wiki\/Jovinian","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1709977","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1709977","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-06-12T01:14:42Z","dateModified":"2022-12-10T08:00:24Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/27\/Jovinianus.jpg","headline":"4th century opponent of Christian asceticism"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Jovinian","url":"https:\/\/en.wikipedia.org\/wiki\/Jovinian","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1709977","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1709977","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-06-12T01:14:42Z","dateModified":"2022-12-10T08:00:24Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/27\/Jovinianus.jpg","headline":"4th century opponent of Christian asceticism"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":121,"wgHostname":"mw2271"});});</script>
+</body>
+</html>

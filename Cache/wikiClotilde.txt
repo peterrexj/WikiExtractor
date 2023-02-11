@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Clotilde - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"7e3a96d3-a924-4fdf-96c2-a72d434a7ad6",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Clotilde","wgTitle":"Clotilde","wgCurRevisionId":1127489345,"wgRevisionId":1127489345,"wgArticleId":62565,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference","Wikipedia articles incorporating text from the 1911 Encyclopædia Britannica","Articles with short description","Short description is different from Wikidata","All articles with unsourced statements","Articles with unsourced statements from April 2022","Commons category link is on Wikidata","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BNF identifiers","Articles with CANTICN identifiers","Articles with GND identifiers","Articles with J9U identifiers",
+"Articles with LCCN identifiers","Articles with NKC identifiers","Articles with NTA identifiers","Articles with DTBIO identifiers","Articles with FAST identifiers","Articles with HDS identifiers","Articles with SUDOC identifiers","474 births","545 deaths","Burgundian women","Frankish queens consort","History of Burgundy","Merovingian dynasty","Christian royal saints","Princesses","Christian female saints of the Middle Ages","5th-century women","6th-century women","6th-century Frankish saints","Queen mothers"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Clotilde","wgRelevantArticleId":62565,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},
+"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q232365","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready",
+"ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/dd/Delpech_-_Clotilde.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="1589"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Delpech_-_Clotilde.jpg/800px-Delpech_-_Clotilde.jpg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="1060"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Delpech_-_Clotilde.jpg/640px-Delpech_-_Clotilde.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="848"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Clotilde - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Clotilde"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Clotilde&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Clotilde"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Clotilde rootpage-Clotilde skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Clotilde" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Clotilde"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Clotilde"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Clotilde" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Clotilde" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Clotilde&amp;oldid=1127489345" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Clotilde&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Clotilde&amp;id=1127489345&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q232365" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Clotilde&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Clotilde&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Clothilde" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Biography"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Biography">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Biography</div>
+		</a>
+		
+			<button aria-controls="toc-Biography-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
+				
+			</button>
+		
+		<ul id="toc-Biography-sublist" class="vector-toc-list">
+			<li id="toc-Significance"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Significance">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.1</span>Significance</div>
+			</a>
+			
+			<ul id="toc-Significance-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Later_years"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Later_years">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.2</span>Later years</div>
+			</a>
+			
+			<ul id="toc-Later_years-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Veneration"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Veneration">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Veneration</div>
+		</a>
+		
+		<ul id="toc-Veneration-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Clotilde</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 37 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-37"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">37 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%83%D9%84%D9%88%D8%AA%D9%8A%D9%84%D8%AF" title="كلوتيلد – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%9A%D0%BB%D0%BE%D1%82%D0%B8%D0%BB%D0%B4%D0%B0_%D0%91%D1%83%D1%80%D0%B3%D1%83%D0%BD%D0%B4%D1%81%D0%BA%D0%B0" title="Клотилда Бургундска – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Clotilde_de_Borgonya" title="Clotilde de Borgonya – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Chrodechilda" title="Chrodechilda – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a href="https://cy.wikipedia.org/wiki/Clotilde" title="Clotilde – Welsh" lang="cy" hreflang="cy" class="interlanguage-link-target"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Chrodechild" title="Chrodechild – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%BF%CF%84%CE%AF%CE%BB%CE%B4%CE%B7" title="Κλοτίλδη – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Clotilde_(reina)" title="Clotilde (reina) – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%DA%A9%D9%84%D9%88%D8%AA%DB%8C%D9%84%D8%AF" title="کلوتیلد – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Clotilde_(%C3%A9pouse_de_Clovis_Ier)" title="Clotilde (épouse de Clovis Ier) – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-fy mw-list-item"><a href="https://fy.wikipedia.org/wiki/Klotildis" title="Klotildis – Western Frisian" lang="fy" hreflang="fy" class="interlanguage-link-target"><span>Frysk</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Clotilde" title="Clotilde – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%ED%81%B4%EB%A1%9C%ED%8B%B8%EB%94%94%EC%8A%A4_(%ED%94%84%EB%9E%91%ED%81%AC)" title="클로틸디스 (프랑크) – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Sveta_Klotilda" title="Sveta Klotilda – Croatian" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Clotilda" title="Clotilda – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Clotilde_(regina_dei_Franchi)" title="Clotilde (regina dei Franchi) – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%A7%D7%9C%D7%95%D7%98%D7%99%D7%9C%D7%93%D7%94" title="קלוטילדה – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%9A%E1%83%9D%E1%83%A2%E1%83%98%E1%83%9A%E1%83%93%E1%83%90_%E1%83%91%E1%83%A3%E1%83%A0%E1%83%92%E1%83%A3%E1%83%9C%E1%83%93%E1%83%98%E1%83%94%E1%83%9A%E1%83%98" title="კლოტილდა ბურგუნდიელი – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Klotilda_malkia" title="Klotilda malkia – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Clotildis_(regina_Francorum)" title="Clotildis (regina Francorum) – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D9%83%D9%84%D9%88%D8%AA%D9%8A%D9%84%D8%AF" title="كلوتيلد – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Clothilde_(480-545)" title="Clothilde (480-545) – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%83%86%E3%82%A3%E3%83%AB%E3%83%80_(%E3%83%95%E3%83%A9%E3%83%B3%E3%82%AF%E7%8E%8B%E5%A6%83)" title="クロティルダ (フランク王妃) – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Klotilde" title="Klotilde – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-nrm mw-list-item"><a href="https://nrm.wikipedia.org/wiki/Sainte_Clotilde" title="Sainte Clotilde – Norman" lang="nrf" hreflang="nrf" class="interlanguage-link-target"><span>Nouormand</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a href="https://oc.wikipedia.org/wiki/Clotilde_de_Borgonha" title="Clotilde de Borgonha – Occitan" lang="oc" hreflang="oc" class="interlanguage-link-target"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_Klotylda" title="Święta Klotylda – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Clotilde_da_Borgonha" title="Clotilde da Borgonha – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Sf%C3%A2nta_Clotilda" title="Sfânta Clotilda – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%BE%D1%82%D0%B8%D0%BB%D1%8C%D0%B4%D0%B0_%D0%91%D1%83%D1%80%D0%B3%D1%83%D0%BD%D0%B4%D1%81%D0%BA%D0%B0%D1%8F" title="Клотильда Бургундская – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/Klotilda" title="Klotilda – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Klotilda_od_Burgundije" title="Klotilda od Burgundije – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Klotilde" title="Klotilde – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Clotilda" title="Clotilda – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BB%D0%BE%D1%82%D1%96%D0%BB%D1%8C%D0%B4%D0%B0_%D0%91%D1%83%D1%80%D0%B3%D1%83%D0%BD%D0%B4%D1%81%D1%8C%D0%BA%D0%B0" title="Клотільда Бургундська – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/Clotilde" title="Clotilde – Vietnamese" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E5%85%8B%E6%B4%9B%E8%92%82%E5%B0%94%E5%BE%B7" title="克洛蒂尔德 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q232365#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Clotilde" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Clotilde" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Clotilde"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Clotilde&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Clotilde&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Clotilde"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Clotilde&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Clotilde&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Christian saint and second wife of the Frankish king Clovis I</div>
+<style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">This article is about the saint. For other uses, see <a href="/wiki/Clotilde_(disambiguation)" class="mw-disambig" title="Clotilde (disambiguation)">Clotilde (disambiguation)</a>.</div>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;">Saint</div><br /><div style="display:inline;" class="fn">Clotilde</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Delpech_-_Clotilde.jpg" class="image"><img alt="Delpech - Clotilde.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Delpech_-_Clotilde.jpg/200px-Delpech_-_Clotilde.jpg" decoding="async" width="200" height="265" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Delpech_-_Clotilde.jpg/300px-Delpech_-_Clotilde.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Delpech_-_Clotilde.jpg/400px-Delpech_-_Clotilde.jpg 2x" data-file-width="838" data-file-height="1110" /></a><div class="infobox-caption">A lithograph of Saint Clotilde</div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;"><a href="/wiki/List_of_Frankish_queens" title="List of Frankish queens">Queen of All the Franks</a></th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">c.&#160;474<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup><br /><a href="/wiki/Lyon" title="Lyon">Lyon</a>, <a href="/wiki/Kingdom_of_Burgundy" title="Kingdom of Burgundy">Burgundy</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">03 Jun 548 AD<br /><a href="/wiki/Tours" title="Tours">Tours</a>, <a href="/wiki/Francia" title="Francia">Francia</a></td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Eastern_Orthodox_Church" title="Eastern Orthodox Church">Eastern Orthodox Church</a>, <a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a>, <a href="/wiki/Lutheranism" title="Lutheranism">Lutheranism</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data"><a href="/wiki/Pre-congregation" class="mw-redirect" title="Pre-congregation">Pre-Congregation</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">June 3 (June 4 in France)</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Saint_symbolism" title="Saint symbolism">Attributes</a></th><td class="infobox-data">wearing a crown and holding a church; with a battle in the background, in memory of the <a href="/wiki/Battle_of_Tolbiac" title="Battle of Tolbiac">Battle of Tolbiac</a>.</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data"><a href="/wiki/Bride" title="Bride">brides</a>, <a href="/wiki/Adoption" title="Adoption">adopted children</a>, <a href="/wiki/Parent" title="Parent">parents</a>, <a href="/wiki/Exile" title="Exile">exiles</a>, <a href="/wiki/Notary" title="Notary">notaries</a>, <a href="/wiki/Widow" title="Widow">widows</a>, the <a href="/wiki/Limp" title="Limp">lame</a></td></tr></tbody></table>
+<p><b>Clotilde</b> (<abbr title="circa">c.</abbr> 474–545), also known as <b>Clothilde</b>, <b>Clotilda</b>, <b>Clotild</b>, <b>Rotilde</b> etc. (Latin: <b>Chrodechildis</b>, <b>Chlodechildis</b> from Frankish <i>*Hrōþihildi</i> or perhaps <i>*Hlōdihildi</i>, both "famous in battle"), was a <a href="/wiki/List_of_Frankish_queens" title="List of Frankish queens">Queen of All</a> <a href="/wiki/Franks" title="Franks">the Franks</a>. She was supposedly descended from the <a href="/wiki/Goths" title="Goths">Gothic</a> king <a href="/wiki/Athanaric" title="Athanaric">Athanaric</a> and became the second wife of the Frankish king <a href="/wiki/Clovis_I" title="Clovis I">Clovis I</a> (<span style="white-space:nowrap;"><abbr title="reigned">r.</abbr>&#160;481–509</span>) in 493.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> The <a href="/wiki/Merovingian_dynasty" title="Merovingian dynasty">Merovingian dynasty</a> to which her husband belonged ruled <a href="/wiki/Francia" title="Francia">Frankish kingdoms</a> for over 200 years<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup><sup id="cite_ref-:0_4-0" class="reference"><a href="#cite_note-:0-4">&#91;4&#93;</a></sup> (450–758).
+</p><p>Venerated as a <a href="/wiki/Saint" title="Saint">saint</a> by the <a href="/wiki/Roman_Catholic_Church" class="mw-redirect" title="Roman Catholic Church">Roman Catholic Church</a> as well as by the <a href="/wiki/Eastern_Orthodox_Church" title="Eastern Orthodox Church">Eastern Orthodox Church</a>, she played a role in her husband's famous conversion to Christianity and, in her later years, became known for her <a href="/wiki/Almsgiving" class="mw-redirect" title="Almsgiving">almsgiving</a> and penitential works of mercy.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup> She is credited with spreading <a href="/wiki/Christianity_in_Europe" title="Christianity in Europe">Christianity</a> within <a href="/wiki/Western_Europe" title="Western Europe">western Europe</a>.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Biography">Biography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Clotilde&amp;action=edit&amp;section=1" title="Edit section: Biography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:232px;"><a href="/wiki/File:Sainte_clothilde.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sainte_clothilde.jpg/230px-Sainte_clothilde.jpg" decoding="async" width="230" height="231" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sainte_clothilde.jpg/345px-Sainte_clothilde.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sainte_clothilde.jpg/460px-Sainte_clothilde.jpg 2x" data-file-width="952" data-file-height="955" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Sainte_clothilde.jpg" class="internal" title="Enlarge"></a></div>St Clotilde at prayer (illuminated initial)</div></div></div>
+<p>Clotilde was born at the <a href="/wiki/Kingdom_of_Burgundy" title="Kingdom of Burgundy">Burgundian</a> court of <a href="/wiki/Lyon" title="Lyon">Lyon</a>, the daughter of King <a href="/wiki/Chilperic_II_of_Burgundy" title="Chilperic II of Burgundy">Chilperic II of Burgundy</a>. Upon the death of Chilperic's father King <a href="/wiki/Gondioc" title="Gondioc">Gondioc</a> in 473, Chilperic and his brothers <a href="/wiki/Gundobad" title="Gundobad">Gundobad</a> and <a href="/wiki/Godegisel" title="Godegisel">Godegisel</a> divided their inheritance; Chilperic II apparently reigning at Lyon, Gundobad at <a href="/wiki/Vienne,_Is%C3%A8re" title="Vienne, Isère">Vienne</a>, and Godegesil at <a href="/wiki/Geneva" title="Geneva">Geneva</a>.<sup id="cite_ref-Kurth_6-0" class="reference"><a href="#cite_note-Kurth-6">&#91;6&#93;</a></sup>
+</p><p>From the sixth century on, the marriage of Clovis and Clotilde was made the theme of epic narratives, in which the original facts were materially altered and the various versions found their way into the works of different Frankish chroniclers.<sup id="cite_ref-Kurth_6-1" class="reference"><a href="#cite_note-Kurth-6">&#91;6&#93;</a></sup> According to <a href="/wiki/Gregory_of_Tours" title="Gregory of Tours">Gregory of Tours</a> (538–594), in 493 Chilperic II was slain by his brother Gundobad  and his wife <a href="/wiki/Caretene" title="Caretene">Caretene</a> was drowned with a stone hung around her neck, while of his two daughters, Chrona took the veil and Clotilde was exiled – it is, however, assumed that this tale is <a href="/wiki/Apocryphal" class="mw-redirect" title="Apocryphal">apocryphal</a>.<sup id="cite_ref-encbrit_7-0" class="reference"><a href="#cite_note-encbrit-7">&#91;7&#93;</a></sup> Butler's account follows Gregory.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup>
+</p><p>After the death of Chilperic, her mother seems to have made her home with Godegisil at Geneva, where her other daughter, Chrona, founded the church of Saint-Victor. Soon after the death of Chilperic in 493, Clovis asked and obtained the hand of Clotilde.<sup id="cite_ref-Kurth_6-2" class="reference"><a href="#cite_note-Kurth-6">&#91;6&#93;</a></sup> They were married in 493.
+</p><p>The marriage produced the following children:
+</p>
+<ul><li>Ingomer (born and died 494).</li>
+<li><a href="/wiki/Chlodomer" title="Chlodomer">Chlodomer</a> (495–524), <a href="/wiki/List_of_Frankish_kings" title="List of Frankish kings">King of the Franks</a> at <a href="/wiki/Orl%C3%A9ans" title="Orléans">Orléans</a> from 511.</li>
+<li><a href="/wiki/Childebert_I" title="Childebert I">Childebert I</a> (496–558), King of the Franks at <a href="/wiki/Paris" title="Paris">Paris</a> from 511.</li>
+<li><a href="/wiki/Chlothar_I" title="Chlothar I">Chlothar I</a> (497–561), King of the Franks at <a href="/wiki/Soissons" title="Soissons">Soissons</a> from 511, King of all Franks from 558.</li>
+<li><a href="/wiki/Clotilde_(died_531)" title="Clotilde (died 531)">Clotilde</a> (500–531), married <a href="/wiki/Amalaric" title="Amalaric">Amalaric</a>, King of the <a href="/wiki/Visigothic_Kingdom" title="Visigothic Kingdom">Visigoths</a>.</li></ul>
+<p>Clotilde was brought up as a Christian and did not rest until her husband had abjured <a href="/wiki/Paganism" title="Paganism">paganism</a> and embraced Christianity.  According to Gregory of Tours' <i>Historia Francorum</i> (History of the Franks), when Clotilde had their first child baptised, he died soon after. Clovis upbraided her; but when Chlodomer was born, she insisted on baptising him also. Although Chlodomer did indeed fall ill, he soon after recovered. More healthy children followed.<sup id="cite_ref-dictionary_9-0" class="reference"><a href="#cite_note-dictionary-9">&#91;9&#93;</a></sup>
+</p><p>Clotilde's victory came in 496, when Clovis converted to Christianity, baptised by Bishop <a href="/wiki/Saint_Remigius" title="Saint Remigius">Remigius of Reims</a> on <a href="/wiki/Christmas" title="Christmas">Christmas</a> Day of that year.  According to tradition, on the eve of the <a href="/wiki/Battle_of_Tolbiac" title="Battle of Tolbiac">Battle of Tolbiac</a> against the <a href="/wiki/Alamanni" class="mw-redirect" title="Alamanni">Alamanni</a>, Clovis prayed to God, swearing to be baptised if he emerged victorious on the battlefield. When he did indeed triumph, Clovis readily took the faith. With him Clotilde built at <a href="/wiki/Paris" title="Paris">Paris</a> the Church of the Holy Apostles, afterwards known as the <a href="/wiki/Abbey_of_St_Genevieve" class="mw-redirect" title="Abbey of St Genevieve">Abbey of St Genevieve</a>.<sup id="cite_ref-encbrit_7-1" class="reference"><a href="#cite_note-encbrit-7">&#91;7&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Significance">Significance</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Clotilde&amp;action=edit&amp;section=2" title="Edit section: Significance">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Unusually, Clotilde was a <a href="/wiki/Catholic_Church" title="Catholic Church">Catholic</a> Christian at a time when <a href="/wiki/Goths" title="Goths">Goths</a>, including the <a href="/wiki/Burgundians" title="Burgundians">Burgundians</a>, were <a href="/wiki/Arianism" title="Arianism">Arian</a> Christians. Therefore Clovis became a Catholic. This ensured that he had the support of the <a href="/wiki/Eastern_Roman_Empire" class="mw-redirect" title="Eastern Roman Empire">Eastern Roman Empire</a> in his wars against his rival Arian Gothic tribes, since the <a href="/wiki/Roman_people" title="Roman people">Romans</a> were Catholics. When the Franks eventually gained dominance over Western Europe, it was Catholicism which became the prevalent kind of Christianity, and Arianism died out.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Later_years">Later years</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Clotilde&amp;action=edit&amp;section=3" title="Edit section: Later years">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Clotilde_partageant_le_royaume_entre_ses_fils.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Clotilde_partageant_le_royaume_entre_ses_fils.jpg/220px-Clotilde_partageant_le_royaume_entre_ses_fils.jpg" decoding="async" width="220" height="200" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Clotilde_partageant_le_royaume_entre_ses_fils.jpg/330px-Clotilde_partageant_le_royaume_entre_ses_fils.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Clotilde_partageant_le_royaume_entre_ses_fils.jpg/440px-Clotilde_partageant_le_royaume_entre_ses_fils.jpg 2x" data-file-width="1324" data-file-height="1204" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Clotilde_partageant_le_royaume_entre_ses_fils.jpg" class="internal" title="Enlarge"></a></div>Clotilde and her sons, <i>Grandes Chroniques de Saint-Denis</i></div></div></div>
+<p>After Clovis' death in 511, Clotilde retired to the <a href="/wiki/Basilica_of_St._Martin,_Tours" class="mw-redirect" title="Basilica of St. Martin, Tours">Abbey of St. Martin</a> at <a href="/wiki/Tours" title="Tours">Tours</a>.
+</p><p>In 523 Clotilde's sons went to war against her cousin King <a href="/wiki/Sigismund_of_Burgundy" title="Sigismund of Burgundy">Sigismund of Burgundy</a>, the son of <a href="/wiki/Gundobad" title="Gundobad">Gundobad</a>, which led to Sigismund's deposition and imprisonment. Sigismund was assassinated the following year and his body thrown down a well in symbolic retaliation for the deaths of Clotilde's parents. <a href="/wiki/Gregory_of_Tours" title="Gregory of Tours">Gregory of Tours</a> claimed – and many others have followed – that Clotilde incited her sons to war as a means to revenge the supposed murder of her parents by Gundobad while others, such as Godefroid Kurth, find this unconvincing and apocryphal. Subsequently, her eldest son Chlodomer was killed during the following Burgundian campaign under Sigismund's successor King <a href="/wiki/Godomar" class="mw-redirect" title="Godomar">Godomar</a> at the <a href="/wiki/Battle_of_V%C3%A9zeronce" title="Battle of Vézeronce">Battle of Vézeronce</a>. Her daughter, also named Clotilde, also died about this time.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2022)">citation needed</span></a></i>&#93;</sup> Clotilde tried in vain to protect the rights of her three grandsons, the children of Chlodomer, against the claims of her surviving sons Childebert and Chlothar. Chlothar had two of them killed, while only <a href="/wiki/Clodoald" title="Clodoald">Clodoald</a> (<i>Cloud</i>) managed to escape and later chose an ecclesiastical career. She was equally unsuccessful in her efforts to prevent the civil discords between her children.<sup id="cite_ref-encbrit_7-2" class="reference"><a href="#cite_note-encbrit-7">&#91;7&#93;</a></sup>
+</p><p>After these failures, Clotilde appeared to dedicate herself to a saintly life. She occupied herself with the building of churches and monasteries, preferring to distance herself from the power struggles of the court.<sup id="cite_ref-web_11-0" class="reference"><a href="#cite_note-web-11">&#91;11&#93;</a></sup> Churches associated with her are located at <a href="/wiki/Laon" title="Laon">Laon</a> and <a href="/wiki/Rouen" title="Rouen">Rouen</a>.
+</p><p>Clotilde died in 545 at the tomb of St. Martin of Tours, of natural causes; she was buried at her husband's side, in the Church of the Holy Apostles (now the <a href="/wiki/Abbey_of_St_Genevieve" class="mw-redirect" title="Abbey of St Genevieve">Abbey of St Genevieve</a>).<sup id="cite_ref-:0_4-1" class="reference"><a href="#cite_note-:0-4">&#91;4&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Veneration">Veneration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Clotilde&amp;action=edit&amp;section=4" title="Edit section: Veneration">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Clotilde's veneration made her the patron of queens, widows, brides and those in exile. In <a href="/wiki/Normandy" title="Normandy">Normandy</a> especially she was venerated as the patroness of the lame, those who came to a violent death and women who suffered from ill-tempered husbands. In art she is often depicted presiding over the baptism of Clovis, or as a suppliant at the shrine of <a href="/wiki/Martin_of_Tours" title="Martin of Tours">Saint Martin</a>. Several fine images of her remain, particularly in the 16th-century stained glass window at <a href="/wiki/Andelys" class="mw-redirect" title="Andelys">Andelys</a>. Her relics survived the <a href="/wiki/French_Revolution" title="French Revolution">French Revolution</a>, and are housed in the <a href="/wiki/%C3%89glise_Saint-Leu-Saint-Gilles" class="mw-redirect" title="Église Saint-Leu-Saint-Gilles">Église Saint-Leu-Saint-Gilles</a> in Paris.<sup id="cite_ref-dictionary_9-1" class="reference"><a href="#cite_note-dictionary-9">&#91;9&#93;</a></sup>
+</p><p>Clotilde is the patron saint of <a href="/wiki/Les_Andelys" title="Les Andelys">Les Andelys</a>, Normandy. In 511, the Queen founded a convent for young girls of the nobility there, which was destroyed by the <a href="/wiki/Normans" title="Normans">Normans</a> in 911. In its place was erected Our Lady's Collegiate Church, which contains a statue of Saint Clotilde. Also in Les Andelys is Saint Clotilde's Fountain. The spring is popularly believed to heal skin diseases.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Clotilde&amp;action=edit&amp;section=5" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1132942124">.mw-parser-output .portalbox{padding:0;margin:0.5em 0;display:table;box-sizing:border-box;max-width:175px;list-style:none}.mw-parser-output .portalborder{border:solid #aaa 1px;padding:0.1em;background:#f9f9f9}.mw-parser-output .portalbox-entry{display:table-row;font-size:85%;line-height:110%;height:1.9em;font-style:italic;font-weight:bold}.mw-parser-output .portalbox-image{display:table-cell;padding:0.2em;vertical-align:middle;text-align:center}.mw-parser-output .portalbox-link{display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle}@media(min-width:720px){.mw-parser-output .portalleft{clear:left;float:left;margin:0.5em 1em 0.5em 0}.mw-parser-output .portalright{clear:right;float:right;margin:0.5em 0 0.5em 1em}}</style><ul role="navigation" aria-label="Portals" class="noprint portalbox portalborder portalright">
+<li class="portalbox-entry"><span class="portalbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/32px-Gloriole_blur.svg.png" decoding="async" width="32" height="28" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/48px-Gloriole_blur.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/64px-Gloriole_blur.svg.png 2x" data-file-width="32" data-file-height="28" /></span><span class="portalbox-link"><a href="/wiki/Portal:Saints" title="Portal:Saints">Saints portal</a></span></li></ul>
+<ul><li><a href="/wiki/List_of_Catholic_saints" title="List of Catholic saints">List of Catholic saints</a></li>
+<li><a href="/wiki/List_of_Frankish_queens" title="List of Frankish queens">List of Frankish queens</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Clotilde&amp;action=edit&amp;section=6" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><i>The Encyclopedia of Saints</i>: "Clotilde was born at Lyons, France, about 474, the daughter of King Chilperic of Burgundy. She married the Salian Frankish king Clovis I in 493, who used their alliance as a means of strengthening his position with the Romanized Celts".</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a href="/wiki/Gregory_of_Tours" title="Gregory of Tours">Gregory of Tours</a>, <a rel="nofollow" class="external text" href="https://sourcebooks.fordham.edu/halsall/basis/gregory-hist.asp"><i>Historia Francorum</i></a>, "Now the king of the Burgundians was <a href="/wiki/Gondioc" title="Gondioc">Gundevech</a>, of the family of king <a href="/wiki/Athanaric" title="Athanaric">Athanaric</a> the persecutor, whom we have mentioned before."</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">
+<style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFWood1994" class="citation book cs1"><a href="/wiki/Ian_N._Wood" title="Ian N. Wood">Wood, Ian</a> (1994). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=f_PgAwAAQBAJ"><i>The Merovingian Kingdoms 450 - 751</i></a>. London: Routledge (published 2014). <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9781317871163" title="Special:BookSources/9781317871163"><bdi>9781317871163</bdi></a><span class="reference-accessdate">. Retrieved <span class="nowrap">16 Mar</span> 2019</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Merovingian+Kingdoms+450+-+751&amp;rft.place=London&amp;rft.pub=Routledge&amp;rft.date=1994&amp;rft.isbn=9781317871163&amp;rft.aulast=Wood&amp;rft.aufirst=Ian&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3Df_PgAwAAQBAJ&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClotilde" class="Z3988"></span></span>
+</li>
+<li id="cite_note-:0-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-:0_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:0_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFOnline" class="citation web cs1">Online, Catholic. <a rel="nofollow" class="external text" href="http://www.catholic.org/saints/saint.php?saint_id=886">"St. Clotilde – Saints &amp; Angels – Catholic Online"</a>. <i>Catholic Online</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2017-11-29</span></span>. <q>St. Clotilde (c.&#160;474- 545) and her husband King Clovis (c.&#160;466-511) founded the Merovingian dynasty, which ruled the Franks for over 200 years. [...] She died at the tomb of St. Martin of Tours and was buried in Sainte-Genevieve in Paris [...].</q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Catholic+Online&amp;rft.atitle=St.+Clotilde+%E2%80%93+Saints+%26+Angels+%E2%80%93+Catholic+Online&amp;rft.aulast=Online&amp;rft.aufirst=Catholic&amp;rft_id=http%3A%2F%2Fwww.catholic.org%2Fsaints%2Fsaint.php%3Fsaint_id%3D886&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClotilde" class="Z3988"></span></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFBritannica" class="citation web cs1">Britannica, Encyclopaedia. <a rel="nofollow" class="external text" href="https://www.britannica.com/biography/Saint-Clotilda">"St. Clotilda"</a>. <i>Encyclopaedia Britannica</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2019-07-16</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Encyclopaedia+Britannica&amp;rft.atitle=St.+Clotilda&amp;rft.aulast=Britannica&amp;rft.aufirst=Encyclopaedia&amp;rft_id=https%3A%2F%2Fwww.britannica.com%2Fbiography%2FSaint-Clotilda&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClotilde" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Kurth-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-Kurth_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Kurth_6-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Kurth_6-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/04066a.htm">Kurth, Godefroid. "St. Clotilda." The Catholic Encyclopedia. Vol. 4. New York: Robert Appleton Company, 1908. 19 Jul. 2014</a></span>
+</li>
+<li id="cite_note-encbrit-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-encbrit_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-encbrit_7-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-encbrit_7-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><span class="noprint"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png" decoding="async" width="12" height="13" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/18px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/24px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430" />&#160;</span>One or more of the preceding sentences&#160;incorporates text from a publication now in the <a href="/wiki/Public_domain" title="Public domain">public domain</a>:&#160;<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFPfister1911" class="citation encyclopaedia cs1"><a href="/wiki/Christian_Pfister" title="Christian Pfister">Pfister, Christian</a> (1911). "<a href="https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Clotilda,_Saint" class="extiw" title="s:1911 Encyclopædia Britannica/Clotilda, Saint">Clotilda, Saint</a>".  In Chisholm, Hugh (ed.). <i><a href="/wiki/Encyclop%C3%A6dia_Britannica_Eleventh_Edition" title="Encyclopædia Britannica Eleventh Edition">Encyclopædia Britannica</a></i>. Vol.&#160;6 (11th&#160;ed.). Cambridge University Press. p.&#160;557.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Clotilda%2C+Saint&amp;rft.btitle=Encyclop%C3%A6dia+Britannica&amp;rft.pages=557&amp;rft.edition=11th&amp;rft.pub=Cambridge+University+Press&amp;rft.date=1911&amp;rft.aulast=Pfister&amp;rft.aufirst=Christian&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClotilde" class="Z3988"></span></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.ewtn.com/library/MARY/CLOTILDA.HTM">Butler, Alban. <i>The Lives or the Fathers, Martyrs and Other Principal Saints</i>, Vol. VI, D. &amp; J. Sadlier, &amp; Company, 1864</a></span>
+</li>
+<li id="cite_note-dictionary-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-dictionary_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-dictionary_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFFarmer1997" class="citation book cs1">Farmer, David Hugh (1997). <i>The Oxford dictionary of saints</i> (4.&#160;ed.). Oxford [u.a.]: Oxford Univ. Press. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9780192800589" title="Special:BookSources/9780192800589"><bdi>9780192800589</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Oxford+dictionary+of+saints&amp;rft.place=Oxford+%5Bu.a.%5D&amp;rft.edition=4.&amp;rft.pub=Oxford+Univ.+Press&amp;rft.date=1997&amp;rft.isbn=9780192800589&amp;rft.aulast=Farmer&amp;rft.aufirst=David+Hugh&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClotilde" class="Z3988"></span></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">Asimov, Isaac (1968) <i>The Dark Ages</i>, Boston: Houghton Mifflin, pp. 55–56</span>
+</li>
+<li id="cite_note-web-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-web_11-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://saints.sqpn.com/saint-clotilde/">"Saint Clotilda"</a>. Saints.SQPN.com. 21 May 2009<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-07-13</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Saint+Clotilda&amp;rft.pub=Saints.SQPN.com&amp;rft.date=2009-05-21&amp;rft_id=http%3A%2F%2Fsaints.sqpn.com%2Fsaint-clotilde%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClotilde" class="Z3988"></span></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20150401070133/http://www.lesandelys-tourisme.fr/en/decouverte/le-grand-andely/saint-clotildes-fountain/">"<span class="cs1-kern-left"></span>"Saint Clotilde's Fountain", Office Municipal de Tourisme des Andelys"</a>. Archived from <a rel="nofollow" class="external text" href="http://www.lesandelys-tourisme.fr/en/decouverte/le-grand-andely/saint-clotildes-fountain/">the original</a> on 2015-04-01<span class="reference-accessdate">. Retrieved <span class="nowrap">2014-07-19</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=%22Saint+Clotilde%27s+Fountain%22%2C+Office+Municipal+de+Tourisme+des+Andelys&amp;rft_id=http%3A%2F%2Fwww.lesandelys-tourisme.fr%2Fen%2Fdecouverte%2Fle-grand-andely%2Fsaint-clotildes-fountain%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClotilde" class="Z3988"></span></span>
+</li>
+</ol></div></div>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Clothilde" class="extiw" title="commons:Category:Saint Clothilde">Saint Clothilde</a></span>.</div></div>
+</div>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q232365#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q232365#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q232365#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/000000012126517X">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/31572511">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-no94018619/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb125095674">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb125095674">(data)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://cantic.bnc.cat/registre/981058614733806706">Catalonia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/119461579">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007259989805171">Israel</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/no94018619">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=jx20060804002&amp;CON_LNG=ENG">Czech Republic</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p086444956">Netherlands</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd119461579.html?language=en">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/342980/">FAST</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://hls-dhs-dss.ch/fr/articles/018646">Historical Dictionary of Switzerland</a></span></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/034329870">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2375
+Cached time: 20230207160033
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.356 seconds
+Real time usage: 0.485 seconds
+Preprocessor visited node count: 1740/1000000
+Post‐expand include size: 36071/2097152 bytes
+Template argument size: 2598/2097152 bytes
+Highest expansion depth: 13/100
+Expensive parser function count: 17/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 31414/5000000 bytes
+Lua time usage: 0.227/10.000 seconds
+Lua memory usage: 6767977/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  431.080      1 -total
+ 28.01%  120.747      1 Template:Reflist
+ 21.72%   93.642      1 Template:Authority_control
+ 15.34%   66.110      2 Template:Cite_book
+ 11.70%   50.437      1 Template:Infobox_saint
+ 11.06%   47.694      1 Template:Short_description
+ 10.74%   46.319      1 Template:Infobox
+  8.64%   37.239      1 Template:Commons_category
+  8.08%   34.828      1 Template:Sister_project
+  7.66%   33.014      1 Template:Side_box
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:62565-0!canonical and timestamp 20230207160033 and revision id 1127489345. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Clotilde&amp;oldid=1127489345">https://en.wikipedia.org/w/index.php?title=Clotilde&amp;oldid=1127489345</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:474_births" title="Category:474 births">474 births</a></li><li><a href="/wiki/Category:545_deaths" title="Category:545 deaths">545 deaths</a></li><li><a href="/wiki/Category:Burgundian_women" title="Category:Burgundian women">Burgundian women</a></li><li><a href="/wiki/Category:Frankish_queens_consort" title="Category:Frankish queens consort">Frankish queens consort</a></li><li><a href="/wiki/Category:History_of_Burgundy" title="Category:History of Burgundy">History of Burgundy</a></li><li><a href="/wiki/Category:Merovingian_dynasty" title="Category:Merovingian dynasty">Merovingian dynasty</a></li><li><a href="/wiki/Category:Christian_royal_saints" title="Category:Christian royal saints">Christian royal saints</a></li><li><a href="/wiki/Category:Princesses" title="Category:Princesses">Princesses</a></li><li><a href="/wiki/Category:Christian_female_saints_of_the_Middle_Ages" title="Category:Christian female saints of the Middle Ages">Christian female saints of the Middle Ages</a></li><li><a href="/wiki/Category:5th-century_women" title="Category:5th-century women">5th-century women</a></li><li><a href="/wiki/Category:6th-century_women" title="Category:6th-century women">6th-century women</a></li><li><a href="/wiki/Category:6th-century_Frankish_saints" title="Category:6th-century Frankish saints">6th-century Frankish saints</a></li><li><a href="/wiki/Category:Queen_mothers" title="Category:Queen mothers">Queen mothers</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Wikipedia_articles_incorporating_a_citation_from_the_1911_Encyclopaedia_Britannica_with_Wikisource_reference" title="Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference">Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference</a></li><li><a href="/wiki/Category:Wikipedia_articles_incorporating_text_from_the_1911_Encyclop%C3%A6dia_Britannica" title="Category:Wikipedia articles incorporating text from the 1911 Encyclopædia Britannica">Wikipedia articles incorporating text from the 1911 Encyclopædia Britannica</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_April_2022" title="Category:Articles with unsourced statements from April 2022">Articles with unsourced statements from April 2022</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_CANTICN_identifiers" title="Category:Articles with CANTICN identifiers">Articles with CANTICN identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_NTA_identifiers" title="Category:Articles with NTA identifiers">Articles with NTA identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_HDS_identifiers" title="Category:Articles with HDS identifiers">Articles with HDS identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 15 December 2022, at 00:49<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Clotilde&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.356","walltime":"0.485","ppvisitednodes":{"value":1740,"limit":1000000},"postexpandincludesize":{"value":36071,"limit":2097152},"templateargumentsize":{"value":2598,"limit":2097152},"expansiondepth":{"value":13,"limit":100},"expensivefunctioncount":{"value":17,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":31414,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  431.080      1 -total"," 28.01%  120.747      1 Template:Reflist"," 21.72%   93.642      1 Template:Authority_control"," 15.34%   66.110      2 Template:Cite_book"," 11.70%   50.437      1 Template:Infobox_saint"," 11.06%   47.694      1 Template:Short_description"," 10.74%   46.319      1 Template:Infobox","  8.64%   37.239      1 Template:Commons_category","  8.08%   34.828      1 Template:Sister_project","  7.66%   33.014      1 Template:Side_box"]},"scribunto":{"limitreport-timeusage":{"value":"0.227","limit":"10.000"},"limitreport-memusage":{"value":6767977,"limit":52428800}},"cachereport":{"origin":"mw2375","timestamp":"20230207160033","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Clotilde","url":"https:\/\/en.wikipedia.org\/wiki\/Clotilde","sameAs":"http:\/\/www.wikidata.org\/entity\/Q232365","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q232365","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-07-17T20:10:40Z","dateModified":"2022-12-15T00:49:22Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/dd\/Delpech_-_Clotilde.jpg","headline":"saint and second wife of the Frankish king Clovis I"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Clotilde","url":"https:\/\/en.wikipedia.org\/wiki\/Clotilde","sameAs":"http:\/\/www.wikidata.org\/entity\/Q232365","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q232365","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-07-17T20:10:40Z","dateModified":"2022-12-15T00:49:22Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/dd\/Delpech_-_Clotilde.jpg","headline":"saint and second wife of the Frankish king Clovis I"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":108,"wgHostname":"mw2339"});});</script>
+</body>
+</html>

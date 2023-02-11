@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Clement of Ohrid - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"16e7f0d9-52dd-40af-8be9-bf52fd8f2f31",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Clement_of_Ohrid","wgTitle":"Clement of Ohrid","wgCurRevisionId":1126223253,"wgRevisionId":1126223253,"wgArticleId":30871305,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 Bulgarian-language sources (bg)","Webarchive template wayback links","Wikipedia indefinitely semi-protected pages","Articles with short description","Short description matches Wikidata","Articles containing Greek-language text","Articles containing Slovak-language text","Commons category link is on Wikidata","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BIBSYS identifiers","Articles with BNE identifiers","Articles with BNF identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with NKC identifiers",
+"Articles with NLA identifiers","Articles with NSK identifiers","Articles with PLWABN identifiers","Articles with DTBIO identifiers","Articles with CINII identifiers","Articles with FAST identifiers","Articles with SUDOC identifiers","Articles with Trove identifiers","Year of birth uncertain","9th-century births","916 deaths","9th-century Bulgarian writers","10th-century Bulgarian writers","Medieval Bulgarian saints","Creators of writing systems","Bulgarian male writers","10th-century Christian saints","Medieval Ohrid","Saints of medieval Macedonia","People from Ohrid","Kutmichevitsa","Old Church Slavonic writers"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Clement_of_Ohrid","wgRelevantArticleId":30871305,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["autoconfirmed"],"wgRedirectedFrom":"Clement_of_Okhrida","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},
+"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Clement_of_Ohrid","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q158504","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready",
+"ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin",
+"ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/c/c5/Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="1530"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png/800px-Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="1020"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png/640px-Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="816"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Clement of Ohrid - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Clement_of_Ohrid"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Clement_of_Ohrid"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Clement_of_Ohrid rootpage-Clement_of_Ohrid skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Clement+of+Ohrid" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Clement+of+Ohrid"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Clement+of+Ohrid"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Clement_of_Ohrid" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Clement_of_Ohrid" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Clement_of_Ohrid&amp;oldid=1126223253" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Clement_of_Ohrid&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Clement_of_Ohrid&amp;id=1126223253&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q158504" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Clement_of_Ohrid&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Clement_of_Ohrid&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div
+		id="p-wikibase-otherprojects-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">In other projects</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Clement_of_Ohrid" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Life"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Life">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Life</div>
+		</a>
+		
+		<ul id="toc-Life-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Legacy"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Legacy">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Legacy</div>
+		</a>
+		
+		<ul id="toc-Legacy-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Clement of Ohrid</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 36 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-36"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">36 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%83%D9%84%D9%8A%D9%85%D9%86%D8%AA_%D8%A7%D9%84%D8%A3%D9%88%D8%AE%D8%B1%D9%8A%D8%AF%D9%8A" title="كليمنت الأوخريدي – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/%D0%9A%D0%BB%D1%96%D0%BC%D0%B5%D0%BD%D1%82_%D0%9E%D1%85%D1%80%D1%8B%D0%B4%D1%81%D0%BA%D1%96" title="Клімент Охрыдскі – Belarusian" lang="be" hreflang="be" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a href="https://be-tarask.wikipedia.org/wiki/%D0%A1%D1%8C%D0%B2%D1%8F%D1%82%D1%8B_%D0%9A%D0%BB%D1%96%D0%BC%D1%8D%D0%BD%D1%82_%D0%9E%D1%85%D1%80%D1%8B%D0%B4%D0%B7%D0%BA%D1%96" title="Сьвяты Клімэнт Охрыдзкі – Belarusian (Taraškievica orthography)" lang="be-tarask" hreflang="be-tarask" class="interlanguage-link-target"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BC%D0%B5%D0%BD%D1%82_%D0%9E%D1%85%D1%80%D0%B8%D0%B4%D1%81%D0%BA%D0%B8" title="Климент Охридски – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a href="https://bs.wikipedia.org/wiki/Kliment_Ohridski" title="Kliment Ohridski – Bosnian" lang="bs" hreflang="bs" class="interlanguage-link-target"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Climent_d%27Ocrida" title="Climent d&#039;Ocrida – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Kliment_Ochridsk%C3%BD" title="Kliment Ochridský – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a href="https://cy.wikipedia.org/wiki/Kliment_Ohridski" title="Kliment Ohridski – Welsh" lang="cy" hreflang="cy" class="interlanguage-link-target"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wikipedia.org/wiki/Klemens_af_Ohrid" title="Klemens af Ohrid – Danish" lang="da" hreflang="da" class="interlanguage-link-target"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Kliment_von_Ohrid" title="Kliment von Ohrid – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%86%CE%B3%CE%B9%CE%BF%CF%82_%CE%9A%CE%BB%CE%AE%CE%BC%CE%B7%CF%82_%CF%84%CE%B7%CF%82_%CE%91%CF%87%CF%81%CE%AF%CE%B4%CE%B1%CF%82" title="Άγιος Κλήμης της Αχρίδας – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Clemente_de_Ocrida" title="Clemente de Ocrida – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Cl%C3%A9ment_d%27Ohrid" title="Clément d&#039;Ohrid – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-hsb mw-list-item"><a href="https://hsb.wikipedia.org/wiki/Kliment_Ochridski" title="Kliment Ochridski – Upper Sorbian" lang="hsb" hreflang="hsb" class="interlanguage-link-target"><span>Hornjoserbsce</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Kliment_Ohridski" title="Kliment Ohridski – Croatian" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-os mw-list-item"><a href="https://os.wikipedia.org/wiki/%D0%9E%D1%85%D1%80%D0%B8%D0%B4%D1%8B_%D0%A1%D1%8B%D0%B3%D1%8A%D0%B4%C3%A6%D0%B3_%D0%9A%D0%BB%D0%B8%D0%BC%D0%B5%D0%BD%D1%82" title="Охриды Сыгъдæг Климент – Ossetic" lang="os" hreflang="os" class="interlanguage-link-target"><span>Ирон</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Clemente_di_Ocrida" title="Clemente di Ocrida – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%A7%D7%9C%D7%9E%D7%A0%D7%98_%D7%9E%D7%90%D7%95%D7%97%D7%A8%D7%99%D7%93" title="קלמנט מאוחריד – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%9A%E1%83%98%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2_%E1%83%9D%E1%83%B0%E1%83%A0%E1%83%98%E1%83%93%E1%83%94%E1%83%9A%E1%83%98" title="კლიმენტ ოჰრიდელი – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Clemens_Achridensis" title="Clemens Achridensis – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a href="https://mk.wikipedia.org/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D0%B8_%D0%9A%D0%BB%D0%B8%D0%BC%D0%B5%D0%BD%D1%82_%D0%9E%D1%85%D1%80%D0%B8%D0%B4%D1%81%D0%BA%D0%B8" title="Свети Климент Охридски – Macedonian" lang="mk" hreflang="mk" class="interlanguage-link-target"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D9%83%D9%84%D9%8A%D9%85%D9%86%D8%AA_%D8%A7%D9%84%D8%A7%D9%88%D8%AE%D8%B1%D9%8A%D8%AF%D9%89" title="كليمنت الاوخريدى – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Clemens_van_Ohrid" title="Clemens van Ohrid – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%95%E3%83%AA%E3%83%89%E3%81%AE%E3%82%AF%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88" title="オフリドのクリメント – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Klemens_z_Ochrydy" title="Klemens z Ochrydy – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Clemente_de_Ocrida" title="Clemente de Ocrida – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Clement_al_Ohridei" title="Clement al Ohridei – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BC%D0%B5%D0%BD%D1%82_%D0%9E%D1%85%D1%80%D0%B8%D0%B4%D1%81%D0%BA%D0%B8%D0%B9" title="Климент Охридский – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wikipedia.org/wiki/Klementi_i_Ohrit" title="Klementi i Ohrit – Albanian" lang="sq" hreflang="sq" class="interlanguage-link-target"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/Kliment_Ochridsk%C3%BD" title="Kliment Ochridský – Slovak" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/Kliment_Ohridski" title="Kliment Ohridski – Slovenian" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-cu mw-list-item"><a href="https://cu.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BC%D1%94%D0%BD%D1%82%D1%8A_%D0%9E%D1%85%D1%80%D1%97%D0%B4%D1%8C%D1%81%D0%BA%EA%99%91%D0%B8" title="Климєнтъ Охрїдьскꙑи – Church Slavic" lang="cu" hreflang="cu" class="interlanguage-link-target"><span>Словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BC%D0%B5%D0%BD%D1%82_%D0%9E%D1%85%D1%80%D0%B8%D0%B4%D1%81%D0%BA%D0%B8" title="Климент Охридски – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Kliment_Ohridski" title="Kliment Ohridski – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Klemens_av_Ohrid" title="Klemens av Ohrid – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BC%D0%B5%D0%BD%D1%82_%D0%9E%D1%85%D1%80%D0%B8%D0%B4%D1%81%D1%8C%D0%BA%D0%B8%D0%B9" title="Климент Охридський – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q158504#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Clement_of_Ohrid" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Clement_of_Ohrid" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Clement_of_Ohrid"><span>Read</span></a></li><li id="ca-viewsource" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Clement_of_Ohrid&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e"><span>View source</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Clement_of_Ohrid&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Clement_of_Ohrid"><span>Read</span></a></li><li id="ca-more-viewsource" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Clement_of_Ohrid&amp;action=edit"><span>View source</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Clement_of_Ohrid&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		<div id="mw-indicator-pp-default" class="mw-indicator"><div class="mw-parser-output"><a href="/wiki/Wikipedia:Protection_policy#semi" title="This article is semi-protected."><img alt="Page semi-protected" src="//upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png" decoding="async" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/30px-Semi-protection-shackle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/40px-Semi-protection-shackle.svg.png 2x" data-file-width="512" data-file-height="512" /></a></div></div>
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"><span class="mw-redirectedfrom">(Redirected from <a href="/w/index.php?title=Clement_of_Okhrida&amp;redirect=no" class="mw-redirect" title="Clement of Okhrida">Clement of Okhrida</a>)</span></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p class="mw-empty-elt">
+</p>
+<div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Medieval Bulgarian scholar</div>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div style="display:inline;" class="fn">Свети Климент Охридски<br />Saint Clement of Ohrid</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png" class="image"><img alt="Clement of Ohrid icon Zograf Monastery Athos.png" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png/200px-Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png" decoding="async" width="200" height="255" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png/300px-Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png/400px-Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png 2x" data-file-width="1147" data-file-height="1462" /></a><div class="infobox-caption">Icon of Saint Clement of Ohrid from the Orthodox <a href="/wiki/Zograf_monastery" class="mw-redirect" title="Zograf monastery">Zograf monastery</a> on Mount <a href="/wiki/Mount_Athos" title="Mount Athos">Athos</a> in Greece, depicted as a disciple of <a href="/wiki/Saints_Cyril_and_Methodius" class="mw-redirect" title="Saints Cyril and Methodius">Saints Cyril and Methodius</a>.</div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">One of the Seven Apostles of Bulgaria, Disciple of <a href="/wiki/St._Cyril_and_St._Methodius" class="mw-redirect" title="St. Cyril and St. Methodius">St. Cyril and St. Methodius</a></th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">c. 830–840<br /><a href="/wiki/Byzantine_Empire" title="Byzantine Empire">Byzantine</a> or <a href="/wiki/First_Bulgarian_Empire" title="First Bulgarian Empire">First Bulgarian Empire</a><sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data"><span style="display:none">(<span class="dday deathdate">916-07-27</span>)</span>July 27, 916 (date of burial)<br /><a href="/wiki/Ohrid" title="Ohrid">Ohrid</a>, <a href="/wiki/Bulgarian_Empire" title="Bulgarian Empire">Bulgarian Empire</a><sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup><br />(now <a href="/wiki/North_Macedonia" title="North Macedonia">North Macedonia</a>)</td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Eastern_Orthodox_Church" title="Eastern Orthodox Church">Eastern Orthodox Church</a>, <a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">27 July<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Saint_symbolism" title="Saint symbolism">Attributes</a></th><td class="infobox-data"><a href="/wiki/Glagolitic_alphabet" class="mw-redirect" title="Glagolitic alphabet">Glagolitic alphabet</a>, <a href="/wiki/Cyrillic_script" title="Cyrillic script">Cyrillic script</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data"><a href="/wiki/Ohrid" title="Ohrid">Ohrid</a>, <a href="/wiki/North_Macedonia" title="North Macedonia">North Macedonia</a><sup id="cite_ref-saints_5-0" class="reference"><a href="#cite_note-saints-5">&#91;5&#93;</a></sup></td></tr></tbody></table>
+<p><b>Saint Clement of Ohrid</b> (<a href="/wiki/Bulgarian_language" title="Bulgarian language">Bulgarian</a>, <a href="/wiki/Serbian_language" title="Serbian language">Serbian</a> and <a href="/wiki/Macedonian_language" title="Macedonian language">Macedonian</a>: Свети Климент Охридски, <abbr style="font-size:85%" title="literal translation">lit.</abbr><span style="white-space: nowrap;">&#8201;</span>'<i>Sveti Kliment Ohridski</i><span class="nowrap" style="padding-left:0.1em;">&#39;</span>; <a href="/wiki/Greek_language" title="Greek language">Greek</a>: <span lang="el">Ἅγιος Κλήμης τῆς Ἀχρίδας</span>; <a href="/wiki/Slovak_language" title="Slovak language">Slovak</a>: <i lang="sk">svätý Kliment Ochridský</i>; <abbr title="circa">c.</abbr><span style="white-space:nowrap;">&#8201;830-840</span> – 916) was one of the first medieval <a href="/wiki/First_Bulgarian_Empire" title="First Bulgarian Empire">Bulgarian</a> saints,<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup> scholar, writer and enlightener of the <a href="/wiki/Slavs" title="Slavs">Slavs</a>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup><sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup><sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup><sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup> He was one of the most prominent disciples of <a href="/wiki/Saints_Cyril_and_Methodius" class="mw-redirect" title="Saints Cyril and Methodius">Saints Cyril and Methodius</a> and is often associated with the creation of the <a href="/wiki/Glagolitic" class="mw-redirect" title="Glagolitic">Glagolitic</a> and <a href="/wiki/Cyrillic_script" title="Cyrillic script">Cyrillic scripts</a>, especially their popularisation among <a href="/wiki/Christianise" class="mw-redirect" title="Christianise">Christianised</a> Slavs. He was the founder of the <a href="/wiki/Ohrid_Literary_School" title="Ohrid Literary School">Ohrid Literary School</a> and is regarded as a patron of education and language by some Slavic people. He is considered to be the first bishop of the <a href="/wiki/Bulgarian_Orthodox_Church" title="Bulgarian Orthodox Church">Bulgarian Orthodox Church</a>,<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup><sup id="cite_ref-bakalov_13-0" class="reference"><a href="#cite_note-bakalov-13">&#91;13&#93;</a></sup> one of the <a href="/wiki/Seven_Apostles_of_Bulgarian_Orthodox_Church" title="Seven Apostles of Bulgarian Orthodox Church">Seven Apostles of Bulgarian Orthodox Church</a>  since the 10th century, and one of the premier saints of modern <a href="/wiki/Bulgaria" title="Bulgaria">Bulgaria</a>.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup> The mission of Saint Clement was the crucial factor which transformed the Slavs in then <a href="/wiki/Kutmichevitsa" title="Kutmichevitsa">Kutmichevitsa</a> (present day Macedonia)<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;15&#93;</a></sup> into Bulgarians.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup> Saint Clement is also the patron saint of <a href="/wiki/North_Macedonia" title="North Macedonia">North Macedonia</a>, the city of <a href="/wiki/Ohrid" title="Ohrid">Ohrid</a><sup id="cite_ref-saints_5-1" class="reference"><a href="#cite_note-saints-5">&#91;5&#93;</a></sup> and the <a href="/wiki/Macedonian_Orthodox_Church" title="Macedonian Orthodox Church">Macedonian Orthodox Church</a>.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup><sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup>
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Life">Life</span></h2>
+<div class="thumb tleft"><div class="thumbinner" style="width:172px;"><a href="/wiki/File:Climent_of_Ohrid.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Climent_of_Ohrid.jpg/170px-Climent_of_Ohrid.jpg" decoding="async" width="170" height="227" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Climent_of_Ohrid.jpg/255px-Climent_of_Ohrid.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Climent_of_Ohrid.jpg/340px-Climent_of_Ohrid.jpg 2x" data-file-width="471" data-file-height="629" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Climent_of_Ohrid.jpg" class="internal" title="Enlarge"></a></div>Icon of Saint Clement, located in the Mother of God Perybleptos church, <a href="/wiki/Ohrid" title="Ohrid">Ohrid</a></div></div></div>
+<div class="thumb tleft"><div class="thumbinner" style="width:172px;"><a href="/wiki/File:St._Clement_of_Ohrid_in_the_church_of_St._Athanasius,_Kastoria.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/St._Clement_of_Ohrid_in_the_church_of_St._Athanasius%2C_Kastoria.jpg/170px-St._Clement_of_Ohrid_in_the_church_of_St._Athanasius%2C_Kastoria.jpg" decoding="async" width="170" height="214" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/St._Clement_of_Ohrid_in_the_church_of_St._Athanasius%2C_Kastoria.jpg/255px-St._Clement_of_Ohrid_in_the_church_of_St._Athanasius%2C_Kastoria.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b7/St._Clement_of_Ohrid_in_the_church_of_St._Athanasius%2C_Kastoria.jpg/340px-St._Clement_of_Ohrid_in_the_church_of_St._Athanasius%2C_Kastoria.jpg 2x" data-file-width="726" data-file-height="914" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:St._Clement_of_Ohrid_in_the_church_of_St._Athanasius,_Kastoria.jpg" class="internal" title="Enlarge"></a></div>Fresco of St. Clement in the <a href="/wiki/Church_of_St._Athanasius_of_Mouzaki" title="Church of St. Athanasius of Mouzaki">Church of St. Athanasius</a>, <a href="/wiki/Kastoria" title="Kastoria">Kastoria</a></div></div></div>
+<p>The exact date of his birth is unknown. Most probably, he joined Methodius as a young man following him later to the monastery on <a href="/wiki/Mysian_Olympus" class="mw-redirect" title="Mysian Olympus">Mysian Olympus</a>. According to his hagiography by <a href="/wiki/Theophylact_of_Ohrid" title="Theophylact of Ohrid">Theophylact of Ohrid</a>, Clement knew the life of Methodius like no other. That is why most scholars think he was born in the <a href="/wiki/Byzantine_Empire" title="Byzantine Empire">Byzantine Empire</a> in the territory where Methodius served during his political career, i.e. that he was a <a href="/wiki/Slav" class="mw-redirect" title="Slav">Slav</a> from <a href="/wiki/Southern_Macedonia" class="mw-redirect" title="Southern Macedonia">Southern Macedonia</a>.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">&#91;19&#93;</a></sup> This gives rise to some researchers to indicate the area of <a href="/wiki/Thessaloniki" title="Thessaloniki">Thessaloniki</a> as the possible place of birth of Clement. According to others, the area of Southern Macedonia, including the northern approach to Thessaloniki, where he may have been born, was then part of the <a href="/wiki/First_Bulgarian_Empire" title="First Bulgarian Empire">First Bulgarian Empire</a>.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup> Most of <a href="/wiki/Macedonia_(region)" title="Macedonia (region)">Macedonia</a> became part of Bulgaria between 830 and 840, i.e when Clement was born.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;21&#93;</a></sup> The <i>Short Life of St. Clement</i> by Theophylact of Ohrid testifies to his Slavic origin, calling him "the first bishop in the <a href="/wiki/Bulgarian_language" title="Bulgarian language">Bulgarian language</a>,"<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">&#91;22&#93;</a></sup> while <i>The Ohrid Legend</i> written by <a href="/wiki/Demetrios_Chomatenos" title="Demetrios Chomatenos">Demetrios Chomatenos</a> describes him as one of the European <a href="/wiki/Moesians" class="mw-redirect" title="Moesians">Moesians</a>, commonly known as Bulgarians.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">&#91;23&#93;</a></sup> Because of that, some scholars label him a Bulgarian Slav,<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">&#91;24&#93;</a></sup><sup id="cite_ref-25" class="reference"><a href="#cite_note-25">&#91;25&#93;</a></sup> while <a href="/wiki/Dimitri_Obolensky" title="Dimitri Obolensky">Dimitri Obolensky</a> calls Clement a Slav inhabitant of the Kingdom of Bulgaria.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">&#91;26&#93;</a></sup> A fringe view on his origin postulates that Clement was born in <a href="/wiki/Great_Moravia" title="Great Moravia">Great Moravia</a>. This view is based on the lexicographical analysis of Clement's works.<sup id="cite_ref-povod_27-0" class="reference"><a href="#cite_note-povod-27">&#91;27&#93;</a></sup>
+</p><p>Clement participated in the mission of <a href="/wiki/Cyril_and_Methodius" title="Cyril and Methodius">Cyril and Methodius</a> to <a href="/wiki/Great_Moravia" title="Great Moravia">Great Moravia</a>. In 867 or 868 he became a priest in <a href="/wiki/Rome" title="Rome">Rome</a>, ordained along with two other disciples of Cyril and Methodius, <a href="/w/index.php?title=Saint_Gorazd&amp;action=edit&amp;redlink=1" class="new" title="Saint Gorazd (page does not exist)">Saint Gorazd</a> and <a href="/wiki/Saint_Naum" title="Saint Naum">Saint Naum</a>, by bishops <a href="/wiki/Pope_Formosus" title="Pope Formosus">Formosus</a> and Gauderic. After the death of Cyril, Clement accompanied Methodius on his journey from <a href="/wiki/Rome" title="Rome">Rome</a> to <a href="/wiki/Pannonia" title="Pannonia">Pannonia</a> and Great Moravia. After the death of Methodius himself in 885, Clement headed the struggle against the <a href="/wiki/Germans" title="Germans">German</a> clergy in Great Moravia along with Gorazd. After spending some time in jail, he was expelled from Great Moravia and in 885 or 886 reached <a href="/wiki/Belgrade" title="Belgrade">Belgrade</a>, then in the borders of Bulgaria, together with <a href="/wiki/Naum_of_Preslav" class="mw-redirect" title="Naum of Preslav">Naum of Preslav</a>, <a href="/wiki/Angelarius" class="mw-redirect" title="Angelarius">Angelarius</a> and possibly Gorazd (according to other sources, Gorazd was already dead by that time). Thereafter, the four of them were sent to the Bulgarian capital of <a href="/wiki/Pliska" title="Pliska">Pliska</a>, where they were commissioned by <a href="/wiki/Boris_I_of_Bulgaria" title="Boris I of Bulgaria">Boris I of Bulgaria</a> to instruct the future clergy of the state in the <a href="/wiki/Old_Church_Slavonic" title="Old Church Slavonic">Old Slavonic language</a>.
+</p><p>After the adoption of <a href="/wiki/Christianity" title="Christianity">Christianity</a> in 865, religious ceremonies in Bulgaria were conducted in <a href="/wiki/Greek_language" title="Greek language">Greek</a> by clergy sent from the Byzantine Empire. Fearing growing Byzantine influence and weakening of the state, Boris viewed the adoption of the Old Slavonic language as a way to preserve the political independence and stability of Bulgaria. With a view thereto, Boris made arrangements for the establishment of two literary academies where theology was to be taught in the Slavonic language. The first of the schools was to be found in the capital, Pliska, and the second in the region of <a href="/wiki/Kutmichevitsa" title="Kutmichevitsa">Kutmichevitsa</a>.
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:292px;"><a href="/wiki/File:Balkans850.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Balkans850.png/290px-Balkans850.png" decoding="async" width="290" height="239" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Balkans850.png/435px-Balkans850.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Balkans850.png/580px-Balkans850.png 2x" data-file-width="628" data-file-height="517" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Balkans850.png" class="internal" title="Enlarge"></a></div>Southeastern Europe in the late 9th century.</div></div></div>
+<p>According to his hagiography by Theophylact of Ohrid, while Naum stayed in Pliska working on the foundation of the <a href="/wiki/Preslav_Literary_School" title="Preslav Literary School">Pliska Literary School</a>, Clement was commissioned by Boris I to organise the teaching of theology to future clergymen in Old Church Slavonic in the southwestern part of the Bulgarian Empire, in the region then known as <a href="/wiki/Kutmichevitsa" title="Kutmichevitsa">Kutmichevitsa</a>.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">&#91;28&#93;</a></sup> For a period of seven years (between 886 and 893) Clement taught some 3,500 disciples in the Slavonic language and the <a href="/wiki/Glagolitic_alphabet" class="mw-redirect" title="Glagolitic alphabet">Glagolitic alphabet</a>. At that time, Clement translated <a href="/wiki/Christianity" title="Christianity">Christian</a> literature into Old Church Slavonic, and in this way, he and his co-workers laid the foundations of the <a href="/wiki/Bulgarian_Orthodox_Church" title="Bulgarian Orthodox Church">Bulgarian Orthodox Church</a>.<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">&#91;29&#93;</a></sup> In 893 he was ordained archbishop of <a href="/wiki/Drembica" class="mw-redirect" title="Drembica">Drembica</a>, <a href="/w/index.php?title=Velika_(bishopric)&amp;action=edit&amp;redlink=1" class="new" title="Velika (bishopric) (page does not exist)">Velika (bishopric)</a>. Upon his death in 916 he was buried in his monastery, <a href="/wiki/Saint_Panteleimon,_Ohrid" class="mw-redirect" title="Saint Panteleimon, Ohrid">Saint Panteleimon</a>, in <a href="/wiki/Ohrid" title="Ohrid">Ohrid</a>. Soon after he was canonized as a saint by the Bulgarian Orthodox Church.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">&#91;30&#93;</a></sup>
+</p><p>The development of Old Church Slavonic literacy had the effect of preventing the assimilation of the <a href="/wiki/South_Slavs" title="South Slavs">South Slavs</a> into neighbouring Byzantine culture, which promoted the formation of a distinct Bulgarian identity in the Empire.<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">&#91;31&#93;</a></sup> During the first quarter of the 10th century, the <a href="/wiki/Ethnonym" title="Ethnonym">ethnonym</a> “Bulgarians” was adopted by the Slavic tribes in most of Macedonia, while their names were abandoned.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">&#91;32&#93;</a></sup> Clement's life's work played a significant role in this transformation.<sup id="cite_ref-33" class="reference"><a href="#cite_note-33">&#91;33&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Legacy">Legacy</span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:177px;"><a href="/wiki/File:Saint_Clement_and_Pantheleimon_Ohrid._Tomb_of_Clement.JPG" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Saint_Clement_and_Pantheleimon_Ohrid._Tomb_of_Clement.JPG/175px-Saint_Clement_and_Pantheleimon_Ohrid._Tomb_of_Clement.JPG" decoding="async" width="175" height="227" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Saint_Clement_and_Pantheleimon_Ohrid._Tomb_of_Clement.JPG/263px-Saint_Clement_and_Pantheleimon_Ohrid._Tomb_of_Clement.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/57/Saint_Clement_and_Pantheleimon_Ohrid._Tomb_of_Clement.JPG/350px-Saint_Clement_and_Pantheleimon_Ohrid._Tomb_of_Clement.JPG 2x" data-file-width="2280" data-file-height="2955" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Saint_Clement_and_Pantheleimon_Ohrid._Tomb_of_Clement.JPG" class="internal" title="Enlarge"></a></div>Tomb of Saint Clement within the <a href="/wiki/Church_of_Saints_Clement_and_Panteleimon" title="Church of Saints Clement and Panteleimon">Church of Saints Clement and Panteleimon</a>, <a href="/wiki/Ohrid" title="Ohrid">Ohrid</a>, <a href="/wiki/North_Macedonia" title="North Macedonia">North Macedonia</a>.</div></div></div>
+<p>Saint Clement of Ohrid was one of the most prolific and important writers in <a href="/wiki/Old_Church_Slavonic" title="Old Church Slavonic">Old Church Slavonic</a>. He is credited with the <i>Panonic Hagiography of Saint Cyril and Saint Methodius</i>. Clement also translated the <i>Flower Triode</i> containing church songs sung from Easter to Pentecost and is believed to be the author of the <i>Holy Service</i> and the <i>Life of St. Clement of Rome</i>, as well as of the oldest service dedicated to St. Cyril and St. Methodius. The invention of the Cyrillic alphabet is also usually ascribed to him although the alphabet is most likely to have been developed at the <a href="/wiki/Preslav_Literary_School" title="Preslav Literary School">Preslav Literary School</a> at the beginning of the 10th century (see <a href="/wiki/Cyrillic_script" title="Cyrillic script">Cyrillic script</a>).
+</p><p>Medieval frescoes of Saint Clement exist throughout the modern-day territories of North Macedonia, Serbia and northern Greece, with the vast majority being located in North Macedonia.<sup id="cite_ref-34" class="reference"><a href="#cite_note-34">&#91;34&#93;</a></sup> The <a href="/wiki/Church_of_St._Clement_of_Ohrid" title="Church of St. Clement of Ohrid">Church of St. Clement of Ohrid</a> is located in <a href="/wiki/Skopje" title="Skopje">Skopje</a> and is the largest cathedral of the <a href="/wiki/Macedonian_Orthodox_Church" title="Macedonian Orthodox Church">Macedonian Orthodox Church</a>.
+</p><p>The first modern <a href="/wiki/Bulgaria" title="Bulgaria">Bulgarian</a> university, <a href="/wiki/Sofia_University" title="Sofia University">Sofia University</a>, was named after Clement upon its foundation in 1888. The Macedonian National and University Library, founded on November 23, 1944, also bears his name.<sup id="cite_ref-35" class="reference"><a href="#cite_note-35">&#91;35&#93;</a></sup> The University in <a href="/wiki/Bitola" title="Bitola">Bitola</a>, established in 1979, is named after Clement, as well as the Bulgarian scientific base, <a href="/wiki/St._Kliment_Ohridski_Base" title="St. Kliment Ohridski Base">St. Kliment Ohridski</a> on <a href="/wiki/Livingston_Island" title="Livingston Island">Livingston Island</a> in the <a href="/wiki/South_Shetland_Islands" title="South Shetland Islands">South Shetland Islands</a> of <a href="/wiki/Antarctica" title="Antarctica">Antarctica</a>.
+</p><p>In November 2008, the <a href="/wiki/Macedonian_Orthodox_Church" title="Macedonian Orthodox Church">Macedonian Orthodox Church</a> donated part of Clement's relics to the <a href="/wiki/Bulgarian_Orthodox_Church" title="Bulgarian Orthodox Church">Bulgarian Orthodox Church</a> as a sign of good will.<sup id="cite_ref-36" class="reference"><a href="#cite_note-36">&#91;36&#93;</a></sup>
+</p><p>In May 2018 was announced that in the ruins of a <a href="/w/index.php?title=Ravna_Monastery&amp;action=edit&amp;redlink=1" class="new" title="Ravna Monastery (page does not exist)">Ravna Monastery</a>, near the village of <a href="/w/index.php?title=Ravna,_Varna_Province&amp;action=edit&amp;redlink=1" class="new" title="Ravna, Varna Province (page does not exist)">Ravna</a> in <a href="/wiki/Provadiya_Municipality" class="mw-redirect" title="Provadiya Municipality">Provadiya Municipality</a>, the signature of Saint Clement was identified on a stone plate with a large amount of graffiti on it. The signature is dated as of April 24, 889. The finding gives reason to assume that the disciples of <a href="/wiki/Saints_Cyril_and_Methodius" class="mw-redirect" title="Saints Cyril and Methodius">Saints Cyril and Methodius</a> were settled there at one stage, after being expelled from the Great Moravia and their reception in Bulgaria.<sup id="cite_ref-37" class="reference"><a href="#cite_note-37">&#91;37&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<ul><li><a href="/wiki/Chernorizets_Hrabar" title="Chernorizets Hrabar">Chernorizets Hrabar</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=2eTamGqyQhQC&amp;pg=PA11"><i>Russian Church Singing</i></a>, vol. II, Johann von Gardner, Vladimir Morosan, St Vladimir's Seminary Press, 1980, <style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0881410462" title="Special:BookSources/0881410462">0881410462</a>, p. 11.</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Alban Butler, Paul Burns and  David Hugh Farmer, Butler's Lives of the Saints, Volume 7, A&amp;C Black, 1995, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0860122565" title="Special:BookSources/0860122565">0860122565</a>, p. 220.</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Karl Cordell, Stefan Wolff, <i>Ethnic Conflict: Causes, Consequences, and Responses</i>, (Polity Press, 2009), 64.</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20170501225420/http://westserbdio.org/en/prologue/582-july-27">"Western American Diocese - July 27"</a>. <i>westserbdio.org</i>. Archived from <a rel="nofollow" class="external text" href="http://westserbdio.org/en/prologue/582-july-27">the original</a> on 1 May 2017<span class="reference-accessdate">. Retrieved <span class="nowrap">11 January</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=westserbdio.org&amp;rft.atitle=Western+American+Diocese+-+July+27&amp;rft_id=http%3A%2F%2Fwestserbdio.org%2Fen%2Fprologue%2F582-july-27&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClement+of+Ohrid" class="Z3988"></span></span>
+</li>
+<li id="cite_note-saints-5"><span class="mw-cite-backlink">^ <a href="#cite_ref-saints_5-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-saints_5-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20080620003930/http://saints.sqpn.com/saintc3h.htm">"Patron Saints Index: Saint Clement of Ohrid"</a>. saints.sqpn.com. Archived from <a rel="nofollow" class="external text" href="http://saints.sqpn.com/saintc3h.htm">the original</a> on 2008-06-20<span class="reference-accessdate">. Retrieved <span class="nowrap">2008-06-12</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Patron+Saints+Index%3A+Saint+Clement+of+Ohrid&amp;rft.pub=saints.sqpn.com&amp;rft_id=http%3A%2F%2Fsaints.sqpn.com%2Fsaintc3h.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClement+of+Ohrid" class="Z3988"></span></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><i>He died at an advanced age in 916. His disciples buried him in the monastery "St. Panteleimon" in Ohrid, which he had established. He was canonized in X c. and joined the pantheon of the Bulgarian saints.</i> <a rel="nofollow" class="external text" href="https://www.uni-sofia.bg/index.php/eng/the_university/history/xi_century">Short biography</a> of the patron of the <a href="/wiki/Sofia_University" title="Sofia University">Sofia University</a> on its official site.</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=ppbuavUZKEwC&amp;pg=PA19"><i>Who are the Macedonians?</i></a> Hugh Poulton, C. Hurst &amp; Co. Publishers, 2000, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1850655340" title="Special:BookSources/1850655340">1850655340</a>, p. 19.</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=oQ8BFk9K0ToC&amp;pg=PA138"><i>Biographical Dictionary of Christian Missions</i></a>, Gerald H. Anderson, Wm. B. Eerdmans Publishing, 1999, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0802846807" title="Special:BookSources/0802846807">0802846807</a>, p. 138.</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=Ylz4fe7757cC"><i>A Concise History of Bulgaria</i></a>, R. J. Crampton, Cambridge University Press, 2005, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0521616379" title="Special:BookSources/0521616379">0521616379</a>, p. 15.</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=ILiOI0UgxHoC&amp;pg=PA78"><i>Byzantium's Balkan Frontier: A Political Study of the Northern Balkans, 900-1204</i></a>, Paul Stephenson, Cambridge University Press, 2000, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0521770173" title="Special:BookSources/0521770173">0521770173</a>, pp. 78-79.</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=dDi24Fac-rwC&amp;pg=PA91"><i>The A to Z of the Orthodox Church</i></a>, Michael Prokurat, Alexander Golitzin, Michael D. Peterson, Rowman &amp; Littlefield, 2010, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0810876027" title="Special:BookSources/0810876027">0810876027</a>, p. 91.</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">"...the First Bishop of the Bulgarian language" - <a href="/wiki/Theophylact_of_Ohrid" title="Theophylact of Ohrid">Teophylactus</a> cited in <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFRamet1989" class="citation book cs1">Ramet, Pedro (1989). <a rel="nofollow" class="external text" href="https://archive.org/details/religionnational01rame"><i>Religion and Nationalism in Soviet and East European Politics</i></a>. p.&#160;<a rel="nofollow" class="external text" href="https://archive.org/details/religionnational01rame/page/373">373</a>. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-8223-0891-6" title="Special:BookSources/0-8223-0891-6"><bdi>0-8223-0891-6</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Religion+and+Nationalism+in+Soviet+and+East+European+Politics&amp;rft.pages=373&amp;rft.date=1989&amp;rft.isbn=0-8223-0891-6&amp;rft.aulast=Ramet&amp;rft.aufirst=Pedro&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Freligionnational01rame&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClement+of+Ohrid" class="Z3988"></span></span>
+</li>
+<li id="cite_note-bakalov-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-bakalov_13-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFBakalovKumanov2003" class="citation book cs1 cs1-prop-foreign-lang-source">Bakalov, Georgi; Kumanov, Milen (2003). "KUTMICHEVITSA (Kutmichinitsa)". <i>History of Bulgaria electronic edition</i> (in Bulgarian). Sofia: Trud, Sirma. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/954528613X" title="Special:BookSources/954528613X"><bdi>954528613X</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=KUTMICHEVITSA+%28Kutmichinitsa%29&amp;rft.btitle=History+of+Bulgaria+electronic+edition&amp;rft.place=Sofia&amp;rft.pub=Trud%2C+Sirma&amp;rft.date=2003&amp;rft.isbn=954528613X&amp;rft.aulast=Bakalov&amp;rft.aufirst=Georgi&amp;rft.au=Kumanov%2C+Milen&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClement+of+Ohrid" class="Z3988"></span></span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">Michael Prokurat et al., The A to Z of the Orthodox Church, Scarecrow Press, 2010, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1461664039" title="Special:BookSources/1461664039">1461664039</a>, p. 91.</span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text">In the Byzantine Empire, a province under the name of Macedonia was formed out of the original <a href="/wiki/Theme_of_Thrace" class="mw-redirect" title="Theme of Thrace">theme of Thrace</a>, which capital was <a href="/wiki/Adrianople" class="mw-redirect" title="Adrianople">Adrianople</a> in today Turkey. Byzantine documents of this era that mention Macedonia are referring to this <a href="/wiki/Macedonia_(theme)" title="Macedonia (theme)">province</a>. The modern region of Macedonia, on the other hand, which was ruled by the First Bulgarian Empire throughout the 9th and the 10th century, was incorporated into the Byzantine Empire in 1018 as a <a href="/wiki/Theme_of_Bulgaria" class="mw-redirect" title="Theme of Bulgaria">province called Bulgaria</a>.</span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text">John Van Antwerp Fine, The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century, University of Michigan Press, 1991, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0472081497" title="Special:BookSources/0472081497">0472081497</a>, pp. 127-128.</span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://mpc.org.mk/MPC/istorija.asp">Official site of the Macedonian orthodox church</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20100324104254/http://www.mpc.org.mk/MPC/istorija.asp">Archived</a> 2010-03-24 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a></span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20101101071331/http://mymacedonia.net/religion/archbishopric.htm">"Macedonia Travel info"</a>. Archived from <a rel="nofollow" class="external text" href="http://www.mymacedonia.net/religion/archbishopric.htm">the original</a> on 2010-11-01<span class="reference-accessdate">. Retrieved <span class="nowrap">2010-09-19</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Macedonia+Travel+info&amp;rft_id=http%3A%2F%2Fwww.mymacedonia.net%2Freligion%2Farchbishopric.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClement+of+Ohrid" class="Z3988"></span></span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=Ry3TCQAAQBAJ&amp;pg=PA394"><i>The Oxford Dictionary of Saints</i></a>, Fifth Edition Revised, David Farmer, OUP Oxford, 2011, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0191036730" title="Special:BookSources/0191036730">0191036730</a>, p. 394.</span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=PBGzh1JK2gUC&amp;pg=PA220"><i>Butler's Lives of the Saints</i></a>, vol. 7, Alban Butler, Paul Burns, David Hugh Farmer, A&amp;C Black, 1995, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0860122565" title="Special:BookSources/0860122565">0860122565</a>, p. 220.</span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text">Dimitar Bechev, Historical Dictionary of the Republic of Macedonia, Historical Dictionaries of Europe, Scarecrow Press, 2009, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0810862956" title="Special:BookSources/0810862956">0810862956</a>, p. xx.</span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=d0OwCQAAQBAJ&amp;pg=PA153"><i>The Voices of Medieval Bulgaria, Seventh-Fifteenth Century, East Central and Eastern Europe in the Middle Ages, 450-1450</i></a>, Kiril Petkov, BRILL, 2008, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9047433750" title="Special:BookSources/9047433750">9047433750</a>, p. 153.</span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text">"This great father of ours and light of Bulgaria was by origin of the European Moesians whom the people commonly known as Bulgarians…". Documents and materials on the history of the Bulgarian people. Bulgarian Academy of Sciences, Dimitŭr Kosev, Khristo  Khristov, 1969, <a rel="nofollow" class="external text" href="https://books.google.com/books?hl=bg&amp;id=3D1pAAAAMAAJ&amp;dq=Documents+and+materials+on+the+history+of+the+Bulgarian+people&amp;focus=searchwithinvolume&amp;q=european+moesians">p. 54.</a></span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=NSjRbIz4iDkC&amp;pg=PA87"><i>Historical Dictionary of Croatia, Robert Stallaerts</i></a>,  Scarecrow Press, 2009, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/081087363X" title="Special:BookSources/081087363X">081087363X</a>, p. 87.</span>
+</li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=Dvwdka5aJmsC&amp;pg=PA123"><i>Greek in a Cold Climate G - Reference</i></a>, Hugh Lloyd-Jones, Rowman &amp; Littlefield, 1991, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0389209678" title="Special:BookSources/0389209678">0389209678</a>, p. 123.</span>
+</li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?hl=bg&amp;id=L0EbAAAAYAAJ&amp;dq=clement+ohrid+was+born+bulgarian+slav&amp;focus=searchwithinvolume&amp;q=probably+born+around+840"><i>The Byzantine Inheritance of Eastern Europe</i></a>, vol. 156 from Collected studies, ISSN 0961-7582, Dimitri Obolensky, Variorum Reprints, 1969, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/086078102X" title="Special:BookSources/086078102X">086078102X</a>, p. III.</span>
+</li>
+<li id="cite_note-povod-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-povod_27-0">^</a></b></span> <span class="reference-text">Andrej ŠKOVIERA: Svätí slovanskí sedmopočetníci. Bratislava: Slovenský komitét slavistov - Slavistický ústav Jána Stanislava SAV, 2010,  <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-80-89489-02-2" title="Special:BookSources/978-80-89489-02-2">978-80-89489-02-2</a>, pp. 110-113. Ján STANISLAV: Starosloviensky jazyk I. Bratislava: Slovenské pedagogické nakladateľstvo, 1978, pp. 20-21; 174, 219-230.</span>
+</li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=fpVOAAAAIAAJ&amp;pg=PA169"><i>The entry of the Slavs into Christendom: an introduction to the medieval history of the Slavs</i></a>, A. P. Vlasto, CUP Archive, 1970, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-521-07459-2" title="Special:BookSources/0-521-07459-2">0-521-07459-2</a>, p. 169.</span>
+</li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text">Alban Butler et al., Butler's Lives of the Saints, Volume 7, A&amp;C Black, 1995, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0860122565" title="Special:BookSources/0860122565">0860122565</a>, p. 220.</span>
+</li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text">Кирило-Методиевска енциклопедия: И-O, том 2, Институт за литература (Българска академия на науките), Университетско издателство "Св. Климент Охридски", 1995, стр. 334.</span>
+</li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text">Crampton, R. J. (2005). A Concise History of Bulgaria (2nd ed.). Cambridge: Cambridge University Press. <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-521-61637-9" title="Special:BookSources/978-0-521-61637-9">978-0-521-61637-9</a>. p 15.</span>
+</li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text"><i>Early in the tenth century, the name “Bulgarians”, in its wider meaning, was widespread and used throughout the country, while the names of the separate Slav tribes were abandoned. An interesting instance of the use of the name “Bulgarians” is found in the so-called “Expanded Biography of Clement of Ochrida”... It, therefore, mirrors developments and the situation in the south-western Bulgarian territories (Macedonia) in the beginning of the tenth century. It is this disciple of Clement, namely, who wrote in the tenth century, that called himself and his compatriots by the name “Bulgarians”. This is obvious from a text in the biography, which glorifies Clement that he gave everything, related to the church “to us, the Bulgarians”. This means that the name “Bulgarians” was already firmly established among the population in the south-western Bulgarian territories early in the tenth century.</i> D. Angelov, The Formation of the Bulgarian Nation, Summary, Издателство Наука и изкуство, София, 1971, pp. 413-414.</span>
+</li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text">Michael Palairet, Macedonia: A Voyage through History (Vol. 1, From Ancient Times to the Ottoman Invasions), Cambridge Scholars Publishing, 2016, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1443888435" title="Special:BookSources/1443888435">1443888435</a>, p. 260.</span>
+</li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text">The Sacred Landscape of Saint Clement of Ohrid as Reflected in his Frescos, Markus Breier and Mihailo Popovic, Department of Geography and Regional Research, University of Vienna (2015)</span>
+</li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text">The official site of the <a rel="nofollow" class="external text" href="http://www.nubsk.edu.mk/">National and University Library "St. Kliment Ohridski"</a>, retrieved on October 9, 2007.</span>
+</li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://news.ibox.bg/news/id_914559285">"Македония дарява частици от мощите на Св. Кл. Охридски"</a>. 24 November 2008.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D0%B8%D1%8F+%D0%B4%D0%B0%D1%80%D1%8F%D0%B2%D0%B0+%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%86%D0%B8+%D0%BE%D1%82+%D0%BC%D0%BE%D1%89%D0%B8%D1%82%D0%B5+%D0%BD%D0%B0+%D0%A1%D0%B2.+%D0%9A%D0%BB.+%D0%9E%D1%85%D1%80%D0%B8%D0%B4%D1%81%D0%BA%D0%B8&amp;rft.date=2008-11-24&amp;rft_id=http%3A%2F%2Fnews.ibox.bg%2Fnews%2Fid_914559285&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClement+of+Ohrid" class="Z3988"></span></span>
+</li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text">Константин Събчев, Откриха подписа на Климент Охридски. <a rel="nofollow" class="external text" href="http://www.politika.bg/article?id=55932">Политика, 25.05.2018.</a></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="External_links">External links</span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
+<div class="side-box-flex">
+<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:Clement_of_Ohrid" class="extiw" title="commons:Category:Clement of Ohrid">Clement of Ohrid</a></span>.</div></div>
+</div>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q158504#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q158504#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q158504#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000116832942">1</a></span></li></ul></li>
+<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/74644851">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n84079983/">WorldCat</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://authority.bibsys.no/authority/rest/authorities/html/42389">Norway</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX1332591">Spain</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb12093942f">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb12093942f">(data)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/118563092">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007300287205171">Israel</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n84079983">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=jn20000700909&amp;CON_LNG=ENG">Czech Republic</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://nla.gov.au/anbd.aut-an35847017">Australia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://katalog.nsk.hr/F/?func=direct&amp;doc_number=000004527&amp;local_base=nsk10">Croatia</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://mak.bn.org.pl/cgi-bin/KHW/makwww.exe?BM=1&amp;NU=1&amp;IM=4&amp;WI=9810669868905606">Poland</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118563092.html?language=en">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Scientific databases</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://ci.nii.ac.jp/author/DA13158369?l=en">CiNii (Japan)</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/1828991/">FAST</a></span></li>
+<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/029278678">1</a></span></li></ul></li>
+<li><a href="/wiki/Trove_(identifier)" class="mw-redirect" title="Trove (identifier)">Trove (Australia)</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://trove.nla.gov.au/people/1113943">1</a></span></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1433
+Cached time: 20230207124520
+Cache expiry: 86400
+Reduced expiry: true
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.496 seconds
+Real time usage: 0.626 seconds
+Preprocessor visited node count: 6007/1000000
+Post‐expand include size: 46955/2097152 bytes
+Template argument size: 4826/2097152 bytes
+Highest expansion depth: 18/100
+Expensive parser function count: 20/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 76777/5000000 bytes
+Lua time usage: 0.293/10.000 seconds
+Lua memory usage: 14789303/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  572.181      1 -total
+ 34.77%  198.955      1 Template:Reflist
+ 18.29%  104.635     21 Template:ISBN
+ 15.14%   86.640      1 Template:Lang-el
+ 13.94%   79.787      1 Template:Authority_control
+ 12.95%   74.083      1 Template:Infobox_saint
+ 12.40%   70.938      1 Template:Infobox
+ 10.68%   61.114     21 Template:Catalog_lookup_link
+  9.11%   52.136      4 Template:Cite_web
+  7.39%   42.274      4 Template:Br_separated_entries
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:30871305-0!canonical and timestamp 20230207124520 and revision id 1126223253. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Clement_of_Ohrid&amp;oldid=1126223253">https://en.wikipedia.org/w/index.php?title=Clement_of_Ohrid&amp;oldid=1126223253</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:9th-century_births" title="Category:9th-century births">9th-century births</a></li><li><a href="/wiki/Category:916_deaths" title="Category:916 deaths">916 deaths</a></li><li><a href="/wiki/Category:9th-century_Bulgarian_writers" title="Category:9th-century Bulgarian writers">9th-century Bulgarian writers</a></li><li><a href="/wiki/Category:10th-century_Bulgarian_writers" title="Category:10th-century Bulgarian writers">10th-century Bulgarian writers</a></li><li><a href="/wiki/Category:Medieval_Bulgarian_saints" title="Category:Medieval Bulgarian saints">Medieval Bulgarian saints</a></li><li><a href="/wiki/Category:Creators_of_writing_systems" title="Category:Creators of writing systems">Creators of writing systems</a></li><li><a href="/wiki/Category:Bulgarian_male_writers" title="Category:Bulgarian male writers">Bulgarian male writers</a></li><li><a href="/wiki/Category:10th-century_Christian_saints" title="Category:10th-century Christian saints">10th-century Christian saints</a></li><li><a href="/wiki/Category:Medieval_Ohrid" title="Category:Medieval Ohrid">Medieval Ohrid</a></li><li><a href="/wiki/Category:Saints_of_medieval_Macedonia" title="Category:Saints of medieval Macedonia">Saints of medieval Macedonia</a></li><li><a href="/wiki/Category:People_from_Ohrid" title="Category:People from Ohrid">People from Ohrid</a></li><li><a href="/wiki/Category:Kutmichevitsa" title="Category:Kutmichevitsa">Kutmichevitsa</a></li><li><a href="/wiki/Category:Old_Church_Slavonic_writers" title="Category:Old Church Slavonic writers">Old Church Slavonic writers</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_Bulgarian-language_sources_(bg)" title="Category:CS1 Bulgarian-language sources (bg)">CS1 Bulgarian-language sources (bg)</a></li><li><a href="/wiki/Category:Webarchive_template_wayback_links" title="Category:Webarchive template wayback links">Webarchive template wayback links</a></li><li><a href="/wiki/Category:Wikipedia_indefinitely_semi-protected_pages" title="Category:Wikipedia indefinitely semi-protected pages">Wikipedia indefinitely semi-protected pages</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_matches_Wikidata" title="Category:Short description matches Wikidata">Short description matches Wikidata</a></li><li><a href="/wiki/Category:Articles_containing_Greek-language_text" title="Category:Articles containing Greek-language text">Articles containing Greek-language text</a></li><li><a href="/wiki/Category:Articles_containing_Slovak-language_text" title="Category:Articles containing Slovak-language text">Articles containing Slovak-language text</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BIBSYS_identifiers" title="Category:Articles with BIBSYS identifiers">Articles with BIBSYS identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNE_identifiers" title="Category:Articles with BNE identifiers">Articles with BNE identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_NLA_identifiers" title="Category:Articles with NLA identifiers">Articles with NLA identifiers</a></li><li><a href="/wiki/Category:Articles_with_NSK_identifiers" title="Category:Articles with NSK identifiers">Articles with NSK identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_CINII_identifiers" title="Category:Articles with CINII identifiers">Articles with CINII identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li><li><a href="/wiki/Category:Articles_with_Trove_identifiers" title="Category:Articles with Trove identifiers">Articles with Trove identifiers</a></li><li><a href="/wiki/Category:Year_of_birth_uncertain" title="Category:Year of birth uncertain">Year of birth uncertain</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 8 December 2022, at 05:25<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Clement_of_Ohrid&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.496","walltime":"0.626","ppvisitednodes":{"value":6007,"limit":1000000},"postexpandincludesize":{"value":46955,"limit":2097152},"templateargumentsize":{"value":4826,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":20,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":76777,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  572.181      1 -total"," 34.77%  198.955      1 Template:Reflist"," 18.29%  104.635     21 Template:ISBN"," 15.14%   86.640      1 Template:Lang-el"," 13.94%   79.787      1 Template:Authority_control"," 12.95%   74.083      1 Template:Infobox_saint"," 12.40%   70.938      1 Template:Infobox"," 10.68%   61.114     21 Template:Catalog_lookup_link","  9.11%   52.136      4 Template:Cite_web","  7.39%   42.274      4 Template:Br_separated_entries"]},"scribunto":{"limitreport-timeusage":{"value":"0.293","limit":"10.000"},"limitreport-memusage":{"value":14789303,"limit":52428800}},"cachereport":{"origin":"mw1433","timestamp":"20230207124520","ttl":86400,"transientcontent":true}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Clement of Ohrid","url":"https:\/\/en.wikipedia.org\/wiki\/Clement_of_Ohrid","sameAs":"http:\/\/www.wikidata.org\/entity\/Q158504","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q158504","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-09-30T15:23:31Z","dateModified":"2022-12-08T05:25:23Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/c\/c5\/Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png","headline":"Medieval Bulgarian scholar"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Clement of Ohrid","url":"https:\/\/en.wikipedia.org\/wiki\/Clement_of_Ohrid","sameAs":"http:\/\/www.wikidata.org\/entity\/Q158504","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q158504","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-09-30T15:23:31Z","dateModified":"2022-12-08T05:25:23Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/c\/c5\/Clement_of_Ohrid_icon_Zograf_Monastery_Athos.png","headline":"Medieval Bulgarian scholar"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":117,"wgHostname":"mw2380"});});</script>
+</body>
+</html>

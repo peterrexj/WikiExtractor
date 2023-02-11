@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Bisinus - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"857ec217-dc86-433b-bb78-eeb51d2dc031",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Bisinus","wgTitle":"Bisinus","wgCurRevisionId":1077738734,"wgRevisionId":1077738734,"wgArticleId":12820663,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description is different from Wikidata","Articles with VIAF identifiers","Articles with WorldCat-VIAF identifiers","Articles with GND identifiers","Articles with DTBIO identifiers","Year of birth unknown","Year of death unknown","Rulers of Thuringia","5th-century monarchs in Europe"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Bisinus","wgRelevantArticleId":12820663,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Basinus","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":
+{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Bisinus","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q532749","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":
+"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups",
+"ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Bisinus - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Bisinus"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Bisinus&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Bisinus"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Bisinus rootpage-Bisinus skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Bisinus" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Bisinus"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Bisinus"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Bisinus" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Bisinus" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Bisinus&amp;oldid=1077738734" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Bisinus&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Bisinus&amp;id=1077738734&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q532749" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Bisinus&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Bisinus&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-name="vector-toc"
+	
+	
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-History"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#History">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>History</div>
+		</a>
+		
+		<ul id="toc-History-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Gregory_of_Tours"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Gregory_of_Tours">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Gregory of Tours</div>
+		</a>
+		
+		<ul id="toc-Gregory_of_Tours-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Location_of_kingdom"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Location_of_kingdom">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Location of kingdom</div>
+		</a>
+		
+		<ul id="toc-Location_of_kingdom-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Notes"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Notes">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Notes</div>
+		</a>
+		
+		<ul id="toc-Notes-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Sources"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Sources">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>Sources</div>
+		</a>
+		
+		<ul id="toc-Sources-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
+</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
+	<input type="checkbox"
+		id="vector-page-titlebar-toc-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-vector-page-titlebar-toc"
+		class="vector-menu-checkbox "
+		
+		
+	/>
+	<label
+		id="vector-page-titlebar-toc-label"
+		for="vector-page-titlebar-toc-checkbox"
+		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
+		
+	>
+		<span class="vector-menu-heading-label"></span>
+	</label>
+	<div class="vector-menu-content">
+
+
+						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+		</div>
+	
+	</div>
+</div>
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Bisinus</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 14 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-14"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">14 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%91%D0%B8%D0%B7%D0%B8%D0%BD" title="Бизин – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Bisinus" title="Bisinus – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Bisinus" title="Bisinus – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Basino" title="Basino – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Basin_de_Thuringe" title="Basin de Thuringe – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Bisinus" title="Bisinus – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Basino" title="Basino – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Bisinus" title="Bisinus – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Bisinus" title="Bisinus – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Basino" title="Basino – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Bisinus_de_Turingia" title="Bisinus de Turingia – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%B7%D0%B8%D0%BD" title="Бизин – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Bizin" title="Bizin – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%91%D1%96%D0%B7%D1%96%D0%BD" title="Бізін – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q532749#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Bisinus" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Bisinus" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Bisinus"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Bisinus&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Bisinus&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Bisinus"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Bisinus&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Bisinus&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"><span class="mw-redirectedfrom">(Redirected from <a href="/w/index.php?title=Basinus&amp;redirect=no" class="mw-redirect" title="Basinus">Basinus</a>)</span></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">5th-century Thuringian king</div>
+<p><b>Bisinus</b> (sometimes shortened to <b>Bisin</b>) was the <a href="/wiki/King_of_Thuringia" class="mw-redirect" title="King of Thuringia">king of Thuringia</a> in the 5th century AD or around 500. He is the earliest historically attested ruler of the <a href="/wiki/Thuringians" class="mw-redirect" title="Thuringians">Thuringians</a>. Almost nothing more about him can be said with certainty, including whether all the variations on his name in the sources refer to one or two different persons. His name is given as Bysinus, Bessinus or Bissinus in <a href="/wiki/Francia" title="Francia">Frankish</a> sources, and as Pissa, Pisen, Fisud or Fisut in <a href="/wiki/Kingdom_of_the_Lombards" title="Kingdom of the Lombards">Lombard</a> ones.<sup id="cite_ref-FOOTNOTEWeddige198910_1-0" class="reference"><a href="#cite_note-FOOTNOTEWeddige198910-1">&#91;1&#93;</a></sup>
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Bisinus&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Bisinus was the first husband of <a href="/wiki/Menia" title="Menia">Menia</a>,<sup id="cite_ref-FOOTNOTEJarnut2009281_2-0" class="reference"><a href="#cite_note-FOOTNOTEJarnut2009281-2">&#91;2&#93;</a></sup> a fact attested only in the  9th-century <i><a href="/wiki/Historia_Langobardorum_codicis_Gothani" title="Historia Langobardorum codicis Gothani">Historia Langobardorum codicis Gothani</a></i>.<sup id="cite_ref-FOOTNOTEGrierson194119n_3-0" class="reference"><a href="#cite_note-FOOTNOTEGrierson194119n-3">&#91;3&#93;</a></sup><sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup> He had a daughter, <a href="/wiki/Raicunda" title="Raicunda">Raicunda</a>, who became the first wife of the <a href="/wiki/Lombards" title="Lombards">Lombard</a> king <a href="/wiki/Wacho" title="Wacho">Wacho</a> (c.&#8201;510–540),<sup id="cite_ref-FOOTNOTEJarnut2009279_5-0" class="reference"><a href="#cite_note-FOOTNOTEJarnut2009279-5">&#91;5&#93;</a></sup> a fact attested in all three of the main Lombard chronicles (two of which specify that he was king of the Thuringians).<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup><sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup> Menia later married a man (unnamed in the sources) of the <a href="/wiki/Gausian_dynasty" title="Gausian dynasty">Gausus family</a> and became the mother of <a href="/wiki/Audoin" title="Audoin">Audoin</a>, who in 540 became the regent of Wacho's son by his third wife, <a href="/wiki/Walthari" title="Walthari">Walthari</a>, and then succeeded him to the throne in 546.<sup id="cite_ref-FOOTNOTEJarnut2009281_2-1" class="reference"><a href="#cite_note-FOOTNOTEJarnut2009281-2">&#91;2&#93;</a></sup>
+</p><p>Bisinus was also the father of the three brothers who ruled Thuringia in the 520s and 530s: <a href="/wiki/Hermanafrid" title="Hermanafrid">Hermanafrid</a>, <a href="/wiki/Bertachar" title="Bertachar">Bertachar</a> and <a href="/wiki/Baderich" class="mw-redirect" title="Baderich">Baderich</a>.<sup id="cite_ref-FOOTNOTEJarnut2009288,_contains_a_family_tree._9-0" class="reference"><a href="#cite_note-FOOTNOTEJarnut2009288,_contains_a_family_tree.-9">&#91;9&#93;</a></sup> Bertachar had a daughter, <a href="/wiki/Radegund" title="Radegund">Radegund</a>, who founded <a href="/wiki/Holy_Cross_Abbey_(Poitiers)" title="Holy Cross Abbey (Poitiers)">Holy Cross Abbey</a> in Poitiers and was recognised as a saint. She died in 587. Two hagiographies of her were produced by her friends <a href="/wiki/Baudovinia" title="Baudovinia">Baudovinia</a> and <a href="/wiki/Venantius_Fortunatus" title="Venantius Fortunatus">Venantius Fortunatus</a>.<sup id="cite_ref-FOOTNOTEHalsall2001125_10-0" class="reference"><a href="#cite_note-FOOTNOTEHalsall2001125-10">&#91;10&#93;</a></sup><sup id="cite_ref-FOOTNOTEJarnut2009283–84_11-0" class="reference"><a href="#cite_note-FOOTNOTEJarnut2009283–84-11">&#91;11&#93;</a></sup> Fortunatus specifies that she was "from the Thuringian region", a daughter of King Bertachar and granddaughter of King Bisinus.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup>
+</p><p>While most scholars accept that the Thuringian kings called Bisinus in the Frankish sources and Pissa in the Lombard ones are one and the same, Martina Hartmann rejects the identification and points out that the <i><a href="/wiki/Prosopography_of_the_Later_Roman_Empire" title="Prosopography of the Later Roman Empire">Prosopography of the Later Roman Empire</a></i> makes no such identification either.<sup id="cite_ref-FOOTNOTEHartmann200962,_yet_see_p._13,_where_she_rejects_Bisinus&#39;_marriage_to_Basina_on_the_grounds_that_he_was_the_husband_of_Menia_13-0" class="reference"><a href="#cite_note-FOOTNOTEHartmann200962,_yet_see_p._13,_where_she_rejects_Bisinus&#39;_marriage_to_Basina_on_the_grounds_that_he_was_the_husband_of_Menia-13">&#91;13&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Gregory_of_Tours">Gregory of Tours</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Bisinus&amp;action=edit&amp;section=2" title="Edit section: Gregory of Tours">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:MajorianEmpire.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/02/MajorianEmpire.png/220px-MajorianEmpire.png" decoding="async" width="220" height="250" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/02/MajorianEmpire.png/330px-MajorianEmpire.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/02/MajorianEmpire.png/440px-MajorianEmpire.png 2x" data-file-width="1220" data-file-height="1385" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:MajorianEmpire.png" class="internal" title="Enlarge"></a></div>Roman Empire under Majorian, with Frankish Kingdom and Thuringians.</div></div></div>
+<p><a href="/wiki/Gregory_of_Tours" title="Gregory of Tours">Gregory of Tours</a>, writing in the last quarter of the 6th century, says that when the <a href="/wiki/Franks" title="Franks">Franks</a> rebelled against their king, <a href="/wiki/Childeric_I" title="Childeric I">Childeric I</a>, who was accused of seducing their daughters, he went into exile at the court of Bisinus in Thuringia for eight years. In his absence, the Franks elected the Roman commander <a href="/wiki/Aegidius" title="Aegidius">Aegidius</a> as their king.<sup id="cite_ref-FOOTNOTEJames201480_14-0" class="reference"><a href="#cite_note-FOOTNOTEJames201480-14">&#91;14&#93;</a></sup> Childeric's exile corresponds to the period between Aegidius' appointment as <a href="/wiki/Magister_militum_per_Gallias" class="mw-redirect" title="Magister militum per Gallias"><i>magister militum</i> for Gaul</a> in 456 or 457 and his death in 465.<sup id="cite_ref-FOOTNOTEJames201480_14-1" class="reference"><a href="#cite_note-FOOTNOTEJames201480-14">&#91;14&#93;</a></sup><sup id="cite_ref-FOOTNOTEMartindale1980244,_dates_the_exile_to_c.&amp;thinsp;456–c.&amp;thinsp;464_15-0" class="reference"><a href="#cite_note-FOOTNOTEMartindale1980244,_dates_the_exile_to_c.&amp;thinsp;456–c.&amp;thinsp;464-15">&#91;15&#93;</a></sup> When Childeric returned from exile, Bisinus' wife <a href="/wiki/Basina,_Queen_of_Thuringia" class="mw-redirect" title="Basina, Queen of Thuringia">Basina</a> abandoned her husband to go with him. She became his wife and the mother of <a href="/wiki/Clovis_I" title="Clovis I">Clovis I</a>.<sup id="cite_ref-FOOTNOTEJames201480_14-2" class="reference"><a href="#cite_note-FOOTNOTEJames201480-14">&#91;14&#93;</a></sup> Gregory does not describe Bisinus as king of the Thuringians or even as a Thuringian himself, but as king "in Thuringia".<sup id="cite_ref-FOOTNOTENeumeister201490:_&#39;&#39;in_Thuringiam_..._regem_Bysinum&#39;&#39;_16-0" class="reference"><a href="#cite_note-FOOTNOTENeumeister201490:_&#39;&#39;in_Thuringiam_..._regem_Bysinum&#39;&#39;-16">&#91;16&#93;</a></sup> Gregory's account was used by the authors of the 7th-century <i><a href="/wiki/Chronicle_of_Fredegar" title="Chronicle of Fredegar">Chronicle of Fredegar</a></i><sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup> and the 8th-century <i><a href="/wiki/Liber_Historiae_Francorum" title="Liber Historiae Francorum">Book of the History of the Franks</a></i>.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup>
+</p><p>Scholars have been skeptical of Gregory's account. It has been called a "folk tale", albeit one that corresponds well chronologically to the dates of Aegidius' magistracy.<sup id="cite_ref-FOOTNOTEJames201480_14-3" class="reference"><a href="#cite_note-FOOTNOTEJames201480-14">&#91;14&#93;</a></sup> It has been suggested that Gregory in fact confused the <a href="/wiki/Civitas_Tungrorum" title="Civitas Tungrorum">civitas Tungrorum</a> (today <a href="/wiki/Tongeren" title="Tongeren">Tongeren</a>) in northern Gaul with Thuringia and that Childeric was exiled to Tongeren. It has even been suggested that Gregory, knowing only that the name of Clovis' mother was Basina and that an early king of Thuringia was named Bisinus, invented the relationship between Basina and Bisinus based on the similarity of their names (having already, possibly erroneously, presumed the location of exile to be Thuringia).<sup id="cite_ref-FOOTNOTEHalsall2001125_10-1" class="reference"><a href="#cite_note-FOOTNOTEHalsall2001125-10">&#91;10&#93;</a></sup> Although most scholars accept Childeric's exile as historical, Berthold Schmidt rejected Gregory's entire account of it as a fiction.<sup id="cite_ref-FOOTNOTEHalsall2010196_19-0" class="reference"><a href="#cite_note-FOOTNOTEHalsall2010196-19">&#91;19&#93;</a></sup>
+</p><p>It is highly unlikely (but not impossible) that the Bisinus of Gregory and the Bisinus of the Lombard chronicles are one and the same.<sup id="cite_ref-FOOTNOTEJarnut2009281_2-2" class="reference"><a href="#cite_note-FOOTNOTEJarnut2009281-2">&#91;2&#93;</a></sup> In that case Bisinus would have been married to Basina almost eighty years before his youngest son's death in battle and had a living grandchild in 587.<sup id="cite_ref-FOOTNOTEHalsall2010196_19-1" class="reference"><a href="#cite_note-FOOTNOTEHalsall2010196-19">&#91;19&#93;</a></sup><sup id="cite_ref-FOOTNOTEMladjov2014564,_presents_a_genealogical_reconstruction_in_which_Bisinus_married_first_Basina_and_had_his_sons_by_her_before_marrying_Menia,_by_whom_he_had_Radegund,_who_is_presented_as_his_daughter_rather_than_granddaughter_20-0" class="reference"><a href="#cite_note-FOOTNOTEMladjov2014564,_presents_a_genealogical_reconstruction_in_which_Bisinus_married_first_Basina_and_had_his_sons_by_her_before_marrying_Menia,_by_whom_he_had_Radegund,_who_is_presented_as_his_daughter_rather_than_granddaughter-20">&#91;20&#93;</a></sup> Taking Gregory's account as historical, it has been suggested therefore that there were in fact two kings named Bisinus. Bisinus (II), husband of Menia, may then have been the nephew of Bisinus (I), husband of Basina.<sup id="cite_ref-FOOTNOTEJarnut2009288,_contains_a_family_tree._9-1" class="reference"><a href="#cite_note-FOOTNOTEJarnut2009288,_contains_a_family_tree.-9">&#91;9&#93;</a></sup> The alternative is that Gregory misused the name of the historical Bisinus, husband of Menia and grandfather of Radegund, in reconstructing the events of the 460s.<sup id="cite_ref-FOOTNOTEHalsall2001125_10-2" class="reference"><a href="#cite_note-FOOTNOTEHalsall2001125-10">&#91;10&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Location_of_kingdom">Location of kingdom</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Bisinus&amp;action=edit&amp;section=3" title="Edit section: Location of kingdom">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The location of Bisinus' kingdom is a matter of some debate. Usually it is located in the place of present-day <a href="/wiki/Thuringia" title="Thuringia">Thuringia</a>, well to the east of the <a href="/wiki/Rhine" title="Rhine">Rhine</a>. An artefact that may be associated with Basina was found in the vicinity of <a href="/wiki/Weimar" title="Weimar">Weimar</a>: a silver ladle engraved with the name Basena that may date to the 5th century.<sup id="cite_ref-FOOTNOTEWood199437–40_21-0" class="reference"><a href="#cite_note-FOOTNOTEWood199437–40-21">&#91;21&#93;</a></sup> The heartland of 5th-century Thuringia, however, may have initially been west of the Rhine, with the kingdom only expanding eastward in the decades after Bisinus' reign. The 12th-century <i><a href="/wiki/Liber_de_compositione_castri_Ambaziae_et_ipsius_dominorum_gesta" title="Liber de compositione castri Ambaziae et ipsius dominorum gesta">Liber de compositione castri Ambaziae et ipsius dominorum gesta</a></i> records that Bisinus' territory lay on the banks of the <a href="/wiki/Sa%C3%B4ne" title="Saône">Saône</a> between <a href="/wiki/Toul" title="Toul">Toul</a> and <a href="/wiki/Lyon" title="Lyon">Lyon</a>. It also refers to Bisinus as a <i><a href="/wiki/Dux" title="Dux">dux</a></i> (duke) only and not as a king.<sup id="cite_ref-FOOTNOTENeumeister201488:_&#39;&#39;Bissinus_iste_terram_suam_super_Sunnam_fluvium,_qui_alio_nomine_Arar_dictur,_a_Tullo_usque_Lugdunum_possidebat&#39;&#39;_22-0" class="reference"><a href="#cite_note-FOOTNOTENeumeister201488:_&#39;&#39;Bissinus_iste_terram_suam_super_Sunnam_fluvium,_qui_alio_nomine_Arar_dictur,_a_Tullo_usque_Lugdunum_possidebat&#39;&#39;-22">&#91;22&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Bisinus&amp;action=edit&amp;section=4" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-FOOTNOTEWeddige198910-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWeddige198910_1-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeddige1989">Weddige 1989</a>, p.&#160;10.</span>
+</li>
+<li id="cite_note-FOOTNOTEJarnut2009281-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEJarnut2009281_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEJarnut2009281_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-FOOTNOTEJarnut2009281_2-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFJarnut2009">Jarnut 2009</a>, p.&#160;281.</span>
+</li>
+<li id="cite_note-FOOTNOTEGrierson194119n-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEGrierson194119n_3-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFGrierson1941">Grierson 1941</a>, p.&#160;19n.</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><i>Historia Langobardorum codicis Gothani</i>, p. 9: <i>Mater autem Audoin nomine Menia uxor fuit Pissae regis</i>.</span>
+</li>
+<li id="cite_note-FOOTNOTEJarnut2009279-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEJarnut2009279_5-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFJarnut2009">Jarnut 2009</a>, p.&#160;279.</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><i><a href="/wiki/Origo_Gentis_Langobardorum" title="Origo Gentis Langobardorum">Origo Gentis Langobardorum</a></i>, p. 4: <i>Raicundam, filia Fisud [Fisut] regis Turingorum</i>.</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><i>Historia Langobardorum codicis Gothani</i>, p. 9: <i>Ranigunda, filia Pisen regi Turingorum</i>.</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><i><a href="/wiki/Historia_Langobardorum" class="mw-redirect" title="Historia Langobardorum">Historia Langobardorum</a></i>, p. 60: <i>Habuit autem Waccho uxores tres, hoc est primam Ranicundam, filiam regis Turingorum</i>.</span>
+</li>
+<li id="cite_note-FOOTNOTEJarnut2009288,_contains_a_family_tree.-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEJarnut2009288,_contains_a_family_tree._9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEJarnut2009288,_contains_a_family_tree._9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFJarnut2009">Jarnut 2009</a>, p.&#160;288, contains a family tree..</span>
+</li>
+<li id="cite_note-FOOTNOTEHalsall2001125-10"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEHalsall2001125_10-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEHalsall2001125_10-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-FOOTNOTEHalsall2001125_10-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFHalsall2001">Halsall 2001</a>, p.&#160;125.</span>
+</li>
+<li id="cite_note-FOOTNOTEJarnut2009283–84-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEJarnut2009283–84_11-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFJarnut2009">Jarnut 2009</a>, pp.&#160;283–84.</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">Fortunatus, p. 365: <i>Beatissima igitur Radegundis natione barbara de regione Thoringa, avo rege Bessino, patruo Hermenfredo, patre rege Bertechario</i>.</span>
+</li>
+<li id="cite_note-FOOTNOTEHartmann200962,_yet_see_p._13,_where_she_rejects_Bisinus&#39;_marriage_to_Basina_on_the_grounds_that_he_was_the_husband_of_Menia-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEHartmann200962,_yet_see_p._13,_where_she_rejects_Bisinus&#39;_marriage_to_Basina_on_the_grounds_that_he_was_the_husband_of_Menia_13-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFHartmann2009">Hartmann 2009</a>, p.&#160;62, yet see p. 13, where she rejects Bisinus' marriage to Basina on the grounds that he was the husband of Menia.</span>
+</li>
+<li id="cite_note-FOOTNOTEJames201480-14"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEJames201480_14-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEJames201480_14-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-FOOTNOTEJames201480_14-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-FOOTNOTEJames201480_14-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFJames2014">James 2014</a>, p.&#160;80.</span>
+</li>
+<li id="cite_note-FOOTNOTEMartindale1980244,_dates_the_exile_to_c.&amp;thinsp;456–c.&amp;thinsp;464-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEMartindale1980244,_dates_the_exile_to_c.&amp;thinsp;456–c.&amp;thinsp;464_15-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFMartindale1980">Martindale 1980</a>, p.&#160;244, dates the exile to c.&#8201;456–c.&#8201;464.</span>
+</li>
+<li id="cite_note-FOOTNOTENeumeister201490:_&#39;&#39;in_Thuringiam_..._regem_Bysinum&#39;&#39;-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTENeumeister201490:_&#39;&#39;in_Thuringiam_..._regem_Bysinum&#39;&#39;_16-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFNeumeister2014">Neumeister 2014</a>, p.&#160;90: <i>in Thuringiam ... regem Bysinum</i>.</span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text">Pseudo-Fredegar, pp. 95 and 97.</span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><i>Liber Historiae Francorum</i>, pp. 248–49, uses the spelling Bisinus.</span>
+</li>
+<li id="cite_note-FOOTNOTEHalsall2010196-19"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEHalsall2010196_19-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEHalsall2010196_19-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFHalsall2010">Halsall 2010</a>, p.&#160;196.</span>
+</li>
+<li id="cite_note-FOOTNOTEMladjov2014564,_presents_a_genealogical_reconstruction_in_which_Bisinus_married_first_Basina_and_had_his_sons_by_her_before_marrying_Menia,_by_whom_he_had_Radegund,_who_is_presented_as_his_daughter_rather_than_granddaughter-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEMladjov2014564,_presents_a_genealogical_reconstruction_in_which_Bisinus_married_first_Basina_and_had_his_sons_by_her_before_marrying_Menia,_by_whom_he_had_Radegund,_who_is_presented_as_his_daughter_rather_than_granddaughter_20-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFMladjov2014">Mladjov 2014</a>, p.&#160;564, presents a genealogical reconstruction in which Bisinus married first Basina and had his sons by her before marrying Menia, by whom he had Radegund, who is presented as his daughter rather than granddaughter.</span>
+</li>
+<li id="cite_note-FOOTNOTEWood199437–40-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWood199437–40_21-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWood1994">Wood 1994</a>, pp.&#160;37–40.</span>
+</li>
+<li id="cite_note-FOOTNOTENeumeister201488:_&#39;&#39;Bissinus_iste_terram_suam_super_Sunnam_fluvium,_qui_alio_nomine_Arar_dictur,_a_Tullo_usque_Lugdunum_possidebat&#39;&#39;-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTENeumeister201488:_&#39;&#39;Bissinus_iste_terram_suam_super_Sunnam_fluvium,_qui_alio_nomine_Arar_dictur,_a_Tullo_usque_Lugdunum_possidebat&#39;&#39;_22-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFNeumeister2014">Neumeister 2014</a>, p.&#160;88: <i>Bissinus iste terram suam super Sunnam fluvium, qui alio nomine Arar dictur, a Tullo usque Lugdunum possidebat</i>.</span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="Sources">Sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Bisinus&amp;action=edit&amp;section=5" title="Edit section: Sources">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<dl><dt>Primary sources</dt></dl>
+<style data-mw-deduplicate="TemplateStyles:r1054258005">.mw-parser-output .refbegin{font-size:90%;margin-bottom:0.5em}.mw-parser-output .refbegin-hanging-indents>ul{margin-left:0}.mw-parser-output .refbegin-hanging-indents>ul>li{margin-left:0;padding-left:3.2em;text-indent:-3.2em}.mw-parser-output .refbegin-hanging-indents ul,.mw-parser-output .refbegin-hanging-indents ul li{list-style:none}@media(max-width:720px){.mw-parser-output .refbegin-hanging-indents>ul>li{padding-left:1.6em;text-indent:-1.6em}}.mw-parser-output .refbegin-columns{margin-top:0.3em}.mw-parser-output .refbegin-columns ul{margin-top:0}.mw-parser-output .refbegin-columns li{page-break-inside:avoid;break-inside:avoid-column}</style><div class="refbegin" style="">
+<ul><li><a href="/wiki/Gregorius_Turonensis" class="mw-redirect" title="Gregorius Turonensis">Gregorius Turonensis</a>, <a rel="nofollow" class="external text" href="http://www.mgh.de/dmgh/resolving/MGH_SS_rer._Merov._1,1_S._II"><i>Libri Historiarum X</i></a>, eds. Bruno Krusch and <a href="/wiki/Wilhelm_Levison" title="Wilhelm Levison">Wilhelm Levison</a>. MGH SS rer. Merov. 1, 1 (Hanover, 1951 [1885]).</li>
+<li><a rel="nofollow" class="external text" href="http://www.mgh.de/dmgh/resolving/MGH_SS_rer._Lang._1_S._7"><i>Historia Langobardorum codicis Gothani</i></a>, ed. <a href="/wiki/Georg_Waitz" title="Georg Waitz">Georg Waitz</a>. <a href="/wiki/Monumenta_Germaniae_Historica" title="Monumenta Germaniae Historica">MGH</a> SS rer. Lang. (Hanover, 1878), 7–11.</li>
+<li><a rel="nofollow" class="external text" href="http://www.mgh.de/dmgh/resolving/MGH_SS_rer._Merov._2_S._215"><i>Liber Historiae Francorum</i></a>, ed. Bruno Krusch. MGH SS rer. Merov. 2 (Hanover, 1888), 215–328.</li>
+<li><a rel="nofollow" class="external text" href="http://www.mgh.de/dmgh/resolving/MGH_SS_rer._Lang._1_S._1"><i>Origo Gentis Langobardorum</i></a>, ed. Georg Waitz. MGH SS rer. Lang. (Hanover, 1878), 1–6.</li>
+<li><a href="/wiki/Paul_the_Deacon" title="Paul the Deacon">Paulus Diaconus</a>, <a rel="nofollow" class="external text" href="http://www.mgh.de/dmgh/resolving/MGH_SS_rer._Lang._1_S._12"><i>Historia Langobardorum</i></a>, ed. Georg Waitz. MGH SS rer. Lang. (Hanover, 1878), 12–187.</li>
+<li><a href="/wiki/Pseudo-Fredegar" class="mw-redirect" title="Pseudo-Fredegar">Pseudo-Fredegar</a>, <a rel="nofollow" class="external text" href="http://www.mgh.de/dmgh/resolving/MGH_SS_rer._Merov._2_S._1"><i>Chronicarum quae dicuntur Fredegarii scholastici libri IV</i></a>, ed. Bruno Krusch. MGH SS rer. Merov. 2 (Hanover, 1888), 1–193.</li>
+<li><a href="/wiki/Venantius_Fortunatus" title="Venantius Fortunatus">Venantius Honoricus Clementianus Fortunatus</a>, <a rel="nofollow" class="external text" href="http://www.mgh.de/dmgh/resolving/MGH_SS_rer._Merov._2_S._364"><i>Vita Sanctae Radegundis</i></a>, ed. Bruno Krusch. MGH SS rer. Merov. 2 (Hanover, 1888), 364–377.</li></ul>
+</div>
+<dl><dt>Secondary sources</dt></dl>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1054258005"/><div class="refbegin" style="">
+<ul><li><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFGrierson1941" class="citation journal cs1"><a href="/wiki/Philip_Grierson" title="Philip Grierson">Grierson, Philip</a> (1941). "Election and Inheritance in Early Germanic Kingship". <i>Cambridge Historical Journal</i>. <b>7</b> (1): 1–22. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1017%2Fs1474691300003425">10.1017/s1474691300003425</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Cambridge+Historical+Journal&amp;rft.atitle=Election+and+Inheritance+in+Early+Germanic+Kingship&amp;rft.volume=7&amp;rft.issue=1&amp;rft.pages=1-22&amp;rft.date=1941&amp;rft_id=info%3Adoi%2F10.1017%2Fs1474691300003425&amp;rft.aulast=Grierson&amp;rft.aufirst=Philip&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHalsall2001" class="citation book cs1"><a href="/wiki/Guy_Halsall" title="Guy Halsall">Halsall, Guy</a> (2001). "Childeric's Grave, Clovis' Succession, and the Origins of the Merovingian Kingdom".  In Ralph Mathisen; Danuta Shanzer (eds.). <i>Society and Culture in Late Antique Gaul</i>. Routledge. pp.&#160;130–147.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Childeric%27s+Grave%2C+Clovis%27+Succession%2C+and+the+Origins+of+the+Merovingian+Kingdom&amp;rft.btitle=Society+and+Culture+in+Late+Antique+Gaul&amp;rft.pages=130-147&amp;rft.pub=Routledge&amp;rft.date=2001&amp;rft.aulast=Halsall&amp;rft.aufirst=Guy&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHalsall2010" class="citation book cs1">Halsall, Guy (2010). "Commentary Three: Once More Unto Saint-Brice".  In Guy Halsall (ed.). <i>Cemeteries and Society in Merovingian Gaul: Selected Studies in History and Archaeology, 1992–2009</i>. Brill. pp.&#160;188–197.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Commentary+Three%3A+Once+More+Unto+Saint-Brice&amp;rft.btitle=Cemeteries+and+Society+in+Merovingian+Gaul%3A+Selected+Studies+in+History+and+Archaeology%2C+1992%E2%80%932009&amp;rft.pages=188-197&amp;rft.pub=Brill&amp;rft.date=2010&amp;rft.aulast=Halsall&amp;rft.aufirst=Guy&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHartmann2009" class="citation book cs1">Hartmann, Martina (2009). <i>Die Königin im frühen Mittelalter</i>. <a href="/wiki/Kohlhammer_Verlag" title="Kohlhammer Verlag">Kohlhammer Verlag</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Die+K%C3%B6nigin+im+fr%C3%BChen+Mittelalter&amp;rft.pub=Kohlhammer+Verlag&amp;rft.date=2009&amp;rft.aulast=Hartmann&amp;rft.aufirst=Martina&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFJames2014" class="citation book cs1"><a href="/wiki/Edward_James_(historian)" title="Edward James (historian)">James, Edward</a> (2014) [2009]. <i>Europe's Barbarians, AD 200–600</i>. Routledge.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Europe%27s+Barbarians%2C+AD+200%E2%80%93600&amp;rft.pub=Routledge&amp;rft.date=2014&amp;rft.aulast=James&amp;rft.aufirst=Edward&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFJarnut2009" class="citation book cs1">Jarnut, Jörg (2009). "Thüringer und Langobarden im 6. und beginnenden 7. Jahrhundert".  In Helmut Castritius; Dieter Geuenich; Matthias Werner (eds.). <i>Die Frühzeit der Thüringer: Archäologie, Sprache, Geschichte</i>. De Gruyter. pp.&#160;279–290.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Th%C3%BCringer+und+Langobarden+im+6.+und+beginnenden+7.+Jahrhundert&amp;rft.btitle=Die+Fr%C3%BChzeit+der+Th%C3%BCringer%3A+Arch%C3%A4ologie%2C+Sprache%2C+Geschichte&amp;rft.pages=279-290&amp;rft.pub=De+Gruyter&amp;rft.date=2009&amp;rft.aulast=Jarnut&amp;rft.aufirst=J%C3%B6rg&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFJoye2005" class="citation journal cs1">Joye, Sylvie (2005). "Basine, Radegonde et la Thuringe chez Grégoire de Tours". <i>Francia</i>. <b>32</b> (1): 1–18.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Francia&amp;rft.atitle=Basine%2C+Radegonde+et+la+Thuringe+chez+Gr%C3%A9goire+de+Tours&amp;rft.volume=32&amp;rft.issue=1&amp;rft.pages=1-18&amp;rft.date=2005&amp;rft.aulast=Joye&amp;rft.aufirst=Sylvie&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFMartindale1980" class="citation book cs1">Martindale, J. R., ed. (1980). <i>The Prosopography of the Later Roman Empire: Volume 2, AD 395–527</i>. Cambridge University Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Prosopography+of+the+Later+Roman+Empire%3A+Volume+2%2C+AD+395%E2%80%93527&amp;rft.pub=Cambridge+University+Press&amp;rft.date=1980&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFMladjov2014" class="citation book cs1">Mladjov, Ian (2014). "Barbarian Genealogies".  In H. B. Dewing (trans.); Anthony Kaldellis (eds.). <i>The Wars of Justinian by Prokopios</i>. Hackett. pp.&#160;560–566.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Barbarian+Genealogies&amp;rft.btitle=The+Wars+of+Justinian+by+Prokopios&amp;rft.pages=560-566&amp;rft.pub=Hackett&amp;rft.date=2014&amp;rft.aulast=Mladjov&amp;rft.aufirst=Ian&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFNeumeister2014" class="citation book cs1">Neumeister, Peter (2014). "The Ancient Thuringians: Problems of Names and Family Connections".  In Janine Fries-Knoblach; Heiko Steuer; John Hines (eds.). <i>The Baiuvarii and Thuringi: An Ethnographic Perspective</i>. Boydell. pp.&#160;83–102.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=The+Ancient+Thuringians%3A+Problems+of+Names+and+Family+Connections&amp;rft.btitle=The+Baiuvarii+and+Thuringi%3A+An+Ethnographic+Perspective&amp;rft.pages=83-102&amp;rft.pub=Boydell&amp;rft.date=2014&amp;rft.aulast=Neumeister&amp;rft.aufirst=Peter&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFSteuer2009" class="citation book cs1"><a href="/wiki/Heiko_Steuer" title="Heiko Steuer">Steuer, Heiko</a> (2009). "Die Herrschaftssitze der Thüringer".  In Helmut Castritius; Dieter Geuenich; Matthias Werner (eds.). <i>Die Frühzeit der Thüringer: Archäologie, Sprache, Geschichte</i>. De Gruyter. pp.&#160;201–234.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Die+Herrschaftssitze+der+Th%C3%BCringer&amp;rft.btitle=Die+Fr%C3%BChzeit+der+Th%C3%BCringer%3A+Arch%C3%A4ologie%2C+Sprache%2C+Geschichte&amp;rft.pages=201-234&amp;rft.pub=De+Gruyter&amp;rft.date=2009&amp;rft.aulast=Steuer&amp;rft.aufirst=Heiko&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFWeddige1989" class="citation book cs1">Weddige, Hilkert (1989). <i>Heldensage und Stammessage: Iring und der Untergang des Thüringerreiches in Historiographie und heroischer Dichtung</i>. Max Niemeyer.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Heldensage+und+Stammessage%3A+Iring+und+der+Untergang+des+Th%C3%BCringerreiches+in+Historiographie+und+heroischer+Dichtung&amp;rft.pub=Max+Niemeyer&amp;rft.date=1989&amp;rft.aulast=Weddige&amp;rft.aufirst=Hilkert&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFWood1994" class="citation book cs1"><a href="/wiki/Ian_N._Wood" title="Ian N. Wood">Wood, Ian N.</a> (1994). <i>The Merovingian Kingdoms, 450–751</i>. Harlow: Longman.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Merovingian+Kingdoms%2C+450%E2%80%93751&amp;rft.place=Harlow&amp;rft.pub=Longman&amp;rft.date=1994&amp;rft.aulast=Wood&amp;rft.aufirst=Ian+N.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABisinus" class="Z3988"></span></li></ul>
+</div>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q532749#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q532749#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q532749#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/90848877">1</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/containsVIAFID/90848877">WorldCat (via VIAF)</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/138571384">Germany</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd138571384.html?language=en">Germany</a></span></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1481
+Cached time: 20230207175453
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.326 seconds
+Real time usage: 0.387 seconds
+Preprocessor visited node count: 2146/1000000
+Post‐expand include size: 28026/2097152 bytes
+Template argument size: 2034/2097152 bytes
+Highest expansion depth: 8/100
+Expensive parser function count: 4/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 41084/5000000 bytes
+Lua time usage: 0.224/10.000 seconds
+Lua memory usage: 7307874/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  349.845      1 -total
+ 26.05%   91.131     24 Template:Sfn
+ 20.74%   72.573      1 Template:Authority_control
+ 16.59%   58.038      2 Template:Cite_journal
+ 14.12%   49.388      1 Template:Short_description
+ 13.35%   46.716     11 Template:Cite_book
+  7.59%   26.542      2 Template:Pagetype
+  4.98%   17.413      1 Template:Reflist
+  4.53%   15.864     27 Template:Main_other
+  2.86%    9.992      1 Template:SDcat
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:12820663-0!canonical and timestamp 20230207175453 and revision id 1077738734. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Bisinus&amp;oldid=1077738734">https://en.wikipedia.org/w/index.php?title=Bisinus&amp;oldid=1077738734</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Rulers_of_Thuringia" title="Category:Rulers of Thuringia">Rulers of Thuringia</a></li><li><a href="/wiki/Category:5th-century_monarchs_in_Europe" title="Category:5th-century monarchs in Europe">5th-century monarchs in Europe</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat-VIAF_identifiers" title="Category:Articles with WorldCat-VIAF identifiers">Articles with WorldCat-VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Year_of_birth_unknown" title="Category:Year of birth unknown">Year of birth unknown</a></li><li><a href="/wiki/Category:Year_of_death_unknown" title="Category:Year of death unknown">Year of death unknown</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 17 March 2022, at 23:39<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Bisinus&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.326","walltime":"0.387","ppvisitednodes":{"value":2146,"limit":1000000},"postexpandincludesize":{"value":28026,"limit":2097152},"templateargumentsize":{"value":2034,"limit":2097152},"expansiondepth":{"value":8,"limit":100},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":41084,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  349.845      1 -total"," 26.05%   91.131     24 Template:Sfn"," 20.74%   72.573      1 Template:Authority_control"," 16.59%   58.038      2 Template:Cite_journal"," 14.12%   49.388      1 Template:Short_description"," 13.35%   46.716     11 Template:Cite_book","  7.59%   26.542      2 Template:Pagetype","  4.98%   17.413      1 Template:Reflist","  4.53%   15.864     27 Template:Main_other","  2.86%    9.992      1 Template:SDcat"]},"scribunto":{"limitreport-timeusage":{"value":"0.224","limit":"10.000"},"limitreport-memusage":{"value":7307874,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n    [\"CITEREFGrierson1941\"] = 1,\n    [\"CITEREFHalsall2001\"] = 1,\n    [\"CITEREFHalsall2010\"] = 1,\n    [\"CITEREFHartmann2009\"] = 1,\n    [\"CITEREFJames2014\"] = 1,\n    [\"CITEREFJarnut2009\"] = 1,\n    [\"CITEREFJoye2005\"] = 1,\n    [\"CITEREFMartindale1980\"] = 1,\n    [\"CITEREFMladjov2014\"] = 1,\n    [\"CITEREFNeumeister2014\"] = 1,\n    [\"CITEREFSteuer2009\"] = 1,\n    [\"CITEREFWeddige1989\"] = 1,\n    [\"CITEREFWood1994\"] = 1,\n}\ntemplate_list = table#1 {\n    [\"Authority control\"] = 1,\n    [\"Cite book\"] = 11,\n    [\"Cite journal\"] = 2,\n    [\"DEFAULTSORT:Bisinus\"] = 1,\n    [\"Refbegin\"] = 2,\n    [\"Refend\"] = 2,\n    [\"Reflist\"] = 1,\n    [\"Sfn\"] = 24,\n    [\"Short description\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw1481","timestamp":"20230207175453","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Bisinus","url":"https:\/\/en.wikipedia.org\/wiki\/Bisinus","sameAs":"http:\/\/www.wikidata.org\/entity\/Q532749","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q532749","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-08-18T04:45:45Z","dateModified":"2022-03-17T23:39:53Z","headline":"King of Thuringia"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Bisinus","url":"https:\/\/en.wikipedia.org\/wiki\/Bisinus","sameAs":"http:\/\/www.wikidata.org\/entity\/Q532749","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q532749","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-08-18T04:45:45Z","dateModified":"2022-03-17T23:39:53Z","headline":"King of Thuringia"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":102,"wgHostname":"mw2361"});});</script>
+</body>
+</html>

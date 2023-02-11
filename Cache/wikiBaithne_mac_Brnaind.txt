@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Baithéne mac Brénaind - Wikipedia</title>
+<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"59868670-3d1f-436a-b633-167b79369931",
+"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Baithéne_mac_Brénaind","wgTitle":"Baithéne mac Brénaind","wgCurRevisionId":1083397689,"wgRevisionId":1083397689,"wgArticleId":22244629,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from April 2022","Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference","Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference","6th-century Christian saints","6th-century Irish abbots","536 births","600 deaths","Abbots of Iona","Irish Christian monks","Irish expatriates in Scotland","Medieval Irish saints","Scottish Roman Catholic saints","Burials at Iona Abbey"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Baithéne_mac_Brénaind","wgRelevantArticleId":22244629,"wgIsProbablyEditable":true,
+"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q4848737","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":
+"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher",
+"ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Baithéne mac Brénaind - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Baith%C3%A9ne_mac_Br%C3%A9naind"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Baith%C3%A9ne_mac_Br%C3%A9naind"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Baithéne_mac_Brénaind rootpage-Baithéne_mac_Brénaind skin-vector-2022 action-view"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+	<div class="mw-page-container-inner">
+		<input
+			type="checkbox"
+			id="mw-sidebar-checkbox"
+			class="mw-checkbox-hack-checkbox"
+			>
+		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
+			<div class="vector-header-start">
+					<label
+				id="mw-sidebar-button"
+				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
+				for="mw-sidebar-checkbox"
+				role="button"
+				aria-controls="mw-panel"
+				data-event-name="ui.sidebar"
+				tabindex="0"
+				title="Main menu">
+				<span>Toggle sidebar</span>
+			</label>
+		
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia"
+			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline"
+			alt="The Free Encyclopedia"
+			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+			</div>
+			<div class="vector-header-end">
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search"
+	
+		
+		
+		
+		title="Search Wikipedia [f]"
+		accesskey="f"
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+		<span>Search</span>
+	</a>
+	
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-heading">
+		
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Baith%C3%A9ne+mac+Br%C3%A9naind" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
+		<input type="checkbox"
+			id="p-personal-checkbox"
+			role="button"
+			aria-haspopup="true"
+			data-event-name="ui.dropdown-p-personal"
+			class="vector-menu-checkbox "
+			
+			
+		/>
+		<label
+			id="p-personal-label"
+			for="p-personal-checkbox"
+			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
+			
+		>
+			<span class="vector-menu-heading-label">Personal tools</span>
+		</label>
+		<div class="vector-menu-content">
+	
+		<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Baith%C3%A9ne+mac+Br%C3%A9naind"
+	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
+</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
+	href="/w/index.php?title=Special:UserLogin&amp;returnto=Baith%C3%A9ne+mac+Br%C3%A9naind"
+	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
+</li></ul>
+	
+</div>
+
+		<div class="vector-user-menu-anon-editor">
+			<p>
+				Pages for logged out editors <a data-mw="interface"
+	href="/wiki/Help:Introduction"
+	 aria-label="Learn more about editing"><span>learn more</span></a>
+
+			</p>
+		</div>
+				<div class="vector-menu-content">
+	
+	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+	
+</div>
+
+	
+		</div>
+	</div></nav>
+
+			</div>
+		</header>
+		<div class="vector-main-menu-container vector-sidebar-container-no-toc">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+						
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	
+	
+<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
+	<div
+		id="p-navigation-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
+	<div
+		id="p-interaction-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Contribute</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
+	<div
+		id="p-tb-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Baith%C3%A9ne_mac_Br%C3%A9naind" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Baith%C3%A9ne_mac_Br%C3%A9naind" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;oldid=1083397689" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;id=1083397689&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q4848737" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div
+		id="p-coll-print_export-label"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">Print/export</span>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+				</nav>
+			</div>
+		</div>
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+		</nav>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<label
+						id="vector-toc-collapsed-button"
+						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						for="vector-toc-collapsed-checkbox"
+						role="button"
+						aria-controls="toc-toggle-list"
+						data-event-name="vector.toc-toggle-list"
+						tabindex="0"
+						title="Table of Contents">
+						Toggle the table of contents
+					</label>
+				
+					
+					
+				
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Baithéne mac Brénaind</span></h1>
+				
+							
+<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class="vector-menu-checkbox mw-interlanguage-selector"
+		aria-label="Go to an article in another language. Available in 2 languages"
+		
+	/>
+	<label
+		id="p-lang-btn-label"
+		for="p-lang-btn-checkbox"
+		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-2"
+		
+	>
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">2 languages</span>
+	</label>
+	<div class="vector-menu-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Baith%C3%A9ne_mac_Br%C3%A9nainn" title="Baithéne mac Brénainn – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Baith%C3%A9ne_mac_Br%C3%A9naind" title="Baithéne mac Brénaind – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li></ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q4848737#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+				</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Baith%C3%A9ne_mac_Br%C3%A9naind" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Baith%C3%A9ne_mac_Br%C3%A9naind" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		
+	</div>
+</div>
+
+								
+
+<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-label="Change language variant"
+		
+	/>
+	<label
+		id="p-variants-label"
+		for="p-variants-checkbox"
+		class="vector-menu-heading "
+		
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Baith%C3%A9ne_mac_Br%C3%A9naind"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="More options">
+								
+
+<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		
+		
+	/>
+	<label
+		id="p-cactions-label"
+		for="p-cactions-checkbox"
+		class="vector-menu-heading"
+		
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Baith%C3%A9ne_mac_Br%C3%A9naind"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+
+	</div>
+</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p class="mw-empty-elt">
+</p>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div style="display:inline;" class="fn">Saint Baithéne</div></th></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Abbot of Iona</th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">c. 534<br /><a href="/wiki/Ireland" title="Ireland">Ireland</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">c. 596-598<br /><a href="/wiki/Iona" title="Iona">Iona</a>, <a href="/wiki/Scotland" title="Scotland">Scotland</a></td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Roman_Catholic_Church" class="mw-redirect" title="Roman Catholic Church">Roman Catholic Church</a>, <a href="/wiki/Eastern_Orthodox_Church" title="Eastern Orthodox Church">Eastern Orthodox Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">9 June</td></tr></tbody></table>
+<p><b>Baithéne mac Brénaind</b> (also known as <b>Saint Baoithin</b> and <b>Saint Buadán</b>)<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> was an <a href="/wiki/Irish_people" title="Irish people">Irish</a> <a href="/wiki/Monk" title="Monk">monk</a>, one of Saint <a href="/wiki/Columba" title="Columba">Columba</a>'s followers who accompanied him to <a href="/wiki/Scotland" title="Scotland">Scotland</a> around 563, and was the first successor of the abbacy of <a href="/wiki/Iona" title="Iona">Iona</a>. The <a href="/wiki/Annals_of_Tigernach" title="Annals of Tigernach">Annals of Tigernach</a> record his birth in 534, and his death was likely between 596 and 598 according also to the <a href="/wiki/Annals_of_Ulster" title="Annals of Ulster">Annals of Ulster</a>. Irish genealogical records indicate him to be the "son of Brendan, son of Fergus, son of <a href="/wiki/Conall_Gulban" title="Conall Gulban">Conall Gulban</a>, son of <a href="/wiki/Niall_No%C3%ADgiallach" class="mw-redirect" title="Niall Noígiallach">Niall Noígiallach</a>",<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> thus being a member of the <a href="/wiki/Cen%C3%A9l_Conaill" class="mw-redirect" title="Cenél Conaill">Cenél Conaill</a> branch of the <a href="/wiki/Northern_U%C3%AD_N%C3%A9ill" title="Northern Uí Néill">Northern Uí Néill</a>, as the abbots of Iona following the death of <a href="/wiki/Columba" title="Columba">Columba</a> often were.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup><sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup><sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup><sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>
+</p><p>Baithéne is still venerated in Ireland, but is most heavily associated with <a href="/wiki/County_Donegal" title="County Donegal">county Donegal</a> where his cult was most active in <a href="/wiki/Taughboyne" title="Taughboyne">Taughboyne</a> and <a href="/wiki/Culdaff" title="Culdaff">Culdaff</a>. Celebrations of the saint in Donegal are ongoing, and a major celebration of the saint's 1400th death anniversary was celebrated in the parish of Taughboyne in 2000.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> Folklore about the saint from Donegal further refers to him using various variants of his name.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup>
+</p><p>There is also evidence of Baithéne being venerated as Saint Bathan and Baodáin in Scotland as <a href="/wiki/Abbey_St_Bathans" title="Abbey St Bathans">Abbey St Bathans</a> in <a href="/wiki/Berwickshire" title="Berwickshire">Berwickshire</a> (south east Scotland) is named after him, as well as several other place names.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup>
+</p><p>The earliest source for Baithéne is <a href="/wiki/Adomn%C3%A1n_of_Iona" class="mw-redirect" title="Adomnán of Iona">Adomnán of Iona</a>'s <i><a href="/wiki/Life_of_Columba" title="Life of Columba">Life of Columba</a></i> (Vita Columbae), in which he is featured as Columba's close companion and successor. Two 12th-13th century lives of Baithéne also survive in the <a href="/wiki/Codex_Salmanticensis" title="Codex Salmanticensis">Codex Salmanticensis</a> and <i>Codex Insulensis</i> but are heavily influenced by Adomnán's life.<sup id="cite_ref-auto_10-0" class="reference"><a href="#cite_note-auto-10">&#91;10&#93;</a></sup>
+</p><p>Baithéne is recorded in the four major Irish martyrologies as sharing his feast day with Columba on 9 June.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Companion_to_Columba">Companion to Columba</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;action=edit&amp;section=1" title="Edit section: Companion to Columba">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Baithéne is heavily featured in Adomnán's <i>Vita Columbae</i>, where he is featured as Columba's trusted companion and chosen successor.<sup id="cite_ref-Adomnán,_Vita_Columbae_I.2_12-0" class="reference"><a href="#cite_note-Adomnán,_Vita_Columbae_I.2-12">&#91;12&#93;</a></sup> He is called Columba's <i>alumnus</i>, which has variously been translated as 'foster-son' and 'disciple'.<sup id="cite_ref-Adomnán,_Vita_Columbae_I.2_12-1" class="reference"><a href="#cite_note-Adomnán,_Vita_Columbae_I.2-12">&#91;12&#93;</a></sup>
+</p><p>In one story, there was a very sinful man who came to Iona to request being a monk there, but Columba had foreseen how wicked this man was and said he should not be allowed to come. But when the man came, he said he wanted to see Columba, and Baithéne said that the man should be allowed to do penance and quoted the scriptures. To this, Columba responded that the man had murdered his brother and debauched his mother. When the man finally met Columba, Columba told him that he could do penance by living among the British for twelve years without returning to Ireland, but Columba foretold that he would not fulfill this and instead would return to his sinful ways and head to perdition. And the man did exactly as Columba foretold, going not to Britain but back to Ireland, where he was murdered.<sup id="cite_ref-auto_10-1" class="reference"><a href="#cite_note-auto-10">&#91;10&#93;</a></sup>
+</p><p>In another story, Baithéne asked Columba to give him a monk to help him go through the psalter and look for mistakes. Columba told him that there was no mistake in the psalter except that the letter I was missing in one place. And they went through the psalter and found that it was just as Columba had said.<sup id="cite_ref-auto_10-2" class="reference"><a href="#cite_note-auto-10">&#91;10&#93;</a></sup>
+</p><p>Another time, Adomnán mentions that Baithéne once visited the island of Eigg.
+</p><p>Baithéne also features on a list of twelve companions who followed Columba to Iona.<sup id="cite_ref-Adomnán&#39;s_Life_of_Columba_13-0" class="reference"><a href="#cite_note-Adomnán&#39;s_Life_of_Columba-13">&#91;13&#93;</a></sup> The list gives Baithéne an alternative name 'Conin' and it mentions that he had a brother called Cobthach.<sup id="cite_ref-Adomnán&#39;s_Life_of_Columba_13-1" class="reference"><a href="#cite_note-Adomnán&#39;s_Life_of_Columba-13">&#91;13&#93;</a></sup> It has been suggested that these have been fabricated to create a biblical parallel.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup>
+</p>
+<h2><span id="Iona.2C_Tiree.2C_and_Hinba"></span><span class="mw-headline" id="Iona,_Tiree,_and_Hinba">Iona, Tiree, and Hinba</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;action=edit&amp;section=2" title="Edit section: Iona, Tiree, and Hinba">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Baithéne's reign as abbot was fairly short as Columba died c. 597, and Baithéne's death is recorded as occurring c. 598, aged 66 according to the Annals of Clonmacnoise. No evident sources contemporaneous with Baithéne's abbacy survive.
+</p><p>Baithéne served as prior over a monastery connected to Iona on the island of Tiree.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;15&#93;</a></sup> The name of the place where his monastery was located on Tiree was Mag Luinge or Campus Luinge. The monastery was a house for penitents from Iona. Some historians have thought that it may have supplied food to Iona.<sup id="cite_ref-auto_10-3" class="reference"><a href="#cite_note-auto-10">&#91;10&#93;</a></sup>
+</p><p>Adomnán recorded a story about a voyage he took to the island, when Columba first told a monk who was heading to Tiree that he should not sail directly from Iona to Tiree, because a great whale would frighten him, but his did not listen to his advice and took the direct route, and a huge whale came out of the water and almost destroyed the boat, which terrified those in the boat. When Baithéne departed the following day to Tiree, Columba told him about the whale, and Baithéne responded that both he and the whale were in God's power, to which Columba responded 'Go in peace, your faith in Christ will shield you from danger'. And so Baithéne then took the direct route and the whale came out of the water which terrified all in the boat, except Baithéne, who used his hands to bless the sea and the whale, and the whale then went down into the water.<sup id="cite_ref-auto_10-4" class="reference"><a href="#cite_note-auto-10">&#91;10&#93;</a></sup>
+</p><p>Another story that Adomnán recorded held that Baithéne and <a href="/wiki/Colm%C3%A1n_Elo" title="Colmán Elo">Colmán Elo</a> both approached Columba one time to ask him to pray for a favourable wind on their respective journeys to Tiree and Ireland. Columba said that in the morning the wind would be favourable to travel to Tiree and in the afternoon the Lord would change it to make it favourable to travel to Ireland. And it happened just as Columba said.<sup id="cite_ref-auto_10-5" class="reference"><a href="#cite_note-auto-10">&#91;10&#93;</a></sup>
+</p><p>Another story that Admonan recorded held that one time Columba encountered an army of demons on Iona, and he fought them with the help of angels, such that the demons fled from Iona. But after they fled, they then went to Tiree and attacked the monks there, including the monastery at Mag Luinge headed by Baithéne. While many in the other monasteries died from diseases, which were caused by the demons, only one monk in Baithéne's monastery died and the rest were protected because of their prayer and fasting.<sup id="cite_ref-auto_10-6" class="reference"><a href="#cite_note-auto-10">&#91;10&#93;</a></sup>
+</p><p>Baithéne spent time as prior of Hinba.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup><sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup>
+</p><p>In one story, Adomnán claimed that Columba went to Hinba and relaxed the penitential rules on one occasion. However, one monk named Neman refused to abide by the relaxation. Columba rebuked him and said 'Neman, Baithéne and I have allowed a relaxation in the diet and you refuse it. But the time will come when in the company of thieves in the forest you will eat the flesh of a stolen mare'. This monk eventually left the monastery and went back into the world, and one day found himself among thieves eating such meat.<sup id="cite_ref-auto_10-7" class="reference"><a href="#cite_note-auto-10">&#91;10&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;action=edit&amp;section=3" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFÓ_Riain2011" class="citation book cs1">Ó Riain, Pádraig (2011). <i>A Dictionary of Irish Saints</i>. Four Courts Press. pp.&#160;88–9.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+Dictionary+of+Irish+Saints&amp;rft.pages=88-9&amp;rft.pub=Four+Courts+Press&amp;rft.date=2011&amp;rft.aulast=%C3%93+Riain&amp;rft.aufirst=P%C3%A1draig&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://archive.org/details/genealogiaeregum00walsuoft/page/38/mode/2up">"Genealogiae regum et sanctorum Hiberniae, by the Four Masters, edited from the manuscript of Míchél O Cléirigh, with appendices and an index by Paul Walsh"</a>. Maynooth Record Society, St. Patrick's College. 1918.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Genealogiae+regum+et+sanctorum+Hiberniae%2C+by+the+Four+Masters%2C+edited+from+the+manuscript+of+M%C3%ADch%C3%A9l+O+Cl%C3%A9irigh%2C+with+appendices+and+an+index+by+Paul+Walsh&amp;rft.pub=Maynooth+Record+Society%2C+St.+Patrick%27s+College&amp;rft.date=1918&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fgenealogiaeregum00walsuoft%2Fpage%2F38%2Fmode%2F2up&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://celt.ucc.ie/published/T100002A/index.html">"Annals of Tigernach"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Annals+of+Tigernach&amp;rft_id=https%3A%2F%2Fcelt.ucc.ie%2Fpublished%2FT100002A%2Findex.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://celt.ucc.ie//published/T100001A/index.html">"Annals of Ulster"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Annals+of+Ulster&amp;rft_id=https%3A%2F%2Fcelt.ucc.ie%2F%2Fpublished%2FT100001A%2Findex.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHerbert" class="citation book cs1">Herbert, Maire. <i>Iona, Kells, and Derry</i>. Clarendon Press, Oxford.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Iona%2C+Kells%2C+and+Derry&amp;rft.pub=Clarendon+Press%2C+Oxford&amp;rft.aulast=Herbert&amp;rft.aufirst=Maire&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFÓ_Riain" class="citation book cs1">Ó Riain, Pádraig. <i>Corpus genealogiarum sanctorum Hiberniae</i>. Dublin Institute of Advanced Studies.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Corpus+genealogiarum+sanctorum+Hiberniae&amp;rft.pub=Dublin+Institute+of+Advanced+Studies&amp;rft.aulast=%C3%93+Riain&amp;rft.aufirst=P%C3%A1draig&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFCrooks1999" class="citation journal cs1">Crooks, Canon David W.T. (1999). "Baithin 2000". <i>Donegal Annual</i>. <b>51</b>: 19–21.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Donegal+Annual&amp;rft.atitle=Baithin+2000&amp;rft.volume=51&amp;rft.pages=19-21&amp;rft.date=1999&amp;rft.aulast=Crooks&amp;rft.aufirst=Canon+David+W.T.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.duchas.ie/en/cbes/4493804/4422352">"St Boden's"</a>. <i>Dúchas.ie</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=D%C3%BAchas.ie&amp;rft.atitle=St+Boden%27s&amp;rft_id=https%3A%2F%2Fwww.duchas.ie%2Fen%2Fcbes%2F4493804%2F4422352&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://saintsplaces.gla.ac.uk/saint.php?id=209">"BÁITHÍNE M. BRÉNAÍNN OF IONA"</a>. <i>Saints in Scottish Place-names</i><span class="reference-accessdate">. Retrieved <span class="nowrap">15 December</span> 2019</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Saints+in+Scottish+Place-names&amp;rft.atitle=B%C3%81ITH%C3%8DNE+M.+BR%C3%89NA%C3%8DNN+OF+IONA&amp;rft_id=https%3A%2F%2Fsaintsplaces.gla.ac.uk%2Fsaint.php%3Fid%3D209&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-auto-10"><span class="mw-cite-backlink">^ <a href="#cite_ref-auto_10-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-auto_10-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-auto_10-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-auto_10-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-auto_10-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-auto_10-5"><sup><i><b>f</b></i></sup></a> <a href="#cite_ref-auto_10-6"><sup><i><b>g</b></i></sup></a> <a href="#cite_ref-auto_10-7"><sup><i><b>h</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFAdomnan_of_Iona1995" class="citation book cs1"><a href="/wiki/Adomn%C3%A1n" title="Adomnán">Adomnan of Iona</a> (23 February 1995). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=j7yFjie05bcC"><i>Life of St Columba</i></a>. Penguin Books Limited. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-14-190741-3" title="Special:BookSources/978-0-14-190741-3"><bdi>978-0-14-190741-3</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Life+of+St+Columba&amp;rft.pub=Penguin+Books+Limited&amp;rft.date=1995-02-23&amp;rft.isbn=978-0-14-190741-3&amp;rft.au=Adomnan+of+Iona&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3Dj7yFjie05bcC&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFStokes" class="citation book cs1">Stokes, Whitley. <a rel="nofollow" class="external text" href="https://archive.org/details/martyrologyoeng01stokgoog"><i>Martyrology of Oengus</i></a><span class="reference-accessdate">. Retrieved <span class="nowrap">15 December</span> 2019</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Martyrology+of+Oengus&amp;rft.aulast=Stokes&amp;rft.aufirst=Whitley&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fmartyrologyoeng01stokgoog&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Adomnán,_Vita_Columbae_I.2-12"><span class="mw-cite-backlink">^ <a href="#cite_ref-Adomnán,_Vita_Columbae_I.2_12-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Adomnán,_Vita_Columbae_I.2_12-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Adomnán, <i>Vita Columbae</i> I.2.</span>
+</li>
+<li id="cite_note-Adomnán&#39;s_Life_of_Columba-13"><span class="mw-cite-backlink">^ <a href="#cite_ref-Adomnán&#39;s_Life_of_Columba_13-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Adomnán&#39;s_Life_of_Columba_13-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFAndersonAnderson1991" class="citation book cs1">Anderson, A.O.; Anderson, M.O. (1991). <i>Adomnán's Life of Columba</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Adomn%C3%A1n%27s+Life+of+Columba&amp;rft.date=1991&amp;rft.aulast=Anderson&amp;rft.aufirst=A.O.&amp;rft.au=Anderson%2C+M.O.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span>, pp. 238-9.</span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFSharpe1995" class="citation book cs1">Sharpe, Richard (1995). <i>Life of Columba</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Life+of+Columba&amp;rft.date=1995&amp;rft.aulast=Sharpe&amp;rft.aufirst=Richard&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span>, p. 355, n. 356.</span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text">Adomnán, <i>Vita Columbae</i> I.19.</span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFAdomnán" class="citation book cs1">Adomnán. <i>Life of St Columba</i>. pp.&#160;I 21.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Life+of+St+Columba&amp;rft.pages=I+21&amp;rft.au=Adomn%C3%A1n&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFSharpe1995" class="citation book cs1">Sharpe, Richard (1995). <i>Life of St Columba</i>. London: Penguin Books. pp.&#160;306–308, n. 194.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Life+of+St+Columba&amp;rft.place=London&amp;rft.pages=306-308%2C+n.+194&amp;rft.pub=Penguin+Books&amp;rft.date=1995&amp;rft.aulast=Sharpe&amp;rft.aufirst=Richard&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></span>
+</li>
+</ol></div></div>
+<dl><dt>Attribution</dt></dl>
+<ul><li><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png" decoding="async" width="12" height="13" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/18px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/24px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430" />&#160;This article incorporates text from a publication now in the <a href="/wiki/Public_domain" title="Public domain">public domain</a>:&#160;<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation encyclopaedia cs1">Herbermann, Charles, ed. (1913). "<a href="https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)/Baith%C3%A9ne" class="extiw" title="s:Catholic Encyclopedia (1913)/Baithéne">Baithéne</a>". <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i>. New York: Robert Appleton Company.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Baith%C3%A9ne&amp;rft.btitle=Catholic+Encyclopedia&amp;rft.place=New+York&amp;rft.pub=Robert+Appleton+Company&amp;rft.date=1913&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABaith%C3%A9ne+mac+Br%C3%A9naind" class="Z3988"></span></li></ul>
+<table class="wikitable succession-box noprint" style="margin:0.5em auto; font-size:95%;clear:both;">
+
+
+<tbody><tr style="text-align:center;">
+<td style="width:30%;" rowspan="1">Preceded&#160;by<div style="font-weight: bold"><a href="/wiki/Columba" title="Columba">Columba</a></div>
+</td>
+<td style="width: 40%; text-align: center;" rowspan="1"><b> <a href="/wiki/Abbot_of_Iona" title="Abbot of Iona">Abbot of Iona</a> </b><br />597&#8211;600
+</td>
+<td style="width: 30%; text-align: center;" rowspan="1">Succeeded&#160;by<div style="font-weight: bold"><a href="/wiki/Lasr%C3%A9n_of_Iona" class="mw-redirect" title="Lasrén of Iona">Lasrén</a></div>
+</td></tr>
+</tbody></table>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Saints_of_Ireland" style="padding:3px"><table class="nowraplinks hlist mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3" style="background-color:gold;"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Saints_of_Ireland" title="Template:Saints of Ireland"><abbr title="View this template" style="background-color:gold;;;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Saints_of_Ireland" title="Template talk:Saints of Ireland"><abbr title="Discuss this template" style="background-color:gold;;;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Saints_of_Ireland&amp;action=edit"><abbr title="Edit this template" style="background-color:gold;;;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Saints_of_Ireland" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_saints_of_Ireland" title="List of saints of Ireland">Saints of Ireland</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Abb%C3%A1n" title="Abbán">Abbán</a></li>
+<li><a href="/wiki/Abel_of_Reims" title="Abel of Reims">Abel of Reims</a></li>
+<li><a href="/wiki/Abran" title="Abran">Abran</a></li>
+<li><a href="/w/index.php?title=Adalgis_of_Ireland&amp;action=edit&amp;redlink=1" class="new" title="Adalgis of Ireland (page does not exist)">Adalgis of Ireland</a></li>
+<li><a href="/wiki/Adomn%C3%A1n" title="Adomnán">Adomnán</a></li>
+<li><a href="/w/index.php?title=Adomn%C3%A1n_of_Coldingham&amp;action=edit&amp;redlink=1" class="new" title="Adomnán of Coldingham (page does not exist)">Adomnán of Coldingham</a></li>
+<li><a href="/wiki/Aidan_of_Lindisfarne" title="Aidan of Lindisfarne">Aidan of Lindisfarne</a></li>
+<li><a href="/wiki/Ailbe_of_Emly" title="Ailbe of Emly">Ailbe of Emly</a></li>
+<li><a href="/wiki/Ailer%C3%A1n" title="Ailerán">Ailerán</a></li>
+<li><a href="/wiki/Andrew_the_Scot" title="Andrew the Scot">Andrew the Scot</a></li>
+<li><a href="/wiki/Assicus" title="Assicus">Assicus</a></li>
+<li><a href="/wiki/Athracht" title="Athracht">Athracht</a></li>
+<li><a href="/wiki/Autbod" title="Autbod">Autbod</a></li>
+<li><a class="mw-selflink selflink">Baithéne</a></li>
+<li><a href="/w/index.php?title=Saint_Balin&amp;action=edit&amp;redlink=1" class="new" title="Saint Balin (page does not exist)">Balin</a></li>
+<li><a href="/wiki/Baldred_of_Tyninghame" title="Baldred of Tyninghame">Baldred of Tyninghame</a></li>
+<li><a href="/w/index.php?title=Barrfoin&amp;action=edit&amp;redlink=1" class="new" title="Barrfoin (page does not exist)">Barrfoin</a></li>
+<li><a href="/wiki/Saint_Bean" class="mw-redirect" title="Saint Bean">Bean</a></li>
+<li><a href="/wiki/B%C3%A9c%C3%A1n" title="Bécán">Bécán</a></li>
+<li><a href="/wiki/Saint_Bega" title="Saint Bega">Bega</a></li>
+<li><a href="/wiki/Benignus_of_Armagh" title="Benignus of Armagh">Benignus of Armagh</a></li>
+<li><a href="/w/index.php?title=Beoadh&amp;action=edit&amp;redlink=1" class="new" title="Beoadh (page does not exist)">Beoadh</a></li>
+<li><a href="/wiki/Dabheog" title="Dabheog">Beoc</a></li>
+<li><a href="/wiki/Saint_Berach" title="Saint Berach">Berach</a></li>
+<li><a href="/w/index.php?title=Blaithmaic&amp;action=edit&amp;redlink=1" class="new" title="Blaithmaic (page does not exist)">Blaithmaic</a></li>
+<li><a href="/w/index.php?title=Boadin&amp;action=edit&amp;redlink=1" class="new" title="Boadin (page does not exist)">Boadin</a></li>
+<li><a href="/w/index.php?title=Boethian_of_Pierrepoint&amp;action=edit&amp;redlink=1" class="new" title="Boethian of Pierrepoint (page does not exist)">Boethian of Pierrepoint</a></li>
+<li><a href="/w/index.php?title=Saint_Brandan&amp;action=edit&amp;redlink=1" class="new" title="Saint Brandan (page does not exist)">Brandan</a></li>
+<li><a href="/wiki/Breage" title="Breage">Breage</a></li>
+<li><a href="/wiki/Brendan_the_Navigator" title="Brendan the Navigator">Brendan</a></li>
+<li><a href="/wiki/Brendan_of_Birr" title="Brendan of Birr">Brendan of Birr</a></li>
+<li><a href="/w/index.php?title=Briarch&amp;action=edit&amp;redlink=1" class="new" title="Briarch (page does not exist)">Briarch</a></li>
+<li><a href="/wiki/Brigit_of_Kildare" class="mw-redirect" title="Brigit of Kildare">Brigit of Kildare</a></li>
+<li><a href="/wiki/Brocc%C3%A1n_Cl%C3%B3en" title="Broccán Clóen">Brogan</a></li>
+<li><a href="/w/index.php?title=Saint_Bron&amp;action=edit&amp;redlink=1" class="new" title="Saint Bron (page does not exist)">Bron</a></li>
+<li><a href="/wiki/Br%C3%B3nach" title="Brónach">Brónach</a></li>
+<li><a href="/wiki/Budoc" title="Budoc">Budoc</a></li>
+<li><a href="/wiki/Buriana" title="Buriana">Buriana</a></li>
+<li><a href="/wiki/Gobhan" class="mw-redirect" title="Gobhan">Gobhan</a></li>
+<li><a href="/wiki/M%C3%A1ed%C3%B3c_of_Ferns" title="Máedóc of Ferns">Máedóc of Ferns</a></li>
+<li><a href="/wiki/%C3%93engus_of_Tallaght" title="Óengus of Tallaght">Óengus of Tallaght</a></li>
+<li><a href="/wiki/Saint_Patrick" title="Saint Patrick">Patrick</a></li>
+<li><a href="/wiki/Scuithin" title="Scuithin">Scuithin</a></li></ul>
+</div></td><td class="noviewer navbox-image" rowspan="1" style="width:1px;padding:0 0 0 2px"><div><a href="/wiki/File:Saint_Patrick_(window).jpg" class="image" title="Patrick"><img alt="Patrick" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Saint_Patrick_%28window%29.jpg/100px-Saint_Patrick_%28window%29.jpg" decoding="async" width="100" height="155" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Saint_Patrick_%28window%29.jpg/150px-Saint_Patrick_%28window%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/86/Saint_Patrick_%28window%29.jpg/200px-Saint_Patrick_%28window%29.jpg 2x" data-file-width="1968" data-file-height="3044" /></a></div></td></tr><tr><td class="navbox-abovebelow" colspan="3" style="background-color:gold;"><div>
+<ul><li><b><a href="/wiki/Portal:Saints" title="Portal:Saints">Saints Portal</a></b></li>
+<li><b><a href="/wiki/Portal:Ireland" title="Portal:Ireland">Ireland Portal</a></b></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1455
+Cached time: 20230207124813
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1]
+CPU time usage: 0.376 seconds
+Real time usage: 0.468 seconds
+Preprocessor visited node count: 1675/1000000
+Post‐expand include size: 33320/2097152 bytes
+Template argument size: 845/2097152 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 50506/5000000 bytes
+Lua time usage: 0.233/10.000 seconds
+Lua memory usage: 5627794/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  426.696      1 -total
+ 39.69%  169.365      1 Template:Reflist
+ 27.35%  116.692      9 Template:Cite_book
+ 21.73%   92.722      1 Template:Saints_of_Ireland
+ 21.23%   90.588      1 Template:Navbox
+ 12.92%   55.109      1 Template:Infobox_saint
+ 11.82%   50.445      1 Template:Infobox
+  7.46%   31.823      1 Template:Use_dmy_dates
+  5.59%   23.867      1 Template:Authority_control
+  4.50%   19.218      1 Template:Catholic
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:22244629-0!canonical and timestamp 20230207124813 and revision id 1083397689. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Baithéne_mac_Brénaind&amp;oldid=1083397689">https://en.wikipedia.org/w/index.php?title=Baithéne_mac_Brénaind&amp;oldid=1083397689</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:6th-century_Christian_saints" title="Category:6th-century Christian saints">6th-century Christian saints</a></li><li><a href="/wiki/Category:6th-century_Irish_abbots" title="Category:6th-century Irish abbots">6th-century Irish abbots</a></li><li><a href="/wiki/Category:536_births" title="Category:536 births">536 births</a></li><li><a href="/wiki/Category:600_deaths" title="Category:600 deaths">600 deaths</a></li><li><a href="/wiki/Category:Abbots_of_Iona" title="Category:Abbots of Iona">Abbots of Iona</a></li><li><a href="/wiki/Category:Irish_Christian_monks" title="Category:Irish Christian monks">Irish Christian monks</a></li><li><a href="/wiki/Category:Irish_expatriates_in_Scotland" title="Category:Irish expatriates in Scotland">Irish expatriates in Scotland</a></li><li><a href="/wiki/Category:Medieval_Irish_saints" title="Category:Medieval Irish saints">Medieval Irish saints</a></li><li><a href="/wiki/Category:Scottish_Roman_Catholic_saints" title="Category:Scottish Roman Catholic saints">Scottish Roman Catholic saints</a></li><li><a href="/wiki/Category:Burials_at_Iona_Abbey" title="Category:Burials at Iona Abbey">Burials at Iona Abbey</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Use_dmy_dates_from_April_2022" title="Category:Use dmy dates from April 2022">Use dmy dates from April 2022</a></li><li><a href="/wiki/Category:Articles_incorporating_a_citation_from_the_1913_Catholic_Encyclopedia_with_Wikisource_reference" title="Category:Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference">Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference</a></li><li><a href="/wiki/Category:Articles_incorporating_text_from_the_1913_Catholic_Encyclopedia_with_Wikisource_reference" title="Category:Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference">Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference</a></li></ul></div></div>
+					
+				</div>
+				
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 18 April 2022, at 16:16<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Baith%C3%A9ne_mac_Br%C3%A9naind&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.376","walltime":"0.468","ppvisitednodes":{"value":1675,"limit":1000000},"postexpandincludesize":{"value":33320,"limit":2097152},"templateargumentsize":{"value":845,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":50506,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  426.696      1 -total"," 39.69%  169.365      1 Template:Reflist"," 27.35%  116.692      9 Template:Cite_book"," 21.73%   92.722      1 Template:Saints_of_Ireland"," 21.23%   90.588      1 Template:Navbox"," 12.92%   55.109      1 Template:Infobox_saint"," 11.82%   50.445      1 Template:Infobox","  7.46%   31.823      1 Template:Use_dmy_dates","  5.59%   23.867      1 Template:Authority_control","  4.50%   19.218      1 Template:Catholic"]},"scribunto":{"limitreport-timeusage":{"value":"0.233","limit":"10.000"},"limitreport-memusage":{"value":5627794,"limit":52428800}},"cachereport":{"origin":"mw1455","timestamp":"20230207124813","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Baith\u00e9ne mac Br\u00e9naind","url":"https:\/\/en.wikipedia.org\/wiki\/Baith%C3%A9ne_mac_Br%C3%A9naind","sameAs":"http:\/\/www.wikidata.org\/entity\/Q4848737","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q4848737","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-01-18T02:23:31Z","dateModified":"2022-04-18T16:16:16Z","headline":"Irish monk"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Baith\u00e9ne mac Br\u00e9naind","url":"https:\/\/en.wikipedia.org\/wiki\/Baith%C3%A9ne_mac_Br%C3%A9naind","sameAs":"http:\/\/www.wikidata.org\/entity\/Q4848737","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q4848737","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-01-18T02:23:31Z","dateModified":"2022-04-18T16:16:16Z","headline":"Irish monk"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":94,"wgHostname":"mw2333"});});</script>
+</body>
+</html>
