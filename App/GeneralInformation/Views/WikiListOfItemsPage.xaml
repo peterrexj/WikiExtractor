@@ -51,8 +51,7 @@
                             <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" TouchDownEffects="Ripple" WidthRequest="344" 
                                                          Margin="0,0,0,10" CornerRadius="5" RippleAnimationDuration="300"
                                                          AutomationId="{Binding Id}"
-                                                         AnimationCompleted="lstItemEffectsView_AnimationCompleted"
-                                                         HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnListItemHeightRequestOnListPage}">
+                                                         AnimationCompleted="lstItemEffectsView_AnimationCompleted">
                                 <Grid >
                                     <sfGradient:SfGradientView >
                                         <sfGradient:SfGradientView.BackgroundBrush>
@@ -119,40 +118,44 @@
                                                            Padding="10,0,0,0"
                                                            Text="{Binding MainContent}" 
                                                            FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=11, Tablet=16}, UWP=16, macOS=13, WPF=16}" />
-                                                
-                                                <syncfusionList:SfListView Grid.Row="1" Padding="10,0,0,0" IsVisible="{Binding ShowPrimaryContentMetadata}" 
+
+                                                <ScrollView Grid.Row="1">
+                                                    <syncfusionList:SfListView  Padding="10,0,0,0" IsVisible="{Binding ShowPrimaryContentMetadata}" 
                                                                            ItemsSource="{Binding PrimaryMetadataContent}" 
                                                                            AutoFitMode="DynamicHeight"
                                                                            SelectionMode="None"
                                                                            IsEnabled="False"
-                                                                           BackgroundColor="Transparent">
-                                                    <syncfusionList:SfListView.LayoutManager>
-                                                        <syncfusionList:LinearLayout />
-                                                    </syncfusionList:SfListView.LayoutManager>
+                                                                           BackgroundColor="Transparent"
+                                                                                HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnListItemHeightRequestOnListPage}">
+                                                        <syncfusionList:SfListView.LayoutManager>
+                                                            <syncfusionList:LinearLayout />
+                                                        </syncfusionList:SfListView.LayoutManager>
 
-                                                    <syncfusionList:SfListView.ItemTemplate>
-                                                        <DataTemplate>
-                                                            <ViewCell>
-                                                                <ViewCell.View>
-                                                                    <Grid >
-                                                                        <StackLayout Orientation="Horizontal">
-                                                                            <Label 
-                                                                                 TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" >
-                                                                                <Label.FormattedText>
-                                                                                    <FormattedString>
-                                                                                        <Span Text="{Binding Key}" FontSize="{OnIdiom Phone=11, Tablet=16}" />
-                                                                                        <Span Text=": " FontSize="{OnIdiom Phone=12, Tablet=16}"/>
-                                                                                        <Span Text="{Binding Description}" FontAttributes="Bold,Italic" FontSize="{OnIdiom Phone=11, Tablet=16}"/>
-                                                                                    </FormattedString>
-                                                                                </Label.FormattedText>
-                                                                            </Label>
-                                                                        </StackLayout>
-                                                                    </Grid>
-                                                                </ViewCell.View>
-                                                            </ViewCell>
-                                                        </DataTemplate>
-                                                    </syncfusionList:SfListView.ItemTemplate>
-                                                </syncfusionList:SfListView>
+                                                        <syncfusionList:SfListView.ItemTemplate>
+                                                            <DataTemplate>
+                                                                <ViewCell>
+                                                                    <ViewCell.View>
+                                                                        <Grid >
+                                                                            <StackLayout Orientation="Horizontal">
+                                                                                <Label 
+                                                                                TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
+                                                                                MaxLines="2">
+                                                                                    <Label.FormattedText>
+                                                                                        <FormattedString>
+                                                                                            <Span Text="{Binding Key}" FontSize="{OnIdiom Phone=11, Tablet=16}" />
+                                                                                            <Span Text=": " FontSize="{OnIdiom Phone=12, Tablet=16}"/>
+                                                                                            <Span Text="{Binding Description}" FontAttributes="Bold,Italic" FontSize="{OnIdiom Phone=11, Tablet=16}" />
+                                                                                        </FormattedString>
+                                                                                    </Label.FormattedText>
+                                                                                </Label>
+                                                                            </StackLayout>
+                                                                        </Grid>
+                                                                    </ViewCell.View>
+                                                                </ViewCell>
+                                                            </DataTemplate>
+                                                        </syncfusionList:SfListView.ItemTemplate>
+                                                    </syncfusionList:SfListView>
+                                                </ScrollView>
                                                 <!--<Label Grid.Row="1" IsVisible="false"
                                                        Margin="0,0,8,0"
                                                        TextDecorations="Underline"
@@ -165,7 +168,9 @@
                                                                 <Span.GestureRecognizers>
                                                                     <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapHyperLinkToWikiPage}" 
                                                                                           CommandParameter="{Binding WikiPath}"/>
-                                                                    --><!--Command="{Binding Path=BindingContext.TapHyperLinkToWikiPage, Source={x:Reference lstSaints}}" CommandParameter="{x:Reference WikiPath}" />--><!--
+                                                                    -->
+                                                <!--Command="{Binding Path=BindingContext.TapHyperLinkToWikiPage, Source={x:Reference lstSaints}}" CommandParameter="{x:Reference WikiPath}" />-->
+                                                <!--
                                                                 </Span.GestureRecognizers>
                                                             </Span>
                                                         </FormattedString>
