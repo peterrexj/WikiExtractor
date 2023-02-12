@@ -1,4 +1,5 @@
-﻿using GeneralInformation.Services;
+﻿using GeneralInformation.Exts;
+using GeneralInformation.Services;
 using System.Collections.Generic;
 using System.Net.Http.Headers;
 using System.Windows.Input;
@@ -18,19 +19,8 @@ namespace GeneralInformation.ViewModels
             StyleDrive = new StyleDrive
             {
                 StyleOnImageHeightRequestOnListPage = appInfo.StyleOnImageHeightRequestOnListPage,
+                //StyleOnListItemHeightRequestOnListPage = StylePropertyHelper.GetStyleOnListItemHeightRequestOnListPage()
             };
-            if (Device.Idiom == TargetIdiom.Phone) 
-            {
-                StyleDrive.StyleOnListItemHeightRequestOnListPage = appInfo.StyleOnListItemHeightRequestOnListPagePhone;
-            }
-            else if (Device.Idiom == TargetIdiom.Tablet)
-            {
-                StyleDrive.StyleOnListItemHeightRequestOnListPage = appInfo.StyleOnListItemHeightRequestOnListPageTablet;
-            }
-            else if (Device.Idiom == TargetIdiom.Desktop)
-            {
-                StyleDrive.StyleOnListItemHeightRequestOnListPage = appInfo.StyleOnListItemHeightRequestOnListPageDesktop;
-            }
         }
 
         public string Title { get; set; }

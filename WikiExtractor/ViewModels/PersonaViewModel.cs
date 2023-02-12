@@ -8,7 +8,7 @@ using WikiExtractor.DbModels;
 
 namespace WikiExtractor.ViewModels
 {
-    public class PersonaViewModel : BaseViewModel
+    public class PersonaViewModel : BaseViewModel, IListDynamicHeight
     {
         public PersonaViewModel()
         {
@@ -35,6 +35,19 @@ namespace WikiExtractor.ViewModels
         public List<Paragraph2ContentViewModel> Paragraphs { get; set; }
         public List<string> Tags { get; set; }
 
+        private double _listHeight;
+        public double ListHeight
+        {
+            get
+            {
+                return _listHeight;
+            }
+            set
+            {
+                _listHeight = value;
+                OnPropertyChanged("ListHeight");
+            }
+        }
         //public List<(string PicturePrimaryPath, string PicturePrimaryCaption)> PictureImages { get; }
     }
 

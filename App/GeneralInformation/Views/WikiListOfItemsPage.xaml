@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GeneralInformation"
              xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
              xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
@@ -95,7 +96,7 @@
                                                     <RowDefinition Height="*" />
                                                 </Grid.RowDefinitions>
 
-                                                <StackLayout Grid.Row="0" Padding="10,0,0,0">
+                                                <StackLayout Grid.Row="0" Padding="10,3,0,0">
                                                     <StackLayout.VerticalOptions>
                                                         <OnPlatform x:TypeArguments="LayoutOptions">
                                                             <On Platform="macOS" Value="CenterAndExpand"/>
@@ -119,43 +120,40 @@
                                                            Text="{Binding MainContent}" 
                                                            FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=11, Tablet=16}, UWP=16, macOS=13, WPF=16}" />
 
-                                                <ScrollView Grid.Row="1">
-                                                    <syncfusionList:SfListView  Padding="10,0,0,0" IsVisible="{Binding ShowPrimaryContentMetadata}" 
+                                                <local:ExtendedListView Grid.Row="1" Padding="10,0,0,10" IsVisible="{Binding ShowPrimaryContentMetadata}" 
                                                                            ItemsSource="{Binding PrimaryMetadataContent}" 
                                                                            AutoFitMode="DynamicHeight"
                                                                            SelectionMode="None"
                                                                            IsEnabled="False"
                                                                            BackgroundColor="Transparent"
-                                                                                HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnListItemHeightRequestOnListPage}">
-                                                        <syncfusionList:SfListView.LayoutManager>
-                                                            <syncfusionList:LinearLayout />
-                                                        </syncfusionList:SfListView.LayoutManager>
+                                                                             HeightRequest="{Binding ListHeight}">
+                                                    <!--HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnListItemHeightRequestOnListPage}">-->
+                                                    <syncfusionList:SfListView.LayoutManager>
+                                                        <syncfusionList:LinearLayout />
+                                                    </syncfusionList:SfListView.LayoutManager>
 
-                                                        <syncfusionList:SfListView.ItemTemplate>
-                                                            <DataTemplate>
-                                                                <ViewCell>
-                                                                    <ViewCell.View>
-                                                                        <Grid >
-                                                                            <StackLayout Orientation="Horizontal">
-                                                                                <Label 
-                                                                                TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
-                                                                                MaxLines="2">
-                                                                                    <Label.FormattedText>
-                                                                                        <FormattedString>
-                                                                                            <Span Text="{Binding Key}" FontSize="{OnIdiom Phone=11, Tablet=16}" />
-                                                                                            <Span Text=": " FontSize="{OnIdiom Phone=12, Tablet=16}"/>
-                                                                                            <Span Text="{Binding Description}" FontAttributes="Bold,Italic" FontSize="{OnIdiom Phone=11, Tablet=16}" />
-                                                                                        </FormattedString>
-                                                                                    </Label.FormattedText>
-                                                                                </Label>
-                                                                            </StackLayout>
-                                                                        </Grid>
-                                                                    </ViewCell.View>
-                                                                </ViewCell>
-                                                            </DataTemplate>
-                                                        </syncfusionList:SfListView.ItemTemplate>
-                                                    </syncfusionList:SfListView>
-                                                </ScrollView>
+                                                    <syncfusionList:SfListView.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <ViewCell>
+                                                                <ViewCell.View>
+                                                                    <Grid >
+                                                                        <StackLayout Orientation="Horizontal">
+                                                                            <Label TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" >
+                                                                                <Label.FormattedText>
+                                                                                    <FormattedString>
+                                                                                        <Span Text="{Binding Key}" FontSize="{OnIdiom Phone=11, Tablet=16}" />
+                                                                                        <Span Text=": " FontSize="{OnIdiom Phone=12, Tablet=16}"/>
+                                                                                        <Span Text="{Binding Description}" FontAttributes="Bold,Italic" FontSize="{OnIdiom Phone=11, Tablet=16}" />
+                                                                                    </FormattedString>
+                                                                                </Label.FormattedText>
+                                                                            </Label>
+                                                                        </StackLayout>
+                                                                    </Grid>
+                                                                </ViewCell.View>
+                                                            </ViewCell>
+                                                        </DataTemplate>
+                                                    </syncfusionList:SfListView.ItemTemplate>
+                                                </local:ExtendedListView>
                                                 <!--<Label Grid.Row="1" IsVisible="false"
                                                        Margin="0,0,8,0"
                                                        TextDecorations="Underline"

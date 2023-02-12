@@ -49,6 +49,7 @@
 		<Compile Include="..\..\WikiExtractor\Repository\WikiPictureRepository.cs" Link="Repository\WikiPictureRepository.cs" />
 		<Compile Include="..\..\WikiExtractor\ViewModels\BasePropertyChangeModel.cs" Link="Models\ViewModels\BasePropertyChangeModel.cs" />
 		<Compile Include="..\..\WikiExtractor\ViewModels\BaseViewModel.cs" Link="Models\ViewModels\BaseViewModel.cs" />
+		<Compile Include="..\..\WikiExtractor\ViewModels\IListDynamicHeight.cs" Link="Models\ViewModels\IListDynamicHeight.cs" />
 		<Compile Include="..\..\WikiExtractor\ViewModels\PersonaViewModel.cs" Link="Models\ViewModels\PersonaViewModel.cs" />
 		<Compile Include="..\..\WikiExtractor\DbModels\Image.cs" Link="Models\DbModels\Image.cs" />
 	</ItemGroup>

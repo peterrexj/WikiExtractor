@@ -61,7 +61,7 @@ namespace GeneralInformation.Views
             try
             {
                 wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
-                var data = wikiAppController.GetListOfWikiItems(Tags).ToList();
+                var data = wikiAppController.GetListOfWikiItems(Tags, StylePropertyHelper.GetStyleOnListItemHeightRequestOnListPage()).ToList();
                 var title = wikiAppController.AppMenuItems().FirstOrDefault(f => f.Tags == string.Join(",", Tags)).TitleOnThePage ?? string.Empty;
 
                 BindingContext = personaListViewModel = new PersonaListViewModel

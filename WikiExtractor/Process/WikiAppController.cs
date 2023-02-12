@@ -264,7 +264,7 @@ namespace WikiExtractor.Process
             return persona;
         }
 
-        public IEnumerable<PersonaViewModel> GetListOfWikiItems(List<string> tags = null)
+        public IEnumerable<PersonaViewModel> GetListOfWikiItems(List<string> tags = null, int minListHeight = ConfigData.MinHeightOfListItemInListPage)
         {
             //var masters = wikiDatabase.MasterRepository.GetAll();
             //if (masters == null || masters.IsEmpty()) return new List<PersonaViewModel>();
@@ -314,7 +314,8 @@ namespace WikiExtractor.Process
                        IsPrimaryMetadataContentEnabled = isPrimaryMetadataEnabled,
                        PrimaryMetadataContent = primaryMetadata,
                        //Tags = masterGroup.Select(f => f.tag).Select(f => f.Name).Distinct().ToList(),
-                       IsBusy = false
+                       IsBusy = false,
+                       ListHeight = minListHeight,
                    };
         }
 
