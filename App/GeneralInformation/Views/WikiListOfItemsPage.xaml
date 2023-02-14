@@ -184,9 +184,9 @@
                     </DataTemplate>
                 </syncfusionList:SfListView.ItemTemplate>
             </syncfusionList:SfListView>
-            <!--<admob:MTAdView AdsId="{Binding AdsBannerId}" 
+            <admob:MTAdView AdsId="{Binding AdsBannerId}" 
                             IsVisible="{OnPlatform Android=true, iOS=true, UWP=false, macOS=false, WPF=false}"
-                            HeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=50}, iOS={OnIdiom Phone=50, Tablet=50}}" />-->
+                            HeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=50}, iOS={OnIdiom Phone=50, Tablet=50}}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
