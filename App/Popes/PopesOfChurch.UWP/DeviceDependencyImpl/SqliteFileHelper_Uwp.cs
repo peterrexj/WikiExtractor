@@ -20,8 +20,8 @@ namespace PopesOfChurch.UWP.DeviceDependencyImpl
 
         public string PlatformDatabasePath => Path.Combine(Windows.ApplicationModel.Package.Current.InstalledLocation.Path, "Assets", DatabaseFileName);
 
-        public string DatabaseFileName => "WikiStoreCountries.db";
-        //public string DatabaseFileName => "WikiStorePopes.db";
+        //public string DatabaseFileName => "WikiStoreCountries.db";
+        public string DatabaseFileName => "WikiStorePopes.db";
 
         public bool IsDatabaseOnCopyMode => true;
 

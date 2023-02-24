@@ -62,6 +62,9 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <AppExtensionDebugBundleId />
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
@@ -133,25 +136,28 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Pj.Library">
-      <Version>1.0.4.12</Version>
+      <Version>1.0.4.14</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Datastore">
-      <Version>1.0.4.12</Version>
+      <Version>1.0.4.14</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Mobile">
-      <Version>1.0.4.12</Version>
+      <Version>1.0.4.14</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Secure">
-      <Version>1.0.4.12</Version>
+      <Version>1.0.4.14</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
+    <PackageReference Include="Syncfusion.Xamarin.Core">
+      <Version>20.3.0.52</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\GeneralInformation\GeneralInformation.csproj">
-      <Project>{ABBB1D32-0F10-43FA-A838-4ACB29C2E203}</Project>
+    <ProjectReference Include="..\..\GeneralInformation\GeneralInformation.csproj">
+      <Project>{9b7d137d-1452-4ca4-9063-d04f307b9fe1}</Project>
       <Name>GeneralInformation</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
