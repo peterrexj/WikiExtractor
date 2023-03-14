@@ -7,14 +7,14 @@ using WikiExtractor.Process.Modules;
 
 var serviceProvider = ContainerConfiguration.Configure();
 
-ProcessConstants.UseCache = true;
+ProcessConstants.UseCache = false;
 
-var saintsExtractor = new SaintsDataExtractor();
-saintsExtractor.ExtractData();
-//saintsExtractor.EnablePrimaryMetadataContent();
-saintsExtractor.CleanDataWithDump();
-//saintsExtractor.TestData();
-saintsExtractor.CopyDatabaseFileToRootDbFolder();
+//var saintsExtractor = new SaintsDataExtractor();
+//saintsExtractor.ExtractData();
+////saintsExtractor.EnablePrimaryMetadataContent();
+//saintsExtractor.CleanDataWithDump();
+////saintsExtractor.TestData();
+//saintsExtractor.CopyDatabaseFileToRootDbFolder();
 
 
 
@@ -24,11 +24,11 @@ saintsExtractor.CopyDatabaseFileToRootDbFolder();
 //popesExtractor.CopyDatabaseFileToRootDbFolder();
 ////popesExtractor.Test();
 
-//var countriesExtractor = new CountriesDataExtractor();
-//countriesExtractor.ExtractData();
+var countriesExtractor = new CountriesDataExtractor();
+countriesExtractor.ExtractData();
 //countriesExtractor.Test();
-//countriesExtractor.EnablePrimaryMetadataContent();
-//countriesExtractor.CopyDatabaseFileToRootDbFolder();
+countriesExtractor.EnablePrimaryMetadataContent();
+countriesExtractor.CopyDatabaseFileToRootDbFolder();
 
 
 
