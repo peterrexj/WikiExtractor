@@ -26,14 +26,14 @@ namespace WikiExtractor.Process.Modules
             Initialize(true);
             var excludedMetadata = new List<string> { "Rank", "FlagImage" };
             var countries = toStore!.ListByDependencyArea_ForCountries("/wiki/List_of_countries_and_dependencies_by_area", new List<string> { "Countries", "All" }).ToList();
-            var noncountries = toStore!.ListByDependencyArea_ForNonCountries("/wiki/List_of_countries_and_dependencies_by_area", new List<string> { "Non Countries", "All" }).ToList();
+            var noncountries = toStore!.ListByDependencyArea_ForNonCountries("/wiki/List_of_countries_and_dependencies_by_area", new List<string> { "Other known countries", "All" }).ToList();
 
             var groupByCountryStartLetter = countries.Select(f => f.Title).OrderBy(f => f).GroupBy(f => f.Substring(0, 1)).Select(f => new { f.Key, Countries = f.ToList() });
 
             int menuItemCounter = 0;
             //wikiAppController!.AddMenuItem("All", "All", "Countries & Non Countries", menuItemCounter++);
             wikiAppController!.AddMenuItem("Countries", "Countries", "Countries", menuItemCounter++);
-            wikiAppController!.AddMenuItem("Non Countries", "Non Countries", "Non Countries", menuItemCounter++);
+            wikiAppController!.AddMenuItem("Other known countries", "Other known countries", "Other known countries", menuItemCounter++);
 
             foreach (var startLetterContent in groupByCountryStartLetter)
             {
