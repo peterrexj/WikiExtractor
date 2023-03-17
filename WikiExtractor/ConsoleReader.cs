@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pj.Library;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,14 +15,18 @@ namespace WikiExtractor
             while(loopStatus)
             {
                 PrintPrimaryOptions();
+
+                Console.Write("Enter your option: ");
+                var userInput = Console.ReadLine().ToInteger();
             }
         }
 
         private void PrintPrimaryOptions()
         {
-            //Console.WriteLine("1. Saints - Extract");
-            //Console.WriteLine("2. Saints - Dump Data");
-
+            Console.WriteLine("1. Country Wiki Extract");
+            Console.WriteLine("2. Saints Wiki Extract");
+            Console.WriteLine("3. Popes Wiki Extract");
+            Console.WriteLine("9. Exit");
         }
     }
 }
