@@ -61,9 +61,13 @@ namespace WikiExtractor.ViewModels
 
     public class PictureViewModel
     {
+        public long Id { get; set; }
         public string PicturePath { get; set; }
         public string PictureCaption { get; set; }
         public int Sequence { get; set; }
+        public int Height { get; set; }
+        public int Width { get; set; }
+        
     }
 
     public class Paragraph2ContentViewModel
@@ -78,9 +82,14 @@ namespace WikiExtractor.ViewModels
 
     public class Paragraph3ContentViewModel
     {
+        public Paragraph3ContentViewModel()
+        {
+            PicLinks = new List<PictureViewModel>();
+        }
         public string Header3 { get; set; }
         public string Content { get; set; }
         public int Sequence { get; set; }
+        public List<PictureViewModel>? PicLinks { get; set; }
     }
 
     public class PersonaAutoCompleteModel

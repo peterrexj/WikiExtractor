@@ -13,7 +13,7 @@ namespace WikiExtractor.Repository
     {
         public ParagraphContentRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblParagraphContent",
            "MasterId, ParagraphHeader2Id, ParagraphHeader3Id, Content",
-           "MasterId, ParagraphHeader2Id, ParagraphHeader3Id")
+           "MasterId, ParagraphHeader2Id, ParagraphHeader3Id, Content")
         { }
 
         public string SchemaScript(int databaseVersion)

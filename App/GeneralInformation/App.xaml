@@ -97,6 +97,15 @@
                 <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=14, Tablet=17}, iOS={OnIdiom Phone=14, Tablet=17}, UWP={OnIdiom Phone=14, Tablet=17, Desktop=17}, macOS=17, WPF=17}" />
             </Style>
 
+            <Style x:Key="DetailsTabImageCaptionText" TargetType="Label">
+                <Setter Property="LineBreakMode" Value="WordWrap" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="Margin" Value="5, -2, 5, 0" />
+                <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource DetailContentBodyTextColorDark}, Light={StaticResource DetailContentBodyTextColorLight}}" />
+                <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=12, Tablet=14}, iOS={OnIdiom Phone=12, Tablet=14}, UWP={OnIdiom Phone=12, Tablet=14, Desktop=14}, macOS=14, WPF=14}" />
+            </Style>
+
             <!-- Flyouts -->
 
             <!--<Style TargetType="Shell">

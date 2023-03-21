@@ -62,9 +62,12 @@ namespace WikiExtractor.Process
                                Pictures = picData
                                    .Select(f => new PictureViewModel
                                    {
+                                       Id = f.Id,
                                        PicturePath = f.Path,
                                        PictureCaption = f.Caption.HasValue() && f.Caption.Length >= ConfigData.MinLengthOfPictureCaption ? f.Caption : string.Empty,
-                                       Sequence = f.Sequence
+                                       Sequence = f.Sequence,
+                                       Width = f.Width,
+                                       Height = f.Height
                                    }).ToList(),
                                Metadatas = metaData
                                     .Select(item => new MetadataViewModel
@@ -86,6 +89,23 @@ namespace WikiExtractor.Process
             var parah2 = wikiDatabase.ParagraphHeader2Repository.Get(m => m.MasterId == masterId).ToList();
             var parah3 = wikiDatabase.ParagraphHeader3Repository.Get(m => m.MasterId == masterId).ToList();
             var parahContents = wikiDatabase.ParagraphContentRepository.Get(m => m.MasterId == masterId).ToList();
+            
+            var pComputedImages = (from p in wikiDatabase.ParagraphImageRepository.Get(m => m.MasterId == masterId)
+
+                                  join parahContentsJoin in parahContents on p.ParagraphId equals parahContentsJoin.Id into parahContentsGrp
+                                  from paraContents in parahContentsGrp.DefaultIfEmpty(new ParagraphContent { MasterId = masterId, Id = 0 })
+
+                                  join picJoin in persona.Pictures on p.ImageId equals picJoin.Id into picGroup
+                                  from pic in picGroup.DefaultIfEmpty(new PictureViewModel { Id = 0 })
+
+                                  where pic != null && pic.Id != 0 && paraContents != null && paraContents.Id != 0
+
+                                  select new
+                                  {
+                                      Picture = pic,
+                                      Paragraph = paraContents,
+                                      Primary = p
+                                  }).ToList();
 
             if (parahContents.Any())
             {
@@ -94,13 +114,30 @@ namespace WikiExtractor.Process
                 {
                     if (parahContents.Any(f => f.ParagraphHeader2Id != para2Item.Id))
                     {
-                        persona.Paragraphs.Add(new Paragraph2ContentViewModel
+                        var para2Contents = parahContents.Where(f => f.ParagraphHeader2Id == para2Item.Id && f.ParagraphHeader3Id == 0);
+                        if (para2Contents.Any())
                         {
-                            Content = parahContents.FirstOrDefault(f => f.ParagraphHeader2Id == para2Item.Id)!.Content,
-                            Header2 = para2Item.Header,
-                            Para3s = new List<Paragraph3ContentViewModel>(),
-                            Sequence = sequence++
-                        });
+                            foreach (var paraContent in para2Contents)
+                            {
+                                persona.Paragraphs.Add(new Paragraph2ContentViewModel
+                                {
+                                    Content = paraContent.Content,
+                                    Header2 = para2Item.Header,
+                                    Para3s = new List<Paragraph3ContentViewModel>(),
+                                    Sequence = sequence++
+                                });
+                            }
+                        }
+                        else
+                        {
+                            persona.Paragraphs.Add(new Paragraph2ContentViewModel
+                            {
+                                Content = string.Empty,
+                                Header2 = para2Item.Header,
+                                Para3s = new List<Paragraph3ContentViewModel>(),
+                                Sequence = sequence++
+                            });
+                        }
                     }
                     else
                     {
@@ -117,13 +154,14 @@ namespace WikiExtractor.Process
                     {
                         foreach (var para3Item in parah3.Where(f => f.ParagraphHeader2Id == para2Item.Id).OrderBy(f => f.Sequence))
                         {
-                            if (parahContents.Any(f => f.ParagraphHeader2Id == para2Item.Id && f.ParagraphHeader3Id == para3Item.Id))
+                            foreach(var paraContent in parahContents.Where(f => f.ParagraphHeader2Id == para2Item.Id && f.ParagraphHeader3Id == para3Item.Id))
                             {
                                 persona.Paragraphs.Last().Para3s!.Add(new Paragraph3ContentViewModel
                                 {
-                                    Content = parahContents.FirstOrDefault(f => f.ParagraphHeader2Id == para2Item.Id && f.ParagraphHeader3Id == para3Item.Id)!.Content,
+                                    Content = paraContent.Content,
                                     Header3 = para3Item.Header,
                                     Sequence = sequence++,
+                                    PicLinks = pComputedImages.Where(f => f.Paragraph.Id == paraContent.Id).Select(f => f.Picture).ToList(),
                                 });
                             }
                         }
@@ -216,6 +254,7 @@ namespace WikiExtractor.Process
             var parah2 = wikiDatabase.ParagraphHeader2Repository.Get(m => m.MasterId == master.Id);
             var parah3 = wikiDatabase.ParagraphHeader3Repository.Get(m => m.MasterId == master.Id);
             var parahContents = wikiDatabase.ParagraphContentRepository.Get(m => m.MasterId == master.Id);
+            
             if (parahContents.Any())
             {
                 int sequence = 1;

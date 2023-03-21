@@ -2,17 +2,12 @@
 using GeneralInformation.ViewModels;
 using Microsoft.AppCenter.Crashes;
 using Pj.Library;
-using Syncfusion.SfCarousel.XForms;
 using Syncfusion.XForms.Border;
-using Syncfusion.XForms.Expander;
 using Syncfusion.XForms.Graphics;
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using System.Xml;
 using WikiExtractor.Process;
 using WikiExtractor.ViewModels;
 using Xamarin.Forms;
@@ -63,10 +58,7 @@ namespace GeneralInformation.Views
                 taskGroup.Add(() =>
                     RunOnAppDispatcher(() =>
                     {
-                        foreach (var para in personaDetailViewModel.Persona.Paragraphs)
-                        {
-                            ParaContentsStack.Children.Add(RenderPara2ContentV2(para));
-                        }
+                        RenderParaContents(personaDetailViewModel.Persona.Paragraphs);
                     })
                 );
                 taskGroup.Add(() => ApplyTabSelectionChangeEvent());
@@ -89,9 +81,22 @@ namespace GeneralInformation.Views
             }
         }
 
-        private Grid RenderPara2ContentV2(Paragraph2ContentViewModel paraContent)
+        private void RenderParaContents(List<Paragraph2ContentViewModel> contents)
         {
-            var mainGrid = new Grid();
+            foreach (var grpContent in contents.OrderBy(f => f.Sequence).GroupBy(f => f.Header2))
+            {
+                ParaContentsStack.Children.Add(RenderPara2ContentV2(grpContent.ToList()));
+            }
+        }
+
+        private Grid RenderPara2ContentV2(List<Paragraph2ContentViewModel> paraContents)
+        {
+            var mainGrid = new Grid
+            {
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.FillAndExpand
+            };
+
             var sfGradient = new SfGradientView();
 
             var grStart = new SfGradientStop();
@@ -114,23 +119,39 @@ namespace GeneralInformation.Views
             var stackLayout = new StackLayout
             {
                 Padding = new Thickness(10, 0, 8, 0),
-                VerticalOptions = LayoutOptions.CenterAndExpand,
+                VerticalOptions = LayoutOptions.FillAndExpand,
+                HorizontalOptions = LayoutOptions.FillAndExpand
             };
-            if (paraContent.Content.HasValue())
-            {
-                stackLayout.Children.Add(RenderDynamicContentLabel(paraContent.Header2, "DetailsTabHeaderText"));
-                stackLayout.Children.Add(RenderDynamicContentLabel(paraContent.Content, "DetailsTabContentText"));
-            }
 
-            if (paraContent.Para3s != null && paraContent.Para3s.Any())
+            if (paraContents.Any(f => f.Content.HasValue()) || paraContents.Any(f => f.Para3s.Any(g => g.Content.HasValue())))
             {
-                foreach (var p3 in paraContent.Para3s)
+                stackLayout.Children.Add(RenderDynamicContentLabel(paraContents.Where(f => f.Header2.HasValue()).FirstOrDefault().Header2 ?? "", "DetailsTabHeaderText"));
+                foreach (var paraContent in paraContents)
                 {
-                    stackLayout.Children.Add(RenderDynamicContentLabel(p3.Header3, "DetailsTabSubHeaderText"));
-                    stackLayout.Children.Add(RenderDynamicContentLabel(p3.Content, "DetailsTabContentText"));
+                    if (paraContent.Content.HasValue())
+                    {
+                        stackLayout.Children.Add(RenderDynamicContentLabel(paraContent.Content, "DetailsTabContentText"));
+                    }
+
+                    //Para3 here
+                    if (paraContent.Para3s != null && paraContent.Para3s.Any())
+                    {
+                        foreach (var para3Grp in paraContent.Para3s.OrderBy(f => f.Sequence).GroupBy(f => f.Header3))
+                        {
+                            stackLayout.Children.Add(RenderDynamicContentLabel(para3Grp.Where(f => f.Header3.HasValue()).FirstOrDefault().Header3 ?? "", "DetailsTabSubHeaderText"));
+
+                            foreach (var para3Content in para3Grp)
+                            {
+                                foreach (var img in para3Content.PicLinks)
+                                {
+                                    stackLayout.Children.Add(RenderParagraphContentImage(img));
+                                }
+                                stackLayout.Children.Add(RenderDynamicContentLabel(para3Content.Content, "DetailsTabContentText"));
+                            }
+                        }
+                    }
                 }
             }
-
             mainGrid.Children.Add(sfGradient);
             mainGrid.Children.Add(stackLayout);
             return mainGrid;
@@ -143,6 +164,71 @@ namespace GeneralInformation.Views
             if (resource != null && resource.GetType() == typeof(Style))
                 lbl.Style = (Style)resource;
             return lbl;
+        }
+
+        private Grid RenderParagraphContentImage(PictureViewModel picModel)
+        {
+            var grid = new Grid
+            {
+                RowDefinitions =
+                {
+                    new RowDefinition { Height = new GridLength(0, GridUnitType.Auto) },
+                    new RowDefinition { Height = new GridLength(0, GridUnitType.Auto) },
+                },
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.FillAndExpand,
+            };
+
+            var sfBorder = new SfBorder
+            {
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.FillAndExpand,
+                BackgroundColor = Color.Transparent,
+                BorderColor = Color.LightGray,
+                BorderWidth = 1,
+                CornerRadius = 5,
+                HeightRequest = picModel.Height > 300 ? 300 : picModel.Height,
+                AutomationId = $"{picModel.Height},{picModel.Width}"
+            };
+
+            sfBorder.SizeChanged += SfBorderOnContentDetailImage_SizeChanged;
+            var img = new Image
+            {
+                Source = picModel.PicturePath,
+                Margin = new Thickness(5, 2, 5, 2),
+                Aspect = Aspect.AspectFit,
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.FillAndExpand,
+            };
+
+            sfBorder.Content = img;
+
+            var lbl = new Label { Text = picModel.PictureCaption };
+            var resource = Application.Current.Resources["DetailsTabImageCaptionText"];
+            if (resource != null && resource.GetType() == typeof(Style))
+                lbl.Style = (Style)resource;
+
+            Grid.SetRow(sfBorder, 0);
+            Grid.SetRow(lbl, 1);
+
+            grid.Children.Add(sfBorder);
+            grid.Children.Add(lbl);
+
+            return grid;
+        }
+
+        private void SfBorderOnContentDetailImage_SizeChanged(object sender, EventArgs e)
+        {
+            if (sender != null)
+            {
+                var width = ((SfBorder)sender).Bounds.Width;
+                var automationId = ((SfBorder)sender).AutomationId?.SplitAndTrim(",")?.ToList();
+                if (width > 0 && automationId?.Count() == 2)
+                {
+                    var actualHeight = (automationId[0].ToDouble() / automationId[1].ToDouble()) * width;
+                    ((SfBorder)sender).HeightRequest = actualHeight;
+                }
+            }
         }
 
         //private Label RenderHeaderLabel(string content)

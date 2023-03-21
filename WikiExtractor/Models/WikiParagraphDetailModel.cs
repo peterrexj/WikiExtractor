@@ -12,6 +12,7 @@ namespace WikiExtractor.Models
         public WikiParagraphDetailModel()
         {
             ContentBuilder = new StringBuilder();
+            PictureLinks = new List<Guid>();
         }
         public int Header2InternalId { get; set; }
         public int Header3InternalId { get; set; }
@@ -19,5 +20,6 @@ namespace WikiExtractor.Models
         public string? SubHeader { get; set; }
         public string Content => ContentBuilder.ToString();
         public StringBuilder ContentBuilder { get; set; }
+        public List<Guid> PictureLinks { get; set; }
     }
 }

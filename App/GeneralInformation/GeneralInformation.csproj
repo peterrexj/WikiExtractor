@@ -13,6 +13,7 @@
 		<Compile Include="..\..\WikiExtractor\DbModels\ParagraphContent.cs" Link="Models\DbModels\ParagraphContent.cs" />
 		<Compile Include="..\..\WikiExtractor\DbModels\ParagraphHeader2.cs" Link="Models\DbModels\ParagraphHeader2.cs" />
 		<Compile Include="..\..\WikiExtractor\DbModels\ParagraphHeader3.cs" Link="Models\DbModels\ParagraphHeader3.cs" />
+		<Compile Include="..\..\WikiExtractor\DbModels\ParagraphImage.cs" Link="Models\DbModels\ParagraphImage.cs" />
 		<Compile Include="..\..\WikiExtractor\DbModels\ParagraphPrimaryContent.cs" Link="Models\DbModels\ParagraphPrimaryContent.cs" />
 		<Compile Include="..\..\WikiExtractor\DbModels\PhoneSettings.cs" Link="Models\DbModels\PhoneSettings.cs" />
 		<Compile Include="..\..\WikiExtractor\DbModels\RequestRecord.cs" Link="Models\DbModels\RequestRecord.cs" />
@@ -41,6 +42,7 @@
 		<Compile Include="..\..\WikiExtractor\Repository\ParagraphContentRepository.cs" Link="Repository\ParagraphContentRepository.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\ParagraphHeader2Repository.cs" Link="Repository\ParagraphHeader2Repository.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\ParagraphHeader3Repository.cs" Link="Repository\ParagraphHeader3Repository.cs" />
+		<Compile Include="..\..\WikiExtractor\Repository\ParagraphImageRepository.cs" Link="Repository\ParagraphImageRepository.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\ParagraphPrimaryContentRepository.cs" Link="Repository\ParagraphPrimaryContentRepository.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\PhoneSettingsRepository.cs" Link="Repository\PhoneSettingsRepository.cs" />
 		<Compile Include="..\..\WikiExtractor\Repository\RequestRecordRepository.cs" Link="Repository\RequestRecordRepository.cs" />

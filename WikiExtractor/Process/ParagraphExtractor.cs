@@ -27,6 +27,7 @@ namespace WikiExtractor.Process
             {
                 var allItemsUnderMainBody = _ItemsUnderMainBody(document);
                 if (allItemsUnderMainBody == null || allItemsUnderMainBody.IsEmpty()) return null;
+                Stack<Guid> picIds = new Stack<Guid>();
 
                 var paraDetailsList = new List<WikiParagraphModel>();
                 var imageDetailsList = new List<WikiPictureModel>();
@@ -88,27 +89,39 @@ namespace WikiExtractor.Process
                         if (item.DecodedInnerText(removeNewLine: false).HasValue())
                         {
                             //foundHeaderParaInfo = true;
-                            mainHeader.Add(new WikiParagraphDetailModel
+                            var detailItem = new WikiParagraphDetailModel
                             {
                                 ContentBuilder = new StringBuilder(item.DecodedInnerText(removeNewLine: true)),
                                 Sequence = mainHeader.Count + 1
-                            });
+                            };
+                            while (picIds.Count > 0)
+                            {
+                                detailItem.PictureLinks.Add(picIds.Pop());
+                            }
+                            mainHeader.Add(detailItem);
                         }
                     }
                     else if (item.Name == "p" && foundHeaderParaInfo)
                     {
-                        currentParaInfoModel.ParagraghInternalModels.Add(new WikiParagraphDetailModel
+                        var detailItem = new WikiParagraphDetailModel
                         {
                             SubHeader = currentSubHeaderH3,
                             ContentBuilder = new StringBuilder(item.DecodedInnerText(removeNewLine: true)),
                             Sequence = currentParaInfoModel.ParagraghInternalModels.Count + 1
-                        });
+                        };
+                        while (picIds.Count > 0)
+                        {
+                            detailItem.PictureLinks.Add(picIds.Pop());
+                        }
+
+                        currentParaInfoModel.ParagraghInternalModels.Add(detailItem);
                     }
                     else if (item.Name == "div" && item.Attributes.Any(f => f.Name.EqualsIgnoreCase("class") && f.Value.ContainsIgnoreCase("thumb")))
                     {
                         var imageItem = new WikiPictureModel
                         {
-                            Sequence = imageDetailsList.Count + 1
+                            Sequence = imageDetailsList.Count + 1,
+                            PictureId = Guid.NewGuid(),
                         };
                         var img = helperHtml.LoadHtmlAndSelectNodes(item.InnerHtml, "//img");
                         if (img != null && img.Count == 1)
@@ -119,9 +132,44 @@ namespace WikiExtractor.Process
                         var imgCaption = helperHtml.LoadHtmlAndSelectNodes(item.InnerHtml, "//div[contains(@class, 'thumbcaption')]");
                         if (imgCaption != null && imgCaption.Count == 1 && imgCaption.FirstOrDefault()!.InnerText.HasValue())
                         {
-                            imageItem.Caption = imgCaption.FirstOrDefault()!.InnerText;
+                            imageItem.Caption = HtmlAgilityEx.DecodedInnerText(imgCaption.FirstOrDefault()!.InnerText, false);
                         }
                         imageDetailsList.Add(imageItem);
+
+                        picIds.Push(imageItem.PictureId);
+
+                        //Link to one of the recent content
+                        //if (currentParaInfoModel?.ParagraghInternalModels?.Any() == true)
+                        //{
+                        //    //currentParaInfoModel.ParagraghInternalModels.Last().PictureLinks.Add(imageItem.PictureId);
+                        //}
+                        //else if (currentParaInfoModel?.Header?.HasValue() == true)
+                        //{
+                        //    //There are no contents in the para sub details yet but the image is first item, need to create a dummy
+                        //    currentParaInfoModel.ParagraghInternalModels.Add(new WikiParagraphDetailModel
+                        //    {
+                        //        SubHeader = currentSubHeaderH3,
+                        //        ContentBuilder = new StringBuilder(),
+                        //        Sequence = currentParaInfoModel.ParagraghInternalModels.Count + 1
+                        //    });
+                        //    //currentParaInfoModel.ParagraghInternalModels.Last().PictureLinks.Add(imageItem.PictureId);
+                        //    currentParaInfoModel.ParagraghInternalModels.Last().PictureLinks.Add(picIds.Pop());
+                        //}
+                        //else if (mainHeader?.Any() == true)
+                        //{
+                        //    mainHeader.Last().PictureLinks.Add(imageItem.PictureId);
+                        //}
+                        //else
+                        //{
+                        //    //This is the first image in the page, so will need to create a dummy detail and add the picture
+                        //    mainHeader?.Add(new WikiParagraphDetailModel
+                        //    {
+                        //        ContentBuilder = new StringBuilder(""),
+                        //        Sequence = mainHeader.Count + 1,
+                        //    });
+                        //    //mainHeader?.Last().PictureLinks.Add(imageItem.PictureId);
+                        //    mainHeader?.Last().PictureLinks.Add(picIds.Pop());
+                        //}
                     }
                 }
 

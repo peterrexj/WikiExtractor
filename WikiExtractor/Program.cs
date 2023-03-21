@@ -30,11 +30,4 @@ countriesExtractor.ExtractData();
 countriesExtractor.EnablePrimaryMetadataContent();
 countriesExtractor.CopyDatabaseFileToRootDbFolder();
 
-
-
-
-
-
 int u = 0;
-
-

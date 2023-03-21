@@ -13,6 +13,8 @@ namespace WikiExtractor.Models
         {
             CustomMetadata = new Dictionary<string, string>();
         }
+        public long Id { get; set; }
+        public Guid PictureId { get; set; }
         public int Sequence { get; set; }
         public string? Caption { get; set; }
         public Dictionary<string, string> CustomMetadata { get; set; }

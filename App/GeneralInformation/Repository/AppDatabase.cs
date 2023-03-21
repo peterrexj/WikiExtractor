@@ -18,6 +18,7 @@ namespace GeneralInformation.Repository
         public ParagraphHeader2Repository ParagraphHeader2Repository { get; set; }
         public ParagraphHeader3Repository ParagraphHeader3Repository { get; set; }
         public ParagraphContentRepository ParagraphContentRepository { get; set; }
+        public ParagraphImageRepository ParagraphImageRepository { get; set; }
         public WikiPictureRepository WikiPictureRepository { get; set; }
         public PhoneSettingsRepository PhoneSettingsRepository { get; set; }
         public TagRepository TagRepository { get; set; }
@@ -33,6 +34,7 @@ namespace GeneralInformation.Repository
             ParagraphHeader2Repository = new ParagraphHeader2Repository(_dbHelper);
             ParagraphHeader3Repository = new ParagraphHeader3Repository(_dbHelper);
             ParagraphContentRepository = new ParagraphContentRepository(_dbHelper);
+            ParagraphImageRepository = new ParagraphImageRepository(_dbHelper);
             WikiPictureRepository = new WikiPictureRepository(_dbHelper);
             PhoneSettingsRepository = new PhoneSettingsRepository(_dbHelper);
             TagItemRepository = new TagItemRepository(_dbHelper);
@@ -42,6 +44,7 @@ namespace GeneralInformation.Repository
 
             base.CollectRepository(MasterRepository, MetadataRepository, ParagraphPrimaryContentRepository,
                 ParagraphHeader2Repository, ParagraphHeader3Repository, ParagraphContentRepository,
+                ParagraphImageRepository,
                 WikiPictureRepository, PhoneSettingsRepository, TagItemRepository, TagRepository,
                 AppMenuItemRepository, RequestRecordRepository);
 

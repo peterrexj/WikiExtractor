@@ -53,12 +53,12 @@ namespace WikiExtractor.Process.Modules
             int currentIndex = 1;
 
             //foreach (var saints in saintsCollection)
-            Parallel.ForEach(countriesCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, saint =>
+            Parallel.ForEach(countriesCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, country =>
             {
                 try
                 {
-                    toStore.PersonaSinglePageContentExtractWithSaveToStore(saint, excludedMetadata);
-                    Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Country [{saint.Title}]: {saint.Route}");
+                    toStore.PersonaSinglePageContentExtractWithSaveToStore(country, excludedMetadata);
+                    Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Country [{country.Title}]: {country.Route}");
                     //Thread.Sleep(1000);
                     currentIndex = currentIndex + 1;
                 }
@@ -102,7 +102,7 @@ namespace WikiExtractor.Process.Modules
             Initialize(false);
             wikiAppController.CommonMetadata();
             var testTagFilterData = wikiAppController.GetListOfWikiItems(new List<string> { "Country start with [R]" });
-
+            var contentTest = wikiAppController.GetViewModelById(1);
 
         }
     }

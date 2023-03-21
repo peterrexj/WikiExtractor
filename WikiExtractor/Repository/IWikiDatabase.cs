@@ -10,6 +10,7 @@ namespace WikiExtractor.Repository
         ParagraphHeader2Repository ParagraphHeader2Repository { get; set; }
         ParagraphHeader3Repository ParagraphHeader3Repository { get; set; }
         ParagraphPrimaryContentRepository ParagraphPrimaryContentRepository { get; set; }
+        ParagraphImageRepository ParagraphImageRepository { get; set; }
         WikiPictureRepository WikiPictureRepository { get; set; }
         PhoneSettingsRepository PhoneSettingsRepository { get; set; }
         TagRepository TagRepository { get; set; }

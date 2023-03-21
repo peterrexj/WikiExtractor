@@ -19,6 +19,7 @@ namespace WikiExtractor.Repository
         public ParagraphHeader2Repository ParagraphHeader2Repository { get; set; }
         public ParagraphHeader3Repository ParagraphHeader3Repository { get; set; }
         public ParagraphContentRepository ParagraphContentRepository { get; set; }
+        public ParagraphImageRepository ParagraphImageRepository { get; set; }
         public WikiPictureRepository WikiPictureRepository { get; set; }
         public SettingsRepository SettingsRepository { get; set; }
         public PhoneSettingsRepository PhoneSettingsRepository { get; set; }
@@ -47,6 +48,7 @@ namespace WikiExtractor.Repository
             ParagraphHeader2Repository = new ParagraphHeader2Repository(appDatabase._dbHelper);
             ParagraphHeader3Repository = new ParagraphHeader3Repository(appDatabase._dbHelper);
             ParagraphContentRepository = new ParagraphContentRepository(appDatabase._dbHelper);
+            ParagraphImageRepository = new ParagraphImageRepository(appDatabase._dbHelper);
             WikiPictureRepository = new WikiPictureRepository(appDatabase._dbHelper);
             PhoneSettingsRepository = new PhoneSettingsRepository(appDatabase._dbHelper);
             TagRepository = new TagRepository(appDatabase._dbHelper);
@@ -61,6 +63,7 @@ namespace WikiExtractor.Repository
             repoExtensions.Add(ParagraphHeader2Repository);
             repoExtensions.Add(ParagraphHeader3Repository);
             repoExtensions.Add(ParagraphContentRepository);
+            repoExtensions.Add(ParagraphImageRepository);
             repoExtensions.Add(WikiPictureRepository);
             repoExtensions.Add(PhoneSettingsRepository);
             repoExtensions.Add(TagRepository);
