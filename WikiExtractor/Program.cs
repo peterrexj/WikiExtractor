@@ -18,16 +18,16 @@ ProcessConstants.UseCache = true;
 
 
 
-//var popesExtractor = new PopesDataExtractor();
-//popesExtractor.ExtractData();
-//popesExtractor.EnablePrimaryMetadataContent();
-//popesExtractor.CopyDatabaseFileToRootDbFolder();
-////popesExtractor.Test();
+var popesExtractor = new PopesDataExtractor();
+popesExtractor.ExtractData();
+popesExtractor.EnablePrimaryMetadataContent();
+popesExtractor.CopyDatabaseFileToRootDbFolder();
+//popesExtractor.Test();
 
-var countriesExtractor = new CountriesDataExtractor();
-countriesExtractor.ExtractData();
-//countriesExtractor.Test();
-countriesExtractor.EnablePrimaryMetadataContent();
-countriesExtractor.CopyDatabaseFileToRootDbFolder();
+//var countriesExtractor = new CountriesDataExtractor();
+//countriesExtractor.ExtractData();
+////countriesExtractor.Test();
+//countriesExtractor.EnablePrimaryMetadataContent();
+//countriesExtractor.CopyDatabaseFileToRootDbFolder();
 
 int u = 0;

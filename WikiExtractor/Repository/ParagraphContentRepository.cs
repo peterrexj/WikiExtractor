@@ -12,8 +12,8 @@ namespace WikiExtractor.Repository
     public class ParagraphContentRepository : RepositoryBase<ParagraphContent>, IRepositoryBase<ParagraphContent>, IRepositoryBaseAppExtension
     {
         public ParagraphContentRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblParagraphContent",
-           "MasterId, ParagraphHeader2Id, ParagraphHeader3Id, Content",
-           "MasterId, ParagraphHeader2Id, ParagraphHeader3Id, Content")
+           "MasterId, ParagraphHeader2Id, ParagraphHeader3Id, HashContent, Content",
+           "MasterId, ParagraphHeader2Id, ParagraphHeader3Id, HashContent")
         { }
 
         public string SchemaScript(int databaseVersion)
@@ -26,6 +26,7 @@ namespace WikiExtractor.Repository
 	                                [MasterId]	            INTEGER,
 	                                [ParagraphHeader2Id]	INTEGER,
 	                                [ParagraphHeader3Id]	INTEGER,
+	                                [HashContent]			INTEGER,
 	                                [Content]				TEXT,
 	                                PRIMARY KEY([Id] AUTOINCREMENT)
                                     );");

@@ -12,7 +12,5 @@ namespace WikiExtractor.DbModels
         public long MasterId { get; set; }
         public long ImageId { get; set; }
         public long ParagraphId { get; set; }
-        public int IsSubHeaderContent { get; set; }
-        public bool IsSubHeaderContentConvert => IsSubHeaderContent == 0 ? false : true;
     }
 }

@@ -12,6 +12,7 @@ namespace WikiExtractor.DbModels
         public int MasterId { get; set; }
         public int ParagraphHeader2Id { get; set; }
         public int ParagraphHeader3Id { get; set; }
+        public int HashContent { get; set; }
         public string Content { get; set; }
     }
 }

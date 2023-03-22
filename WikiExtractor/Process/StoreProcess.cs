@@ -100,16 +100,76 @@ namespace WikiExtractor.Process
 
         private void StoreParagraph(WikiPageModel wikiPageModel, int masterId)
         {
+            var para2DbModels = new List<ParagraphHeader2>();
+            var para3DbModels = new List<ParagraphHeader3>();
+            var paraContentDbModels = new List<ParagraphContent>();
+            var paraImageDbModels = new List<ParagraphImage>();
+
+            Func<ParagraphHeader2, int> UpdatePara2 = (model) =>
+            {
+                var data = para2DbModels.FirstOrDefault(f => f.MasterId == model.MasterId && f.Header == model.Header && f.Sequence == model.Sequence);
+                if (data != null)
+                {
+                    return data.Id;
+                }
+                else
+                {
+                    model.Id = wikiDatabase.ParagraphHeader2Repository.Add(model, checkAlreadyExists: false);
+                    para2DbModels.Add(model);
+                    return model.Id;
+                }
+            };
+
+            Func<ParagraphHeader3, int> UpdatePara3 = (model) =>
+            {
+                var data = para3DbModels.FirstOrDefault(f => f.MasterId == model.MasterId && f.Header == model.Header && f.Sequence == model.Sequence && f.ParagraphHeader2Id == model.ParagraphHeader2Id);
+                if (data != null)
+                {
+                    return data.Id;
+                }
+                else
+                {
+                    model.Id = wikiDatabase.ParagraphHeader3Repository.Add(model, checkAlreadyExists: false);
+                    para3DbModels.Add(model);
+                    return model.Id;
+                }
+            };
+
+            Func<ParagraphContent, int> UpdateParaContent = (model) =>
+            {
+                var data = paraContentDbModels.FirstOrDefault(f => f.MasterId == model.MasterId && f.ParagraphHeader2Id == model.ParagraphHeader2Id && f.ParagraphHeader3Id == model.ParagraphHeader3Id 
+                    && f.HashContent == model.HashContent);
+                if (data != null)
+                {
+                    return data.Id;
+                }
+                else
+                {
+                    model.Id = wikiDatabase.ParagraphContentRepository.Add(model, checkAlreadyExists: false);
+                    paraContentDbModels.Add(model);
+                    return model.Id;
+                }
+            };
+
+            Func<ParagraphImage, int> UpdateParaImage = (model) =>
+            {
+                var data = paraImageDbModels.FirstOrDefault(f => f.MasterId == model.MasterId && f.ImageId == model.ImageId && f.ParagraphId == model.ParagraphId);
+                if (data != null)
+                {
+                    return data.Id;
+                }
+                else
+                {
+                    model.Id = wikiDatabase.ParagraphImageRepository.Add(model, checkAlreadyExists: false);
+                    paraImageDbModels.Add(model);
+                    return model.Id;
+                }
+            };
+
             foreach (var paraheader in wikiPageModel.WikiParaCollection.OrderBy(f => f.Sequence).ToList())
             {
                 //Add the Paragraph header 2
-                paraheader.Header2InternalId = wikiDatabase.ParagraphHeader2Repository.Add(new ParagraphHeader2
-                {
-                    MasterId = masterId,
-                    Header = paraheader.Header,
-                    Sequence = paraheader.Sequence
-
-                }, checkAlreadyExists: true);
+                paraheader.Header2InternalId = UpdatePara2(new ParagraphHeader2 { MasterId = masterId, Header = paraheader.Header, Sequence = paraheader.Sequence });
 
                 Dictionary<string, int> subHeaderDbMapping = new Dictionary<string, int>();
 
@@ -121,13 +181,13 @@ namespace WikiExtractor.Process
                         //For sub header
                         if (!subHeaderDbMapping.ContainsKey(paraContentWithSubHeader.SubHeader!))
                         {
-                            paraContentWithSubHeader.Header3InternalId = wikiDatabase.ParagraphHeader3Repository.Add(new ParagraphHeader3
+                            paraContentWithSubHeader.Header3InternalId = UpdatePara3(new ParagraphHeader3
                             {
                                 MasterId = masterId,
                                 ParagraphHeader2Id = paraheader.Header2InternalId,
                                 Header = paraContentWithSubHeader.SubHeader!,
                                 Sequence = paraContentWithSubHeader.Sequence
-                            }, checkAlreadyExists: true);
+                            });
                             subHeaderDbMapping.AddOrUpdate(paraContentWithSubHeader.SubHeader!, paraContentWithSubHeader.Header3InternalId);
                         }
                         else
@@ -154,13 +214,14 @@ namespace WikiExtractor.Process
 
                     foreach (var grpItem in grp.OrderBy(f => f.Sequence))
                     {
-                        var contentId = wikiDatabase.ParagraphContentRepository.Add(new ParagraphContent
+                        var contentId = UpdateParaContent(new ParagraphContent
                         {
                             MasterId = masterId,
                             ParagraphHeader2Id = paraheader.Header2InternalId,
                             ParagraphHeader3Id = header3Id,
+                            HashContent = grpItem.Content.GetHashCode(),
                             Content = grpItem.Content
-                        }, checkAlreadyExists: true);
+                        });
                         if (grpItem.PictureLinks.Any())
                         {
                             foreach (var pimage in grpItem.PictureLinks)
@@ -168,13 +229,12 @@ namespace WikiExtractor.Process
                                 var pId = wikiPageModel.WikiPictureCollection.FirstOrDefault(f => f.PictureId == pimage)?.Id;
                                 if (pId != null && pId.Value > 0)
                                 {
-                                    wikiDatabase.ParagraphImageRepository.Add(new ParagraphImage
+                                    UpdateParaImage(new ParagraphImage
                                     {
                                         MasterId = masterId,
                                         ParagraphId = contentId,
-                                        IsSubHeaderContent = header3Id > 0 ? 1 : 0,
                                         ImageId = pId.Value
-                                    }, checkAlreadyExists: true);
+                                    });
                                 }
                             }
                         }

@@ -12,8 +12,8 @@ namespace WikiExtractor.Repository
     public class ParagraphImageRepository : RepositoryBase<ParagraphImage>, IRepositoryBase<ParagraphImage>, IRepositoryBaseAppExtension
     {
         public ParagraphImageRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblParagraphImage",
-          "MasterId, ImageId, ParagraphId, IsSubHeaderContent",
-          "MasterId, ImageId, ParagraphId, IsSubHeaderContent")
+          "MasterId, ImageId, ParagraphId",
+          "MasterId, ImageId, ParagraphId")
         { }
 
         public string SchemaScript(int databaseVersion)
@@ -26,7 +26,6 @@ namespace WikiExtractor.Repository
 	                                [MasterId]	    INTEGER,
 	                                [ImageId]	    INTEGER,
 	                                [ParagraphId]	INTEGER,
-                                    [IsSubHeaderContent] INTEGER,
 	                                PRIMARY KEY([Id] AUTOINCREMENT)
                                     );");
             }
