@@ -124,7 +124,8 @@ namespace WikiExtractor.Process
                                     Content = paraContent.Content,
                                     Header2 = para2Item.Header,
                                     Para3s = new List<Paragraph3ContentViewModel>(),
-                                    Sequence = sequence++
+                                    Sequence = sequence++,
+                                    PicLinks = pComputedImages.Where(f => f.Paragraph.Id == paraContent.Id).Select(f => f.Picture).ToList(),
                                 });
                             }
                         }

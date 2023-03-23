@@ -72,12 +72,17 @@ namespace WikiExtractor.ViewModels
 
     public class Paragraph2ContentViewModel
     {
+        public Paragraph2ContentViewModel()
+        {
+            PicLinks = new List<PictureViewModel>();
+        }
         public string Header2 { get; set; }
         public string Content { get; set; }
         public int Sequence { get; set; }
         public List<Paragraph3ContentViewModel>? Para3s { get; set; }
         public bool ContainsHeader3 => Para3s != null && Para3s.Any();
         public bool ContainsHeader2Content => Content.HasValue();
+        public List<PictureViewModel>? PicLinks { get; set; }
     }
 
     public class Paragraph3ContentViewModel

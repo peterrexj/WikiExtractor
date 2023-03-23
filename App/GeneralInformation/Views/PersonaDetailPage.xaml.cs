@@ -130,6 +130,10 @@ namespace GeneralInformation.Views
                 {
                     if (paraContent.Content.HasValue())
                     {
+                        foreach (var img in paraContent.PicLinks)
+                        {
+                            stackLayout.Children.Add(RenderParagraphContentImage(img));
+                        }
                         stackLayout.Children.Add(RenderDynamicContentLabel(paraContent.Content, "DetailsTabContentText"));
                     }
 
