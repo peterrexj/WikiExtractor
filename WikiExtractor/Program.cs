@@ -9,12 +9,12 @@ var serviceProvider = ContainerConfiguration.Configure();
 
 ProcessConstants.UseCache = true;
 
-var saintsExtractor = new SaintsDataExtractor();
-saintsExtractor.ExtractData();
-saintsExtractor.EnablePrimaryMetadataContent();
-saintsExtractor.CleanDataWithDump();
-//saintsExtractor.TestData();
-saintsExtractor.CopyDatabaseFileToRootDbFolder();
+//var saintsExtractor = new SaintsDataExtractor();
+//saintsExtractor.ExtractData();
+//saintsExtractor.EnablePrimaryMetadataContent();
+//saintsExtractor.CleanDataWithDump();
+////saintsExtractor.TestData();
+//saintsExtractor.CopyDatabaseFileToRootDbFolder();
 
 
 
@@ -22,12 +22,12 @@ saintsExtractor.CopyDatabaseFileToRootDbFolder();
 //popesExtractor.ExtractData();
 //popesExtractor.EnablePrimaryMetadataContent();
 //popesExtractor.CopyDatabaseFileToRootDbFolder();
-//popesExtractor.Test();
+////popesExtractor.Test();
 
-//var countriesExtractor = new CountriesDataExtractor();
-//countriesExtractor.ExtractData();
-////countriesExtractor.Test();
-//countriesExtractor.EnablePrimaryMetadataContent();
-//countriesExtractor.CopyDatabaseFileToRootDbFolder();
+var countriesExtractor = new CountriesDataExtractor();
+countriesExtractor.ExtractData();
+//countriesExtractor.Test();
+countriesExtractor.EnablePrimaryMetadataContent();
+countriesExtractor.CopyDatabaseFileToRootDbFolder();
 
 int u = 0;
