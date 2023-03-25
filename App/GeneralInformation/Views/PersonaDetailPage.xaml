@@ -1,49 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
-             xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
-             xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
-             xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
-             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
-    	     xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
-             xmlns:carousel="clr-namespace:Syncfusion.SfCarousel.XForms;assembly=Syncfusion.SfCarousel.XForms"
-             xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
-             x:Class="GeneralInformation.Views.PersonaDetailPage">
+<ContentPage
+    x:Class="GeneralInformation.Views.PersonaDetailPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
+    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:carousel="clr-namespace:Syncfusion.SfCarousel.XForms;assembly=Syncfusion.SfCarousel.XForms"
+    xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
+    xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+    xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+    xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms">
     <ContentPage.Content>
         <StackLayout BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}">
-            <Frame Padding="4" MinimumHeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=50}, iOS={OnIdiom Phone=50, Tablet=50}, UWP={OnIdiom Phone=50, Tablet=50, Desktop=50}}" 
-                   BackgroundColor="Transparent" >
-                <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" 
-                                             TouchDownEffects="Ripple"
-                                             CornerRadius="5" 
-                                             RippleAnimationDuration="300" >
+            <Frame
+                Padding="4"
+                BackgroundColor="Transparent"
+                MinimumHeightRequest="{OnPlatform Android={OnIdiom Phone=50,
+                                                                   Tablet=50},
+                                                  iOS={OnIdiom Phone=50,
+                                                               Tablet=50},
+                                                  UWP={OnIdiom Phone=50,
+                                                               Tablet=50,
+                                                               Desktop=50}}">
+                <sfEffectsView:SfEffectsView
+                    x:Name="lstItemEffectsView"
+                    CornerRadius="5"
+                    RippleAnimationDuration="300"
+                    TouchDownEffects="Ripple">
                     <Grid>
-                        <sfGradient:SfGradientView >
+                        <sfGradient:SfGradientView>
                             <sfGradient:SfGradientView.BackgroundBrush>
                                 <sfGradient:SfLinearGradientBrush>
                                     <sfGradient:SfLinearGradientBrush.GradientStops>
-                                        <sfGradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource PersonalBannerGradient01Dark}, Light={StaticResource PersonalBannerGradient01Light}}" 
-                                                                   Offset="0.0" />
-                                        <sfGradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource PersonalBannerGradient02Dark}, Light={StaticResource PersonalBannerGradient02Light}}" 
-                                                                   Offset="0.6" />
-                                        <sfGradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource PersonalBannerGradient03Dark}, Light={StaticResource PersonalBannerGradient03Light}}" 
-                                                                   Offset="1" />
+                                        <sfGradient:SfGradientStop Offset="0.0" Color="{AppThemeBinding Dark={StaticResource PersonalBannerGradient01Dark}, Light={StaticResource PersonalBannerGradient01Light}}" />
+                                        <sfGradient:SfGradientStop Offset="0.6" Color="{AppThemeBinding Dark={StaticResource PersonalBannerGradient02Dark}, Light={StaticResource PersonalBannerGradient02Light}}" />
+                                        <sfGradient:SfGradientStop Offset="1" Color="{AppThemeBinding Dark={StaticResource PersonalBannerGradient03Dark}, Light={StaticResource PersonalBannerGradient03Light}}" />
                                     </sfGradient:SfLinearGradientBrush.GradientStops>
                                 </sfGradient:SfLinearGradientBrush>
                             </sfGradient:SfGradientView.BackgroundBrush>
                         </sfGradient:SfGradientView>
-                        <sfBorder:SfBorder BackgroundColor="Transparent" BorderColor="Transparent" BorderWidth="0" VerticalOptions="Center">
+                        <sfBorder:SfBorder
+                            BackgroundColor="Transparent"
+                            BorderColor="Transparent"
+                            BorderWidth="0"
+                            VerticalOptions="Center">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=2, Tablet=2}, iOS={OnIdiom Phone=2, Tablet=15}, UWP=15, macOS=15, WPF=auto}" />
                                     <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.05*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP=0.08*, macOS=0.15*, WPF=auto}" />
                                     <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.85*, Tablet=0.95*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP=0.85*, macOS=*, WPF=*}" />
                                 </Grid.ColumnDefinitions>
-                                <Image Source="{Binding Persona.PicturePrimaryPath}" Grid.Column="1" 
-                                       Aspect="AspectFit" 
-                                       HeightRequest="50"
-                                       BackgroundColor="Transparent" HorizontalOptions="Start"/>
+                                <Image
+                                    Grid.Column="1"
+                                    Aspect="AspectFit"
+                                    BackgroundColor="Transparent"
+                                    HeightRequest="50"
+                                    HorizontalOptions="Start"
+                                    Source="{Binding Persona.PicturePrimaryPath}" />
 
                                 <Grid Grid.Column="2">
                                     <Grid.RowDefinitions>
@@ -51,36 +65,66 @@
                                         <RowDefinition Height="0.2*" />
                                     </Grid.RowDefinitions>
 
-                                    <StackLayout Grid.Row="0"  VerticalOptions="Center" >
-                                        <Label LineBreakMode="WordWrap"  Padding="2,0,0,10" 
-                                           VerticalTextAlignment="Center" HorizontalTextAlignment="Start"
-                                           TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}">
+                                    <StackLayout Grid.Row="0" VerticalOptions="Center">
+                                        <Label
+                                            Padding="2,0,0,10"
+                                            HorizontalTextAlignment="Start"
+                                            LineBreakMode="WordWrap"
+                                            TextColor="{AppThemeBinding Dark={StaticResource TextForeDark},
+                                                                        Light={StaticResource TextForeLight}}"
+                                            VerticalTextAlignment="Center">
                                             <Label.FormattedText>
                                                 <FormattedString>
                                                     <Span Text=" " />
-                                                    <Span Text="{Binding Persona.Name}"
-                                                      FontAttributes="Bold"
-                                                      FontSize="{OnPlatform Android={OnIdiom Phone=20, Tablet=28}, iOS={OnIdiom Phone=12, Tablet=13}, UWP={OnIdiom Phone=20, Tablet=26, Desktop=28}, macOS=13, WPF=20}"/>
-                                                    <Span Text="{Binding Persona.NameSubstitueFormatted}" 
-                                                      FontAttributes="Bold" 
-                                                      FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=8, Tablet=10}, UWP={OnIdiom Phone=8, Tablet=10, Desktop=16}, macOS=10, WPF=10}"/>
+                                                    <Span
+                                                        FontAttributes="Bold"
+                                                        FontSize="{OnPlatform Android={OnIdiom Phone=20,
+                                                                                               Tablet=28},
+                                                                              iOS={OnIdiom Phone=12,
+                                                                                           Tablet=13},
+                                                                              UWP={OnIdiom Phone=20,
+                                                                                           Tablet=26,
+                                                                                           Desktop=28},
+                                                                              macOS=13,
+                                                                              WPF=20}"
+                                                        Text="{Binding Persona.Name}" />
+                                                    <Span
+                                                        FontAttributes="Bold"
+                                                        FontSize="{OnPlatform Android={OnIdiom Phone=12,
+                                                                                               Tablet=16},
+                                                                              iOS={OnIdiom Phone=8,
+                                                                                           Tablet=10},
+                                                                              UWP={OnIdiom Phone=8,
+                                                                                           Tablet=10,
+                                                                                           Desktop=16},
+                                                                              macOS=10,
+                                                                              WPF=10}"
+                                                        Text="{Binding Persona.NameSubstitueFormatted}" />
                                                 </FormattedString>
                                             </Label.FormattedText>
                                         </Label>
                                     </StackLayout>
-                                    <Label Grid.Row="1"
-                                                       Margin="0,-8,8,2"
-                                                       TextDecorations="Underline"
-                                                       FontSize="{OnPlatform Android={OnIdiom Phone=10, Tablet=12}, iOS={OnIdiom Phone=10, Tablet=12}, UWP={OnIdiom Phone=10, Tablet=12, Desktop=12}, macOS=13, WPF=16}"
-                                                       VerticalOptions="CenterAndExpand"
-                                                       HorizontalOptions="EndAndExpand">
+                                    <Label
+                                        Grid.Row="1"
+                                        Margin="0,-8,8,2"
+                                        FontSize="{OnPlatform Android={OnIdiom Phone=10,
+                                                                               Tablet=12},
+                                                              iOS={OnIdiom Phone=10,
+                                                                           Tablet=12},
+                                                              UWP={OnIdiom Phone=10,
+                                                                           Tablet=12,
+                                                                           Desktop=12},
+                                                              macOS=13,
+                                                              WPF=16}"
+                                        HorizontalOptions="EndAndExpand"
+                                        TextDecorations="Underline"
+                                        VerticalOptions="CenterAndExpand">
                                         <Label.FormattedText>
                                             <FormattedString>
                                                 <Span Text="Wiki Source">
                                                     <Span.GestureRecognizers>
-                                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapHyperLinkToWikiPage}" 
-                                                                                          CommandParameter="{Binding Persona.WikiPath}"/>
-                                                        <!--Command="{Binding Path=BindingContext.TapHyperLinkToWikiPage, Source={x:Reference lstSaints}}" CommandParameter="{x:Reference WikiPath}" />-->
+                                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapHyperLinkToWikiPage}" CommandParameter="{Binding Persona.WikiPath}" />
+                                                        <!--  Command="{Binding Path=BindingContext.TapHyperLinkToWikiPage, Source={x:Reference lstSaints}}" CommandParameter="{x:Reference WikiPath}" />  -->
                                                     </Span.GestureRecognizers>
                                                 </Span>
                                             </FormattedString>
@@ -93,14 +137,15 @@
                 </sfEffectsView:SfEffectsView>
             </Frame>
 
-            <tabView:SfTabView x:Name="tabView"
-                    VisibleHeaderCount="3" 
-                    HorizontalOptions="FillAndExpand" 
-                    VerticalOptions="FillAndExpand" DisplayMode="Text"
-                    TabHeight="40">
+            <tabView:SfTabView
+                x:Name="tabView"
+                DisplayMode="Text"
+                HorizontalOptions="FillAndExpand"
+                TabHeight="40"
+                VerticalOptions="FillAndExpand"
+                VisibleHeaderCount="3">
                 <tabView:SfTabView.SelectionIndicatorSettings>
-                    <tabView:SelectionIndicatorSettings Color="{AppThemeBinding Dark={StaticResource PersonalBannerGradient01Dark}, Light={StaticResource PersonalBannerGradient01Light}}" 
-                                                        Position="Fill" />
+                    <tabView:SelectionIndicatorSettings Position="Fill" Color="{AppThemeBinding Dark={StaticResource PersonalBannerGradient01Dark}, Light={StaticResource PersonalBannerGradient01Light}}" />
                 </tabView:SfTabView.SelectionIndicatorSettings>
                 <tabView:SfTabItem x:Name="tabUsefulInfo" IsVisible="{Binding IsMetaDataAvailable}">
                     <tabView:SfTabItem.HeaderContent>
@@ -108,45 +153,112 @@
                             <Grid.RowDefinitions>
                                 <!--<RowDefinition Height="50"/>-->
                             </Grid.RowDefinitions>
-                            <sfEffectsView:SfEffectsView Grid.Row="0"
-                                                         WidthRequest="{Binding Source={x:Reference gridHeaderTabUsefullInfo}, Path=Width}"
-                                                         Style="{StaticResource sfTabEffectsViewHeaderStyle}">
-                                <buttons:SfButton x:Name="btnTabBasicInfo" 
-                                                  Text="{Binding TextOnFirstTabInformationOnDetailPage}" TabIndex="100"
-                                                  HorizontalOptions="FillAndExpand"
-                                                  Style="{StaticResource sfTabHeaderSytle}" Clicked="btnTabBtn_Clicked"/>
+                            <sfEffectsView:SfEffectsView
+                                Grid.Row="0"
+                                Style="{StaticResource sfTabEffectsViewHeaderStyle}"
+                                WidthRequest="{Binding Source={x:Reference gridHeaderTabUsefullInfo}, Path=Width}">
+                                <buttons:SfButton
+                                    x:Name="btnTabBasicInfo"
+                                    Clicked="btnTabBtn_Clicked"
+                                    HorizontalOptions="FillAndExpand"
+                                    Style="{StaticResource sfTabHeaderSytle}"
+                                    TabIndex="100"
+                                    Text="{Binding TextOnFirstTabInformationOnDetailPage}" />
                             </sfEffectsView:SfEffectsView>
                         </Grid>
                     </tabView:SfTabItem.HeaderContent>
                     <tabView:SfTabItem.Content>
                         <StackLayout>
-                            <syncfusionList:SfListView x:Name="lstSaints" 
-                                                       BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}"
-                                                       ItemsSource="{Binding Persona.Metadatas}" SelectionMode="None"
-                                                       AllowSwiping="True" AutoFitMode="DynamicHeight">
+                            <syncfusionList:SfListView
+                                x:Name="lstSaints"
+                                AllowSwiping="True"
+                                AutoFitMode="DynamicHeight"
+                                BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark},
+                                                                  Light={StaticResource BackgroundLight}}"
+                                ItemsSource="{Binding Persona.Metadatas}"
+                                SelectionMode="None">
                                 <syncfusionList:SfListView.ItemTemplate>
                                     <DataTemplate>
-                                        <Frame Padding="{OnPlatform Android={OnIdiom Phone=1, Tablet=4}, iOS={OnIdiom Phone=1, Tablet=4}, UWP={OnIdiom Desktop=4, Tablet=5, Phone=1}}" 
-                                               Margin="{OnPlatform Android={OnIdiom Phone=2, Tablet=5}, iOS={OnIdiom Phone=2, Tablet=5}, UWP={OnIdiom Desktop=5, Tablet=5, Phone=2}}" 
-                                               BackgroundColor="{AppThemeBinding Dark={StaticResource BasicInfoItemBackgroundDark}, Light={StaticResource BasicInfoItemBackgroundLight}}"
-                                               HasShadow="{OnPlatform Android=true, iOS=false, UWP=true, WPF=true}">
+                                        <Frame
+                                            Margin="{OnPlatform Android={OnIdiom Phone=2,
+                                                                                 Tablet=5},
+                                                                iOS={OnIdiom Phone=2,
+                                                                             Tablet=5},
+                                                                UWP={OnIdiom Desktop=5,
+                                                                             Tablet=5,
+                                                                             Phone=2}}"
+                                            Padding="{OnPlatform Android={OnIdiom Phone=1,
+                                                                                  Tablet=4},
+                                                                 iOS={OnIdiom Phone=1,
+                                                                              Tablet=4},
+                                                                 UWP={OnIdiom Desktop=4,
+                                                                              Tablet=5,
+                                                                              Phone=1}}"
+                                            BackgroundColor="{AppThemeBinding Dark={StaticResource BasicInfoItemBackgroundDark},
+                                                                              Light={StaticResource BasicInfoItemBackgroundLight}}"
+                                            HasShadow="{OnPlatform Android=true,
+                                                                   iOS=false,
+                                                                   UWP=true,
+                                                                   WPF=true}">
                                             <Grid>
                                                 <Grid.ColumnDefinitions>
                                                     <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.30*, Tablet=0.12*}, iOS={OnIdiom Phone=0.30*, Tablet=0.12*}, UWP={OnIdiom Desktop=0.12*, Phone=0.30*, Tablet=0.12*}, macOS=0.12*, WPF=auto}" />
                                                     <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.70*, Tablet=0.88*}, iOS={OnIdiom Phone=0.70*, Tablet=0.88*}, UWP={OnIdiom Desktop=0.85*, Phone=0.70*, Tablet=0.88*}, macOS=*, WPF=*}" />
                                                 </Grid.ColumnDefinitions>
 
-                                                <Label Text="{Binding Key}" Grid.Column="0" 
-                                                       TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
-                                                       LineBreakMode="WordWrap" Padding="5,0,0,0" VerticalTextAlignment="Center"
-                                                       FontAttributes="Bold"
-                                                       FontSize="{OnPlatform Android={OnIdiom Phone=11, Tablet=15}, iOS={OnIdiom Phone=14, Tablet=18}, UWP={OnIdiom Phone=14, Tablet=18, Desktop=20}, macOS=20, WPF=20}" />
-                                                <Label Text="{Binding Description}" Grid.Column="1" 
-                                                       TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
-                                                       LineBreakMode="WordWrap" Padding="2,2,5,2" VerticalTextAlignment="Center"
-                                                       CharacterSpacing="{OnPlatform Android={OnIdiom Phone=0.3, Tablet=0.2}, iOS={OnIdiom Phone=0.3, Tablet=0.4}, UWP={OnIdiom Phone=0.3, Tablet=0.4, Desktop=0.4}, macOS=0.4, WPF=0.4}"
-                                                       LineHeight="{OnPlatform Android={OnIdiom Phone=1.1, Tablet=1.0}, iOS={OnIdiom Phone=1, Tablet=1.2}, UWP={OnIdiom Phone=1, Tablet=1.2, Desktop=1.2}, macOS=1.2, WPF=1.2}"
-                                                       FontSize="{OnPlatform Android={OnIdiom Phone=13, Tablet=17}, iOS={OnIdiom Phone=13, Tablet=17}, UWP={OnIdiom Phone=14, Tablet=17, Desktop=17}, macOS=17, WPF=17}" />
+                                                <Label
+                                                    Grid.Column="0"
+                                                    Padding="5,0,0,0"
+                                                    FontAttributes="Bold"
+                                                    FontSize="{OnPlatform Android={OnIdiom Phone=11,
+                                                                                           Tablet=15},
+                                                                          iOS={OnIdiom Phone=14,
+                                                                                       Tablet=18},
+                                                                          UWP={OnIdiom Phone=14,
+                                                                                       Tablet=18,
+                                                                                       Desktop=20},
+                                                                          macOS=20,
+                                                                          WPF=20}"
+                                                    LineBreakMode="WordWrap"
+                                                    Text="{Binding Key}"
+                                                    TextColor="{AppThemeBinding Dark={StaticResource TextForeDark},
+                                                                                Light={StaticResource TextForeLight}}"
+                                                    VerticalTextAlignment="Center" />
+                                                <Label
+                                                    Grid.Column="1"
+                                                    Padding="2,2,5,2"
+                                                    CharacterSpacing="{OnPlatform Android={OnIdiom Phone=0.3,
+                                                                                                   Tablet=0.2},
+                                                                                  iOS={OnIdiom Phone=0.3,
+                                                                                               Tablet=0.4},
+                                                                                  UWP={OnIdiom Phone=0.3,
+                                                                                               Tablet=0.4,
+                                                                                               Desktop=0.4},
+                                                                                  macOS=0.4,
+                                                                                  WPF=0.4}"
+                                                    FontSize="{OnPlatform Android={OnIdiom Phone=13,
+                                                                                           Tablet=17},
+                                                                          iOS={OnIdiom Phone=13,
+                                                                                       Tablet=17},
+                                                                          UWP={OnIdiom Phone=14,
+                                                                                       Tablet=17,
+                                                                                       Desktop=17},
+                                                                          macOS=17,
+                                                                          WPF=17}"
+                                                    LineBreakMode="WordWrap"
+                                                    LineHeight="{OnPlatform Android={OnIdiom Phone=1.1,
+                                                                                             Tablet=1.0},
+                                                                            iOS={OnIdiom Phone=1,
+                                                                                         Tablet=1.2},
+                                                                            UWP={OnIdiom Phone=1,
+                                                                                         Tablet=1.2,
+                                                                                         Desktop=1.2},
+                                                                            macOS=1.2,
+                                                                            WPF=1.2}"
+                                                    Text="{Binding Description}"
+                                                    TextColor="{AppThemeBinding Dark={StaticResource TextForeDark},
+                                                                                Light={StaticResource TextForeLight}}"
+                                                    VerticalTextAlignment="Center" />
 
                                             </Grid>
                                         </Frame>
@@ -156,20 +268,54 @@
                         </StackLayout>
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
+                <tabView:SfTabItem
+                    x:Name="tabDetailContent"
+                    Title="Details"
+                    IsVisible="{Binding IsDetailsAvailable}">
+                    <tabView:SfTabItem.HeaderContent>
+                        <Grid x:Name="gridHeaderTabDetails">
+                            <Grid.RowDefinitions>
+                                <!--<RowDefinition Height="50"/>-->
+                            </Grid.RowDefinitions>
+                            <sfEffectsView:SfEffectsView
+                                Grid.Row="0"
+                                Style="{StaticResource sfTabEffectsViewHeaderStyle}"
+                                WidthRequest="{Binding Source={x:Reference gridHeaderTabDetails}, Path=Width}">
+                                <buttons:SfButton
+                                    x:Name="btnTabDetails"
+                                    Clicked="btnTabBtn_Clicked"
+                                    HorizontalOptions="FillAndExpand"
+                                    Style="{StaticResource sfTabHeaderSytle}"
+                                    TabIndex="101"
+                                    Text="Details" />
+                            </sfEffectsView:SfEffectsView>
+                        </Grid>
+                    </tabView:SfTabItem.HeaderContent>
+                    <tabView:SfTabItem.Content>
+                        <ScrollView>
+                            <StackLayout>
+                                <StackLayout x:Name="ParaContentsStack" />
+                            </StackLayout>
+                        </ScrollView>
+                    </tabView:SfTabItem.Content>
+                </tabView:SfTabItem>
                 <tabView:SfTabItem x:Name="tabPictures" IsVisible="{Binding IsPicturesAvailable}">
                     <tabView:SfTabItem.HeaderContent>
                         <Grid x:Name="gridHeaderTabPictures">
                             <Grid.RowDefinitions>
                                 <!--<RowDefinition Height="50"/>-->
                             </Grid.RowDefinitions>
-                            <sfEffectsView:SfEffectsView Grid.Row="0" 
-                                                         WidthRequest="{Binding Source={x:Reference gridHeaderTabPictures}, Path=Width}"
-                                                         Style="{StaticResource sfTabEffectsViewHeaderStyle}">
-                                <buttons:SfButton x:Name="btnTabPicture" 
-                                                  Text="{Binding PictureTitle}" TabIndex="101"
-                                                  HorizontalOptions="FillAndExpand"
-                                                  Style="{StaticResource sfTabHeaderSytle}"
-                                                  Clicked="btnTabBtn_Clicked"/>
+                            <sfEffectsView:SfEffectsView
+                                Grid.Row="0"
+                                Style="{StaticResource sfTabEffectsViewHeaderStyle}"
+                                WidthRequest="{Binding Source={x:Reference gridHeaderTabPictures}, Path=Width}">
+                                <buttons:SfButton
+                                    x:Name="btnTabPicture"
+                                    Clicked="btnTabBtn_Clicked"
+                                    HorizontalOptions="FillAndExpand"
+                                    Style="{StaticResource sfTabHeaderSytle}"
+                                    TabIndex="102"
+                                    Text="{Binding PictureTitle}" />
                             </sfEffectsView:SfEffectsView>
                         </Grid>
                     </tabView:SfTabItem.HeaderContent>
@@ -182,61 +328,57 @@
                                 <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=5, Tablet=25}, iOS={OnIdiom Phone=5, Tablet=25}, UWP={OnIdiom Phone=5, Tablet=25, Desktop=0}, macOS=25, WPF=25}" />
                             </Grid.RowDefinitions>
 
-                            <carousel:SfCarousel Grid.Row="1" x:Name="carousel"
-                                                 ItemsSource="{Binding Persona.Pictures}" 
-                                                 ItemHeight="{Binding Source={x:Reference rowImageInContainerGrid}, Path=Height}"
-                                                 ItemSpacing="10"
-                                                 LoadMoreItemsCount="{Binding CarouselImageLoadMoreItemsCount}"
-                                                 ViewMode="Default"
-                                 SelectionChanged="carousel_SelectionChanged">
+                            <carousel:SfCarousel
+                                x:Name="carousel"
+                                Grid.Row="1"
+                                ItemHeight="{Binding Source={x:Reference rowImageInContainerGrid}, Path=Height}"
+                                ItemSpacing="10"
+                                ItemsSource="{Binding Persona.Pictures}"
+                                LoadMoreItemsCount="{Binding CarouselImageLoadMoreItemsCount}"
+                                SelectionChanged="carousel_SelectionChanged"
+                                ViewMode="Default">
                                 <carousel:SfCarousel.ItemTemplate>
                                     <DataTemplate>
-                                        <Image Source="{Binding PicturePath}" Aspect="AspectFit"/>
+                                        <Image Aspect="AspectFit" Source="{Binding PicturePath}" />
                                     </DataTemplate>
                                 </carousel:SfCarousel.ItemTemplate>
                             </carousel:SfCarousel>
 
                             <Grid Grid.Row="2" BackgroundColor="{AppThemeBinding Dark={StaticResource PictureCaptionBackgroundDark}, Light={StaticResource PictureCaptionBackgroundLight}}">
                                 <ScrollView>
-                                    <Label Text="{Binding CurrentSelectedPictureCaption}" 
-                                       TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
-                                       HorizontalTextAlignment="Center" 
-                                       Padding="8,5,8,2" FontAttributes="Bold"
-                                       FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=16, Tablet=22}, UWP={OnIdiom Phone=14, Tablet=24, Desktop=24}, macOS=22, WPF=26}" />
+                                    <Label
+                                        Padding="8,5,8,2"
+                                        FontAttributes="Bold"
+                                        FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                                               Tablet=22},
+                                                              iOS={OnIdiom Phone=16,
+                                                                           Tablet=22},
+                                                              UWP={OnIdiom Phone=14,
+                                                                           Tablet=24,
+                                                                           Desktop=24},
+                                                              macOS=22,
+                                                              WPF=26}"
+                                        HorizontalTextAlignment="Center"
+                                        Text="{Binding CurrentSelectedPictureCaption}"
+                                        TextColor="{AppThemeBinding Dark={StaticResource TextForeDark},
+                                                                    Light={StaticResource TextForeLight}}" />
                                 </ScrollView>
                             </Grid>
                         </Grid>
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
-                <tabView:SfTabItem Title="Details" x:Name="tabDetailContent" IsVisible="{Binding IsDetailsAvailable}">
-                    <tabView:SfTabItem.HeaderContent>
-                        <Grid x:Name="gridHeaderTabDetails">
-                            <Grid.RowDefinitions>
-                                <!--<RowDefinition Height="50"/>-->
-                            </Grid.RowDefinitions>
-                            <sfEffectsView:SfEffectsView Grid.Row="0" 
-                                                         WidthRequest="{Binding Source={x:Reference gridHeaderTabDetails}, Path=Width}"
-                                                         Style="{StaticResource sfTabEffectsViewHeaderStyle}">
-                                <buttons:SfButton x:Name="btnTabDetails" 
-                                                  Text="Details" TabIndex="102"
-                                                  HorizontalOptions="FillAndExpand"
-                                                  Style="{StaticResource sfTabHeaderSytle}"
-                                                  Clicked="btnTabBtn_Clicked"/>
-                            </sfEffectsView:SfEffectsView>
-                        </Grid>
-                    </tabView:SfTabItem.HeaderContent>
-                    <tabView:SfTabItem.Content>
-                        <ScrollView>
-                            <StackLayout>
-                                <StackLayout x:Name="ParaContentsStack" />
-                            </StackLayout>
-                        </ScrollView>
-                    </tabView:SfTabItem.Content>
-                </tabView:SfTabItem>
             </tabView:SfTabView>
-            <admob:MTAdView AdsId="{Binding AdsBannerId}" 
-                            IsVisible="{OnPlatform Android=true, iOS=true, UWP=false, macOS=false, WPF=false}"
-                            HeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=50}, iOS={OnIdiom Phone=50, Tablet=50}}" />
+            <admob:MTAdView
+                AdsId="{Binding AdsBannerId}"
+                HeightRequest="{OnPlatform Android={OnIdiom Phone=50,
+                                                            Tablet=50},
+                                           iOS={OnIdiom Phone=50,
+                                                        Tablet=50}}"
+                IsVisible="{OnPlatform Android=true,
+                                       iOS=true,
+                                       UWP=false,
+                                       macOS=false,
+                                       WPF=false}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

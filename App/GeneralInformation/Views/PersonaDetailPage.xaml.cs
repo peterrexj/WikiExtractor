@@ -480,8 +480,8 @@ namespace GeneralInformation.Views
                 var tIndex = ((Syncfusion.XForms.Buttons.SfButton)sender).TabIndex;
                 var data = string.Empty;
                 if (tIndex == 100) data = "BasicInfo";
-                else if (tIndex == 101) data = "Pictures";
-                else if (tIndex == 102) data = "Details";
+                else if (tIndex == 101) data = "Details";
+                else if (tIndex == 102) data = "Pictures";
                 await ApplyTabSelectionChangeEvent(context: data);
             }
             catch (Exception ex)
@@ -508,11 +508,11 @@ namespace GeneralInformation.Views
                             {
                                 selectedIndex = 0;
                             }
-                            else if (context == "Pictures")
+                            else if (context == "Details")
                             {
                                 selectedIndex = personaDetailViewModel.IsMetaDataAvailable ? 1 : 0;
                             }
-                            else if (context == "Details")
+                            else if (context == "Pictures")
                             {
                                 selectedIndex = personaDetailViewModel.IsMetaDataAvailable && personaDetailViewModel.IsPicturesAvailable ? 2 :
                                     personaDetailViewModel.IsMetaDataAvailable == false && personaDetailViewModel.IsPicturesAvailable == false ? 0 : 1;
@@ -567,14 +567,14 @@ namespace GeneralInformation.Views
                         else if (personaDetailViewModel.SelectedTabIndex == 1)
                         {
                             removeStyle(btnTabBasicInfo);
-                            applyStyle(btnTabPicture);
-                            removeStyle(btnTabDetails);
+                            removeStyle(btnTabPicture);
+                            applyStyle(btnTabDetails);
                         }
                         else if (personaDetailViewModel.SelectedTabIndex == 2)
                         {
                             removeStyle(btnTabBasicInfo);
-                            removeStyle(btnTabPicture);
-                            applyStyle(btnTabDetails);
+                            applyStyle(btnTabPicture);
+                            removeStyle(btnTabDetails);
                         }
                     }
                     catch (Exception ex)
