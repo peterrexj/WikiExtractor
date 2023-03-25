@@ -1,71 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:GeneralInformation"
-             xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
-             xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
-             xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
-    	     xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
-             xmlns:syncAutoComplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
-             xmlns:sfBusyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
-             xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
-             x:Class="GeneralInformation.Views.WikiListOfItemsPage" x:Name="ListViewPage"
-             Shell.NavBarIsVisible="True" Title="{Binding Title}">
+<ContentPage
+    x:Class="GeneralInformation.Views.WikiListOfItemsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
+    xmlns:local="clr-namespace:GeneralInformation"
+    xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfBusyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+    xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
+    xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+    xmlns:syncAutoComplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
+    xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+    x:Name="ListViewPage"
+    Title="{Binding Title}"
+    Shell.NavBarIsVisible="True">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Padding="5" Spacing="10" BackgroundColor="{AppThemeBinding 
-                                      Dark={StaticResource BackgroundDark}, Light={StaticResource BackgroundLight}}">
-            <syncAutoComplete:SfAutoComplete x:Name="autoComplete" DataSource="{Binding AutocompleteList}"  
-                                             DisplayMemberPath="Name"
-                                             HeightRequest="40"
-                                             TextHighlightMode="MultipleOccurrence"
-                                             Watermark="Enter here to search"
-                                             IgnoreDiacritic="False"
-                                             SuggestionMode="Contains"
-                                             AutoCompleteMode="Suggest"
-                                             ShowBorder="False"
-                                             WatermarkColor="{AppThemeBinding Dark={StaticResource SearchTextWatermarkTextForeDark}, Light={StaticResource SearchTextWatermarkTextForeLight}}"
-                                             BackgroundColor="{AppThemeBinding Dark={StaticResource SearchTextDropBackDark}, Light={StaticResource SearchTextDropBackLight}}"
-                                             DropDownBackgroundColor="{AppThemeBinding Dark={StaticResource SearchTextDropBackDark}, Light={StaticResource SearchTextDropBackLight}}"
-                                             HighlightedTextColor="{AppThemeBinding Dark={StaticResource SearchTextDropHighlightBackDark}, Light={StaticResource SearchTextDropHighlightBackLight}}"
-                                             TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
-                                             DropDownTextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
-                                             HighlightedTextFontAttributes="Bold"
-                                             ClearButtonColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
-                                             NoResultsFoundTextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}"
-                                             IsEnabled="{Binding IsBusy}"
-                                             NoResultsFoundText="No Results Found"
-                                             SelectionChanged="autoComplete_SelectionChanged"
-                                             Completed="autoComplete_Completed"
-                                             ValueChanged="autoComplete_ValueChanged"
-                                             ShowClearButton="True"
-                />
-            <!--MaximumSuggestion="10" LoadMoreText=" Tap to load"-->
-            <syncfusionList:SfListView x:Name="lstListOfItems" 
-                                       BackgroundColor="Transparent"
-                                       SelectionMode="None"
-                                       IsEnabled="{Binding IsBusy}"
-                                       ItemsSource="{Binding Personas}" 
-                                       AllowSwiping="True" AutoFitMode="DynamicHeight">
+        <StackLayout
+            Padding="5"
+            BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark},
+                                              Light={StaticResource BackgroundLight}}"
+            Orientation="Vertical"
+            Spacing="10">
+            <syncAutoComplete:SfAutoComplete
+                x:Name="autoComplete"
+                AutoCompleteMode="Suggest"
+                BackgroundColor="{AppThemeBinding Dark={StaticResource SearchTextDropBackDark},
+                                                  Light={StaticResource SearchTextDropBackLight}}"
+                ClearButtonColor="{AppThemeBinding Dark={StaticResource TextForeDark},
+                                                   Light={StaticResource TextForeLight}}"
+                Completed="autoComplete_Completed"
+                DataSource="{Binding AutocompleteList}"
+                DisplayMemberPath="Name"
+                DropDownBackgroundColor="{AppThemeBinding Dark={StaticResource SearchTextDropBackDark},
+                                                          Light={StaticResource SearchTextDropBackLight}}"
+                DropDownTextColor="{AppThemeBinding Dark={StaticResource TextForeDark},
+                                                    Light={StaticResource TextForeLight}}"
+                HeightRequest="40"
+                HighlightedTextColor="{AppThemeBinding Dark={StaticResource SearchTextDropHighlightBackDark},
+                                                       Light={StaticResource SearchTextDropHighlightBackLight}}"
+                HighlightedTextFontAttributes="Bold"
+                IgnoreDiacritic="False"
+                IsEnabled="{Binding IsBusy}"
+                NoResultsFoundText="No Results Found"
+                NoResultsFoundTextColor="{AppThemeBinding Dark={StaticResource TextForeDark},
+                                                          Light={StaticResource TextForeLight}}"
+                SelectionChanged="autoComplete_SelectionChanged"
+                ShowBorder="False"
+                ShowClearButton="True"
+                SuggestionMode="Contains"
+                TextColor="{AppThemeBinding Dark={StaticResource TextForeDark},
+                                            Light={StaticResource TextForeLight}}"
+                TextHighlightMode="MultipleOccurrence"
+                ValueChanged="autoComplete_ValueChanged"
+                Watermark="Enter here to search"
+                WatermarkColor="{AppThemeBinding Dark={StaticResource SearchTextWatermarkTextForeDark},
+                                                 Light={StaticResource SearchTextWatermarkTextForeLight}}" />
+            <!--  MaximumSuggestion="10" LoadMoreText=" Tap to load"  -->
+            <syncfusionList:SfListView
+                x:Name="lstListOfItems"
+                AllowSwiping="True"
+                AutoFitMode="DynamicHeight"
+                BackgroundColor="Transparent"
+                IsEnabled="{Binding IsBusy}"
+                ItemsSource="{Binding Personas}"
+                SelectionMode="None">
                 <syncfusionList:SfListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <sfEffectsView:SfEffectsView x:Name="lstItemEffectsView" TouchDownEffects="Ripple" WidthRequest="344" 
-                                                         Margin="0,0,0,10" CornerRadius="5" RippleAnimationDuration="300"
-                                                         AutomationId="{Binding Id}"
-                                                         AnimationCompleted="lstItemEffectsView_AnimationCompleted">
-                                <Grid >
-                                    <sfGradient:SfGradientView >
+                            <sfEffectsView:SfEffectsView
+                                x:Name="lstItemEffectsView"
+                                Margin="0,0,0,10"
+                                AnimationCompleted="lstItemEffectsView_AnimationCompleted"
+                                AutomationId="{Binding Id}"
+                                CornerRadius="5"
+                                RippleAnimationDuration="300"
+                                TouchDownEffects="Ripple"
+                                WidthRequest="344">
+                                <Grid>
+                                    <sfGradient:SfGradientView>
                                         <sfGradient:SfGradientView.BackgroundBrush>
                                             <sfGradient:SfLinearGradientBrush>
                                                 <sfGradient:SfLinearGradientBrush.GradientStops>
-                                                    <sfGradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource EachItemBackGradientStartDark}, Light={StaticResource EachItemBackGradientStartLight}}" Offset="0.0" />
-                                                    <sfGradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource EachItemBackGradientEndDark}, Light={StaticResource EachItemBackGradientEndLight}}" Offset="1" />
+                                                    <sfGradient:SfGradientStop Offset="0.0" Color="{AppThemeBinding Dark={StaticResource EachItemBackGradientStartDark}, Light={StaticResource EachItemBackGradientStartLight}}" />
+                                                    <sfGradient:SfGradientStop Offset="1" Color="{AppThemeBinding Dark={StaticResource EachItemBackGradientEndDark}, Light={StaticResource EachItemBackGradientEndLight}}" />
                                                 </sfGradient:SfLinearGradientBrush.GradientStops>
                                             </sfGradient:SfLinearGradientBrush>
                                         </sfGradient:SfGradientView.BackgroundBrush>
                                     </sfGradient:SfGradientView>
-                                    <sfBorder:SfBorder BackgroundColor="Transparent" BorderColor="Transparent" 
-											   BorderWidth="0" VerticalOptions="Center">
+                                    <sfBorder:SfBorder
+                                        BackgroundColor="Transparent"
+                                        BorderColor="Transparent"
+                                        BorderWidth="0"
+                                        VerticalOptions="Center">
                                         <Grid>
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.10*}, iOS={OnIdiom Phone=0.35*, Tablet=0.10*}, UWP=0.10*, macOS=0.15*, WPF=auto}" />
@@ -76,15 +102,20 @@
                                             <!--<StackLayout Grid.Column="0">-->
                                             <!--<sfBorder:SfBorder BorderColor="#909497" BorderThickness="1" CornerRadius="2">-->
                                             <!--<Frame BorderColor="Black" BackgroundColor="Transparent" >-->
-                                            <Image x:Name="imgList" Source="{Binding PicturePrimaryPath}" Margin="5,0,0,0"
-                                                   HorizontalOptions="FillAndExpand" 
-                                                   VerticalOptions="Start" 
-                                                       HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnImageHeightRequestOnListPage}" WidthRequest="120" Aspect="AspectFit"/>
+                                            <Image
+                                                x:Name="imgList"
+                                                Margin="5,0,0,0"
+                                                Aspect="AspectFit"
+                                                HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnImageHeightRequestOnListPage}"
+                                                HorizontalOptions="FillAndExpand"
+                                                Source="{Binding PicturePrimaryPath}"
+                                                VerticalOptions="Start"
+                                                WidthRequest="120" />
                                             <!--</Frame>-->
                                             <ActivityIndicator BindingContext="{x:Reference imgList}" IsRunning="{Binding IsLoading}" />
-                                            <!--<sfBusyindicator:SfBusyIndicator x:Name="busyindicator" AnimationType="Globe" 
-                                                                                 ViewBoxWidth = "40" 
-                                                                                 ViewBoxHeight="40" 
+                                            <!--<sfBusyindicator:SfBusyIndicator x:Name="busyindicator" AnimationType="Globe"
+                                                                                 ViewBoxWidth = "40"
+                                                                                 ViewBoxHeight="40"
                                                                                  BindingContext="{x:Reference imgList}"
                                                                                  IsBusy="{Binding IsLoading}"/>-->
                                             <!--</sfBorder:SfBorder>-->
@@ -99,35 +130,75 @@
                                                 <StackLayout Grid.Row="0" Padding="10,3,0,0">
                                                     <StackLayout.VerticalOptions>
                                                         <OnPlatform x:TypeArguments="LayoutOptions">
-                                                            <On Platform="macOS" Value="CenterAndExpand"/>
+                                                            <On Platform="macOS" Value="CenterAndExpand" />
                                                         </OnPlatform>
                                                     </StackLayout.VerticalOptions>
                                                     <FlexLayout AlignContent="Start">
-                                                        <Label Text="{Binding Name}" 
-                                                               TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
-                                                               LineBreakMode="TailTruncation" FontAttributes="Bold"
-                                                               Padding="0,0,3,0"
-                                                               FontFamily="OpenSans"
-                                                               FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=22}, iOS={OnIdiom Phone=18, Tablet=22}, UWP=22, macOS=22, WPF=26}" />
-                                                        <ActivityIndicator IsRunning="{Binding IsFree}" IsVisible="{OnPlatform Android=true, iOS=true, UWP=false, macOS=false, WPF=false}"
-                                                                           HeightRequest="{OnPlatform Android={OnIdiom Phone=30, Tablet=40}, iOS={OnIdiom Phone=30, Tablet=40}, UWP=40, macOS=40, WPF=40}" />
+                                                        <Label
+                                                            Padding="0,0,3,0"
+                                                            FontAttributes="Bold"
+                                                            FontFamily="OpenSans"
+                                                            FontSize="{OnPlatform Android={OnIdiom Phone=18,
+                                                                                                   Tablet=22},
+                                                                                  iOS={OnIdiom Phone=18,
+                                                                                               Tablet=22},
+                                                                                  UWP=22,
+                                                                                  macOS=22,
+                                                                                  WPF=26}"
+                                                            LineBreakMode="TailTruncation"
+                                                            Text="{Binding Name}"
+                                                            TextColor="{AppThemeBinding Dark={StaticResource TextForeDark},
+                                                                                        Light={StaticResource TextForeLight}}" />
+                                                        <ActivityIndicator
+                                                            HeightRequest="{OnPlatform Android={OnIdiom Phone=30,
+                                                                                                        Tablet=40},
+                                                                                       iOS={OnIdiom Phone=30,
+                                                                                                    Tablet=40},
+                                                                                       UWP=40,
+                                                                                       macOS=40,
+                                                                                       WPF=40}"
+                                                            IsRunning="{Binding IsFree}"
+                                                            IsVisible="{OnPlatform Android=true,
+                                                                                   iOS=true,
+                                                                                   UWP=false,
+                                                                                   macOS=false,
+                                                                                   WPF=false}" />
                                                     </FlexLayout>
                                                 </StackLayout>
-                                                <Label Grid.Row="1" IsVisible="{Binding HidePrimaryContentMetadata}"
-                                                           TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" 
-                                                           LineBreakMode="TailTruncation" MaxLines="{OnPlatform Android={OnIdiom Phone=6, Tablet=4}, iOS={OnIdiom Phone=6, Tablet=4}, UWP=4, macOS=4, WPF=4}"
-                                                           Padding="10,0,0,0"
-                                                           Text="{Binding MainContent}" 
-                                                           FontSize="{OnPlatform Android={OnIdiom Phone=12, Tablet=16}, iOS={OnIdiom Phone=11, Tablet=16}, UWP=16, macOS=13, WPF=16}" />
+                                                <Label
+                                                    Grid.Row="1"
+                                                    Padding="10,0,0,0"
+                                                    FontSize="{OnPlatform Android={OnIdiom Phone=12,
+                                                                                           Tablet=16},
+                                                                          iOS={OnIdiom Phone=11,
+                                                                                       Tablet=16},
+                                                                          UWP=16,
+                                                                          macOS=13,
+                                                                          WPF=16}"
+                                                    IsVisible="{Binding HidePrimaryContentMetadata}"
+                                                    LineBreakMode="TailTruncation"
+                                                    MaxLines="{OnPlatform Android={OnIdiom Phone=6,
+                                                                                           Tablet=4},
+                                                                          iOS={OnIdiom Phone=6,
+                                                                                       Tablet=4},
+                                                                          UWP=4,
+                                                                          macOS=4,
+                                                                          WPF=4}"
+                                                    Text="{Binding MainContent}"
+                                                    TextColor="{AppThemeBinding Dark={StaticResource TextForeDark},
+                                                                                Light={StaticResource TextForeLight}}" />
 
-                                                <local:ExtendedListView Grid.Row="1" Padding="10,0,0,10" IsVisible="{Binding ShowPrimaryContentMetadata}" 
-                                                                           ItemsSource="{Binding PrimaryMetadataContent}" 
-                                                                           AutoFitMode="DynamicHeight"
-                                                                           SelectionMode="None"
-                                                                           IsEnabled="False"
-                                                                           BackgroundColor="Transparent"
-                                                                             HeightRequest="{Binding ListHeight}">
-                                                    <!--HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnListItemHeightRequestOnListPage}">-->
+                                                <local:ExtendedListView
+                                                    Grid.Row="1"
+                                                    Padding="10,0,0,10"
+                                                    AutoFitMode="DynamicHeight"
+                                                    BackgroundColor="Transparent"
+                                                    HeightRequest="{Binding ListHeight}"
+                                                    IsEnabled="False"
+                                                    IsVisible="{Binding ShowPrimaryContentMetadata}"
+                                                    ItemsSource="{Binding PrimaryMetadataContent}"
+                                                    SelectionMode="None">
+                                                    <!--  HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnListItemHeightRequestOnListPage}">  -->
                                                     <syncfusionList:SfListView.LayoutManager>
                                                         <syncfusionList:LinearLayout />
                                                     </syncfusionList:SfListView.LayoutManager>
@@ -136,14 +207,18 @@
                                                         <DataTemplate>
                                                             <ViewCell>
                                                                 <ViewCell.View>
-                                                                    <Grid >
+                                                                    <Grid>
                                                                         <StackLayout Orientation="Horizontal">
-                                                                            <Label TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}" >
+                                                                            <Label TextColor="{AppThemeBinding Dark={StaticResource TextForeDark}, Light={StaticResource TextForeLight}}">
                                                                                 <Label.FormattedText>
                                                                                     <FormattedString>
-                                                                                        <Span Text="{Binding Key}" FontSize="{OnIdiom Phone=11, Tablet=16}" />
-                                                                                        <Span Text=": " FontSize="{OnIdiom Phone=12, Tablet=16}"/>
-                                                                                        <Span Text="{Binding Description}" FontAttributes="Bold,Italic" FontSize="{OnIdiom Phone=11, Tablet=16}" />
+                                                                                        <Span FontSize="{OnIdiom Phone=11, Tablet=16}" Text="{Binding Key}" />
+                                                                                        <Span FontSize="{OnIdiom Phone=12, Tablet=16}" Text=": " />
+                                                                                        <Span
+                                                                                            FontAttributes="Bold,Italic"
+                                                                                            FontSize="{OnIdiom Phone=11,
+                                                                                                               Tablet=16}"
+                                                                                            Text="{Binding Description}" />
                                                                                     </FormattedString>
                                                                                 </Label.FormattedText>
                                                                             </Label>
@@ -164,10 +239,10 @@
                                                         <FormattedString>
                                                             <Span Text="WikiLink">
                                                                 <Span.GestureRecognizers>
-                                                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapHyperLinkToWikiPage}" 
+                                                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapHyperLinkToWikiPage}"
                                                                                           CommandParameter="{Binding WikiPath}"/>
-                                                                    -->
-                                                <!--Command="{Binding Path=BindingContext.TapHyperLinkToWikiPage, Source={x:Reference lstSaints}}" CommandParameter="{x:Reference WikiPath}" />-->
+                                                -->
+                                                <!--  Command="{Binding Path=BindingContext.TapHyperLinkToWikiPage, Source={x:Reference lstSaints}}" CommandParameter="{x:Reference WikiPath}" />  -->
                                                 <!--
                                                                 </Span.GestureRecognizers>
                                                             </Span>
@@ -184,9 +259,17 @@
                     </DataTemplate>
                 </syncfusionList:SfListView.ItemTemplate>
             </syncfusionList:SfListView>
-            <admob:MTAdView AdsId="{Binding AdsBannerId}" 
-                            IsVisible="{OnPlatform Android=true, iOS=true, UWP=false, macOS=false, WPF=false}"
-                            HeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=50}, iOS={OnIdiom Phone=50, Tablet=50}}" />
+            <admob:MTAdView
+                AdsId="{Binding AdsBannerId}"
+                HeightRequest="{OnPlatform Android={OnIdiom Phone=50,
+                                                            Tablet=50},
+                                           iOS={OnIdiom Phone=50,
+                                                        Tablet=50}}"
+                IsVisible="{OnPlatform Android=true,
+                                       iOS=true,
+                                       UWP=false,
+                                       macOS=false,
+                                       WPF=false}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
