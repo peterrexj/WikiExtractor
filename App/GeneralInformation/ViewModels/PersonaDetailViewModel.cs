@@ -37,7 +37,7 @@ namespace GeneralInformation.ViewModels
             }
         }
 
-        public bool IsPicturesAvailable => Persona != null && Persona.Pictures != null && Persona.Pictures.Any();
+        public bool IsPicturesAvailable => Persona != null && Persona.Pictures != null && Persona.Pictures.Any(f => f.PicturePath != "NoImageAvailable.png");
         public bool IsPrimaryPictureAvailable => Persona != null && Persona.PicturePrimaryPath.HasValue();
         public bool IsMetaDataAvailable => Persona != null && Persona.Metadatas != null && Persona.Metadatas.Any();
         public bool IsDetailsAvailable => Persona != null && Persona.Paragraphs != null && Persona.Paragraphs.Any();
