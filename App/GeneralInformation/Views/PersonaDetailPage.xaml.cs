@@ -1,4 +1,5 @@
-﻿using GeneralInformation.Repository;
+﻿using GeneralInformation.Exts;
+using GeneralInformation.Repository;
 using GeneralInformation.ViewModels;
 using Microsoft.AppCenter.Crashes;
 using Pj.Library;
@@ -22,6 +23,26 @@ namespace GeneralInformation.Views
         public string MasterId { get; set; }
         private readonly WikiAppController wikiAppController;
         private PersonaDetailViewModel personaDetailViewModel;
+        private const int DefaultHeightImageInDetailsPage = 300;
+
+        private IDictionary<string, string> BuildErrorContext()
+        {
+            if (personaDetailViewModel != null &&
+                personaDetailViewModel.Persona != null &&
+                personaDetailViewModel.Persona.Name.HasValue())
+            {
+                return DeviceDetails.GenerateMetaInformation(new Dictionary<string, string>
+                {
+                    { "Name", personaDetailViewModel.Persona.Name },
+                    { "WikiPath", personaDetailViewModel.Persona.WikiPath },
+                });
+            }
+            else
+            {
+
+                return DeviceDetails.GenerateDeviceInformation();
+            }
+        }
 
         public PersonaDetailPage()
         {
@@ -77,7 +98,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-                Crashes.TrackError(ex);
+                Crashes.TrackError(ex, BuildErrorContext());
             }
         }
 
@@ -85,7 +106,14 @@ namespace GeneralInformation.Views
         {
             foreach (var grpContent in contents.OrderBy(f => f.Sequence).GroupBy(f => f.Header2))
             {
-                ParaContentsStack.Children.Add(RenderPara2ContentV2(grpContent.ToList()));
+                try
+                {
+                    ParaContentsStack.Children.Add(RenderPara2ContentV2(grpContent.ToList()));
+                }
+                catch (Exception ex)
+                {
+                    Crashes.TrackError(ex, BuildErrorContext());
+                }
             }
         }
 
@@ -183,68 +211,82 @@ namespace GeneralInformation.Views
                 VerticalOptions = LayoutOptions.FillAndExpand,
             };
 
-            var sfBorder = new SfBorder
+            try
             {
-                HorizontalOptions = LayoutOptions.FillAndExpand,
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                BackgroundColor = Color.Transparent,
-                BorderColor = Color.LightGray,
-                BorderWidth = 1,
-                CornerRadius = 5,
-                HeightRequest = picModel.Height > 300 ? 300 : picModel.Height,
-                AutomationId = $"{picModel.Height},{picModel.Width}"
-            };
+                var sfBorder = new SfBorder
+                {
+                    HorizontalOptions = LayoutOptions.FillAndExpand,
+                    VerticalOptions = LayoutOptions.FillAndExpand,
+                    BackgroundColor = Color.Transparent,
+                    BorderColor = Color.LightGray,
+                    BorderWidth = 1,
+                    CornerRadius = 5,
+                    HeightRequest = (picModel.Height <= 0 || picModel.Height > DefaultHeightImageInDetailsPage) ? DefaultHeightImageInDetailsPage : picModel.Height,
+                    AutomationId = $"{(picModel.Height <= 0 ? DefaultHeightImageInDetailsPage : picModel.Height)},{(picModel.Width <= 0 ? DefaultHeightImageInDetailsPage : picModel.Width)}"
+                };
 
-            sfBorder.SizeChanged += SfBorderOnContentDetailImage_SizeChanged;
-            var img = new Image
+                sfBorder.SizeChanged += SfBorderOnContentDetailImage_SizeChanged;
+                var img = new Image
+                {
+                    Source = picModel.PicturePath,
+                    Margin = new Thickness(5, 2, 5, 2),
+                    Aspect = Aspect.AspectFit,
+                    HorizontalOptions = LayoutOptions.FillAndExpand,
+                    VerticalOptions = LayoutOptions.FillAndExpand,
+                };
+
+                sfBorder.Content = img;
+
+                var lbl = new Label { Text = picModel.PictureCaption };
+                var resource = Application.Current.Resources["DetailsTabImageCaptionText"];
+                if (resource != null && resource.GetType() == typeof(Style))
+                    lbl.Style = (Style)resource;
+
+                Grid.SetRow(sfBorder, 0);
+                Grid.SetRow(lbl, 1);
+
+                grid.Children.Add(sfBorder);
+                grid.Children.Add(lbl);
+
+            }
+            catch (Exception ex)
             {
-                Source = picModel.PicturePath,
-                Margin = new Thickness(5, 2, 5, 2),
-                Aspect = Aspect.AspectFit,
-                HorizontalOptions = LayoutOptions.FillAndExpand,
-                VerticalOptions = LayoutOptions.FillAndExpand,
-            };
-
-            sfBorder.Content = img;
-
-            var lbl = new Label { Text = picModel.PictureCaption };
-            var resource = Application.Current.Resources["DetailsTabImageCaptionText"];
-            if (resource != null && resource.GetType() == typeof(Style))
-                lbl.Style = (Style)resource;
-
-            Grid.SetRow(sfBorder, 0);
-            Grid.SetRow(lbl, 1);
-
-            grid.Children.Add(sfBorder);
-            grid.Children.Add(lbl);
-
+                Crashes.TrackError(ex, BuildErrorContext());
+            }
             return grid;
         }
 
         private void SfBorderOnContentDetailImage_SizeChanged(object sender, EventArgs e)
         {
-            if (sender != null)
+            try
             {
-                var width = ((SfBorder)sender).Bounds.Width;
-                if (width > 600) width = 600; //For Tablet with higher width, the width is set back to 600
-                var automationId = ((SfBorder)sender).AutomationId?.SplitAndTrim(",")?.ToList();
-                if (width > 0 && automationId?.Count() == 2)
+                if (sender != null)
                 {
-                    //item 0 - height
-                    //item 1 - width
-                    
-                    var actualHeight = (automationId[0].ToDouble() / automationId[1].ToDouble()) * width;
-                    ((SfBorder)sender).HeightRequest = actualHeight;
-                    //For tablets, since the width is shortend, the picture will sit in the centre with gaps around the border.
-                    //hence removing the border and radius
-                    if (width >= 600)
+                    var width = ((SfBorder)sender).Bounds.Width;
+                    if (width > 600) width = 600; //For Tablet with higher width, the width is set back to 600
+                    var automationId = ((SfBorder)sender).AutomationId?.SplitAndTrim(",")?.ToList();
+                    if (width > 0 && automationId?.Count() == 2)
                     {
-                        ((SfBorder)sender).WidthRequest = width;
-                        ((SfBorder)sender).BorderColor = Color.Transparent;
-                        ((SfBorder)sender).BorderWidth = 0;
-                        ((SfBorder)sender).CornerRadius = 0;
+                        //item 0 - height
+                        //item 1 - width
+
+                        var actualHeight = (automationId[0].ToDouble() / automationId[1].ToDouble()) * width;
+                        ((SfBorder)sender).HeightRequest = actualHeight;
+                        //For tablets, since the width is shortend, the picture will sit in the centre with gaps around the border.
+                        //hence removing the border and radius
+                        if (width >= 600)
+                        {
+                            ((SfBorder)sender).WidthRequest = width;
+                            ((SfBorder)sender).BorderColor = Color.Transparent;
+                            ((SfBorder)sender).BorderWidth = 0;
+                            ((SfBorder)sender).CornerRadius = 0;
+                        }
                     }
                 }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex, BuildErrorContext());
             }
         }
 
