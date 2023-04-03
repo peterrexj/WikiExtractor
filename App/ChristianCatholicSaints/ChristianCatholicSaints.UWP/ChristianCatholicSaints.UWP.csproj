@@ -90,11 +90,14 @@
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\..\LinkFiles\ConfigHelperUwp.cs">
+      <Link>DeviceDependencyImpl\ConfigHelperUwp.cs</Link>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="DeviceDependencyImpl\AppEnvironment_Uwp.cs" />
-    <Compile Include="DeviceDependencyImpl\AppInformation_Android.cs" />
+    <Compile Include="DeviceDependencyImpl\AppInformation_Uwp.cs" />
     <Compile Include="DeviceDependencyImpl\SqliteFileHelper_Uwp.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -151,35 +154,35 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Pj.Library">
-      <Version>1.0.4.14</Version>
+      <Version>1.0.4.15</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Datastore">
-      <Version>1.0.4.14</Version>
+      <Version>1.0.4.15</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Mobile">
-      <Version>1.0.4.14</Version>
+      <Version>1.0.4.15</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Secure">
-      <Version>1.0.4.14</Version>
+      <Version>1.0.4.15</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Core">
-      <Version>20.3.0.52</Version>
+      <Version>21.1.37</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete">
-      <Version>20.3.0.52</Version>
+      <Version>21.1.37</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator">
-      <Version>20.3.0.52</Version>
+      <Version>21.1.37</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfCarousel">
-      <Version>20.3.0.52</Version>
+      <Version>21.1.37</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfTreeView">
-      <Version>20.3.0.52</Version>
+      <Version>21.1.37</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2578" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.14" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.5" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\GeneralInformation\GeneralInformation.csproj">
@@ -190,6 +193,11 @@
   <ItemGroup>
     <Content Include="..\..\Databases\WikiStoreSaints.db">
       <Link>Assets\WikiStoreSaints.db</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\LinkFiles\CommonConfigs.json">
+      <Link>Assets\CommonConfigs.json</Link>
     </Content>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

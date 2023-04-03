@@ -150,35 +150,35 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Pj.Library">
-      <Version>1.0.4.14</Version>
+      <Version>1.0.4.15</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Datastore">
-      <Version>1.0.4.14</Version>
+      <Version>1.0.4.15</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Mobile">
-      <Version>1.0.4.14</Version>
+      <Version>1.0.4.15</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Secure">
-      <Version>1.0.4.14</Version>
+      <Version>1.0.4.15</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Core">
-      <Version>20.3.0.52</Version>
+      <Version>21.1.37</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete">
-      <Version>20.3.0.52</Version>
+      <Version>21.1.37</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator">
-      <Version>20.3.0.52</Version>
+      <Version>21.1.37</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfCarousel">
-      <Version>20.3.0.52</Version>
+      <Version>21.1.37</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfTreeView">
-      <Version>20.3.0.52</Version>
+      <Version>21.1.37</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2578" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.14" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.5" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\WikiStore.db" />

@@ -1,17 +1,13 @@
-﻿using System;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.OS;
-using Pj.Library;
-using Android.Views;
-using GeneralInformation;
-using System.Diagnostics;
-using System.Threading.Tasks;
-using System.IO;
 using Android.Gms.Ads;
+using Android.OS;
+using Android.Runtime;
+using GeneralInformation;
 using Microsoft.AppCenter.Crashes;
+using Pj.Library;
+using System;
+using System.Threading.Tasks;
 
 namespace CountriesOfWorld.Droid
 {
@@ -20,7 +16,9 @@ namespace CountriesOfWorld.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(CryptoHelper.Decrypt("+QcTizXqAlBO5w3z7WWab6WlQqM96TUQ8OC8rPLrTVeTC1plyteIfJwEGTzq1TCWGELzS3AF87Z2LeXwOcc0Y6WV67I9nEFo61Uz71rzy0evCgpa221FX0GMc1/eQIc6"));
+            GeneralInformation.ConfigHelperDroid.LoadConfig();
+
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(CryptoHelper.Decrypt(GeneralInformation.ConfigHelperDroid.SyncFusionLicense));
             base.OnCreate(savedInstanceState);
 
             AndroidEnvironment.UnhandledExceptionRaiser += AndroidEnvironment_UnhandledExceptionRaiser;

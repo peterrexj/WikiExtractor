@@ -113,7 +113,7 @@
                                                 WidthRequest="120" />
                                             <!--</Frame>-->
                                             <ActivityIndicator BindingContext="{x:Reference imgList}" IsRunning="{Binding IsLoading}" />
-                                            <!--<sfBusyindicator:SfBusyIndicator x:Name="busyindicator" AnimationType="Globe"
+                                            <!--<sfBusyindicator:SfBusyIndicator x:Name="busyindicator" AnimationType="ZoomingTarget"
                                                                                  ViewBoxWidth = "40"
                                                                                  ViewBoxHeight="40"
                                                                                  BindingContext="{x:Reference imgList}"
@@ -149,7 +149,46 @@
                                                             Text="{Binding Name}"
                                                             TextColor="{AppThemeBinding Dark={StaticResource TextForeDark},
                                                                                         Light={StaticResource TextForeLight}}" />
-                                                        <ActivityIndicator
+                                                        <sfBusyindicator:SfBusyIndicator
+                                                            Margin="0,-5,0,0"
+                                                            AnimationType="Cupertino"
+                                                            HeightRequest="{OnPlatform Android={OnIdiom Phone=30,
+                                                                                                        Tablet=40},
+                                                                                       iOS={OnIdiom Phone=30,
+                                                                                                    Tablet=40},
+                                                                                       UWP=40,
+                                                                                       macOS=40,
+                                                                                       WPF=40}"
+                                                            IsBusy="{Binding IsFree}"
+                                                            IsVisible="{OnPlatform Android=true,
+                                                                                   iOS=true,
+                                                                                   UWP=false,
+                                                                                   macOS=false,
+                                                                                   WPF=false}"
+                                                            TextColor="{AppThemeBinding Dark={StaticResource TextForeDark},
+                                                                                        Light={StaticResource TextForeLight}}"
+                                                            ViewBoxHeight="{OnPlatform Android={OnIdiom Phone=30,
+                                                                                                        Tablet=40},
+                                                                                       iOS={OnIdiom Phone=30,
+                                                                                                    Tablet=40},
+                                                                                       UWP=40,
+                                                                                       macOS=40,
+                                                                                       WPF=40}"
+                                                            ViewBoxWidth="{OnPlatform Android={OnIdiom Phone=30,
+                                                                                                       Tablet=40},
+                                                                                      iOS={OnIdiom Phone=30,
+                                                                                                   Tablet=40},
+                                                                                      UWP=40,
+                                                                                      macOS=40,
+                                                                                      WPF=40}"
+                                                            WidthRequest="{OnPlatform Android={OnIdiom Phone=30,
+                                                                                                       Tablet=40},
+                                                                                      iOS={OnIdiom Phone=30,
+                                                                                                   Tablet=40},
+                                                                                      UWP=40,
+                                                                                      macOS=40,
+                                                                                      WPF=40}" />
+                                                        <!--<ActivityIndicator
                                                             HeightRequest="{OnPlatform Android={OnIdiom Phone=30,
                                                                                                         Tablet=40},
                                                                                        iOS={OnIdiom Phone=30,
@@ -162,7 +201,7 @@
                                                                                    iOS=true,
                                                                                    UWP=false,
                                                                                    macOS=false,
-                                                                                   WPF=false}" />
+                                                                                   WPF=false}" />-->
                                                     </FlexLayout>
                                                 </StackLayout>
                                                 <Label

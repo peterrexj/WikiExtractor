@@ -1,5 +1,5 @@
 ﻿using GeneralInformation.Exts;
-using GeneralInformation.Repository;
+using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
 using Microsoft.AppCenter.Crashes;
 using Pj.Library;
@@ -9,7 +9,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WikiExtractor.Process;
 using WikiExtractor.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -21,20 +20,21 @@ namespace GeneralInformation.Views
     public partial class PersonaDetailPage : ContentPage
     {
         public string MasterId { get; set; }
-        private readonly WikiAppController wikiAppController;
-        private PersonaDetailViewModel personaDetailViewModel;
+
+        private static PersonaViewModel _personaViewModel;
+        private static List<Grid> _paraGrids;
         private const int DefaultHeightImageInDetailsPage = 300;
 
-        private IDictionary<string, string> BuildErrorContext()
+        private PersonaDetailViewModel personaDetailViewModel;
+
+        private static IDictionary<string, string> BuildErrorContext()
         {
-            if (personaDetailViewModel != null &&
-                personaDetailViewModel.Persona != null &&
-                personaDetailViewModel.Persona.Name.HasValue())
+            if (_personaViewModel != null)
             {
                 return DeviceDetails.GenerateMetaInformation(new Dictionary<string, string>
                 {
-                    { "Name", personaDetailViewModel.Persona.Name },
-                    { "WikiPath", personaDetailViewModel.Persona.WikiPath },
+                    { "Name", _personaViewModel?.Name },
+                    { "WikiPath", _personaViewModel?.WikiPath },
                 });
             }
             else
@@ -49,12 +49,32 @@ namespace GeneralInformation.Views
             try
             {
                 InitializeComponent();
-                wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
                 BindingContext = personaDetailViewModel = new PersonaDetailViewModel { Persona = new PersonaViewModel() };
             }
             catch (Exception ex)
             {
                 Crashes.TrackError(ex);
+            }
+        }
+
+        public static void LoadContent(int masterId)
+        {
+            _personaViewModel = SharedServices.WikiAppController.GetViewModelById(masterId);
+        }
+        public static void LoadParaGrids()
+        {
+            _paraGrids = new List<Grid>();
+
+            foreach (var grpContent in _personaViewModel?.Paragraphs.OrderBy(f => f.Sequence).GroupBy(f => f.Header2))
+            {
+                try
+                {
+                    _paraGrids.Add(RenderPara2ContentV2(grpContent.ToList()));
+                }
+                catch (Exception ex)
+                {
+                    Crashes.TrackError(ex, BuildErrorContext());
+                }
             }
         }
 
@@ -64,7 +84,15 @@ namespace GeneralInformation.Views
             {
                 base.OnAppearing();
                 int.TryParse(MasterId, out var result);
-                personaDetailViewModel.Persona = wikiAppController.GetViewModelById(result);
+
+                if (_personaViewModel == null)
+                {
+                    LoadContent(MasterId.ToInteger());
+                    LoadParaGrids();
+                }
+                
+                personaDetailViewModel.Persona = _personaViewModel;
+
                 if (personaDetailViewModel.IsMetaDataAvailable == false)
                 {
                     personaDetailViewModel.Persona.Metadatas.Add(new MetadataViewModel { Key = "", Description = personaDetailViewModel.Persona.Name });
@@ -75,15 +103,9 @@ namespace GeneralInformation.Views
                 {
                     personaDetailViewModel.CurrentSelectedPictureCaption = personaDetailViewModel.Persona.Pictures.FirstOrDefault().PictureCaption;
                 }
-                var taskGroup = new TaskGroup();
-                taskGroup.Add(() =>
-                    RunOnAppDispatcher(() =>
-                    {
-                        RenderParaContents(personaDetailViewModel.Persona.Paragraphs);
-                    })
-                );
-                taskGroup.Add(() => ApplyTabSelectionChangeEvent());
-                taskGroup.WaitAll();
+
+                await RenderParaContents();
+                await ApplyTabSelectionChangeEvent();
 
                 personaDetailViewModel.CarouselImageCurrentClickIndex = 0;
                 if (personaDetailViewModel.Persona.Pictures.Count > personaDetailViewModel.CarouselImageLoadMoreItemsCount)
@@ -102,22 +124,28 @@ namespace GeneralInformation.Views
             }
         }
 
-        private void RenderParaContents(List<Paragraph2ContentViewModel> contents)
+        private async Task RenderParaContents()
         {
-            foreach (var grpContent in contents.OrderBy(f => f.Sequence).GroupBy(f => f.Header2))
+            await Task.Run(() =>
             {
-                try
+                RunOnAppDispatcher(() =>
                 {
-                    ParaContentsStack.Children.Add(RenderPara2ContentV2(grpContent.ToList()));
-                }
-                catch (Exception ex)
-                {
-                    Crashes.TrackError(ex, BuildErrorContext());
-                }
-            }
+                    foreach (var grpContent in _paraGrids)
+                    {
+                        try
+                        {
+                            ParaContentsStack.Children.Add(grpContent);
+                        }
+                        catch (Exception ex)
+                        {
+                            Crashes.TrackError(ex, BuildErrorContext());
+                        }
+                    }
+                });
+            });
         }
 
-        private Grid RenderPara2ContentV2(List<Paragraph2ContentViewModel> paraContents)
+        private static Grid RenderPara2ContentV2(List<Paragraph2ContentViewModel> paraContents)
         {
             var mainGrid = new Grid
             {
@@ -189,7 +217,7 @@ namespace GeneralInformation.Views
             return mainGrid;
         }
 
-        private Label RenderDynamicContentLabel(string content, string style)
+        private static Label RenderDynamicContentLabel(string content, string style)
         {
             var lbl = new Label { Text = content };
             var resource = Application.Current.Resources[style];
@@ -198,7 +226,7 @@ namespace GeneralInformation.Views
             return lbl;
         }
 
-        private Grid RenderParagraphContentImage(PictureViewModel picModel)
+        private static Grid RenderParagraphContentImage(PictureViewModel picModel)
         {
             var grid = new Grid
             {
@@ -256,7 +284,7 @@ namespace GeneralInformation.Views
             return grid;
         }
 
-        private void SfBorderOnContentDetailImage_SizeChanged(object sender, EventArgs e)
+        private static void SfBorderOnContentDetailImage_SizeChanged(object sender, EventArgs e)
         {
             try
             {
@@ -289,189 +317,6 @@ namespace GeneralInformation.Views
                 Crashes.TrackError(ex, BuildErrorContext());
             }
         }
-
-        //private Label RenderHeaderLabel(string content)
-        //{
-        //    var lbl = new Label
-        //    {
-        //        Text = content,
-        //        //TextColor = Color.Black,
-        //        //LineBreakMode = LineBreakMode.WordWrap,
-        //        //FontAttributes = FontAttributes.Bold,
-        //        //FontSize = fontSize
-        //    };
-        //    //lbl.SetAppThemeColor(Label.TextColorProperty,
-        //    //    (Color)App.Current.Resources["DetailContentHeaderTextColorLight"],
-        //    //    (Color)App.Current.Resources["DetailContentHeaderTextColorDark"]);
-        //    return lbl;
-        //}
-        //private Label RenderContentLabel(string content)
-        //{
-        //    var lbl = new Label
-        //    {
-        //        Text = content,
-        //        //TextColor = Color.Black,
-        //        //LineBreakMode = LineBreakMode.WordWrap,
-        //        //FontSize = fontSize,
-        //        //Padding = new Thickness(0, 0, 0, 4),
-        //        //CharacterSpacing = 0.5,
-        //    };
-
-        //    var resource = Application.Current.Resources["DetailsTabContentText"];
-        //    if (resource != null && resource.GetType() == typeof(Style))
-        //        lbl.Style = (Style)resource;
-
-        //    //lbl.SetAppThemeColor(Label.TextColorProperty,
-        //    //    (Color)App.Current.Resources["DetailContentBodyTextColorLight"],
-        //    //    (Color)App.Current.Resources["DetailContentBodyTextColorDark"]);
-        //    return lbl;
-        //}
-        //private int FontSizeHeaderBasedOnDevice() => Device.RuntimePlatform switch
-        //    {
-        //        Device.Android => Device.Idiom switch
-        //        {
-        //            TargetIdiom.Phone => 20,
-        //            TargetIdiom.Tablet => 26,
-        //            _ => 20,
-        //        },
-        //        Device.iOS => Device.Idiom switch
-        //        {
-        //            TargetIdiom.Phone => 20,
-        //            TargetIdiom.Tablet => 26,
-        //            _ => 20,
-        //        },
-        //        _ => 20
-        //    };
-
-        //private int FontSizeSubHeaderBasedOnDevice() => Device.RuntimePlatform switch
-        //{
-        //    Device.Android => Device.Idiom switch
-        //    {
-        //        TargetIdiom.Phone => 16,
-        //        TargetIdiom.Tablet => 22,
-        //        _ => 16,
-        //    },
-        //    Device.iOS => Device.Idiom switch
-        //    {
-        //        TargetIdiom.Phone => 16,
-        //        TargetIdiom.Tablet => 22,
-        //        _ => 16,
-        //    },
-        //    _ => 16
-        //};
-        //private int FontSizeContentBasedOnDevice() => Device.RuntimePlatform switch
-        //{
-        //    Device.Android => Device.Idiom switch
-        //    {
-        //        TargetIdiom.Phone => 14,
-        //        TargetIdiom.Tablet => 17,
-        //        _ => 14,
-        //    },
-        //    Device.iOS => Device.Idiom switch
-        //    {
-        //        TargetIdiom.Phone => 14,
-        //        TargetIdiom.Tablet => 17,
-        //        _ => 14,
-        //    },
-        //    _ => 14
-        //};
-
-
-
-
-        //private SfExpander RenderPara2Content(Paragraph2ContentViewModel paraContent)
-        //{
-        //    Color bgColor = Color.FromHex("#D1DBE1");
-        //    var txtColor = Color.FromHex("#495F6E");
-
-        //    var mainExpander = new SfExpander
-        //    {
-        //        HeaderIconPosition = IconPosition.End,
-        //        BackgroundColor = bgColor,
-        //        HeaderBackgroundColor = bgColor,
-        //        AnimationDuration = 10,
-        //        MinimumHeightRequest = 100,
-        //        IsExpanded = true
-        //    };
-
-        //    var headerFrame = new Frame
-        //    {
-        //        Padding = new Thickness(4)
-        //    };
-
-        //    var headerLabel = new Label
-        //    {
-        //        TextColor = txtColor,
-        //        BackgroundColor = bgColor,
-        //        Text = paraContent.Header2,
-        //        FontSize = 16,
-        //        HorizontalTextAlignment = TextAlignment.Start,
-        //        VerticalOptions = LayoutOptions.Center,
-        //        Padding = new Thickness(10, 3, 0, 3)
-        //    };
-
-        //    headerFrame.Content = headerLabel;
-        //    mainExpander.Header = headerFrame;
-
-        //    //Content
-        //    var lblMainContentFormatString = new FormattedString();
-
-        //    if (paraContent.Content.HasValue())
-        //    {
-        //        lblMainContentFormatString.Spans.Add(new Span
-        //        {
-        //            FontSize = 13,
-        //            Text = paraContent.Content
-        //        });
-        //    }
-
-        //    if (paraContent.Para3s != null && paraContent.Para3s.Any())
-        //    {
-        //        foreach (var p3 in paraContent.Para3s)
-        //        {
-        //            lblMainContentFormatString.Spans.Add(new Span { Text = Environment.NewLine });
-        //            lblMainContentFormatString.Spans.Add(new Span
-        //            {
-        //                FontSize = 15,
-        //                FontAttributes = FontAttributes.Bold,
-        //                Text = p3.Header3
-        //            });
-        //            lblMainContentFormatString.Spans.Add(new Span { Text = Environment.NewLine });
-        //            lblMainContentFormatString.Spans.Add(new Span
-        //            {
-        //                FontSize = 13,
-        //                Text = p3.Content
-        //            });
-        //        }
-        //    }
-
-        //    var lblMainContent = new Label();
-        //    lblMainContent.TextColor = txtColor;
-        //    lblMainContent.Padding = new Thickness(10, 3, 0, 3);
-        //    lblMainContent.LineHeight = 1.3;
-        //    lblMainContent.FontSize = 15;
-        //    lblMainContent.VerticalOptions = LayoutOptions.CenterAndExpand;
-        //    lblMainContent.FormattedText = lblMainContentFormatString;
-
-        //    var boxView = new BoxView
-        //    {
-        //        Color = bgColor,
-        //        CornerRadius = 2,
-        //    };
-
-        //    var contentGrid = new Grid();
-        //    contentGrid.BackgroundColor = bgColor;
-        //    contentGrid.Children.Add(boxView);
-        //    contentGrid.Children.Add(lblMainContent);
-
-        //    mainExpander.Content = contentGrid;
-
-
-
-        //    return mainExpander;
-        //}
-
-
 
         private void carousel_SelectionChanged(object sender, Syncfusion.SfCarousel.XForms.SelectionChangedEventArgs e)
         {
