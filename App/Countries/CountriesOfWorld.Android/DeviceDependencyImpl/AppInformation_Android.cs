@@ -13,9 +13,9 @@ namespace CountriesOfWorld.Droid.DeviceDependencyImpl
 
         public string AdsInterstitialId => "ca-app-pub-4219645367584712/4901045689";
 
-        public int ShowFirstInterstitialAdOnClickLimit => 2;
+        public int ShowFirstInterstitialAdOnClickLimit => 1;
 
-        public int ShowLaterInterstitialAdOnClickLimit => 7;
+        public int ShowLaterInterstitialAdOnClickLimit => 5;
 
         #region Style Implementation
 

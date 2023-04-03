@@ -59,6 +59,7 @@ namespace GeneralInformation.Views
         {
             try
             {
+                DatabaseService.AppDatabase.RequestRecordRepository.RefreshCountData();
                 DatabaseService.AppDatabase.PhoneSettingsRepository.UpdateLimitsOnInitialize(
                     DependencyService.Get<IAppInformation>().ShowFirstInterstitialAdOnClickLimit,
                     DependencyService.Get<IAppInformation>().ShowLaterInterstitialAdOnClickLimit);

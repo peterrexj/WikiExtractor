@@ -33,6 +33,11 @@ namespace WikiExtractor.Repository
             return createStr.ToString();
         }
 
+        public void RefreshCountData()
+        {
+            DeleteAll();
+        }
+
         public void UpdateCount()
         {
             var data = new RequestRecord { RequestDate = DateTime.Today.Date, RequestCount = IncrementCount() };
