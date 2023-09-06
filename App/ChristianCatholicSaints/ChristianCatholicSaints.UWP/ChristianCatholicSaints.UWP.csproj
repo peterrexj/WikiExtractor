@@ -167,16 +167,16 @@
       <Version>1.0.4.17</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Core">
-      <Version>21.1.37</Version>
+      <Version>22.2.12</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete">
-      <Version>21.1.37</Version>
+      <Version>22.2.12</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator">
-      <Version>21.1.37</Version>
+      <Version>22.2.12</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfCarousel">
-      <Version>21.1.37</Version>
+      <Version>22.2.12</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.14" />
