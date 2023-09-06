@@ -93,7 +93,7 @@ namespace GeneralInformation
                         //Themes
                         AppShellTitleFontColor = "#B2BABB",
                         AppShellFlyoutItemLabelFontColor = "#B2BABB",
-                        AppShellFlyoutItemSelectedBackgroundColor = "#505050",
+                        AppShellFlyoutItemSelectedBackgroundColor = "#7F8C8D",
                         AppShellBackgroundColor = "#424949",
                         AppShellForegroundIconColor = "#D5D8DC",
 
