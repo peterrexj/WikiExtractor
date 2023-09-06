@@ -16,6 +16,8 @@ namespace GeneralInformation
         public App()
         {
             InitializeComponent();
+            ThemeHelper.UpdateAppThemes(ThemeHelper.GetDefaultStyle());
+
             MainPage = new AppShell();
             if (!AppCenter.Configured)
             {
@@ -46,10 +48,17 @@ namespace GeneralInformation
 
         private void App_RequestedThemeChanged(object sender, AppThemeChangedEventArgs e)
         {
-            MainThread.BeginInvokeOnMainThread(() =>
+            try
             {
-                ThemeHelper.SetTheme(e.RequestedTheme);
-            });
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    ThemeHelper.UpdateAppThemes(ThemeHelper.GetDefaultStyle());
+                });
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
         }
     }
 }

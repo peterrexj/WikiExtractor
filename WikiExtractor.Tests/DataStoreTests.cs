@@ -5,17 +5,24 @@ using WikiExtractor.Exts;
 using WikiExtractor.Models;
 using WikiExtractor.Process;
 using WikiExtractor.Repository;
+using WikiExtractor.Repository.UserStore;
 using WikiExtractor.ViewModels;
 
 namespace WikiExtractor.Tests
 {
     internal class DataStoreTests
     {
+        [SetUp]
+        public void TestSetup()
+        {
+            ProcessConstants.UserStoreDatabasePath = IoHelper.CombinePath(PjUtility.Runtime.ExecutingRepositoryRootFolder, "App", "Databases", "UserStore.db");
+        }
+
         [TestCaseSource(nameof(DatabaseFiles))]
         public void Should_Have_Menus(string dbFilePath)
         {
             ProcessConstants.DatabasePath = dbFilePath;
-            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase());
+            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase(), new UserStoreDatabase());
             var menuItems = wikiAppController.AppMenuItems();
             Assert.IsTrue(menuItems.Count() > 0);
         }
@@ -24,7 +31,7 @@ namespace WikiExtractor.Tests
         public void Should_Have_Tag_OnMenu(string dbFilePath)
         {
             ProcessConstants.DatabasePath = dbFilePath;
-            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase());
+            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase(), new UserStoreDatabase());
             var menuItems = wikiAppController.AppMenuItems();
             var grp = menuItems.Where(f => f.Tags.IsEmpty());
             Assert.IsTrue(grp.Count() == 0);
@@ -34,7 +41,7 @@ namespace WikiExtractor.Tests
         public void Should_Have_Tag_Data_EachMenu(string dbFilePath)
         {
             ProcessConstants.DatabasePath = dbFilePath;
-            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase());
+            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase(), new UserStoreDatabase());
             var menuItems = wikiAppController.AppMenuItems();
             foreach (var menuItem in menuItems)
             {
@@ -48,7 +55,7 @@ namespace WikiExtractor.Tests
         public void Should_Not_Have_Duplicate_MenuItemName(string dbFilePath)
         {
             ProcessConstants.DatabasePath = dbFilePath;
-            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase());
+            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase(), new UserStoreDatabase());
             var menuItems = wikiAppController.AppMenuItems();
             var grp = menuItems.GroupBy(f => f.MenuItemName).Select(f => new { f.Key, Childs = f.ToList() })
                 .Where(f => f.Childs.Count > 1)
@@ -60,7 +67,7 @@ namespace WikiExtractor.Tests
         public void Should_Not_Have_Duplicate_Menu_TitleOnThePage(string dbFilePath)
         {
             ProcessConstants.DatabasePath = dbFilePath;
-            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase());
+            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase(), new UserStoreDatabase());
             var menuItems = wikiAppController.AppMenuItems();
             var grp = menuItems.GroupBy(f => f.TitleOnThePage).Select(f => new { f.Key, Childs = f.ToList() })
                 .Where(f => f.Childs.Count > 1)
@@ -72,7 +79,7 @@ namespace WikiExtractor.Tests
         public void Should_Not_Have_Duplicate_Menu_Tag(string dbFilePath)
         {
             ProcessConstants.DatabasePath = dbFilePath;
-            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase());
+            WikiAppController wikiAppController = new WikiAppController(new WikiDatabase(), new UserStoreDatabase());
             var menuItems = wikiAppController.AppMenuItems();
             var grp = menuItems.GroupBy(f => f.Tags).Select(f => new { f.Key, Childs = f.ToList() })
                 .Where(f => f.Childs.Count > 1)
@@ -85,7 +92,8 @@ namespace WikiExtractor.Tests
         {
             ProcessConstants.DatabasePath = dbFilePath;
             WikiDatabase wikiDatabase = new WikiDatabase();
-            WikiAppController wikiAppController = new WikiAppController(wikiDatabase);
+            UserStoreDatabase userStoreDatabase = new UserStoreDatabase();
+            WikiAppController wikiAppController = new WikiAppController(wikiDatabase, userStoreDatabase);
             var allMasterData = wikiDatabase.MasterRepository.GetAll();
             var allPicsData = wikiDatabase.WikiPictureRepository.GetAll();
             var metadataData = wikiDatabase.MetadataRepository.GetAll();
@@ -223,7 +231,8 @@ namespace WikiExtractor.Tests
         {
             ProcessConstants.DatabasePath = dbFilePath;
             WikiDatabase wikiDatabase = new WikiDatabase();
-            WikiAppController wikiAppController = new WikiAppController(wikiDatabase);
+            UserStoreDatabase userStoreDatabase = new UserStoreDatabase();
+            WikiAppController wikiAppController = new WikiAppController(wikiDatabase, userStoreDatabase);
 
             var isPrimaryMetadataContentEnabled = wikiDatabase.PhoneSettingsRepository.IsPrimaryMetadatDisplayEnabled;
             var primaryMetadataContentFields = wikiDatabase.PhoneSettingsRepository.PrimaryMetadatDisplayContent;
@@ -269,7 +278,8 @@ namespace WikiExtractor.Tests
             {
                 return Directory.EnumerateFiles(
                     IoHelper.CombinePath(PjUtility.Runtime.ExecutingRepositoryRootFolder,
-                    "App\\Databases"), "*.db");
+                    "App\\Databases"), "*.db")
+                    .Where(f => Path.GetFileNameWithoutExtension(f).EqualsIgnoreCase("UserStore") == false);
             }
         }
     }

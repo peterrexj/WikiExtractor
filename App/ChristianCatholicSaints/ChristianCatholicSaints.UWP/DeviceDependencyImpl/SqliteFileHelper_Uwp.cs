@@ -17,8 +17,10 @@ namespace ChristianCatholicSaints.UWP.DeviceDependencyImpl
     {
         //public string PlatformDatabasePath =>
         //    Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.ApplicationData), "Assets", DatabaseFileName);
+        private readonly string rootFolder = ApplicationData.Current.LocalFolder.Path;
 
         public string PlatformDatabasePath => Path.Combine(Windows.ApplicationModel.Package.Current.InstalledLocation.Path, "Assets", DatabaseFileName);
+        //public string PlatformDatabasePath => Path.Combine(rootFolder, DatabaseFileName);
 
         public string DatabaseFileName => "WikiStoreSaints.db";
 

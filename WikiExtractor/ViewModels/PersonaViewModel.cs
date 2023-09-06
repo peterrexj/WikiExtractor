@@ -18,6 +18,17 @@ namespace WikiExtractor.ViewModels
             PrimaryMetadataContent = new List<MetadataViewModel>();
         }
         public int Id { get; set; }
+
+        private int randomId;
+        public int RandomId
+        {
+            get => randomId; set
+            {
+                randomId = value;
+                OnPropertyChanged("RandomId");
+            }
+        }
+
         public string Name { get; set; }
         public string NameSubstitue { get; set; }
         public string NameSubstitueFormatted => NameSubstitue.HasValue() ? $"{Environment.NewLine}({NameSubstitue})" : string.Empty;
@@ -28,6 +39,7 @@ namespace WikiExtractor.ViewModels
         public bool IsPrimaryMetadataContentEnabled { get; set; }
         public bool ShowPrimaryContentMetadata => IsPrimaryMetadataContentEnabled;
         public bool HidePrimaryContentMetadata => !IsPrimaryMetadataContentEnabled;
+        public bool ItemReadStatus { get; set; }
 
         public List<MetadataViewModel> PrimaryMetadataContent { get; set; }
         public List<MetadataViewModel> Metadatas { get; set; }

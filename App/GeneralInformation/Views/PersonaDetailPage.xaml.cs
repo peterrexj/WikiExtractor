@@ -1,4 +1,5 @@
-﻿using GeneralInformation.Exts;
+﻿using GeneralInformation.Converters;
+using GeneralInformation.Exts;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
 using Microsoft.AppCenter.Crashes;
@@ -49,7 +50,6 @@ namespace GeneralInformation.Views
             try
             {
                 InitializeComponent();
-                BindingContext = personaDetailViewModel = new PersonaDetailViewModel { Persona = new PersonaViewModel() };
             }
             catch (Exception ex)
             {
@@ -82,7 +82,6 @@ namespace GeneralInformation.Views
         {
             try
             {
-                base.OnAppearing();
                 int.TryParse(MasterId, out var result);
 
                 if (_personaViewModel == null)
@@ -90,8 +89,11 @@ namespace GeneralInformation.Views
                     LoadContent(MasterId.ToInteger());
                     LoadParaGrids();
                 }
-                
+
+                personaDetailViewModel ??= new PersonaDetailViewModel();
+
                 personaDetailViewModel.Persona = _personaViewModel;
+                personaDetailViewModel.DefaultStyle = ThemeHelper.GetDefaultStyle();
 
                 if (personaDetailViewModel.IsMetaDataAvailable == false)
                 {
@@ -105,7 +107,6 @@ namespace GeneralInformation.Views
                 }
 
                 await RenderParaContents();
-                await ApplyTabSelectionChangeEvent();
 
                 personaDetailViewModel.CarouselImageCurrentClickIndex = 0;
                 if (personaDetailViewModel.Persona.Pictures.Count > personaDetailViewModel.CarouselImageLoadMoreItemsCount)
@@ -117,6 +118,10 @@ namespace GeneralInformation.Views
                     personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = 0;
                     personaDetailViewModel.CarouselImageLoadComplete = true;
                 }
+
+                BindingContext = personaDetailViewModel;
+                base.OnAppearing();
+
             }
             catch (Exception ex)
             {
@@ -157,15 +162,11 @@ namespace GeneralInformation.Views
 
             var grStart = new SfGradientStop();
             grStart.Offset = 0.0;
-            grStart.SetAppThemeColor(SfGradientStop.ColorProperty,
-                (Color)App.Current.Resources["DetailContentBackgroundColorGradientStartLight"],
-                (Color)App.Current.Resources["DetailContentBackgroundColorGradientStartDark"]);
+            grStart.SetBinding(SfGradientStop.ColorProperty, "DefaultStyle.SubPageDetailsContentGradientStartColor", converter: SharedServices.ToColorConverterAsValueConverter);
 
             var grStop = new SfGradientStop();
             grStop.Offset = 0.8;
-            grStop.SetAppThemeColor(SfGradientStop.ColorProperty,
-                (Color)App.Current.Resources["DetailContentBackgroundColorGradientEndLight"],
-                (Color)App.Current.Resources["DetailContentBackgroundColorGradientEndDark"]);
+            grStart.SetBinding(SfGradientStop.ColorProperty, "DefaultStyle.SubPageDetailsContentGradientEndColor", converter: SharedServices.ToColorConverterAsValueConverter);
 
             sfGradient.BackgroundBrush = new SfLinearGradientBrush
             {
@@ -181,7 +182,7 @@ namespace GeneralInformation.Views
 
             if (paraContents.Any(f => f.Content.HasValue()) || paraContents.Any(f => f.Para3s.Any(g => g.Content.HasValue())))
             {
-                stackLayout.Children.Add(RenderDynamicContentLabel(paraContents.Where(f => f.Header2.HasValue()).FirstOrDefault().Header2 ?? "", "DetailsTabHeaderText"));
+                stackLayout.Children.Add(RenderDynamicContentLabel(paraContents.Where(f => f.Header2.HasValue()).FirstOrDefault().Header2 ?? "", "DetailsTabHeaderText", "DefaultStyle.DefaultFontFamilyBold"));
                 foreach (var paraContent in paraContents)
                 {
                     if (paraContent.Content.HasValue())
@@ -190,7 +191,7 @@ namespace GeneralInformation.Views
                         {
                             stackLayout.Children.Add(RenderParagraphContentImage(img));
                         }
-                        stackLayout.Children.Add(RenderDynamicContentLabel(paraContent.Content, "DetailsTabContentText"));
+                        stackLayout.Children.Add(RenderDynamicContentLabel(paraContent.Content, "DetailsTabContentText", "DefaultStyle.DefaultFontFamily"));
                     }
 
                     //Para3 here
@@ -198,7 +199,7 @@ namespace GeneralInformation.Views
                     {
                         foreach (var para3Grp in paraContent.Para3s.OrderBy(f => f.Sequence).GroupBy(f => f.Header3))
                         {
-                            stackLayout.Children.Add(RenderDynamicContentLabel(para3Grp.Where(f => f.Header3.HasValue()).FirstOrDefault().Header3 ?? "", "DetailsTabSubHeaderText"));
+                            stackLayout.Children.Add(RenderDynamicContentLabel(para3Grp.Where(f => f.Header3.HasValue()).FirstOrDefault().Header3 ?? "", "DetailsTabSubHeaderText", "DefaultStyle.DefaultFontFamilyBold"));
 
                             foreach (var para3Content in para3Grp)
                             {
@@ -206,7 +207,7 @@ namespace GeneralInformation.Views
                                 {
                                     stackLayout.Children.Add(RenderParagraphContentImage(img));
                                 }
-                                stackLayout.Children.Add(RenderDynamicContentLabel(para3Content.Content, "DetailsTabContentText"));
+                                stackLayout.Children.Add(RenderDynamicContentLabel(para3Content.Content, "DetailsTabContentText", "DefaultStyle.DefaultFontFamily"));
                             }
                         }
                     }
@@ -217,9 +218,11 @@ namespace GeneralInformation.Views
             return mainGrid;
         }
 
-        private static Label RenderDynamicContentLabel(string content, string style)
+        private static Label RenderDynamicContentLabel(string content, string style, string bindingPathToFontFamily)
         {
             var lbl = new Label { Text = content };
+            lbl.SetBinding(Label.FontFamilyProperty, bindingPathToFontFamily);
+            lbl.SetBinding(Label.TextColorProperty, "DefaultStyle.DefaultFontColor", converter: SharedServices.ToColorConverterAsValueConverter);
             var resource = Application.Current.Resources[style];
             if (resource != null && resource.GetType() == typeof(Style))
                 lbl.Style = (Style)resource;
@@ -266,6 +269,9 @@ namespace GeneralInformation.Views
                 sfBorder.Content = img;
 
                 var lbl = new Label { Text = picModel.PictureCaption };
+                lbl.SetBinding(Label.FontFamilyProperty, "DefaultStyle.DefaultFontFamilyBold");
+                lbl.SetBinding(Label.TextColorProperty, "DefaultStyle.DefaultFontColor", converter: SharedServices.ToColorConverterAsValueConverter);
+
                 var resource = Application.Current.Resources["DetailsTabImageCaptionText"];
                 if (resource != null && resource.GetType() == typeof(Style))
                     lbl.Style = (Style)resource;
@@ -358,138 +364,42 @@ namespace GeneralInformation.Views
                 Crashes.TrackError(ex);
             }
         }
+     
 
-        private async void btnTabBtn_Clicked(object sender, EventArgs e)
+        private void First_TabItem_Clicked(object sender, EventArgs e)
         {
             try
             {
-                personaDetailViewModel.IsBusy = true;
-                var tIndex = ((Syncfusion.XForms.Buttons.SfButton)sender).TabIndex;
-                var data = string.Empty;
-                if (tIndex == 100) data = "BasicInfo";
-                else if (tIndex == 101) data = "Details";
-                else if (tIndex == 102) data = "Pictures";
-                await ApplyTabSelectionChangeEvent(context: data);
+                tabView.SelectedIndex = 0;
             }
             catch (Exception ex)
             {
                 Crashes.TrackError(ex);
             }
-            finally
+        }
+
+        private void Second_TabItem_Clicked(object sender, EventArgs e)
+        {
+            try
             {
-                personaDetailViewModel.IsBusy = false;
+                tabView.SelectedIndex = personaDetailViewModel.IsMetaDataAvailable ? 1 : 0;
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
             }
         }
 
-        async Task ApplyTabSelectionChangeEvent(int selectedIndex = -1, string context = "")
+        private void Third_TabItem_Clicked(object sender, EventArgs e)
         {
-            await Task.Run(() =>
+            try
             {
-                RunOnAppDispatcher(() =>
-                {
-                    try
-                    {
-                        if (selectedIndex == -1 && context.HasValue())
-                        {
-                            if (context == "BasicInfo")
-                            {
-                                selectedIndex = 0;
-                            }
-                            else if (context == "Details")
-                            {
-                                selectedIndex = personaDetailViewModel.IsMetaDataAvailable ? 1 : 0;
-                            }
-                            else if (context == "Pictures")
-                            {
-                                selectedIndex = personaDetailViewModel.IsMetaDataAvailable && personaDetailViewModel.IsPicturesAvailable ? 2 :
+                tabView.SelectedIndex = personaDetailViewModel.IsMetaDataAvailable && personaDetailViewModel.IsPicturesAvailable ? 2 :
                                     personaDetailViewModel.IsMetaDataAvailable == false && personaDetailViewModel.IsPicturesAvailable == false ? 0 : 1;
-                            }
-                            else selectedIndex = 0;
-
-                            tabView.SelectedIndex = selectedIndex;
-                            personaDetailViewModel.SelectedTabIndex = selectedIndex;
-                        }
-                        else if (personaDetailViewModel.SelectedTabIndex == -1)
-                        {
-                            personaDetailViewModel.SelectedTabIndex = 0;
-                        }
-                        else if (personaDetailViewModel.SelectedTabIndex != selectedIndex && selectedIndex != -1)
-                        {
-                            tabView.SelectedIndex = selectedIndex;
-                            personaDetailViewModel.SelectedTabIndex = selectedIndex;
-                        }
-
-                        var applyBackColor = Application.Current.UserAppTheme == OSAppTheme.Light ?
-                            (Color)Application.Current.Resources["TabBackColorApplyLight"] :
-                            (Color)Application.Current.Resources["TabBackColorApplyDark"];
-                        var removeBackColor = Application.Current.UserAppTheme == OSAppTheme.Light ?
-                            (Color)Application.Current.Resources["TabBackColorApplyDark"] :
-                            (Color)Application.Current.Resources["TabBackColorApplyLight"];
-                        var applyTextColor = Application.Current.UserAppTheme == OSAppTheme.Light ?
-                            (Color)Application.Current.Resources["TabBackColorApplyDark"] :
-                            (Color)Application.Current.Resources["TabBackColorApplyLight"];
-                        var removeTextColor = Application.Current.UserAppTheme == OSAppTheme.Light ?
-                            (Color)Application.Current.Resources["TabBackColorApplyLight"] :
-                            (Color)Application.Current.Resources["TabBackColorApplyDark"];
-
-
-                        Action<Syncfusion.XForms.Buttons.SfButton> applyStyle = (btn) =>
-                        {
-                            btn.BackgroundColor = applyBackColor;
-                            btn.TextColor = applyTextColor;
-                        };
-
-                        Action<Syncfusion.XForms.Buttons.SfButton> removeStyle = (btn) =>
-                        {
-                            btn.BackgroundColor = removeBackColor;
-                            btn.TextColor = removeTextColor;
-                        };
-
-                        if (personaDetailViewModel.SelectedTabIndex == 0)
-                        {
-                            applyStyle(btnTabBasicInfo);
-                            removeStyle(btnTabPicture);
-                            removeStyle(btnTabDetails);
-                        }
-                        else if (personaDetailViewModel.SelectedTabIndex == 1)
-                        {
-                            removeStyle(btnTabBasicInfo);
-                            removeStyle(btnTabPicture);
-                            applyStyle(btnTabDetails);
-                        }
-                        else if (personaDetailViewModel.SelectedTabIndex == 2)
-                        {
-                            removeStyle(btnTabBasicInfo);
-                            applyStyle(btnTabPicture);
-                            removeStyle(btnTabDetails);
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        Crashes.TrackError(ex);
-                    }
-                });
-            });
-
-        }
-
-        private async void tabView_SelectionChanged(object sender, Syncfusion.XForms.TabView.SelectionChangedEventArgs e)
-        {
-            try
-            {
-                personaDetailViewModel.IsBusy = true;
-                if (tabView.SelectedIndex != personaDetailViewModel.SelectedTabIndex)
-                {
-                    await ApplyTabSelectionChangeEvent(selectedIndex: tabView.SelectedIndex);
-                }
             }
             catch (Exception ex)
             {
                 Crashes.TrackError(ex);
-            }
-            finally
-            {
-                personaDetailViewModel.IsBusy = false;
             }
         }
     }

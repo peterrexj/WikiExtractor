@@ -1,7 +1,4 @@
 ﻿using Pj.Library.Mobile.Sqlite;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using WikiExtractor.Repository;
 
 namespace GeneralInformation.Repository
@@ -24,7 +21,6 @@ namespace GeneralInformation.Repository
         public TagRepository TagRepository { get; set; }
         public TagItemRepository TagItemRepository { get; set; }
         public AppMenuItemRepository AppMenuItemRepository { get; set; }
-        public RequestRecordRepository RequestRecordRepository { get; set; }
 
         public override void InitializeDatabase()
         {
@@ -40,13 +36,12 @@ namespace GeneralInformation.Repository
             TagItemRepository = new TagItemRepository(_dbHelper);
             TagRepository = new TagRepository(_dbHelper);
             AppMenuItemRepository= new AppMenuItemRepository(_dbHelper);
-            RequestRecordRepository = new RequestRecordRepository(_dbHelper);
 
             base.CollectRepository(MasterRepository, MetadataRepository, ParagraphPrimaryContentRepository,
                 ParagraphHeader2Repository, ParagraphHeader3Repository, ParagraphContentRepository,
                 ParagraphImageRepository,
                 WikiPictureRepository, PhoneSettingsRepository, TagItemRepository, TagRepository,
-                AppMenuItemRepository, RequestRecordRepository);
+                AppMenuItemRepository);
 
             base.InitializeDatabase();
         }

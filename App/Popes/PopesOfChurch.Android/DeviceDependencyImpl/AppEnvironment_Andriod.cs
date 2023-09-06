@@ -12,12 +12,23 @@ using System.Linq;
 using System.Text;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using GeneralInformation.Models.Mix;
+using GeneralInformation;
 
-[assembly: Dependency(typeof(AppEnvironment_Andriod))]
+[assembly: Dependency(typeof(AppEnvironment_Android))]
 namespace PopesOfChurch.Droid.DeviceDependencyImpl
 {
-    public class AppEnvironment_Andriod : IAppEnvironment
+    public class AppEnvironment_Android : IAppEnvironment
     {
+        public IStyleModel GetStyle(AppThemes theme)
+        {
+            IStyleModel styles = StyleProviderGenericHelper.LoadStyle(theme);
+            
+            //Write switch and customize the theme property for each app here
+
+            return styles;
+        }
+
         public void SetStatusBarColor(System.Drawing.Color color, bool darkStatusBarTint)
         {
             if (Build.VERSION.SdkInt < Android.OS.BuildVersionCodes.Lollipop)

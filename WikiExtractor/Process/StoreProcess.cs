@@ -3,16 +3,18 @@ using WikiExtractor.DbModels;
 using WikiExtractor.Exts;
 using WikiExtractor.Models;
 using WikiExtractor.Repository;
+using WikiExtractor.Repository.UserStore;
 
 namespace WikiExtractor.Process
 {
     public class StoreProcess
     {
         WikiDatabase wikiDatabase;
-
+        UserStoreDatabase userStoreDatabase;
         public StoreProcess()
         {
             wikiDatabase = new WikiDatabase();
+            userStoreDatabase = new UserStoreDatabase();
         }
 
         private int StoreMaster(WikiPageModel wikiPageModel, WikiWhatToExtractModel wikiExtractInfo)

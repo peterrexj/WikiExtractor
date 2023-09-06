@@ -1,91 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
-             xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
-             x:Class="GeneralInformation.App">
+<Application
+    x:Class="GeneralInformation.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms">
     <!--
         Define global resources and styles here, that apply to all pages in your app.
     -->
     <Application.Resources>
         <ResourceDictionary>
-            <!-- -->
-            <Color x:Key="PrimaryLight">#F5F5F5</Color>
-            <Color x:Key="PrimaryDark">#202020</Color>
 
-            <Color x:Key="BackgroundLight">#F5F5F5</Color>
-            <Color x:Key="BackgroundDark">#202020</Color>
+            <!--
+                Adding a variable to control app shell should have a corresponding property in the style model and update in ThemeHelper.UpdateAppThemes
+            -->
+            <Color x:Key="AppShellTitleFontColor">#34495E</Color>
+            <Color x:Key="AppShellFlyoutItemSelectedBackgroundColor">#B2BABB</Color>
+            <Color x:Key="AppShellFlyoutItemLabelFontColor">#34495E</Color>
+            <Color x:Key="AppShellBackgroundColor">#34495E</Color>
+            <Color x:Key="AppShellForegroundIconColor">#34495E</Color>
+            <Color x:Key="AppShellFooterGradientStart">#34495E</Color>
+            <Color x:Key="AppShellFooterGradientEnd">#34495E</Color>
 
-            <Color x:Key="TextForeLight">#202020</Color>
-            <Color x:Key="TextForeDark">#F5F5F5</Color>
-
-            <Color x:Key="SearchTextDropBackLight">#A8A8A8</Color>
-            <Color x:Key="SearchTextDropBackDark">#101010</Color>
-
-            <Color x:Key="SearchTextDropHighlightBackLight">#943126</Color>
-            <Color x:Key="SearchTextDropHighlightBackDark">#148F77</Color>
-
-            <Color x:Key="SearchTextWatermarkTextForeLight">#505050</Color>
-            <Color x:Key="SearchTextWatermarkTextForeDark">#707B7C</Color>
-
-            <Color x:Key="EachItemBackGradientStartLight">#C8C8C8</Color>
-            <Color x:Key="EachItemBackGradientEndLight">#F8F8F8</Color>
-            <Color x:Key="EachItemBackGradientStartDark">#202020</Color>
-            <Color x:Key="EachItemBackGradientEndDark">#101010</Color>
-
-            <!--Personal -->
-            <Color x:Key="PersonalBannerGradient01Light">#A8A8A8</Color>
-            <Color x:Key="PersonalBannerGradient02Light">#F8F8F8</Color>
-            <Color x:Key="PersonalBannerGradient03Light">#A8A8A8</Color>
-            <Color x:Key="PersonalBannerGradient01Dark">#202020</Color>
-            <Color x:Key="PersonalBannerGradient02Dark">#404040</Color>
-            <Color x:Key="PersonalBannerGradient03Dark">#101010</Color>
-
-            <Color x:Key="TabBackColorApplyLight">#181818</Color>
-            <Color x:Key="TabBackColorApplyDark">#F4F6F7</Color>
-
-            <Color x:Key="BasicInfoItemBackgroundLight">#C8C8C8</Color>
-            <Color x:Key="BasicInfoItemBackgroundDark">#303030</Color>
-
-            <Color x:Key="PictureCaptionBackgroundLight">#C8C8C8</Color>
-            <Color x:Key="PictureCaptionBackgroundDark">#181818</Color>
-
-            <Color x:Key="DetailContentBackgroundColorGradientStartLight">#F8F8F8</Color>
-            <Color x:Key="DetailContentBackgroundColorGradientEndLight">#C8C8C8</Color>
-            <Color x:Key="DetailContentBackgroundColorGradientStartDark">#303030</Color>
-            <Color x:Key="DetailContentBackgroundColorGradientEndDark">#181818</Color>
-            <Color x:Key="DetailContentBackgroundColorDark">#C8C8C8</Color>
-            <Color x:Key="DetailContentHeaderTextColorLight">#303030</Color>
-            <Color x:Key="DetailContentHeaderTextColorDark">#C8C8C8</Color>
-            <Color x:Key="DetailContentBodyTextColorLight">#303030</Color>
-            <Color x:Key="DetailContentBodyTextColorDark">#C8C8C8</Color>
-
-            <Style x:Key="sfTabEffectsViewHeaderStyle" TargetType="syncEffectsView:SfEffectsView">
-                <!--<Setter Property="HeightRequest" Value="40" />-->
-                <Setter Property="VerticalOptions" Value="Center" />
-                <Setter Property="HorizontalOptions" Value="Center" />
-                <!--<Setter Property="CornerRadius" Value="3" />-->
-                <Setter Property="TouchDownEffects" Value="Ripple" />
-            </Style>
-            <Style x:Key="sfTabHeaderSytle" TargetType="buttons:SfButton">
-                <Setter Property="FontSize" Value="{OnIdiom Phone=14, Tablet=16}" />
-                <Setter Property="FontAttributes" Value="Bold" />
-                <Setter Property="BackgroundColor" Value="Transparent" />
-                <!--<Setter Property="HeightRequest" Value="40" />-->
-                <!--<Setter Property="WidthRequest" Value="97" />-->
-            </Style>
-
+            <x:String x:Key="DefaultFontFamily">Calibri</x:String>
 
             <Style x:Key="DetailsTabHeaderText" TargetType="Label">
                 <Setter Property="LineBreakMode" Value="WordWrap" />
                 <Setter Property="FontAttributes" Value="Bold" />
-                <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource DetailContentHeaderTextColorDark}, Light={StaticResource DetailContentHeaderTextColorLight}}" />
                 <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=20, Tablet=26}, iOS={OnIdiom Phone=20, Tablet=26}, UWP={OnIdiom Phone=20, Tablet=26, Desktop=26}, macOS=26, WPF=26}" />
             </Style>
             <Style x:Key="DetailsTabSubHeaderText" TargetType="Label">
                 <Setter Property="LineBreakMode" Value="WordWrap" />
                 <Setter Property="FontAttributes" Value="Bold" />
-                <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource DetailContentHeaderTextColorDark}, Light={StaticResource DetailContentHeaderTextColorLight}}" />
                 <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=16, Tablet=22}, iOS={OnIdiom Phone=16, Tablet=22}, UWP={OnIdiom Phone=16, Tablet=22, Desktop=22}, macOS=22, WPF=22}" />
             </Style>
             <Style x:Key="DetailsTabContentText" TargetType="Label">
@@ -93,7 +39,6 @@
                 <Setter Property="Padding" Value="0, 0, 0, 4" />
                 <Setter Property="CharacterSpacing" Value="{OnPlatform Android={OnIdiom Phone=0.3, Tablet=0.4}, iOS={OnIdiom Phone=0.3, Tablet=0.4}, UWP={OnIdiom Phone=0.3, Tablet=0.4, Desktop=0.4}, macOS=0.4, WPF=0.4}" />
                 <Setter Property="LineHeight" Value="{OnPlatform Android={OnIdiom Phone=1.1, Tablet=1.2}, iOS={OnIdiom Phone=1, Tablet=1.2}, UWP={OnIdiom Phone=1, Tablet=1.2, Desktop=1.2}, macOS=1.2, WPF=1.2}" />
-                <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource DetailContentBodyTextColorDark}, Light={StaticResource DetailContentBodyTextColorLight}}" />
                 <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=14, Tablet=17}, iOS={OnIdiom Phone=14, Tablet=17}, UWP={OnIdiom Phone=14, Tablet=17, Desktop=17}, macOS=17, WPF=17}" />
             </Style>
 
@@ -102,22 +47,9 @@
                 <Setter Property="HorizontalOptions" Value="Center" />
                 <Setter Property="FontAttributes" Value="Bold" />
                 <Setter Property="Margin" Value="5, -2, 5, 0" />
-                <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource DetailContentBodyTextColorDark}, Light={StaticResource DetailContentBodyTextColorLight}}" />
                 <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=12, Tablet=14}, iOS={OnIdiom Phone=12, Tablet=14}, UWP={OnIdiom Phone=12, Tablet=14, Desktop=14}, macOS=14, WPF=14}" />
             </Style>
 
-            <!-- Flyouts -->
-
-            <!--<Style TargetType="Shell">
-                <Setter Property="FlyoutBackgroundColor" Value="DarkCyan" />
-            </Style>-->
-            <Color x:Key="ShellTitleLight">#34495E</Color>
-            <Color x:Key="ShellTitleDark">#B2BABB</Color>
-
-            <Color x:Key="FlyoutItemSelectedBackgroundLight">#B2BABB</Color>
-            <Color x:Key="FlyoutItemSelectedBackgroundDark">#505050</Color>
-
-           
         </ResourceDictionary>
     </Application.Resources>
 </Application>

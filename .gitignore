@@ -365,3 +365,4 @@ FodyWeavers.xsd
 **/allureConfig.Template.json
 /Results
 /local-settings*.json
+/App/Databases/UserStore.db

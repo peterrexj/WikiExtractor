@@ -1,4 +1,5 @@
-﻿using GeneralInformation.Services;
+﻿using GeneralInformation.Models.Mix;
+using GeneralInformation.Services;
 using Pj.Library;
 using System.Linq;
 using System.Windows.Input;
@@ -126,5 +127,19 @@ namespace GeneralInformation.ViewModels
         #endregion
 
         public string TextOnFirstTabInformationOnDetailPage { get; set; }
+
+        #region Style 
+        private IStyleModel styleModelDefault;
+        public IStyleModel DefaultStyle
+        {
+            get => styleModelDefault;
+            set
+            {
+                styleModelDefault = value;
+                OnPropertyChanged("DefaultStyle");
+            }
+        }
+
+        #endregion
     }
 }

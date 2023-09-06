@@ -1,8 +1,7 @@
-﻿using GeneralInformation.Repository;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using GeneralInformation.Converters;
+using GeneralInformation.Repository;
 using WikiExtractor.Process;
+using Xamarin.Forms;
 
 namespace GeneralInformation.Services
 {
@@ -13,10 +12,20 @@ namespace GeneralInformation.Services
         {
             get
             {
-                _wikiAppController ??= new WikiAppController(DatabaseService.AppDatabase);
+                _wikiAppController ??= new WikiAppController(DatabaseService.AppDatabase, DatabaseService.UserStoreDatabase);
                 return _wikiAppController;
             }
         }
 
+        private static StringToColorConverter _toColorConverter;
+        public static StringToColorConverter ToColorConverter
+        {
+            get
+            {
+                _toColorConverter ??= new StringToColorConverter();
+                return _toColorConverter;
+            }
+        }
+        public static IValueConverter ToColorConverterAsValueConverter => ToColorConverter;
     }
 }

@@ -58,53 +58,6 @@ namespace WikiExtractor.Repository
             return createStr.ToString();
         }
 
-        #region UserThemes
-
-        public OSAppTheme GetCurrentTheme()
-        {
-            var userThemeFromDatabase = GetValue("UserTheme");
-            OSAppTheme currentTheme = OSAppTheme.Unspecified;
-            if (userThemeFromDatabase.HasValue())
-            {
-                Enum.TryParse(userThemeFromDatabase, true, out currentTheme);
-            }
-            else
-            {
-                currentTheme = Application.Current.RequestedTheme;
-            }
-            return currentTheme;
-        }
-
-        public void UpdateTheme(OSAppTheme appTheme)
-        {
-            Update("UserTheme", appTheme.ToString());
-        }
-
-        #endregion
-
-        #region Google Ads Service
-        private int _firstLimitOnAds = 3;
-        private int _thenOnLimitOnAds = 6;
-
-        public void UpdateLimitsOnInitialize(int firstLimit, int thenLimit)
-        {
-            _firstLimitOnAds = firstLimit;
-            _thenOnLimitOnAds = thenLimit;
-        }
-
-        public void InitializeGoogleAds()
-        {
-            Update("AdsIntersitialLimitOnRecord", _firstLimitOnAds.ToString());
-            ConfigData.AdsIntersitialLimitOnRecord = _firstLimitOnAds;
-        }
-
-        public void GoogleAdsIntersitialUpdateLimit()
-        {
-            Update("AdsIntersitialLimitOnRecord", _thenOnLimitOnAds.ToString());
-            ConfigData.AdsIntersitialLimitOnRecord = _thenOnLimitOnAds;
-        }
-        #endregion
-
         #region Primary Metadata Display
 
         public void EnablePrimaryMetadatDisplay(int maxItemToDisplay)

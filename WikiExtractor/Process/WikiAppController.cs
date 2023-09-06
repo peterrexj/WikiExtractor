@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using WikiExtractor.DbModels;
+using WikiExtractor.DbModels.UserStore;
 using WikiExtractor.Exts;
 using WikiExtractor.Models;
 using WikiExtractor.Repository;
+using WikiExtractor.Repository.UserStore;
 using WikiExtractor.ViewModels;
 
 namespace WikiExtractor.Process
@@ -14,9 +16,12 @@ namespace WikiExtractor.Process
     public class WikiAppController
     {
         readonly IWikiDatabase wikiDatabase;
-        public WikiAppController(IWikiDatabase wikiDb)
+        readonly IUserStoreDatabase userStoreDatabase;
+
+        public WikiAppController(IWikiDatabase wikiDb, IUserStoreDatabase userStoreDb)
         {
             wikiDatabase = wikiDb;
+            userStoreDatabase = userStoreDb;
         }
 
         public PersonaViewModel GetViewModelByRoute(string route)
@@ -305,7 +310,8 @@ namespace WikiExtractor.Process
             var isPrimaryMetadataContentEnabled = wikiDatabase.PhoneSettingsRepository.IsPrimaryMetadatDisplayEnabled;
             var primaryMetadataContentFields = wikiDatabase.PhoneSettingsRepository.PrimaryMetadatDisplayContent;
             var maxMetadataItems = wikiDatabase.PhoneSettingsRepository.MaxMetadataItemToDisplay;
-
+            var totalMasterCount = wikiDatabase.MasterRepository.GetAll().Count();
+            
             return from master in wikiDatabase.MasterRepository.GetAll()
 
                    join tagItemJoin in wikiDatabase.TagItemRepository.GetAll() on master.Id equals tagItemJoin.MasterId into tagItemGrp
@@ -320,12 +326,14 @@ namespace WikiExtractor.Process
                    join mainCont in wikiDatabase.ParagraphPrimaryContentRepository.GetAll() on master.Id equals mainCont.MasterId into mainContGroup
                    from mainContItem in mainContGroup.DefaultIfEmpty(new ParagraphPrimaryContent { MasterId = master.Id, Content = string.Empty })
 
-
                    join metadataJoin in wikiDatabase.MetadataRepository.GetAll() on master.Id equals metadataJoin.MasterId into metadataGrp
                    from metadata in metadataGrp.DefaultIfEmpty(new Metadata { Id = 0, MasterId = master.Id })
 
+                   join itemReadStatusJoin in userStoreDatabase.ItemReadTrackerRepository.GetAll() on master.Name equals itemReadStatusJoin.ItemIdentifier into itemReadStatusGroup
+                   from itemReadStatus in itemReadStatusGroup.DefaultIfEmpty(new ItemReadTrackerModel { ItemIdentifier = master.Name, IsRead = false })
+
                    where tags?.Contains(tag.Name) == true || tag.Name.IsEmpty()
-                   group new { master, mainContItem, primaryPic, metadata, tagItem, tag } by new { master.Id } into masterGroup
+                   group new { master, mainContItem, primaryPic, metadata, tagItem, tag, itemReadStatus } by new { master.Id } into masterGroup
 
                    let primaryMetadata = isPrimaryMetadataContentEnabled ? masterGroup.Select(f => f.metadata).Where(f => primaryMetadataContentFields.Contains(f.Key) && f.Value.HasValue())
                             .Take(maxMetadataItems)
@@ -335,10 +343,11 @@ namespace WikiExtractor.Process
                                 Description = f.Value
                             }).ToList() : new List<MetadataViewModel>()
                    let isPrimaryMetadataEnabled = isPrimaryMetadataContentEnabled ? primaryMetadata.Any() : false
-
+                   
                    select new PersonaViewModel
                    {
                        Id = masterGroup.FirstOrDefault()!.master.Id,
+                       RandomId = RandomHelper.RandomNumberGeneratorBetweenRange(0, totalMasterCount),
                        Name = masterGroup.FirstOrDefault()!.master.Name,
                        WikiPath = masterGroup.FirstOrDefault()!.master.Route,
                        MainContent = masterGroup.FirstOrDefault()!.mainContItem?.Content ?? "",
@@ -349,6 +358,7 @@ namespace WikiExtractor.Process
                        //Tags = masterGroup.Select(f => f.tag).Select(f => f.Name).Distinct().ToList(),
                        IsBusy = false,
                        ListHeight = minListHeight,
+                       ItemReadStatus = masterGroup.FirstOrDefault()!.itemReadStatus.IsRead,
                    };
         }
 
@@ -434,6 +444,25 @@ namespace WikiExtractor.Process
         {
             wikiDatabase.PhoneSettingsRepository.RemoveAllPrimaryMetadatDisplayContent();
             wikiDatabase.PhoneSettingsRepository.DisablePrimaryMetadatDisplay();
+        }
+
+        public void UpdateItemRead(string name, bool readStatus)
+        {
+            try
+            {
+                if (userStoreDatabase.ItemReadTrackerRepository.Get(f => f.ItemIdentifier.EqualsIgnoreCase(name)).Count() == 0)
+                {
+                    userStoreDatabase.ItemReadTrackerRepository.Add(new ItemReadTrackerModel { ItemIdentifier = name, IsRead = readStatus }, checkAlreadyExists: true);
+                }
+                else
+                {
+                    userStoreDatabase.ItemReadTrackerRepository.Update(new ItemReadTrackerModel { ItemIdentifier = name, IsRead = readStatus });
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }

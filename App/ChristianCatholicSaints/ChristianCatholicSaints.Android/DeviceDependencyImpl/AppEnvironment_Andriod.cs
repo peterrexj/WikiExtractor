@@ -5,6 +5,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using ChristianCatholicSaints.Droid.DeviceDependencyImpl;
+using GeneralInformation;
+using GeneralInformation.Models.Mix;
 using GeneralInformation.Services;
 using System;
 using System.Collections.Generic;
@@ -13,11 +15,18 @@ using System.Text;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
-[assembly: Dependency(typeof(AppEnvironment_Andriod))]
+[assembly: Dependency(typeof(AppEnvironment_Android))]
 namespace ChristianCatholicSaints.Droid.DeviceDependencyImpl
 {
-    public class AppEnvironment_Andriod : IAppEnvironment
+    public class AppEnvironment_Android : IAppEnvironment
     {
+        public IStyleModel GetStyle(AppThemes theme)
+        {
+            IStyleModel styles = StyleProviderGenericHelper.LoadStyle(theme);
+
+            return styles;
+        }
+
         public void SetStatusBarColor(System.Drawing.Color color, bool darkStatusBarTint)
         {
             if (Build.VERSION.SdkInt < Android.OS.BuildVersionCodes.Lollipop)

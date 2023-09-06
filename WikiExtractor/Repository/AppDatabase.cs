@@ -11,6 +11,7 @@ namespace WikiExtractor.Repository
     public class AppDatabase
     {
         public DatabaseHelper _dbHelper;
+        public DatabaseHelper _dbHelperUserStore;
         public AppDatabase(bool createNew)
         {
             CreateNew = createNew;
@@ -18,6 +19,7 @@ namespace WikiExtractor.Repository
 
         public bool CreateNew { get; set; }
         public static bool IsInitialized = false;
+        public static bool IsInitializedUserStore = false;
 
         public void InitializeDatabase()
         {
@@ -34,11 +36,25 @@ namespace WikiExtractor.Repository
             IsInitialized = true;
         }
 
+        public void InitializeDatabaseUserStore()
+        {
+            if (!AppDatabase.IsInitializedUserStore && CreateNew)
+            {
+                _dbHelperUserStore = new DatabaseHelper(DatabaseHelper.DatabaseType.SqLite, new[] { ProcessConstants.UserStoreDatabasePath });
+            }
+            else
+            {
+                _dbHelperUserStore = new DatabaseHelper(DatabaseHelper.DatabaseType.SqLite, new[] { ProcessConstants.UserStoreDatabasePath });
+            }
+            IsInitializedUserStore = true;
+        }
+
         void ApplySchema()
         {
             //_dbHelper.DbHelper.ExecuteNonQuery(File.ReadAllText(IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Repository", "SchemaDb.sql")));
         }
 
         public System.Data.SQLite.SQLiteConnection? Connection => _dbHelper.DbHelper.Connection as System.Data.SQLite.SQLiteConnection;
+        public System.Data.SQLite.SQLiteConnection? ConnectionUserStore => _dbHelperUserStore.DbHelper.Connection as System.Data.SQLite.SQLiteConnection;
     }
 }

@@ -85,7 +85,7 @@
   },
   {
     "Name": "Born",
-    "Description": "Karol Józef Wojtyła (1920-05-18) 18 May 1920 Wadowice, Kraków Voivodeship, Poland",
+    "Description": "Karol Józef Wojtyła (1920-05-18) 18 May 1920 Wadowice, Poland",
     "Type": 3,
     "Sequence": 14,
     "CustomMetadata": {}
@@ -106,21 +106,21 @@
   },
   {
     "Name": "Previous post(s)",
-    "Description": "Auxiliary Bishop of Kraków, Poland (1958–1964)\r\nTitular Bishop of Ombi (1958–1964)\r\nArchbishop of Kraków, Poland (1964–1978)\r\nCardinal Priest of San Cesareo in Palatio (1967–1978)",
+    "Description": "Auxiliary Bishop of Kraków (1958–1964)\r\nTitular Bishop of Ombi (1958–1964)\r\nArchbishop of Kraków (1964–1978)\r\nCardinal Priest of San Cesareo in Palatio (1967–1978)",
     "Type": 3,
     "Sequence": 17,
     "CustomMetadata": {}
   },
   {
     "Name": "Education",
-    "Description": "Pontifical University of Saint Thomas Aquinas ( STL, PhD) Jagiellonian University ( PhD )",
+    "Description": "Pontifical University of Saint Thomas Aquinas (STL, PhD)\r\nJagiellonian University (PhD)",
     "Type": 3,
     "Sequence": 18,
     "CustomMetadata": {}
   },
   {
     "Name": "Motto",
-    "Description": "Totus tuus ('Totally yours')",
+    "Description": "Totus tuus ( Latin for 'Totally yours')",
     "Type": 3,
     "Sequence": 19,
     "CustomMetadata": {}
@@ -183,14 +183,14 @@
   },
   {
     "Name": "Patronage",
-    "Description": "Poland\r\nArchdiocese of Kraków\r\nWorld Youth Day (co-Patron)\r\nWorld Meeting of Families 2015 (co-patron)\r\nYoung Catholics\r\nFamilies\r\nŚwidnica\r\nTrecastelli\r\nBorgo Mantovano\r\nRivignano Teor Paradahan, Tanza, Cavite",
+    "Description": "Poland\r\nArchdiocese of Kraków\r\nWorld Youth Day (co-Patron)\r\nWorld Meeting of Families 2015 (co-patron)\r\nYoung Catholics\r\nFamilies\r\nŚwidnica\r\nTrecastelli\r\nBorgo Mantovano\r\nRivignano Teor\r\nParadahan, Tanza, Cavite (Major Patron)",
     "Type": 3,
     "Sequence": 30,
     "CustomMetadata": {}
   },
   {
     "Name": "Notable work",
-    "Description": "Love and Responsibility\r\nTheology of the Body\r\n1983 Code of Canon Law (promulgated)\r\nCatechism of the Catholic Church (promulgated)\r\nMemory and Identity",
+    "Description": "Love and Responsibility\r\nTheology of the Body\r\n1983 Code of Canon Law (promulgated)\r\nCatechism of the Catholic Church (promulgated)\r\nFides et ratio\r\nMemory and Identity",
     "Type": 3,
     "Sequence": 31,
     "CustomMetadata": {}
@@ -218,7 +218,7 @@
   },
   {
     "Name": "Notable ideas",
-    "Description": "Culture of life\r\nSocial mortgage",
+    "Description": "Culture of life and culture of death\r\nMysteries of light\r\nSocial mortgage",
     "Type": 3,
     "Sequence": 35,
     "CustomMetadata": {}
@@ -246,128 +246,107 @@
   },
   {
     "Name": "Ordained by",
-    "Description": "Adam Stefan Sapieha ( Kraków )",
+    "Description": "Adam Stefan Sapieha (Kraków)",
     "Type": 3,
     "Sequence": 39,
     "CustomMetadata": {}
   },
   {
     "Name": "Info",
-    "Description": "Episcopal succession",
-    "Type": 0,
-    "Sequence": 40,
-    "CustomMetadata": {}
-  },
-  {
-    "Name": "Header",
-    "Description": "Bishops consecrated by Pope John Paul II as principal consecrator",
-    "Type": 2,
-    "Sequence": 41,
-    "CustomMetadata": {}
-  },
-  {
-    "Name": "Piotr Bednarczyk",
-    "Description": "21 April 1968",
-    "Type": 3,
-    "Sequence": 42,
-    "CustomMetadata": {}
-  },
-  {
-    "Name": "Info",
     "Description": "Papal styles of Pope John Paul II",
     "Type": 0,
-    "Sequence": 43,
+    "Sequence": 40,
     "CustomMetadata": {}
   },
   {
     "Name": "Reference style",
     "Description": "His Holiness",
     "Type": 3,
-    "Sequence": 45,
+    "Sequence": 42,
     "CustomMetadata": {}
   },
   {
     "Name": "Spoken style",
     "Description": "Your Holiness",
     "Type": 3,
-    "Sequence": 46,
+    "Sequence": 43,
     "CustomMetadata": {}
   },
   {
     "Name": "Posthumous style",
     "Description": "Pope Saint",
     "Type": 3,
-    "Sequence": 47,
+    "Sequence": 44,
     "CustomMetadata": {}
   },
   {
     "Name": "Info",
     "Description": "Pope Saint John Paul II Patriarch of Rome",
     "Type": 0,
-    "Sequence": 48,
+    "Sequence": 45,
     "CustomMetadata": {}
   },
   {
     "Name": "Header",
     "Description": "Pope and Confessor",
     "Type": 2,
-    "Sequence": 50,
+    "Sequence": 47,
     "CustomMetadata": {}
   },
   {
     "Name": "Born",
     "Description": "18 May 1920 Wadowice, Poland",
     "Type": 3,
-    "Sequence": 51,
+    "Sequence": 48,
     "CustomMetadata": {}
   },
   {
     "Name": "Died",
     "Description": "2 April 2005 (aged 84) Apostolic Palace, Vatican City",
     "Type": 3,
-    "Sequence": 52,
+    "Sequence": 49,
     "CustomMetadata": {}
   },
   {
     "Name": "Venerated in",
     "Description": "Catholic Church",
     "Type": 3,
-    "Sequence": 53,
+    "Sequence": 50,
     "CustomMetadata": {}
   },
   {
     "Name": "Beatified",
     "Description": "1 May 2011, Saint Peter's Square, Vatican City by Pope Benedict XVI",
     "Type": 3,
-    "Sequence": 54,
+    "Sequence": 51,
     "CustomMetadata": {}
   },
   {
     "Name": "Canonized",
     "Description": "27 April 2014, Saint Peter's Square, Vatican City by Pope Francis",
     "Type": 3,
-    "Sequence": 55,
+    "Sequence": 52,
     "CustomMetadata": {}
   },
   {
     "Name": "Feast",
     "Description": "22 October",
     "Type": 3,
-    "Sequence": 56,
+    "Sequence": 53,
     "CustomMetadata": {}
   },
   {
     "Name": "Attributes",
     "Description": "Papal ferula, Papal vestments",
     "Type": 3,
-    "Sequence": 57,
+    "Sequence": 54,
     "CustomMetadata": {}
   },
   {
     "Name": "Patronage",
     "Description": "Kraków, Poland, World Youth Day, young Catholics, Świdnica, families, World Meeting of Families 2015",
     "Type": 3,
-    "Sequence": 58,
+    "Sequence": 55,
     "CustomMetadata": {}
   }
 ]

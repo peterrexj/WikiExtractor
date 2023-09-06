@@ -16,7 +16,7 @@ namespace GeneralInformation
         {
             InitializeComponent();
 
-            var wikiAppController = new WikiAppController(DatabaseService.AppDatabase);
+            var wikiAppController = new WikiAppController(DatabaseService.AppDatabase, DatabaseService.UserStoreDatabase);
             var flyoutItems = wikiAppController.AppMenuItems();
 
             foreach (var flyItem in flyoutItems)

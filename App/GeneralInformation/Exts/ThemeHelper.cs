@@ -1,37 +1,75 @@
-﻿using GeneralInformation.Repository;
+﻿using GeneralInformation.Models.Mix;
 using GeneralInformation.Services;
+using Pj.Library;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using Xamarin.Forms;
 
 namespace GeneralInformation.Exts
 {
     public static class ThemeHelper
     {
-        public static void SetTheme(OSAppTheme? oSAppTheme = null)
+
+        public static IStyleModel GetDefaultStyle()
+        {
+            return GetDefaultStyle(SettingsHelper.SelectedTheme);
+        }
+        public static IStyleModel GetDefaultStyle(AppThemes theme)
+        {
+            return StylePropertyHelper.LoadStyle(theme);
+        }
+
+        public static void UpdateStatusBarBasedOnTheme(Color statusBarColor, bool isDarkTheme)
         {
             try
             {
-                var appEnv = DependencyService.Get<IAppEnvironment>();
-                if (oSAppTheme == null)
-                {
-                    oSAppTheme = DatabaseService.AppDatabase.PhoneSettingsRepository.GetCurrentTheme();
-                }
-
-                if (oSAppTheme == OSAppTheme.Dark)
-                {
-                    //Application.Current.UserAppTheme = OSAppTheme.Dark;
-                    appEnv.SetStatusBarColor(Color.Black, false);
-                }
-                else
-                {
-                    //Application.Current.UserAppTheme = OSAppTheme.Light;
-                    appEnv.SetStatusBarColor(Color.White, true);
-                }
+                DependencyService.Get<IAppEnvironment>().SetStatusBarColor(statusBarColor, isDarkTheme);
             }
             catch (Exception ex)
             {
+            }
+        }
+
+        public static void UpdateAppThemes(IStyleModel styleModel)
+        {
+            if (styleModel == null) return;
+            UpdateStatusBarBasedOnTheme(styleModel.PageBgColorConverted, styleModel.AppTheme == AppThemes.Dark);
+
+            ResourceDictionary appResources = Application.Current.Resources;
+            if (appResources.ContainsKey("DefaultFontFamily") && styleModel.DefaultFontFamily.HasValue())
+            {
+                appResources["DefaultFontFamily"] = styleModel.DefaultFontFamily;
+            }
+            if (appResources.ContainsKey("DefaultFontFamilyBold") && styleModel.DefaultFontFamilyBold.HasValue())
+            {
+                appResources["DefaultFontFamilyBold"] = styleModel.DefaultFontFamilyBold;
+            }
+            if (appResources.ContainsKey("AppShellTitleFontColor") && styleModel.AppShellTitleFontColor.HasValue())
+            {
+                appResources["AppShellTitleFontColor"] = styleModel.AppShellTitleFontColor;
+            }
+            if (appResources.ContainsKey("AppShellFlyoutItemLabelFontColor") && styleModel.AppShellFlyoutItemLabelFontColor.HasValue())
+            {
+                appResources["AppShellFlyoutItemLabelFontColor"] = styleModel.AppShellFlyoutItemLabelFontColor;
+            }
+            if (appResources.ContainsKey("AppShellFlyoutItemSelectedBackgroundColor") && styleModel.AppShellFlyoutItemSelectedBackgroundColor.HasValue())
+            {
+                appResources["AppShellFlyoutItemSelectedBackgroundColor"] = styleModel.AppShellFlyoutItemSelectedBackgroundColor;
+            }
+            if (appResources.ContainsKey("AppShellBackgroundColor") && styleModel.AppShellBackgroundColor.HasValue())
+            {
+                appResources["AppShellBackgroundColor"] = styleModel.AppShellBackgroundColor;
+            }
+            if (appResources.ContainsKey("AppShellForegroundIconColor") && styleModel.AppShellForegroundIconColor.HasValue())
+            {
+                appResources["AppShellForegroundIconColor"] = styleModel.AppShellForegroundIconColor;
+            }
+            if (appResources.ContainsKey("AppShellFooterGradientStart") && styleModel.SubPageDetailsContentGradientStartColor.HasValue())
+            {
+                appResources["AppShellFooterGradientStart"] = styleModel.SubPageDetailsContentGradientStartColor;
+            }
+            if (appResources.ContainsKey("AppShellFooterGradientEnd") && styleModel.SubPageDetailsContentGradientEndColor.HasValue())
+            {
+                appResources["AppShellFooterGradientEnd"] = styleModel.SubPageDetailsContentGradientEndColor;
             }
         }
 

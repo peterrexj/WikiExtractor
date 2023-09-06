@@ -1,5 +1,7 @@
-﻿using GeneralInformation.Services;
+﻿using GeneralInformation.Models.Mix;
+using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
+using MagicGradients;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,8 +10,14 @@ using Xamarin.Forms;
 
 namespace GeneralInformation.Exts
 {
-    internal static class StylePropertyHelper
+    public static class StylePropertyHelper
     {
+
+        public static IStyleModel LoadStyle(AppThemes appTheme)
+        {
+            return DependencyService.Get<IAppEnvironment>().GetStyle(appTheme);
+        }
+
         public static int GetStyleOnListItemHeightRequestOnListPage()
         {
             var appInfo = DependencyService.Get<IAppInformation>();

@@ -1,7 +1,9 @@
-﻿using GeneralInformation.Exts;
+﻿using GeneralInformation.Models.Mix;
 using GeneralInformation.Services;
+using Newtonsoft.Json;
+using Syncfusion.XForms.Buttons;
 using System.Collections.Generic;
-using System.Net.Http.Headers;
+using System.Collections.ObjectModel;
 using System.Windows.Input;
 using WikiExtractor.ViewModels;
 using Xamarin.Essentials;
@@ -21,6 +23,16 @@ namespace GeneralInformation.ViewModels
                 StyleOnImageHeightRequestOnListPage = appInfo.StyleOnImageHeightRequestOnListPage,
                 //StyleOnListItemHeightRequestOnListPage = StylePropertyHelper.GetStyleOnListItemHeightRequestOnListPage()
             };
+
+            SortByCollection = new System.Collections.ObjectModel.ObservableCollection<Syncfusion.XForms.Buttons.SfSegmentItem>
+            {
+                 new SfSegmentItem { Text = "Default" },
+                 new SfSegmentItem { Text = "A-Z" },
+                 new SfSegmentItem { Text = "Z-A" },
+                 new SfSegmentItem { Text = "Read" },
+                 new SfSegmentItem { Text = "UnRead" },
+                 new SfSegmentItem { Text = "Random" }
+            };
         }
 
         public string Title { get; set; }
@@ -31,6 +43,34 @@ namespace GeneralInformation.ViewModels
         public IEnumerable<PersonaAutoCompleteModel> AutocompleteList { get; set; }
         public ICommand TapHyperLinkToWikiPage => new Command<string>(async (url) => await Launcher.OpenAsync($"https://en.wikipedia.org/{url}"));
         public StyleDrive StyleDrive { get; set; }
+
+        public ObservableCollection<SfSegmentItem> SortByCollection { get; set; }
+        public int SortBySelectedIndex { get; set; }
+
+        private bool hideItemRead;
+        public bool HideItemRead
+        {
+            get => hideItemRead;
+            set
+            {
+                hideItemRead = value;
+                OnPropertyChanged("HideItemRead");
+            }
+        }
+
+        #region Style 
+        private IStyleModel styleModelDefault;
+        public IStyleModel DefaultStyle
+        {
+            get => styleModelDefault;
+            set
+            {
+                styleModelDefault = value;
+                OnPropertyChanged("DefaultStyle");
+            }
+        }
+
+        #endregion
 
         #region Ads
         private string _adsBannerId;
@@ -65,7 +105,7 @@ namespace GeneralInformation.ViewModels
 
     public class StyleDrive
     {
-        public int StyleOnImageHeightRequestOnListPage { get; set;}
+        public int StyleOnImageHeightRequestOnListPage { get; set; }
         public int StyleOnListItemHeightRequestOnListPage { get; set; }
     }
 }

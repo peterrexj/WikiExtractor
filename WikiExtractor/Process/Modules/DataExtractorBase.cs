@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WikiExtractor.Process.Extractor;
 using WikiExtractor.Repository;
+using WikiExtractor.Repository.UserStore;
 
 namespace WikiExtractor.Process.Modules
 {
@@ -19,6 +20,7 @@ namespace WikiExtractor.Process.Modules
             Console.WriteLine($"Hello, {extractorName} Extractor!");
             ProcessConstants.CacheFolder = IoHelper.CombinePath(PjUtility.Runtime.ExecutingRepositoryRootFolder, "Cache");
             ProcessConstants.DatabasePath = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Db", dbFileName);
+            ProcessConstants.UserStoreDatabasePath = IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Db", "UserStore.db");
         }
 
         protected virtual void Initialize(bool doClean)
@@ -27,7 +29,7 @@ namespace WikiExtractor.Process.Modules
             {
                 IoHelper.DeleteFile(ProcessConstants.DatabasePath);
             }
-            wikiAppController = new WikiAppController(new WikiDatabase());
+            wikiAppController = new WikiAppController(new WikiDatabase(), new UserStoreDatabase());
         }
 
         public void CopyDatabaseFileToRootDbFolder()
