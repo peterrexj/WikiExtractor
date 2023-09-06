@@ -116,7 +116,7 @@ namespace WikiExtractor.Process
 
                         currentParaInfoModel.ParagraghInternalModels.Add(detailItem);
                     }
-                    else if (item.Name == "div" && item.Attributes.Any(f => f.Name.EqualsIgnoreCase("class") && f.Value.ContainsIgnoreCase("thumb")))
+                    else if (item.Name == "figure" && item.Attributes.Any(f => f.Name.EqualsIgnoreCase("typeof") && f.Value.ContainsIgnoreCase("mw:File/Thumb")))
                     {
                         var imageItem = new WikiPictureModel
                         {
@@ -129,7 +129,7 @@ namespace WikiExtractor.Process
                             img.FirstOrDefault()!.Attributes.Where(s => s.Name.HasValue() && s.Value.HasValue())
                                 .Iter(s => imageItem.CustomMetadata.AddOrUpdate(s.Name, s.Value));
                         }
-                        var imgCaption = helperHtml.LoadHtmlAndSelectNodes(item.InnerHtml, "//div[contains(@class, 'thumbcaption')]");
+                        var imgCaption = helperHtml.LoadHtmlAndSelectNodes(item.InnerHtml, "//figcaption");
                         if (imgCaption != null && imgCaption.Count == 1 && imgCaption.FirstOrDefault()!.InnerText.HasValue())
                         {
                             imageItem.Caption = HtmlAgilityEx.DecodedInnerText(imgCaption.FirstOrDefault()!.InnerText, false);

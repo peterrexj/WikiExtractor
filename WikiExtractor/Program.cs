@@ -7,7 +7,7 @@ using WikiExtractor.Process.Modules;
 
 var serviceProvider = ContainerConfiguration.Configure();
 
-ProcessConstants.UseCache = true;
+ProcessConstants.UseCache = false;
 
 //var saintsExtractor = new SaintsDataExtractor();
 //saintsExtractor.ExtractData();
