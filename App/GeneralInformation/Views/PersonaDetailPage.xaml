@@ -8,6 +8,7 @@
     xmlns:converters="clr-namespace:GeneralInformation.Converters"
     xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms">
     <ContentPage.Resources>
@@ -18,7 +19,7 @@
     <Shell.TitleView>
         <FlexLayout>
             <Grid>
-                <!--Margin="6,5,6,2"-->
+                <!--  Margin="6,5,6,2"  -->
                 <sfBorder:SfBorder
                     BorderColor="{Binding DefaultStyle.SubPageTopHeaderBoxBorderColor, Converter={StaticResource stringToColorConverter}}"
                     BorderWidth="1"
@@ -166,6 +167,77 @@
                             </tabView:SfTabItem.HeaderContent>
                             <tabView:SfTabItem.Content>
                                 <StackLayout>
+                                    <Grid
+                                        Margin="0,0,15,0"
+                                        HeightRequest="{OnPlatform Android={OnIdiom Phone=28,
+                                                                                    Tablet=50},
+                                                                   iOS={OnIdiom Phone=28,
+                                                                                Tablet=50},
+                                                                   UWP={OnIdiom Phone=28,
+                                                                                Tablet=50}}"
+                                        HorizontalOptions="End">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="120" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Label
+                                            Grid.Column="0"
+                                            Margin="0,0,10,0"
+                                            FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
+                                            FontSize="14"
+                                            HorizontalTextAlignment="Center"
+                                            Text="Mark as Viewed"
+                                            TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
+                                            VerticalOptions="Center"
+                                            VerticalTextAlignment="Start" />
+
+                                        <sfButtons:SfSwitch
+                                            x:Name="swtReadItem"
+                                            Grid.Column="1"
+                                            HorizontalOptions="End"
+                                            IsOn="{Binding Persona.ItemReadStatus}"
+                                            Orientation="Horizontal"
+                                            StateChanged="swtReadItem_StateChanged"
+                                            VisualType="Custom">
+                                            <VisualStateManager.VisualStateGroups>
+                                                <VisualStateGroup x:Name="CommonStates">
+
+                                                    <VisualState x:Name="On">
+                                                        <VisualState.Setters>
+                                                            <Setter Property="SwitchSettings">
+                                                                <Setter.Value>
+                                                                    <sfButtons:DefaultSwitchSettings
+                                                                        x:TypeArguments="sfButtons:OnState"
+                                                                        BusyIndicatorColor="{Binding DefaultStyle.SwitchBusyIndicatorColorON, Converter={StaticResource stringToColorConverter}}"
+                                                                        ThumbBorderColor="{Binding DefaultStyle.SwitchThumbBorderColorON, Converter={StaticResource stringToColorConverter}}"
+                                                                        ThumbColor="{Binding DefaultStyle.SwitchThumbColorON, Converter={StaticResource stringToColorConverter}}"
+                                                                        TrackBorderColor="{Binding DefaultStyle.SwitchTrackBorderColorON, Converter={StaticResource stringToColorConverter}}"
+                                                                        TrackColor="{Binding DefaultStyle.SwitchTrackColorON, Converter={StaticResource stringToColorConverter}}" />
+                                                                </Setter.Value>
+                                                            </Setter>
+                                                        </VisualState.Setters>
+                                                    </VisualState>
+
+                                                    <VisualState x:Name="Off">
+                                                        <VisualState.Setters>
+                                                            <Setter Property="SwitchSettings">
+                                                                <Setter.Value>
+                                                                    <sfButtons:DefaultSwitchSettings
+                                                                        x:TypeArguments="sfButtons:OffState"
+                                                                        BusyIndicatorColor="{Binding DefaultStyle.SwitchBusyIndicatorColorOFF, Converter={StaticResource stringToColorConverter}}"
+                                                                        ThumbBorderColor="{Binding DefaultStyle.SwitchThumbBorderColorOFF, Converter={StaticResource stringToColorConverter}}"
+                                                                        ThumbColor="{Binding DefaultStyle.SwitchThumbColorOFF, Converter={StaticResource stringToColorConverter}}"
+                                                                        TrackBorderColor="{Binding DefaultStyle.SwitchTrackBorderColorOFF, Converter={StaticResource stringToColorConverter}}"
+                                                                        TrackColor="{Binding DefaultStyle.SwitchTrackColorOFF, Converter={StaticResource stringToColorConverter}}" />
+                                                                </Setter.Value>
+                                                            </Setter>
+                                                        </VisualState.Setters>
+                                                    </VisualState>
+
+                                                </VisualStateGroup>
+                                            </VisualStateManager.VisualStateGroups>
+                                        </sfButtons:SfSwitch>
+                                    </Grid>
                                     <syncfusionList:SfListView
                                         x:Name="lstSaints"
                                         AllowSwiping="True"
@@ -235,7 +307,7 @@
                                                                                               macOS=0.4,
                                                                                               WPF=0.4}"
                                                                 FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
-                                                                FontSize="{OnPlatform Android={OnIdiom Phone=13,
+                                                                FontSize="{OnPlatform Android={OnIdiom Phone=14,
                                                                                                        Tablet=17},
                                                                                       iOS={OnIdiom Phone=13,
                                                                                                    Tablet=17},

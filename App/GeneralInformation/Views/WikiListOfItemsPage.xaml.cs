@@ -54,9 +54,18 @@ namespace GeneralInformation.Views
 
                     BindingContext = personaListViewModel;
 
-                    Task.Run(RefreshListOfListFilter);
-
                 }
+
+                if (SharedServices.PageDataTransferModel.Name.HasValue())
+                {
+                    foreach (var item in personaListViewModel.Personas.Where(f => f.Name == SharedServices.PageDataTransferModel.Name))
+                    {
+                        item.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
+                    }
+                    SharedServices.PageDataTransferModel.Clear();
+                }
+                
+                Task.Run(RefreshListOfListFilter);
                 personaListViewModel.DefaultStyle = ThemeHelper.GetDefaultStyle();
                 ThemeHelper.UpdateAppThemes(personaListViewModel.DefaultStyle);
             }
@@ -104,6 +113,10 @@ namespace GeneralInformation.Views
                         {
                             personaObj.IsBusy = true;
                         }
+                        SharedServices.PageDataTransferModel.Clear();
+                        SharedServices.PageDataTransferModel.Id = _masterId;
+                        SharedServices.PageDataTransferModel.Name = personaObj.Name;
+                        SharedServices.PageDataTransferModel.IsMarkedAsViewed = personaObj.ItemReadStatus;
                     });
 
 #if DEBUG == false
@@ -130,6 +143,7 @@ namespace GeneralInformation.Views
             });
 
             var route = $"{nameof(PersonaDetailPage)}?MasterId={_masterId}";
+
             await Shell.Current.GoToAsync(route);
 
             personaListViewModel.IsBusy = false;
@@ -414,33 +428,33 @@ namespace GeneralInformation.Views
                 }
             });
         }
-        private async void swtReadItem_StateChanged(object sender, Syncfusion.XForms.Buttons.SwitchStateChangedEventArgs e)
-        {
-            await Task.Run(async () =>
-            {
-                try
-                {
-                    if (sender != null)
-                    {
-                        if (sender is SfSwitch && (sender as SfSwitch).AutomationId.HasValue())
-                        {
-                            var name = (sender as SfSwitch).AutomationId;
-                            SharedServices.WikiAppController.UpdateItemRead(name, e.NewValue.HasValue ? e.NewValue.Value : false);
+        //private async void swtReadItem_StateChanged(object sender, Syncfusion.XForms.Buttons.SwitchStateChangedEventArgs e)
+        //{
+        //    await Task.Run(async () =>
+        //    {
+        //        try
+        //        {
+        //            if (sender != null)
+        //            {
+        //                if (sender is SfSwitch && (sender as SfSwitch).AutomationId.HasValue())
+        //                {
+        //                    var name = (sender as SfSwitch).AutomationId;
+        //                    SharedServices.WikiAppController.UpdateItemRead(name, e.NewValue.HasValue ? e.NewValue.Value : false);
 
-                            foreach (var item in personaListViewModel.Personas.Where(f => f.Name == name))
-                            {
-                                item.ItemReadStatus = e.NewValue.Value;
-                            }
-                            await RefreshListOfListFilter();
-                        }
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Crashes.TrackError(ex);
-                }
-            });
-        }
+        //                    foreach (var item in personaListViewModel.Personas.Where(f => f.Name == name))
+        //                    {
+        //                        item.ItemReadStatus = e.NewValue.Value;
+        //                    }
+        //                    await RefreshListOfListFilter();
+        //                }
+        //            }
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            Crashes.TrackError(ex);
+        //        }
+        //    });
+        //}
         private async void swtToggleItemRead_StateChanged(object sender, SwitchStateChangedEventArgs e)
         {
             await Task.Run(async () =>

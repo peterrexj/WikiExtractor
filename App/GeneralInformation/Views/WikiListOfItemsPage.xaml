@@ -53,7 +53,7 @@
                                     <Grid>
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=80, Tablet=80}, iOS={OnIdiom Phone=80, Tablet=100}}" />
+                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=80, Tablet=130}, iOS={OnIdiom Phone=80, Tablet=100}}" />
                                             <ColumnDefinition Width="30" />
                                             <ColumnDefinition Width="5" />
                                         </Grid.ColumnDefinitions>
@@ -70,8 +70,8 @@
                                             Completed="autoComplete_Completed"
                                             DataSource="{Binding AutocompleteList}"
                                             DisplayMemberPath="Name"
-                                            DropDownBorderColor="{Binding DefaultStyle.AutoCompleteDropdownBorderColor, Converter={StaticResource stringToColorConverter}}"
                                             DropDownBackgroundColor="{Binding DefaultStyle.AutoCompleteDropdownBackgroundColor, Converter={StaticResource stringToColorConverter}}"
+                                            DropDownBorderColor="{Binding DefaultStyle.AutoCompleteDropdownBorderColor, Converter={StaticResource stringToColorConverter}}"
                                             DropDownItemFontFamily="{Binding DefaultStyle.DefaultFontFamily}"
                                             DropDownTextColor="{Binding DefaultStyle.AutoCompleteDropdownTextColor, Converter={StaticResource stringToColorConverter}}"
                                             FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
@@ -95,7 +95,10 @@
                                         <FlexLayout Grid.Column="1">
 
                                             <Label
-                                                Margin="0,5,5,0"
+                                                Margin="{OnPlatform Android={OnIdiom Phone='0,5,5,0',
+                                                                                     Tablet='10,0,5,0'},
+                                                                    iOS={OnIdiom Phone='0,5,5,0',
+                                                                                 Tablet='10,0,5,0'}}"
                                                 FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
                                                 FontSize="{OnPlatform Android={OnIdiom Phone=12,
                                                                                        Tablet=14},
@@ -270,7 +273,7 @@
                                                             <Grid Grid.Column="0">
                                                                 <Grid.RowDefinitions>
                                                                     <RowDefinition Height="*" />
-                                                                    <RowDefinition Height="25" />
+                                                                    <!--<RowDefinition Height="25" />-->
                                                                 </Grid.RowDefinitions>
                                                                 <Image
                                                                     x:Name="imgList"
@@ -286,7 +289,7 @@
                                                                     Grid.Row="1"
                                                                     BindingContext="{x:Reference imgList}"
                                                                     IsRunning="{Binding IsLoading}" />
-                                                                <Grid Grid.Row="1">
+                                                                <!--<Grid Grid.Row="1">
                                                                     <Grid.ColumnDefinitions>
                                                                         <ColumnDefinition Width="80" />
                                                                         <ColumnDefinition Width="*" />
@@ -348,7 +351,7 @@
                                                                             </VisualStateGroup>
                                                                         </VisualStateManager.VisualStateGroups>
                                                                     </sfButtons:SfSwitch>
-                                                                </Grid>
+                                                                </Grid>-->
                                                             </Grid>
                                                             <Grid Grid.Column="1">
                                                                 <Grid.RowDefinitions>
@@ -476,7 +479,7 @@
                                                                                                             Text=": " />
                                                                                                         <Span
                                                                                                             FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
-                                                                                                            FontSize="{OnIdiom Phone=12,
+                                                                                                            FontSize="{OnIdiom Phone=13,
                                                                                                                                Tablet=16}"
                                                                                                             Text="{Binding Description}" />
                                                                                                     </FormattedString>

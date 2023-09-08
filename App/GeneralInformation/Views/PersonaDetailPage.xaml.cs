@@ -94,6 +94,7 @@ namespace GeneralInformation.Views
 
                 personaDetailViewModel.Persona = _personaViewModel;
                 personaDetailViewModel.DefaultStyle = ThemeHelper.GetDefaultStyle();
+                personaDetailViewModel.Persona.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
 
                 if (personaDetailViewModel.IsMetaDataAvailable == false)
                 {
@@ -364,7 +365,7 @@ namespace GeneralInformation.Views
                 Crashes.TrackError(ex);
             }
         }
-     
+
 
         private void First_TabItem_Clicked(object sender, EventArgs e)
         {
@@ -401,6 +402,22 @@ namespace GeneralInformation.Views
             {
                 Crashes.TrackError(ex);
             }
+        }
+
+        private async void swtReadItem_StateChanged(object sender, Syncfusion.XForms.Buttons.SwitchStateChangedEventArgs e)
+        {
+            await Task.Run(() =>
+            {
+                try
+                {
+                    SharedServices.WikiAppController.UpdateItemRead(SharedServices.PageDataTransferModel.Name, e.NewValue ?? false);
+                    SharedServices.PageDataTransferModel.IsMarkedAsViewed = e.NewValue ?? false;
+                }
+                catch (Exception ex)
+                {
+                    Crashes.TrackError(ex);
+                }
+            });
         }
     }
 }

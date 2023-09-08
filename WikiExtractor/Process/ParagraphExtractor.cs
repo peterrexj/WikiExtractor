@@ -141,10 +141,10 @@ namespace WikiExtractor.Process
                     else if (item.Name == "div" && item.Attributes.Any(f => f.Name.EqualsIgnoreCase("class") && f.Value.ContainsIgnoreCase("thumb")))
                     {
                         var img = helperHtml.LoadHtmlAndSelectNodes(item.InnerHtml, "//img");
+                        var subImageParentElms = helperHtml.LoadHtmlAndSelectNodes(item.InnerHtml, "//div[contains(@class, 'tsingle')]");
 
-                        if (img != null && img.Count > 1)
+                        if (img != null && img.Count > 1 && subImageParentElms != null)
                         {
-                            var subImageParentElms = helperHtml.LoadHtmlAndSelectNodes(item.InnerHtml, "//div[contains(@class, 'tsingle')]");
                             foreach (var subImageParentElm in subImageParentElms)
                             {
                                 var subImageElm = helperHtml.LoadHtmlAndSelectNodes(subImageParentElm.InnerHtml, "//img");
