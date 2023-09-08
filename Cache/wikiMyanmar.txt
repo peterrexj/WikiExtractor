@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Myanmar - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"5c8d3d44-b962-47de-8efc-cc09e67f7943","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Myanmar","wgTitle":"Myanmar","wgCurRevisionId":1173632677,"wgRevisionId":1173632677,"wgArticleId":19457,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing Burmese-language text","Pages using the Phonos extension","Pages including recorded pronunciations","Webarchive template wayback links","All articles with dead external links","Articles with dead external links from July 2021","Articles with dead external links from September 2016","CS1 maint: unfit URL","CS1 maint: location missing publisher","CS1: long volume value","Pages containing links to subscription-only content","Articles with short description","Short description is different from Wikidata","Wikipedia indefinitely semi-protected pages",
+"September","October","November","December"],"wgRequestId":"d42198b6-73fc-4633-86f2-9133eed2415b","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Myanmar","wgTitle":"Myanmar","wgCurRevisionId":1173632677,"wgRevisionId":1173632677,"wgArticleId":19457,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing Burmese-language text","Pages using the Phonos extension","Pages including recorded pronunciations","Webarchive template wayback links","All articles with dead external links","Articles with dead external links from July 2021","Articles with dead external links from September 2016","CS1 maint: unfit URL","CS1 maint: location missing publisher","CS1: long volume value","Pages containing links to subscription-only content","Articles with short description","Short description is different from Wikidata","Wikipedia indefinitely semi-protected pages",
 "Wikipedia indefinitely move-protected pages","Use British English from May 2020","Use dmy dates from February 2021","Pages using infobox country or infobox former country with the symbol caption or type parameters","Articles needing additional references from August 2022","All articles needing additional references","Wikipedia articles needing clarification from January 2023","Pages using multiple image with auto scaled images","Articles containing potentially dated statements from 2019","All articles containing potentially dated statements","Wikipedia neutral point of view disputes from November 2020","All Wikipedia neutral point of view disputes","Articles that may contain original research from June 2021","All articles with unsourced statements","Articles with unsourced statements from August 2022","Articles containing potentially dated statements from 2009","Pages using Sister project links with hidden wikidata","Pages using Sister project links with default search",
 "Articles with Curlie links","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with NDL identifiers","Articles with NKC identifiers","Articles with NLG identifiers","Articles with MusicBrainz area identifiers","Articles with EMU identifiers","Articles with HDS identifiers","Articles with NARA identifiers","Articles with SUDOC identifiers","Articles with TDVİA identifiers","Coordinates on Wikidata","Myanmar","Former socialist republics","Least developed countries","Member states of ASEAN","Member states of the United Nations","Military dictatorships","Southeast Asian countries","States and territories established in 1948","1948 establishments in Burma","Countries in Asia","Protected areas of Myanmar","Dialogue partners of the Shanghai Cooperation Organisation"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en",
 "wgPageContentModel":"wikitext","wgRelevantPageName":"Myanmar","wgRelevantArticleId":19457,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":200000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgCoordinates":{"lat":22,"lon":96},"wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q836","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands"
@@ -2950,13 +2950,13 @@ The government has also relaxed reporting laws, but these remain highly restrict
 </p>
 <!-- 
 NewPP limit report
-Parsed by mw2414
-Cached time: 20230904213541
+Parsed by mw‐web.codfw.main‐5ff956c47b‐9tb69
+Cached time: 20230907002524
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 3.278 seconds
-Real time usage: 3.905 seconds
+CPU time usage: 3.707 seconds
+Real time usage: 4.520 seconds
 Preprocessor visited node count: 30001/1000000
 Post‐expand include size: 871336/2097152 bytes
 Template argument size: 75208/2097152 bytes
@@ -2964,37 +2964,37 @@ Highest expansion depth: 18/100
 Expensive parser function count: 109/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 1088962/5000000 bytes
-Lua time usage: 2.033/10.000 seconds
-Lua memory usage: 28588861/52428800 bytes
+Lua time usage: 2.248/10.000 seconds
+Lua memory usage: 27753539/52428800 bytes
 Lua Profile:
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      340 ms       15.7%
-    dataWrapper <mw.lua:672>                                         220 ms       10.2%
-    ?                                                                220 ms       10.2%
-    recursiveClone <mwInit.lua:41>                                   120 ms        5.6%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      120 ms        5.6%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match      100 ms        4.6%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      100 ms        4.6%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements      100 ms        4.6%
-    (for generator)                                                  100 ms        4.6%
-    <mw.lua:694>                                                      80 ms        3.7%
-    [others]                                                         660 ms       30.6%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      280 ms       12.3%
+    ?                                                                220 ms        9.6%
+    dataWrapper <mw.lua:672>                                         160 ms        7.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      160 ms        7.0%
+    recursiveClone <mwInit.lua:41>                                   160 ms        7.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      160 ms        7.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match      160 ms        7.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements      100 ms        4.4%
+    <mw.lua:694>                                                      80 ms        3.5%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntity       60 ms        2.6%
+    [others]                                                         740 ms       32.5%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 3305.349      1 -total
- 54.15% 1789.714      4 Template:Reflist
- 17.87%  590.626    144 Template:Cite_web
- 15.59%  515.260    133 Template:Cite_news
-  9.64%  318.652      3 Template:Infobox
-  9.62%  317.937      1 Template:Infobox_country
-  6.54%  216.237     47 Template:Cite_book
-  3.32%  109.735     18 Template:Cite_journal
-  3.27%  108.010      1 Template:Sister_project_links
-  3.26%  107.624      1 Template:Burma_(Myanmar)_topics
+100.00% 3833.930      1 -total
+ 52.71% 2020.892      4 Template:Reflist
+ 18.08%  693.289    144 Template:Cite_web
+ 15.40%  590.518    133 Template:Cite_news
+ 10.65%  408.451      3 Template:Infobox
+ 10.51%  403.082      1 Template:Infobox_country
+  5.96%  228.395     47 Template:Cite_book
+  3.63%  139.265      1 Template:Ubl
+  3.45%  132.128      1 Template:Sister_project_links
+  3.30%  126.483      1 Template:Navboxes
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:19457-0!canonical and timestamp 20230904213537 and revision id 1173632677. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:19457-0!canonical and timestamp 20230907002519 and revision id 1173632677. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Myanmar&amp;oldid=1173632677">https://en.wikipedia.org/w/index.php?title=Myanmar&amp;oldid=1173632677</a>"</div></div>
@@ -3043,7 +3043,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2331","wgBackendResponseTime":150,"wgPageParseReport":{"limitreport":{"cputime":"3.278","walltime":"3.905","ppvisitednodes":{"value":30001,"limit":1000000},"postexpandincludesize":{"value":871336,"limit":2097152},"templateargumentsize":{"value":75208,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":109,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":1088962,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 3305.349      1 -total"," 54.15% 1789.714      4 Template:Reflist"," 17.87%  590.626    144 Template:Cite_web"," 15.59%  515.260    133 Template:Cite_news","  9.64%  318.652      3 Template:Infobox","  9.62%  317.937      1 Template:Infobox_country","  6.54%  216.237     47 Template:Cite_book","  3.32%  109.735     18 Template:Cite_journal","  3.27%  108.010      1 Template:Sister_project_links","  3.26%  107.624      1 Template:Burma_(Myanmar)_topics"]},"scribunto":{"limitreport-timeusage":{"value":"2.033","limit":"10.000"},"limitreport-memusage":{"value":28588861,"limit":52428800},"limitreport-logs":"table#1 {\n    [\"size\"] = \"tiny\",\n}\n","limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","340","15.7"],["dataWrapper \u003Cmw.lua:672\u003E","220","10.2"],["?","220","10.2"],["recursiveClone \u003CmwInit.lua:41\u003E","120","5.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","120","5.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","100","4.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","100","4.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","100","4.6"],["(for generator)","100","4.6"],["\u003Cmw.lua:694\u003E","80","3.7"],["[others]","660","30.6"]]},"cachereport":{"origin":"mw2414","timestamp":"20230904213541","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2337","wgBackendResponseTime":165,"wgPageParseReport":{"limitreport":{"cputime":"3.707","walltime":"4.520","ppvisitednodes":{"value":30001,"limit":1000000},"postexpandincludesize":{"value":871336,"limit":2097152},"templateargumentsize":{"value":75208,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":109,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":1088962,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 3833.930      1 -total"," 52.71% 2020.892      4 Template:Reflist"," 18.08%  693.289    144 Template:Cite_web"," 15.40%  590.518    133 Template:Cite_news"," 10.65%  408.451      3 Template:Infobox"," 10.51%  403.082      1 Template:Infobox_country","  5.96%  228.395     47 Template:Cite_book","  3.63%  139.265      1 Template:Ubl","  3.45%  132.128      1 Template:Sister_project_links","  3.30%  126.483      1 Template:Navboxes"]},"scribunto":{"limitreport-timeusage":{"value":"2.248","limit":"10.000"},"limitreport-memusage":{"value":27753539,"limit":52428800},"limitreport-logs":"table#1 {\n    [\"size\"] = \"tiny\",\n}\n","limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","280","12.3"],["?","220","9.6"],["dataWrapper \u003Cmw.lua:672\u003E","160","7.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","160","7.0"],["recursiveClone \u003CmwInit.lua:41\u003E","160","7.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","160","7.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","160","7.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","100","4.4"],["\u003Cmw.lua:694\u003E","80","3.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntity","60","2.6"],["[others]","740","32.5"]]},"cachereport":{"origin":"mw-web.codfw.main-5ff956c47b-9tb69","timestamp":"20230907002524","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Myanmar","url":"https:\/\/en.wikipedia.org\/wiki\/Myanmar","sameAs":"http:\/\/www.wikidata.org\/entity\/Q836","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q836","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-10-17T14:04:14Z","dateModified":"2023-09-03T16:46:33Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/8c\/Flag_of_Myanmar.svg","headline":"A sovereign nation of Southeast Asia"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Myanmar","url":"https:\/\/en.wikipedia.org\/wiki\/Myanmar","sameAs":"http:\/\/www.wikidata.org\/entity\/Q836","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q836","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-10-17T14:04:14Z","dateModified":"2023-09-03T16:46:33Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/8c\/Flag_of_Myanmar.svg","headline":"A sovereign nation of Southeast Asia"}</script>
 </body>
 </html>

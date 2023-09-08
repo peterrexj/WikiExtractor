@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Equatorial Guinea - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"fa4e1196-132f-47b0-af53-decb769ef75e","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Equatorial_Guinea","wgTitle":"Equatorial Guinea","wgCurRevisionId":1173281204,"wgRevisionId":1173281204,"wgArticleId":9366,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","Articles containing Spanish-language text","Articles containing French-language text","Articles containing Portuguese-language text","Webarchive template wayback links","CS1 Spanish-language sources (es)","All articles with dead external links","Articles with dead external links from October 2022","Articles with permanently dead external links","CS1 Portuguese-language sources (pt)","Articles with short description","Short description is different from Wikidata","Wikipedia indefinitely move-protected pages",
+"September","October","November","December"],"wgRequestId":"71ac4036-bbe7-4f67-91db-285b68b41934","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Equatorial_Guinea","wgTitle":"Equatorial Guinea","wgCurRevisionId":1173281204,"wgRevisionId":1173281204,"wgArticleId":9366,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","Articles containing Spanish-language text","Articles containing French-language text","Articles containing Portuguese-language text","Webarchive template wayback links","CS1 Spanish-language sources (es)","All articles with dead external links","Articles with dead external links from October 2022","Articles with permanently dead external links","CS1 Portuguese-language sources (pt)","Articles with short description","Short description is different from Wikidata","Wikipedia indefinitely move-protected pages",
 "Use dmy dates from September 2021","Use British English from July 2020","Pages using infobox country or infobox former country with the symbol caption or type parameters","Articles containing potentially dated statements from 2021","All articles containing potentially dated statements","All articles with unsourced statements","Articles with unsourced statements from October 2020","Articles with unsourced statements from November 2022","Wikipedia articles needing clarification from November 2016","Articles containing potentially dated statements from February 2016","Articles with unsourced statements from January 2023","Articles with unsourced statements from February 2023","Articles containing potentially dated statements from 2004","Wikipedia articles in need of updating from December 2018","All Wikipedia articles in need of updating","All articles with vague or ambiguous time","Vague or ambiguous time from December 2018","Articles containing potentially dated statements from 2009",
 "Wikipedia articles incorporating text from the World Factbook","Articles with dead external links from June 2023","Pages using Sister project links with wikidata namespace mismatch","Pages using Sister project links with hidden wikidata","Pages using Sister project links with default search","Articles with Curlie links","Articles with FAST identifiers","Articles with VIAF identifiers","Articles with WorldCat Entities identifiers","Articles with BNE identifiers","Articles with BNF identifiers","Articles with BNFdata identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with Libris identifiers","Articles with NDL identifiers","Articles with NKC identifiers","Articles with MusicBrainz area identifiers","Articles with EMU identifiers","Articles with HDS identifiers","Articles with NARA identifiers","Articles with SUDOC identifiers","Coordinates on Wikidata","Equatorial Guinea","1968 establishments in Africa",
 "Central African countries","Countries and territories where Portuguese is an official language","Countries in Africa","Former least developed countries","Former Portuguese colonies","Former Spanish colonies","French-speaking countries and territories","Member states of OPEC","Member states of the African Union","Member states of the Group of Friends in Defense of the Charter of the United Nations","Member states of the Community of Portuguese Language Countries","Member states of the Organisation internationale de la Francophonie","Member states of the United Nations","Republics","Spanish-speaking countries and territories","States and territories established in 1968"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Equatorial_Guinea","wgRelevantArticleId":9366,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["sysop"],"wgVisualEditor":{"pageLanguageCode":"en",
@@ -2052,51 +2052,51 @@ Equatorial Guinea is divided into eight <a href="/wiki/Provinces_of_Equatorial_G
 </p>
 <!-- 
 NewPP limit report
-Parsed by mw2385
-Cached time: 20230905134028
+Parsed by mw1492
+Cached time: 20230905134014
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 1.827 seconds
-Real time usage: 2.240 seconds
+CPU time usage: 2.043 seconds
+Real time usage: 2.442 seconds
 Preprocessor visited node count: 20550/1000000
 Post‐expand include size: 552138/2097152 bytes
 Template argument size: 100338/2097152 bytes
 Highest expansion depth: 20/100
-Expensive parser function count: 81/500
+Expensive parser function count: 82/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 435458/5000000 bytes
-Lua time usage: 1.063/10.000 seconds
+Lua time usage: 1.199/10.000 seconds
 Lua memory usage: 24385435/52428800 bytes
 Lua Profile:
-    ?                                                                200 ms       16.9%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      200 ms       16.9%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      160 ms       13.6%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements       80 ms        6.8%
-    tostring                                                          60 ms        5.1%
-    type                                                              60 ms        5.1%
-    ipairs                                                            40 ms        3.4%
-    newFrame <mw.lua:153>                                             40 ms        3.4%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::redirectTarget       40 ms        3.4%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::plain       40 ms        3.4%
-    [others]                                                         260 ms       22.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      180 ms       14.5%
+    ?                                                                160 ms       12.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      120 ms        9.7%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      120 ms        9.7%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::sub       80 ms        6.5%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getAllExpandedArguments       80 ms        6.5%
+    dataWrapper <mw.lua:672>                                          60 ms        4.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match       60 ms        4.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements       60 ms        4.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::lc       40 ms        3.2%
+    [others]                                                         280 ms       22.6%
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 1895.691      1 -total
- 35.24%  668.027      2 Template:Reflist
- 18.29%  346.816      3 Template:Infobox
- 18.23%  345.580      1 Template:Infobox_country
- 14.00%  265.386     60 Template:Cite_web
-  7.19%  136.236     22 Template:Fix
-  5.44%  103.126      1 Template:Equatorial_Guinea_topics
-  5.35%  101.457      1 Template:Country_topics
-  5.28%  100.184     11 Template:Citation_needed
-  5.20%   98.551      3 Template:Unbulleted_list
+100.00% 2078.372      1 -total
+ 36.99%  768.807      2 Template:Reflist
+ 17.62%  366.268      1 Template:Infobox_country
+ 17.55%  364.672      3 Template:Infobox
+ 15.10%  313.783     60 Template:Cite_web
+  7.04%  146.259     22 Template:Fix
+  5.93%  123.331      1 Template:Equatorial_Guinea_topics
+  5.85%  121.637      1 Template:Country_topics
+  5.52%  114.725      3 Template:Unbulleted_list
+  5.35%  111.292     11 Template:Citation_needed
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:9366-0!canonical and timestamp 20230905134026 and revision id 1173281204. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:9366-0!canonical and timestamp 20230905134012 and revision id 1173281204. Rendering was triggered because: api-parse
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Equatorial_Guinea&amp;oldid=1173281204">https://en.wikipedia.org/w/index.php?title=Equatorial_Guinea&amp;oldid=1173281204</a>"</div></div>
@@ -2145,7 +2145,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2271","wgBackendResponseTime":158,"wgPageParseReport":{"limitreport":{"cputime":"1.827","walltime":"2.240","ppvisitednodes":{"value":20550,"limit":1000000},"postexpandincludesize":{"value":552138,"limit":2097152},"templateargumentsize":{"value":100338,"limit":2097152},"expansiondepth":{"value":20,"limit":100},"expensivefunctioncount":{"value":81,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":435458,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00% 1895.691      1 -total"," 35.24%  668.027      2 Template:Reflist"," 18.29%  346.816      3 Template:Infobox"," 18.23%  345.580      1 Template:Infobox_country"," 14.00%  265.386     60 Template:Cite_web","  7.19%  136.236     22 Template:Fix","  5.44%  103.126      1 Template:Equatorial_Guinea_topics","  5.35%  101.457      1 Template:Country_topics","  5.28%  100.184     11 Template:Citation_needed","  5.20%   98.551      3 Template:Unbulleted_list"]},"scribunto":{"limitreport-timeusage":{"value":"1.063","limit":"10.000"},"limitreport-memusage":{"value":24385435,"limit":52428800},"limitreport-profile":[["?","200","16.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","200","16.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","160","13.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","80","6.8"],["tostring","60","5.1"],["type","60","5.1"],["ipairs","40","3.4"],["newFrame \u003Cmw.lua:153\u003E","40","3.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::redirectTarget","40","3.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::plain","40","3.4"],["[others]","260","22.0"]]},"cachereport":{"origin":"mw2385","timestamp":"20230905134028","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1435","wgBackendResponseTime":147,"wgPageParseReport":{"limitreport":{"cputime":"2.043","walltime":"2.442","ppvisitednodes":{"value":20550,"limit":1000000},"postexpandincludesize":{"value":552138,"limit":2097152},"templateargumentsize":{"value":100338,"limit":2097152},"expansiondepth":{"value":20,"limit":100},"expensivefunctioncount":{"value":82,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":435458,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00% 2078.372      1 -total"," 36.99%  768.807      2 Template:Reflist"," 17.62%  366.268      1 Template:Infobox_country"," 17.55%  364.672      3 Template:Infobox"," 15.10%  313.783     60 Template:Cite_web","  7.04%  146.259     22 Template:Fix","  5.93%  123.331      1 Template:Equatorial_Guinea_topics","  5.85%  121.637      1 Template:Country_topics","  5.52%  114.725      3 Template:Unbulleted_list","  5.35%  111.292     11 Template:Citation_needed"]},"scribunto":{"limitreport-timeusage":{"value":"1.199","limit":"10.000"},"limitreport-memusage":{"value":24385435,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","180","14.5"],["?","160","12.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","120","9.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","120","9.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::sub","80","6.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getAllExpandedArguments","80","6.5"],["dataWrapper \u003Cmw.lua:672\u003E","60","4.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","60","4.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","60","4.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::lc","40","3.2"],["[others]","280","22.6"]]},"cachereport":{"origin":"mw1492","timestamp":"20230905134014","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Equatorial Guinea","url":"https:\/\/en.wikipedia.org\/wiki\/Equatorial_Guinea","sameAs":"http:\/\/www.wikidata.org\/entity\/Q983","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q983","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-04-29T05:16:42Z","dateModified":"2023-09-01T12:45:10Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/31\/Flag_of_Equatorial_Guinea.svg","headline":"sovereign state in Africa"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Equatorial Guinea","url":"https:\/\/en.wikipedia.org\/wiki\/Equatorial_Guinea","sameAs":"http:\/\/www.wikidata.org\/entity\/Q983","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q983","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-04-29T05:16:42Z","dateModified":"2023-09-01T12:45:10Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/31\/Flag_of_Equatorial_Guinea.svg","headline":"sovereign state in Africa"}</script>
 </body>
 </html>

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>List of countries and dependencies by area - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"ab1b72d7-288e-4ddc-834f-4c73eb9842a8","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"List_of_countries_and_dependencies_by_area","wgTitle":"List of countries and dependencies by area","wgCurRevisionId":1173058491,"wgRevisionId":1173058491,"wgArticleId":3989609,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 French-language sources (fr)","CS1 Japanese-language sources (ja)","CS1 Dutch-language sources (nl)","Articles with Italian-language sources (it)","Articles with short description","Short description is different from Wikidata","Wikipedia pages semi-protected against vandalism","Use dmy dates from January 2022","Water by country","Geography-related lists","International rankings","Lists by area","Lists of countries by geography"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":
+"September","October","November","December"],"wgRequestId":"432b95db-2227-46df-86e7-e726194730d3","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"List_of_countries_and_dependencies_by_area","wgTitle":"List of countries and dependencies by area","wgCurRevisionId":1173058491,"wgRevisionId":1173058491,"wgArticleId":3989609,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 French-language sources (fr)","CS1 Japanese-language sources (ja)","CS1 Dutch-language sources (nl)","Articles with Italian-language sources (it)","Articles with short description","Short description is different from Wikidata","Wikipedia pages semi-protected against vandalism","Use dmy dates from January 2022","Water by country","Geography-related lists","International rankings","Lists by area","Lists of countries by geography"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":
 "wikitext","wgRelevantPageName":"List_of_countries_and_dependencies_by_area","wgRelevantArticleId":3989609,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["autoconfirmed"],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":70000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q260023","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands",
 "fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.tablesorter.styles":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mediawiki.page.media","site","mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","skins.vector.js",
 "ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
@@ -3313,51 +3313,51 @@
 </div></div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw2276
-Cached time: 20230905160924
+Parsed by mw2439
+Cached time: 20230906190405
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 11.304 seconds
-Real time usage: 11.985 seconds
-Preprocessor visited node count: 250498/1000000
+CPU time usage: 7.046 seconds
+Real time usage: 7.629 seconds
+Preprocessor visited node count: 250500/1000000
 Post‐expand include size: 422360/2097152 bytes
 Template argument size: 373964/2097152 bytes
 Highest expansion depth: 21/100
 Expensive parser function count: 6/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 150179/5000000 bytes
-Lua time usage: 5.097/10.000 seconds
-Lua memory usage: 16546783/52428800 bytes
+Lua time usage: 3.234/10.000 seconds
+Lua memory usage: 16674889/52428800 bytes
 Lua Profile:
-    ?                                                               2220 ms       32.0%
-    recursiveClone <mwInit.lua:41>                                  1740 ms       25.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument     1180 ms       17.0%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::formatNum      540 ms        7.8%
-    type                                                             200 ms        2.9%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      160 ms        2.3%
-    (for generator)                                                  160 ms        2.3%
-    <mw.lua:694>                                                      80 ms        1.2%
-    tostring                                                          80 ms        1.2%
-    clone <mwInit.lua:39>                                             60 ms        0.9%
-    [others]                                                         520 ms        7.5%
+    recursiveClone <mwInit.lua:41>                                  1520 ms       35.2%
+    ?                                                                860 ms       19.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      420 ms        9.7%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::formatNum      360 ms        8.3%
+    type                                                             240 ms        5.6%
+    (for generator)                                                  220 ms        5.1%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getAllExpandedArguments      120 ms        2.8%
+    chunk <Module:Math>                                               80 ms        1.9%
+    <mw.language.lua:62>                                              80 ms        1.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::expr       40 ms        0.9%
+    [others]                                                         380 ms        8.8%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-125.40% 14149.042   3335 Template:Significant_figures
-100.00% 11282.850      1 -total
- 83.05% 9369.895    676 Template:Km2_mi2
- 44.03% 4968.294   4657 Template:Round
- 34.47% 3889.301    661 Template:Min
- 22.55% 2544.058   1983 Template:Significant_figures/sum
- 17.10% 1928.827   1352 Template:Significant_figures/rnd
- 14.76% 1665.096   1983 Template:Precision
-  6.58%  742.028   3335 Template:Order_of_magnitude
-  6.43%  725.793    258 Template:Flag
+121.99% 8694.969   3335 Template:Significant_figures
+100.00% 7127.873      1 -total
+ 80.84% 5762.449    676 Template:Km2_mi2
+ 43.20% 3079.282   4657 Template:Round
+ 33.32% 2374.839    661 Template:Min
+ 22.04% 1570.788   1983 Template:Significant_figures/sum
+ 16.73% 1192.526   1352 Template:Significant_figures/rnd
+ 14.38% 1024.716   1983 Template:Precision
+  7.57%  539.676    258 Template:Flag
+  6.77%  482.583   3335 Template:Order_of_magnitude
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:3989609-0!canonical and timestamp 20230905160912 and revision id 1173058491. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:3989609-0!canonical and timestamp 20230906190357 and revision id 1173058491. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=List_of_countries_and_dependencies_by_area&amp;oldid=1173058491">https://en.wikipedia.org/w/index.php?title=List_of_countries_and_dependencies_by_area&amp;oldid=1173058491</a>"</div></div>
@@ -3406,7 +3406,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-96d98457d-cct5w","wgBackendResponseTime":143,"wgPageParseReport":{"limitreport":{"cputime":"11.304","walltime":"11.985","ppvisitednodes":{"value":250498,"limit":1000000},"postexpandincludesize":{"value":422360,"limit":2097152},"templateargumentsize":{"value":373964,"limit":2097152},"expansiondepth":{"value":21,"limit":100},"expensivefunctioncount":{"value":6,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":150179,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["125.40% 14149.042   3335 Template:Significant_figures","100.00% 11282.850      1 -total"," 83.05% 9369.895    676 Template:Km2_mi2"," 44.03% 4968.294   4657 Template:Round"," 34.47% 3889.301    661 Template:Min"," 22.55% 2544.058   1983 Template:Significant_figures/sum"," 17.10% 1928.827   1352 Template:Significant_figures/rnd"," 14.76% 1665.096   1983 Template:Precision","  6.58%  742.028   3335 Template:Order_of_magnitude","  6.43%  725.793    258 Template:Flag"]},"scribunto":{"limitreport-timeusage":{"value":"5.097","limit":"10.000"},"limitreport-memusage":{"value":16546783,"limit":52428800},"limitreport-profile":[["?","2220","32.0"],["recursiveClone \u003CmwInit.lua:41\u003E","1740","25.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","1180","17.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::formatNum","540","7.8"],["type","200","2.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","160","2.3"],["(for generator)","160","2.3"],["\u003Cmw.lua:694\u003E","80","1.2"],["tostring","80","1.2"],["clone \u003CmwInit.lua:39\u003E","60","0.9"],["[others]","520","7.5"]]},"cachereport":{"origin":"mw2276","timestamp":"20230905160924","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2420","wgBackendResponseTime":121,"wgPageParseReport":{"limitreport":{"cputime":"7.046","walltime":"7.629","ppvisitednodes":{"value":250500,"limit":1000000},"postexpandincludesize":{"value":422360,"limit":2097152},"templateargumentsize":{"value":373964,"limit":2097152},"expansiondepth":{"value":21,"limit":100},"expensivefunctioncount":{"value":6,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":150179,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["121.99% 8694.969   3335 Template:Significant_figures","100.00% 7127.873      1 -total"," 80.84% 5762.449    676 Template:Km2_mi2"," 43.20% 3079.282   4657 Template:Round"," 33.32% 2374.839    661 Template:Min"," 22.04% 1570.788   1983 Template:Significant_figures/sum"," 16.73% 1192.526   1352 Template:Significant_figures/rnd"," 14.38% 1024.716   1983 Template:Precision","  7.57%  539.676    258 Template:Flag","  6.77%  482.583   3335 Template:Order_of_magnitude"]},"scribunto":{"limitreport-timeusage":{"value":"3.234","limit":"10.000"},"limitreport-memusage":{"value":16674889,"limit":52428800},"limitreport-profile":[["recursiveClone \u003CmwInit.lua:41\u003E","1520","35.2"],["?","860","19.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","420","9.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::formatNum","360","8.3"],["type","240","5.6"],["(for generator)","220","5.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getAllExpandedArguments","120","2.8"],["chunk \u003CModule:Math\u003E","80","1.9"],["\u003Cmw.language.lua:62\u003E","80","1.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::expr","40","0.9"],["[others]","380","8.8"]]},"cachereport":{"origin":"mw2439","timestamp":"20230906190405","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"List of countries and dependencies by area","url":"https:\/\/en.wikipedia.org\/wiki\/List_of_countries_and_dependencies_by_area","sameAs":"http:\/\/www.wikidata.org\/entity\/Q260023","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q260023","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-02-07T11:47:31Z","dateModified":"2023-08-31T00:50:48Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/7f\/Fuller_projection_with_largest_countries.svg","headline":"Wikimedia ranked list"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"List of countries and dependencies by area","url":"https:\/\/en.wikipedia.org\/wiki\/List_of_countries_and_dependencies_by_area","sameAs":"http:\/\/www.wikidata.org\/entity\/Q260023","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q260023","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-02-07T11:47:31Z","dateModified":"2023-08-31T00:50:48Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/7f\/Fuller_projection_with_largest_countries.svg","headline":"Wikimedia ranked list"}</script>
 </body>
 </html>

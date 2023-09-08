@@ -170,6 +170,9 @@ namespace WikiExtractor.Process
 
             foreach (var paraheader in wikiPageModel.WikiParaCollection.OrderBy(f => f.Sequence).ToList())
             {
+                //Only when there is at least one para with content
+                //var hasAnyContent = paraheader.ParagraghInternalModels.Select(f => f.Content).Any(f => f.HasValue());
+
                 //Add the Paragraph header 2
                 paraheader.Header2InternalId = UpdatePara2(new ParagraphHeader2 { MasterId = masterId, Header = paraheader.Header, Sequence = paraheader.Sequence });
 

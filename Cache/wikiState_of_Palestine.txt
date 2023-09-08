@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>State of Palestine - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"3dca4429-c502-4166-a8a5-399b1c3347ab","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"State_of_Palestine","wgTitle":"State of Palestine","wgCurRevisionId":1172815027,"wgRevisionId":1172815027,"wgArticleId":241405,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Webarchive template wayback links","CS1 Spanish-language sources (es)","CS1 Arabic-language sources (ar)","CS1 errors: periodical ignored","All articles with dead external links","Articles with dead external links from December 2021","Articles with short description","Short description matches Wikidata","Wikipedia indefinitely move-protected pages","Wikipedia extended-confirmed-protected pages","Use dmy dates from November 2020","Use American English from July 2020","All Wikipedia articles written in American English",
+"September","October","November","December"],"wgRequestId":"ae79d95e-fbcc-4278-9002-a5e3bd9cecd7","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"State_of_Palestine","wgTitle":"State of Palestine","wgCurRevisionId":1172815027,"wgRevisionId":1172815027,"wgArticleId":241405,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Webarchive template wayback links","CS1 Spanish-language sources (es)","CS1 Arabic-language sources (ar)","CS1 errors: periodical ignored","All articles with dead external links","Articles with dead external links from December 2021","Articles with short description","Short description matches Wikidata","Wikipedia indefinitely move-protected pages","Wikipedia extended-confirmed-protected pages","Use dmy dates from November 2020","Use American English from July 2020","All Wikipedia articles written in American English",
 "Articles containing Arabic-language text","All articles lacking reliable references","Articles lacking reliable references from May 2022","All articles with unsourced statements","Articles with unsourced statements from January 2023","Articles with unsourced statements from October 2015","Articles with unsourced statements from September 2020","Articles with unsourced statements from November 2019","Articles with unsourced statements from February 2017","Articles with unsourced statements from May 2021","CS1 maint: location missing publisher","Articles with VIAF identifiers","Articles with BNF identifiers","Articles with BNFdata identifiers","Articles with VcBA identifiers","Articles with MusicBrainz area identifiers","Articles with SUDOC identifiers","Coordinates on Wikidata","State of Palestine","Countries and territories where Arabic is an official language","Eastern Mediterranean","Levant","Member states of the Organisation of Islamic Cooperation","Middle Eastern countries",
 "Near Eastern countries","West Asian countries","Republics","Two-state solution","United Nations General Assembly observers","States and territories established in 1988","1988 establishments in Asia","Countries in Asia","States with limited recognition"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"State_of_Palestine","wgRelevantArticleId":241405,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["extendedconfirmed"],"wgRestrictionMove":["sysop"],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":100000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,
 "wgULSCurrentAutonym":"English","wgCoordinates":{"lat":32,"lon":35.25},"wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q219060","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.tmh.player.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.tablesorter.styles":"ready",
@@ -2058,13 +2058,13 @@ Concerning wastewater, the existing treatment plants do not have the capacity to
 </p>
 <!-- 
 NewPP limit report
-Parsed by mw1384
-Cached time: 20230905141638
+Parsed by mw2390
+Cached time: 20230905143333
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 2.371 seconds
-Real time usage: 2.737 seconds
+CPU time usage: 1.802 seconds
+Real time usage: 2.194 seconds
 Preprocessor visited node count: 17442/1000000
 Post‐expand include size: 639408/2097152 bytes
 Template argument size: 91900/2097152 bytes
@@ -2072,37 +2072,37 @@ Highest expansion depth: 18/100
 Expensive parser function count: 70/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 506241/5000000 bytes
-Lua time usage: 1.434/10.000 seconds
-Lua memory usage: 23847323/52428800 bytes
+Lua time usage: 1.086/10.000 seconds
+Lua memory usage: 23848291/52428800 bytes
 Lua Profile:
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      220 ms       13.3%
-    ?                                                                200 ms       12.0%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      120 ms        7.2%
-    dataWrapper <mw.lua:672>                                         120 ms        7.2%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      100 ms        6.0%
-    recursiveClone <mwInit.lua:41>                                   100 ms        6.0%
-    <mw.lua:694>                                                     100 ms        6.0%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find      100 ms        6.0%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::formatDate       80 ms        4.8%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getAllExpandedArguments       60 ms        3.6%
-    [others]                                                         460 ms       27.7%
+    ?                                                                220 ms       18.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      200 ms       16.4%
+    type                                                             100 ms        8.2%
+    dataWrapper <mw.lua:672>                                         100 ms        8.2%
+    recursiveClone <mwInit.lua:41>                                    80 ms        6.6%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getAllExpandedArguments       60 ms        4.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements       60 ms        4.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument       60 ms        4.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub       40 ms        3.3%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find       40 ms        3.3%
+    [others]                                                         260 ms       21.3%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 2324.982      1 -total
- 39.04%  907.713      3 Template:Reflist
- 18.35%  426.683     70 Template:Cite_web
- 15.26%  354.738      3 Template:Infobox
- 14.90%  346.510      1 Template:Infobox_country
- 10.08%  234.329     39 Template:Cite_book
-  8.71%  202.452     18 Template:Navbox
-  4.65%  108.143     12 Template:Fix
-  4.59%  106.808      1 Template:Palestine_topics
-  4.10%   95.394      1 Template:Navboxes
+100.00% 1883.428      1 -total
+ 38.31%  721.537      3 Template:Reflist
+ 18.75%  353.055     70 Template:Cite_web
+ 14.91%  280.884      3 Template:Infobox
+ 14.90%  280.654      1 Template:Infobox_country
+  9.15%  172.299     39 Template:Cite_book
+  7.90%  148.737     18 Template:Navbox
+  4.63%   87.218     12 Template:Fix
+  4.47%   84.249      1 Template:Transl
+  4.42%   83.232      1 Template:Palestine_topics
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:241405-0!canonical and timestamp 20230905141636 and revision id 1172815027. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:241405-0!canonical and timestamp 20230905143330 and revision id 1172815027. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=State_of_Palestine&amp;oldid=1172815027">https://en.wikipedia.org/w/index.php?title=State_of_Palestine&amp;oldid=1172815027</a>"</div></div>
@@ -2151,7 +2151,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1418","wgBackendResponseTime":140,"wgPageParseReport":{"limitreport":{"cputime":"2.371","walltime":"2.737","ppvisitednodes":{"value":17442,"limit":1000000},"postexpandincludesize":{"value":639408,"limit":2097152},"templateargumentsize":{"value":91900,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":70,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":506241,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2324.982      1 -total"," 39.04%  907.713      3 Template:Reflist"," 18.35%  426.683     70 Template:Cite_web"," 15.26%  354.738      3 Template:Infobox"," 14.90%  346.510      1 Template:Infobox_country"," 10.08%  234.329     39 Template:Cite_book","  8.71%  202.452     18 Template:Navbox","  4.65%  108.143     12 Template:Fix","  4.59%  106.808      1 Template:Palestine_topics","  4.10%   95.394      1 Template:Navboxes"]},"scribunto":{"limitreport-timeusage":{"value":"1.434","limit":"10.000"},"limitreport-memusage":{"value":23847323,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","220","13.3"],["?","200","12.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","120","7.2"],["dataWrapper \u003Cmw.lua:672\u003E","120","7.2"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","100","6.0"],["recursiveClone \u003CmwInit.lua:41\u003E","100","6.0"],["\u003Cmw.lua:694\u003E","100","6.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","100","6.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::formatDate","80","4.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getAllExpandedArguments","60","3.6"],["[others]","460","27.7"]]},"cachereport":{"origin":"mw1384","timestamp":"20230905141638","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2363","wgBackendResponseTime":125,"wgPageParseReport":{"limitreport":{"cputime":"1.802","walltime":"2.194","ppvisitednodes":{"value":17442,"limit":1000000},"postexpandincludesize":{"value":639408,"limit":2097152},"templateargumentsize":{"value":91900,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":70,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":506241,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 1883.428      1 -total"," 38.31%  721.537      3 Template:Reflist"," 18.75%  353.055     70 Template:Cite_web"," 14.91%  280.884      3 Template:Infobox"," 14.90%  280.654      1 Template:Infobox_country","  9.15%  172.299     39 Template:Cite_book","  7.90%  148.737     18 Template:Navbox","  4.63%   87.218     12 Template:Fix","  4.47%   84.249      1 Template:Transl","  4.42%   83.232      1 Template:Palestine_topics"]},"scribunto":{"limitreport-timeusage":{"value":"1.086","limit":"10.000"},"limitreport-memusage":{"value":23848291,"limit":52428800},"limitreport-profile":[["?","220","18.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","200","16.4"],["type","100","8.2"],["dataWrapper \u003Cmw.lua:672\u003E","100","8.2"],["recursiveClone \u003CmwInit.lua:41\u003E","80","6.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getAllExpandedArguments","60","4.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","60","4.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","60","4.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","40","3.3"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","40","3.3"],["[others]","260","21.3"]]},"cachereport":{"origin":"mw2390","timestamp":"20230905143333","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"State of Palestine","url":"https:\/\/en.wikipedia.org\/wiki\/State_of_Palestine","sameAs":"http:\/\/www.wikidata.org\/entity\/Q219060","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q219060","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-06-06T20:52:21Z","dateModified":"2023-08-29T13:49:06Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/00\/Flag_of_Palestine.svg","headline":"state in West Asia"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"State of Palestine","url":"https:\/\/en.wikipedia.org\/wiki\/State_of_Palestine","sameAs":"http:\/\/www.wikidata.org\/entity\/Q219060","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q219060","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-06-06T20:52:21Z","dateModified":"2023-08-29T13:49:06Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/00\/Flag_of_Palestine.svg","headline":"state in West Asia"}</script>
 </body>
 </html>

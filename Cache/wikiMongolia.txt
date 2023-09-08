@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Mongolia - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"5dec7d44-115f-4bbf-aabe-432b6969e6e4","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mongolia","wgTitle":"Mongolia","wgCurRevisionId":1172831395,"wgRevisionId":1172831395,"wgArticleId":19271,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","Articles containing Mongolian-language text","CS1 Mongolian-language sources (mn)","CS1 maint: multiple names: authors list","CS1 Russian-language sources (ru)","CS1 uses Chinese-language script (zh)","CS1 Chinese-language sources (zh)","Source attribution","Webarchive template wayback links","CS1: Julian–Gregorian uncertainty","CS1 maint: location missing publisher","Articles with short description","Short description matches Wikidata","Wikipedia indefinitely move-protected pages","Wikipedia pages semi-protected from banned users",
+"September","October","November","December"],"wgRequestId":"c4e9f59b-dc1f-4247-9732-98467225f11a","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mongolia","wgTitle":"Mongolia","wgCurRevisionId":1172831395,"wgRevisionId":1172831395,"wgArticleId":19271,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","Articles containing Mongolian-language text","CS1 Mongolian-language sources (mn)","CS1 maint: multiple names: authors list","CS1 Russian-language sources (ru)","CS1 uses Chinese-language script (zh)","CS1 Chinese-language sources (zh)","Source attribution","Webarchive template wayback links","CS1: Julian–Gregorian uncertainty","CS1 maint: location missing publisher","Articles with short description","Short description matches Wikidata","Wikipedia indefinitely move-protected pages","Wikipedia pages semi-protected from banned users",
 "Use dmy dates from October 2021","Coordinates on Wikidata","Pages using infobox country or infobox former country with the symbol caption or type parameters","Pages including recorded pronunciations","Wikipedia articles needing page number citations from August 2021","Articles with excerpts","All articles with failed verification","Articles with failed verification from July 2021","All articles with unsourced statements","Articles with unsourced statements from July 2021","Articles containing potentially dated statements from 2008","All articles containing potentially dated statements","Wikipedia articles in need of updating from February 2019","All Wikipedia articles in need of updating","Wikipedia articles in need of updating from August 2016","Articles containing potentially dated statements from 2006","Articles with unsourced statements from August 2023","Wikipedia articles needing clarification from April 2011","Pages using Sister project links with hidden wikidata",
 "Pages using Sister project links with default search","Articles with Russian-language sources (ru)","Articles with Mongolian-language sources (mn)","Articles with Curlie links","Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat Entities identifiers","Articles with BNE identifiers","Articles with BNF identifiers","Articles with BNFdata identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with Libris identifiers","Articles with NDL identifiers","Articles with NKC identifiers","Articles with MusicBrainz area identifiers","Articles with EMU identifiers","Articles with HDS identifiers","Articles with NARA identifiers","Articles with SUDOC identifiers","Articles with TDVİA identifiers","Mongolia","Mongol states","Countries in Asia",
 "East Asian countries","Eurasian Steppe","Inner Asia","Landlocked countries","Observer states of the Shanghai Cooperation Organisation","Member states of the United Nations","Northeast Asian countries","Republics","States and territories established in 1911"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Mongolia","wgRelevantArticleId":19271,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":100000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":
@@ -2470,51 +2470,51 @@ Mongolia, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:
 </div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw2431
-Cached time: 20230905012009
+Parsed by mw2373
+Cached time: 20230906220116
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 2.037 seconds
-Real time usage: 2.536 seconds
+CPU time usage: 2.510 seconds
+Real time usage: 3.109 seconds
 Preprocessor visited node count: 23285/1000000
-Post‐expand include size: 661367/2097152 bytes
+Post‐expand include size: 661370/2097152 bytes
 Template argument size: 48524/2097152 bytes
 Highest expansion depth: 20/100
 Expensive parser function count: 105/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 590918/5000000 bytes
-Lua time usage: 1.271/10.000 seconds
-Lua memory usage: 27507568/52428800 bytes
+Lua time usage: 1.572/10.000 seconds
+Lua memory usage: 27508886/52428800 bytes
 Lua Profile:
-    ?                                                                180 ms       13.6%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      180 ms       13.6%
-    dataWrapper <mw.lua:672>                                         120 ms        9.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match       80 ms        6.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::sub       80 ms        6.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument       80 ms        6.1%
-    type                                                              80 ms        6.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find       60 ms        4.5%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub       60 ms        4.5%
-    recursiveClone <mwInit.lua:41>                                    60 ms        4.5%
-    [others]                                                         340 ms       25.8%
+    ?                                                                340 ms       20.7%
+    recursiveClone <mwInit.lua:41>                                   160 ms        9.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      160 ms        9.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      140 ms        8.5%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match      120 ms        7.3%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find      100 ms        6.1%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::sub       80 ms        4.9%
+    dataWrapper <mw.lua:672>                                          80 ms        4.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument       80 ms        4.9%
+    type                                                              40 ms        2.4%
+    [others]                                                         340 ms       20.7%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 2091.074      1 -total
- 35.84%  749.453      2 Template:Reflist
- 16.30%  340.805    110 Template:Cite_web
- 15.00%  313.582      3 Template:Infobox
- 14.92%  312.055      1 Template:Infobox_country
- 12.31%  257.363      6 Template:Excerpt
-  6.23%  130.173     24 Template:Cite_news
-  4.09%   85.570      7 Template:Navbox
-  4.01%   83.916      1 Template:Ublist
-  3.42%   71.438      1 Template:Mongolia_topics
+100.00% 2588.343      1 -total
+ 35.15%  909.910      2 Template:Reflist
+ 16.73%  432.911      1 Template:Infobox_country
+ 16.68%  431.773      3 Template:Infobox
+ 16.39%  424.239    110 Template:Cite_web
+ 11.47%  296.826      6 Template:Excerpt
+  5.90%  152.632     24 Template:Cite_news
+  4.78%  123.802      1 Template:Ublist
+  4.11%  106.407      1 Template:Native_name
+  4.06%  105.156      7 Template:Navbox
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:19271-0!canonical and timestamp 20230905012007 and revision id 1172831395. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:19271-0!canonical and timestamp 20230906220112 and revision id 1172831395. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Mongolia&amp;oldid=1172831395">https://en.wikipedia.org/w/index.php?title=Mongolia&amp;oldid=1172831395</a>"</div></div>
@@ -2563,7 +2563,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2384","wgBackendResponseTime":140,"wgPageParseReport":{"limitreport":{"cputime":"2.037","walltime":"2.536","ppvisitednodes":{"value":23285,"limit":1000000},"postexpandincludesize":{"value":661367,"limit":2097152},"templateargumentsize":{"value":48524,"limit":2097152},"expansiondepth":{"value":20,"limit":100},"expensivefunctioncount":{"value":105,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":590918,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2091.074      1 -total"," 35.84%  749.453      2 Template:Reflist"," 16.30%  340.805    110 Template:Cite_web"," 15.00%  313.582      3 Template:Infobox"," 14.92%  312.055      1 Template:Infobox_country"," 12.31%  257.363      6 Template:Excerpt","  6.23%  130.173     24 Template:Cite_news","  4.09%   85.570      7 Template:Navbox","  4.01%   83.916      1 Template:Ublist","  3.42%   71.438      1 Template:Mongolia_topics"]},"scribunto":{"limitreport-timeusage":{"value":"1.271","limit":"10.000"},"limitreport-memusage":{"value":27507568,"limit":52428800},"limitreport-profile":[["?","180","13.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","180","13.6"],["dataWrapper \u003Cmw.lua:672\u003E","120","9.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","80","6.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::sub","80","6.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","80","6.1"],["type","80","6.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","60","4.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","60","4.5"],["recursiveClone \u003CmwInit.lua:41\u003E","60","4.5"],["[others]","340","25.8"]]},"cachereport":{"origin":"mw2431","timestamp":"20230905012009","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2301","wgBackendResponseTime":141,"wgPageParseReport":{"limitreport":{"cputime":"2.510","walltime":"3.109","ppvisitednodes":{"value":23285,"limit":1000000},"postexpandincludesize":{"value":661370,"limit":2097152},"templateargumentsize":{"value":48524,"limit":2097152},"expansiondepth":{"value":20,"limit":100},"expensivefunctioncount":{"value":105,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":590918,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2588.343      1 -total"," 35.15%  909.910      2 Template:Reflist"," 16.73%  432.911      1 Template:Infobox_country"," 16.68%  431.773      3 Template:Infobox"," 16.39%  424.239    110 Template:Cite_web"," 11.47%  296.826      6 Template:Excerpt","  5.90%  152.632     24 Template:Cite_news","  4.78%  123.802      1 Template:Ublist","  4.11%  106.407      1 Template:Native_name","  4.06%  105.156      7 Template:Navbox"]},"scribunto":{"limitreport-timeusage":{"value":"1.572","limit":"10.000"},"limitreport-memusage":{"value":27508886,"limit":52428800},"limitreport-profile":[["?","340","20.7"],["recursiveClone \u003CmwInit.lua:41\u003E","160","9.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","160","9.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","140","8.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","120","7.3"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","100","6.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::sub","80","4.9"],["dataWrapper \u003Cmw.lua:672\u003E","80","4.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","80","4.9"],["type","40","2.4"],["[others]","340","20.7"]]},"cachereport":{"origin":"mw2373","timestamp":"20230906220116","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Mongolia","url":"https:\/\/en.wikipedia.org\/wiki\/Mongolia","sameAs":"http:\/\/www.wikidata.org\/entity\/Q711","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q711","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-05-23T23:36:04Z","dateModified":"2023-08-29T16:01:42Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4c\/Flag_of_Mongolia.svg","headline":"country in East Asia"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Mongolia","url":"https:\/\/en.wikipedia.org\/wiki\/Mongolia","sameAs":"http:\/\/www.wikidata.org\/entity\/Q711","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q711","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-05-23T23:36:04Z","dateModified":"2023-08-29T16:01:42Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4c\/Flag_of_Mongolia.svg","headline":"country in East Asia"}</script>
 </body>
 </html>

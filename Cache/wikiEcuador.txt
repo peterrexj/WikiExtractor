@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Ecuador - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"e47c85ac-ce02-4725-88e5-3a925ced0413","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Ecuador","wgTitle":"Ecuador","wgCurRevisionId":1173612456,"wgRevisionId":1173612456,"wgArticleId":9334,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","CS1: Julian–Gregorian uncertainty","CS1 maint: bot: original URL status unknown","CS1 European Spanish-language sources (es-es)","CS1 Spanish-language sources (es)","Webarchive template wayback links","All articles with dead external links","Articles with dead external links from January 2017","Articles with Spanish-language sources (es)","Source attribution","CS1 French-language sources (fr)","CS1 maint: archived copy as title","Articles with short description","Short description is different from Wikidata",
+"September","October","November","December"],"wgRequestId":"311bbc6d-d44f-4279-a1ff-5e263a672a18","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Ecuador","wgTitle":"Ecuador","wgCurRevisionId":1173612456,"wgRevisionId":1173612456,"wgArticleId":9334,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","CS1: Julian–Gregorian uncertainty","CS1 maint: bot: original URL status unknown","CS1 European Spanish-language sources (es-es)","CS1 Spanish-language sources (es)","Webarchive template wayback links","All articles with dead external links","Articles with dead external links from January 2017","Articles with Spanish-language sources (es)","Source attribution","CS1 French-language sources (fr)","CS1 maint: archived copy as title","Articles with short description","Short description is different from Wikidata",
 "Wikipedia indefinitely move-protected pages","Articles needing additional references from June 2023","All articles needing additional references","Use American English from March 2020","All Wikipedia articles written in American English","Use dmy dates from March 2022","Articles containing Spanish-language text","Articles containing explicitly cited English-language text","Pages using infobox country or infobox former country with the symbol caption or type parameters","Pages including recorded pronunciations","Articles needing additional references from August 2020","Articles that may be too long from June 2023","All articles with unsourced statements","Articles with unsourced statements from September 2021","Articles with unsourced statements from April 2022","All articles with failed verification","Articles with failed verification from July 2019","Articles containing potentially dated statements from 2011","All articles containing potentially dated statements",
 "Articles with unsourced statements from August 2012","Articles containing potentially dated statements from 2010","Articles with unsourced statements from October 2012","All articles with vague or ambiguous time","Vague or ambiguous time from July 2023","Articles with unsourced statements from November 2014","Pages using Sister project links with hidden wikidata","Pages using Sister project links with default search","Articles with Curlie links","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat Entities identifiers","Articles with BNE identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with Libris identifiers","Articles with NDL identifiers","Articles with NKC identifiers","Articles with MusicBrainz area identifiers","Articles with CINII identifiers","Articles with EMU identifiers","Articles with HDS identifiers","Articles with NARA identifiers",
 "Articles with SUDOC identifiers","Coordinates on Wikidata","Ecuador","Andean Community","Countries in South America","Former Spanish colonies","Former OPEC member states","Member states of the Union of South American Nations","Member states of the United Nations","Republics","Spanish-speaking countries and territories","States and territories established in 1830","Transcontinental countries"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Ecuador","wgRelevantArticleId":9334,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["sysop"],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":200000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{
@@ -2604,13 +2604,13 @@ In recent years,<sup class="noprint Inline-Template" style="white-space:nowrap;"
 </p>
 <!-- 
 NewPP limit report
-Parsed by mw1368
-Cached time: 20230905134010
+Parsed by mw2406
+Cached time: 20230905134206
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 2.534 seconds
-Real time usage: 3.065 seconds
+CPU time usage: 2.217 seconds
+Real time usage: 2.766 seconds
 Preprocessor visited node count: 20639/1000000
 Post‐expand include size: 642844/2097152 bytes
 Template argument size: 83491/2097152 bytes
@@ -2618,37 +2618,37 @@ Highest expansion depth: 18/100
 Expensive parser function count: 86/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 621170/5000000 bytes
-Lua time usage: 1.469/10.000 seconds
-Lua memory usage: 28655816/52428800 bytes
+Lua time usage: 1.329/10.000 seconds
+Lua memory usage: 28652466/52428800 bytes
 Lua Profile:
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      260 ms       18.6%
-    ?                                                                260 ms       18.6%
-    dataWrapper <mw.lua:672>                                         160 ms       11.4%
-    recursiveClone <mwInit.lua:41>                                    80 ms        5.7%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match       80 ms        5.7%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument       60 ms        4.3%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub       60 ms        4.3%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements       60 ms        4.3%
-    <mw.lua:694>                                                      40 ms        2.9%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntity       40 ms        2.9%
-    [others]                                                         300 ms       21.4%
+    ?                                                                360 ms       25.4%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      240 ms       16.9%
+    recursiveClone <mwInit.lua:41>                                   100 ms        7.0%
+    dataWrapper <mw.lua:672>                                         100 ms        7.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match       80 ms        5.6%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements       80 ms        5.6%
+    type                                                              60 ms        4.2%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument       60 ms        4.2%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpensiveData       60 ms        4.2%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntity       40 ms        2.8%
+    [others]                                                         240 ms       16.9%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 2491.493      1 -total
- 40.14% 1000.176      1 Template:Reflist
- 18.86%  469.984    109 Template:Cite_web
- 13.73%  341.980      3 Template:Infobox
- 13.60%  338.722      1 Template:Infobox_country
-  4.74%  118.111     29 Template:Cite_news
-  4.45%  110.968      1 Template:Sister_project_links
-  4.36%  108.576      1 Template:Lang
-  3.80%   94.748     19 Template:Cite_book
-  3.26%   81.286      1 Template:Campaignbox_Ecuadorian-Peruvian
+100.00% 2276.440      1 -total
+ 40.01%  910.822      1 Template:Reflist
+ 18.97%  431.800    109 Template:Cite_web
+ 13.48%  306.976      3 Template:Infobox
+ 13.40%  305.122      1 Template:Infobox_country
+  4.69%  106.848     29 Template:Cite_news
+  4.56%  103.717      1 Template:Sister_project_links
+  3.97%   90.410      1 Template:Lang
+  3.92%   89.330     19 Template:Cite_book
+  3.38%   76.875      1 Template:Campaignbox_Ecuadorian-Peruvian
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:9334-0!canonical and timestamp 20230905134007 and revision id 1173612456. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:9334-0!canonical and timestamp 20230905134203 and revision id 1173612456. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Ecuador&amp;oldid=1173612456">https://en.wikipedia.org/w/index.php?title=Ecuador&amp;oldid=1173612456</a>"</div></div>
@@ -2697,7 +2697,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1407","wgBackendResponseTime":176,"wgPageParseReport":{"limitreport":{"cputime":"2.534","walltime":"3.065","ppvisitednodes":{"value":20639,"limit":1000000},"postexpandincludesize":{"value":642844,"limit":2097152},"templateargumentsize":{"value":83491,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":86,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":621170,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2491.493      1 -total"," 40.14% 1000.176      1 Template:Reflist"," 18.86%  469.984    109 Template:Cite_web"," 13.73%  341.980      3 Template:Infobox"," 13.60%  338.722      1 Template:Infobox_country","  4.74%  118.111     29 Template:Cite_news","  4.45%  110.968      1 Template:Sister_project_links","  4.36%  108.576      1 Template:Lang","  3.80%   94.748     19 Template:Cite_book","  3.26%   81.286      1 Template:Campaignbox_Ecuadorian-Peruvian"]},"scribunto":{"limitreport-timeusage":{"value":"1.469","limit":"10.000"},"limitreport-memusage":{"value":28655816,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","260","18.6"],["?","260","18.6"],["dataWrapper \u003Cmw.lua:672\u003E","160","11.4"],["recursiveClone \u003CmwInit.lua:41\u003E","80","5.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","80","5.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","60","4.3"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","60","4.3"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","60","4.3"],["\u003Cmw.lua:694\u003E","40","2.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntity","40","2.9"],["[others]","300","21.4"]]},"cachereport":{"origin":"mw1368","timestamp":"20230905134010","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2277","wgBackendResponseTime":177,"wgPageParseReport":{"limitreport":{"cputime":"2.217","walltime":"2.766","ppvisitednodes":{"value":20639,"limit":1000000},"postexpandincludesize":{"value":642844,"limit":2097152},"templateargumentsize":{"value":83491,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":86,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":621170,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2276.440      1 -total"," 40.01%  910.822      1 Template:Reflist"," 18.97%  431.800    109 Template:Cite_web"," 13.48%  306.976      3 Template:Infobox"," 13.40%  305.122      1 Template:Infobox_country","  4.69%  106.848     29 Template:Cite_news","  4.56%  103.717      1 Template:Sister_project_links","  3.97%   90.410      1 Template:Lang","  3.92%   89.330     19 Template:Cite_book","  3.38%   76.875      1 Template:Campaignbox_Ecuadorian-Peruvian"]},"scribunto":{"limitreport-timeusage":{"value":"1.329","limit":"10.000"},"limitreport-memusage":{"value":28652466,"limit":52428800},"limitreport-profile":[["?","360","25.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","240","16.9"],["recursiveClone \u003CmwInit.lua:41\u003E","100","7.0"],["dataWrapper \u003Cmw.lua:672\u003E","100","7.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","80","5.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","80","5.6"],["type","60","4.2"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","60","4.2"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpensiveData","60","4.2"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntity","40","2.8"],["[others]","240","16.9"]]},"cachereport":{"origin":"mw2406","timestamp":"20230905134206","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Ecuador","url":"https:\/\/en.wikipedia.org\/wiki\/Ecuador","sameAs":"http:\/\/www.wikidata.org\/entity\/Q736","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q736","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-04-29T05:01:22Z","dateModified":"2023-09-03T14:44:44Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e8\/Flag_of_Ecuador.svg","headline":"sovereign state in South America"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Ecuador","url":"https:\/\/en.wikipedia.org\/wiki\/Ecuador","sameAs":"http:\/\/www.wikidata.org\/entity\/Q736","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q736","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-04-29T05:01:22Z","dateModified":"2023-09-03T14:44:44Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e8\/Flag_of_Ecuador.svg","headline":"sovereign state in South America"}</script>
 </body>
 </html>

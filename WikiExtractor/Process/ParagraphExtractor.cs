@@ -137,45 +137,54 @@ namespace WikiExtractor.Process
                         imageDetailsList.Add(imageItem);
 
                         picIds.Push(imageItem.PictureId);
+                    }
+                    else if (item.Name == "div" && item.Attributes.Any(f => f.Name.EqualsIgnoreCase("class") && f.Value.ContainsIgnoreCase("thumb")))
+                    {
+                        var img = helperHtml.LoadHtmlAndSelectNodes(item.InnerHtml, "//img");
 
-                        //Link to one of the recent content
-                        //if (currentParaInfoModel?.ParagraghInternalModels?.Any() == true)
-                        //{
-                        //    //currentParaInfoModel.ParagraghInternalModels.Last().PictureLinks.Add(imageItem.PictureId);
-                        //}
-                        //else if (currentParaInfoModel?.Header?.HasValue() == true)
-                        //{
-                        //    //There are no contents in the para sub details yet but the image is first item, need to create a dummy
-                        //    currentParaInfoModel.ParagraghInternalModels.Add(new WikiParagraphDetailModel
-                        //    {
-                        //        SubHeader = currentSubHeaderH3,
-                        //        ContentBuilder = new StringBuilder(),
-                        //        Sequence = currentParaInfoModel.ParagraghInternalModels.Count + 1
-                        //    });
-                        //    //currentParaInfoModel.ParagraghInternalModels.Last().PictureLinks.Add(imageItem.PictureId);
-                        //    currentParaInfoModel.ParagraghInternalModels.Last().PictureLinks.Add(picIds.Pop());
-                        //}
-                        //else if (mainHeader?.Any() == true)
-                        //{
-                        //    mainHeader.Last().PictureLinks.Add(imageItem.PictureId);
-                        //}
-                        //else
-                        //{
-                        //    //This is the first image in the page, so will need to create a dummy detail and add the picture
-                        //    mainHeader?.Add(new WikiParagraphDetailModel
-                        //    {
-                        //        ContentBuilder = new StringBuilder(""),
-                        //        Sequence = mainHeader.Count + 1,
-                        //    });
-                        //    //mainHeader?.Last().PictureLinks.Add(imageItem.PictureId);
-                        //    mainHeader?.Last().PictureLinks.Add(picIds.Pop());
-                        //}
+                        if (img != null && img.Count > 1)
+                        {
+                            var subImageParentElms = helperHtml.LoadHtmlAndSelectNodes(item.InnerHtml, "//div[contains(@class, 'tsingle')]");
+                            foreach (var subImageParentElm in subImageParentElms)
+                            {
+                                var subImageElm = helperHtml.LoadHtmlAndSelectNodes(subImageParentElm.InnerHtml, "//img");
+
+                                var imgItem = ExtractImageElmInformation(imageDetailsList.Count, subImageElm, subImageParentElm);
+                                imageDetailsList.Add(imgItem);
+                                picIds.Push(imgItem.PictureId);
+                            }
+                        }
+                        else
+                        {
+                            var imgItem = ExtractImageElmInformation(imageDetailsList.Count, img, item);
+                            imageDetailsList.Add(imgItem);
+                            picIds.Push(imgItem.PictureId);
+                        }
+                    }
+                    else if (item.Name == "ul" && item.Attributes.Any(f => f.Name.EqualsIgnoreCase("class") && f.Value.ContainsIgnoreCase("gallery-packed")))
+                    {
+                        var subLiElms = helperHtml.LoadHtmlAndSelectNodes(item.InnerHtml, "//li[contains(@class, 'gallerybox')]");
+                        foreach (var subLiElm in subLiElms)
+                        {
+                            var img = helperHtml.LoadHtmlAndSelectNodes(subLiElm.InnerHtml, "//div[contains(@class, 'thumb')]//img");
+                            var imgItem = ExtractImageElmInformation(imageDetailsList.Count, img, item);
+                            if (imgItem.Caption.IsEmpty())
+                            {
+                                var imgCaption = helperHtml.LoadHtmlAndSelectNodes(subLiElm.InnerHtml, "//div[contains(@class, 'gallerytext')]");
+                                if (imgCaption != null && imgCaption.Count == 1 && imgCaption.FirstOrDefault()!.InnerText.HasValue())
+                                {
+                                    imgItem.Caption = HtmlAgilityEx.DecodedInnerText(imgCaption.FirstOrDefault()!.InnerText, false);
+                                }
+                            }
+                            imageDetailsList.Add(imgItem);
+                            picIds.Push(imgItem.PictureId);
+                        }
                     }
                 }
 
 
 
-                var exclusionList = new[] { "See also", "References", "Further reading", "External links" };
+                var exclusionList = new[] { "See also", "References", "Further reading", "External links", "Bibliography" };
                 var returnList = paraDetailsList.Where(f => !exclusionList.ContainsIgnoreCase(f.Header) && f.ParagraghInternalModels.Count > 0).ToList();
 
 
@@ -194,6 +203,61 @@ namespace WikiExtractor.Process
             {
                 return new WikiPageModel();
             }
+        }
+
+        //Relatd to the images extraction
+        //Link to one of the recent content
+        //if (currentParaInfoModel?.ParagraghInternalModels?.Any() == true)
+        //{
+        //    //currentParaInfoModel.ParagraghInternalModels.Last().PictureLinks.Add(imageItem.PictureId);
+        //}
+        //else if (currentParaInfoModel?.Header?.HasValue() == true)
+        //{
+        //    //There are no contents in the para sub details yet but the image is first item, need to create a dummy
+        //    currentParaInfoModel.ParagraghInternalModels.Add(new WikiParagraphDetailModel
+        //    {
+        //        SubHeader = currentSubHeaderH3,
+        //        ContentBuilder = new StringBuilder(),
+        //        Sequence = currentParaInfoModel.ParagraghInternalModels.Count + 1
+        //    });
+        //    //currentParaInfoModel.ParagraghInternalModels.Last().PictureLinks.Add(imageItem.PictureId);
+        //    currentParaInfoModel.ParagraghInternalModels.Last().PictureLinks.Add(picIds.Pop());
+        //}
+        //else if (mainHeader?.Any() == true)
+        //{
+        //    mainHeader.Last().PictureLinks.Add(imageItem.PictureId);
+        //}
+        //else
+        //{
+        //    //This is the first image in the page, so will need to create a dummy detail and add the picture
+        //    mainHeader?.Add(new WikiParagraphDetailModel
+        //    {
+        //        ContentBuilder = new StringBuilder(""),
+        //        Sequence = mainHeader.Count + 1,
+        //    });
+        //    //mainHeader?.Last().PictureLinks.Add(imageItem.PictureId);
+        //    mainHeader?.Last().PictureLinks.Add(picIds.Pop());
+        //}
+
+        private WikiPictureModel ExtractImageElmInformation(int currentSequenceNo, HtmlNodeCollection imgNodes, HtmlNode imgParentContainer)
+        {
+            var imageItem = new WikiPictureModel
+            {
+                Sequence = currentSequenceNo + 1,
+                PictureId = Guid.NewGuid(),
+            };
+
+            if (imgNodes != null && imgNodes.Count == 1)
+            {
+                imgNodes.FirstOrDefault()!.Attributes.Where(s => s.Name.HasValue() && s.Value.HasValue())
+                    .Iter(s => imageItem.CustomMetadata.AddOrUpdate(s.Name, s.Value));
+            }
+            var imgCaption = helperHtml.LoadHtmlAndSelectNodes(imgParentContainer.InnerHtml, "//div[contains(@class, 'thumbcaption')]");
+            if (imgCaption != null && imgCaption.Count == 1 && imgCaption.FirstOrDefault()!.InnerText.HasValue())
+            {
+                imageItem.Caption = HtmlAgilityEx.DecodedInnerText(imgCaption.FirstOrDefault()!.InnerText, false);
+            }
+            return imageItem;
         }
     }
 }

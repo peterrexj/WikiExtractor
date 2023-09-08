@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Danish Realm - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"a241a828-c77c-4567-8e41-79d096925a81","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Danish_Realm","wgTitle":"Danish Realm","wgCurRevisionId":1173467213,"wgRevisionId":1173467213,"wgArticleId":11746442,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","CS1 Danish-language sources (da)","CS1 Kalaallisut-language sources (kl)","CS1 Faroese-language sources (fo)","Webarchive template wayback links","CS1 maint: others","Articles with Danish-language sources (da)","Articles with short description","Short description matches Wikidata","Use dmy dates from November 2021","Articles containing Danish-language text","Articles containing Faroese-language text","Articles containing Greenlandic-language text","Articles containing explicitly cited English-language text",
+"September","October","November","December"],"wgRequestId":"6446bf9a-4ad7-44df-bec6-e3db153b2b1c","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Danish_Realm","wgTitle":"Danish Realm","wgCurRevisionId":1173467213,"wgRevisionId":1173467213,"wgArticleId":11746442,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","CS1 Danish-language sources (da)","CS1 Kalaallisut-language sources (kl)","CS1 Faroese-language sources (fo)","Webarchive template wayback links","CS1 maint: others","Articles with Danish-language sources (da)","Articles with short description","Short description matches Wikidata","Use dmy dates from November 2021","Articles containing Danish-language text","Articles containing Faroese-language text","Articles containing Greenlandic-language text","Articles containing explicitly cited English-language text",
 "Pages using infobox country or infobox former country with the flag caption or type parameters","Pages using infobox country or infobox former country with the symbol caption or type parameters","Articles containing potentially dated statements from 2018","All articles containing potentially dated statements","Articles containing potentially dated statements from 2020","All articles with unsourced statements","Articles with unsourced statements from May 2020","Pages using Sister project links with hidden wikidata","Pages using Sister project links with default search","Danish Realm","Politics of Denmark","Government of Denmark","Government of the Faroe Islands","Government of Greenland","Countries and territories where Danish is an official language"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Danish_Realm","wgRelevantArticleId":11746442,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,
 "wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":60000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q756617","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,
 "wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.phonos.styles":"ready","ext.phonos.icons":"ready","ext.tmh.player.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.tablesorter.styles":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.phonos","ext.tmh.player","mediawiki.page.media","site","mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible",
@@ -1386,13 +1386,13 @@
 <ul><li><a href="/wiki/Category:Greenland" title="Category:Greenland">Category</a></li></ul></div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw2331
-Cached time: 20230904213725
+Parsed by mw2307
+Cached time: 20230907003632
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 1.104 seconds
-Real time usage: 1.452 seconds
+CPU time usage: 1.093 seconds
+Real time usage: 1.449 seconds
 Preprocessor visited node count: 10738/1000000
 Post‐expand include size: 315085/2097152 bytes
 Template argument size: 46766/2097152 bytes
@@ -1400,25 +1400,25 @@ Highest expansion depth: 18/100
 Expensive parser function count: 78/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 222634/5000000 bytes
-Lua time usage: 0.650/10.000 seconds
-Lua memory usage: 23043158/52428800 bytes
+Lua time usage: 0.634/10.000 seconds
+Lua memory usage: 23046924/52428800 bytes
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 1256.082      1 -total
- 27.14%  340.935      3 Template:Reflist
- 23.30%  292.722      3 Template:Infobox
- 23.22%  291.625      1 Template:Infobox_country
- 17.07%  214.413     46 Template:Cite_web
-  9.94%  124.809      1 Template:Denmark_topics
-  9.77%  122.755      1 Template:Country_topics
-  8.67%  108.884      2 Template:Territory_topics
-  8.16%  102.546      1 Template:Unbulleted_list
-  7.69%   96.593      1 Template:Sister_project_links
+100.00% 1245.169      1 -total
+ 26.41%  328.787      3 Template:Reflist
+ 23.26%  289.637      3 Template:Infobox
+ 23.03%  286.760      1 Template:Infobox_country
+ 16.81%  209.358     46 Template:Cite_web
+ 10.24%  127.501      1 Template:Denmark_topics
+ 10.05%  125.111      1 Template:Country_topics
+  8.91%  110.907      2 Template:Territory_topics
+  8.00%   99.645      1 Template:Unbulleted_list
+  7.82%   97.347      1 Template:Sister_project_links
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:11746442-0!canonical and timestamp 20230904213724 and revision id 1173467213. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:11746442-0!canonical and timestamp 20230907003631 and revision id 1173467213. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Danish_Realm&amp;oldid=1173467213">https://en.wikipedia.org/w/index.php?title=Danish_Realm&amp;oldid=1173467213</a>"</div></div>
@@ -1467,7 +1467,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2329","wgBackendResponseTime":111,"wgPageParseReport":{"limitreport":{"cputime":"1.104","walltime":"1.452","ppvisitednodes":{"value":10738,"limit":1000000},"postexpandincludesize":{"value":315085,"limit":2097152},"templateargumentsize":{"value":46766,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":78,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":222634,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 1256.082      1 -total"," 27.14%  340.935      3 Template:Reflist"," 23.30%  292.722      3 Template:Infobox"," 23.22%  291.625      1 Template:Infobox_country"," 17.07%  214.413     46 Template:Cite_web","  9.94%  124.809      1 Template:Denmark_topics","  9.77%  122.755      1 Template:Country_topics","  8.67%  108.884      2 Template:Territory_topics","  8.16%  102.546      1 Template:Unbulleted_list","  7.69%   96.593      1 Template:Sister_project_links"]},"scribunto":{"limitreport-timeusage":{"value":"0.650","limit":"10.000"},"limitreport-memusage":{"value":23043158,"limit":52428800}},"cachereport":{"origin":"mw2331","timestamp":"20230904213725","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2375","wgBackendResponseTime":133,"wgPageParseReport":{"limitreport":{"cputime":"1.093","walltime":"1.449","ppvisitednodes":{"value":10738,"limit":1000000},"postexpandincludesize":{"value":315085,"limit":2097152},"templateargumentsize":{"value":46766,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":78,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":222634,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 1245.169      1 -total"," 26.41%  328.787      3 Template:Reflist"," 23.26%  289.637      3 Template:Infobox"," 23.03%  286.760      1 Template:Infobox_country"," 16.81%  209.358     46 Template:Cite_web"," 10.24%  127.501      1 Template:Denmark_topics"," 10.05%  125.111      1 Template:Country_topics","  8.91%  110.907      2 Template:Territory_topics","  8.00%   99.645      1 Template:Unbulleted_list","  7.82%   97.347      1 Template:Sister_project_links"]},"scribunto":{"limitreport-timeusage":{"value":"0.634","limit":"10.000"},"limitreport-memusage":{"value":23046924,"limit":52428800}},"cachereport":{"origin":"mw2307","timestamp":"20230907003632","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Danish Realm","url":"https:\/\/en.wikipedia.org\/wiki\/Danish_Realm","sameAs":"http:\/\/www.wikidata.org\/entity\/Q756617","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q756617","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-06-13T13:20:57Z","dateModified":"2023-09-02T16:32:48Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f6\/Flag_of_Denmark_%28state%29.svg","headline":"Kingdom of Denmark and its autonomous territories"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Danish Realm","url":"https:\/\/en.wikipedia.org\/wiki\/Danish_Realm","sameAs":"http:\/\/www.wikidata.org\/entity\/Q756617","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q756617","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-06-13T13:20:57Z","dateModified":"2023-09-02T16:32:48Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f6\/Flag_of_Denmark_%28state%29.svg","headline":"Kingdom of Denmark and its autonomous territories"}</script>
 </body>
 </html>

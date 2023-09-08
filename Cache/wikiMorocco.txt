@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Morocco - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"d373f6d5-7ce9-4b79-b110-724aec0d324f","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Morocco","wgTitle":"Morocco","wgCurRevisionId":1173544959,"wgRevisionId":1173544959,"wgArticleId":19291,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","Wikipedia articles needing clarification from July 2023","Articles containing Arabic-language text","Articles containing Standard Moroccan Tamazight-language text","Articles containing French-language text","CS1 French-language sources (fr)","CS1 errors: periodical ignored","Webarchive template wayback links","CS1 Arabic-language sources (ar)","CS1 errors: generic name","All articles with dead external links","Articles with dead external links from April 2023","Articles with permanently dead external links","CS1 maint: location missing publisher"
+"September","October","November","December"],"wgRequestId":"0bb01809-668e-403c-8b0b-d6527f6a999c","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Morocco","wgTitle":"Morocco","wgCurRevisionId":1173544959,"wgRevisionId":1173544959,"wgArticleId":19291,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","Wikipedia articles needing clarification from July 2023","Articles containing Arabic-language text","Articles containing Standard Moroccan Tamazight-language text","Articles containing French-language text","CS1 French-language sources (fr)","CS1 errors: periodical ignored","Webarchive template wayback links","CS1 Arabic-language sources (ar)","CS1 errors: generic name","All articles with dead external links","Articles with dead external links from April 2023","Articles with permanently dead external links","CS1 maint: location missing publisher"
 ,"Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference","CS1: long volume value","Articles with dead external links from December 2021","Wikipedia articles needing page number citations from January 2013","Articles with short description","Short description is different from Wikidata","Wikipedia indefinitely semi-protected pages","Wikipedia indefinitely move-protected pages","Use dmy dates from December 2022","Pages including recorded pronunciations","Articles containing Central Atlas Tamazight-language text","Articles containing Turkish-language text","Articles containing Spanish-language text","Articles containing Italian-language text","Wikipedia articles needing page number citations from February 2013","All articles with unsourced statements","Articles with unsourced statements from March 2023","Articles to be expanded from July 2023","All articles to be expanded","Articles using small message boxes",
 "Articles with unsourced statements from July 2023","Articles containing potentially dated statements from 2006","All articles containing potentially dated statements","Articles with unsourced statements from December 2021","Articles with excerpts","Wikipedia articles needing clarification from June 2017","Articles with unsourced statements from November 2016","Articles with unsourced statements from August 2013","Articles with unsourced statements from February 2014","Free-content attribution","Free content from UNESCO Publishing","Pages using Sister project links with hidden wikidata","Pages using Sister project links with default search","Articles with Curlie links","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with BNF identifiers","Articles with BNFdata identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with Libris identifiers",
 "Articles with NDL identifiers","Articles with NKC identifiers","Articles with NLA identifiers","Articles with MusicBrainz area identifiers","Articles with EMU identifiers","Articles with HDS identifiers","Articles with NARA identifiers","Articles with SUDOC identifiers","Coordinates on Wikidata","Morocco","Countries in Africa","1956 establishments in Africa","1956 establishments in Morocco","Countries and territories where Arabic is an official language","Maghrebi countries","Member states of the African Union","Member states of the Arab League","Member states of the Organisation internationale de la Francophonie","Member states of the Organisation of Islamic Cooperation","Member states of the Union for the Mediterranean","Member states of the United Nations","North African countries","Saharan countries","States and territories established in 1956"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Morocco",
@@ -2737,51 +2737,51 @@ Morocco was one of the continent's pioneers in basketball as it established one 
 </p>
 <!-- 
 NewPP limit report
-Parsed by mw2271
-Cached time: 20230905154940
+Parsed by mw2404
+Cached time: 20230907035838
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 3.446 seconds
-Real time usage: 4.113 seconds
+CPU time usage: 2.750 seconds
+Real time usage: 3.321 seconds
 Preprocessor visited node count: 27453/1000000
 Post‐expand include size: 915313/2097152 bytes
 Template argument size: 164919/2097152 bytes
 Highest expansion depth: 22/100
-Expensive parser function count: 99/500
+Expensive parser function count: 100/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 699537/5000000 bytes
-Lua time usage: 2.076/10.000 seconds
-Lua memory usage: 27654313/52428800 bytes
+Lua time usage: 1.652/10.000 seconds
+Lua memory usage: 27607494/52428800 bytes
 Lua Profile:
-    ?                                                                460 ms       20.5%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      280 ms       12.5%
-    dataWrapper <mw.lua:672>                                         160 ms        7.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      160 ms        7.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::preprocess      140 ms        6.2%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements      140 ms        6.2%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      120 ms        5.4%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match      120 ms        5.4%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find      100 ms        4.5%
-    <mw.lua:694>                                                      80 ms        3.6%
-    [others]                                                         480 ms       21.4%
+    ?                                                                340 ms       18.5%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      200 ms       10.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match      140 ms        7.6%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      120 ms        6.5%
+    dataWrapper <mw.lua:672>                                         120 ms        6.5%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      100 ms        5.4%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::sub       80 ms        4.3%
+    recursiveClone <mwInit.lua:41>                                    80 ms        4.3%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find       60 ms        3.3%
+    type                                                              60 ms        3.3%
+    [others]                                                         540 ms       29.3%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 3382.682      1 -total
- 36.91% 1248.407      2 Template:Reflist
- 15.51%  524.764      3 Template:Infobox
- 15.51%  524.491      1 Template:Infobox_country
- 14.84%  502.136    104 Template:Cite_web
-  6.50%  219.886     48 Template:Cite_book
-  6.26%  211.797      2 Template:Excerpt
-  6.19%  209.474     33 Template:Fix
-  4.60%  155.742      1 Template:Navboxes
-  4.57%  154.678     21 Template:Fact
+100.00% 2715.481      1 -total
+ 36.90% 1002.034      2 Template:Reflist
+ 16.01%  434.812      1 Template:Infobox_country
+ 15.96%  433.370      3 Template:Infobox
+ 14.53%  394.514    104 Template:Cite_web
+  6.71%  182.331     48 Template:Cite_book
+  6.39%  173.459      2 Template:Excerpt
+  6.04%  164.033     33 Template:Fix
+  4.68%  127.091     21 Template:Fact
+  4.45%  120.852      1 Template:Navboxes
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:19291-0!canonical and timestamp 20230905154936 and revision id 1173544959. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:19291-0!canonical and timestamp 20230907035834 and revision id 1173544959. Rendering was triggered because: api-parse
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Morocco&amp;oldid=1173544959">https://en.wikipedia.org/w/index.php?title=Morocco&amp;oldid=1173544959</a>"</div></div>
@@ -2830,7 +2830,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2431","wgBackendResponseTime":123,"wgPageParseReport":{"limitreport":{"cputime":"3.446","walltime":"4.113","ppvisitednodes":{"value":27453,"limit":1000000},"postexpandincludesize":{"value":915313,"limit":2097152},"templateargumentsize":{"value":164919,"limit":2097152},"expansiondepth":{"value":22,"limit":100},"expensivefunctioncount":{"value":99,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":699537,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 3382.682      1 -total"," 36.91% 1248.407      2 Template:Reflist"," 15.51%  524.764      3 Template:Infobox"," 15.51%  524.491      1 Template:Infobox_country"," 14.84%  502.136    104 Template:Cite_web","  6.50%  219.886     48 Template:Cite_book","  6.26%  211.797      2 Template:Excerpt","  6.19%  209.474     33 Template:Fix","  4.60%  155.742      1 Template:Navboxes","  4.57%  154.678     21 Template:Fact"]},"scribunto":{"limitreport-timeusage":{"value":"2.076","limit":"10.000"},"limitreport-memusage":{"value":27654313,"limit":52428800},"limitreport-profile":[["?","460","20.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","280","12.5"],["dataWrapper \u003Cmw.lua:672\u003E","160","7.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","160","7.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::preprocess","140","6.2"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","140","6.2"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","120","5.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","120","5.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","100","4.5"],["\u003Cmw.lua:694\u003E","80","3.6"],["[others]","480","21.4"]]},"cachereport":{"origin":"mw2271","timestamp":"20230905154940","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2388","wgBackendResponseTime":151,"wgPageParseReport":{"limitreport":{"cputime":"2.750","walltime":"3.321","ppvisitednodes":{"value":27453,"limit":1000000},"postexpandincludesize":{"value":915313,"limit":2097152},"templateargumentsize":{"value":164919,"limit":2097152},"expansiondepth":{"value":22,"limit":100},"expensivefunctioncount":{"value":100,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":699537,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2715.481      1 -total"," 36.90% 1002.034      2 Template:Reflist"," 16.01%  434.812      1 Template:Infobox_country"," 15.96%  433.370      3 Template:Infobox"," 14.53%  394.514    104 Template:Cite_web","  6.71%  182.331     48 Template:Cite_book","  6.39%  173.459      2 Template:Excerpt","  6.04%  164.033     33 Template:Fix","  4.68%  127.091     21 Template:Fact","  4.45%  120.852      1 Template:Navboxes"]},"scribunto":{"limitreport-timeusage":{"value":"1.652","limit":"10.000"},"limitreport-memusage":{"value":27607494,"limit":52428800},"limitreport-profile":[["?","340","18.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","200","10.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","140","7.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","120","6.5"],["dataWrapper \u003Cmw.lua:672\u003E","120","6.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","100","5.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::sub","80","4.3"],["recursiveClone \u003CmwInit.lua:41\u003E","80","4.3"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","60","3.3"],["type","60","3.3"],["[others]","540","29.3"]]},"cachereport":{"origin":"mw2404","timestamp":"20230907035838","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Morocco","url":"https:\/\/en.wikipedia.org\/wiki\/Morocco","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1028","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1028","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-05-23T23:42:18Z","dateModified":"2023-09-03T03:50:37Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/0f\/Flag_of_Morocco_%28large_stroke%29.svg","headline":"sovereign state in North Africa"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Morocco","url":"https:\/\/en.wikipedia.org\/wiki\/Morocco","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1028","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1028","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-05-23T23:42:18Z","dateModified":"2023-09-03T03:50:37Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/0f\/Flag_of_Morocco_%28large_stroke%29.svg","headline":"sovereign state in North Africa"}</script>
 </body>
 </html>

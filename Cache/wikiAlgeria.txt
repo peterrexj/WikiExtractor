@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Algeria - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"212701db-1dda-46ef-ac99-6fb33de94518","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Algeria","wgTitle":"Algeria","wgCurRevisionId":1174091979,"wgRevisionId":1174091979,"wgArticleId":358,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","Pages including recorded pronunciations","Articles containing Arabic-language text","Articles containing French-language text","CS1 French-language sources (fr)","CS1 Arabic-language sources (ar)","CS1: Julian–Gregorian uncertainty","Webarchive template wayback links","CS1 Spanish-language sources (es)","Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference","All articles with dead external links","Articles with dead external links from February 2023",
+"September","October","November","December"],"wgRequestId":"1ec57cb0-b584-4f36-8f65-c78cd4c5c09a","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Algeria","wgTitle":"Algeria","wgCurRevisionId":1174091979,"wgRevisionId":1174091979,"wgArticleId":358,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","Pages including recorded pronunciations","Articles containing Arabic-language text","Articles containing French-language text","CS1 French-language sources (fr)","CS1 Arabic-language sources (ar)","CS1: Julian–Gregorian uncertainty","Webarchive template wayback links","CS1 Spanish-language sources (es)","Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference","All articles with dead external links","Articles with dead external links from February 2023",
 "Articles with permanently dead external links","Wikipedia articles needing page number citations from February 2013","Wikipedia indefinitely semi-protected pages","Articles with short description","Short description matches Wikidata","Wikipedia indefinitely move-protected pages","Use dmy dates from February 2022","Articles containing explicitly cited English-language text","Pages using infobox country or infobox former country with the symbol caption or type parameters","Articles containing Algerian Arabic-language text","Articles with text in Berber languages","All articles with unsourced statements","Articles with unsourced statements from February 2021","All articles lacking reliable references","Articles lacking reliable references from November 2018","Articles lacking reliable references from February 2013","Articles with unsourced statements from July 2022","Articles with excerpts","Pages using multiple image with auto scaled images",
 "Pages using Sister project links with hidden wikidata","Pages using Sister project links with default search","Articles with Arabic-language sources (ar)","Articles with French-language sources (fr)","Articles with Curlie links","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with BIBSYS identifiers","Articles with BNE identifiers","Articles with BNF identifiers","Articles with BNFdata identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with NDL identifiers","Articles with NKC identifiers","Articles with NLA identifiers","Articles with VcBA identifiers","Articles with MusicBrainz area identifiers","Articles with Trove identifiers","Articles with EMU identifiers","Articles with HDS identifiers","Articles with NARA identifiers","Articles with SUDOC identifiers","Articles with TDVİA identifiers","Coordinates on Wikidata","Algeria","North African countries",
 "Maghrebi countries","Saharan countries","Arab republics","Republics","Countries and territories where Arabic is an official language","G15 nations","Member states of OPEC","Member states of the African Union","Member states of the Arab League","Member states of the Organisation of Islamic Cooperation","Member states of the Group of Friends in Defense of the Charter of the United Nations","Member states of the Union for the Mediterranean","Member states of the United Nations","States and territories established in 1962","1962 establishments in Algeria","1962 establishments in Africa","Countries in Africa"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Algeria","wgRelevantArticleId":358,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},
@@ -2921,13 +2921,13 @@ Société archéologique du département de Constantine</span>
 </p>
 <!-- 
 NewPP limit report
-Parsed by mw2276
-Cached time: 20230906091152
+Parsed by mw2269
+Cached time: 20230906154849
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 3.245 seconds
-Real time usage: 3.860 seconds
+CPU time usage: 3.221 seconds
+Real time usage: 3.807 seconds
 Preprocessor visited node count: 24163/1000000
 Post‐expand include size: 825478/2097152 bytes
 Template argument size: 116606/2097152 bytes
@@ -2935,37 +2935,37 @@ Highest expansion depth: 19/100
 Expensive parser function count: 99/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 756663/5000000 bytes
-Lua time usage: 1.961/10.000 seconds
-Lua memory usage: 26708131/52428800 bytes
+Lua time usage: 1.958/10.000 seconds
+Lua memory usage: 26626046/52428800 bytes
 Lua Profile:
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      340 ms       16.2%
-    ?                                                                240 ms       11.4%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      200 ms        9.5%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      200 ms        9.5%
-    dataWrapper <mw.lua:672>                                         180 ms        8.6%
-    recursiveClone <mwInit.lua:41>                                   140 ms        6.7%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements       80 ms        3.8%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match       60 ms        2.9%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::sub       60 ms        2.9%
-    <mw.lua:694>                                                      60 ms        2.9%
-    [others]                                                         540 ms       25.7%
+    ?                                                                520 ms       23.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      300 ms       13.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      220 ms       10.1%
+    recursiveClone <mwInit.lua:41>                                   120 ms        5.5%
+    dataWrapper <mw.lua:672>                                         120 ms        5.5%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      100 ms        4.6%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements      100 ms        4.6%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match       80 ms        3.7%
+    <mw.lua:694>                                                      80 ms        3.7%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::preprocess       80 ms        3.7%
+    [others]                                                         460 ms       21.1%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 3136.441      1 -total
- 41.69% 1307.510      3 Template:Reflist
- 16.86%  528.657      3 Template:Infobox
- 16.81%  527.320      1 Template:Infobox_country
- 15.55%  487.679     98 Template:Cite_web
- 10.61%  332.675     69 Template:Cite_book
-  6.19%  194.137      3 Template:ISO_3166_code
-  4.76%  149.426      1 Template:Algeria_topics
-  4.70%  147.280      1 Template:Country_topics
-  4.17%  130.778      1 Template:Navboxes
+100.00% 3138.122      1 -total
+ 40.50% 1271.039      3 Template:Reflist
+ 17.07%  535.676      1 Template:Infobox_country
+ 17.06%  535.366      3 Template:Infobox
+ 14.86%  466.367     98 Template:Cite_web
+ 10.37%  325.319     69 Template:Cite_book
+  5.94%  186.310      3 Template:ISO_3166_code
+  5.34%  167.464      1 Template:Navboxes
+  5.22%  163.707     15 Template:Navbox
+  4.60%  144.413      1 Template:Algeria_topics
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:358-0!canonical and timestamp 20230906091148 and revision id 1174091979. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:358-0!canonical and timestamp 20230906154845 and revision id 1174091979. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Algeria&amp;oldid=1174091979">https://en.wikipedia.org/w/index.php?title=Algeria&amp;oldid=1174091979</a>"</div></div>
@@ -3014,7 +3014,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2414","wgBackendResponseTime":144,"wgPageParseReport":{"limitreport":{"cputime":"3.245","walltime":"3.860","ppvisitednodes":{"value":24163,"limit":1000000},"postexpandincludesize":{"value":825478,"limit":2097152},"templateargumentsize":{"value":116606,"limit":2097152},"expansiondepth":{"value":19,"limit":100},"expensivefunctioncount":{"value":99,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":756663,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 3136.441      1 -total"," 41.69% 1307.510      3 Template:Reflist"," 16.86%  528.657      3 Template:Infobox"," 16.81%  527.320      1 Template:Infobox_country"," 15.55%  487.679     98 Template:Cite_web"," 10.61%  332.675     69 Template:Cite_book","  6.19%  194.137      3 Template:ISO_3166_code","  4.76%  149.426      1 Template:Algeria_topics","  4.70%  147.280      1 Template:Country_topics","  4.17%  130.778      1 Template:Navboxes"]},"scribunto":{"limitreport-timeusage":{"value":"1.961","limit":"10.000"},"limitreport-memusage":{"value":26708131,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","340","16.2"],["?","240","11.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","200","9.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","200","9.5"],["dataWrapper \u003Cmw.lua:672\u003E","180","8.6"],["recursiveClone \u003CmwInit.lua:41\u003E","140","6.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","80","3.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","60","2.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::sub","60","2.9"],["\u003Cmw.lua:694\u003E","60","2.9"],["[others]","540","25.7"]]},"cachereport":{"origin":"mw2276","timestamp":"20230906091152","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2327","wgBackendResponseTime":162,"wgPageParseReport":{"limitreport":{"cputime":"3.221","walltime":"3.807","ppvisitednodes":{"value":24163,"limit":1000000},"postexpandincludesize":{"value":825478,"limit":2097152},"templateargumentsize":{"value":116606,"limit":2097152},"expansiondepth":{"value":19,"limit":100},"expensivefunctioncount":{"value":99,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":756663,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 3138.122      1 -total"," 40.50% 1271.039      3 Template:Reflist"," 17.07%  535.676      1 Template:Infobox_country"," 17.06%  535.366      3 Template:Infobox"," 14.86%  466.367     98 Template:Cite_web"," 10.37%  325.319     69 Template:Cite_book","  5.94%  186.310      3 Template:ISO_3166_code","  5.34%  167.464      1 Template:Navboxes","  5.22%  163.707     15 Template:Navbox","  4.60%  144.413      1 Template:Algeria_topics"]},"scribunto":{"limitreport-timeusage":{"value":"1.958","limit":"10.000"},"limitreport-memusage":{"value":26626046,"limit":52428800},"limitreport-profile":[["?","520","23.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","300","13.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","220","10.1"],["recursiveClone \u003CmwInit.lua:41\u003E","120","5.5"],["dataWrapper \u003Cmw.lua:672\u003E","120","5.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","100","4.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","100","4.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","80","3.7"],["\u003Cmw.lua:694\u003E","80","3.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::preprocess","80","3.7"],["[others]","460","21.1"]]},"cachereport":{"origin":"mw2269","timestamp":"20230906154849","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Algeria","url":"https:\/\/en.wikipedia.org\/wiki\/Algeria","sameAs":"http:\/\/www.wikidata.org\/entity\/Q262","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q262","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-10-31T23:31:24Z","dateModified":"2023-09-06T08:05:43Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/77\/Flag_of_Algeria.svg","headline":"country in North Africa"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Algeria","url":"https:\/\/en.wikipedia.org\/wiki\/Algeria","sameAs":"http:\/\/www.wikidata.org\/entity\/Q262","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q262","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-10-31T23:31:24Z","dateModified":"2023-09-06T08:05:43Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/77\/Flag_of_Algeria.svg","headline":"country in North Africa"}</script>
 </body>
 </html>

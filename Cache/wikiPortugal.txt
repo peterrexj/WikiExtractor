@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Portugal - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"b2683308-6403-4c02-b0e2-9302514f55cc","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Portugal","wgTitle":"Portugal","wgCurRevisionId":1173858535,"wgRevisionId":1173858535,"wgArticleId":23033,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing Mirandese-language text","Articles with Portuguese-language sources (pt)","Webarchive template wayback links","CS1: Julian–Gregorian uncertainty","All articles with dead external links","Articles with dead external links from November 2020","CS1 Portuguese-language sources (pt)","CS1 maint: location missing publisher","Articles with dead external links from May 2022","Articles with permanently dead external links","CS1: long volume value","CS1 European Portuguese-language sources (pt-pt)","CS1 Indonesian-language sources (id)",
+"September","October","November","December"],"wgRequestId":"c3d7af6d-5e90-467c-a3a1-ffab15b3f806","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Portugal","wgTitle":"Portugal","wgCurRevisionId":1173858535,"wgRevisionId":1173858535,"wgArticleId":23033,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing Mirandese-language text","Articles with Portuguese-language sources (pt)","Webarchive template wayback links","CS1: Julian–Gregorian uncertainty","All articles with dead external links","Articles with dead external links from November 2020","CS1 Portuguese-language sources (pt)","CS1 maint: location missing publisher","Articles with dead external links from May 2022","Articles with permanently dead external links","CS1: long volume value","CS1 European Portuguese-language sources (pt-pt)","CS1 Indonesian-language sources (id)",
 "CS1 French-language sources (fr)","Articles with dead external links from December 2021","CS1 errors: missing title","CS1 errors: bare URL","CS1 errors: periodical ignored","Articles with short description","Short description matches Wikidata","Wikipedia indefinitely move-protected pages","Articles that may be too long from June 2023","Use Oxford spelling from February 2022","Use dmy dates from July 2022","Articles containing Portuguese-language text","Pages using infobox country with unknown parameters","Articles containing Latin-language text","Articles containing Irish-language text","Articles containing Scottish Gaelic-language text","Articles containing Middle French (ca. 1400-1600)-language text","Articles containing Middle English (1100-1500)-language text","Articles containing Scots-language text","All articles with unsourced statements","Articles with unsourced statements from July 2021","All articles with self-published sources",
 "Articles with self-published sources from November 2020","Pages using multiple image with manual scaled images","Articles needing additional references from September 2022","All articles needing additional references","Articles with unsourced statements from March 2017","Articles to be split from November 2021","All articles to be split","Articles containing potentially dated statements from 2008","All articles containing potentially dated statements","Articles containing potentially dated statements from January 2021","All articles that may contain original research","Articles that may contain original research from February 2016","Articles containing potentially dated statements from 2019","Articles with unsourced statements from May 2013","Articles with unsourced statements from March 2023","Articles containing potentially dated statements from 2015","Articles with unsourced statements from November 2021","Pages using multiple image with auto scaled images",
 "Pages using Sister project links with hidden wikidata","Pages using Sister project links with default search","Commons category link is on Wikidata","Articles with Curlie links","Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat Entities identifiers","Articles with BNE identifiers","Articles with BNF identifiers","Articles with BNFdata identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with NDL identifiers","Articles with NKC identifiers","Articles with MusicBrainz area identifiers","Articles with HDS identifiers","Articles with NARA identifiers","Articles with SUDOC identifiers","Coordinates on Wikidata","Portugal","Iberian Peninsula countries","Member states of NATO","Member states of the Community of Portuguese Language Countries",
@@ -3306,13 +3306,13 @@ The <a href="/wiki/Portuguese_Football_Federation" title="Portuguese Football Fe
 </p>
 <!-- 
 NewPP limit report
-Parsed by mw2305
-Cached time: 20230905143252
+Parsed by mw2441
+Cached time: 20230906135007
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 3.536 seconds
-Real time usage: 4.339 seconds
+CPU time usage: 3.115 seconds
+Real time usage: 3.847 seconds
 Preprocessor visited node count: 31543/1000000
 Post‐expand include size: 942519/2097152 bytes
 Template argument size: 89715/2097152 bytes
@@ -3320,37 +3320,37 @@ Highest expansion depth: 20/100
 Expensive parser function count: 137/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 986600/5000000 bytes
-Lua time usage: 2.013/10.000 seconds
-Lua memory usage: 27951779/52428800 bytes
+Lua time usage: 1.772/10.000 seconds
+Lua memory usage: 27791030/52428800 bytes
 Lua Profile:
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      320 ms       14.5%
-    ?                                                                300 ms       13.6%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      220 ms       10.0%
-    dataWrapper <mw.lua:672>                                         140 ms        6.4%
-    recursiveClone <mwInit.lua:41>                                   120 ms        5.5%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument       80 ms        3.6%
-    <mw.lua:694>                                                      60 ms        2.7%
-    tostring                                                          60 ms        2.7%
-    makeMessage <mw.message.lua:76>                                   60 ms        2.7%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements       60 ms        2.7%
-    [others]                                                         780 ms       35.5%
+    ?                                                                220 ms       12.0%
+    dataWrapper <mw.lua:672>                                         220 ms       12.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      220 ms       12.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      200 ms       10.9%
+    recursiveClone <mwInit.lua:41>                                   200 ms       10.9%
+    type                                                             100 ms        5.4%
+    citation0 <Module:Citation/CS1:2536>                              60 ms        3.3%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntity       40 ms        2.2%
+    dataWrapper <mw.lua:672>                                          40 ms        2.2%
+    <Module:Citation/CS1/COinS:175>                                   40 ms        2.2%
+    [others]                                                         500 ms       27.2%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 3312.597      1 -total
- 45.87% 1519.556      2 Template:Reflist
- 25.02%  828.797    214 Template:Cite_web
- 11.21%  371.317      4 Template:Infobox
- 10.92%  361.603      1 Template:Infobox_country
-  5.93%  196.393     23 Template:Cite_journal
-  4.29%  142.209     34 Template:Cite_book
-  4.06%  134.498      1 Template:Portugal_topics
-  4.00%  132.422      1 Template:Country_topics
-  3.77%  125.041      1 Template:Navboxes
+100.00% 2908.117      1 -total
+ 45.10% 1311.549      2 Template:Reflist
+ 24.82%  721.675    214 Template:Cite_web
+ 10.68%  310.554      4 Template:Infobox
+ 10.33%  300.431      1 Template:Infobox_country
+  5.12%  148.933     23 Template:Cite_journal
+  4.51%  131.027      1 Template:Portugal_topics
+  4.44%  129.020      1 Template:Country_topics
+  4.21%  122.516     34 Template:Cite_book
+  3.56%  103.587     25 Template:Cite_news
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:23033-0!canonical and timestamp 20230905143248 and revision id 1173858535. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:23033-0!canonical and timestamp 20230906135003 and revision id 1173858535. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Portugal&amp;oldid=1173858535">https://en.wikipedia.org/w/index.php?title=Portugal&amp;oldid=1173858535</a>"</div></div>
@@ -3399,7 +3399,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2412","wgBackendResponseTime":166,"wgPageParseReport":{"limitreport":{"cputime":"3.536","walltime":"4.339","ppvisitednodes":{"value":31543,"limit":1000000},"postexpandincludesize":{"value":942519,"limit":2097152},"templateargumentsize":{"value":89715,"limit":2097152},"expansiondepth":{"value":20,"limit":100},"expensivefunctioncount":{"value":137,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":986600,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 3312.597      1 -total"," 45.87% 1519.556      2 Template:Reflist"," 25.02%  828.797    214 Template:Cite_web"," 11.21%  371.317      4 Template:Infobox"," 10.92%  361.603      1 Template:Infobox_country","  5.93%  196.393     23 Template:Cite_journal","  4.29%  142.209     34 Template:Cite_book","  4.06%  134.498      1 Template:Portugal_topics","  4.00%  132.422      1 Template:Country_topics","  3.77%  125.041      1 Template:Navboxes"]},"scribunto":{"limitreport-timeusage":{"value":"2.013","limit":"10.000"},"limitreport-memusage":{"value":27951779,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","320","14.5"],["?","300","13.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","220","10.0"],["dataWrapper \u003Cmw.lua:672\u003E","140","6.4"],["recursiveClone \u003CmwInit.lua:41\u003E","120","5.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","80","3.6"],["\u003Cmw.lua:694\u003E","60","2.7"],["tostring","60","2.7"],["makeMessage \u003Cmw.message.lua:76\u003E","60","2.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","60","2.7"],["[others]","780","35.5"]]},"cachereport":{"origin":"mw2305","timestamp":"20230905143252","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2269","wgBackendResponseTime":202,"wgPageParseReport":{"limitreport":{"cputime":"3.115","walltime":"3.847","ppvisitednodes":{"value":31543,"limit":1000000},"postexpandincludesize":{"value":942519,"limit":2097152},"templateargumentsize":{"value":89715,"limit":2097152},"expansiondepth":{"value":20,"limit":100},"expensivefunctioncount":{"value":137,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":986600,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2908.117      1 -total"," 45.10% 1311.549      2 Template:Reflist"," 24.82%  721.675    214 Template:Cite_web"," 10.68%  310.554      4 Template:Infobox"," 10.33%  300.431      1 Template:Infobox_country","  5.12%  148.933     23 Template:Cite_journal","  4.51%  131.027      1 Template:Portugal_topics","  4.44%  129.020      1 Template:Country_topics","  4.21%  122.516     34 Template:Cite_book","  3.56%  103.587     25 Template:Cite_news"]},"scribunto":{"limitreport-timeusage":{"value":"1.772","limit":"10.000"},"limitreport-memusage":{"value":27791030,"limit":52428800},"limitreport-profile":[["?","220","12.0"],["dataWrapper \u003Cmw.lua:672\u003E","220","12.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","220","12.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","200","10.9"],["recursiveClone \u003CmwInit.lua:41\u003E","200","10.9"],["type","100","5.4"],["citation0 \u003CModule:Citation/CS1:2536\u003E","60","3.3"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntity","40","2.2"],["dataWrapper \u003Cmw.lua:672\u003E","40","2.2"],["\u003CModule:Citation/CS1/COinS:175\u003E","40","2.2"],["[others]","500","27.2"]]},"cachereport":{"origin":"mw2441","timestamp":"20230906135007","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Portugal","url":"https:\/\/en.wikipedia.org\/wiki\/Portugal","sameAs":"http:\/\/www.wikidata.org\/entity\/Q45","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q45","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-03-15T21:36:56Z","dateModified":"2023-09-04T21:10:57Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5c\/Flag_of_Portugal.svg","headline":"country in Southwestern Europe"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Portugal","url":"https:\/\/en.wikipedia.org\/wiki\/Portugal","sameAs":"http:\/\/www.wikidata.org\/entity\/Q45","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q45","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-03-15T21:36:56Z","dateModified":"2023-09-04T21:10:57Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5c\/Flag_of_Portugal.svg","headline":"country in Southwestern Europe"}</script>
 </body>
 </html>

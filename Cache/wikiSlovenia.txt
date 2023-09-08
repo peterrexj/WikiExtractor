@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Slovenia - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"c9478b0b-e183-48d0-951d-171022019527","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Slovenia","wgTitle":"Slovenia","wgCurRevisionId":1173082788,"wgRevisionId":1173082788,"wgArticleId":27338,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","CS1 Slovenian-language sources (sl)","CS1 errors: missing periodical","All articles with dead external links","Articles with dead external links from August 2017","Webarchive template wayback links","CS1 errors: periodical ignored","Articles with dead external links from February 2023","Articles with permanently dead external links","Articles with dead external links from August 2018","Articles with dead external links from July 2020","Articles with dead external links from July 2017","CS1 Italian-language sources (it)",
+"September","October","November","December"],"wgRequestId":"80d07475-02e5-454c-832d-45d3ed5240e6","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Slovenia","wgTitle":"Slovenia","wgCurRevisionId":1173082788,"wgRevisionId":1173082788,"wgArticleId":27338,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","CS1 Slovenian-language sources (sl)","CS1 errors: missing periodical","All articles with dead external links","Articles with dead external links from August 2017","Webarchive template wayback links","CS1 errors: periodical ignored","Articles with dead external links from February 2023","Articles with permanently dead external links","Articles with dead external links from August 2018","Articles with dead external links from July 2020","Articles with dead external links from July 2017","CS1 Italian-language sources (it)",
 "Articles with dead external links from May 2019","CS1 errors: generic title","Articles with short description","Short description matches Wikidata","Wikipedia indefinitely move-protected pages","Use dmy dates from December 2022","Articles containing Slovene-language text","Pages including recorded pronunciations","Pages using multiple image with auto scaled images","All Wikipedia articles needing context","Wikipedia articles needing context from January 2017","All articles with unsourced statements","Articles with unsourced statements from January 2022","Wikipedia articles needing clarification from April 2014","Articles needing additional references from April 2023","All articles needing additional references","Articles containing potentially dated statements from 2019","All articles containing potentially dated statements","Articles containing potentially dated statements from 2007","Articles containing potentially dated statements from 2005",
 "Articles with unsourced statements from August 2015","Articles needing cleanup from September 2022","All pages needing cleanup","Cleanup tagged articles with a reason field from September 2022","Wikipedia pages needing cleanup from September 2022","Articles with unsourced statements from May 2019","Pages using Sister project links with hidden wikidata","Pages using Sister project links with default search","Articles with Curlie links","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat Entities identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with NDL identifiers","Articles with NKC identifiers","Articles with MusicBrainz area identifiers","Articles with HDS identifiers","Articles with NARA identifiers","Articles with TDVİA identifiers","Coordinates on Wikidata","Slovenia","Balkan countries","Member states of NATO","Member states of the European Union",
 "Member states of the Union for the Mediterranean","Member states of the United Nations","Member states of the Three Seas Initiative","OECD members","Republics","States and territories established in 1991","1991 establishments in Europe","Countries in Europe"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Slovenia","wgRelevantArticleId":27338,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["sysop"],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":200000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English",
@@ -2878,13 +2878,13 @@ Prominent team sports in Slovenia include football, basketball, handball, volley
 </p>
 <!-- 
 NewPP limit report
-Parsed by mw2432
-Cached time: 20230904213547
+Parsed by mw2407
+Cached time: 20230907073845
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 2.411 seconds
-Real time usage: 2.948 seconds
+CPU time usage: 2.937 seconds
+Real time usage: 3.503 seconds
 Preprocessor visited node count: 30563/1000000
 Post‐expand include size: 933601/2097152 bytes
 Template argument size: 112977/2097152 bytes
@@ -2892,37 +2892,37 @@ Highest expansion depth: 20/100
 Expensive parser function count: 98/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 957667/5000000 bytes
-Lua time usage: 1.408/10.000 seconds
-Lua memory usage: 27225668/52428800 bytes
+Lua time usage: 1.712/10.000 seconds
+Lua memory usage: 27589464/52428800 bytes
 Lua Profile:
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      220 ms       15.1%
-    ?                                                                180 ms       12.3%
-    dataWrapper <mw.lua:672>                                         180 ms       12.3%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      120 ms        8.2%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match       80 ms        5.5%
-    <mw.lua:694>                                                      60 ms        4.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument       60 ms        4.1%
-    type                                                              60 ms        4.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find       40 ms        2.7%
-    recursiveClone <mwInit.lua:41>                                    40 ms        2.7%
-    [others]                                                         420 ms       28.8%
+    ?                                                                320 ms       18.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      200 ms       11.2%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      120 ms        6.7%
+    recursiveClone <mwInit.lua:41>                                   120 ms        6.7%
+    dataWrapper <mw.lua:672>                                         120 ms        6.7%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      100 ms        5.6%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements       80 ms        4.5%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::plain       80 ms        4.5%
+    validateData <mw.lua:728>                                         60 ms        3.4%
+    <mw.lua:694>                                                      60 ms        3.4%
+    [others]                                                         520 ms       29.2%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 2421.504      1 -total
- 49.05% 1187.728      2 Template:Reflist
- 20.90%  505.999    158 Template:Cite_web
- 11.73%  283.995      3 Template:Infobox
- 11.63%  281.529      1 Template:Infobox_country
-  7.98%  193.345     54 Template:Cite_book
-  6.55%  158.597     47 Template:Cite_news
-  4.80%  116.183      1 Template:Navboxes
-  4.08%   98.700     11 Template:Navbox
-  3.61%   87.504      1 Template:Slovenia_topics
+100.00% 2875.972      1 -total
+ 50.14% 1442.105      2 Template:Reflist
+ 21.06%  605.760    158 Template:Cite_web
+ 11.60%  333.524      3 Template:Infobox
+ 11.53%  331.492      1 Template:Infobox_country
+  8.02%  230.578     54 Template:Cite_book
+  6.63%  190.575     47 Template:Cite_news
+  4.85%  139.473      1 Template:Navboxes
+  4.15%  119.266     11 Template:Navbox
+  3.38%   97.150      1 Template:Slovenia_topics
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:27338-0!canonical and timestamp 20230904213544 and revision id 1173082788. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:27338-0!canonical and timestamp 20230907073841 and revision id 1173082788. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Slovenia&amp;oldid=1173082788">https://en.wikipedia.org/w/index.php?title=Slovenia&amp;oldid=1173082788</a>"</div></div>
@@ -2971,7 +2971,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2384","wgBackendResponseTime":159,"wgPageParseReport":{"limitreport":{"cputime":"2.411","walltime":"2.948","ppvisitednodes":{"value":30563,"limit":1000000},"postexpandincludesize":{"value":933601,"limit":2097152},"templateargumentsize":{"value":112977,"limit":2097152},"expansiondepth":{"value":20,"limit":100},"expensivefunctioncount":{"value":98,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":957667,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2421.504      1 -total"," 49.05% 1187.728      2 Template:Reflist"," 20.90%  505.999    158 Template:Cite_web"," 11.73%  283.995      3 Template:Infobox"," 11.63%  281.529      1 Template:Infobox_country","  7.98%  193.345     54 Template:Cite_book","  6.55%  158.597     47 Template:Cite_news","  4.80%  116.183      1 Template:Navboxes","  4.08%   98.700     11 Template:Navbox","  3.61%   87.504      1 Template:Slovenia_topics"]},"scribunto":{"limitreport-timeusage":{"value":"1.408","limit":"10.000"},"limitreport-memusage":{"value":27225668,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","220","15.1"],["?","180","12.3"],["dataWrapper \u003Cmw.lua:672\u003E","180","12.3"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","120","8.2"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","80","5.5"],["\u003Cmw.lua:694\u003E","60","4.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","60","4.1"],["type","60","4.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","40","2.7"],["recursiveClone \u003CmwInit.lua:41\u003E","40","2.7"],["[others]","420","28.8"]]},"cachereport":{"origin":"mw2432","timestamp":"20230904213547","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2391","wgBackendResponseTime":154,"wgPageParseReport":{"limitreport":{"cputime":"2.937","walltime":"3.503","ppvisitednodes":{"value":30563,"limit":1000000},"postexpandincludesize":{"value":933601,"limit":2097152},"templateargumentsize":{"value":112977,"limit":2097152},"expansiondepth":{"value":20,"limit":100},"expensivefunctioncount":{"value":98,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":957667,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2875.972      1 -total"," 50.14% 1442.105      2 Template:Reflist"," 21.06%  605.760    158 Template:Cite_web"," 11.60%  333.524      3 Template:Infobox"," 11.53%  331.492      1 Template:Infobox_country","  8.02%  230.578     54 Template:Cite_book","  6.63%  190.575     47 Template:Cite_news","  4.85%  139.473      1 Template:Navboxes","  4.15%  119.266     11 Template:Navbox","  3.38%   97.150      1 Template:Slovenia_topics"]},"scribunto":{"limitreport-timeusage":{"value":"1.712","limit":"10.000"},"limitreport-memusage":{"value":27589464,"limit":52428800},"limitreport-profile":[["?","320","18.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","200","11.2"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","120","6.7"],["recursiveClone \u003CmwInit.lua:41\u003E","120","6.7"],["dataWrapper \u003Cmw.lua:672\u003E","120","6.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","100","5.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","80","4.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::plain","80","4.5"],["validateData \u003Cmw.lua:728\u003E","60","3.4"],["\u003Cmw.lua:694\u003E","60","3.4"],["[others]","520","29.2"]]},"cachereport":{"origin":"mw2407","timestamp":"20230907073845","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Slovenia","url":"https:\/\/en.wikipedia.org\/wiki\/Slovenia","sameAs":"http:\/\/www.wikidata.org\/entity\/Q215","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q215","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-05-27T23:26:32Z","dateModified":"2023-08-31T04:30:38Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f0\/Flag_of_Slovenia.svg","headline":"country in Central Europe"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Slovenia","url":"https:\/\/en.wikipedia.org\/wiki\/Slovenia","sameAs":"http:\/\/www.wikidata.org\/entity\/Q215","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q215","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-05-27T23:26:32Z","dateModified":"2023-08-31T04:30:38Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f0\/Flag_of_Slovenia.svg","headline":"country in Central Europe"}</script>
 </body>
 </html>

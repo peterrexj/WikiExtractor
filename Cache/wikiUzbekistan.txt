@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Uzbekistan - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"389c5b82-4033-4994-8b3f-325fb0434e6a","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Uzbekistan","wgTitle":"Uzbekistan","wgCurRevisionId":1173830433,"wgRevisionId":1173830433,"wgArticleId":31853,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","Articles containing Uzbek-language text","Articles containing Russian-language text","Webarchive template wayback links","CS1 Uzbek-language sources (uz)","CS1 Russian-language sources (ru)","Articles with short description","Short description is different from Wikidata","Articles needing additional references from June 2023","All articles needing additional references","Articles that may contain original research from June 2023","All articles that may contain original research","Articles with multiple maintenance issues",
+"September","October","November","December"],"wgRequestId":"ebbf8779-a6b5-4e0b-a705-5281872d5215","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Uzbekistan","wgTitle":"Uzbekistan","wgCurRevisionId":1173830433,"wgRevisionId":1173830433,"wgArticleId":31853,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using the Phonos extension","Articles containing Uzbek-language text","Articles containing Russian-language text","Webarchive template wayback links","CS1 Uzbek-language sources (uz)","CS1 Russian-language sources (ru)","Articles with short description","Short description is different from Wikidata","Articles needing additional references from June 2023","All articles needing additional references","Articles that may contain original research from June 2023","All articles that may contain original research","Articles with multiple maintenance issues",
 "Use dmy dates from May 2020","Pages using infobox country or infobox former country with the symbol caption or type parameters","Pages including recorded pronunciations","Wikipedia articles needing clarification from August 2018","All Wikipedia articles needing clarification","All articles with unsourced statements","Articles with unsourced statements from August 2013","Articles with unsourced statements from September 2022","Articles containing potentially dated statements from 2013","All articles containing potentially dated statements","Articles with unsourced statements from May 2023","Commons category link is on Wikidata","All articles with dead external links","Articles with dead external links from August 2023","Articles with Curlie links","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat Entities identifiers","Articles with BNE identifiers","Articles with BNF identifiers",
 "Articles with BNFdata identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with Libris identifiers","Articles with NDL identifiers","Articles with NKC identifiers","Articles with MusicBrainz area identifiers","Articles with HDS identifiers","Articles with NARA identifiers","Articles with SUDOC identifiers","Articles with TDVİA identifiers","Coordinates on Wikidata","Uzbekistan","Central Asian countries","Landlocked countries","Member states of the Commonwealth of Independent States","Member states of the Organisation of Islamic Cooperation","Member states of the Shanghai Cooperation Organisation","Member states of the United Nations","States and territories established in 1991","Republics","1991 establishments in Asia","Countries in Asia","Members of the International Organization of Turkic Culture","Member states of the Organization of Turkic States"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en",
 "wgPageContentModel":"wikitext","wgRelevantPageName":"Uzbekistan","wgRelevantArticleId":31853,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["sysop"],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":200000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgCoordinates":{"lat":42,"lon":64},"wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q265","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands",
@@ -2333,13 +2333,13 @@ In addition, there are about 7,400 Zoroastrians left in Uzbekistan, mostly in Ta
 </p>
 <!-- 
 NewPP limit report
-Parsed by mw2272
-Cached time: 20230905143210
+Parsed by mw1418
+Cached time: 20230905142503
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 2.901 seconds
-Real time usage: 3.491 seconds
+CPU time usage: 2.514 seconds
+Real time usage: 2.979 seconds
 Preprocessor visited node count: 25672/1000000
 Post‐expand include size: 797830/2097152 bytes
 Template argument size: 120879/2097152 bytes
@@ -2347,37 +2347,37 @@ Highest expansion depth: 18/100
 Expensive parser function count: 84/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 700719/5000000 bytes
-Lua time usage: 1.679/10.000 seconds
+Lua time usage: 1.477/10.000 seconds
 Lua memory usage: 26204346/52428800 bytes
 Lua Profile:
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      360 ms       18.9%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      240 ms       12.6%
-    ?                                                                200 ms       10.5%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      180 ms        9.5%
-    recursiveClone <mwInit.lua:41>                                   140 ms        7.4%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::preprocess      120 ms        6.3%
-    dataWrapper <mw.lua:672>                                          80 ms        4.2%
-    css <mw.html.lua:328>                                             40 ms        2.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements       40 ms        2.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match       40 ms        2.1%
-    [others]                                                         460 ms       24.2%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      240 ms       14.5%
+    ?                                                                220 ms       13.3%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      200 ms       12.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      160 ms        9.6%
+    dataWrapper <mw.lua:672>                                         160 ms        9.6%
+    recursiveClone <mwInit.lua:41>                                   120 ms        7.2%
+    <mw.lua:694>                                                      80 ms        4.8%
+    type                                                              60 ms        3.6%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements       40 ms        2.4%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find       40 ms        2.4%
+    [others]                                                         340 ms       20.5%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 2864.551      1 -total
- 43.10% 1234.609      2 Template:Reflist
- 22.73%  651.184    136 Template:Cite_web
- 17.53%  502.149      1 Template:Infobox_country
- 17.50%  501.433      3 Template:Infobox
-  7.18%  205.610      1 Template:Navboxes
-  6.95%  199.211     12 Template:Navbox
-  5.94%  170.031      3 Template:ISO_3166_code
-  5.13%  146.894      4 Template:Ambox
-  5.06%  144.869     33 Template:Cite_news
+100.00% 2463.647      1 -total
+ 41.77% 1028.952      2 Template:Reflist
+ 22.13%  545.293    136 Template:Cite_web
+ 17.24%  424.677      1 Template:Infobox_country
+ 17.21%  423.988      3 Template:Infobox
+  7.99%  196.725      1 Template:Navboxes
+  7.95%  195.813     12 Template:Navbox
+  5.85%  144.142      3 Template:ISO_3166_code
+  5.27%  129.921     33 Template:Cite_news
+  4.80%  118.365      1 Template:Uzbekistan_topics
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:31853-0!canonical and timestamp 20230905143206 and revision id 1173830433. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:31853-0!canonical and timestamp 20230905142500 and revision id 1173830433. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Uzbekistan&amp;oldid=1173830433">https://en.wikipedia.org/w/index.php?title=Uzbekistan&amp;oldid=1173830433</a>"</div></div>
@@ -2426,7 +2426,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2331","wgBackendResponseTime":144,"wgPageParseReport":{"limitreport":{"cputime":"2.901","walltime":"3.491","ppvisitednodes":{"value":25672,"limit":1000000},"postexpandincludesize":{"value":797830,"limit":2097152},"templateargumentsize":{"value":120879,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":84,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":700719,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2864.551      1 -total"," 43.10% 1234.609      2 Template:Reflist"," 22.73%  651.184    136 Template:Cite_web"," 17.53%  502.149      1 Template:Infobox_country"," 17.50%  501.433      3 Template:Infobox","  7.18%  205.610      1 Template:Navboxes","  6.95%  199.211     12 Template:Navbox","  5.94%  170.031      3 Template:ISO_3166_code","  5.13%  146.894      4 Template:Ambox","  5.06%  144.869     33 Template:Cite_news"]},"scribunto":{"limitreport-timeusage":{"value":"1.679","limit":"10.000"},"limitreport-memusage":{"value":26204346,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","360","18.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","240","12.6"],["?","200","10.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","180","9.5"],["recursiveClone \u003CmwInit.lua:41\u003E","140","7.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::preprocess","120","6.3"],["dataWrapper \u003Cmw.lua:672\u003E","80","4.2"],["css \u003Cmw.html.lua:328\u003E","40","2.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","40","2.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","40","2.1"],["[others]","460","24.2"]]},"cachereport":{"origin":"mw2272","timestamp":"20230905143210","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1451","wgBackendResponseTime":165,"wgPageParseReport":{"limitreport":{"cputime":"2.514","walltime":"2.979","ppvisitednodes":{"value":25672,"limit":1000000},"postexpandincludesize":{"value":797830,"limit":2097152},"templateargumentsize":{"value":120879,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":84,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":700719,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2463.647      1 -total"," 41.77% 1028.952      2 Template:Reflist"," 22.13%  545.293    136 Template:Cite_web"," 17.24%  424.677      1 Template:Infobox_country"," 17.21%  423.988      3 Template:Infobox","  7.99%  196.725      1 Template:Navboxes","  7.95%  195.813     12 Template:Navbox","  5.85%  144.142      3 Template:ISO_3166_code","  5.27%  129.921     33 Template:Cite_news","  4.80%  118.365      1 Template:Uzbekistan_topics"]},"scribunto":{"limitreport-timeusage":{"value":"1.477","limit":"10.000"},"limitreport-memusage":{"value":26204346,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","240","14.5"],["?","220","13.3"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","200","12.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","160","9.6"],["dataWrapper \u003Cmw.lua:672\u003E","160","9.6"],["recursiveClone \u003CmwInit.lua:41\u003E","120","7.2"],["\u003Cmw.lua:694\u003E","80","4.8"],["type","60","3.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","40","2.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","40","2.4"],["[others]","340","20.5"]]},"cachereport":{"origin":"mw1418","timestamp":"20230905142503","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Uzbekistan","url":"https:\/\/en.wikipedia.org\/wiki\/Uzbekistan","sameAs":"http:\/\/www.wikidata.org\/entity\/Q265","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q265","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-05-30T14:43:24Z","dateModified":"2023-09-04T17:39:20Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/84\/Flag_of_Uzbekistan.svg","headline":"sovereign state in Central Asia"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Uzbekistan","url":"https:\/\/en.wikipedia.org\/wiki\/Uzbekistan","sameAs":"http:\/\/www.wikidata.org\/entity\/Q265","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q265","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-05-30T14:43:24Z","dateModified":"2023-09-04T17:39:20Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/84\/Flag_of_Uzbekistan.svg","headline":"sovereign state in Central Asia"}</script>
 </body>
 </html>

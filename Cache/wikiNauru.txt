@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <title>Nauru - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"d8733040-1c4d-4574-bb22-d5f3e17c27b8","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Nauru","wgTitle":"Nauru","wgCurRevisionId":1173506882,"wgRevisionId":1173506882,"wgArticleId":21302,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Webarchive template wayback links","CS1 maint: url-status","CS1 maint: unfit URL","CS1 maint: multiple names: authors list","Articles with short description","Short description is different from Wikidata","Use Australian English from August 2014","All Wikipedia articles written in Australian English","Use dmy dates from January 2020","Articles containing Nauruan-language text","Articles containing potentially dated statements from 1999","All articles containing potentially dated statements","Wikipedia articles incorporating text from the United States Department of State",
+"September","October","November","December"],"wgRequestId":"10cd86b6-9712-4eb6-ae75-cf4da5e50e76","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Nauru","wgTitle":"Nauru","wgCurRevisionId":1173506882,"wgRevisionId":1173506882,"wgArticleId":21302,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Webarchive template wayback links","CS1 maint: url-status","CS1 maint: unfit URL","CS1 maint: multiple names: authors list","Articles with short description","Short description is different from Wikidata","Use Australian English from August 2014","All Wikipedia articles written in Australian English","Use dmy dates from January 2020","Articles containing Nauruan-language text","Articles containing potentially dated statements from 1999","All articles containing potentially dated statements","Wikipedia articles incorporating text from the United States Department of State",
 "Wikipedia articles incorporating text from the World Factbook","Articles with Curlie links","Articles with FAST identifiers","Articles with VIAF identifiers","Articles with WorldCat Entities identifiers","Articles with BNE identifiers","Articles with BNF identifiers","Articles with BNFdata identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with Libris identifiers","Articles with NDL identifiers","Articles with NKC identifiers","Articles with NLA identifiers","Articles with NLG identifiers","Articles with PortugalA identifiers","Articles with MusicBrainz area identifiers","Articles with Trove identifiers","Articles with NARA identifiers","Articles with SUDOC identifiers","Pages using Sister project links with wikidata namespace mismatch","Pages using Sister project links with hidden wikidata","Featured articles","Coordinates on Wikidata","Nauru","1968 establishments in Nauru","British Western Pacific Territories",
 "Republics in the Commonwealth of Nations","Countries in Micronesia","Countries in Oceania","Countries and territories where English is an official language","Former British colonies and protectorates in Oceania","Former German colonies","Island countries","Member states of the Commonwealth of Nations","Member states of the United Nations","Small Island Developing States","States and territories established in 1968"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Nauru","wgRelevantArticleId":21302,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":100000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags"
 :{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgCoordinates":{"lat":-0.5280555555555555,"lon":166.93694444444444},"wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q697","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.tmh.player.styles":
-"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.tablesorter.styles":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.tmh.player","mediawiki.page.media","site","mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks",
-"ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.tablesorter.styles":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.tmh.player","mediawiki.page.media","site","mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth",
+"ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
 }];});});</script>
 <link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.tmh.player.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cjquery.tablesorter.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
@@ -2037,13 +2037,13 @@ Matau, Robert (6 June 2013) <a rel="nofollow" class="external text" href="http:/
 </p>
 <!-- 
 NewPP limit report
-Parsed by mw2413
-Cached time: 20230904133550
+Parsed by mw2415
+Cached time: 20230907012125
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 1.931 seconds
-Real time usage: 2.307 seconds
+CPU time usage: 1.955 seconds
+Real time usage: 2.337 seconds
 Preprocessor visited node count: 22991/1000000
 Post‐expand include size: 451909/2097152 bytes
 Template argument size: 23914/2097152 bytes
@@ -2051,37 +2051,37 @@ Highest expansion depth: 26/100
 Expensive parser function count: 64/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 539423/5000000 bytes
-Lua time usage: 1.189/10.000 seconds
-Lua memory usage: 25699504/52428800 bytes
+Lua time usage: 1.183/10.000 seconds
+Lua memory usage: 25120520/52428800 bytes
 Lua Profile:
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      180 ms       13.6%
-    dataWrapper <mw.lua:672>                                         160 ms       12.1%
-    ?                                                                140 ms       10.6%
-    recursiveClone <mwInit.lua:41>                                   140 ms       10.6%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      120 ms        9.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub       80 ms        6.1%
-    pairs                                                             60 ms        4.5%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntity       60 ms        4.5%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find       60 ms        4.5%
-    type                                                              40 ms        3.0%
-    [others]                                                         280 ms       21.2%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      240 ms       17.4%
+    ?                                                                180 ms       13.0%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::match      120 ms        8.7%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      100 ms        7.2%
+    <mw.lua:694>                                                     100 ms        7.2%
+    recursiveClone <mwInit.lua:41>                                    80 ms        5.8%
+    dataWrapper <mw.lua:672>                                          80 ms        5.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument       80 ms        5.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::interwikiMap       40 ms        2.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find       40 ms        2.9%
+    [others]                                                         320 ms       23.2%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 2031.818      1 -total
- 37.26%  757.038      2 Template:Reflist
- 18.81%  382.167      3 Template:Infobox
- 18.81%  382.144      1 Template:Infobox_country
- 18.14%  368.611     83 Template:Cite_web
-  7.11%  144.511     38 Template:Cite_news
-  6.32%  128.413     26 Template:Cite_journal
-  6.15%  125.049      1 Template:Nauru_topics
-  6.05%  122.992      1 Template:Country_topics
-  5.29%  107.461      3 Template:ISO_3166_code
+100.00% 2044.576      1 -total
+ 37.60%  768.705      2 Template:Reflist
+ 18.95%  387.479      1 Template:Infobox_country
+ 18.87%  385.880      3 Template:Infobox
+ 17.84%  364.835     83 Template:Cite_web
+  7.13%  145.880     38 Template:Cite_news
+  6.11%  124.870      1 Template:Nauru_topics
+  6.00%  122.731      1 Template:Country_topics
+  5.94%  121.492     26 Template:Cite_journal
+  5.32%  108.870      3 Template:ISO_3166_code
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:21302-0!canonical and timestamp 20230904133547 and revision id 1173506882. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:21302-0!canonical and timestamp 20230907012123 and revision id 1173506882. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Nauru&amp;oldid=1173506882">https://en.wikipedia.org/w/index.php?title=Nauru&amp;oldid=1173506882</a>"</div></div>
@@ -2130,7 +2130,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2375","wgBackendResponseTime":125,"wgPageParseReport":{"limitreport":{"cputime":"1.931","walltime":"2.307","ppvisitednodes":{"value":22991,"limit":1000000},"postexpandincludesize":{"value":451909,"limit":2097152},"templateargumentsize":{"value":23914,"limit":2097152},"expansiondepth":{"value":26,"limit":100},"expensivefunctioncount":{"value":64,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":539423,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2031.818      1 -total"," 37.26%  757.038      2 Template:Reflist"," 18.81%  382.167      3 Template:Infobox"," 18.81%  382.144      1 Template:Infobox_country"," 18.14%  368.611     83 Template:Cite_web","  7.11%  144.511     38 Template:Cite_news","  6.32%  128.413     26 Template:Cite_journal","  6.15%  125.049      1 Template:Nauru_topics","  6.05%  122.992      1 Template:Country_topics","  5.29%  107.461      3 Template:ISO_3166_code"]},"scribunto":{"limitreport-timeusage":{"value":"1.189","limit":"10.000"},"limitreport-memusage":{"value":25699504,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","180","13.6"],["dataWrapper \u003Cmw.lua:672\u003E","160","12.1"],["?","140","10.6"],["recursiveClone \u003CmwInit.lua:41\u003E","140","10.6"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","120","9.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","80","6.1"],["pairs","60","4.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntity","60","4.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","60","4.5"],["type","40","3.0"],["[others]","280","21.2"]]},"cachereport":{"origin":"mw2413","timestamp":"20230904133550","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2272","wgBackendResponseTime":172,"wgPageParseReport":{"limitreport":{"cputime":"1.955","walltime":"2.337","ppvisitednodes":{"value":22991,"limit":1000000},"postexpandincludesize":{"value":451909,"limit":2097152},"templateargumentsize":{"value":23914,"limit":2097152},"expansiondepth":{"value":26,"limit":100},"expensivefunctioncount":{"value":64,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":539423,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2044.576      1 -total"," 37.60%  768.705      2 Template:Reflist"," 18.95%  387.479      1 Template:Infobox_country"," 18.87%  385.880      3 Template:Infobox"," 17.84%  364.835     83 Template:Cite_web","  7.13%  145.880     38 Template:Cite_news","  6.11%  124.870      1 Template:Nauru_topics","  6.00%  122.731      1 Template:Country_topics","  5.94%  121.492     26 Template:Cite_journal","  5.32%  108.870      3 Template:ISO_3166_code"]},"scribunto":{"limitreport-timeusage":{"value":"1.183","limit":"10.000"},"limitreport-memusage":{"value":25120520,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","240","17.4"],["?","180","13.0"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::match","120","8.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","100","7.2"],["\u003Cmw.lua:694\u003E","100","7.2"],["recursiveClone \u003CmwInit.lua:41\u003E","80","5.8"],["dataWrapper \u003Cmw.lua:672\u003E","80","5.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","80","5.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::interwikiMap","40","2.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","40","2.9"],["[others]","320","23.2"]]},"cachereport":{"origin":"mw2415","timestamp":"20230907012125","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Nauru","url":"https:\/\/en.wikipedia.org\/wiki\/Nauru","sameAs":"http:\/\/www.wikidata.org\/entity\/Q697","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q697","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-05-25T07:47:19Z","dateModified":"2023-09-02T21:45:26Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/30\/Flag_of_Nauru.svg","headline":"country in Oceania"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Nauru","url":"https:\/\/en.wikipedia.org\/wiki\/Nauru","sameAs":"http:\/\/www.wikidata.org\/entity\/Q697","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q697","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-05-25T07:47:19Z","dateModified":"2023-09-02T21:45:26Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/30\/Flag_of_Nauru.svg","headline":"country in Oceania"}</script>
 </body>
 </html>

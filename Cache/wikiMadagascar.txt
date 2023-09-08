@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <title>Madagascar - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"35678b9a-6e56-4c1a-829d-c4c538a47f4e","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Madagascar","wgTitle":"Madagascar","wgCurRevisionId":1173696994,"wgRevisionId":1173696994,"wgArticleId":18964,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing Malagasy-language text","Articles containing French-language text","CS1 French-language sources (fr)","CS1: Julian–Gregorian uncertainty","CS1 Italian-language sources (it)","All articles with dead external links","Articles with dead external links from December 2021","Articles with permanently dead external links","Webarchive template wayback links","Articles with short description","Short description is different from Wikidata","Wikipedia indefinitely move-protected pages","Use dmy dates from April 2021","Use American English from February 2017",
+"September","October","November","December"],"wgRequestId":"f5392bb2-9cae-4bfe-9cbe-39e1af16bcf6","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Madagascar","wgTitle":"Madagascar","wgCurRevisionId":1173696994,"wgRevisionId":1173696994,"wgArticleId":18964,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing Malagasy-language text","Articles containing French-language text","CS1 French-language sources (fr)","CS1: Julian–Gregorian uncertainty","CS1 Italian-language sources (it)","All articles with dead external links","Articles with dead external links from December 2021","Articles with permanently dead external links","Webarchive template wayback links","Articles with short description","Short description is different from Wikidata","Wikipedia indefinitely move-protected pages","Use dmy dates from April 2021","Use American English from February 2017",
 "All Wikipedia articles written in American English","Pages using infobox country or infobox former country with the symbol caption or type parameters","Articles containing potentially dated statements from 2012","All articles containing potentially dated statements","Articles containing potentially dated statements from 2011","Articles containing potentially dated statements from 2009","CS1 errors: periodical ignored","Pages using Sister project links with hidden wikidata","Pages using Sister project links with default search","Articles with Curlie links","Featured articles","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat Entities identifiers","Articles with BIBSYS identifiers","Articles with BNF identifiers","Articles with BNFdata identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with Libris identifiers","Articles with NDL identifiers",
 "Articles with NKC identifiers","Articles with MusicBrainz area identifiers","Articles with EMU identifiers","Articles with HDS identifiers","Articles with NARA identifiers","Articles with TDVİA identifiers","Coordinates on Wikidata","Madagascar","Island countries of the Indian Ocean","Islands of Madagascar","East African countries","Southeast African countries","Former French colonies","French-speaking countries and territories","Least developed countries","Member states of the Organisation internationale de la Francophonie","Member states of the African Union","Member states of the United Nations","States and territories established in 1960","1960 establishments in Madagascar","1960 establishments in Africa","Physiographic provinces","Republics","Countries in Africa","Former monarchies of Africa","Island countries"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Madagascar","wgRelevantArticleId":18964,
 "wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["sysop"],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":200000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgCoordinates":{"lat":-20,"lon":47},"wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q1019","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":
 true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.tmh.player.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.tablesorter.styles":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.tmh.player","mediawiki.page.media","site","mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.visualEditor.desktopArticleTarget.init",
-"ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+"ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
 }];});});</script>
 <link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.tmh.player.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cjquery.tablesorter.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
@@ -1241,7 +1241,6 @@ In June 2019 <a href="/wiki/2019_Malagasy_parliamentary_election" title="2019 Ma
 <p><a href="/wiki/Chinese_people_in_Madagascar" title="Chinese people in Madagascar">Chinese</a>, <a href="/wiki/Indians_in_Madagascar" title="Indians in Madagascar">Indian</a> and <a href="/wiki/Comoros" title="Comoros">Comoran</a> minorities are present in Madagascar, as well as a small European (primarily <a href="/wiki/French_people" title="French people">French</a>) populace. Emigration in the late 20th century has reduced these minority populations, occasionally in abrupt waves, such as the exodus of Comorans in 1976, following anti-Comoran riots in Mahajanga.<sup id="cite_ref-LOC_47-13" class="reference"><a href="#cite_note-LOC-47">&#91;46&#93;</a></sup> By comparison, there has been no significant emigration of Malagasy peoples.<sup id="cite_ref-EBLand_98-4" class="reference"><a href="#cite_note-EBLand-98">&#91;97&#93;</a></sup> The number of <a href="/wiki/French_people_in_Madagascar" title="French people in Madagascar">Europeans</a> has declined since independence, reduced from 68,430 in 1958<sup id="cite_ref-Kitchen_1962,_p._256_82-1" class="reference"><a href="#cite_note-Kitchen_1962,_p._256-82">&#91;81&#93;</a></sup> to 17,000 three decades later. There were an estimated 25,000&#160;Comorans, 18,000&#160;Indians, and 9,000&#160;Chinese living in Madagascar in the mid-1980s.<sup id="cite_ref-LOC_47-14" class="reference"><a href="#cite_note-LOC-47">&#91;46&#93;</a></sup>
 </p>
 <h3><span class="mw-headline" id="Largest_cities">Largest cities</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Madagascar&amp;action=edit&amp;section=23" title="Edit section: Largest cities">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<div class="boilerplate metadata plainlinks tfd" id="tfd" style="background-color: transparent; padding: 0; font-size: 85%; color:#000000; text-align: center; border-bottom:1px solid #AAAAAA;">‹&#160;The <a href="/wiki/Help:Template" title="Help:Template">template</a> below (<i><a href="/wiki/Template:Largest_cities_of_Madagascar" title="Template:Largest cities of Madagascar">Largest cities of Madagascar</a></i>) is being considered for deletion. See <a href="/wiki/Wikipedia:Templates_for_discussion/Log/2023_August_29#Template:Largest_cities_of_Madagascar" title="Wikipedia:Templates for discussion/Log/2023 August 29">templates for discussion</a> to help reach a consensus.&#160;›</div>
 <style data-mw-deduplicate="TemplateStyles:r1148739982">.mw-parser-output .largestCities-table-background{background:#f9f9f9}.mw-parser-output .largestCities-cell-background{background:#f0f0f0}</style>
 <div>
 <table style="font-size:88%;margin-left: auto; margin-right: auto; width: 100%; border: 1px solid darkgray;">
@@ -2308,51 +2307,51 @@ In June 2019 <a href="/wiki/2019_Malagasy_parliamentary_election" title="2019 Ma
 </p>
 <!-- 
 NewPP limit report
-Parsed by mw2361
-Cached time: 20230903224215
+Parsed by mw2420
+Cached time: 20230906175608
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 2.698 seconds
-Real time usage: 3.140 seconds
-Preprocessor visited node count: 21497/1000000
-Post‐expand include size: 756765/2097152 bytes
-Template argument size: 59389/2097152 bytes
+CPU time usage: 2.172 seconds
+Real time usage: 2.594 seconds
+Preprocessor visited node count: 21443/1000000
+Post‐expand include size: 754158/2097152 bytes
+Template argument size: 59242/2097152 bytes
 Highest expansion depth: 18/100
 Expensive parser function count: 88/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 803132/5000000 bytes
-Lua time usage: 1.757/10.000 seconds
-Lua memory usage: 26805734/52428800 bytes
+Lua time usage: 1.405/10.000 seconds
+Lua memory usage: 25749483/52428800 bytes
 Lua Profile:
-    ?                                                                280 ms       17.1%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      200 ms       12.2%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      140 ms        8.5%
-    recursiveClone <mwInit.lua:41>                                   120 ms        7.3%
-    dataWrapper <mw.lua:672>                                         120 ms        7.3%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getAllExpandedArguments       80 ms        4.9%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::anchorEncode       80 ms        4.9%
-    type                                                              60 ms        3.7%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntity       40 ms        2.4%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements       40 ms        2.4%
-    [others]                                                         480 ms       29.3%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::callParserFunction      180 ms       13.2%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub      160 ms       11.8%
+    ?                                                                100 ms        7.4%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::plain      100 ms        7.4%
+    recursiveClone <mwInit.lua:41>                                   100 ms        7.4%
+    dataWrapper <mw.lua:672>                                          60 ms        4.4%
+    type                                                              60 ms        4.4%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find       60 ms        4.4%
+    match                                                             40 ms        2.9%
+    init <Module:Citation/CS1/Date_validation>                        40 ms        2.9%
+    [others]                                                         460 ms       33.8%
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 2669.049      1 -total
- 42.55% 1135.752      2 Template:Reflist
- 18.14%  484.083    110 Template:Cite_web
- 16.13%  430.499      3 Template:Infobox
- 16.11%  429.992      1 Template:Infobox_country
- 11.30%  301.542     66 Template:Cite_book
- 10.99%  293.318     48 Template:Cite_journal
-  5.03%  134.180      3 Template:ISO_3166_code
-  4.03%  107.650      1 Template:Ubl
-  3.70%   98.653      4 Template:Native_name
+100.00% 2186.263      1 -total
+ 40.89%  893.880      2 Template:Reflist
+ 18.14%  396.551    110 Template:Cite_web
+ 16.51%  360.855      3 Template:Infobox
+ 16.43%  359.154      1 Template:Infobox_country
+ 10.98%  240.060     66 Template:Cite_book
+ 10.01%  218.827     48 Template:Cite_journal
+  4.94%  108.009      3 Template:ISO_3166_code
+  4.03%   88.126      1 Template:Sister_project_links
+  4.01%   87.611      1 Template:Ubl
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:18964-0!canonical and timestamp 20230903224212 and revision id 1173696994. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:18964-0!canonical and timestamp 20230906175606 and revision id 1173696994. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Madagascar&amp;oldid=1173696994">https://en.wikipedia.org/w/index.php?title=Madagascar&amp;oldid=1173696994</a>"</div></div>
@@ -2401,7 +2400,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2409","wgBackendResponseTime":153,"wgPageParseReport":{"limitreport":{"cputime":"2.698","walltime":"3.140","ppvisitednodes":{"value":21497,"limit":1000000},"postexpandincludesize":{"value":756765,"limit":2097152},"templateargumentsize":{"value":59389,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":88,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":803132,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2669.049      1 -total"," 42.55% 1135.752      2 Template:Reflist"," 18.14%  484.083    110 Template:Cite_web"," 16.13%  430.499      3 Template:Infobox"," 16.11%  429.992      1 Template:Infobox_country"," 11.30%  301.542     66 Template:Cite_book"," 10.99%  293.318     48 Template:Cite_journal","  5.03%  134.180      3 Template:ISO_3166_code","  4.03%  107.650      1 Template:Ubl","  3.70%   98.653      4 Template:Native_name"]},"scribunto":{"limitreport-timeusage":{"value":"1.757","limit":"10.000"},"limitreport-memusage":{"value":26805734,"limit":52428800},"limitreport-profile":[["?","280","17.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","200","12.2"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","140","8.5"],["recursiveClone \u003CmwInit.lua:41\u003E","120","7.3"],["dataWrapper \u003Cmw.lua:672\u003E","120","7.3"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getAllExpandedArguments","80","4.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::anchorEncode","80","4.9"],["type","60","3.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntity","40","2.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","40","2.4"],["[others]","480","29.3"]]},"cachereport":{"origin":"mw2361","timestamp":"20230903224215","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2378","wgBackendResponseTime":164,"wgPageParseReport":{"limitreport":{"cputime":"2.172","walltime":"2.594","ppvisitednodes":{"value":21443,"limit":1000000},"postexpandincludesize":{"value":754158,"limit":2097152},"templateargumentsize":{"value":59242,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":88,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":803132,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2186.263      1 -total"," 40.89%  893.880      2 Template:Reflist"," 18.14%  396.551    110 Template:Cite_web"," 16.51%  360.855      3 Template:Infobox"," 16.43%  359.154      1 Template:Infobox_country"," 10.98%  240.060     66 Template:Cite_book"," 10.01%  218.827     48 Template:Cite_journal","  4.94%  108.009      3 Template:ISO_3166_code","  4.03%   88.126      1 Template:Sister_project_links","  4.01%   87.611      1 Template:Ubl"]},"scribunto":{"limitreport-timeusage":{"value":"1.405","limit":"10.000"},"limitreport-memusage":{"value":25749483,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::callParserFunction","180","13.2"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","160","11.8"],["?","100","7.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::plain","100","7.4"],["recursiveClone \u003CmwInit.lua:41\u003E","100","7.4"],["dataWrapper \u003Cmw.lua:672\u003E","60","4.4"],["type","60","4.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","60","4.4"],["match","40","2.9"],["init \u003CModule:Citation/CS1/Date_validation\u003E","40","2.9"],["[others]","460","33.8"]]},"cachereport":{"origin":"mw2420","timestamp":"20230906175608","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Madagascar","url":"https:\/\/en.wikipedia.org\/wiki\/Madagascar","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1019","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1019","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-04-10T18:01:24Z","dateModified":"2023-09-03T22:41:41Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/bc\/Flag_of_Madagascar.svg","headline":"island sovereign state off the coast of Southeast Africa, in the Indian Ocean"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Madagascar","url":"https:\/\/en.wikipedia.org\/wiki\/Madagascar","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1019","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1019","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-04-10T18:01:24Z","dateModified":"2023-09-03T22:41:41Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/bc\/Flag_of_Madagascar.svg","headline":"island sovereign state off the coast of Southeast Africa, in the Indian Ocean"}</script>
 </body>
 </html>
