@@ -53,7 +53,7 @@
                                     <Grid>
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=80, Tablet=130}, iOS={OnIdiom Phone=80, Tablet=100}}" />
+                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=90, Tablet=130}, iOS={OnIdiom Phone=90, Tablet=100}}" />
                                             <ColumnDefinition Width="30" />
                                             <ColumnDefinition Width="5" />
                                         </Grid.ColumnDefinitions>
@@ -111,7 +111,7 @@
                                                 VerticalTextAlignment="Center" />
                                             <sfButtons:SfSwitch
                                                 x:Name="swtToggleItemRead"
-                                                Margin="0,0,0,3"
+                                                Margin="0,0,5,0"
                                                 IsOn="{Binding HideItemRead}"
                                                 Orientation="Horizontal"
                                                 StateChanged="swtToggleItemRead_StateChanged"
@@ -273,7 +273,6 @@
                                                             <Grid Grid.Column="0">
                                                                 <Grid.RowDefinitions>
                                                                     <RowDefinition Height="*" />
-                                                                    <!--<RowDefinition Height="25" />-->
                                                                 </Grid.RowDefinitions>
                                                                 <Image
                                                                     x:Name="imgList"
@@ -286,72 +285,9 @@
                                                                     VerticalOptions="Start"
                                                                     WidthRequest="120" />
                                                                 <ActivityIndicator
-                                                                    Grid.Row="1"
+                                                                    Grid.Row="0"
                                                                     BindingContext="{x:Reference imgList}"
                                                                     IsRunning="{Binding IsLoading}" />
-                                                                <!--<Grid Grid.Row="1">
-                                                                    <Grid.ColumnDefinitions>
-                                                                        <ColumnDefinition Width="80" />
-                                                                        <ColumnDefinition Width="*" />
-                                                                    </Grid.ColumnDefinitions>
-                                                                    <Label
-                                                                        Grid.Column="0"
-                                                                        FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
-                                                                        FontSize="12"
-                                                                        HorizontalTextAlignment="Center"
-                                                                        Text="Viewed"
-                                                                        TextColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
-                                                                        VerticalOptions="Center"
-                                                                        VerticalTextAlignment="Start" />
-
-                                                                    <sfButtons:SfSwitch
-                                                                        x:Name="swtReadItem"
-                                                                        Grid.Column="1"
-                                                                        AutomationId="{Binding Name}"
-                                                                        HorizontalOptions="Start"
-                                                                        IsOn="{Binding ItemReadStatus}"
-                                                                        Orientation="Horizontal"
-                                                                        StateChanged="swtReadItem_StateChanged"
-                                                                        VisualType="Custom">
-                                                                        <VisualStateManager.VisualStateGroups>
-                                                                            <VisualStateGroup x:Name="CommonStates">
-
-                                                                                <VisualState x:Name="On">
-                                                                                    <VisualState.Setters>
-                                                                                        <Setter Property="SwitchSettings">
-                                                                                            <Setter.Value>
-                                                                                                <sfButtons:DefaultSwitchSettings
-                                                                                                    x:TypeArguments="sfButtons:OnState"
-                                                                                                    BusyIndicatorColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SwitchBusyIndicatorColorON, Converter={StaticResource stringToColorConverter}}"
-                                                                                                    ThumbBorderColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SwitchThumbBorderColorON, Converter={StaticResource stringToColorConverter}}"
-                                                                                                    ThumbColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SwitchThumbColorON, Converter={StaticResource stringToColorConverter}}"
-                                                                                                    TrackBorderColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SwitchTrackBorderColorON, Converter={StaticResource stringToColorConverter}}"
-                                                                                                    TrackColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SwitchTrackColorON, Converter={StaticResource stringToColorConverter}}" />
-                                                                                            </Setter.Value>
-                                                                                        </Setter>
-                                                                                    </VisualState.Setters>
-                                                                                </VisualState>
-
-                                                                                <VisualState x:Name="Off">
-                                                                                    <VisualState.Setters>
-                                                                                        <Setter Property="SwitchSettings">
-                                                                                            <Setter.Value>
-                                                                                                <sfButtons:DefaultSwitchSettings
-                                                                                                    x:TypeArguments="sfButtons:OffState"
-                                                                                                    BusyIndicatorColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SwitchBusyIndicatorColorOFF, Converter={StaticResource stringToColorConverter}}"
-                                                                                                    ThumbBorderColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SwitchThumbBorderColorOFF, Converter={StaticResource stringToColorConverter}}"
-                                                                                                    ThumbColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SwitchThumbColorOFF, Converter={StaticResource stringToColorConverter}}"
-                                                                                                    TrackBorderColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SwitchTrackBorderColorOFF, Converter={StaticResource stringToColorConverter}}"
-                                                                                                    TrackColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SwitchTrackColorOFF, Converter={StaticResource stringToColorConverter}}" />
-                                                                                            </Setter.Value>
-                                                                                        </Setter>
-                                                                                    </VisualState.Setters>
-                                                                                </VisualState>
-
-                                                                            </VisualStateGroup>
-                                                                        </VisualStateManager.VisualStateGroups>
-                                                                    </sfButtons:SfSwitch>
-                                                                </Grid>-->
                                                             </Grid>
                                                             <Grid Grid.Column="1">
                                                                 <Grid.RowDefinitions>
