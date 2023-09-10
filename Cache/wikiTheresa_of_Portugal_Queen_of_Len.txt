@@ -1,253 +1,98 @@
 <!DOCTYPE html>
-<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled" lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8"/>
+<meta charset="UTF-8">
 <title>Theresa of Portugal, Queen of León - Wikipedia</title>
-<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"6d032b71-32bd-40b2-949f-a1a29934ee13",
-"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Theresa_of_Portugal,_Queen_of_León","wgTitle":"Theresa of Portugal, Queen of León","wgCurRevisionId":1126466755,"wgRevisionId":1126466755,"wgArticleId":2406198,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description is different from Wikidata","1176 births","1250 deaths","House of Burgundy-Portugal","French beatified people","Benedictine nuns","Leonese queen consorts","Galician queens consort","13th-century Portuguese nuns","Portuguese infantas","Roman Catholic royal saints","13th-century venerated Christians","People from Coimbra","12th-century Portuguese women","12th-century nobility from León and Castile","13th-century people from the Kingdom of León","Beatifications by Pope Clement XI","Daughters of kings"],"wgPageContentLanguage":"en","wgPageContentModel"
-:"wikitext","wgRelevantPageName":"Theresa_of_Portugal,_Queen_of_León","wgRelevantArticleId":2406198,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":4000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q2594188","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,
-"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP",
-"ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
+"September","October","November","December"],"wgRequestId":"3caec76f-9702-4ed9-93eb-1ed873146bc4","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Theresa_of_Portugal,_Queen_of_León","wgTitle":"Theresa of Portugal, Queen of León","wgCurRevisionId":1170279950,"wgRevisionId":1170279950,"wgArticleId":2406198,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description is different from Wikidata","1176 births","1250 deaths","House of Burgundy-Portugal","French beatified people","Benedictine nuns","Queens consort of Leon","Galician queens consort","13th-century Portuguese nuns","Portuguese infantas","Roman Catholic royal saints","13th-century venerated Christians","People from Coimbra","12th-century Portuguese women","12th-century nobility from León and Castile","13th-century people from the Kingdom of León",
+"Beatifications by Pope Clement XI","Daughters of kings"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Theresa_of_Portugal,_Queen_of_León","wgRelevantArticleId":2406198,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":4000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,
+"wgWikibaseItemId":"Q2594188","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible",
+"skins.vector.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
 <script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
-<meta name="ResourceLoaderDynamicStyles" content=""/>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
-<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
-<meta name="referrer" content="origin"/>
-<meta name="referrer" content="origin-when-crossorigin"/>
-<meta name="referrer" content="origin-when-cross-origin"/>
-<meta name="robots" content="max-image-preview:standard"/>
-<meta name="format-detection" content="telephone=no"/>
-<meta name="viewport" content="width=1000"/>
-<meta property="og:title" content="Theresa of Portugal, Queen of León - Wikipedia"/>
-<meta property="og:type" content="website"/>
-<link rel="preconnect" href="//upload.wikimedia.org"/>
-<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Theresa_of_Portugal,_Queen_of_Le%C3%B3n"/>
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=edit"/>
-<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
-<link rel="icon" href="/static/favicon/wikipedia.ico"/>
-<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
-<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
-<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
-<link rel="canonical" href="https://en.wikipedia.org/wiki/Theresa_of_Portugal,_Queen_of_Le%C3%B3n"/>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.41.0-wmf.25">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-crossorigin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Theresa of Portugal, Queen of León - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Theresa_of_Portugal,_Queen_of_Le%C3%B3n">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Theresa_of_Portugal,_Queen_of_Le%C3%B3n">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
 <link rel="dns-prefetch" href="//meta.wikimedia.org" />
-<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org">
 </head>
-<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Theresa_of_Portugal_Queen_of_León rootpage-Theresa_of_Portugal_Queen_of_León skin-vector-2022 action-view"><div class="mw-page-container">
-	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
-	<div class="mw-page-container-inner">
-		<input
-			type="checkbox"
-			id="mw-sidebar-checkbox"
-			class="mw-checkbox-hack-checkbox"
-			>
-		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
-			<div class="vector-header-start">
-					<label
-				id="mw-sidebar-button"
-				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
-				for="mw-sidebar-checkbox"
-				role="button"
-				aria-controls="mw-panel"
-				data-event-name="ui.sidebar"
-				tabindex="0"
-				title="Main menu">
-				<span>Toggle sidebar</span>
-			</label>
-		
-<a href="/wiki/Main_Page" class="mw-logo">
-	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
-		aria-hidden="true" height="50" width="50">
-	<span class="mw-logo-container">
-		<img class="mw-logo-wordmark" alt="Wikipedia"
-			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
-		<img class="mw-logo-tagline"
-			alt="The Free Encyclopedia"
-			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
-	</span>
-</a>
-
-			</div>
-			<div class="vector-header-end">
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Theresa_of_Portugal_Queen_of_León rootpage-Theresa_of_Portugal_Queen_of_León skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
 				
-<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
-	<a href="/wiki/Special:Search"
-	
-		
-		
-		
-		title="Search Wikipedia [f]"
-		accesskey="f"
-		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
-		<span>Search</span>
-	</a>
-	
-	<div>
-		<form action="/w/index.php" id="searchform"
-			class="vector-search-box-form">
-			<div id="simpleSearch"
-				class="vector-search-box-inner"
-				 data-search-loc="header-moved">
-				<input class="vector-search-box-input"
-					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
-				>
-				<input type="hidden" name="title" value="Special:Search">
-				<input id="mw-searchButton"
-					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
-				<input id="searchButton"
-					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
-			</div>
-		</form>
-	</div>
-</div>
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
 
-				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
-	
-<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
-	<div class="vector-menu-heading">
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
 		
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Theresa+of+Portugal%2C+Queen+of+Le%C3%B3n" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
-		
-	</div>
-</div>
-
-	
-	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
-		<input type="checkbox"
-			id="p-personal-checkbox"
-			role="button"
-			aria-haspopup="true"
-			data-event-name="ui.dropdown-p-personal"
-			class="vector-menu-checkbox "
-			
-			
-		/>
-		<label
-			id="p-personal-label"
-			for="p-personal-checkbox"
-			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
-			
-		>
-			<span class="vector-menu-heading-label">Personal tools</span>
-		</label>
-		<div class="vector-menu-content">
-	
-		<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Theresa+of+Portugal%2C+Queen+of+Le%C3%B3n"
-	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
-</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:UserLogin&amp;returnto=Theresa+of+Portugal%2C+Queen+of+Le%C3%B3n"
-	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
-</li></ul>
-	
-</div>
-
-		<div class="vector-user-menu-anon-editor">
-			<p>
-				Pages for logged out editors <a data-mw="interface"
-	href="/wiki/Help:Introduction"
-	 aria-label="Learn more about editing"><span>learn more</span></a>
-
-			</p>
-		</div>
-				<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
-	
-</div>
-
-	
-		</div>
-	</div></nav>
-
-			</div>
-		</header>
-		<div class="vector-main-menu-container vector-sidebar-container-no-toc">
-			<div id="mw-navigation">
-				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
-						
 <div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
-	
-	
-<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
 	<div
-		id="p-navigation-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Navigation</span>
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 	
 	
-<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
-	<div
-		id="p-interaction-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Contribute</span>
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
-	<div
-		id="p-tb-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Tools</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Theresa_of_Portugal,_Queen_of_Le%C3%B3n" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Theresa_of_Portugal,_Queen_of_Le%C3%B3n" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;oldid=1126466755" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Theresa_of_Portugal%2C_Queen_of_Le%C3%B3n&amp;id=1126466755&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2594188" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
-	<div
-		id="p-coll-print_export-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Print/export</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Theresa_of_Portugal%2C_Queen_of_Le%C3%B3n&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
-	<div
-		id="p-wikibase-otherprojects-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">In other projects</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Teresa_of_Portugal,_Queen_of_Le%C3%B3n" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -257,73 +102,220 @@
 	<div class="vector-main-menu-action-item">
 		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
 		<div class="vector-main-menu-action-content vector-menu-content">
-			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Language links are at the top of the page across from the title.</div></div>
 		</div>
 	</div>
 </div>
 
-
 </div>
 
-				</nav>
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Theresa+of+Portugal%2C+Queen+of+Le%C3%B3n" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Theresa+of+Portugal%2C+Queen+of+Le%C3%B3n" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Theresa+of+Portugal%2C+Queen+of+Le%C3%B3n" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Theresa+of+Portugal%2C+Queen+of+Le%C3%B3n" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+					<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+					</div>
+		</nav>
 			</div>
 		</div>
 		<div class="vector-sitenotice-container">
 			<div id="siteNotice"><!-- CentralNotice --></div>
 		</div>
-		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
-		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="vector-menu-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark vector-sticky-pinned-container">
+			<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+			</div>
 		</nav>
 		<div class="mw-content-container">
 			<main id="content" class="mw-body" role="main">
 				<header class="mw-body-header vector-page-titlebar">
 					<label
 						id="vector-toc-collapsed-button"
-						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet vector-button-flush-left cdx-button--icon-only"
 						for="vector-toc-collapsed-checkbox"
 						role="button"
-						aria-controls="toc-toggle-list"
-						data-event-name="vector.toc-toggle-list"
+						aria-controls="vector-toc"
 						tabindex="0"
 						title="Table of Contents">
-						Toggle the table of contents
+						<span class="vector-icon mw-ui-icon-wikimedia-listBullet"></span>
+						<span>Toggle the table of contents</span>
 					</label>
-				
-					
-					
-				
-					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Theresa of Portugal, Queen of León</span></h1>
-				
-							
-<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
-	<input type="checkbox"
-		id="p-lang-btn-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-lang-btn"
-		class="vector-menu-checkbox mw-interlanguage-selector"
-		aria-label="Go to an article in another language. Available in 18 languages"
-		
-	/>
-	<label
-		id="p-lang-btn-label"
-		for="p-lang-btn-checkbox"
-		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-18"
-		
-	>
-		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">18 languages</span>
+					<nav role="navigation" aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Theresa of Portugal, Queen of León</span></h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 18 languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-18" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">18 languages</span>
+	</label>
+	<div class="vector-dropdown-content">
 
 		<div class="vector-menu-content">
 			
-			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%AA%D9%8A%D8%B1%D9%8A%D8%B2%D8%A7_%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84%D9%8A%D8%A9" title="تيريزا البرتغالية – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a href="https://br.wikipedia.org/wiki/Teresa_Portugal_(1181-1250)" title="Teresa Portugal (1181-1250) – Breton" lang="br" hreflang="br" class="interlanguage-link-target"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Teresa_de_Portugal_i_de_Barcelona" title="Teresa de Portugal i de Barcelona – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Tereza_Portugalsk%C3%A1_(1178%E2%80%931250)" title="Tereza Portugalská (1178–1250) – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Theresia_von_Portugal" title="Theresia von Portugal – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%98%CE%B7%CF%81%CE%B5%CF%83%CE%AF%CE%B1_%CF%84%CE%B7%CF%82_%CE%A0%CE%BF%CF%81%CF%84%CE%BF%CE%B3%CE%B1%CE%BB%CE%AF%CE%B1%CF%82,_%CE%B2%CE%B1%CF%83%CE%AF%CE%BB%CE%B9%CF%83%CF%83%CE%B1_%CF%84%CE%BF%CF%85_%CE%9B%CE%B5%CF%8C%CE%BD" title="Θηρεσία της Πορτογαλίας, βασίλισσα του Λεόν – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Teresa_de_Portugal_(reina_de_Le%C3%B3n)" title="Teresa de Portugal (reina de León) – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A8se_de_Portugal_(1176-1250)" title="Thérèse de Portugal (1176-1250) – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Tareixa_de_Portugal,_ra%C3%AD%C3%B1a_de_Le%C3%B3n_e_Galicia" title="Tareixa de Portugal, raíña de León e Galicia – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Teresa_del_Portogallo" title="Teresa del Portogallo – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%A2%E1%83%94%E1%83%A0%E1%83%94%E1%83%96%E1%83%90_%E1%83%9E%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%A3%E1%83%92%E1%83%90%E1%83%9A%E1%83%98%E1%83%94%E1%83%9A%E1%83%98_(1178-1250)" title="ტერეზა პორტუგალიელი (1178-1250) – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Theresia_van_Portugal" title="Theresia van Portugal – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%AC%E3%82%B5%E3%83%BB%E3%83%87%E3%83%BB%E3%83%9D%E3%83%AB%E3%83%88%E3%82%A5%E3%82%AC%E3%83%AB_(%E3%83%AC%E3%82%AA%E3%83%B3%E7%8E%8B%E5%A6%83)" title="テレサ・デ・ポルトゥガル (レオン王妃) – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Teresa_Portugalska_(kr%C3%B3lowa_Le%C3%B3nu)" title="Teresa Portugalska (królowa Leónu) – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Beata_Teresa_de_Portugal" title="Beata Teresa de Portugal – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%B5%D0%B7%D0%B0_%D0%9F%D0%BE%D1%80%D1%82%D1%83%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_(%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0_%D0%9B%D0%B5%D0%BE%D0%BD%D0%B0)" title="Тереза Португальская (королева Леона) – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Teresa_av_Portugal" title="Teresa av Portugal – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%B5%D0%B7%D0%B0_%D0%A1%D0%B0%D0%BD%D1%88%D1%96%D0%B2%D0%BD%D0%B0" title="Тереза Саншівна – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li></ul>
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%AA%D9%8A%D8%B1%D9%8A%D8%B2%D8%A7_%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84%D9%8A%D8%A9" title="تيريزا البرتغالية – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a href="https://br.wikipedia.org/wiki/Teresa_Portugal_(1181-1250)" title="Teresa Portugal (1181-1250) – Breton" lang="br" hreflang="br" class="interlanguage-link-target"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Teresa_de_Portugal_i_de_Barcelona" title="Teresa de Portugal i de Barcelona – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Tereza_Portugalsk%C3%A1_(1178%E2%80%931250)" title="Tereza Portugalská (1178–1250) – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Theresia_von_Portugal" title="Theresia von Portugal – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%98%CE%B7%CF%81%CE%B5%CF%83%CE%AF%CE%B1_%CF%84%CE%B7%CF%82_%CE%A0%CE%BF%CF%81%CF%84%CE%BF%CE%B3%CE%B1%CE%BB%CE%AF%CE%B1%CF%82,_%CE%B2%CE%B1%CF%83%CE%AF%CE%BB%CE%B9%CF%83%CF%83%CE%B1_%CF%84%CE%BF%CF%85_%CE%9B%CE%B5%CF%8C%CE%BD" title="Θηρεσία της Πορτογαλίας, βασίλισσα του Λεόν – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Teresa_de_Portugal_(reina_de_Le%C3%B3n)" title="Teresa de Portugal (reina de León) – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A8se_de_Portugal_(1176-1250)" title="Thérèse de Portugal (1176-1250) – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Tareixa_de_Portugal,_ra%C3%AD%C3%B1a_de_Le%C3%B3n_e_Galicia" title="Tareixa de Portugal, raíña de León e Galicia – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Teresa_del_Portogallo" title="Teresa del Portogallo – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%A2%E1%83%94%E1%83%A0%E1%83%94%E1%83%96%E1%83%90_%E1%83%9E%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%A3%E1%83%92%E1%83%90%E1%83%9A%E1%83%98%E1%83%94%E1%83%9A%E1%83%98_(1178-1250)" title="ტერეზა პორტუგალიელი (1178-1250) – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Theresia_van_Portugal" title="Theresia van Portugal – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%AC%E3%82%B5%E3%83%BB%E3%83%87%E3%83%BB%E3%83%9D%E3%83%AB%E3%83%88%E3%82%A5%E3%82%AC%E3%83%AB_(%E3%83%AC%E3%82%AA%E3%83%B3%E7%8E%8B%E5%A6%83)" title="テレサ・デ・ポルトゥガル (レオン王妃) – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Teresa_Portugalska_(kr%C3%B3lowa_Le%C3%B3nu)" title="Teresa Portugalska (królowa Leónu) – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Beata_Teresa_de_Portugal" title="Beata Teresa de Portugal – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%B5%D0%B7%D0%B0_%D0%9F%D0%BE%D1%80%D1%82%D1%83%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_(%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0_%D0%9B%D0%B5%D0%BE%D0%BD%D0%B0)" title="Тереза Португальская (королева Леона) – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Teresa_av_Portugal" title="Teresa av Portugal – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%B5%D0%B7%D0%B0_%D0%A1%D0%B0%D0%BD%D1%88%D1%96%D0%B2%D0%BD%D0%B0" title="Тереза Саншівна – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li>
+			</ul>
 			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2594188#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
 		</div>
 
 	</div>
 </div>
-				</header>
+</header>
 				<div class="vector-page-toolbar">
 					<div class="vector-page-toolbar-container">
 						<div id="left-navigation">
@@ -332,41 +324,38 @@
 <div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Theresa_of_Portugal,_Queen_of_Le%C3%B3n" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Theresa_of_Portugal,_Queen_of_Le%C3%B3n" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Theresa_of_Portugal,_Queen_of_Le%C3%B3n" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Theresa_of_Portugal,_Queen_of_Le%C3%B3n" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 								
-
-<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
-	<input type="checkbox"
-		id="p-variants-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-variants"
-		class="vector-menu-checkbox"
-		aria-label="Change language variant"
-		
-	/>
-	<label
-		id="p-variants-label"
-		for="p-variants-checkbox"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">English</span>
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"></ul>
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
 		
-	</div>
-
 	</div>
 </div>
+
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 						<div id="right-navigation" class="vector-collapsible">
@@ -375,7 +364,10 @@
 <div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Theresa_of_Portugal,_Queen_of_Le%C3%B3n"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Theresa_of_Portugal,_Queen_of_Le%C3%B3n"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -384,40 +376,103 @@
 				
 							<nav class="vector-page-tools-landmark" aria-label="More options">
 								
-
-<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
-	<input type="checkbox"
-		id="p-cactions-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-cactions"
-		class="vector-menu-checkbox"
-		
-		
-	/>
-	<label
-		id="p-cactions-label"
-		for="p-cactions-checkbox"
-		class="vector-menu-heading"
-		
-	>
-		<span class="vector-menu-heading-label">More</span>
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Theresa_of_Portugal,_Queen_of_Le%C3%B3n"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=history"><span>View history</span></a></li></ul>
-		
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
 	</div>
-
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Theresa_of_Portugal,_Queen_of_Le%C3%B3n"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
 	</div>
 </div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Theresa_of_Portugal,_Queen_of_Le%C3%B3n" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Theresa_of_Portugal,_Queen_of_Le%C3%B3n" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;oldid=1170279950" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Theresa_of_Portugal%2C_Queen_of_Le%C3%B3n&amp;id=1170279950&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2594188" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Theresa_of_Portugal%2C_Queen_of_Le%C3%B3n&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Teresa_of_Portugal,_Queen_of_Le%C3%B3n" hreflang="en"><span>Wikimedia Commons</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 					</div>
 				</div>
-				
+				<div class="vector-column-end">
+					<nav class="vector-page-tools-landmark vector-sticky-pinned-container" aria-label="More options">
+						<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+			
+						</div>
+	</nav>
+				</div>
 				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
 					<div class="vector-body-before-content">
 							<div class="mw-indicators">
@@ -429,24 +484,21 @@
 					
 					
 					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Queen consort of León</div>
-<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above fn" style="background-color: #cbe; font-size: 125%">Theresa of Portugal</th></tr><tr><th colspan="2" class="infobox-header" style="background-color: #e4dcf6;line-height:normal;padding:0.2em 0.2em"><a href="/wiki/Queen_consort_of_Le%C3%B3n" class="mw-redirect" title="Queen consort of León">Queen consort of León</a></th></tr><tr><th scope="row" class="infobox-label">Tenure</th><td class="infobox-data">1191–1195</td></tr><tr><th colspan="2" class="infobox-header" style="background-color: #e4dcf6;line-height:normal;padding:0.2em 0.2em"><div style="height: 4px; width:100%;"></div></th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">1176<br /><a href="/wiki/Kingdom_of_Portugal" title="Kingdom of Portugal">Kingdom of Portugal</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">18 June 1250<span style="display:none">(1250-06-18)</span> (aged&#160;73–74)<br />Lorvão Abbey, Kingdom of Portugal</td></tr><tr><th scope="row" class="infobox-label">Burial</th><td class="infobox-data"><div style="display:inline" class="label">Lorvão Abbey, Portugal</div></td></tr><tr><th scope="row" class="infobox-label">Spouse</th><td class="infobox-data"><div style="display:inline;white-space:nowrap;"><div style="display:inline-block;line-height:normal;margin-top:1px;white-space:normal;"><a href="/wiki/Alfonso_IX_of_Le%C3%B3n" title="Alfonso IX of León">Alfonso IX of León</a><br /></div>
-   <div style="line-height:0;margin-bottom:-2px;">&#8203;</div>&#32;<div style="display:inline-block;margin-bottom:1px;">&#8203;</div>&#40;<abbr title="married">m.</abbr>&#160;1191&#59;&#32;annulled&#160;1196&#41;<wbr />&#8203;</div></td></tr><tr><th scope="row" class="infobox-label">Issue</th><td class="infobox-data"><a href="/wiki/Sancha_of_Le%C3%B3n_(born_1191/2)" class="mw-redirect" title="Sancha of León (born 1191/2)">Sancha</a><br /><a href="/wiki/Dulce_of_Le%C3%B3n" title="Dulce of León">Dulce</a><br /><a href="/wiki/Ferdinand_of_Le%C3%B3n_(died_1214)" title="Ferdinand of León (died 1214)">Ferdinand</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Dynasty" title="Dynasty">House</a></th><td class="infobox-data"><a href="/wiki/Portuguese_House_of_Burgundy" title="Portuguese House of Burgundy">House of Burgundy</a></td></tr><tr><th scope="row" class="infobox-label">Father</th><td class="infobox-data"><a href="/wiki/Sancho_I_of_Portugal" title="Sancho I of Portugal">Sancho I of Portugal</a></td></tr><tr><th scope="row" class="infobox-label">Mother</th><td class="infobox-data"><a href="/wiki/Dulce_of_Aragon" title="Dulce of Aragon">Dulce of Aragon</a></td></tr><tr><th scope="row" class="infobox-label">Religion</th><td class="infobox-data"><a href="/wiki/Roman_Catholicism" class="mw-redirect" title="Roman Catholicism">Roman Catholicism</a></td></tr></tbody></table>
-<p><b>Theresa of Portugal</b>; 1176 &#8211; 18 June 1250) was Queen of Léon as the first wife of her first cousin King <a href="/wiki/Alfonso_IX_of_Le%C3%B3n" title="Alfonso IX of León">Alfonso IX of León</a>. She was born the oldest daughter of <a href="/wiki/Sancho_I_of_Portugal" title="Sancho I of Portugal">Sancho I of Portugal</a> and <a href="/wiki/Dulce_of_Aragon" title="Dulce of Aragon">Dulce of Aragon</a>. When her marriage was annulled because of <a href="/wiki/Consanguinity" title="Consanguinity">consanguinity</a>, she retired to a convent. She was <a href="/wiki/Beatified" class="mw-redirect" title="Beatified">beatified</a> in 1705.
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above fn" style="background-color: #cbe; font-size: 125%">Theresa of Portugal</th></tr><tr><th colspan="2" class="infobox-header" style="background-color: #e4dcf6;line-height:normal;padding:0.2em 0.2em"><a href="/wiki/Queen_consort_of_Le%C3%B3n" class="mw-redirect" title="Queen consort of León">Queen consort of León</a></th></tr><tr><th scope="row" class="infobox-label">Tenure</th><td class="infobox-data">1191–1195</td></tr><tr><th colspan="2" class="infobox-header" style="background-color: #e4dcf6;line-height:normal;padding:0.2em 0.2em"><div style="height: 4px; width:100%;"></div></th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">1176<br /><a href="/wiki/Kingdom_of_Portugal" title="Kingdom of Portugal">Kingdom of Portugal</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">18 June 1250<span style="display:none">(1250-06-18)</span> (aged&#160;73–74)<br />Lorvão Abbey, Kingdom of Portugal</td></tr><tr><th scope="row" class="infobox-label">Burial</th><td class="infobox-data"><div style="display:inline" class="label">Lorvão Abbey, Portugal</div></td></tr><tr><th scope="row" class="infobox-label">Spouse</th><td class="infobox-data"><style data-mw-deduplicate="TemplateStyles:r1151524712">.mw-parser-output .marriage-line-margin2px{line-height:0;margin-bottom:-2px}.mw-parser-output .marriage-line-margin3px{line-height:0;margin-bottom:-3px}.mw-parser-output .marriage-display-ws{display:inline;white-space:nowrap}</style>
+<div class="marriage-display-ws"><div style="display:inline-block;line-height:normal;margin-top:1px;white-space:normal;"><a href="/wiki/Alfonso_IX_of_Le%C3%B3n" title="Alfonso IX of León">Alfonso IX of León</a><br /></div>
+   <div class="marriage-line-margin2px">&#8203;</div>&#32;<div style="display:inline-block;margin-bottom:1px;">&#8203;</div>&#40;<abbr title="married">m.</abbr>&#160;1191&#59;&#32;annulled&#160;1196&#41;<wbr />&#8203;</div></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Issue_(genealogy)" title="Issue (genealogy)">Issue</a></th><td class="infobox-data"><a href="/wiki/Sancha_of_Le%C3%B3n_(born_1191/2)" class="mw-redirect" title="Sancha of León (born 1191/2)">Sancha</a><br /><a href="/wiki/Dulce_of_Le%C3%B3n" title="Dulce of León">Dulce</a><br /><a href="/wiki/Ferdinand_of_Le%C3%B3n_(died_1214)" title="Ferdinand of León (died 1214)">Ferdinand</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Dynasty" title="Dynasty">House</a></th><td class="infobox-data"><a href="/wiki/Portuguese_House_of_Burgundy" title="Portuguese House of Burgundy">House of Burgundy</a></td></tr><tr><th scope="row" class="infobox-label">Father</th><td class="infobox-data"><a href="/wiki/Sancho_I_of_Portugal" title="Sancho I of Portugal">Sancho I of Portugal</a></td></tr><tr><th scope="row" class="infobox-label">Mother</th><td class="infobox-data"><a href="/wiki/Dulce_of_Aragon" title="Dulce of Aragon">Dulce of Aragon</a></td></tr><tr><th scope="row" class="infobox-label">Religion</th><td class="infobox-data"><a href="/wiki/Roman_Catholicism" class="mw-redirect" title="Roman Catholicism">Roman Catholicism</a></td></tr></tbody></table>
+<p><b>Theresa of Portugal</b> (1176 – 18 June 1250) was Queen of Léon as the first wife of her first cousin King <a href="/wiki/Alfonso_IX_of_Le%C3%B3n" title="Alfonso IX of León">Alfonso IX of León</a>. She was born the oldest daughter of <a href="/wiki/Sancho_I_of_Portugal" title="Sancho I of Portugal">Sancho I of Portugal</a> and <a href="/wiki/Dulce_of_Aragon" title="Dulce of Aragon">Dulce of Aragon</a>. When her marriage was annulled because of <a href="/wiki/Consanguinity" title="Consanguinity">consanguinity</a>, she retired to a convent. She was <a href="/wiki/Beatified" class="mw-redirect" title="Beatified">beatified</a> in 1705.
 </p><p>Theresa was the mother to three of Alfonso's children—two daughters, <a href="/wiki/Sancha,_heiress_of_Le%C3%B3n" title="Sancha, heiress of León">Sancha</a> and <a href="/wiki/Dulce_of_Le%C3%B3n" title="Dulce of León">Dulce</a>, and a son, <a href="/wiki/Ferdinand_of_Le%C3%B3n_(died_1214)" title="Ferdinand of León (died 1214)">Ferdinand</a>, who was the heir of the kingdom until his death in 1214—but when her marriage to Alfonso was declared invalid because they were first cousins, she returned to the Kingdom of Portugal and lived in the Monastery of Lorvão, formerly under the  <a href="/wiki/Benedictine" class="mw-redirect" title="Benedictine">Benedictine</a> rule, which she converted into a <a href="/wiki/Cistercian_convent" class="mw-redirect" title="Cistercian convent">Cistercian convent</a>, with over 300 <a href="/wiki/Nuns" class="mw-redirect" title="Nuns">nuns</a>.
-</p><p>In 1230, Alfonso died after having several children with a second wife, Queen <a href="/wiki/Berengaria_of_Castile" title="Berengaria of Castile">Berengaria of Castile</a>. This second marriage was also annulled because Berengaria was Alfonso's first cousin once removed. With two invalidated marriages, there was dispute among the children as to who would inherit the throne. Theresa negotiated the <a href="/wiki/Treaty_of_Benavente" title="Treaty of Benavente">Treaty of Benavente</a> by which Sancha and Dulce stepped aside and allowed <a href="/wiki/Ferdinand_III_of_Castile" title="Ferdinand III of Castile">Ferdinand III of Castile</a>, Berengaria's eldest son, to take the throne of <a href="/wiki/Kingdom_of_Le%C3%B3n" title="Kingdom of León">León</a>. After the succession dispute, Theresa returned to Lorvão and finally took her convent vows after years of living as a nun. She died in the convent on 18 June 1250, of natural causes.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup>
-</p><p>On 13 December 1705 Theresa was <a href="/wiki/Beatified" class="mw-redirect" title="Beatified">beatified</a> by <a href="/wiki/Pope_Clement_XI" title="Pope Clement XI">Pope Clement XI</a>'s <a href="/wiki/Papal_bull" title="Papal bull">papal bull</a> <i>Sollicitudo Pastoralis Offici</i>, along with her sister <a href="/wiki/Sancha,_Lady_of_Alenquer" title="Sancha, Lady of Alenquer">Sancha</a>. Her <a href="/wiki/Feast_day" class="mw-redirect" title="Feast day">feast day</a> was originally 17 June but since 1962 has been observed concurrent with that of her two sisters Sancha and <a href="/wiki/Mafalda_of_Portugal" title="Mafalda of Portugal">Mafalda</a> on 20 June.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+</p><p>In 1230, Alfonso died after having several children with a second wife, Queen <a href="/wiki/Berengaria_of_Castile" title="Berengaria of Castile">Berengaria of Castile</a>. This second marriage was also annulled because Berengaria was Alfonso's first cousin once removed. With two invalidated marriages, there was dispute among the children as to who would inherit the throne. Theresa negotiated the <a href="/wiki/Treaty_of_Benavente" title="Treaty of Benavente">Treaty of Benavente</a> by which Sancha and Dulce stepped aside and allowed <a href="/wiki/Ferdinand_III_of_Castile" title="Ferdinand III of Castile">Ferdinand III of Castile</a>, Berengaria's eldest son, to take the throne of <a href="/wiki/Kingdom_of_Le%C3%B3n" title="Kingdom of León">León</a>. After the succession dispute, Theresa returned to Lorvão and finally took her convent vows after years of living as a nun. She died in the convent on 18 June 1250, of natural causes.
+</p><p>On 13 December 1705 Theresa was <a href="/wiki/Beatified" class="mw-redirect" title="Beatified">beatified</a> by <a href="/wiki/Pope_Clement_XI" title="Pope Clement XI">Pope Clement XI</a>'s <a href="/wiki/Papal_bull" title="Papal bull">papal bull</a> <i>Sollicitudo Pastoralis Offici</i>, along with her sister <a href="/wiki/Sancha,_Lady_of_Alenquer" title="Sancha, Lady of Alenquer">Sancha</a>. Her <a href="/wiki/Feast_day" class="mw-redirect" title="Feast day">feast day</a> was originally 17 June but since 1962 has been observed concurrent with that of her two sisters Sancha and <a href="/wiki/Mafalda_of_Portugal" title="Mafalda of Portugal">Mafalda</a> on 20 June.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup>
 </p>
 <h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;action=edit&amp;section=1" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
 <div class="mw-references-wrap"><ol class="references">
-<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://fmg.ac/Projects/MedLands/CASTILE.htm#AlfonsoIXLeondied1230B">"KINGS of CASTILE &amp; LEÓN"</a>. <i>fmg.ac</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2018-07-03</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=fmg.ac&amp;rft.atitle=KINGS+of+CASTILE+%26+LE%C3%93N&amp;rft_id=http%3A%2F%2Ffmg.ac%2FProjects%2FMedLands%2FCASTILE.htm%23AlfonsoIXLeondied1230B&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATheresa+of+Portugal%2C+Queen+of+Le%C3%B3n" class="Z3988"></span></span>
-</li>
-<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://fmg.ac/Projects/MedLands/PORTUGAL.htm#Teresadied1250">"PORTUGAL"</a>. <i>fmg.ac</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2018-07-03</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=fmg.ac&amp;rft.atitle=PORTUGAL&amp;rft_id=http%3A%2F%2Ffmg.ac%2FProjects%2FMedLands%2FPORTUGAL.htm%23Teresadied1250&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATheresa+of+Portugal%2C+Queen+of+Le%C3%B3n" class="Z3988"></span></span>
-</li>
-<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFLackner" class="citation web cs1">Lackner, Bede. <a rel="nofollow" class="external text" href="http://monasticmatrix.osu.edu/commentaria/cistercian-royal-blood-blessed-teresa-portugal">"A Cistercian of royal blood: Blessed Teresa of Portugal in Vox Benedictina: A Journal of Translations from Monastic Sources 6: 2 (1989): 100-19"</a>. <i>Monastic Matrix</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2020-06-18</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Monastic+Matrix&amp;rft.atitle=A+Cistercian+of+royal+blood%3A+Blessed+Teresa+of+Portugal+in+Vox+Benedictina%3A+A+Journal+of+Translations+from+Monastic+Sources+6%3A+2+%281989%29%3A+100-19&amp;rft.aulast=Lackner&amp;rft.aufirst=Bede&amp;rft_id=http%3A%2F%2Fmonasticmatrix.osu.edu%2Fcommentaria%2Fcistercian-royal-blood-blessed-teresa-portugal&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATheresa+of+Portugal%2C+Queen+of+Le%C3%B3n" class="Z3988"></span></span>
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFLackner" class="citation web cs1">Lackner, Bede. <a rel="nofollow" class="external text" href="http://monasticmatrix.osu.edu/commentaria/cistercian-royal-blood-blessed-teresa-portugal">"A Cistercian of royal blood: Blessed Teresa of Portugal in Vox Benedictina: A Journal of Translations from Monastic Sources 6: 2 (1989): 100-19"</a>. <i>Monastic Matrix</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2020-06-18</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Monastic+Matrix&amp;rft.atitle=A+Cistercian+of+royal+blood%3A+Blessed+Teresa+of+Portugal+in+Vox+Benedictina%3A+A+Journal+of+Translations+from+Monastic+Sources+6%3A+2+%281989%29%3A+100-19&amp;rft.aulast=Lackner&amp;rft.aufirst=Bede&amp;rft_id=http%3A%2F%2Fmonasticmatrix.osu.edu%2Fcommentaria%2Fcistercian-royal-blood-blessed-teresa-portugal&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATheresa+of+Portugal%2C+Queen+of+Le%C3%B3n" class="Z3988"></span></span>
 </li>
 </ol></div></div>
-<table class="wikitable succession-box noprint" style="margin:0.5em auto; font-size:95%;clear:both;">
+<table class="wikitable succession-box noprint" style="margin:0.5em auto; font-size:small;clear:both;">
 
 
 <tbody><tr style="text-align:center;">
@@ -457,10 +509,10 @@
 <td style="width: 30%; text-align: center;" rowspan="1">Succeeded&#160;by<div style="font-weight: bold"><a href="/wiki/Berenguela_of_Castile" class="mw-redirect" title="Berenguela of Castile">Berenguela of Castile</a></div>
 </td></tr>
 </tbody></table>
-<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Infantas_of_Portugal" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Portuguese_infantas" title="Template:Portuguese infantas"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Portuguese_infantas" title="Template talk:Portuguese infantas"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Portuguese_infantas&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Infantas_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Infante_of_Portugal" title="Infante of Portugal">Infantas of Portugal</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div id="The_generations_indicate_descent_form_Afonso_I,_and_continues_through_the_House_of_Aviz,_the_House_of_Habsburg_through_Infanta_Isabel,_Holy_Roman_Empress_and_Queen_of_Spain,_and_the_House_of_Braganza_through_Infanta_Catarina,_Duchess_of_Braganza.">The generations indicate descent form <a href="/wiki/Afonso_I_of_Portugal" title="Afonso I of Portugal">Afonso I</a>, and continues through the <a href="/wiki/House_of_Aviz" title="House of Aviz">House of Aviz</a>, the <a href="/wiki/House_of_Habsburg" title="House of Habsburg">House of Habsburg</a> through <a href="/wiki/Isabella_of_Portugal" title="Isabella of Portugal">Infanta Isabel, Holy Roman Empress and Queen of Spain</a>, and the <a href="/wiki/House_of_Braganza" title="House of Braganza">House of Braganza</a> through <a href="/wiki/Catarina_of_Portugal,_Duchess_of_Braganza" title="Catarina of Portugal, Duchess of Braganza">Infanta Catarina, Duchess of Braganza</a>.</div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">1st generation</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Infantas_of_Portugal" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Portuguese_infantas" title="Template:Portuguese infantas"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Portuguese_infantas" title="Template talk:Portuguese infantas"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Portuguese_infantas&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Infantas_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Infante_of_Portugal" title="Infante of Portugal">Infantas of Portugal</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div>The generations indicate descent form <a href="/wiki/Afonso_I_of_Portugal" title="Afonso I of Portugal">Afonso I</a>, and continues through the <a href="/wiki/House_of_Aviz" title="House of Aviz">House of Aviz</a>, the <a href="/wiki/House_of_Habsburg" title="House of Habsburg">House of Habsburg</a> through <a href="/wiki/Isabella_of_Portugal" title="Isabella of Portugal">Infanta Isabel, Holy Roman Empress and Queen of Spain</a>, and the <a href="/wiki/House_of_Braganza" title="House of Braganza">House of Braganza</a> through <a href="/wiki/Catarina_of_Portugal,_Duchess_of_Braganza" title="Catarina of Portugal, Duchess of Braganza">Infanta Catarina, Duchess of Braganza</a>.</div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">1st generation</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Urraca_of_Portugal" title="Urraca of Portugal">Urraca, Queen of León</a></li>
 <li><a href="/wiki/Theresa_of_Portugal,_Countess_of_Flanders" title="Theresa of Portugal, Countess of Flanders">Teresa, Countess of Flanders</a></li>
-<li><a href="/wiki/Mafalda_of_Portugal_(daughter_of_Afonso_Henriques)" class="mw-redirect" title="Mafalda of Portugal (daughter of Afonso Henriques)">Infanta Mafalda</a></li></ul>
+<li><a href="/wiki/Mafalda_of_Portugal_(born_1153)" title="Mafalda of Portugal (born 1153)">Infanta Mafalda</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">2nd generation</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a class="mw-selflink selflink">Teresa, Queen of León</a></li>
 <li><a href="/wiki/Sancha,_Lady_of_Alenquer" title="Sancha, Lady of Alenquer">Infanta Sancha, Lady of Alenquer</a></li>
@@ -504,16 +556,16 @@
 <li><a href="/wiki/Maria_of_Portugal,_Duchess_of_Viseu" title="Maria of Portugal, Duchess of Viseu">Infanta Maria, Duchess of Viseu</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">12th generation</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Maria_Manuela,_Princess_of_Portugal" title="Maria Manuela, Princess of Portugal">Maria Manuela, Princess of Portugal and Asturias</a></li>
-<li><a href="/wiki/Infanta_Maria_of_Guimar%C3%A3es" class="mw-redirect" title="Infanta Maria of Guimarães">Maria, Hereditary Princess of Parma</a></li>
+<li><a href="/wiki/Maria_of_Portugal,_Hereditary_Princess_of_Parma" title="Maria of Portugal, Hereditary Princess of Parma">Maria, Hereditary Princess of Parma</a></li>
 <li><a href="/wiki/Catarina_of_Portugal,_Duchess_of_Braganza" title="Catarina of Portugal, Duchess of Braganza">Infanta Catarina, Duchess of Braganza</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">13th generation</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Isabella_Clara_Eugenia" title="Isabella Clara Eugenia">Isabel Clara, Archduchess of Austria</a>*</li>
 <li><a href="/wiki/Catalina_Micaela_of_Spain" title="Catalina Micaela of Spain">Catalina Micaela, Duchess of Savoy</a>*</li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">14th generation</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Anne_of_Austria" title="Anne of Austria">Ana, Queen of France</a>*</li>
-<li><a href="/wiki/Maria_of_Spain_(1603)" class="mw-redirect" title="Maria of Spain (1603)">María</a>*</li>
+<li><a href="/wiki/Infanta_Maria_of_Spain_(1603)" title="Infanta Maria of Spain (1603)">María</a>*</li>
 <li><a href="/wiki/Maria_Anna_of_Spain" title="Maria Anna of Spain">María Ana, Holy Roman Empress</a>*</li>
-<li><a href="/wiki/Infanta_Margarita_of_Spain_(1610-1617)" title="Infanta Margarita of Spain (1610-1617)">Margarita</a>*</li></ul>
+<li><a href="/wiki/Infanta_Margarita_of_Spain_(1610%E2%80%931617)" title="Infanta Margarita of Spain (1610–1617)">Margarita</a>*</li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">15th generation</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Maria_Theresa_of_Spain" title="Maria Theresa of Spain">María Teresa, Queen of France</a>*</li>
 <li><a href="/wiki/Joana,_Princess_of_Beira" title="Joana, Princess of Beira">Joana, Princess of Beira</a></li>
@@ -529,7 +581,7 @@
 <li><a href="/wiki/Infanta_Doroteia_of_Braganza" title="Infanta Doroteia of Braganza">Maria Doroteia</a></li>
 <li><a href="/wiki/Infanta_Benedita_of_Braganza" title="Infanta Benedita of Braganza">Benedita, Princess of Brazil</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">19th generation</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><a href="/wiki/Infanta_Mariana_Victoria_of_Portugal" class="mw-redirect" title="Infanta Mariana Victoria of Portugal">Mariana Victoria, Infanta Gabriel of Spain</a></li></ul>
+<ul><li><a href="/wiki/Infanta_Mariana_Vit%C3%B3ria_of_Braganza" title="Infanta Mariana Vitória of Braganza">Mariana Victoria, Infanta Gabriel of Spain</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">20th generation</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Infanta_Maria_Teresa_of_Braganza" title="Infanta Maria Teresa of Braganza">Infanta Maria Teresa</a></li>
 <li><a href="/wiki/Maria_Isabel_of_Braganza" title="Maria Isabel of Braganza">Maria Isabel, Queen of Spain</a></li>
@@ -546,18 +598,18 @@
 <li><a href="/wiki/Infanta_Maria_das_Neves_of_Portugal" title="Infanta Maria das Neves of Portugal">Infanta Maria das Neves, Duchess of San Jaime</a>ƒ</li>
 <li><a href="/wiki/Infanta_Maria_Theresa_of_Portugal" title="Infanta Maria Theresa of Portugal">Maria Teresa, Archduchess Karl Ludwig of Austria</a>ƒ</li>
 <li><a href="/wiki/Infanta_Maria_Josepha_of_Portugal" title="Infanta Maria Josepha of Portugal">Maria José, Duchess Karl Theodor in Bavaria</a>ƒ</li>
-<li><a href="/wiki/Infanta_Aldegundes,_Duchess_of_Guimar%C3%A3es" class="mw-redirect" title="Infanta Aldegundes, Duchess of Guimarães">Infanta Aldegundes, Duchess of Guimarães</a>ƒ</li>
+<li><a href="/wiki/Infanta_Adelgundes,_Duchess_of_Guimar%C3%A3es" title="Infanta Adelgundes, Duchess of Guimarães">Infanta Adelgundes, Duchess of Guimarães</a>ƒ</li>
 <li><a href="/wiki/Infanta_Marie_Anne_of_Portugal" title="Infanta Marie Anne of Portugal">Maria Ana, Grand Duchess of Luxembourg</a>ƒ</li>
-<li><a href="/wiki/Infanta_Maria_Antonia_of_Portugal" class="mw-redirect" title="Infanta Maria Antonia of Portugal">Maria Antónia, Duchess of Parma</a>ƒ</li></ul>
+<li><a href="/wiki/Infanta_Maria_Ant%C3%B3nia_of_Portugal" title="Infanta Maria Antónia of Portugal">Maria Antónia, Duchess of Parma</a>ƒ</li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">22nd generation</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><a href="/wiki/Infanta_Maria_Anna_of_Portugal_(1843%E2%80%931884)" class="mw-redirect" title="Infanta Maria Anna of Portugal (1843–1884)">Maria Ana, Princess Georg of Saxony</a>***</li>
+<ul><li><a href="/wiki/Infanta_Maria_Ana_of_Portugal_(1843%E2%80%931884)" title="Infanta Maria Ana of Portugal (1843–1884)">Maria Ana, Princess Georg of Saxony</a>***</li>
 <li><a href="/wiki/Infanta_Ant%C3%B3nia_of_Portugal" title="Infanta Antónia of Portugal">Antónia, Princess of Hohenzollern</a>***</li>
 <li><a href="/wiki/Princess_Maria_Theresa_of_Braganza" title="Princess Maria Theresa of Braganza">Maria Teresa, Princess Karl Ludwig of Thurn und Taxis</a>ƒ◙</li>
 <li><a href="/wiki/Princess_Isabel_Maria_of_Braganza" title="Princess Isabel Maria of Braganza">Isabel Maria, Princess of Thurn und Taxis</a>ƒ◙</li>
-<li><a href="/wiki/Princess_Maria_Anna_of_Braganza" class="mw-redirect" title="Princess Maria Anna of Braganza">Maria Ana, Princess Karl August of Thurn und Taxis</a>ƒ◙</li>
+<li><a href="/wiki/Princess_Maria_Ana_of_Braganza" title="Princess Maria Ana of Braganza">Maria Ana, Princess Karl August of Thurn und Taxis</a>ƒ◙</li>
 <li><a href="/wiki/Maria_Adelaide_de_Bragan%C3%A7a" title="Maria Adelaide de Bragança">Infanta Maria Adelaide, Mrs. van Uden</a>ƒ◙</li></ul>
-</div></td></tr></tbody></table><div></div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><small>* <i>also an infanta of Spain and an archduchess of Austria</i>,<span class="nowrap">&#160;&#160;</span>** <i>also an imperial princess of Brazil</i>,<span class="nowrap">&#160;&#160;</span>*** <i>also a princess of Saxe-Coburg and Gotha, Duchess in Saxony</i>,<span class="nowrap">&#160;&#160;</span>◙ <i>Also a princess of Braganza</i>,<span class="nowrap">&#160;&#160;</span>¤ <i>title removed in 1920 as her parents' marriage was deemed undynastic</i>, <span class="nowrap">&#160;&#160;</span>ƒ <i>claimant infanta</i></small></div></td></tr></tbody></table></div>
-<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox" aria-labelledby="Portuguese_House_of_Burgundy" style="padding:3px"><table class="nowraplinks hlist mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"/><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:House_of_Burgundy-Portugal" title="Template:House of Burgundy-Portugal"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:House_of_Burgundy-Portugal" title="Template talk:House of Burgundy-Portugal"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:House_of_Burgundy-Portugal&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Portuguese_House_of_Burgundy" style="font-size:114%;margin:0 4em"><a href="/wiki/Portuguese_House_of_Burgundy" title="Portuguese House of Burgundy">Portuguese House of Burgundy</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks mw-collapsible mw-collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="padding-left:120px;"><div id="Henry,_Count_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Henry,_Count_of_Portugal" title="Henry, Count of Portugal">Henry, Count of Portugal</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:8.75em">Spouse(s)</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+</div></td></tr></tbody></table><div></div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><i>* also an infanta of Spain and an archduchess of Austria</i>,<span class="nowrap">&#160;&#160;</span>** <i>also an imperial princess of Brazil</i>,<span class="nowrap">&#160;&#160;</span>*** <i>also a princess of Saxe-Coburg and Gotha, Duchess in Saxony</i>,<span class="nowrap">&#160;&#160;</span>◙ <i>Also a princess of Braganza</i>,<span class="nowrap">&#160;&#160;</span>¤ <i>title removed in 1920 as her parents' marriage was deemed undynastic</i>, <span class="nowrap">&#160;&#160;</span>ƒ <i>claimant infanta</i></div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"></div><div role="navigation" class="navbox" aria-labelledby="Portuguese_House_of_Burgundy" style="padding:3px"><table class="nowraplinks hlist mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:House_of_Burgundy-Portugal" title="Template:House of Burgundy-Portugal"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:House_of_Burgundy-Portugal" title="Template talk:House of Burgundy-Portugal"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:House_of_Burgundy-Portugal&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Portuguese_House_of_Burgundy" style="font-size:114%;margin:0 4em"><a href="/wiki/Portuguese_House_of_Burgundy" title="Portuguese House of Burgundy">Portuguese House of Burgundy</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks mw-collapsible mw-collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="padding-left:120px;"><div id="Henry,_Count_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Henry,_Count_of_Portugal" title="Henry, Count of Portugal">Henry, Count of Portugal</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:8.75em">Spouse(s)</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Theresa,_Countess_of_Portugal" title="Theresa, Countess of Portugal">Theresa of León</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:8.75em">Children</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
 <ul><li>Urraca Henriques, wife of Bermudo Pérez de Traba</li>
@@ -574,7 +626,7 @@
 <li><a href="/wiki/Sancho_I_of_Portugal" title="Sancho I of Portugal">Sancho I</a></li>
 <li>Infante João</li>
 <li><a href="/wiki/Theresa_of_Portugal,_Countess_of_Flanders" title="Theresa of Portugal, Countess of Flanders">Theresa, Countess of Flanders and Duchess of Burgundy</a></li></ul>
-</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td><td class="noviewer navbox-image" rowspan="10" style="width:1px;padding:0 0 0 2px"><div><a href="/wiki/File:Coat_of_Arms_of_D._Henry_of_Burgundy,_Count_of_Portugal.png" class="image"><img alt="Coat of Arms of D. Henry of Burgundy, Count of Portugal.png" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/120px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png" decoding="async" width="120" height="132" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/180px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/240px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png 2x" data-file-width="520" data-file-height="570" /></a></div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks mw-collapsible mw-collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="padding-left:120px;"><div id="Afonso_I_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Afonso_I_of_Portugal" title="Afonso I of Portugal">Afonso I of Portugal</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:8.75em">Spouse(s)</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td><td class="noviewer navbox-image" rowspan="10" style="width:1px;padding:0 0 0 2px"><div><span typeof="mw:File"><a href="/wiki/File:Coat_of_Arms_of_D._Henry_of_Burgundy,_Count_of_Portugal.png" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/120px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png" decoding="async" width="120" height="132" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/180px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/240px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png 2x" data-file-width="520" data-file-height="570" /></a></span></div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks mw-collapsible mw-collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="padding-left:120px;"><div id="Afonso_I_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Afonso_I_of_Portugal" title="Afonso I of Portugal">Afonso I of Portugal</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:8.75em">Spouse(s)</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Mafalda_of_Savoy,_Queen_of_Portugal" class="mw-redirect" title="Mafalda of Savoy, Queen of Portugal">Mafalda of Savoy, Queen of Portugal</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:8.75em">Children</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
 <ul><li>Infante Henrique</li>
@@ -723,48 +775,94 @@
 <dd><sup><small>1</small></sup> <span class="wrap">the descendants of King Peter I and Ines de Castro's children were recognized as legitimate and were Infantes and Infantas</span></dd>
 <dd><sup><small>2</small></sup> also an <a href="/wiki/Infante" title="Infante">Infante of Castile</a></dd></dl>
 </div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"></div><div role="navigation" class="navbox" aria-labelledby="Royal_consorts_of_León" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Leonese_royal_consorts" title="Template:Leonese royal consorts"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Leonese_royal_consorts" title="Template talk:Leonese royal consorts"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Leonese_royal_consorts&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Royal_consorts_of_León" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_Leonese_royal_consorts" title="List of Leonese royal consorts">Royal consorts</a> of <a href="/wiki/Kingdom_of_Le%C3%B3n" title="Kingdom of León">León</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Astur-Leonese_dynasty" title="Astur-Leonese dynasty">Astur-Leonese house</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Jimena_of_Pamplona" class="mw-redirect" title="Jimena of Pamplona">Jimena of Pamplona</a></li>
+<li><a href="/w/index.php?title=Muniadona_Nu%C3%B1ez&amp;action=edit&amp;redlink=1" class="new" title="Muniadona Nuñez (page does not exist)">Muniadona Nuñez</a></li>
+<li><a href="/wiki/Elvira_Men%C3%A9ndez_(died_921)" title="Elvira Menéndez (died 921)">Elvira Menéndez</a></li>
+<li><a href="/wiki/Aragonta_Gonzalez" class="mw-redirect" title="Aragonta Gonzalez">Aragonta Gonzalez</a></li>
+<li><a href="/wiki/Sancha_S%C3%A1nchez_of_Pamplona" class="mw-redirect" title="Sancha Sánchez of Pamplona">Sancha Sánchez of Pamplona</a></li>
+<li><a href="/w/index.php?title=Urraca,_Queen_of_Asturias_and_Le%C3%B3n&amp;action=edit&amp;redlink=1" class="new" title="Urraca, Queen of Asturias and León (page does not exist)">Urraca</a></li>
+<li><a href="/w/index.php?title=Oneca_S%C3%A1nchez_of_Pamplona&amp;action=edit&amp;redlink=1" class="new" title="Oneca Sánchez of Pamplona (page does not exist)">Oneca Sánchez of Pamplona</a></li>
+<li><a href="/wiki/Urraca_S%C3%A1nchez_of_Pamplona" title="Urraca Sánchez of Pamplona">Urraca Sánchez of Pamplona</a></li>
+<li><a href="/wiki/Urraca_Fern%C3%A1ndez" title="Urraca Fernández">Urraca Fernández</a></li>
+<li><a href="/wiki/Teresa_Ans%C3%BArez" title="Teresa Ansúrez">Teresa Ansúrez</a></li>
+<li><a href="/w/index.php?title=Sancha_G%C3%B3mez_of_Salda%C3%B1a&amp;action=edit&amp;redlink=1" class="new" title="Sancha Gómez of Saldaña (page does not exist)">Sancha Gómez of Saldaña</a></li>
+<li><a href="/wiki/Velasquita_Ram%C3%ADrez" title="Velasquita Ramírez">Velasquita Ramírez</a></li>
+<li><a href="/wiki/Elvira_of_Castile,_Queen_of_Le%C3%B3n" title="Elvira of Castile, Queen of León">Elvira of Castile</a></li>
+<li><a href="/wiki/Elvira_Men%C3%A9ndez_(died_1022)" title="Elvira Menéndez (died 1022)">Elvira Menéndez</a></li>
+<li><a href="/w/index.php?title=Urraca_Garc%C3%A9s_of_Pamplona&amp;action=edit&amp;redlink=1" class="new" title="Urraca Garcés of Pamplona (page does not exist)">Urraca Garcés of Pamplona</a></li>
+<li><a href="/w/index.php?title=Jimena_S%C3%A1nchez_of_Navarre&amp;action=edit&amp;redlink=1" class="new" title="Jimena Sánchez of Navarre (page does not exist)">Jimena Sánchez of Navarre</a></li></ul>
+</div></td><td class="noviewer navbox-image" rowspan="5" style="width:1px;padding:0 0 0 2px"><div><span typeof="mw:File"><a href="/wiki/File:Shield_of_Alfonso_IX_of_Leon.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Shield_of_Alfonso_IX_of_Leon.svg/50px-Shield_of_Alfonso_IX_of_Leon.svg.png" decoding="async" width="50" height="103" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Shield_of_Alfonso_IX_of_Leon.svg/75px-Shield_of_Alfonso_IX_of_Leon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/30/Shield_of_Alfonso_IX_of_Leon.svg/100px-Shield_of_Alfonso_IX_of_Leon.svg.png 2x" data-file-width="618" data-file-height="1272" /></a></span></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Jim%C3%A9nez_dynasty" title="Jiménez dynasty">House of Jiménez</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Sancha_of_Le%C3%B3n" title="Sancha of León">Sancha of León</a></li>
+<li><a href="/wiki/Agnes_of_Aquitaine,_Queen_of_Le%C3%B3n_and_Castile" title="Agnes of Aquitaine, Queen of León and Castile">Agnes of Aquitaine</a></li>
+<li><a href="/wiki/Constance_of_Burgundy" title="Constance of Burgundy">Constance of Burgundy</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Anscarids" title="Anscarids">House of Burgundy</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Berengaria_of_Barcelona" title="Berengaria of Barcelona">Berengaria of Barcelona</a></li>
+<li><a href="/wiki/Richeza_of_Poland,_Queen_of_Castile" title="Richeza of Poland, Queen of Castile">Richeza of Poland</a></li>
+<li><a href="/wiki/Urraca_of_Portugal" title="Urraca of Portugal">Urraca of Portugal</a></li>
+<li><a href="/wiki/Teresa_Fern%C3%A1ndez_de_Traba" title="Teresa Fernández de Traba">Teresa Fernández de Traba</a></li>
+<li><a href="/wiki/Urraca_L%C3%B3pez_de_Haro" title="Urraca López de Haro">Urraca López de Haro</a></li>
+<li><a class="mw-selflink selflink">Theresa of Portugal</a></li>
+<li><a href="/wiki/Berengaria_of_Castile" title="Berengaria of Castile">Berengaria of Castile</a></li>
+<li><a href="/wiki/Elisabeth_of_Swabia" title="Elisabeth of Swabia">Elisabeth of Swabia</a></li>
+<li><a href="/wiki/Joan,_Countess_of_Ponthieu" title="Joan, Countess of Ponthieu">Joan of Dammartin</a></li>
+<li><a href="/wiki/Violant_of_Aragon" title="Violant of Aragon">Violant of Aragon</a></li>
+<li><a href="/wiki/Mar%C3%ADa_de_Molina" title="María de Molina">María de Molina</a></li>
+<li><a href="/wiki/Constance_of_Portugal" title="Constance of Portugal">Constance of Portugal</a></li>
+<li><a href="/wiki/Constanza_Manuel" title="Constanza Manuel">Constanza Manuel</a></li>
+<li><a href="/wiki/Maria_of_Portugal,_Queen_of_Castile" title="Maria of Portugal, Queen of Castile">Maria of Portugal</a></li>
+<li><a href="/wiki/Blanche_of_Bourbon" title="Blanche of Bourbon">Blanche of Bourbon</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/House_of_Trast%C3%A1mara" title="House of Trastámara">House of Trastámara</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Juana_Manuel" title="Juana Manuel">Juana Manuel</a></li>
+<li><a href="/wiki/Eleanor_of_Aragon,_Queen_of_Castile" title="Eleanor of Aragon, Queen of Castile">Eleanor of Aragon</a></li>
+<li><a href="/wiki/Beatrice_of_Portugal" title="Beatrice of Portugal">Beatrice of Portugal</a></li>
+<li><a href="/wiki/Catherine_of_Lancaster" title="Catherine of Lancaster">Catherine of Lancaster</a></li>
+<li><a href="/wiki/Maria_of_Aragon,_Queen_of_Castile" title="Maria of Aragon, Queen of Castile">Maria of Aragon</a></li>
+<li><a href="/wiki/Isabella_of_Portugal,_Queen_of_Castile" title="Isabella of Portugal, Queen of Castile">Isabella of Portugal</a></li>
+<li><a href="/wiki/Joan_of_Portugal" title="Joan of Portugal">Joan of Portugal</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/House_of_Habsburg" title="House of Habsburg">House of Habsburg</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Isabella_of_Portugal" title="Isabella of Portugal">Isabella of Portugal</a></li></ul>
+</div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw1411
-Cached time: 20230207151350
+Parsed by mw1404
+Cached time: 20230907224230
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1]
-CPU time usage: 0.390 seconds
-Real time usage: 0.517 seconds
-Preprocessor visited node count: 2702/1000000
-Post‐expand include size: 162134/2097152 bytes
-Template argument size: 2728/2097152 bytes
-Highest expansion depth: 19/100
-Expensive parser function count: 1/500
+CPU time usage: 0.424 seconds
+Real time usage: 0.563 seconds
+Preprocessor visited node count: 3230/1000000
+Post‐expand include size: 171513/2097152 bytes
+Template argument size: 3519/2097152 bytes
+Highest expansion depth: 18/100
+Expensive parser function count: 4/500
 Unstrip recursion depth: 1/20
-Unstrip post‐expand size: 25335/5000000 bytes
-Lua time usage: 0.234/10.000 seconds
-Lua memory usage: 7428130/52428800 bytes
+Unstrip post‐expand size: 28395/5000000 bytes
+Lua time usage: 0.247/10.000 seconds
+Lua memory usage: 7941288/52428800 bytes
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  448.579      1 -total
- 41.75%  187.297      1 Template:Infobox_royalty
- 26.86%  120.481     12 Template:Navbox
- 23.21%  104.116      1 Template:Infobox
- 21.54%   96.637      1 Template:Portuguese_infantas
- 19.70%   88.348      1 Template:Reflist
- 16.92%   75.914      3 Template:Cite_web
- 13.59%   60.981      1 Template:Infobox_royalty/short_description
- 12.00%   53.847      1 Template:Marriage
- 11.92%   53.480      1 Template:Short_description
+100.00%  489.691      1 -total
+ 43.55%  213.237      1 Template:Infobox_royalty
+ 25.26%  123.714      1 Template:Infobox
+ 24.92%  122.025     13 Template:Navbox
+ 17.78%   87.050      1 Template:Portuguese_infantas
+ 15.63%   76.551      1 Template:Marriage
+ 14.70%   72.001      1 Template:Reflist
+ 13.65%   66.864      1 Template:Infobox_royalty/short_description
+ 12.61%   61.768      1 Template:Cite_web
+ 12.33%   60.375      1 Template:Short_description
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:2406198-0!canonical and timestamp 20230207151350 and revision id 1126466755. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2406198-0!canonical and timestamp 20230907224229 and revision id 1170279950. Rendering was triggered because: api-parse
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
-<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Theresa_of_Portugal,_Queen_of_León&amp;oldid=1126466755">https://en.wikipedia.org/w/index.php?title=Theresa_of_Portugal,_Queen_of_León&amp;oldid=1126466755</a>"</div></div>
-					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1176_births" title="Category:1176 births">1176 births</a></li><li><a href="/wiki/Category:1250_deaths" title="Category:1250 deaths">1250 deaths</a></li><li><a href="/wiki/Category:House_of_Burgundy-Portugal" title="Category:House of Burgundy-Portugal">House of Burgundy-Portugal</a></li><li><a href="/wiki/Category:French_beatified_people" title="Category:French beatified people">French beatified people</a></li><li><a href="/wiki/Category:Benedictine_nuns" title="Category:Benedictine nuns">Benedictine nuns</a></li><li><a href="/wiki/Category:Leonese_queen_consorts" title="Category:Leonese queen consorts">Leonese queen consorts</a></li><li><a href="/wiki/Category:Galician_queens_consort" title="Category:Galician queens consort">Galician queens consort</a></li><li><a href="/wiki/Category:13th-century_Portuguese_nuns" title="Category:13th-century Portuguese nuns">13th-century Portuguese nuns</a></li><li><a href="/wiki/Category:Portuguese_infantas" title="Category:Portuguese infantas">Portuguese infantas</a></li><li><a href="/wiki/Category:Roman_Catholic_royal_saints" title="Category:Roman Catholic royal saints">Roman Catholic royal saints</a></li><li><a href="/wiki/Category:13th-century_venerated_Christians" title="Category:13th-century venerated Christians">13th-century venerated Christians</a></li><li><a href="/wiki/Category:People_from_Coimbra" title="Category:People from Coimbra">People from Coimbra</a></li><li><a href="/wiki/Category:12th-century_Portuguese_women" title="Category:12th-century Portuguese women">12th-century Portuguese women</a></li><li><a href="/wiki/Category:12th-century_nobility_from_Le%C3%B3n_and_Castile" title="Category:12th-century nobility from León and Castile">12th-century nobility from León and Castile</a></li><li><a href="/wiki/Category:13th-century_people_from_the_Kingdom_of_Le%C3%B3n" title="Category:13th-century people from the Kingdom of León">13th-century people from the Kingdom of León</a></li><li><a href="/wiki/Category:Beatifications_by_Pope_Clement_XI" title="Category:Beatifications by Pope Clement XI">Beatifications by Pope Clement XI</a></li><li><a href="/wiki/Category:Daughters_of_kings" title="Category:Daughters of kings">Daughters of kings</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li></ul></div></div>
-					
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Theresa_of_Portugal,_Queen_of_León&amp;oldid=1170279950">https://en.wikipedia.org/w/index.php?title=Theresa_of_Portugal,_Queen_of_León&amp;oldid=1170279950</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1176_births" title="Category:1176 births">1176 births</a></li><li><a href="/wiki/Category:1250_deaths" title="Category:1250 deaths">1250 deaths</a></li><li><a href="/wiki/Category:House_of_Burgundy-Portugal" title="Category:House of Burgundy-Portugal">House of Burgundy-Portugal</a></li><li><a href="/wiki/Category:French_beatified_people" title="Category:French beatified people">French beatified people</a></li><li><a href="/wiki/Category:Benedictine_nuns" title="Category:Benedictine nuns">Benedictine nuns</a></li><li><a href="/wiki/Category:Queens_consort_of_Leon" title="Category:Queens consort of Leon">Queens consort of Leon</a></li><li><a href="/wiki/Category:Galician_queens_consort" title="Category:Galician queens consort">Galician queens consort</a></li><li><a href="/wiki/Category:13th-century_Portuguese_nuns" title="Category:13th-century Portuguese nuns">13th-century Portuguese nuns</a></li><li><a href="/wiki/Category:Portuguese_infantas" title="Category:Portuguese infantas">Portuguese infantas</a></li><li><a href="/wiki/Category:Roman_Catholic_royal_saints" title="Category:Roman Catholic royal saints">Roman Catholic royal saints</a></li><li><a href="/wiki/Category:13th-century_venerated_Christians" title="Category:13th-century venerated Christians">13th-century venerated Christians</a></li><li><a href="/wiki/Category:People_from_Coimbra" title="Category:People from Coimbra">People from Coimbra</a></li><li><a href="/wiki/Category:12th-century_Portuguese_women" title="Category:12th-century Portuguese women">12th-century Portuguese women</a></li><li><a href="/wiki/Category:12th-century_nobility_from_Le%C3%B3n_and_Castile" title="Category:12th-century nobility from León and Castile">12th-century nobility from León and Castile</a></li><li><a href="/wiki/Category:13th-century_people_from_the_Kingdom_of_Le%C3%B3n" title="Category:13th-century people from the Kingdom of León">13th-century people from the Kingdom of León</a></li><li><a href="/wiki/Category:Beatifications_by_Pope_Clement_XI" title="Category:Beatifications by Pope Clement XI">Beatifications by Pope Clement XI</a></li><li><a href="/wiki/Category:Daughters_of_kings" title="Category:Daughters of kings">Daughters of kings</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li></ul></div></div>
 				</div>
-				
 			</main>
 			
 		</div>
@@ -772,25 +870,26 @@ Transclusion expansion time report (%,ms,calls,template)
 			
 <footer id="footer" class="mw-footer" role="contentinfo" >
 	<ul id="footer-info">
-	<li id="footer-info-lastmod"> This page was last edited on 9 December 2022, at 13:47<span class="anonymous-show">&#160;(UTC)</span>.</li>
-	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+	<li id="footer-info-lastmod"> This page was last edited on 14 August 2023, at 04:02<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a><a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" style="display:none;"></a>;
 additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
 </ul>
 
 	<ul id="footer-places">
-	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
 	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
 	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
 	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal_Code_of_Conduct">Code of Conduct</a></li>
 	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Theresa_of_Portugal,_Queen_of_Le%C3%B3n&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
 	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
 	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
-	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
 </ul>
 
 	<ul id="footer-icons" class="noprint">
 	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
-	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
 </ul>
 
 </footer>
@@ -798,9 +897,16 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 		</div>
 	</div> 
 </div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li><button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.390","walltime":"0.517","ppvisitednodes":{"value":2702,"limit":1000000},"postexpandincludesize":{"value":162134,"limit":2097152},"templateargumentsize":{"value":2728,"limit":2097152},"expansiondepth":{"value":19,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":25335,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  448.579      1 -total"," 41.75%  187.297      1 Template:Infobox_royalty"," 26.86%  120.481     12 Template:Navbox"," 23.21%  104.116      1 Template:Infobox"," 21.54%   96.637      1 Template:Portuguese_infantas"," 19.70%   88.348      1 Template:Reflist"," 16.92%   75.914      3 Template:Cite_web"," 13.59%   60.981      1 Template:Infobox_royalty/short_description"," 12.00%   53.847      1 Template:Marriage"," 11.92%   53.480      1 Template:Short_description"]},"scribunto":{"limitreport-timeusage":{"value":"0.234","limit":"10.000"},"limitreport-memusage":{"value":7428130,"limit":52428800}},"cachereport":{"origin":"mw1411","timestamp":"20230207151350","ttl":1814400,"transientcontent":false}}});});</script>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Theresa of Portugal, Queen of Le\u00f3n","url":"https:\/\/en.wikipedia.org\/wiki\/Theresa_of_Portugal,_Queen_of_Le%C3%B3n","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2594188","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2594188","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-08-08T14:56:43Z","dateModified":"2022-12-09T13:47:30Z","headline":"Queen of Le\u00f3n"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Theresa of Portugal, Queen of Le\u00f3n","url":"https:\/\/en.wikipedia.org\/wiki\/Theresa_of_Portugal,_Queen_of_Le%C3%B3n","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2594188","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2594188","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-08-08T14:56:43Z","dateModified":"2022-12-09T13:47:30Z","headline":"Queen of Le\u00f3n"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":101,"wgHostname":"mw2301"});});</script>
+<span>Toggle limited content width</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2425","wgBackendResponseTime":100,"wgPageParseReport":{"limitreport":{"cputime":"0.424","walltime":"0.563","ppvisitednodes":{"value":3230,"limit":1000000},"postexpandincludesize":{"value":171513,"limit":2097152},"templateargumentsize":{"value":3519,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":28395,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  489.691      1 -total"," 43.55%  213.237      1 Template:Infobox_royalty"," 25.26%  123.714      1 Template:Infobox"," 24.92%  122.025     13 Template:Navbox"," 17.78%   87.050      1 Template:Portuguese_infantas"," 15.63%   76.551      1 Template:Marriage"," 14.70%   72.001      1 Template:Reflist"," 13.65%   66.864      1 Template:Infobox_royalty/short_description"," 12.61%   61.768      1 Template:Cite_web"," 12.33%   60.375      1 Template:Short_description"]},"scribunto":{"limitreport-timeusage":{"value":"0.247","limit":"10.000"},"limitreport-memusage":{"value":7941288,"limit":52428800},"limitreport-logs":"table#1 {\n}\n\"\"\n"},"cachereport":{"origin":"mw1404","timestamp":"20230907224230","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Theresa of Portugal, Queen of Le\u00f3n","url":"https:\/\/en.wikipedia.org\/wiki\/Theresa_of_Portugal,_Queen_of_Le%C3%B3n","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2594188","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2594188","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-08-08T14:56:43Z","dateModified":"2023-08-14T04:02:04Z","headline":"Queen of Le\u00f3n"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Theresa of Portugal, Queen of Le\u00f3n","url":"https:\/\/en.wikipedia.org\/wiki\/Theresa_of_Portugal,_Queen_of_Le%C3%B3n","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2594188","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2594188","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-08-08T14:56:43Z","dateModified":"2023-08-14T04:02:04Z","headline":"Queen of Le\u00f3n"}</script>
 </body>
 </html>

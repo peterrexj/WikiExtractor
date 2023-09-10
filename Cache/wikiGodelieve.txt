@@ -1,262 +1,107 @@
 <!DOCTYPE html>
-<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled" lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8"/>
+<meta charset="UTF-8">
 <title>Godelieve - Wikipedia</title>
-<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"41271cf5-626d-41d6-997e-f7c2039b3807",
-"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Godelieve","wgTitle":"Godelieve","wgCurRevisionId":1104588169,"wgRevisionId":1104588169,"wgArticleId":9678262,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Source attribution","Use dmy dates from July 2020","Articles containing Dutch-language text","Articles incorporating a citation from the 1913 Catholic Encyclopedia without Wikisource reference","Articles incorporating text from the 1913 Catholic Encyclopedia without Wikisource reference","Commons category link is on Wikidata","Articles with German-language sources (de)","Articles with Italian-language sources (it)","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with GND identifiers","Articles with LCCN identifiers","Articles with NLA identifiers","Articles with DTBIO identifiers",
-"Articles with FAST identifiers","Articles with Trove identifiers","1050s births","1070 deaths","Weather lore","Domestic violence","Christian female saints of the Middle Ages","11th-century Christian saints","11th-century women of the Holy Roman Empire"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Godelieve","wgRelevantArticleId":9678262,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":8000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English",
-"wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q461908","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.page.gallery.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements",
-"ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.page.gallery.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
+"September","October","November","December"],"wgRequestId":"c8993256-db7f-4b4d-b182-95cfd00380b7","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Godelieve","wgTitle":"Godelieve","wgCurRevisionId":1168728194,"wgRevisionId":1168728194,"wgArticleId":9678262,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Source attribution","Use dmy dates from July 2020","Articles containing Dutch-language text","Articles incorporating a citation from the 1913 Catholic Encyclopedia without Wikisource reference","Articles incorporating text from the 1913 Catholic Encyclopedia without Wikisource reference","Commons category link is on Wikidata","Articles with German-language sources (de)","Articles with Italian-language sources (it)","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with GND identifiers","Articles with KBR identifiers"
+,"Articles with LCCN identifiers","Articles with NLA identifiers","Articles with DTBIO identifiers","Articles with Trove identifiers","1050s births","1070 deaths","Weather lore","Domestic violence","Christian female saints of the Middle Ages","11th-century Christian saints","11th-century women from the Holy Roman Empire"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Godelieve","wgRelevantArticleId":9678262,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":8000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,
+"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q461908","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.page.gallery.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.makeCollapsible.styles":"ready",
+"ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.page.gallery.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
 <script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
-<meta name="ResourceLoaderDynamicStyles" content=""/>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
-<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
-<meta name="referrer" content="origin"/>
-<meta name="referrer" content="origin-when-crossorigin"/>
-<meta name="referrer" content="origin-when-cross-origin"/>
-<meta name="robots" content="max-image-preview:standard"/>
-<meta name="format-detection" content="telephone=no"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/1200px-Strangulation_of_Godelieve.jpg"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="1439"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/800px-Strangulation_of_Godelieve.jpg"/>
-<meta property="og:image:width" content="800"/>
-<meta property="og:image:height" content="959"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/640px-Strangulation_of_Godelieve.jpg"/>
-<meta property="og:image:width" content="640"/>
-<meta property="og:image:height" content="768"/>
-<meta name="viewport" content="width=1000"/>
-<meta property="og:title" content="Godelieve - Wikipedia"/>
-<meta property="og:type" content="website"/>
-<link rel="preconnect" href="//upload.wikimedia.org"/>
-<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Godelieve"/>
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Godelieve&amp;action=edit"/>
-<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
-<link rel="icon" href="/static/favicon/wikipedia.ico"/>
-<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
-<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
-<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
-<link rel="canonical" href="https://en.wikipedia.org/wiki/Godelieve"/>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.41.0-wmf.24">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-crossorigin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/1200px-Strangulation_of_Godelieve.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1439">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/800px-Strangulation_of_Godelieve.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="959">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/640px-Strangulation_of_Godelieve.jpg">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="768">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Godelieve - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Godelieve">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Godelieve&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Godelieve">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
 <link rel="dns-prefetch" href="//meta.wikimedia.org" />
-<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org">
 </head>
-<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Godelieve rootpage-Godelieve skin-vector-2022 action-view"><div class="mw-page-container">
-	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
-	<div class="mw-page-container-inner">
-		<input
-			type="checkbox"
-			id="mw-sidebar-checkbox"
-			class="mw-checkbox-hack-checkbox"
-			>
-		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
-			<div class="vector-header-start">
-					<label
-				id="mw-sidebar-button"
-				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
-				for="mw-sidebar-checkbox"
-				role="button"
-				aria-controls="mw-panel"
-				data-event-name="ui.sidebar"
-				tabindex="0"
-				title="Main menu">
-				<span>Toggle sidebar</span>
-			</label>
-		
-<a href="/wiki/Main_Page" class="mw-logo">
-	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
-		aria-hidden="true" height="50" width="50">
-	<span class="mw-logo-container">
-		<img class="mw-logo-wordmark" alt="Wikipedia"
-			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
-		<img class="mw-logo-tagline"
-			alt="The Free Encyclopedia"
-			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
-	</span>
-</a>
-
-			</div>
-			<div class="vector-header-end">
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Godelieve rootpage-Godelieve skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
 				
-<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
-	<a href="/wiki/Special:Search"
-	
-		
-		
-		
-		title="Search Wikipedia [f]"
-		accesskey="f"
-		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
-		<span>Search</span>
-	</a>
-	
-	<div>
-		<form action="/w/index.php" id="searchform"
-			class="vector-search-box-form">
-			<div id="simpleSearch"
-				class="vector-search-box-inner"
-				 data-search-loc="header-moved">
-				<input class="vector-search-box-input"
-					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
-				>
-				<input type="hidden" name="title" value="Special:Search">
-				<input id="mw-searchButton"
-					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
-				<input id="searchButton"
-					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
-			</div>
-		</form>
-	</div>
-</div>
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
 
-				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
-	
-<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
-	<div class="vector-menu-heading">
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
 		
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Godelieve" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
-		
-	</div>
-</div>
-
-	
-	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
-		<input type="checkbox"
-			id="p-personal-checkbox"
-			role="button"
-			aria-haspopup="true"
-			data-event-name="ui.dropdown-p-personal"
-			class="vector-menu-checkbox "
-			
-			
-		/>
-		<label
-			id="p-personal-label"
-			for="p-personal-checkbox"
-			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
-			
-		>
-			<span class="vector-menu-heading-label">Personal tools</span>
-		</label>
-		<div class="vector-menu-content">
-	
-		<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Godelieve"
-	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
-</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:UserLogin&amp;returnto=Godelieve"
-	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
-</li></ul>
-	
-</div>
-
-		<div class="vector-user-menu-anon-editor">
-			<p>
-				Pages for logged out editors <a data-mw="interface"
-	href="/wiki/Help:Introduction"
-	 aria-label="Learn more about editing"><span>learn more</span></a>
-
-			</p>
-		</div>
-				<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
-	
-</div>
-
-	
-		</div>
-	</div></nav>
-
-			</div>
-		</header>
-		<div class="vector-main-menu-container ">
-			<div id="mw-navigation">
-				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
-						
 <div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
-	
-	
-<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
 	<div
-		id="p-navigation-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Navigation</span>
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 	
 	
-<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
-	<div
-		id="p-interaction-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Contribute</span>
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
-	<div
-		id="p-tb-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Tools</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Godelieve" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Godelieve" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Godelieve&amp;oldid=1104588169" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Godelieve&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Godelieve&amp;id=1104588169&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q461908" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
-	<div
-		id="p-coll-print_export-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Print/export</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Godelieve&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Godelieve&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
-	<div
-		id="p-wikibase-otherprojects-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">In other projects</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Godelina" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -266,29 +111,135 @@
 	<div class="vector-main-menu-action-item">
 		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
 		<div class="vector-main-menu-action-content vector-menu-content">
-			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Language links are at the top of the page across from the title.</div></div>
 		</div>
 	</div>
 </div>
 
-
 </div>
 
-				</nav>
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Godelieve" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Godelieve" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Godelieve" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Godelieve" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+					<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+					</div>
+		</nav>
 			</div>
 		</div>
 		<div class="vector-sitenotice-container">
 			<div id="siteNotice"><!-- CentralNotice --></div>
 		</div>
-		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
-		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="vector-menu-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark vector-sticky-pinned-container">
 			<div id="vector-toc-pinned-container" class="vector-pinned-container">
-			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
 	<div
 	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
-	data-name="vector-toc"
-	
-	
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
 	
 	
 >
@@ -389,82 +340,61 @@
 </div>
 
 			</div>
-</nav>
+		</nav>
 		<div class="mw-content-container">
 			<main id="content" class="mw-body" role="main">
 				<header class="mw-body-header vector-page-titlebar">
 					<label
 						id="vector-toc-collapsed-button"
-						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet vector-button-flush-left cdx-button--icon-only"
 						for="vector-toc-collapsed-checkbox"
 						role="button"
-						aria-controls="toc-toggle-list"
-						data-event-name="vector.toc-toggle-list"
+						aria-controls="vector-toc"
 						tabindex="0"
 						title="Table of Contents">
-						Toggle the table of contents
+						<span class="vector-icon mw-ui-icon-wikimedia-listBullet"></span>
+						<span>Toggle the table of contents</span>
 					</label>
-				
-					
-<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
-	<input type="checkbox"
-		id="vector-page-titlebar-toc-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-vector-page-titlebar-toc"
-		class="vector-menu-checkbox "
-		
-		
-	/>
-	<label
-		id="vector-page-titlebar-toc-label"
-		for="vector-page-titlebar-toc-checkbox"
-		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
-		
-	>
-		<span class="vector-menu-heading-label"></span>
+					<nav role="navigation" aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 
-						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
-		</div>
-	
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
 	</div>
 </div>
-				
+
+					</nav>
 					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Godelieve</span></h1>
-				
 							
-<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
-	<input type="checkbox"
-		id="p-lang-btn-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-lang-btn"
-		class="vector-menu-checkbox mw-interlanguage-selector"
-		aria-label="Go to an article in another language. Available in 10 languages"
-		
-	/>
-	<label
-		id="p-lang-btn-label"
-		for="p-lang-btn-checkbox"
-		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-10"
-		
-	>
-		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">10 languages</span>
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 11 languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-11" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">11 languages</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 		<div class="vector-menu-content">
 			
-			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%AC%D9%88%D8%AF%D9%84%D9%8A%D9%86%D8%A7" title="جودلينا – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Godeleva" title="Godeleva – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Godeleva_de_Ghistelles" title="Godeleva de Ghistelles – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Godelieve_de_Gistel" title="Godelieve de Gistel – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Godelina" title="Godelina – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Godeleva" title="Godeleva – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Godeleva" title="Godeleva – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Godelieve_van_Gistel" title="Godelieve van Gistel – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_Godolewa" title="Święta Godolewa – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0" title="Годелива – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li></ul>
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%AC%D9%88%D8%AF%D9%84%D9%8A%D9%86%D8%A7" title="جودلينا – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Godeleva" title="Godeleva – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Godeleva_de_Ghistelles" title="Godeleva de Ghistelles – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%DA%AF%D9%88%D9%84%D8%AF%D9%84%DB%8C%D9%88" title="گولدلیو – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Godelieve_de_Gistel" title="Godelieve de Gistel – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Godelina" title="Godelina – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Godeleva" title="Godeleva – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Godeleva" title="Godeleva – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Godelieve_van_Gistel" title="Godelieve van Gistel – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_Godolewa" title="Święta Godolewa – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0" title="Годелива – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li>
+			</ul>
 			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q461908#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
 		</div>
 
 	</div>
 </div>
-				</header>
+</header>
 				<div class="vector-page-toolbar">
 					<div class="vector-page-toolbar-container">
 						<div id="left-navigation">
@@ -473,41 +403,38 @@
 <div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Godelieve" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Godelieve" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Godelieve" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Godelieve" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 								
-
-<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
-	<input type="checkbox"
-		id="p-variants-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-variants"
-		class="vector-menu-checkbox"
-		aria-label="Change language variant"
-		
-	/>
-	<label
-		id="p-variants-label"
-		for="p-variants-checkbox"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">English</span>
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"></ul>
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
 		
-	</div>
-
 	</div>
 </div>
+
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 						<div id="right-navigation" class="vector-collapsible">
@@ -516,7 +443,10 @@
 <div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Godelieve"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Godelieve&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Godelieve&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Godelieve"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Godelieve&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Godelieve&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -525,40 +455,103 @@
 				
 							<nav class="vector-page-tools-landmark" aria-label="More options">
 								
-
-<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
-	<input type="checkbox"
-		id="p-cactions-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-cactions"
-		class="vector-menu-checkbox"
-		
-		
-	/>
-	<label
-		id="p-cactions-label"
-		for="p-cactions-checkbox"
-		class="vector-menu-heading"
-		
-	>
-		<span class="vector-menu-heading-label">More</span>
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Godelieve"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Godelieve&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Godelieve&amp;action=history"><span>View history</span></a></li></ul>
-		
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
 	</div>
-
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Godelieve"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Godelieve&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Godelieve&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
 	</div>
 </div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Godelieve" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Godelieve" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Godelieve&amp;oldid=1168728194" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Godelieve&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Godelieve&amp;id=1168728194&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q461908" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Godelieve&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Godelieve&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Godelina" hreflang="en"><span>Wikimedia Commons</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 					</div>
 				</div>
-				
+				<div class="vector-column-end">
+					<nav class="vector-page-tools-landmark vector-sticky-pinned-container" aria-label="More options">
+						<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+			
+						</div>
+	</nav>
+				</div>
 				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
 					<div class="vector-body-before-content">
 							<div class="mw-indicators">
@@ -571,44 +564,43 @@
 					
 					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p class="mw-empty-elt">
 </p>
-<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;"><a href="/wiki/Saint" title="Saint">Saint</a></div><br /><div style="display:inline;" class="fn">Godelieve</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Strangulation_of_Godelieve.jpg" class="image"><img alt="Strangulation of Godelieve.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/200px-Strangulation_of_Godelieve.jpg" decoding="async" width="200" height="240" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/300px-Strangulation_of_Godelieve.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/400px-Strangulation_of_Godelieve.jpg 2x" data-file-width="2108" data-file-height="2528" /></a><div class="infobox-caption"><i>The Strangulation of Godelina</i>.  Image in Procession Chapel in Gistel, Belgium.</div></td></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data"><abbr title="circa">c.</abbr> 1052</td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">6 July 1070 (aged&#160;17&#8211;18)</td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data">1084<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> by <a href="/wiki/Pope_Urban_II" title="Pope Urban II">Pope Urban II</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">6 July; 30 July</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Saint_symbolism" title="Saint symbolism">Attributes</a></th><td class="infobox-data">crown, well, <a href="/wiki/Strangling" title="Strangling">being strangled</a><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data">the <a href="/wiki/Weather" title="Weather">weather</a><br />invoked against throat trouble<br />peaceful marriage<sup id="cite_ref-FOOTNOTEde_Vries200744_3-0" class="reference"><a href="#cite_note-FOOTNOTEde_Vries200744-3">&#91;3&#93;</a></sup></td></tr></tbody></table>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;"><a href="/wiki/Saint" title="Saint">Saint</a></div><br /><div style="display:inline;" class="fn">Godelieve</div></th></tr><tr><td colspan="2" class="infobox-image"><span typeof="mw:File"><a href="/wiki/File:Strangulation_of_Godelieve.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/200px-Strangulation_of_Godelieve.jpg" decoding="async" width="200" height="240" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/300px-Strangulation_of_Godelieve.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Strangulation_of_Godelieve.jpg/400px-Strangulation_of_Godelieve.jpg 2x" data-file-width="2108" data-file-height="2528" /></a></span><div class="infobox-caption"><i>The Strangulation of Godelina</i>.  Image in Procession Chapel in Gistel, Belgium.</div></td></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data"><abbr title="circa">c.</abbr> 1052</td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">6 July 1070 (aged&#160;17&#8211;18)</td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data">1084<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> by <a href="/wiki/Pope_Urban_II" title="Pope Urban II">Pope Urban II</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">6 July; 30 July</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Saint_symbolism" title="Saint symbolism">Attributes</a></th><td class="infobox-data">crown, well, <a href="/wiki/Strangling" title="Strangling">being strangled</a><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data">the <a href="/wiki/Weather" title="Weather">weather</a><br />invoked against throat trouble<br />peaceful marriage<sup id="cite_ref-FOOTNOTEde_Vries200744_3-0" class="reference"><a href="#cite_note-FOOTNOTEde_Vries200744-3">&#91;3&#93;</a></sup></td></tr></tbody></table>
 <p><b>Saint Godelieve</b> (also known as <b>Godeleva</b>, <b>Godeliève</b>, and <b>Godelina</b>; <a href="/wiki/Dutch_language" title="Dutch language">Dutch</a>: <i lang="nl">Sint-Godelieve</i>) (<abbr title="circa">c.</abbr> 1052<sup id="cite_ref-FOOTNOTEKienzleNienhuis200145_4-0" class="reference"><a href="#cite_note-FOOTNOTEKienzleNienhuis200145-4">&#91;4&#93;</a></sup>&#160;&#8211;&#32;6 July 1070) is a <a href="/wiki/Flemish_people" title="Flemish people">Flemish</a> saint.<sup id="cite_ref-FOOTNOTEHarper-Bill1999157_5-0" class="reference"><a href="#cite_note-FOOTNOTEHarper-Bill1999157-5">&#91;5&#93;</a></sup> She behaved with charity &amp; gentleness to all, accepting an arranged marriage as was the custom, but her husband and family turned out to be abusive. Eventually he had her strangled by his servants. <sup id="cite_ref-FOOTNOTEKienzleNienhuis200145_4-1" class="reference"><a href="#cite_note-FOOTNOTEKienzleNienhuis200145-4">&#91;4&#93;</a></sup>
 </p><p>Every year, on the Sunday following 5 July, a procession celebrating Saint Godelieve takes place in <a href="/wiki/Gistel" title="Gistel">Gistel</a>.
 </p>
 <meta property="mw:PageProp/toc" />
 <h2><span class="mw-headline" id="Hagiography">Hagiography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Godelieve&amp;action=edit&amp;section=1" title="Edit section: Hagiography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<p>Tradition, as recorded in her <i>Vita</i>, states that she was pious as a young girl, and became much sought after by suitors as a beautiful young woman. Godelieve, however, wanted to become a <a href="/wiki/Nun" title="Nun">nun</a>. A nobleman named Bertolf (Berthold) of <a href="/wiki/Gistel" title="Gistel">Gistel</a>, however, determined to marry her, successfully invoked the help of her father's overlord, <a href="/wiki/Eustace_II,_Count_of_Boulogne" title="Eustace II, Count of Boulogne">Eustace II, Count of Boulogne</a>, along with her parents. She accepted the betrothal obediently &amp; went to Bertolf’s family home. There she was badly treated by him &amp; his mother, while she continued to live an obedient daughter-in-law &amp; managed the household well &amp; with Christian charity. <sup id="cite_ref-FOOTNOTEHarper-Bill1999157_5-1" class="reference"><a href="#cite_note-FOOTNOTEHarper-Bill1999157-5">&#91;5&#93;</a></sup> Bertold became more dis-satisfied with her &amp; he ordered his servants to provide only bread and water to the young bride.<sup id="cite_ref-FOOTNOTEKienzleNienhuis200145_4-2" class="reference"><a href="#cite_note-FOOTNOTEKienzleNienhuis200145-4">&#91;4&#93;</a></sup>  Godelieve shared this food with the poor.<sup id="cite_ref-FOOTNOTEKienzleNienhuis200150_6-0" class="reference"><a href="#cite_note-FOOTNOTEKienzleNienhuis200150-6">&#91;6&#93;</a></sup>
+<p>Tradition, as recorded in her <i>Vita</i>, states that she was pious as a young girl, and became much sought after by suitors as a beautiful young woman. Godelieve, however, wanted to become a <a href="/wiki/Nun" title="Nun">nun</a>. A nobleman named Bertolf (Berthold) of <a href="/wiki/Gistel" title="Gistel">Gistel</a>, however, determined to marry her, successfully invoked the help of her father's overlord, <a href="/wiki/Eustace_II,_Count_of_Boulogne" title="Eustace II, Count of Boulogne">Eustace II, Count of Boulogne</a>, along with her parents. She accepted the betrothal obediently &amp; went to Bertolf's family home. There she was badly treated by him and his mother. She continued to live as an obedient daughter-in-law, managing the household well and with Christian charity. <sup id="cite_ref-FOOTNOTEHarper-Bill1999157_5-1" class="reference"><a href="#cite_note-FOOTNOTEHarper-Bill1999157-5">&#91;5&#93;</a></sup> Bertold became more dissatisfied with her, and he ordered his servants to provide only bread and water to the young bride.<sup id="cite_ref-FOOTNOTEKienzleNienhuis200145_4-2" class="reference"><a href="#cite_note-FOOTNOTEKienzleNienhuis200145-4">&#91;4&#93;</a></sup>  Godelieve shared this food with the poor.<sup id="cite_ref-FOOTNOTEKienzleNienhuis200150_6-0" class="reference"><a href="#cite_note-FOOTNOTEKienzleNienhuis200150-6">&#91;6&#93;</a></sup>
 </p><p>Godelieve managed to escape to the home of her father, Hemfrid, seigneur of <a href="/wiki/Wierre-Effroy" title="Wierre-Effroy">Wierre-Effroy</a>.<sup id="cite_ref-FOOTNOTEHarper-Bill1999157_5-2" class="reference"><a href="#cite_note-FOOTNOTEHarper-Bill1999157-5">&#91;5&#93;</a></sup>  Hemfrid, appealing to the <a href="/wiki/Bishop_of_Tournai" class="mw-redirect" title="Bishop of Tournai">Bishops of Tournai</a> and <a href="/wiki/Bishop_of_Soissons" class="mw-redirect" title="Bishop of Soissons">Soissons</a> and the <a href="/wiki/Count_of_Flanders" title="Count of Flanders">Count of Flanders</a>, they concluded the marriage to be indissoluble and managed to have Bertolf restore Godelieve to her rightful position as his wife, which signaled a renewal of persecution.<sup id="cite_ref-Rudge_7-0" class="reference"><a href="#cite_note-Rudge-7">&#91;7&#93;</a></sup>
 </p><p>In July 1070, Godelieve returned to Gistel and soon after, at the order of Bertolf, was <a href="/wiki/Strangled" class="mw-redirect" title="Strangled">strangled</a> by two servants and thrown into a pool,<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;a&#93;</a></sup><sup id="cite_ref-FOOTNOTEKienzleNienhuis200145_4-4" class="reference"><a href="#cite_note-FOOTNOTEKienzleNienhuis200145-4">&#91;4&#93;</a></sup> causing it to appear she died a <a href="/wiki/Natural_death" class="mw-redirect" title="Natural death">natural death</a>.<sup id="cite_ref-Rudge_7-1" class="reference"><a href="#cite_note-Rudge-7">&#91;7&#93;</a></sup>
 </p>
 <h2><span class="mw-headline" id="Legend">Legend</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Godelieve&amp;action=edit&amp;section=2" title="Edit section: Legend">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<p>According to legend, Bertolf married again, and had a daughter Edith, who was born <a href="/wiki/Blindness" class="mw-redirect" title="Blindness">blind</a>: the legend  states that Edith was cured through the intercession of Saint Godelieve.<sup id="cite_ref-FOOTNOTEMulder-Bakker200269_9-0" class="reference"><a href="#cite_note-FOOTNOTEMulder-Bakker200269-9">&#91;8&#93;</a></sup> Bertolf, now repentant of his crimes, went to <a href="/wiki/Rome" title="Rome">Rome</a> to obtain <a href="/wiki/Absolution" title="Absolution">absolution</a>. He went on a <a href="/wiki/Pilgrimage" title="Pilgrimage">pilgrimage</a> to the <a href="/wiki/Holy_Land" title="Holy Land">Holy Land</a>, and became a monk at St. Winnoc's Abbey at <a href="/wiki/Bergues" title="Bergues">Bergues</a>.<sup id="cite_ref-FOOTNOTEMulder-Bakker200269_9-1" class="reference"><a href="#cite_note-FOOTNOTEMulder-Bakker200269-9">&#91;8&#93;</a></sup> Edith founded a <a href="/wiki/Benedictine" class="mw-redirect" title="Benedictine">Benedictine</a> <a href="/wiki/Monastery" title="Monastery">monastery</a> at <a href="/wiki/Gistel" title="Gistel">Gistel</a>, which was dedicated to Saint Godelieve, which she joined herself as a nun.<sup id="cite_ref-FOOTNOTEMulder-Bakker200269_9-2" class="reference"><a href="#cite_note-FOOTNOTEMulder-Bakker200269-9">&#91;8&#93;</a></sup>
+<p>According to legend, Bertolf married again, and had a daughter Edith, who was born <a href="/wiki/Blindness" class="mw-redirect" title="Blindness">blind</a>: the legend states that Edith was cured through the intercession of Saint Godelieve.<sup id="cite_ref-FOOTNOTEMulder-Bakker200269_9-0" class="reference"><a href="#cite_note-FOOTNOTEMulder-Bakker200269-9">&#91;8&#93;</a></sup> Bertolf, now repentant of his crimes, went to <a href="/wiki/Rome" title="Rome">Rome</a> to obtain <a href="/wiki/Absolution" title="Absolution">absolution</a>. He went on a <a href="/wiki/Pilgrimage" title="Pilgrimage">pilgrimage</a> to the <a href="/wiki/Holy_Land" title="Holy Land">Holy Land</a>, and became a monk at St. Winnoc's Abbey at <a href="/wiki/Bergues" title="Bergues">Bergues</a>.<sup id="cite_ref-FOOTNOTEMulder-Bakker200269_9-1" class="reference"><a href="#cite_note-FOOTNOTEMulder-Bakker200269-9">&#91;8&#93;</a></sup> Edith founded a <a href="/wiki/Benedictine" class="mw-redirect" title="Benedictine">Benedictine</a> <a href="/wiki/Monastery" title="Monastery">monastery</a> at <a href="/wiki/Gistel" title="Gistel">Gistel</a>, which was dedicated to Saint Godelieve, which she joined herself as a nun.<sup id="cite_ref-FOOTNOTEMulder-Bakker200269_9-2" class="reference"><a href="#cite_note-FOOTNOTEMulder-Bakker200269-9">&#91;8&#93;</a></sup>
 </p>
 <h2><span class="mw-headline" id="Veneration">Veneration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Godelieve&amp;action=edit&amp;section=3" title="Edit section: Veneration">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <p>Godelieve's body was <a href="/wiki/Exhumation" class="mw-redirect" title="Exhumation">exhumed</a> in 1084 by the Bishops of Tournai and <a href="/wiki/Bishop_of_Noyon" class="mw-redirect" title="Bishop of Noyon">Noyon</a>, in the presence of <a href="/wiki/Gertrude_of_Saxony" title="Gertrude of Saxony">Gertrude of Saxony</a>, the wife of <a href="/wiki/Robert_I,_Count_of_Flanders" title="Robert I, Count of Flanders">Robert I, Count of Flanders</a>, the Abbot of St. Winnoc's and a number of clergymen. It was Radbod II, bishop of Noyon-Tournai, that consecrated Godelieve's relics in 1084,<sup id="cite_ref-FOOTNOTEKienzleNienhuis200146_10-0" class="reference"><a href="#cite_note-FOOTNOTEKienzleNienhuis200146-10">&#91;9&#93;</a></sup> and Godelieve's popular cult developed thereafter.<sup id="cite_ref-FOOTNOTEKienzleNienhuis200145-46_11-0" class="reference"><a href="#cite_note-FOOTNOTEKienzleNienhuis200145-46-11">&#91;10&#93;</a></sup>
 </p><p>Drogo, a monk of St. Winnoc's Abbey, wrote Godelieve's biography, the <i>Vita Godeliph</i>, about ten years after her death.<sup id="cite_ref-FOOTNOTEHead2001359_12-0" class="reference"><a href="#cite_note-FOOTNOTEHead2001359-12">&#91;11&#93;</a></sup> The abbey of <a href="/wiki/Ten_Putte_Abbey" title="Ten Putte Abbey">Ten Putte Abbey</a> in Bruges was dedicated to her.<sup id="cite_ref-FOOTNOTEde_Vries200744_3-1" class="reference"><a href="#cite_note-FOOTNOTEde_Vries200744-3">&#91;3&#93;</a></sup>
 </p><p>Every year, on the Sunday following 5 July, a <a href="/wiki/Procession" title="Procession">procession</a> celebrating Saint Godelieve takes place in Gistel. In 2017, the Godelieve procession was recognized as an Intangible Cultural Heritage.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;12&#93;</a></sup>
-</p><p>Godelieve's <a href="/wiki/Feast_day" class="mw-redirect" title="Feast day">feast day</a>, 6 July, was, like that of <a href="/wiki/Swithun" title="Swithun">Saint Swithun</a> in England and <a href="/wiki/Medardus" title="Medardus">Saint Medard</a> in France, connected with the <a href="/wiki/Weather" title="Weather">weather</a>. She is thus considered one of the "weather saints".<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;13&#93;</a></sup> 
-A monastery of Benedictine nuns was established on the site of her home, belonging to the Subiaco Congregation. It was closed due to falling numbers about 2020; the building is currently under review by the city/church authorities.
+</p><p>Godelieve's <a href="/wiki/Feast_day" class="mw-redirect" title="Feast day">feast day</a>, 6 July, was, like that of <a href="/wiki/Swithun" title="Swithun">Saint Swithun</a> in England and <a href="/wiki/Medardus" title="Medardus">Saint Medard</a> in France, connected with the <a href="/wiki/Weather" title="Weather">weather</a>. She is thus considered one of the "weather saints".<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;13&#93;</a></sup> A monastery of Benedictine nuns was established on the site of her home, belonging to the Subiaco Congregation. It was closed due to falling numbers about 2020; the building is currently under review by the city/church authorities.
 </p>
 <h2><span class="mw-headline" id="The_Godelieve_Polyptych">The Godelieve Polyptych</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Godelieve&amp;action=edit&amp;section=4" title="Edit section: The Godelieve Polyptych">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <p>Godelieve's life is represented in the Godelieve Polyptych, now in the <a href="/wiki/Metropolitan_Museum_of_Art" title="Metropolitan Museum of Art">Metropolitan Museum of Art</a> in <a href="/wiki/New_York_City" title="New York City">New York City</a>.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;14&#93;</a></sup>
 </p>
 <ul class="gallery mw-gallery-traditional">
-		<li class="gallerybox" style="width: 155px"><div style="width: 155px">
-			<div class="thumb" style="width: 150px;"><div style="margin:33.5px auto;"><a href="/wiki/File:JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG" class="image" title="Donor with Saint Nicholas and Wife with Saint Godelina by Jan Provoost."><img alt="Donor with Saint Nicholas and Wife with Saint Godelina by Jan Provoost." src="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG/120px-JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG" decoding="async" width="120" height="83" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG/180px-JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG/240px-JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG 2x" data-file-width="373" data-file-height="259" /></a></div></div>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/wiki/File:JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG" class="mw-file-description" title="Donor with Saint Nicholas and Wife with Saint Godelina by Jan Provoost."><img alt="Donor with Saint Nicholas and Wife with Saint Godelina by Jan Provoost." src="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG/120px-JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG" decoding="async" width="120" height="83" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG/180px-JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG/240px-JanProvostDonorwithStNicholas_andwifewithStGodelina.JPG 2x" data-file-width="373" data-file-height="259" /></a></span></div>
 			<div class="gallerytext">
 <p><i>Donor with <a href="/wiki/Saint_Nicholas" title="Saint Nicholas">Saint Nicholas</a> and Wife with Saint Godelina</i> by <a href="/wiki/Jan_Provoost" title="Jan Provoost">Jan Provoost</a>.
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 155px"><div style="width: 155px">
-			<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a href="/wiki/File:Duinenkerkje.bidkapel01.jpg" class="image" title="Chapel at the back of the Onze-Lieve-Vrouw-ter-Duinenkerk, Ostend, Belgium: stained glass representations of Saint Godelieve and Saint Idesbald."><img alt="Chapel at the back of the Onze-Lieve-Vrouw-ter-Duinenkerk, Ostend, Belgium: stained glass representations of Saint Godelieve and Saint Idesbald." src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Duinenkerkje.bidkapel01.jpg/90px-Duinenkerkje.bidkapel01.jpg" decoding="async" width="90" height="120" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Duinenkerkje.bidkapel01.jpg/135px-Duinenkerkje.bidkapel01.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Duinenkerkje.bidkapel01.jpg/180px-Duinenkerkje.bidkapel01.jpg 2x" data-file-width="960" data-file-height="1280" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/wiki/File:Duinenkerkje.bidkapel01.jpg" class="mw-file-description" title="Chapel at the back of the Onze-Lieve-Vrouw-ter-Duinenkerk, Ostend, Belgium: stained glass representations of Saint Godelieve and Saint Idesbald."><img alt="Chapel at the back of the Onze-Lieve-Vrouw-ter-Duinenkerk, Ostend, Belgium: stained glass representations of Saint Godelieve and Saint Idesbald." src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Duinenkerkje.bidkapel01.jpg/90px-Duinenkerkje.bidkapel01.jpg" decoding="async" width="90" height="120" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Duinenkerkje.bidkapel01.jpg/135px-Duinenkerkje.bidkapel01.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Duinenkerkje.bidkapel01.jpg/180px-Duinenkerkje.bidkapel01.jpg 2x" data-file-width="960" data-file-height="1280" /></a></span></div>
 			<div class="gallerytext">
 <p>Chapel at the back of the Onze-Lieve-Vrouw-ter-Duinenkerk, <a href="/wiki/Ostend" title="Ostend">Ostend</a>, <a href="/wiki/Belgium" title="Belgium">Belgium</a>: <a href="/wiki/Stained_glass" title="Stained glass">stained glass</a> representations of Saint Godelieve and <a href="/wiki/Saint_Idesbald" class="mw-redirect" title="Saint Idesbald">Saint Idesbald</a>.
 </p>
 			</div>
-		</div></li>
+		</li>
 </ul>
 <h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Godelieve&amp;action=edit&amp;section=5" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist reflist-lower-alpha">
@@ -617,11 +609,11 @@ A monastery of Benedictine nuns was established on the site of her home, belongi
 </li>
 </ol></div></div>
 <h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Godelieve&amp;action=edit&amp;section=6" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1011085734"/><div class="reflist">
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1011085734"><div class="reflist">
 <div class="mw-references-wrap mw-references-columns"><ol class="references">
 <li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFMulder-Bakker2003" class="citation book cs1">Mulder-Bakker, Anneke B. (2003). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=CXZlpPqONw4C&amp;q=arnulf&amp;pg=PA73"><i>The Invention of Saintliness</i></a>. Routledge. p.&#160;67. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1-134-49865-9" title="Special:BookSources/978-1-134-49865-9"><bdi>978-1-134-49865-9</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Invention+of+Saintliness&amp;rft.pages=67&amp;rft.pub=Routledge&amp;rft.date=2003&amp;rft.isbn=978-1-134-49865-9&amp;rft.aulast=Mulder-Bakker&amp;rft.aufirst=Anneke+B.&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DCXZlpPqONw4C%26q%3Darnulf%26pg%3DPA73&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></span>
 </li>
-<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFStracke2015" class="citation web cs1">Stracke, Richard (20 October 2015). <a rel="nofollow" class="external text" href="http://www.christianiconography.info/godelieve.html">"Saint Godelieve: The Iconography"</a>. <i>Christian Iconography</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Christian+Iconography&amp;rft.atitle=Saint+Godelieve%3A+The+Iconography&amp;rft.date=2015-10-20&amp;rft.aulast=Stracke&amp;rft.aufirst=Richard&amp;rft_id=http%3A%2F%2Fwww.christianiconography.info%2Fgodelieve.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></span>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFStracke2015" class="citation web cs1">Stracke, Richard (20 October 2015). <a rel="nofollow" class="external text" href="http://www.christianiconography.info/godelieve.html">"Saint Godelieve: The Iconography"</a>. <i>Christian Iconography</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Christian+Iconography&amp;rft.atitle=Saint+Godelieve%3A+The+Iconography&amp;rft.date=2015-10-20&amp;rft.aulast=Stracke&amp;rft.aufirst=Richard&amp;rft_id=http%3A%2F%2Fwww.christianiconography.info%2Fgodelieve.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></span>
 </li>
 <li id="cite_note-FOOTNOTEde_Vries200744-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEde_Vries200744_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEde_Vries200744_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFde_Vries2007">de Vries 2007</a>, p.&#160;44.</span>
 </li>
@@ -631,7 +623,7 @@ A monastery of Benedictine nuns was established on the site of her home, belongi
 </li>
 <li id="cite_note-FOOTNOTEKienzleNienhuis200150-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEKienzleNienhuis200150_6-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFKienzleNienhuis2001">Kienzle &amp; Nienhuis 2001</a>, p.&#160;50.</span>
 </li>
-<li id="cite_note-Rudge-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-Rudge_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Rudge_7-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/06623b.htm">Rudge, F.M. "St. Godelina." The Catholic Encyclopedia</a> Vol. 6. New York: Robert Appleton Company, 1909. 4 October 2021<img alt="Public Domain" src="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/12px-PD-icon.svg.png" decoding="async" width="12" height="12" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/18px-PD-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/24px-PD-icon.svg.png 2x" data-file-width="196" data-file-height="196" /> This article incorporates text from this source, which is in the <a href="/wiki/Public_domain" title="Public domain">public domain</a><i>.</i></span>
+<li id="cite_note-Rudge-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-Rudge_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Rudge_7-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/06623b.htm">Rudge, F.M. "St. Godelina." The Catholic Encyclopedia</a> Vol. 6. New York: Robert Appleton Company, 1909. 4 October 2021<span class="noviewer" typeof="mw:File"><span><img alt="Public Domain" src="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/12px-PD-icon.svg.png" decoding="async" width="12" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/18px-PD-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/24px-PD-icon.svg.png 2x" data-file-width="196" data-file-height="196" /></span></span> This article incorporates text from this source, which is in the <a href="/wiki/Public_domain" title="Public domain">public domain</a><i>.</i></span>
 </li>
 <li id="cite_note-FOOTNOTEMulder-Bakker200269-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEMulder-Bakker200269_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEMulder-Bakker200269_9-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-FOOTNOTEMulder-Bakker200269_9-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFMulder-Bakker2002">Mulder-Bakker 2002</a>, p.&#160;69.</span>
 </li>
@@ -641,86 +633,80 @@ A monastery of Benedictine nuns was established on the site of her home, belongi
 </li>
 <li id="cite_note-FOOTNOTEHead2001359-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEHead2001359_12-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFHead2001">Head 2001</a>, p.&#160;359.</span>
 </li>
-<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.godelievevangistel.be/">"Godelieve van Gistel &#124; een vrouw van alle tijden"</a>. <i>Godelieve van Gistel</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Godelieve+van+Gistel&amp;rft.atitle=Godelieve+van+Gistel+%26%23124%3B+een+vrouw+van+alle+tijden&amp;rft_id=https%3A%2F%2Fwww.godelievevangistel.be%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></span>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.godelievevangistel.be/">"Godelieve van Gistel &#124; een vrouw van alle tijden"</a>. <i>Godelieve van Gistel</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Godelieve+van+Gistel&amp;rft.atitle=Godelieve+van+Gistel+%26%23124%3B+een+vrouw+van+alle+tijden&amp;rft_id=https%3A%2F%2Fwww.godelievevangistel.be%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></span>
 </li>
-<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.catholicculture.org/culture/liturgicalyear/activities/view.cfm?id=1133">"Liturgical Year&#160;: Activities&#160;: Weather Saints"</a>. <i>www.catholicculture.org</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.catholicculture.org&amp;rft.atitle=Liturgical+Year+%3A+Activities+%3A+Weather+Saints&amp;rft_id=http%3A%2F%2Fwww.catholicculture.org%2Fculture%2Fliturgicalyear%2Factivities%2Fview.cfm%3Fid%3D1133&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></span>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.catholicculture.org/culture/liturgicalyear/activities/view.cfm?id=1133">"Liturgical Year&#160;: Activities&#160;: Weather Saints"</a>. <i>www.catholicculture.org</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.catholicculture.org&amp;rft.atitle=Liturgical+Year+%3A+Activities+%3A+Weather+Saints&amp;rft_id=http%3A%2F%2Fwww.catholicculture.org%2Fculture%2Fliturgicalyear%2Factivities%2Fview.cfm%3Fid%3D1133&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></span>
 </li>
-<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.metmuseum.org/collections/search-the-collections/110001475">"The Life and Miracles of Saint Godelieve"</a>. <i>The Met</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Met&amp;rft.atitle=The+Life+and+Miracles+of+Saint+Godelieve&amp;rft_id=http%3A%2F%2Fwww.metmuseum.org%2Fcollections%2Fsearch-the-collections%2F110001475&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></span>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.metmuseum.org/collections/search-the-collections/110001475">"The Life and Miracles of Saint Godelieve"</a>. <i>The Met</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Met&amp;rft.atitle=The+Life+and+Miracles+of+Saint+Godelieve&amp;rft_id=http%3A%2F%2Fwww.metmuseum.org%2Fcollections%2Fsearch-the-collections%2F110001475&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></span>
 </li>
 </ol></div></div>
-<p><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/12px-PD-icon.svg.png" decoding="async" width="12" height="12" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/18px-PD-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/24px-PD-icon.svg.png 2x" data-file-width="196" data-file-height="196" />&#160;This article incorporates text from a publication now in the <a href="/wiki/Public_domain" title="Public domain">public domain</a>:&#160;<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHerbermann1913" class="citation encyclopaedia cs1">Herbermann, Charles, ed. (1913). "St. Godelina". <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i>. New York: Robert Appleton Company.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=St.+Godelina&amp;rft.btitle=Catholic+Encyclopedia&amp;rft.place=New+York&amp;rft.pub=Robert+Appleton+Company&amp;rft.date=1913&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span>
+<p><span class="noviewer" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/12px-PD-icon.svg.png" decoding="async" width="12" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/18px-PD-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/24px-PD-icon.svg.png 2x" data-file-width="196" data-file-height="196" /></span></span>&#160;This article incorporates text from a publication now in the <a href="/wiki/Public_domain" title="Public domain">public domain</a>:&#160;<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFHerbermann1913" class="citation encyclopaedia cs1">Herbermann, Charles, ed. (1913). "St. Godelina". <i><a href="/wiki/Catholic_Encyclopedia" title="Catholic Encyclopedia">Catholic Encyclopedia</a></i>. New York: Robert Appleton Company.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=St.+Godelina&amp;rft.btitle=Catholic+Encyclopedia&amp;rft.place=New+York&amp;rft.pub=Robert+Appleton+Company&amp;rft.date=1913&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span>
 </p>
 <h2><span class="mw-headline" id="Sources">Sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Godelieve&amp;action=edit&amp;section=7" title="Edit section: Sources">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFde_Vries2007" class="citation book cs1">de Vries, Andre (2007). <i>Flanders: A Cultural History</i>. Oxford University Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Flanders%3A+A+Cultural+History&amp;rft.pub=Oxford+University+Press&amp;rft.date=2007&amp;rft.aulast=de+Vries&amp;rft.aufirst=Andre&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHarper-Bill1999" class="citation book cs1">Harper-Bill, Christopher (1999). <i>Anglo-Norman Studies XXI: Proceedings of the Battle Conference 1998</i>. The Boydell Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Anglo-Norman+Studies+XXI%3A+Proceedings+of+the+Battle+Conference+1998&amp;rft.pub=The+Boydell+Press&amp;rft.date=1999&amp;rft.aulast=Harper-Bill&amp;rft.aufirst=Christopher&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHead2001" class="citation book cs1">Head, Thomas F., ed. (2001). <i>Medieval Hagiography: An Anthology</i>. Routledge.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Medieval+Hagiography%3A+An+Anthology&amp;rft.pub=Routledge&amp;rft.date=2001&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFKienzleNienhuis2001" class="citation journal cs1">Kienzle, Beverly Mayne; Nienhuis, Nancy (2001). "Battered Women and the Construction of Sanctity". <i>Journal of Feminist Studies in Religion</i>. <b>17</b> (1 Spring).</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+Feminist+Studies+in+Religion&amp;rft.atitle=Battered+Women+and+the+Construction+of+Sanctity&amp;rft.volume=17&amp;rft.issue=1+Spring&amp;rft.date=2001&amp;rft.aulast=Kienzle&amp;rft.aufirst=Beverly+Mayne&amp;rft.au=Nienhuis%2C+Nancy&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFMulder-Bakker2002" class="citation book cs1">Mulder-Bakker, Anneke B., ed. (2002). <i>The Invention of Saintliness</i>. Routledge.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Invention+of+Saintliness&amp;rft.pub=Routledge&amp;rft.date=2002&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></li></ul>
+<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFde_Vries2007" class="citation book cs1">de Vries, Andre (2007). <i>Flanders: A Cultural History</i>. Oxford University Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Flanders%3A+A+Cultural+History&amp;rft.pub=Oxford+University+Press&amp;rft.date=2007&amp;rft.aulast=de+Vries&amp;rft.aufirst=Andre&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFHarper-Bill1999" class="citation book cs1">Harper-Bill, Christopher (1999). <i>Anglo-Norman Studies XXI: Proceedings of the Battle Conference 1998</i>. The Boydell Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Anglo-Norman+Studies+XXI%3A+Proceedings+of+the+Battle+Conference+1998&amp;rft.pub=The+Boydell+Press&amp;rft.date=1999&amp;rft.aulast=Harper-Bill&amp;rft.aufirst=Christopher&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFHead2001" class="citation book cs1">Head, Thomas F., ed. (2001). <i>Medieval Hagiography: An Anthology</i>. Routledge.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Medieval+Hagiography%3A+An+Anthology&amp;rft.pub=Routledge&amp;rft.date=2001&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFKienzleNienhuis2001" class="citation journal cs1">Kienzle, Beverly Mayne; Nienhuis, Nancy (2001). "Battered Women and the Construction of Sanctity". <i>Journal of Feminist Studies in Religion</i>. <b>17</b> (1 Spring).</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+Feminist+Studies+in+Religion&amp;rft.atitle=Battered+Women+and+the+Construction+of+Sanctity&amp;rft.volume=17&amp;rft.issue=1+Spring&amp;rft.date=2001&amp;rft.aulast=Kienzle&amp;rft.aufirst=Beverly+Mayne&amp;rft.au=Nienhuis%2C+Nancy&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFMulder-Bakker2002" class="citation book cs1">Mulder-Bakker, Anneke B., ed. (2002). <i>The Invention of Saintliness</i>. Routledge.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Invention+of+Saintliness&amp;rft.pub=Routledge&amp;rft.date=2002&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGodelieve" class="Z3988"></span></li></ul>
 <h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Godelieve&amp;action=edit&amp;section=8" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<p><a href="/wiki/File:Commons-logo.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" decoding="async" width="12" height="16" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> Media related to <a href="https://commons.wikimedia.org/wiki/Category:Saint_Godelina" class="extiw" title="commons:Category:Saint Godelina">Saint Godelina</a> at Wikimedia Commons
+<p><span class="noviewer" typeof="mw:File"><a href="/wiki/File:Commons-logo.svg" class="mw-file-description"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" decoding="async" width="12" height="16" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a></span> Media related to <a href="https://commons.wikimedia.org/wiki/Category:Saint_Godelina" class="extiw" title="commons:Category:Saint Godelina">Saint Godelina</a> at Wikimedia Commons
 </p>
 <ul><li><a rel="nofollow" class="external text" href="http://www.heiligenlexikon.de/BiographienG/Godeleva_von_Gistel.html">Godeleva (Godelina) von Gistel</a> <span class="languageicon">(in German)</span></li>
 <li><a rel="nofollow" class="external text" href="http://www.santiebeati.it/dettaglio/92839">Santa Godeleva</a> <span class="languageicon">(in Italian)</span></li>
 <li><a rel="nofollow" class="external text" href="http://www.christianiconography.info/godelieve.html">Saint Godelieve, Martyr</a> at the <a rel="nofollow" class="external text" href="http://www.christianiconography.info">Christian Iconography</a> web site</li></ul>
-<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q461908#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q461908#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q461908#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000030181472">1</a></span></li></ul></li>
-<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/6172668">1</a></span></li></ul></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n00115268/">WorldCat</a></span></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/119299445">Germany</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n00115268">United States</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://nla.gov.au/anbd.aut-an61541911">Australia</a></span></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd119299445.html?language=en">Germany</a></span></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q461908#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q461908#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="https://www.wikidata.org/wiki/Q461908#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></span></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">International</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/1820853/">FAST</a></span></li>
-<li><a href="/wiki/Trove_(identifier)" class="mw-redirect" title="Trove (identifier)">Trove (Australia)</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://trove.nla.gov.au/people/1843359">1</a></span></li></ul></li></ul>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000030181472">ISNI</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/6172668">VIAF</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/119299445">Germany</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.kbr.be/LIBRARY/doc/AUTHORITY/21696480">Belgium</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/n00115268">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://nla.gov.au/anbd.aut-an61541911">Australia</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">People</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd119299445.html?language=en">Deutsche Biographie</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://trove.nla.gov.au/people/1843359">Trove</a></span></li></ul>
 </div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw2310
-Cached time: 20230207193652
+Parsed by mw2384
+Cached time: 20230830232330
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 0.431 seconds
-Real time usage: 0.614 seconds
-Preprocessor visited node count: 2508/1000000
-Post‐expand include size: 34605/2097152 bytes
+CPU time usage: 0.416 seconds
+Real time usage: 0.535 seconds
+Preprocessor visited node count: 2507/1000000
+Post‐expand include size: 33976/2097152 bytes
 Template argument size: 2614/2097152 bytes
 Highest expansion depth: 14/100
-Expensive parser function count: 10/500
+Expensive parser function count: 11/500
 Unstrip recursion depth: 1/20
-Unstrip post‐expand size: 39138/5000000 bytes
-Lua time usage: 0.298/10.000 seconds
-Lua memory usage: 24040407/52428800 bytes
+Unstrip post‐expand size: 39231/5000000 bytes
+Lua time usage: 0.292/10.000 seconds
+Lua memory usage: 25105030/52428800 bytes
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  510.798      1 -total
- 20.75%  105.970      1 Template:Infobox_saint
- 20.16%  102.953      1 Template:Infobox
- 18.67%   95.388      2 Template:Reflist
- 16.58%   84.687      1 Template:Authority_control
- 16.03%   81.884      1 Template:Lang-nl
- 14.21%   72.597      5 Template:Cite_book
- 12.91%   65.926     17 Template:Sfn
-  9.48%   48.410      4 Template:Br_separated_entries
-  7.07%   36.121      1 Template:Death_year_and_age
+100.00%  492.420      1 -total
+ 21.71%  106.891      1 Template:Infobox_saint
+ 20.95%  103.149      1 Template:Infobox
+ 18.91%   93.113      2 Template:Reflist
+ 17.93%   88.282      1 Template:Lang-nl
+ 15.89%   78.245      1 Template:Authority_control
+ 14.33%   70.559      5 Template:Cite_book
+ 11.73%   57.764     17 Template:Sfn
+  9.96%   49.038      4 Template:Br_separated_entries
+  7.37%   36.271      1 Template:Death_year_and_age
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:9678262-0!canonical and timestamp 20230207193652 and revision id 1104588169. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:9678262-0!canonical and timestamp 20230830232329 and revision id 1168728194. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
-<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Godelieve&amp;oldid=1104588169">https://en.wikipedia.org/w/index.php?title=Godelieve&amp;oldid=1104588169</a>"</div></div>
-					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1050s_births" title="Category:1050s births">1050s births</a></li><li><a href="/wiki/Category:1070_deaths" title="Category:1070 deaths">1070 deaths</a></li><li><a href="/wiki/Category:Weather_lore" title="Category:Weather lore">Weather lore</a></li><li><a href="/wiki/Category:Domestic_violence" title="Category:Domestic violence">Domestic violence</a></li><li><a href="/wiki/Category:Christian_female_saints_of_the_Middle_Ages" title="Category:Christian female saints of the Middle Ages">Christian female saints of the Middle Ages</a></li><li><a href="/wiki/Category:11th-century_Christian_saints" title="Category:11th-century Christian saints">11th-century Christian saints</a></li><li><a href="/wiki/Category:11th-century_women_of_the_Holy_Roman_Empire" title="Category:11th-century women of the Holy Roman Empire">11th-century women of the Holy Roman Empire</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Source_attribution" title="Category:Source attribution">Source attribution</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_July_2020" title="Category:Use dmy dates from July 2020">Use dmy dates from July 2020</a></li><li><a href="/wiki/Category:Articles_containing_Dutch-language_text" title="Category:Articles containing Dutch-language text">Articles containing Dutch-language text</a></li><li><a href="/wiki/Category:Articles_incorporating_a_citation_from_the_1913_Catholic_Encyclopedia_without_Wikisource_reference" title="Category:Articles incorporating a citation from the 1913 Catholic Encyclopedia without Wikisource reference">Articles incorporating a citation from the 1913 Catholic Encyclopedia without Wikisource reference</a></li><li><a href="/wiki/Category:Articles_incorporating_text_from_the_1913_Catholic_Encyclopedia_without_Wikisource_reference" title="Category:Articles incorporating text from the 1913 Catholic Encyclopedia without Wikisource reference">Articles incorporating text from the 1913 Catholic Encyclopedia without Wikisource reference</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_German-language_sources_(de)" title="Category:Articles with German-language sources (de)">Articles with German-language sources (de)</a></li><li><a href="/wiki/Category:Articles_with_Italian-language_sources_(it)" title="Category:Articles with Italian-language sources (it)">Articles with Italian-language sources (it)</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NLA_identifiers" title="Category:Articles with NLA identifiers">Articles with NLA identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_Trove_identifiers" title="Category:Articles with Trove identifiers">Articles with Trove identifiers</a></li></ul></div></div>
-					
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Godelieve&amp;oldid=1168728194">https://en.wikipedia.org/w/index.php?title=Godelieve&amp;oldid=1168728194</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1050s_births" title="Category:1050s births">1050s births</a></li><li><a href="/wiki/Category:1070_deaths" title="Category:1070 deaths">1070 deaths</a></li><li><a href="/wiki/Category:Weather_lore" title="Category:Weather lore">Weather lore</a></li><li><a href="/wiki/Category:Domestic_violence" title="Category:Domestic violence">Domestic violence</a></li><li><a href="/wiki/Category:Christian_female_saints_of_the_Middle_Ages" title="Category:Christian female saints of the Middle Ages">Christian female saints of the Middle Ages</a></li><li><a href="/wiki/Category:11th-century_Christian_saints" title="Category:11th-century Christian saints">11th-century Christian saints</a></li><li><a href="/wiki/Category:11th-century_women_from_the_Holy_Roman_Empire" title="Category:11th-century women from the Holy Roman Empire">11th-century women from the Holy Roman Empire</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Source_attribution" title="Category:Source attribution">Source attribution</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_July_2020" title="Category:Use dmy dates from July 2020">Use dmy dates from July 2020</a></li><li><a href="/wiki/Category:Articles_containing_Dutch-language_text" title="Category:Articles containing Dutch-language text">Articles containing Dutch-language text</a></li><li><a href="/wiki/Category:Articles_incorporating_a_citation_from_the_1913_Catholic_Encyclopedia_without_Wikisource_reference" title="Category:Articles incorporating a citation from the 1913 Catholic Encyclopedia without Wikisource reference">Articles incorporating a citation from the 1913 Catholic Encyclopedia without Wikisource reference</a></li><li><a href="/wiki/Category:Articles_incorporating_text_from_the_1913_Catholic_Encyclopedia_without_Wikisource_reference" title="Category:Articles incorporating text from the 1913 Catholic Encyclopedia without Wikisource reference">Articles incorporating text from the 1913 Catholic Encyclopedia without Wikisource reference</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_German-language_sources_(de)" title="Category:Articles with German-language sources (de)">Articles with German-language sources (de)</a></li><li><a href="/wiki/Category:Articles_with_Italian-language_sources_(it)" title="Category:Articles with Italian-language sources (it)">Articles with Italian-language sources (it)</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_KBR_identifiers" title="Category:Articles with KBR identifiers">Articles with KBR identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NLA_identifiers" title="Category:Articles with NLA identifiers">Articles with NLA identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_Trove_identifiers" title="Category:Articles with Trove identifiers">Articles with Trove identifiers</a></li></ul></div></div>
 				</div>
-				
 			</main>
 			
 		</div>
@@ -728,25 +714,26 @@ Transclusion expansion time report (%,ms,calls,template)
 			
 <footer id="footer" class="mw-footer" role="contentinfo" >
 	<ul id="footer-info">
-	<li id="footer-info-lastmod"> This page was last edited on 15 August 2022, at 20:16<span class="anonymous-show">&#160;(UTC)</span>.</li>
-	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+	<li id="footer-info-lastmod"> This page was last edited on 4 August 2023, at 16:34<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a><a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" style="display:none;"></a>;
 additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
 </ul>
 
 	<ul id="footer-places">
-	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
 	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
 	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
 	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal_Code_of_Conduct">Code of Conduct</a></li>
 	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Godelieve&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
 	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
 	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
-	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
 </ul>
 
 	<ul id="footer-icons" class="noprint">
 	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
-	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
 </ul>
 
 </footer>
@@ -754,9 +741,16 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 		</div>
 	</div> 
 </div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li><button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.431","walltime":"0.614","ppvisitednodes":{"value":2508,"limit":1000000},"postexpandincludesize":{"value":34605,"limit":2097152},"templateargumentsize":{"value":2614,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":10,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":39138,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  510.798      1 -total"," 20.75%  105.970      1 Template:Infobox_saint"," 20.16%  102.953      1 Template:Infobox"," 18.67%   95.388      2 Template:Reflist"," 16.58%   84.687      1 Template:Authority_control"," 16.03%   81.884      1 Template:Lang-nl"," 14.21%   72.597      5 Template:Cite_book"," 12.91%   65.926     17 Template:Sfn","  9.48%   48.410      4 Template:Br_separated_entries","  7.07%   36.121      1 Template:Death_year_and_age"]},"scribunto":{"limitreport-timeusage":{"value":"0.298","limit":"10.000"},"limitreport-memusage":{"value":24040407,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n    [\"CITEREFHarper-Bill1999\"] = 1,\n    [\"CITEREFHead2001\"] = 1,\n    [\"CITEREFHerbermann1913\"] = 1,\n    [\"CITEREFKienzleNienhuis2001\"] = 1,\n    [\"CITEREFMulder-Bakker2002\"] = 1,\n    [\"CITEREFMulder-Bakker2003\"] = 1,\n    [\"CITEREFStracke2015\"] = 1,\n    [\"CITEREFde_Vries2007\"] = 1,\n}\ntemplate_list = table#1 {\n    [\"Authority control\"] = 1,\n    [\"Catholic\"] = 1,\n    [\"Circa\"] = 2,\n    [\"Cite book\"] = 5,\n    [\"Cite journal\"] = 1,\n    [\"Cite web\"] = 4,\n    [\"Commons category-inline\"] = 1,\n    [\"Death year and age\"] = 1,\n    [\"Efn\"] = 1,\n    [\"In lang\"] = 2,\n    [\"Infobox saint\"] = 1,\n    [\"Lang-nl\"] = 1,\n    [\"Notelist\"] = 1,\n    [\"PD-notice\"] = 1,\n    [\"Reflist\"] = 1,\n    [\"Sfn\"] = 17,\n    [\"Spnd\"] = 1,\n    [\"Use dmy dates\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw2310","timestamp":"20230207193652","ttl":1814400,"transientcontent":false}}});});</script>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Godelieve","url":"https:\/\/en.wikipedia.org\/wiki\/Godelieve","sameAs":"http:\/\/www.wikidata.org\/entity\/Q461908","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q461908","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-02-23T23:09:29Z","dateModified":"2022-08-15T20:16:14Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4c\/Strangulation_of_Godelieve.jpg","headline":"Flemish saint"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Godelieve","url":"https:\/\/en.wikipedia.org\/wiki\/Godelieve","sameAs":"http:\/\/www.wikidata.org\/entity\/Q461908","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q461908","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-02-23T23:09:29Z","dateModified":"2022-08-15T20:16:14Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4c\/Strangulation_of_Godelieve.jpg","headline":"Flemish saint"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":98,"wgHostname":"mw2407"});});</script>
+<span>Toggle limited content width</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2367","wgBackendResponseTime":102,"wgPageParseReport":{"limitreport":{"cputime":"0.416","walltime":"0.535","ppvisitednodes":{"value":2507,"limit":1000000},"postexpandincludesize":{"value":33976,"limit":2097152},"templateargumentsize":{"value":2614,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":11,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":39231,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  492.420      1 -total"," 21.71%  106.891      1 Template:Infobox_saint"," 20.95%  103.149      1 Template:Infobox"," 18.91%   93.113      2 Template:Reflist"," 17.93%   88.282      1 Template:Lang-nl"," 15.89%   78.245      1 Template:Authority_control"," 14.33%   70.559      5 Template:Cite_book"," 11.73%   57.764     17 Template:Sfn","  9.96%   49.038      4 Template:Br_separated_entries","  7.37%   36.271      1 Template:Death_year_and_age"]},"scribunto":{"limitreport-timeusage":{"value":"0.292","limit":"10.000"},"limitreport-memusage":{"value":25105030,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n    [\"CITEREFHarper-Bill1999\"] = 1,\n    [\"CITEREFHead2001\"] = 1,\n    [\"CITEREFHerbermann1913\"] = 1,\n    [\"CITEREFKienzleNienhuis2001\"] = 1,\n    [\"CITEREFMulder-Bakker2002\"] = 1,\n    [\"CITEREFMulder-Bakker2003\"] = 1,\n    [\"CITEREFStracke2015\"] = 1,\n    [\"CITEREFde_Vries2007\"] = 1,\n}\ntemplate_list = table#1 {\n    [\"Authority control\"] = 1,\n    [\"Catholic\"] = 1,\n    [\"Circa\"] = 2,\n    [\"Cite book\"] = 5,\n    [\"Cite journal\"] = 1,\n    [\"Cite web\"] = 4,\n    [\"Commons category-inline\"] = 1,\n    [\"Death year and age\"] = 1,\n    [\"Efn\"] = 1,\n    [\"In lang\"] = 2,\n    [\"Infobox saint\"] = 1,\n    [\"Lang-nl\"] = 1,\n    [\"Notelist\"] = 1,\n    [\"PD-notice\"] = 1,\n    [\"Reflist\"] = 1,\n    [\"Sfn\"] = 17,\n    [\"Spnd\"] = 1,\n    [\"Use dmy dates\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw2384","timestamp":"20230830232330","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Godelieve","url":"https:\/\/en.wikipedia.org\/wiki\/Godelieve","sameAs":"http:\/\/www.wikidata.org\/entity\/Q461908","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q461908","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-02-23T23:09:29Z","dateModified":"2023-08-04T16:34:53Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4c\/Strangulation_of_Godelieve.jpg","headline":"Flemish saint"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Godelieve","url":"https:\/\/en.wikipedia.org\/wiki\/Godelieve","sameAs":"http:\/\/www.wikidata.org\/entity\/Q461908","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q461908","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-02-23T23:09:29Z","dateModified":"2023-08-04T16:34:53Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4c\/Strangulation_of_Godelieve.jpg","headline":"Flemish saint"}</script>
 </body>
 </html>

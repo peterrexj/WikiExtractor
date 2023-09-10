@@ -1,262 +1,107 @@
 <!DOCTYPE html>
-<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled" lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8"/>
+<meta charset="UTF-8">
 <title>Mafalda of Portugal - Wikipedia</title>
-<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"7583c755-40ee-48ce-9ade-c45bbaddaa86",
-"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mafalda_of_Portugal","wgTitle":"Mafalda of Portugal","wgCurRevisionId":1126466820,"wgRevisionId":1126466820,"wgArticleId":2227123,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["1190s births","1256 deaths","House of Burgundy-Portugal","Portuguese infantas","Castilian queen consorts","13th-century Portuguese nuns","Female saints of medieval Portugal","Cistercian abbesses","Cistercian beatified people","Roman Catholic royal saints","13th-century Christian saints","13th-century venerated Christians","Incorrupt saints","13th-century Spanish women","13th-century Castilians","Beatifications by Pope Pius VI","Daughters of kings"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Mafalda_of_Portugal","wgRelevantArticleId":2227123,"wgIsProbablyEditable":true,
-"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":9000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q576323","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready"
-,"site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons",
-"ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
+"September","October","November","December"],"wgRequestId":"0e92888c-9263-43c2-89ac-9aac3cde2bd0","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mafalda_of_Portugal","wgTitle":"Mafalda of Portugal","wgCurRevisionId":1170280096,"wgRevisionId":1170280096,"wgArticleId":2227123,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["1190s births","1256 deaths","House of Burgundy-Portugal","Portuguese infantas","Queens consort of Castile","13th-century Portuguese nuns","Female saints of medieval Portugal","Cistercian abbesses","Cistercian beatified people","Roman Catholic royal saints","13th-century Christian saints","13th-century venerated Christians","Incorrupt saints","13th-century Spanish women","13th-century Castilians","Beatifications by Pope Pius VI","Daughters of kings"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName"
+:"Mafalda_of_Portugal","wgRelevantArticleId":2227123,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":9000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q576323","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],
+"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mediawiki.page.media","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents",
+"ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
 <script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
-<meta name="ResourceLoaderDynamicStyles" content=""/>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
-<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
-<meta name="referrer" content="origin"/>
-<meta name="referrer" content="origin-when-crossorigin"/>
-<meta name="referrer" content="origin-when-cross-origin"/>
-<meta name="robots" content="max-image-preview:standard"/>
-<meta name="format-detection" content="telephone=no"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="1445"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png/800px-D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png"/>
-<meta property="og:image:width" content="800"/>
-<meta property="og:image:height" content="964"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png/640px-D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png"/>
-<meta property="og:image:width" content="640"/>
-<meta property="og:image:height" content="771"/>
-<meta name="viewport" content="width=1000"/>
-<meta property="og:title" content="Mafalda of Portugal - Wikipedia"/>
-<meta property="og:type" content="website"/>
-<link rel="preconnect" href="//upload.wikimedia.org"/>
-<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Mafalda_of_Portugal"/>
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Mafalda_of_Portugal&amp;action=edit"/>
-<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
-<link rel="icon" href="/static/favicon/wikipedia.ico"/>
-<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
-<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
-<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
-<link rel="canonical" href="https://en.wikipedia.org/wiki/Mafalda_of_Portugal"/>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.41.0-wmf.25">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-crossorigin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1445">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png/800px-D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="964">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png/640px-D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="771">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Mafalda of Portugal - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Mafalda_of_Portugal">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Mafalda_of_Portugal&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Mafalda_of_Portugal">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
 <link rel="dns-prefetch" href="//meta.wikimedia.org" />
-<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org">
 </head>
-<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Mafalda_of_Portugal rootpage-Mafalda_of_Portugal skin-vector-2022 action-view"><div class="mw-page-container">
-	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
-	<div class="mw-page-container-inner">
-		<input
-			type="checkbox"
-			id="mw-sidebar-checkbox"
-			class="mw-checkbox-hack-checkbox"
-			>
-		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
-			<div class="vector-header-start">
-					<label
-				id="mw-sidebar-button"
-				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
-				for="mw-sidebar-checkbox"
-				role="button"
-				aria-controls="mw-panel"
-				data-event-name="ui.sidebar"
-				tabindex="0"
-				title="Main menu">
-				<span>Toggle sidebar</span>
-			</label>
-		
-<a href="/wiki/Main_Page" class="mw-logo">
-	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
-		aria-hidden="true" height="50" width="50">
-	<span class="mw-logo-container">
-		<img class="mw-logo-wordmark" alt="Wikipedia"
-			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
-		<img class="mw-logo-tagline"
-			alt="The Free Encyclopedia"
-			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
-	</span>
-</a>
-
-			</div>
-			<div class="vector-header-end">
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Mafalda_of_Portugal rootpage-Mafalda_of_Portugal skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
 				
-<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
-	<a href="/wiki/Special:Search"
-	
-		
-		
-		
-		title="Search Wikipedia [f]"
-		accesskey="f"
-		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
-		<span>Search</span>
-	</a>
-	
-	<div>
-		<form action="/w/index.php" id="searchform"
-			class="vector-search-box-form">
-			<div id="simpleSearch"
-				class="vector-search-box-inner"
-				 data-search-loc="header-moved">
-				<input class="vector-search-box-input"
-					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
-				>
-				<input type="hidden" name="title" value="Special:Search">
-				<input id="mw-searchButton"
-					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
-				<input id="searchButton"
-					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
-			</div>
-		</form>
-	</div>
-</div>
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
 
-				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
-	
-<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
-	<div class="vector-menu-heading">
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
 		
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Mafalda+of+Portugal" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
-		
-	</div>
-</div>
-
-	
-	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
-		<input type="checkbox"
-			id="p-personal-checkbox"
-			role="button"
-			aria-haspopup="true"
-			data-event-name="ui.dropdown-p-personal"
-			class="vector-menu-checkbox "
-			
-			
-		/>
-		<label
-			id="p-personal-label"
-			for="p-personal-checkbox"
-			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
-			
-		>
-			<span class="vector-menu-heading-label">Personal tools</span>
-		</label>
-		<div class="vector-menu-content">
-	
-		<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Mafalda+of+Portugal"
-	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
-</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:UserLogin&amp;returnto=Mafalda+of+Portugal"
-	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
-</li></ul>
-	
-</div>
-
-		<div class="vector-user-menu-anon-editor">
-			<p>
-				Pages for logged out editors <a data-mw="interface"
-	href="/wiki/Help:Introduction"
-	 aria-label="Learn more about editing"><span>learn more</span></a>
-
-			</p>
-		</div>
-				<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
-	
-</div>
-
-	
-		</div>
-	</div></nav>
-
-			</div>
-		</header>
-		<div class="vector-main-menu-container ">
-			<div id="mw-navigation">
-				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
-						
 <div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
-	
-	
-<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
 	<div
-		id="p-navigation-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Navigation</span>
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 	
 	
-<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
-	<div
-		id="p-interaction-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Contribute</span>
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
-	<div
-		id="p-tb-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Tools</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Mafalda_of_Portugal" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Mafalda_of_Portugal" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;oldid=1126466820" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Mafalda_of_Portugal&amp;id=1126466820&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q576323" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
-	<div
-		id="p-coll-print_export-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Print/export</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Mafalda_of_Portugal&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
-	<div
-		id="p-wikibase-otherprojects-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">In other projects</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Mafalda_of_Portugal,_Queen_of_Castile" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -266,29 +111,135 @@
 	<div class="vector-main-menu-action-item">
 		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
 		<div class="vector-main-menu-action-content vector-menu-content">
-			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Language links are at the top of the page across from the title.</div></div>
 		</div>
 	</div>
 </div>
 
-
 </div>
 
-				</nav>
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Mafalda+of+Portugal" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Mafalda+of+Portugal" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Mafalda+of+Portugal" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Mafalda+of+Portugal" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+					<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+					</div>
+		</nav>
 			</div>
 		</div>
 		<div class="vector-sitenotice-container">
 			<div id="siteNotice"><!-- CentralNotice --></div>
 		</div>
-		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
-		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="vector-menu-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark vector-sticky-pinned-container">
 			<div id="vector-toc-pinned-container" class="vector-pinned-container">
-			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
 	<div
 	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
-	data-name="vector-toc"
-	
-	
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
 	
 	
 >
@@ -312,8 +263,9 @@
 			<span class="vector-toc-numb">1</span>Life</div>
 		</a>
 		
-			<button aria-controls="toc-Life-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
-				
+			<button aria-controls="toc-Life-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Toggle Life subsection</span>
 			</button>
 		
 		<ul id="toc-Life-sublist" class="vector-toc-list">
@@ -373,82 +325,61 @@
 </div>
 
 			</div>
-</nav>
+		</nav>
 		<div class="mw-content-container">
 			<main id="content" class="mw-body" role="main">
 				<header class="mw-body-header vector-page-titlebar">
 					<label
 						id="vector-toc-collapsed-button"
-						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet vector-button-flush-left cdx-button--icon-only"
 						for="vector-toc-collapsed-checkbox"
 						role="button"
-						aria-controls="toc-toggle-list"
-						data-event-name="vector.toc-toggle-list"
+						aria-controls="vector-toc"
 						tabindex="0"
 						title="Table of Contents">
-						Toggle the table of contents
+						<span class="vector-icon mw-ui-icon-wikimedia-listBullet"></span>
+						<span>Toggle the table of contents</span>
 					</label>
-				
-					
-<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
-	<input type="checkbox"
-		id="vector-page-titlebar-toc-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-vector-page-titlebar-toc"
-		class="vector-menu-checkbox "
-		
-		
-	/>
-	<label
-		id="vector-page-titlebar-toc-label"
-		for="vector-page-titlebar-toc-checkbox"
-		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
-		
-	>
-		<span class="vector-menu-heading-label"></span>
+					<nav role="navigation" aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 
-						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
-		</div>
-	
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
 	</div>
 </div>
-				
+
+					</nav>
 					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Mafalda of Portugal</span></h1>
-				
 							
-<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
-	<input type="checkbox"
-		id="p-lang-btn-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-lang-btn"
-		class="vector-menu-checkbox mw-interlanguage-selector"
-		aria-label="Go to an article in another language. Available in 19 languages"
-		
-	/>
-	<label
-		id="p-lang-btn-label"
-		for="p-lang-btn-checkbox"
-		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-19"
-		
-	>
-		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">19 languages</span>
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 19 languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-19" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">19 languages</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 		<div class="vector-menu-content">
 			
-			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D9%81%D8%A7%D9%84%D8%AF%D8%A7_%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84%D9%8A%D8%A9" title="مافالدا البرتغالية – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Mafalda_de_Portugal_i_de_Barcelona" title="Mafalda de Portugal i de Barcelona – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Mafalda_Portugalsk%C3%A1_(1197%E2%80%931256)" title="Mafalda Portugalská (1197–1256) – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Mafalda_von_Portugal" title="Mafalda von Portugal – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%9C%CE%B1%CF%86%CE%AC%CE%BB%CE%BD%CF%84%CE%B1_%CF%84%CE%B7%CF%82_%CE%A0%CE%BF%CF%81%CF%84%CE%BF%CE%B3%CE%B1%CE%BB%CE%AF%CE%B1%CF%82" title="Μαφάλντα της Πορτογαλίας – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Mafalda_de_Portugal" title="Mafalda de Portugal – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Mafalda_de_Portugal" title="Mafalda de Portugal – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Mafalda_de_Portugal" title="Mafalda de Portugal – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Mafalda_del_Portogallo" title="Mafalda del Portogallo – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%9B%E1%83%90%E1%83%A4%E1%83%90%E1%83%9A%E1%83%93%E1%83%90_%E1%83%9E%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%A3%E1%83%92%E1%83%90%E1%83%9A%E1%83%98%E1%83%94%E1%83%9A%E1%83%98" title="მაფალდა პორტუგალიელი – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D9%85%D8%A7%D9%81%D8%A7%D9%84%D8%AF%D8%A7_%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%AC%D8%A7%D9%84%D9%8A%D9%87" title="مافالدا البرتجاليه – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Mafalda_van_Portugal" title="Mafalda van Portugal – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%95%E3%82%A1%E3%83%AB%E3%83%80%E3%83%BB%E3%83%87%E3%83%BB%E3%83%9D%E3%83%AB%E3%83%88%E3%82%A5%E3%82%AC%E3%83%AB" title="マファルダ・デ・ポルトゥガル – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Mafalda_av_Portugal" title="Mafalda av Portugal – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Mafalda_Portugalska_(kr%C3%B3lowa_Kastylii)" title="Mafalda Portugalska (królowa Kastylii) – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Beata_Mafalda_de_Portugal" title="Beata Mafalda de Portugal – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%84%D0%B0%D0%BB%D1%8C%D0%B4%D0%B0_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F" title="Мафальда Испанская – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Mafalda_av_Portugal" title="Mafalda av Portugal – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D1%84%D0%B0%D0%BB%D0%B4%D0%B0_%D0%A1%D0%B0%D0%BD%D1%88%D1%96%D0%B2%D0%BD%D0%B0" title="Мафалда Саншівна – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li></ul>
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D9%81%D8%A7%D9%84%D8%AF%D8%A7_%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84%D9%8A%D8%A9" title="مافالدا البرتغالية – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Mafalda_de_Portugal_i_de_Barcelona" title="Mafalda de Portugal i de Barcelona – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Mafalda_Portugalsk%C3%A1_(1197%E2%80%931256)" title="Mafalda Portugalská (1197–1256) – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Mafalda_von_Portugal" title="Mafalda von Portugal – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%9C%CE%B1%CF%86%CE%AC%CE%BB%CE%BD%CF%84%CE%B1_%CF%84%CE%B7%CF%82_%CE%A0%CE%BF%CF%81%CF%84%CE%BF%CE%B3%CE%B1%CE%BB%CE%AF%CE%B1%CF%82" title="Μαφάλντα της Πορτογαλίας – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Mafalda_de_Portugal" title="Mafalda de Portugal – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Mafalda_de_Portugal" title="Mafalda de Portugal – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Mafalda_de_Portugal" title="Mafalda de Portugal – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Mafalda_del_Portogallo" title="Mafalda del Portogallo – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%9B%E1%83%90%E1%83%A4%E1%83%90%E1%83%9A%E1%83%93%E1%83%90_%E1%83%9E%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%A3%E1%83%92%E1%83%90%E1%83%9A%E1%83%98%E1%83%94%E1%83%9A%E1%83%98" title="მაფალდა პორტუგალიელი – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D9%85%D8%A7%D9%81%D8%A7%D9%84%D8%AF%D8%A7_%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%AC%D8%A7%D9%84%D9%8A%D9%87" title="مافالدا البرتجاليه – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Mafalda_van_Portugal" title="Mafalda van Portugal – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%95%E3%82%A1%E3%83%AB%E3%83%80%E3%83%BB%E3%83%87%E3%83%BB%E3%83%9D%E3%83%AB%E3%83%88%E3%82%A5%E3%82%AC%E3%83%AB" title="マファルダ・デ・ポルトゥガル – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Mafalda_av_Portugal" title="Mafalda av Portugal – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Mafalda_Portugalska_(kr%C3%B3lowa_Kastylii)" title="Mafalda Portugalska (królowa Kastylii) – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Beata_Mafalda_de_Portugal" title="Beata Mafalda de Portugal – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%84%D0%B0%D0%BB%D1%8C%D0%B4%D0%B0_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F" title="Мафальда Испанская – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Mafalda_av_Portugal" title="Mafalda av Portugal – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D1%84%D0%B0%D0%BB%D0%B4%D0%B0_%D0%A1%D0%B0%D0%BD%D1%88%D1%96%D0%B2%D0%BD%D0%B0" title="Мафалда Саншівна – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li>
+			</ul>
 			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q576323#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
 		</div>
 
 	</div>
 </div>
-				</header>
+</header>
 				<div class="vector-page-toolbar">
 					<div class="vector-page-toolbar-container">
 						<div id="left-navigation">
@@ -457,41 +388,38 @@
 <div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Mafalda_of_Portugal" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Mafalda_of_Portugal" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Mafalda_of_Portugal" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Mafalda_of_Portugal" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 								
-
-<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
-	<input type="checkbox"
-		id="p-variants-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-variants"
-		class="vector-menu-checkbox"
-		aria-label="Change language variant"
-		
-	/>
-	<label
-		id="p-variants-label"
-		for="p-variants-checkbox"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">English</span>
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"></ul>
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
 		
-	</div>
-
 	</div>
 </div>
+
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 						<div id="right-navigation" class="vector-collapsible">
@@ -500,7 +428,10 @@
 <div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Mafalda_of_Portugal"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Mafalda_of_Portugal"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -509,40 +440,103 @@
 				
 							<nav class="vector-page-tools-landmark" aria-label="More options">
 								
-
-<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
-	<input type="checkbox"
-		id="p-cactions-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-cactions"
-		class="vector-menu-checkbox"
-		
-		
-	/>
-	<label
-		id="p-cactions-label"
-		for="p-cactions-checkbox"
-		class="vector-menu-heading"
-		
-	>
-		<span class="vector-menu-heading-label">More</span>
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Mafalda_of_Portugal"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=history"><span>View history</span></a></li></ul>
-		
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
 	</div>
-
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Mafalda_of_Portugal"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
 	</div>
 </div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Mafalda_of_Portugal" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Mafalda_of_Portugal" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;oldid=1170280096" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Mafalda_of_Portugal&amp;id=1170280096&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q576323" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Mafalda_of_Portugal&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Mafalda_of_Portugal&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Mafalda_of_Portugal,_Queen_of_Castile" hreflang="en"><span>Wikimedia Commons</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 					</div>
 				</div>
-				
+				<div class="vector-column-end">
+					<nav class="vector-page-tools-landmark vector-sticky-pinned-container" aria-label="More options">
+						<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+			
+						</div>
+	</nav>
+				</div>
 				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
 					<div class="vector-body-before-content">
 							<div class="mw-indicators">
@@ -553,11 +547,12 @@
 					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
 					
 					
-					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">For another person, see <a href="/wiki/Mafalda_of_Portugal_(born_1153)" title="Mafalda of Portugal (born 1153)">Mafalda of Portugal (born 1153)</a>.</div>
-<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above fn" style="background-color: #cbe; font-size: 125%">Mafalda of Portugal</th></tr><tr><td colspan="2" class="infobox-subheader"><i>Lady of Arouca</i></td></tr><tr><td colspan="2" class="infobox-image photo"><a href="/wiki/File:D._Mafalda_de_Portugal,_Rainha_de_Castela_-_The_Portuguese_Genealogy_(Genealogia_dos_Reis_de_Portugal).png" class="image"><img alt="D. Mafalda de Portugal, Rainha de Castela - The Portuguese Genealogy (Genealogia dos Reis de Portugal).png" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png/220px-D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png" decoding="async" width="220" height="265" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png/330px-D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png/440px-D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png 2x" data-file-width="998" data-file-height="1202" /></a><div class="infobox-caption" style="line-height:normal;padding-bottom:0.2em;padding-top:0.2em;">Mafalda in <i>Genealogy of the Kings of Portugal</i> (António de Holanda, 1530–1534)</div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color: #e4dcf6;line-height:normal;padding:0.2em 0.2em"><a href="/wiki/List_of_Castilian_consorts" class="mw-redirect" title="List of Castilian consorts">Queen consort of Castile</a></th></tr><tr><th scope="row" class="infobox-label">Tenure</th><td class="infobox-data">1215–1216</td></tr><tr><th colspan="2" class="infobox-header" style="background-color: #e4dcf6;line-height:normal;padding:0.2em 0.2em"><div style="height: 4px; width:100%;"></div></th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">c. 1195<br /><a href="/wiki/Kingdom_of_Portugal" title="Kingdom of Portugal">Kingdom of Portugal</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">1 May 1256 (aged 61)<br /><a href="/wiki/Rio_Tinto_(Gondomar)" title="Rio Tinto (Gondomar)">Rio Tinto</a>, <a href="/wiki/Gondomar,_Portugal" title="Gondomar, Portugal">Gondomar</a>, Kingdom of Portugal</td></tr><tr><th scope="row" class="infobox-label">Burial</th><td class="infobox-data"><div style="display:inline" class="label"><a href="/wiki/Arouca_Abbey" title="Arouca Abbey">Arouca Abbey</a>, <a href="/wiki/Arouca,_Portugal" title="Arouca, Portugal">Arouca</a>, <a href="/wiki/Porto_metropolitan_area" title="Porto metropolitan area">Porto</a>, Portugal</div></td></tr><tr><th scope="row" class="infobox-label">Spouse</th><td class="infobox-data"><div style="display:inline;white-space:nowrap;"><div style="display:inline-block;line-height:normal;margin-top:1px;white-space:normal;"><a href="/wiki/Henry_I_of_Castile" title="Henry I of Castile">Henry I of Castile</a></div>
-   <div style="line-height:0;margin-bottom:-2px;">&#8203;</div>&#32;<div style="display:inline-block;margin-bottom:1px;">&#8203;</div>&#40;<abbr title="married">m.</abbr>&#160;1215&#59;&#32;annulled&#160;1216&#41;<wbr />&#8203;</div></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Dynasty" title="Dynasty">House</a></th><td class="infobox-data"><a href="/wiki/Portuguese_House_of_Burgundy" title="Portuguese House of Burgundy">Portuguese House of Burgundy</a></td></tr><tr><th scope="row" class="infobox-label">Father</th><td class="infobox-data"><a href="/wiki/Sancho_I_of_Portugal" title="Sancho I of Portugal">Sancho I</a></td></tr><tr><th scope="row" class="infobox-label">Mother</th><td class="infobox-data"><a href="/wiki/Dulce_of_Aragon" title="Dulce of Aragon">Dulce of Aragon</a></td></tr><tr><th scope="row" class="infobox-label">Religion</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a></td></tr></tbody></table>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"/><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;">Blessed</div><br /><div style="display:inline;" class="fn">Mafada of Portugal, <a href="/wiki/Cistercians" title="Cistercians">O.Cist</a></div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:014_Arouca.jpg" class="image"><img alt="014 Arouca.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/014_Arouca.jpg/220px-014_Arouca.jpg" decoding="async" width="220" height="312" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/014_Arouca.jpg/330px-014_Arouca.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a3/014_Arouca.jpg/440px-014_Arouca.jpg 2x" data-file-width="564" data-file-height="800" /></a><div class="infobox-caption">Anonymous image of Mafada, depicting her dressed in her royal robes covered by a monastic <a href="/wiki/Cowl" title="Cowl">cowl</a>, bearing a <a href="/wiki/Crozier" class="mw-redirect" title="Crozier">crozier</a> in her right hand, indicative of her position as an <a href="/wiki/Abbess" title="Abbess">abbess</a>, found in the gallery of Arouca Abbey (1740)</div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Virgin</th></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a><br />(<a href="/wiki/Cistercian_Order" class="mw-redirect" title="Cistercian Order">Cistercian Order</a>)</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Beatification" title="Beatification">Beatified</a></th><td class="infobox-data">27 June 1792, <a href="/wiki/Rome" title="Rome">Rome</a>, <a href="/wiki/Papal_States" title="Papal States">Papal States</a> by <a href="/wiki/Pope_Pius_VI" title="Pope Pius VI">Pope Pius VI</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">20 June</td></tr></tbody></table>
-<p><b>Infanta Mafalda of Portugal</b> (also known as <b>Blessed Mafalda, O.Cist.</b> (c. 1195 – 1 May 1256 in <a href="/wiki/Rio_Tinto_(Gondomar)" title="Rio Tinto (Gondomar)">Rio Tinto</a>, <a href="/wiki/Gondomar,_Portugal" title="Gondomar, Portugal">Gondomar</a>; <span style="font-size:85%;">Portuguese pronunciation:&#160;</span><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA" lang="pt-Latn-fonipa"><a href="/wiki/Help:IPA/Portuguese" title="Help:IPA/Portuguese">[mɐˈfaɫdɐ]</a></span>) was a <a href="/wiki/Portugal" title="Portugal">Portuguese</a> <i><a href="/wiki/Infanta" class="mw-redirect" title="Infanta">infanta</a></i> (princess), later <a href="/wiki/Queen_consort" title="Queen consort">Queen consort</a> of <a href="/wiki/Kingdom_of_Castile" title="Kingdom of Castile">Castile</a> for a brief period. She was the second youngest daughter of <a href="/wiki/List_of_Portuguese_monarchs" title="List of Portuguese monarchs">King</a> <a href="/wiki/Sancho_I_of_Portugal" title="Sancho I of Portugal">Sancho I of Portugal</a> and <a href="/wiki/Dulce_of_Aragon" title="Dulce of Aragon">Dulce of Aragon</a>. Married briefly to the ten-year-old <a href="/wiki/Henry_I_of_Castile" title="Henry I of Castile">Henry I of Castile</a>, she held for a time the title Queen of Castile.
+					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">For the daughter of Afonso I and Mafalda of Savoy (Queen of Portugal), see <a href="/wiki/Mafalda_of_Portugal_(born_1153)" title="Mafalda of Portugal (born 1153)">Mafalda of Portugal (born 1153)</a>.</div>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above fn" style="background-color: #cbe; font-size: 125%">Mafalda of Portugal</th></tr><tr><td colspan="2" class="infobox-subheader"><i>Lady of Arouca</i></td></tr><tr><td colspan="2" class="infobox-image photo"><span class="mw-default-size" typeof="mw:File/Frameless"><a href="/wiki/File:D._Mafalda_de_Portugal,_Rainha_de_Castela_-_The_Portuguese_Genealogy_(Genealogia_dos_Reis_de_Portugal).png" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png/220px-D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png" decoding="async" width="220" height="265" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png/330px-D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/06/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png/440px-D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png 2x" data-file-width="998" data-file-height="1202" /></a></span><div class="infobox-caption" style="line-height:normal;padding-bottom:0.2em;padding-top:0.2em;">Mafalda in <i>Genealogy of the Kings of Portugal</i> (António de Holanda, 1530–1534)</div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color: #e4dcf6;line-height:normal;padding:0.2em 0.2em"><a href="/wiki/List_of_Castilian_consorts" class="mw-redirect" title="List of Castilian consorts">Queen consort of Castile</a></th></tr><tr><th scope="row" class="infobox-label">Tenure</th><td class="infobox-data">1215–1216</td></tr><tr><th colspan="2" class="infobox-header" style="background-color: #e4dcf6;line-height:normal;padding:0.2em 0.2em"><div style="height: 4px; width:100%;"></div></th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">c. 1195<br /><a href="/wiki/Kingdom_of_Portugal" title="Kingdom of Portugal">Kingdom of Portugal</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">1 May 1256 (aged 61)<br /><a href="/wiki/Rio_Tinto_(Gondomar)" title="Rio Tinto (Gondomar)">Rio Tinto</a>, <a href="/wiki/Gondomar,_Portugal" title="Gondomar, Portugal">Gondomar</a>, Kingdom of Portugal</td></tr><tr><th scope="row" class="infobox-label">Burial</th><td class="infobox-data"><div style="display:inline" class="label"><a href="/wiki/Arouca_Abbey" title="Arouca Abbey">Arouca Abbey</a>, <a href="/wiki/Arouca,_Portugal" title="Arouca, Portugal">Arouca</a>, <a href="/wiki/Porto_metropolitan_area" title="Porto metropolitan area">Porto</a>, Portugal</div></td></tr><tr><th scope="row" class="infobox-label">Spouse</th><td class="infobox-data"><style data-mw-deduplicate="TemplateStyles:r1151524712">.mw-parser-output .marriage-line-margin2px{line-height:0;margin-bottom:-2px}.mw-parser-output .marriage-line-margin3px{line-height:0;margin-bottom:-3px}.mw-parser-output .marriage-display-ws{display:inline;white-space:nowrap}</style>
+<div class="marriage-display-ws"><div style="display:inline-block;line-height:normal;margin-top:1px;white-space:normal;"><a href="/wiki/Henry_I_of_Castile" title="Henry I of Castile">Henry I of Castile</a></div>
+   <div class="marriage-line-margin2px">&#8203;</div>&#32;<div style="display:inline-block;margin-bottom:1px;">&#8203;</div>&#40;<abbr title="married">m.</abbr>&#160;1215&#59;&#32;annulled&#160;1216&#41;<wbr />&#8203;</div></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Dynasty" title="Dynasty">House</a></th><td class="infobox-data"><a href="/wiki/Portuguese_House_of_Burgundy" title="Portuguese House of Burgundy">Portuguese House of Burgundy</a></td></tr><tr><th scope="row" class="infobox-label">Father</th><td class="infobox-data"><a href="/wiki/Sancho_I_of_Portugal" title="Sancho I of Portugal">Sancho I</a></td></tr><tr><th scope="row" class="infobox-label">Mother</th><td class="infobox-data"><a href="/wiki/Dulce_of_Aragon" title="Dulce of Aragon">Dulce of Aragon</a></td></tr><tr><th scope="row" class="infobox-label">Religion</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a></td></tr></tbody></table>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;">Blessed</div><br /><div style="display:inline;" class="fn">Mafada of Portugal, <a href="/wiki/Cistercians" title="Cistercians">O.Cist</a></div></th></tr><tr><td colspan="2" class="infobox-image"><span class="mw-default-size" typeof="mw:File/Frameless"><a href="/wiki/File:014_Arouca.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/014_Arouca.jpg/220px-014_Arouca.jpg" decoding="async" width="220" height="312" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/014_Arouca.jpg/330px-014_Arouca.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a3/014_Arouca.jpg/440px-014_Arouca.jpg 2x" data-file-width="564" data-file-height="800" /></a></span><div class="infobox-caption">Anonymous image of Mafada, depicting her dressed in her royal robes covered by a monastic <a href="/wiki/Cowl" title="Cowl">cowl</a>, bearing a <a href="/wiki/Crozier" class="mw-redirect" title="Crozier">crozier</a> in her right hand, indicative of her position as an <a href="/wiki/Abbess" title="Abbess">abbess</a>, found in the gallery of Arouca Abbey (1740)</div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Virgin</th></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a><br />(<a href="/wiki/Cistercian_Order" class="mw-redirect" title="Cistercian Order">Cistercian Order</a>)</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Beatification" title="Beatification">Beatified</a></th><td class="infobox-data">27 June 1792, <a href="/wiki/Rome" title="Rome">Rome</a>, <a href="/wiki/Papal_States" title="Papal States">Papal States</a> by <a href="/wiki/Pope_Pius_VI" title="Pope Pius VI">Pope Pius VI</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">20 June</td></tr></tbody></table>
+<p><b>Infanta Mafalda of Portugal</b> (also known as <b>Blessed Mafalda, O.Cist.</b> (c. 1195 – 1 May 1256 in <a href="/wiki/Rio_Tinto_(Gondomar)" title="Rio Tinto (Gondomar)">Rio Tinto</a>, <a href="/wiki/Gondomar,_Portugal" title="Gondomar, Portugal">Gondomar</a>; <span style="font-size:85%;">Portuguese pronunciation:&#160;</span><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA" lang="pt-Latn-fonipa"><a href="/wiki/Help:IPA/Portuguese" title="Help:IPA/Portuguese">[mɐˈfaldɐ]</a></span>) was a <a href="/wiki/Portugal" title="Portugal">Portuguese</a> <i><a href="/wiki/Infanta" class="mw-redirect" title="Infanta">infanta</a></i> (princess), later <a href="/wiki/Queen_consort" title="Queen consort">Queen consort</a> of <a href="/wiki/Kingdom_of_Castile" title="Kingdom of Castile">Castile</a> for a brief period. She was the second youngest daughter of <a href="/wiki/List_of_Portuguese_monarchs" title="List of Portuguese monarchs">King</a> <a href="/wiki/Sancho_I_of_Portugal" title="Sancho I of Portugal">Sancho I of Portugal</a> and <a href="/wiki/Dulce_of_Aragon" title="Dulce of Aragon">Dulce of Aragon</a>. Married briefly to the ten-year-old <a href="/wiki/Henry_I_of_Castile" title="Henry I of Castile">Henry I of Castile</a>, she held for a time the title Queen of Castile.
 </p><p>Upon the dissolution of the marriage, Mafalda returned to her homeland. She chose to become a <a href="/wiki/Cistercian" class="mw-redirect" title="Cistercian">Cistercian</a> <a href="/wiki/Nun" title="Nun">nun</a>, and became noted for the holiness of her life. She was declared <a href="/wiki/Beatification" title="Beatification">Blessed</a> by the Catholic Church five centuries after her death.
 </p>
 <meta property="mw:PageProp/toc" />
@@ -569,7 +564,7 @@
 <h3><span class="mw-headline" id="Marriage">Marriage</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=edit&amp;section=3" title="Edit section: Marriage">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
 <p>In 1215, a political marriage was arranged between Mafalda and her young cousin <a href="/wiki/Henry_I_of_Castile" title="Henry I of Castile">Henry I of Castile</a>. As he was about ten years old, the marriage was never consummated, and it was dissolved the following year on grounds of consanguinity.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> She then returned to Portugal.
 </p>
-<div class="thumb tleft"><div class="thumbinner" style="width:242px;"><a href="/wiki/File:S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg/240px-S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg" decoding="async" width="240" height="360" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg/360px-S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/28/S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg/480px-S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg 2x" data-file-width="3648" data-file-height="5472" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg" class="internal" title="Enlarge"></a></div>Altar of Our Lady of Silva, <a href="/wiki/Porto" title="Porto">Porto</a></div></div></div>
+<figure class="mw-halign-left" typeof="mw:File/Thumb"><a href="/wiki/File:S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg/240px-S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg" decoding="async" width="240" height="360" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg/360px-S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/28/S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg/480px-S%C3%A9_do_Porto-Altar_de_Nossa_Senhora_da_Silva-20142910.jpg 2x" data-file-width="3648" data-file-height="5472" /></a><figcaption>Altar of Our Lady of Silva, <a href="/wiki/Porto" title="Porto">Porto</a></figcaption></figure>
 <h3><span class="mw-headline" id="Monastic_life">Monastic life</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Mafalda_of_Portugal&amp;action=edit&amp;section=4" title="Edit section: Monastic life">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
 <p>In 1220, Mafalda chose not to marry again and became a <a href="/wiki/Nun" title="Nun">nun</a> at the <a href="/wiki/Arouca_Abbey" title="Arouca Abbey">Abbey of Arouca</a>, though she was granted a special dispensation to retain control of her inheritance. She became <a href="/wiki/Abbess" title="Abbess">abbess</a> of the community, then one of <a href="/wiki/Benedictine" class="mw-redirect" title="Benedictine">Benedictine</a> nuns, and in 1226 had her request to transfer the abbey to the <a href="/wiki/Cistercian_Order" class="mw-redirect" title="Cistercian Order">Cistercian Order</a> granted by the pope. She had a great devotion to Our Lady of Silva and made substantial donations to the shrine. She also had a hospice for travelers built as well as a number of bridges, churches, monasteries, and hospitals.<sup id="cite_ref-Merton_3-0" class="reference"><a href="#cite_note-Merton-3">&#91;3&#93;</a></sup> She helped to establish her own abbey as a major religious center in the region for centuries.
 </p><p>Returning from a pilgrimage to the shrine of Our Lady of Silva, she fell ill at <a href="/wiki/Rio_Tinto_(Gondomar)" title="Rio Tinto (Gondomar)">Rio Tinto</a>, <a href="/wiki/Gondomar,_Portugal" title="Gondomar, Portugal">Gondomar</a>, and died at the monastery of Cistercians monks there on 1 May 1256. In 1616, wanting to return her body to <a href="/wiki/Arouca,_Portugal" title="Arouca, Portugal">Arouca</a> as part of the process of her possible <a href="/wiki/Canonization" title="Canonization">canonization</a>, it was found not to have deteriorated, which generated a strong devotion to the Portuguese princess. She was beatified in 1792 by <a href="/wiki/Pope_Pius_VI" title="Pope Pius VI">Pope Pius VI</a>. Her <a href="/wiki/Feast_day" class="mw-redirect" title="Feast day">feast day</a> is celebrated on June 20, together with her two sisters.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup>
@@ -581,14 +576,14 @@
 <div class="mw-references-wrap"><ol class="references">
 <li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">McMurdo, Edward. <i>The History of Portugal: From the Commencement of the Monarchy to the Reign of Alfonso III</i>, S. Low, Marston, Searle, &amp; Rivington, 1888</span>
 </li>
-<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=fHI3AAAAIAAJ&amp;pg=PA83&amp;lpg=PA83&amp;dq=Mafalda+of+Portugal&amp;source=bl&amp;ots=99D3isDQsQ&amp;sig=00HVA__UdxPIzZgQmboP5WhLl_g&amp;hl=en&amp;sa=X&amp;ei=kgYXVc2oA4zbggSPoIHQCg&amp;ved=0CD4Q6AEwBjgK#v=onepage&amp;q=Mafalda%20of%20Portugal&amp;f=false"><i>A History of Portugal</i></a>, CUP Archive</span>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://books.google.com/books?id=fHI3AAAAIAAJ&amp;dq=Mafalda+of+Portugal&amp;pg=PA83"><i>A History of Portugal</i></a>, CUP Archive</span>
 </li>
-<li id="cite_note-Merton-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-Merton_3-0">^</a></b></span> <span class="reference-text"><a href="/wiki/Thomas_Merton" title="Thomas Merton">Merton, Thomas</a>. <a rel="nofollow" class="external text" href="https://books.google.com/books?id=9QHbAQAAQBAJ&amp;pg=PA159&amp;lpg=PA159&amp;dq=Mafalda+of+Portugal&amp;source=bl&amp;ots=p7292Cw58z&amp;sig=8JxYWoGB-cgu_k79WHW3zUEwOdo&amp;hl=en&amp;sa=X&amp;ei=5BMXVdO6KcOiNv6jhJAO&amp;ved=0CCAQ6AEwATgU#v=onepage&amp;q=Mafalda%20of%20Portugal&amp;f=false"><i>In the Valley of Wormwood</i></a>, Liturgical Press, 2013, <style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9780879077587" title="Special:BookSources/9780879077587">9780879077587</a></span>
+<li id="cite_note-Merton-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-Merton_3-0">^</a></b></span> <span class="reference-text"><a href="/wiki/Thomas_Merton" title="Thomas Merton">Merton, Thomas</a>. <a rel="nofollow" class="external text" href="https://books.google.com/books?id=9QHbAQAAQBAJ&amp;dq=Mafalda+of+Portugal&amp;pg=PA159"><i>In the Valley of Wormwood</i></a>, Liturgical Press, 2013, <style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9780879077587" title="Special:BookSources/9780879077587">9780879077587</a></span>
 </li>
-<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://evangelhoquotidiano.org/PT/display-saint/e4902065-988e-49d5-89fd-37a123c32989">"Santos do Dia: Beata Mafalda"</a>. <i>Evangelho Quotidiano</i><span class="reference-accessdate">. Retrieved <span class="nowrap">June 20,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Evangelho+Quotidiano&amp;rft.atitle=Santos+do+Dia%3A+Beata+Mafalda&amp;rft_id=https%3A%2F%2Fevangelhoquotidiano.org%2FPT%2Fdisplay-saint%2Fe4902065-988e-49d5-89fd-37a123c32989&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMafalda+of+Portugal" class="Z3988"></span></span>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://evangelhoquotidiano.org/PT/display-saint/e4902065-988e-49d5-89fd-37a123c32989">"Santos do Dia: Beata Mafalda"</a>. <i>Evangelho Quotidiano</i><span class="reference-accessdate">. Retrieved <span class="nowrap">June 20,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Evangelho+Quotidiano&amp;rft.atitle=Santos+do+Dia%3A+Beata+Mafalda&amp;rft_id=https%3A%2F%2Fevangelhoquotidiano.org%2FPT%2Fdisplay-saint%2Fe4902065-988e-49d5-89fd-37a123c32989&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMafalda+of+Portugal" class="Z3988"></span></span>
 </li>
 </ol></div></div>
-<table class="wikitable succession-box noprint" style="margin:0.5em auto; font-size:95%;clear:both;">
+<table class="wikitable succession-box noprint" style="margin:0.5em auto; font-size:small;clear:both;">
 
 <tbody><tr>
 <th colspan="3" style="border-top: 5px solid #65BCFF">Royal titles
@@ -603,41 +598,41 @@
 <td style="width: 30%; text-align: center;" rowspan="1">Succeeded&#160;by<div style="font-weight: bold"><a href="/wiki/Beatriz_of_Swabia" class="mw-redirect" title="Beatriz of Swabia">Beatriz of Swabia</a></div>
 </td></tr>
 </tbody></table>
-<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Royal_consorts_of_Castile" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Castilian_consorts" title="Template:Castilian consorts"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Castilian_consorts" title="Template talk:Castilian consorts"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Castilian_consorts&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Royal_consorts_of_Castile" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_Castilian_consorts" class="mw-redirect" title="List of Castilian consorts">Royal consorts of Castile</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><a href="/wiki/Sancha_of_Le%C3%B3n" title="Sancha of León">Sancha of León</a> (1037-1065)</li>
-<li><a href="/wiki/Alberta,_Queen_of_Castile" title="Alberta, Queen of Castile">Alberta</a> (1070-1072)</li>
-<li><a href="/wiki/Agnes_of_Aquitaine,_Queen_of_Le%C3%B3n_and_Castile" title="Agnes of Aquitaine, Queen of León and Castile">Agnes of Aquitaine</a> (1072-1077)</li>
-<li><a href="/wiki/Constance_of_Burgundy" title="Constance of Burgundy">Constance of Burgundy</a> (1079-1093)</li>
-<li><a href="/wiki/Bertha,_Queen_of_Castile" class="mw-redirect" title="Bertha, Queen of Castile">Bertha</a> (1094-1099)</li>
-<li><a href="/wiki/Isabel,_Queen_of_Castile" class="mw-redirect" title="Isabel, Queen of Castile">Isabel</a> (1100-1107)</li>
-<li><a href="/wiki/Beatrice,_Queen_of_Castile" class="mw-redirect" title="Beatrice, Queen of Castile">Beatrice</a> (1108-1109)</li>
-<li><i><a href="/wiki/Alfonso_I_of_Aragon" class="mw-redirect" title="Alfonso I of Aragon">Alfonso I of Aragon</a></i> (1109-1115)</li>
-<li><a href="/wiki/Berengaria_of_Barcelona" title="Berengaria of Barcelona">Berengaria of Barcelona</a> (1128-1149)</li>
-<li><a href="/wiki/Richeza_of_Poland,_Queen_of_Castile" title="Richeza of Poland, Queen of Castile">Richeza of Poland</a> (1152-1157)</li>
-<li><i><a href="/wiki/Blanche_of_Navarre,_Queen_of_Castile" class="mw-redirect" title="Blanche of Navarre, Queen of Castile">Blanche of Navarre</a></i> (1151-1156)</li>
-<li><a href="/wiki/Eleanor_of_England,_Queen_of_Castile" title="Eleanor of England, Queen of Castile">Eleanor of England</a> (1177-1214)</li>
-<li><a class="mw-selflink selflink">Mafalda of Portugal</a> (1215-1216)</li>
-<li><a href="/wiki/Elisabeth_of_Swabia" title="Elisabeth of Swabia">Elisabeth of Swabia</a> (1219-1235)</li>
-<li><a href="/wiki/Joan,_Countess_of_Ponthieu" title="Joan, Countess of Ponthieu">Joan, Countess of Ponthieu</a> (1237-1253)</li>
-<li><a href="/wiki/Violant_of_Aragon" title="Violant of Aragon">Violant of Aragon</a> (1252-1284)</li>
-<li><a href="/wiki/Mar%C3%ADa_de_Molina" title="María de Molina">María de Molina</a> (1284-1295)</li>
-<li><a href="/wiki/Constance_of_Portugal" title="Constance of Portugal">Constance of Portugal</a> (1302-1312)</li>
-<li><a href="/wiki/Constance_of_Penafiel" class="mw-redirect" title="Constance of Penafiel">Constance of Peñafiel</a> (1325-1327)</li>
-<li><a href="/wiki/Maria_of_Portugal,_Queen_of_Castile" title="Maria of Portugal, Queen of Castile">Maria of Portugal</a> (1328-1350)</li>
-<li><a href="/wiki/Blanche_of_Bourbon" title="Blanche of Bourbon">Blanche of Bourbon</a> (1353-1361)</li>
-<li><a href="/wiki/Juana_Manuel_of_Castile" class="mw-redirect" title="Juana Manuel of Castile">Juana Manuel of Castile</a> (1369-1379)</li>
-<li><a href="/wiki/Eleanor_of_Aragon,_Queen_of_Castile" title="Eleanor of Aragon, Queen of Castile">Eleanor of Aragon</a> (1379-1382)</li>
-<li><a href="/wiki/Beatrice_of_Portugal" title="Beatrice of Portugal">Beatrice of Portugal</a> (1383-1390)</li>
-<li><a href="/wiki/Catherine_of_Lancaster" title="Catherine of Lancaster">Catherine of England</a> (1390-1406)</li>
-<li><a href="/wiki/Maria_of_Aragon,_Queen_of_Castile" title="Maria of Aragon, Queen of Castile">Maria of Aragon</a> (1418-1445)</li>
-<li><a href="/wiki/Isabella_of_Portugal,_Queen_of_Castile" title="Isabella of Portugal, Queen of Castile">Isabella of Portugal</a> (1447-1454)</li>
-<li><a href="/wiki/Joan_of_Portugal" title="Joan of Portugal">Joan of Portugal</a> (1454-1474)</li>
-<li><a href="/wiki/Isabella_of_Portugal" title="Isabella of Portugal">Isabella of Portugal</a> (1526-1539)</li></ul>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Royal_consorts_of_Castile" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Castilian_consorts" title="Template:Castilian consorts"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Castilian_consorts" title="Template talk:Castilian consorts"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Castilian_consorts&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Royal_consorts_of_Castile" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_Castilian_consorts" class="mw-redirect" title="List of Castilian consorts">Royal consorts of Castile</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Sancha_of_Le%C3%B3n" title="Sancha of León">Sancha of León</a> (1037–1065)</li>
+<li><a href="/wiki/Alberta,_Queen_of_Castile" title="Alberta, Queen of Castile">Alberta</a> (1070–1072)</li>
+<li><a href="/wiki/Agnes_of_Aquitaine,_Queen_of_Le%C3%B3n_and_Castile" title="Agnes of Aquitaine, Queen of León and Castile">Agnes of Aquitaine</a> (1072–1077)</li>
+<li><a href="/wiki/Constance_of_Burgundy" title="Constance of Burgundy">Constance of Burgundy</a> (1079–1093)</li>
+<li><a href="/wiki/Bertha,_Queen_of_Castile" class="mw-redirect" title="Bertha, Queen of Castile">Bertha</a> (1094–1099)</li>
+<li><a href="/wiki/Isabel,_Queen_of_Castile" class="mw-redirect" title="Isabel, Queen of Castile">Isabel</a> (1100–1107)</li>
+<li><a href="/wiki/Beatrice,_Queen_of_Castile" class="mw-redirect" title="Beatrice, Queen of Castile">Beatrice</a> (1108–1109)</li>
+<li><i><a href="/wiki/Alfonso_I_of_Aragon" class="mw-redirect" title="Alfonso I of Aragon">Alfonso I of Aragon</a></i> (1109–1115)</li>
+<li><a href="/wiki/Berengaria_of_Barcelona" title="Berengaria of Barcelona">Berengaria of Barcelona</a> (1128–1149)</li>
+<li><a href="/wiki/Richeza_of_Poland,_Queen_of_Castile" title="Richeza of Poland, Queen of Castile">Richeza of Poland</a> (1152–1157)</li>
+<li><i><a href="/wiki/Blanca_of_Navarre,_Queen_of_Castile" title="Blanca of Navarre, Queen of Castile">Blanca of Navarre</a></i> (1151–1156)</li>
+<li><a href="/wiki/Eleanor_of_England,_Queen_of_Castile" title="Eleanor of England, Queen of Castile">Eleanor of England</a> (1177–1214)</li>
+<li><a class="mw-selflink selflink">Mafalda of Portugal</a> (1215–1216)</li>
+<li><a href="/wiki/Elisabeth_of_Swabia" title="Elisabeth of Swabia">Elisabeth of Swabia</a> (1219–1235)</li>
+<li><a href="/wiki/Joan,_Countess_of_Ponthieu" title="Joan, Countess of Ponthieu">Joan, Countess of Ponthieu</a> (1237–1253)</li>
+<li><a href="/wiki/Violant_of_Aragon" title="Violant of Aragon">Violant of Aragon</a> (1252–1284)</li>
+<li><a href="/wiki/Mar%C3%ADa_de_Molina" title="María de Molina">María de Molina</a> (1284–1295)</li>
+<li><a href="/wiki/Constance_of_Portugal" title="Constance of Portugal">Constance of Portugal</a> (1302–1312)</li>
+<li><a href="/wiki/Constance_of_Penafiel" class="mw-redirect" title="Constance of Penafiel">Constance of Peñafiel</a> (1325–1327)</li>
+<li><a href="/wiki/Maria_of_Portugal,_Queen_of_Castile" title="Maria of Portugal, Queen of Castile">Maria of Portugal</a> (1328–1350)</li>
+<li><a href="/wiki/Blanche_of_Bourbon" title="Blanche of Bourbon">Blanche of Bourbon</a> (1353–1361)</li>
+<li><a href="/wiki/Juana_Manuel_of_Castile" class="mw-redirect" title="Juana Manuel of Castile">Juana Manuel of Castile</a> (1369–1379)</li>
+<li><a href="/wiki/Eleanor_of_Aragon,_Queen_of_Castile" title="Eleanor of Aragon, Queen of Castile">Eleanor of Aragon</a> (1379–1382)</li>
+<li><a href="/wiki/Beatrice_of_Portugal" title="Beatrice of Portugal">Beatrice of Portugal</a> (1383–1390)</li>
+<li><a href="/wiki/Catherine_of_Lancaster" title="Catherine of Lancaster">Catherine of England</a> (1390–1406)</li>
+<li><a href="/wiki/Maria_of_Aragon,_Queen_of_Castile" title="Maria of Aragon, Queen of Castile">Maria of Aragon</a> (1418–1445)</li>
+<li><a href="/wiki/Isabella_of_Portugal,_Queen_of_Castile" title="Isabella of Portugal, Queen of Castile">Isabella of Portugal</a> (1447–1454)</li>
+<li><a href="/wiki/Joan_of_Portugal" title="Joan of Portugal">Joan of Portugal</a> (1454–1474)</li>
+<li><a href="/wiki/Isabella_of_Portugal" title="Isabella of Portugal">Isabella of Portugal</a> (1526–1539)</li></ul>
 </div></td></tr></tbody></table></div>
-<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox" aria-labelledby="Infantas_of_Portugal" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"/><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Portuguese_infantas" title="Template:Portuguese infantas"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Portuguese_infantas" title="Template talk:Portuguese infantas"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Portuguese_infantas&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Infantas_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Infante_of_Portugal" title="Infante of Portugal">Infantas of Portugal</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div id="The_generations_indicate_descent_form_Afonso_I,_and_continues_through_the_House_of_Aviz,_the_House_of_Habsburg_through_Infanta_Isabel,_Holy_Roman_Empress_and_Queen_of_Spain,_and_the_House_of_Braganza_through_Infanta_Catarina,_Duchess_of_Braganza.">The generations indicate descent form <a href="/wiki/Afonso_I_of_Portugal" title="Afonso I of Portugal">Afonso I</a>, and continues through the <a href="/wiki/House_of_Aviz" title="House of Aviz">House of Aviz</a>, the <a href="/wiki/House_of_Habsburg" title="House of Habsburg">House of Habsburg</a> through <a href="/wiki/Isabella_of_Portugal" title="Isabella of Portugal">Infanta Isabel, Holy Roman Empress and Queen of Spain</a>, and the <a href="/wiki/House_of_Braganza" title="House of Braganza">House of Braganza</a> through <a href="/wiki/Catarina_of_Portugal,_Duchess_of_Braganza" title="Catarina of Portugal, Duchess of Braganza">Infanta Catarina, Duchess of Braganza</a>.</div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">1st generation</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"></div><div role="navigation" class="navbox" aria-labelledby="Infantas_of_Portugal" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Portuguese_infantas" title="Template:Portuguese infantas"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Portuguese_infantas" title="Template talk:Portuguese infantas"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Portuguese_infantas&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Infantas_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Infante_of_Portugal" title="Infante of Portugal">Infantas of Portugal</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div>The generations indicate descent form <a href="/wiki/Afonso_I_of_Portugal" title="Afonso I of Portugal">Afonso I</a>, and continues through the <a href="/wiki/House_of_Aviz" title="House of Aviz">House of Aviz</a>, the <a href="/wiki/House_of_Habsburg" title="House of Habsburg">House of Habsburg</a> through <a href="/wiki/Isabella_of_Portugal" title="Isabella of Portugal">Infanta Isabel, Holy Roman Empress and Queen of Spain</a>, and the <a href="/wiki/House_of_Braganza" title="House of Braganza">House of Braganza</a> through <a href="/wiki/Catarina_of_Portugal,_Duchess_of_Braganza" title="Catarina of Portugal, Duchess of Braganza">Infanta Catarina, Duchess of Braganza</a>.</div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">1st generation</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Urraca_of_Portugal" title="Urraca of Portugal">Urraca, Queen of León</a></li>
 <li><a href="/wiki/Theresa_of_Portugal,_Countess_of_Flanders" title="Theresa of Portugal, Countess of Flanders">Teresa, Countess of Flanders</a></li>
-<li><a href="/wiki/Mafalda_of_Portugal_(daughter_of_Afonso_Henriques)" class="mw-redirect" title="Mafalda of Portugal (daughter of Afonso Henriques)">Infanta Mafalda</a></li></ul>
+<li><a href="/wiki/Mafalda_of_Portugal_(born_1153)" title="Mafalda of Portugal (born 1153)">Infanta Mafalda</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">2nd generation</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Theresa_of_Portugal,_Queen_of_Le%C3%B3n" title="Theresa of Portugal, Queen of León">Teresa, Queen of León</a></li>
 <li><a href="/wiki/Sancha,_Lady_of_Alenquer" title="Sancha, Lady of Alenquer">Infanta Sancha, Lady of Alenquer</a></li>
@@ -681,16 +676,16 @@
 <li><a href="/wiki/Maria_of_Portugal,_Duchess_of_Viseu" title="Maria of Portugal, Duchess of Viseu">Infanta Maria, Duchess of Viseu</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">12th generation</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Maria_Manuela,_Princess_of_Portugal" title="Maria Manuela, Princess of Portugal">Maria Manuela, Princess of Portugal and Asturias</a></li>
-<li><a href="/wiki/Infanta_Maria_of_Guimar%C3%A3es" class="mw-redirect" title="Infanta Maria of Guimarães">Maria, Hereditary Princess of Parma</a></li>
+<li><a href="/wiki/Maria_of_Portugal,_Hereditary_Princess_of_Parma" title="Maria of Portugal, Hereditary Princess of Parma">Maria, Hereditary Princess of Parma</a></li>
 <li><a href="/wiki/Catarina_of_Portugal,_Duchess_of_Braganza" title="Catarina of Portugal, Duchess of Braganza">Infanta Catarina, Duchess of Braganza</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">13th generation</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Isabella_Clara_Eugenia" title="Isabella Clara Eugenia">Isabel Clara, Archduchess of Austria</a>*</li>
 <li><a href="/wiki/Catalina_Micaela_of_Spain" title="Catalina Micaela of Spain">Catalina Micaela, Duchess of Savoy</a>*</li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">14th generation</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Anne_of_Austria" title="Anne of Austria">Ana, Queen of France</a>*</li>
-<li><a href="/wiki/Maria_of_Spain_(1603)" class="mw-redirect" title="Maria of Spain (1603)">María</a>*</li>
+<li><a href="/wiki/Infanta_Maria_of_Spain_(1603)" title="Infanta Maria of Spain (1603)">María</a>*</li>
 <li><a href="/wiki/Maria_Anna_of_Spain" title="Maria Anna of Spain">María Ana, Holy Roman Empress</a>*</li>
-<li><a href="/wiki/Infanta_Margarita_of_Spain_(1610-1617)" title="Infanta Margarita of Spain (1610-1617)">Margarita</a>*</li></ul>
+<li><a href="/wiki/Infanta_Margarita_of_Spain_(1610%E2%80%931617)" title="Infanta Margarita of Spain (1610–1617)">Margarita</a>*</li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">15th generation</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Maria_Theresa_of_Spain" title="Maria Theresa of Spain">María Teresa, Queen of France</a>*</li>
 <li><a href="/wiki/Joana,_Princess_of_Beira" title="Joana, Princess of Beira">Joana, Princess of Beira</a></li>
@@ -706,7 +701,7 @@
 <li><a href="/wiki/Infanta_Doroteia_of_Braganza" title="Infanta Doroteia of Braganza">Maria Doroteia</a></li>
 <li><a href="/wiki/Infanta_Benedita_of_Braganza" title="Infanta Benedita of Braganza">Benedita, Princess of Brazil</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">19th generation</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><a href="/wiki/Infanta_Mariana_Victoria_of_Portugal" class="mw-redirect" title="Infanta Mariana Victoria of Portugal">Mariana Victoria, Infanta Gabriel of Spain</a></li></ul>
+<ul><li><a href="/wiki/Infanta_Mariana_Vit%C3%B3ria_of_Braganza" title="Infanta Mariana Vitória of Braganza">Mariana Victoria, Infanta Gabriel of Spain</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">20th generation</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Infanta_Maria_Teresa_of_Braganza" title="Infanta Maria Teresa of Braganza">Infanta Maria Teresa</a></li>
 <li><a href="/wiki/Maria_Isabel_of_Braganza" title="Maria Isabel of Braganza">Maria Isabel, Queen of Spain</a></li>
@@ -723,18 +718,18 @@
 <li><a href="/wiki/Infanta_Maria_das_Neves_of_Portugal" title="Infanta Maria das Neves of Portugal">Infanta Maria das Neves, Duchess of San Jaime</a>ƒ</li>
 <li><a href="/wiki/Infanta_Maria_Theresa_of_Portugal" title="Infanta Maria Theresa of Portugal">Maria Teresa, Archduchess Karl Ludwig of Austria</a>ƒ</li>
 <li><a href="/wiki/Infanta_Maria_Josepha_of_Portugal" title="Infanta Maria Josepha of Portugal">Maria José, Duchess Karl Theodor in Bavaria</a>ƒ</li>
-<li><a href="/wiki/Infanta_Aldegundes,_Duchess_of_Guimar%C3%A3es" class="mw-redirect" title="Infanta Aldegundes, Duchess of Guimarães">Infanta Aldegundes, Duchess of Guimarães</a>ƒ</li>
+<li><a href="/wiki/Infanta_Adelgundes,_Duchess_of_Guimar%C3%A3es" title="Infanta Adelgundes, Duchess of Guimarães">Infanta Adelgundes, Duchess of Guimarães</a>ƒ</li>
 <li><a href="/wiki/Infanta_Marie_Anne_of_Portugal" title="Infanta Marie Anne of Portugal">Maria Ana, Grand Duchess of Luxembourg</a>ƒ</li>
-<li><a href="/wiki/Infanta_Maria_Antonia_of_Portugal" class="mw-redirect" title="Infanta Maria Antonia of Portugal">Maria Antónia, Duchess of Parma</a>ƒ</li></ul>
+<li><a href="/wiki/Infanta_Maria_Ant%C3%B3nia_of_Portugal" title="Infanta Maria Antónia of Portugal">Maria Antónia, Duchess of Parma</a>ƒ</li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">22nd generation</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><a href="/wiki/Infanta_Maria_Anna_of_Portugal_(1843%E2%80%931884)" class="mw-redirect" title="Infanta Maria Anna of Portugal (1843–1884)">Maria Ana, Princess Georg of Saxony</a>***</li>
+<ul><li><a href="/wiki/Infanta_Maria_Ana_of_Portugal_(1843%E2%80%931884)" title="Infanta Maria Ana of Portugal (1843–1884)">Maria Ana, Princess Georg of Saxony</a>***</li>
 <li><a href="/wiki/Infanta_Ant%C3%B3nia_of_Portugal" title="Infanta Antónia of Portugal">Antónia, Princess of Hohenzollern</a>***</li>
 <li><a href="/wiki/Princess_Maria_Theresa_of_Braganza" title="Princess Maria Theresa of Braganza">Maria Teresa, Princess Karl Ludwig of Thurn und Taxis</a>ƒ◙</li>
 <li><a href="/wiki/Princess_Isabel_Maria_of_Braganza" title="Princess Isabel Maria of Braganza">Isabel Maria, Princess of Thurn und Taxis</a>ƒ◙</li>
-<li><a href="/wiki/Princess_Maria_Anna_of_Braganza" class="mw-redirect" title="Princess Maria Anna of Braganza">Maria Ana, Princess Karl August of Thurn und Taxis</a>ƒ◙</li>
+<li><a href="/wiki/Princess_Maria_Ana_of_Braganza" title="Princess Maria Ana of Braganza">Maria Ana, Princess Karl August of Thurn und Taxis</a>ƒ◙</li>
 <li><a href="/wiki/Maria_Adelaide_de_Bragan%C3%A7a" title="Maria Adelaide de Bragança">Infanta Maria Adelaide, Mrs. van Uden</a>ƒ◙</li></ul>
-</div></td></tr></tbody></table><div></div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><small>* <i>also an infanta of Spain and an archduchess of Austria</i>,<span class="nowrap">&#160;&#160;</span>** <i>also an imperial princess of Brazil</i>,<span class="nowrap">&#160;&#160;</span>*** <i>also a princess of Saxe-Coburg and Gotha, Duchess in Saxony</i>,<span class="nowrap">&#160;&#160;</span>◙ <i>Also a princess of Braganza</i>,<span class="nowrap">&#160;&#160;</span>¤ <i>title removed in 1920 as her parents' marriage was deemed undynastic</i>, <span class="nowrap">&#160;&#160;</span>ƒ <i>claimant infanta</i></small></div></td></tr></tbody></table></div>
-<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox" aria-labelledby="Portuguese_House_of_Burgundy" style="padding:3px"><table class="nowraplinks hlist mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"/><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:House_of_Burgundy-Portugal" title="Template:House of Burgundy-Portugal"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:House_of_Burgundy-Portugal" title="Template talk:House of Burgundy-Portugal"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:House_of_Burgundy-Portugal&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Portuguese_House_of_Burgundy" style="font-size:114%;margin:0 4em"><a href="/wiki/Portuguese_House_of_Burgundy" title="Portuguese House of Burgundy">Portuguese House of Burgundy</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks mw-collapsible mw-collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="padding-left:120px;"><div id="Henry,_Count_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Henry,_Count_of_Portugal" title="Henry, Count of Portugal">Henry, Count of Portugal</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:8.75em">Spouse(s)</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+</div></td></tr></tbody></table><div></div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><i>* also an infanta of Spain and an archduchess of Austria</i>,<span class="nowrap">&#160;&#160;</span>** <i>also an imperial princess of Brazil</i>,<span class="nowrap">&#160;&#160;</span>*** <i>also a princess of Saxe-Coburg and Gotha, Duchess in Saxony</i>,<span class="nowrap">&#160;&#160;</span>◙ <i>Also a princess of Braganza</i>,<span class="nowrap">&#160;&#160;</span>¤ <i>title removed in 1920 as her parents' marriage was deemed undynastic</i>, <span class="nowrap">&#160;&#160;</span>ƒ <i>claimant infanta</i></div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"></div><div role="navigation" class="navbox" aria-labelledby="Portuguese_House_of_Burgundy" style="padding:3px"><table class="nowraplinks hlist mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:House_of_Burgundy-Portugal" title="Template:House of Burgundy-Portugal"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:House_of_Burgundy-Portugal" title="Template talk:House of Burgundy-Portugal"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:House_of_Burgundy-Portugal&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Portuguese_House_of_Burgundy" style="font-size:114%;margin:0 4em"><a href="/wiki/Portuguese_House_of_Burgundy" title="Portuguese House of Burgundy">Portuguese House of Burgundy</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks mw-collapsible mw-collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="padding-left:120px;"><div id="Henry,_Count_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Henry,_Count_of_Portugal" title="Henry, Count of Portugal">Henry, Count of Portugal</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:8.75em">Spouse(s)</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Theresa,_Countess_of_Portugal" title="Theresa, Countess of Portugal">Theresa of León</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:8.75em">Children</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
 <ul><li>Urraca Henriques, wife of Bermudo Pérez de Traba</li>
@@ -751,7 +746,7 @@
 <li><a href="/wiki/Sancho_I_of_Portugal" title="Sancho I of Portugal">Sancho I</a></li>
 <li>Infante João</li>
 <li><a href="/wiki/Theresa_of_Portugal,_Countess_of_Flanders" title="Theresa of Portugal, Countess of Flanders">Theresa, Countess of Flanders and Duchess of Burgundy</a></li></ul>
-</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td><td class="noviewer navbox-image" rowspan="10" style="width:1px;padding:0 0 0 2px"><div><a href="/wiki/File:Coat_of_Arms_of_D._Henry_of_Burgundy,_Count_of_Portugal.png" class="image"><img alt="Coat of Arms of D. Henry of Burgundy, Count of Portugal.png" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/120px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png" decoding="async" width="120" height="132" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/180px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/240px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png 2x" data-file-width="520" data-file-height="570" /></a></div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks mw-collapsible mw-collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="padding-left:120px;"><div id="Afonso_I_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Afonso_I_of_Portugal" title="Afonso I of Portugal">Afonso I of Portugal</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:8.75em">Spouse(s)</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td><td class="noviewer navbox-image" rowspan="10" style="width:1px;padding:0 0 0 2px"><div><span typeof="mw:File"><a href="/wiki/File:Coat_of_Arms_of_D._Henry_of_Burgundy,_Count_of_Portugal.png" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/120px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png" decoding="async" width="120" height="132" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/180px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/57/Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png/240px-Coat_of_Arms_of_D._Henry_of_Burgundy%2C_Count_of_Portugal.png 2x" data-file-width="520" data-file-height="570" /></a></span></div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks mw-collapsible mw-collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="padding-left:120px;"><div id="Afonso_I_of_Portugal" style="font-size:114%;margin:0 4em"><a href="/wiki/Afonso_I_of_Portugal" title="Afonso I of Portugal">Afonso I of Portugal</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:8.75em">Spouse(s)</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Mafalda_of_Savoy,_Queen_of_Portugal" class="mw-redirect" title="Mafalda of Savoy, Queen of Portugal">Mafalda of Savoy, Queen of Portugal</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:8.75em">Children</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
 <ul><li>Infante Henrique</li>
@@ -902,46 +897,44 @@
 </div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw1354
-Cached time: 20230207174920
+Parsed by mw2421
+Cached time: 20230908031815
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 0.448 seconds
-Real time usage: 0.619 seconds
-Preprocessor visited node count: 3486/1000000
-Post‐expand include size: 185299/2097152 bytes
-Template argument size: 3413/2097152 bytes
-Highest expansion depth: 19/100
-Expensive parser function count: 2/500
+CPU time usage: 0.372 seconds
+Real time usage: 0.526 seconds
+Preprocessor visited node count: 4012/1000000
+Post‐expand include size: 184925/2097152 bytes
+Template argument size: 4214/2097152 bytes
+Highest expansion depth: 18/100
+Expensive parser function count: 5/500
 Unstrip recursion depth: 1/20
-Unstrip post‐expand size: 32687/5000000 bytes
-Lua time usage: 0.224/10.000 seconds
-Lua memory usage: 6624014/52428800 bytes
+Unstrip post‐expand size: 32609/5000000 bytes
+Lua time usage: 0.201/10.000 seconds
+Lua memory usage: 8689548/52428800 bytes
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  517.516      1 -total
- 30.24%  156.512      1 Template:Infobox_royalty
- 28.35%  146.700      2 Template:Infobox
- 21.21%  109.770     13 Template:Navbox
- 20.49%  106.028      1 Template:Reflist
- 18.20%   94.182      1 Template:Castilian_consorts
- 18.19%   94.128      1 Template:Marriage
- 12.69%   65.687      1 Template:Str_≠_len
- 12.53%   64.863      4 Template:YEAR
- 12.14%   62.803      1 Template:Wdib
+100.00%  422.259      1 -total
+ 31.74%  134.043      1 Template:Infobox_royalty
+ 28.90%  122.030      2 Template:Infobox
+ 21.61%   91.263     13 Template:Navbox
+ 18.21%   76.893      1 Template:Reflist
+ 18.09%   76.390      1 Template:Marriage
+ 15.34%   64.785      1 Template:Castilian_consorts
+  9.24%   39.026      1 Template:Str_≠_len
+  9.09%   38.385      4 Template:YEAR
+  8.96%   37.815      1 Template:Cite_web
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:2227123-0!canonical and timestamp 20230207174919 and revision id 1126466820. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2227123-0!canonical and timestamp 20230908031814 and revision id 1170280096. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
-<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Mafalda_of_Portugal&amp;oldid=1126466820">https://en.wikipedia.org/w/index.php?title=Mafalda_of_Portugal&amp;oldid=1126466820</a>"</div></div>
-					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1190s_births" title="Category:1190s births">1190s births</a></li><li><a href="/wiki/Category:1256_deaths" title="Category:1256 deaths">1256 deaths</a></li><li><a href="/wiki/Category:House_of_Burgundy-Portugal" title="Category:House of Burgundy-Portugal">House of Burgundy-Portugal</a></li><li><a href="/wiki/Category:Portuguese_infantas" title="Category:Portuguese infantas">Portuguese infantas</a></li><li><a href="/wiki/Category:Castilian_queen_consorts" title="Category:Castilian queen consorts">Castilian queen consorts</a></li><li><a href="/wiki/Category:13th-century_Portuguese_nuns" title="Category:13th-century Portuguese nuns">13th-century Portuguese nuns</a></li><li><a href="/wiki/Category:Female_saints_of_medieval_Portugal" title="Category:Female saints of medieval Portugal">Female saints of medieval Portugal</a></li><li><a href="/wiki/Category:Cistercian_abbesses" title="Category:Cistercian abbesses">Cistercian abbesses</a></li><li><a href="/wiki/Category:Cistercian_beatified_people" title="Category:Cistercian beatified people">Cistercian beatified people</a></li><li><a href="/wiki/Category:Roman_Catholic_royal_saints" title="Category:Roman Catholic royal saints">Roman Catholic royal saints</a></li><li><a href="/wiki/Category:13th-century_Christian_saints" title="Category:13th-century Christian saints">13th-century Christian saints</a></li><li><a href="/wiki/Category:13th-century_venerated_Christians" title="Category:13th-century venerated Christians">13th-century venerated Christians</a></li><li><a href="/wiki/Category:Incorrupt_saints" title="Category:Incorrupt saints">Incorrupt saints</a></li><li><a href="/wiki/Category:13th-century_Spanish_women" title="Category:13th-century Spanish women">13th-century Spanish women</a></li><li><a href="/wiki/Category:13th-century_Castilians" title="Category:13th-century Castilians">13th-century Castilians</a></li><li><a href="/wiki/Category:Beatifications_by_Pope_Pius_VI" title="Category:Beatifications by Pope Pius VI">Beatifications by Pope Pius VI</a></li><li><a href="/wiki/Category:Daughters_of_kings" title="Category:Daughters of kings">Daughters of kings</a></li></ul></div></div>
-					
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Mafalda_of_Portugal&amp;oldid=1170280096">https://en.wikipedia.org/w/index.php?title=Mafalda_of_Portugal&amp;oldid=1170280096</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1190s_births" title="Category:1190s births">1190s births</a></li><li><a href="/wiki/Category:1256_deaths" title="Category:1256 deaths">1256 deaths</a></li><li><a href="/wiki/Category:House_of_Burgundy-Portugal" title="Category:House of Burgundy-Portugal">House of Burgundy-Portugal</a></li><li><a href="/wiki/Category:Portuguese_infantas" title="Category:Portuguese infantas">Portuguese infantas</a></li><li><a href="/wiki/Category:Queens_consort_of_Castile" title="Category:Queens consort of Castile">Queens consort of Castile</a></li><li><a href="/wiki/Category:13th-century_Portuguese_nuns" title="Category:13th-century Portuguese nuns">13th-century Portuguese nuns</a></li><li><a href="/wiki/Category:Female_saints_of_medieval_Portugal" title="Category:Female saints of medieval Portugal">Female saints of medieval Portugal</a></li><li><a href="/wiki/Category:Cistercian_abbesses" title="Category:Cistercian abbesses">Cistercian abbesses</a></li><li><a href="/wiki/Category:Cistercian_beatified_people" title="Category:Cistercian beatified people">Cistercian beatified people</a></li><li><a href="/wiki/Category:Roman_Catholic_royal_saints" title="Category:Roman Catholic royal saints">Roman Catholic royal saints</a></li><li><a href="/wiki/Category:13th-century_Christian_saints" title="Category:13th-century Christian saints">13th-century Christian saints</a></li><li><a href="/wiki/Category:13th-century_venerated_Christians" title="Category:13th-century venerated Christians">13th-century venerated Christians</a></li><li><a href="/wiki/Category:Incorrupt_saints" title="Category:Incorrupt saints">Incorrupt saints</a></li><li><a href="/wiki/Category:13th-century_Spanish_women" title="Category:13th-century Spanish women">13th-century Spanish women</a></li><li><a href="/wiki/Category:13th-century_Castilians" title="Category:13th-century Castilians">13th-century Castilians</a></li><li><a href="/wiki/Category:Beatifications_by_Pope_Pius_VI" title="Category:Beatifications by Pope Pius VI">Beatifications by Pope Pius VI</a></li><li><a href="/wiki/Category:Daughters_of_kings" title="Category:Daughters of kings">Daughters of kings</a></li></ul></div></div>
 				</div>
-				
 			</main>
 			
 		</div>
@@ -949,25 +942,26 @@ Transclusion expansion time report (%,ms,calls,template)
 			
 <footer id="footer" class="mw-footer" role="contentinfo" >
 	<ul id="footer-info">
-	<li id="footer-info-lastmod"> This page was last edited on 9 December 2022, at 13:48<span class="anonymous-show">&#160;(UTC)</span>.</li>
-	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+	<li id="footer-info-lastmod"> This page was last edited on 14 August 2023, at 04:03<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a><a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" style="display:none;"></a>;
 additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
 </ul>
 
 	<ul id="footer-places">
-	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
 	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
 	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
 	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal_Code_of_Conduct">Code of Conduct</a></li>
 	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Mafalda_of_Portugal&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
 	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
 	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
-	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
 </ul>
 
 	<ul id="footer-icons" class="noprint">
 	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
-	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
 </ul>
 
 </footer>
@@ -975,9 +969,16 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 		</div>
 	</div> 
 </div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li><button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.448","walltime":"0.619","ppvisitednodes":{"value":3486,"limit":1000000},"postexpandincludesize":{"value":185299,"limit":2097152},"templateargumentsize":{"value":3413,"limit":2097152},"expansiondepth":{"value":19,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":32687,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  517.516      1 -total"," 30.24%  156.512      1 Template:Infobox_royalty"," 28.35%  146.700      2 Template:Infobox"," 21.21%  109.770     13 Template:Navbox"," 20.49%  106.028      1 Template:Reflist"," 18.20%   94.182      1 Template:Castilian_consorts"," 18.19%   94.128      1 Template:Marriage"," 12.69%   65.687      1 Template:Str_≠_len"," 12.53%   64.863      4 Template:YEAR"," 12.14%   62.803      1 Template:Wdib"]},"scribunto":{"limitreport-timeusage":{"value":"0.224","limit":"10.000"},"limitreport-memusage":{"value":6624014,"limit":52428800}},"cachereport":{"origin":"mw1354","timestamp":"20230207174920","ttl":1814400,"transientcontent":false}}});});</script>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Mafalda of Portugal","url":"https:\/\/en.wikipedia.org\/wiki\/Mafalda_of_Portugal","sameAs":"http:\/\/www.wikidata.org\/entity\/Q576323","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q576323","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-07-13T18:21:19Z","dateModified":"2022-12-09T13:48:01Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/06\/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png","headline":"Portuguese infanta, Castilian queen consort, and nun"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Mafalda of Portugal","url":"https:\/\/en.wikipedia.org\/wiki\/Mafalda_of_Portugal","sameAs":"http:\/\/www.wikidata.org\/entity\/Q576323","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q576323","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-07-13T18:21:19Z","dateModified":"2022-12-09T13:48:01Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/06\/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png","headline":"Portuguese infanta, Castilian queen consort, and nun"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":102,"wgHostname":"mw2378"});});</script>
+<span>Toggle limited content width</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2331","wgBackendResponseTime":104,"wgPageParseReport":{"limitreport":{"cputime":"0.372","walltime":"0.526","ppvisitednodes":{"value":4012,"limit":1000000},"postexpandincludesize":{"value":184925,"limit":2097152},"templateargumentsize":{"value":4214,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":32609,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  422.259      1 -total"," 31.74%  134.043      1 Template:Infobox_royalty"," 28.90%  122.030      2 Template:Infobox"," 21.61%   91.263     13 Template:Navbox"," 18.21%   76.893      1 Template:Reflist"," 18.09%   76.390      1 Template:Marriage"," 15.34%   64.785      1 Template:Castilian_consorts","  9.24%   39.026      1 Template:Str_≠_len","  9.09%   38.385      4 Template:YEAR","  8.96%   37.815      1 Template:Cite_web"]},"scribunto":{"limitreport-timeusage":{"value":"0.201","limit":"10.000"},"limitreport-memusage":{"value":8689548,"limit":52428800},"limitreport-logs":"table#1 {\n}\n\"\"\n"},"cachereport":{"origin":"mw2421","timestamp":"20230908031815","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Mafalda of Portugal","url":"https:\/\/en.wikipedia.org\/wiki\/Mafalda_of_Portugal","sameAs":"http:\/\/www.wikidata.org\/entity\/Q576323","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q576323","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-07-13T18:21:19Z","dateModified":"2023-08-14T04:03:07Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/06\/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png","headline":"Portuguese infanta, Castilian queen consort, and nun"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Mafalda of Portugal","url":"https:\/\/en.wikipedia.org\/wiki\/Mafalda_of_Portugal","sameAs":"http:\/\/www.wikidata.org\/entity\/Q576323","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q576323","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-07-13T18:21:19Z","dateModified":"2023-08-14T04:03:07Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/06\/D._Mafalda_de_Portugal%2C_Rainha_de_Castela_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png","headline":"Portuguese infanta, Castilian queen consort, and nun"}</script>
 </body>
 </html>

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Pope Innocent XI - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
-"September","October","November","December"],"wgRequestId":"4b1714db-f14f-4219-812f-43286233d06b","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Pope_Innocent_XI","wgTitle":"Pope Innocent XI","wgCurRevisionId":1171349864,"wgRevisionId":1171349864,"wgArticleId":24650,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles to be merged from February 2023","All articles to be merged","Articles with short description","Short description is different from Wikidata","Articles containing Latin-language text","Articles containing Italian-language text","All articles with unsourced statements","Articles with unsourced statements from July 2023","CS1: long volume value","CS1 French-language sources (fr)","Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference",
+"September","October","November","December"],"wgRequestId":"3c06f9b9-3cc8-4730-80fb-6a25b9d18e93","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Pope_Innocent_XI","wgTitle":"Pope Innocent XI","wgCurRevisionId":1171349864,"wgRevisionId":1171349864,"wgArticleId":24650,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles to be merged from February 2023","All articles to be merged","Articles with short description","Short description is different from Wikidata","Articles containing Latin-language text","Articles containing Italian-language text","All articles with unsourced statements","Articles with unsourced statements from July 2023","CS1: long volume value","CS1 French-language sources (fr)","Articles incorporating a citation from the 1913 Catholic Encyclopedia with Wikisource reference",
 "Articles incorporating text from the 1913 Catholic Encyclopedia with Wikisource reference","Commons category link is on Wikidata","Webarchive template wayback links","Pages using S-rel template with ca parameter","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with BNC identifiers","Articles with BNE identifiers","Articles with BNF identifiers","Articles with BNFdata identifiers","Articles with CANTICN identifiers","Articles with GND identifiers","Articles with ICCU identifiers","Articles with J9U identifiers","Articles with KBR identifiers","Articles with LCCN identifiers","Articles with LNB identifiers","Articles with NKC identifiers","Articles with NLA identifiers","Articles with NTA identifiers","Articles with PLWABN identifiers","Articles with VcBA identifiers","Articles with ULAN identifiers","Articles with DBI identifiers","Articles with DTBIO identifiers","Articles with Trove identifiers",
 "Articles with RISM identifiers","Articles with SNAC-ID identifiers","Articles with SUDOC identifiers","Pope Innocent XI","1611 births","1689 deaths","People from Como","Italian popes","Bishops of Novara","People of the Great Turkish War","Italian beatified people","Beatifications by Pope Pius XII","17th-century venerated Christians","17th-century popes","Popes","Beatified popes","Burials at St. Peter's Basilica"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Pope_Innocent_XI","wgRelevantArticleId":24650,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":30000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":
 {"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q101286","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":
@@ -1832,13 +1832,13 @@ the radical Protestants of London's <a href="/wiki/Green_Ribbon_Club" title="Gre
 </div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw2309
-Cached time: 20230908141623
+Parsed by mw2408
+Cached time: 20230909193616
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 0.802 seconds
-Real time usage: 1.062 seconds
+CPU time usage: 0.808 seconds
+Real time usage: 1.133 seconds
 Preprocessor visited node count: 5194/1000000
 Post‐expand include size: 200469/2097152 bytes
 Template argument size: 11585/2097152 bytes
@@ -1847,24 +1847,24 @@ Expensive parser function count: 36/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 94296/5000000 bytes
 Lua time usage: 0.469/10.000 seconds
-Lua memory usage: 30666538/52428800 bytes
+Lua memory usage: 30668077/52428800 bytes
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  825.089      1 -total
- 16.61%  137.025      1 Template:Reflist
- 15.16%  125.047      3 Template:Infobox
- 13.69%  112.925      1 Template:Infobox_Christian_leader
- 12.85%  106.061     16 Template:Cite_web
- 11.52%   95.023      1 Template:Lang-la
-  9.51%   78.472      1 Template:Popes
-  7.08%   58.408      1 Template:Merge_from
-  6.52%   53.806      1 Template:Authority_control
-  5.38%   44.356      1 Template:Birth_date
+100.00%  889.208      1 -total
+ 16.22%  144.256      1 Template:Reflist
+ 15.08%  134.073      3 Template:Infobox
+ 13.64%  121.263      1 Template:Infobox_Christian_leader
+ 12.41%  110.378     16 Template:Cite_web
+ 10.12%   89.993      1 Template:Lang-la
+  9.02%   80.191      1 Template:Popes
+  7.41%   65.848      1 Template:Merge_from
+  7.31%   65.042      1 Template:Authority_control
+  5.31%   47.189      1 Template:Birth_date
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:24650-0!canonical and timestamp 20230908141622 and revision id 1171349864. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:24650-0!canonical and timestamp 20230909193615 and revision id 1171349864. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Pope_Innocent_XI&amp;oldid=1171349864">https://en.wikipedia.org/w/index.php?title=Pope_Innocent_XI&amp;oldid=1171349864</a>"</div></div>
@@ -1913,7 +1913,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2414","wgBackendResponseTime":124,"wgPageParseReport":{"limitreport":{"cputime":"0.802","walltime":"1.062","ppvisitednodes":{"value":5194,"limit":1000000},"postexpandincludesize":{"value":200469,"limit":2097152},"templateargumentsize":{"value":11585,"limit":2097152},"expansiondepth":{"value":17,"limit":100},"expensivefunctioncount":{"value":36,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":94296,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  825.089      1 -total"," 16.61%  137.025      1 Template:Reflist"," 15.16%  125.047      3 Template:Infobox"," 13.69%  112.925      1 Template:Infobox_Christian_leader"," 12.85%  106.061     16 Template:Cite_web"," 11.52%   95.023      1 Template:Lang-la","  9.51%   78.472      1 Template:Popes","  7.08%   58.408      1 Template:Merge_from","  6.52%   53.806      1 Template:Authority_control","  5.38%   44.356      1 Template:Birth_date"]},"scribunto":{"limitreport-timeusage":{"value":"0.469","limit":"10.000"},"limitreport-memusage":{"value":30666538,"limit":52428800},"limitreport-logs":"table#1 {\n    [\"size\"] = \"tiny\",\n}\ntable#1 {\n    [\"size\"] = \"tiny\",\n}\ntable#1 {\n    [\"size\"] = \"tiny\",\n}\n"},"cachereport":{"origin":"mw2309","timestamp":"20230908141623","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2386","wgBackendResponseTime":141,"wgPageParseReport":{"limitreport":{"cputime":"0.808","walltime":"1.133","ppvisitednodes":{"value":5194,"limit":1000000},"postexpandincludesize":{"value":200469,"limit":2097152},"templateargumentsize":{"value":11585,"limit":2097152},"expansiondepth":{"value":17,"limit":100},"expensivefunctioncount":{"value":36,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":94296,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  889.208      1 -total"," 16.22%  144.256      1 Template:Reflist"," 15.08%  134.073      3 Template:Infobox"," 13.64%  121.263      1 Template:Infobox_Christian_leader"," 12.41%  110.378     16 Template:Cite_web"," 10.12%   89.993      1 Template:Lang-la","  9.02%   80.191      1 Template:Popes","  7.41%   65.848      1 Template:Merge_from","  7.31%   65.042      1 Template:Authority_control","  5.31%   47.189      1 Template:Birth_date"]},"scribunto":{"limitreport-timeusage":{"value":"0.469","limit":"10.000"},"limitreport-memusage":{"value":30668077,"limit":52428800},"limitreport-logs":"table#1 {\n    [\"size\"] = \"tiny\",\n}\ntable#1 {\n    [\"size\"] = \"tiny\",\n}\ntable#1 {\n    [\"size\"] = \"tiny\",\n}\n"},"cachereport":{"origin":"mw2408","timestamp":"20230909193616","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Pope Innocent XI","url":"https:\/\/en.wikipedia.org\/wiki\/Pope_Innocent_XI","sameAs":"http:\/\/www.wikidata.org\/entity\/Q101286","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q101286","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-11-18T19:59:26Z","dateModified":"2023-08-20T16:05:56Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f8\/Jacob_Ferdinand_Voet_-_Portrait_of_Innocenzo_XI_Odescalchi_%28cropped%29.jpeg","headline":"pope of the Catholic Church from 1676 to 1689"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Pope Innocent XI","url":"https:\/\/en.wikipedia.org\/wiki\/Pope_Innocent_XI","sameAs":"http:\/\/www.wikidata.org\/entity\/Q101286","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q101286","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-11-18T19:59:26Z","dateModified":"2023-08-20T16:05:56Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f8\/Jacob_Ferdinand_Voet_-_Portrait_of_Innocenzo_XI_Odescalchi_%28cropped%29.jpeg","headline":"pope of the Catholic Church from 1676 to 1689"}</script>
 </body>
 </html>

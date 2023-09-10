@@ -1,261 +1,106 @@
 <!DOCTYPE html>
-<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled" lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8"/>
+<meta charset="UTF-8">
 <title>Anne Line - Wikipedia</title>
-<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"73f98e2f-dcec-4a7d-8fc6-c446b49a5a84",
-"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Anne_Line","wgTitle":"Anne Line","wgCurRevisionId":1130412945,"wgRevisionId":1130412945,"wgArticleId":6085290,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description matches Wikidata","Use dmy dates from November 2015","Use British English from November 2015","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with GND identifiers","1560s births","1601 deaths","Catholic saints who converted from Protestantism","English Roman Catholic saints","17th-century Christian saints","Forty Martyrs of England and Wales","Converts to Roman Catholicism from Calvinism","People executed under Elizabeth I","16th-century English women","17th-century English women","Executed people from Essex",
-"Christian female saints of the Early Modern era","Canonizations by Pope Paul VI","Anglican saints"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Anne_Line","wgRelevantArticleId":6085290,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":
-false,"wgWikibaseItemId":"Q2069003","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader",
-"ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
+"September","October","November","December"],"wgRequestId":"96296dca-618e-4844-aaa4-a7f408240cae","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Anne_Line","wgTitle":"Anne Line","wgCurRevisionId":1173182081,"wgRevisionId":1173182081,"wgArticleId":6085290,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description matches Wikidata","Use dmy dates from November 2015","Use British English from November 2015","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with GND identifiers","1560s births","1601 deaths","Catholic saints who converted from Protestantism","English Roman Catholic saints","17th-century Christian saints","Forty Martyrs of England and Wales","Converts to Roman Catholicism from Calvinism","People executed under Elizabeth I","16th-century English women","17th-century English women",
+"Executed people from Essex","Christian female saints of the Early Modern era","Canonizations by Pope Paul VI","Anglican saints"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Anne_Line","wgRelevantArticleId":6085290,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,
+"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q2069003","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mediawiki.page.media","site",
+"mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
 <script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
-<meta name="ResourceLoaderDynamicStyles" content=""/>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
-<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
-<meta name="referrer" content="origin"/>
-<meta name="referrer" content="origin-when-crossorigin"/>
-<meta name="referrer" content="origin-when-cross-origin"/>
-<meta name="robots" content="max-image-preview:standard"/>
-<meta name="format-detection" content="telephone=no"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/9a/St_Anne_Line.jpg"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="1600"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/9a/St_Anne_Line.jpg"/>
-<meta property="og:image:width" content="800"/>
-<meta property="og:image:height" content="1067"/>
-<meta property="og:image:width" content="640"/>
-<meta property="og:image:height" content="853"/>
-<meta name="viewport" content="width=1000"/>
-<meta property="og:title" content="Anne Line - Wikipedia"/>
-<meta property="og:type" content="website"/>
-<link rel="preconnect" href="//upload.wikimedia.org"/>
-<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Anne_Line"/>
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Anne_Line&amp;action=edit"/>
-<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
-<link rel="icon" href="/static/favicon/wikipedia.ico"/>
-<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
-<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
-<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
-<link rel="canonical" href="https://en.wikipedia.org/wiki/Anne_Line"/>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.41.0-wmf.24">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-crossorigin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/9a/St_Anne_Line.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1600">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/9a/St_Anne_Line.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="1067">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="853">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Anne Line - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Anne_Line">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Anne_Line&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Anne_Line">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
 <link rel="dns-prefetch" href="//meta.wikimedia.org" />
-<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org">
 </head>
-<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Anne_Line rootpage-Anne_Line skin-vector-2022 action-view"><div class="mw-page-container">
-	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
-	<div class="mw-page-container-inner">
-		<input
-			type="checkbox"
-			id="mw-sidebar-checkbox"
-			class="mw-checkbox-hack-checkbox"
-			>
-		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
-			<div class="vector-header-start">
-					<label
-				id="mw-sidebar-button"
-				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
-				for="mw-sidebar-checkbox"
-				role="button"
-				aria-controls="mw-panel"
-				data-event-name="ui.sidebar"
-				tabindex="0"
-				title="Main menu">
-				<span>Toggle sidebar</span>
-			</label>
-		
-<a href="/wiki/Main_Page" class="mw-logo">
-	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
-		aria-hidden="true" height="50" width="50">
-	<span class="mw-logo-container">
-		<img class="mw-logo-wordmark" alt="Wikipedia"
-			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
-		<img class="mw-logo-tagline"
-			alt="The Free Encyclopedia"
-			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
-	</span>
-</a>
-
-			</div>
-			<div class="vector-header-end">
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Anne_Line rootpage-Anne_Line skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
 				
-<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
-	<a href="/wiki/Special:Search"
-	
-		
-		
-		
-		title="Search Wikipedia [f]"
-		accesskey="f"
-		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
-		<span>Search</span>
-	</a>
-	
-	<div>
-		<form action="/w/index.php" id="searchform"
-			class="vector-search-box-form">
-			<div id="simpleSearch"
-				class="vector-search-box-inner"
-				 data-search-loc="header-moved">
-				<input class="vector-search-box-input"
-					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
-				>
-				<input type="hidden" name="title" value="Special:Search">
-				<input id="mw-searchButton"
-					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
-				<input id="searchButton"
-					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
-			</div>
-		</form>
-	</div>
-</div>
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
 
-				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
-	
-<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
-	<div class="vector-menu-heading">
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
 		
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Anne+Line" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
-		
-	</div>
-</div>
-
-	
-	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
-		<input type="checkbox"
-			id="p-personal-checkbox"
-			role="button"
-			aria-haspopup="true"
-			data-event-name="ui.dropdown-p-personal"
-			class="vector-menu-checkbox "
-			
-			
-		/>
-		<label
-			id="p-personal-label"
-			for="p-personal-checkbox"
-			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
-			
-		>
-			<span class="vector-menu-heading-label">Personal tools</span>
-		</label>
-		<div class="vector-menu-content">
-	
-		<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Anne+Line"
-	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
-</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:UserLogin&amp;returnto=Anne+Line"
-	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
-</li></ul>
-	
-</div>
-
-		<div class="vector-user-menu-anon-editor">
-			<p>
-				Pages for logged out editors <a data-mw="interface"
-	href="/wiki/Help:Introduction"
-	 aria-label="Learn more about editing"><span>learn more</span></a>
-
-			</p>
-		</div>
-				<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
-	
-</div>
-
-	
-		</div>
-	</div></nav>
-
-			</div>
-		</header>
-		<div class="vector-main-menu-container ">
-			<div id="mw-navigation">
-				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
-						
 <div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
-	
-	
-<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
 	<div
-		id="p-navigation-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Navigation</span>
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 	
 	
-<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
-	<div
-		id="p-interaction-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Contribute</span>
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
-	<div
-		id="p-tb-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Tools</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Anne_Line" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Anne_Line" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;oldid=1130412945" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Anne_Line&amp;id=1130412945&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2069003" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
-	<div
-		id="p-coll-print_export-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Print/export</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Anne_Line&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
-	<div
-		id="p-wikibase-otherprojects-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">In other projects</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Anne_Line" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -265,29 +110,135 @@ false,"wgWikibaseItemId":"Q2069003","GEHomepageSuggestedEditsEnableTopics":true,
 	<div class="vector-main-menu-action-item">
 		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
 		<div class="vector-main-menu-action-content vector-menu-content">
-			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Language links are at the top of the page across from the title.</div></div>
 		</div>
 	</div>
 </div>
 
-
 </div>
 
-				</nav>
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Anne+Line" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Anne+Line" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Anne+Line" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Anne+Line" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+					<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+					</div>
+		</nav>
 			</div>
 		</div>
 		<div class="vector-sitenotice-container">
 			<div id="siteNotice"><!-- CentralNotice --></div>
 		</div>
-		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
-		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="vector-menu-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark vector-sticky-pinned-container">
 			<div id="vector-toc-pinned-container" class="vector-pinned-container">
-			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
 	<div
 	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
-	data-name="vector-toc"
-	
-	
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
 	
 	
 >
@@ -311,8 +262,9 @@ false,"wgWikibaseItemId":"Q2069003","GEHomepageSuggestedEditsEnableTopics":true,
 			<span class="vector-toc-numb">1</span>Biography</div>
 		</a>
 		
-			<button aria-controls="toc-Biography-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
-				
+			<button aria-controls="toc-Biography-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Toggle Biography subsection</span>
 			</button>
 		
 		<ul id="toc-Biography-sublist" class="vector-toc-list">
@@ -382,82 +334,61 @@ false,"wgWikibaseItemId":"Q2069003","GEHomepageSuggestedEditsEnableTopics":true,
 </div>
 
 			</div>
-</nav>
+		</nav>
 		<div class="mw-content-container">
 			<main id="content" class="mw-body" role="main">
 				<header class="mw-body-header vector-page-titlebar">
 					<label
 						id="vector-toc-collapsed-button"
-						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet vector-button-flush-left cdx-button--icon-only"
 						for="vector-toc-collapsed-checkbox"
 						role="button"
-						aria-controls="toc-toggle-list"
-						data-event-name="vector.toc-toggle-list"
+						aria-controls="vector-toc"
 						tabindex="0"
 						title="Table of Contents">
-						Toggle the table of contents
+						<span class="vector-icon mw-ui-icon-wikimedia-listBullet"></span>
+						<span>Toggle the table of contents</span>
 					</label>
-				
-					
-<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
-	<input type="checkbox"
-		id="vector-page-titlebar-toc-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-vector-page-titlebar-toc"
-		class="vector-menu-checkbox "
-		
-		
-	/>
-	<label
-		id="vector-page-titlebar-toc-label"
-		for="vector-page-titlebar-toc-checkbox"
-		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
-		
-	>
-		<span class="vector-menu-heading-label"></span>
+					<nav role="navigation" aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 
-						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
-		</div>
-	
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
 	</div>
 </div>
-				
+
+					</nav>
 					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Anne Line</span></h1>
-				
 							
-<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
-	<input type="checkbox"
-		id="p-lang-btn-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-lang-btn"
-		class="vector-menu-checkbox mw-interlanguage-selector"
-		aria-label="Go to an article in another language. Available in 9 languages"
-		
-	/>
-	<label
-		id="p-lang-btn-label"
-		for="p-lang-btn-checkbox"
-		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-9"
-		
-	>
-		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">9 languages</span>
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 9 languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-9" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">9 languages</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 		<div class="vector-menu-content">
 			
-			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Ana_Line" title="Ana Line – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Anne_Line" title="Anne Line – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a href="https://ga.wikipedia.org/wiki/Anne_Line" title="Anne Line – Irish" lang="ga" hreflang="ga" class="interlanguage-link-target"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Anne_Line" title="Anne Line – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Anna_Line" title="Anna Line – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Anna_Line" title="Anna Line – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Anna_Line" title="Anna Line – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B9%D0%BD,_%D0%90%D0%BD%D0%BD%D0%B0" title="Лайн, Анна – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Anne_Line" title="Anne Line – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li></ul>
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Ana_Line" title="Ana Line – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Anne_Line" title="Anne Line – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a href="https://ga.wikipedia.org/wiki/Anne_Line" title="Anne Line – Irish" lang="ga" hreflang="ga" class="interlanguage-link-target"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Anne_Line" title="Anne Line – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Anna_Line" title="Anna Line – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Anna_Line" title="Anna Line – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Anna_Line" title="Anna Line – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B9%D0%BD,_%D0%90%D0%BD%D0%BD%D0%B0" title="Лайн, Анна – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Anne_Line" title="Anne Line – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li>
+			</ul>
 			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2069003#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
 		</div>
 
 	</div>
 </div>
-				</header>
+</header>
 				<div class="vector-page-toolbar">
 					<div class="vector-page-toolbar-container">
 						<div id="left-navigation">
@@ -466,41 +397,38 @@ false,"wgWikibaseItemId":"Q2069003","GEHomepageSuggestedEditsEnableTopics":true,
 <div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Anne_Line" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Anne_Line" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Anne_Line" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Anne_Line" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 								
-
-<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
-	<input type="checkbox"
-		id="p-variants-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-variants"
-		class="vector-menu-checkbox"
-		aria-label="Change language variant"
-		
-	/>
-	<label
-		id="p-variants-label"
-		for="p-variants-checkbox"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">English</span>
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"></ul>
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
 		
-	</div>
-
 	</div>
 </div>
+
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 						<div id="right-navigation" class="vector-collapsible">
@@ -509,7 +437,10 @@ false,"wgWikibaseItemId":"Q2069003","GEHomepageSuggestedEditsEnableTopics":true,
 <div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Anne_Line"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Anne_Line"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -518,40 +449,103 @@ false,"wgWikibaseItemId":"Q2069003","GEHomepageSuggestedEditsEnableTopics":true,
 				
 							<nav class="vector-page-tools-landmark" aria-label="More options">
 								
-
-<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
-	<input type="checkbox"
-		id="p-cactions-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-cactions"
-		class="vector-menu-checkbox"
-		
-		
-	/>
-	<label
-		id="p-cactions-label"
-		for="p-cactions-checkbox"
-		class="vector-menu-heading"
-		
-	>
-		<span class="vector-menu-heading-label">More</span>
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Anne_Line"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;action=history"><span>View history</span></a></li></ul>
-		
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
 	</div>
-
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Anne_Line"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
 	</div>
 </div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Anne_Line" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Anne_Line" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;oldid=1173182081" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Anne_Line&amp;id=1173182081&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2069003" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Anne_Line&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Anne_Line&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Anne_Line" hreflang="en"><span>Wikimedia Commons</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 					</div>
 				</div>
-				
+				<div class="vector-column-end">
+					<nav class="vector-page-tools-landmark vector-sticky-pinned-container" aria-label="More options">
+						<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+			
+						</div>
+	</nav>
+				</div>
 				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
 					<div class="vector-body-before-content">
 							<div class="mw-indicators">
@@ -566,18 +560,18 @@ false,"wgWikibaseItemId":"Q2069003","GEHomepageSuggestedEditsEnableTopics":true,
 <p class="mw-empty-elt">
 
 </p>
-<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;"><a href="/wiki/Saint" title="Saint">Saint</a></div><br /><div style="display:inline;" class="fn">Anne Line</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:St_Anne_Line.jpg" class="image" title="St Anne Line"><img alt="St Anne Line" src="//upload.wikimedia.org/wikipedia/commons/9/9a/St_Anne_Line.jpg" decoding="async" width="270" height="360" data-file-width="270" data-file-height="360" /></a><div class="infobox-caption">Statue of St Anne Line at St Anne Line Junior School in <a href="/wiki/Basildon" title="Basildon">Basildon</a>, <a href="/wiki/Essex" title="Essex">Essex</a>, <a href="/wiki/England" title="England">England</a>, <a href="/wiki/United_Kingdom" title="United Kingdom">United Kingdom</a></div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;"><a href="/wiki/Martyr" title="Martyr">Martyr</a></th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data"><i>c.</i> 1563<br /><a href="/wiki/Essex" title="Essex">Essex</a>, <a href="/wiki/England" title="England">England</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data"><span style="display:none">(<span class="dday deathdate">1601-02-27</span>)</span>27 February 1601 (aged 38 - 39)<br /><a href="/wiki/Tyburn" title="Tyburn">Tyburn</a>, <a href="/wiki/England" title="England">England</a></td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a><br /><a href="/wiki/Anglican_Communion" title="Anglican Communion">Anglican Communion</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Beatification" title="Beatification">Beatified</a></th><td class="infobox-data">15 December 1929 by <a href="/wiki/Pope_Pius_XI" title="Pope Pius XI">Pope Pius XI</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data">25 October 1970 by <a href="/wiki/Pope_Paul_VI" title="Pope Paul VI">Pope Paul VI</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">27 February (individual)<br />25 October (together with Forty Martyrs of England and Wales)<br />30 August (together with Saints <a href="/wiki/Margaret_Ward" title="Margaret Ward">Margaret Ward</a> and <a href="/wiki/Margaret_Clitherow" title="Margaret Clitherow">Margaret Clitherow</a>)</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Saint_symbolism" title="Saint symbolism">Attributes</a></th><td class="infobox-data">dove, noose in neck, book or bible,</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data">childless people, converts, widows</td></tr></tbody></table>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;"><a href="/wiki/Saint" title="Saint">Saint</a></div><br /><div style="display:inline;" class="fn">Anne Line</div></th></tr><tr><td colspan="2" class="infobox-image"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/File:St_Anne_Line.jpg" class="mw-file-description" title="St Anne Line"><img alt="St Anne Line" src="//upload.wikimedia.org/wikipedia/commons/9/9a/St_Anne_Line.jpg" decoding="async" width="270" height="360" class="mw-file-element" data-file-width="270" data-file-height="360" /></a></span><div class="infobox-caption">Statue of St Anne Line at St Anne Line Junior School in <a href="/wiki/Basildon" title="Basildon">Basildon</a>, <a href="/wiki/Essex" title="Essex">Essex</a>, <a href="/wiki/England" title="England">England</a>, <a href="/wiki/United_Kingdom" title="United Kingdom">United Kingdom</a></div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;"><a href="/wiki/Martyr" title="Martyr">Martyr</a></th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data"><i>c.</i> 1563<br /><a href="/wiki/Essex" title="Essex">Essex</a>, <a href="/wiki/England" title="England">England</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data"><span style="display:none">(<span class="dday deathdate">1601-02-27</span>)</span>27 February 1601 (aged 38 - 39)<br /><a href="/wiki/Tyburn" title="Tyburn">Tyburn</a>, <a href="/wiki/England" title="England">England</a></td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a><br /><a href="/wiki/Anglican_Communion" title="Anglican Communion">Anglican Communion</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Beatification" title="Beatification">Beatified</a></th><td class="infobox-data">15 December 1929 by <a href="/wiki/Pope_Pius_XI" title="Pope Pius XI">Pope Pius XI</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Canonization" title="Canonization">Canonized</a></th><td class="infobox-data">25 October 1970 by <a href="/wiki/Pope_Paul_VI" title="Pope Paul VI">Pope Paul VI</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">27 February (individual)<br />25 October (together with Forty Martyrs of England and Wales)<br />30 August (together with Saints <a href="/wiki/Margaret_Ward" title="Margaret Ward">Margaret Ward</a> and <a href="/wiki/Margaret_Clitherow" title="Margaret Clitherow">Margaret Clitherow</a>)</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Saint_symbolism" title="Saint symbolism">Attributes</a></th><td class="infobox-data">dove, noose in neck, book or bible,</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Patron_saint" title="Patron saint">Patronage</a></th><td class="infobox-data">childless people, converts, widows</td></tr></tbody></table>
 <p><b>Anne Line</b> (<i>c.</i> 1563 – 27 February 1601) was an <a href="/wiki/English_people" title="English people">English</a> <a href="/wiki/Catholic_Church" title="Catholic Church">Catholic</a> <a href="/wiki/Christian_martyr" title="Christian martyr">martyr</a>. After losing her husband, she became very active in sheltering clandestine <a href="/wiki/Catholic_priest" class="mw-redirect" title="Catholic priest">Catholic priests</a>, which was illegal in the reign of <a href="/wiki/Elizabeth_I_of_England" class="mw-redirect" title="Elizabeth I of England">Queen Elizabeth I</a>. Finally arrested, she was condemned to death and executed at <a href="/wiki/Tyburn" title="Tyburn">Tyburn</a>. The <a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a> declared her a <a href="/wiki/Martyr" title="Martyr">martyr</a>, and <a href="/wiki/Pope_Paul_VI" title="Pope Paul VI">Pope Paul VI</a> canonised her in 1970.
 </p>
 <meta property="mw:PageProp/toc" />
 <h2><span class="mw-headline" id="Biography">Biography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anne_Line&amp;action=edit&amp;section=1" title="Edit section: Biography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<p>Anne is believed to have been born as "Alice Higham" or "Heigham", the eldest daughter of the Puritan William Higham of Jenkyn Maldon. William Higham was the son of <a href="/wiki/Roger_Heigham" title="Roger Heigham">Roger Heigham</a>, <a href="/wiki/Member_of_parliament" title="Member of parliament">MP</a>, a Protestant reformer under <a href="/wiki/Henry_VIII" title="Henry VIII">Henry VIII</a>.<sup id="cite_ref-dod_crs1_1-0" class="reference"><a href="#cite_note-dod_crs1-1">&#91;1&#93;</a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> A recently scholarly and extensively annotated biography has been published by Roger Scully S.J.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup> She was born circa the early 1560s, and at some time in the early 1580s converted to the <a href="/wiki/Roman_Catholic_Church" class="mw-redirect" title="Roman Catholic Church">Roman Catholic Church</a> along with her brother William and Roger Line, the man she married in February 1583. Both Roger Line and William Higham were disinherited for converting to the <a href="/wiki/Roman_Catholic_Church" class="mw-redirect" title="Roman Catholic Church">Roman Catholic Church</a> and Alice Higham lost her dowry.<sup id="cite_ref-dod_crs1_1-1" class="reference"><a href="#cite_note-dod_crs1-1">&#91;1&#93;</a></sup> Among Catholics, the married "Alice" became known as "Anne", presumably a name she took at her conversion.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup>
+<p>Anne is believed to have been born as "Alice Higham" or "Heigham", the eldest daughter of the Puritan William Higham of Jenkyn Maldon. William Higham was the son of <a href="/wiki/Roger_Heigham" title="Roger Heigham">Roger Heigham</a>, <a href="/wiki/Member_of_parliament" title="Member of parliament">MP</a>, a Protestant reformer under <a href="/wiki/Henry_VIII" title="Henry VIII">Henry VIII</a>.<sup id="cite_ref-dod_crs1_1-0" class="reference"><a href="#cite_note-dod_crs1-1">&#91;1&#93;</a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> A recent (2016) scholarly and extensively annotated biography has been published by Roger Scully S.J.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup> She was born circa the early 1560s, and at some time in the early 1580s converted to the <a href="/wiki/Roman_Catholic_Church" class="mw-redirect" title="Roman Catholic Church">Roman Catholic Church</a> along with her brother William and Roger Line, the man she married in February 1583. Both Roger Line and William Higham were disinherited for converting to the <a href="/wiki/Roman_Catholic_Church" class="mw-redirect" title="Roman Catholic Church">Roman Catholic Church</a> and Alice Higham lost her dowry.<sup id="cite_ref-dod_crs1_1-1" class="reference"><a href="#cite_note-dod_crs1-1">&#91;1&#93;</a></sup> Among Catholics, the married "Alice" became known as "Anne", presumably a name she took at her conversion.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup>
 </p><p>Roger Line and William Higham were arrested together while attending <a href="/wiki/Mass_(liturgy)" title="Mass (liturgy)">Mass</a>, and were imprisoned and fined. While William Higham was released on surety in England, Roger Line was banished and went to <a href="/wiki/Flanders" title="Flanders">Flanders</a>.<sup id="cite_ref-dod_bk1_5-0" class="reference"><a href="#cite_note-dod_bk1-5">&#91;5&#93;</a></sup> Line received a small allowance from the King of Spain, part of which he sent regularly to his wife until his death around 1594.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>
 Around the same time, <a href="/wiki/John_Gerard_(Jesuit)" title="John Gerard (Jesuit)">John Gerard</a> opened a house of refuge for hiding priests, and put the newly widowed Anne Line in charge of it, despite her chronic ill-health. For about three years Anne Line continued to run this house while Fr John Gerard was in prison. He was eventually transferred to the Tower of London where he was tortured, and from which he escaped. In his autobiography he writes:
 </p>
 <blockquote><p>After my escape from prison [Anne Line] gave up managing the house. By then she was known to so many people that it was unsafe for me to frequent any house she occupied. Instead she hired apartments in another building and continued to shelter priests there. One day, however (it was the Purification of Our Blessed Lady), she allowed in an unusually large number of Catholics to hear Mass … Some neighbours noticed the crowd and the constables were at the house at once.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup></p></blockquote>
 <h3><span class="mw-headline" id="Arrest_and_execution">Arrest and execution</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anne_Line&amp;action=edit&amp;section=2" title="Edit section: Arrest and execution">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>Line was arrested on 2 February 1601 when her house was raided during the <a href="/wiki/Presentation_of_Jesus_at_the_Temple" title="Presentation of Jesus at the Temple">feast of the Purification</a>, also known as Candlemas. On this day a blessing of candles traditionally takes place before the Mass, and it was during this rite that the raiders burst in and made arrests. The priest, Fr Francis Page, managed to slip into a special hiding place prepared by Anne Line and afterwards to escape, but she was arrested, along with another gentlewoman called Margaret Gage. Gage was released on bail and later pardoned, but Line was sent to <a href="/wiki/Newgate_Prison" title="Newgate Prison">Newgate Prison</a>.
+<p>Line was arrested on 2 February 1601 when her house was raided during the <a href="/wiki/Presentation_of_Jesus_at_the_Temple" class="mw-redirect" title="Presentation of Jesus at the Temple">feast of the Purification</a>, also known as <a href="/wiki/Candlemas" title="Candlemas">Candlemas</a>. On this day a blessing of candles traditionally takes place before the Mass, and it was during this rite that the raiders burst in and made arrests. The priest, Fr Francis Page, managed to slip into a special hiding place prepared by Anne Line and afterwards to escape, but she was arrested, along with another gentlewoman called Margaret Gage. Gage was released on bail and later pardoned, but Line was sent to <a href="/wiki/Newgate_Prison" title="Newgate Prison">Newgate Prison</a>.
 </p><p>She was tried at the Sessions House on Old Bailey Lane on 26 February 1601 and was so weak from fever that she was carried to the trial in a chair. She told the court that, so far from regretting having concealed a priest, she only grieved that she "could not receive a thousand more."<sup id="cite_ref-quinn_8-0" class="reference"><a href="#cite_note-quinn-8">&#91;8&#93;</a></sup> Sir John Popham, the judge, sentenced her to death for the felony of assisting a seminary priest.
 </p><p>Line was hanged on 27 February 1601. She was executed immediately before two priests, <a href="/wiki/Roger_Filcock_(Blessed)" class="mw-redirect" title="Roger Filcock (Blessed)">Roger Filcock</a> and <a href="/wiki/Mark_Barkworth" title="Mark Barkworth">Mark Barkworth</a>, who received the more severe sentence of hanging, drawing and quartering. At the scaffold she repeated what she had said at her trial, declaring loudly to the bystanders: "I am sentenced to die for harbouring a Catholic priest, and so far I am from repenting for having so done, that I wish, with all my soul, that where I have entertained one, I could have entertained a thousand."
 </p>
@@ -585,9 +579,10 @@ Around the same time, <a href="/wiki/John_Gerard_(Jesuit)" title="John Gerard (J
 <p>It has been argued that Shakespeare's poem <i><a href="/wiki/The_Phoenix_and_the_Turtle" title="The Phoenix and the Turtle">The Phoenix and the Turtle</a></i> was written shortly after her death to commemorate Anne and Roger Line, and its setting is the Catholic requiem held in secret for her.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup> This theory was first suggested in the 1930s by <a href="/wiki/Clara_Longworth_de_Chambrun" title="Clara Longworth de Chambrun">Clara Longworth de Chambrun</a> in her novel <i>My Shakespeare, Rise!</i>, and is linked to claims that Shakespeare was a secret <a href="/wiki/Shakespeare%27s_religion" class="mw-redirect" title="Shakespeare&#39;s religion">Catholic sympathiser</a>.<sup id="cite_ref-clara_10-0" class="reference"><a href="#cite_note-clara-10">&#91;10&#93;</a></sup> The theory was revived and developed by <a href="/wiki/John_Finnis" title="John Finnis">John Finnis</a> and Patrick Martin in 2003. It has been extended by Martin Dodwell to suggest that Shakespeare takes the fate of Anne and Roger Line to symbolize the rejection of Catholicism by England, and he then returns to this allegorical scheme in the play <i><a href="/wiki/Cymbeline" title="Cymbeline">Cymbeline</a></i>.<sup id="cite_ref-dod_bk1_5-1" class="reference"><a href="#cite_note-dod_bk1-5">&#91;5&#93;</a></sup>
 </p><p>A series of other Shakespearean allusions to Anne Line have been proposed by various scholars (Colin Wilson, Gerard Kilroy) most notably in <i><a href="/wiki/The_Tempest" title="The Tempest">The Tempest</a></i> and in <a href="/wiki/Sonnet_74" title="Sonnet 74">Sonnet 74</a>.<sup id="cite_ref-dod_bk1_5-2" class="reference"><a href="#cite_note-dod_bk1-5">&#91;5&#93;</a></sup>
 </p>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/wiki/File:St._Anne_Line_Statue,_South_Woodford,_London.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/33/St._Anne_Line_Statue%2C_South_Woodford%2C_London.jpg/220px-St._Anne_Line_Statue%2C_South_Woodford%2C_London.jpg" decoding="async" width="220" height="293" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/33/St._Anne_Line_Statue%2C_South_Woodford%2C_London.jpg/330px-St._Anne_Line_Statue%2C_South_Woodford%2C_London.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/33/St._Anne_Line_Statue%2C_South_Woodford%2C_London.jpg/440px-St._Anne_Line_Statue%2C_South_Woodford%2C_London.jpg 2x" data-file-width="765" data-file-height="1020" /></a><figcaption>Statue of Saint Anne Line in the parish church named after her in South Woodford, London.</figcaption></figure>
 <h2><span class="mw-headline" id="Veneration">Veneration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anne_Line&amp;action=edit&amp;section=4" title="Edit section: Veneration">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <p>Anne Line was <a href="/wiki/Beatification" title="Beatification">beatified</a> by <a href="/wiki/Pope_Pius_XI" title="Pope Pius XI">Pope Pius XI</a> on 15 December 1929. She was <a href="/wiki/Canonisation" class="mw-redirect" title="Canonisation">canonised</a> by <a href="/wiki/Pope_Paul_VI" title="Pope Paul VI">Pope Paul VI</a> on 25 October 1970, as one of the <a href="/wiki/Forty_Martyrs_of_England_and_Wales" title="Forty Martyrs of England and Wales">Forty Martyrs of England and Wales</a>. Her feast day, along with all the other English Martyrs, is on 4 May. However, in the Catholic dioceses of England, she shares a feast day with fellow female martyr saints, <a href="/wiki/Margaret_Clitherow" title="Margaret Clitherow">Margaret Clitherow</a> and <a href="/wiki/Margaret_Ward" title="Margaret Ward">Margaret Ward</a> on 30 August. The three were officially added to the <a href="/wiki/Calendar_of_saints_(Episcopal_Church)" title="Calendar of saints (Episcopal Church)">Episcopal Church liturgical calendar</a> with a feast day on 30 August.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup>
-</p><p>The St. Anne Line Catholic Junior School in Wickhay, Basildon, Essex, is named for her.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup> So is the Catholic parish of St Anne Line, Great Dunmow, Essex,<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;13&#93;</a></sup> where local tradition has it that her family lived in the Clock house, Great Dunmow.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup>
+</p><p>The St. Anne Line Catholic Junior School in Wickhay, Basildon, Essex, is named for her.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup> So is the Catholic parish of St Anne Line, Great Dunmow, Essex,<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;13&#93;</a></sup> where local tradition has it that her family lived in the Clock house, Great Dunmow.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup> Additionaly, the Catholic parish of St Anne Line in South Woodford, London, also is named after the saint and possess a large stone carved statue of her inside the church.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;15&#93;</a></sup>
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anne_Line&amp;action=edit&amp;section=5" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <ul><li><a href="/wiki/List_of_Catholic_martyrs_of_the_English_Reformation" title="List of Catholic martyrs of the English Reformation">List of Catholic martyrs of the English Reformation</a></li></ul>
@@ -598,13 +593,13 @@ Around the same time, <a href="/wiki/John_Gerard_(Jesuit)" title="John Gerard (J
 </li>
 <li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFConelly1997" class="citation book cs1">Conelly, Roland (1997). <i>Women of the Catholic Resistance in England, 1540-1680</i>. The Pentland Press. pp.&#160;107–111. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1858215099" title="Special:BookSources/1858215099"><bdi>1858215099</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Women+of+the+Catholic+Resistance+in+England%2C+1540-1680&amp;rft.pages=107-111&amp;rft.pub=The+Pentland+Press&amp;rft.date=1997&amp;rft.isbn=1858215099&amp;rft.aulast=Conelly&amp;rft.aufirst=Roland&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
 </li>
-<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFRobert_E._Scully_SJ_in_Weber2016" class="citation book cs1">Robert E. Scully SJ in Weber, Alison (2016). <i>Devout Laywomen in the Early Modern World (Women and Gender in the Early Modern World)</i>. London: Routledge. p.&#160;Chapter 13. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9781472424914" title="Special:BookSources/9781472424914"><bdi>9781472424914</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Devout+Laywomen+in+the+Early+Modern+World+%28Women+and+Gender+in+the+Early+Modern+World%29&amp;rft.place=London&amp;rft.pages=Chapter+13&amp;rft.pub=Routledge&amp;rft.date=2016&amp;rft.isbn=9781472424914&amp;rft.aulast=Robert+E.+Scully+SJ+in+Weber&amp;rft.aufirst=Alison&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFRobert_E._Scully_SJ_in_Weber2016" class="citation book cs1">Robert E. Scully SJ in Weber, Alison (2016). <i>Devout Laywomen in the Early Modern World (Women and Gender in the Early Modern World)</i>. London: Routledge. p.&#160;Chapter 13. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9781472424914" title="Special:BookSources/9781472424914"><bdi>9781472424914</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Devout+Laywomen+in+the+Early+Modern+World+%28Women+and+Gender+in+the+Early+Modern+World%29&amp;rft.place=London&amp;rft.pages=Chapter+13&amp;rft.pub=Routledge&amp;rft.date=2016&amp;rft.isbn=9781472424914&amp;rft.aulast=Robert+E.+Scully+SJ+in+Weber&amp;rft.aufirst=Alison&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
 </li>
 <li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.oxforddnb.com/view/article/69035">Kelly, Christine J., "Anne Line"</a>, ODNB; online edition, January 2009, accessed 11 March 2013.</span>
 </li>
 <li id="cite_note-dod_bk1-5"><span class="mw-cite-backlink">^ <a href="#cite_ref-dod_bk1_5-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-dod_bk1_5-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-dod_bk1_5-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text">Dodwell, Martin. <i>Anne Line: Shakespeare's Tragic Muse</i>. Brighton: The Book Guild, 2013.</span>
 </li>
-<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation news cs1"><a rel="nofollow" class="external text" href="http://www.catholicireland.net/saintoftheday/st-anne-line-d-1601/">"Oct 25 - St Anne Line d.1601 - Catholicireland.net"</a>. <i>Catholicireland.net</i><span class="reference-accessdate">. Retrieved <span class="nowrap">28 August</span> 2018</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Catholicireland.net&amp;rft.atitle=Oct+25+-+St+Anne+Line+d.1601+-+Catholicireland.net&amp;rft_id=http%3A%2F%2Fwww.catholicireland.net%2Fsaintoftheday%2Fst-anne-line-d-1601%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation news cs1"><a rel="nofollow" class="external text" href="http://www.catholicireland.net/saintoftheday/st-anne-line-d-1601/">"Oct 25 - St Anne Line d.1601 - Catholicireland.net"</a>. <i>Catholicireland.net</i><span class="reference-accessdate">. Retrieved <span class="nowrap">28 August</span> 2018</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Catholicireland.net&amp;rft.atitle=Oct+25+-+St+Anne+Line+d.1601+-+Catholicireland.net&amp;rft_id=http%3A%2F%2Fwww.catholicireland.net%2Fsaintoftheday%2Fst-anne-line-d-1601%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
 </li>
 <li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">John Gerard S.J. <i>The Autobiography of an Elizabethan</i>, p.84. Oxford: Family Publications, 2006.</span>
 </li>
@@ -614,69 +609,66 @@ Around the same time, <a href="/wiki/John_Gerard_(Jesuit)" title="John Gerard (J
 </li>
 <li id="cite_note-clara-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-clara_10-0">^</a></b></span> <span class="reference-text">Longworth, Clara, <i>My Shakespeare, Rise!</i>, London: 1935</span>
 </li>
-<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.vbinder.net/resolutions/24?house=HD&amp;lang=en">"General Convention Virtual Binder"</a>. <i>www.vbinder.net</i><span class="reference-accessdate">. Retrieved <span class="nowrap">22 July</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.vbinder.net&amp;rft.atitle=General+Convention+Virtual+Binder&amp;rft_id=https%3A%2F%2Fwww.vbinder.net%2Fresolutions%2F24%3Fhouse%3DHD%26lang%3Den&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20220913143652/https://www.vbinder.net/resolutions/24?house=HD&amp;lang=en">"General Convention Virtual Binder"</a>. <i>www.vbinder.net</i>. Archived from <a rel="nofollow" class="external text" href="https://www.vbinder.net/resolutions/24?house=HD&amp;lang=en">the original</a> on 13 September 2022<span class="reference-accessdate">. Retrieved <span class="nowrap">22 July</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.vbinder.net&amp;rft.atitle=General+Convention+Virtual+Binder&amp;rft_id=https%3A%2F%2Fwww.vbinder.net%2Fresolutions%2F24%3Fhouse%3DHD%26lang%3Den&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
 </li>
-<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.st-anneline-jun.essex.sch.uk/wordpress/">"St Anne Line Catholic Junior School – Wickhay, Basildon, Essex SS15 5AF"</a>. <i>www.st-anneline-jun.essex.sch.uk</i><span class="reference-accessdate">. Retrieved <span class="nowrap">28 August</span> 2018</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.st-anneline-jun.essex.sch.uk&amp;rft.atitle=St+Anne+Line+Catholic+Junior+School+%E2%80%93+Wickhay%2C+Basildon%2C+Essex+SS15+5AF&amp;rft_id=http%3A%2F%2Fwww.st-anneline-jun.essex.sch.uk%2Fwordpress%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.st-anneline-jun.essex.sch.uk/wordpress/">"St Anne Line Catholic Junior School – Wickhay, Basildon, Essex SS15 5AF"</a>. <i>www.st-anneline-jun.essex.sch.uk</i><span class="reference-accessdate">. Retrieved <span class="nowrap">28 August</span> 2018</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.st-anneline-jun.essex.sch.uk&amp;rft.atitle=St+Anne+Line+Catholic+Junior+School+%E2%80%93+Wickhay%2C+Basildon%2C+Essex+SS15+5AF&amp;rft_id=http%3A%2F%2Fwww.st-anneline-jun.essex.sch.uk%2Fwordpress%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
 </li>
-<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.stanneline.org.uk/">"parish website"</a>. <i>St Anne Line, Great Dunmow</i><span class="reference-accessdate">. Retrieved <span class="nowrap">11 February</span> 2019</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=St+Anne+Line%2C+Great+Dunmow&amp;rft.atitle=parish+website&amp;rft_id=http%3A%2F%2Fwww.stanneline.org.uk%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.stanneline.org.uk/">"parish website"</a>. <i>St Anne Line, Great Dunmow</i><span class="reference-accessdate">. Retrieved <span class="nowrap">11 February</span> 2019</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=St+Anne+Line%2C+Great+Dunmow&amp;rft.atitle=parish+website&amp;rft_id=http%3A%2F%2Fwww.stanneline.org.uk%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
 </li>
-<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://britishlistedbuildings.co.uk/101098272-the-clock-house-great-dunmow#.XGFDM1z7SM8">"The Clock House"</a>. <i>Listed Buildings of England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">11 February</span> 2019</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Listed+Buildings+of+England&amp;rft.atitle=The+Clock+House&amp;rft_id=https%3A%2F%2Fbritishlistedbuildings.co.uk%2F101098272-the-clock-house-great-dunmow%23.XGFDM1z7SM8&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://britishlistedbuildings.co.uk/101098272-the-clock-house-great-dunmow#.XGFDM1z7SM8">"The Clock House"</a>. <i>Listed Buildings of England</i><span class="reference-accessdate">. Retrieved <span class="nowrap">11 February</span> 2019</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Listed+Buildings+of+England&amp;rft.atitle=The+Clock+House&amp;rft_id=https%3A%2F%2Fbritishlistedbuildings.co.uk%2F101098272-the-clock-house-great-dunmow%23.XGFDM1z7SM8&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnne+Line" class="Z3988"></span></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://saintanneline.com/">https://saintanneline.com/</a></span>
 </li>
 </ol></div></div>
 <h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anne_Line&amp;action=edit&amp;section=7" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <ul><li><a rel="nofollow" class="external text" href="http://theneatherdsdaughter.wordpress.com/mini-bio">The Neat-Herd's Daughter (mini-bio)</a></li></ul>
-<style data-mw-deduplicate="TemplateStyles:r1130092004">.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;justify-content:center;align-items:baseline}.mw-parser-output .portal-bar-bordered{padding:0 2em;background-color:#fdfdfd;border:1px solid #a2a9b1;clear:both;margin:1em auto 0}.mw-parser-output .portal-bar-related{font-size:100%;justify-content:flex-start}.mw-parser-output .portal-bar-unbordered{padding:0 1.7em;margin-left:0}.mw-parser-output .portal-bar-header{margin:0 1em 0 0.5em;flex:0 0 auto;min-height:24px}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;flex:0 1 auto;padding:0.15em 0;column-gap:1em;align-items:baseline;margin:0;list-style:none}.mw-parser-output .portal-bar-content-related{margin:0;list-style:none}.mw-parser-output .portal-bar-item{display:inline-block;margin:0.15em 0.2em;min-height:24px;line-height:24px}@media screen and (max-width:768px){.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;flex-flow:column wrap;align-items:baseline}.mw-parser-output .portal-bar-header{text-align:center;flex:0;padding-left:0.5em;margin:0 auto}.mw-parser-output .portal-bar-related{font-size:100%;align-items:flex-start}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;align-items:center;flex:0;column-gap:1em;border-top:1px solid #a2a9b1;margin:0 auto;list-style:none}.mw-parser-output .portal-bar-content-related{border-top:none;margin:0;list-style:none}}.mw-parser-output .navbox+link+.portal-bar,.mw-parser-output .navbox+style+.portal-bar,.mw-parser-output .navbox+link+.portal-bar-bordered,.mw-parser-output .navbox+style+.portal-bar-bordered,.mw-parser-output .sister-bar+link+.portal-bar,.mw-parser-output .sister-bar+style+.portal-bar,.mw-parser-output .portal-bar+.navbox-styles+.navbox,.mw-parser-output .portal-bar+.navbox-styles+.sister-bar{margin-top:-1px}</style><div class="portal-bar noprint metadata noviewer portal-bar-bordered" role="navigation" aria-label="Portals"><span class="portal-bar-header"><a href="/wiki/Wikipedia:Contents/Portals" title="Wikipedia:Contents/Portals">Portals</a>:</span><ul class="portal-bar-content"><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/19px-P_vip.svg.png" decoding="async" width="19" height="19" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/28px-P_vip.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/37px-P_vip.svg.png 2x" data-file-width="1911" data-file-height="1944" />&#160;<a href="/wiki/Portal:Biography" title="Portal:Biography">Biography</a></li><li class="portal-bar-item"><a href="/wiki/File:046CupolaSPietro.jpg" class="image"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/21px-046CupolaSPietro.jpg" decoding="async" width="21" height="16" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/32px-046CupolaSPietro.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/42px-046CupolaSPietro.jpg 2x" data-file-width="800" data-file-height="600" /></a>&#160;<a href="/wiki/Portal:Catholicism" class="mw-redirect" title="Portal:Catholicism">Catholicism</a></li><li class="portal-bar-item"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/21px-Gloriole_blur.svg.png" decoding="async" width="21" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/32px-Gloriole_blur.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/42px-Gloriole_blur.svg.png 2x" data-file-width="32" data-file-height="28" />&#160;<a href="/wiki/Portal:Saints" title="Portal:Saints">Saints</a></li><li class="portal-bar-item"><img alt="flag" src="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/21px-Flag_of_England.svg.png" decoding="async" width="21" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/32px-Flag_of_England.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/42px-Flag_of_England.svg.png 2x" data-file-width="800" data-file-height="480" />&#160;<a href="/wiki/Portal:England" title="Portal:England">England</a></li></ul></div>
-<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q2069003#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q2069003#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q2069003#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000043875473">1</a></span></li></ul></li>
-<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/44042973">1</a></span></li></ul></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/viaf-44042973/">WorldCat</a></span></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<style data-mw-deduplicate="TemplateStyles:r1130092004">.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;justify-content:center;align-items:baseline}.mw-parser-output .portal-bar-bordered{padding:0 2em;background-color:#fdfdfd;border:1px solid #a2a9b1;clear:both;margin:1em auto 0}.mw-parser-output .portal-bar-related{font-size:100%;justify-content:flex-start}.mw-parser-output .portal-bar-unbordered{padding:0 1.7em;margin-left:0}.mw-parser-output .portal-bar-header{margin:0 1em 0 0.5em;flex:0 0 auto;min-height:24px}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;flex:0 1 auto;padding:0.15em 0;column-gap:1em;align-items:baseline;margin:0;list-style:none}.mw-parser-output .portal-bar-content-related{margin:0;list-style:none}.mw-parser-output .portal-bar-item{display:inline-block;margin:0.15em 0.2em;min-height:24px;line-height:24px}@media screen and (max-width:768px){.mw-parser-output .portal-bar{font-size:88%;font-weight:bold;display:flex;flex-flow:column wrap;align-items:baseline}.mw-parser-output .portal-bar-header{text-align:center;flex:0;padding-left:0.5em;margin:0 auto}.mw-parser-output .portal-bar-related{font-size:100%;align-items:flex-start}.mw-parser-output .portal-bar-content{display:flex;flex-flow:row wrap;align-items:center;flex:0;column-gap:1em;border-top:1px solid #a2a9b1;margin:0 auto;list-style:none}.mw-parser-output .portal-bar-content-related{border-top:none;margin:0;list-style:none}}.mw-parser-output .navbox+link+.portal-bar,.mw-parser-output .navbox+style+.portal-bar,.mw-parser-output .navbox+link+.portal-bar-bordered,.mw-parser-output .navbox+style+.portal-bar-bordered,.mw-parser-output .sister-bar+link+.portal-bar,.mw-parser-output .sister-bar+style+.portal-bar,.mw-parser-output .portal-bar+.navbox-styles+.navbox,.mw-parser-output .portal-bar+.navbox-styles+.sister-bar{margin-top:-1px}</style><div class="portal-bar noprint metadata noviewer portal-bar-bordered" role="navigation" aria-label="Portals"><span class="portal-bar-header"><a href="/wiki/Wikipedia:Contents/Portals" title="Wikipedia:Contents/Portals">Portals</a>:</span><ul class="portal-bar-content"><li class="portal-bar-item"><span typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/19px-P_vip.svg.png" decoding="async" width="19" height="19" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/28px-P_vip.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/37px-P_vip.svg.png 2x" data-file-width="1911" data-file-height="1944" /></span></span>&#160;<a href="/wiki/Portal:Biography" title="Portal:Biography">Biography</a></li><li class="portal-bar-item"><span class="mw-image-border" typeof="mw:File"><a href="/wiki/File:046CupolaSPietro.jpg" class="mw-file-description"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/21px-046CupolaSPietro.jpg" decoding="async" width="21" height="16" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/32px-046CupolaSPietro.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/046CupolaSPietro.jpg/42px-046CupolaSPietro.jpg 2x" data-file-width="800" data-file-height="600" /></a></span>&#160;<a href="/wiki/Portal:Catholicism" class="mw-redirect" title="Portal:Catholicism">Catholicism</a></li><li class="portal-bar-item"><span typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/21px-Gloriole_blur.svg.png" decoding="async" width="21" height="18" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/32px-Gloriole_blur.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gloriole_blur.svg/42px-Gloriole_blur.svg.png 2x" data-file-width="32" data-file-height="28" /></span></span>&#160;<a href="/wiki/Portal:Saints" title="Portal:Saints">Saints</a></li><li class="portal-bar-item"><span class="mw-image-border" typeof="mw:File"><span><img alt="flag" src="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/21px-Flag_of_England.svg.png" decoding="async" width="21" height="13" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/32px-Flag_of_England.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/42px-Flag_of_England.svg.png 2x" data-file-width="800" data-file-height="480" /></span></span>&#160;<a href="/wiki/Portal:England" title="Portal:England">England</a></li></ul></div>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q2069003#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q2069003#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="https://www.wikidata.org/wiki/Q2069003#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></span></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">International</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000043875473">ISNI</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/44042973">VIAF</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/1046013696">Germany</a></span></li></ul>
 </div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw1411
-Cached time: 20230207153707
-Cache expiry: 86400
-Reduced expiry: true
+Parsed by mw2385
+Cached time: 20230831201036
+Cache expiry: 1814400
+Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 0.287 seconds
-Real time usage: 0.393 seconds
-Preprocessor visited node count: 1382/1000000
-Post‐expand include size: 24985/2097152 bytes
+CPU time usage: 0.290 seconds
+Real time usage: 0.398 seconds
+Preprocessor visited node count: 1403/1000000
+Post‐expand include size: 24903/2097152 bytes
 Template argument size: 1626/2097152 bytes
 Highest expansion depth: 18/100
 Expensive parser function count: 10/500
 Unstrip recursion depth: 1/20
-Unstrip post‐expand size: 29481/5000000 bytes
-Lua time usage: 0.188/10.000 seconds
-Lua memory usage: 6313197/52428800 bytes
+Unstrip post‐expand size: 30013/5000000 bytes
+Lua time usage: 0.193/10.000 seconds
+Lua memory usage: 6373940/52428800 bytes
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  354.709      1 -total
- 26.89%   95.377      1 Template:Reflist
- 23.47%   83.253      1 Template:Infobox_saint
- 22.59%   80.133      1 Template:Infobox
- 20.74%   73.572      1 Template:Authority_control
- 17.38%   61.660      2 Template:Cite_book
- 14.96%   53.074      4 Template:Br_separated_entries
- 12.74%   45.192      1 Template:Short_description
- 12.62%   44.778      1 Template:Death_date
-  9.70%   34.411      1 Template:Subject_bar
+100.00%  358.588      1 -total
+ 26.96%   96.669      1 Template:Reflist
+ 21.96%   78.746      1 Template:Authority_control
+ 19.86%   71.221      1 Template:Infobox_saint
+ 18.87%   67.682      1 Template:Infobox
+ 17.73%   63.578      2 Template:Cite_book
+ 13.45%   48.232      1 Template:Short_description
+ 10.98%   39.357      1 Template:Subject_bar
+ 10.43%   37.389      4 Template:Br_separated_entries
+  7.95%   28.494      1 Template:Death_date
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:6085290-0!canonical and timestamp 20230207153706 and revision id 1130412945. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:6085290-0!canonical and timestamp 20230831201035 and revision id 1173182081. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
-<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Anne_Line&amp;oldid=1130412945">https://en.wikipedia.org/w/index.php?title=Anne_Line&amp;oldid=1130412945</a>"</div></div>
-					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1560s_births" title="Category:1560s births">1560s births</a></li><li><a href="/wiki/Category:1601_deaths" title="Category:1601 deaths">1601 deaths</a></li><li><a href="/wiki/Category:Catholic_saints_who_converted_from_Protestantism" title="Category:Catholic saints who converted from Protestantism">Catholic saints who converted from Protestantism</a></li><li><a href="/wiki/Category:English_Roman_Catholic_saints" title="Category:English Roman Catholic saints">English Roman Catholic saints</a></li><li><a href="/wiki/Category:17th-century_Christian_saints" title="Category:17th-century Christian saints">17th-century Christian saints</a></li><li><a href="/wiki/Category:Forty_Martyrs_of_England_and_Wales" title="Category:Forty Martyrs of England and Wales">Forty Martyrs of England and Wales</a></li><li><a href="/wiki/Category:Converts_to_Roman_Catholicism_from_Calvinism" title="Category:Converts to Roman Catholicism from Calvinism">Converts to Roman Catholicism from Calvinism</a></li><li><a href="/wiki/Category:People_executed_under_Elizabeth_I" title="Category:People executed under Elizabeth I">People executed under Elizabeth I</a></li><li><a href="/wiki/Category:16th-century_English_women" title="Category:16th-century English women">16th-century English women</a></li><li><a href="/wiki/Category:17th-century_English_women" title="Category:17th-century English women">17th-century English women</a></li><li><a href="/wiki/Category:Executed_people_from_Essex" title="Category:Executed people from Essex">Executed people from Essex</a></li><li><a href="/wiki/Category:Christian_female_saints_of_the_Early_Modern_era" title="Category:Christian female saints of the Early Modern era">Christian female saints of the Early Modern era</a></li><li><a href="/wiki/Category:Canonizations_by_Pope_Paul_VI" title="Category:Canonizations by Pope Paul VI">Canonizations by Pope Paul VI</a></li><li><a href="/wiki/Category:Anglican_saints" title="Category:Anglican saints">Anglican saints</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_matches_Wikidata" title="Category:Short description matches Wikidata">Short description matches Wikidata</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_November_2015" title="Category:Use dmy dates from November 2015">Use dmy dates from November 2015</a></li><li><a href="/wiki/Category:Use_British_English_from_November_2015" title="Category:Use British English from November 2015">Use British English from November 2015</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li></ul></div></div>
-					
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Anne_Line&amp;oldid=1173182081">https://en.wikipedia.org/w/index.php?title=Anne_Line&amp;oldid=1173182081</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1560s_births" title="Category:1560s births">1560s births</a></li><li><a href="/wiki/Category:1601_deaths" title="Category:1601 deaths">1601 deaths</a></li><li><a href="/wiki/Category:Catholic_saints_who_converted_from_Protestantism" title="Category:Catholic saints who converted from Protestantism">Catholic saints who converted from Protestantism</a></li><li><a href="/wiki/Category:English_Roman_Catholic_saints" title="Category:English Roman Catholic saints">English Roman Catholic saints</a></li><li><a href="/wiki/Category:17th-century_Christian_saints" title="Category:17th-century Christian saints">17th-century Christian saints</a></li><li><a href="/wiki/Category:Forty_Martyrs_of_England_and_Wales" title="Category:Forty Martyrs of England and Wales">Forty Martyrs of England and Wales</a></li><li><a href="/wiki/Category:Converts_to_Roman_Catholicism_from_Calvinism" title="Category:Converts to Roman Catholicism from Calvinism">Converts to Roman Catholicism from Calvinism</a></li><li><a href="/wiki/Category:People_executed_under_Elizabeth_I" title="Category:People executed under Elizabeth I">People executed under Elizabeth I</a></li><li><a href="/wiki/Category:16th-century_English_women" title="Category:16th-century English women">16th-century English women</a></li><li><a href="/wiki/Category:17th-century_English_women" title="Category:17th-century English women">17th-century English women</a></li><li><a href="/wiki/Category:Executed_people_from_Essex" title="Category:Executed people from Essex">Executed people from Essex</a></li><li><a href="/wiki/Category:Christian_female_saints_of_the_Early_Modern_era" title="Category:Christian female saints of the Early Modern era">Christian female saints of the Early Modern era</a></li><li><a href="/wiki/Category:Canonizations_by_Pope_Paul_VI" title="Category:Canonizations by Pope Paul VI">Canonizations by Pope Paul VI</a></li><li><a href="/wiki/Category:Anglican_saints" title="Category:Anglican saints">Anglican saints</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_matches_Wikidata" title="Category:Short description matches Wikidata">Short description matches Wikidata</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_November_2015" title="Category:Use dmy dates from November 2015">Use dmy dates from November 2015</a></li><li><a href="/wiki/Category:Use_British_English_from_November_2015" title="Category:Use British English from November 2015">Use British English from November 2015</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li></ul></div></div>
 				</div>
-				
 			</main>
 			
 		</div>
@@ -684,25 +676,26 @@ Transclusion expansion time report (%,ms,calls,template)
 			
 <footer id="footer" class="mw-footer" role="contentinfo" >
 	<ul id="footer-info">
-	<li id="footer-info-lastmod"> This page was last edited on 30 December 2022, at 01:46<span class="anonymous-show">&#160;(UTC)</span>.</li>
-	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+	<li id="footer-info-lastmod"> This page was last edited on 31 August 2023, at 20:09<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a><a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" style="display:none;"></a>;
 additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
 </ul>
 
 	<ul id="footer-places">
-	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
 	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
 	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
 	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal_Code_of_Conduct">Code of Conduct</a></li>
 	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Anne_Line&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
 	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
 	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
-	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
 </ul>
 
 	<ul id="footer-icons" class="noprint">
 	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
-	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
 </ul>
 
 </footer>
@@ -710,9 +703,16 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 		</div>
 	</div> 
 </div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li><button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.287","walltime":"0.393","ppvisitednodes":{"value":1382,"limit":1000000},"postexpandincludesize":{"value":24985,"limit":2097152},"templateargumentsize":{"value":1626,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":10,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":29481,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  354.709      1 -total"," 26.89%   95.377      1 Template:Reflist"," 23.47%   83.253      1 Template:Infobox_saint"," 22.59%   80.133      1 Template:Infobox"," 20.74%   73.572      1 Template:Authority_control"," 17.38%   61.660      2 Template:Cite_book"," 14.96%   53.074      4 Template:Br_separated_entries"," 12.74%   45.192      1 Template:Short_description"," 12.62%   44.778      1 Template:Death_date","  9.70%   34.411      1 Template:Subject_bar"]},"scribunto":{"limitreport-timeusage":{"value":"0.188","limit":"10.000"},"limitreport-memusage":{"value":6313197,"limit":52428800}},"cachereport":{"origin":"mw1411","timestamp":"20230207153707","ttl":86400,"transientcontent":true}}});});</script>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Anne Line","url":"https:\/\/en.wikipedia.org\/wiki\/Anne_Line","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2069003","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2069003","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-07-23T20:22:37Z","dateModified":"2022-12-30T01:46:48Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9a\/St_Anne_Line.jpg","headline":"English Catholic martyr"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Anne Line","url":"https:\/\/en.wikipedia.org\/wiki\/Anne_Line","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2069003","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2069003","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-07-23T20:22:37Z","dateModified":"2022-12-30T01:46:48Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9a\/St_Anne_Line.jpg","headline":"English Catholic martyr"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":102,"wgHostname":"mw2310"});});</script>
+<span>Toggle limited content width</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2388","wgBackendResponseTime":112,"wgPageParseReport":{"limitreport":{"cputime":"0.290","walltime":"0.398","ppvisitednodes":{"value":1403,"limit":1000000},"postexpandincludesize":{"value":24903,"limit":2097152},"templateargumentsize":{"value":1626,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":10,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":30013,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  358.588      1 -total"," 26.96%   96.669      1 Template:Reflist"," 21.96%   78.746      1 Template:Authority_control"," 19.86%   71.221      1 Template:Infobox_saint"," 18.87%   67.682      1 Template:Infobox"," 17.73%   63.578      2 Template:Cite_book"," 13.45%   48.232      1 Template:Short_description"," 10.98%   39.357      1 Template:Subject_bar"," 10.43%   37.389      4 Template:Br_separated_entries","  7.95%   28.494      1 Template:Death_date"]},"scribunto":{"limitreport-timeusage":{"value":"0.193","limit":"10.000"},"limitreport-memusage":{"value":6373940,"limit":52428800}},"cachereport":{"origin":"mw2385","timestamp":"20230831201036","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Anne Line","url":"https:\/\/en.wikipedia.org\/wiki\/Anne_Line","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2069003","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2069003","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-07-23T20:22:37Z","dateModified":"2023-08-31T20:09:38Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9a\/St_Anne_Line.jpg","headline":"English Catholic martyr"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Anne Line","url":"https:\/\/en.wikipedia.org\/wiki\/Anne_Line","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2069003","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2069003","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-07-23T20:22:37Z","dateModified":"2023-08-31T20:09:38Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9a\/St_Anne_Line.jpg","headline":"English Catholic martyr"}</script>
 </body>
 </html>

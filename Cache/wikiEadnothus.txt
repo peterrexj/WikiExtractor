@@ -1,246 +1,106 @@
 <!DOCTYPE html>
-<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled" lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8"/>
+<meta charset="UTF-8">
 <title>Eadnoth the Younger - Wikipedia</title>
-<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"d7b3163f-99f3-4d49-81ec-3094fbc962c0",
-"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Eadnoth_the_Younger","wgTitle":"Eadnoth the Younger","wgCurRevisionId":1123304889,"wgRevisionId":1123304889,"wgArticleId":13056377,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: untitled periodical","Use British English from July 2017","Use dmy dates from July 2017","Articles with short description","Short description is different from Wikidata","Year of birth unknown","10th-century English clergy","11th-century English Roman Catholic bishops","1016 deaths","Anglo-Saxon saints","Anglo-Saxons killed in battle","Anglo-Saxon warriors","Bishops of Dorchester (Mercia)","People from Ely, Cambridgeshire","East Anglian saints","Abbots of Ramsey"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Eadnoth_the_Younger","wgRelevantArticleId":13056377,"wgIsProbablyEditable":
-true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Eadnothus","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Eadnoth_the_Younger","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q5324927","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,
-"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming",
-"ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
+"September","October","November","December"],"wgRequestId":"0c734963-f415-452b-8046-439a7454417d","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Eadnoth_the_Younger","wgTitle":"Eadnoth the Younger","wgCurRevisionId":1143550386,"wgRevisionId":1143550386,"wgArticleId":13056377,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: untitled periodical","Use British English from July 2017","Use dmy dates from July 2017","Articles with short description","Short description is different from Wikidata","Year of birth unknown","10th-century English clergy","11th-century English Roman Catholic bishops","1016 deaths","Anglo-Saxon saints","Anglo-Saxons killed in battle","Anglo-Saxon warriors","Bishops of Dorchester (Mercia)","People from Ely, Cambridgeshire","East Anglian saints","Abbots of Ramsey"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":
+"wikitext","wgRelevantPageName":"Eadnoth_the_Younger","wgRelevantArticleId":13056377,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Eadnothus","wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Eadnoth_the_Younger","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q5324927","wgCheckUserClientHintsHeadersJsApi":[
+"architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js",
+"ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
 <script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
-<meta name="ResourceLoaderDynamicStyles" content=""/>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
-<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
-<meta name="referrer" content="origin"/>
-<meta name="referrer" content="origin-when-crossorigin"/>
-<meta name="referrer" content="origin-when-cross-origin"/>
-<meta name="robots" content="max-image-preview:standard"/>
-<meta name="format-detection" content="telephone=no"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/04/Oswald_and_Eadnoth.jpg"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="1010"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/04/Oswald_and_Eadnoth.jpg"/>
-<meta property="og:image:width" content="800"/>
-<meta property="og:image:height" content="673"/>
-<meta property="og:image:width" content="640"/>
-<meta property="og:image:height" content="539"/>
-<meta name="viewport" content="width=1000"/>
-<meta property="og:title" content="Eadnoth the Younger - Wikipedia"/>
-<meta property="og:type" content="website"/>
-<link rel="preconnect" href="//upload.wikimedia.org"/>
-<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Eadnoth_the_Younger"/>
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Eadnoth_the_Younger&amp;action=edit"/>
-<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
-<link rel="icon" href="/static/favicon/wikipedia.ico"/>
-<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
-<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
-<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
-<link rel="canonical" href="https://en.wikipedia.org/wiki/Eadnoth_the_Younger"/>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.41.0-wmf.25">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-crossorigin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/04/Oswald_and_Eadnoth.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1010">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/04/Oswald_and_Eadnoth.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="673">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="539">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Eadnoth the Younger - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Eadnoth_the_Younger">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Eadnoth_the_Younger&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Eadnoth_the_Younger">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
 <link rel="dns-prefetch" href="//meta.wikimedia.org" />
-<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org">
 </head>
-<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Eadnoth_the_Younger rootpage-Eadnoth_the_Younger skin-vector-2022 action-view"><div class="mw-page-container">
-	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
-	<div class="mw-page-container-inner">
-		<input
-			type="checkbox"
-			id="mw-sidebar-checkbox"
-			class="mw-checkbox-hack-checkbox"
-			>
-		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
-			<div class="vector-header-start">
-					<label
-				id="mw-sidebar-button"
-				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
-				for="mw-sidebar-checkbox"
-				role="button"
-				aria-controls="mw-panel"
-				data-event-name="ui.sidebar"
-				tabindex="0"
-				title="Main menu">
-				<span>Toggle sidebar</span>
-			</label>
-		
-<a href="/wiki/Main_Page" class="mw-logo">
-	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
-		aria-hidden="true" height="50" width="50">
-	<span class="mw-logo-container">
-		<img class="mw-logo-wordmark" alt="Wikipedia"
-			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
-		<img class="mw-logo-tagline"
-			alt="The Free Encyclopedia"
-			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
-	</span>
-</a>
-
-			</div>
-			<div class="vector-header-end">
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Eadnoth_the_Younger rootpage-Eadnoth_the_Younger skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
 				
-<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
-	<a href="/wiki/Special:Search"
-	
-		
-		
-		
-		title="Search Wikipedia [f]"
-		accesskey="f"
-		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
-		<span>Search</span>
-	</a>
-	
-	<div>
-		<form action="/w/index.php" id="searchform"
-			class="vector-search-box-form">
-			<div id="simpleSearch"
-				class="vector-search-box-inner"
-				 data-search-loc="header-moved">
-				<input class="vector-search-box-input"
-					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
-				>
-				<input type="hidden" name="title" value="Special:Search">
-				<input id="mw-searchButton"
-					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
-				<input id="searchButton"
-					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
-			</div>
-		</form>
-	</div>
-</div>
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
 
-				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
-	
-<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
-	<div class="vector-menu-heading">
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
 		
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Eadnoth+the+Younger" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
-		
-	</div>
-</div>
-
-	
-	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
-		<input type="checkbox"
-			id="p-personal-checkbox"
-			role="button"
-			aria-haspopup="true"
-			data-event-name="ui.dropdown-p-personal"
-			class="vector-menu-checkbox "
-			
-			
-		/>
-		<label
-			id="p-personal-label"
-			for="p-personal-checkbox"
-			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
-			
-		>
-			<span class="vector-menu-heading-label">Personal tools</span>
-		</label>
-		<div class="vector-menu-content">
-	
-		<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Eadnoth+the+Younger"
-	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
-</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:UserLogin&amp;returnto=Eadnoth+the+Younger"
-	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
-</li></ul>
-	
-</div>
-
-		<div class="vector-user-menu-anon-editor">
-			<p>
-				Pages for logged out editors <a data-mw="interface"
-	href="/wiki/Help:Introduction"
-	 aria-label="Learn more about editing"><span>learn more</span></a>
-
-			</p>
-		</div>
-				<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
-	
-</div>
-
-	
-		</div>
-	</div></nav>
-
-			</div>
-		</header>
-		<div class="vector-main-menu-container ">
-			<div id="mw-navigation">
-				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
-						
 <div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
-	
-	
-<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
 	<div
-		id="p-navigation-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Navigation</span>
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 	
 	
-<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
-	<div
-		id="p-interaction-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Contribute</span>
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
-	<div
-		id="p-tb-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Tools</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Eadnoth_the_Younger" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Eadnoth_the_Younger" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;oldid=1123304889" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Eadnoth_the_Younger&amp;id=1123304889&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q5324927" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
-	<div
-		id="p-coll-print_export-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Print/export</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Eadnoth_the_Younger&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -250,29 +110,135 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 	<div class="vector-main-menu-action-item">
 		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
 		<div class="vector-main-menu-action-content vector-menu-content">
-			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Language links are at the top of the page across from the title.</div></div>
 		</div>
 	</div>
 </div>
 
-
 </div>
 
-				</nav>
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Eadnoth+the+Younger" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Eadnoth+the+Younger" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Eadnoth+the+Younger" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Eadnoth+the+Younger" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+					<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+					</div>
+		</nav>
 			</div>
 		</div>
 		<div class="vector-sitenotice-container">
 			<div id="siteNotice"><!-- CentralNotice --></div>
 		</div>
-		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
-		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="vector-menu-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark vector-sticky-pinned-container">
 			<div id="vector-toc-pinned-container" class="vector-pinned-container">
-			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
 	<div
 	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
-	data-name="vector-toc"
-	
-	
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
 	
 	
 >
@@ -353,82 +319,61 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 </div>
 
 			</div>
-</nav>
+		</nav>
 		<div class="mw-content-container">
 			<main id="content" class="mw-body" role="main">
 				<header class="mw-body-header vector-page-titlebar">
 					<label
 						id="vector-toc-collapsed-button"
-						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet vector-button-flush-left cdx-button--icon-only"
 						for="vector-toc-collapsed-checkbox"
 						role="button"
-						aria-controls="toc-toggle-list"
-						data-event-name="vector.toc-toggle-list"
+						aria-controls="vector-toc"
 						tabindex="0"
 						title="Table of Contents">
-						Toggle the table of contents
+						<span class="vector-icon mw-ui-icon-wikimedia-listBullet"></span>
+						<span>Toggle the table of contents</span>
 					</label>
-				
-					
-<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
-	<input type="checkbox"
-		id="vector-page-titlebar-toc-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-vector-page-titlebar-toc"
-		class="vector-menu-checkbox "
-		
-		
-	/>
-	<label
-		id="vector-page-titlebar-toc-label"
-		for="vector-page-titlebar-toc-checkbox"
-		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
-		
-	>
-		<span class="vector-menu-heading-label"></span>
+					<nav role="navigation" aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 
-						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
-		</div>
-	
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
 	</div>
 </div>
-				
+
+					</nav>
 					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Eadnoth the Younger</span></h1>
-				
 							
-<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
-	<input type="checkbox"
-		id="p-lang-btn-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-lang-btn"
-		class="vector-menu-checkbox mw-interlanguage-selector"
-		aria-label="Go to an article in another language. Available in 1 language"
-		
-	/>
-	<label
-		id="p-lang-btn-label"
-		for="p-lang-btn-checkbox"
-		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-1"
-		
-	>
-		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">1 language</span>
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 1 language"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-1" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">1 language</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 		<div class="vector-menu-content">
 			
-			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Eadnoth_le_Jeune" title="Eadnoth le Jeune – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li></ul>
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Eadnoth_le_Jeune" title="Eadnoth le Jeune – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li>
+			</ul>
 			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q5324927#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
 		</div>
 
 	</div>
 </div>
-				</header>
+</header>
 				<div class="vector-page-toolbar">
 					<div class="vector-page-toolbar-container">
 						<div id="left-navigation">
@@ -437,41 +382,38 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 <div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Eadnoth_the_Younger" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Eadnoth_the_Younger" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Eadnoth_the_Younger" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Eadnoth_the_Younger" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 								
-
-<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
-	<input type="checkbox"
-		id="p-variants-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-variants"
-		class="vector-menu-checkbox"
-		aria-label="Change language variant"
-		
-	/>
-	<label
-		id="p-variants-label"
-		for="p-variants-checkbox"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">English</span>
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"></ul>
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
 		
-	</div>
-
 	</div>
 </div>
+
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 						<div id="right-navigation" class="vector-collapsible">
@@ -480,7 +422,10 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 <div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Eadnoth_the_Younger"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Eadnoth_the_Younger"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -489,40 +434,89 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 				
 							<nav class="vector-page-tools-landmark" aria-label="More options">
 								
-
-<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
-	<input type="checkbox"
-		id="p-cactions-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-cactions"
-		class="vector-menu-checkbox"
-		
-		
-	/>
-	<label
-		id="p-cactions-label"
-		for="p-cactions-checkbox"
-		class="vector-menu-heading"
-		
-	>
-		<span class="vector-menu-heading-label">More</span>
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Eadnoth_the_Younger"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=history"><span>View history</span></a></li></ul>
-		
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
 	</div>
-
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Eadnoth_the_Younger"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
 	</div>
 </div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Eadnoth_the_Younger" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Eadnoth_the_Younger" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;oldid=1143550386" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Eadnoth_the_Younger&amp;id=1143550386&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q5324927" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Eadnoth_the_Younger&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Eadnoth_the_Younger&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 					</div>
 				</div>
-				
+				<div class="vector-column-end">
+					<nav class="vector-page-tools-landmark vector-sticky-pinned-container" aria-label="More options">
+						<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+			
+						</div>
+	</nav>
+				</div>
 				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
 					<div class="vector-body-before-content">
 							<div class="mw-indicators">
@@ -534,12 +528,12 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 					
 					
 					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">For others of the same name, see <a href="/wiki/Eadnoth_(disambiguation)" class="mw-disambig" title="Eadnoth (disambiguation)">Eadnoth (disambiguation)</a>.</div>
-<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color: #DFB0DF;"><div style="display:inline" class="fn">Eadnoth</div></th></tr><tr><td colspan="2" class="infobox-subheader role"><a href="/wiki/Mercian_Bishop_of_Dorchester" class="mw-redirect" title="Mercian Bishop of Dorchester">Bishop of Dorchester</a></td></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Oswald_and_Eadnoth.jpg" class="image"><img alt="Oswald and Eadnoth.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Oswald_and_Eadnoth.jpg/220px-Oswald_and_Eadnoth.jpg" decoding="async" width="220" height="185" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Oswald_and_Eadnoth.jpg/330px-Oswald_and_Eadnoth.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/0/04/Oswald_and_Eadnoth.jpg 2x" data-file-width="410" data-file-height="345" /></a><div class="infobox-caption">Miniature of a bishop and an abbot from the 14th-century <a href="/wiki/Ramsey_Psalter" title="Ramsey Psalter">Ramsey Psalter</a>, thought to be <a href="/wiki/Oswald_of_Worcester" title="Oswald of Worcester">Oswald</a> (left) and his kinsman Eadnoth (right)</div></td></tr><tr><th scope="row" class="infobox-label">Province</th><td class="infobox-data"><a href="/wiki/Province_of_Canterbury" title="Province of Canterbury">Canterbury</a></td></tr><tr><th scope="row" class="infobox-label">Diocese</th><td class="infobox-data label"><a href="/wiki/Mercian_Diocese_of_Dorchester" class="mw-redirect" title="Mercian Diocese of Dorchester">Dorchester</a></td></tr><tr class="note"><th scope="row" class="infobox-label">Installed</th><td class="infobox-data">Between 1007 and 1009</td></tr><tr class="note"><th scope="row" class="infobox-label">Term ended</th><td class="infobox-data">1016</td></tr><tr><th scope="row" class="infobox-label">Predecessor</th><td class="infobox-data"><a href="/wiki/%C3%86lfhelm_of_Dorchester" title="Ælfhelm of Dorchester">Ælfhelm</a></td></tr><tr><th scope="row" class="infobox-label">Successor</th><td class="infobox-data"><a href="/wiki/%C3%86thelric_(Bishop_of_Dorchester)" class="mw-redirect" title="Æthelric (Bishop of Dorchester)">Æthelric</a></td></tr><tr><th scope="row" class="infobox-label">Other post(s)</th><td class="infobox-data">Previously <a href="/wiki/Abbot_of_Ramsey" class="mw-redirect" title="Abbot of Ramsey">Abbot of Ramsey</a> (<abbr title="circa">c.</abbr> 992—1007 x 1009)</td></tr><tr><th colspan="2" class="infobox-header" style="background-color:#DDDDDD;">Personal details</th></tr><tr><th scope="row" class="infobox-label">Parents</th><td class="infobox-data"><a href="/wiki/%C3%86thelstan_Mannessune" title="Æthelstan Mannessune">Æthelstan Mannessune</a> and unknown (kinswoman of Archbishop Oswald)</td></tr><tr><th scope="row" class="infobox-label">Profession</th><td class="infobox-data"><a href="/wiki/Monk" title="Monk">Monk</a></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:#DDDDDD;">Sainthood</th></tr><tr><th scope="row" class="infobox-label">Feast day</th><td class="infobox-data">18 October</td></tr><tr><th scope="row" class="infobox-label">Patronage</th><td class="infobox-data"><a href="/wiki/Ramsey_Abbey" title="Ramsey Abbey">Ramsey Abbey</a></td></tr><tr><th scope="row" class="infobox-label">Shrines</th><td class="infobox-data"><a href="/wiki/Ely_Cathedral" title="Ely Cathedral">Ely Cathedral</a> (medieval)</td></tr><tr><th scope="row" class="infobox-label">Cult suppressed</th><td class="infobox-data">See <a href="/wiki/Dissolution_of_the_Monasteries" class="mw-redirect" title="Dissolution of the Monasteries">Dissolution of the Monasteries</a></td></tr></tbody></table>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color: #DFB0DF;"><div style="display:inline" class="fn">Eadnoth</div></th></tr><tr><td colspan="2" class="infobox-subheader role"><a href="/wiki/Mercian_Bishop_of_Dorchester" class="mw-redirect" title="Mercian Bishop of Dorchester">Bishop of Dorchester</a></td></tr><tr><td colspan="2" class="infobox-image"><span class="mw-default-size" typeof="mw:File/Frameless"><a href="/wiki/File:Oswald_and_Eadnoth.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Oswald_and_Eadnoth.jpg/220px-Oswald_and_Eadnoth.jpg" decoding="async" width="220" height="185" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Oswald_and_Eadnoth.jpg/330px-Oswald_and_Eadnoth.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/0/04/Oswald_and_Eadnoth.jpg 2x" data-file-width="410" data-file-height="345" /></a></span><div class="infobox-caption">Miniature of a bishop and an abbot from the 14th-century <a href="/wiki/Ramsey_Psalter" title="Ramsey Psalter">Ramsey Psalter</a>, thought to be <a href="/wiki/Oswald_of_Worcester" title="Oswald of Worcester">Oswald</a> (left) and his kinsman Eadnoth (right)</div></td></tr><tr><th scope="row" class="infobox-label">Province</th><td class="infobox-data"><a href="/wiki/Province_of_Canterbury" title="Province of Canterbury">Canterbury</a></td></tr><tr><th scope="row" class="infobox-label">Diocese</th><td class="infobox-data label"><a href="/wiki/Mercian_Diocese_of_Dorchester" class="mw-redirect" title="Mercian Diocese of Dorchester">Dorchester</a></td></tr><tr class="note"><th scope="row" class="infobox-label">Installed</th><td class="infobox-data">Between 1007 and 1009</td></tr><tr class="note"><th scope="row" class="infobox-label">Term ended</th><td class="infobox-data">1016</td></tr><tr><th scope="row" class="infobox-label">Predecessor</th><td class="infobox-data"><a href="/wiki/%C3%86lfhelm_of_Dorchester" title="Ælfhelm of Dorchester">Ælfhelm</a></td></tr><tr><th scope="row" class="infobox-label">Successor</th><td class="infobox-data"><a href="/wiki/%C3%86thelric_(Bishop_of_Dorchester)" class="mw-redirect" title="Æthelric (Bishop of Dorchester)">Æthelric</a></td></tr><tr><th scope="row" class="infobox-label">Other post(s)</th><td class="infobox-data">Previously <a href="/wiki/Abbot_of_Ramsey" class="mw-redirect" title="Abbot of Ramsey">Abbot of Ramsey</a> (<abbr title="circa">c.</abbr> 992—1007 x 1009)</td></tr><tr><th colspan="2" class="infobox-header" style="background-color:#DDDDDD;">Personal details</th></tr><tr><th scope="row" class="infobox-label">Parents</th><td class="infobox-data"><a href="/wiki/%C3%86thelstan_Mannessune" title="Æthelstan Mannessune">Æthelstan Mannessune</a> and unknown (kinswoman of Archbishop Oswald)</td></tr><tr><th scope="row" class="infobox-label">Profession</th><td class="infobox-data"><a href="/wiki/Monk" title="Monk">Monk</a></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:#DDDDDD;">Sainthood</th></tr><tr><th scope="row" class="infobox-label">Feast day</th><td class="infobox-data">18 October</td></tr><tr><th scope="row" class="infobox-label">Patronage</th><td class="infobox-data"><a href="/wiki/Ramsey_Abbey" title="Ramsey Abbey">Ramsey Abbey</a></td></tr><tr><th scope="row" class="infobox-label">Shrines</th><td class="infobox-data"><a href="/wiki/Ely_Cathedral" title="Ely Cathedral">Ely Cathedral</a> (medieval)</td></tr><tr><th scope="row" class="infobox-label">Cult suppressed</th><td class="infobox-data">See <a href="/wiki/Dissolution_of_the_Monasteries" class="mw-redirect" title="Dissolution of the Monasteries">Dissolution of the Monasteries</a></td></tr></tbody></table>
 <p><b>Eadnoth the Younger</b> or <b>Eadnoth I</b> was a medieval <a href="/wiki/Monk" title="Monk">monk</a> and <a href="/wiki/Prelate" title="Prelate">prelate</a>, successively <a href="/wiki/Abbot_of_Ramsey" class="mw-redirect" title="Abbot of Ramsey">Abbot of Ramsey</a> and <a href="/wiki/Mercian_Bishop_of_Dorchester" class="mw-redirect" title="Mercian Bishop of Dorchester">Bishop of Dorchester</a>. From a prominent family of priests in <a href="/wiki/The_Fens" title="The Fens">the Fens</a>, he was related to <a href="/wiki/Oswald_of_Worcester" title="Oswald of Worcester">Oswald</a>, <a href="/wiki/Bishop_of_Worcester" title="Bishop of Worcester">Bishop of Worcester</a>, <a href="/wiki/Archbishop_of_York" title="Archbishop of York">Archbishop of York</a> and founder of <a href="/wiki/Ramsey_Abbey" title="Ramsey Abbey">Ramsey Abbey</a>. Following in the footsteps of his illustrious kinsman, he initially became a monk at <a href="/wiki/Worcester,_England" title="Worcester, England">Worcester</a>. He is found at Ramsey supervising construction works in the 980s, and around 992 actually became Abbot of Ramsey. As abbot, he founded two daughter houses in what is now <a href="/wiki/Cambridgeshire" title="Cambridgeshire">Cambridgeshire</a>, namely, a monastery at <a href="/wiki/St_Ives,_Cambridgeshire" title="St Ives, Cambridgeshire">St Ives</a> and a nunnery at <a href="/wiki/Chatteris" title="Chatteris">Chatteris</a>. At some point between 1007 and 1009, he became Bishop of Dorchester, a <a href="/wiki/Episcopal_see" title="Episcopal see">see</a> that encompassed much of the eastern <a href="/wiki/Danelaw" title="Danelaw">Danelaw</a>. He died at the <a href="/wiki/Battle_of_Assandun" title="Battle of Assandun">Battle of Assandun</a> in 1016, fighting <a href="/wiki/Cnut_the_Great" class="mw-redirect" title="Cnut the Great">Cnut the Great</a>.
 </p>
 <meta property="mw:PageProp/toc" />
 <h2><span class="mw-headline" id="Family">Family</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=edit&amp;section=1" title="Edit section: Family">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<p>Eadnoth the Younger was the son of <a href="/wiki/%C3%86thelstan_Mannessune" title="Æthelstan Mannessune">Æthelstan Mannessune</a> by a kinswoman of Oswald, Bishop of Worcester and Archbishop of York.<sup id="cite_ref-Wareham-49-50_1-0" class="reference"><a href="#cite_note-Wareham-49-50-1">&#91;1&#93;</a></sup>  His father came from family of hereditary Fenland priests from in or around the <a href="/wiki/Isle_of_Ely" title="Isle of Ely">Isle of Ely</a>.<sup id="cite_ref-Wareham-49-50_1-1" class="reference"><a href="#cite_note-Wareham-49-50-1">&#91;1&#93;</a></sup> Æthelstan had lands in <a href="/wiki/Cambridgeshire" title="Cambridgeshire">Cambridgeshire</a>, <a href="/wiki/Huntingdonshire" title="Huntingdonshire">Huntingdonshire</a> and <a href="/wiki/Bedfordshire" title="Bedfordshire">Bedfordshire</a>, with "outlying" [Hart] estates in <a href="/wiki/Norfolk" title="Norfolk">Norfolk</a> and <a href="/wiki/Lincolnshire" title="Lincolnshire">Lincolnshire</a>.<sup id="cite_ref-Hart-215_2-0" class="reference"><a href="#cite_note-Hart-215-2">&#91;2&#93;</a></sup> Eadnoth is styled "the Younger", <i>Iunior</i>, to distinguish him from Eadnoth "the Elder", <i>Senior</i>, the follower of Oswald who served as <a href="/wiki/Prior" title="Prior">prior</a> of the <a href="/wiki/Ramsey_Abbey" title="Ramsey Abbey">monastery of Ramsey</a> in the years before Eadnoth the Younger became abbot.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+<p>Eadnoth the Younger was the son of <a href="/wiki/%C3%86thelstan_Mannessune" title="Æthelstan Mannessune">Æthelstan Mannessune</a> by a kinswoman of Oswald, Bishop of Worcester and Archbishop of York.<sup id="cite_ref-Wareham-49-50_1-0" class="reference"><a href="#cite_note-Wareham-49-50-1">&#91;1&#93;</a></sup>  His father came from family of hereditary Fenland priests from in or around the <a href="/wiki/Isle_of_Ely" title="Isle of Ely">Isle of Ely</a>.<sup id="cite_ref-Wareham-49-50_1-1" class="reference"><a href="#cite_note-Wareham-49-50-1">&#91;1&#93;</a></sup> Æthelstan had lands in <a href="/wiki/Cambridgeshire" title="Cambridgeshire">Cambridgeshire</a>, <a href="/wiki/Huntingdonshire" title="Huntingdonshire">Huntingdonshire</a> and <a href="/wiki/Bedfordshire" title="Bedfordshire">Bedfordshire</a>, with "outlying" [Hart] estates in <a href="/wiki/Norfolk" title="Norfolk">Norfolk</a> and <a href="/wiki/Lincolnshire" title="Lincolnshire">Lincolnshire</a>.<sup id="cite_ref-Hart-215_2-0" class="reference"><a href="#cite_note-Hart-215-2">&#91;2&#93;</a></sup> Eadnoth is styled "the Younger", <i>Iunior</i>, to distinguish him from Eadnoth "the Elder", <i>Senior</i>, the follower of Oswald who served as <a href="/wiki/Prior_(ecclesiastical)" title="Prior (ecclesiastical)">prior</a> of the <a href="/wiki/Ramsey_Abbey" title="Ramsey Abbey">monastery of Ramsey</a> in the years before Eadnoth the Younger became abbot.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
 </p><p>Eadnoth the Younger had one brother, Godric (died 1013), and at least two sisters, <a href="/wiki/%C3%86lfwaru" title="Ælfwaru">Ælfwaru</a> (died 1007) and Ælfwyn, all of whom inherited estates  (in addition to a <a href="/wiki/Fishery" title="Fishery">fishery</a>) from their father.<sup id="cite_ref-Wareham-49-51_4-0" class="reference"><a href="#cite_note-Wareham-49-51-4">&#91;4&#93;</a></sup> Eadnoth, by contrast, became a monk at <a href="/wiki/Worcester_Abbey" class="mw-redirect" title="Worcester Abbey">Worcester Abbey</a>, where his mother's kinsman Oswald was bishop, and thus could not inherit anything.<sup id="cite_ref-Wareham-51_5-0" class="reference"><a href="#cite_note-Wareham-51-5">&#91;5&#93;</a></sup> Eadnoth appears for the first time in the 980s when, according to the <i>Liber Benefactorum Ecclesiae Ramesiensis</i>, he supervised the repair of the western tower of Ramsey Abbey.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup> Eadnoth became Abbot of Ramsey in 992,<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> having probably already taken over Eadnoth the Elder's duties as prior from at least 991, if not earlier.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup>
 </p>
 <h2><span class="mw-headline" id="Abbot_of_Ramsey">Abbot of Ramsey</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=edit&amp;section=2" title="Edit section: Abbot of Ramsey">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
@@ -596,9 +590,9 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 </li>
 <li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text">Fryde, Greenway and Porter, <i>Handbook of British Chronology</i>, p. 255</span>
 </li>
-<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+917"><i>Sawyer 917</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+917&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B917&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+922"><i>Sawyer 922</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+922&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B922&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; Keynes, <i>Atlas</i>, Table LXb (1 of 2); Lapidge, <i>Byrhtferth</i>, pp. 180–81, n. 144</span>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+917"><i>Sawyer 917</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+917&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B917&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+922"><i>Sawyer 922</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+922&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B922&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; Keynes, <i>Atlas</i>, Table LXb (1 of 2); Lapidge, <i>Byrhtferth</i>, pp. 180–81, n. 144</span>
 </li>
-<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+923"><i>Sawyer 923</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+923&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B923&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+924"><i>Sawyer 924</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+924&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B924&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+926"><i>Sawyer 926</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+926&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B926&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+927"><i>Sawyer 927</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+927&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B927&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+929"><i>Sawyer 929</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+929&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B929&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+931"><i>Sawyer 931</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+931&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B931&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+935"><i>Sawyer 935</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+935&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B935&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>, plus two unlisted by Sawyer; Keynes, <i>Atlas</i>, Table LXb (2 of 2)</span>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+923"><i>Sawyer 923</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+923&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B923&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+924"><i>Sawyer 924</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+924&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B924&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+926"><i>Sawyer 926</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+926&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B926&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+927"><i>Sawyer 927</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+927&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B927&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+929"><i>Sawyer 929</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+929&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B929&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+931"><i>Sawyer 931</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+931&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B931&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation cs2"><a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=seek&amp;query=S+935"><i>Sawyer 935</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sawyer+935&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dseek%26query%3DS%2B935&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>, plus two unlisted by Sawyer; Keynes, <i>Atlas</i>, Table LXb (2 of 2)</span>
 </li>
 <li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text">Lawson, <i>Cnut</i>, p. 117; Whitelock (ed.), <i>English Historical Documents</i>, p. 250</span>
 </li>
@@ -613,25 +607,25 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 </ol></div>
 <h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=edit&amp;section=5" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <style data-mw-deduplicate="TemplateStyles:r1054258005">.mw-parser-output .refbegin{font-size:90%;margin-bottom:0.5em}.mw-parser-output .refbegin-hanging-indents>ul{margin-left:0}.mw-parser-output .refbegin-hanging-indents>ul>li{margin-left:0;padding-left:3.2em;text-indent:-3.2em}.mw-parser-output .refbegin-hanging-indents ul,.mw-parser-output .refbegin-hanging-indents ul li{list-style:none}@media(max-width:720px){.mw-parser-output .refbegin-hanging-indents>ul>li{padding-left:1.6em;text-indent:-1.6em}}.mw-parser-output .refbegin-columns{margin-top:0.3em}.mw-parser-output .refbegin-columns ul{margin-top:0}.mw-parser-output .refbegin-columns li{page-break-inside:avoid;break-inside:avoid-column}</style><div class="refbegin" style="">
-<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFBlair2002" class="citation cs2">Blair, John (2002), "A Handlist of Anglo-Saxon Saints",  in Thacker, Alan; <a href="/wiki/Richard_Sharpe_(historian)" title="Richard Sharpe (historian)">Sharpe, Richard</a> (eds.), <i>Local Saints and Local Churches in the Early Medieval West</i>, Oxford: Oxford University Press, pp.&#160;495–565, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-19-820394-2" title="Special:BookSources/0-19-820394-2"><bdi>0-19-820394-2</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=A+Handlist+of+Anglo-Saxon+Saints&amp;rft.btitle=Local+Saints+and+Local+Churches+in+the+Early+Medieval+West&amp;rft.place=Oxford&amp;rft.pages=495-565&amp;rft.pub=Oxford+University+Press&amp;rft.date=2002&amp;rft.isbn=0-19-820394-2&amp;rft.aulast=Blair&amp;rft.aufirst=John&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFFairweather2005" class="citation cs2">Fairweather, Janet, ed. (2005), <i>Liber Eliensis: A History of the Isle of Ely from the Seventh Century to the Twelfth, compiled by a Monk of Ely in the Twelfth Century</i>, Woodbridge: The Boydell Press, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-84383-015-9" title="Special:BookSources/1-84383-015-9"><bdi>1-84383-015-9</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Liber+Eliensis%3A+A+History+of+the+Isle+of+Ely+from+the+Seventh+Century+to+the+Twelfth%2C+compiled+by+a+Monk+of+Ely+in+the+Twelfth+Century&amp;rft.place=Woodbridge&amp;rft.pub=The+Boydell+Press&amp;rft.date=2005&amp;rft.isbn=1-84383-015-9&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFFrydeGreenwayPorterRoy1986" class="citation cs2">Fryde, E. B.; Greenway, D. E.; Porter, S.; Roy, I., eds. (1986), <i>Handbook of British Chronology</i>, Royal Historical Society Guides and Handbooks, No. 2 (3rd&#160;ed.), London: Offices of the Royal Historical Society, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-86193-106-8" title="Special:BookSources/0-86193-106-8"><bdi>0-86193-106-8</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Handbook+of+British+Chronology&amp;rft.place=London&amp;rft.series=Royal+Historical+Society+Guides+and+Handbooks%2C+No.+2&amp;rft.edition=3rd&amp;rft.pub=Offices+of+the+Royal+Historical+Society&amp;rft.date=1986&amp;rft.isbn=0-86193-106-8&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHart1992" class="citation cs2"><a href="/wiki/Cyril_Roy_Hart" title="Cyril Roy Hart">Hart, Cyril</a> (1992) [1964], "Eadnoth I of Ramsey and Dorchester",  in Hart, Cyril (ed.), <i>The Danelaw</i>, London: Hambledon Press, pp.&#160;613–23, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-85285-044-2" title="Special:BookSources/1-85285-044-2"><bdi>1-85285-044-2</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Eadnoth+I+of+Ramsey+and+Dorchester&amp;rft.btitle=The+Danelaw&amp;rft.place=London&amp;rft.pages=613-23&amp;rft.pub=Hambledon+Press&amp;rft.date=1992&amp;rft.isbn=1-85285-044-2&amp;rft.aulast=Hart&amp;rft.aufirst=Cyril&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>, originally published in <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation cs2"><i>Proceedings of the Cambridge Antiquarian Society</i>: 61–67, 1964</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Proceedings+of+the+Cambridge+Antiquarian+Society&amp;rft.pages=61-67&amp;rft.date=1964&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span><span class="cs1-maint citation-comment"><code class="cs1-code">{{<a href="/wiki/Template:Citation" title="Template:Citation">citation</a>}}</code>:  CS1 maint: untitled periodical (<a href="/wiki/Category:CS1_maint:_untitled_periodical" title="Category:CS1 maint: untitled periodical">link</a>)</span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFHill1981" class="citation cs2">Hill, David (1981), <i>An Atlas of Anglo-Saxon England</i>, Oxford: Basil Blackwell, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-631-11181-6" title="Special:BookSources/0-631-11181-6"><bdi>0-631-11181-6</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=An+Atlas+of+Anglo-Saxon+England&amp;rft.place=Oxford&amp;rft.pub=Basil+Blackwell&amp;rft.date=1981&amp;rft.isbn=0-631-11181-6&amp;rft.aulast=Hill&amp;rft.aufirst=David&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFKeynes2002" class="citation cs2"><a href="/wiki/Simon_Keynes" title="Simon Keynes">Keynes, Simon</a> (2002), <a rel="nofollow" class="external text" href="http://dk.robinson.cam.ac.uk/node/115"><i>An Atlas of Attestations in Anglo-Saxon Charters, c. 670–1066</i></a>, ASNC Guides, Texts, and Studies, 5, Cambridge: Department of Anglo-Saxon, Norse and Celtic Studies, University of Cambridge, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-9532697-6-0" title="Special:BookSources/0-9532697-6-0"><bdi>0-9532697-6-0</bdi></a>, <a href="/wiki/ISSN_(identifier)" class="mw-redirect" title="ISSN (identifier)">ISSN</a>&#160;<a rel="nofollow" class="external text" href="//www.worldcat.org/issn/1475-8520">1475-8520</a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=An+Atlas+of+Attestations+in+Anglo-Saxon+Charters%2C+c.+670%E2%80%931066&amp;rft.place=Cambridge&amp;rft.series=ASNC+Guides%2C+Texts%2C+and+Studies%2C+5&amp;rft.pub=Department+of+Anglo-Saxon%2C+Norse+and+Celtic+Studies%2C+University+of+Cambridge&amp;rft.date=2002&amp;rft.issn=1475-8520&amp;rft.isbn=0-9532697-6-0&amp;rft.aulast=Keynes&amp;rft.aufirst=Simon&amp;rft_id=http%3A%2F%2Fdk.robinson.cam.ac.uk%2Fnode%2F115&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFKnowlesBrookeLondon2001" class="citation cs2"><a href="/wiki/David_Knowles_(scholar)" title="David Knowles (scholar)">Knowles, David</a>; Brooke, C. N. L.; London, C. M, eds. (2001), <i>The Heads of Religious Houses&#160;: England and Wales. 1, 940—1216</i> (2nd&#160;ed.), Cambridge: Cambridge University Press, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-521-80452-3" title="Special:BookSources/0-521-80452-3"><bdi>0-521-80452-3</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Heads+of+Religious+Houses+%3A+England+and+Wales.+1%2C+940%E2%80%941216&amp;rft.place=Cambridge&amp;rft.edition=2nd&amp;rft.pub=Cambridge+University+Press&amp;rft.date=2001&amp;rft.isbn=0-521-80452-3&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFLapidge1993" class="citation cs2"><a href="/wiki/Michael_Lapidge" title="Michael Lapidge">Lapidge, Michael</a> (1993), "Abbot Germanus, Winchcombe, Ramsey and the Cambridge Psalter",  in Lapidge, Michael (ed.), <i>Anglo-Latin Literature, 900–1066</i>, London: The Hambledon Press, pp.&#160;387–17, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-85285-012-4" title="Special:BookSources/1-85285-012-4"><bdi>1-85285-012-4</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Abbot+Germanus%2C+Winchcombe%2C+Ramsey+and+the+Cambridge+Psalter&amp;rft.btitle=Anglo-Latin+Literature%2C+900%E2%80%931066&amp;rft.place=London&amp;rft.pages=387-17&amp;rft.pub=The+Hambledon+Press&amp;rft.date=1993&amp;rft.isbn=1-85285-012-4&amp;rft.aulast=Lapidge&amp;rft.aufirst=Michael&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>, originally published as <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFKorhammer1992" class="citation cs2">Korhammer, M., ed. (1992), <i>Words, Texts, and Manuscripts: Studies in Anglo-Saxon Culture Presented to Helmut Gneuss on the Occasion of His Sixty-Fifth Birthday</i>, London: Boydell and Brester, pp.&#160;99–129, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-85991-363-5" title="Special:BookSources/0-85991-363-5"><bdi>0-85991-363-5</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Words%2C+Texts%2C+and+Manuscripts%3A+Studies+in+Anglo-Saxon+Culture+Presented+to+Helmut+Gneuss+on+the+Occasion+of+His+Sixty-Fifth+Birthday&amp;rft.place=London&amp;rft.pages=99-129&amp;rft.pub=Boydell+and+Brester&amp;rft.date=1992&amp;rft.isbn=0-85991-363-5&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFLapidge2009" class="citation cs2">Lapidge, Michael, ed. (2009), <i>Byrhtferth of Ramsey: The Lives of St Oswald and St Ecgwine</i>, Oxford Medieval Texts, Oxford: Clarendon Press, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-19-955078-4" title="Special:BookSources/978-0-19-955078-4"><bdi>978-0-19-955078-4</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Byrhtferth+of+Ramsey%3A+The+Lives+of+St+Oswald+and+St+Ecgwine&amp;rft.place=Oxford&amp;rft.series=Oxford+Medieval+Texts&amp;rft.pub=Clarendon+Press&amp;rft.date=2009&amp;rft.isbn=978-0-19-955078-4&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFLawson2004" class="citation cs2">Lawson, M. K. (2004), <i>Cnut: England's Viking King</i> (2nd&#160;ed.), Stroud: Tempus, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-7524-2964-7" title="Special:BookSources/0-7524-2964-7"><bdi>0-7524-2964-7</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Cnut%3A+England%27s+Viking+King&amp;rft.place=Stroud&amp;rft.edition=2nd&amp;rft.pub=Tempus&amp;rft.date=2004&amp;rft.isbn=0-7524-2964-7&amp;rft.aulast=Lawson&amp;rft.aufirst=M.+K.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFMiller" class="citation cs2">Miller, Sean, <a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=show&amp;page=Charters"><i>New Regesta Regum Anglorum</i></a>, Anglo-Saxons.net<span class="reference-accessdate">, retrieved <span class="nowrap">3 January</span> 2010</span></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=New+Regesta+Regum+Anglorum&amp;rft.pub=Anglo-Saxons.net&amp;rft.aulast=Miller&amp;rft.aufirst=Sean&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dshow%26page%3DCharters&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFSandler1969" class="citation cs2">Sandler, Lucy Freeman (1969), "The Historical Miniatures of the Fourteenth-Century Ramsey Psalter", <i>The Burlington Magazine</i>, The Burlington Magazine Publications, Ltd., <b>111</b> (799): 605–611</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Burlington+Magazine&amp;rft.atitle=The+Historical+Miniatures+of+the+Fourteenth-Century+Ramsey+Psalter&amp;rft.volume=111&amp;rft.issue=799&amp;rft.pages=605-611&amp;rft.date=1969&amp;rft.aulast=Sandler&amp;rft.aufirst=Lucy+Freeman&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFWareham1996" class="citation cs2"><a href="/wiki/Andrew_Wareham" title="Andrew Wareham">Wareham, Andrew</a> (1996), "St Oswald's Family and Kin",  in <a href="/wiki/Nicholas_Brooks_(historian)" title="Nicholas Brooks (historian)">Brooks, Nicholas</a>; Cubitt, Catherine (eds.), <i>St Oswald of Worcester: Life and Influence</i>, London: Leicester University Press, pp.&#160;46–63, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-7185-0003-2" title="Special:BookSources/0-7185-0003-2"><bdi>0-7185-0003-2</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=St+Oswald%27s+Family+and+Kin&amp;rft.btitle=St+Oswald+of+Worcester%3A+Life+and+Influence&amp;rft.place=London&amp;rft.pages=46-63&amp;rft.pub=Leicester+University+Press&amp;rft.date=1996&amp;rft.isbn=0-7185-0003-2&amp;rft.aulast=Wareham&amp;rft.aufirst=Andrew&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFWhitelock1959" class="citation cs2"><a href="/wiki/Dorothy_Whitelock" title="Dorothy Whitelock">Whitelock, Dorothy</a> (1959), "The Dealings of the Kings of England with Northumbria",  in Clemoes, Peter (ed.), <i>The Anglo-Saxons: Studies in some Aspects of their History and Culture presented to Bruce Dickins</i>, London: Bowes &amp; Bowes, pp.&#160;707–88</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=The+Dealings+of+the+Kings+of+England+with+Northumbria&amp;rft.btitle=The+Anglo-Saxons%3A+Studies+in+some+Aspects+of+their+History+and+Culture+presented+to+Bruce+Dickins&amp;rft.place=London&amp;rft.pages=707-88&amp;rft.pub=Bowes+%26+Bowes&amp;rft.date=1959&amp;rft.aulast=Whitelock&amp;rft.aufirst=Dorothy&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFWhitelock1979" class="citation cs2">Whitelock, Dorothy, ed. (1979), <i>English Historical Documents. [Vol.1], c.500–1042</i>, London: Eyre and Spottiswoode, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-19-520101-9" title="Special:BookSources/0-19-520101-9"><bdi>0-19-520101-9</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=English+Historical+Documents.+%5BVol.1%5D%2C+c.500%E2%80%931042&amp;rft.place=London&amp;rft.pub=Eyre+and+Spottiswoode&amp;rft.date=1979&amp;rft.isbn=0-19-520101-9&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li></ul>
+<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFBlair2002" class="citation cs2">Blair, John (2002), "A Handlist of Anglo-Saxon Saints", in Thacker, Alan; <a href="/wiki/Richard_Sharpe_(historian)" title="Richard Sharpe (historian)">Sharpe, Richard</a> (eds.), <i>Local Saints and Local Churches in the Early Medieval West</i>, Oxford: Oxford University Press, pp.&#160;495–565, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-19-820394-2" title="Special:BookSources/0-19-820394-2"><bdi>0-19-820394-2</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=A+Handlist+of+Anglo-Saxon+Saints&amp;rft.btitle=Local+Saints+and+Local+Churches+in+the+Early+Medieval+West&amp;rft.place=Oxford&amp;rft.pages=495-565&amp;rft.pub=Oxford+University+Press&amp;rft.date=2002&amp;rft.isbn=0-19-820394-2&amp;rft.aulast=Blair&amp;rft.aufirst=John&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFFairweather2005" class="citation cs2">Fairweather, Janet, ed. (2005), <i>Liber Eliensis: A History of the Isle of Ely from the Seventh Century to the Twelfth, compiled by a Monk of Ely in the Twelfth Century</i>, Woodbridge: The Boydell Press, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-84383-015-9" title="Special:BookSources/1-84383-015-9"><bdi>1-84383-015-9</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Liber+Eliensis%3A+A+History+of+the+Isle+of+Ely+from+the+Seventh+Century+to+the+Twelfth%2C+compiled+by+a+Monk+of+Ely+in+the+Twelfth+Century&amp;rft.place=Woodbridge&amp;rft.pub=The+Boydell+Press&amp;rft.date=2005&amp;rft.isbn=1-84383-015-9&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFFrydeGreenwayPorterRoy1986" class="citation cs2">Fryde, E. B.; Greenway, D. E.; Porter, S.; Roy, I., eds. (1986), <i>Handbook of British Chronology</i>, Royal Historical Society Guides and Handbooks, No. 2 (3rd&#160;ed.), London: Offices of the Royal Historical Society, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-86193-106-8" title="Special:BookSources/0-86193-106-8"><bdi>0-86193-106-8</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Handbook+of+British+Chronology&amp;rft.place=London&amp;rft.series=Royal+Historical+Society+Guides+and+Handbooks%2C+No.+2&amp;rft.edition=3rd&amp;rft.pub=Offices+of+the+Royal+Historical+Society&amp;rft.date=1986&amp;rft.isbn=0-86193-106-8&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFHart1992" class="citation cs2"><a href="/wiki/Cyril_Roy_Hart" title="Cyril Roy Hart">Hart, Cyril</a> (1992) [1964], "Eadnoth I of Ramsey and Dorchester", in Hart, Cyril (ed.), <i>The Danelaw</i>, London: Hambledon Press, pp.&#160;613–23, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-85285-044-2" title="Special:BookSources/1-85285-044-2"><bdi>1-85285-044-2</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Eadnoth+I+of+Ramsey+and+Dorchester&amp;rft.btitle=The+Danelaw&amp;rft.place=London&amp;rft.pages=613-23&amp;rft.pub=Hambledon+Press&amp;rft.date=1992&amp;rft.isbn=1-85285-044-2&amp;rft.aulast=Hart&amp;rft.aufirst=Cyril&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>, originally published in <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation cs2"><i>Proceedings of the Cambridge Antiquarian Society</i>: 61–67, 1964</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Proceedings+of+the+Cambridge+Antiquarian+Society&amp;rft.pages=61-67&amp;rft.date=1964&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span><span class="cs1-maint citation-comment"><code class="cs1-code">{{<a href="/wiki/Template:Citation" title="Template:Citation">citation</a>}}</code>:  CS1 maint: untitled periodical (<a href="/wiki/Category:CS1_maint:_untitled_periodical" title="Category:CS1 maint: untitled periodical">link</a>)</span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFHill1981" class="citation cs2">Hill, David (1981), <i>An Atlas of Anglo-Saxon England</i>, Oxford: Basil Blackwell, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-631-11181-6" title="Special:BookSources/0-631-11181-6"><bdi>0-631-11181-6</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=An+Atlas+of+Anglo-Saxon+England&amp;rft.place=Oxford&amp;rft.pub=Basil+Blackwell&amp;rft.date=1981&amp;rft.isbn=0-631-11181-6&amp;rft.aulast=Hill&amp;rft.aufirst=David&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFKeynes2002" class="citation cs2"><a href="/wiki/Simon_Keynes" title="Simon Keynes">Keynes, Simon</a> (2002), <a rel="nofollow" class="external text" href="http://dk.robinson.cam.ac.uk/node/115"><i>An Atlas of Attestations in Anglo-Saxon Charters, c. 670–1066</i></a>, ASNC Guides, Texts, and Studies, 5, Cambridge: Department of Anglo-Saxon, Norse and Celtic Studies, University of Cambridge, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-9532697-6-0" title="Special:BookSources/0-9532697-6-0"><bdi>0-9532697-6-0</bdi></a>, <a href="/wiki/ISSN_(identifier)" class="mw-redirect" title="ISSN (identifier)">ISSN</a>&#160;<a rel="nofollow" class="external text" href="https://www.worldcat.org/issn/1475-8520">1475-8520</a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=An+Atlas+of+Attestations+in+Anglo-Saxon+Charters%2C+c.+670%E2%80%931066&amp;rft.place=Cambridge&amp;rft.series=ASNC+Guides%2C+Texts%2C+and+Studies%2C+5&amp;rft.pub=Department+of+Anglo-Saxon%2C+Norse+and+Celtic+Studies%2C+University+of+Cambridge&amp;rft.date=2002&amp;rft.issn=1475-8520&amp;rft.isbn=0-9532697-6-0&amp;rft.aulast=Keynes&amp;rft.aufirst=Simon&amp;rft_id=http%3A%2F%2Fdk.robinson.cam.ac.uk%2Fnode%2F115&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFKnowlesBrookeLondon2001" class="citation cs2"><a href="/wiki/David_Knowles_(scholar)" title="David Knowles (scholar)">Knowles, David</a>; Brooke, C. N. L.; London, C. M, eds. (2001), <i>The Heads of Religious Houses&#160;: England and Wales. 1, 940—1216</i> (2nd&#160;ed.), Cambridge: Cambridge University Press, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-521-80452-3" title="Special:BookSources/0-521-80452-3"><bdi>0-521-80452-3</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Heads+of+Religious+Houses+%3A+England+and+Wales.+1%2C+940%E2%80%941216&amp;rft.place=Cambridge&amp;rft.edition=2nd&amp;rft.pub=Cambridge+University+Press&amp;rft.date=2001&amp;rft.isbn=0-521-80452-3&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFLapidge1993" class="citation cs2"><a href="/wiki/Michael_Lapidge" title="Michael Lapidge">Lapidge, Michael</a> (1993), "Abbot Germanus, Winchcombe, Ramsey and the Cambridge Psalter", in Lapidge, Michael (ed.), <i>Anglo-Latin Literature, 900–1066</i>, London: The Hambledon Press, pp.&#160;387–17, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-85285-012-4" title="Special:BookSources/1-85285-012-4"><bdi>1-85285-012-4</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Abbot+Germanus%2C+Winchcombe%2C+Ramsey+and+the+Cambridge+Psalter&amp;rft.btitle=Anglo-Latin+Literature%2C+900%E2%80%931066&amp;rft.place=London&amp;rft.pages=387-17&amp;rft.pub=The+Hambledon+Press&amp;rft.date=1993&amp;rft.isbn=1-85285-012-4&amp;rft.aulast=Lapidge&amp;rft.aufirst=Michael&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span>, originally published as <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFKorhammer1992" class="citation cs2">Korhammer, M., ed. (1992), <i>Words, Texts, and Manuscripts: Studies in Anglo-Saxon Culture Presented to Helmut Gneuss on the Occasion of His Sixty-Fifth Birthday</i>, London: Boydell and Brester, pp.&#160;99–129, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-85991-363-5" title="Special:BookSources/0-85991-363-5"><bdi>0-85991-363-5</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Words%2C+Texts%2C+and+Manuscripts%3A+Studies+in+Anglo-Saxon+Culture+Presented+to+Helmut+Gneuss+on+the+Occasion+of+His+Sixty-Fifth+Birthday&amp;rft.place=London&amp;rft.pages=99-129&amp;rft.pub=Boydell+and+Brester&amp;rft.date=1992&amp;rft.isbn=0-85991-363-5&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFLapidge2009" class="citation cs2">Lapidge, Michael, ed. (2009), <i>Byrhtferth of Ramsey: The Lives of St Oswald and St Ecgwine</i>, Oxford Medieval Texts, Oxford: Clarendon Press, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-19-955078-4" title="Special:BookSources/978-0-19-955078-4"><bdi>978-0-19-955078-4</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Byrhtferth+of+Ramsey%3A+The+Lives+of+St+Oswald+and+St+Ecgwine&amp;rft.place=Oxford&amp;rft.series=Oxford+Medieval+Texts&amp;rft.pub=Clarendon+Press&amp;rft.date=2009&amp;rft.isbn=978-0-19-955078-4&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFLawson2004" class="citation cs2">Lawson, M. K. (2004), <i>Cnut: England's Viking King</i> (2nd&#160;ed.), Stroud: Tempus, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-7524-2964-7" title="Special:BookSources/0-7524-2964-7"><bdi>0-7524-2964-7</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Cnut%3A+England%27s+Viking+King&amp;rft.place=Stroud&amp;rft.edition=2nd&amp;rft.pub=Tempus&amp;rft.date=2004&amp;rft.isbn=0-7524-2964-7&amp;rft.aulast=Lawson&amp;rft.aufirst=M.+K.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFMiller" class="citation cs2">Miller, Sean, <a rel="nofollow" class="external text" href="http://www.anglo-saxons.net/hwaet/?do=show&amp;page=Charters"><i>New Regesta Regum Anglorum</i></a>, Anglo-Saxons.net<span class="reference-accessdate">, retrieved <span class="nowrap">3 January</span> 2010</span></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=New+Regesta+Regum+Anglorum&amp;rft.pub=Anglo-Saxons.net&amp;rft.aulast=Miller&amp;rft.aufirst=Sean&amp;rft_id=http%3A%2F%2Fwww.anglo-saxons.net%2Fhwaet%2F%3Fdo%3Dshow%26page%3DCharters&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFSandler1969" class="citation cs2">Sandler, Lucy Freeman (1969), "The Historical Miniatures of the Fourteenth-Century Ramsey Psalter", <i>The Burlington Magazine</i>, The Burlington Magazine Publications, Ltd., <b>111</b> (799): 605–611</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Burlington+Magazine&amp;rft.atitle=The+Historical+Miniatures+of+the+Fourteenth-Century+Ramsey+Psalter&amp;rft.volume=111&amp;rft.issue=799&amp;rft.pages=605-611&amp;rft.date=1969&amp;rft.aulast=Sandler&amp;rft.aufirst=Lucy+Freeman&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFWareham1996" class="citation cs2"><a href="/wiki/Andrew_Wareham" title="Andrew Wareham">Wareham, Andrew</a> (1996), "St Oswald's Family and Kin", in <a href="/wiki/Nicholas_Brooks_(historian)" title="Nicholas Brooks (historian)">Brooks, Nicholas</a>; Cubitt, Catherine (eds.), <i>St Oswald of Worcester: Life and Influence</i>, London: Leicester University Press, pp.&#160;46–63, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-7185-0003-2" title="Special:BookSources/0-7185-0003-2"><bdi>0-7185-0003-2</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=St+Oswald%27s+Family+and+Kin&amp;rft.btitle=St+Oswald+of+Worcester%3A+Life+and+Influence&amp;rft.place=London&amp;rft.pages=46-63&amp;rft.pub=Leicester+University+Press&amp;rft.date=1996&amp;rft.isbn=0-7185-0003-2&amp;rft.aulast=Wareham&amp;rft.aufirst=Andrew&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFWhitelock1959" class="citation cs2"><a href="/wiki/Dorothy_Whitelock" title="Dorothy Whitelock">Whitelock, Dorothy</a> (1959), "The Dealings of the Kings of England with Northumbria", in Clemoes, Peter (ed.), <i>The Anglo-Saxons: Studies in some Aspects of their History and Culture presented to Bruce Dickins</i>, London: Bowes &amp; Bowes, pp.&#160;707–88</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=The+Dealings+of+the+Kings+of+England+with+Northumbria&amp;rft.btitle=The+Anglo-Saxons%3A+Studies+in+some+Aspects+of+their+History+and+Culture+presented+to+Bruce+Dickins&amp;rft.place=London&amp;rft.pages=707-88&amp;rft.pub=Bowes+%26+Bowes&amp;rft.date=1959&amp;rft.aulast=Whitelock&amp;rft.aufirst=Dorothy&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFWhitelock1979" class="citation cs2">Whitelock, Dorothy, ed. (1979), <i>English Historical Documents. [Vol.1], c.500–1042</i>, London: Eyre and Spottiswoode, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-19-520101-9" title="Special:BookSources/0-19-520101-9"><bdi>0-19-520101-9</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=English+Historical+Documents.+%5BVol.1%5D%2C+c.500%E2%80%931042&amp;rft.place=London&amp;rft.pub=Eyre+and+Spottiswoode&amp;rft.date=1979&amp;rft.isbn=0-19-520101-9&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AEadnoth+the+Younger" class="Z3988"></span></li></ul>
 </div>
 <h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Eadnoth_the_Younger&amp;action=edit&amp;section=6" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <ul><li><a rel="nofollow" class="external text" href="http://www.pase.ac.uk/jsp/persons/CreatePersonFrames.jsp?personKey=11807">Eadnoth 11</a> at <a href="/wiki/Prosopography_of_Anglo-Saxon_England" title="Prosopography of Anglo-Saxon England">Prosopography of Anglo-Saxon England</a>; see also <a rel="nofollow" class="external text" href="http://www.pase.ac.uk/jsp/persons/CreatePersonFrames.jsp?personKey=8148">Eadnoth 8</a></li></ul>
-<table class="wikitable succession-box noprint" style="margin:0.5em auto; font-size:95%;clear:both;">
+<table class="wikitable succession-box noprint" style="margin:0.5em auto; font-size:small;clear:both;">
 
 <tbody><tr>
 <th colspan="3" style="border-top: 5px solid #FABE60;"><a href="/wiki/Christianity" title="Christianity">Christian titles</a>
@@ -652,7 +646,7 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 <td style="width: 30%; text-align: center;" rowspan="1">Succeeded&#160;by<div style="font-weight: bold"><a href="/wiki/%C3%86thelric_(Bishop_of_Dorchester)" class="mw-redirect" title="Æthelric (Bishop of Dorchester)">Æthelric</a></div>
 </td></tr>
 </tbody></table>
-<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Bishops_of_Lincoln" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="background: #FFFFFF; border-bottom: #7F1734 5px solid; border-top: #7F1734 5px solid;"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Bishops_of_Lincoln" title="Template:Bishops of Lincoln"><abbr title="View this template" style=";background: #FFFFFF; border-bottom: #7F1734 5px solid; border-top: #7F1734 5px solid;;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Bishops_of_Lincoln" title="Template talk:Bishops of Lincoln"><abbr title="Discuss this template" style=";background: #FFFFFF; border-bottom: #7F1734 5px solid; border-top: #7F1734 5px solid;;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Bishops_of_Lincoln&amp;action=edit"><abbr title="Edit this template" style=";background: #FFFFFF; border-bottom: #7F1734 5px solid; border-top: #7F1734 5px solid;;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Bishops_of_Lincoln" style="font-size:114%;margin:0 4em"><a href="/wiki/Bishop_of_Lincoln" title="Bishop of Lincoln">Bishops of Lincoln</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">Leicester</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Bishops_of_Lincoln" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="background: #FFFFFF; border-bottom: #7F1734 5px solid; border-top: #7F1734 5px solid;"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Bishops_of_Lincoln" title="Template:Bishops of Lincoln"><abbr title="View this template" style=";background: #FFFFFF; border-bottom: #7F1734 5px solid; border-top: #7F1734 5px solid;;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Bishops_of_Lincoln" title="Template talk:Bishops of Lincoln"><abbr title="Discuss this template" style=";background: #FFFFFF; border-bottom: #7F1734 5px solid; border-top: #7F1734 5px solid;;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Bishops_of_Lincoln&amp;action=edit"><abbr title="Edit this template" style=";background: #FFFFFF; border-bottom: #7F1734 5px solid; border-top: #7F1734 5px solid;;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Bishops_of_Lincoln" style="font-size:114%;margin:0 4em"><a href="/wiki/Bishop_of_Lincoln" title="Bishop of Lincoln">Bishops of Lincoln</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">Leicester</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Cuthwine_of_Leicester" title="Cuthwine of Leicester">Cuthwine</a></li>
 <li><a href="/wiki/Wilfrid" title="Wilfrid">Wilfrid</a></li>
 <li><a href="/wiki/Headda" title="Headda">Headda</a></li>
@@ -762,9 +756,11 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 <li><a href="/wiki/Bob_Hardy_(bishop)" title="Bob Hardy (bishop)">Bob Hardy</a></li>
 <li><a href="/wiki/John_Saxbee" title="John Saxbee">John Saxbee</a></li>
 <li><a href="/wiki/Christopher_Lowson" title="Christopher Lowson">Christopher Lowson</a></li>
-<li><i><a href="/wiki/Stephen_Conway" title="Stephen Conway">Stephen Conway</a>, Bishop of Ely (acting)</i></li></ul>
+<li><i><a href="/wiki/Stephen_Conway" title="Stephen Conway">Stephen Conway</a>, Bishop of Ely (acting)</i></li>
+<li><i><a href="/wiki/David_Court_(bishop)" title="David Court (bishop)">David Court</a> (acting)</i></li>
+<li>Stephen&#160;Conway</li></ul>
 </div></td></tr></tbody></table></div>
-<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox" aria-labelledby="Saints_of_Anglo-Saxon_England" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"/><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Anglo-Saxon_saints" title="Template:Anglo-Saxon saints"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Anglo-Saxon_saints" title="Template talk:Anglo-Saxon saints"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Anglo-Saxon_saints&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Saints_of_Anglo-Saxon_England" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_Anglo-Saxon_saints" title="List of Anglo-Saxon saints">Saints of Anglo-Saxon England</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">British / Welsh</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"></div><div role="navigation" class="navbox" aria-labelledby="Saints_of_Anglo-Saxon_England" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Anglo-Saxon_saints" title="Template:Anglo-Saxon saints"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Anglo-Saxon_saints" title="Template talk:Anglo-Saxon saints"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Anglo-Saxon_saints&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Saints_of_Anglo-Saxon_England" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_Anglo-Saxon_saints" title="List of Anglo-Saxon saints">Saints of Anglo-Saxon England</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">British / Welsh</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Saint_Aldate" title="Saint Aldate">Aldate of Oxford</a></li>
 <li><a href="/wiki/Barloc" class="mw-redirect" title="Barloc">Barloc of Norbury</a></li>
 <li><a href="/wiki/Brannoc_of_Braunton" title="Brannoc of Braunton">Brannoc of Braunton</a></li>
@@ -883,7 +879,7 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 <li><a href="/wiki/Oda_of_Canterbury" title="Oda of Canterbury">Oda of Canterbury</a></li>
 <li><a href="/wiki/Oswald_of_Worcester" title="Oswald of Worcester">Oswald of Worcester</a></li>
 <li><a href="/wiki/Osburh_of_Coventry" title="Osburh of Coventry">Osburh of Coventry</a></li>
-<li><a href="/wiki/Rumwold_of_Buckingham" title="Rumwold of Buckingham">Rumwold of Buckingham</a></li>
+<li><a href="/wiki/Rumbold_of_Buckingham" title="Rumbold of Buckingham">Rumbold of Buckingham</a></li>
 <li><a href="/w/index.php?title=Tibba_of_Ryhall&amp;action=edit&amp;redlink=1" class="new" title="Tibba of Ryhall (page does not exist)">Tibba of Ryhall</a></li>
 <li><a href="/wiki/Werburgh" title="Werburgh">Werburgh of Chester</a></li>
 <li><a href="/wiki/W%C3%A6rstan" title="Wærstan">Wærstan</a></li>
@@ -900,7 +896,7 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 <li><a href="/w/index.php?title=%C3%86thelsige_of_Ripon&amp;action=edit&amp;redlink=1" class="new" title="Æthelsige of Ripon (page does not exist)">Æthelsige of Ripon</a></li>
 <li><a href="/wiki/%C3%86thelwold_(hermit)" title="Æthelwold (hermit)">Æthelwold of Farne</a></li>
 <li><a href="/wiki/%C3%86thelwold_(bishop_of_Lindisfarne)" title="Æthelwold (bishop of Lindisfarne)">Æthelwold of Lindisfarne</a></li>
-<li><a href="/w/index.php?title=Alchhild_of_Middleham&amp;action=edit&amp;redlink=1" class="new" title="Alchhild of Middleham (page does not exist)">Alchhild of Middleham</a></li>
+<li><a href="/wiki/Alchhild_of_Middleham" class="mw-redirect" title="Alchhild of Middleham">Alchhild of Middleham</a></li>
 <li><a href="/wiki/Alchmund_of_Hexham" title="Alchmund of Hexham">Alchmund of Hexham</a></li>
 <li><a href="/wiki/Alkmund_of_Derby" title="Alkmund of Derby">Alkmund of Derby</a></li>
 <li><a href="/wiki/Baldred_of_Tyninghame" title="Baldred of Tyninghame">Balthere of Tyningham</a></li>
@@ -1014,46 +1010,44 @@ true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestricti
 <div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">11th-century Bishop of Dorchester and Abbot of Ramsey</div>
 <!-- 
 NewPP limit report
-Parsed by mw2409
-Cached time: 20230208042955
+Parsed by mw1384
+Cached time: 20230907224559
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 0.449 seconds
-Real time usage: 0.653 seconds
-Preprocessor visited node count: 3099/1000000
-Post‐expand include size: 101034/2097152 bytes
-Template argument size: 2673/2097152 bytes
+CPU time usage: 0.491 seconds
+Real time usage: 0.661 seconds
+Preprocessor visited node count: 3625/1000000
+Post‐expand include size: 101456/2097152 bytes
+Template argument size: 3660/2097152 bytes
 Highest expansion depth: 12/100
-Expensive parser function count: 4/500
+Expensive parser function count: 5/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 75075/5000000 bytes
-Lua time usage: 0.246/10.000 seconds
-Lua memory usage: 5727553/52428800 bytes
+Lua time usage: 0.282/10.000 seconds
+Lua memory usage: 6171430/52428800 bytes
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  474.138      1 -total
- 31.61%  149.867     26 Template:Citation
- 22.20%  105.251      1 Template:Reflist
- 15.43%   73.157      2 Template:Navbox
- 15.10%   71.585      1 Template:Mercian_Bishops_of_Dorchester
- 11.07%   52.498      1 Template:Infobox_Christian_leader
-  9.76%   46.294      1 Template:Infobox
-  7.99%   37.885      1 Template:Short_description
-  5.93%   28.097      1 Template:Authority_control
-  4.99%   23.660      1 Template:For
+100.00%  535.615      1 -total
+ 30.75%  164.680     26 Template:Citation
+ 19.80%  106.050      1 Template:Reflist
+ 14.25%   76.343      2 Template:Navbox
+ 13.89%   74.376      1 Template:Mercian_Bishops_of_Dorchester
+ 10.21%   54.665      1 Template:Authority_control
+ 10.07%   53.917      1 Template:Infobox_Christian_leader
+  8.85%   47.422      1 Template:Infobox
+  6.53%   34.960     12 Template:Main_other
+  5.92%   31.715      1 Template:Short_description
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:13056377-0!canonical and timestamp 20230208042955 and revision id 1123304889. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:13056377-0!canonical and timestamp 20230907224558 and revision id 1143550386. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
-<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Eadnoth_the_Younger&amp;oldid=1123304889">https://en.wikipedia.org/w/index.php?title=Eadnoth_the_Younger&amp;oldid=1123304889</a>"</div></div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Eadnoth_the_Younger&amp;oldid=1143550386">https://en.wikipedia.org/w/index.php?title=Eadnoth_the_Younger&amp;oldid=1143550386</a>"</div></div>
 					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:10th-century_English_clergy" title="Category:10th-century English clergy">10th-century English clergy</a></li><li><a href="/wiki/Category:11th-century_English_Roman_Catholic_bishops" title="Category:11th-century English Roman Catholic bishops">11th-century English Roman Catholic bishops</a></li><li><a href="/wiki/Category:1016_deaths" title="Category:1016 deaths">1016 deaths</a></li><li><a href="/wiki/Category:Anglo-Saxon_saints" title="Category:Anglo-Saxon saints">Anglo-Saxon saints</a></li><li><a href="/wiki/Category:Anglo-Saxons_killed_in_battle" title="Category:Anglo-Saxons killed in battle">Anglo-Saxons killed in battle</a></li><li><a href="/wiki/Category:Anglo-Saxon_warriors" title="Category:Anglo-Saxon warriors">Anglo-Saxon warriors</a></li><li><a href="/wiki/Category:Bishops_of_Dorchester_(Mercia)" title="Category:Bishops of Dorchester (Mercia)">Bishops of Dorchester (Mercia)</a></li><li><a href="/wiki/Category:People_from_Ely,_Cambridgeshire" title="Category:People from Ely, Cambridgeshire">People from Ely, Cambridgeshire</a></li><li><a href="/wiki/Category:East_Anglian_saints" title="Category:East Anglian saints">East Anglian saints</a></li><li><a href="/wiki/Category:Abbots_of_Ramsey" title="Category:Abbots of Ramsey">Abbots of Ramsey</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_maint:_untitled_periodical" title="Category:CS1 maint: untitled periodical">CS1 maint: untitled periodical</a></li><li><a href="/wiki/Category:Use_British_English_from_July_2017" title="Category:Use British English from July 2017">Use British English from July 2017</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_July_2017" title="Category:Use dmy dates from July 2017">Use dmy dates from July 2017</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Year_of_birth_unknown" title="Category:Year of birth unknown">Year of birth unknown</a></li></ul></div></div>
-					
 				</div>
-				
 			</main>
 			
 		</div>
@@ -1061,25 +1055,26 @@ Transclusion expansion time report (%,ms,calls,template)
 			
 <footer id="footer" class="mw-footer" role="contentinfo" >
 	<ul id="footer-info">
-	<li id="footer-info-lastmod"> This page was last edited on 23 November 2022, at 01:04<span class="anonymous-show">&#160;(UTC)</span>.</li>
-	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+	<li id="footer-info-lastmod"> This page was last edited on 8 March 2023, at 12:50<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a><a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" style="display:none;"></a>;
 additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
 </ul>
 
 	<ul id="footer-places">
-	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
 	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
 	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
 	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal_Code_of_Conduct">Code of Conduct</a></li>
 	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Eadnoth_the_Younger&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
 	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
 	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
-	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
 </ul>
 
 	<ul id="footer-icons" class="noprint">
 	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
-	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
 </ul>
 
 </footer>
@@ -1087,9 +1082,16 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 		</div>
 	</div> 
 </div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li><button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.449","walltime":"0.653","ppvisitednodes":{"value":3099,"limit":1000000},"postexpandincludesize":{"value":101034,"limit":2097152},"templateargumentsize":{"value":2673,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":75075,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  474.138      1 -total"," 31.61%  149.867     26 Template:Citation"," 22.20%  105.251      1 Template:Reflist"," 15.43%   73.157      2 Template:Navbox"," 15.10%   71.585      1 Template:Mercian_Bishops_of_Dorchester"," 11.07%   52.498      1 Template:Infobox_Christian_leader","  9.76%   46.294      1 Template:Infobox","  7.99%   37.885      1 Template:Short_description","  5.93%   28.097      1 Template:Authority_control","  4.99%   23.660      1 Template:For"]},"scribunto":{"limitreport-timeusage":{"value":"0.246","limit":"10.000"},"limitreport-memusage":{"value":5727553,"limit":52428800}},"cachereport":{"origin":"mw2409","timestamp":"20230208042955","ttl":1814400,"transientcontent":false}}});});</script>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Eadnoth the Younger","url":"https:\/\/en.wikipedia.org\/wiki\/Eadnoth_the_Younger","sameAs":"http:\/\/www.wikidata.org\/entity\/Q5324927","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q5324927","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-09-02T01:17:30Z","dateModified":"2022-11-23T01:04:28Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/04\/Oswald_and_Eadnoth.jpg","headline":"Abbot of Ramsey; Bishop of Dorchester"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Eadnoth the Younger","url":"https:\/\/en.wikipedia.org\/wiki\/Eadnoth_the_Younger","sameAs":"http:\/\/www.wikidata.org\/entity\/Q5324927","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q5324927","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-09-02T01:17:30Z","dateModified":"2022-11-23T01:04:28Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/04\/Oswald_and_Eadnoth.jpg","headline":"Abbot of Ramsey; Bishop of Dorchester"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":111,"wgHostname":"mw2369"});});</script>
+<span>Toggle limited content width</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2271","wgBackendResponseTime":138,"wgPageParseReport":{"limitreport":{"cputime":"0.491","walltime":"0.661","ppvisitednodes":{"value":3625,"limit":1000000},"postexpandincludesize":{"value":101456,"limit":2097152},"templateargumentsize":{"value":3660,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":75075,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  535.615      1 -total"," 30.75%  164.680     26 Template:Citation"," 19.80%  106.050      1 Template:Reflist"," 14.25%   76.343      2 Template:Navbox"," 13.89%   74.376      1 Template:Mercian_Bishops_of_Dorchester"," 10.21%   54.665      1 Template:Authority_control"," 10.07%   53.917      1 Template:Infobox_Christian_leader","  8.85%   47.422      1 Template:Infobox","  6.53%   34.960     12 Template:Main_other","  5.92%   31.715      1 Template:Short_description"]},"scribunto":{"limitreport-timeusage":{"value":"0.282","limit":"10.000"},"limitreport-memusage":{"value":6171430,"limit":52428800}},"cachereport":{"origin":"mw1384","timestamp":"20230907224559","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Eadnoth the Younger","url":"https:\/\/en.wikipedia.org\/wiki\/Eadnoth_the_Younger","sameAs":"http:\/\/www.wikidata.org\/entity\/Q5324927","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q5324927","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-09-02T01:17:30Z","dateModified":"2023-03-08T12:50:34Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/04\/Oswald_and_Eadnoth.jpg","headline":"Abbot of Ramsey; Bishop of Dorchester"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Eadnoth the Younger","url":"https:\/\/en.wikipedia.org\/wiki\/Eadnoth_the_Younger","sameAs":"http:\/\/www.wikidata.org\/entity\/Q5324927","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q5324927","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-09-02T01:17:30Z","dateModified":"2023-03-08T12:50:34Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/04\/Oswald_and_Eadnoth.jpg","headline":"Abbot of Ramsey; Bishop of Dorchester"}</script>
 </body>
 </html>

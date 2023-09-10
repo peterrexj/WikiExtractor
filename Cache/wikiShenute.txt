@@ -1,262 +1,107 @@
 <!DOCTYPE html>
-<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled" lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8"/>
+<meta charset="UTF-8">
 <title>Shenoute - Wikipedia</title>
-<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"a99078a8-e5bb-4d28-8449-dda850f1ebf7",
-"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Shenoute","wgTitle":"Shenoute","wgCurRevisionId":1128594730,"wgRevisionId":1128594730,"wgArticleId":2006208,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking in-text citations from April 2017","All articles lacking in-text citations","All articles with unsourced statements","Articles with unsourced statements from April 2013","CS1 German-language sources (de)","Articles with Italian-language sources (it)","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BIBSYS identifiers","Articles with BNF identifiers","Articles with GND identifiers","Articles with ICCU identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with NKC identifiers","Articles with NTA identifiers",
-"Articles with PLWABN identifiers","Articles with VcBA identifiers","Articles with DTBIO identifiers","Articles with CINII identifiers","Articles with FAST identifiers","Articles with RERO identifiers","Articles with SUDOC identifiers","348 births","466 deaths","4th-century births","5th-century deaths","Saints from Roman Egypt","Egyptian hermits","Egyptian Christian monks","Longevity claims","4th-century Byzantine monks","5th-century Byzantine monks","5th-century Christian saints","5th-century Byzantine writers","Coptic history","Coptic writers"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Shenoute","wgRelevantArticleId":2006208,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Shenute","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},
-"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Shenoute","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q1382081","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready",
-"mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks",
-"ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
+"September","October","November","December"],"wgRequestId":"bc4e1ec2-7337-47d7-a42c-54a54f519f99","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Shenoute","wgTitle":"Shenoute","wgCurRevisionId":1128594730,"wgRevisionId":1128594730,"wgArticleId":2006208,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking in-text citations from April 2017","All articles lacking in-text citations","All articles with unsourced statements","Articles with unsourced statements from April 2013","CS1 German-language sources (de)","Articles with Italian-language sources (it)","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with BIBSYS identifiers","Articles with BNF identifiers","Articles with BNFdata identifiers","Articles with GND identifiers","Articles with ICCU identifiers","Articles with J9U identifiers",
+"Articles with LCCN identifiers","Articles with NKC identifiers","Articles with NTA identifiers","Articles with PLWABN identifiers","Articles with VcBA identifiers","Articles with CINII identifiers","Articles with DTBIO identifiers","Articles with SUDOC identifiers","348 births","466 deaths","4th-century births","5th-century deaths","Saints from Roman Egypt","Egyptian hermits","Egyptian Christian monks","Longevity claims","4th-century Byzantine monks","5th-century Byzantine monks","5th-century Christian saints","5th-century Byzantine writers","Coptic history","Coptic writers"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Shenoute","wgRelevantArticleId":2006208,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Shenute","wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},
+"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Shenoute","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q1382081","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready",
+"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","mediawiki.page.media","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert",
+"ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
 <script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
-<meta name="ResourceLoaderDynamicStyles" content=""/>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
-<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
-<meta name="referrer" content="origin"/>
-<meta name="referrer" content="origin-when-crossorigin"/>
-<meta name="referrer" content="origin-when-cross-origin"/>
-<meta name="robots" content="max-image-preview:standard"/>
-<meta name="format-detection" content="telephone=no"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/ee/Shenoute_of_Atripe.jpg"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="1949"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/ee/Shenoute_of_Atripe.jpg"/>
-<meta property="og:image:width" content="800"/>
-<meta property="og:image:height" content="1299"/>
-<meta property="og:image:width" content="640"/>
-<meta property="og:image:height" content="1039"/>
-<meta name="viewport" content="width=1000"/>
-<meta property="og:title" content="Shenoute - Wikipedia"/>
-<meta property="og:type" content="website"/>
-<link rel="preconnect" href="//upload.wikimedia.org"/>
-<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Shenoute"/>
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Shenoute&amp;action=edit"/>
-<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
-<link rel="icon" href="/static/favicon/wikipedia.ico"/>
-<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
-<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
-<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
-<link rel="canonical" href="https://en.wikipedia.org/wiki/Shenoute"/>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.41.0-wmf.25">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-crossorigin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/ee/Shenoute_of_Atripe.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1949">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/ee/Shenoute_of_Atripe.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="1299">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="1039">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Shenoute - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Shenoute">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Shenoute&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Shenoute">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
 <link rel="dns-prefetch" href="//meta.wikimedia.org" />
-<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org">
 </head>
-<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Shenoute rootpage-Shenoute skin-vector-2022 action-view"><div class="mw-page-container">
-	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
-	<div class="mw-page-container-inner">
-		<input
-			type="checkbox"
-			id="mw-sidebar-checkbox"
-			class="mw-checkbox-hack-checkbox"
-			>
-		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
-			<div class="vector-header-start">
-					<label
-				id="mw-sidebar-button"
-				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
-				for="mw-sidebar-checkbox"
-				role="button"
-				aria-controls="mw-panel"
-				data-event-name="ui.sidebar"
-				tabindex="0"
-				title="Main menu">
-				<span>Toggle sidebar</span>
-			</label>
-		
-<a href="/wiki/Main_Page" class="mw-logo">
-	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
-		aria-hidden="true" height="50" width="50">
-	<span class="mw-logo-container">
-		<img class="mw-logo-wordmark" alt="Wikipedia"
-			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
-		<img class="mw-logo-tagline"
-			alt="The Free Encyclopedia"
-			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
-	</span>
-</a>
-
-			</div>
-			<div class="vector-header-end">
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Shenoute rootpage-Shenoute skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
 				
-<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
-	<a href="/wiki/Special:Search"
-	
-		
-		
-		
-		title="Search Wikipedia [f]"
-		accesskey="f"
-		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
-		<span>Search</span>
-	</a>
-	
-	<div>
-		<form action="/w/index.php" id="searchform"
-			class="vector-search-box-form">
-			<div id="simpleSearch"
-				class="vector-search-box-inner"
-				 data-search-loc="header-moved">
-				<input class="vector-search-box-input"
-					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
-				>
-				<input type="hidden" name="title" value="Special:Search">
-				<input id="mw-searchButton"
-					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
-				<input id="searchButton"
-					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
-			</div>
-		</form>
-	</div>
-</div>
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
 
-				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
-	
-<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
-	<div class="vector-menu-heading">
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
 		
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Shenoute" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
-		
-	</div>
-</div>
-
-	
-	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
-		<input type="checkbox"
-			id="p-personal-checkbox"
-			role="button"
-			aria-haspopup="true"
-			data-event-name="ui.dropdown-p-personal"
-			class="vector-menu-checkbox "
-			
-			
-		/>
-		<label
-			id="p-personal-label"
-			for="p-personal-checkbox"
-			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
-			
-		>
-			<span class="vector-menu-heading-label">Personal tools</span>
-		</label>
-		<div class="vector-menu-content">
-	
-		<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Shenoute"
-	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
-</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:UserLogin&amp;returnto=Shenoute"
-	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
-</li></ul>
-	
-</div>
-
-		<div class="vector-user-menu-anon-editor">
-			<p>
-				Pages for logged out editors <a data-mw="interface"
-	href="/wiki/Help:Introduction"
-	 aria-label="Learn more about editing"><span>learn more</span></a>
-
-			</p>
-		</div>
-				<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
-	
-</div>
-
-	
-		</div>
-	</div></nav>
-
-			</div>
-		</header>
-		<div class="vector-main-menu-container ">
-			<div id="mw-navigation">
-				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
-						
 <div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
-	
-	
-<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
 	<div
-		id="p-navigation-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Navigation</span>
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 	
 	
-<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
-	<div
-		id="p-interaction-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Contribute</span>
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
-	<div
-		id="p-tb-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Tools</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Shenoute" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Shenoute" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Shenoute&amp;oldid=1128594730" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Shenoute&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Shenoute&amp;id=1128594730&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1382081" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
-	<div
-		id="p-coll-print_export-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Print/export</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Shenoute&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Shenoute&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
-	<div
-		id="p-wikibase-otherprojects-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">In other projects</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Shenoute" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -266,29 +111,135 @@
 	<div class="vector-main-menu-action-item">
 		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
 		<div class="vector-main-menu-action-content vector-menu-content">
-			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Language links are at the top of the page across from the title.</div></div>
 		</div>
 	</div>
 </div>
 
-
 </div>
 
-				</nav>
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Shenoute" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Shenoute" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Shenoute" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Shenoute" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+					<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+					</div>
+		</nav>
 			</div>
 		</div>
 		<div class="vector-sitenotice-container">
 			<div id="siteNotice"><!-- CentralNotice --></div>
 		</div>
-		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
-		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="vector-menu-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark vector-sticky-pinned-container">
 			<div id="vector-toc-pinned-container" class="vector-pinned-container">
-			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
 	<div
 	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
-	data-name="vector-toc"
-	
-	
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
 	
 	
 >
@@ -419,82 +370,61 @@
 </div>
 
 			</div>
-</nav>
+		</nav>
 		<div class="mw-content-container">
 			<main id="content" class="mw-body" role="main">
 				<header class="mw-body-header vector-page-titlebar">
 					<label
 						id="vector-toc-collapsed-button"
-						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet vector-button-flush-left cdx-button--icon-only"
 						for="vector-toc-collapsed-checkbox"
 						role="button"
-						aria-controls="toc-toggle-list"
-						data-event-name="vector.toc-toggle-list"
+						aria-controls="vector-toc"
 						tabindex="0"
 						title="Table of Contents">
-						Toggle the table of contents
+						<span class="vector-icon mw-ui-icon-wikimedia-listBullet"></span>
+						<span>Toggle the table of contents</span>
 					</label>
-				
-					
-<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
-	<input type="checkbox"
-		id="vector-page-titlebar-toc-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-vector-page-titlebar-toc"
-		class="vector-menu-checkbox "
-		
-		
-	/>
-	<label
-		id="vector-page-titlebar-toc-label"
-		for="vector-page-titlebar-toc-checkbox"
-		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
-		
-	>
-		<span class="vector-menu-heading-label"></span>
+					<nav role="navigation" aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 
-						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
-		</div>
-	
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
 	</div>
 </div>
-				
+
+					</nav>
 					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Shenoute</span></h1>
-				
 							
-<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
-	<input type="checkbox"
-		id="p-lang-btn-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-lang-btn"
-		class="vector-menu-checkbox mw-interlanguage-selector"
-		aria-label="Go to an article in another language. Available in 18 languages"
-		
-	/>
-	<label
-		id="p-lang-btn-label"
-		for="p-lang-btn-checkbox"
-		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-18"
-		
-	>
-		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">18 languages</span>
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 19 languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-19" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">19 languages</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 		<div class="vector-menu-content">
 			
-			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%B4%D9%86%D9%88%D8%AF%D8%A9_%D8%B1%D8%A6%D9%8A%D8%B3_%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%AD%D8%AF%D9%8A%D9%86" title="شنودة رئيس المتوحدين – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Xenute" title="Xenute – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/%C5%A0enuda_z_Atripe" title="Šenuda z Atripe – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Schenute_von_Atripe" title="Schenute von Atripe – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Shenute" title="Shenute – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/Shenute" title="Shenute – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Chenout%C3%A9" title="Chenouté – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Shenoute" title="Shenoute – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Scenute_d%27Atripe" title="Scenute d&#039;Atripe – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Shenute" title="Shenute – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Szent_Senute" title="Szent Senute – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%B4%D9%86%D9%88%D8%AF%D9%87_%D8%B1%D8%A6%D9%8A%D8%B3_%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%AD%D8%AF%D9%8A%D9%86" title="شنوده رئيس المتوحدين – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Sjenoete_van_Atripe" title="Sjenoete van Atripe – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%A7%E3%83%8C%E3%83%BC%E3%83%86" title="シェヌーテ – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Shenoute" title="Shenoute – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Szenute_z_Atripe" title="Szenute z Atripe – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ru badge-Q17437796 badge-featuredarticle mw-list-item" title="featured article badge"><a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B5%D0%BD%D1%83%D1%82%D0%B5" title="Шенуте – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%A8%D0%B5%D0%BD%D1%83%D1%82%D0%B5" title="Шенуте – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li></ul>
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%B4%D9%86%D9%88%D8%AF%D8%A9_%D8%B1%D8%A6%D9%8A%D8%B3_%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%AD%D8%AF%D9%8A%D9%86" title="شنودة رئيس المتوحدين – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Xenute" title="Xenute – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/%C5%A0enuda_z_Atripe" title="Šenuda z Atripe – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Schenute_von_Atripe" title="Schenute von Atripe – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Shenute" title="Shenute – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/Shenute" title="Shenute – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Chenout%C3%A9" title="Chenouté – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a href="https://ga.wikipedia.org/wiki/Shenoute" title="Shenoute – Irish" lang="ga" hreflang="ga" class="interlanguage-link-target"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Shenoute" title="Shenoute – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Scenute_d%27Atripe" title="Scenute d&#039;Atripe – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Shenute" title="Shenute – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Szent_Senute" title="Szent Senute – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%B4%D9%86%D9%88%D8%AF%D9%87_%D8%B1%D8%A6%D9%8A%D8%B3_%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%AD%D8%AF%D9%8A%D9%86" title="شنوده رئيس المتوحدين – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Sjenoete_van_Atripe" title="Sjenoete van Atripe – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%A7%E3%83%8C%E3%83%BC%E3%83%86" title="シェヌーテ – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Shenoute" title="Shenoute – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Szenute_z_Atripe" title="Szenute z Atripe – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ru badge-Q17437796 badge-featuredarticle mw-list-item" title="featured article badge"><a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B5%D0%BD%D1%83%D1%82%D0%B5" title="Шенуте – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%A8%D0%B5%D0%BD%D1%83%D1%82%D0%B5" title="Шенуте – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li>
+			</ul>
 			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1382081#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
 		</div>
 
 	</div>
 </div>
-				</header>
+</header>
 				<div class="vector-page-toolbar">
 					<div class="vector-page-toolbar-container">
 						<div id="left-navigation">
@@ -503,41 +433,38 @@
 <div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Shenoute" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Shenoute" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Shenoute" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Shenoute" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 								
-
-<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
-	<input type="checkbox"
-		id="p-variants-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-variants"
-		class="vector-menu-checkbox"
-		aria-label="Change language variant"
-		
-	/>
-	<label
-		id="p-variants-label"
-		for="p-variants-checkbox"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">English</span>
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"></ul>
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
 		
-	</div>
-
 	</div>
 </div>
+
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 						<div id="right-navigation" class="vector-collapsible">
@@ -546,7 +473,10 @@
 <div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Shenoute"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Shenoute&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Shenoute&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Shenoute"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Shenoute&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Shenoute&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -555,40 +485,103 @@
 				
 							<nav class="vector-page-tools-landmark" aria-label="More options">
 								
-
-<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
-	<input type="checkbox"
-		id="p-cactions-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-cactions"
-		class="vector-menu-checkbox"
-		
-		
-	/>
-	<label
-		id="p-cactions-label"
-		for="p-cactions-checkbox"
-		class="vector-menu-heading"
-		
-	>
-		<span class="vector-menu-heading-label">More</span>
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Shenoute"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Shenoute&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Shenoute&amp;action=history"><span>View history</span></a></li></ul>
-		
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
 	</div>
-
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Shenoute"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Shenoute&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Shenoute&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
 	</div>
 </div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Shenoute" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Shenoute" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Shenoute&amp;oldid=1128594730" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Shenoute&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Shenoute&amp;id=1128594730&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1382081" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Shenoute&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Shenoute&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Shenoute" hreflang="en"><span>Wikimedia Commons</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 					</div>
 				</div>
-				
+				<div class="vector-column-end">
+					<nav class="vector-page-tools-landmark vector-sticky-pinned-container" aria-label="More options">
+						<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+			
+						</div>
+	</nav>
+				</div>
 				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
 					<div class="vector-body-before-content">
 							<div class="mw-indicators">
@@ -600,9 +593,9 @@
 					
 					
 					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">For other uses, see <a href="/wiki/Shenouda_(disambiguation)" class="mw-redirect mw-disambig" title="Shenouda (disambiguation)">Shenouda (disambiguation)</a>.</div>
-<style data-mw-deduplicate="TemplateStyles:r1097763485">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+link+.ambox,.mw-parser-output .ambox+link+style+.ambox,.mw-parser-output .ambox+link+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+style+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+link+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}html.client-js body.skin-minerva .mw-parser-output .mbox-text-span{margin-left:23px!important}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}</style><table class="box-No_footnotes plainlinks metadata ambox ambox-style ambox-No_footnotes" role="presentation"><tbody><tr><td class="mbox-image"><div class="mbox-image-div"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" decoding="async" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/60px-Text_document_with_red_question_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/80px-Text_document_with_red_question_mark.svg.png 2x" data-file-width="48" data-file-height="48" /></div></td><td class="mbox-text"><div class="mbox-text-span">This article includes a <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">list of references</a>, <a href="/wiki/Wikipedia:Further_reading" title="Wikipedia:Further reading">related reading</a> or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external links</a>, <b>but its sources remain unclear because it lacks <a href="/wiki/Wikipedia:Citing_sources#Inline_citations" title="Wikipedia:Citing sources">inline citations</a></b>.<span class="hide-when-compact"> Please help to <a href="/wiki/Wikipedia:WikiProject_Fact_and_Reference_Check" class="mw-redirect" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by <a href="/wiki/Wikipedia:When_to_cite" title="Wikipedia:When to cite">introducing</a> more precise citations.</span>  <span class="date-container"><i>(<span class="date">April 2017</span>)</i></span><span class="hide-when-compact"><i> (<small><a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a></small>)</i></span></div></td></tr></tbody></table>
-<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div style="display:inline;" class="fn">Saint Shenoute</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Shenoute_of_Atripe.jpg" class="image"><img alt="Shenoute of Atripe.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Shenoute_of_Atripe.jpg/200px-Shenoute_of_Atripe.jpg" decoding="async" width="200" height="325" srcset="//upload.wikimedia.org/wikipedia/commons/e/ee/Shenoute_of_Atripe.jpg 1.5x" data-file-width="250" data-file-height="406" /></a></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Archimandrite</th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">348 (uncertain)<br /><a href="/wiki/Egypt" title="Egypt">Egypt</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">1 July 465<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup><br /><a href="/wiki/Sohag" title="Sohag">Sohag</a>, <a href="/wiki/Egypt" title="Egypt">Egypt</a></td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Oriental_Orthodox_Churches" title="Oriental Orthodox Churches">Oriental Orthodox Churches</a></td></tr><tr><th scope="row" class="infobox-label"><span class="nowrap">Major <a href="/wiki/Shrine" title="Shrine">shrine</a></span></th><td class="infobox-data"><a href="/wiki/White_Monastery" title="White Monastery">White Monastery</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">7 <a href="/wiki/Epip" title="Epip">Epip</a></td></tr></tbody></table>
-<style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><style data-mw-deduplicate="TemplateStyles:r1045330069">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:#f8f9fa;border:1px solid #aaa;padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:720px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}</style><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><table class="sidebar sidebar-collapse nomobile nowraplinks plainlist"><tbody><tr><td class="sidebar-pretitle">Part of <a href="/wiki/Category:Oriental_Orthodoxy" title="Category:Oriental Orthodoxy">a series</a> on</td></tr><tr><th class="sidebar-title-with-pretitle"><a href="/wiki/Oriental_Orthodoxy" class="mw-redirect" title="Oriental Orthodoxy">Oriental Orthodoxy</a></th></tr><tr><td class="sidebar-image"><a href="/wiki/File:ChristCopticArt.png" class="image" title="Coptic icon of Jesus Christ"><img alt="Coptic icon of Jesus Christ" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/ChristCopticArt.png/75px-ChristCopticArt.png" decoding="async" width="75" height="141" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/ChristCopticArt.png/113px-ChristCopticArt.png 1.5x, //upload.wikimedia.org/wikipedia/commons/f/f6/ChristCopticArt.png 2x" data-file-width="140" data-file-height="263" /></a></td></tr><tr><th class="sidebar-heading" style="background-color:#6b3fa0; color:white;">
+<style data-mw-deduplicate="TemplateStyles:r1097763485">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+link+.ambox,.mw-parser-output .ambox+link+style+.ambox,.mw-parser-output .ambox+link+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+style+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+link+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}html.client-js body.skin-minerva .mw-parser-output .mbox-text-span{margin-left:23px!important}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}</style><table class="box-No_footnotes plainlinks metadata ambox ambox-style ambox-No_footnotes" role="presentation"><tbody><tr><td class="mbox-image"><div class="mbox-image-div"><span typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" decoding="async" width="40" height="40" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/60px-Text_document_with_red_question_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/80px-Text_document_with_red_question_mark.svg.png 2x" data-file-width="48" data-file-height="48" /></span></span></div></td><td class="mbox-text"><div class="mbox-text-span">This article includes a <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">list of references</a>, <a href="/wiki/Wikipedia:Further_reading" title="Wikipedia:Further reading">related reading</a>, or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external links</a>, <b>but its sources remain unclear because it lacks <a href="/wiki/Wikipedia:Citing_sources#Inline_citations" title="Wikipedia:Citing sources">inline citations</a></b>.<span class="hide-when-compact"> Please help to <a href="/wiki/Wikipedia:WikiProject_Fact_and_Reference_Check" class="mw-redirect" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by <a href="/wiki/Wikipedia:When_to_cite" title="Wikipedia:When to cite">introducing</a> more precise citations.</span>  <span class="date-container"><i>(<span class="date">April 2017</span>)</i></span><span class="hide-when-compact"><i> (<small><a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a></small>)</i></span></div></td></tr></tbody></table>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div style="display:inline;" class="fn">Saint Shenoute</div></th></tr><tr><td colspan="2" class="infobox-image"><span typeof="mw:File"><a href="/wiki/File:Shenoute_of_Atripe.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Shenoute_of_Atripe.jpg/200px-Shenoute_of_Atripe.jpg" decoding="async" width="200" height="325" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/e/ee/Shenoute_of_Atripe.jpg 1.5x" data-file-width="250" data-file-height="406" /></a></span></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;">Archimandrite</th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">348 (uncertain)<br /><a href="/wiki/Egypt" title="Egypt">Egypt</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">1 July 465<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup><br /><a href="/wiki/Sohag" title="Sohag">Sohag</a>, <a href="/wiki/Egypt" title="Egypt">Egypt</a></td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Oriental_Orthodox_Churches" title="Oriental Orthodox Churches">Oriental Orthodox Churches</a></td></tr><tr><th scope="row" class="infobox-label"><span class="nowrap">Major <a href="/wiki/Shrine" title="Shrine">shrine</a></span></th><td class="infobox-data"><a href="/wiki/White_Monastery" title="White Monastery">White Monastery</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">7 <a href="/wiki/Epip" title="Epip">Epip</a></td></tr></tbody></table>
+<style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><style data-mw-deduplicate="TemplateStyles:r1045330069">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:#f8f9fa;border:1px solid #aaa;padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:720px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}</style><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><table class="sidebar sidebar-collapse nomobile nowraplinks plainlist" style="width:16.0em;border-collapse:collapse;"><tbody><tr><td class="sidebar-pretitle" style="background-color: #CCB2FF;color:#FFFFFF">Part of <a href="/wiki/Category:Oriental_Orthodoxy" title="Category:Oriental Orthodoxy"> <span style="color:White;">a series</span></a> on</td></tr><tr><th class="sidebar-title-with-pretitle" style="background-color: #CCB2FF;color:#FFFFFF;font-size:150%; color:#FFFFFF"><a href="/wiki/Oriental_Orthodoxy" class="mw-redirect" title="Oriental Orthodoxy"><span style="color:White;">Oriental Orthodoxy</span></a></th></tr><tr><td class="sidebar-image"><span typeof="mw:File/Frameless"><a href="/wiki/File:ChristCopticArt.png" class="mw-file-description" title="Coptic icon of Jesus Christ"><img alt="Coptic icon of Jesus Christ" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/ChristCopticArt.png/75px-ChristCopticArt.png" decoding="async" width="75" height="141" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/ChristCopticArt.png/113px-ChristCopticArt.png 1.5x, //upload.wikimedia.org/wikipedia/commons/f/f6/ChristCopticArt.png 2x" data-file-width="140" data-file-height="263" /></a></span></td></tr><tr><th class="sidebar-heading" style="background-color: #CCB2FF;color:#FFFFFF;background-color:#CCB2FF; color:white;">
 Oriental Orthodox churches</th></tr><tr><td class="sidebar-content">
 <div class="hlist">
 <ul><li><a href="/wiki/Coptic_Orthodox_Church" title="Coptic Orthodox Church">Coptic</a></li>
@@ -615,17 +608,17 @@ Oriental Orthodox churches</th></tr><tr><td class="sidebar-content">
 <li><a href="/wiki/Malankara_Orthodox_Syrian_Church" title="Malankara Orthodox Syrian Church">Indian</a></li></ul>
 </div></td>
 </tr><tr><td class="sidebar-content">
-<div class="sidebar-list mw-collapsible mw-collapsed"><div class="sidebar-list-title">Subdivisions</div><div class="sidebar-list-content mw-collapsible-content">
+<div class="sidebar-list mw-collapsible mw-collapsed"><div class="sidebar-list-title" style="background-color: #CCB2FF;color:#FFFFFF;background: #CCB2FF;padding:0.2em;color:#FFFFFF">Subdivisions</div><div class="sidebar-list-content mw-collapsible-content" style="padding-left:0.2em; padding-right:0.2em; text-align:center;padding-top:0; background-color: #E6E6FA; border:2px solid #E6E6FA">
 <ul><li><i>Autonomous churches grouped by tradition:</i></li>
 <li>Armenian: <a href="/wiki/Armenian_Patriarchate_of_Constantinople" title="Armenian Patriarchate of Constantinople">Constantinople</a>, <a href="/wiki/Armenian_Patriarchate_of_Jerusalem" title="Armenian Patriarchate of Jerusalem">Jerusalem</a></li>
 <li>Syriac: <a href="/wiki/Malankara_Jacobite_Syrian_Orthodox_Church" class="mw-redirect" title="Malankara Jacobite Syrian Orthodox Church">Malankara Jacobite</a></li></ul></div></div></td>
 </tr><tr><td class="sidebar-content">
-<div class="sidebar-list mw-collapsible mw-collapsed"><div class="sidebar-list-title">Noncanonical/Independent churches</div><div class="sidebar-list-content mw-collapsible-content">
+<div class="sidebar-list mw-collapsible mw-collapsed"><div class="sidebar-list-title" style="background-color: #CCB2FF;color:#FFFFFF;background: #CCB2FF;padding:0.2em;color:#FFFFFF">Independent churches</div><div class="sidebar-list-content mw-collapsible-content" style="padding-left:0.2em; padding-right:0.2em; text-align:center;padding-top:0; background-color: #E6E6FA; border:2px solid #E6E6FA">
 <ul><li><i>Independent churches grouped by tradition:</i></li>
 <li>Coptic: <a href="/wiki/British_Orthodox_Church" title="British Orthodox Church">British</a></li>
 <li>Syriac: <a href="/wiki/Malabar_Independent_Syrian_Church" title="Malabar Independent Syrian Church">Malabar Independent</a></li></ul></div></div></td>
 </tr><tr><td class="sidebar-content">
-<div class="sidebar-list mw-collapsible mw-collapsed"><div class="sidebar-list-title"><a href="/wiki/History_of_Oriental_Orthodoxy" title="History of Oriental Orthodoxy">History</a> and theology</div><div class="sidebar-list-content mw-collapsible-content"><div class="hlist">
+<div class="sidebar-list mw-collapsible mw-collapsed"><div class="sidebar-list-title" style="background-color: #CCB2FF;color:#FFFFFF;background: #CCB2FF;padding:0.2em;color:#FFFFFF"><a href="/wiki/History_of_Oriental_Orthodoxy" title="History of Oriental Orthodoxy">History</a> and theology</div><div class="sidebar-list-content mw-collapsible-content" style="padding-left:0.2em; padding-right:0.2em; text-align:center;padding-top:0; background-color: #E6E6FA; border:2px solid #E6E6FA"><div class="hlist">
 <ul><li><a href="/wiki/Coptic_history" title="Coptic history">Coptic history</a></li>
 <li><a href="/wiki/Orthodox_Tewahedo" title="Orthodox Tewahedo">Tewahedo history</a></li>
 <li><a href="/wiki/Syriac_Christianity" title="Syriac Christianity">Syriac history</a></li>
@@ -652,7 +645,7 @@ Oriental Orthodox churches</th></tr><tr><td class="sidebar-content">
 <li><a href="/wiki/Coonan_Cross_Oath" title="Coonan Cross Oath">Coonan Cross Oath</a></li></ul>
 </div></div></div></td>
 </tr><tr><td class="sidebar-content">
-<div class="sidebar-list mw-collapsible mw-collapsed"><div class="sidebar-list-title">Liturgy and practices</div><div class="sidebar-list-content mw-collapsible-content"><div class="hlist">
+<div class="sidebar-list mw-collapsible mw-collapsed"><div class="sidebar-list-title" style="background-color: #CCB2FF;color:#FFFFFF;background: #CCB2FF;padding:0.2em;color:#FFFFFF">Liturgy and practices</div><div class="sidebar-list-content mw-collapsible-content" style="padding-left:0.2em; padding-right:0.2em; text-align:center;padding-top:0; background-color: #E6E6FA; border:2px solid #E6E6FA"><div class="hlist">
 <ul><li><a href="/wiki/Apostolic_Church-Ordinance" title="Apostolic Church-Ordinance">Apostolic Church-Ordinance</a></li>
 <li><a href="/wiki/Calendar_of_saints_(Armenian_Apostolic_Church)" title="Calendar of saints (Armenian Apostolic Church)">Armenian calendar</a></li>
 <li><a href="/wiki/Coptic_calendar" title="Coptic calendar">Coptic calendar</a></li>
@@ -669,7 +662,7 @@ Oriental Orthodox churches</th></tr><tr><td class="sidebar-content">
 <li><a href="/wiki/Timkat" title="Timkat">Timkat</a></li></ul>
 </div></div></div></td>
 </tr><tr><td class="sidebar-content">
-<div class="sidebar-list mw-collapsible"><div class="sidebar-list-title">Major figures</div><div class="sidebar-list-content mw-collapsible-content"><div class="hlist">
+<div class="sidebar-list mw-collapsible"><div class="sidebar-list-title" style="background-color: #CCB2FF;color:#FFFFFF;background: #CCB2FF;padding:0.2em;color:#FFFFFF">Major figures</div><div class="sidebar-list-content mw-collapsible-content" style="padding-left:0.2em; padding-right:0.2em; text-align:center;padding-top:0; background-color: #E6E6FA; border:2px solid #E6E6FA"><div class="hlist">
 <ul><li><a href="/wiki/Abgar_V" title="Abgar V">Abgar V</a></li>
 <li><a href="/wiki/Nine_Saints" title="Nine Saints">Nine Saints of Ethiopia</a></li>
 <li><a href="/wiki/Gregory_the_Illuminator" title="Gregory the Illuminator">Gregory the Illuminator</a></li>
@@ -698,7 +691,7 @@ Oriental Orthodox churches</th></tr><tr><td class="sidebar-content">
 <li><a href="/wiki/Geevarghese_Mar_Gregorios_of_Parumala" class="mw-redirect" title="Geevarghese Mar Gregorios of Parumala">Geevarghese Gregorios</a></li></ul>
 </div></div></div></td>
 </tr><tr><td class="sidebar-content">
-<div class="sidebar-list mw-collapsible mw-collapsed"><div class="sidebar-list-title">Related topics</div><div class="sidebar-list-content mw-collapsible-content"><div class="hlist">
+<div class="sidebar-list mw-collapsible mw-collapsed"><div class="sidebar-list-title" style="background-color: #CCB2FF;color:#FFFFFF;background: #CCB2FF;padding:0.2em;color:#FFFFFF">Related topics</div><div class="sidebar-list-content mw-collapsible-content" style="padding-left:0.2em; padding-right:0.2em; text-align:center;padding-top:0; background-color: #E6E6FA; border:2px solid #E6E6FA"><div class="hlist">
 <ul><li><a href="/wiki/Abuna" title="Abuna">Abuna</a></li>
 <li><a href="/wiki/Catholicos" title="Catholicos">Catholicos</a></li>
 <li><a href="/wiki/Coptic_cross" title="Coptic cross">Coptic cross</a></li>
@@ -709,12 +702,12 @@ Oriental Orthodox churches</th></tr><tr><td class="sidebar-content">
 <li><a href="/wiki/Orthodox_Tewahedo_biblical_canon" title="Orthodox Tewahedo biblical canon">Tewahedo biblical canon</a></li></ul>
 </div></div></div></td>
 </tr><tr><td class="sidebar-below" style="padding-top:0.1em;">
-<a href="/wiki/File:P_christianity.svg" class="image"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/16px-P_christianity.svg.png" decoding="async" width="16" height="14" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/24px-P_christianity.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/32px-P_christianity.svg.png 2x" data-file-width="400" data-file-height="360" /></a>&#160;<a href="/wiki/Portal:Christianity" title="Portal:Christianity">Christianity&#32;portal</a></td></tr><tr><td class="sidebar-navbar"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Oriental_Orthodox_sidebar" title="Template:Oriental Orthodox sidebar"><abbr title="View this template">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Oriental_Orthodox_sidebar" title="Template talk:Oriental Orthodox sidebar"><abbr title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Oriental_Orthodox_sidebar&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li></ul></div></td></tr></tbody></table>
+<span class="noviewer" typeof="mw:File"><a href="/wiki/File:P_christianity.svg" class="mw-file-description"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/16px-P_christianity.svg.png" decoding="async" width="16" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/24px-P_christianity.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/32px-P_christianity.svg.png 2x" data-file-width="400" data-file-height="360" /></a></span>&#160;<a href="/wiki/Portal:Christianity" title="Portal:Christianity">Christianity&#32;portal</a></td></tr><tr><td class="sidebar-navbar"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Oriental_Orthodox_sidebar" title="Template:Oriental Orthodox sidebar"><abbr title="View this template">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Oriental_Orthodox_sidebar" title="Template talk:Oriental Orthodox sidebar"><abbr title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Oriental_Orthodox_sidebar&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li></ul></div></td></tr></tbody></table>
 <p><b>Shenoute of Atripe</b>, also known as <b>Shenoute the Great</b> or <b>Saint Shenoute the <a href="/wiki/Archimandrite" title="Archimandrite">Archimandrite</a></b> (<a href="/wiki/Coptic_language" title="Coptic language">Coptic</a>: <style data-mw-deduplicate="TemplateStyles:r1107333977">.mw-parser-output .script-coptic{font-family:"Sophia Nubian","Noto Sans Coptic","FreeSerif","Quivira","Segoe UI Historic","Segoe UI Symbol","New Athena Unicode","MPH 2B Damase","Arial Coptic","Analecta","Antinoou"}</style><span class="script-coptic">Ⲁⲃⲃⲁ Ϣⲉⲛⲟⲩϯ ⲡⲓⲁⲣⲭⲓⲙⲁⲛ'ⲇⲣⲓⲧⲏⲥ</span>; (347-465 or 348-466<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2013)">citation needed</span></a></i>&#93;</sup>) was the abbot of the <a href="/wiki/White_Monastery" title="White Monastery">White Monastery</a> in <a href="/wiki/Egypt" title="Egypt">Egypt</a>. He is considered a <a href="/wiki/Saint" title="Saint">saint</a> by the <a href="/wiki/Oriental_Orthodox_Churches" title="Oriental Orthodox Churches">Oriental Orthodox Churches</a>, and is one of the most renowned <a href="/wiki/Saints" class="mw-redirect" title="Saints">saints</a> of the <a href="/wiki/Coptic_Orthodox_Church" title="Coptic Orthodox Church">Coptic Orthodox Church</a>.
 </p>
 <meta property="mw:PageProp/toc" />
 <h2><span class="mw-headline" id="Early_life">Early life</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Shenoute&amp;action=edit&amp;section=1" title="Edit section: Early life">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:The_Life_of_Shenoute,_Sahidic_Coptic_script,_papyrus,_6th-7th_century_CE._From_Egypt._British_Museum.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg/220px-The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg" decoding="async" width="220" height="293" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg/330px-The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg/440px-The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg 2x" data-file-width="3332" data-file-height="4444" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:The_Life_of_Shenoute,_Sahidic_Coptic_script,_papyrus,_6th-7th_century_CE._From_Egypt._British_Museum.jpg" class="internal" title="Enlarge"></a></div>The Life of Shenoute, Sahidic Coptic script, papyrus, 6th-7th century AD. From Egypt. British Museum</div></div></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/wiki/File:The_Life_of_Shenoute,_Sahidic_Coptic_script,_papyrus,_6th-7th_century_CE._From_Egypt._British_Museum.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg/220px-The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg" decoding="async" width="220" height="293" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg/330px-The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg/440px-The_Life_of_Shenoute%2C_Sahidic_Coptic_script%2C_papyrus%2C_6th-7th_century_CE._From_Egypt._British_Museum.jpg 2x" data-file-width="3332" data-file-height="4444" /></a><figcaption>The Life of Shenoute, Sahidic Coptic script, papyrus, 6th-7th century AD. From Egypt. British Museum</figcaption></figure>
 <p>Shenoute was born in the middle of the fourth century AD<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> (the date 348 AD, often mentioned but not universally accepted, is based on an inscription in his monastery, dating from the twelfth or thirteen century<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>).
 </p><p>Around 385 AD, Shenoute became the father of the <a href="/wiki/White_Monastery" title="White Monastery">White Monastery</a> in <a href="/wiki/Upper_Egypt" title="Upper Egypt">Upper Egypt</a>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup> It has often been assumed that Shenoute was the immediate successor of the White Monastery's founder, Pcol. However, the reconstruction of Shenoute's literary corpus made it possible to realize that Pcol died in the 370s and was then succeeded not by Shenoute but by another father, Ebonh, and that a spiritual crisis during Ebonh's tenure as head of the White Monastery, a crisis which seems to have involved carnal sin, enabled Shenoute to come to prominence and to become Ebonh's immediate successor.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup>
 </p>
@@ -727,13 +720,13 @@ Oriental Orthodox churches</th></tr><tr><td class="sidebar-content">
 <h2><span class="mw-headline" id="Influence_on_the_monastic_movement">Influence on the monastic movement</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Shenoute&amp;action=edit&amp;section=4" title="Edit section: Influence on the monastic movement">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <p>From his uncle, <a href="/w/index.php?title=Saint_Pigol&amp;action=edit&amp;redlink=1" class="new" title="Saint Pigol (page does not exist)">Saint Pigol</a>, Shenoute inherited a <a href="/wiki/Monastery" title="Monastery">monastery</a> based on the <a href="/wiki/Pachomius" class="mw-redirect" title="Pachomius">Pachomian</a> system, though more austere and stringent. This made its followers few in number and probably promoted decline rather than growth. Shenoute implemented a more comprehensive system that was less stringent and more suitable to the surroundings and the background of the people. This new system had an unusual component, which was a covenant (diatheke) to be recited and adhered to literally by the new novices. It read as follows:
 </p>
-<style data-mw-deduplicate="TemplateStyles:r996844942">.mw-parser-output .templatequote{overflow:hidden;margin:1em 0;padding:0 40px}.mw-parser-output .templatequote .templatequotecite{line-height:1.5em;text-align:left;padding-left:1.6em;margin-top:0}</style><blockquote class="templatequote"><p>I vow before God in His Holy Place, the word which I have spoken with my mouth being my witness; I will not defile my body in any way, I will not steal, I will not bear false witness, I will not lie, I will not do anything deceitful secretly. If I transgressed what I have vowed, I will see the Kingdom of Heaven, but will not enter it. God before whom I made the covenant will destroy my soul and my body in the fiery Hell because I transgressed the covenant I made.</p><div class="templatequotecite">—&#8201;<cite>Bell, the Life of Shenute by Besa, pp.9-10</cite></div></blockquote>
+<style data-mw-deduplicate="TemplateStyles:r996844942">.mw-parser-output .templatequote{overflow:hidden;margin:1em 0;padding:0 40px}.mw-parser-output .templatequote .templatequotecite{line-height:1.5em;text-align:left;padding-left:1.6em;margin-top:0}</style><blockquote class="templatequote"><p>I vow before God in His Holy Place, the word which I have spoken with my mouth being my witness; I will not defile my body in any way, I will not steal, I will not bear false witness, I will not lie, I will not do anything deceitful secretly. If I transgressed what I have vowed, I will see the Kingdom of Heaven, but will not enter it. God before whom I made the covenant will destroy my soul and my body in the fiery Hell because I transgressed the covenant I made.</p><div class="templatequotecite">—&#8202;<cite>Bell, the Life of Shenute by Besa, pp.9-10</cite></div></blockquote>
 <p>Transgressors of that covenant were expelled from the monastery altogether. This was considered a near death sentence for those peasant monks.
 </p><p>Another interesting feature of Shenoute's monastic system was the requirement for the new novices to live outside the monastery for a period of time before they were deemed worthy to be consecrated as monks. This seemed to be at odds with the <a href="/wiki/Nitrian_Desert" title="Nitrian Desert">Nitrian</a> monastic system, which allowed the monks to live away from the monastic settlements only after they became proficient in the monastic life. Shenoute also utilized the time of the monks, outside prayer and worship, in more varied tasks within the monastery than the <a href="/wiki/Nitrian_Desert" title="Nitrian Desert">Nitrian</a> monks were exposed to. Aside from the traditional trades of rope and basket weaving, the monks engaged in weaving and tailoring linen, cultivation of flax, leather work and shoe-making, writing and book-binding, carpentry, and metal and pottering-making. All in all, Shenouda tried as much as possible to employ the monks in their old professions. Such activities made the monastery a vast self-supporting complex, which occupied some 20 square miles (52&#160;km<sup>2</sup>) of land.
 </p><p>As a monastic leader, Shenoute recognized the need for literacy among monks. So he required all his monks and nuns to learn to read and encouraged more of them to pursue the art of writing manuscripts. This made the monastery more and more appealing to belong to and consequently made the threat of expulsion more painful.
 </p>
 <h2><span class="mw-headline" id="Legacy_as_a_national_leader">Legacy as a national leader</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Shenoute&amp;action=edit&amp;section=5" title="Edit section: Legacy as a national leader">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1033289096"/><div role="note" class="hatnote navigation-not-searchable">See also: <a href="/wiki/Apocalypse_of_Shenute" title="Apocalypse of Shenute">Apocalypse of Shenute</a></div>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1033289096"><div role="note" class="hatnote navigation-not-searchable">See also: <a href="/wiki/Apocalypse_of_Shenute" title="Apocalypse of Shenute">Apocalypse of Shenute</a></div>
 <p>In his laudatory <i>Life of Saint Shenoute</i>, his disciple and biographer <a href="/w/index.php?title=Saint_Wissa&amp;action=edit&amp;redlink=1" class="new" title="Saint Wissa (page does not exist)">Saint Wissa</a> (Besa) recounts several incidents of Shenoute coming to the aid of poor Coptic peasants. One time he went to <a href="/wiki/Akhmim" title="Akhmim">Akhmim</a> to chastise a pagan because of the oppression he was inflicting on the poor (Vita #81-2). Another time he acted to eliminate the cause of grief of the peasants, that the pagan landlords of <a href="/w/index.php?title=Paneleou&amp;action=edit&amp;redlink=1" class="new" title="Paneleou (page does not exist)">Paneleou</a> forced them to buy the latter's spoiled wine (Vita #85-6). On a third occasion he risked his life to successfully ask for the freedom of the captives at <a href="/w/index.php?title=Psoi&amp;action=edit&amp;redlink=1" class="new" title="Psoi (page does not exist)">Psoi</a> from the hands of the <a href="/wiki/Blemmyes" title="Blemmyes">Blemmyes</a> warriors (Vita #89). He also at times appealed on behalf of the peasants to those in power, including the <a href="/wiki/Roman_Empire" title="Roman Empire">Roman</a> <a href="/wiki/Emperor" title="Emperor">emperor</a> <a href="/wiki/Theodosius_I" title="Theodosius I">Theodosius I</a>. In summary, Shenoute fully recognized the misery of his people and emerged as their sincere advocate and popular leader.
 </p>
 <h2><span class="mw-headline" id="Life_as_a_writer">Life as a writer</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Shenoute&amp;action=edit&amp;section=6" title="Edit section: Life as a writer">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
@@ -748,7 +741,7 @@ Oriental Orthodox churches</th></tr><tr><td class="sidebar-content">
 <p>As more and more identifications of Saint Shenoute's literary works are made, his contribution to Coptic literature appears to be even greater than previously assumed. On the one hand, it is becoming clear that he treated a wide range of subjects, not only monastic ones. This suggests a more favorable assessment of the theological character of his writing, his spirituality, and his moral and nationalistic behavior. On the other hand, he accepted the inclusion of literary activity in the religious field. This sets him apart from the <a href="/wiki/Pachomius" class="mw-redirect" title="Pachomius">Pachomian</a> system that tended to treat religious literature as mere written instructions with no regard to style being given. He further developed a style that is clearly a product of careful study of the scholastic <a href="/wiki/Greek_language" title="Greek language">Greek</a> rhetoric of his time.
 </p>
 <h2><span class="mw-headline" id="Monasteries_named_after_Saint_Shenoute">Monasteries named after Saint Shenoute</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Shenoute&amp;action=edit&amp;section=7" title="Edit section: Monasteries named after Saint Shenoute">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:SaintShenouda.JPG" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/85/SaintShenouda.JPG/220px-SaintShenouda.JPG" decoding="async" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/85/SaintShenouda.JPG/330px-SaintShenouda.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/85/SaintShenouda.JPG/440px-SaintShenouda.JPG 2x" data-file-width="2816" data-file-height="2112" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:SaintShenouda.JPG" class="internal" title="Enlarge"></a></div>St. Shenouda Monastery, New South Wales, Australia</div></div></div>
+<figure class="mw-default-size mw-halign-right" typeof="mw:File/Thumb"><a href="/wiki/File:SaintShenouda.JPG" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/8/85/SaintShenouda.JPG/220px-SaintShenouda.JPG" decoding="async" width="220" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/85/SaintShenouda.JPG/330px-SaintShenouda.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/85/SaintShenouda.JPG/440px-SaintShenouda.JPG 2x" data-file-width="2816" data-file-height="2112" /></a><figcaption>St. Shenouda Monastery, New South Wales, Australia</figcaption></figure>
 <p>Four Coptic Orthodox monasteries worldwide are named after Saint Shenouda the Archimandrite, namely:
 </p>
 <ul><li><a href="/wiki/White_Monastery" title="White Monastery">Monastery of Saint Shenouda</a> near <a href="/wiki/Sohag" title="Sohag">Sohag</a>, Egypt, also known as the White Monastery</li>
@@ -793,13 +786,13 @@ with W. E. Crum, Sinuthii Archimandritae Vita et Opera Omnia, 3 vols. [Paris: Im
 <li>Brakke, David. <i>Demons and the Making of the Monk: Spiritual Combat in Early Christianity</i>. Cambridge, MA, and London: Harvard University Press, 2006. [Esp. chap. 5, “The Prophet: Shenoute and the White Monastery.”]</li>
 <li>Emmel, Stephen. <i>Shenoute’s Literary Corpus</i>. 2 vols. Corpus Scriptorum Christianorum Orientalium, vols. 599–600 (= Subsidia, vols. 111–112). Leuven: Peeters, 2004. [With an extensive bibliography on Shenoute up to 2004.]</li>
 <li>Emmel, Stephen. “Shenoute’s Place in the History of Monasticism.” In: <i>Christianity and Monasticism in Upper Egypt</i>, vol. 1: <i>Akhmim and Sohag</i>, edited by Gawdat Gabra and Hany N. Takla, pp.&#160;31–46 (with bibliography on pp.&#160;321–350). Cairo and New York: The American University in Cairo Press, 2008.</li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFGrypeou2007" class="citation book cs1">Grypeou, Emmanouela (2007). "<span class="cs1-kern-left"></span>'The Visions of Apa Shenute of Atripe': An Analysis in the History of Traditions of Eastern Christian Apocalyptic Motifs".  In Monferrer-Sala, Juan Pedro (ed.). <i>Eastern Crossroads: Essays on Medieval Christian Legacy</i>. Gorgias Eastern Christian Studies. Vol.&#160;1. Piscataway: Gorgias Press. pp.&#160;157–168.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=%E2%80%98The+Visions+of+Apa+Shenute+of+Atripe%E2%80%99%3A+An+Analysis+in+the+History+of+Traditions+of+Eastern+Christian+Apocalyptic+Motifs&amp;rft.btitle=Eastern+Crossroads%3A+Essays+on+Medieval+Christian+Legacy&amp;rft.place=Piscataway&amp;rft.series=Gorgias+Eastern+Christian+Studies&amp;rft.pages=157-168&amp;rft.pub=Gorgias+Press&amp;rft.date=2007&amp;rft.aulast=Grypeou&amp;rft.aufirst=Emmanouela&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFKosack2013" class="citation book cs1 cs1-prop-foreign-lang-source">Kosack, Wolfgang, ed. (2013). <i>Schenute von Atripe De judicio finale</i> (in German). Papyruskodex 63000.IV im Museo Egizio di Torino. Einleitung, Textbearbeitung und Übersetzung. Berlin: Verlag Brunner Christoph. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-9524018-5-9" title="Special:BookSources/978-3-9524018-5-9"><bdi>978-3-9524018-5-9</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Schenute+von+Atripe+De+judicio+finale&amp;rft.place=Berlin&amp;rft.pub=Verlag+Brunner+Christoph&amp;rft.date=2013&amp;rft.isbn=978-3-9524018-5-9&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
-<li>Wolfgang Kosack: <i>Shenoute of Atripe "De vita christiana"</i>: M 604 Pierpont-Morgan-Library New York/Ms. OR 12689 British-Library/London and Ms. Clarendon Press b. 4, Frg. Bodleian-Library/Oxford. Introduction, edition of the text and translation into German by Wolfgang Kosack / Verlag Christoph Brunner, Basel 2013. <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-906206-00-4" title="Special:BookSources/978-3-906206-00-4">978-3-906206-00-4</a></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFKrawiec2002" class="citation book cs1">Krawiec, Rebecca (2002). <i>Shenoute and the Women of the White Monastery: Egyptian Monasticism in Late Antiquity</i>. Oxford etc.: Oxford University Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Shenoute+and+the+Women+of+the+White+Monastery%3A+Egyptian+Monasticism+in+Late+Antiquity&amp;rft.place=Oxford+etc.&amp;rft.pub=Oxford+University+Press&amp;rft.date=2002&amp;rft.aulast=Krawiec&amp;rft.aufirst=Rebecca&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFLayton2007" class="citation journal cs1">Layton, Bentley (2007). "Rules, Patterns, and the Exercise of Power in Shenoute's Monastery: The Problem of World Replacement and Identity Maintenance". <i>Journal of Early Christian Studies</i>. <b>15</b> (1): 45–73. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1353%2Fearl.2007.0015">10.1353/earl.2007.0015</a>. <a href="/wiki/S2CID_(identifier)" class="mw-redirect" title="S2CID (identifier)">S2CID</a>&#160;<a rel="nofollow" class="external text" href="https://api.semanticscholar.org/CorpusID:143481705">143481705</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+Early+Christian+Studies&amp;rft.atitle=Rules%2C+Patterns%2C+and+the+Exercise+of+Power+in+Shenoute%27s+Monastery%3A+The+Problem+of+World+Replacement+and+Identity+Maintenance&amp;rft.volume=15&amp;rft.issue=1&amp;rft.pages=45-73&amp;rft.date=2007&amp;rft_id=info%3Adoi%2F10.1353%2Fearl.2007.0015&amp;rft_id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A143481705%23id-name%3DS2CID&amp;rft.aulast=Layton&amp;rft.aufirst=Bentley&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFLayton2014" class="citation book cs1">Layton, Bentley (2014). <i>The Canons of Our Fathers: Monastic Rules of Shenoute</i>. Oxford: Oxford University Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Canons+of+Our+Fathers%3A+Monastic+Rules+of+Shenoute&amp;rft.place=Oxford&amp;rft.pub=Oxford+University+Press&amp;rft.date=2014&amp;rft.aulast=Layton&amp;rft.aufirst=Bentley&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFSchroeder2007" class="citation book cs1">Schroeder, Caroline T. (2007). <i>Monastic Bodies: Discipline and Salvation in Shenoute of Atripe</i>. Philadelphia: University of Pennsylvania Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Monastic+Bodies%3A+Discipline+and+Salvation+in+Shenoute+of+Atripe&amp;rft.place=Philadelphia&amp;rft.pub=University+of+Pennsylvania+Press&amp;rft.date=2007&amp;rft.aulast=Schroeder&amp;rft.aufirst=Caroline+T.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFGrypeou2007" class="citation book cs1">Grypeou, Emmanouela (2007). "<span class="cs1-kern-left"></span>'The Visions of Apa Shenute of Atripe': An Analysis in the History of Traditions of Eastern Christian Apocalyptic Motifs". In Monferrer-Sala, Juan Pedro (ed.). <i>Eastern Crossroads: Essays on Medieval Christian Legacy</i>. Gorgias Eastern Christian Studies. Vol.&#160;1. Piscataway: Gorgias Press. pp.&#160;157–168.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=%E2%80%98The+Visions+of+Apa+Shenute+of+Atripe%E2%80%99%3A+An+Analysis+in+the+History+of+Traditions+of+Eastern+Christian+Apocalyptic+Motifs&amp;rft.btitle=Eastern+Crossroads%3A+Essays+on+Medieval+Christian+Legacy&amp;rft.place=Piscataway&amp;rft.series=Gorgias+Eastern+Christian+Studies&amp;rft.pages=157-168&amp;rft.pub=Gorgias+Press&amp;rft.date=2007&amp;rft.aulast=Grypeou&amp;rft.aufirst=Emmanouela&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFKosack2013" class="citation book cs1 cs1-prop-foreign-lang-source">Kosack, Wolfgang, ed. (2013). <i>Schenute von Atripe De judicio finale</i> (in German). Papyruskodex 63000.IV im Museo Egizio di Torino. Einleitung, Textbearbeitung und Übersetzung. Berlin: Verlag Brunner Christoph. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-9524018-5-9" title="Special:BookSources/978-3-9524018-5-9"><bdi>978-3-9524018-5-9</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Schenute+von+Atripe+De+judicio+finale&amp;rft.place=Berlin&amp;rft.pub=Verlag+Brunner+Christoph&amp;rft.date=2013&amp;rft.isbn=978-3-9524018-5-9&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
+<li>Wolfgang Kosack: <i>Shenoute of Atripe "De vita christiana"</i>: M 604 Pierpont-Morgan-Library New York/Ms. OR 12689 British-Library/London and Ms. Clarendon Press b. 4, Frg. Bodleian-Library/Oxford. Introduction, edition of the text and translation into German by Wolfgang Kosack / Verlag Christoph Brunner, Basel 2013. <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-906206-00-4" title="Special:BookSources/978-3-906206-00-4">978-3-906206-00-4</a></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFKrawiec2002" class="citation book cs1">Krawiec, Rebecca (2002). <i>Shenoute and the Women of the White Monastery: Egyptian Monasticism in Late Antiquity</i>. Oxford etc.: Oxford University Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Shenoute+and+the+Women+of+the+White+Monastery%3A+Egyptian+Monasticism+in+Late+Antiquity&amp;rft.place=Oxford+etc.&amp;rft.pub=Oxford+University+Press&amp;rft.date=2002&amp;rft.aulast=Krawiec&amp;rft.aufirst=Rebecca&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFLayton2007" class="citation journal cs1">Layton, Bentley (2007). "Rules, Patterns, and the Exercise of Power in Shenoute's Monastery: The Problem of World Replacement and Identity Maintenance". <i>Journal of Early Christian Studies</i>. <b>15</b> (1): 45–73. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1353%2Fearl.2007.0015">10.1353/earl.2007.0015</a>. <a href="/wiki/S2CID_(identifier)" class="mw-redirect" title="S2CID (identifier)">S2CID</a>&#160;<a rel="nofollow" class="external text" href="https://api.semanticscholar.org/CorpusID:143481705">143481705</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+Early+Christian+Studies&amp;rft.atitle=Rules%2C+Patterns%2C+and+the+Exercise+of+Power+in+Shenoute%27s+Monastery%3A+The+Problem+of+World+Replacement+and+Identity+Maintenance&amp;rft.volume=15&amp;rft.issue=1&amp;rft.pages=45-73&amp;rft.date=2007&amp;rft_id=info%3Adoi%2F10.1353%2Fearl.2007.0015&amp;rft_id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A143481705%23id-name%3DS2CID&amp;rft.aulast=Layton&amp;rft.aufirst=Bentley&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFLayton2014" class="citation book cs1">Layton, Bentley (2014). <i>The Canons of Our Fathers: Monastic Rules of Shenoute</i>. Oxford: Oxford University Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Canons+of+Our+Fathers%3A+Monastic+Rules+of+Shenoute&amp;rft.place=Oxford&amp;rft.pub=Oxford+University+Press&amp;rft.date=2014&amp;rft.aulast=Layton&amp;rft.aufirst=Bentley&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFSchroeder2007" class="citation book cs1">Schroeder, Caroline T. (2007). <i>Monastic Bodies: Discipline and Salvation in Shenoute of Atripe</i>. Philadelphia: University of Pennsylvania Press.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Monastic+Bodies%3A+Discipline+and+Salvation+in+Shenoute+of+Atripe&amp;rft.place=Philadelphia&amp;rft.pub=University+of+Pennsylvania+Press&amp;rft.date=2007&amp;rft.aulast=Schroeder&amp;rft.aufirst=Caroline+T.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AShenoute" class="Z3988"></span></li>
 <li><a rel="nofollow" class="external text" href="https://www.stshenoudapress.com/product-tag/st-shenouda/">English translation of the Arabic life</a></li></ul>
 <h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Shenoute&amp;action=edit&amp;section=11" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <ul><li><a rel="nofollow" class="external text" href="http://www.stshenouda.com/stshenda.htm">St. Shenouda the Archimandrite</a></li>
@@ -807,12 +800,12 @@ with W. E. Crum, Sinuthii Archimandritae Vita et Opera Omnia, 3 vols. [Paris: Im
 <li><a rel="nofollow" class="external text" href="http://data.copticscriptorium.org/search?author=Shenoute">Primary sources and translated works by Shenoute of Atripe</a> on <a rel="nofollow" class="external text" href="https://copticscriptorium.org/">Coptic Scriptorium</a></li>
 <li><a rel="nofollow" class="external text" href="https://www.stshenoudapress.com">St Shenouda Press</a></li>
 <li><a rel="nofollow" class="external text" href="http://www.treccani.it/enciclopedia/scenute_(Enciclopedia_Italiana)/">Scenute</a> entry <span class="languageicon">(in Italian)</span>  by Michelangelo Guidi in the <i><a href="/wiki/Treccani" title="Treccani">Enciclopedia italiana</a></i>, 1936</li></ul>
-<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Coptic_saints" style="padding:3px"><table class="nowraplinks hlist mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3" style="background-color: gold"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"/><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Coptic_saints" title="Template:Coptic saints"><abbr title="View this template" style="background-color: gold;;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Coptic_saints" title="Template talk:Coptic saints"><abbr title="Discuss this template" style="background-color: gold;;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Coptic_saints&amp;action=edit"><abbr title="Edit this template" style="background-color: gold;;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Coptic_saints" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_Coptic_saints" title="List of Coptic saints">Coptic saints</a></div></th></tr><tr><th scope="row" class="navbox-group" style="background-color: gold;width:1%"><a href="/wiki/Patriarch" title="Patriarch">Patriarchs</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Coptic_saints" style="padding:3px"><table class="nowraplinks hlist mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3" style="background-color: gold"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Coptic_saints" title="Template:Coptic saints"><abbr title="View this template" style="background-color: gold;;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Coptic_saints" title="Template talk:Coptic saints"><abbr title="Discuss this template" style="background-color: gold;;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Coptic_saints&amp;action=edit"><abbr title="Edit this template" style="background-color: gold;;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Coptic_saints" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_Coptic_saints" title="List of Coptic saints">Coptic saints</a></div></th></tr><tr><th scope="row" class="navbox-group" style="background-color: gold;width:1%"><a href="/wiki/Patriarch" title="Patriarch">Patriarchs</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Abraham" title="Abraham">Abraham</a></li>
 <li><a href="/wiki/Isaac" title="Isaac">Isaac</a></li>
 <li><a href="/wiki/Jacob" title="Jacob">Jacob</a></li>
 <li><a href="/wiki/Joseph_(Genesis)" title="Joseph (Genesis)">Joseph</a></li></ul>
-</div></td><td class="noviewer navbox-image" rowspan="13" style="width:1px;padding:0 0 0 2px"><div><a href="/wiki/File:Coptic_cross.svg" class="image" title="Coptic cross"><img alt="Coptic cross" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Coptic_cross.svg/100px-Coptic_cross.svg.png" decoding="async" width="100" height="100" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Coptic_cross.svg/150px-Coptic_cross.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/71/Coptic_cross.svg/200px-Coptic_cross.svg.png 2x" data-file-width="606" data-file-height="606" /></a></div></td></tr><tr><th scope="row" class="navbox-group" style="background-color: gold;width:1%"><a href="/wiki/Prophets_of_Christianity" title="Prophets of Christianity">Prophets</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+</div></td><td class="noviewer navbox-image" rowspan="13" style="width:1px;padding:0 0 0 2px"><div><span typeof="mw:File"><a href="/wiki/File:Coptic_cross.svg" class="mw-file-description" title="Coptic cross"><img alt="Coptic cross" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Coptic_cross.svg/100px-Coptic_cross.svg.png" decoding="async" width="100" height="100" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Coptic_cross.svg/150px-Coptic_cross.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/71/Coptic_cross.svg/200px-Coptic_cross.svg.png 2x" data-file-width="606" data-file-height="606" /></a></span></div></td></tr><tr><th scope="row" class="navbox-group" style="background-color: gold;width:1%"><a href="/wiki/Prophets_of_Christianity" title="Prophets of Christianity">Prophets</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Moses" title="Moses">Moses</a></li>
 <li><a href="/wiki/Job_(biblical_figure)" title="Job (biblical figure)">Job</a></li>
 <li><a href="/wiki/Samuel" title="Samuel">Samuel</a></li>
@@ -881,7 +874,7 @@ with W. E. Crum, Sinuthii Archimandritae Vita et Opera Omnia, 3 vols. [Paris: Im
 <li><a href="/wiki/Luke_the_Evangelist" title="Luke the Evangelist">Luke</a></li>
 <li><a href="/wiki/John_the_Evangelist" title="John the Evangelist">John</a></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="background-color: gold;width:1%"><a href="/wiki/Christian_martyrs" class="mw-redirect" title="Christian martyrs">Martyrs</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><a href="/wiki/2015_kidnapping_and_beheading_of_Copts_in_Libya" title="2015 kidnapping and beheading of Copts in Libya">21 martyrs in Libya</a></li>
+<ul><li><a href="/wiki/2015_kidnapping_and_beheading_of_Copts_in_Libya" title="2015 kidnapping and beheading of Copts in Libya">21 Coptic Martyrs of Libya</a></li>
 <li><a href="/wiki/Ab%C4%81m%C5%ABn_of_Tarn%C5%ABt" title="Abāmūn of Tarnūt">Abāmūn</a></li>
 <li><a href="/wiki/Ab%C4%81m%C5%ABn_of_Tukh" title="Abāmūn of Tukh">Abāmūn</a></li>
 <li><a href="/wiki/Abanoub" title="Abanoub">Abanoub</a></li>
@@ -1024,7 +1017,7 @@ with W. E. Crum, Sinuthii Archimandritae Vita et Opera Omnia, 3 vols. [Paris: Im
 <li><a href="/wiki/Paphnutius_the_Bishop" title="Paphnutius the Bishop">Paphnutius of Scetes</a></li>
 <li><a href="/wiki/Paphnutius_of_Thebes" title="Paphnutius of Thebes">Paphnutius of Thebes</a></li>
 <li><a href="/wiki/Polycarp" title="Polycarp">Polycarp of Smyrna</a></li>
-<li><a href="/wiki/Porphyry_of_Gaza" class="mw-redirect" title="Porphyry of Gaza">Porphyry of Gaza</a></li>
+<li><a href="/wiki/Saint_Porphyrius" title="Saint Porphyrius">Porphyrius of Gaza</a></li>
 <li><a href="/wiki/Psote" title="Psote">Psote of Ebsay</a></li>
 <li><a href="/wiki/Sacramentary_of_Serapion_of_Thmuis" title="Sacramentary of Serapion of Thmuis">Serapion of Thmuis</a></li>
 <li><a href="/wiki/Severian_of_Gabala" title="Severian of Gabala">Severian of Gabala</a></li>
@@ -1041,7 +1034,7 @@ with W. E. Crum, Sinuthii Archimandritae Vita et Opera Omnia, 3 vols. [Paris: Im
 <li><a href="/wiki/Hilarion" title="Hilarion">Hilarion</a></li>
 <li><a href="/wiki/Hospitius" title="Hospitius">Hospitius</a></li>
 <li><a href="/wiki/Mother_Irini" title="Mother Irini">Mother Irini</a></li>
-<li><a href="/wiki/Isaac_of_Nineveh" title="Isaac of Nineveh">Isaac of Nineveh</a></li>
+<li><a href="/wiki/Isaac_of_Nineveh" class="mw-redirect" title="Isaac of Nineveh">Isaac of Nineveh</a></li>
 <li><a href="/wiki/Isidore_of_Pelusium" title="Isidore of Pelusium">Isidore of Pelusium</a></li>
 <li><a href="/wiki/John_Climacus" title="John Climacus">John Climacus</a></li>
 <li><a href="/wiki/John_the_Dwarf" title="John the Dwarf">John the Dwarf</a></li>
@@ -1087,87 +1080,79 @@ with W. E. Crum, Sinuthii Archimandritae Vita et Opera Omnia, 3 vols. [Paris: Im
 <li><a href="/wiki/Saints_Maximus_and_Domatius" title="Saints Maximus and Domatius">Maximus and Domatius</a></li>
 <li><a href="/wiki/Verena" class="mw-redirect" title="Verena">Verena</a></li></ul>
 </div></td></tr><tr><td class="navbox-abovebelow" colspan="3" style="background-color: gold"><div>
-<ul><li><a href="/wiki/File:P_christianity.svg" class="image"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/16px-P_christianity.svg.png" decoding="async" width="16" height="14" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/24px-P_christianity.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/32px-P_christianity.svg.png 2x" data-file-width="400" data-file-height="360" /></a>&#160;<a href="/wiki/Portal:Christianity" title="Portal:Christianity">Christianity&#32;portal</a></li></ul>
+<ul><li><span class="noviewer" typeof="mw:File"><a href="/wiki/File:P_christianity.svg" class="mw-file-description"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/16px-P_christianity.svg.png" decoding="async" width="16" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/24px-P_christianity.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/32px-P_christianity.svg.png 2x" data-file-width="400" data-file-height="360" /></a></span>&#160;<a href="/wiki/Portal:Christianity" title="Portal:Christianity">Christianity&#32;portal</a></li></ul>
 </div></td></tr></tbody></table></div>
-<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1382081#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1382081#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q1382081#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000398683569">1</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000374048122">2</a></span></li></ul></li>
-<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/268756094">1</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/3144648108410481087">2</a></span></li>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"><style data-mw-deduplicate="TemplateStyles:r1038841319">.mw-parser-output .tooltip-dotted{border-bottom:1px dotted;cursor:help}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1382081#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1382081#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="https://www.wikidata.org/wiki/Q1382081#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></span></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">International</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/1802652/">FAST</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000398683569">ISNI</a></span>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000374048122">2</a></span></li></ul></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/268756094">VIAF</a></span>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/3144648108410481087">2</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/73952445">3</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/119222933">4</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/614159234597603372166">5</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/6287160668052703560007">6</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/22938139">7</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/812154380925930290421">8</a></span></li></ul></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n81079488/">WorldCat</a></span></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/812154380925930290421">8</a></span></li></ul></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://authority.bibsys.no/authority/rest/authorities/html/90286859">Norway</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb124717958">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb124717958">(data)</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb124717958">France</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb124717958">BnF data</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/118819372">Germany</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.sbn.it/nome/SBLV137236">Italy</a></span></li>
+<li><span class="uid"><span class="rt-commentedText tooltip tooltip-dotted" title="Sinuthius"><a rel="nofollow" class="external text" href="https://opac.sbn.it/nome/SBLV137236">Italy</a></span></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007268032705171">Israel</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n81079488">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/n81079488">United States</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=uk2005271991&amp;CON_LNG=ENG">Czech Republic</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p084401141">Netherlands</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="http://mak.bn.org.pl/cgi-bin/KHW/makwww.exe?BM=1&amp;NU=1&amp;IM=4&amp;WI=9810545338805606">Poland</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.vatlib.it/auth/detail/495_32528">Vatican</a></span></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118819372.html?language=en">Germany</a></span></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Scientific databases</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://ci.nii.ac.jp/author/DA15457225?l=en">CiNii (Japan)</a></span></li></ul>
+<li><span class="uid"><a class="external text" href="https://wikidata-externalid-url.toolforge.org/?p=8034&amp;url_prefix=https://opac.vatlib.it/auth/detail/&amp;id=495/32528">Vatican</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Academics</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://ci.nii.ac.jp/author/DA15457225?l=en">CiNii</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">People</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118819372.html?language=en">Deutsche Biographie</a></span></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/1802652/">FAST</a></span></li>
-<li><a href="/wiki/RERO_(identifier)" class="mw-redirect" title="RERO (identifier)">RERO (Switzerland)</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://data.rero.ch/02-A010026858">1</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="http://data.rero.ch/02-A000195805">2</a></span></li></ul></li>
-<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/033908575">1</a></span></li></ul></li></ul>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/033908575">IdRef</a></span></li></ul>
 </div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw2335
-Cached time: 20230207150535
+Parsed by mw2387
+Cached time: 20230908155326
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 0.508 seconds
-Real time usage: 0.730 seconds
-Preprocessor visited node count: 1984/1000000
-Post‐expand include size: 97078/2097152 bytes
-Template argument size: 1993/2097152 bytes
+CPU time usage: 0.502 seconds
+Real time usage: 0.689 seconds
+Preprocessor visited node count: 2127/1000000
+Post‐expand include size: 102166/2097152 bytes
+Template argument size: 2166/2097152 bytes
 Highest expansion depth: 14/100
 Expensive parser function count: 23/500
 Unstrip recursion depth: 0/20
-Unstrip post‐expand size: 73617/5000000 bytes
-Lua time usage: 0.297/10.000 seconds
-Lua memory usage: 18711239/52428800 bytes
+Unstrip post‐expand size: 73803/5000000 bytes
+Lua time usage: 0.302/10.000 seconds
+Lua memory usage: 19147115/52428800 bytes
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  600.493      1 -total
- 14.10%   84.690      1 Template:Treccani
- 14.00%   84.079      1 Template:Oriental_Orthodox_sidebar
- 13.64%   81.927      1 Template:Sidebar_with_collapsible_lists
- 13.60%   81.662      1 Template:In_lang
- 13.28%   79.770      6 Template:Cite_book
- 13.18%   79.162      1 Template:Authority_control
- 10.80%   64.850      1 Template:No_footnotes
-  9.12%   54.781      1 Template:Ambox
-  6.45%   38.751      1 Template:Other_uses
+100.00%  568.786      1 -total
+ 15.86%   90.228      6 Template:Cite_book
+ 15.06%   85.640      1 Template:Oriental_Orthodox_sidebar
+ 14.72%   83.750      1 Template:Sidebar_with_collapsible_lists
+ 14.61%   83.107      1 Template:Treccani
+ 14.27%   81.171      1 Template:In_lang
+ 10.10%   57.443      1 Template:Authority_control
+  9.10%   51.770      1 Template:No_footnotes
+  7.65%   43.531      1 Template:Ambox
+  6.50%   36.977      1 Template:Infobox_saint
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:2006208-0!canonical and timestamp 20230207150535 and revision id 1128594730. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2006208-0!canonical and timestamp 20230908155325 and revision id 1128594730. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Shenoute&amp;oldid=1128594730">https://en.wikipedia.org/w/index.php?title=Shenoute&amp;oldid=1128594730</a>"</div></div>
-					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:348_births" title="Category:348 births">348 births</a></li><li><a href="/wiki/Category:466_deaths" title="Category:466 deaths">466 deaths</a></li><li><a href="/wiki/Category:4th-century_births" title="Category:4th-century births">4th-century births</a></li><li><a href="/wiki/Category:5th-century_deaths" title="Category:5th-century deaths">5th-century deaths</a></li><li><a href="/wiki/Category:Saints_from_Roman_Egypt" title="Category:Saints from Roman Egypt">Saints from Roman Egypt</a></li><li><a href="/wiki/Category:Egyptian_hermits" title="Category:Egyptian hermits">Egyptian hermits</a></li><li><a href="/wiki/Category:Egyptian_Christian_monks" title="Category:Egyptian Christian monks">Egyptian Christian monks</a></li><li><a href="/wiki/Category:Longevity_claims" title="Category:Longevity claims">Longevity claims</a></li><li><a href="/wiki/Category:4th-century_Byzantine_monks" title="Category:4th-century Byzantine monks">4th-century Byzantine monks</a></li><li><a href="/wiki/Category:5th-century_Byzantine_monks" title="Category:5th-century Byzantine monks">5th-century Byzantine monks</a></li><li><a href="/wiki/Category:5th-century_Christian_saints" title="Category:5th-century Christian saints">5th-century Christian saints</a></li><li><a href="/wiki/Category:5th-century_Byzantine_writers" title="Category:5th-century Byzantine writers">5th-century Byzantine writers</a></li><li><a href="/wiki/Category:Coptic_history" title="Category:Coptic history">Coptic history</a></li><li><a href="/wiki/Category:Coptic_writers" title="Category:Coptic writers">Coptic writers</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_lacking_in-text_citations_from_April_2017" title="Category:Articles lacking in-text citations from April 2017">Articles lacking in-text citations from April 2017</a></li><li><a href="/wiki/Category:All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_April_2013" title="Category:Articles with unsourced statements from April 2013">Articles with unsourced statements from April 2013</a></li><li><a href="/wiki/Category:CS1_German-language_sources_(de)" title="Category:CS1 German-language sources (de)">CS1 German-language sources (de)</a></li><li><a href="/wiki/Category:Articles_with_Italian-language_sources_(it)" title="Category:Articles with Italian-language sources (it)">Articles with Italian-language sources (it)</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BIBSYS_identifiers" title="Category:Articles with BIBSYS identifiers">Articles with BIBSYS identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_ICCU_identifiers" title="Category:Articles with ICCU identifiers">Articles with ICCU identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_NTA_identifiers" title="Category:Articles with NTA identifiers">Articles with NTA identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_CINII_identifiers" title="Category:Articles with CINII identifiers">Articles with CINII identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_RERO_identifiers" title="Category:Articles with RERO identifiers">Articles with RERO identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li></ul></div></div>
-					
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:348_births" title="Category:348 births">348 births</a></li><li><a href="/wiki/Category:466_deaths" title="Category:466 deaths">466 deaths</a></li><li><a href="/wiki/Category:4th-century_births" title="Category:4th-century births">4th-century births</a></li><li><a href="/wiki/Category:5th-century_deaths" title="Category:5th-century deaths">5th-century deaths</a></li><li><a href="/wiki/Category:Saints_from_Roman_Egypt" title="Category:Saints from Roman Egypt">Saints from Roman Egypt</a></li><li><a href="/wiki/Category:Egyptian_hermits" title="Category:Egyptian hermits">Egyptian hermits</a></li><li><a href="/wiki/Category:Egyptian_Christian_monks" title="Category:Egyptian Christian monks">Egyptian Christian monks</a></li><li><a href="/wiki/Category:Longevity_claims" title="Category:Longevity claims">Longevity claims</a></li><li><a href="/wiki/Category:4th-century_Byzantine_monks" title="Category:4th-century Byzantine monks">4th-century Byzantine monks</a></li><li><a href="/wiki/Category:5th-century_Byzantine_monks" title="Category:5th-century Byzantine monks">5th-century Byzantine monks</a></li><li><a href="/wiki/Category:5th-century_Christian_saints" title="Category:5th-century Christian saints">5th-century Christian saints</a></li><li><a href="/wiki/Category:5th-century_Byzantine_writers" title="Category:5th-century Byzantine writers">5th-century Byzantine writers</a></li><li><a href="/wiki/Category:Coptic_history" title="Category:Coptic history">Coptic history</a></li><li><a href="/wiki/Category:Coptic_writers" title="Category:Coptic writers">Coptic writers</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_lacking_in-text_citations_from_April_2017" title="Category:Articles lacking in-text citations from April 2017">Articles lacking in-text citations from April 2017</a></li><li><a href="/wiki/Category:All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_April_2013" title="Category:Articles with unsourced statements from April 2013">Articles with unsourced statements from April 2013</a></li><li><a href="/wiki/Category:CS1_German-language_sources_(de)" title="Category:CS1 German-language sources (de)">CS1 German-language sources (de)</a></li><li><a href="/wiki/Category:Articles_with_Italian-language_sources_(it)" title="Category:Articles with Italian-language sources (it)">Articles with Italian-language sources (it)</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_BIBSYS_identifiers" title="Category:Articles with BIBSYS identifiers">Articles with BIBSYS identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNFdata_identifiers" title="Category:Articles with BNFdata identifiers">Articles with BNFdata identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_ICCU_identifiers" title="Category:Articles with ICCU identifiers">Articles with ICCU identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_NTA_identifiers" title="Category:Articles with NTA identifiers">Articles with NTA identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_CINII_identifiers" title="Category:Articles with CINII identifiers">Articles with CINII identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li></ul></div></div>
 				</div>
-				
 			</main>
 			
 		</div>
@@ -1176,24 +1161,25 @@ Transclusion expansion time report (%,ms,calls,template)
 <footer id="footer" class="mw-footer" role="contentinfo" >
 	<ul id="footer-info">
 	<li id="footer-info-lastmod"> This page was last edited on 20 December 2022, at 23:40<span class="anonymous-show">&#160;(UTC)</span>.</li>
-	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a><a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" style="display:none;"></a>;
 additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
 </ul>
 
 	<ul id="footer-places">
-	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
 	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
 	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
 	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal_Code_of_Conduct">Code of Conduct</a></li>
 	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Shenoute&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
 	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
 	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
-	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
 </ul>
 
 	<ul id="footer-icons" class="noprint">
 	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
-	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
 </ul>
 
 </footer>
@@ -1201,9 +1187,16 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 		</div>
 	</div> 
 </div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li><button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.508","walltime":"0.730","ppvisitednodes":{"value":1984,"limit":1000000},"postexpandincludesize":{"value":97078,"limit":2097152},"templateargumentsize":{"value":1993,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":23,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":73617,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  600.493      1 -total"," 14.10%   84.690      1 Template:Treccani"," 14.00%   84.079      1 Template:Oriental_Orthodox_sidebar"," 13.64%   81.927      1 Template:Sidebar_with_collapsible_lists"," 13.60%   81.662      1 Template:In_lang"," 13.28%   79.770      6 Template:Cite_book"," 13.18%   79.162      1 Template:Authority_control"," 10.80%   64.850      1 Template:No_footnotes","  9.12%   54.781      1 Template:Ambox","  6.45%   38.751      1 Template:Other_uses"]},"scribunto":{"limitreport-timeusage":{"value":"0.297","limit":"10.000"},"limitreport-memusage":{"value":18711239,"limit":52428800},"limitreport-logs":"table#1 {\n    [\"size\"] = \"tiny\",\n}\ntable#1 {\n    [\"size\"] = \"tiny\",\n}\n"},"cachereport":{"origin":"mw2335","timestamp":"20230207150535","ttl":1814400,"transientcontent":false}}});});</script>
+<span>Toggle limited content width</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2412","wgBackendResponseTime":111,"wgPageParseReport":{"limitreport":{"cputime":"0.502","walltime":"0.689","ppvisitednodes":{"value":2127,"limit":1000000},"postexpandincludesize":{"value":102166,"limit":2097152},"templateargumentsize":{"value":2166,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":23,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":73803,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  568.786      1 -total"," 15.86%   90.228      6 Template:Cite_book"," 15.06%   85.640      1 Template:Oriental_Orthodox_sidebar"," 14.72%   83.750      1 Template:Sidebar_with_collapsible_lists"," 14.61%   83.107      1 Template:Treccani"," 14.27%   81.171      1 Template:In_lang"," 10.10%   57.443      1 Template:Authority_control","  9.10%   51.770      1 Template:No_footnotes","  7.65%   43.531      1 Template:Ambox","  6.50%   36.977      1 Template:Infobox_saint"]},"scribunto":{"limitreport-timeusage":{"value":"0.302","limit":"10.000"},"limitreport-memusage":{"value":19147115,"limit":52428800},"limitreport-logs":"table#1 {\n    [\"size\"] = \"tiny\",\n}\ntable#1 {\n    [\"size\"] = \"tiny\",\n}\n"},"cachereport":{"origin":"mw2387","timestamp":"20230908155326","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Shenoute","url":"https:\/\/en.wikipedia.org\/wiki\/Shenoute","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1382081","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1382081","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-06-07T21:56:36Z","dateModified":"2022-12-20T23:40:18Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/ee\/Shenoute_of_Atripe.jpg","headline":"Egyptian saint"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Shenoute","url":"https:\/\/en.wikipedia.org\/wiki\/Shenoute","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1382081","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1382081","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-06-07T21:56:36Z","dateModified":"2022-12-20T23:40:18Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/ee\/Shenoute_of_Atripe.jpg","headline":"Egyptian saint"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":132,"wgHostname":"mw2274"});});</script>
 </body>
 </html>

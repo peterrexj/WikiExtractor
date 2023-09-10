@@ -1,262 +1,107 @@
 <!DOCTYPE html>
-<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled" lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8"/>
+<meta charset="UTF-8">
 <title>Guthlac of Crowland - Wikipedia</title>
-<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"a5b3c7a0-6ad0-44d0-938f-f51c4ec3cf47",
-"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Guthlac_of_Crowland","wgTitle":"Guthlac of Crowland","wgCurRevisionId":1107498470,"wgRevisionId":1107498470,"wgArticleId":1587391,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with bare URLs for citations","Articles with bare URLs for citations from March 2022","Articles with PDF format bare URLs for citations","Articles with short description","Short description is different from Wikidata","EngvarB from August 2014","Use dmy dates from August 2014","Articles containing Old English (ca. 450-1100)-language text","Articles containing Latin-language text","Commons category link is on Wikidata","Articles with ISNI identifiers","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with BNF identifiers","Articles with GND identifiers","Articles with J9U identifiers",
-"Articles with LCCN identifiers","Articles with NKC identifiers","Articles with PLWABN identifiers","Articles with VcBA identifiers","Articles with DTBIO identifiers","Articles with FAST identifiers","Articles with SNAC-ID identifiers","Articles with SUDOC identifiers","Articles with Trove identifiers","673 births","714 deaths","7th-century English people","8th-century English people","English hermits","Eastern Orthodox monks","East Anglian saints","Miracle workers","8th-century Christian saints","Incorrupt saints","People from Lincolnshire","Angelic visionaries"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Guthlac_of_Crowland","wgRelevantArticleId":1587391,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Guthlac","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},
-"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Guthlac_of_Crowland","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q1382565","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready",
-"mediawiki.page.gallery.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","mediawiki.page.gallery","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups"
-,"ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.page.gallery.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
+"September","October","November","December"],"wgRequestId":"e9d6eebb-7c29-42b3-9f2e-1ebea318f3d6","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Guthlac_of_Crowland","wgTitle":"Guthlac of Crowland","wgCurRevisionId":1173483507,"wgRevisionId":1173483507,"wgArticleId":1587391,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with bare URLs for citations","Articles with bare URLs for citations from March 2022","Articles with PDF format bare URLs for citations","Articles with short description","Short description is different from Wikidata","EngvarB from August 2014","Use dmy dates from August 2014","Articles containing Old English (ca. 450-1100)-language text","Articles containing Latin-language text","Commons category link is on Wikidata","Articles with FAST identifiers","Articles with ISNI identifiers","Articles with VIAF identifiers",
+"Articles with BNF identifiers","Articles with BNFdata identifiers","Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Articles with NKC identifiers","Articles with PLWABN identifiers","Articles with VcBA identifiers","Articles with DTBIO identifiers","Articles with Trove identifiers","Articles with SNAC-ID identifiers","Articles with SUDOC identifiers","673 births","714 deaths","7th-century English people","8th-century English people","English hermits","Eastern Orthodox monks","East Anglian saints","Miracle workers","8th-century Christian saints","Incorrupt saints","People from Lincolnshire","Angelic visionaries"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Guthlac_of_Crowland","wgRelevantArticleId":1587391,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Guthlac","wgVisualEditor":{
+"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Guthlac_of_Crowland","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q1382565","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,
+"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.page.gallery.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","mediawiki.page.gallery","mediawiki.page.media","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming",
+"ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.page.gallery.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
 <script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
-<meta name="ResourceLoaderDynamicStyles" content=""/>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
-<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
-<meta name="referrer" content="origin"/>
-<meta name="referrer" content="origin-when-crossorigin"/>
-<meta name="referrer" content="origin-when-cross-origin"/>
-<meta name="robots" content="max-image-preview:standard"/>
-<meta name="format-detection" content="telephone=no"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/4/4d/St_Guthlac%2C_Croyland_Abbey.JPG"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="2800"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/4/4d/St_Guthlac%2C_Croyland_Abbey.JPG"/>
-<meta property="og:image:width" content="800"/>
-<meta property="og:image:height" content="1867"/>
-<meta property="og:image:width" content="640"/>
-<meta property="og:image:height" content="1493"/>
-<meta name="viewport" content="width=1000"/>
-<meta property="og:title" content="Guthlac of Crowland - Wikipedia"/>
-<meta property="og:type" content="website"/>
-<link rel="preconnect" href="//upload.wikimedia.org"/>
-<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Guthlac_of_Crowland"/>
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit"/>
-<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
-<link rel="icon" href="/static/favicon/wikipedia.ico"/>
-<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
-<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
-<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
-<link rel="canonical" href="https://en.wikipedia.org/wiki/Guthlac_of_Crowland"/>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.41.0-wmf.25">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-crossorigin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/4/4d/St_Guthlac%2C_Croyland_Abbey.JPG">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="2800">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/4/4d/St_Guthlac%2C_Croyland_Abbey.JPG">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="1867">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="1493">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Guthlac of Crowland - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Guthlac_of_Crowland">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Guthlac_of_Crowland">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
 <link rel="dns-prefetch" href="//meta.wikimedia.org" />
-<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org">
 </head>
-<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Guthlac_of_Crowland rootpage-Guthlac_of_Crowland skin-vector-2022 action-view"><div class="mw-page-container">
-	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
-	<div class="mw-page-container-inner">
-		<input
-			type="checkbox"
-			id="mw-sidebar-checkbox"
-			class="mw-checkbox-hack-checkbox"
-			>
-		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
-			<div class="vector-header-start">
-					<label
-				id="mw-sidebar-button"
-				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
-				for="mw-sidebar-checkbox"
-				role="button"
-				aria-controls="mw-panel"
-				data-event-name="ui.sidebar"
-				tabindex="0"
-				title="Main menu">
-				<span>Toggle sidebar</span>
-			</label>
-		
-<a href="/wiki/Main_Page" class="mw-logo">
-	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
-		aria-hidden="true" height="50" width="50">
-	<span class="mw-logo-container">
-		<img class="mw-logo-wordmark" alt="Wikipedia"
-			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
-		<img class="mw-logo-tagline"
-			alt="The Free Encyclopedia"
-			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
-	</span>
-</a>
-
-			</div>
-			<div class="vector-header-end">
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Guthlac_of_Crowland rootpage-Guthlac_of_Crowland skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
 				
-<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
-	<a href="/wiki/Special:Search"
-	
-		
-		
-		
-		title="Search Wikipedia [f]"
-		accesskey="f"
-		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
-		<span>Search</span>
-	</a>
-	
-	<div>
-		<form action="/w/index.php" id="searchform"
-			class="vector-search-box-form">
-			<div id="simpleSearch"
-				class="vector-search-box-inner"
-				 data-search-loc="header-moved">
-				<input class="vector-search-box-input"
-					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
-				>
-				<input type="hidden" name="title" value="Special:Search">
-				<input id="mw-searchButton"
-					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
-				<input id="searchButton"
-					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
-			</div>
-		</form>
-	</div>
-</div>
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
 
-				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
-	
-<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
-	<div class="vector-menu-heading">
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
 		
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Guthlac+of+Crowland" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
-		
-	</div>
-</div>
-
-	
-	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
-		<input type="checkbox"
-			id="p-personal-checkbox"
-			role="button"
-			aria-haspopup="true"
-			data-event-name="ui.dropdown-p-personal"
-			class="vector-menu-checkbox "
-			
-			
-		/>
-		<label
-			id="p-personal-label"
-			for="p-personal-checkbox"
-			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
-			
-		>
-			<span class="vector-menu-heading-label">Personal tools</span>
-		</label>
-		<div class="vector-menu-content">
-	
-		<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Guthlac+of+Crowland"
-	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
-</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:UserLogin&amp;returnto=Guthlac+of+Crowland"
-	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
-</li></ul>
-	
-</div>
-
-		<div class="vector-user-menu-anon-editor">
-			<p>
-				Pages for logged out editors <a data-mw="interface"
-	href="/wiki/Help:Introduction"
-	 aria-label="Learn more about editing"><span>learn more</span></a>
-
-			</p>
-		</div>
-				<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
-	
-</div>
-
-	
-		</div>
-	</div></nav>
-
-			</div>
-		</header>
-		<div class="vector-main-menu-container ">
-			<div id="mw-navigation">
-				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
-						
 <div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
-	
-	
-<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
 	<div
-		id="p-navigation-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Navigation</span>
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 	
 	
-<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
-	<div
-		id="p-interaction-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Contribute</span>
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
-	<div
-		id="p-tb-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Tools</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Guthlac_of_Crowland" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Guthlac_of_Crowland" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;oldid=1107498470" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Guthlac_of_Crowland&amp;id=1107498470&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1382565" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
-	<div
-		id="p-coll-print_export-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Print/export</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Guthlac_of_Crowland&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
-	<div
-		id="p-wikibase-otherprojects-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">In other projects</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Guthlac" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -266,29 +111,135 @@
 	<div class="vector-main-menu-action-item">
 		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
 		<div class="vector-main-menu-action-content vector-menu-content">
-			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Language links are at the top of the page across from the title.</div></div>
 		</div>
 	</div>
 </div>
 
-
 </div>
 
-				</nav>
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Guthlac+of+Crowland" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Guthlac+of+Crowland" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Guthlac+of+Crowland" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Guthlac+of+Crowland" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+					<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+					</div>
+		</nav>
 			</div>
 		</div>
 		<div class="vector-sitenotice-container">
 			<div id="siteNotice"><!-- CentralNotice --></div>
 		</div>
-		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
-		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="vector-menu-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark vector-sticky-pinned-container">
 			<div id="vector-toc-pinned-container" class="vector-pinned-container">
-			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
 	<div
 	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
-	data-name="vector-toc"
-	
-	
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
 	
 	
 >
@@ -372,8 +323,9 @@
 			<span class="vector-toc-numb">7</span>Further reading</div>
 		</a>
 		
-			<button aria-controls="toc-Further_reading-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
-				
+			<button aria-controls="toc-Further_reading-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Toggle Further reading subsection</span>
 			</button>
 		
 		<ul id="toc-Further_reading-sublist" class="vector-toc-list">
@@ -413,82 +365,61 @@
 </div>
 
 			</div>
-</nav>
+		</nav>
 		<div class="mw-content-container">
 			<main id="content" class="mw-body" role="main">
 				<header class="mw-body-header vector-page-titlebar">
 					<label
 						id="vector-toc-collapsed-button"
-						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet vector-button-flush-left cdx-button--icon-only"
 						for="vector-toc-collapsed-checkbox"
 						role="button"
-						aria-controls="toc-toggle-list"
-						data-event-name="vector.toc-toggle-list"
+						aria-controls="vector-toc"
 						tabindex="0"
 						title="Table of Contents">
-						Toggle the table of contents
+						<span class="vector-icon mw-ui-icon-wikimedia-listBullet"></span>
+						<span>Toggle the table of contents</span>
 					</label>
-				
-					
-<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
-	<input type="checkbox"
-		id="vector-page-titlebar-toc-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-vector-page-titlebar-toc"
-		class="vector-menu-checkbox "
-		
-		
-	/>
-	<label
-		id="vector-page-titlebar-toc-label"
-		for="vector-page-titlebar-toc-checkbox"
-		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
-		
-	>
-		<span class="vector-menu-heading-label"></span>
+					<nav role="navigation" aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 
-						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
-		</div>
-	
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
 	</div>
 </div>
-				
+
+					</nav>
 					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Guthlac of Crowland</span></h1>
-				
 							
-<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
-	<input type="checkbox"
-		id="p-lang-btn-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-lang-btn"
-		class="vector-menu-checkbox mw-interlanguage-selector"
-		aria-label="Go to an article in another language. Available in 10 languages"
-		
-	/>
-	<label
-		id="p-lang-btn-label"
-		for="p-lang-btn-checkbox"
-		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-10"
-		
-	>
-		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">10 languages</span>
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 9 languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-9" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">9 languages</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 		<div class="vector-menu-content">
 			
-			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Guthlac" title="Guthlac – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Guthlac_de_Crowland" title="Guthlac de Crowland – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Guthlac" title="Guthlac – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Guthlac_de_Croyland" title="Guthlac de Croyland – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Guthlac_dari_Crowland" title="Guthlac dari Crowland – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Guthlac" title="Guthlac – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Gutlak_z_Crowland" title="Gutlak z Crowland – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Gustavo_de_Croyland" title="Gustavo de Croyland – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%93%D1%83%D1%82%D0%BB%D0%B0%D0%BA_%D0%9A%D1%80%D0%BE%D1%83%D0%BB%D0%B0%D0%BD%D0%B4%D1%81%D0%BA%D0%B8%D0%B9" title="Гутлак Кроуландский – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D2%90%D1%83%D1%82%D0%BB%D0%B0%D0%BA_%D0%9A%D1%80%D0%BE%D1%83%D0%BB%D0%B0%D0%BD%D0%B4%D1%81%D1%8C%D0%BA%D0%B8%D0%B9" title="Ґутлак Кроуландський – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li></ul>
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Guthlac" title="Guthlac – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Guthlac_de_Crowland" title="Guthlac de Crowland – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Guthlac" title="Guthlac – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Guthlac_de_Croyland" title="Guthlac de Croyland – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Guthlac_dari_Crowland" title="Guthlac dari Crowland – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Guthlac" title="Guthlac – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Gutlak_z_Crowland" title="Gutlak z Crowland – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%93%D1%83%D1%82%D0%BB%D0%B0%D0%BA_%D0%9A%D1%80%D0%BE%D1%83%D0%BB%D0%B0%D0%BD%D0%B4%D1%81%D0%BA%D0%B8%D0%B9" title="Гутлак Кроуландский – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D2%90%D1%83%D1%82%D0%BB%D0%B0%D0%BA_%D0%9A%D1%80%D0%BE%D1%83%D0%BB%D0%B0%D0%BD%D0%B4%D1%81%D1%8C%D0%BA%D0%B8%D0%B9" title="Ґутлак Кроуландський – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li>
+			</ul>
 			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1382565#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
 		</div>
 
 	</div>
 </div>
-				</header>
+</header>
 				<div class="vector-page-toolbar">
 					<div class="vector-page-toolbar-container">
 						<div id="left-navigation">
@@ -497,41 +428,38 @@
 <div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Guthlac_of_Crowland" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Guthlac_of_Crowland" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Guthlac_of_Crowland" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Guthlac_of_Crowland" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 								
-
-<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
-	<input type="checkbox"
-		id="p-variants-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-variants"
-		class="vector-menu-checkbox"
-		aria-label="Change language variant"
-		
-	/>
-	<label
-		id="p-variants-label"
-		for="p-variants-checkbox"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">English</span>
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"></ul>
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
 		
-	</div>
-
 	</div>
 </div>
+
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 						<div id="right-navigation" class="vector-collapsible">
@@ -540,7 +468,10 @@
 <div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Guthlac_of_Crowland"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Guthlac_of_Crowland"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -549,40 +480,103 @@
 				
 							<nav class="vector-page-tools-landmark" aria-label="More options">
 								
-
-<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
-	<input type="checkbox"
-		id="p-cactions-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-cactions"
-		class="vector-menu-checkbox"
-		
-		
-	/>
-	<label
-		id="p-cactions-label"
-		for="p-cactions-checkbox"
-		class="vector-menu-heading"
-		
-	>
-		<span class="vector-menu-heading-label">More</span>
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Guthlac_of_Crowland"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=history"><span>View history</span></a></li></ul>
-		
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
 	</div>
-
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Guthlac_of_Crowland"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
 	</div>
 </div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Guthlac_of_Crowland" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Guthlac_of_Crowland" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;oldid=1173483507" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Guthlac_of_Crowland&amp;id=1173483507&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1382565" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Guthlac_of_Crowland&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Guthlac_of_Crowland&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Guthlac" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiquote mw-list-item"><a href="https://en.wikiquote.org/wiki/Saint_Guthlac" hreflang="en"><span>Wikiquote</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 					</div>
 				</div>
-				
+				<div class="vector-column-end">
+					<nav class="vector-page-tools-landmark vector-sticky-pinned-container" aria-label="More options">
+						<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+			
+						</div>
+	</nav>
+				</div>
 				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
 					<div class="vector-body-before-content">
 							<div class="mw-indicators">
@@ -597,12 +591,12 @@
 <p class="mw-empty-elt">
 
 </p>
-<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div style="display:inline;" class="fn">Saint Guthlac of Crowland</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:St_Guthlac,_Croyland_Abbey.JPG" class="image"><img alt="St Guthlac, Croyland Abbey.JPG" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/St_Guthlac%2C_Croyland_Abbey.JPG/150px-St_Guthlac%2C_Croyland_Abbey.JPG" decoding="async" width="150" height="350" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/St_Guthlac%2C_Croyland_Abbey.JPG/225px-St_Guthlac%2C_Croyland_Abbey.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4d/St_Guthlac%2C_Croyland_Abbey.JPG/300px-St_Guthlac%2C_Croyland_Abbey.JPG 2x" data-file-width="345" data-file-height="805" /></a><div class="infobox-caption">St Guthlac holding the scourge given to him by St Bartholomew, with a demon lying at his feet. A 15th-century statue from the second tier of the ruined nave of <a href="/wiki/Croyland_Abbey" class="mw-redirect" title="Croyland Abbey">Croyland Abbey</a></div></td></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">673<br /><a href="/wiki/Kingdom_of_Mercia" class="mw-redirect" title="Kingdom of Mercia">Kingdom of Mercia</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">714<br />Croyland, Kingdom of Mercia</td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Roman_Catholic_Church" class="mw-redirect" title="Roman Catholic Church">Roman Catholic Church</a><br /><a href="/wiki/Eastern_Orthodox_Church" title="Eastern Orthodox Church">Eastern Orthodox Church</a><br /><a href="/wiki/Anglican_Church" class="mw-redirect" title="Anglican Church">Anglican Church</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">11 April</td></tr></tbody></table>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><tbody><tr><th colspan="2" class="infobox-above n" style="background-color:gold;"><div class="honorific-prefix" style="display:inline;font-size: 77%; font-weight: normal;"><a href="/wiki/Saint" title="Saint">Saint</a></div><br /><div style="display:inline;" class="fn">Guthlac of Crowland</div></th></tr><tr><td colspan="2" class="infobox-image"><span typeof="mw:File"><a href="/wiki/File:St_Guthlac,_Croyland_Abbey.JPG" class="mw-file-description"><img alt="St Guthlac holding the scourge given to him by St Bartholomew, with a demon lying at his feet." src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/St_Guthlac%2C_Croyland_Abbey.JPG/150px-St_Guthlac%2C_Croyland_Abbey.JPG" decoding="async" width="150" height="350" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/St_Guthlac%2C_Croyland_Abbey.JPG/225px-St_Guthlac%2C_Croyland_Abbey.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4d/St_Guthlac%2C_Croyland_Abbey.JPG/300px-St_Guthlac%2C_Croyland_Abbey.JPG 2x" data-file-width="345" data-file-height="805" /></a></span><div class="infobox-caption">A 15th-century statue from the second tier of the ruined nave of <a href="/wiki/Croyland_Abbey" class="mw-redirect" title="Croyland Abbey">Croyland Abbey</a></div></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:gold;"><a href="/wiki/Hermit" title="Hermit">Hermit</a></th></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data">673<br /><a href="/wiki/Kingdom_of_Mercia" class="mw-redirect" title="Kingdom of Mercia">Kingdom of Mercia</a></td></tr><tr><th scope="row" class="infobox-label">Died</th><td class="infobox-data">714 (aged&#160;40&#8211;41)<br />Croyland, Kingdom of Mercia</td></tr><tr><th scope="row" class="infobox-label">Venerated&#160;in</th><td class="infobox-data"><a href="/wiki/Roman_Catholic_Church" class="mw-redirect" title="Roman Catholic Church">Roman Catholic Church</a><br /><a href="/wiki/Eastern_Orthodox_Church" title="Eastern Orthodox Church">Eastern Orthodox Church</a><br /><a href="/wiki/Anglican_Church" class="mw-redirect" title="Anglican Church">Anglican Church</a></td></tr><tr><th scope="row" class="infobox-label"><span class="nowrap">Major <a href="/wiki/Shrine" title="Shrine">shrine</a></span></th><td class="infobox-data"><a href="/wiki/Crowland_Abbey" title="Crowland Abbey">Crowland Abbey</a> <br /> (until 1539)</td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Calendar_of_saints" title="Calendar of saints">Feast</a></th><td class="infobox-data">11 April</td></tr></tbody></table>
 <p><b>Saint Guthlac of Crowland</b> (<a href="/wiki/Old_English_language" class="mw-redirect" title="Old English language">Old English</a>&#58; <span title="Old English (ca. 450-1100)-language text"><i lang="ang">Gūðlāc</i></span>; <a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Guthlacus</i>; 674 – 3 April 714 CE) was a Christian <a href="/wiki/Hermit" title="Hermit">hermit</a> and <a href="/wiki/Saint" title="Saint">saint</a> from <a href="/wiki/Lincolnshire" title="Lincolnshire">Lincolnshire</a> in England. He is particularly venerated in <a href="/wiki/The_Fens" title="The Fens">the Fens</a> of eastern England.
 </p>
 <meta property="mw:PageProp/toc" />
 <h2><span class="mw-headline" id="Life">Life</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit&amp;section=1" title="Edit section: Life">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png/220px-Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png" decoding="async" width="220" height="304" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png/330px-Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png/440px-Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png 2x" data-file-width="874" data-file-height="1207" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png" class="internal" title="Enlarge"></a></div>Beginning of Felix's <i>Life of St Guthlac</i>, 8C, <a href="/wiki/Parker_Library,_Corpus_Christi_College" title="Parker Library, Corpus Christi College">Parker Library, Corpus Christi College</a></div></div></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/wiki/File:Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png/220px-Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png" decoding="async" width="220" height="304" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png/330px-Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png/440px-Vita-Guthlaci-Parker-Library-Corpus-Christi-Cambridge.png 2x" data-file-width="874" data-file-height="1207" /></a><figcaption>Beginning of Felix's <i>Life of St Guthlac</i>, 8C, <a href="/wiki/Parker_Library,_Corpus_Christi_College" title="Parker Library, Corpus Christi College">Parker Library, Corpus Christi College</a></figcaption></figure>
 <p>Guthlac was the son of Penwalh or Penwald, a noble of the English kingdom of <a href="/wiki/Mercia" title="Mercia">Mercia</a>, and his wife Tette. His sister is also venerated as St <a href="/wiki/Pega" title="Pega">Pega</a>. As a young man, Guthlac fought in the army of <a href="/wiki/%C3%86thelred_of_Mercia" title="Æthelred of Mercia">Æthelred of Mercia</a>. He subsequently became a monk at <a href="/wiki/Repton" title="Repton">Repton Monastery</a> in <a href="/wiki/Derbyshire" title="Derbyshire">Derbyshire</a> at the age of 24, under the abbess there, Repton being a double monastery. Two years later he sought to live the life of a <a href="/wiki/Hermit" title="Hermit">hermit</a>, and moved out to the island of <a href="/wiki/Crowland" title="Crowland">Croyland, now called Crowland</a>, on <a href="/wiki/St_Bartholomew%27s_Day" class="mw-redirect" title="St Bartholomew&#39;s Day">St Bartholomew's Day</a>, 699. His early biographer Felix asserts that Guthlac could understand the <i>strimulentes loquelas</i> ("sibilant speech")<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> of British-speaking demons who haunted him there, only because Guthlac had spent some time in exile among <a href="/wiki/Celtic_Britons" title="Celtic Britons">Celtic Britons</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup>
 </p><p>Guthlac built a small <a href="/wiki/Oratory_(worship)" title="Oratory (worship)">oratory</a> and <a href="/wiki/Monastery" title="Monastery">cells</a> in the side of a plundered <a href="/wiki/Tumulus" title="Tumulus">barrow</a> on the island. There he lived until his death on 11 April 714. Felix, writing within living memory of Guthlac, described his hermit's life:
 </p>
@@ -610,11 +604,11 @@
 <p>Guthlac suffered from <a href="/wiki/Fever" title="Fever">ague</a> and <a href="/wiki/Marsh_fever" class="mw-redirect" title="Marsh fever">marsh fever</a>.
 </p><p>Guthlac's pious and holy ascetic life became the talk of the land, and many people visited Guthlac during his life to seek spiritual guidance from him. He gave sanctuary to <a href="/wiki/%C3%86thelbald_of_Mercia" title="Æthelbald of Mercia">Æthelbald</a>, future king of <a href="/wiki/Mercia" title="Mercia">Mercia</a>, who was fleeing from his cousin <a href="/wiki/Ceolred_of_Mercia" title="Ceolred of Mercia">Ceolred</a>. Guthlac predicted that Æthelbald would become king, and Æthelbald promised to build him an <a href="/wiki/Abbey" title="Abbey">abbey</a> if his prophecy became true. Æthelbald indeed became king, and even though Guthlac had died two years before, he kept his word and started to build <a href="/wiki/Crowland_Abbey" title="Crowland Abbey">Crowland Abbey</a> on St Bartholomew's Day, 716. Guthlac's feast day is celebrated on 11 April.
 </p>
-<div class="thumb tleft"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Guthlac-Bartholemew.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Guthlac-Bartholemew.png/220px-Guthlac-Bartholemew.png" decoding="async" width="220" height="198" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Guthlac-Bartholemew.png/330px-Guthlac-Bartholemew.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Guthlac-Bartholemew.png/440px-Guthlac-Bartholemew.png 2x" data-file-width="3400" data-file-height="3060" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Guthlac-Bartholemew.png" class="internal" title="Enlarge"></a></div>St Guthlac, tormented by demons, is handed a <a href="/wiki/Scourge" title="Scourge">scourge</a> by <a href="/wiki/St_Bartholomew" class="mw-redirect" title="St Bartholomew">St Bartholomew</a>, <i>Guthlac Roll</i>, 1210, <a href="/wiki/British_Library" title="British Library">British Library</a></div></div></div>
-<div class="thumb tright"><div class="thumbinner" style="width:122px;"><a href="/wiki/File:St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg/120px-St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg" decoding="async" width="120" height="180" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg/180px-St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8d/St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg/240px-St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg 2x" data-file-width="427" data-file-height="640" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg" class="internal" title="Enlarge"></a></div>St Guthlac's cross from c 1200, inscribed <i>Hanc Petra Guthlac ...</i>, marked the boundary of Crowland Abbey</div></div></div>
+<figure class="mw-default-size mw-halign-left" typeof="mw:File/Thumb"><a href="/wiki/File:Guthlac-Bartholemew.png" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Guthlac-Bartholemew.png/220px-Guthlac-Bartholemew.png" decoding="async" width="220" height="198" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Guthlac-Bartholemew.png/330px-Guthlac-Bartholemew.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Guthlac-Bartholemew.png/440px-Guthlac-Bartholemew.png 2x" data-file-width="3400" data-file-height="3060" /></a><figcaption>St Guthlac, tormented by demons, is handed a <a href="/wiki/Scourge" title="Scourge">scourge</a> by <a href="/wiki/St_Bartholomew" class="mw-redirect" title="St Bartholomew">St Bartholomew</a>, <i>Guthlac Roll</i>, 1210, <a href="/wiki/British_Library" title="British Library">British Library</a></figcaption></figure>
+<figure typeof="mw:File/Thumb"><a href="/wiki/File:St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg/120px-St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg" decoding="async" width="120" height="180" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg/180px-St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8d/St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg/240px-St.Guthlac%27s_Cross_-_geograph.org.uk_-_593623.jpg 2x" data-file-width="427" data-file-height="640" /></a><figcaption>St Guthlac's cross from c 1200, inscribed <i>Hanc Petra Guthlac ...</i>, marked the boundary of Crowland Abbey</figcaption></figure>
 <p>The 8th-century Latin <i>Vita sancti Guthlaci</i>, written by Felix, describes the entry of the demons into Guthlac's cell:<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup><sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup>
 </p>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r996844942"/><blockquote class="templatequote"><p>They were ferocious in appearance, terrible in shape with great heads, long necks, thin faces, yellow complexions, filthy beards, shaggy ears, wild foreheads, fierce eyes, foul mouths, horses' teeth, throats vomiting flames, twisted jaws, thick lips, strident voices, singed hair, fat cheeks, pigeons breasts, scabby thighs, knotty knees, crooked legs, swollen ankles, splay feet, spreading mouths, raucous cries. For they grew so terrible to hear with their mighty shriekings that they filled almost the whole intervening space between earth and heaven with their discordant bellowings.</p></blockquote>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r996844942"><blockquote class="templatequote"><p>They were ferocious in appearance, terrible in shape with great heads, long necks, thin faces, yellow complexions, filthy beards, shaggy ears, wild foreheads, fierce eyes, foul mouths, horses' teeth, throats vomiting flames, twisted jaws, thick lips, strident voices, singed hair, fat cheeks, pigeons breasts, scabby thighs, knotty knees, crooked legs, swollen ankles, splay feet, spreading mouths, raucous cries. For they grew so terrible to hear with their mighty shriekings that they filled almost the whole intervening space between earth and heaven with their discordant bellowings.</p></blockquote>
 <p>Felix records Guthlac's foreknowledge of his own death, conversing with angels in his last days. At the moment of death a sweet nectar-like odour emanated from his mouth, as his soul departed from his body in a beam of light while the angels sang. Guthlac had requested a lead coffin and linen winding sheet from Ecgburh, Abbess of <a href="/wiki/Repton_Abbey" title="Repton Abbey">Repton Abbey</a>, so that his funeral rites could be performed by his sister <a href="/wiki/Pega" title="Pega">Pega</a>. Arriving the day after his death, she found the island of Crowland filled with the scent of ambrosia. She buried the body on the mound after three days of prayer. A year later Pega had a divine calling to move the tomb and relics to a nearby chapel: Guthlac's body is said to have been discovered uncorrupted, his shroud shining with light. Subsequently Guthlac appeared in a miraculous vision to <a href="/wiki/%C3%86thelbald_of_Mercia" title="Æthelbald of Mercia">Æthelbald</a>, prophesying he would be future <a href="/wiki/King_of_Mercia" class="mw-redirect" title="King of Mercia">King of Mercia</a>.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup> The cult of Guthlac continued amongst a monastic community at Crowland, with the eventual foundation of <a href="/wiki/Crowland_Abbey" title="Crowland Abbey">Crowland Abbey</a> as a <a href="/wiki/Benedictine_Order" class="mw-redirect" title="Benedictine Order">Benedictine Order</a> in 971. A series of fires at the abbey mean that few records survive from before the 12th century. It is known that in 1136 the remains of Guthlac were moved once more, and that finally in 1196 his shrine was placed above the main altar.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>
 </p>
 <h2><span class="mw-headline" id="Other_accounts">Other accounts</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit&amp;section=2" title="Edit section: Other accounts">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
@@ -627,7 +621,7 @@ The story of Guthlac is told pictorially in the <i>Guthlac Roll</i>, a set of de
 </p><p>For a discussion of the name “Guthlac” see Paul Cavill's essay "The naming of Guthlac".<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup>
 </p>
 <h2><span class="mw-headline" id="St_Guthlac_Fellowship">St Guthlac Fellowship</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit&amp;section=3" title="Edit section: St Guthlac Fellowship">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/wiki/File:Quatrefoil,_St._Guthlac,_Croyland_Abbey.JPG" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG/180px-Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG" decoding="async" width="180" height="180" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG/270px-Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/82/Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG/360px-Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG 2x" data-file-width="915" data-file-height="917" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Quatrefoil,_St._Guthlac,_Croyland_Abbey.JPG" class="internal" title="Enlarge"></a></div>Crowland Abbey's 13th-century <a href="/wiki/Quatrefoil" title="Quatrefoil">quatrefoil</a> with scenes from the life of St Guthlac.</div></div></div>
+<figure class="mw-halign-right" typeof="mw:File/Thumb"><a href="/wiki/File:Quatrefoil,_St._Guthlac,_Croyland_Abbey.JPG" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG/180px-Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG" decoding="async" width="180" height="180" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG/270px-Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/82/Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG/360px-Quatrefoil%2C_St._Guthlac%2C_Croyland_Abbey.JPG 2x" data-file-width="915" data-file-height="917" /></a><figcaption>Crowland Abbey's 13th-century <a href="/wiki/Quatrefoil" title="Quatrefoil">quatrefoil</a> with scenes from the life of St Guthlac.</figcaption></figure>
 <p>Formed in 1987, St Guthlac Fellowship is a group of churches sharing a dedication to St Guthlac. Its fellows are these:<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup>
 </p>
 <ul><li><a href="/wiki/Crowland_Abbey" title="Crowland Abbey">Crowland Abbey</a>, <a href="/wiki/Crowland" title="Crowland">Crowland</a>, Lincolnshire</li>
@@ -644,97 +638,97 @@ The story of Guthlac is told pictorially in the <i>Guthlac Roll</i>, a set of de
 <li><a href="/wiki/St_Guthlac%27s_Church,_Branston" title="St Guthlac&#39;s Church, Branston">St Guthlac's Church, Branston</a>, <a href="/wiki/Leicestershire" title="Leicestershire">Leicestershire</a></li></ul>
 <h2><span class="mw-headline" id="Gallery">Gallery</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit&amp;section=4" title="Edit section: Gallery">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <ul class="gallery mw-gallery-packed" style="line-height:130%">
-		<li class="gallerybox" style="width: 168px"><div style="width: 168px">
-			<div class="thumb" style="width: 166px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:Guthlac-Contemplation-BL.jpg" class="image" title="Roundel from Guthlac Roll, 1210: Guthlac in contemplation"><img alt="Roundel from Guthlac Roll, 1210: Guthlac in contemplation" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Guthlac-Contemplation-BL.jpg/249px-Guthlac-Contemplation-BL.jpg" decoding="async" width="166" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Guthlac-Contemplation-BL.jpg/374px-Guthlac-Contemplation-BL.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Guthlac-Contemplation-BL.jpg/499px-Guthlac-Contemplation-BL.jpg 2x" data-file-width="913" data-file-height="906" /></a></div></div>
+		<li class="gallerybox" style="width: 168px">
+			<div class="thumb" style="width: 166px;"><span typeof="mw:File"><a href="/wiki/File:Guthlac-Contemplation-BL.jpg" class="mw-file-description" title="Roundel from Guthlac Roll, 1210: Guthlac in contemplation"><img alt="Roundel from Guthlac Roll, 1210: Guthlac in contemplation" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Guthlac-Contemplation-BL.jpg/249px-Guthlac-Contemplation-BL.jpg" decoding="async" width="166" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Guthlac-Contemplation-BL.jpg/374px-Guthlac-Contemplation-BL.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Guthlac-Contemplation-BL.jpg/498px-Guthlac-Contemplation-BL.jpg 2x" data-file-width="913" data-file-height="906" /></a></span></div>
 			<div class="gallerytext">
 <p>Roundel from <i>Guthlac Roll</i>, 1210: Guthlac in contemplation
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 166px"><div style="width: 166px">
-			<div class="thumb" style="width: 164px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:Guthlac-Chapel-BL.jpg" class="image" title="Roundel from Guthlac Roll, 1210: Guthlac builds a chapel at Crowland"><img alt="Roundel from Guthlac Roll, 1210: Guthlac builds a chapel at Crowland" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Guthlac-Chapel-BL.jpg/246px-Guthlac-Chapel-BL.jpg" decoding="async" width="164" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Guthlac-Chapel-BL.jpg/370px-Guthlac-Chapel-BL.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Guthlac-Chapel-BL.jpg/493px-Guthlac-Chapel-BL.jpg 2x" data-file-width="1138" data-file-height="1142" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 166px">
+			<div class="thumb" style="width: 164px;"><span typeof="mw:File"><a href="/wiki/File:Guthlac-Chapel-BL.jpg" class="mw-file-description" title="Roundel from Guthlac Roll, 1210: Guthlac builds a chapel at Crowland"><img alt="Roundel from Guthlac Roll, 1210: Guthlac builds a chapel at Crowland" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Guthlac-Chapel-BL.jpg/246px-Guthlac-Chapel-BL.jpg" decoding="async" width="164" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Guthlac-Chapel-BL.jpg/370px-Guthlac-Chapel-BL.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Guthlac-Chapel-BL.jpg/492px-Guthlac-Chapel-BL.jpg 2x" data-file-width="1138" data-file-height="1142" /></a></span></div>
 			<div class="gallerytext">
 <p>Roundel from <i>Guthlac Roll</i>, 1210: Guthlac builds a chapel at Crowland
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 125.33333333333px"><div style="width: 125.33333333333px">
-			<div class="thumb" style="width: 123.33333333333px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG" class="image" title="Crowland Abbey"><img alt="Crowland Abbey" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG/185px-Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG" decoding="async" width="124" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG/278px-Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG/371px-Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG 2x" data-file-width="1944" data-file-height="2592" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 125.33333333333px">
+			<div class="thumb" style="width: 123.33333333333px;"><span typeof="mw:File"><a href="/wiki/File:Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG" class="mw-file-description" title="Crowland Abbey"><img alt="Crowland Abbey" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG/185px-Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG" decoding="async" width="124" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG/278px-Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG/370px-Croyland_Abbey_%26_Parish_Church_of_Crowland.JPG 2x" data-file-width="1944" data-file-height="2592" /></a></span></div>
 			<div class="gallerytext">
 <p>Crowland Abbey
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 122px"><div style="width: 122px">
-			<div class="thumb" style="width: 120px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:Croyland_Abbey_Coat_of_Arms.JPG" class="image" title="Coat of Arms at Crowland Abbey show scourges and the flaying knives of St Bartholomew"><img alt="Coat of Arms at Crowland Abbey show scourges and the flaying knives of St Bartholomew" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Croyland_Abbey_Coat_of_Arms.JPG/180px-Croyland_Abbey_Coat_of_Arms.JPG" decoding="async" width="120" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Croyland_Abbey_Coat_of_Arms.JPG/270px-Croyland_Abbey_Coat_of_Arms.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/94/Croyland_Abbey_Coat_of_Arms.JPG/360px-Croyland_Abbey_Coat_of_Arms.JPG 2x" data-file-width="607" data-file-height="834" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 122px">
+			<div class="thumb" style="width: 120px;"><span typeof="mw:File"><a href="/wiki/File:Croyland_Abbey_Coat_of_Arms.JPG" class="mw-file-description" title="Coat of Arms at Crowland Abbey show scourges and the flaying knives of St Bartholomew"><img alt="Coat of Arms at Crowland Abbey show scourges and the flaying knives of St Bartholomew" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Croyland_Abbey_Coat_of_Arms.JPG/180px-Croyland_Abbey_Coat_of_Arms.JPG" decoding="async" width="120" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Croyland_Abbey_Coat_of_Arms.JPG/270px-Croyland_Abbey_Coat_of_Arms.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/94/Croyland_Abbey_Coat_of_Arms.JPG/359px-Croyland_Abbey_Coat_of_Arms.JPG 2x" data-file-width="607" data-file-height="834" /></a></span></div>
 			<div class="gallerytext">
 <p>Coat of Arms at Crowland Abbey show scourges and the flaying knives of St Bartholomew
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 108.66666666667px"><div style="width: 108.66666666667px">
-			<div class="thumb" style="width: 106.66666666667px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:Guthlac-Stained-Glass-Crowland-Abbey.jpg" class="image" title="St Guthlac, stained glass, Crowland Abbey"><img alt="St Guthlac, stained glass, Crowland Abbey" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Guthlac-Stained-Glass-Crowland-Abbey.jpg/160px-Guthlac-Stained-Glass-Crowland-Abbey.jpg" decoding="async" width="107" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Guthlac-Stained-Glass-Crowland-Abbey.jpg/241px-Guthlac-Stained-Glass-Crowland-Abbey.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/6/66/Guthlac-Stained-Glass-Crowland-Abbey.jpg 2x" data-file-width="260" data-file-height="400" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 108.66666666667px">
+			<div class="thumb" style="width: 106.66666666667px;"><span typeof="mw:File"><a href="/wiki/File:Guthlac-Stained-Glass-Crowland-Abbey.jpg" class="mw-file-description" title="St Guthlac, stained glass, Crowland Abbey"><img alt="St Guthlac, stained glass, Crowland Abbey" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Guthlac-Stained-Glass-Crowland-Abbey.jpg/160px-Guthlac-Stained-Glass-Crowland-Abbey.jpg" decoding="async" width="107" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Guthlac-Stained-Glass-Crowland-Abbey.jpg/241px-Guthlac-Stained-Glass-Crowland-Abbey.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/6/66/Guthlac-Stained-Glass-Crowland-Abbey.jpg 2x" data-file-width="260" data-file-height="400" /></a></span></div>
 			<div class="gallerytext">
 <p>St Guthlac, stained glass, Crowland Abbey
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 222px"><div style="width: 222px">
-			<div class="thumb" style="width: 220px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg" class="image" title="St Guthlac&#39;s Church (12C), Little Cowarne, Herefordshire"><img alt="St Guthlac&#39;s Church (12C), Little Cowarne, Herefordshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg/330px-Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg" decoding="async" width="220" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg/495px-Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/7/72/Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg 2x" data-file-width="640" data-file-height="480" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 221.33333333333px">
+			<div class="thumb" style="width: 219.33333333333px;"><span typeof="mw:File"><a href="/wiki/File:Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg" class="mw-file-description" title="St Guthlac&#39;s Church (12C), Little Cowarne, Herefordshire"><img alt="St Guthlac&#39;s Church (12C), Little Cowarne, Herefordshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg/329px-Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg" decoding="async" width="220" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg/495px-Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/7/72/Little_Cowarne_church_and_graveyard_-_geograph.org.uk_-_1005928.jpg 2x" data-file-width="640" data-file-height="480" /></a></span></div>
 			<div class="gallerytext">
 <p>St Guthlac's Church (12C), Little Cowarne, <a href="/wiki/Herefordshire" title="Herefordshire">Herefordshire</a>
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 228px"><div style="width: 228px">
-			<div class="thumb" style="width: 226px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:St._Guthlac,_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg" class="image" title="St Guthlac&#39;s Church, Astwick, Bedfordshire"><img alt="St Guthlac&#39;s Church, Astwick, Bedfordshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/10/St._Guthlac%2C_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg/339px-St._Guthlac%2C_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg" decoding="async" width="226" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/10/St._Guthlac%2C_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg/510px-St._Guthlac%2C_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/1/10/St._Guthlac%2C_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg 2x" data-file-width="640" data-file-height="466" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 228px">
+			<div class="thumb" style="width: 226px;"><span typeof="mw:File"><a href="/wiki/File:St._Guthlac,_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg" class="mw-file-description" title="St Guthlac&#39;s Church, Astwick, Bedfordshire"><img alt="St Guthlac&#39;s Church, Astwick, Bedfordshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/10/St._Guthlac%2C_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg/339px-St._Guthlac%2C_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg" decoding="async" width="226" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/10/St._Guthlac%2C_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg/510px-St._Guthlac%2C_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/1/10/St._Guthlac%2C_the_parish_church_of_Astwick_-_geograph.org.uk_-_1281480.jpg 2x" data-file-width="640" data-file-height="466" /></a></span></div>
 			<div class="gallerytext">
 <p>St Guthlac's Church, <a href="/wiki/Astwick" title="Astwick">Astwick</a>, Bedfordshire
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 249.33333333333px"><div style="width: 249.33333333333px">
-			<div class="thumb" style="width: 247.33333333333px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:St_Guthlac%27s_Church,_Stathern.jpg" class="image" title="St Guthlac&#39;s Church, Stathern, Leicestershire"><img alt="St Guthlac&#39;s Church, Stathern, Leicestershire" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/St_Guthlac%27s_Church%2C_Stathern.jpg/371px-St_Guthlac%27s_Church%2C_Stathern.jpg" decoding="async" width="248" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/St_Guthlac%27s_Church%2C_Stathern.jpg/557px-St_Guthlac%27s_Church%2C_Stathern.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/21/St_Guthlac%27s_Church%2C_Stathern.jpg/743px-St_Guthlac%27s_Church%2C_Stathern.jpg 2x" data-file-width="2448" data-file-height="1632" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 249.33333333333px">
+			<div class="thumb" style="width: 247.33333333333px;"><span typeof="mw:File"><a href="/wiki/File:St_Guthlac%27s_Church,_Stathern.jpg" class="mw-file-description" title="St Guthlac&#39;s Church, Stathern, Leicestershire"><img alt="St Guthlac&#39;s Church, Stathern, Leicestershire" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/St_Guthlac%27s_Church%2C_Stathern.jpg/371px-St_Guthlac%27s_Church%2C_Stathern.jpg" decoding="async" width="248" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/St_Guthlac%27s_Church%2C_Stathern.jpg/557px-St_Guthlac%27s_Church%2C_Stathern.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/21/St_Guthlac%27s_Church%2C_Stathern.jpg/741px-St_Guthlac%27s_Church%2C_Stathern.jpg 2x" data-file-width="2448" data-file-height="1632" /></a></span></div>
 			<div class="gallerytext">
 <p>St Guthlac's Church, <a href="/wiki/Stathern" title="Stathern">Stathern</a>, Leicestershire
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 125.33333333333px"><div style="width: 125.33333333333px">
-			<div class="thumb" style="width: 123.33333333333px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:St_Guthlacs_church.jpg" class="image" title="St Guthlac&#39;s Church, Market Deeping, Lincolnshire"><img alt="St Guthlac&#39;s Church, Market Deeping, Lincolnshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/17/St_Guthlacs_church.jpg/185px-St_Guthlacs_church.jpg" decoding="async" width="124" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/17/St_Guthlacs_church.jpg/278px-St_Guthlacs_church.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/17/St_Guthlacs_church.jpg/371px-St_Guthlacs_church.jpg 2x" data-file-width="2448" data-file-height="3264" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 125.33333333333px">
+			<div class="thumb" style="width: 123.33333333333px;"><span typeof="mw:File"><a href="/wiki/File:St_Guthlacs_church.jpg" class="mw-file-description" title="St Guthlac&#39;s Church, Market Deeping, Lincolnshire"><img alt="St Guthlac&#39;s Church, Market Deeping, Lincolnshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/17/St_Guthlacs_church.jpg/185px-St_Guthlacs_church.jpg" decoding="async" width="124" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/17/St_Guthlacs_church.jpg/278px-St_Guthlacs_church.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/17/St_Guthlacs_church.jpg/370px-St_Guthlacs_church.jpg 2x" data-file-width="2448" data-file-height="3264" /></a></span></div>
 			<div class="gallerytext">
 <p>St Guthlac's Church, <a href="/wiki/Market_Deeping" title="Market Deeping">Market Deeping</a>, Lincolnshire
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 248.66666666667px"><div style="width: 248.66666666667px">
-			<div class="thumb" style="width: 246.66666666667px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:St.Guthlac%27s_church,_Little_Ponton,_Lincs._-_geograph.org.uk_-_144537.jpg" class="image" title="St Guthlac&#39;s Church, Little Ponton, Lincolnshire"><img alt="St Guthlac&#39;s Church, Little Ponton, Lincolnshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/St.Guthlac%27s_church%2C_Little_Ponton%2C_Lincs._-_geograph.org.uk_-_144537.jpg/370px-St.Guthlac%27s_church%2C_Little_Ponton%2C_Lincs._-_geograph.org.uk_-_144537.jpg" decoding="async" width="247" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/St.Guthlac%27s_church%2C_Little_Ponton%2C_Lincs._-_geograph.org.uk_-_144537.jpg/556px-St.Guthlac%27s_church%2C_Little_Ponton%2C_Lincs._-_geograph.org.uk_-_144537.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/f/f4/St.Guthlac%27s_church%2C_Little_Ponton%2C_Lincs._-_geograph.org.uk_-_144537.jpg 2x" data-file-width="640" data-file-height="427" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 248.66666666667px">
+			<div class="thumb" style="width: 246.66666666667px;"><span typeof="mw:File"><a href="/wiki/File:St.Guthlac%27s_church,_Little_Ponton,_Lincs._-_geograph.org.uk_-_144537.jpg" class="mw-file-description" title="St Guthlac&#39;s Church, Little Ponton, Lincolnshire"><img alt="St Guthlac&#39;s Church, Little Ponton, Lincolnshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/St.Guthlac%27s_church%2C_Little_Ponton%2C_Lincs._-_geograph.org.uk_-_144537.jpg/370px-St.Guthlac%27s_church%2C_Little_Ponton%2C_Lincs._-_geograph.org.uk_-_144537.jpg" decoding="async" width="247" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/St.Guthlac%27s_church%2C_Little_Ponton%2C_Lincs._-_geograph.org.uk_-_144537.jpg/556px-St.Guthlac%27s_church%2C_Little_Ponton%2C_Lincs._-_geograph.org.uk_-_144537.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/f/f4/St.Guthlac%27s_church%2C_Little_Ponton%2C_Lincs._-_geograph.org.uk_-_144537.jpg 2x" data-file-width="640" data-file-height="427" /></a></span></div>
 			<div class="gallerytext">
 <p>St Guthlac's Church, <a href="/wiki/Little_Ponton" title="Little Ponton">Little Ponton</a>, Lincolnshire
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 248.66666666667px"><div style="width: 248.66666666667px">
-			<div class="thumb" style="width: 246.66666666667px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:St.Guthlac%27s_church,_Fishtoft_-_geograph.org.uk_-_147445.jpg" class="image" title="St Guthlac&#39;s Church, Fishtoft, Lincolnshire"><img alt="St Guthlac&#39;s Church, Fishtoft, Lincolnshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/St.Guthlac%27s_church%2C_Fishtoft_-_geograph.org.uk_-_147445.jpg/370px-St.Guthlac%27s_church%2C_Fishtoft_-_geograph.org.uk_-_147445.jpg" decoding="async" width="247" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/St.Guthlac%27s_church%2C_Fishtoft_-_geograph.org.uk_-_147445.jpg/556px-St.Guthlac%27s_church%2C_Fishtoft_-_geograph.org.uk_-_147445.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/a/a1/St.Guthlac%27s_church%2C_Fishtoft_-_geograph.org.uk_-_147445.jpg 2x" data-file-width="640" data-file-height="427" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 248.66666666667px">
+			<div class="thumb" style="width: 246.66666666667px;"><span typeof="mw:File"><a href="/wiki/File:St.Guthlac%27s_church,_Fishtoft_-_geograph.org.uk_-_147445.jpg" class="mw-file-description" title="St Guthlac&#39;s Church, Fishtoft, Lincolnshire"><img alt="St Guthlac&#39;s Church, Fishtoft, Lincolnshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/St.Guthlac%27s_church%2C_Fishtoft_-_geograph.org.uk_-_147445.jpg/370px-St.Guthlac%27s_church%2C_Fishtoft_-_geograph.org.uk_-_147445.jpg" decoding="async" width="247" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/St.Guthlac%27s_church%2C_Fishtoft_-_geograph.org.uk_-_147445.jpg/556px-St.Guthlac%27s_church%2C_Fishtoft_-_geograph.org.uk_-_147445.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/a/a1/St.Guthlac%27s_church%2C_Fishtoft_-_geograph.org.uk_-_147445.jpg 2x" data-file-width="640" data-file-height="427" /></a></span></div>
 			<div class="gallerytext">
 <p>St Guthlac's Church, <a href="/wiki/Fishtoft" title="Fishtoft">Fishtoft</a>, Lincolnshire
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 222px"><div style="width: 222px">
-			<div class="thumb" style="width: 220px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:Church_of_St_Guthlac,_Branston_-_geograph.org.uk_-_1745446.jpg" class="image" title="All Saints&#39; Church, Branston, Lincolnshire"><img alt="All Saints&#39; Church, Branston, Lincolnshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg/330px-Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg" decoding="async" width="220" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg/495px-Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/83/Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg/660px-Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg 2x" data-file-width="4000" data-file-height="3000" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 221.33333333333px">
+			<div class="thumb" style="width: 219.33333333333px;"><span typeof="mw:File"><a href="/wiki/File:Church_of_St_Guthlac,_Branston_-_geograph.org.uk_-_1745446.jpg" class="mw-file-description" title="All Saints&#39; Church, Branston, Lincolnshire"><img alt="All Saints&#39; Church, Branston, Lincolnshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg/329px-Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg" decoding="async" width="220" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg/495px-Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/83/Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg/659px-Church_of_St_Guthlac%2C_Branston_-_geograph.org.uk_-_1745446.jpg 2x" data-file-width="4000" data-file-height="3000" /></a></span></div>
 			<div class="gallerytext">
 <p>All Saints' Church, <a href="/wiki/Branston,_Lincolnshire" title="Branston, Lincolnshire">Branston</a>, Lincolnshire
 </p>
 			</div>
-		</div></li>
-		<li class="gallerybox" style="width: 134.66666666667px"><div style="width: 134.66666666667px">
-			<div class="thumb" style="width: 132.66666666667px;"><div style="margin:-0.16666666666667px auto;"><a href="/wiki/File:St._Guthlac%27s,_Passenham_-_geograph.org.uk_-_1011237.jpg" class="image" title="St Guthlac&#39;s Church, Passenham, Northamptonshire"><img alt="St Guthlac&#39;s Church, Passenham, Northamptonshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg/199px-St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg" decoding="async" width="133" height="166" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg/298px-St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/db/St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg/398px-St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg 2x" data-file-width="515" data-file-height="640" /></a></div></div>
+		</li>
+		<li class="gallerybox" style="width: 134.66666666667px">
+			<div class="thumb" style="width: 132.66666666667px;"><span typeof="mw:File"><a href="/wiki/File:St._Guthlac%27s,_Passenham_-_geograph.org.uk_-_1011237.jpg" class="mw-file-description" title="St Guthlac&#39;s Church, Passenham, Northamptonshire"><img alt="St Guthlac&#39;s Church, Passenham, Northamptonshire" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg/199px-St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg" decoding="async" width="133" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg/298px-St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/db/St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg/397px-St._Guthlac%27s%2C_Passenham_-_geograph.org.uk_-_1011237.jpg 2x" data-file-width="515" data-file-height="640" /></a></span></div>
 			<div class="gallerytext">
 <p>St Guthlac's Church, <a href="/wiki/Passenham" title="Passenham">Passenham</a>, Northamptonshire
 </p>
 			</div>
-		</div></li>
+		</li>
 </ul>
 <h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit&amp;section=5" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <ul><li><a href="/wiki/St_Guthlac%27s_Priory" title="St Guthlac&#39;s Priory">St Guthlac's Priory</a>, Hereford</li></ul>
@@ -747,7 +741,7 @@ The story of Guthlac is told pictorially in the <i>Guthlac Roll</i>, a set of de
 </li>
 <li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFCohen2003" class="citation cs2">Cohen, Jeffrey J. (2003), <i>Medieval identity machines</i>, Medieval cultures, vol.&#160;35, <a href="/wiki/University_of_Minnesota_Press" title="University of Minnesota Press">University of Minnesota Press</a>, p.&#160;149, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-8166-4002-5" title="Special:BookSources/0-8166-4002-5"><bdi>0-8166-4002-5</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Medieval+identity+machines&amp;rft.series=Medieval+cultures&amp;rft.pages=149&amp;rft.pub=University+of+Minnesota+Press&amp;rft.date=2003&amp;rft.isbn=0-8166-4002-5&amp;rft.aulast=Cohen&amp;rft.aufirst=Jeffrey+J.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGuthlac+of+Crowland" class="Z3988"></span>, Chapter IV, <i>The Solitude of Guthlac</i></span>
 </li>
-<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFColgrave1985" class="citation cs2"><a href="/wiki/Bertram_Colgrave" title="Bertram Colgrave">Colgrave, Bertram</a> (1985), <i>Felix's Life of Saint Guthlac</i>, <a href="/wiki/Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>, p.&#160;103, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-521-31386-4" title="Special:BookSources/0-521-31386-4"><bdi>0-521-31386-4</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Felix%27s+Life+of+Saint+Guthlac&amp;rft.pages=103&amp;rft.pub=Cambridge+University+Press&amp;rft.date=1985&amp;rft.isbn=0-521-31386-4&amp;rft.aulast=Colgrave&amp;rft.aufirst=Bertram&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGuthlac+of+Crowland" class="Z3988"></span></span>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFColgrave1985" class="citation cs2"><a href="/wiki/Bertram_Colgrave" title="Bertram Colgrave">Colgrave, Bertram</a> (1985), <i>Felix's Life of Saint Guthlac</i>, <a href="/wiki/Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>, p.&#160;103, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-521-31386-4" title="Special:BookSources/0-521-31386-4"><bdi>0-521-31386-4</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Felix%27s+Life+of+Saint+Guthlac&amp;rft.pages=103&amp;rft.pub=Cambridge+University+Press&amp;rft.date=1985&amp;rft.isbn=0-521-31386-4&amp;rft.aulast=Colgrave&amp;rft.aufirst=Bertram&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGuthlac+of+Crowland" class="Z3988"></span></span>
 </li>
 <li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a href="#CITEREFWilliams2006">Williams 2006</a>, pp.&#160;205–206</span>
 </li>
@@ -775,11 +769,11 @@ The story of Guthlac is told pictorially in the <i>Guthlac Roll</i>, a set of de
 <ul><li>Roberts, Jane (ed.) <i>The Guthlac Poems of the Exeter Book</i>. Oxford: Clarendon Press, 1979</li>
 <li>Krapp, G. and E. V. K. Dobbie (eds.). <i>The Exeter Book</i>. Anglo-Saxon Poetic Records 3. 1936. 49–88</li>
 <li>Bradley, S. A. J. (tr.) <i>Anglo-Saxon Poetry</i>. London: Everyman, 1982</li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFMuir2000" class="citation cs2">Muir, Bernard J. (2000), <i>The Exeter anthology of Old English poetry: an edition of Exeter Dean and Chapter MS 3501</i> (2nd&#160;ed.), <a href="/wiki/University_of_Exeter_Press" title="University of Exeter Press">University of Exeter Press</a>, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-85989-630-7" title="Special:BookSources/0-85989-630-7"><bdi>0-85989-630-7</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Exeter+anthology+of+Old+English+poetry%3A+an+edition+of+Exeter+Dean+and+Chapter+MS+3501&amp;rft.edition=2nd&amp;rft.pub=University+of+Exeter+Press&amp;rft.date=2000&amp;rft.isbn=0-85989-630-7&amp;rft.aulast=Muir&amp;rft.aufirst=Bernard+J.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGuthlac+of+Crowland" class="Z3988"></span></li></ul></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFMuir2000" class="citation cs2">Muir, Bernard J. (2000), <i>The Exeter anthology of Old English poetry: an edition of Exeter Dean and Chapter MS 3501</i> (2nd&#160;ed.), <a href="/wiki/University_of_Exeter_Press" title="University of Exeter Press">University of Exeter Press</a>, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-85989-630-7" title="Special:BookSources/0-85989-630-7"><bdi>0-85989-630-7</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Exeter+anthology+of+Old+English+poetry%3A+an+edition+of+Exeter+Dean+and+Chapter+MS+3501&amp;rft.edition=2nd&amp;rft.pub=University+of+Exeter+Press&amp;rft.date=2000&amp;rft.isbn=0-85989-630-7&amp;rft.aulast=Muir&amp;rft.aufirst=Bernard+J.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGuthlac+of+Crowland" class="Z3988"></span></li></ul></li>
 <li><i>Harley Roll</i> or <i>Guthlac Roll</i> (BL, Harleian Roll Y.6)
 <ul><li>Warner, G. F. (ed.). <i>The Guthlac Roll</i>. Roxburghe Club, 1928. 25 plates in facsimile</li></ul></li></ul>
 <h3><span class="mw-headline" id="Secondary_sources">Secondary sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit&amp;section=9" title="Edit section: Secondary sources">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFBlack2007" class="citation cs2">Black, John R. (2007), <a rel="nofollow" class="external text" href="http://www.heroicage.org/issues/10/black.html">"Tradition and Transformation in the Cult of St. Guthlac in Early Medieval England"</a>, <i>The Heroic Age</i>, <b>10</b></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Heroic+Age&amp;rft.atitle=Tradition+and+Transformation+in+the+Cult+of+St.+Guthlac+in+Early+Medieval+England&amp;rft.volume=10&amp;rft.date=2007&amp;rft.aulast=Black&amp;rft.aufirst=John+R.&amp;rft_id=http%3A%2F%2Fwww.heroicage.org%2Fissues%2F10%2Fblack.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGuthlac+of+Crowland" class="Z3988"></span></li>
+<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFBlack2007" class="citation cs2">Black, John R. (2007), <a rel="nofollow" class="external text" href="http://www.heroicage.org/issues/10/black.html">"Tradition and Transformation in the Cult of St. Guthlac in Early Medieval England"</a>, <i>The Heroic Age</i>, <b>10</b></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Heroic+Age&amp;rft.atitle=Tradition+and+Transformation+in+the+Cult+of+St.+Guthlac+in+Early+Medieval+England&amp;rft.volume=10&amp;rft.date=2007&amp;rft.aulast=Black&amp;rft.aufirst=John+R.&amp;rft_id=http%3A%2F%2Fwww.heroicage.org%2Fissues%2F10%2Fblack.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGuthlac+of+Crowland" class="Z3988"></span></li>
 <li>Cubitt, Catherine. "Memory and narrative in the cult of early Anglo-Saxon saints" <i>The Uses of the Past in the Early Middle Ages</i>, ed. Matthew Innes</li>
 <li>Olsen, Alexandra. <i>Guthlac of Croyland: a Study of Heroic Hagiography</i>. Washington, 1981</li>
 <li>Powell, Stephen D. "The Journey Forth: Elegiac Consolation in <i>Guthlac B</i>." <i>English Studies</i> 79 (1998), pp.&#160;489–500</li>
@@ -789,12 +783,12 @@ The story of Guthlac is told pictorially in the <i>Guthlac Roll</i>, a set of de
 <li>Shook, Laurence K. "The Burial Mound in 'Guthlac A'". <i><a href="/wiki/Modern_Philology" title="Modern Philology">Modern Philology</a></i> 58, 1 (August 1960), pp.&#160;1–10</li>
 <li>Soon Ai, Low. "Mental Culturation in <i>Guthlac B</i>". <i><a href="/wiki/Neophilologus" title="Neophilologus">Neophilologus</a></i> 81 (1997), pp.&#160;625–636</li>
 <li>Roberts, Jane. "Guthlac of Crowland, a Saint for Middle England." Fursey Occasional Paper 3. Norwich: Fursey Pilgrims, 2009. 1–36 <a rel="nofollow" class="external autonumber" href="http://www.furseypilgrims.co.uk/publications.htm">[2]</a></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFWilliams2006" class="citation cs2">Williams, Howard (2006), <i>Death And Memory in Early Medieval Britain</i>, Cambridge Studies in Archaeology, <a href="/wiki/Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-521-84019-8" title="Special:BookSources/0-521-84019-8"><bdi>0-521-84019-8</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Death+And+Memory+in+Early+Medieval+Britain&amp;rft.series=Cambridge+Studies+in+Archaeology&amp;rft.pub=Cambridge+University+Press&amp;rft.date=2006&amp;rft.isbn=0-521-84019-8&amp;rft.aulast=Williams&amp;rft.aufirst=Howard&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGuthlac+of+Crowland" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFRoberts2005" class="citation cs2">Roberts, Jane (2005),  Brown, Michelle P.; Farr, Carol Ann (eds.), <i>Hagiography and literature: the case of Guthlac of Crowland</i>, Mercia: An Anglo-Saxon Kingdom In Europe, Continuum International, pp.&#160;69–86, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-8264-7765-8" title="Special:BookSources/0-8264-7765-8"><bdi>0-8264-7765-8</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Hagiography+and+literature%3A+the+case+of+Guthlac+of+Crowland&amp;rft.series=Mercia%3A+An+Anglo-Saxon+Kingdom+In+Europe&amp;rft.pages=69-86&amp;rft.pub=Continuum+International&amp;rft.date=2005&amp;rft.isbn=0-8264-7765-8&amp;rft.aulast=Roberts&amp;rft.aufirst=Jane&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGuthlac+of+Crowland" class="Z3988"></span></li></ul>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFWilliams2006" class="citation cs2">Williams, Howard (2006), <i>Death And Memory in Early Medieval Britain</i>, Cambridge Studies in Archaeology, <a href="/wiki/Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-521-84019-8" title="Special:BookSources/0-521-84019-8"><bdi>0-521-84019-8</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Death+And+Memory+in+Early+Medieval+Britain&amp;rft.series=Cambridge+Studies+in+Archaeology&amp;rft.pub=Cambridge+University+Press&amp;rft.date=2006&amp;rft.isbn=0-521-84019-8&amp;rft.aulast=Williams&amp;rft.aufirst=Howard&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGuthlac+of+Crowland" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFRoberts2005" class="citation cs2">Roberts, Jane (2005), Brown, Michelle P.; Farr, Carol Ann (eds.), <i>Hagiography and literature: the case of Guthlac of Crowland</i>, Mercia: An Anglo-Saxon Kingdom In Europe, Continuum International, pp.&#160;69–86, <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-8264-7765-8" title="Special:BookSources/0-8264-7765-8"><bdi>0-8264-7765-8</bdi></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Hagiography+and+literature%3A+the+case+of+Guthlac+of+Crowland&amp;rft.series=Mercia%3A+An+Anglo-Saxon+Kingdom+In+Europe&amp;rft.pages=69-86&amp;rft.pub=Continuum+International&amp;rft.date=2005&amp;rft.isbn=0-8264-7765-8&amp;rft.aulast=Roberts&amp;rft.aufirst=Jane&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGuthlac+of+Crowland" class="Z3988"></span></li></ul>
 <h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Guthlac_of_Crowland&amp;action=edit&amp;section=10" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
 <div class="side-box-flex">
-<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-image"><span class="noviewer" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></span></span></div>
 <div class="side-box-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:Saint_Guthlac" class="extiw" title="commons:Category:Saint Guthlac">Saint Guthlac</a></span>.</div></div>
 </div>
 <ul><li><a rel="nofollow" class="external text" href="http://www.pase.ac.uk/jsp/persons/CreatePersonFrames.jsp?personKey=575">Guthlac 2</a> at <a href="/wiki/Prosopography_of_Anglo-Saxon_England" title="Prosopography of Anglo-Saxon England">Prosopography of Anglo-Saxon England</a></li>
@@ -802,7 +796,7 @@ The story of Guthlac is told pictorially in the <i>Guthlac Roll</i>, a set of de
 <li><a rel="nofollow" class="external text" href="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_Roll_Y_6&amp;index=15">The Guthlac Roll, full online facsimile</a></li>
 <li><a rel="nofollow" class="external text" href="http://www.britishlistedbuildings.co.uk/en-197969-st-guthlacs-cross-crowland">St Guthlac's Cross</a>, Grade II listed site, <a href="/wiki/English_Heritage" title="English Heritage">English Heritage</a></li>
 <li><a rel="nofollow" class="external text" href="http://catholicsaints.info/saint-guthlac-of-croyland/">CatholicSaints.Info</a></li></ul>
-<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Saints_of_Anglo-Saxon_England" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Anglo-Saxon_saints" title="Template:Anglo-Saxon saints"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Anglo-Saxon_saints" title="Template talk:Anglo-Saxon saints"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Anglo-Saxon_saints&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Saints_of_Anglo-Saxon_England" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_Anglo-Saxon_saints" title="List of Anglo-Saxon saints">Saints of Anglo-Saxon England</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">British / Welsh</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Saints_of_Anglo-Saxon_England" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Anglo-Saxon_saints" title="Template:Anglo-Saxon saints"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Anglo-Saxon_saints" title="Template talk:Anglo-Saxon saints"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Anglo-Saxon_saints&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Saints_of_Anglo-Saxon_England" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_Anglo-Saxon_saints" title="List of Anglo-Saxon saints">Saints of Anglo-Saxon England</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">British / Welsh</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Saint_Aldate" title="Saint Aldate">Aldate of Oxford</a></li>
 <li><a href="/wiki/Barloc" class="mw-redirect" title="Barloc">Barloc of Norbury</a></li>
 <li><a href="/wiki/Brannoc_of_Braunton" title="Brannoc of Braunton">Brannoc of Braunton</a></li>
@@ -921,7 +915,7 @@ The story of Guthlac is told pictorially in the <i>Guthlac Roll</i>, a set of de
 <li><a href="/wiki/Oda_of_Canterbury" title="Oda of Canterbury">Oda of Canterbury</a></li>
 <li><a href="/wiki/Oswald_of_Worcester" title="Oswald of Worcester">Oswald of Worcester</a></li>
 <li><a href="/wiki/Osburh_of_Coventry" title="Osburh of Coventry">Osburh of Coventry</a></li>
-<li><a href="/wiki/Rumwold_of_Buckingham" title="Rumwold of Buckingham">Rumwold of Buckingham</a></li>
+<li><a href="/wiki/Rumbold_of_Buckingham" title="Rumbold of Buckingham">Rumbold of Buckingham</a></li>
 <li><a href="/w/index.php?title=Tibba_of_Ryhall&amp;action=edit&amp;redlink=1" class="new" title="Tibba of Ryhall (page does not exist)">Tibba of Ryhall</a></li>
 <li><a href="/wiki/Werburgh" title="Werburgh">Werburgh of Chester</a></li>
 <li><a href="/wiki/W%C3%A6rstan" title="Wærstan">Wærstan</a></li>
@@ -938,7 +932,7 @@ The story of Guthlac is told pictorially in the <i>Guthlac Roll</i>, a set of de
 <li><a href="/w/index.php?title=%C3%86thelsige_of_Ripon&amp;action=edit&amp;redlink=1" class="new" title="Æthelsige of Ripon (page does not exist)">Æthelsige of Ripon</a></li>
 <li><a href="/wiki/%C3%86thelwold_(hermit)" title="Æthelwold (hermit)">Æthelwold of Farne</a></li>
 <li><a href="/wiki/%C3%86thelwold_(bishop_of_Lindisfarne)" title="Æthelwold (bishop of Lindisfarne)">Æthelwold of Lindisfarne</a></li>
-<li><a href="/w/index.php?title=Alchhild_of_Middleham&amp;action=edit&amp;redlink=1" class="new" title="Alchhild of Middleham (page does not exist)">Alchhild of Middleham</a></li>
+<li><a href="/wiki/Alchhild_of_Middleham" class="mw-redirect" title="Alchhild of Middleham">Alchhild of Middleham</a></li>
 <li><a href="/wiki/Alchmund_of_Hexham" title="Alchmund of Hexham">Alchmund of Hexham</a></li>
 <li><a href="/wiki/Alkmund_of_Derby" title="Alkmund of Derby">Alkmund of Derby</a></li>
 <li><a href="/wiki/Baldred_of_Tyninghame" title="Baldred of Tyninghame">Balthere of Tyningham</a></li>
@@ -1045,72 +1039,66 @@ The story of Guthlac is told pictorially in the <i>Guthlac Roll</i>, a set of de
 <li><a href="/wiki/Rumbold_of_Mechlin" title="Rumbold of Mechlin">Rumbold of Mechlin</a></li>
 <li><a href="/wiki/Urith" title="Urith">Urith of Chittlehampton</a></li></ul>
 </div></td></tr></tbody></table></div>
-<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1382565#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1382565#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q1382565#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><a href="/wiki/ISNI_(identifier)" class="mw-redirect" title="ISNI (identifier)">ISNI</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000386827983">1</a></span></li></ul></li>
-<li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/267478122">1</a></span></li></ul></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n81112029/">WorldCat</a></span></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb119827734">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb119827734">(data)</a></span></li>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1382565#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1382565#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="https://www.wikidata.org/wiki/Q1382565#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></span></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">International</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/79964/">FAST</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000386827983">ISNI</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/267478122">VIAF</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb119827734">France</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb119827734">BnF data</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/118838032">Germany</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007427890405171">Israel</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/names/n81112029">United States</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/n81112029">United States</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=jo2018988615&amp;CON_LNG=ENG">Czech Republic</a></span></li>
 <li><span class="uid"><a rel="nofollow" class="external text" href="http://mak.bn.org.pl/cgi-bin/KHW/makwww.exe?BM=1&amp;NU=1&amp;IM=4&amp;WI=9810692709905606">Poland</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.vatlib.it/auth/detail/495_169309">Vatican</a></span></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Biographical dictionaries</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118838032.html?language=en">Germany</a></span></li></ul>
+<li><span class="uid"><a class="external text" href="https://wikidata-externalid-url.toolforge.org/?p=8034&amp;url_prefix=https://opac.vatlib.it/auth/detail/&amp;id=495/169309">Vatican</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">People</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-biographie.de/pnd118838032.html?language=en">Deutsche Biographie</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://trove.nla.gov.au/people/1523086">Trove</a></span></li></ul>
 </div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://id.worldcat.org/fast/79964/">FAST</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://snaccooperative.org/ark:/99166/w6f91m17">Social Networks and Archival Context</a></span></li>
-<li><a href="/wiki/SUDOC_(identifier)" class="mw-redirect" title="SUDOC (identifier)">SUDOC (France)</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/027880818">1</a></span></li></ul></li>
-<li><a href="/wiki/Trove_(identifier)" class="mw-redirect" title="Trove (identifier)">Trove (Australia)</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://trove.nla.gov.au/people/1523086">1</a></span></li></ul></li></ul>
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://snaccooperative.org/ark:/99166/w6f91m17">SNAC</a></span></li>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/027880818">IdRef</a></span></li></ul>
 </div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw1481
-Cached time: 20230207125210
+Parsed by mw‐web.codfw.main‐5579f44fcc‐kpj4t
+Cached time: 20230902183711
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 0.478 seconds
-Real time usage: 0.624 seconds
-Preprocessor visited node count: 1968/1000000
-Post‐expand include size: 72232/2097152 bytes
-Template argument size: 7269/2097152 bytes
+CPU time usage: 0.554 seconds
+Real time usage: 0.804 seconds
+Preprocessor visited node count: 2050/1000000
+Post‐expand include size: 73654/2097152 bytes
+Template argument size: 7375/2097152 bytes
 Highest expansion depth: 14/100
-Expensive parser function count: 18/500
+Expensive parser function count: 19/500
 Unstrip recursion depth: 1/20
-Unstrip post‐expand size: 44671/5000000 bytes
-Lua time usage: 0.286/10.000 seconds
-Lua memory usage: 17441470/52428800 bytes
+Unstrip post‐expand size: 44427/5000000 bytes
+Lua time usage: 0.340/10.000 seconds
+Lua memory usage: 21924088/52428800 bytes
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  522.429      1 -total
- 25.99%  135.804      1 Template:Reflist
- 16.22%   84.750      6 Template:Citation
- 15.52%   81.092      1 Template:Lang-ang
- 15.28%   79.837      1 Template:Language_with_name
- 14.76%   77.105      1 Template:Lang
- 13.43%   70.176      1 Template:Anglo-Saxon_saints
- 13.08%   68.341      1 Template:Navbox
-  8.76%   45.770      1 Template:Short_description
-  7.38%   38.531      1 Template:Authority_control
+100.00%  695.433      1 -total
+ 23.22%  161.451      1 Template:Reflist
+ 14.04%   97.608      1 Template:Lang-ang
+ 13.76%   95.710      1 Template:Language_with_name
+ 13.56%   94.272      6 Template:Citation
+ 13.44%   93.433      1 Template:Lang
+ 12.23%   85.067      1 Template:Infobox_saint
+ 11.71%   81.451      1 Template:Infobox
+ 11.29%   78.531      1 Template:Anglo-Saxon_saints
+ 10.82%   75.278      1 Template:Navbox
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:1587391-0!canonical and timestamp 20230207125210 and revision id 1107498470. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1587391-0!canonical and timestamp 20230902183711 and revision id 1173483507. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
-<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Guthlac_of_Crowland&amp;oldid=1107498470">https://en.wikipedia.org/w/index.php?title=Guthlac_of_Crowland&amp;oldid=1107498470</a>"</div></div>
-					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:673_births" title="Category:673 births">673 births</a></li><li><a href="/wiki/Category:714_deaths" title="Category:714 deaths">714 deaths</a></li><li><a href="/wiki/Category:7th-century_English_people" title="Category:7th-century English people">7th-century English people</a></li><li><a href="/wiki/Category:8th-century_English_people" title="Category:8th-century English people">8th-century English people</a></li><li><a href="/wiki/Category:English_hermits" title="Category:English hermits">English hermits</a></li><li><a href="/wiki/Category:Eastern_Orthodox_monks" title="Category:Eastern Orthodox monks">Eastern Orthodox monks</a></li><li><a href="/wiki/Category:East_Anglian_saints" title="Category:East Anglian saints">East Anglian saints</a></li><li><a href="/wiki/Category:Miracle_workers" title="Category:Miracle workers">Miracle workers</a></li><li><a href="/wiki/Category:8th-century_Christian_saints" title="Category:8th-century Christian saints">8th-century Christian saints</a></li><li><a href="/wiki/Category:Incorrupt_saints" title="Category:Incorrupt saints">Incorrupt saints</a></li><li><a href="/wiki/Category:People_from_Lincolnshire" title="Category:People from Lincolnshire">People from Lincolnshire</a></li><li><a href="/wiki/Category:Angelic_visionaries" title="Category:Angelic visionaries">Angelic visionaries</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_bare_URLs_for_citations" title="Category:All articles with bare URLs for citations">All articles with bare URLs for citations</a></li><li><a href="/wiki/Category:Articles_with_bare_URLs_for_citations_from_March_2022" title="Category:Articles with bare URLs for citations from March 2022">Articles with bare URLs for citations from March 2022</a></li><li><a href="/wiki/Category:Articles_with_PDF_format_bare_URLs_for_citations" title="Category:Articles with PDF format bare URLs for citations">Articles with PDF format bare URLs for citations</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:EngvarB_from_August_2014" title="Category:EngvarB from August 2014">EngvarB from August 2014</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_August_2014" title="Category:Use dmy dates from August 2014">Use dmy dates from August 2014</a></li><li><a href="/wiki/Category:Articles_containing_Old_English_(ca._450-1100)-language_text" title="Category:Articles containing Old English (ca. 450-1100)-language text">Articles containing Old English (ca. 450-1100)-language text</a></li><li><a href="/wiki/Category:Articles_containing_Latin-language_text" title="Category:Articles containing Latin-language text">Articles containing Latin-language text</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_SNAC-ID_identifiers" title="Category:Articles with SNAC-ID identifiers">Articles with SNAC-ID identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li><li><a href="/wiki/Category:Articles_with_Trove_identifiers" title="Category:Articles with Trove identifiers">Articles with Trove identifiers</a></li></ul></div></div>
-					
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Guthlac_of_Crowland&amp;oldid=1173483507">https://en.wikipedia.org/w/index.php?title=Guthlac_of_Crowland&amp;oldid=1173483507</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:673_births" title="Category:673 births">673 births</a></li><li><a href="/wiki/Category:714_deaths" title="Category:714 deaths">714 deaths</a></li><li><a href="/wiki/Category:7th-century_English_people" title="Category:7th-century English people">7th-century English people</a></li><li><a href="/wiki/Category:8th-century_English_people" title="Category:8th-century English people">8th-century English people</a></li><li><a href="/wiki/Category:English_hermits" title="Category:English hermits">English hermits</a></li><li><a href="/wiki/Category:Eastern_Orthodox_monks" title="Category:Eastern Orthodox monks">Eastern Orthodox monks</a></li><li><a href="/wiki/Category:East_Anglian_saints" title="Category:East Anglian saints">East Anglian saints</a></li><li><a href="/wiki/Category:Miracle_workers" title="Category:Miracle workers">Miracle workers</a></li><li><a href="/wiki/Category:8th-century_Christian_saints" title="Category:8th-century Christian saints">8th-century Christian saints</a></li><li><a href="/wiki/Category:Incorrupt_saints" title="Category:Incorrupt saints">Incorrupt saints</a></li><li><a href="/wiki/Category:People_from_Lincolnshire" title="Category:People from Lincolnshire">People from Lincolnshire</a></li><li><a href="/wiki/Category:Angelic_visionaries" title="Category:Angelic visionaries">Angelic visionaries</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_bare_URLs_for_citations" title="Category:All articles with bare URLs for citations">All articles with bare URLs for citations</a></li><li><a href="/wiki/Category:Articles_with_bare_URLs_for_citations_from_March_2022" title="Category:Articles with bare URLs for citations from March 2022">Articles with bare URLs for citations from March 2022</a></li><li><a href="/wiki/Category:Articles_with_PDF_format_bare_URLs_for_citations" title="Category:Articles with PDF format bare URLs for citations">Articles with PDF format bare URLs for citations</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:EngvarB_from_August_2014" title="Category:EngvarB from August 2014">EngvarB from August 2014</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_August_2014" title="Category:Use dmy dates from August 2014">Use dmy dates from August 2014</a></li><li><a href="/wiki/Category:Articles_containing_Old_English_(ca._450-1100)-language_text" title="Category:Articles containing Old English (ca. 450-1100)-language text">Articles containing Old English (ca. 450-1100)-language text</a></li><li><a href="/wiki/Category:Articles_containing_Latin-language_text" title="Category:Articles containing Latin-language text">Articles containing Latin-language text</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_FAST_identifiers" title="Category:Articles with FAST identifiers">Articles with FAST identifiers</a></li><li><a href="/wiki/Category:Articles_with_ISNI_identifiers" title="Category:Articles with ISNI identifiers">Articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li><li><a href="/wiki/Category:Articles_with_BNFdata_identifiers" title="Category:Articles with BNFdata identifiers">Articles with BNFdata identifiers</a></li><li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_NKC_identifiers" title="Category:Articles with NKC identifiers">Articles with NKC identifiers</a></li><li><a href="/wiki/Category:Articles_with_PLWABN_identifiers" title="Category:Articles with PLWABN identifiers">Articles with PLWABN identifiers</a></li><li><a href="/wiki/Category:Articles_with_VcBA_identifiers" title="Category:Articles with VcBA identifiers">Articles with VcBA identifiers</a></li><li><a href="/wiki/Category:Articles_with_DTBIO_identifiers" title="Category:Articles with DTBIO identifiers">Articles with DTBIO identifiers</a></li><li><a href="/wiki/Category:Articles_with_Trove_identifiers" title="Category:Articles with Trove identifiers">Articles with Trove identifiers</a></li><li><a href="/wiki/Category:Articles_with_SNAC-ID_identifiers" title="Category:Articles with SNAC-ID identifiers">Articles with SNAC-ID identifiers</a></li><li><a href="/wiki/Category:Articles_with_SUDOC_identifiers" title="Category:Articles with SUDOC identifiers">Articles with SUDOC identifiers</a></li></ul></div></div>
 				</div>
-				
 			</main>
 			
 		</div>
@@ -1118,25 +1106,26 @@ Transclusion expansion time report (%,ms,calls,template)
 			
 <footer id="footer" class="mw-footer" role="contentinfo" >
 	<ul id="footer-info">
-	<li id="footer-info-lastmod"> This page was last edited on 30 August 2022, at 08:49<span class="anonymous-show">&#160;(UTC)</span>.</li>
-	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+	<li id="footer-info-lastmod"> This page was last edited on 2 September 2023, at 18:36<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a><a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" style="display:none;"></a>;
 additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
 </ul>
 
 	<ul id="footer-places">
-	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
 	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
 	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
 	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal_Code_of_Conduct">Code of Conduct</a></li>
 	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Guthlac_of_Crowland&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
 	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
 	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
-	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
 </ul>
 
 	<ul id="footer-icons" class="noprint">
 	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
-	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
 </ul>
 
 </footer>
@@ -1144,9 +1133,16 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 		</div>
 	</div> 
 </div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li><button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.478","walltime":"0.624","ppvisitednodes":{"value":1968,"limit":1000000},"postexpandincludesize":{"value":72232,"limit":2097152},"templateargumentsize":{"value":7269,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":18,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":44671,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  522.429      1 -total"," 25.99%  135.804      1 Template:Reflist"," 16.22%   84.750      6 Template:Citation"," 15.52%   81.092      1 Template:Lang-ang"," 15.28%   79.837      1 Template:Language_with_name"," 14.76%   77.105      1 Template:Lang"," 13.43%   70.176      1 Template:Anglo-Saxon_saints"," 13.08%   68.341      1 Template:Navbox","  8.76%   45.770      1 Template:Short_description","  7.38%   38.531      1 Template:Authority_control"]},"scribunto":{"limitreport-timeusage":{"value":"0.286","limit":"10.000"},"limitreport-memusage":{"value":17441470,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n    [\"CITEREFBlack2007\"] = 1,\n    [\"CITEREFCohen2003\"] = 1,\n    [\"CITEREFColgrave1985\"] = 1,\n    [\"CITEREFMuir2000\"] = 1,\n    [\"CITEREFRoberts2005\"] = 1,\n    [\"CITEREFWilliams2006\"] = 1,\n    [\"Guthlac_Roll\"] = 1,\n}\ntemplate_list = table#1 {\n    [\"Anchor\"] = 1,\n    [\"Anglo-Saxon saints\"] = 1,\n    [\"Authority control\"] = 1,\n    [\"Bare URL PDF\"] = 1,\n    [\"Citation\"] = 6,\n    [\"Commons category\"] = 1,\n    [\"Cquote\"] = 2,\n    [\"DEFAULTSORT:Guthlac\"] = 1,\n    [\"EngvarB\"] = 1,\n    [\"Harvnb\"] = 4,\n    [\"Infobox saint\"] = 1,\n    [\"Lang-ang\"] = 1,\n    [\"Lang-la\"] = 1,\n    [\"PASE\"] = 1,\n    [\"Reflist\"] = 1,\n    [\"Short description\"] = 1,\n    [\"Use dmy dates\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw1481","timestamp":"20230207125210","ttl":1814400,"transientcontent":false}}});});</script>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Guthlac of Crowland","url":"https:\/\/en.wikipedia.org\/wiki\/Guthlac_of_Crowland","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1382565","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1382565","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-03-09T19:33:23Z","dateModified":"2022-08-30T08:49:25Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4d\/St_Guthlac%2C_Croyland_Abbey.JPG","headline":"saint of the Christian faith and British hermit"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Guthlac of Crowland","url":"https:\/\/en.wikipedia.org\/wiki\/Guthlac_of_Crowland","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1382565","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1382565","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-03-09T19:33:23Z","dateModified":"2022-08-30T08:49:25Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4d\/St_Guthlac%2C_Croyland_Abbey.JPG","headline":"saint of the Christian faith and British hermit"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":114,"wgHostname":"mw2388"});});</script>
+<span>Toggle limited content width</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2420","wgBackendResponseTime":98,"wgPageParseReport":{"limitreport":{"cputime":"0.554","walltime":"0.804","ppvisitednodes":{"value":2050,"limit":1000000},"postexpandincludesize":{"value":73654,"limit":2097152},"templateargumentsize":{"value":7375,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":19,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":44427,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  695.433      1 -total"," 23.22%  161.451      1 Template:Reflist"," 14.04%   97.608      1 Template:Lang-ang"," 13.76%   95.710      1 Template:Language_with_name"," 13.56%   94.272      6 Template:Citation"," 13.44%   93.433      1 Template:Lang"," 12.23%   85.067      1 Template:Infobox_saint"," 11.71%   81.451      1 Template:Infobox"," 11.29%   78.531      1 Template:Anglo-Saxon_saints"," 10.82%   75.278      1 Template:Navbox"]},"scribunto":{"limitreport-timeusage":{"value":"0.340","limit":"10.000"},"limitreport-memusage":{"value":21924088,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n    [\"CITEREFBlack2007\"] = 1,\n    [\"CITEREFCohen2003\"] = 1,\n    [\"CITEREFColgrave1985\"] = 1,\n    [\"CITEREFMuir2000\"] = 1,\n    [\"CITEREFRoberts2005\"] = 1,\n    [\"CITEREFWilliams2006\"] = 1,\n    [\"Guthlac_Roll\"] = 1,\n}\ntemplate_list = table#1 {\n    [\"Anchor\"] = 1,\n    [\"Anglo-Saxon saints\"] = 1,\n    [\"Authority control\"] = 1,\n    [\"Bare URL PDF\"] = 1,\n    [\"Citation\"] = 6,\n    [\"Commons category\"] = 1,\n    [\"Cquote\"] = 2,\n    [\"DEFAULTSORT:Guthlac\"] = 1,\n    [\"Death year and age\"] = 1,\n    [\"EngvarB\"] = 1,\n    [\"Harvnb\"] = 4,\n    [\"Infobox saint\"] = 1,\n    [\"Lang-ang\"] = 1,\n    [\"Lang-la\"] = 1,\n    [\"PASE\"] = 1,\n    [\"Reflist\"] = 1,\n    [\"Short description\"] = 1,\n    [\"Use dmy dates\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw-web.codfw.main-5579f44fcc-kpj4t","timestamp":"20230902183711","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Guthlac of Crowland","url":"https:\/\/en.wikipedia.org\/wiki\/Guthlac_of_Crowland","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1382565","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1382565","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-03-09T19:33:23Z","dateModified":"2023-09-02T18:36:46Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4d\/St_Guthlac%2C_Croyland_Abbey.JPG","headline":"saint of the Christian faith and British hermit"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Guthlac of Crowland","url":"https:\/\/en.wikipedia.org\/wiki\/Guthlac_of_Crowland","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1382565","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1382565","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-03-09T19:33:23Z","dateModified":"2023-09-02T18:36:46Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4d\/St_Guthlac%2C_Croyland_Abbey.JPG","headline":"saint of the Christian faith and British hermit"}</script>
 </body>
 </html>

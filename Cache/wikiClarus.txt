@@ -1,262 +1,107 @@
 <!DOCTYPE html>
-<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled" lang="en" dir="ltr">
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled" lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8"/>
+<meta charset="UTF-8">
 <title>Claros - Wikipedia</title>
-<script>document.documentElement.className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-page-tools-disabled vector-feature-page-tools-pinned-disabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled";(function(){var cookie=document.cookie.match(/(?:^|; )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"f11ff69d-2b66-4dfb-8eb0-ef2e3614799c",
-"wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Claros","wgTitle":"Claros","wgCurRevisionId":1119316130,"wgRevisionId":1119316130,"wgArticleId":6927200,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description matches Wikidata","Articles with Ancient Greek-language sources (grc)","Articles with Latin-language sources (la)","Coordinates on Wikidata","Articles containing Greek-language text","Articles containing Latin-language text","All articles with unsourced statements","Articles with unsourced statements from April 2013","Commons category link is on Wikidata","All articles with dead external links","Articles with dead external links from July 2019","Articles with permanently dead external links","Articles with VIAF identifiers","Articles with WorldCat identifiers","Articles with J9U identifiers",
-"Articles with LCCN identifiers","Temples in ancient Ionia","Classical oracles","Ancient Greek archaeological sites in Turkey","10th-century BC religious buildings and structures","Temples of Apollo"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Claros","wgRelevantArticleId":6927200,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Clarus","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Claros"
-,"wgCoordinates":{"lat":38.005,"lon":27.192777777777778},"wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q1933754","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=[
-"mediawiki.action.view.redirect","ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.growthExperiments.SuggestedEditSession"];</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"/>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-disabled";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August",
+"September","October","November","December"],"wgRequestId":"3a4beff2-8f1c-45e6-8924-3ba38377e8c7","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Claros","wgTitle":"Claros","wgCurRevisionId":1168860958,"wgRevisionId":1168860958,"wgArticleId":6927200,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description matches Wikidata","Articles with Ancient Greek-language sources (grc)","Articles with Latin-language sources (la)","Coordinates on Wikidata","Articles containing Greek-language text","Articles containing Latin-language text","All articles with unsourced statements","Articles with unsourced statements from April 2013","Commons category link is on Wikidata","All articles with dead external links","Articles with dead external links from July 2019","Articles with permanently dead external links","Articles with VIAF identifiers",
+"Articles with J9U identifiers","Articles with LCCN identifiers","Articles with Pleiades identifiers","Temples in ancient Ionia","Classical oracles","Ancient Greek archaeological sites in Turkey","10th-century BC religious buildings and structures","Temples of Apollo"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Claros","wgRelevantArticleId":6927200,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Clarus","wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,
+"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Claros","wgCoordinates":{"lat":38.005,"lon":27.192777777777778},"wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q1933754","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready",
+"jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","mediawiki.page.media","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
 <script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
-<meta name="ResourceLoaderDynamicStyles" content=""/>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"/>
-<meta name="generator" content="MediaWiki 1.40.0-wmf.21"/>
-<meta name="referrer" content="origin"/>
-<meta name="referrer" content="origin-when-crossorigin"/>
-<meta name="referrer" content="origin-when-cross-origin"/>
-<meta name="robots" content="max-image-preview:standard"/>
-<meta name="format-detection" content="telephone=no"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/1200px-Klaros01.jpg"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="800"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/800px-Klaros01.jpg"/>
-<meta property="og:image:width" content="800"/>
-<meta property="og:image:height" content="533"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/640px-Klaros01.jpg"/>
-<meta property="og:image:width" content="640"/>
-<meta property="og:image:height" content="427"/>
-<meta name="viewport" content="width=1000"/>
-<meta property="og:title" content="Claros - Wikipedia"/>
-<meta property="og:type" content="website"/>
-<link rel="preconnect" href="//upload.wikimedia.org"/>
-<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Claros"/>
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Claros&amp;action=edit"/>
-<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
-<link rel="icon" href="/static/favicon/wikipedia.ico"/>
-<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
-<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
-<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
-<link rel="canonical" href="https://en.wikipedia.org/wiki/Claros"/>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.41.0-wmf.25">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-crossorigin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/1200px-Klaros01.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/800px-Klaros01.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="533">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/640px-Klaros01.jpg">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="427">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Claros - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Claros">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Claros&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Claros">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
 <link rel="dns-prefetch" href="//meta.wikimedia.org" />
-<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org">
 </head>
-<body class="skin-vector skin-vector-search-vue vector-toc-pinned mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Claros rootpage-Claros skin-vector-2022 action-view"><div class="mw-page-container">
-	<a class="mw-jump-link" href="#bodyContent">Jump to content</a>
-	<div class="mw-page-container-inner">
-		<input
-			type="checkbox"
-			id="mw-sidebar-checkbox"
-			class="mw-checkbox-hack-checkbox"
-			>
-		<header class="mw-header mw-ui-icon-flush-left mw-ui-icon-flush-right">
-			<div class="vector-header-start">
-					<label
-				id="mw-sidebar-button"
-				class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-flush-right"
-				for="mw-sidebar-checkbox"
-				role="button"
-				aria-controls="mw-panel"
-				data-event-name="ui.sidebar"
-				tabindex="0"
-				title="Main menu">
-				<span>Toggle sidebar</span>
-			</label>
-		
-<a href="/wiki/Main_Page" class="mw-logo">
-	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt=""
-		aria-hidden="true" height="50" width="50">
-	<span class="mw-logo-container">
-		<img class="mw-logo-wordmark" alt="Wikipedia"
-			src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
-		<img class="mw-logo-tagline"
-			alt="The Free Encyclopedia"
-			src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
-	</span>
-</a>
-
-			</div>
-			<div class="vector-header-end">
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Claros rootpage-Claros skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
 				
-<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
-	<a href="/wiki/Special:Search"
-	
-		
-		
-		
-		title="Search Wikipedia [f]"
-		accesskey="f"
-		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
-		<span>Search</span>
-	</a>
-	
-	<div>
-		<form action="/w/index.php" id="searchform"
-			class="vector-search-box-form">
-			<div id="simpleSearch"
-				class="vector-search-box-inner"
-				 data-search-loc="header-moved">
-				<input class="vector-search-box-input"
-					 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
-				>
-				<input type="hidden" name="title" value="Special:Search">
-				<input id="mw-searchButton"
-					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search">
-				<input id="searchButton"
-					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
-			</div>
-		</form>
-	</div>
-</div>
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
 
-				<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
-	
-<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
-	<div class="vector-menu-heading">
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
 		
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Claros" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li></ul>
-		
-	</div>
-</div>
-
-	
-	<div id="p-personal" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out"  title="Log in and more options" >
-		<input type="checkbox"
-			id="p-personal-checkbox"
-			role="button"
-			aria-haspopup="true"
-			data-event-name="ui.dropdown-p-personal"
-			class="vector-menu-checkbox "
-			
-			
-		/>
-		<label
-			id="p-personal-label"
-			for="p-personal-checkbox"
-			class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis"
-			
-		>
-			<span class="vector-menu-heading-label">Personal tools</span>
-		</label>
-		<div class="vector-menu-content">
-	
-		<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li class="vector-user-menu-create-account user-links-collapsible-item" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:CreateAccount&amp;returnto=Claros"
-	><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span><span>Create account</span></a>
-</li><li class="vector-user-menu-login" id=""><a data-mw="interface"
-	href="/w/index.php?title=Special:UserLogin&amp;returnto=Claros"
-	 title="[o]" accesskey="o"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span><span>Log in</span></a>
-</li></ul>
-	
-</div>
-
-		<div class="vector-user-menu-anon-editor">
-			<p>
-				Pages for logged out editors <a data-mw="interface"
-	href="/wiki/Help:Introduction"
-	 aria-label="Learn more about editing"><span>learn more</span></a>
-
-			</p>
-		</div>
-				<div class="vector-menu-content">
-	
-	<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li></ul>
-	
-</div>
-
-	
-		</div>
-	</div></nav>
-
-			</div>
-		</header>
-		<div class="vector-main-menu-container ">
-			<div id="mw-navigation">
-				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
-						
 <div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
-	
-	
-<div id="p-navigation" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-navigation"  >
 	<div
-		id="p-navigation-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Navigation</span>
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 	
 	
-<div id="p-interaction" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-interaction"  >
-	<div
-		id="p-interaction-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Contribute</span>
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
 	</div>
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-tb" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-tb"  >
-	<div
-		id="p-tb-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Tools</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Claros" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Claros" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Claros&amp;oldid=1119316130" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Claros&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Claros&amp;id=1119316130&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1933754" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-coll-print_export" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-coll-print_export"  >
-	<div
-		id="p-coll-print_export-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">Print/export</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Claros&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Claros&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li></ul>
-		
-	</div>
-</div>
-
-<div id="p-wikibase-otherprojects" class="vector-main-menu-group vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
-	<div
-		id="p-wikibase-otherprojects-label"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">In other projects</span>
-	</div>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Klaros" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -266,29 +111,135 @@
 	<div class="vector-main-menu-action-item">
 		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
 		<div class="vector-main-menu-action-content vector-menu-content">
-			<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">On this Wikipedia the language links are at the top of the page across from the article title. <a href="#p-lang-btn">Go to top</a>.</div>
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Language links are at the top of the page across from the title.</div></div>
 		</div>
 	</div>
 </div>
 
-
 </div>
 
-				</nav>
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links" aria-label="Personal tools" role="navigation" >
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Claros" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login-2" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Claros" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Claros" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Claros" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-main-menu-container ">
+			<div id="mw-navigation">
+				<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+					<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+					</div>
+		</nav>
 			</div>
 		</div>
 		<div class="vector-sitenotice-container">
 			<div id="siteNotice"><!-- CentralNotice --></div>
 		</div>
-		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="mw-checkbox-hack-checkbox">
-		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container">
+		<input type="checkbox" id="vector-toc-collapsed-checkbox" class="vector-menu-checkbox">
+		<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark vector-sticky-pinned-container">
 			<div id="vector-toc-pinned-container" class="vector-pinned-container">
-			<div id="vector-toc" class="vector-toc vector-pinnable-element">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
 	<div
 	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
-	data-name="vector-toc"
-	
-	
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
 	
 	
 >
@@ -312,8 +263,9 @@
 			<span class="vector-toc-numb">1</span>History</div>
 		</a>
 		
-			<button aria-controls="toc-History-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small vector-toc-toggle">
-				
+			<button aria-controls="toc-History-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Toggle History subsection</span>
 			</button>
 		
 		<ul id="toc-History-sublist" class="vector-toc-list">
@@ -393,82 +345,61 @@
 </div>
 
 			</div>
-</nav>
+		</nav>
 		<div class="mw-content-container">
 			<main id="content" class="mw-body" role="main">
 				<header class="mw-body-header vector-page-titlebar">
 					<label
 						id="vector-toc-collapsed-button"
-						class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-flush-left mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+						class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet vector-button-flush-left cdx-button--icon-only"
 						for="vector-toc-collapsed-checkbox"
 						role="button"
-						aria-controls="toc-toggle-list"
-						data-event-name="vector.toc-toggle-list"
+						aria-controls="vector-toc"
 						tabindex="0"
 						title="Table of Contents">
-						Toggle the table of contents
+						<span class="vector-icon mw-ui-icon-wikimedia-listBullet"></span>
+						<span>Toggle the table of contents</span>
 					</label>
-				
-					
-<div id="vector-page-titlebar-toc" class="vector-menu vector-dropdown vector-menu-dropdown vector-page-titlebar-toc mw-ui-icon-flush-left"  >
-	<input type="checkbox"
-		id="vector-page-titlebar-toc-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-vector-page-titlebar-toc"
-		class="vector-menu-checkbox "
-		
-		
-	/>
-	<label
-		id="vector-page-titlebar-toc-label"
-		for="vector-page-titlebar-toc-checkbox"
-		class="vector-menu-heading mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element mw-ui-icon-wikimedia-listBullet"
-		
-	>
-		<span class="vector-menu-heading-label"></span>
+					<nav role="navigation" aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 
-						<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
-		</div>
-	
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
 	</div>
 </div>
-				
+
+					</nav>
 					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Claros</span></h1>
-				
 							
-<div id="p-lang-btn" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-lang mw-ui-icon-flush-right"  >
-	<input type="checkbox"
-		id="p-lang-btn-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-lang-btn"
-		class="vector-menu-checkbox mw-interlanguage-selector"
-		aria-label="Go to an article in another language. Available in 15 languages"
-		
-	/>
-	<label
-		id="p-lang-btn-label"
-		for="p-lang-btn-checkbox"
-		class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive mw-portlet-lang-heading-15"
-		
-	>
-		<span class="mw-ui-icon mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">15 languages</span>
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 15 languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-15" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">15 languages</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
 		<div class="vector-menu-content">
 			
-			<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%80%D0%BE%D1%81" title="Кларос – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Oracle_de_Claros" title="Oracle de Claros – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Klaros" title="Klaros – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%AC%CF%81%CE%BF%CF%82" title="Κλάρος – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Claros" title="Claros – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Claros" title="Claros – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Claros" title="Claros – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a href="https://lb.wikipedia.org/wiki/Orakel_vu_Klaros" title="Orakel vu Klaros – Luxembourgish" lang="lb" hreflang="lb" class="interlanguage-link-target"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Clarus" title="Clarus – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%A9%E3%83%AD%E3%82%B9" title="クラロス – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Klaros" title="Klaros – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Claros" title="Claros – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%80%D0%BE%D1%81" title="Кларос – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Klaros" title="Klaros – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Klaros" title="Klaros – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li></ul>
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%80%D0%BE%D1%81" title="Кларос – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Oracle_de_Claros" title="Oracle de Claros – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Klaros" title="Klaros – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%AC%CF%81%CE%BF%CF%82" title="Κλάρος – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Claros" title="Claros – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Claros" title="Claros – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Claros" title="Claros – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a href="https://lb.wikipedia.org/wiki/Orakel_vu_Klaros" title="Orakel vu Klaros – Luxembourgish" lang="lb" hreflang="lb" class="interlanguage-link-target"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Clarus" title="Clarus – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%A9%E3%83%AD%E3%82%B9" title="クラロス – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Klaros" title="Klaros – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Claros" title="Claros – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%80%D0%BE%D1%81" title="Кларос – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Klaros" title="Klaros – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Klaros" title="Klaros – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li>
+			</ul>
 			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1933754#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
 		</div>
 
 	</div>
 </div>
-				</header>
+</header>
 				<div class="vector-page-toolbar">
 					<div class="vector-page-toolbar-container">
 						<div id="left-navigation">
@@ -477,41 +408,38 @@
 <div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Claros" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Claros" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Claros" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Claros" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
 		
 	</div>
 </div>
 
 								
-
-<div id="p-variants" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-variants emptyPortlet"  >
-	<input type="checkbox"
-		id="p-variants-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-variants"
-		class="vector-menu-checkbox"
-		aria-label="Change language variant"
-		
-	/>
-	<label
-		id="p-variants-label"
-		for="p-variants-checkbox"
-		class="vector-menu-heading "
-		
-	>
-		<span class="vector-menu-heading-label">English</span>
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"></ul>
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
 		
-	</div>
-
 	</div>
 </div>
+
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 						<div id="right-navigation" class="vector-collapsible">
@@ -520,7 +448,10 @@
 <div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
 	<div class="vector-menu-content">
 		
-		<ul class="vector-menu-content-list"><li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Claros"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Claros&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Claros&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Claros"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Claros&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Claros&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
 		
 	</div>
 </div>
@@ -529,43 +460,107 @@
 				
 							<nav class="vector-page-tools-landmark" aria-label="More options">
 								
-
-<div id="p-cactions" class="vector-menu vector-dropdown vector-menu-dropdown mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
-	<input type="checkbox"
-		id="p-cactions-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-cactions"
-		class="vector-menu-checkbox"
-		
-		
-	/>
-	<label
-		id="p-cactions-label"
-		for="p-cactions-checkbox"
-		class="vector-menu-heading"
-		
-	>
-		<span class="vector-menu-heading-label">More</span>
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
 	</label>
-	<div class="vector-menu-content">
+	<div class="vector-dropdown-content">
 
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list"><li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Claros"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Claros&amp;action=edit"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Claros&amp;action=history"><span>View history</span></a></li></ul>
-		
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
 	</div>
-
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Claros"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Claros&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Claros&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
 	</div>
 </div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Claros" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Claros" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Claros&amp;oldid=1168860958" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Claros&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Claros&amp;id=1168860958&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1933754" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Claros&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Claros&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Klaros" hreflang="en"><span>Wikimedia Commons</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
 							</nav>
 						</div>
 					</div>
 				</div>
-				
+				<div class="vector-column-end">
+					<nav class="vector-page-tools-landmark vector-sticky-pinned-container" aria-label="More options">
+						<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+			
+						</div>
+	</nav>
+				</div>
 				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
 					<div class="vector-body-before-content">
 							<div class="mw-indicators">
+		<div id="mw-indicator-coordinates" class="mw-indicator"><div class="mw-parser-output"><span id="coordinates"><a href="/wiki/Geographic_coordinate_system" title="Geographic coordinate system">Coordinates</a>: <style data-mw-deduplicate="TemplateStyles:r1156832818">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class="plainlinks nourlexpansion"><a class="external text" href="https://geohack.toolforge.org/geohack.php?pagename=Claros&amp;params=38_00_18_N_27_11_34_E_type:landmark"><span class="geo-default"><span class="geo-dms" title="Maps, aerial photos, and other data for this location"><span class="latitude">38°00′18″N</span> <span class="longitude">27°11′34″E</span></span></span><span class="geo-multi-punct">&#xfeff; / &#xfeff;</span><span class="geo-nondefault"><span class="geo-dec" title="Maps, aerial photos, and other data for this location">38.00500°N 27.19278°E</span><span style="display:none">&#xfeff; / <span class="geo">38.00500; 27.19278</span></span></span></a></span></span></div></div>
 		</div>
 
 						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
@@ -575,13 +570,13 @@
 					
 					<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Ancient Greek sanctuary on Ionian coast</div>
 <style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">"Clarus" redirects here. For other uses, see <a href="/wiki/Clarus_(disambiguation)" class="mw-disambig" title="Clarus (disambiguation)">Clarus (disambiguation)</a>.</div>
-<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><caption class="infobox-title fn org">Claros</caption><tbody><tr><td colspan="2" class="infobox-subheader"><div class="nickname">Κλάρος <span class="languageicon">(in Ancient Greek)</span><br />Clarus <span class="languageicon">(in Latin)</span></div></td></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Klaros01.jpg" class="image"><img alt="Klaros01.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/270px-Klaros01.jpg" decoding="async" width="270" height="180" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/405px-Klaros01.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/540px-Klaros01.jpg 2x" data-file-width="3072" data-file-height="2048" /></a><div class="infobox-caption">The Temple of Apollo at Claros</div></td></tr><tr><td colspan="2" class="infobox-image"><style data-mw-deduplicate="TemplateStyles:r997900035">.mw-parser-output .locmap .od{position:absolute}.mw-parser-output .locmap .id{position:absolute;line-height:0}.mw-parser-output .locmap .l0{font-size:0;position:absolute}.mw-parser-output .locmap .pv{line-height:110%;position:absolute;text-align:center}.mw-parser-output .locmap .pl{line-height:110%;position:absolute;top:-0.75em;text-align:right}.mw-parser-output .locmap .pr{line-height:110%;position:absolute;top:-0.75em;text-align:left}.mw-parser-output .locmap .pv>div{display:inline;padding:1px}.mw-parser-output .locmap .pl>div{display:inline;padding:1px;float:right}.mw-parser-output .locmap .pr>div{display:inline;padding:1px;float:left}</style><div class="center"><div class="locmap" style="width:270px;float:none;clear:both;margin-left:auto;margin-right:auto"><div style="width:270px;padding:0"><div style="position:relative;width:270px"><a href="/wiki/File:Turkey_adm_location_map.svg" class="image" title="Claros is located in Turkey"><img alt="Claros is located in Turkey" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Turkey_adm_location_map.svg/270px-Turkey_adm_location_map.svg.png" decoding="async" width="270" height="123" class="notpageimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Turkey_adm_location_map.svg/405px-Turkey_adm_location_map.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Turkey_adm_location_map.svg/540px-Turkey_adm_location_map.svg.png 2x" data-file-width="1578" data-file-height="721" /></a><div class="od" style="top:64.214%;left:9.147%"><div class="id" style="left:-4px;top:-4px"><img alt="Claros" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Archaeological_site_icon_%28red%29.svg/8px-Archaeological_site_icon_%28red%29.svg.png" decoding="async" title="Claros" width="8" height="8" class="notpageimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Archaeological_site_icon_%28red%29.svg/12px-Archaeological_site_icon_%28red%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Archaeological_site_icon_%28red%29.svg/16px-Archaeological_site_icon_%28red%29.svg.png 2x" data-file-width="16" data-file-height="16" /></div></div></div><div style="padding-top:0.2em">Shown within Turkey</div></div></div></div></td></tr><tr><th scope="row" class="infobox-label">Location</th><td class="infobox-data label">Ahmetbeyli, <a href="/wiki/Izmir_Province" class="mw-redirect" title="Izmir Province">Izmir Province</a>, <a href="/wiki/Turkey" title="Turkey">Turkey</a></td></tr><tr><th scope="row" class="infobox-label">Region</th><td class="infobox-data label"><a href="/wiki/Ionia" title="Ionia">Ionia</a></td></tr><tr><th scope="row" class="infobox-label">Coordinates</th><td class="infobox-data"><style data-mw-deduplicate="TemplateStyles:r1073938472">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class="plainlinks nourlexpansion"><a class="external text" href="//geohack.toolforge.org/geohack.php?pagename=Claros&amp;params=38_00_18_N_27_11_34_E_type:landmark"><span class="geo-default"><span class="geo-dms" title="Maps, aerial photos, and other data for this location"><span class="latitude">38°00′18″N</span> <span class="longitude">27°11′34″E</span></span></span><span class="geo-multi-punct">&#xfeff; / &#xfeff;</span><span class="geo-nondefault"><span class="geo-dec" title="Maps, aerial photos, and other data for this location">38.00500°N 27.19278°E</span><span style="display:none">&#xfeff; / <span class="geo">38.00500; 27.19278</span></span></span></a></span><span style="font-size: small;"><span id="coordinates"><a href="/wiki/Geographic_coordinate_system" title="Geographic coordinate system">Coordinates</a>: <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1073938472"/><span class="plainlinks nourlexpansion"><a class="external text" href="//geohack.toolforge.org/geohack.php?pagename=Claros&amp;params=38_00_18_N_27_11_34_E_type:landmark"><span class="geo-default"><span class="geo-dms" title="Maps, aerial photos, and other data for this location"><span class="latitude">38°00′18″N</span> <span class="longitude">27°11′34″E</span></span></span><span class="geo-multi-punct">&#xfeff; / &#xfeff;</span><span class="geo-nondefault"><span class="geo-dec" title="Maps, aerial photos, and other data for this location">38.00500°N 27.19278°E</span><span style="display:none">&#xfeff; / <span class="geo">38.00500; 27.19278</span></span></span></a></span></span></span></td></tr><tr><th scope="row" class="infobox-label">Type</th><td class="infobox-data category">Sanctuary</td></tr><tr><th scope="row" class="infobox-label">Satellite&#160;of</th><td class="infobox-data"><a href="/wiki/Colophon_(city)" title="Colophon (city)">Colophon</a></td></tr><tr><th colspan="2" class="infobox-header" style="background-color: #eee;">Site notes</th></tr><tr><th scope="row" class="infobox-label">Condition</th><td class="infobox-data">Ruined</td></tr><tr><th scope="row" class="infobox-label">Ownership</th><td class="infobox-data">Public</td></tr><tr><th scope="row" class="infobox-label">Public&#160;access</th><td class="infobox-data">Yes</td></tr></tbody></table>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox vcard"><caption class="infobox-title fn org">Claros</caption><tbody><tr><td colspan="2" class="infobox-subheader"><div class="nickname">Κλάρος <span class="languageicon">(in Ancient Greek)</span><br />Clarus <span class="languageicon">(in Latin)</span></div></td></tr><tr><td colspan="2" class="infobox-image"><span typeof="mw:File"><a href="/wiki/File:Klaros01.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/270px-Klaros01.jpg" decoding="async" width="270" height="180" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/405px-Klaros01.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/540px-Klaros01.jpg 2x" data-file-width="3072" data-file-height="2048" /></a></span><div class="infobox-caption">The Temple of Apollo at Claros</div></td></tr><tr><td colspan="2" class="infobox-image"><style data-mw-deduplicate="TemplateStyles:r997900035">.mw-parser-output .locmap .od{position:absolute}.mw-parser-output .locmap .id{position:absolute;line-height:0}.mw-parser-output .locmap .l0{font-size:0;position:absolute}.mw-parser-output .locmap .pv{line-height:110%;position:absolute;text-align:center}.mw-parser-output .locmap .pl{line-height:110%;position:absolute;top:-0.75em;text-align:right}.mw-parser-output .locmap .pr{line-height:110%;position:absolute;top:-0.75em;text-align:left}.mw-parser-output .locmap .pv>div{display:inline;padding:1px}.mw-parser-output .locmap .pl>div{display:inline;padding:1px;float:right}.mw-parser-output .locmap .pr>div{display:inline;padding:1px;float:left}</style><div class="center"><div class="locmap" style="width:270px;float:none;clear:both;margin-left:auto;margin-right:auto"><div style="width:270px;padding:0"><div style="position:relative;width:270px"><span class="notpageimage" typeof="mw:File"><a href="/wiki/File:Turkey_adm_location_map.svg" class="mw-file-description" title="Claros is located in Turkey"><img alt="Claros is located in Turkey" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Turkey_adm_location_map.svg/270px-Turkey_adm_location_map.svg.png" decoding="async" width="270" height="123" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Turkey_adm_location_map.svg/405px-Turkey_adm_location_map.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Turkey_adm_location_map.svg/540px-Turkey_adm_location_map.svg.png 2x" data-file-width="1578" data-file-height="721" /></a></span><div class="od" style="top:64.214%;left:9.147%"><div class="id" style="left:-4px;top:-4px"><span class="notpageimage" typeof="mw:File"><span title="Claros"><img alt="Claros" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Archaeological_site_icon_%28red%29.svg/8px-Archaeological_site_icon_%28red%29.svg.png" decoding="async" width="8" height="8" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Archaeological_site_icon_%28red%29.svg/12px-Archaeological_site_icon_%28red%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Archaeological_site_icon_%28red%29.svg/16px-Archaeological_site_icon_%28red%29.svg.png 2x" data-file-width="16" data-file-height="16" /></span></span></div></div></div><div style="padding-top:0.2em">Shown within Turkey</div></div></div></div></td></tr><tr><th scope="row" class="infobox-label">Location</th><td class="infobox-data label">Ahmetbeyli, <a href="/wiki/Izmir_Province" class="mw-redirect" title="Izmir Province">Izmir Province</a>, <a href="/wiki/Turkey" title="Turkey">Turkey</a></td></tr><tr><th scope="row" class="infobox-label">Region</th><td class="infobox-data label"><a href="/wiki/Ionia" title="Ionia">Ionia</a></td></tr><tr><th scope="row" class="infobox-label">Coordinates</th><td class="infobox-data"><span class="geo-inline"><style data-mw-deduplicate="TemplateStyles:r1156832818">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class="plainlinks nourlexpansion"><a class="external text" href="https://geohack.toolforge.org/geohack.php?pagename=Claros&amp;params=38_00_18_N_27_11_34_E_type:landmark"><span class="geo-default"><span class="geo-dms" title="Maps, aerial photos, and other data for this location"><span class="latitude">38°00′18″N</span> <span class="longitude">27°11′34″E</span></span></span><span class="geo-multi-punct">&#xfeff; / &#xfeff;</span><span class="geo-nondefault"><span class="geo-dec" title="Maps, aerial photos, and other data for this location">38.00500°N 27.19278°E</span><span style="display:none">&#xfeff; / <span class="geo">38.00500; 27.19278</span></span></span></a></span></span></td></tr><tr><th scope="row" class="infobox-label">Type</th><td class="infobox-data category">Sanctuary</td></tr><tr><th scope="row" class="infobox-label">Satellite&#160;of</th><td class="infobox-data"><a href="/wiki/Colophon_(city)" title="Colophon (city)">Colophon</a></td></tr><tr><th colspan="2" class="infobox-header" style="background-color: #eee;">Site notes</th></tr><tr><th scope="row" class="infobox-label">Condition</th><td class="infobox-data">Ruined</td></tr><tr><th scope="row" class="infobox-label">Ownership</th><td class="infobox-data">Public</td></tr><tr><th scope="row" class="infobox-label">Public&#160;access</th><td class="infobox-data">Yes</td></tr></tbody></table>
 <p><b>Claros</b> (<span class="rt-commentedText nowrap"><span class="IPA nopopups noexcerpt" lang="en-fonipa"><a href="/wiki/Help:IPA/English" title="Help:IPA/English">/<span style="border-bottom:1px dotted"><span title="/ˈ/: primary stress follows">ˈ</span><span title="&#39;k&#39; in &#39;kind&#39;">k</span><span title="&#39;l&#39; in &#39;lie&#39;">l</span><span title="/ɛər/: &#39;are&#39; in &#39;bare&#39;">ɛər</span><span title="/ə/: &#39;a&#39; in &#39;about&#39;">ə</span><span title="&#39;s&#39; in &#39;sigh&#39;">s</span></span>/</a></span></span>;<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> <a href="/wiki/Greek_language" title="Greek language">Greek</a>: <span lang="el">Κλάρος</span>, <i>Klaros</i>; <a href="/wiki/Latin_language" class="mw-redirect" title="Latin language">Latin</a>: <i lang="la">Clarus</i>) was an <a href="/wiki/Ancient_Greece" title="Ancient Greece">ancient Greek</a> <a href="/wiki/Sanctuary" title="Sanctuary">sanctuary</a> on the coast of <a href="/wiki/Ionia" title="Ionia">Ionia</a>. It contained a <a href="/wiki/Ancient_Greek_temple" title="Ancient Greek temple">temple</a> and <a href="/wiki/Oracle" title="Oracle">oracle</a> of Apollo, honored here as <a href="/wiki/Apollo_Clarius#Greco-Roman_epithets" class="mw-redirect" title="Apollo Clarius">Apollo Clarius</a>. It was located in the territory of <a href="/wiki/Colophon_(city)" title="Colophon (city)">Colophon</a>, which lay twelve kilometers to the north, one of the twelve cities of the <a href="/wiki/Ionian_League" title="Ionian League">Ionian League</a>. The coastal city <a href="/wiki/Notion_(ancient_city)" title="Notion (ancient city)">Notion</a> lay two kilometers to the south. The ruins of the sanctuary are now found north of the modern town Ahmetbeyli in the <a href="/wiki/Menderes,_%C4%B0zmir" title="Menderes, İzmir">Menderes</a> district of <a href="/wiki/Izmir_Province" class="mw-redirect" title="Izmir Province">Izmir Province</a>, <a href="/wiki/Turkey" title="Turkey">Turkey</a>.
 </p><p>The Temple of Apollo at Claros was a very important center of prophecy, as in <a href="/wiki/Delphi" title="Delphi">Delphi</a> and <a href="/wiki/Didyma" title="Didyma">Didyma</a>. The oldest literary information about this sacred site goes back to the sixth and seventh centuries BC, through the <a href="/wiki/Homeric_Hymns" title="Homeric Hymns">Homeric Hymns</a>, though <a href="/wiki/Proto-Geometric_period" class="mw-redirect" title="Proto-Geometric period">Proto-Geometric pottery</a> at the site betokens 9th century occupation. A sacred cave near the Temple of Apollo, which was an important place both in the Hellenistic and Roman eras, points to the existence of a <a href="/wiki/Cybele" title="Cybele">Cybele</a> cult in early periods here. Games called the Claria were held at Claros every fifth year in honor of Apollo.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2013)">citation needed</span></a></i>&#93;</sup>
 </p>
 <meta property="mw:PageProp/toc" />
 <h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Claros&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<div class="thumb tright"><div class="thumbinner" style="width:277px;"><a href="/wiki/File:Map_greek_sanctuaries-en.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Map_greek_sanctuaries-en.svg/275px-Map_greek_sanctuaries-en.svg.png" decoding="async" width="275" height="220" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Map_greek_sanctuaries-en.svg/413px-Map_greek_sanctuaries-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/de/Map_greek_sanctuaries-en.svg/550px-Map_greek_sanctuaries-en.svg.png 2x" data-file-width="993" data-file-height="793" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Map_greek_sanctuaries-en.svg" class="internal" title="Enlarge"></a></div>A map of the main sanctuaries in <a href="/wiki/Classical_Greece" title="Classical Greece">Classical Greece</a></div></div></div>
+<figure typeof="mw:File/Thumb"><a href="/wiki/File:Map_greek_sanctuaries-en.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Map_greek_sanctuaries-en.svg/275px-Map_greek_sanctuaries-en.svg.png" decoding="async" width="275" height="220" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Map_greek_sanctuaries-en.svg/413px-Map_greek_sanctuaries-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/de/Map_greek_sanctuaries-en.svg/550px-Map_greek_sanctuaries-en.svg.png 2x" data-file-width="993" data-file-height="793" /></a><figcaption>A map of the main sanctuaries in <a href="/wiki/Classical_Greece" title="Classical Greece">Classical Greece</a></figcaption></figure>
 <p>It is unknown when the sanctuary was founded exactly and its origins are shrouded in <a href="/wiki/Greek_mythology" title="Greek mythology">mythology</a>. Archaeological excavations revealed structures dating back to the 10th century BC.<sup id="cite_ref-fmfa_2-0" class="reference"><a href="#cite_note-fmfa-2">&#91;2&#93;</a></sup> The high point for the fame of the sanctuary seems to have been the 2nd and 3rd centuries AD<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup> and it had many visitors until the 4th century AD.<sup id="cite_ref-Sahin_4-0" class="reference"><a href="#cite_note-Sahin-4">&#91;4&#93;</a></sup>
 </p>
 <h3><span class="mw-headline" id="Materials_and_source">Materials and source</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Claros&amp;action=edit&amp;section=2" title="Edit section: Materials and source">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -601,9 +596,9 @@
 </p>
 <h2><span class="mw-headline" id="Excavations">Excavations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Claros&amp;action=edit&amp;section=6" title="Edit section: Excavations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <p>Claros had been entirely buried in the alluvial silt deposited by the small river at the site, a widespread phenomenon along this coastline during the 1st century BC, as the hinterland was deforested. T. Macridy uncovered the monumental entrance to the sanctuary in 1905 and returned for further explorations with the French archaeologist Charles Picard in 1913. Excavations recommenced between 1950 and 1961 under Louis Robert, and a series of important Roman dedicated monuments came to light, as well as the famous <a href="/wiki/Doric_order" title="Doric order">Doric</a> Temple of Apollo, seat of the oracle, in its final grand though uncompleted Hellenistic phase, 3rd century BC. The Sacred Way was excavated in 1988 under J. de La Genière. Since then much alluvial spoil has been carted off-site and Claros was prepared to receive visitors.<sup id="cite_ref-fmfa_2-1" class="reference"><a href="#cite_note-fmfa-2">&#91;2&#93;</a></sup><sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2013)">citation needed</span></a></i>&#93;</sup>
-</p><p>The excavations conducted since 1988 have demonstrated that there was a religious area there around a spring of fresh water from the 9th century BC. The first known construction is a round altar of the second half of the 7th century. It was covered over around the middle of the 6th century by a large rectangular altar (14.85 × 6.05&#160;m); at the same time a marble temple was built for Apollo around the spring while Apollo’s sister, Artemis, had her own precinct and a smaller altar (3.50 × 150&#160;m): next to it were found the bases of two korai, one of which is preserved (the head is missing). There were at least four statues of <a href="/wiki/Kouroi" class="mw-redirect" title="Kouroi">kouroi</a> dedicated to Apollo; three of them, incomplete, have been found.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2013)">citation needed</span></a></i>&#93;</sup>
+</p><p>The excavations conducted since 1988 have demonstrated that there was a religious area there around a spring of fresh water from the 9th century BC. The first known construction is a round altar of the second half of the 7th century. It was covered over around the middle of the 6th century by a large rectangular altar (14.85 × 6.05&#160;m); at the same time a marble temple was built for Apollo around the spring while Apollo's sister, Artemis, had her own precinct and a smaller altar (3.50 × 150&#160;m): next to it were found the bases of two korai, one of which is preserved (the head is missing). There were at least four statues of <a href="/wiki/Kouroi" class="mw-redirect" title="Kouroi">kouroi</a> dedicated to Apollo; three of them, incomplete, have been found.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2013)">citation needed</span></a></i>&#93;</sup>
 </p>
-<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Claros_temple_2004-11-14.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Claros_temple_2004-11-14.jpg/220px-Claros_temple_2004-11-14.jpg" decoding="async" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Claros_temple_2004-11-14.jpg/330px-Claros_temple_2004-11-14.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/53/Claros_temple_2004-11-14.jpg/440px-Claros_temple_2004-11-14.jpg 2x" data-file-width="1280" data-file-height="960" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Claros_temple_2004-11-14.jpg" class="internal" title="Enlarge"></a></div>The maze-like adyton beneath the Temple of Apollo has been preserved well.</div></div></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/wiki/File:Claros_temple_2004-11-14.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Claros_temple_2004-11-14.jpg/220px-Claros_temple_2004-11-14.jpg" decoding="async" width="220" height="165" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Claros_temple_2004-11-14.jpg/330px-Claros_temple_2004-11-14.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/53/Claros_temple_2004-11-14.jpg/440px-Claros_temple_2004-11-14.jpg 2x" data-file-width="1280" data-file-height="960" /></a><figcaption>The maze-like adyton beneath the Temple of Apollo has been preserved well.</figcaption></figure>
 <p>Very few changes occurred in the sanctuary between the 6th and the end of the 4th century. At that time a new layout of the sacred area was conceived, with monuments on a larger scale; most probably, the plans were put into execution  only after the terrible events of the beginning of the 3rd century BC. Later in the 3rd century construction began on the new altar and the new Temple of Apollo. It had a dark <a href="/wiki/Crypt" title="Crypt">crypt</a>-like <a href="/wiki/Adyton" title="Adyton">adyton</a> from where the oracle delivered his prophecies. Today it is well preserved and its narrow, dark and <a href="/wiki/Vault_(architecture)" title="Vault (architecture)">vaulted</a> <a href="/wiki/Labyrinth" title="Labyrinth">labyrinthine</a> corridors remain.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2013)">citation needed</span></a></i>&#93;</sup>
 </p><p>Above the ground, remains can be seen of the base and fragments of the colossal sculptures of a seated Apollo with his lyre, accompanied by <a href="/wiki/Leto" title="Leto">Leto</a> and <a href="/wiki/Artemis" title="Artemis">Artemis</a>, facing to the east. The group, whose fragments are partially reassembled at the site, seems to have measured more than seven meters in height. In the sanctuary, rows of names of the countless grateful ancient visitors may still be seen, votive and memorial inscriptions on columns, on steps and walls and even on a curving marble bench: in their entirety the inscription of Clarus form the largest assembly of surviving Greek inscriptions. An elegant marble chair in the sanctuary has <a href="/wiki/Serpent_(symbolism)" class="mw-redirect" title="Serpent (symbolism)">serpent</a> arms, a reminder of the <a href="/wiki/Chthonic" title="Chthonic">chthonic</a> nature of all genuine oracles among the Hellenes, and which likely reflects Apollo's conquering of Python and subsequent establishment of the temple at Delphi.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup>
 </p><p>After the beginning of the Roman Province of Asia (end of the 2nd century BC), prominent citizens of Colophon helped to increase the authority of the sanctuary, the importance of the religious competitions and the fame of the oracle. To celebrate the major sacrifices before crowds consisting of Greeks and non-Greeks, four rows of iron rings attached to  heavy blocks allowed a hundred victims to be killed simultaneously. Claros is the only sanctuary in the Greek world which offers a clear picture of the way priests could perform the <a href="/wiki/Hecatomb" title="Hecatomb">hecatomb</a>.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2013)">citation needed</span></a></i>&#93;</sup>
@@ -613,15 +608,15 @@
 <div class="mw-references-wrap mw-references-columns"><ol class="references">
 <li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFAvery1962" class="citation book cs1">Avery, Catherine B., ed. (1962). <a rel="nofollow" class="external text" href="https://archive.org/details/newcenturyclassi00aver/page/294/mode/2up"><i>New Century Classical Handbook</i></a>. New York: Appleton-Century-Crofts. p.&#160;295.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=New+Century+Classical+Handbook&amp;rft.place=New+York&amp;rft.pages=295&amp;rft.pub=Appleton-Century-Crofts&amp;rft.date=1962&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fnewcenturyclassi00aver%2Fpage%2F294%2Fmode%2F2up&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
 </li>
-<li id="cite_note-fmfa-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-fmfa_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-fmfa_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.diplomatie.gouv.fr/en/france-priorities_1/archaeology_2200/archaeology-notebooks_2202/ancient-east_2224/turkey-claros_2227/index.html">"Turkey - Claros"</a>. French Ministry of Foreign Affairs<span class="reference-accessdate">. Retrieved <span class="nowrap">7 April</span> 2013</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Turkey+-+Claros&amp;rft.pub=French+Ministry+of+Foreign+Affairs&amp;rft_id=http%3A%2F%2Fwww.diplomatie.gouv.fr%2Fen%2Ffrance-priorities_1%2Farchaeology_2200%2Farchaeology-notebooks_2202%2Fancient-east_2224%2Fturkey-claros_2227%2Findex.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
+<li id="cite_note-fmfa-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-fmfa_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-fmfa_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.diplomatie.gouv.fr/en/france-priorities_1/archaeology_2200/archaeology-notebooks_2202/ancient-east_2224/turkey-claros_2227/index.html">"Turkey - Claros"</a>. French Ministry of Foreign Affairs<span class="reference-accessdate">. Retrieved <span class="nowrap">7 April</span> 2013</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Turkey+-+Claros&amp;rft.pub=French+Ministry+of+Foreign+Affairs&amp;rft_id=http%3A%2F%2Fwww.diplomatie.gouv.fr%2Fen%2Ffrance-priorities_1%2Farchaeology_2200%2Farchaeology-notebooks_2202%2Fancient-east_2224%2Fturkey-claros_2227%2Findex.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
 </li>
-<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFStillwellMacDonaldMcAllister1976" class="citation book cs1">Stillwell, Richard; MacDonald, William L; McAllister, Marian Holland (1976). <span class="cs1-lock-registration" title="Free registration required"><a rel="nofollow" class="external text" href="https://archive.org/details/princetonencyclo00stil"><i>The Princeton Encyclopedia of Classical Sites</i></a></span>. Princeton University Press. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0691035420" title="Special:BookSources/978-0691035420"><bdi>978-0691035420</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Princeton+Encyclopedia+of+Classical+Sites&amp;rft.pub=Princeton+University+Press&amp;rft.date=1976&amp;rft.isbn=978-0691035420&amp;rft.aulast=Stillwell&amp;rft.aufirst=Richard&amp;rft.au=MacDonald%2C+William+L&amp;rft.au=McAllister%2C+Marian+Holland&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fprincetonencyclo00stil&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFStillwellMacDonaldMcAllister1976" class="citation book cs1">Stillwell, Richard; MacDonald, William L; McAllister, Marian Holland (1976). <span class="cs1-lock-registration" title="Free registration required"><a rel="nofollow" class="external text" href="https://archive.org/details/princetonencyclo00stil"><i>The Princeton Encyclopedia of Classical Sites</i></a></span>. Princeton University Press. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0691035420" title="Special:BookSources/978-0691035420"><bdi>978-0691035420</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Princeton+Encyclopedia+of+Classical+Sites&amp;rft.pub=Princeton+University+Press&amp;rft.date=1976&amp;rft.isbn=978-0691035420&amp;rft.aulast=Stillwell&amp;rft.aufirst=Richard&amp;rft.au=MacDonald%2C+William+L&amp;rft.au=McAllister%2C+Marian+Holland&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fprincetonencyclo00stil&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
 </li>
-<li id="cite_note-Sahin-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-Sahin_4-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.hurriyetdailynews.com/klaros-on-way-to-becoming-faith-tourism-center-.aspx?pageID=238&amp;nID=106233&amp;NewsCatID=375">"Klaros on way to becoming faith tourism center"</a>. <i>Hurriyet Daily News</i><span class="reference-accessdate">. Retrieved <span class="nowrap">28 November</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Hurriyet+Daily+News&amp;rft.atitle=Klaros+on+way+to+becoming+faith+tourism+center&amp;rft_id=http%3A%2F%2Fwww.hurriyetdailynews.com%2Fklaros-on-way-to-becoming-faith-tourism-center-.aspx%3FpageID%3D238%26nID%3D106233%26NewsCatID%3D375&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
+<li id="cite_note-Sahin-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-Sahin_4-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.hurriyetdailynews.com/klaros-on-way-to-becoming-faith-tourism-center-.aspx?pageID=238&amp;nID=106233&amp;NewsCatID=375">"Klaros on way to becoming faith tourism center"</a>. <i>Hurriyet Daily News</i>. 17 November 2016<span class="reference-accessdate">. Retrieved <span class="nowrap">28 November</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Hurriyet+Daily+News&amp;rft.atitle=Klaros+on+way+to+becoming+faith+tourism+center&amp;rft.date=2016-11-17&amp;rft_id=http%3A%2F%2Fwww.hurriyetdailynews.com%2Fklaros-on-way-to-becoming-faith-tourism-center-.aspx%3FpageID%3D238%26nID%3D106233%26NewsCatID%3D375&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
 </li>
-<li id="cite_note-NatGeo-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-NatGeo_5-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://news.nationalgeographic.com/news/2009/02/090223-roman-shipwreck-turkey-missions.html">"NationalGeographic-Ancient Shipwreck Stone Cargo Linked to Apollo Temple"</a>. National Geographic<span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=NationalGeographic-Ancient+Shipwreck+Stone+Cargo+Linked+to+Apollo+Temple&amp;rft.pub=National+Geographic&amp;rft_id=http%3A%2F%2Fnews.nationalgeographic.com%2Fnews%2F2009%2F02%2F090223-roman-shipwreck-turkey-missions.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
+<li id="cite_note-NatGeo-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-NatGeo_5-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://news.nationalgeographic.com/news/2009/02/090223-roman-shipwreck-turkey-missions.html">"NationalGeographic-Ancient Shipwreck Stone Cargo Linked to Apollo Temple"</a>. National Geographic<span class="reference-accessdate">. Retrieved <span class="nowrap">8 November</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=NationalGeographic-Ancient+Shipwreck+Stone+Cargo+Linked+to+Apollo+Temple&amp;rft.pub=National+Geographic&amp;rft_id=http%3A%2F%2Fnews.nationalgeographic.com%2Fnews%2F2009%2F02%2F090223-roman-shipwreck-turkey-missions.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
 </li>
-<li id="cite_note-AJA-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-AJA_6-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.jstor.org/stable/20627647">"American Journal of Archaeology-The Kızılburun Shipwreck and the Temple of Apollo at Claros"</a>. American Journal of Archaeology. <a href="/wiki/JSTOR_(identifier)" class="mw-redirect" title="JSTOR (identifier)">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="//www.jstor.org/stable/20627647">20627647</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=American+Journal+of+Archaeology-The+K%C4%B1z%C4%B1lburun+Shipwreck+and+the+Temple+of+Apollo+at+Claros&amp;rft.pub=American+Journal+of+Archaeology&amp;rft_id=%2F%2Fwww.jstor.org%2Fstable%2F20627647%23id-name%3DJSTOR&amp;rft_id=https%3A%2F%2Fwww.jstor.org%2Fstable%2F20627647&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
+<li id="cite_note-AJA-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-AJA_6-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.jstor.org/stable/20627647">"American Journal of Archaeology-The Kızılburun Shipwreck and the Temple of Apollo at Claros"</a>. American Journal of Archaeology. <a href="/wiki/JSTOR_(identifier)" class="mw-redirect" title="JSTOR (identifier)">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="https://www.jstor.org/stable/20627647">20627647</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=American+Journal+of+Archaeology-The+K%C4%B1z%C4%B1lburun+Shipwreck+and+the+Temple+of+Apollo+at+Claros&amp;rft.pub=American+Journal+of+Archaeology&amp;rft_id=https%3A%2F%2Fwww.jstor.org%2Fstable%2F20627647%23id-name%3DJSTOR&amp;rft_id=https%3A%2F%2Fwww.jstor.org%2Fstable%2F20627647&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
 </li>
 <li id="cite_note-paus99-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-paus99_7-0">^</a></b></span> <span class="reference-text"><a href="/wiki/Pausanias_(geographer)" title="Pausanias (geographer)">Pausanias</a>, <i>Description of Greece</i> <a rel="nofollow" class="external text" href="https://www.perseus.tufts.edu/hopper/text?doc=Paus.+9.9">9.9.4–5</a></span>
 </li>
@@ -631,11 +626,11 @@
 </li>
 <li id="cite_note-paus75-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-paus75_10-0">^</a></b></span> <span class="reference-text"><a href="/wiki/Pausanias_(geographer)" title="Pausanias (geographer)">Pausanias</a>, <i>Description of Greece</i> <a rel="nofollow" class="external text" href="https://www.perseus.tufts.edu/hopper/text?doc=Paus.+7.5">7.5.1–3</a></span>
 </li>
-<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFBostock1855" class="citation book cs1">Bostock, John (1855). <a rel="nofollow" class="external text" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137"><i>The Natural History, Pliny the Elder</i></a>. Red Lion Court, Fleet Street, London: Taylor &amp; Francis. pp.&#160;II, 106<span class="reference-accessdate">. Retrieved <span class="nowrap">28 November</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Natural+History%2C+Pliny+the+Elder&amp;rft.place=Red+Lion+Court%2C+Fleet+Street%2C+London&amp;rft.pages=II%2C+106&amp;rft.pub=Taylor+%26+Francis&amp;rft.date=1855&amp;rft.aulast=Bostock&amp;rft.aufirst=John&amp;rft_id=https%3A%2F%2Fwww.perseus.tufts.edu%2Fhopper%2Ftext%3Fdoc%3DPerseus%3Atext%3A1999.02.0137&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFBostock1855" class="citation book cs1">Bostock, John (1855). <a rel="nofollow" class="external text" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137"><i>The Natural History, Pliny the Elder</i></a>. Red Lion Court, Fleet Street, London: Taylor &amp; Francis. pp.&#160;II, 106<span class="reference-accessdate">. Retrieved <span class="nowrap">28 November</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Natural+History%2C+Pliny+the+Elder&amp;rft.place=Red+Lion+Court%2C+Fleet+Street%2C+London&amp;rft.pages=II%2C+106&amp;rft.pub=Taylor+%26+Francis&amp;rft.date=1855&amp;rft.aulast=Bostock&amp;rft.aufirst=John&amp;rft_id=https%3A%2F%2Fwww.perseus.tufts.edu%2Fhopper%2Ftext%3Fdoc%3DPerseus%3Atext%3A1999.02.0137&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
 </li>
-<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFDashu" class="citation web cs1">Dashu, Max. <a rel="nofollow" class="external text" href="http://www.suppressedhistories.net/secrethistory/Pythia.pdf">"Secret History of the Witches"</a> <span class="cs1-format">(PDF)</span>. <i>Suppressed Histories Archives</i><span class="reference-accessdate">. Retrieved <span class="nowrap">28 November</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Suppressed+Histories+Archives&amp;rft.atitle=Secret+History+of+the+Witches&amp;rft.aulast=Dashu&amp;rft.aufirst=Max&amp;rft_id=http%3A%2F%2Fwww.suppressedhistories.net%2Fsecrethistory%2FPythia.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFDashu" class="citation web cs1">Dashu, Max. <a rel="nofollow" class="external text" href="http://www.suppressedhistories.net/secrethistory/Pythia.pdf">"Secret History of the Witches"</a> <span class="cs1-format">(PDF)</span>. <i>Suppressed Histories Archives</i><span class="reference-accessdate">. Retrieved <span class="nowrap">28 November</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Suppressed+Histories+Archives&amp;rft.atitle=Secret+History+of+the+Witches&amp;rft.aulast=Dashu&amp;rft.aufirst=Max&amp;rft_id=http%3A%2F%2Fwww.suppressedhistories.net%2Fsecrethistory%2FPythia.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
 </li>
-<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"/><cite id="CITEREFChurchBrodribb1877" class="citation book cs1">Church, Alfred John; Brodribb, William Jackson (1877). <a rel="nofollow" class="external text" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078"><i>Annals of Tacitus</i></a>. Macmillan. pp.&#160;II, 54<span class="reference-accessdate">. Retrieved <span class="nowrap">28 November</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Annals+of+Tacitus&amp;rft.pages=II%2C+54&amp;rft.pub=Macmillan&amp;rft.date=1877&amp;rft.aulast=Church&amp;rft.aufirst=Alfred+John&amp;rft.au=Brodribb%2C+William+Jackson&amp;rft_id=https%3A%2F%2Fwww.perseus.tufts.edu%2Fhopper%2Ftext%3Fdoc%3DPerseus%3Atext%3A1999.02.0078&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFChurchBrodribb1877" class="citation book cs1">Church, Alfred John; Brodribb, William Jackson (1877). <a rel="nofollow" class="external text" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078"><i>Annals of Tacitus</i></a>. Macmillan. pp.&#160;II, 54<span class="reference-accessdate">. Retrieved <span class="nowrap">28 November</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Annals+of+Tacitus&amp;rft.pages=II%2C+54&amp;rft.pub=Macmillan&amp;rft.date=1877&amp;rft.aulast=Church&amp;rft.aufirst=Alfred+John&amp;rft.au=Brodribb%2C+William+Jackson&amp;rft_id=https%3A%2F%2Fwww.perseus.tufts.edu%2Fhopper%2Ftext%3Fdoc%3DPerseus%3Atext%3A1999.02.0078&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AClaros" class="Z3988"></span></span>
 </li>
 <li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">Rose, H. J. Handbook of Greek Mythology: Including Its Extension to Rome. New York, NY: Penguin, 1991. p. 136</span>
 </li>
@@ -643,13 +638,13 @@
 <h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Claros&amp;action=edit&amp;section=8" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <style data-mw-deduplicate="TemplateStyles:r1134653256">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
 <div class="side-box-flex">
-<div class="side-box-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div>
+<div class="side-box-image"><span class="noviewer" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></span></span></div>
 <div class="side-box-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:Klaros" class="extiw" title="commons:Category:Klaros">Klaros</a></span>.</div></div>
 </div>
 <ul><li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20171018190601/http://www.klaros.org/?lang=en">Website of the excavations at Claros</a></li>
 <li><a rel="nofollow" class="external text" href="http://epigraphy.packhum.org/inscriptions/main?url=gis%3Fregion%3D8%26subregion%3D29">Inscriptions found in Claros</a><sup class="noprint Inline-Template"><span style="white-space: nowrap;">&#91;<i><a href="/wiki/Wikipedia:Link_rot" title="Wikipedia:Link rot"><span title="&#160;Dead link tagged July 2019">permanent dead link</span></a></i>&#93;</span></sup></li>
 <li><a rel="nofollow" class="external text" href="http://www.kultur.gov.tr/EN,39757/claros.html">Information about Claros on the website of the Turkish Ministry of Culture and Tourism</a></li></ul>
-<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Ancient_settlements_in_Turkey" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="background-color:paleturquoise"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Ancient_settlements_in_Turkey" title="Template:Ancient settlements in Turkey"><abbr title="View this template" style="background-color:paleturquoise;;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Ancient_settlements_in_Turkey" title="Template talk:Ancient settlements in Turkey"><abbr title="Discuss this template" style="background-color:paleturquoise;;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Ancient_settlements_in_Turkey&amp;action=edit"><abbr title="Edit this template" style="background-color:paleturquoise;;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Ancient_settlements_in_Turkey" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_ancient_settlements_in_Turkey" title="List of ancient settlements in Turkey">Ancient settlements in Turkey</a></div></th></tr><tr><th scope="row" class="navbox-group" style="background-color:paleturquoise;width:1%"><a href="/wiki/Aegean_Region" title="Aegean Region">Aegean</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Ancient_settlements_in_Turkey" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Ancient_settlements_in_Turkey" title="Template:Ancient settlements in Turkey"><abbr title="View this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Ancient_settlements_in_Turkey" title="Template talk:Ancient settlements in Turkey"><abbr title="Discuss this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Ancient_settlements_in_Turkey&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Ancient_settlements_in_Turkey" style="font-size:114%;margin:0 4em"><a href="/wiki/List_of_ancient_settlements_in_Turkey" title="List of ancient settlements in Turkey">Ancient settlements in Turkey</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Aegean_Region" title="Aegean Region">Aegean</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Abbassus" title="Abbassus">Abbassus</a></li>
 <li><a href="/wiki/Abrostola_(Phrygia)" title="Abrostola (Phrygia)">Abrostola</a></li>
 <li><a href="/wiki/Achaion_Limen" title="Achaion Limen">Achaion Limen</a></li>
@@ -758,7 +753,7 @@
 <li><a href="/wiki/Dioskome" title="Dioskome">Dioskome</a></li>
 <li><a href="/wiki/Docimium" title="Docimium">Docimium</a></li>
 <li><a href="/wiki/Doroukome" title="Doroukome">Doroukome</a></li>
-<li><a href="/wiki/Eibos" title="Eibos">Eibos</a></li>
+<li><a href="/wiki/Eibeos" title="Eibeos">Eibeos</a></li>
 <li><a href="/wiki/Eiokome" title="Eiokome">Eiokome</a></li>
 <li><a href="/wiki/Elaea_(Aeolis)" title="Elaea (Aeolis)">Elaea</a></li>
 <li><a href="/wiki/Eluza" title="Eluza">Eluza</a></li>
@@ -1003,7 +998,7 @@
 <li><a href="/wiki/Uranium_(Caria)" title="Uranium (Caria)">Uranium</a></li>
 <li><a href="/wiki/Zemmeana" title="Zemmeana">Zemmeana</a></li>
 <li><a href="/wiki/Zingotos_Kome" title="Zingotos Kome">Zingotos Kome</a></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="background-color:paleturquoise;width:1%"><a href="/wiki/Black_Sea_Region" title="Black Sea Region">Black Sea</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Black_Sea_Region" title="Black Sea Region">Black Sea</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Abonoteichos" title="Abonoteichos">Abonoteichos</a></li>
 <li><a href="/wiki/Aegialus" title="Aegialus">Aegialus</a></li>
 <li><a href="/wiki/Aiginetes" title="Aiginetes">Aiginetes</a></li>
@@ -1063,7 +1058,7 @@
 <li><a href="/wiki/Karza" title="Karza">Karza</a></li>
 <li><a href="/wiki/Kelesa" title="Kelesa">Kelesa</a></li>
 <li><a href="/wiki/Kimista" title="Kimista">Kimista</a></li>
-<li><a href="/wiki/L%C3%A2dik" title="Lâdik">Laodicea Pontica</a></li>
+<li><a href="/wiki/Ladik" title="Ladik">Laodicea Pontica</a></li>
 <li><a href="/wiki/Libiopolis" title="Libiopolis">Libiopolis</a></li>
 <li><a href="/wiki/Lillium" title="Lillium">Lillium</a></li>
 <li><a href="/wiki/Metroon_(Bithynia)" title="Metroon (Bithynia)">Metroon</a></li>
@@ -1104,12 +1099,12 @@
 <li><a href="/wiki/Zaliche" title="Zaliche">Zaliche</a></li>
 <li><a href="/wiki/Zephyrium_(Paphlagonia)" title="Zephyrium (Paphlagonia)">Zephyrium in Paphlagonia</a></li>
 <li><a href="/wiki/Ziporea" title="Ziporea">Ziporea</a></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="background-color:paleturquoise;width:1%"><a href="/wiki/Central_Anatolia_Region" title="Central Anatolia Region">Central Anatolia</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Central_Anatolia_Region" title="Central Anatolia Region">Central Anatolia</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Abouadeineita" title="Abouadeineita">Abouadeineita</a></li>
 <li><a href="/wiki/Ali%C5%9Far_H%C3%BCy%C3%BCk" title="Alişar Hüyük">Alişar Hüyük</a></li>
 <li><a href="/wiki/Amblada" title="Amblada">Amblada</a></li>
 <li><a href="/wiki/Anadynata" title="Anadynata">Anadynata</a></li>
-<li><a href="/wiki/Beypazar%C4%B1,_Ankara" title="Beypazarı, Ankara">Anastasiopolis</a></li>
+<li><a href="/wiki/Beypazar%C4%B1" title="Beypazarı">Anastasiopolis</a></li>
 <li><a href="/wiki/Andabalis" title="Andabalis">Andabalis</a></li>
 <li><a href="/wiki/Anisa" title="Anisa">Anisa</a></li>
 <li><a href="/wiki/Anniaca" title="Anniaca">Anniaca</a></li>
@@ -1264,7 +1259,7 @@
 <li><a href="/wiki/Verinopolis" title="Verinopolis">Verinopolis</a></li>
 <li><a href="/wiki/Zeita_(Anatolia)" title="Zeita (Anatolia)">Zeita</a></li>
 <li><a href="/wiki/Zizima" title="Zizima">Zizima</a></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="background-color:paleturquoise;width:1%"><a href="/wiki/Eastern_Anatolia_Region" title="Eastern Anatolia Region">Eastern Anatolia</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Eastern_Anatolia_Region" title="Eastern Anatolia Region">Eastern Anatolia</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Alt%C4%B1ntepe" title="Altıntepe">Altıntepe</a></li>
 <li><a href="/wiki/Ani" title="Ani">Ani</a></li>
 <li><a href="/wiki/Arsamosata" title="Arsamosata">Arsamosata</a></li>
@@ -1277,7 +1272,7 @@
 <li><a href="/wiki/Sugunia" title="Sugunia">Sugunia</a></li>
 <li><a href="/wiki/Erzurum" title="Erzurum">Theodosiopolis</a></li>
 <li><a href="/wiki/Tushpa" title="Tushpa">Tushpa</a></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="background-color:paleturquoise;width:1%"><a href="/wiki/Marmara_Region" title="Marmara Region">Marmara</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Marmara_Region" title="Marmara Region">Marmara</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Abarnis" title="Abarnis">Abarnis</a></li>
 <li><a href="/wiki/Abydos_(Hellespont)" title="Abydos (Hellespont)">Abydos</a></li>
 <li><a href="/wiki/Achaiion" title="Achaiion">Achaiion</a></li>
@@ -1367,7 +1362,7 @@
 <li><a href="/wiki/Cyzicus" title="Cyzicus">Cyzicus</a></li>
 <li><a href="/wiki/Dadokome" title="Dadokome">Dadokome</a></li>
 <li><a href="/wiki/Dacibyza" title="Dacibyza">Dacibyza</a></li>
-<li><a href="/wiki/Damalis_(town)" class="mw-redirect" title="Damalis (town)">Damalis</a></li>
+<li><a href="/wiki/Damalis" title="Damalis">Damalis</a></li>
 <li><a href="/wiki/Daphne_Mainomene" title="Daphne Mainomene">Daphne Mainomene</a></li>
 <li><a href="/wiki/Daphnus_(Bithynia)" title="Daphnus (Bithynia)">Daphnus</a></li>
 <li><a href="/wiki/Dardanus_(city)" title="Dardanus (city)">Dardanus</a></li>
@@ -1552,12 +1547,12 @@
 <li><a href="/wiki/Urisio" title="Urisio">Urisio</a></li>
 <li><a href="/wiki/Utsurgae" title="Utsurgae">Utsurgae</a></li>
 <li><a href="/wiki/Zeleia" title="Zeleia">Zeleia</a></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="background-color:paleturquoise;width:1%"><a href="/wiki/Mediterranean_Region,_Turkey" title="Mediterranean Region, Turkey">Mediterranean</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Mediterranean_Region,_Turkey" title="Mediterranean Region, Turkey">Mediterranean</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Acalissus" title="Acalissus">Acalissus</a></li>
 <li><a href="/wiki/Acarassus" title="Acarassus">Acarassus</a></li>
 <li><a href="/wiki/Adada_(Pisidia)" title="Adada (Pisidia)">Adada</a></li>
 <li><a href="/wiki/Balabolu" title="Balabolu">Adrasus</a></li>
-<li><a href="/wiki/Aegae_(Cilicia)" title="Aegae (Cilicia)">Aegae</a></li>
+<li><a href="/wiki/Aegae_(Cilicia)" class="mw-redirect" title="Aegae (Cilicia)">Aegae</a></li>
 <li><a href="/wiki/Agrae_(Pisidia)" title="Agrae (Pisidia)">Agrae</a></li>
 <li><a href="/wiki/Alalakh" title="Alalakh">Alalakh</a></li>
 <li><a href="/wiki/Amelas" title="Amelas">Amelas</a></li>
@@ -1825,7 +1820,7 @@
 <li><a href="/wiki/Zenopolis_(Isauria)" title="Zenopolis (Isauria)">Zenopolis in Isauria</a></li>
 <li><a href="/wiki/Zenopolis_(Lycia)" title="Zenopolis (Lycia)">Zenopolis in Lycia</a></li>
 <li><a href="/wiki/Zephyrium_on_the_Calycadnus" title="Zephyrium on the Calycadnus">Zephyrium on the Calycadnus</a></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="background-color:paleturquoise;width:1%"><a href="/wiki/Southeastern_Anatolia_Region" title="Southeastern Anatolia Region">Southeastern<br />Anatolia</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Southeastern_Anatolia_Region" title="Southeastern Anatolia Region">Southeastern<br />Anatolia</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><a href="/wiki/Amida_(Mesopotamia)" title="Amida (Mesopotamia)">Amida</a></li>
 <li><a href="/wiki/Antiochia_ad_Taurum" title="Antiochia ad Taurum">Antioch in the Taurus</a></li>
 <li><a href="/wiki/Constantia_(Osrhoene)" title="Constantia (Osrhoene)">Antioch in Mesopotamia (Constantia)</a></li>
@@ -1859,56 +1854,54 @@
 <li><a href="/wiki/Urshu" title="Urshu">Urshu</a></li>
 <li><a href="/wiki/Zeugma_(Commagene)" title="Zeugma (Commagene)">Zeugma</a></li></ul>
 </div></td></tr></tbody></table></div>
-<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"/></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1933754#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1933754#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q1933754#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
-<ul><li><a href="/wiki/VIAF_(identifier)" class="mw-redirect" title="VIAF (identifier)">VIAF</a>
-<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/245682123">1</a></span></li></ul></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/viaf-245682123/">WorldCat</a></span></li></ul>
-</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National libraries</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846"></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1933754#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q1933754#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="https://www.wikidata.org/wiki/Q1933754#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></span></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">International</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/245682123">VIAF</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
 <ul><li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007530182305171">Israel</a></span></li>
-<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/subjects/sh91003199">United States</a></span></li></ul>
+<li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/sh91003199">United States</a></span></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Geographic</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://pleiades.stoa.org/places/599719">Pleiades</a></span></li></ul>
 </div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw2383
-Cached time: 20230207191457
+Parsed by mw2375
+Cached time: 20230903105951
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 0.621 seconds
-Real time usage: 0.899 seconds
-Preprocessor visited node count: 3033/1000000
-Post‐expand include size: 147830/2097152 bytes
-Template argument size: 11073/2097152 bytes
+CPU time usage: 0.581 seconds
+Real time usage: 0.808 seconds
+Preprocessor visited node count: 3054/1000000
+Post‐expand include size: 142015/2097152 bytes
+Template argument size: 8904/2097152 bytes
 Highest expansion depth: 15/100
-Expensive parser function count: 9/500
+Expensive parser function count: 10/500
 Unstrip recursion depth: 1/20
-Unstrip post‐expand size: 44365/5000000 bytes
-Lua time usage: 0.323/10.000 seconds
-Lua memory usage: 26365499/52428800 bytes
+Unstrip post‐expand size: 44896/5000000 bytes
+Lua time usage: 0.327/10.000 seconds
+Lua memory usage: 23192177/52428800 bytes
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  570.125      1 -total
- 30.67%  174.843      1 Template:Infobox_ancient_site
- 29.73%  169.475      1 Template:Infobox
- 19.29%  109.980      1 Template:Reflist
- 15.56%   88.739      2 Template:In_lang
- 12.83%   73.167      4 Template:Cite_book
- 12.04%   68.632      1 Template:Ancient_settlements_in_Turkey
- 11.60%   66.119      1 Template:Navbox
-  9.72%   55.439      1 Template:Short_description
-  9.70%   55.313      7 Template:Citation_needed
+100.00%  578.456      1 -total
+ 28.64%  165.646      1 Template:Infobox_ancient_site
+ 27.81%  160.884      1 Template:Infobox
+ 22.44%  129.781      1 Template:Reflist
+ 15.36%   88.845      4 Template:Cite_book
+ 13.81%   79.887      2 Template:In_lang
+ 12.02%   69.535      1 Template:Ancient_settlements_in_Turkey
+ 11.62%   67.238      1 Template:Navbox
+  9.28%   53.661      7 Template:Citation_needed
+  8.31%   48.044      1 Template:Short_description
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:6927200-0!canonical and timestamp 20230207191456 and revision id 1119316130. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:6927200-0!canonical and timestamp 20230903105950 and revision id 1168860958. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
-<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Claros&amp;oldid=1119316130">https://en.wikipedia.org/w/index.php?title=Claros&amp;oldid=1119316130</a>"</div></div>
-					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Temples_in_ancient_Ionia" title="Category:Temples in ancient Ionia">Temples in ancient Ionia</a></li><li><a href="/wiki/Category:Classical_oracles" title="Category:Classical oracles">Classical oracles</a></li><li><a href="/wiki/Category:Ancient_Greek_archaeological_sites_in_Turkey" title="Category:Ancient Greek archaeological sites in Turkey">Ancient Greek archaeological sites in Turkey</a></li><li><a href="/wiki/Category:10th-century_BC_religious_buildings_and_structures" title="Category:10th-century BC religious buildings and structures">10th-century BC religious buildings and structures</a></li><li><a href="/wiki/Category:Temples_of_Apollo" title="Category:Temples of Apollo">Temples of Apollo</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_matches_Wikidata" title="Category:Short description matches Wikidata">Short description matches Wikidata</a></li><li><a href="/wiki/Category:Articles_with_Ancient_Greek-language_sources_(grc)" title="Category:Articles with Ancient Greek-language sources (grc)">Articles with Ancient Greek-language sources (grc)</a></li><li><a href="/wiki/Category:Articles_with_Latin-language_sources_(la)" title="Category:Articles with Latin-language sources (la)">Articles with Latin-language sources (la)</a></li><li><a href="/wiki/Category:Coordinates_on_Wikidata" title="Category:Coordinates on Wikidata">Coordinates on Wikidata</a></li><li><a href="/wiki/Category:Articles_containing_Greek-language_text" title="Category:Articles containing Greek-language text">Articles containing Greek-language text</a></li><li><a href="/wiki/Category:Articles_containing_Latin-language_text" title="Category:Articles containing Latin-language text">Articles containing Latin-language text</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_April_2013" title="Category:Articles with unsourced statements from April 2013">Articles with unsourced statements from April 2013</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:All_articles_with_dead_external_links" title="Category:All articles with dead external links">All articles with dead external links</a></li><li><a href="/wiki/Category:Articles_with_dead_external_links_from_July_2019" title="Category:Articles with dead external links from July 2019">Articles with dead external links from July 2019</a></li><li><a href="/wiki/Category:Articles_with_permanently_dead_external_links" title="Category:Articles with permanently dead external links">Articles with permanently dead external links</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_WorldCat_identifiers" title="Category:Articles with WorldCat identifiers">Articles with WorldCat identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li></ul></div></div>
-					
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Claros&amp;oldid=1168860958">https://en.wikipedia.org/w/index.php?title=Claros&amp;oldid=1168860958</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Temples_in_ancient_Ionia" title="Category:Temples in ancient Ionia">Temples in ancient Ionia</a></li><li><a href="/wiki/Category:Classical_oracles" title="Category:Classical oracles">Classical oracles</a></li><li><a href="/wiki/Category:Ancient_Greek_archaeological_sites_in_Turkey" title="Category:Ancient Greek archaeological sites in Turkey">Ancient Greek archaeological sites in Turkey</a></li><li><a href="/wiki/Category:10th-century_BC_religious_buildings_and_structures" title="Category:10th-century BC religious buildings and structures">10th-century BC religious buildings and structures</a></li><li><a href="/wiki/Category:Temples_of_Apollo" title="Category:Temples of Apollo">Temples of Apollo</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_matches_Wikidata" title="Category:Short description matches Wikidata">Short description matches Wikidata</a></li><li><a href="/wiki/Category:Articles_with_Ancient_Greek-language_sources_(grc)" title="Category:Articles with Ancient Greek-language sources (grc)">Articles with Ancient Greek-language sources (grc)</a></li><li><a href="/wiki/Category:Articles_with_Latin-language_sources_(la)" title="Category:Articles with Latin-language sources (la)">Articles with Latin-language sources (la)</a></li><li><a href="/wiki/Category:Coordinates_on_Wikidata" title="Category:Coordinates on Wikidata">Coordinates on Wikidata</a></li><li><a href="/wiki/Category:Articles_containing_Greek-language_text" title="Category:Articles containing Greek-language text">Articles containing Greek-language text</a></li><li><a href="/wiki/Category:Articles_containing_Latin-language_text" title="Category:Articles containing Latin-language text">Articles containing Latin-language text</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_April_2013" title="Category:Articles with unsourced statements from April 2013">Articles with unsourced statements from April 2013</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:All_articles_with_dead_external_links" title="Category:All articles with dead external links">All articles with dead external links</a></li><li><a href="/wiki/Category:Articles_with_dead_external_links_from_July_2019" title="Category:Articles with dead external links from July 2019">Articles with dead external links from July 2019</a></li><li><a href="/wiki/Category:Articles_with_permanently_dead_external_links" title="Category:Articles with permanently dead external links">Articles with permanently dead external links</a></li><li><a href="/wiki/Category:Articles_with_VIAF_identifiers" title="Category:Articles with VIAF identifiers">Articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li><li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Articles_with_Pleiades_identifiers" title="Category:Articles with Pleiades identifiers">Articles with Pleiades identifiers</a></li></ul></div></div>
 				</div>
-				
 			</main>
 			
 		</div>
@@ -1916,25 +1909,26 @@ Transclusion expansion time report (%,ms,calls,template)
 			
 <footer id="footer" class="mw-footer" role="contentinfo" >
 	<ul id="footer-info">
-	<li id="footer-info-lastmod"> This page was last edited on 31 October 2022, at 21:51<span class="anonymous-show">&#160;(UTC)</span>.</li>
-	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+	<li id="footer-info-lastmod"> This page was last edited on 5 August 2023, at 14:37<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a><a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" style="display:none;"></a>;
 additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
 </ul>
 
 	<ul id="footer-places">
-	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
 	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
 	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
 	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal_Code_of_Conduct">Code of Conduct</a></li>
 	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Claros&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
 	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
 	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
-	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
 </ul>
 
 	<ul id="footer-icons" class="noprint">
 	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
-	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
 </ul>
 
 </footer>
@@ -1942,9 +1936,16 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 		</div>
 	</div> 
 </div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li><button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.621","walltime":"0.899","ppvisitednodes":{"value":3033,"limit":1000000},"postexpandincludesize":{"value":147830,"limit":2097152},"templateargumentsize":{"value":11073,"limit":2097152},"expansiondepth":{"value":15,"limit":100},"expensivefunctioncount":{"value":9,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":44365,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  570.125      1 -total"," 30.67%  174.843      1 Template:Infobox_ancient_site"," 29.73%  169.475      1 Template:Infobox"," 19.29%  109.980      1 Template:Reflist"," 15.56%   88.739      2 Template:In_lang"," 12.83%   73.167      4 Template:Cite_book"," 12.04%   68.632      1 Template:Ancient_settlements_in_Turkey"," 11.60%   66.119      1 Template:Navbox","  9.72%   55.439      1 Template:Short_description","  9.70%   55.313      7 Template:Citation_needed"]},"scribunto":{"limitreport-timeusage":{"value":"0.323","limit":"10.000"},"limitreport-memusage":{"value":26365499,"limit":52428800}},"cachereport":{"origin":"mw2383","timestamp":"20230207191457","ttl":1814400,"transientcontent":false}}});});</script>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Claros","url":"https:\/\/en.wikipedia.org\/wiki\/Claros","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1933754","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1933754","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-09-10T09:45:13Z","dateModified":"2022-10-31T21:51:27Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1b\/Klaros01.jpg","headline":"Ancient Greek sanctuary on Ionian coast"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Claros","url":"https:\/\/en.wikipedia.org\/wiki\/Claros","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1933754","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1933754","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-09-10T09:45:13Z","dateModified":"2022-10-31T21:51:27Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1b\/Klaros01.jpg","headline":"Ancient Greek sanctuary on Ionian coast"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":102,"wgHostname":"mw2390"});});</script>
+<span>Toggle limited content width</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2432","wgBackendResponseTime":107,"wgPageParseReport":{"limitreport":{"cputime":"0.581","walltime":"0.808","ppvisitednodes":{"value":3054,"limit":1000000},"postexpandincludesize":{"value":142015,"limit":2097152},"templateargumentsize":{"value":8904,"limit":2097152},"expansiondepth":{"value":15,"limit":100},"expensivefunctioncount":{"value":10,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":44896,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  578.456      1 -total"," 28.64%  165.646      1 Template:Infobox_ancient_site"," 27.81%  160.884      1 Template:Infobox"," 22.44%  129.781      1 Template:Reflist"," 15.36%   88.845      4 Template:Cite_book"," 13.81%   79.887      2 Template:In_lang"," 12.02%   69.535      1 Template:Ancient_settlements_in_Turkey"," 11.62%   67.238      1 Template:Navbox","  9.28%   53.661      7 Template:Citation_needed","  8.31%   48.044      1 Template:Short_description"]},"scribunto":{"limitreport-timeusage":{"value":"0.327","limit":"10.000"},"limitreport-memusage":{"value":23192177,"limit":52428800}},"cachereport":{"origin":"mw2375","timestamp":"20230903105951","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Claros","url":"https:\/\/en.wikipedia.org\/wiki\/Claros","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1933754","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1933754","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-09-10T09:45:13Z","dateModified":"2023-08-05T14:37:48Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1b\/Klaros01.jpg","headline":"Ancient Greek sanctuary on Ionian coast"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Claros","url":"https:\/\/en.wikipedia.org\/wiki\/Claros","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1933754","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1933754","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-09-10T09:45:13Z","dateModified":"2023-08-05T14:37:48Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1b\/Klaros01.jpg","headline":"Ancient Greek sanctuary on Ionian coast"}</script>
 </body>
 </html>

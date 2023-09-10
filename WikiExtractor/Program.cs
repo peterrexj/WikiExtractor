@@ -9,20 +9,20 @@ var serviceProvider = ContainerConfiguration.Configure();
 
 ProcessConstants.UseCache = false;
 
-//var saintsExtractor = new SaintsDataExtractor();
-//saintsExtractor.ExtractData();
-//saintsExtractor.EnablePrimaryMetadataContent();
-//saintsExtractor.CleanDataWithDump();
-////saintsExtractor.TestData();
-//saintsExtractor.CopyDatabaseFileToRootDbFolder();
+var saintsExtractor = new SaintsDataExtractor();
+saintsExtractor.ExtractData();
+saintsExtractor.EnablePrimaryMetadataContent();
+saintsExtractor.CleanDataWithDump();
+//saintsExtractor.TestData();
+saintsExtractor.CopyDatabaseFileToRootDbFolder();
 
 
 
-var popesExtractor = new PopesDataExtractor();
-popesExtractor.ExtractData();
-popesExtractor.EnablePrimaryMetadataContent();
-popesExtractor.CopyDatabaseFileToRootDbFolder();
-//popesExtractor.Test();
+//var popesExtractor = new PopesDataExtractor();
+//popesExtractor.ExtractData();
+//popesExtractor.EnablePrimaryMetadataContent();
+//popesExtractor.CopyDatabaseFileToRootDbFolder();
+////popesExtractor.Test();
 
 //var countriesExtractor = new CountriesDataExtractor();
 //countriesExtractor.ExtractData();
