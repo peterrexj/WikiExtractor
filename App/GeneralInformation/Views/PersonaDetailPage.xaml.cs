@@ -9,6 +9,7 @@ using Syncfusion.XForms.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using WikiExtractor.ViewModels;
 using Xamarin.Forms;
@@ -22,25 +23,23 @@ namespace GeneralInformation.Views
     {
         public string MasterId { get; set; }
 
-        private static PersonaViewModel _personaViewModel;
-        private static List<Grid> _paraGrids;
+        private List<Grid> _paraGrids;
         private const int DefaultHeightImageInDetailsPage = 300;
 
         private PersonaDetailViewModel personaDetailViewModel;
 
-        private static IDictionary<string, string> BuildErrorContext()
+        private IDictionary<string, string> BuildErrorContext()
         {
-            if (_personaViewModel != null)
+            if (personaDetailViewModel?.Persona != null)
             {
                 return DeviceDetails.GenerateMetaInformation(new Dictionary<string, string>
                 {
-                    { "Name", _personaViewModel?.Name },
-                    { "WikiPath", _personaViewModel?.WikiPath },
+                    { "Name", personaDetailViewModel?.Persona?.Name ?? "" },
+                    { "WikiPath", personaDetailViewModel?.Persona?.WikiPath ?? "" },
                 });
             }
             else
             {
-
                 return DeviceDetails.GenerateDeviceInformation();
             }
         }
@@ -57,15 +56,11 @@ namespace GeneralInformation.Views
             }
         }
 
-        public static void LoadContent(int masterId)
-        {
-            _personaViewModel = SharedServices.WikiAppController.GetViewModelById(masterId);
-        }
-        public static void LoadParaGrids()
+        public void LoadParaGrids()
         {
             _paraGrids = new List<Grid>();
 
-            foreach (var grpContent in _personaViewModel?.Paragraphs.OrderBy(f => f.Sequence).GroupBy(f => f.Header2))
+            foreach (var grpContent in personaDetailViewModel?.Persona?.Paragraphs.OrderBy(f => f.Sequence).GroupBy(f => f.Header2))
             {
                 try
                 {
@@ -78,51 +73,21 @@ namespace GeneralInformation.Views
             }
         }
 
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
             try
             {
                 int.TryParse(MasterId, out var result);
 
-                if (_personaViewModel == null)
-                {
-                    LoadContent(MasterId.ToInteger());
-                    LoadParaGrids();
-                }
-
                 personaDetailViewModel ??= new PersonaDetailViewModel();
 
-                personaDetailViewModel.Persona = _personaViewModel;
+                personaDetailViewModel.IsBusy = true;
+
                 personaDetailViewModel.DefaultStyle = ThemeHelper.GetDefaultStyle();
-                personaDetailViewModel.Persona.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
-
-                if (personaDetailViewModel.IsMetaDataAvailable == false)
-                {
-                    personaDetailViewModel.Persona.Metadatas.Add(new MetadataViewModel { Key = "", Description = personaDetailViewModel.Persona.Name });
-                }
-
-                tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount;
-                if (personaDetailViewModel.IsPicturesAvailable)
-                {
-                    personaDetailViewModel.CurrentSelectedPictureCaption = personaDetailViewModel.Persona.Pictures.FirstOrDefault().PictureCaption;
-                }
-
-                await RenderParaContents();
-
-                personaDetailViewModel.CarouselImageCurrentClickIndex = 0;
-                if (personaDetailViewModel.Persona.Pictures.Count > personaDetailViewModel.CarouselImageLoadMoreItemsCount)
-                {
-                    personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = personaDetailViewModel.Persona.Pictures.Count / personaDetailViewModel.CarouselImageLoadMoreItemsCount + 1;
-                }
-                else
-                {
-                    personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = 0;
-                    personaDetailViewModel.CarouselImageLoadComplete = true;
-                }
-
                 BindingContext = personaDetailViewModel;
                 base.OnAppearing();
-
+                Thread paraLoadThread = new(new ThreadStart(LoadSubPageItemDataDetails));
+                paraLoadThread.Start();
             }
             catch (Exception ex)
             {
@@ -151,7 +116,7 @@ namespace GeneralInformation.Views
             });
         }
 
-        private static Grid RenderPara2ContentV2(List<Paragraph2ContentViewModel> paraContents)
+        private Grid RenderPara2ContentV2(List<Paragraph2ContentViewModel> paraContents)
         {
             var mainGrid = new Grid
             {
@@ -219,7 +184,7 @@ namespace GeneralInformation.Views
             return mainGrid;
         }
 
-        private static Label RenderDynamicContentLabel(string content, string style, string bindingPathToFontFamily)
+        private Label RenderDynamicContentLabel(string content, string style, string bindingPathToFontFamily)
         {
             var lbl = new Label { Text = content };
             lbl.SetBinding(Label.FontFamilyProperty, bindingPathToFontFamily);
@@ -230,7 +195,7 @@ namespace GeneralInformation.Views
             return lbl;
         }
 
-        private static Grid RenderParagraphContentImage(PictureViewModel picModel)
+        private Grid RenderParagraphContentImage(PictureViewModel picModel)
         {
             var grid = new Grid
             {
@@ -291,7 +256,7 @@ namespace GeneralInformation.Views
             return grid;
         }
 
-        private static void SfBorderOnContentDetailImage_SizeChanged(object sender, EventArgs e)
+        private void SfBorderOnContentDetailImage_SizeChanged(object sender, EventArgs e)
         {
             try
             {
@@ -397,6 +362,65 @@ namespace GeneralInformation.Views
             {
                 tabView.SelectedIndex = personaDetailViewModel.IsMetaDataAvailable && personaDetailViewModel.IsPicturesAvailable ? 2 :
                                     personaDetailViewModel.IsMetaDataAvailable == false && personaDetailViewModel.IsPicturesAvailable == false ? 0 : 1;
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
+        }
+
+        private void LoadSubPageItemDataDetails()
+        {
+            try
+            {
+                if (personaDetailViewModel?.Persona == null)
+                {
+                    personaDetailViewModel.Persona = SharedServices.WikiAppController.GetViewModelById(MasterId.ToInteger());
+                }
+                
+                personaDetailViewModel.Persona.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
+
+                if (personaDetailViewModel.IsMetaDataAvailable == false)
+                {
+                    personaDetailViewModel.Persona.Metadatas.Add(new MetadataViewModel { Key = "", Description = personaDetailViewModel.Persona.Name });
+                }
+
+                if (personaDetailViewModel.IsPicturesAvailable)
+                {
+                    personaDetailViewModel.CurrentSelectedPictureCaption = personaDetailViewModel.Persona.Pictures.FirstOrDefault().PictureCaption;
+                }
+
+                personaDetailViewModel.CarouselImageCurrentClickIndex = 0;
+                if (personaDetailViewModel.Persona.Pictures.Count > personaDetailViewModel.CarouselImageLoadMoreItemsCount)
+                {
+                    personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = personaDetailViewModel.Persona.Pictures.Count / personaDetailViewModel.CarouselImageLoadMoreItemsCount + 1;
+                }
+                else
+                {
+                    personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = 0;
+                    personaDetailViewModel.CarouselImageLoadComplete = true;
+                }
+
+                LoadParaAsync().Wait();
+                personaDetailViewModel.TriggerEvents();
+                tabView.SelectedIndex = 0;
+                RunOnAppDispatcher(() => tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount);
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
+            finally
+            {
+                personaDetailViewModel.IsBusy = false;
+            }
+        }
+        private async Task LoadParaAsync()
+        {
+            try
+            {
+                LoadParaGrids();
+                await RenderParaContents();
             }
             catch (Exception ex)
             {

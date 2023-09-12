@@ -45,7 +45,17 @@ namespace GeneralInformation.ViewModels
         public StyleDrive StyleDrive { get; set; }
 
         public ObservableCollection<SfSegmentItem> SortByCollection { get; set; }
-        public int SortBySelectedIndex { get; set; }
+        private int _sortBySelectedIndex;
+        public int SortBySelectedIndex
+        {
+            get => _sortBySelectedIndex;
+            set
+            {
+                _sortBySelectedIndex = value;
+                OnPropertyChanged("SortBySelectedIndex");
+            }
+        }
+
 
         private bool hideItemRead;
         public bool HideItemRead
