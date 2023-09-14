@@ -77,6 +77,8 @@ namespace GeneralInformation.Views
         {
             try
             {
+                base.OnAppearing();
+
                 int.TryParse(MasterId, out var result);
 
                 personaDetailViewModel ??= new PersonaDetailViewModel();
@@ -85,7 +87,7 @@ namespace GeneralInformation.Views
 
                 personaDetailViewModel.DefaultStyle = ThemeHelper.GetDefaultStyle();
                 BindingContext = personaDetailViewModel;
-                base.OnAppearing();
+
                 Thread paraLoadThread = new(new ThreadStart(LoadSubPageItemDataDetails));
                 paraLoadThread.Start();
             }
@@ -95,24 +97,21 @@ namespace GeneralInformation.Views
             }
         }
 
-        private async Task RenderParaContents()
+        private void RenderParaContents()
         {
-            await Task.Run(() =>
+            RunOnAppDispatcher(() =>
             {
-                RunOnAppDispatcher(() =>
+                foreach (var grpContent in _paraGrids)
                 {
-                    foreach (var grpContent in _paraGrids)
+                    try
                     {
-                        try
-                        {
-                            ParaContentsStack.Children.Add(grpContent);
-                        }
-                        catch (Exception ex)
-                        {
-                            Crashes.TrackError(ex, BuildErrorContext());
-                        }
+                        ParaContentsStack.Children.Add(grpContent);
                     }
-                });
+                    catch (Exception ex)
+                    {
+                        Crashes.TrackError(ex, BuildErrorContext());
+                    }
+                }
             });
         }
 
@@ -377,7 +376,7 @@ namespace GeneralInformation.Views
                 {
                     personaDetailViewModel.Persona = SharedServices.WikiAppController.GetViewModelById(MasterId.ToInteger());
                 }
-                
+
                 personaDetailViewModel.Persona.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
 
                 if (personaDetailViewModel.IsMetaDataAvailable == false)
@@ -401,10 +400,10 @@ namespace GeneralInformation.Views
                     personaDetailViewModel.CarouselImageLoadComplete = true;
                 }
 
-                LoadParaAsync().Wait();
+                LoadParaDetails();
                 personaDetailViewModel.TriggerEvents();
+                //RunOnAppDispatcher(() => tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount);
                 tabView.SelectedIndex = 0;
-                RunOnAppDispatcher(() => tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount);
             }
             catch (Exception ex)
             {
@@ -415,12 +414,12 @@ namespace GeneralInformation.Views
                 personaDetailViewModel.IsBusy = false;
             }
         }
-        private async Task LoadParaAsync()
+        private void LoadParaDetails()
         {
             try
             {
                 LoadParaGrids();
-                await RenderParaContents();
+                RenderParaContents();
             }
             catch (Exception ex)
             {
