@@ -21,13 +21,28 @@ namespace GeneralInformation
             MainPage = new AppShell();
             if (!AppCenter.Configured)
             {
-                AppCenter.Start($"android={DependencyService.Get<IAppInformation>().AppCentreAppKeyDroid};"
-                      //  +
-                      //"uwp={Your UWP App secret here};" +
-                      //"ios={Your iOS App secret here};" +
-                      //"macos={Your macOS App secret here};"
-                      ,
-                      typeof(Analytics), typeof(Crashes));
+                if (Xamarin.Forms.Device.RuntimePlatform == Xamarin.Forms.Device.Android)
+                {
+                    AppCenter.Start($"android={DependencyService.Get<IAppInformation>().AppCentreAppKey};", typeof(Analytics), typeof(Crashes));
+                }
+                else if (Xamarin.Forms.Device.RuntimePlatform == Xamarin.Forms.Device.iOS)
+                {
+                    AppCenter.Start($"ios={DependencyService.Get<IAppInformation>().AppCentreAppKey};", typeof(Analytics), typeof(Crashes));
+                }
+                else if (Xamarin.Forms.Device.RuntimePlatform == Xamarin.Forms.Device.UWP)
+                {
+                    AppCenter.Start($"uwp={DependencyService.Get<IAppInformation>().AppCentreAppKey};", typeof(Analytics), typeof(Crashes));
+                }
+                else
+                {
+                    AppCenter.Start($"android={DependencyService.Get<IAppInformation>().AppCentreAppKey};"
+                          //  +
+                          //"uwp={Your UWP App secret here};" +
+                          //"ios={Your iOS App secret here};"
+                          //"macos={Your macOS App secret here};"
+                          ,
+                          typeof(Analytics), typeof(Crashes));
+                }
             }
         }
 

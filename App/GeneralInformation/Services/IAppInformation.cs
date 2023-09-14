@@ -2,7 +2,7 @@
 {
     public interface IAppInformation
     {
-        string AppCentreAppKeyDroid { get; }
+        string AppCentreAppKey { get; }
         string AdsBannerId { get; }
         string AdsInterstitialId { get; }
         int ShowFirstInterstitialAdOnClickLimit { get; }

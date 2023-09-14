@@ -7,7 +7,7 @@ namespace CountriesOfWorld.Droid.DeviceDependencyImpl
 {
     public class AppInformation_Android : IAppInformation
     {
-        public string AppCentreAppKeyDroid => "eda9cb2c-4d70-49ba-a98f-6e54d37873d2";
+        public string AppCentreAppKey => "eda9cb2c-4d70-49ba-a98f-6e54d37873d2";
 
         public string AdsBannerId => "ca-app-pub-4219645367584712/3041169107";
 

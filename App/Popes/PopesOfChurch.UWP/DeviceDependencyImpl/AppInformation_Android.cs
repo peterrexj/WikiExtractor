@@ -7,7 +7,7 @@ namespace PopesOfChurch.Droid.DeviceDependencyImpl
 {
     public class AppInformation : IAppInformation
     {
-        public string AppCentreAppKeyDroid => "92149c55-3f37-4263-9b9d-26f7eedbd8fc";
+        public string AppCentreAppKey => "92149c55-3f37-4263-9b9d-26f7eedbd8fc";
 
         public string AdsBannerId => "ca-app-pub-4219645367584712/9833451000";
 

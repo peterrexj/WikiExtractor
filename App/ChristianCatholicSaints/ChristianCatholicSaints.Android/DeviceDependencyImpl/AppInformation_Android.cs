@@ -7,7 +7,7 @@ namespace ChristianCatholicSaints.Droid.DeviceDependencyImpl
 {
     public class AppInformation_Android : IAppInformation
     {
-        public string AppCentreAppKeyDroid => "4a88ff7e-2001-4194-8ed2-3913845c6fe0";
+        public string AppCentreAppKey => "4a88ff7e-2001-4194-8ed2-3913845c6fe0";
 
         public string AdsBannerId => "ca-app-pub-4219645367584712/9833451000";
 
