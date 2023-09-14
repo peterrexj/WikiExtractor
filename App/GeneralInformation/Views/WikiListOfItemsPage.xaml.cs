@@ -257,11 +257,14 @@ namespace GeneralInformation.Views
             {
                 try
                 {
-                    if (lstListOfItems.DataSource != null)
+                    RunOnAppDispatcher(() =>
                     {
-                        lstListOfItems.DataSource.Filter = FilterPersonas;
-                        lstListOfItems.DataSource.RefreshFilter();
-                    }
+                        if (lstListOfItems.DataSource != null)
+                        {
+                            lstListOfItems.DataSource.Filter = FilterPersonas;
+                            lstListOfItems.DataSource.RefreshFilter();
+                        }
+                    });
                 }
                 catch (Exception ex)
                 {
@@ -364,7 +367,10 @@ namespace GeneralInformation.Views
                     if (sender is SfAutoComplete)
                     {
                         await RefreshListOfListFilter();
-                        autoComplete.IsDropDownOpen = false;
+                        RunOnAppDispatcher(() =>
+                        {
+                            autoComplete.IsDropDownOpen = false;
+                        });
                     }
                 }
                 catch (Exception ex)
