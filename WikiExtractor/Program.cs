@@ -7,16 +7,17 @@ using WikiExtractor.Process.Modules;
 
 var serviceProvider = ContainerConfiguration.Configure();
 
-ProcessConstants.UseCache = false;
+ProcessConstants.UseCache = true;
 
-var saintsExtractor = new SaintsDataExtractor();
-saintsExtractor.ExtractData();
-saintsExtractor.EnablePrimaryMetadataContent();
-saintsExtractor.CleanDataWithDump();
-//saintsExtractor.TestData();
-saintsExtractor.CopyDatabaseFileToRootDbFolder();
+var worldLeadersExtractor = new WorldLeadersExtractor();
+worldLeadersExtractor.ExtractData();
 
-
+//var saintsExtractor = new SaintsDataExtractor();
+//saintsExtractor.ExtractData();
+//saintsExtractor.EnablePrimaryMetadataContent();
+//saintsExtractor.CleanDataWithDump();
+////saintsExtractor.TestData();
+//saintsExtractor.CopyDatabaseFileToRootDbFolder();
 
 //var popesExtractor = new PopesDataExtractor();
 //popesExtractor.ExtractData();
