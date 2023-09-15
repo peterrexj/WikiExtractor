@@ -39,7 +39,17 @@ namespace WikiExtractor.ViewModels
         public bool IsPrimaryMetadataContentEnabled { get; set; }
         public bool ShowPrimaryContentMetadata => IsPrimaryMetadataContentEnabled;
         public bool HidePrimaryContentMetadata => !IsPrimaryMetadataContentEnabled;
-        public bool ItemReadStatus { get; set; }
+        
+        public bool _itemReadStatus;
+        public bool ItemReadStatus
+        {
+            get => _itemReadStatus;
+            set
+            {
+                _itemReadStatus = value;
+                OnPropertyChanged("ItemReadStatus");
+            }
+        }
 
         public List<MetadataViewModel> PrimaryMetadataContent { get; set; }
         public List<MetadataViewModel> Metadatas { get; set; }

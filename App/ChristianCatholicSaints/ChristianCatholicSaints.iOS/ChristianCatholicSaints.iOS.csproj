@@ -63,8 +63,16 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DependencyImp\AppEnvironment_iOS.cs" />
+    <Compile Include="DependencyImp\AppInformation_iOS.cs" />
+    <Compile Include="DependencyImp\ConfigHelperiOS.cs" />
+    <Compile Include="DependencyImp\LocalStorage_iOS.cs" />
+    <Compile Include="DependencyImp\SqliteFileHelper_iOS.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <BundleResource Include="..\..\Databases\WikiStoreCountries.db">
+      <Link>WikiStoreCountries.db</Link>
+    </BundleResource>
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -132,14 +140,29 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="MarcTron.Admob">
+      <Version>1.9.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="Pj.Library">
+      <Version>1.0.4.17</Version>
+    </PackageReference>
+    <PackageReference Include="Pj.Library.Datastore">
+      <Version>1.0.4.17</Version>
+    </PackageReference>
+    <PackageReference Include="Pj.Library.Mobile">
+      <Version>1.0.4.17</Version>
+    </PackageReference>
+    <PackageReference Include="Pj.Library.Secure">
+      <Version>1.0.4.17</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\ChristianCatholicSaints\ChristianCatholicSaints.csproj">
-      <Project>{479D4A99-CCF2-46B1-907A-DABF06CA4A0C}</Project>
-      <Name>ChristianCatholicSaints</Name>
+    <ProjectReference Include="..\..\GeneralInformation\GeneralInformation.csproj">
+      <Project>{9b7d137d-1452-4ca4-9063-d04f307b9fe1}</Project>
+      <Name>GeneralInformation</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

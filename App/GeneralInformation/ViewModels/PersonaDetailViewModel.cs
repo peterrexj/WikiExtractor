@@ -13,7 +13,6 @@ namespace GeneralInformation.ViewModels
     {
         public PersonaDetailViewModel()
         {
-            selectedTabIndex = -1;
             var appInfo = DependencyService.Get<IAppInformation>();
 
             AdsInterstitialId = appInfo.AdsInterstitialId;
@@ -23,8 +22,6 @@ namespace GeneralInformation.ViewModels
             CarouselImageLoadComplete = false;
         }
 
-        private int selectedTabIndex;
-        public int SelectedTabIndex { get => selectedTabIndex; set => SetProperty(ref selectedTabIndex, value); }
         public ICommand TapHyperLinkToWikiPage => new Command<string>(async (url) => await Launcher.OpenAsync($"https://en.wikipedia.org/{url}"));
 
         private PersonaViewModel _persona;
@@ -38,10 +35,12 @@ namespace GeneralInformation.ViewModels
             }
         }
 
+        #region Tab details
         public bool IsPicturesAvailable => Persona != null && Persona.Pictures != null && Persona.Pictures.Any(f => f.PicturePath != "NoImageAvailable.png");
         public bool IsPrimaryPictureAvailable => Persona != null && Persona.PicturePrimaryPath.HasValue();
         public bool IsMetaDataAvailable => Persona != null && Persona.Metadatas != null && Persona.Metadatas.Any();
         public bool IsDetailsAvailable => Persona != null && Persona.Paragraphs != null && Persona.Paragraphs.Any();
+
 
         private int? _availableCount;
         public int? AvailableTabCount
@@ -59,24 +58,29 @@ namespace GeneralInformation.ViewModels
             }
         }
 
-        private string _pictureTitle;
-        public string PictureTitle
+        #endregion
+
+        public void TriggerEvents()
         {
-            get
-            {
-                if (_pictureTitle == null)
-                {
-                    _pictureTitle = $"Pictures [{Persona?.Pictures.Count}]";
-                }
-                return _pictureTitle;
-            }
-            //set
-            //{
-            //    _pictureTitle =value;
-            //    OnPropertyChanged("PictureTitle");
-            //}
+            OnPropertyChanged("Persona");
+            OnPropertyChanged("PictureTitle");
+            OnPropertyChanged("IsPrimaryPictureAvailable");
+            OnPropertyChanged("IsMetaDataAvailable");
+            OnPropertyChanged("IsDetailsAvailable");
+            OnPropertyChanged("CurrentSelectedPictureCaption");
+            OnPropertyChanged("CarouselImageLoadComplete");
+            OnPropertyChanged("CarouselImageTotalClicksToLoadComplete");
+            OnPropertyChanged("CarouselImageCurrentClickIndex");
+            OnPropertyChanged("CarouselImageLoadMoreItemsCount");
+            OnPropertyChanged("TextOnFirstTabInformationOnDetailPage");
+            OnPropertyChanged("SelectedTabIndex");
+            OnPropertyChanged("AvailableTabCount");
+            OnPropertyChanged("IsPicturesAvailable");
         }
 
+        public string PictureTitle => $"Pictures [{Persona?.Pictures.Count}]";
+
+        #region Carousel Image
         private string _currentSelectedPictureCaption;
         public string CurrentSelectedPictureCaption
         {
@@ -95,6 +99,8 @@ namespace GeneralInformation.ViewModels
         public int CarouselImageTotalClicksToLoadComplete { get; set; }
         public int CarouselImageCurrentClickIndex { get; set; }
         public int CarouselImageLoadMoreItemsCount { get; set; }
+
+        #endregion
 
         #region Ads
         private string _adsBannerId;

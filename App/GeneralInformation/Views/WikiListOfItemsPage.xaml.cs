@@ -39,7 +39,6 @@ namespace GeneralInformation.Views
             {
                 if (BindingContext == null || personaListViewModel == null)
                 {
-
                     personaListViewModel = new PersonaListViewModel();
 
                     TaskGroup taskGroup = new();
@@ -54,18 +53,61 @@ namespace GeneralInformation.Views
 
                     BindingContext = personaListViewModel;
 
+                    Task.Run(RefreshListOfListFilter);
+                }
+                else
+                {
+                    bool hasReadStatusChanged = false;
+                    bool hasItemReadToggled = false;
+
+                    TaskGroup taskGroup = new();
+                    taskGroup.Add(() =>
+                    {
+                        //This section reach on two occasions
+                        //1. When redirected back from the subpage to the main page
+                        //2. Navigate to another page from the left menu and then come back to the same page
+
+                        //Reading all the Item Read status and apply for the loaded items on this page
+                        var mapData = (from data in personaListViewModel.Personas
+                                       join tagItemJoin in SharedServices.WikiAppController.GetItemReadTrackData() on data.Name equals tagItemJoin.ItemIdentifier into tagItemGrp
+                                       from tagItem in tagItemGrp
+                                       select new
+                                       {
+                                           Data = data,
+                                           Status = tagItem.IsRead
+                                       }).ToList();
+
+                        foreach (var data in mapData)
+                        {
+                            data.Data.ItemReadStatus = data.Status;
+                        }
+
+                        //This section handles the Item Read from the sub page to main page. Stores the information in a shared place and utilize that see any changes need to apply
+                        if (SharedServices.PageDataTransferModel.Name.HasValue())
+                        {
+                            foreach (var item in personaListViewModel.Personas.Where(f => f.Name == SharedServices.PageDataTransferModel.Name))
+                            {
+                                hasReadStatusChanged = item.ItemReadStatus != SharedServices.PageDataTransferModel.IsMarkedAsViewed;
+                                item.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
+                            }
+                            SharedServices.PageDataTransferModel.Clear();
+                        }
+                    });
+                    taskGroup.Add(() =>
+                    {
+                        var hideItemReadStatusFromStore = SettingsHelper.ShouldShowAlreadyReadItem();
+                        hasItemReadToggled = hideItemReadStatusFromStore != personaListViewModel.HideItemRead;
+                        personaListViewModel.HideItemRead = hideItemReadStatusFromStore;
+                    });
+                    taskGroup.Add(() => personaListViewModel.SortBySelectedIndex = Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)), SettingsHelper.GetSortAttributeBySelected(SettingsHelper.GetCurrentSortDescriptor())));
+                    taskGroup.WaitAll();
+
+                    if (hasReadStatusChanged || hasItemReadToggled)
+                    {
+                        Task.Run(RefreshListOfListFilter);
+                    }
                 }
 
-                if (SharedServices.PageDataTransferModel.Name.HasValue())
-                {
-                    foreach (var item in personaListViewModel.Personas.Where(f => f.Name == SharedServices.PageDataTransferModel.Name))
-                    {
-                        item.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
-                    }
-                    SharedServices.PageDataTransferModel.Clear();
-                }
-                
-                Task.Run(RefreshListOfListFilter);
                 personaListViewModel.DefaultStyle = ThemeHelper.GetDefaultStyle();
                 ThemeHelper.UpdateAppThemes(personaListViewModel.DefaultStyle);
             }
@@ -126,10 +168,6 @@ namespace GeneralInformation.Views
                     }
 #endif
 
-                    taskGroup.Add(() => PersonaDetailPage.LoadContent(_masterId));
-                    taskGroup.WaitAll();
-
-                    taskGroup.Add(() => PersonaDetailPage.LoadParaGrids());
                     taskGroup.WaitAll();
                 }
                 catch (Exception ex)
@@ -219,11 +257,14 @@ namespace GeneralInformation.Views
             {
                 try
                 {
-                    if (lstListOfItems.DataSource != null)
+                    RunOnAppDispatcher(() =>
                     {
-                        lstListOfItems.DataSource.Filter = FilterPersonas;
-                        lstListOfItems.DataSource.RefreshFilter();
-                    }
+                        if (lstListOfItems.DataSource != null)
+                        {
+                            lstListOfItems.DataSource.Filter = FilterPersonas;
+                            lstListOfItems.DataSource.RefreshFilter();
+                        }
+                    });
                 }
                 catch (Exception ex)
                 {
@@ -326,7 +367,10 @@ namespace GeneralInformation.Views
                     if (sender is SfAutoComplete)
                     {
                         await RefreshListOfListFilter();
-                        autoComplete.IsDropDownOpen = false;
+                        RunOnAppDispatcher(() =>
+                        {
+                            autoComplete.IsDropDownOpen = false;
+                        });
                     }
                 }
                 catch (Exception ex)
