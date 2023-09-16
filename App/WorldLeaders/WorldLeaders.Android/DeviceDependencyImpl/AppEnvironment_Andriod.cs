@@ -1,0 +1,48 @@
+﻿using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using WorldLeaders.Droid.DeviceDependencyImpl;
+using GeneralInformation;
+using GeneralInformation.Models.Mix;
+using GeneralInformation.Services;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Xamarin.Essentials;
+using Xamarin.Forms;
+
+[assembly: Dependency(typeof(AppEnvironment_Android))]
+namespace WorldLeaders.Droid.DeviceDependencyImpl
+{
+    public class AppEnvironment_Android : IAppEnvironment
+    {
+        public IStyleModel GetStyle(AppThemes theme)
+        {
+            IStyleModel styles = StyleProviderGenericHelper.LoadStyle(theme);
+
+            return styles;
+        }
+
+        public void SetStatusBarColor(System.Drawing.Color color, bool darkStatusBarTint)
+        {
+            if (Build.VERSION.SdkInt < Android.OS.BuildVersionCodes.Lollipop)
+                return;
+
+            var activity = Platform.CurrentActivity;
+            var window = activity.Window;
+            window.AddFlags(WindowManagerFlags.DrawsSystemBarBackgrounds);
+            window.ClearFlags(WindowManagerFlags.TranslucentStatus);
+            window.SetStatusBarColor(color.ToPlatformColor());
+
+            if (Build.VERSION.SdkInt >= BuildVersionCodes.M)
+            {
+                var flag = (StatusBarVisibility)SystemUiFlags.LightStatusBar;
+                window.DecorView.SystemUiVisibility = darkStatusBarTint ? flag : 0;
+            }
+        }
+    }
+}
