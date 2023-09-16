@@ -11,6 +11,9 @@ ProcessConstants.UseCache = true;
 
 var worldLeadersExtractor = new WorldLeadersExtractor();
 worldLeadersExtractor.ExtractData();
+worldLeadersExtractor.CleanDataWithDump();
+worldLeadersExtractor.EnablePrimaryMetadataContent();
+worldLeadersExtractor.CopyDatabaseFileToRootDbFolder();
 
 //var saintsExtractor = new SaintsDataExtractor();
 //saintsExtractor.ExtractData();

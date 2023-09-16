@@ -174,7 +174,8 @@
                                                                    iOS={OnIdiom Phone=28,
                                                                                 Tablet=50},
                                                                    UWP={OnIdiom Phone=28,
-                                                                                Tablet=50}}"
+                                                                                Tablet=50,
+                                                                                Desktop=50}}"
                                         HorizontalOptions="End">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="120" />
@@ -252,9 +253,9 @@
                                                                                          Tablet='8,2,8,2'},
                                                                         iOS={OnIdiom Phone=2,
                                                                                      Tablet=5},
-                                                                        UWP={OnIdiom Desktop=5,
-                                                                                     Tablet=5,
-                                                                                     Phone=2}}"
+                                                                        UWP={OnIdiom Desktop='8,2,8,2',
+                                                                                     Tablet='8,2,8,2',
+                                                                                     Phone='5,2,5,2'}}"
                                                     Padding="{OnPlatform Android={OnIdiom Phone=1,
                                                                                           Tablet=4},
                                                                          iOS={OnIdiom Phone=1,

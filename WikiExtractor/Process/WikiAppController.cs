@@ -265,6 +265,12 @@ namespace WikiExtractor.Process
         {
             return wikiDatabase.WikiPictureRepository.Get(f => f.IsPrimaryBool).Select(f => f.Path).Where(f => f.HasValue()).ToList();
         }
+        public void UpdatePrimaryImage(int masterId, string picUrl)
+        {
+            var picModel = wikiDatabase.WikiPictureRepository.Get(f => f.MasterId == masterId && f.IsPrimaryBool).First();
+            picModel.Path = picUrl;
+            wikiDatabase.WikiPictureRepository.Update(picModel, "Path");
+        }
 
         public IEnumerable<ItemReadTrackerModel> GetItemReadTrackData()
         {
@@ -314,6 +320,16 @@ namespace WikiExtractor.Process
         {
             wikiDatabase.PhoneSettingsRepository.RemoveAllPrimaryMetadatDisplayContent();
             wikiDatabase.PhoneSettingsRepository.DisablePrimaryMetadatDisplay();
+        }
+        public void RemoveMetadataInfo(int masterId, params string[] metadataKeys)
+        {
+            foreach (var key in metadataKeys)
+            {
+                foreach (var item in wikiDatabase.MetadataRepository.Get(f => f.MasterId == masterId).Where(f => f.Key == key))
+                {
+                    wikiDatabase.MetadataRepository.Delete(item.Id.ToString());
+                }
+            }
         }
 
         public void UpdateItemRead(string name, bool readStatus)

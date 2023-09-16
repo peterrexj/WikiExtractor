@@ -83,5 +83,15 @@ namespace WikiExtractor.Exts
         {
             return data.Where(f => !f.Title.ContainsIgnoreCase("page does not exist")).ToList();
         }
+
+        public static Stack<WikiWhatToExtractModel> ToStack(this List<WikiWhatToExtractModel> data)
+        {
+            var resultStack = new Stack<WikiWhatToExtractModel>();
+            foreach (var item in data)
+            {
+                resultStack.Push(item);
+            }
+            return resultStack;
+        }
     }
 }

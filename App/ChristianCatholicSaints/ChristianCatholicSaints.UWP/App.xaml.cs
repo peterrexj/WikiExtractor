@@ -1,8 +1,17 @@
 ﻿using Pj.Library;
+using Syncfusion.ListView.XForms.UWP;
 using Syncfusion.SfBusyIndicator.XForms.UWP;
+using Syncfusion.SfCarousel.XForms.UWP;
+using Syncfusion.XForms.UWP.Border;
+using Syncfusion.XForms.UWP.Buttons;
+using Syncfusion.XForms.UWP.EffectsView;
+using Syncfusion.XForms.UWP.Graphics;
+using Syncfusion.XForms.UWP.TabView;
+using Syncfusion.XForms.UWP.TextInputLayout;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
@@ -26,6 +35,8 @@ namespace ChristianCatholicSaints.UWP
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(CryptoHelper.Decrypt(GeneralInformation.ConfigHelperUwp.SyncFusionLicense));
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            this.UnhandledException += OnUnhandledException;
+            TaskScheduler.UnobservedTaskException += OnUnobservedTaskException;
         }
 
         /// <summary>
@@ -48,12 +59,22 @@ namespace ChristianCatholicSaints.UWP
             // just ensure that the window is active
             if (rootFrame == null)
             {
-                List<Assembly> assembliesToInclude = new List<Assembly>();
-                assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.EffectsView.SfEffectsViewRenderer).GetTypeInfo().Assembly);
-                assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.Border.SfBorderRenderer).GetTypeInfo().Assembly);
-                assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.Graphics.SfGradientViewRenderer).GetTypeInfo().Assembly);
-                assembliesToInclude.Add(typeof(SfBusyIndicatorRenderer).GetTypeInfo().Assembly);
-                assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.Buttons.SfSegmentedControlRenderer).GetTypeInfo().Assembly);
+                List<Assembly> assembliesToInclude = new List<Assembly>
+                {
+                    //Now, add all the assemblies your app uses
+                    typeof(SfEffectsViewRenderer).GetTypeInfo().Assembly,
+                    typeof(SfTextInputLayoutRenderer).GetTypeInfo().Assembly,
+                    typeof(SfButtonRenderer).GetTypeInfo().Assembly,
+                    typeof(SfChipRenderer).GetTypeInfo().Assembly,
+                    typeof(SfChipGroupRenderer).GetTypeInfo().Assembly,
+                    typeof(SfBorderRenderer).GetTypeInfo().Assembly,
+                    typeof(SfSegmentedControlRenderer).GetTypeInfo().Assembly,
+                    typeof(SfBusyIndicatorRenderer).GetTypeInfo().Assembly,
+                    typeof(SfGradientViewRenderer).GetTypeInfo().Assembly,
+                    typeof(SfTabViewRenderer).GetTypeInfo().Assembly,
+                    typeof(SfListViewRenderer).GetTypeInfo().Assembly,
+                    typeof(SfCarouselRenderer).GetTypeInfo().Assembly,
+                };
 
                 // Create a Frame to act as the navigation context and navigate to the first page
                 rootFrame = new Frame();
@@ -104,6 +125,21 @@ namespace ChristianCatholicSaints.UWP
             var deferral = e.SuspendingOperation.GetDeferral();
             //TODO: Save application state and stop any background activity
             deferral.Complete();
+        }
+
+        private void OnUnhandledException(object sender, Windows.UI.Xaml.UnhandledExceptionEventArgs e)
+        {
+            // Handle the unhandled exception here
+            // You can log the exception, display an error message, or perform any other necessary action
+
+            e.Handled = true; // Set Handled to true to indicate that the exception has been handled
+        }
+        private void OnUnobservedTaskException(object sender, UnobservedTaskExceptionEventArgs e)
+        {
+            // Handle the unobserved task exception here
+            // You can log the exception, display an error message, or perform any other necessary action
+
+            e.SetObserved(); // Mark the exception as observed to prevent it from being rethrown
         }
     }
 }

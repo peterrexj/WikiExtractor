@@ -58,7 +58,7 @@ namespace WikiExtractor.Process.Extractor
                         var portraitUrl = portraitElm.Attributes["src"].Value;
                         if (portraitUrl.StartsWith("http") == false)
                         {
-                            portraitUrl = $"https:{(portraitUrl.StartsWith("//") ? "" : "//")} {portraitUrl}";
+                            portraitUrl = $"https:{(portraitUrl.StartsWith("//") ? "" : "//")}{portraitUrl}";
                         }
                         listOfName.AdditionalMetaData!.AddOrUpdate("Portrait", portraitUrl);
                     }
@@ -194,7 +194,7 @@ namespace WikiExtractor.Process.Extractor
                         var portraitUrl = portraitElm.Attributes["src"].Value;
                         if (portraitUrl.StartsWith("http") == false)
                         {
-                            portraitUrl = $"https:{(portraitUrl.StartsWith("//") ? "" : "//")} {portraitUrl}";
+                            portraitUrl = $"https:{(portraitUrl.StartsWith("//") ? "" : "//")}{portraitUrl}";
                         }
                         listOfName.AdditionalMetaData!.AddOrUpdate("Portrait", portraitUrl);
                     }
@@ -258,7 +258,6 @@ namespace WikiExtractor.Process.Extractor
                 }
             }
 
-
             return listOfNames;
         }
         private WikiWhatToExtractModel? ExtractListTabularData_UnitedStates_Rows(HtmlNode[] elements)
@@ -281,7 +280,7 @@ namespace WikiExtractor.Process.Extractor
                         var portraitUrl = portraitElm.Attributes["src"].Value;
                         if (portraitUrl.StartsWith("http") == false)
                         {
-                            portraitUrl = $"https:{(portraitUrl.StartsWith("//") ? "" : "//")} {portraitUrl}";
+                            portraitUrl = $"https:{(portraitUrl.StartsWith("//") ? "" : "//")}{portraitUrl}";
                         }
                         listOfName.AdditionalMetaData!.AddOrUpdate("Portrait", portraitUrl);
                     }
@@ -367,7 +366,7 @@ namespace WikiExtractor.Process.Extractor
                         var portraitUrl = portraitElm.Attributes["src"].Value;
                         if (portraitUrl.StartsWith("http") == false)
                         {
-                            portraitUrl = $"https:{(portraitUrl.StartsWith("//") ? "" : "//")} {portraitUrl}";
+                            portraitUrl = $"https:{(portraitUrl.StartsWith("//") ? "" : "//")}{portraitUrl}";
                         }
                         listOfName.AdditionalMetaData!.AddOrUpdate("Portrait", portraitUrl);
                         extractPortrait = true;
