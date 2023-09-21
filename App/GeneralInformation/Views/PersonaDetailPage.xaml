@@ -428,10 +428,10 @@
                                     <carousel:SfCarousel
                                         x:Name="carousel"
                                         Grid.Row="1"
-                                        ItemHeight="{Binding Source={x:Reference rowImageInContainerGrid}, Path=Height}"
+                                        AllowLoadMore="{OnPlatform Android=True,
+                                                                   UWP=False}"
                                         ItemSpacing="10"
                                         ItemsSource="{Binding Persona.Pictures}"
-                                        LoadMoreItemsCount="{Binding CarouselImageLoadMoreItemsCount}"
                                         SelectionChanged="carousel_SelectionChanged"
                                         ViewMode="Default">
                                         <carousel:SfCarousel.ItemTemplate>

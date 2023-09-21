@@ -4,6 +4,7 @@ using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
 using Microsoft.AppCenter.Crashes;
 using Pj.Library;
+using Syncfusion.SfCarousel.XForms;
 using Syncfusion.XForms.Border;
 using Syncfusion.XForms.Graphics;
 using System;
@@ -44,11 +45,14 @@ namespace GeneralInformation.Views
             }
         }
 
-        public PersonaDetailPage()
+        public void RunOnAppDispatcher(Action action)
         {
             try
             {
-                InitializeComponent();
+                App.Current.Dispatcher.BeginInvokeOnMainThread(() =>
+                {
+                    action();
+                });
             }
             catch (Exception ex)
             {
@@ -56,6 +60,105 @@ namespace GeneralInformation.Views
             }
         }
 
+        public PersonaDetailPage()
+        {
+            try
+            {
+                InitializeComponent();
+                if (Device.RuntimePlatform != Device.UWP)
+                {
+                    carousel.SetBinding(SfCarousel.ItemHeightProperty, new Binding("Height", source: rowImageInContainerGrid));
+                    carousel.SetBinding(SfCarousel.LoadMoreItemsCountProperty, "CarouselImageLoadMoreItemsCount");
+                }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
+        }
+
+        protected override void OnAppearing()
+        {
+            try
+            {
+                base.OnAppearing();
+
+                LoadWithPageBinding();
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex, BuildErrorContext());
+            }
+        }
+
+        private void LoadWithPageBinding()
+        {
+            int.TryParse(MasterId, out var result);
+
+            personaDetailViewModel ??= new PersonaDetailViewModel();
+
+            personaDetailViewModel.IsBusy = true;
+
+            personaDetailViewModel.DefaultStyle = ThemeHelper.GetDefaultStyle();
+
+            if (Device.RuntimePlatform == Device.UWP)
+            {
+                LoadSubPageItemDataDetails();
+                BindingContext = personaDetailViewModel;
+            }
+            else
+            {
+                BindingContext = personaDetailViewModel;
+                Thread paraLoadThread = new(new ThreadStart(LoadSubPageItemDataDetails));
+                paraLoadThread.Start();
+            }
+        }
+        private void LoadSubPageItemDataDetails()
+        {
+            try
+            {
+                if (personaDetailViewModel?.Persona == null)
+                {
+                    personaDetailViewModel.Persona = SharedServices.WikiAppController.GetViewModelById(MasterId.ToInteger());
+                }
+
+                personaDetailViewModel.Persona.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
+
+                if (personaDetailViewModel.IsMetaDataAvailable == false)
+                {
+                    personaDetailViewModel.Persona.Metadatas.Add(new MetadataViewModel { Key = "", Description = personaDetailViewModel.Persona.Name });
+                }
+
+                if (personaDetailViewModel.IsPicturesAvailable)
+                {
+                    personaDetailViewModel.CurrentSelectedPictureCaption = personaDetailViewModel.Persona.Pictures.FirstOrDefault().PictureCaption;
+                }
+
+                personaDetailViewModel.CarouselImageCurrentClickIndex = 0;
+                if (personaDetailViewModel.Persona.Pictures.Count > personaDetailViewModel.CarouselImageLoadMoreItemsCount)
+                {
+                    personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = personaDetailViewModel.Persona.Pictures.Count / personaDetailViewModel.CarouselImageLoadMoreItemsCount + 1;
+                }
+                else
+                {
+                    personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = 0;
+                    personaDetailViewModel.CarouselImageLoadComplete = true;
+                }
+
+                LoadParaDetails();
+                personaDetailViewModel.TriggerEvents();
+                //RunOnAppDispatcher(() => tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount);
+                tabView.SelectedIndex = 0;
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
+            finally
+            {
+                personaDetailViewModel.IsBusy = false;
+            }
+        }
         public void LoadParaGrids()
         {
             _paraGrids = new List<Grid>();
@@ -72,31 +175,18 @@ namespace GeneralInformation.Views
                 }
             }
         }
-
-        protected override void OnAppearing()
+        private void LoadParaDetails()
         {
             try
             {
-                base.OnAppearing();
-
-                int.TryParse(MasterId, out var result);
-
-                personaDetailViewModel ??= new PersonaDetailViewModel();
-
-                personaDetailViewModel.IsBusy = true;
-
-                personaDetailViewModel.DefaultStyle = ThemeHelper.GetDefaultStyle();
-                BindingContext = personaDetailViewModel;
-
-                Thread paraLoadThread = new(new ThreadStart(LoadSubPageItemDataDetails));
-                paraLoadThread.Start();
+                LoadParaGrids();
+                RenderParaContents();
             }
             catch (Exception ex)
             {
-                Crashes.TrackError(ex, BuildErrorContext());
+                Crashes.TrackError(ex);
             }
         }
-
         private void RenderParaContents()
         {
             RunOnAppDispatcher(() =>
@@ -114,7 +204,6 @@ namespace GeneralInformation.Views
                 }
             });
         }
-
         private Grid RenderPara2ContentV2(List<Paragraph2ContentViewModel> paraContents)
         {
             var mainGrid = new Grid
@@ -193,7 +282,6 @@ namespace GeneralInformation.Views
                 lbl.Style = (Style)resource;
             return lbl;
         }
-
         private Grid RenderParagraphContentImage(PictureViewModel picModel)
         {
             var grid = new Grid
@@ -288,14 +376,20 @@ namespace GeneralInformation.Views
                 Crashes.TrackError(ex, BuildErrorContext());
             }
         }
-
         private void carousel_SelectionChanged(object sender, Syncfusion.SfCarousel.XForms.SelectionChangedEventArgs e)
         {
             try
             {
-                if (e != null && e.SelectedItem != null)
+                if (e != null && (e.SelectedItem != null || e.SelectedIndex >= 0))
                 {
-                    personaDetailViewModel.CurrentSelectedPictureCaption = (e.SelectedItem as PictureViewModel).PictureCaption;
+                    if (e.SelectedItem != null)
+                    {
+                        personaDetailViewModel.CurrentSelectedPictureCaption = (e.SelectedItem as PictureViewModel).PictureCaption;
+                    }
+                    else
+                    {
+                        personaDetailViewModel.CurrentSelectedPictureCaption = personaDetailViewModel.Persona.Pictures[e.SelectedIndex]?.PictureCaption ?? string.Empty;
+                    }
                     if (personaDetailViewModel.CarouselImageLoadComplete == false)
                     {
                         if (personaDetailViewModel.CarouselImageCurrentClickIndex < personaDetailViewModel.CarouselImageTotalClicksToLoadComplete)
@@ -309,20 +403,6 @@ namespace GeneralInformation.Views
                         }
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                Crashes.TrackError(ex);
-            }
-        }
-        public void RunOnAppDispatcher(Action action)
-        {
-            try
-            {
-                App.Current.Dispatcher.BeginInvokeOnMainThread(() =>
-                {
-                    action();
-                });
             }
             catch (Exception ex)
             {
@@ -361,65 +441,6 @@ namespace GeneralInformation.Views
             {
                 tabView.SelectedIndex = personaDetailViewModel.IsMetaDataAvailable && personaDetailViewModel.IsPicturesAvailable ? 2 :
                                     personaDetailViewModel.IsMetaDataAvailable == false && personaDetailViewModel.IsPicturesAvailable == false ? 0 : 1;
-            }
-            catch (Exception ex)
-            {
-                Crashes.TrackError(ex);
-            }
-        }
-
-        private void LoadSubPageItemDataDetails()
-        {
-            try
-            {
-                if (personaDetailViewModel?.Persona == null)
-                {
-                    personaDetailViewModel.Persona = SharedServices.WikiAppController.GetViewModelById(MasterId.ToInteger());
-                }
-
-                personaDetailViewModel.Persona.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
-
-                if (personaDetailViewModel.IsMetaDataAvailable == false)
-                {
-                    personaDetailViewModel.Persona.Metadatas.Add(new MetadataViewModel { Key = "", Description = personaDetailViewModel.Persona.Name });
-                }
-
-                if (personaDetailViewModel.IsPicturesAvailable)
-                {
-                    personaDetailViewModel.CurrentSelectedPictureCaption = personaDetailViewModel.Persona.Pictures.FirstOrDefault().PictureCaption;
-                }
-
-                personaDetailViewModel.CarouselImageCurrentClickIndex = 0;
-                if (personaDetailViewModel.Persona.Pictures.Count > personaDetailViewModel.CarouselImageLoadMoreItemsCount)
-                {
-                    personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = personaDetailViewModel.Persona.Pictures.Count / personaDetailViewModel.CarouselImageLoadMoreItemsCount + 1;
-                }
-                else
-                {
-                    personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = 0;
-                    personaDetailViewModel.CarouselImageLoadComplete = true;
-                }
-
-                LoadParaDetails();
-                personaDetailViewModel.TriggerEvents();
-                //RunOnAppDispatcher(() => tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount);
-                tabView.SelectedIndex = 0;
-            }
-            catch (Exception ex)
-            {
-                Crashes.TrackError(ex);
-            }
-            finally
-            {
-                personaDetailViewModel.IsBusy = false;
-            }
-        }
-        private void LoadParaDetails()
-        {
-            try
-            {
-                LoadParaGrids();
-                RenderParaContents();
             }
             catch (Exception ex)
             {
