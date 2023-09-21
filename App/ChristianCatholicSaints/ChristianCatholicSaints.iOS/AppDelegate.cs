@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using GeneralInformation;
+using Syncfusion.ListView.XForms.iOS;
 using UIKit;
 
 namespace ChristianCatholicSaints.iOS
@@ -25,6 +26,8 @@ namespace ChristianCatholicSaints.iOS
         {
             global::Xamarin.Forms.Forms.Init();
 
+            SfListViewRenderer.Init();
+            
             Syncfusion.XForms.iOS.Buttons.SfChipRenderer.Init();
             Syncfusion.XForms.iOS.Buttons.SfChipRenderer.Init();
             Syncfusion.XForms.iOS.Buttons.SfChipGroupRenderer.Init();
