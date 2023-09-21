@@ -1,15 +1,11 @@
-﻿using Pj.Library.Mobile.Sqlite;
-using Pj.Library;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Pj.Library;
+using Pj.Library.Datastore.Repository;
 using System.Text;
-using System.Threading.Tasks;
 using WikiExtractor.DbModels;
 
 namespace WikiExtractor.Repository
 {
-    public class AppMenuItemRepository : RepositoryBase<AppMenuItem>, IRepositoryBase<AppMenuItem>, IRepositoryBaseAppExtension
+    public class AppMenuItemRepository : RepositorySqliteNetBase<AppMenuItem>, IRepositoryBase<AppMenuItem>, IRepositoryBaseAppExtension
     {
         public AppMenuItemRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblAppMenuItem",
           "TitleOnThePage, Tags, MenuItemName, Sequence",

@@ -1,15 +1,12 @@
-﻿using Pj.Library.Mobile.Sqlite;
-using Pj.Library;
-using System;
-using System.Collections.Generic;
+﻿using Pj.Library;
+using Pj.Library.Datastore.Repository;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using WikiExtractor.DbModels;
 
 namespace WikiExtractor.Repository
 {
-    public class ParagraphImageRepository : RepositoryBase<ParagraphImage>, IRepositoryBase<ParagraphImage>, IRepositoryBaseAppExtension
+    public class ParagraphImageRepository : RepositorySqliteNetBase<ParagraphImage>, IRepositoryBase<ParagraphImage>, IRepositoryBaseAppExtension
     {
         public ParagraphImageRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblParagraphImage",
           "MasterId, ImageId, ParagraphId",

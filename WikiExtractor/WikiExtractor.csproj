@@ -9,11 +9,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
-    <PackageReference Include="Pj.Library" Version="1.0.4.17" />
-    <PackageReference Include="Pj.Library.Datastore" Version="1.0.4.17" />
-    <PackageReference Include="Pj.Library.Mobile" Version="1.0.4.17" />
-    <PackageReference Include="Pj.Library.Secure" Version="1.0.4.17" />
-    <PackageReference Include="Pj.Library.ThirdParty" Version="1.0.4.17" />
+    <PackageReference Include="Pj.Library" Version="1.0.4.18" />
+    <PackageReference Include="Pj.Library.Datastore" Version="1.0.4.18" />
+    <PackageReference Include="Pj.Library.Mobile" Version="1.0.4.18" />
+    <PackageReference Include="Pj.Library.Secure" Version="1.0.4.18" />
+    <PackageReference Include="Pj.Library.ThirdParty" Version="1.0.4.18" />
     <PackageReference Include="Selenium.Essentials" Version="1.0.5.16" />
     <PackageReference Include="TestAny.Essentials.Api" Version="1.0.5.16" />
     <PackageReference Include="TestAny.Essentials.Core" Version="1.0.5.16" />

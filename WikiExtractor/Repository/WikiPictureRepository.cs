@@ -1,15 +1,12 @@
-﻿using Pj.Library.Mobile.Sqlite;
-using Pj.Library;
-using System;
-using System.Collections.Generic;
+﻿using Pj.Library;
+using Pj.Library.Datastore.Repository;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using WikiExtractor.DbModels;
 
 namespace WikiExtractor.Repository
 {
-    public class WikiPictureRepository : RepositoryBase<WikiPicture>, IRepositoryBase<WikiPicture>, IRepositoryBaseAppExtension
+    public class WikiPictureRepository : RepositorySqliteNetBase<WikiPicture>, IRepositoryBase<WikiPicture>, IRepositoryBaseAppExtension
     {
         public WikiPictureRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblWikiPicture",
            "MasterId, Sequence, Width, Height, Path, Caption, IsPrimary",

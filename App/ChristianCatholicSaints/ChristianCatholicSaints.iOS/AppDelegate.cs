@@ -31,6 +31,8 @@ namespace ChristianCatholicSaints.iOS
             Syncfusion.XForms.iOS.Buttons.SfSegmentedControlRenderer.Init();
             Syncfusion.XForms.iOS.TabView.SfTabViewRenderer.Init();
 
+            SQLitePCL.Batteries_V2.Init();
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

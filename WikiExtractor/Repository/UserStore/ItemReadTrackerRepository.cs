@@ -1,16 +1,11 @@
 ﻿using Pj.Library;
-using Pj.Library.Mobile.Sqlite;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using Pj.Library.Datastore.Repository;
 using System.Text;
-using System.Threading.Tasks;
-using WikiExtractor.DbModels;
 using WikiExtractor.DbModels.UserStore;
 
 namespace WikiExtractor.Repository.UserStore
 {
-    public class ItemReadTrackerRepository : RepositoryBase<ItemReadTrackerModel>, IRepositoryBase<ItemReadTrackerModel>, IRepositoryBaseAppExtension
+    public class ItemReadTrackerRepository : RepositorySqliteNetBase<ItemReadTrackerModel>, IRepositoryBase<ItemReadTrackerModel>, IRepositoryBaseAppExtension
     {
         public ItemReadTrackerRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "ItemReadTracker",
           "ItemIdentifier, IsRead",

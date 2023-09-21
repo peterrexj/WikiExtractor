@@ -1,15 +1,12 @@
-﻿using Pj.Library.Mobile.Sqlite;
-using Pj.Library;
-using System;
-using System.Collections.Generic;
+﻿using Pj.Library;
+using Pj.Library.Datastore.Repository;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using WikiExtractor.DbModels;
 
 namespace WikiExtractor.Repository
 {
-    public class TagItemRepository : RepositoryBase<TagItem>, IRepositoryBase<TagItem>, IRepositoryBaseAppExtension
+    public class TagItemRepository : RepositorySqliteNetBase<TagItem>, IRepositoryBase<TagItem>, IRepositoryBaseAppExtension
     {
         public TagItemRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblTagItem",
           "MasterId, TagId",

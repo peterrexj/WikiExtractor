@@ -1,15 +1,12 @@
-﻿using Pj.Library.Mobile.Sqlite;
-using Pj.Library;
-using System;
-using System.Collections.Generic;
+﻿using Pj.Library;
+using Pj.Library.Datastore.Repository;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using WikiExtractor.DbModels;
 
 namespace WikiExtractor.Repository
 {
-    public class MetadataRepository : RepositoryBase<Metadata>, IRepositoryBase<Metadata>, IRepositoryBaseAppExtension
+    public class MetadataRepository : RepositorySqliteNetBase<Metadata>, IRepositoryBase<Metadata>, IRepositoryBaseAppExtension
     {
         public MetadataRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblMetadata",
            "MasterId, Key, Value, Sequence, Type",

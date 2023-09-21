@@ -1,15 +1,12 @@
-﻿using Pj.Library.Mobile.Sqlite;
-using Pj.Library;
-using System;
-using System.Collections.Generic;
+﻿using Pj.Library;
+using Pj.Library.Datastore.Repository;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using WikiExtractor.DbModels;
 
 namespace WikiExtractor.Repository
 {
-    public class ParagraphHeader3Repository : RepositoryBase<ParagraphHeader3>, IRepositoryBase<ParagraphHeader3>, IRepositoryBaseAppExtension
+    public class ParagraphHeader3Repository : RepositorySqliteNetBase<ParagraphHeader3>, IRepositoryBase<ParagraphHeader3>, IRepositoryBaseAppExtension
     {
         public ParagraphHeader3Repository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblParagraphHeader3",
            "MasterId, ParagraphHeader2Id, Header, Sequence",

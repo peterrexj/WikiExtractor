@@ -1,16 +1,13 @@
-﻿using Pj.Library.Mobile.Sqlite;
-using Pj.Library;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Xamarin.Forms;
+﻿using Pj.Library;
+using Pj.Library.Datastore.Repository;
 using System.Linq;
-using WikiExtractor.Exts;
+using System.Text;
 using WikiExtractor.DbModels;
+using WikiExtractor.Exts;
 
 namespace WikiExtractor.Repository.UserStore
 {
-    public class AppSettingsRepository : RepositoryBase<PhoneSettings>, IRepositoryBase<PhoneSettings>, IRepositoryBaseAppExtension
+    public class AppSettingsRepository : RepositorySqliteNetBase<PhoneSettings>, IRepositoryBase<PhoneSettings>, IRepositoryBaseAppExtension
     {
         public AppSettingsRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblPhoneSettings",
             "Name, Value", "Name")

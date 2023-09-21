@@ -1,16 +1,14 @@
-﻿using Pj.Library.Mobile.Sqlite;
-using Pj.Library;
+﻿using Pj.Library;
+using Pj.Library.Datastore.Repository;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using WikiExtractor.DbModels;
 using WikiExtractor.Exts;
 
 namespace WikiExtractor.Repository
 {
-    public class RequestRecordRepository : RepositoryBase<RequestRecord>, IRepositoryBase<RequestRecord>, IRepositoryBaseAppExtension
+    public class RequestRecordRepository : RepositorySqliteNetBase<RequestRecord>, IRepositoryBase<RequestRecord>, IRepositoryBaseAppExtension
     {
         public RequestRecordRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "RequestRecord",
           "RequestDate, RequestCount",

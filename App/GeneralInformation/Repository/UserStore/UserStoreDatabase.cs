@@ -11,7 +11,7 @@ namespace GeneralInformation.Repository.UserStore
     public class UserStoreDatabase : AppSqliteRepository, IUserStoreDatabase
     {
         public ItemReadTrackerRepository ItemReadTrackerRepository { get; set; }
-        public new SettingsRepository SettingsRepository => base.SettingsRepository;
+        public new SettingsSqliteRepository SettingsRepository => base.SettingsRepository;
         public RequestRecordRepository RequestRecordRepository { get; set; }
         public AppSettingsRepository AppSettingsRepository { get; set; }
 

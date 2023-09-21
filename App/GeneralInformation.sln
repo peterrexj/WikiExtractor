@@ -314,6 +314,7 @@ Global
 		{5298DF19-AED4-4359-A304-06E9B39F9C46}.Debug|ARM.Build.0 = Debug|iPhoneSimulator
 		{5298DF19-AED4-4359-A304-06E9B39F9C46}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{5298DF19-AED4-4359-A304-06E9B39F9C46}.Debug|iPhone.Build.0 = Debug|iPhone
+		{5298DF19-AED4-4359-A304-06E9B39F9C46}.Debug|iPhone.Deploy.0 = Debug|iPhone
 		{5298DF19-AED4-4359-A304-06E9B39F9C46}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{5298DF19-AED4-4359-A304-06E9B39F9C46}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{5298DF19-AED4-4359-A304-06E9B39F9C46}.Debug|x64.ActiveCfg = Debug|iPhoneSimulator
