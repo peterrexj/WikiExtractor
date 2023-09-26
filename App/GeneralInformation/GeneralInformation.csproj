@@ -89,6 +89,8 @@
 		<PackageReference Include="Syncfusion.Xamarin.SfCarousel" Version="22.2.12" />
 		<PackageReference Include="Syncfusion.Xamarin.SfListView" Version="22.2.12" />
 		<PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="22.2.12" />
+		<PackageReference Include="TestAny.Essentials.Api" Version="1.0.5.16" />
+		<PackageReference Include="TestAny.Essentials.Core" Version="1.0.5.16" />
 		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
 		<PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
 	</ItemGroup>

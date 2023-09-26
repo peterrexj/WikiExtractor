@@ -5,6 +5,7 @@ using System.Linq;
 using Foundation;
 using GeneralInformation;
 using Syncfusion.ListView.XForms.iOS;
+using TestAny.Essentials.Core;
 using UIKit;
 
 namespace ChristianCatholicSaints.iOS
@@ -25,6 +26,7 @@ namespace ChristianCatholicSaints.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            Xamarin.Essentials.Platform.Init(() => GetCurrentUIViewController());
 
             SfListViewRenderer.Init();
             
@@ -33,6 +35,7 @@ namespace ChristianCatholicSaints.iOS
             Syncfusion.XForms.iOS.Buttons.SfChipGroupRenderer.Init();
             Syncfusion.XForms.iOS.Buttons.SfSegmentedControlRenderer.Init();
             Syncfusion.XForms.iOS.TabView.SfTabViewRenderer.Init();
+            TestAnyAppConfig.InitializeFramework();
 
             SQLitePCL.Batteries_V2.Init();
 
@@ -40,5 +43,17 @@ namespace ChristianCatholicSaints.iOS
 
             return base.FinishedLaunching(app, options);
         }
+
+        UIViewController GetCurrentUIViewController()
+        {
+            var window = UIApplication.SharedApplication.KeyWindow;
+            var vc = window.RootViewController;
+            while (vc.PresentedViewController != null)
+            {
+                vc = vc.PresentedViewController;
+            }
+            return vc;
+        }
+
     }
 }

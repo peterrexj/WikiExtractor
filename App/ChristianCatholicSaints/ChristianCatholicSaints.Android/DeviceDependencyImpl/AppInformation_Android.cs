@@ -27,5 +27,8 @@ namespace ChristianCatholicSaints.Droid.DeviceDependencyImpl
         #endregion
         public string TextOnFirstTabInformationOnDetailPage => "Saint facts";
         public int CarouselImageLoadMoreItemsCount => 5;
+
+        public string ImageCacheFolder => System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData);
+        public int ImageCacheTotalDaysToInvalidate => 30;
     }
 }

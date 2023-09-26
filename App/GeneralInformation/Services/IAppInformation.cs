@@ -8,6 +8,9 @@
         int ShowFirstInterstitialAdOnClickLimit { get; }
         int ShowLaterInterstitialAdOnClickLimit { get; }
 
+        string ImageCacheFolder { get; }
+        int ImageCacheTotalDaysToInvalidate { get; }
+
         int StyleOnImageHeightRequestOnListPage { get; }
         int StyleOnListItemHeightRequestOnListPagePhone { get; }
         int StyleOnListItemHeightRequestOnListPageTablet { get; }

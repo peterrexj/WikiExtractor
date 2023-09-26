@@ -1,4 +1,5 @@
 ﻿using Syncfusion.ListView.XForms.UWP;
+using TestAny.Essentials.Core;
 
 namespace PopesOfChurch.UWP
 {
@@ -9,6 +10,8 @@ namespace PopesOfChurch.UWP
             this.InitializeComponent();
 
             SfListViewRenderer.Init();
+            TestAnyAppConfig.InitializeFramework();
+
             LoadApplication(new GeneralInformation.App());
         }
     }

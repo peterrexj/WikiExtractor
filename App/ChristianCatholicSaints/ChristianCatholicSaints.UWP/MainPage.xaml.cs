@@ -1,4 +1,5 @@
 ﻿using Syncfusion.ListView.XForms.UWP;
+using TestAny.Essentials.Core;
 
 namespace ChristianCatholicSaints.UWP
 {
@@ -7,8 +8,8 @@ namespace ChristianCatholicSaints.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
             SfListViewRenderer.Init();
+            TestAnyAppConfig.InitializeFramework();
             LoadApplication(new GeneralInformation.App());
         }
     }

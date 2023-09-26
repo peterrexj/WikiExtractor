@@ -6,6 +6,7 @@
     xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
     xmlns:carousel="clr-namespace:Syncfusion.SfCarousel.XForms;assembly=Syncfusion.SfCarousel.XForms"
     xmlns:converters="clr-namespace:GeneralInformation.Converters"
+    xmlns:local="clr-namespace:GeneralInformation"
     xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
@@ -31,16 +32,17 @@
 
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=20*, Tablet=5*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP=0.08*, macOS=0.15*, WPF=auto}" />
-                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=85*, Tablet=95*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP=0.85*, macOS=*, WPF=*}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=20*, Tablet=5*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP=20*, macOS=0.15*, WPF=auto}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=85*, Tablet=95*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP=85*, macOS=*, WPF=*}" />
                                 </Grid.ColumnDefinitions>
-                                <Image
+                                <local:ExtendedImage
+                                    x:Name="imgPrimary"
                                     Grid.Column="0"
                                     Margin="2,2,2,2"
                                     Aspect="AspectFit"
-                                    BackgroundColor="Transparent"
+                                    CustomSource="{Binding PicturePrimaryPath}"
                                     HorizontalOptions="Center"
-                                    Source="{Binding Persona.PicturePrimaryPath}"
+                                    LocalFileName="{Binding PicturePrimaryLocalFileName}"
                                     VerticalOptions="Center" />
 
                                 <StackLayout Grid.Column="1">
@@ -273,8 +275,8 @@
 
                                                         <Grid>
                                                             <Grid.ColumnDefinitions>
-                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.30*, Tablet=0.12*}, iOS={OnIdiom Phone=0.30*, Tablet=0.12*}, UWP={OnIdiom Desktop=0.12*, Phone=0.30*, Tablet=0.12*}, macOS=0.12*, WPF=auto}" />
-                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.70*, Tablet=0.88*}, iOS={OnIdiom Phone=0.70*, Tablet=0.88*}, UWP={OnIdiom Desktop=0.85*, Phone=0.70*, Tablet=0.88*}, macOS=*, WPF=*}" />
+                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.30*, Tablet=0.12*}, iOS={OnIdiom Phone=0.30*, Tablet=0.12*}, UWP={OnIdiom Default=0.12*, Phone=0.30*}, macOS=0.12*, WPF=auto}" />
+                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.70*, Tablet=0.88*}, iOS={OnIdiom Phone=0.70*, Tablet=0.88*}, UWP={OnIdiom Default=0.88*, Phone=0.70*}, macOS=*, WPF=*}" />
                                                             </Grid.ColumnDefinitions>
 
                                                             <Label
@@ -434,9 +436,13 @@
                                         ItemsSource="{Binding Persona.Pictures}"
                                         SelectionChanged="carousel_SelectionChanged"
                                         ViewMode="Default">
+
                                         <carousel:SfCarousel.ItemTemplate>
                                             <DataTemplate>
-                                                <Image Aspect="AspectFit" Source="{Binding PicturePath}" />
+                                                <local:ExtendedImage
+                                                    Aspect="AspectFit"
+                                                    CustomSource="{Binding PicturePath}"
+                                                    LocalFileName="{Binding PictureLocalFileName}" />
                                             </DataTemplate>
                                         </carousel:SfCarousel.ItemTemplate>
                                     </carousel:SfCarousel>

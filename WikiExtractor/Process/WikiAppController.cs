@@ -85,12 +85,15 @@ namespace WikiExtractor.Process
                                         GroupHeader = item.Value //Need to get the group header
                                     }).ToList(),
                                MainContent = mainContentData?.Content ?? "",
-                               Paragraphs = new List<Paragraph2ContentViewModel> { new Paragraph2ContentViewModel
-                            {
-                                Content = mainContentData.Content,
-                                Header2 = masterData.master.Name,
-                                Sequence = 0
-                            } }
+                               Paragraphs = new List<Paragraph2ContentViewModel> 
+                               { 
+                                   new Paragraph2ContentViewModel
+                                    {
+                                        Content = mainContentData.Content,
+                                        Header2 = masterData.master.Name,
+                                        Sequence = 0
+                                    } 
+                               }
                            }).FirstOrDefault();
             });
 
@@ -163,6 +166,14 @@ namespace WikiExtractor.Process
                     }
 
                 }
+            }
+
+            //Update the picture local file name
+            int picCounter = 1;
+            foreach (var pic in persona.Pictures)
+            {
+                pic.ParentName = persona.Name;
+                pic.CurrentCounter = picCounter++;
             }
             return persona;
         }

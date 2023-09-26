@@ -53,7 +53,8 @@
                                     <Grid>
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=90, Tablet=130}, iOS={OnIdiom Phone=90, Tablet=100}}" />
+                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=90, Tablet=130}, iOS={OnIdiom Phone=90, Tablet=100}, 
+                                                UWP={OnIdiom Phone=90, Default=130}}" />
                                             <ColumnDefinition Width="30" />
                                             <ColumnDefinition Width="5" />
                                         </Grid.ColumnDefinitions>
@@ -274,14 +275,15 @@
                                                                 <Grid.RowDefinitions>
                                                                     <RowDefinition Height="*" />
                                                                 </Grid.RowDefinitions>
-                                                                <Image
+                                                                <local:ExtendedImage
                                                                     x:Name="imgList"
                                                                     Grid.Row="0"
                                                                     Margin="5,5,0,0"
                                                                     Aspect="AspectFit"
                                                                     HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnImageHeightRequestOnListPage}"
                                                                     HorizontalOptions="FillAndExpand"
-                                                                    Source="{Binding PicturePrimaryPath}"
+                                                                    LocalFileName="{Binding PicturePrimaryLocalFileName}"
+                                                                    CustomSource="{Binding PicturePrimaryPath}"
                                                                     VerticalOptions="Start"
                                                                     WidthRequest="120" />
                                                                 <ActivityIndicator

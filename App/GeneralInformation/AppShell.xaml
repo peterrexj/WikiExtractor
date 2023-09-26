@@ -72,7 +72,7 @@
             <Grid
                 x:Name="FlyoutItemLayout"
                 ColumnSpacing="{x:OnPlatform UWP=0}"
-                HeightRequest="{x:OnPlatform Android=50}"
+                HeightRequest="{x:OnPlatform Android=50, iOS=30, UWP=50}"
                 RowSpacing="{x:OnPlatform UWP=0}">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="0.05*" />
@@ -107,11 +107,10 @@
                                                            Tablet=16},
                                           iOS={OnIdiom Phone=12,
                                                        Tablet=16},
-                                          UWP={OnIdiom Phone=8,
-                                                       Tablet=10,
-                                                       Desktop=10},
-                                          macOS=10,
-                                          WPF=10}"
+                                          UWP={OnIdiom Phone=12,
+                                                       Default=16},
+                                          macOS=16,
+                                          WPF=16}"
                     HorizontalOptions="{x:OnPlatform UWP=Start}"
                     HorizontalTextAlignment="{x:OnPlatform UWP=Start}"
                     Text="{Binding Title}"

@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.IO;
 using Android.Gms.Ads;
 using Microsoft.AppCenter.Crashes;
+using TestAny.Essentials.Core;
 
 namespace PopesOfChurch.Droid
 {
@@ -32,8 +33,16 @@ namespace PopesOfChurch.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             MobileAds.Initialize(ApplicationContext);
+            TestAnyAppConfig.InitializeFramework();
 
             LoadApplication(new App());
+        }
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults)
+        {
+            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
         #region Error 

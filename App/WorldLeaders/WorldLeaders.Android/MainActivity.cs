@@ -8,6 +8,7 @@ using Microsoft.AppCenter.Crashes;
 using Pj.Library;
 using System;
 using System.Threading.Tasks;
+using TestAny.Essentials.Core;
 
 namespace WorldLeaders.Droid
 {
@@ -28,8 +29,16 @@ namespace WorldLeaders.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             MobileAds.Initialize(ApplicationContext);
+            TestAnyAppConfig.InitializeFramework();
 
             LoadApplication(new App());
+        }
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults)
+        {
+            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
         #region Error 

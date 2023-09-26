@@ -1,5 +1,6 @@
 ﻿using ChristianCatholicSaints.Droid.DeviceDependencyImpl;
 using GeneralInformation.Services;
+using Windows.Storage;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(AppInformation))]
@@ -27,5 +28,8 @@ namespace ChristianCatholicSaints.Droid.DeviceDependencyImpl
         #endregion
         public string TextOnFirstTabInformationOnDetailPage => "Saint facts";
         public int CarouselImageLoadMoreItemsCount => 5;
+
+        public string ImageCacheFolder => ApplicationData.Current.LocalFolder.Path;
+        public int ImageCacheTotalDaysToInvalidate => 30;
     }
 }

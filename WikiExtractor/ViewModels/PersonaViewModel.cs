@@ -1,10 +1,8 @@
 ﻿using Pj.Library;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WikiExtractor.DbModels;
 
 namespace WikiExtractor.ViewModels
 {
@@ -35,6 +33,7 @@ namespace WikiExtractor.ViewModels
         public string WikiPath { get; set; }
         public string MainContent { get; set; }
         public string PicturePrimaryPath { get; set; }
+        public string PicturePrimaryLocalFileName => $"{Name.RemoveSpecialChars(excludeUnderscore: false)}{Path.GetExtension(PicturePrimaryPath)}";
         public string PicturePrimaryCaption { get; set; }
         public bool IsPrimaryMetadataContentEnabled { get; set; }
         public bool ShowPrimaryContentMetadata => IsPrimaryMetadataContentEnabled;
@@ -89,7 +88,9 @@ namespace WikiExtractor.ViewModels
         public int Sequence { get; set; }
         public int Height { get; set; }
         public int Width { get; set; }
-        
+        public string ParentName { get; set; }
+        public int CurrentCounter { get; set; }
+        public string PictureLocalFileName => $"{ParentName.RemoveSpecialChars(excludeUnderscore: false)}{CurrentCounter}{Path.GetExtension(PicturePath)}";
     }
 
     public class Paragraph2ContentViewModel
