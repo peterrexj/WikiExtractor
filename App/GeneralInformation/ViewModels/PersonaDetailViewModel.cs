@@ -78,7 +78,7 @@ namespace GeneralInformation.ViewModels
             OnPropertyChanged("IsPicturesAvailable");
         }
 
-        public string PictureTitle => $"Pictures [{Persona?.Pictures.Count}]";
+        public string PictureTitle => $"Pictures [{(IsPicturesAvailable ? Persona?.Pictures.Count : 0)}]";
 
         #region Carousel Image
         private string _currentSelectedPictureCaption;

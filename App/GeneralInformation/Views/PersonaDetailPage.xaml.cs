@@ -182,7 +182,8 @@ namespace GeneralInformation.Views
                     LoadParaDetails();
                     personaDetailViewModel.TriggerEvents();
                     //RunOnAppDispatcher(() => tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount);
-                    tabView.SelectedIndex = 0;
+                    RunOnAppDispatcher(() => tabView.SelectedIndex = 0);
+
                 }
                 catch (Exception ex)
                 {

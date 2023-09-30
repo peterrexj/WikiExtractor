@@ -32,8 +32,8 @@
 
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=20*, Tablet=5*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP=20*, macOS=0.15*, WPF=auto}" />
-                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=85*, Tablet=95*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP=85*, macOS=*, WPF=*}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=20*, Tablet=5*}, iOS={OnIdiom Phone=15*, Tablet=5*}, UWP=20*, macOS=5*, WPF=auto}" />
+                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=85*, Tablet=95*}, iOS={OnIdiom Phone=85*, Tablet=95*}, UWP=85*, macOS=*, WPF=*}" />
                                 </Grid.ColumnDefinitions>
                                 <local:ExtendedImage
                                     x:Name="imgPrimary"
@@ -62,26 +62,26 @@
                                                     FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
                                                     FontSize="{OnPlatform Android={OnIdiom Phone=20,
                                                                                            Tablet=28},
-                                                                          iOS={OnIdiom Phone=12,
-                                                                                       Tablet=13},
+                                                                          iOS={OnIdiom Phone=18,
+                                                                                       Tablet=26},
                                                                           UWP={OnIdiom Phone=20,
-                                                                                       Tablet=26,
+                                                                                       Tablet=28,
                                                                                        Desktop=28},
-                                                                          macOS=13,
-                                                                          WPF=20}"
+                                                                          macOS=28,
+                                                                          WPF=28}"
                                                     Text="{Binding Persona.Name}" />
                                                 <Span
                                                     FontAttributes="Bold"
                                                     FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
                                                     FontSize="{OnPlatform Android={OnIdiom Phone=12,
                                                                                            Tablet=16},
-                                                                          iOS={OnIdiom Phone=8,
-                                                                                       Tablet=10},
-                                                                          UWP={OnIdiom Phone=8,
-                                                                                       Tablet=10,
+                                                                          iOS={OnIdiom Phone=12,
+                                                                                       Tablet=16},
+                                                                          UWP={OnIdiom Phone=12,
+                                                                                       Tablet=16,
                                                                                        Desktop=16},
-                                                                          macOS=10,
-                                                                          WPF=10}"
+                                                                          macOS=16,
+                                                                          WPF=16}"
                                                     Text="{Binding Persona.NameSubstitueFormatted}" />
                                             </FormattedString>
                                         </Label.FormattedText>
@@ -90,7 +90,7 @@
                                 </StackLayout>
                                 <StackLayout Grid.Column="1">
                                     <Label
-                                        Margin="0,-3,8,0"
+                                        Margin="{OnPlatform Android='0,-3,8,0', iOS='0,0,8,0'}"
                                         HorizontalTextAlignment="End"
                                         TextDecorations="Underline">
                                         <Label.FormattedText>
@@ -139,7 +139,7 @@
                                 StrokeThickness="10"
                                 Color="{Binding DefaultStyle.TabStrokeColor, Converter={StaticResource stringToColorConverter}}" />
                         </tabView:SfTabView.SelectionIndicatorSettings>
-                        <tabView:SfTabItem x:Name="tabUsefulInfo" IsVisible="{Binding IsMetaDataAvailable}">
+                        <tabView:SfTabItem x:Name="tabUsefulInfo">
                             <tabView:SfTabItem.HeaderContent>
                                 <Grid>
                                     <Grid.RowDefinitions>
@@ -354,7 +354,7 @@
                         <tabView:SfTabItem
                             x:Name="tabDetailContent"
                             Title="Details"
-                            IsVisible="{Binding IsDetailsAvailable}">
+                            >
                             <tabView:SfTabItem.HeaderContent>
                                 <Grid>
                                     <Grid.RowDefinitions>
@@ -390,7 +390,7 @@
                                 </ScrollView>
                             </tabView:SfTabItem.Content>
                         </tabView:SfTabItem>
-                        <tabView:SfTabItem x:Name="tabPictures" IsVisible="{Binding IsPicturesAvailable}">
+                        <tabView:SfTabItem x:Name="tabPictures">
                             <tabView:SfTabItem.HeaderContent>
                                 <Grid>
                                     <Grid.RowDefinitions>
