@@ -32,10 +32,10 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="ChristianCatholicSaints.UWP.App">
       <uap:VisualElements
-        DisplayName="Christian Catholic Saints"
+        DisplayName="Catholic Saints"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="Christian Catholic Saints"
+        Description="More than 5000 list of Saints, Blessed and Martyrs within our Catholic Church. There are some classification based on Canonized By, Pope and timeline (century). The full list can be searched and filtered. Each saint has available detailed information with some facts and pictures."
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
           <uap:ShowNameOnTiles>
