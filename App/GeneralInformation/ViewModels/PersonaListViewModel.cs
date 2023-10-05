@@ -40,7 +40,14 @@ namespace GeneralInformation.ViewModels
         private IList<PersonaViewModel> _personas;
         public IList<PersonaViewModel> Personas { get => _personas; set => SetProperty(ref _personas, value); }
 
-        public IEnumerable<PersonaAutoCompleteModel> AutocompleteList { get; set; }
+        private IEnumerable<PersonaAutoCompleteModel> _autoCompleteList;
+        public IEnumerable<PersonaAutoCompleteModel> AutocompleteList
+        {
+            get => _autoCompleteList;
+            set => SetProperty(ref _autoCompleteList, value);
+        }
+        public string SearchItemName { get; set; }
+
         public ICommand TapHyperLinkToWikiPage => new Command<string>(async (url) => await Launcher.OpenAsync($"https://en.wikipedia.org/{url}"));
         public StyleDrive StyleDrive { get; set; }
 

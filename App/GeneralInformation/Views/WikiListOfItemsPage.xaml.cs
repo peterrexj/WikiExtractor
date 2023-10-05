@@ -92,6 +92,7 @@ namespace GeneralInformation.Views
                             }
                             SharedServices.PageDataTransferModel.Clear();
                         }
+                        personaListViewModel.SearchItemName = "";
                     });
                     taskGroup.Add(() =>
                     {
@@ -283,6 +284,10 @@ namespace GeneralInformation.Views
                 {
                     filterText = (autoComplete.SelectedItem as PersonaAutoCompleteModel).Name;
                 }
+                else if (personaListViewModel.SearchItemName.HasValue())
+                {
+                    filterText = personaListViewModel.SearchItemName;
+                }
                 else if (autoComplete.Text.HasValue())
                 {
                     filterText = autoComplete.Text;
@@ -292,7 +297,7 @@ namespace GeneralInformation.Views
                 {
                     return false;
                 }
-                if (autoComplete.Text.IsEmpty())
+                if (filterText.IsEmpty())
                 {
                     return true;
                 }
@@ -388,6 +393,7 @@ namespace GeneralInformation.Views
                 {
                     if (autoComplete.Text.IsEmpty())
                     {
+                        personaListViewModel.SearchItemName = "";
                         await RefreshListOfListFilter();
                         autoComplete.IsDropDownOpen = false;
                     }
@@ -518,7 +524,7 @@ namespace GeneralInformation.Views
             });
         }
 
-        private async void autoComplete_DropDownClosing(System.Object sender, Syncfusion.SfAutoComplete.XForms.DropDownCancelEventArgs e)
+        private async void autoComplete_SelectionChanging(System.Object sender, Syncfusion.SfAutoComplete.XForms.SelectionChangingEventArgs e)
         {
             if (Device.RuntimePlatform == Device.iOS)
             {
@@ -531,8 +537,24 @@ namespace GeneralInformation.Views
                         {
                             if (lstListOfItems.DataSource != null)
                             {
-                                lstListOfItems.DataSource.Filter = FilterPersonas;
-                                lstListOfItems.DataSource.RefreshFilter();
+                                if (e.Value != null)
+                                {
+                                    var castedArgs = e.Value as PersonaAutoCompleteModel;
+                                    if (castedArgs != null)
+                                    {
+                                        var castedSender = sender as SfAutoComplete;
+                                        if (castedSender != null)
+                                        {
+                                            personaListViewModel.SearchItemName = castedArgs.Name;
+                                            lstListOfItems.DataSource.Filter = FilterPersonas;
+                                            lstListOfItems.DataSource.RefreshFilter();
+                                        }
+                                    }
+                                    else
+                                    {
+                                        personaListViewModel.SearchItemName = "";
+                                    }
+                                }
                             }
                         }
                     }

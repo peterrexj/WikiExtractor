@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -30,24 +31,30 @@ namespace SampleAutoComplete.Views
 
         private void autoComplete_Completed(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void autoComplete_ValueChanged(object sender, Syncfusion.SfAutoComplete.XForms.ValueChangedEventArgs e)
+        private async void autoComplete_ValueChanged(object sender, Syncfusion.SfAutoComplete.XForms.ValueChangedEventArgs e)
         {
-            if (e.Value != null)
+            await Task.Run(() =>
             {
-                aboutPageViewModel.SelectedValue = e.Value;
-            }
+                if (e.Value != null)
+                {
+                    aboutPageViewModel.SelectedValue = e.Value;
+                }
+            });
         }
 
-        private void autoComplete_SelectionChanged(object sender, Syncfusion.SfAutoComplete.XForms.SelectionChangedEventArgs e)
+        private async void autoComplete_SelectionChanged(object sender, Syncfusion.SfAutoComplete.XForms.SelectionChangedEventArgs e)
         {
-            var casted = e.Value as PersonaAutoCompleteModel;
-            if ( casted != null)
+            await Task.Run(() =>
             {
-                aboutPageViewModel.SelectedName = casted.Name;
-            }
+                var casted = e.Value as PersonaAutoCompleteModel;
+                if (casted != null)
+                {
+                    aboutPageViewModel.SelectedName = casted.Name;
+                }
+            });
         }
     }
 

@@ -84,6 +84,7 @@
                                             NoResultsFoundText="No Results Found"
                                             NoResultsFoundTextColor="{Binding DefaultStyle.AutoCompleteNoResultsFoundTextColor, Converter={StaticResource stringToColorConverter}}"
                                             SelectionChanged="autoComplete_SelectionChanged"
+                                            SelectionChanging="autoComplete_SelectionChanging"
                                             ShowBorder="False"
                                             ShowClearButton="True"
                                             SuggestionMode="Contains"
