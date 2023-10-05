@@ -517,5 +517,35 @@ namespace GeneralInformation.Views
                 }
             });
         }
+
+        private async void autoComplete_DropDownClosing(System.Object sender, Syncfusion.SfAutoComplete.XForms.DropDownCancelEventArgs e)
+        {
+            if (Device.RuntimePlatform == Device.iOS)
+            {
+                await Task.Run(() =>
+                {
+                    try
+                    {
+                        personaListViewModel.IsBusy = true;
+                        if (sender is SfAutoComplete)
+                        {
+                            if (lstListOfItems.DataSource != null)
+                            {
+                                lstListOfItems.DataSource.Filter = FilterPersonas;
+                                lstListOfItems.DataSource.RefreshFilter();
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Crashes.TrackError(ex);
+                    }
+                    finally
+                    {
+                        personaListViewModel.IsBusy = false;
+                    }
+                });
+            }
+        }
     }
 }
