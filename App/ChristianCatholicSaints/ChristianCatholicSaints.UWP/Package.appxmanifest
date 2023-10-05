@@ -8,7 +8,7 @@
 
   <Identity
     Name="A5A291F9-9571-40C3-9A49-266727DE298D"
-    Publisher="CN=4A807A6A-E8AA-40CB-B50E-6D66D5306D40"
+    Publisher="CN=Your Simple Apps"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
