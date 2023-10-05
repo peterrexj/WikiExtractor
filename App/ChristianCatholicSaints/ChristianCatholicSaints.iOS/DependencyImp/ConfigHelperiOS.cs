@@ -12,6 +12,6 @@ namespace ChristianCatholicSaints.iOS.DependencyImp
     {
         public static ConcurrentDictionary<string, string> Configs { get; set; }
 
-        public static string SyncFusionLicense => "yMqIYrHN0hK0qOeiL6UKQTMEZt5VOAfo9RUFQMnQe26vhkLiMHkhpACIUObDx5t8i35SUk+BWMWO3D5D2C8M2peJ+lrDxmD9fT7VKLEyI5KkDhUfVqI7r1K8XcdTd5iT";
+        public static string SyncFusionLicense => "yMqIYrHN0hK0qOeiL6UKQVE3vIKBAye7kGsEiZjqZzZu5OqUauT2RgGMbPNoEMCQWvKdqGG+lw02JB2WY8I8HGrJ+mc3M5cSRjBorRGjn0GDN/7bX6Id7eNygLmnrTNd";
     }
 }

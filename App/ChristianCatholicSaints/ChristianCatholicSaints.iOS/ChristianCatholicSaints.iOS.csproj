@@ -102,8 +102,12 @@
     <BundleResource Include="..\..\Databases\WikiStoreSaints.db">
       <Link>WikiStoreSaints.db</Link>
     </BundleResource>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\1024.png" />
-    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\1024.png">
+      <Visible>true</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Contents.json">
+      <Visible>true</Visible>
+    </ImageAsset>
     <BundleResource Include="Resources\splash.png" />
   </ItemGroup>
   <ItemGroup>
@@ -131,25 +135,25 @@
       <Version>1.0.4.18</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Buttons">
-      <Version>22.2.12</Version>
+      <Version>23.1.39</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Core">
-      <Version>22.2.12</Version>
+      <Version>23.1.39</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete">
-      <Version>22.2.12</Version>
+      <Version>23.1.39</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator">
-      <Version>22.2.12</Version>
+      <Version>23.1.39</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfCarousel">
-      <Version>22.2.12</Version>
+      <Version>23.1.39</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfListView">
-      <Version>22.2.12</Version>
+      <Version>23.1.39</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfTabView">
-      <Version>22.2.12</Version>
+      <Version>23.1.39</Version>
     </PackageReference>
     <PackageReference Include="System.Formats.Asn1">
       <Version>7.0.0</Version>
@@ -158,10 +162,10 @@
       <Version>2.1.6</Version>
     </PackageReference>
     <PackageReference Include="TestAny.Essentials.Api">
-      <Version>1.0.5.16</Version>
+      <Version>1.0.5.17</Version>
     </PackageReference>
     <PackageReference Include="TestAny.Essentials.Core">
-      <Version>1.0.5.16</Version>
+      <Version>1.0.5.17</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Firebase.iOS.Core">
       <Version>8.10.0.3</Version>
