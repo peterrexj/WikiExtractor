@@ -5,6 +5,9 @@ using System.Linq;
 using Foundation;
 using GeneralInformation;
 using Syncfusion.ListView.XForms.iOS;
+using Syncfusion.SfAutoComplete.XForms.iOS;
+using Syncfusion.XForms.iOS.Buttons;
+using Syncfusion.XForms.iOS.TabView;
 using TestAny.Essentials.Core;
 using UIKit;
 
@@ -26,20 +29,20 @@ namespace ChristianCatholicSaints.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            Xamarin.Essentials.Platform.Init(() => GetCurrentUIViewController());
-
-            SfListViewRenderer.Init();
-            
-            Syncfusion.XForms.iOS.Buttons.SfChipRenderer.Init();
-            Syncfusion.XForms.iOS.Buttons.SfChipRenderer.Init();
-            Syncfusion.XForms.iOS.Buttons.SfChipGroupRenderer.Init();
-            Syncfusion.XForms.iOS.Buttons.SfSegmentedControlRenderer.Init();
-            Syncfusion.XForms.iOS.TabView.SfTabViewRenderer.Init();
+            LoadApplication(new App());
             TestAnyAppConfig.InitializeFramework();
 
-            SQLitePCL.Batteries_V2.Init();
+            Xamarin.Essentials.Platform.Init(() => GetCurrentUIViewController());
 
-            LoadApplication(new App());
+            new SfAutoCompleteRenderer();
+            SfListViewRenderer.Init();
+            SfChipRenderer.Init();
+            SfChipRenderer.Init();
+            SfChipGroupRenderer.Init();
+            SfSegmentedControlRenderer.Init();
+            SfTabViewRenderer.Init();
+
+            SQLitePCL.Batteries_V2.Init();
 
             return base.FinishedLaunching(app, options);
         }
