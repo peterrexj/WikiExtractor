@@ -15,6 +15,8 @@
     xmlns:syncAutoComplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
     xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     x:Name="ListViewPage"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.UseSafeArea="False"
     Shell.NavBarIsVisible="True">
     <Shell.TitleView>
         <Label
@@ -269,8 +271,8 @@
                                                     <StackLayout>
                                                         <Grid>
                                                             <Grid.ColumnDefinitions>
-                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.10*}, iOS={OnIdiom Phone=0.35*, Tablet=0.10*}, UWP=0.10*, macOS=0.15*, WPF=auto}" />
-                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.90*}, iOS={OnIdiom Phone=0.65*, Tablet=0.90*}, UWP=0.90*, macOS=*, WPF=*}" />
+                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.10*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, UWP=0.15*, macOS=0.15*, WPF=auto}" />
+                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.90*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, UWP=0.85*, macOS=*, WPF=*}" />
                                                             </Grid.ColumnDefinitions>
 
                                                             <Grid Grid.Column="0">
@@ -363,6 +365,7 @@
                                                                 <Label
                                                                     Grid.Row="1"
                                                                     Padding="10,0,0,0"
+                                                                    Margin="{OnPlatform Default='0,0,0,0', iOS={OnIdiom Default='0,0,5,0', Tablet='0,0,5,0'}}"
                                                                     FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
                                                                     FontSize="{OnPlatform Android={OnIdiom Phone=12,
                                                                                                            Tablet=16},
@@ -388,6 +391,7 @@
                                                                     Padding="10,0,0,10"
                                                                     AutoFitMode="DynamicHeight"
                                                                     BackgroundColor="Transparent"
+                                                                    Margin="{OnPlatform Default='0,0,0,0', iOS={OnIdiom Default='0,0,5,0', Tablet='0,0,5,0'}}"
                                                                     HeightRequest="{Binding ListHeight}"
                                                                     IsEnabled="False"
                                                                     IsVisible="{Binding ShowPrimaryContentMetadata}"

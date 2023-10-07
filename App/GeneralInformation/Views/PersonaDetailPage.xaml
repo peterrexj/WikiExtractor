@@ -11,7 +11,9 @@
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
-    xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms">
+    xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.UseSafeArea="False">
     <ContentPage.Resources>
         <ResourceDictionary>
             <converters:StringToColorConverter x:Key="stringToColorConverter" />
@@ -275,13 +277,13 @@
 
                                                         <Grid>
                                                             <Grid.ColumnDefinitions>
-                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.30*, Tablet=0.12*}, iOS={OnIdiom Phone=0.30*, Tablet=0.12*}, UWP={OnIdiom Default=0.12*, Phone=0.30*}, macOS=0.12*, WPF=auto}" />
-                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.70*, Tablet=0.88*}, iOS={OnIdiom Phone=0.70*, Tablet=0.88*}, UWP={OnIdiom Default=0.88*, Phone=0.70*}, macOS=*, WPF=*}" />
+                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.30*, Tablet=0.12*}, iOS={OnIdiom Phone=0.30*, Tablet=0.15*}, UWP={OnIdiom Default=0.12*, Phone=0.30*}, macOS=0.12*, WPF=auto}" />
+                                                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.70*, Tablet=0.88*}, iOS={OnIdiom Phone=0.70*, Tablet=0.85*}, UWP={OnIdiom Default=0.88*, Phone=0.70*}, macOS=*, WPF=*}" />
                                                             </Grid.ColumnDefinitions>
 
                                                             <Label
                                                                 Grid.Column="0"
-                                                                Padding="5,0,0,0"
+                                                                Padding="{OnPlatform Default='5,0,0,0', iOS={OnIdiom Tablet='15,0,0,0'}}"
                                                                 FontAttributes="Bold"
                                                                 FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamilyBold}"
                                                                 FontSize="{OnPlatform Android={OnIdiom Phone=12,
@@ -303,7 +305,7 @@
                                                                 CharacterSpacing="{OnPlatform Android={OnIdiom Phone=0.3,
                                                                                                                Tablet=0.2},
                                                                                               iOS={OnIdiom Phone=0.3,
-                                                                                                           Tablet=0.4},
+                                                                                                           Tablet=0.2},
                                                                                               UWP={OnIdiom Phone=0.3,
                                                                                                            Tablet=0.4,
                                                                                                            Desktop=0.4},
@@ -313,7 +315,7 @@
                                                                 FontSize="{OnPlatform Android={OnIdiom Phone=14,
                                                                                                        Tablet=17},
                                                                                       iOS={OnIdiom Phone=13,
-                                                                                                   Tablet=17},
+                                                                                                   Tablet=20},
                                                                                       UWP={OnIdiom Phone=14,
                                                                                                    Tablet=17,
                                                                                                    Desktop=17},
