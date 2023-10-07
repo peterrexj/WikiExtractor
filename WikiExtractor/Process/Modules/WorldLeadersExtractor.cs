@@ -27,18 +27,19 @@ namespace WikiExtractor.Process.Modules
             wikiAppController.AddMenuItem("United Kingdom", "UK PM", "Prime ministers of United Kingdom", menuItemCounter++);
             wikiAppController.AddMenuItem("United States", "US Pre", "Presidents of United States", menuItemCounter++);
             wikiAppController.AddMenuItem("India", "IN PM", "Prime ministers of India", menuItemCounter++);
+            wikiAppController.AddMenuItem("Canada", "CN PM", "Prime ministers of Canada", menuItemCounter++);
 
           
 
             //EnablePrimaryMetadataContent();
 
-            var stkUnitedKingdom = toStore.ExtractListTabularData_UnitedKingdom("/wiki/List_of_prime_ministers_of_the_United_Kingdom", new List<string> { "All", "UK PM" }).ToStack();
-            var stkUnitedStates = toStore.ExtractListTabularData_UnitedStates("/wiki/List_of_presidents_of_the_United_States", new List<string> { "All", "US Pre" }).ToStack();
-            var stkIndia = toStore.ExtractListTabularData_India("/wiki/List_of_prime_ministers_of_India", new List<string> { "All", "IN PM" }).ToStack();
-            var stkAustralia = toStore.ExtractListTabularData_Australia("/wiki/List_of_prime_ministers_of_Australia", new List<string> { "All", "AUS PM" }).ToStack();
-
+            var stkUnitedKingdom = toStore.ExtractListTabularData("UnitedKingdom", "/wiki/List_of_prime_ministers_of_the_United_Kingdom", new List<string> { "All", "UK PM" }).ToStack();
+            var stkUnitedStates = toStore.ExtractListTabularData("UnitedStates", "/wiki/List_of_presidents_of_the_United_States", new List<string> { "All", "US Pre" }).ToStack();
+            var stkIndia = toStore.ExtractListTabularData("India", "/wiki/List_of_prime_ministers_of_India", new List<string> { "All", "IN PM" }).ToStack();
+            var stkAustralia = toStore.ExtractListTabularData("Australia", "/wiki/List_of_prime_ministers_of_Australia", new List<string> { "All", "AUS PM" }).ToStack();
+            var stkCanada = toStore.ExtractListTabularData("Canada", "/wiki/List_of_prime_ministers_of_Canada", new List<string> { "All", "CN PM" }).ToStack();
             
-            var stacks = new List<Stack<WikiWhatToExtractModel>> { stkAustralia, stkUnitedKingdom, stkIndia, stkUnitedStates };
+            var stacks = new List<Stack<WikiWhatToExtractModel>> { stkAustralia, stkUnitedKingdom, stkIndia, stkUnitedStates, stkCanada };
             List<WikiWhatToExtractModel> worldLeadersCollection = new();
 
             bool hasElements;
@@ -138,6 +139,8 @@ namespace WikiExtractor.Process.Modules
                 "Succeeded by",
                 "Political party",
                 "Birth-Death",
+                "Riding",
+                "Cabinet",
                 "Children",
                 "Spouse",
                 "Resting place",
