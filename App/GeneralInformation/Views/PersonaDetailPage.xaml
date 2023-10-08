@@ -182,11 +182,14 @@
                                                                                 Desktop=50}}"
                                         HorizontalOptions="End">
                                         <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="50" />
                                             <ColumnDefinition Width="120" />
                                             <ColumnDefinition Width="*" />
                                         </Grid.ColumnDefinitions>
+
+                                         <ActivityIndicator Grid.Column="0" IsRunning="{Binding IsFree}" />
                                         <Label
-                                            Grid.Column="0"
+                                            Grid.Column="1"
                                             Margin="0,0,10,0"
                                             FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
                                             FontSize="14"
@@ -198,7 +201,7 @@
 
                                         <sfButtons:SfSwitch
                                             x:Name="swtReadItem"
-                                            Grid.Column="1"
+                                            Grid.Column="2"
                                             HorizontalOptions="End"
                                             IsOn="{Binding Persona.ItemReadStatus}"
                                             Orientation="Horizontal"
@@ -283,7 +286,7 @@
 
                                                             <Label
                                                                 Grid.Column="0"
-                                                                Padding="{OnPlatform Default='5,0,0,0', iOS={OnIdiom Tablet='15,0,0,0'}}"
+                                                                Padding="{OnPlatform Android='5,0,0,0', iOS={OnIdiom Phone='5,0,0,0', Tablet='15,0,0,0'}, UWP='5,0,0,0'}"
                                                                 FontAttributes="Bold"
                                                                 FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamilyBold}"
                                                                 FontSize="{OnPlatform Android={OnIdiom Phone=12,
