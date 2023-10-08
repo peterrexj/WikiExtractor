@@ -2,6 +2,7 @@
 using Pj.Library;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -418,6 +419,144 @@ namespace WikiExtractor.Process.Extractor
             return listOfName;
         }
 
+
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Canada(HtmlDocument document, List<string>? tags)
+        {
+            List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
+            sequence = 1;
+
+            var tableData = document.DocumentNode.SelectNodes($"//table[contains(@class, 'wikitable')][2]//tbody/tr/th[contains(text(), 'Portrait')]//..//..//tr");
+            foreach (var tableRow in tableData.Skip(1))
+            {
+                if (tableRow.ChildNodes.Count(f => f.Name == "td") + tableRow.ChildNodes.Count(f => f.Name == "th") < 7)
+                {
+                    continue;
+                }
+                var elements = tableRow.ChildNodes.Where(f => f.Name == "td" || f.Name == "th").ToArray();
+                var extractedData = ExtractListTabularData_Canada_Rows(elements);
+                if (extractedData != null)
+                {
+                    extractedData.Tags = tags.DeepClone();
+                    listOfNames.Add(extractedData);
+                }
+            }
+            return listOfNames;
+        }
+        private WikiWhatToExtractModel? ExtractListTabularData_Canada_Rows(HtmlNode[] elements)
+        {
+            var listOfName = new WikiWhatToExtractModel();
+
+            int tcolCounter = 1;
+
+            foreach (var elm in elements)
+            {
+                if (tcolCounter == 2)
+                {
+                    var portraitElm = elm.SelectNodes($"{elm.XPath}//img")?.FirstOrDefault();
+                    if (portraitElm != null && portraitElm.Attributes.Count > 0 && portraitElm.Attributes.Any(f => f.Name == "src") &&
+                        portraitElm.Attributes.FirstOrDefault(f => f.Name == "src")?.Value.HasValue() == true)
+                    {
+                        var portraitUrl = portraitElm.Attributes["src"].Value;
+                        if (portraitUrl.StartsWith("http") == false)
+                        {
+                            portraitUrl = $"https:{(portraitUrl.StartsWith("//") ? "" : "//")}{portraitUrl}";
+                        }
+                        listOfName.AdditionalMetaData!.AddOrUpdate("Portrait", portraitUrl);
+                    }
+                }
+                if (tcolCounter == 3)
+                {
+                    var personElm = elm.SelectNodes($"{elm.XPath}//b/a")?.FirstOrDefault() ??
+                        elm.SelectNodes($"{elm.XPath}/a")?.FirstOrDefault();
+
+                    if (personElm != null)
+                    {
+                        if (personElm == null) throw new Exception("The name element is missing");
+                        if (personElm.Attributes.Count > 0 &&
+                            personElm.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()))
+                        {
+                            listOfName.Route = HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: personElm.Attributes["href"].Value, removeNewLine: false));
+                            listOfName.Title = personElm.DecodedInnerText(removeNewLine: true).Trim();
+                        }
+                        else throw new Exception("The first elment <a> does not have required details");
+
+                        var spanContainerElm = elm.SelectNodes($"{elm.XPath}//small")?.FirstOrDefault();
+                        if (spanContainerElm == null) throw new Exception("The span container element which has details about the person is missing");
+
+                        var textRaw = spanContainerElm.DecodedInnerText(removeNewLine: true);
+                        var birthDeathExtracted = textRaw.RegexMatchGroupValue("\\(([^)]*)\\)[^(]*$", 0);
+                        var birthDeathParsed = birthDeathExtracted.RegexMatchGroupValue("\\((.*?)\\)", 0);
+
+                        var term = birthDeathParsed.SplitAndTrim("–");
+                        listOfName.AdditionalMetaData.Add("Birth-Death", string.Join(" - ", term).ReplaceMultiple("", "(", ")"));
+                    }
+                }
+                if (tcolCounter == 4)
+                {
+                    var monthNames = DateTimeFormatInfo.CurrentInfo.MonthNames.Where(f => f.HasValue());
+                    var dataInRaw = elm.DecodedInnerText(removeNewLine: true);
+                    if (monthNames.Any(f => dataInRaw.ContainsIgnoreCase(f)))
+                    {
+                        listOfName.AdditionalMetaData.Add("Took office", dataInRaw);
+                    }
+                }
+                if (tcolCounter == 5)
+                {
+                    var monthNames = DateTimeFormatInfo.CurrentInfo.MonthNames.Where(f => f.HasValue());
+                    var dataInRaw = elm.DecodedInnerText(removeNewLine: true);
+                    if (monthNames.Any(f => dataInRaw.ContainsIgnoreCase(f)) || dataInRaw.ContainsIgnoreCase("incumbent"))
+                    {
+                        listOfName.AdditionalMetaData.Add("Left office", dataInRaw);
+                    }
+                }
+                if (tcolCounter == 8)
+                {
+                    var dataInRaw = elm.DecodedInnerText(removeNewLine: true);
+                    if (dataInRaw.HasValue())
+                    {
+                        listOfName.AdditionalMetaData.Add("Political party", dataInRaw);
+                    }
+                }
+                if (tcolCounter == 9)
+                {
+                    var dataInRaw = elm.DecodedInnerText(removeNewLine: true);
+                    if (dataInRaw.HasValue())
+                    {
+                        listOfName.AdditionalMetaData.Add("Riding", dataInRaw);
+                    }
+                }
+                if (tcolCounter == 10)
+                {
+                    var dataInRaw = elm.DecodedInnerText(removeNewLine: true);
+                    if (dataInRaw.HasValue())
+                    {
+                        listOfName.AdditionalMetaData.Add("Cabinet", dataInRaw);
+                    }
+                }
+                tcolCounter++;
+            }
+
+            if (listOfName.Title.IsEmpty()) return null;
+            Console.WriteLine($"Extraction: {listOfName.Title} [{listOfName.Route}]");
+            Console.WriteLine($"Details -> Birth-Death: {listOfName.AdditionalMetaData["Birth-Death"]}");
+            Console.WriteLine($"Details -> Took office: {listOfName.AdditionalMetaData["Took office"]}");
+            Console.WriteLine($"Details -> Left office: {listOfName.AdditionalMetaData["Left office"]}");
+            Console.WriteLine($"Details -> Political party: {listOfName.AdditionalMetaData["Political party"]}");
+            Console.WriteLine($"Details -> Riding: {listOfName.AdditionalMetaData["Riding"]}");
+            Console.WriteLine($"Details -> Cabinet: {listOfName.AdditionalMetaData["Cabinet"]}");
+            Console.WriteLine("-----------------------------------------------------------------------");
+            Console.WriteLine("");
+
+            ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Birth-Death");
+            ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Took office");
+            ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Left office");
+            ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Political party");
+            ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Riding");
+            ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Cabinet");
+
+            listOfName.Sequence = sequence++;
+            return listOfName;
+        }
 
         private void ValidateAdditionalMetaData(Dictionary<string, string> data, string field)
         {
