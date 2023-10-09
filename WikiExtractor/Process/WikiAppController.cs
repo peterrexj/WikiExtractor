@@ -74,7 +74,8 @@ namespace WikiExtractor.Process
                                        PictureCaption = f.Caption.HasValue() && f.Caption.Length >= ConfigData.MinLengthOfPictureCaption ? f.Caption : string.Empty,
                                        Sequence = f.Sequence,
                                        Width = f.Width,
-                                       Height = f.Height
+                                       Height = f.Height,
+                                       ParentName = masterData.master.Name,
                                    }).ToList(),
                                Metadatas = metaData
                                     .Select(item => new MetadataViewModel
@@ -172,7 +173,13 @@ namespace WikiExtractor.Process
             int picCounter = 1;
             foreach (var pic in persona.Pictures)
             {
-                pic.ParentName = persona.Name;
+                if (picCounter == 1)
+                {
+                    if (pic.PictureCaption.IsEmpty())
+                    {
+                        pic.PictureCaption = pic.ParentName;
+                    }
+                }
                 pic.CurrentCounter = picCounter++;
             }
             return persona;

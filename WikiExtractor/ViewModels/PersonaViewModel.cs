@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using WikiExtractor.Exts;
 
 namespace WikiExtractor.ViewModels
 {
@@ -38,7 +39,7 @@ namespace WikiExtractor.ViewModels
         public bool IsPrimaryMetadataContentEnabled { get; set; }
         public bool ShowPrimaryContentMetadata => IsPrimaryMetadataContentEnabled;
         public bool HidePrimaryContentMetadata => !IsPrimaryMetadataContentEnabled;
-        
+
         public bool _itemReadStatus;
         public bool ItemReadStatus
         {
@@ -52,7 +53,10 @@ namespace WikiExtractor.ViewModels
 
         public List<MetadataViewModel> PrimaryMetadataContent { get; set; }
         public List<MetadataViewModel> Metadatas { get; set; }
-        public List<PictureViewModel> Pictures { get; set; }
+
+        private List<PictureViewModel> _pictures;
+        public List<PictureViewModel> Pictures { get => _pictures; set => SetProperty(ref _pictures, value); }
+
         public List<Paragraph2ContentViewModel> Paragraphs { get; set; }
         public List<string> Tags { get; set; }
 
@@ -80,17 +84,45 @@ namespace WikiExtractor.ViewModels
         public string GroupHeader { get; set; }
     }
 
-    public class PictureViewModel
+    public class PictureViewModel : BaseViewModel
     {
         public long Id { get; set; }
-        public string PicturePath { get; set; }
-        public string PictureCaption { get; set; }
+
+        private string _picturePath;
+        public string PicturePath
+        {
+            get => _picturePath;
+            set
+            {
+                _picturePath = value;
+                OnPropertyChanged("PicturePath");
+                OnPropertyChanged("PictureLocalFileName");
+                OnPropertyChanged("PictureLocalPath");
+            }
+        }
+
+        private string _pictureCaption;
+        public string PictureCaption { get => _pictureCaption; set => SetProperty(ref _pictureCaption, value); }
+
         public int Sequence { get; set; }
         public int Height { get; set; }
         public int Width { get; set; }
         public string ParentName { get; set; }
-        public int CurrentCounter { get; set; }
+
+        private int _currentCounter;
+        public int CurrentCounter
+        {
+            get => _currentCounter; set
+            {
+                _currentCounter = value;
+                OnPropertyChanged("CurrentCounter");
+                OnPropertyChanged("PictureLocalFileName");
+                OnPropertyChanged("PictureLocalPath");
+            }
+        }
+
         public string PictureLocalFileName => $"{ParentName.RemoveSpecialChars(excludeUnderscore: false)}{CurrentCounter}{Path.GetExtension(PicturePath)}";
+        public string PictureLocalPath => Path.Combine(ConfigData.LocalStorageCacheFolderPath, PictureLocalFileName);
     }
 
     public class Paragraph2ContentViewModel
