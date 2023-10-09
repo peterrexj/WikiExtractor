@@ -1,8 +1,10 @@
 ﻿using GeneralInformation.Exts;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
+using Microsoft.AppCenter.Crashes;
 using Pj.Library;
 using Syncfusion.XForms.Border;
+using Syncfusion.XForms.EffectsView;
 using Syncfusion.XForms.Graphics;
 using System;
 using System.Collections.Concurrent;
@@ -472,6 +474,28 @@ namespace GeneralInformation.Views
                     CaptureErrorOnPage(ex);
                 }
             });
+        }
+
+        private void lstImageEffectsLayer_AnimationCompleted(object sender, EventArgs e)
+        {
+            try
+            {
+                if (sender != null)
+                {
+                    if (sender is SfEffectsView && (sender as SfEffectsView).AutomationId.HasValue())
+                    {
+                        var pic = personaDetailViewModel.Persona.Pictures.FirstOrDefault(p => p.Id == (sender as SfEffectsView).AutomationId.ToInteger());
+                        if (pic != null)
+                        {
+                            DisplayAlert("Image to display", $"Pic: {pic.PictureCaption}, file: {pic.PictureLocalFileName}", "Cancel");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
         }
     }
 }
