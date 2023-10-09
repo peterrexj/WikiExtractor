@@ -1,21 +1,34 @@
 ﻿using GeneralInformation.Exts;
-using GeneralInformation.Services;
 using Pj.Library;
 using System;
 using System.IO;
 using System.Threading.Tasks;
-using TestAny.Essentials.Api;
+using WikiExtractor.Exts;
+using WikiExtractor.ViewModels;
 using Xamarin.Forms;
 
 namespace GeneralInformation
 {
     public class ExtendedImage : Image
     {
-        public static string CacheFolder = DependencyService.Get<IAppInformation>().ImageCacheFolder;
-
         public ExtendedImage()
         {
 
+        }
+
+        void RunOnAppDispatcher(Action action)
+        {
+            try
+            {
+                App.Current.Dispatcher.BeginInvokeOnMainThread(() =>
+                {
+                    action();
+                });
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
         }
 
         #region Local Image Path
@@ -37,12 +50,12 @@ namespace GeneralInformation
         private static void OnLocalFileNamePropertyChanged(BindableObject bindable, object oldValue, object newValue)
         {
             var control = (ExtendedImage)bindable;
-            control._localFileName = Path.Combine(CacheFolder, (string)newValue);
+            control._localFileName = Path.Combine(ConfigData.LocalStorageCacheFolderPath, (string)newValue);
         }
 
         #endregion
 
-
+        #region CustomSource
         public static readonly BindableProperty CustomSourceProperty =
             BindableProperty.Create(
                 propertyName: "CustomSource",
@@ -71,6 +84,91 @@ namespace GeneralInformation
             }
         }
 
+        public ImageSource CustomSource
+        {
+            get => base.Source;
+            set
+            {
+                RunOnAppDispatcher(() =>
+                {
+                    try
+                    {
+                        if (value is UriImageSource uriImageSource && uriImageSource.Uri != null)
+                        {
+                            base.Source = null;
+                            LoadImageAsync(uriImageSource.Uri.ToString());
+                        }
+                        else
+                        {
+                            base.Source = null;
+                            base.Source = ImageSource.FromFile(((Xamarin.Forms.FileImageSource)value).File);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        ExceptionHandler.CaptureException(ex);
+                    }
+                });
+            }
+        }
+        #endregion
+
+        public static readonly BindableProperty PictureSourceProperty =
+            BindableProperty.Create(
+                propertyName: "PictureSource",
+                returnType: typeof(PictureViewModel),
+                declaringType: typeof(ExtendedImage),
+                defaultValue: default(PictureViewModel),
+                propertyChanged: OnPictureSourcePropertyChanged);
+
+        private static void OnPictureSourcePropertyChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            try
+            {
+                var control = (ExtendedImage)bindable;
+                control.PictureSource = newValue as PictureViewModel;
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
+        public PictureViewModel PictureSource
+        {
+            set
+            {
+                RunOnAppDispatcher(() =>
+                {
+                    try
+                    {
+                        if (value == null) { return; }
+                        if (value is not PictureViewModel obj) { return; }
+
+                        if (obj.PictureLocalPath.HasValue() && File.Exists(obj.PictureLocalPath))
+                        {
+                            base.Source = null;
+                            base.Source = ImageSource.FromFile(obj.PictureLocalPath);
+                        }
+                        else if (obj.PicturePath.HasValue() && obj.PicturePath.StartsWith("http"))
+                        {
+                            if (_localFileName.IsEmpty())
+                            {
+                                _localFileName = obj.PictureLocalPath;
+                            }
+
+                            base.Source = null;
+                            LoadImageAsync(obj.PicturePath);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        ExceptionHandler.CaptureException(ex);
+                    }
+                });
+            }
+        }
+
         private async Task GetImageStreamFromUrl(string url)
         {
             try
@@ -82,28 +180,17 @@ namespace GeneralInformation
                 ExceptionHandler.CaptureException(ex);
             }
         }
-
-        public ImageSource CustomSource
+        public async void LoadImageAsync(string imageUrl)
         {
-            get => base.Source;
-            set
+            try
             {
-                try
-                {
-                    if (value is UriImageSource uriImageSource && uriImageSource.Uri != null)
-                    {
-                        base.Source = null;
-                        LoadImageAsync(uriImageSource.Uri.ToString());
-                    }
-                    else
-                    {
-                        base.Source = ImageSource.FromFile(((Xamarin.Forms.FileImageSource)value).File);
-                    }
-                }
-                catch (Exception ex)
-                {
-                    ExceptionHandler.CaptureException(ex);
-                }
+                await GetImageStreamFromUrl(imageUrl);
+                base.Source = null;
+                base.Source = ImageSource.FromFile(_localFileName);
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
             }
         }
         public new ImageSource Source
@@ -126,19 +213,6 @@ namespace GeneralInformation
                 {
                     ExceptionHandler.CaptureException(ex);
                 }
-            }
-        }
-
-        public async void LoadImageAsync(string imageUrl)
-        {
-            try
-            {
-                await GetImageStreamFromUrl(imageUrl);
-                base.Source = ImageSource.FromFile(_localFileName);
-            }
-            catch (Exception ex)
-            {
-                ExceptionHandler.CaptureException(ex);
             }
         }
     }
