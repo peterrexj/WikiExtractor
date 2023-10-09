@@ -1,13 +1,13 @@
 ﻿using GeneralInformation.Exts;
 using GeneralInformation.Services;
-using GeneralInformation.Views;
-using System;
-using Xamarin.Essentials;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
+using Pj.Library;
+using System;
+using WikiExtractor.Exts;
+using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace GeneralInformation
 {
@@ -43,6 +43,12 @@ namespace GeneralInformation
                           ,
                           typeof(Analytics), typeof(Crashes));
                 }
+            }
+
+            ConfigData.LocalStorageCacheFolderPath = DependencyService.Get<IAppInformation>().ImageCacheFolder;
+            if (ConfigData.LocalStorageCacheFolderPath.IsEmpty())
+            {
+                Crashes.TrackError(new Exception("LocalStorageCacheFolderPath is empty!"));
             }
         }
 
