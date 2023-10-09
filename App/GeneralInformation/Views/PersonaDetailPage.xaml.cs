@@ -2,7 +2,6 @@
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
 using Pj.Library;
-using Syncfusion.SfCarousel.XForms;
 using Syncfusion.XForms.Border;
 using Syncfusion.XForms.Graphics;
 using System;
@@ -11,7 +10,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using TestAny.Essentials.Api;
+using WikiExtractor.Exts;
 using WikiExtractor.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -57,11 +56,6 @@ namespace GeneralInformation.Views
             try
             {
                 InitializeComponent();
-                if (Device.RuntimePlatform != Device.UWP)
-                {
-                    carousel.SetBinding(SfCarousel.ItemHeightProperty, new Binding("Height", source: rowImageInContainerGrid));
-                    carousel.SetBinding(SfCarousel.LoadMoreItemsCountProperty, "CarouselImageLoadMoreItemsCount");
-                }
             }
             catch (Exception ex)
             {
@@ -95,8 +89,11 @@ namespace GeneralInformation.Views
 
             if (Device.RuntimePlatform == Device.UWP)
             {
-                Task.Run(LoadSubPageItemDataDetails);
-                BindingContext = personaDetailViewModel;
+                var task = Task.Run(LoadSubPageItemDataDetails);
+                Task.WhenAll(task).ContinueWith(t =>
+                {
+                    BindingContext = personaDetailViewModel;
+                });
             }
             else
             {
@@ -113,28 +110,31 @@ namespace GeneralInformation.Views
                     //Only select download those images which are rendered in the Details tab. The curasel uses image rather the extendedImage
                     var tasks = personaDetailViewModel.Persona.Pictures.Select(async item =>
                     {
-                        var _localFileName = Path.Combine(ExtendedImage.CacheFolder, item.PictureLocalFileName);
+                        var _localFileName = Path.Combine(ConfigData.LocalStorageCacheFolderPath, item.PictureLocalFileName);
                         await CacheImageDownloadHelper.DownloadImage(_localFileName, item.PicturePath);
                     });
                     Task.WhenAll(tasks).ContinueWith(t =>
                     {
-                        foreach (var exImgCtrl in extendImageCtrlsInPage)
+                        if (extendImageCtrlsInPage != null)
                         {
-                            try
+                            foreach (var exImgCtrl in extendImageCtrlsInPage)
                             {
-                                RunOnAppDispatcher(() =>
+                                try
                                 {
-                                    var currentSource = exImgCtrl.Value.CustomSource;
-                                    exImgCtrl.Value.Source = null;
-                                    exImgCtrl.Value.Source = currentSource;
-                                });
+                                    RunOnAppDispatcher(() =>
+                                    {
+                                        var currentSource = exImgCtrl.Value.CustomSource;
+                                        exImgCtrl.Value.Source = null;
+                                        exImgCtrl.Value.Source = currentSource;
+                                    });
+                                }
+                                catch (Exception ex)
+                                {
+                                    CaptureErrorOnPage(ex);
+                                }
                             }
-                            catch (Exception ex)
-                            {
-                                CaptureErrorOnPage(ex);
-                            }
+                            extendImageCtrlsInPage = null;
                         }
-                        extendImageCtrlsInPage = null;
                     });
                 }
             }
@@ -154,7 +154,7 @@ namespace GeneralInformation.Views
                         personaDetailViewModel.Persona = SharedServices.WikiAppController.GetViewModelById(MasterId.ToInteger());
                     }
 
-                    imgPrimary.CustomSource = Path.Combine(ExtendedImage.CacheFolder, personaDetailViewModel.Persona.PicturePrimaryLocalFileName);
+                    imgPrimary.CustomSource = Path.Combine(ConfigData.LocalStorageCacheFolderPath, personaDetailViewModel.Persona.PicturePrimaryLocalFileName);
 
                     personaDetailViewModel.Persona.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
 
@@ -349,7 +349,7 @@ namespace GeneralInformation.Views
                 sfBorder.SizeChanged += SfBorderOnContentDetailImage_SizeChanged;
                 var img = new ExtendedImage
                 {
-                    CustomSource = Path.Combine(ExtendedImage.CacheFolder, picModel.PictureLocalFileName),
+                    CustomSource = Path.Combine(ConfigData.LocalStorageCacheFolderPath, picModel.PictureLocalFileName),
                     LocalFileName = picModel.PictureLocalFileName,
                     Margin = new Thickness(5, 2, 5, 2),
                     Aspect = Aspect.AspectFit,
@@ -413,39 +413,6 @@ namespace GeneralInformation.Views
                             ((SfBorder)sender).BorderColor = Color.Transparent;
                             ((SfBorder)sender).BorderWidth = 0;
                             ((SfBorder)sender).CornerRadius = 0;
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                CaptureErrorOnPage(ex);
-            }
-        }
-        private void carousel_SelectionChanged(object sender, Syncfusion.SfCarousel.XForms.SelectionChangedEventArgs e)
-        {
-            try
-            {
-                if (e != null && (e.SelectedItem != null || e.SelectedIndex >= 0))
-                {
-                    if (e.SelectedItem != null)
-                    {
-                        personaDetailViewModel.CurrentSelectedPictureCaption = (e.SelectedItem as PictureViewModel).PictureCaption;
-                    }
-                    else
-                    {
-                        personaDetailViewModel.CurrentSelectedPictureCaption = personaDetailViewModel.Persona.Pictures[e.SelectedIndex]?.PictureCaption ?? string.Empty;
-                    }
-                    if (personaDetailViewModel.CarouselImageLoadComplete == false)
-                    {
-                        if (personaDetailViewModel.CarouselImageCurrentClickIndex < personaDetailViewModel.CarouselImageTotalClicksToLoadComplete)
-                        {
-                            personaDetailViewModel.CarouselImageCurrentClickIndex++;
-                            carousel.LoadMore();
-                        }
-                        else
-                        {
-                            personaDetailViewModel.CarouselImageLoadComplete = true;
                         }
                     }
                 }

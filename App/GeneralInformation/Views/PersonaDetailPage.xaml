@@ -6,13 +6,14 @@
     xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
     xmlns:carousel="clr-namespace:Syncfusion.SfCarousel.XForms;assembly=Syncfusion.SfCarousel.XForms"
     xmlns:converters="clr-namespace:GeneralInformation.Converters"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     xmlns:local="clr-namespace:GeneralInformation"
     xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
     xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
-    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     ios:Page.UseSafeArea="False">
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -92,7 +93,8 @@
                                 </StackLayout>
                                 <StackLayout Grid.Column="1">
                                     <Label
-                                        Margin="{OnPlatform Android='0,-3,8,0', iOS='0,0,8,0'}"
+                                        Margin="{OnPlatform Android='0,-3,8,0',
+                                                            iOS='0,0,8,0'}"
                                         HorizontalTextAlignment="End"
                                         TextDecorations="Underline">
                                         <Label.FormattedText>
@@ -187,7 +189,7 @@
                                             <ColumnDefinition Width="*" />
                                         </Grid.ColumnDefinitions>
 
-                                         <ActivityIndicator Grid.Column="0" IsRunning="{Binding IsFree}" />
+                                        <ActivityIndicator Grid.Column="0" IsRunning="{Binding IsFree}" />
                                         <Label
                                             Grid.Column="1"
                                             Margin="0,0,10,0"
@@ -286,7 +288,10 @@
 
                                                             <Label
                                                                 Grid.Column="0"
-                                                                Padding="{OnPlatform Android='5,0,0,0', iOS={OnIdiom Phone='5,0,0,0', Tablet='15,0,0,0'}, UWP='5,0,0,0'}"
+                                                                Padding="{OnPlatform Android='5,0,0,0',
+                                                                                     iOS={OnIdiom Phone='5,0,0,0',
+                                                                                                  Tablet='15,0,0,0'},
+                                                                                     UWP='5,0,0,0'}"
                                                                 FontAttributes="Bold"
                                                                 FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamilyBold}"
                                                                 FontSize="{OnPlatform Android={OnIdiom Phone=12,
@@ -356,10 +361,7 @@
                                 </StackLayout>
                             </tabView:SfTabItem.Content>
                         </tabView:SfTabItem>
-                        <tabView:SfTabItem
-                            x:Name="tabDetailContent"
-                            Title="Details"
-                            >
+                        <tabView:SfTabItem x:Name="tabDetailContent" Title="Details">
                             <tabView:SfTabItem.HeaderContent>
                                 <Grid>
                                     <Grid.RowDefinitions>
@@ -424,57 +426,64 @@
                                 </Grid>
                             </tabView:SfTabItem.HeaderContent>
                             <tabView:SfTabItem.Content>
-                                <Grid>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="10" />
-                                        <RowDefinition Height="*" />
-                                        <RowDefinition x:Name="rowImageInContainerGrid" Height="{OnPlatform Android={OnIdiom Phone=0.15*, Tablet=0.15*}, iOS={OnIdiom Phone=0.15*, Tablet=0.15*}, UWP={OnIdiom Desktop=0.15*, Phone=0.15*, Tablet=0.15*}, macOS=0.15*, WPF=auto}" />
-                                        <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=5, Tablet=25}, iOS={OnIdiom Phone=5, Tablet=25}, UWP={OnIdiom Phone=5, Tablet=25, Desktop=0}, macOS=25, WPF=25}" />
-                                    </Grid.RowDefinitions>
-
-                                    <carousel:SfCarousel
-                                        x:Name="carousel"
-                                        Grid.Row="1"
-                                        AllowLoadMore="{OnPlatform Android=True,
-                                                                   UWP=False}"
-                                        ItemSpacing="10"
-                                        ItemsSource="{Binding Persona.Pictures}"
-                                        SelectionChanged="carousel_SelectionChanged"
-                                        ViewMode="Default">
-
-                                        <carousel:SfCarousel.ItemTemplate>
-                                            <DataTemplate>
-                                                <local:ExtendedImage
-                                                    Aspect="AspectFit"
-                                                    CustomSource="{Binding PicturePath}"
-                                                    LocalFileName="{Binding PictureLocalFileName}" />
-                                            </DataTemplate>
-                                        </carousel:SfCarousel.ItemTemplate>
-                                    </carousel:SfCarousel>
-
-                                    <Grid Grid.Row="2" Margin="10,0,10,0">
-                                        <magic:GradientView GradientSource="{Binding DefaultStyle.SubPagePictureTitleBoxBorderBgSource}" VerticalOptions="FillAndExpand" />
-                                        <ScrollView>
-                                            <Label
-                                                Padding="8,5,8,2"
-                                                BackgroundColor="Transparent"
-                                                FontAttributes="Bold"
-                                                FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
-                                                FontSize="{OnPlatform Android={OnIdiom Phone=16,
-                                                                                       Tablet=22},
-                                                                      iOS={OnIdiom Phone=16,
-                                                                                   Tablet=22},
-                                                                      UWP={OnIdiom Phone=14,
-                                                                                   Tablet=24,
-                                                                                   Desktop=24},
-                                                                      macOS=22,
-                                                                      WPF=26}"
-                                                HorizontalTextAlignment="Center"
-                                                Text="{Binding CurrentSelectedPictureCaption}"
-                                                TextColor="{Binding DefaultStyle.SubPagePictureTitleBoxTextColor, Converter={StaticResource stringToColorConverter}}" />
-                                        </ScrollView>
-                                    </Grid>
-                                </Grid>
+                                <syncfusionList:SfListView
+                                    x:Name="lstImages"
+                                    AutoFitMode="Height"
+                                    ItemsSource="{Binding Persona.Pictures}">
+                                    <syncfusionList:SfListView.LayoutManager>
+                                        <syncfusionList:GridLayout SpanCount="{OnPlatform Android={OnIdiom Phone=2, Tablet=4}, iOS={OnIdiom Phone=2, Tablet=4}, UWP=4, macOS=4, WPF=4}" />
+                                    </syncfusionList:SfListView.LayoutManager>
+                                    <syncfusionList:SfListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <!--  AnimationCompleted="lstItemEffectsView_AnimationCompleted"  -->
+                                            <sfEffectsView:SfEffectsView
+                                                x:Name="lstItemEffectsView"
+                                                Margin="10,0,0,10"
+                                                CornerRadius="5"
+                                                RippleAnimationDuration="300"
+                                                TouchDownEffects="Ripple">
+                                                <StackLayout>
+                                                    <sfBorder:SfBorder
+                                                        BorderColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ListItemBoxBorderColor, Converter={StaticResource stringToColorConverter}}"
+                                                        BorderWidth="1"
+                                                        VerticalOptions="Center">
+                                                        <Grid>
+                                                            <magic:GradientView GradientSource="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ListItemBoxBgSource}" VerticalOptions="FillAndExpand" />
+                                                            <StackLayout>
+                                                                <Grid>
+                                                                    <Grid.RowDefinitions>
+                                                                        <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=100, Tablet=150}, iOS={OnIdiom Phone=100, Tablet=150}, UWP=150, macOS=150, WPF=150}" />
+                                                                        <RowDefinition Height="40" />
+                                                                    </Grid.RowDefinitions>
+                                                                    <local:ExtendedImage
+                                                                        Grid.Row="0"
+                                                                        Margin="0,3,0,0"
+                                                                        Aspect="AspectFit"
+                                                                        PictureSource="{Binding}" />
+                                                                    <Label
+                                                                        Grid.Row="1"
+                                                                        Margin="5,0,0,5"
+                                                                        FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamilyBold}"
+                                                                        FontSize="{OnPlatform Android={OnIdiom Phone=10,
+                                                                                                               Tablet=14},
+                                                                                              iOS={OnIdiom Phone=10,
+                                                                                                           Tablet=14},
+                                                                                              UWP=14,
+                                                                                              macOS=14,
+                                                                                              WPF=14}"
+                                                                        HorizontalTextAlignment="Center"
+                                                                        LineBreakMode="CharacterWrap"
+                                                                        Text="{Binding PictureCaption}"
+                                                                        TextColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
+                                                                </Grid>
+                                                            </StackLayout>
+                                                        </Grid>
+                                                    </sfBorder:SfBorder>
+                                                </StackLayout>
+                                            </sfEffectsView:SfEffectsView>
+                                        </DataTemplate>
+                                    </syncfusionList:SfListView.ItemTemplate>
+                                </syncfusionList:SfListView>
                             </tabView:SfTabItem.Content>
                         </tabView:SfTabItem>
                     </tabView:SfTabView>
