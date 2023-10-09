@@ -13,6 +13,7 @@ using System.IO;
 using Android.Gms.Ads;
 using Microsoft.AppCenter.Crashes;
 using TestAny.Essentials.Core;
+using Syncfusion.XForms.Android.PopupLayout;
 
 namespace PopesOfChurch.Droid
 {
@@ -32,6 +33,7 @@ namespace PopesOfChurch.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            SfPopupLayoutRenderer.Init();
             MobileAds.Initialize(ApplicationContext);
             TestAnyAppConfig.InitializeFramework();
 

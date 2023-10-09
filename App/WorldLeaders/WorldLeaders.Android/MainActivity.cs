@@ -6,6 +6,7 @@ using Android.Runtime;
 using GeneralInformation;
 using Microsoft.AppCenter.Crashes;
 using Pj.Library;
+using Syncfusion.XForms.Android.PopupLayout;
 using System;
 using System.Threading.Tasks;
 using TestAny.Essentials.Core;
@@ -28,6 +29,7 @@ namespace WorldLeaders.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            SfPopupLayoutRenderer.Init();
             MobileAds.Initialize(ApplicationContext);
             TestAnyAppConfig.InitializeFramework();
 

@@ -10,6 +10,7 @@ using Microsoft.AppCenter.Crashes;
 using Syncfusion.ListView.XForms.iOS;
 using Syncfusion.SfAutoComplete.XForms.iOS;
 using Syncfusion.XForms.iOS.Buttons;
+using Syncfusion.XForms.iOS.PopupLayout;
 using Syncfusion.XForms.iOS.TabView;
 using TestAny.Essentials.Core;
 using UIKit;
@@ -35,6 +36,7 @@ namespace ChristianCatholicSaints.iOS
             TaskScheduler.UnobservedTaskException += TaskScheduler_UnobservedTaskException;
 
             global::Xamarin.Forms.Forms.Init();
+            SfPopupLayoutRenderer.Init();
             LoadApplication(new App());
             TestAnyAppConfig.InitializeFramework();
 

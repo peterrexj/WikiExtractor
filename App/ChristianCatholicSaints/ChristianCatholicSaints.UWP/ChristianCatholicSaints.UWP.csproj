@@ -212,6 +212,9 @@
     <PackageReference Include="Syncfusion.Xamarin.SfCarousel">
       <Version>23.1.39</Version>
     </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfPopupLayout">
+      <Version>23.1.39</Version>
+    </PackageReference>
     <PackageReference Include="TestAny.Essentials.Api">
       <Version>1.0.5.17</Version>
     </PackageReference>

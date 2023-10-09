@@ -1,5 +1,14 @@
 ﻿using Pj.Library;
+using Syncfusion.ListView.XForms.UWP;
 using Syncfusion.SfBusyIndicator.XForms.UWP;
+using Syncfusion.SfCarousel.XForms.UWP;
+using Syncfusion.XForms.UWP.Border;
+using Syncfusion.XForms.UWP.Buttons;
+using Syncfusion.XForms.UWP.EffectsView;
+using Syncfusion.XForms.UWP.Graphics;
+using Syncfusion.XForms.UWP.PopupLayout;
+using Syncfusion.XForms.UWP.TabView;
+using Syncfusion.XForms.UWP.TextInputLayout;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -56,12 +65,23 @@ namespace PopesOfChurch.UWP
             // just ensure that the window is active
             if (rootFrame == null)
             {
-                List<Assembly> assembliesToInclude = new List<Assembly>();
-                assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.EffectsView.SfEffectsViewRenderer).GetTypeInfo().Assembly);
-                assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.Border.SfBorderRenderer).GetTypeInfo().Assembly);
-                assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.Graphics.SfGradientViewRenderer).GetTypeInfo().Assembly);
-                assembliesToInclude.Add(typeof(SfBusyIndicatorRenderer).GetTypeInfo().Assembly);
-                assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.Buttons.SfSegmentedControlRenderer).GetTypeInfo().Assembly);
+                List<Assembly> assembliesToInclude = new List<Assembly>
+                {
+                    //Now, add all the assemblies your app uses
+                    typeof(SfEffectsViewRenderer).GetTypeInfo().Assembly,
+                    typeof(SfTextInputLayoutRenderer).GetTypeInfo().Assembly,
+                    typeof(SfButtonRenderer).GetTypeInfo().Assembly,
+                    typeof(SfChipRenderer).GetTypeInfo().Assembly,
+                    typeof(SfChipGroupRenderer).GetTypeInfo().Assembly,
+                    typeof(SfBorderRenderer).GetTypeInfo().Assembly,
+                    typeof(SfSegmentedControlRenderer).GetTypeInfo().Assembly,
+                    typeof(SfBusyIndicatorRenderer).GetTypeInfo().Assembly,
+                    typeof(SfGradientViewRenderer).GetTypeInfo().Assembly,
+                    typeof(SfTabViewRenderer).GetTypeInfo().Assembly,
+                    typeof(SfListViewRenderer).GetTypeInfo().Assembly,
+                    typeof(SfCarouselRenderer).GetTypeInfo().Assembly,
+                    typeof(SfPopupLayoutRenderer).GetTypeInfo().Assembly
+                };
 
                 // Create a Frame to act as the navigation context and navigate to the first page
                 rootFrame = new Frame();

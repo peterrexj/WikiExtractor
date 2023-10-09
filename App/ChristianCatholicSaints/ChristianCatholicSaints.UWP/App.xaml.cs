@@ -6,6 +6,7 @@ using Syncfusion.XForms.UWP.Border;
 using Syncfusion.XForms.UWP.Buttons;
 using Syncfusion.XForms.UWP.EffectsView;
 using Syncfusion.XForms.UWP.Graphics;
+using Syncfusion.XForms.UWP.PopupLayout;
 using Syncfusion.XForms.UWP.TabView;
 using Syncfusion.XForms.UWP.TextInputLayout;
 using System;
@@ -74,6 +75,7 @@ namespace ChristianCatholicSaints.UWP
                     typeof(SfTabViewRenderer).GetTypeInfo().Assembly,
                     typeof(SfListViewRenderer).GetTypeInfo().Assembly,
                     typeof(SfCarouselRenderer).GetTypeInfo().Assembly,
+                    typeof(SfPopupLayoutRenderer).GetTypeInfo().Assembly
                 };
 
                 // Create a Frame to act as the navigation context and navigate to the first page
