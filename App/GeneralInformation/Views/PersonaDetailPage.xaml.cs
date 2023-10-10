@@ -1,7 +1,6 @@
 ﻿using GeneralInformation.Exts;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
-using Microsoft.AppCenter.Crashes;
 using Pj.Library;
 using Syncfusion.XForms.Border;
 using Syncfusion.XForms.EffectsView;
@@ -163,22 +162,6 @@ namespace GeneralInformation.Views
                     if (personaDetailViewModel.IsMetaDataAvailable == false)
                     {
                         personaDetailViewModel.Persona.Metadatas.Add(new MetadataViewModel { Key = "", Description = personaDetailViewModel.Persona.Name });
-                    }
-
-                    if (personaDetailViewModel.IsPicturesAvailable)
-                    {
-                        personaDetailViewModel.CurrentSelectedPictureCaption = personaDetailViewModel.Persona.Pictures.FirstOrDefault().PictureCaption;
-                    }
-
-                    personaDetailViewModel.CarouselImageCurrentClickIndex = 0;
-                    if (personaDetailViewModel.Persona.Pictures.Count > personaDetailViewModel.CarouselImageLoadMoreItemsCount)
-                    {
-                        personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = personaDetailViewModel.Persona.Pictures.Count / personaDetailViewModel.CarouselImageLoadMoreItemsCount + 1;
-                    }
-                    else
-                    {
-                        personaDetailViewModel.CarouselImageTotalClicksToLoadComplete = 0;
-                        personaDetailViewModel.CarouselImageLoadComplete = true;
                     }
 
                     LoadParaDetails();
@@ -487,14 +470,31 @@ namespace GeneralInformation.Views
                         var pic = personaDetailViewModel.Persona.Pictures.FirstOrDefault(p => p.Id == (sender as SfEffectsView).AutomationId.ToInteger());
                         if (pic != null)
                         {
-                            DisplayAlert("Image to display", $"Pic: {pic.PictureCaption}, file: {pic.PictureLocalFileName}", "Cancel");
+                            personaDetailViewModel.PopupImage = pic;
+
+                            popupImageDisplay.PopupView.IsFullScreen = true;
+                            popupImageDisplay.ClosePopupOnBackButtonPressed = true;
+
+                            popupImageDisplay.Show(true);
                         }
                     }
                 }
             }
             catch (Exception ex)
             {
-                Crashes.TrackError(ex);
+                CaptureErrorOnPage(ex);
+            }
+        }
+
+        private void btnCloseOnPopup_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                popupImageDisplay.Dismiss();
+            }
+            catch (Exception ex)
+            {
+                CaptureErrorOnPage(ex);
             }
         }
     }

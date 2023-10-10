@@ -12,6 +12,7 @@
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
+    xmlns:sfPopup="clr-namespace:Syncfusion.XForms.PopupLayout;assembly=Syncfusion.SfPopupLayout.XForms"
     xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
     ios:Page.UseSafeArea="False">
@@ -129,6 +130,111 @@
     </Shell.TitleView>
     <ContentPage.Content>
         <Grid>
+            <sfPopup:SfPopupLayout
+                x:Name="popupImageDisplay"
+                Padding="{OnPlatform Android={OnIdiom Phone='10,25,10,20',
+                                                      Tablet='25'},
+                                     iOS={OnIdiom Phone='10,25,10,20',
+                                                  Tablet='25'},
+                                     UWP={OnIdiom Phone='10,25,10,20',
+                                                  Tablet='25',
+                                                  Desktop='25'},
+                                     macOS='25',
+                                     WPF='25'}"
+                StaysOpen="True">
+                <sfPopup:SfPopupLayout.PopupView>
+                    <sfPopup:PopupView
+                        AcceptButtonText="Close"
+                        AnimationMode="Zoom"
+                        AppearanceMode="OneButton"
+                        ShowCloseButton="True">
+                        <sfPopup:PopupView.HeaderTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <magic:GradientView GradientSource="{Binding DefaultStyle.PopupHeaderBgSource}" VerticalOptions="FillAndExpand" />
+                                    <Label
+                                        BackgroundColor="Transparent"
+                                        FontAttributes="Bold"
+                                        FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
+                                        FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                                               Tablet=24},
+                                                              iOS={OnIdiom Phone=16,
+                                                                           Tablet=24},
+                                                              UWP={OnIdiom Phone=16,
+                                                                           Tablet=24,
+                                                                           Desktop=24},
+                                                              macOS=24,
+                                                              WPF=24}"
+                                        HorizontalTextAlignment="Center"
+                                        Text="{Binding Persona.Name}"
+                                        TextColor="{Binding DefaultStyle.SubPageTopHeaderFontColor, Converter={StaticResource stringToColorConverter}}"
+                                        VerticalTextAlignment="Center" />
+                                </Grid>
+                            </DataTemplate>
+                        </sfPopup:PopupView.HeaderTemplate>
+                        <sfPopup:PopupView.FooterTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <magic:GradientView GradientSource="{Binding DefaultStyle.PopupFooterBgSource}" VerticalOptions="FillAndExpand" />
+                                    <Button
+                                        x:Name="btnCloseOnPopup"
+                                        BackgroundColor="Transparent"
+                                        Clicked="btnCloseOnPopup_Clicked"
+                                        FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
+                                        FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                                               Tablet=24},
+                                                              iOS={OnIdiom Phone=16,
+                                                                           Tablet=24},
+                                                              UWP={OnIdiom Phone=16,
+                                                                           Tablet=24,
+                                                                           Desktop=24},
+                                                              macOS=24,
+                                                              WPF=24}"
+                                        Text="Close"
+                                        TextColor="{Binding DefaultStyle.SubPageTopHeaderFontColor, Converter={StaticResource stringToColorConverter}}" />
+                                </Grid>
+                            </DataTemplate>
+                        </sfPopup:PopupView.FooterTemplate>
+                        <sfPopup:PopupView.ContentTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <magic:GradientView GradientSource="{Binding DefaultStyle.PopupContentBgSource}" VerticalOptions="FillAndExpand" />
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="100" />
+                                        </Grid.RowDefinitions>
+                                        <local:ExtendedImage
+                                            Grid.Row="0"
+                                            Margin="5"
+                                            Aspect="AspectFit"
+                                            PictureSource="{Binding PopupImage}" />
+                                        <Label
+                                            Grid.Row="1"
+                                            BackgroundColor="Transparent"
+                                            FontAttributes="Bold"
+                                            FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
+                                            FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                                                   Tablet=24},
+                                                                  iOS={OnIdiom Phone=16,
+                                                                               Tablet=24},
+                                                                  UWP={OnIdiom Phone=16,
+                                                                               Tablet=24,
+                                                                               Desktop=24},
+                                                                  macOS=24,
+                                                                  WPF=24}"
+                                            HorizontalTextAlignment="Center"
+                                            Text="{Binding PopupImage.PictureCaption}"
+                                            TextColor="{Binding DefaultStyle.SubPageTopHeaderFontColor, Converter={StaticResource stringToColorConverter}}"
+                                            VerticalTextAlignment="Center" />
+                                    </Grid>
+                                </Grid>
+                            </DataTemplate>
+                        </sfPopup:PopupView.ContentTemplate>
+                    </sfPopup:PopupView>
+                </sfPopup:SfPopupLayout.PopupView>
+            </sfPopup:SfPopupLayout>
+
             <magic:GradientView GradientSource="{Binding DefaultStyle.MgPageBgSource}" VerticalOptions="FillAndExpand" />
 
             <StackLayout>
@@ -429,20 +535,20 @@
                                 <syncfusionList:SfListView
                                     x:Name="lstImages"
                                     AutoFitMode="Height"
-                                    ItemsSource="{Binding Persona.Pictures}">
+                                    ItemsSource="{Binding Persona.Pictures}"
+                                    SelectionMode="None">
                                     <syncfusionList:SfListView.LayoutManager>
                                         <syncfusionList:GridLayout SpanCount="{OnPlatform Android={OnIdiom Phone=2, Tablet=4}, iOS={OnIdiom Phone=2, Tablet=4}, UWP=4, macOS=4, WPF=4}" />
                                     </syncfusionList:SfListView.LayoutManager>
                                     <syncfusionList:SfListView.ItemTemplate>
                                         <DataTemplate>
-                                            <!--  AnimationCompleted="lstItemEffectsView_AnimationCompleted"  -->
                                             <sfEffectsView:SfEffectsView
                                                 x:Name="lstImageEffectsLayer"
                                                 Margin="10,0,0,10"
+                                                AnimationCompleted="lstImageEffectsLayer_AnimationCompleted"
+                                                AutomationId="{Binding Id}"
                                                 CornerRadius="5"
                                                 RippleAnimationDuration="300"
-                                                AutomationId="{Binding Id}"
-                                                AnimationCompleted="lstImageEffectsLayer_AnimationCompleted"
                                                 TouchDownEffects="Ripple">
                                                 <StackLayout>
                                                     <sfBorder:SfBorder

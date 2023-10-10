@@ -94,5 +94,9 @@ namespace GeneralInformation.Models.Mix
         public virtual string AppShellBackgroundColor { get; set; }
         public virtual string AppShellForegroundIconColor { get; set; }
 
+        //Popup
+        public virtual IGradientSource PopupHeaderBgSource { get; set; }
+        public virtual IGradientSource PopupFooterBgSource { get; set; }
+        public virtual IGradientSource PopupContentBgSource { get; set; }
     }
 }

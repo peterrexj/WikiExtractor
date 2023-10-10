@@ -88,6 +88,7 @@
 		<PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfCarousel" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfListView" Version="23.1.39" />
+		<PackageReference Include="Syncfusion.Xamarin.SfPopupLayout" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="23.1.39" />
 		<PackageReference Include="TestAny.Essentials.Api" Version="1.0.5.17" />
 		<PackageReference Include="TestAny.Essentials.Core" Version="1.0.5.17" />

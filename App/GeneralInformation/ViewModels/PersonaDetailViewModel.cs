@@ -18,8 +18,6 @@ namespace GeneralInformation.ViewModels
             AdsInterstitialId = appInfo.AdsInterstitialId;
             AdsBannerId = appInfo.AdsBannerId;
             TextOnFirstTabInformationOnDetailPage = appInfo.TextOnFirstTabInformationOnDetailPage;
-            CarouselImageLoadMoreItemsCount = appInfo.CarouselImageLoadMoreItemsCount;
-            CarouselImageLoadComplete = false;
         }
 
         public ICommand TapHyperLinkToWikiPage => new Command<string>(async (url) => await Launcher.OpenAsync($"https://en.wikipedia.org/{url}"));
@@ -80,26 +78,20 @@ namespace GeneralInformation.ViewModels
 
         public string PictureTitle => $"Pictures [{(IsPicturesAvailable ? Persona?.Pictures.Count : 0)}]";
 
-        #region Carousel Image
-        private string _currentSelectedPictureCaption;
-        public string CurrentSelectedPictureCaption
+        #region Popup Image
+        private PictureViewModel _popupImage;
+        public PictureViewModel PopupImage
         {
             get
             {
-                return _currentSelectedPictureCaption;
+                return _popupImage;
             }
             set
             {
-                _currentSelectedPictureCaption = value;
-                OnPropertyChanged("CurrentSelectedPictureCaption");
+                _popupImage = value;
+                OnPropertyChanged("PopupImage");
             }
         }
-
-        public bool CarouselImageLoadComplete { get; set; }
-        public int CarouselImageTotalClicksToLoadComplete { get; set; }
-        public int CarouselImageCurrentClickIndex { get; set; }
-        public int CarouselImageLoadMoreItemsCount { get; set; }
-
         #endregion
 
         #region Ads
