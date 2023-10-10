@@ -42,5 +42,7 @@
 	<true/>
 	<key>UIMainStoryboardFile</key>
 	<string>SplashScreen</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
 </dict>
 </plist>
