@@ -134,8 +134,8 @@
                 x:Name="popupImageDisplay"
                 Padding="{OnPlatform Android={OnIdiom Phone='10,25,10,20',
                                                       Tablet='25'},
-                                     iOS={OnIdiom Phone='10,25,10,20',
-                                                  Tablet='25'},
+                                     iOS={OnIdiom Phone='10,50,10,30',
+                                                  Tablet='25,50,25,30'},
                                      UWP={OnIdiom Phone='10,25,10,20',
                                                   Tablet='25',
                                                   Desktop='25'},
