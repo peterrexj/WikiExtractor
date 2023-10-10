@@ -29,6 +29,8 @@
     <MtouchDebug>true</MtouchDebug>
     <LangVersion>latest</LangVersion>
     <MtouchSdkVersion>17.0</MtouchSdkVersion>
+    <CodesignProvision>CatholicSaintsProvisionProfile</CodesignProvision>
+    <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -40,7 +42,7 @@
     <MtouchArch>x86_64</MtouchArch>
     <LangVersion>latest</LangVersion>
     <OptimizePNGs>true</OptimizePNGs>
-    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
     <CodesignProvision>CatholicSaintsProvisionProfile</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
