@@ -151,16 +151,16 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Pj.Library">
-      <Version>1.0.4.19</Version>
+      <Version>1.0.4.21</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Datastore">
-      <Version>1.0.4.19</Version>
+      <Version>1.0.4.21</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Mobile">
-      <Version>1.0.4.19</Version>
+      <Version>1.0.4.21</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Secure">
-      <Version>1.0.4.19</Version>
+      <Version>1.0.4.21</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfPopupLayout">
       <Version>23.1.39</Version>
