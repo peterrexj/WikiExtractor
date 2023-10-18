@@ -33,7 +33,7 @@ namespace ChristianCatholicSaints.UWP
         public App()
         {
             GeneralInformation.ConfigHelperUwp.LoadConfig();
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(CryptoHelper.Decrypt(GeneralInformation.ConfigHelperUwp.SyncFusionLicense));
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(GeneralInformation.ConfigHelperUwp.SyncFusionLicense);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
             this.UnhandledException += OnUnhandledException;

@@ -15,7 +15,7 @@ namespace GeneralInformation.Repository.UserStore
         public RequestRecordRepository RequestRecordRepository { get; set; }
         public AppSettingsRepository AppSettingsRepository { get; set; }
 
-        public UserStoreDatabase() : base(DependencyService.Get<ILocalStorage>().SqlLiteHelper)
+        public UserStoreDatabase() : base(DatabaseHelper.DatabaseType.SqLiteDevice, DependencyService.Get<ILocalStorage>().SqlLiteHelper)
         {
             InitializeDatabase();
         }

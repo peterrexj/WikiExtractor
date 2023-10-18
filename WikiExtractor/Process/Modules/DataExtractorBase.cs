@@ -28,6 +28,7 @@ namespace WikiExtractor.Process.Modules
             if (doClean)
             {
                 IoHelper.DeleteFile(ProcessConstants.DatabasePath);
+                IoHelper.DeleteFile(ProcessConstants.UserStoreDatabasePath);
             }
             wikiAppController = new WikiAppController(new WikiDatabase(), new UserStoreDatabase());
         }

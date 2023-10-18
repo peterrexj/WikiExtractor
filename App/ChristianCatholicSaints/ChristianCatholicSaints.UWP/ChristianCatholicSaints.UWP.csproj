@@ -189,16 +189,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Pj.Library">
-      <Version>1.0.4.21</Version>
+      <Version>1.0.4.27</Version>
     </PackageReference>
-    <PackageReference Include="Pj.Library.Datastore">
-      <Version>1.0.4.21</Version>
+    <PackageReference Include="Pj.Library.Datastore.Sqlite">
+      <Version>1.0.4.27</Version>
     </PackageReference>
-    <PackageReference Include="Pj.Library.Mobile">
-      <Version>1.0.4.21</Version>
-    </PackageReference>
-    <PackageReference Include="Pj.Library.Secure">
-      <Version>1.0.4.21</Version>
+    <PackageReference Include="Pj.Library.Mobile.Sqlite">
+      <Version>1.0.4.27</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Core">
       <Version>23.1.39</Version>
@@ -215,11 +212,8 @@
     <PackageReference Include="Syncfusion.Xamarin.SfPopupLayout">
       <Version>23.1.39</Version>
     </PackageReference>
-    <PackageReference Include="TestAny.Essentials.Api">
-      <Version>1.0.5.18</Version>
-    </PackageReference>
-    <PackageReference Include="TestAny.Essentials.Core">
-      <Version>1.0.5.18</Version>
+    <PackageReference Include="TestAny.Essentials.Api.Lite">
+      <Version>1.0.5.25</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.14" />

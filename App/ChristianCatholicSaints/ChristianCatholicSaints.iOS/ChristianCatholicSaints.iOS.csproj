@@ -73,8 +73,8 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <LangVersion>latest</LangVersion>
-		<Nullable>enable</Nullable>
-		<MtouchLink>SdkOnly</MtouchLink>
+    <Nullable>enable</Nullable>
+    <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
     <AppExtensionDebugBundleId />
@@ -136,16 +136,13 @@
       <Version>1.9.0.6</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library">
-      <Version>1.0.4.21</Version>
+      <Version>1.0.4.27</Version>
     </PackageReference>
-    <PackageReference Include="Pj.Library.Datastore">
-      <Version>1.0.4.21</Version>
+    <PackageReference Include="Pj.Library.Datastore.Sqlite">
+      <Version>1.0.4.27</Version>
     </PackageReference>
-    <PackageReference Include="Pj.Library.Mobile">
-      <Version>1.0.4.21</Version>
-    </PackageReference>
-    <PackageReference Include="Pj.Library.Secure">
-      <Version>1.0.4.21</Version>
+    <PackageReference Include="Pj.Library.Mobile.Sqlite">
+      <Version>1.0.4.27</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Buttons">
       <Version>23.1.39</Version>
@@ -177,11 +174,8 @@
     <PackageReference Include="SQLitePCLRaw.bundle_green">
       <Version>2.1.6</Version>
     </PackageReference>
-    <PackageReference Include="TestAny.Essentials.Api">
-      <Version>1.0.5.18</Version>
-    </PackageReference>
-    <PackageReference Include="TestAny.Essentials.Core">
-      <Version>1.0.5.18</Version>
+    <PackageReference Include="TestAny.Essentials.Api.Lite">
+      <Version>1.0.5.25</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Firebase.iOS.Core">
       <Version>8.10.0.3</Version>

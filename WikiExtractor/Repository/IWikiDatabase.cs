@@ -1,6 +1,4 @@
-﻿using Pj.Library.Mobile.Model;
-
-namespace WikiExtractor.Repository
+﻿namespace WikiExtractor.Repository
 {
     public interface IWikiDatabase
     {

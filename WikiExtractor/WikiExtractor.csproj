@@ -1,35 +1,35 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
-    <PackageReference Include="Pj.Library" Version="1.0.4.21" />
-    <PackageReference Include="Pj.Library.Datastore" Version="1.0.4.21" />
-    <PackageReference Include="Pj.Library.Mobile" Version="1.0.4.21" />
-    <PackageReference Include="Pj.Library.Secure" Version="1.0.4.21" />
-    <PackageReference Include="Pj.Library.ThirdParty" Version="1.0.4.21" />
-    <PackageReference Include="Selenium.Essentials" Version="1.0.5.18" />
-    <PackageReference Include="TestAny.Essentials.Api" Version="1.0.5.18" />
-    <PackageReference Include="TestAny.Essentials.Core" Version="1.0.5.18" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="HtmlAgilityPack" Version="1.11.54" />
+		<PackageReference Include="Pj.Library" Version="1.0.4.27" />
+		<PackageReference Include="Pj.Library.Datastore.Sqlite" Version="1.0.4.27" />
+		<PackageReference Include="Pj.Library.Mobile.Sqlite" Version="1.0.4.27" />
+		<PackageReference Include="Pj.Library.ThirdParty" Version="1.0.4.27" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+		<PackageReference Include="SkiaSharp" Version="2.88.6" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+		<PackageReference Include="TestAny.Essentials.Api.Lite" Version="1.0.5.25" />
+		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <None Update="Repository\SchemaDb.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Resources\Saints_AddtionalLinks.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Resources\Saints_IgnoreList.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<None Update="Repository\SchemaDb.sql">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\Saints_AddtionalLinks.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\Saints_IgnoreList.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 
 </Project>

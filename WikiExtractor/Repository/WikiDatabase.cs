@@ -1,12 +1,5 @@
 ﻿using Pj.Library;
 using Pj.Library.Mobile.Model;
-using Pj.Library.Mobile.Sqlite;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace WikiExtractor.Repository
 {
@@ -21,7 +14,7 @@ namespace WikiExtractor.Repository
         public ParagraphContentRepository ParagraphContentRepository { get; set; }
         public ParagraphImageRepository ParagraphImageRepository { get; set; }
         public WikiPictureRepository WikiPictureRepository { get; set; }
-        public SettingsRepository SettingsRepository { get; set; }
+        public SettingsSqliteRepository SettingsRepository { get; set; }
         public PhoneSettingsRepository PhoneSettingsRepository { get; set; }
         public TagRepository TagRepository { get; set; }
         public TagItemRepository TagItemRepository { get; set; }
@@ -41,7 +34,7 @@ namespace WikiExtractor.Repository
         {
             appDatabase.InitializeDatabase();
 
-            SettingsRepository = new SettingsRepository(appDatabase._dbHelper);
+            SettingsRepository = new SettingsSqliteRepository(appDatabase._dbHelper);
             MasterRepository = new MasterRepository(appDatabase._dbHelper);
             MetadataRepository = new MetadataRepository(appDatabase._dbHelper);
             ParagraphPrimaryContentRepository = new ParagraphPrimaryContentRepository(appDatabase._dbHelper);
@@ -56,7 +49,6 @@ namespace WikiExtractor.Repository
             AppMenuItemRepository = new AppMenuItemRepository(appDatabase._dbHelper);
             RequestRecordRepository = new RequestRecordRepository(appDatabase._dbHelper);
 
-            repoExtensions.Add(SettingsRepository);
             repoExtensions.Add(MasterRepository);
             repoExtensions.Add(MetadataRepository);
             repoExtensions.Add(ParagraphPrimaryContentRepository);
@@ -70,6 +62,7 @@ namespace WikiExtractor.Repository
             repoExtensions.Add(TagItemRepository);
             repoExtensions.Add(AppMenuItemRepository);
             repoExtensions.Add(RequestRecordRepository);
+            repoExtensions.Add(SettingsRepository);
 
             int currentDbVersion = 0;
             bool requireDbInitialization = false;

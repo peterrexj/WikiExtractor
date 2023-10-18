@@ -1,13 +1,12 @@
-﻿using Pj.Library.Mobile.Model;
-using Pj.Library;
-using Pj.Library.Mobile.Sqlite;
+﻿using Pj.Library;
+using Pj.Library.Mobile.Model;
 
 namespace WikiExtractor.Repository.UserStore
 {
     public class UserStoreDatabase : IUserStoreDatabase
     {
         public ItemReadTrackerRepository ItemReadTrackerRepository { get; set; }
-        public SettingsRepository SettingsRepository { get; set; }
+        public SettingsSqliteRepository SettingsRepository { get; set; }
         public RequestRecordRepository RequestRecordRepository { get; set; }
         public AppSettingsRepository AppSettingsRepository { get; set; }
 
@@ -28,7 +27,7 @@ namespace WikiExtractor.Repository.UserStore
             ItemReadTrackerRepository = new ItemReadTrackerRepository(appDatabase._dbHelperUserStore);
             AppSettingsRepository = new AppSettingsRepository(appDatabase._dbHelperUserStore);
             RequestRecordRepository = new RequestRecordRepository(appDatabase._dbHelperUserStore);
-            SettingsRepository = new SettingsRepository(appDatabase._dbHelperUserStore);
+            SettingsRepository = new SettingsSqliteRepository(appDatabase._dbHelperUserStore);
            
             repoExtensions.Add(SettingsRepository);
             repoExtensions.Add(ItemReadTrackerRepository);

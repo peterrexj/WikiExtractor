@@ -5,7 +5,7 @@ namespace GeneralInformation.Repository
 {
     public class AppDatabase : AppSqliteRepository, IWikiDatabase
     {
-        public AppDatabase() : base()
+        public AppDatabase() : base(Pj.Library.DatabaseHelper.DatabaseType.SqLiteDevice)
         {
             InitializeDatabase();
         }

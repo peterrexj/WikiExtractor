@@ -19,8 +19,8 @@ namespace ChristianCatholicSaints.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             GeneralInformation.ConfigHelperDroid.LoadConfig();
-
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(CryptoHelper.Decrypt(GeneralInformation.ConfigHelperDroid.SyncFusionLicense));
+            
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(GeneralInformation.ConfigHelperDroid.SyncFusionLicense);
             base.OnCreate(savedInstanceState);
 
             AndroidEnvironment.UnhandledExceptionRaiser += AndroidEnvironment_UnhandledExceptionRaiser;
