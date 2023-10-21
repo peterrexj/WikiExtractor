@@ -203,6 +203,7 @@
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="*" />
                                             <RowDefinition Height="100" />
+                                            <RowDefinition Height="50" />
                                         </Grid.RowDefinitions>
                                         <local:ExtendedImage
                                             Grid.Row="0"
@@ -227,6 +228,19 @@
                                             Text="{Binding PopupImage.PictureCaption}"
                                             TextColor="{Binding DefaultStyle.SubPageTopHeaderFontColor, Converter={StaticResource stringToColorConverter}}"
                                             VerticalTextAlignment="Center" />
+                                        <StackLayout Grid.Row="2">
+                                            <admob:MTAdView
+                                                AdsId="{Binding AdsBannerId}"
+                                                HeightRequest="{OnPlatform Android={OnIdiom Phone=50,
+                                                                                            Tablet=50},
+                                                                           iOS={OnIdiom Phone=50,
+                                                                                        Tablet=50}}"
+                                                IsVisible="{OnPlatform Android=true,
+                                                                       iOS=true,
+                                                                       UWP=false,
+                                                                       macOS=false,
+                                                                       WPF=false}" />
+                                        </StackLayout>
                                     </Grid>
                                 </Grid>
                             </DataTemplate>
