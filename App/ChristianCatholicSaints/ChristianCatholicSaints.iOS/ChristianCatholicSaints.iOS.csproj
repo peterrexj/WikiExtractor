@@ -29,8 +29,8 @@
     <MtouchDebug>true</MtouchDebug>
     <LangVersion>latest</LangVersion>
     <MtouchSdkVersion>17.0</MtouchSdkVersion>
-    <CodesignProvision>CatholicSaintsProvisionProfile</CodesignProvision>
-    <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
+    <CodesignProvision>Automatic</CodesignProvision>
+    <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>

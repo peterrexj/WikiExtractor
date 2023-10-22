@@ -44,5 +44,7 @@
 	<string>SplashScreen</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 </dict>
 </plist>
