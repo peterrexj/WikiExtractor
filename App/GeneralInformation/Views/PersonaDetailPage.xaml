@@ -611,7 +611,7 @@
                     </tabView:SfTabView>
                 </StackLayout>
 
-                <StackLayout>
+                <!--<StackLayout>
                     <admob:MTAdView
                         AdsId="{Binding AdsBannerId}"
                         HeightRequest="{OnPlatform Android={OnIdiom Phone=50,
@@ -623,7 +623,7 @@
                                                UWP=false,
                                                macOS=false,
                                                WPF=false}" />
-                </StackLayout>
+                </StackLayout>-->
             </StackLayout>
         </Grid>
     </ContentPage.Content>
