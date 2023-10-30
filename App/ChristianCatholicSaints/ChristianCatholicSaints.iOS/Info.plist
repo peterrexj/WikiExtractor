@@ -44,24 +44,6 @@
 	<string>SplashScreen</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
-	<key>NSCalendarsUsageDescription</key>
-	<string>Catholic Saints &amp; Blessed would like to access your calendar</string>
-	<key>NSContactsUsageDescription</key>
-	<string>Catholic Saints &amp; Blessed would like to access your contacts</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Catholic Saints &amp; Blessed would like to access your microphone</string>
-	<key>NSAppleMusicUsageDescription</key>
-	<string>Catholic Saints &amp; Blessed would like to access your apple music</string>
-	<key>NSSiriUsageDescription</key>
-	<string>Catholic Saints &amp; Blessed would like to access Siri</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Catholic Saints &amp; Blessed would like to access your location</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Catholic Saints &amp; Blessed would like to access your location</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Catholic Saints &amp; Blessed would like to access your location</string>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>Catholic Saints &amp; Blessed would like to access your bluetooth</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 </dict>
