@@ -74,7 +74,7 @@ namespace GeneralInformation.Views
                                        select new
                                        {
                                            Data = data,
-                                           Status = tagItem.IsRead
+                                           Status = tagItem.IsReadAsBool
                                        }).ToList();
 
                         foreach (var data in mapData)

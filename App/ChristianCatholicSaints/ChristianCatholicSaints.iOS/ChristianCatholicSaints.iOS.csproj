@@ -57,9 +57,9 @@
     <CodesignKey>Apple Development: Created via API (965CR7HS5Q)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <MtouchLink>Full</MtouchLink>
+    <MtouchLink>SdkOnly</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
-    <CodesignProvision>VS: WildCard Development</CodesignProvision>
+    <CodesignProvision>VS: com.pj.ChristianCatholicSaints Development</CodesignProvision>
     <DeviceSpecificBuild>false</DeviceSpecificBuild>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -71,7 +71,8 @@
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARM64</MtouchArch>
     <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
-    <CodesignEntitlements></CodesignEntitlements>
+    <CodesignEntitlements>
+    </CodesignEntitlements>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <MtouchLink>SdkOnly</MtouchLink>
@@ -178,13 +179,10 @@
     <PackageReference Include="TestAny.Essentials.Api.Lite">
       <Version>1.0.5.25</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Firebase.iOS.Core">
-      <Version>8.10.0.3</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
     <PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
-    <PackageReference Include="Microsoft.CSharp">
-      <Version>4.7.0</Version>
+    <PackageReference Include="Xamarin.Google.iOS.MobileAds">
+      <Version>8.13.0.3</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

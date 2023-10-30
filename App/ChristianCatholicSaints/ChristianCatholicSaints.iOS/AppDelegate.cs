@@ -14,6 +14,7 @@ using Syncfusion.XForms.iOS.PopupLayout;
 using Syncfusion.XForms.iOS.TabView;
 using TestAny.Essentials.Core;
 using UIKit;
+using Google.MobileAds;
 
 namespace ChristianCatholicSaints.iOS
 {
@@ -32,12 +33,23 @@ namespace ChristianCatholicSaints.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            ObjCRuntime.Class.ThrowOnInitFailure = false;
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
             TaskScheduler.UnobservedTaskException += TaskScheduler_UnobservedTaskException;
 
             global::Xamarin.Forms.Forms.Init();
             SfPopupLayoutRenderer.Init();
             LoadApplication(new App());
+
+            try
+            {
+                MobileAds.SharedInstance.Start(CompletionHandler);
+            }
+            catch (Exception)
+            {
+                //Ignore the exception if the ads cannot be initialized
+            }
+
             TestAnyAppConfig.InitializeFramework();
 
             Xamarin.Essentials.Platform.Init(() => GetCurrentUIViewController());
@@ -57,6 +69,11 @@ namespace ChristianCatholicSaints.iOS
 #endif
 
             return base.FinishedLaunching(app, options);
+        }
+
+        private void CompletionHandler(InitializationStatus status)
+        {
+
         }
 
         UIViewController GetCurrentUIViewController()

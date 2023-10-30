@@ -8,6 +8,7 @@ namespace WikiExtractor.DbModels.UserStore
     public class ItemReadTrackerModel : ModelBase
     {
         public string ItemIdentifier { get; set; }
-        public bool IsRead { get; set; }
+        public int IsRead { get; set; }
+        public bool IsReadAsBool => IsRead == 0 ? false : true;
     }
 }

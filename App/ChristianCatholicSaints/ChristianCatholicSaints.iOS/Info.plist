@@ -21,7 +21,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>9.0</string>
+	<string>11.0</string>
 	<key>CFBundleDisplayName</key>
 	<string>Catholic Saints</string>
 	<key>CFBundleIdentifier</key>
@@ -37,7 +37,7 @@
 	<key>UIRequiresPersistentWiFi</key>
 	<true/>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<string>ca-app-pub-4219645367584712~6335237852</string>
 	<key>GADIsAdManagerApp</key>
 	<true/>
 	<key>UIMainStoryboardFile</key>

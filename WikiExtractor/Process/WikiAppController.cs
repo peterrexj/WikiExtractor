@@ -213,7 +213,7 @@ namespace WikiExtractor.Process
                    from metadata in metadataGrp.DefaultIfEmpty(new Metadata { Id = 0, MasterId = master.Id })
 
                    join itemReadStatusJoin in userStoreDatabase.ItemReadTrackerRepository.GetAll() on master.Name equals itemReadStatusJoin.ItemIdentifier into itemReadStatusGroup
-                   from itemReadStatus in itemReadStatusGroup.DefaultIfEmpty(new ItemReadTrackerModel { ItemIdentifier = master.Name, IsRead = false })
+                   from itemReadStatus in itemReadStatusGroup.DefaultIfEmpty(new ItemReadTrackerModel { ItemIdentifier = master.Name, IsRead = 0 })
 
                    where tags?.Contains(tag.Name) == true || tag.Name.IsEmpty()
                    group new { master, mainContItem, primaryPic, metadata, tagItem, tag, itemReadStatus } by new { master.Id } into masterGroup
@@ -241,7 +241,7 @@ namespace WikiExtractor.Process
                        //Tags = masterGroup.Select(f => f.tag).Select(f => f.Name).Distinct().ToList(),
                        IsBusy = false,
                        ListHeight = minListHeight,
-                       ItemReadStatus = masterGroup.FirstOrDefault()!.itemReadStatus.IsRead,
+                       ItemReadStatus = masterGroup.FirstOrDefault()!.itemReadStatus.IsReadAsBool,
                    };
         }
 
@@ -354,13 +354,16 @@ namespace WikiExtractor.Process
         {
             try
             {
-                if (userStoreDatabase.ItemReadTrackerRepository.Get(f => f.ItemIdentifier.EqualsIgnoreCase(name)).Count() == 0)
+                var readStatusInt = readStatus ? 1 : 0;
+                var itemReadStatus = userStoreDatabase.ItemReadTrackerRepository.Get(f => f.ItemIdentifier.EqualsIgnoreCase(name)).FirstOrDefault();
+                if (itemReadStatus == null)
                 {
-                    userStoreDatabase.ItemReadTrackerRepository.Add(new ItemReadTrackerModel { ItemIdentifier = name, IsRead = readStatus }, checkAlreadyExists: true);
+                    userStoreDatabase.ItemReadTrackerRepository.Add(new ItemReadTrackerModel { ItemIdentifier = name, IsRead = readStatusInt }, checkAlreadyExists: true);
                 }
                 else
                 {
-                    userStoreDatabase.ItemReadTrackerRepository.Update(new ItemReadTrackerModel { ItemIdentifier = name, IsRead = readStatus });
+                    itemReadStatus.IsRead = readStatusInt;
+                    userStoreDatabase.ItemReadTrackerRepository.Update(itemReadStatus);
                 }
             }
             catch (Exception)
