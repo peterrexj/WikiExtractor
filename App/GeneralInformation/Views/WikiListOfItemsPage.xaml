@@ -450,8 +450,8 @@
                     </syncfusionList:SfListView>
 
                 </StackLayout>
-                <!--<StackLayout>
-                    <admob:MTAdView
+                <StackLayout x:Name="stackBannerAds">
+                    <!--<admob:MTAdView
                         AdsId="{Binding AdsBannerId}"
                         HeightRequest="{OnPlatform Android={OnIdiom Phone=50,
                                                                     Tablet=50},
@@ -461,8 +461,8 @@
                                                iOS=true,
                                                UWP=false,
                                                macOS=false,
-                                               WPF=false}" />
-                </StackLayout>-->
+                                               WPF=false}" />-->
+                </StackLayout>
             </StackLayout>
         </Grid>
     </ContentPage.Content>

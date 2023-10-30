@@ -42,7 +42,8 @@ namespace WikiExtractor.Repository
             var dataAvailable = Find(data);
             if (dataAvailable == null || dataAvailable.Count() == 0)
             {
-                Add(data, checkAlreadyExists: true);
+                DeleteAll();
+                Add(data, checkAlreadyExists: false);
             }
             else
             {
@@ -52,7 +53,7 @@ namespace WikiExtractor.Repository
 
         public int GetCount()
         {
-            var data = Get(d => d.RequestDate == DateTime.Today.Date).FirstOrDefault();
+            var data = Get(/*d => d.RequestDate == DateTime.Today.Date*/).FirstOrDefault();
             if (data == null)
                 return 0;
             else

@@ -50,7 +50,7 @@ namespace GeneralInformation
                         SwitchBusyIndicatorColorON = "Transparent",
                         SwitchThumbBorderColorON = "Transparent",
                         SwitchThumbColorON = "#D6DBDF", //  -- 884EA0
-                        SwitchTrackBorderColorON = "Transparent",
+                        SwitchTrackBorderColorON = "#D5D8DC",
                         SwitchTrackColorON = "#5D6D7E",  //  -- EBDEF0
 
                         SwitchBusyIndicatorColorOFF = "Transparent",

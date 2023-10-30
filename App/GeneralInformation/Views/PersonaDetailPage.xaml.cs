@@ -1,6 +1,7 @@
 ﻿using GeneralInformation.Exts;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
+using MarcTron.Plugin.Controls;
 using Pj.Library;
 using Syncfusion.XForms.Border;
 using Syncfusion.XForms.EffectsView;
@@ -168,7 +169,7 @@ namespace GeneralInformation.Views
                     personaDetailViewModel.TriggerEvents();
                     //RunOnAppDispatcher(() => tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount);
                     RunOnAppDispatcher(() => tabView.SelectedIndex = 0);
-
+                    RunOnAppDispatcher(InitializeAdsControls);
                 }
                 catch (Exception ex)
                 {
@@ -495,6 +496,35 @@ namespace GeneralInformation.Views
             catch (Exception ex)
             {
                 CaptureErrorOnPage(ex);
+            }
+        }
+
+        private void InitializeAdsControls()
+        {
+            try
+            {
+                if (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS)
+                {
+                    if (stackBannerAds.Children.Count == 0)
+                    {
+                        MTAdView ads = new MTAdView();
+                        ads.AdsId = personaDetailViewModel.AdsBannerId;
+                        ads.HeightRequest = 50;
+                        stackBannerAds.Children.Add(ads);
+                    }
+
+                    //if (stackBannerAdsOnPopup.Children.Count == 0)
+                    //{
+                    //    MTAdView ads = new MTAdView();
+                    //    ads.AdsId = personaDetailViewModel.AdsBannerId;
+                    //    ads.HeightRequest = 50;
+                    //    stackBannerAds.Children.Add(ads);
+                    //}
+                }
+            }
+            catch (Exception ex)
+            {
+                //ExceptionHandler.CaptureException(ex);
             }
         }
     }

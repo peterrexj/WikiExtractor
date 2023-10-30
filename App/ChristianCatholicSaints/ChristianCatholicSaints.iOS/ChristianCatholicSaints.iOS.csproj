@@ -29,8 +29,8 @@
     <MtouchDebug>true</MtouchDebug>
     <LangVersion>latest</LangVersion>
     <MtouchSdkVersion>17.0</MtouchSdkVersion>
-    <CodesignProvision>Automatic</CodesignProvision>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignProvision>VS: com.pj.ChristianCatholicSaints Development</CodesignProvision>
+    <CodesignKey>Apple Development: Created via API (965CR7HS5Q)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>

@@ -4,6 +4,7 @@ using GeneralInformation.Repository;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
 using MarcTron.Plugin;
+using MarcTron.Plugin.Controls;
 using Microsoft.AppCenter.Crashes;
 using Pj.Library;
 using Syncfusion.SfAutoComplete.XForms;
@@ -46,6 +47,7 @@ namespace GeneralInformation.Views
                     taskGroup.Add(() => personaListViewModel.Title = SharedServices.WikiAppController.AppMenuItems().FirstOrDefault(f => f.Tags == string.Join(",", Tags)).TitleOnThePage ?? string.Empty);
                     taskGroup.Add(() => personaListViewModel.HideItemRead = SettingsHelper.ShouldShowAlreadyReadItem());
                     taskGroup.Add(() => personaListViewModel.SortBySelectedIndex = Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)), SettingsHelper.GetSortAttributeBySelected(SettingsHelper.GetCurrentSortDescriptor())));
+                    taskGroup.Add(() => RunOnAppDispatcher(InitializeAdsControls));
                     taskGroup.Add(() => RunOnAppDispatcher(InitializeAdsService));
                     taskGroup.WaitAll();
 
@@ -114,7 +116,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-                Crashes.TrackError(ex);
+                ExceptionHandler.CaptureException(ex);
             }
             finally
             {
@@ -134,7 +136,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-                Crashes.TrackError(ex);
+                ExceptionHandler.CaptureException(ex);
             }
         }
 
@@ -173,7 +175,7 @@ namespace GeneralInformation.Views
                 }
                 catch (Exception ex)
                 {
-                    Crashes.TrackError(ex);
+                    ExceptionHandler.CaptureException(ex);
                 }
                 finally
                 {
@@ -210,7 +212,27 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-                Crashes.TrackError(ex);
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+        private void InitializeAdsControls()
+        {
+            try
+            {
+                if (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS)
+                {
+                    if (stackBannerAds.Children.Count == 0)
+                    {
+                        MTAdView ads = new MTAdView();
+                        ads.AdsId = personaListViewModel.AdsBannerId;
+                        ads.HeightRequest = 50;
+                        stackBannerAds.Children.Add(ads);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
             }
         }
         private void Current_OnInterstitialOpened(object sender, EventArgs e)
@@ -221,7 +243,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-                Crashes.TrackError(ex);
+                ExceptionHandler.CaptureException(ex);
             }
             finally
             {
@@ -245,7 +267,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-                Crashes.TrackError(ex);
+                ExceptionHandler.CaptureException(ex);
             }
         }
 
@@ -269,7 +291,7 @@ namespace GeneralInformation.Views
                 }
                 catch (Exception ex)
                 {
-                    Crashes.TrackError(ex);
+                    ExceptionHandler.CaptureException(ex);
                 }
             });
         }
@@ -310,7 +332,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-                Crashes.TrackError(ex);
+                ExceptionHandler.CaptureException(ex);
                 return true;
             }
         }
@@ -339,7 +361,7 @@ namespace GeneralInformation.Views
                 }
                 catch (Exception ex)
                 {
-                    Crashes.TrackError(ex);
+                    ExceptionHandler.CaptureException(ex);
                 }
             });
         }
@@ -355,7 +377,7 @@ namespace GeneralInformation.Views
                 }
                 catch (Exception ex)
                 {
-                    Crashes.TrackError(ex);
+                    ExceptionHandler.CaptureException(ex);
                 }
             });
         }
@@ -380,7 +402,7 @@ namespace GeneralInformation.Views
                 }
                 catch (Exception ex)
                 {
-                    Crashes.TrackError(ex);
+                    ExceptionHandler.CaptureException(ex);
                 }
             });
         }
@@ -400,7 +422,7 @@ namespace GeneralInformation.Views
                 }
                 catch (Exception ex)
                 {
-                    Crashes.TrackError(ex);
+                    ExceptionHandler.CaptureException(ex);
                 }
             });
         }
@@ -423,7 +445,7 @@ namespace GeneralInformation.Views
                 }
                 catch (Exception ex)
                 {
-                    Crashes.TrackError(ex);
+                    ExceptionHandler.CaptureException(ex);
                 }
                 finally
                 {
@@ -449,7 +471,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-                Crashes.TrackError(ex);
+                ExceptionHandler.CaptureException(ex);
             }
         }
         private async void btnThemePick_Clicked(object sender, EventArgs e)
@@ -474,7 +496,7 @@ namespace GeneralInformation.Views
                 }
                 catch (Exception ex)
                 {
-                    Crashes.TrackError(ex);
+                    ExceptionHandler.CaptureException(ex);
                 }
             });
         }
@@ -501,7 +523,7 @@ namespace GeneralInformation.Views
         //        }
         //        catch (Exception ex)
         //        {
-        //            Crashes.TrackError(ex);
+        //            ExceptionHandler.CaptureException(ex);
         //        }
         //    });
         //}
@@ -519,7 +541,7 @@ namespace GeneralInformation.Views
                 }
                 catch (Exception ex)
                 {
-                    Crashes.TrackError(ex);
+                    ExceptionHandler.CaptureException(ex);
                 }
             });
         }
@@ -560,7 +582,7 @@ namespace GeneralInformation.Views
                     }
                     catch (Exception ex)
                     {
-                        Crashes.TrackError(ex);
+                        ExceptionHandler.CaptureException(ex);
                     }
                     finally
                     {
