@@ -37,10 +37,12 @@ namespace ChristianCatholicSaints.iOS
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
             TaskScheduler.UnobservedTaskException += TaskScheduler_UnobservedTaskException;
 
+            SQLitePCL.Batteries_V2.Init();
+
             global::Xamarin.Forms.Forms.Init();
+
             SfPopupLayoutRenderer.Init();
             LoadApplication(new App());
-
             try
             {
                 MobileAds.SharedInstance.Start(CompletionHandler);
@@ -61,8 +63,6 @@ namespace ChristianCatholicSaints.iOS
             SfChipGroupRenderer.Init();
             SfSegmentedControlRenderer.Init();
             SfTabViewRenderer.Init();
-
-            SQLitePCL.Batteries_V2.Init();
 
 #if DEBUG
             DisplayCrashReport();

@@ -16,26 +16,25 @@ namespace GeneralInformation
         public App()
         {
             InitializeComponent();
-            ThemeHelper.UpdateAppThemes(ThemeHelper.GetDefaultStyle());
+            var appCentreKey = DependencyService.Get<IAppInformation>().AppCentreAppKey;
 
-            MainPage = new AppShell();
             if (!AppCenter.Configured)
             {
                 if (Xamarin.Forms.Device.RuntimePlatform == Xamarin.Forms.Device.Android)
                 {
-                    AppCenter.Start($"android={DependencyService.Get<IAppInformation>().AppCentreAppKey};", typeof(Analytics), typeof(Crashes));
+                    AppCenter.Start($"android={appCentreKey};", typeof(Analytics), typeof(Crashes));
                 }
                 else if (Xamarin.Forms.Device.RuntimePlatform == Xamarin.Forms.Device.iOS)
                 {
-                    AppCenter.Start($"ios={DependencyService.Get<IAppInformation>().AppCentreAppKey};", typeof(Analytics), typeof(Crashes));
+                    AppCenter.Start($"ios={appCentreKey};", typeof(Analytics), typeof(Crashes));
                 }
                 else if (Xamarin.Forms.Device.RuntimePlatform == Xamarin.Forms.Device.UWP)
                 {
-                    AppCenter.Start($"uwp={DependencyService.Get<IAppInformation>().AppCentreAppKey};", typeof(Analytics), typeof(Crashes));
+                    AppCenter.Start($"uwp={appCentreKey};", typeof(Analytics), typeof(Crashes));
                 }
                 else
                 {
-                    AppCenter.Start($"android={DependencyService.Get<IAppInformation>().AppCentreAppKey};"
+                    AppCenter.Start($"android={appCentreKey};"
                           //  +
                           //"uwp={Your UWP App secret here};" +
                           //"ios={Your iOS App secret here};"
@@ -49,6 +48,15 @@ namespace GeneralInformation
             if (ConfigData.LocalStorageCacheFolderPath.IsEmpty())
             {
                 Crashes.TrackError(new Exception("LocalStorageCacheFolderPath is empty!"));
+            }
+            try
+            {
+                MainPage = new AppShell();
+                ThemeHelper.UpdateAppThemes(ThemeHelper.GetDefaultStyle());
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex, $"AppCentre: {(appCentreKey ?? "not found!")}");
             }
         }
 

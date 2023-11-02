@@ -70,13 +70,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARM64</MtouchArch>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchInterpreter>-all</MtouchInterpreter>  
     <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
+    <CodesignProvision>CatholicSaintsProvisionProfile</CodesignProvision>
     <CodesignEntitlements>
     </CodesignEntitlements>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
-    <MtouchLink>SdkOnly</MtouchLink>
-    <CodesignProvision>CatholicSaintsProvisionProfile</CodesignProvision>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
     <AppExtensionDebugBundleId />

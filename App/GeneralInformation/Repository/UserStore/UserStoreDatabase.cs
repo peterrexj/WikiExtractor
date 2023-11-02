@@ -17,7 +17,26 @@ namespace GeneralInformation.Repository.UserStore
 
         public UserStoreDatabase() : base(DatabaseHelper.DatabaseType.SqLiteDevice, DependencyService.Get<ILocalStorage>().SqlLiteHelper)
         {
-            InitializeDatabase();
+            try
+            {
+                if (_dbHelper.DbHelper.CanConnect == false)
+                {
+                    ExceptionHandler.CaptureException(new System.Exception("Cannot connect to the Datastore!"));
+                }
+            }
+            catch (System.Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+            try
+            {
+                InitializeDatabase();
+            }
+            catch (System.Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+                //throw;
+            }
         }
 
         public override void InitializeDatabase()
