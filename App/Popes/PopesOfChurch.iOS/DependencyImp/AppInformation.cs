@@ -7,11 +7,11 @@ namespace Wiki.iOS
 {
     public class AppInformation : IAppInformation
     {
-        public string AppCentreAppKey => "c335a6cd-9eaa-4382-97f1-0028cbd5c2c2";
+        public string AppCentreAppKey => "2814afe4-9e78-4962-896c-ba5e70506ac2";
 
-        public string AdsBannerId => "ca-app-pub-4219645367584712/4824498021";
+        public string AdsBannerId => "ca-app-pub-4219645367584712/8224449302";
        
-        public string AdsInterstitialId => "ca-app-pub-4219645367584712/6454657353";
+        public string AdsInterstitialId => "ca-app-pub-4219645367584712/1495389423";
 
         public int ShowFirstInterstitialAdOnClickLimit => 1;
 
