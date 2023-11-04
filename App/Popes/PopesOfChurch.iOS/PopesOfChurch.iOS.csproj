@@ -99,9 +99,9 @@
     <Compile Include="DependencyImp\AppInformation.cs" />
     <Compile Include="DependencyImp\LocalStorage.cs" />
     <Compile Include="DependencyImp\SqliteFileHelper_iOS.cs" />
-    <None Include="..\..\Databases\WikiStorePopes.db">
+    <BundleResource Include="..\..\Databases\WikiStorePopes.db">
       <Link>WikiStorePopes.db</Link>
-    </None>
+    </BundleResource>
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
