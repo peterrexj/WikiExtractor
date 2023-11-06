@@ -9,7 +9,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.DS_Store
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -367,3 +366,6 @@ FodyWeavers.xsd
 /Results
 /local-settings*.json
 /App/Databases/UserStore.db
+
+# Mac ds store files
+**/*.DS_Store
