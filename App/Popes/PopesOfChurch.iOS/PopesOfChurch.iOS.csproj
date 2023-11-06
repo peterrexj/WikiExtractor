@@ -59,7 +59,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
-    <CodesignProvision>VS: com.pj.ChristianCatholicSaints Development</CodesignProvision>
+    <CodesignProvision>VS: com.pj.popesofchurch Development</CodesignProvision>
     <DeviceSpecificBuild>false</DeviceSpecificBuild>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>

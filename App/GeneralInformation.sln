@@ -377,6 +377,7 @@ Global
 		{1F3EF033-C41B-4576-9946-F21D662B197C}.Debug|ARM.Build.0 = Debug|iPhoneSimulator
 		{1F3EF033-C41B-4576-9946-F21D662B197C}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{1F3EF033-C41B-4576-9946-F21D662B197C}.Debug|iPhone.Build.0 = Debug|iPhone
+		{1F3EF033-C41B-4576-9946-F21D662B197C}.Debug|iPhone.Deploy.0 = Debug|iPhone
 		{1F3EF033-C41B-4576-9946-F21D662B197C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{1F3EF033-C41B-4576-9946-F21D662B197C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{1F3EF033-C41B-4576-9946-F21D662B197C}.Debug|x64.ActiveCfg = Debug|iPhoneSimulator
