@@ -29,7 +29,7 @@
     <MtouchDebug>true</MtouchDebug>
     <LangVersion>latest</LangVersion>
     <MtouchSdkVersion>17.0</MtouchSdkVersion>
-    <CodesignProvision>VS: com.pj.ChristianCatholicSaints Development</CodesignProvision>
+    <CodesignProvision>Automatic</CodesignProvision>
     <CodesignKey>Apple Development: Created via API (965CR7HS5Q)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
@@ -43,7 +43,7 @@
     <LangVersion>latest</LangVersion>
     <OptimizePNGs>true</OptimizePNGs>
     <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
-    <CodesignProvision>CatholicSaintsProvisionProfile</CodesignProvision>
+    <CodesignProvision>Automatic</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
