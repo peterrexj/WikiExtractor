@@ -73,7 +73,7 @@
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
     <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
-    <CodesignProvision>CatholicSaintsProvisionProfile</CodesignProvision>
+    <CodesignProvision>PopeOfTheChurchProvisionProfile</CodesignProvision>
     <CodesignEntitlements>
     </CodesignEntitlements>
     <LangVersion>latest</LangVersion>

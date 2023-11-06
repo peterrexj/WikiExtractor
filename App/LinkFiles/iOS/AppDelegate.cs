@@ -1,6 +1,7 @@
 ﻿using Foundation;
 using GeneralInformation;
 using Google.MobileAds;
+using Microsoft.AppCenter.Crashes;
 using Syncfusion.ListView.XForms.iOS;
 using Syncfusion.SfAutoComplete.XForms.iOS;
 using Syncfusion.XForms.iOS.Buttons;
