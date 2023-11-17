@@ -23,7 +23,7 @@
 	<key>MinimumOSVersion</key>
 	<string>11.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>World Nations</string>
+	<string>Countries Insights</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.pj.countriesofworld</string>
 	<key>CFBundleVersion</key>
@@ -31,7 +31,7 @@
 	<key>UILaunchStoryboardName</key>
 	<string>SplashScreen</string>
 	<key>CFBundleName</key>
-	<string>Popes</string>
+	<string>Countries Insight</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>UIRequiresPersistentWiFi</key>
