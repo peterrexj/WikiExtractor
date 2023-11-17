@@ -27,9 +27,11 @@ namespace Wiki.iOS
         #endregion
 
         public string TextOnFirstTabInformationOnDetailPage => "Popes facts";
-        public int CarouselImageLoadMoreItemsCount => 5;
 
         public string ImageCacheFolder => System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData);
         public int ImageCacheTotalDaysToInvalidate => 30;
+
+        public string DbWikiStore => "WikiStorePopes.db";
+        public string DbUserStore => "PopesUserStore.db";
     }
 }

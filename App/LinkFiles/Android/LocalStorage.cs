@@ -1,14 +1,35 @@
-﻿using PopesOfChurch.Droid.DeviceDependencyImpl;
+﻿using GeneralInformation.Services;
 using Pj.Library.Mobile.DeviceDependency;
 using System;
 using System.IO;
+using Wiki.Droid;
 using Xamarin.Forms;
 
-[assembly: Dependency(typeof(SqliteFileHelper_Android))]
-namespace PopesOfChurch.Droid.DeviceDependencyImpl
+[assembly: Dependency(typeof(LocalStorage))]
+namespace Wiki.Droid
 {
-    public class SqliteFileHelper_Android : ISqlitHelper
+    public class LocalStorage : ILocalStorage
     {
+        private ISqlitHelper _qlitHelper;
+        public ISqlitHelper SqlLiteHelper
+        {
+            get
+            {
+                if (_qlitHelper == null)
+                {
+                    _qlitHelper = new LocalStorageFactory();
+                }
+                return _qlitHelper;
+            }
+        }
+    }
+
+    public class LocalStorageFactory : ISqlitHelper
+    {
+        public LocalStorageFactory() 
+        {
+        }
+
         public bool CopyDatabase()
         {
             try
@@ -35,10 +56,10 @@ namespace PopesOfChurch.Droid.DeviceDependencyImpl
         }
 
         public string PlatformDatabasePath =>
-            Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), DatabaseFileName);
-        public string DatabaseFileName => "WikiStorePopes.db";
-        public bool IsDatabaseOnCopyMode => true;
-        public int CurrentVersion => 0;
+            Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), DatabaseFileName);
+        public string DatabaseFileName => DependencyService.Get<IAppInformation>().DbUserStore;
+        public bool IsDatabaseOnCopyMode => false;
+        public int CurrentVersion => 2;
         public bool HasSettingsTable => true;
 
         private bool _forceCopy;

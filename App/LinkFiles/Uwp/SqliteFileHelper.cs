@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Windows.Storage;
 using Pj.Library;
+using GeneralInformation.Services;
 
 [assembly: Dependency(typeof(SqliteFileHelper_Uwp))]
 namespace ChristianCatholicSaints.UWP.DeviceDependencyImpl
@@ -22,7 +23,7 @@ namespace ChristianCatholicSaints.UWP.DeviceDependencyImpl
         public string PlatformDatabasePath => Path.Combine(Windows.ApplicationModel.Package.Current.InstalledLocation.Path, "Assets", DatabaseFileName);
         //public string PlatformDatabasePath => Path.Combine(rootFolder, DatabaseFileName);
 
-        public string DatabaseFileName => "WikiStoreSaints.db";
+        public string DatabaseFileName => DependencyService.Get<IAppInformation>().DbWikiStore;
 
         public bool IsDatabaseOnCopyMode => true;
 

@@ -93,12 +93,16 @@
     <Compile Include="..\..\LinkFiles\iOS\ConfigHelper.cs">
       <Link>DependencyImp\ConfigHelper.cs</Link>
     </Compile>
+    <Compile Include="..\..\LinkFiles\iOS\LocalStorage.cs">
+      <Link>DependencyImp\LocalStorage.cs</Link>
+    </Compile>
     <Compile Include="..\..\LinkFiles\iOS\Main.cs">
       <Link>Main.cs</Link>
     </Compile>
+    <Compile Include="..\..\LinkFiles\iOS\SqliteFileHelper.cs">
+      <Link>DependencyImp\SqliteFileHelper.cs</Link>
+    </Compile>
     <Compile Include="DependencyImp\AppInformation.cs" />
-    <Compile Include="DependencyImp\LocalStorage.cs" />
-    <Compile Include="DependencyImp\SqliteFileHelper_iOS.cs" />
     <BundleResource Include="..\..\Databases\WikiStorePopes.db">
       <Link>WikiStorePopes.db</Link>
     </BundleResource>

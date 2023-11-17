@@ -17,6 +17,8 @@
         int StyleOnListItemHeightRequestOnListPageDesktop { get; }
 
         string TextOnFirstTabInformationOnDetailPage { get; }
-        int CarouselImageLoadMoreItemsCount { get; }
+
+        string DbWikiStore {  get; }
+        string DbUserStore { get; }
     }
 }

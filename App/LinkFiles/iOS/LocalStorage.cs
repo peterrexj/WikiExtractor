@@ -31,7 +31,7 @@ namespace Wiki.iOS
         public bool CopyDatabase() => true;
 
         public string PlatformDatabasePath => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), DatabaseFileName);
-        public string DatabaseFileName => "PopesUserStore.db";
+        public string DatabaseFileName => DependencyService.Get<IAppInformation>().DbUserStore;
         public bool IsDatabaseOnCopyMode => false;
         public int CurrentVersion => 2;
         public bool HasSettingsTable => true;

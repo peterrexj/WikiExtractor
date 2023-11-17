@@ -1,10 +1,11 @@
-﻿using System.Collections.Concurrent;
+﻿using Android.App;
+using System.Collections.Concurrent;
 using System.IO;
 using System.Linq;
 
-namespace GeneralInformation
+namespace Wiki.Droid
 {
-    internal static class ConfigHelperDroid
+    internal static class ConfigHelper
     {
         public static ConcurrentDictionary<string, string> Configs { get; set; }
         public static string SyncFusionLicense => Configs?.FirstOrDefault(f => f.Key == "SyncFusionLicense").Value ?? "";
@@ -12,7 +13,7 @@ namespace GeneralInformation
         {
             
             string content;
-            using (var streamReader = new StreamReader(Android.App.Application.Context.Assets.Open("CommonConfigs.json")))
+            using (var streamReader = new StreamReader(Application.Context.Assets.Open("CommonConfigs.json")))
             {
                 content = streamReader.ReadToEnd();
             }

@@ -1,17 +1,17 @@
-﻿using WorldLeaders.Droid.DeviceDependencyImpl;
-using GeneralInformation.Services;
+﻿using GeneralInformation.Services;
+using Wiki.Droid;
 using Xamarin.Forms;
 
-[assembly: Dependency(typeof(AppInformation_Android))]
-namespace WorldLeaders.Droid.DeviceDependencyImpl
+[assembly: Dependency(typeof(AppInformation))]
+namespace Wiki.Droid
 {
-    public class AppInformation_Android : IAppInformation
+    public class AppInformation : IAppInformation
     {
         public string AppCentreAppKey => "4a88ff7e-2001-4194-8ed2-3913845c6fe0";
 
-        public string AdsBannerId => "ca-app-pub-4219645367584712/5897223389";
+        public string AdsBannerId => "ca-app-pub-4219645367584712/9833451000";
 
-        public string AdsInterstitialId => "ca-app-pub-4219645367584712/4584141715";
+        public string AdsInterstitialId => "ca-app-pub-4219645367584712/3235891676";
 
         public int ShowFirstInterstitialAdOnClickLimit => 1;
 
@@ -25,10 +25,12 @@ namespace WorldLeaders.Droid.DeviceDependencyImpl
         public int StyleOnListItemHeightRequestOnListPageTablet => 200;
         public int StyleOnListItemHeightRequestOnListPageDesktop => 200;
         #endregion
-        public string TextOnFirstTabInformationOnDetailPage => "Leader facts";
-        public int CarouselImageLoadMoreItemsCount => 5;
+        public string TextOnFirstTabInformationOnDetailPage => "Saint facts";
 
         public string ImageCacheFolder => System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData);
         public int ImageCacheTotalDaysToInvalidate => 30;
+
+        public string DbWikiStore => "WikiStoreSaints.db";
+        public string DbUserStore => "SaintsUserStore.db";
     }
 }

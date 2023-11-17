@@ -1,9 +1,10 @@
-﻿using Foundation;
-using Pj.Library.Mobile.DeviceDependency;
-using System;
+﻿using Pj.Library.Mobile.DeviceDependency;
 using System.IO;
-using Wiki.iOS;
+using System;
 using Xamarin.Forms;
+using Foundation;
+using GeneralInformation.Services;
+using Wiki.iOS;
 
 [assembly: Dependency(typeof(SqliteFileHelper))]
 namespace Wiki.iOS
@@ -38,7 +39,7 @@ namespace Wiki.iOS
 
         string BundledPath => Path.Combine(NSBundle.MainBundle.BundlePath, DatabaseFileName);
         public string PlatformDatabasePath => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), DatabaseFileName);
-        public string DatabaseFileName => "WikiStorePopes.db";
+        public string DatabaseFileName => DependencyService.Get<IAppInformation>().DbWikiStore;
         public bool IsDatabaseOnCopyMode => true;
         public int CurrentVersion => 0;
         public bool HasSettingsTable => true;

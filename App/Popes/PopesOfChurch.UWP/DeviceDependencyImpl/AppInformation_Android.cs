@@ -27,9 +27,11 @@ namespace PopesOfChurch.Droid.DeviceDependencyImpl
         #endregion
 
         public string TextOnFirstTabInformationOnDetailPage => "Pope facts";
-        public int CarouselImageLoadMoreItemsCount => 5;
 
         public string ImageCacheFolder => System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData);
         public int ImageCacheTotalDaysToInvalidate => 30;
+
+        public string DbWikiStore => "WikiStorePopes.db";
+        public string DbUserStore => "PopesUserStore.db";
     }
 }

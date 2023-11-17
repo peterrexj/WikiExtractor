@@ -1,24 +1,16 @@
-﻿using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
+﻿using Android.OS;
 using Android.Views;
-using Android.Widget;
-using WorldLeaders.Droid.DeviceDependencyImpl;
 using GeneralInformation;
 using GeneralInformation.Models.Mix;
 using GeneralInformation.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using Wiki.Droid;
 
-[assembly: Dependency(typeof(AppEnvironment_Android))]
-namespace WorldLeaders.Droid.DeviceDependencyImpl
+[assembly: Dependency(typeof(AppEnvironment))]
+namespace Wiki.Droid
 {
-    public class AppEnvironment_Android : IAppEnvironment
+    public class AppEnvironment : IAppEnvironment
     {
         public IStyleModel GetStyle(AppThemes theme)
         {
@@ -29,7 +21,7 @@ namespace WorldLeaders.Droid.DeviceDependencyImpl
 
         public void SetStatusBarColor(System.Drawing.Color color, bool darkStatusBarTint)
         {
-            if (Build.VERSION.SdkInt < Android.OS.BuildVersionCodes.Lollipop)
+            if (Build.VERSION.SdkInt < BuildVersionCodes.Lollipop)
                 return;
 
             var activity = Platform.CurrentActivity;

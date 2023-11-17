@@ -84,13 +84,25 @@
     <AppExtensionDebugBundleId />
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DependencyImp\AppEnvironment_iOS.cs" />
-    <Compile Include="DependencyImp\AppInformation_iOS.cs" />
-    <Compile Include="DependencyImp\ConfigHelperiOS.cs" />
-    <Compile Include="DependencyImp\LocalStorage_iOS.cs" />
-    <Compile Include="DependencyImp\SqliteFileHelper_iOS.cs" />
-    <Compile Include="Main.cs" />
-    <Compile Include="AppDelegate.cs" />
+    <Compile Include="..\..\LinkFiles\iOS\AppDelegate.cs">
+      <Link>AppDelegate.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\iOS\AppEnvironment.cs">
+      <Link>DependencyImp\AppEnvironment.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\iOS\ConfigHelper.cs">
+      <Link>DependencyImp\ConfigHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\iOS\LocalStorage.cs">
+      <Link>DependencyImp\LocalStorage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\iOS\Main.cs">
+      <Link>Main.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\iOS\SqliteFileHelper.cs">
+      <Link>DependencyImp\SqliteFileHelper.cs</Link>
+    </Compile>
+    <Compile Include="DependencyImp\AppInformation.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />

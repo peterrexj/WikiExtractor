@@ -1,11 +1,11 @@
-﻿using CountriesOfWorld.Droid.DeviceDependencyImpl;
-using GeneralInformation.Services;
+﻿using GeneralInformation.Services;
+using Wiki.Droid;
 using Xamarin.Forms;
 
-[assembly: Dependency(typeof(AppInformation_Android))]
-namespace CountriesOfWorld.Droid.DeviceDependencyImpl
+[assembly: Dependency(typeof(AppInformation))]
+namespace Wiki.Droid
 {
-    public class AppInformation_Android : IAppInformation
+    public class AppInformation : IAppInformation
     {
         public string AppCentreAppKey => "eda9cb2c-4d70-49ba-a98f-6e54d37873d2";
 
@@ -26,9 +26,11 @@ namespace CountriesOfWorld.Droid.DeviceDependencyImpl
         public int StyleOnListItemHeightRequestOnListPageDesktop => 250;
         #endregion
         public string TextOnFirstTabInformationOnDetailPage => "Country facts";
-        public int CarouselImageLoadMoreItemsCount => 5;
 
         public string ImageCacheFolder => System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData);
         public int ImageCacheTotalDaysToInvalidate => 30;
+
+        public string DbWikiStore => "WikiStoreCountries.db";
+        public string DbUserStore => "CountryUserStore.db";
     }
 }

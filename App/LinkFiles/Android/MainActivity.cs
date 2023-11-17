@@ -1,26 +1,30 @@
-﻿using Android.App;
-using Android.Content.PM;
-using Android.Gms.Ads;
-using Android.OS;
-using Android.Runtime;
-using GeneralInformation;
-using Microsoft.AppCenter.Crashes;
-using Pj.Library;
-using Syncfusion.XForms.Android.PopupLayout;
-using System;
-using System.Threading.Tasks;
-using TestAny.Essentials.Core;
+﻿using System;
 
-namespace WorldLeaders.Droid
+using Android.App;
+using Android.Content.PM;
+using Android.Runtime;
+using Android.OS;
+using Pj.Library;
+using Android.Views;
+using GeneralInformation;
+using System.Diagnostics;
+using System.Threading.Tasks;
+using System.IO;
+using Android.Gms.Ads;
+using Microsoft.AppCenter.Crashes;
+using TestAny.Essentials.Core;
+using Syncfusion.XForms.Android.PopupLayout;
+
+namespace Wiki.Droid
 {
-    [Activity(Label = "WorldLeaders", Icon = "@mipmap/icon", Theme = "@style/MainTheme", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
+    [Activity(Label = "Saints", Icon = "@mipmap/icon", Theme = "@style/MainTheme", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            GeneralInformation.ConfigHelperDroid.LoadConfig();
-
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(GeneralInformation.ConfigHelperDroid.SyncFusionLicense);
+            ConfigHelper.LoadConfig();
+            
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(ConfigHelper.SyncFusionLicense);
             base.OnCreate(savedInstanceState);
 
             AndroidEnvironment.UnhandledExceptionRaiser += AndroidEnvironment_UnhandledExceptionRaiser;

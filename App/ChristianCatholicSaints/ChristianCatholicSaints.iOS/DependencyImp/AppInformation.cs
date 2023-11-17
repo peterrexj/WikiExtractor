@@ -1,17 +1,17 @@
-﻿using PopesOfChurch.Droid.DeviceDependencyImpl;
-using GeneralInformation.Services;
+﻿using GeneralInformation.Services;
+using Wiki.iOS;
 using Xamarin.Forms;
 
-[assembly: Dependency(typeof(AppInformation_Android))]
-namespace PopesOfChurch.Droid.DeviceDependencyImpl
+[assembly: Dependency(typeof(AppInformation))]
+namespace Wiki.iOS
 {
-    public class AppInformation_Android : IAppInformation
+    public class AppInformation : IAppInformation
     {
-        public string AppCentreAppKey => "0bfcd53d-06a1-4bc3-86ab-03ca67d866e8";
+        public string AppCentreAppKey => "c335a6cd-9eaa-4382-97f1-0028cbd5c2c2";
 
-        public string AdsBannerId => "ca-app-pub-4219645367584712/5749138243";
-
-        public string AdsInterstitialId => "ca-app-pub-4219645367584712/3071004011";
+        public string AdsBannerId => "ca-app-pub-4219645367584712/4824498021";
+       
+        public string AdsInterstitialId => "ca-app-pub-4219645367584712/6454657353";
 
         public int ShowFirstInterstitialAdOnClickLimit => 1;
 
@@ -25,10 +25,12 @@ namespace PopesOfChurch.Droid.DeviceDependencyImpl
         public int StyleOnListItemHeightRequestOnListPageTablet => 200;
         public int StyleOnListItemHeightRequestOnListPageDesktop => 200;
         #endregion
-        public string TextOnFirstTabInformationOnDetailPage => "Pope facts";
-        public int CarouselImageLoadMoreItemsCount => 5;
+        public string TextOnFirstTabInformationOnDetailPage => "Saint facts";
 
         public string ImageCacheFolder => System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData);
         public int ImageCacheTotalDaysToInvalidate => 30;
+
+        public string DbWikiStore => "WikiStoreSaints.db";
+        public string DbUserStore => "SaintsUserStore.db";
     }
 }

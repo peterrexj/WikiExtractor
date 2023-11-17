@@ -1,13 +1,14 @@
-﻿using WorldLeaders.Droid.DeviceDependencyImpl;
+﻿using GeneralInformation.Services;
 using Pj.Library.Mobile.DeviceDependency;
 using System;
 using System.IO;
+using Wiki.Droid;
 using Xamarin.Forms;
 
-[assembly: Dependency(typeof(SqliteFileHelper_Android))]
-namespace WorldLeaders.Droid.DeviceDependencyImpl
+[assembly: Dependency(typeof(SqliteFileHelper))]
+namespace Wiki.Droid
 {
-    public class SqliteFileHelper_Android : ISqlitHelper
+    public class SqliteFileHelper : ISqlitHelper
     {
         public bool CopyDatabase()
         {
@@ -36,7 +37,7 @@ namespace WorldLeaders.Droid.DeviceDependencyImpl
 
         public string PlatformDatabasePath =>
             Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), DatabaseFileName);
-        public string DatabaseFileName => "WikiStoreWorldLeaders.db";
+        public string DatabaseFileName => DependencyService.Get<IAppInformation>().DbWikiStore;
         public bool IsDatabaseOnCopyMode => true;
         public int CurrentVersion => 0;
         public bool HasSettingsTable => true;

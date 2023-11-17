@@ -1,10 +1,10 @@
-﻿using ChristianCatholicSaints.Droid.DeviceDependencyImpl;
-using GeneralInformation.Services;
+﻿using GeneralInformation.Services;
+using Wiki.Uwp;
 using Windows.Storage;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(AppInformation))]
-namespace ChristianCatholicSaints.Droid.DeviceDependencyImpl
+namespace Wiki.Uwp
 {
     public class AppInformation : IAppInformation
     {
@@ -27,9 +27,11 @@ namespace ChristianCatholicSaints.Droid.DeviceDependencyImpl
         public int StyleOnListItemHeightRequestOnListPageDesktop => 128;
         #endregion
         public string TextOnFirstTabInformationOnDetailPage => "Saint facts";
-        public int CarouselImageLoadMoreItemsCount => 5;
 
         public string ImageCacheFolder => ApplicationData.Current.LocalFolder.Path;
         public int ImageCacheTotalDaysToInvalidate => 30;
+
+        public string DbWikiStore => "WikiStoreSaints.db";
+        public string DbUserStore => "SaintsUserStore.db";
     }
 }

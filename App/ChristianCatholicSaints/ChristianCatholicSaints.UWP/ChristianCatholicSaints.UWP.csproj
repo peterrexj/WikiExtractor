@@ -98,16 +98,22 @@
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\LinkFiles\ConfigHelperUwp.cs">
-      <Link>DeviceDependencyImpl\ConfigHelperUwp.cs</Link>
+    <Compile Include="..\..\LinkFiles\Uwp\AppEnvironment.cs">
+      <Link>DependencyInjection\AppEnvironment.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\Uwp\ConfigHelper.cs">
+      <Link>DependencyInjection\ConfigHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\Uwp\LocalStorage.cs">
+      <Link>DependencyInjection\LocalStorage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\Uwp\SqliteFileHelper.cs">
+      <Link>DependencyInjection\SqliteFileHelper.cs</Link>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DeviceDependencyImpl\AppEnvironment_Uwp.cs" />
-    <Compile Include="DeviceDependencyImpl\AppInformation_Uwp.cs" />
-    <Compile Include="DeviceDependencyImpl\LocalStorage_Uwp.cs" />
-    <Compile Include="DeviceDependencyImpl\SqliteFileHelper_Uwp.cs" />
+    <Compile Include="DependencyInjection\AppInformation.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

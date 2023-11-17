@@ -106,17 +106,27 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\LinkFiles\ConfigHelperDroid.cs">
-      <Link>DeviceDependencyImpl\ConfigHelperDroid.cs</Link>
+    <Compile Include="..\..\LinkFiles\Android\AppEnvironment.cs">
+      <Link>DependencyInjection\AppEnvironment.cs</Link>
     </Compile>
-    <Compile Include="DeviceDependencyImpl\AppInformation_Android.cs" />
-    <Compile Include="DeviceDependencyImpl\AppEnvironment_Andriod.cs" />
-    <Compile Include="DeviceDependencyImpl\LocalStorage_Android.cs" />
-    <Compile Include="DeviceDependencyImpl\SqliteFileHelper_Android.cs" />
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="..\..\LinkFiles\Android\ConfigHelper.cs">
+      <Link>DependencyInjection\ConfigHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\Android\LocalStorage.cs">
+      <Link>DependencyInjection\LocalStorage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\Android\MainActivity.cs">
+      <Link>MainActivity.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\Android\SplashActivity.cs">
+      <Link>SplashActivity.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\Android\SqliteFileHelper.cs">
+      <Link>DependencyInjection\SqliteFileHelper.cs</Link>
+    </Compile>
+    <Compile Include="DependencyInjection\AppInformation.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SplashActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="..\..\LinkFiles\CommonConfigs.json">
