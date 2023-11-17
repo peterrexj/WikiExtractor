@@ -164,12 +164,12 @@ namespace GeneralInformation.Views
                         SharedServices.PageDataTransferModel.IsMarkedAsViewed = personaObj.ItemReadStatus;
                     });
 
-#if DEBUG == false
+//#if DEBUG == false
                     if (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS)
                     {
                         taskGroup.Add(() => LoadInterstitialAds());
                     }
-#endif
+//#endif
 
                     taskGroup.WaitAll();
                 }
@@ -254,8 +254,10 @@ namespace GeneralInformation.Views
         {
             try
             {
-                if (DatabaseService.UserStoreDatabase.RequestRecordRepository.RequestOnLimit &&
-                    CrossMTAdmob.Current.IsInterstitialLoaded())
+                //disabling the Interstitial loaded to false
+                /*&& CrossMTAdmob.Current.IsInterstitialLoaded()*/
+
+                if (DatabaseService.UserStoreDatabase.RequestRecordRepository.RequestOnLimit)
                 {
                     RunOnAppDispatcher(() =>
                     {
