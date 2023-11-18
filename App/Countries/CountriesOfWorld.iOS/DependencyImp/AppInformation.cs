@@ -16,7 +16,7 @@ namespace Wiki.iOS
         public int ShowFirstInterstitialAdOnClickLimit => 1;
 
         public int ShowLaterInterstitialAdOnClickLimit => 5;
-
+            
         #region Style Implementation
 
         public int StyleOnImageHeightRequestOnListPage => 130;

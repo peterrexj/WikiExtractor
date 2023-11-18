@@ -229,7 +229,7 @@
                                             TextColor="{Binding DefaultStyle.SubPageTopHeaderFontColor, Converter={StaticResource stringToColorConverter}}"
                                             VerticalTextAlignment="Center" />
                                         <StackLayout x:Name="stackBannerAdsOnPopup" Grid.Row="2">
-                                            <!--<admob:MTAdView
+                                            <admob:MTAdView
                                                 AdsId="{Binding AdsBannerId}"
                                                 HeightRequest="{OnPlatform Android={OnIdiom Phone=50,
                                                                                             Tablet=50},
@@ -239,7 +239,7 @@
                                                                        iOS=true,
                                                                        UWP=false,
                                                                        macOS=false,
-                                                                       WPF=false}" />-->
+                                                                       WPF=false}" />
                                         </StackLayout>
                                     </Grid>
                                 </Grid>
