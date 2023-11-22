@@ -59,7 +59,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
-    <CodesignProvision>VS: com.pj.popesofchurch Development</CodesignProvision>
+    <CodesignProvision>VS: com.pj.countriesofworld Development</CodesignProvision>
     <DeviceSpecificBuild>false</DeviceSpecificBuild>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -73,7 +73,7 @@
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
     <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
-    <CodesignProvision>PopeOfTheChurchProvisionProfile</CodesignProvision>
+    <CodesignProvision>WorldNationsProvisionProfile</CodesignProvision>
     <CodesignEntitlements>
     </CodesignEntitlements>
     <LangVersion>latest</LangVersion>
