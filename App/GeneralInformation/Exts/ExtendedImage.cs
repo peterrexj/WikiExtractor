@@ -89,26 +89,28 @@ namespace GeneralInformation
             get => base.Source;
             set
             {
-                RunOnAppDispatcher(() =>
-                {
-                    try
+                Task.Run(() =>
+                    RunOnAppDispatcher(() =>
                     {
-                        if (value is UriImageSource uriImageSource && uriImageSource.Uri != null)
+                        try
                         {
-                            base.Source = null;
-                            LoadImageAsync(uriImageSource.Uri.ToString());
+                            if (value is UriImageSource uriImageSource && uriImageSource.Uri != null)
+                            {
+                                base.Source = null;
+                                LoadImageAsync(uriImageSource.Uri.ToString());
+                            }
+                            else
+                            {
+                                base.Source = null;
+                                base.Source = ImageSource.FromFile(((Xamarin.Forms.FileImageSource)value).File);
+                            }
                         }
-                        else
+                        catch (Exception ex)
                         {
-                            base.Source = null;
-                            base.Source = ImageSource.FromFile(((Xamarin.Forms.FileImageSource)value).File);
+                            ExceptionHandler.CaptureException(ex);
                         }
-                    }
-                    catch (Exception ex)
-                    {
-                        ExceptionHandler.CaptureException(ex);
-                    }
-                });
+                    })
+                );
             }
         }
         #endregion
@@ -138,34 +140,36 @@ namespace GeneralInformation
         {
             set
             {
-                RunOnAppDispatcher(() =>
-                {
-                    try
+                Task.Run(() =>
+                    RunOnAppDispatcher(() =>
                     {
-                        if (value == null) { return; }
-                        if (value is not PictureViewModel obj) { return; }
+                        try
+                        {
+                            if (value == null) { return; }
+                            if (value is not PictureViewModel obj) { return; }
 
-                        if (obj.PictureLocalPath.HasValue() && File.Exists(obj.PictureLocalPath))
-                        {
-                            base.Source = null;
-                            base.Source = ImageSource.FromFile(obj.PictureLocalPath);
-                        }
-                        else if (obj.PicturePath.HasValue() && obj.PicturePath.StartsWith("http"))
-                        {
-                            if (_localFileName.IsEmpty())
+                            if (obj.PictureLocalPath.HasValue() && File.Exists(obj.PictureLocalPath))
                             {
-                                _localFileName = obj.PictureLocalPath;
+                                base.Source = null;
+                                base.Source = ImageSource.FromFile(obj.PictureLocalPath);
                             }
+                            else if (obj.PicturePath.HasValue() && obj.PicturePath.StartsWith("http"))
+                            {
+                                if (_localFileName.IsEmpty())
+                                {
+                                    _localFileName = obj.PictureLocalPath;
+                                }
 
-                            base.Source = null;
-                            LoadImageAsync(obj.PicturePath);
+                                base.Source = null;
+                                LoadImageAsync(obj.PicturePath);
+                            }
                         }
-                    }
-                    catch (Exception ex)
-                    {
-                        ExceptionHandler.CaptureException(ex);
-                    }
-                });
+                        catch (Exception ex)
+                        {
+                            ExceptionHandler.CaptureException(ex);
+                        }
+                    })
+                );
             }
         }
 
@@ -198,21 +202,24 @@ namespace GeneralInformation
             get => base.Source;
             set
             {
-                try
+                Task.Run(() =>
                 {
-                    if (value is UriImageSource uriImageSource && uriImageSource.Uri != null)
+                    try
                     {
-                        LoadImageAsync(uriImageSource.Uri.ToString());
+                        if (value is UriImageSource uriImageSource && uriImageSource.Uri != null)
+                        {
+                            LoadImageAsync(uriImageSource.Uri.ToString());
+                        }
+                        else
+                        {
+                            base.Source = value;
+                        }
                     }
-                    else
+                    catch (Exception ex)
                     {
-                        base.Source = value;
+                        ExceptionHandler.CaptureException(ex);
                     }
-                }
-                catch (Exception ex)
-                {
-                    ExceptionHandler.CaptureException(ex);
-                }
+                });
             }
         }
     }
