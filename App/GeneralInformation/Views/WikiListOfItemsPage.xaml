@@ -6,6 +6,7 @@
     xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
     xmlns:converters="clr-namespace:GeneralInformation.Converters"
     xmlns:fontAwesome="clr-namespace:FontAwesome"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     xmlns:local="clr-namespace:GeneralInformation"
     xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
@@ -15,7 +16,6 @@
     xmlns:syncAutoComplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
     xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     x:Name="ListViewPage"
-    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     ios:Page.UseSafeArea="False"
     Shell.NavBarIsVisible="True">
     <Shell.TitleView>
@@ -55,8 +55,7 @@
                                     <Grid>
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=90, Tablet=130}, iOS={OnIdiom Phone=90, Tablet=100}, 
-                                                UWP={OnIdiom Phone=90, Default=130}}" />
+                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=90, Tablet=130}, iOS={OnIdiom Phone=90, Tablet=100}, UWP={OnIdiom Phone=90, Default=130}}" />
                                             <ColumnDefinition Width="30" />
                                             <ColumnDefinition Width="5" />
                                         </Grid.ColumnDefinitions>
@@ -102,12 +101,16 @@
                                                 Margin="{OnPlatform Android={OnIdiom Phone='0,5,5,0',
                                                                                      Tablet='10,0,5,0'},
                                                                     iOS={OnIdiom Phone='0,5,5,0',
-                                                                                 Tablet='10,0,5,0'}}"
+                                                                                 Tablet='10,0,5,0'},
+                                                                    UWP={OnIdiom Phone='0,5,5,0',
+                                                                                 Default='10,0,5,0'}}"
                                                 FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
                                                 FontSize="{OnPlatform Android={OnIdiom Phone=12,
                                                                                        Tablet=14},
                                                                       iOS={OnIdiom Phone=12,
-                                                                                   Tablet=14}}"
+                                                                                   Tablet=14},
+                                                                      UWP={OnIdiom Phone=12,
+                                                                                   Default=14}}"
                                                 HorizontalTextAlignment="Center"
                                                 Text="Hide viewed"
                                                 TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
@@ -115,9 +118,11 @@
                                                 VerticalTextAlignment="Center" />
                                             <sfButtons:SfSwitch
                                                 x:Name="swtToggleItemRead"
-                                                Margin="{OnPlatform Default='0,0,5,0', iOS='5,10,5,0'}"
-                                                IsOn="{Binding HideItemRead}"
+                                                Margin="{OnPlatform Default='0,0,5,0',
+                                                                    iOS='5,10,5,0',
+                                                                    UWP='5,10,5,0'}"
                                                 HeightRequest="{OnPlatform iOS=20}"
+                                                IsOn="{Binding HideItemRead}"
                                                 Orientation="Horizontal"
                                                 StateChanged="swtToggleItemRead_StateChanged"
                                                 VisualType="Custom">
@@ -284,10 +289,10 @@
                                                                     Grid.Row="0"
                                                                     Margin="5,5,0,0"
                                                                     Aspect="AspectFit"
+                                                                    CustomSource="{Binding PicturePrimaryPath}"
                                                                     HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnImageHeightRequestOnListPage}"
                                                                     HorizontalOptions="FillAndExpand"
                                                                     LocalFileName="{Binding PicturePrimaryLocalFileName}"
-                                                                    CustomSource="{Binding PicturePrimaryPath}"
                                                                     VerticalOptions="Start"
                                                                     WidthRequest="120" />
                                                                 <ActivityIndicator
@@ -364,8 +369,10 @@
                                                                 </StackLayout>
                                                                 <Label
                                                                     Grid.Row="1"
+                                                                    Margin="{OnPlatform Default='0,0,0,0',
+                                                                                        iOS={OnIdiom Default='0,0,5,0',
+                                                                                                     Tablet='0,0,5,0'}}"
                                                                     Padding="10,0,0,0"
-                                                                    Margin="{OnPlatform Default='0,0,0,0', iOS={OnIdiom Default='0,0,5,0', Tablet='0,0,5,0'}}"
                                                                     FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
                                                                     FontSize="{OnPlatform Android={OnIdiom Phone=12,
                                                                                                            Tablet=16},
@@ -388,10 +395,12 @@
 
                                                                 <local:ExtendedListView
                                                                     Grid.Row="1"
+                                                                    Margin="{OnPlatform Default='0,0,0,0',
+                                                                                        iOS={OnIdiom Default='0,0,5,0',
+                                                                                                     Tablet='0,0,5,0'}}"
                                                                     Padding="10,0,0,10"
                                                                     AutoFitMode="DynamicHeight"
                                                                     BackgroundColor="Transparent"
-                                                                    Margin="{OnPlatform Default='0,0,0,0', iOS={OnIdiom Default='0,0,5,0', Tablet='0,0,5,0'}}"
                                                                     HeightRequest="{Binding ListHeight}"
                                                                     IsEnabled="False"
                                                                     IsVisible="{Binding ShowPrimaryContentMetadata}"

@@ -19,6 +19,14 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+    <GenerateTemporaryStoreCertificate>True</GenerateTemporaryStoreCertificate>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -90,12 +98,22 @@
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\..\LinkFiles\Uwp\AppEnvironment.cs">
+      <Link>DeviceDependencyImpl\AppEnvironment.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\Uwp\ConfigHelper.cs">
+      <Link>DeviceDependencyImpl\ConfigHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\Uwp\LocalStorage.cs">
+      <Link>DeviceDependencyImpl\LocalStorage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LinkFiles\Uwp\SqliteFileHelper.cs">
+      <Link>DeviceDependencyImpl\SqliteFileHelper.cs</Link>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DeviceDependencyImpl\AppEnvironment_Uwp.cs" />
-    <Compile Include="DeviceDependencyImpl\AppInformation_Android.cs" />
-    <Compile Include="DeviceDependencyImpl\SqliteFileHelper_Uwp.cs" />
+    <Compile Include="DeviceDependencyImpl\AppInformation.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -107,11 +125,31 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\BadgeLogo.scale-100.png" />
+    <Content Include="Assets\BadgeLogo.scale-125.png" />
+    <Content Include="Assets\BadgeLogo.scale-150.png" />
+    <Content Include="Assets\BadgeLogo.scale-200.png" />
+    <Content Include="Assets\BadgeLogo.scale-400.png" />
+    <Content Include="Assets\LargeTile.scale-100.png" />
+    <Content Include="Assets\LargeTile.scale-125.png" />
+    <Content Include="Assets\LargeTile.scale-150.png" />
+    <Content Include="Assets\LargeTile.scale-200.png" />
+    <Content Include="Assets\LargeTile.scale-400.png" />
+    <Content Include="Assets\SmallTile.scale-100.png" />
+    <Content Include="Assets\SmallTile.scale-125.png" />
+    <Content Include="Assets\SmallTile.scale-150.png" />
+    <Content Include="Assets\SmallTile.scale-200.png" />
+    <Content Include="Assets\SmallTile.scale-400.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-125.png" />
     <Content Include="Assets\SplashScreen.scale-150.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
     <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png" />
     <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png" />
     <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png" />
@@ -137,6 +175,15 @@
     <Content Include="Assets\StoreLogo.scale-150.png" />
     <Content Include="Assets\StoreLogo.scale-200.png" />
     <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="..\..\LinkFiles\CommonConfigs.json">
+      <Link>Assets\CommonConfigs.json</Link>
+    </Content>
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -151,13 +198,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Pj.Library">
-      <Version>1.0.4.27</Version>
+      <Version>1.0.4.29</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Datastore.Sqlite">
-      <Version>1.0.4.27</Version>
+      <Version>1.0.4.29</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Mobile.Sqlite">
-      <Version>1.0.4.27</Version>
+      <Version>1.0.4.29</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfPopupLayout">
       <Version>23.1.39</Version>
@@ -178,7 +225,7 @@
       <Version>23.1.39</Version>
     </PackageReference>
     <PackageReference Include="TestAny.Essentials.Api.Lite">
-      <Version>1.0.5.25</Version>
+      <Version>1.0.5.28</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.14" />

@@ -72,9 +72,9 @@
 		<PackageReference Include="MarcTron.Admob" Version="1.9.0.6" />
 		<PackageReference Include="Microsoft.AppCenter.Analytics" Version="5.0.3" />
 		<PackageReference Include="Microsoft.AppCenter.Crashes" Version="5.0.3" />
-		<PackageReference Include="Pj.Library" Version="1.0.4.27" />
-		<PackageReference Include="Pj.Library.Datastore.Sqlite" Version="1.0.4.27" />
-		<PackageReference Include="Pj.Library.Mobile.Sqlite" Version="1.0.4.27" />
+		<PackageReference Include="Pj.Library" Version="1.0.4.29" />
+		<PackageReference Include="Pj.Library.Datastore.Sqlite" Version="1.0.4.29" />
+		<PackageReference Include="Pj.Library.Mobile.Sqlite" Version="1.0.4.29" />
 		<PackageReference Include="Syncfusion.Xamarin.Buttons" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.Core" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfAutoComplete" Version="23.1.39" />
@@ -83,7 +83,7 @@
 		<PackageReference Include="Syncfusion.Xamarin.SfListView" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfPopupLayout" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="23.1.39" />
-		<PackageReference Include="TestAny.Essentials.Api.Lite" Version="1.0.5.25" />
+		<PackageReference Include="TestAny.Essentials.Api.Lite" Version="1.0.5.28" />
 		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
 		<PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
 	</ItemGroup>
@@ -91,6 +91,7 @@
 	<ItemGroup>
 		<Folder Include="Models\DbModels\UserStore\" />
 		<Folder Include="Models\ExtractModels\" />
+		<Folder Include="Controls\" />
 		<Folder Include="Resources\" />
 		<Folder Include="WikiProcess\" />
 	</ItemGroup>

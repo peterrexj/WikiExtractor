@@ -28,6 +28,7 @@ namespace GeneralInformation.Views
         private List<Grid> _paraGrids;
         private const int DefaultHeightImageInDetailsPage = 300;
         ConcurrentDictionary<string, ExtendedImage> extendImageCtrlsInPage = new();
+        private bool _isExternalImageLoadComplete = false;
 
         private PersonaDetailViewModel personaDetailViewModel;
 
@@ -109,35 +110,54 @@ namespace GeneralInformation.Views
             {
                 if (personaDetailViewModel.Persona.Pictures.Any())
                 {
-                    //Only select download those images which are rendered in the Details tab. The curasel uses image rather the extendedImage
-                    var tasks = personaDetailViewModel.Persona.Pictures.Select(async item =>
+                    //Build required parameters
+                    var requiredItems = from pic in personaDetailViewModel.Persona.Pictures
+                                        let lPath = Path.Combine(ConfigData.LocalStorageCacheFolderPath, pic.PictureLocalFileName)
+                                        let toDownload = CacheImageDownloadHelper.ValidateCachedLocalFile(lPath, pic.PicturePath)
+                                        select new
+                                        {
+                                            LocalFilePath = lPath,
+                                            pic.PicturePath,
+                                            DownloadRequired = toDownload
+                                        };
+
+                    if (requiredItems.Any(f => f.DownloadRequired))
                     {
-                        var _localFileName = Path.Combine(ConfigData.LocalStorageCacheFolderPath, item.PictureLocalFileName);
-                        await CacheImageDownloadHelper.DownloadImage(_localFileName, item.PicturePath);
-                    });
-                    Task.WhenAll(tasks).ContinueWith(t =>
-                    {
-                        if (extendImageCtrlsInPage != null)
+                        //Only select download those images which are rendered in the Details tab. The curasel uses image rather the extendedImage
+                        var tasks = requiredItems.Where(f => f.DownloadRequired).Select(async item =>
                         {
-                            foreach (var exImgCtrl in extendImageCtrlsInPage)
+                            await CacheImageDownloadHelper.DownloadImage(item.LocalFilePath, item.PicturePath);
+                        });
+
+                        Task.WhenAll(tasks).ContinueWith(t =>
+                        {
+                            if (extendImageCtrlsInPage != null)
                             {
-                                try
+                                foreach (var exImgCtrl in extendImageCtrlsInPage)
                                 {
-                                    RunOnAppDispatcher(() =>
+                                    try
                                     {
-                                        var currentSource = exImgCtrl.Value.CustomSource;
-                                        exImgCtrl.Value.Source = null;
-                                        exImgCtrl.Value.Source = currentSource;
-                                    });
+                                        RunOnAppDispatcher(() =>
+                                        {
+                                            var currentSource = exImgCtrl.Value.CustomSource;
+                                            exImgCtrl.Value.Source = null;
+                                            exImgCtrl.Value.Source = currentSource;
+                                        });
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        CaptureErrorOnPage(ex);
+                                    }
                                 }
-                                catch (Exception ex)
-                                {
-                                    CaptureErrorOnPage(ex);
-                                }
+                                extendImageCtrlsInPage = null;
                             }
-                            extendImageCtrlsInPage = null;
-                        }
-                    });
+                        });
+                        _isExternalImageLoadComplete = true;
+                    }
+                    else
+                    {
+                        _isExternalImageLoadComplete = true;
+                    }
                 }
             }
             catch (Exception ex)
@@ -196,7 +216,7 @@ namespace GeneralInformation.Views
                     CaptureErrorOnPage(ex);
                 }
             }
-            LoadImagesRequiredForThisPageAsync();
+            RunOnAppDispatcher(() => LoadImagesRequiredForThisPageAsync());
         }
         private void LoadParaDetails()
         {
@@ -424,7 +444,14 @@ namespace GeneralInformation.Views
         {
             try
             {
-                tabView.SelectedIndex = personaDetailViewModel.IsMetaDataAvailable ? 1 : 0;
+                if (_isExternalImageLoadComplete)
+                {
+                    tabView.SelectedIndex = personaDetailViewModel.IsMetaDataAvailable ? 1 : 0;
+                }
+                else
+                {
+                    tabView.SelectedIndex = 0;
+                }
             }
             catch (Exception ex)
             {
@@ -435,8 +462,15 @@ namespace GeneralInformation.Views
         {
             try
             {
-                tabView.SelectedIndex = personaDetailViewModel.IsMetaDataAvailable && personaDetailViewModel.IsPicturesAvailable ? 2 :
-                                    personaDetailViewModel.IsMetaDataAvailable == false && personaDetailViewModel.IsPicturesAvailable == false ? 0 : 1;
+                if (_isExternalImageLoadComplete)
+                {
+                    tabView.SelectedIndex = personaDetailViewModel.IsMetaDataAvailable && personaDetailViewModel.IsPicturesAvailable ? 2 :
+                                        personaDetailViewModel.IsMetaDataAvailable == false && personaDetailViewModel.IsPicturesAvailable == false ? 0 : 1;
+                }
+                else
+                {
+                    tabView.SelectedIndex = 0;
+                }
             }
             catch (Exception ex)
             {
@@ -507,9 +541,11 @@ namespace GeneralInformation.Views
                 {
                     if (stackBannerAds.Children.Count == 0)
                     {
-                        MTAdView ads = new MTAdView();
-                        ads.AdsId = personaDetailViewModel.AdsBannerId;
-                        ads.HeightRequest = 50;
+                        MTAdView ads = new MTAdView
+                        {
+                            AdsId = personaDetailViewModel.AdsBannerId,
+                            HeightRequest = 50
+                        };
                         stackBannerAds.Children.Add(ads);
                     }
 
@@ -524,7 +560,7 @@ namespace GeneralInformation.Views
             }
             catch (Exception ex)
             {
-                //ExceptionHandler.CaptureException(ex);
+                ExceptionHandler.CaptureException(ex);
             }
         }
     }

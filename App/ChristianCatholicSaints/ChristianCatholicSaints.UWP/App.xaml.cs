@@ -1,5 +1,9 @@
-﻿using Pj.Library;
+﻿using FontAwesome;
+using GeneralInformation.Fonts;
+using Microsoft.AppCenter.Crashes;
+using Pj.Library;
 using Syncfusion.ListView.XForms.UWP;
+using Syncfusion.SfAutoComplete.XForms.UWP;
 using Syncfusion.SfBusyIndicator.XForms.UWP;
 using Syncfusion.SfCarousel.XForms.UWP;
 using Syncfusion.XForms.UWP.Border;
@@ -53,17 +57,25 @@ namespace ChristianCatholicSaints.UWP
                 this.DebugSettings.EnableFrameRateCounter = true;
             }
 #endif
-
-            Frame rootFrame = Window.Current.Content as Frame;
-
-            // Do not repeat app initialization when the Window already has content,
-            // just ensure that the window is active
-            if (rootFrame == null)
+            try
             {
-                List<Assembly> assembliesToInclude = new List<Assembly>
+                Frame rootFrame = Window.Current.Content as Frame;
+
+                // Do not repeat app initialization when the Window already has content,
+                // just ensure that the window is active
+                if (rootFrame == null)
+                {
+                    // Create a Frame to act as the navigation context and navigate to the first page
+                    rootFrame = new Frame();
+
+                    rootFrame.NavigationFailed += OnNavigationFailed;
+                    global::Xamarin.Forms.Forms.SetFlags("Shell_UWP_Experimental");
+
+                    List<Assembly> assembliesToInclude = new List<Assembly>
                 {
                     //Now, add all the assemblies your app uses
                     typeof(SfEffectsViewRenderer).GetTypeInfo().Assembly,
+                    typeof(SfAutoCompleteRenderer).GetTypeInfo().Assembly,
                     typeof(SfTextInputLayoutRenderer).GetTypeInfo().Assembly,
                     typeof(SfButtonRenderer).GetTypeInfo().Assembly,
                     typeof(SfChipRenderer).GetTypeInfo().Assembly,
@@ -75,34 +87,37 @@ namespace ChristianCatholicSaints.UWP
                     typeof(SfTabViewRenderer).GetTypeInfo().Assembly,
                     typeof(SfListViewRenderer).GetTypeInfo().Assembly,
                     typeof(SfCarouselRenderer).GetTypeInfo().Assembly,
-                    typeof(SfPopupLayoutRenderer).GetTypeInfo().Assembly
+                    typeof(SfPopupLayoutRenderer).GetTypeInfo().Assembly,
+                    typeof(FontAwesomeIcons).GetTypeInfo().Assembly,
+                    typeof(Calibri).GetTypeInfo().Assembly,
+                    typeof(CalibriBold).GetTypeInfo().Assembly,
                 };
 
-                // Create a Frame to act as the navigation context and navigate to the first page
-                rootFrame = new Frame();
+                    Xamarin.Forms.Forms.Init(e, assembliesToInclude);
 
-                rootFrame.NavigationFailed += OnNavigationFailed;
-                global::Xamarin.Forms.Forms.SetFlags("Shell_UWP_Experimental");
-                Xamarin.Forms.Forms.Init(e, assembliesToInclude);
+                    if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
+                    {
+                        //TODO: Load state from previously suspended application
+                    }
 
-                if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
-                {
-                    //TODO: Load state from previously suspended application
+                    // Place the frame in the current Window
+                    Window.Current.Content = rootFrame;
                 }
 
-                // Place the frame in the current Window
-                Window.Current.Content = rootFrame;
+                if (rootFrame.Content == null)
+                {
+                    // When the navigation stack isn't restored navigate to the first page,
+                    // configuring the new page by passing required information as a navigation
+                    // parameter
+                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                }
+                // Ensure the current window is active
+                Window.Current.Activate();
             }
-
-            if (rootFrame.Content == null)
+            catch (Exception ex)
             {
-                // When the navigation stack isn't restored navigate to the first page,
-                // configuring the new page by passing required information as a navigation
-                // parameter
-                rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                Crashes.TrackError(ex);
             }
-            // Ensure the current window is active
-            Window.Current.Activate();
         }
 
         /// <summary>

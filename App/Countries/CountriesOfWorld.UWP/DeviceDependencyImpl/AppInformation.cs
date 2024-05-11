@@ -1,9 +1,10 @@
-﻿using PopesOfChurch.Droid.DeviceDependencyImpl;
-using GeneralInformation.Services;
+﻿using GeneralInformation.Services;
+using Wiki.Uwp;
+using Windows.Storage;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(AppInformation))]
-namespace PopesOfChurch.Droid.DeviceDependencyImpl
+namespace Wiki.Uwp
 {
     public class AppInformation : IAppInformation
     {
@@ -25,13 +26,12 @@ namespace PopesOfChurch.Droid.DeviceDependencyImpl
         public int StyleOnListItemHeightRequestOnListPageTablet => 128;
         public int StyleOnListItemHeightRequestOnListPageDesktop => 128;
         #endregion
+        public string TextOnFirstTabInformationOnDetailPage => "Country facts";
 
-        public string TextOnFirstTabInformationOnDetailPage => "Pope facts";
-
-        public string ImageCacheFolder => System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData);
+        public string ImageCacheFolder => ApplicationData.Current.LocalFolder.Path;
         public int ImageCacheTotalDaysToInvalidate => 30;
 
-        public string DbWikiStore => "WikiStorePopes.db";
-        public string DbUserStore => "PopesUserStore.db";
+        public string DbWikiStore => "WikiStoreCountries.db";
+        public string DbUserStore => "CountryUserStore.db";
     }
 }

@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="A5A291F9-9571-40C3-9A49-266727DE298D"
-    Publisher="CN=Your Simple Apps"
-    Version="1.0.0.0" />
+    Name="YourSimpleApps.3028692AC882E"
+    Publisher="CN=39208EA1-D5D2-424A-8611-3802B30527E1"
+    Version="1.0.14.0" />
 
-  <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="c05e367f-5b12-4c32-bd01-3787160899bc" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>ChristianCatholicSaints.UWP</DisplayName>
-    <PublisherDisplayName>4A807A6A-E8AA-40CB-B50E-6D66D5306D40</PublisherDisplayName>
+    <DisplayName>Catholic Saints &amp; Blessed</DisplayName>
+    <PublisherDisplayName>Your Simple Apps</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -32,7 +32,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="ChristianCatholicSaints.UWP.App">
       <uap:VisualElements
-        DisplayName="Catholic Saints"
+        DisplayName="Catholic Saints &amp; Blessed"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="More than 5000 list of Saints, Blessed and Martyrs within our Catholic Church. There are some classification based on Canonized By, Pope and timeline (century). The full list can be searched and filtered. Each saint has available detailed information with some facts and pictures."
@@ -57,5 +57,6 @@
 
   <Capabilities>
     <Capability Name="internetClient" />
+    <uap:Capability Name="removableStorage"/>
   </Capabilities>
 </Package>

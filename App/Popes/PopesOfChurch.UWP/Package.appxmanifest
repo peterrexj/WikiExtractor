@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="A5A291F9-9571-40C3-9A49-266727DE298D"
-    Publisher="CN=4A807A6A-E8AA-40CB-B50E-6D66D5306D40"
-    Version="1.0.0.0" />
+    Name="YourSimpleApps.PopesoftheCatholicChurch"
+    Publisher="CN=39208EA1-D5D2-424A-8611-3802B30527E1"
+    Version="1.0.1.0" />
 
-  <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="72f74109-cae6-48af-bae3-36471a25057a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>PopesOfChurch.UWP</DisplayName>
-    <PublisherDisplayName>4A807A6A-E8AA-40CB-B50E-6D66D5306D40</PublisherDisplayName>
+    <DisplayName>Popes of the Catholic Church</DisplayName>
+    <PublisherDisplayName>Your Simple Apps</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -32,10 +32,10 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="PopesOfChurch.UWP.App">
       <uap:VisualElements
-        DisplayName="Popes of Church"
+        DisplayName="Popes of the Catholic Church"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="Popes of Church"
+        Description="The app contains a comprehensive list of the history of the papacy in the Catholic Church, organized chronologically and searchable by the names of the popes. The app is also categorized by the century in which each pope served. Each pope&apos;s entry should include a wealth of information and details about their life and papacy, complemented by relevant images that provide context for the information"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
           <uap:ShowNameOnTiles>
@@ -50,11 +50,13 @@
           <uap:Rotation Preference="portrait"/>
           <uap:Rotation Preference="landscapeFlipped"/>
           <uap:Rotation Preference="portraitFlipped"/></uap:InitialRotationPreference>
+        <uap:LockScreen BadgeLogo="Assets\BadgeLogo.png" Notification="badgeAndTileText"/>
       </uap:VisualElements>
     </Application>
   </Applications>
 
   <Capabilities>
     <Capability Name="internetClient" />
+    <uap:Capability Name="removableStorage"/>
   </Capabilities>
 </Package>
