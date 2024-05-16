@@ -31,158 +31,24 @@ namespace WikiExtractor.Process
 
         private PersonaViewModel GetViewModelv2(int masterId)
         {
-            PersonaViewModel persona = null;
-            List<ParagraphHeader2> parah2 = null;
-            List<ParagraphHeader3> parah3 = null;
-            List<ParagraphContent> parahContents = null;
-            List<Tuple<int, PictureViewModel>> pComputedImages = null;
+            PersonaViewModel wikiItem = null;
+            List<ParagraphHeader2> para2Items = null;
+            List<ParagraphHeader3> para3Items = null;
+            List<ParagraphContent> contents = null;
+            List<Tuple<int, PictureViewModel>> pictures = null;
             TaskGroup tgrp = new();
 
-            tgrp.Add(() =>
-            {
-                persona = (from master in wikiDatabase.MasterRepository.GetAll()
-
-                           join picJoin in wikiDatabase.WikiPictureRepository.GetAll() on master.Id equals picJoin.MasterId into picGroup
-                           from pic in picGroup.DefaultIfEmpty(new WikiPicture { MasterId = master.Id, Path = "NoImageAvailable.png", Caption = string.Empty })
-
-                           join metadataJoin in wikiDatabase.MetadataRepository.GetAll() on master.Id equals metadataJoin.MasterId into metadataGrp
-                           from metadata in metadataGrp.DefaultIfEmpty(new Metadata { Id = 0, MasterId = master.Id })
-
-                           join mainCont in wikiDatabase.ParagraphPrimaryContentRepository.GetAll() on master.Id equals mainCont.MasterId into mainContGroup
-                           from mainContItem in mainContGroup.DefaultIfEmpty(new ParagraphPrimaryContent { MasterId = master.Id, Content = string.Empty })
-
-                           where master.Id == masterId
-                           group new { master, pic, metadata, mainContItem } by new { master.Id } into masterGroup
-                           let mainContentData = masterGroup.Select(f => f.mainContItem).Distinct().FirstOrDefault(f => f != null && f.Content.HasValue())
-                           let masterData = masterGroup.FirstOrDefault()
-                           let primaryPicData = masterGroup.Select(f => f.pic).Where(f => f.Path.HasValue()).FirstOrDefault(f => f.IsPrimaryBool)
-                           let picData = masterGroup.Select(f => f.pic).Distinct().Where(f => f.Path.HasValue()).OrderBy(f => f.Sequence)
-                           let metaData = masterGroup.Select(f => f.metadata).Distinct().OrderBy(f => f.Sequence)
-                                    .Where(item => item.TypeByEnum == MetadataType.Detail && item.Value.HasValue())
-
-                           select new PersonaViewModel
-                           {
-                               Name = masterData.master.Name,
-                               WikiPath = masterData.master.Route,
-                               PicturePrimaryPath = primaryPicData?.Path ?? "",
-                               PicturePrimaryCaption = primaryPicData?.Caption ?? "",
-                               Pictures = picData
-                                   .Select(f => new PictureViewModel
-                                   {
-                                       Id = f.Id,
-                                       PicturePath = f.Path,
-                                       PictureCaption = f.Caption.HasValue() && f.Caption.Length >= ConfigData.MinLengthOfPictureCaption ? f.Caption : string.Empty,
-                                       Sequence = f.Sequence,
-                                       Width = f.Width,
-                                       Height = f.Height,
-                                       ParentName = masterData.master.Name,
-                                   }).ToList(),
-                               Metadatas = metaData
-                                    .Select(item => new MetadataViewModel
-                                    {
-                                        Key = item.Key,
-                                        Description = item.Value,
-                                        Sequence = item.Sequence,
-                                        GroupHeader = item.Value //Need to get the group header
-                                    }).ToList(),
-                               MainContent = mainContentData?.Content ?? "",
-                               Paragraphs = new List<Paragraph2ContentViewModel> 
-                               { 
-                                   new Paragraph2ContentViewModel
-                                    {
-                                        Content = mainContentData.Content,
-                                        Header2 = masterData.master.Name,
-                                        Sequence = 0
-                                    } 
-                               }
-                           }).FirstOrDefault();
-            });
-
-            tgrp.Add(() => parahContents = wikiDatabase.ParagraphContentRepository.Get(m => m.MasterId == masterId).ToList());
+            tgrp.Add(() => wikiItem = GetItemData(masterId));
+            tgrp.Add(() => contents = GetItemParagraphContents(masterId));
+            tgrp.Add(() => para2Items = GetItemParagraph2s(masterId));
+            tgrp.Add(() => para3Items = GetItemParagraph3s(masterId));
             tgrp.WaitAll();
-            tgrp.Add(() => parah2 = wikiDatabase.ParagraphHeader2Repository.Get(m => m.MasterId == masterId).ToList());
-            tgrp.Add(() => parah3 = wikiDatabase.ParagraphHeader3Repository.Get(m => m.MasterId == masterId).ToList());
-            tgrp.Add(() =>
-            {
-                pComputedImages = (from p in wikiDatabase.ParagraphImageRepository.Get(m => m.MasterId == masterId)
-
-                                   join parahContentsJoin in wikiDatabase.ParagraphContentRepository.Get(m => m.MasterId == masterId) on p.ParagraphId equals parahContentsJoin.Id into parahContentsGrp
-                                   from paraContents in parahContentsGrp.DefaultIfEmpty(new ParagraphContent { MasterId = masterId, Id = 0 })
-
-                                   join picJoin in persona.Pictures on p.ImageId equals picJoin.Id into picGroup
-                                   from pic in picGroup.DefaultIfEmpty(new PictureViewModel { Id = 0 })
-
-                                   where pic != null && pic.Id != 0 && paraContents != null && paraContents.Id != 0
-                                   select new Tuple<int, PictureViewModel>(paraContents.Id, pic)).ToList();
-            });
+            tgrp.Add(() => pictures = GetItemComputedImages(masterId, wikiItem));
             tgrp.WaitAll();
 
-
-            if (parahContents.Any())
-            {
-                int sequence = 1;
-                foreach (var para2Item in parah2.OrderBy(f => f.Sequence))
-                {
-                    var para2Contents = parahContents.Where(f => f.ParagraphHeader2Id == para2Item.Id && f.ParagraphHeader3Id == 0);
-                    if (para2Contents.Any())
-                    {
-                        foreach (var paraContent in para2Contents)
-                        {
-                            persona.Paragraphs.Add(new Paragraph2ContentViewModel
-                            {
-                                Content = paraContent.Content,
-                                Header2 = para2Item.Header,
-                                Para3s = new List<Paragraph3ContentViewModel>(),
-                                Sequence = sequence++,
-                                PicLinks = pComputedImages.Where(f => f.Item1 == paraContent.Id).Select(f => f.Item2).ToList(),
-                            });
-                        }
-                    }
-                    else
-                    {
-                        persona.Paragraphs.Add(new Paragraph2ContentViewModel
-                        {
-                            Content = string.Empty,
-                            Header2 = para2Item.Header,
-                            Para3s = new List<Paragraph3ContentViewModel>(),
-                            Sequence = sequence++
-                        });
-                    }
-
-                    if (parah3.Any(f => f.ParagraphHeader2Id == para2Item.Id)) //Any items matching the para2 header
-                    {
-                        foreach (var para3Item in parah3.Where(f => f.ParagraphHeader2Id == para2Item.Id).OrderBy(f => f.Sequence))
-                        {
-                            foreach (var paraContent in parahContents.Where(f => f.ParagraphHeader2Id == para2Item.Id && f.ParagraphHeader3Id == para3Item.Id))
-                            {
-                                persona.Paragraphs.Last().Para3s!.Add(new Paragraph3ContentViewModel
-                                {
-                                    Content = paraContent.Content,
-                                    Header3 = para3Item.Header,
-                                    Sequence = sequence++,
-                                    PicLinks = pComputedImages.Where(f => f.Item1 == paraContent.Id).Select(f => f.Item2).ToList(),
-                                });
-                            }
-                        }
-                    }
-
-                }
-            }
-
-            //Update the picture local file name
-            int picCounter = 1;
-            foreach (var pic in persona.Pictures)
-            {
-                if (picCounter == 1)
-                {
-                    if (pic.PictureCaption.IsEmpty())
-                    {
-                        pic.PictureCaption = pic.ParentName;
-                    }
-                }
-                pic.CurrentCounter = picCounter++;
-            }
-            return persona;
+            BuildParagraph2Paragraph3(wikiItem, contents, para2Items, para3Items, pictures);
+            PictureCaptionUpdate(wikiItem);
+            return wikiItem;
         }
 
         public IEnumerable<PersonaViewModel> GetListOfWikiItems(List<string> tags = null, int minListHeight = ConfigData.MinHeightOfListItemInListPage)
@@ -244,6 +110,174 @@ namespace WikiExtractor.Process
                        ItemReadStatus = masterGroup.FirstOrDefault()!.itemReadStatus.IsReadAsBool,
                    };
         }
+
+        #region Get Data
+        public PersonaViewModel GetItemData(int masterId)
+        {
+            var item = (from master in wikiDatabase.MasterRepository.GetAll().Where(master => master.Id == masterId)
+
+                        join picJoin in wikiDatabase.WikiPictureRepository.GetAll().Where(f => f.MasterId == masterId) on master.Id equals picJoin.MasterId into picGroup
+                        from pic in picGroup.DefaultIfEmpty(new WikiPicture { MasterId = master.Id, Path = "NoImageAvailable.png", Caption = string.Empty })
+
+                        join metadataJoin in wikiDatabase.MetadataRepository.GetAll().Where(f => f.MasterId == masterId) on master.Id equals metadataJoin.MasterId into metadataGrp
+                        from metadata in metadataGrp.DefaultIfEmpty(new Metadata { Id = 0, MasterId = master.Id })
+
+                        join mainCont in wikiDatabase.ParagraphPrimaryContentRepository.GetAll().Where(f => f.MasterId == masterId) on master.Id equals mainCont.MasterId into mainContGroup
+                        from mainContItem in mainContGroup.DefaultIfEmpty(new ParagraphPrimaryContent { MasterId = master.Id, Content = string.Empty })
+
+                        where master.Id == masterId
+                        group new { master, pic, metadata, mainContItem } by new { master.Id } into masterGroup
+                        let mainContentData = masterGroup.Select(f => f.mainContItem).Distinct().FirstOrDefault(f => f != null && f.Content.HasValue())
+                        let masterData = masterGroup.FirstOrDefault()
+                        let primaryPicData = masterGroup.Select(f => f.pic).Where(f => f.Path.HasValue()).FirstOrDefault(f => f.IsPrimaryBool)
+                        let picData = masterGroup.Select(f => f.pic).Distinct().Where(f => f.Path.HasValue()).OrderBy(f => f.Sequence)
+                        let metaData = masterGroup.Select(f => f.metadata).Distinct().OrderBy(f => f.Sequence)
+                                 .Where(item => item.TypeByEnum == MetadataType.Detail && item.Value.HasValue())
+
+                        select new PersonaViewModel
+                        {
+                            Name = masterData.master.Name,
+                            WikiPath = masterData.master.Route,
+                            PicturePrimaryPath = primaryPicData?.Path ?? "",
+                            PicturePrimaryCaption = primaryPicData?.Caption ?? "",
+                            Pictures = picData
+                                .Select(f => new PictureViewModel
+                                {
+                                    Id = f.Id,
+                                    PicturePath = f.Path,
+                                    PictureCaption = f.Caption.HasValue() && f.Caption.Length >= ConfigData.MinLengthOfPictureCaption ? f.Caption : string.Empty,
+                                    Sequence = f.Sequence,
+                                    Width = f.Width,
+                                    Height = f.Height,
+                                    ParentName = masterData.master.Name,
+                                }).ToList(),
+                            Metadatas = metaData
+                                 .Select(item => new MetadataViewModel
+                                 {
+                                     Key = item.Key,
+                                     Description = item.Value,
+                                     Sequence = item.Sequence,
+                                     GroupHeader = item.Value //Need to get the group header
+                                 }).ToList(),
+                            MainContent = mainContentData?.Content ?? "",
+                            Paragraphs = new List<Paragraph2ContentViewModel>
+                               {
+                                   new Paragraph2ContentViewModel
+                                    {
+                                        Content = mainContentData.Content,
+                                        Header2 = masterData.master.Name,
+                                        Sequence = 0
+                                    }
+                               }
+                        }).FirstOrDefault();
+            return item;
+        }
+        public List<Tuple<int, PictureViewModel>> GetItemComputedImages(int masterId, PersonaViewModel personaViewModel)
+        {
+            var pComputedImages = (from p in wikiDatabase.ParagraphImageRepository.Get(m => m.MasterId == masterId)
+
+                               join parahContentsJoin in wikiDatabase.ParagraphContentRepository.Get(m => m.MasterId == masterId) on p.ParagraphId equals parahContentsJoin.Id into parahContentsGrp
+                               from paraContents in parahContentsGrp.DefaultIfEmpty(new ParagraphContent { MasterId = masterId, Id = 0 })
+
+                               join picJoin in personaViewModel.Pictures on p.ImageId equals picJoin.Id into picGroup
+                               from pic in picGroup.DefaultIfEmpty(new PictureViewModel { Id = 0 })
+
+                               where pic != null && pic.Id != 0 && paraContents != null && paraContents.Id != 0
+                               select new Tuple<int, PictureViewModel>(paraContents.Id, pic)).ToList();
+
+            return pComputedImages;
+        }
+        public List<ParagraphContent> GetItemParagraphContents(int masterId)
+        {
+            return wikiDatabase.ParagraphContentRepository.Get(m => m.MasterId == masterId).ToList();
+        }
+        public List<ParagraphHeader2> GetItemParagraph2s(int masterId)
+        {
+            return wikiDatabase.ParagraphHeader2Repository.Get(m => m.MasterId == masterId).ToList();
+        }
+        public List<ParagraphHeader3> GetItemParagraph3s(int masterId)
+        {
+            return wikiDatabase.ParagraphHeader3Repository.Get(m => m.MasterId == masterId).ToList();
+        }
+        public void BuildParagraph2Paragraph3(PersonaViewModel wikiItem, 
+            List<ParagraphContent> contents, 
+            List<ParagraphHeader2> paragraph2s, List<ParagraphHeader3> paragraph3s,
+            List<Tuple<int, PictureViewModel>> pictures)
+        {
+            int indexCounter = 0;
+
+            if (contents.Count != 0)
+            {
+                int sequence = 1;
+                //for each para2 item ordered by sequence
+                foreach (var para2Item in paragraph2s.OrderBy(f => f.Sequence))
+                {
+                    var para2Contents = contents.Where(f => f.ParagraphHeader2Id == para2Item.Id && f.ParagraphHeader3Id == 0);
+                    if (para2Contents.Any())
+                    {
+                        ++indexCounter; //there are multiple content and they will fall into the same index
+                        foreach (var paraContent in para2Contents)
+                        {
+                            wikiItem.Paragraphs.Add(new Paragraph2ContentViewModel
+                            {
+                                Content = paraContent.Content,
+                                Header2 = para2Item.Header,
+                                Sequence = sequence++,
+                                PicLinks = pictures.Where(f => f.Item1 == paraContent.Id).Select(f => f.Item2).ToList(),
+                                Id = indexCounter,
+                            });
+                        }
+                    }
+                    else
+                    {
+                        wikiItem.Paragraphs.Add(new Paragraph2ContentViewModel
+                        {
+                            Content = string.Empty,
+                            Header2 = para2Item.Header,
+                            Sequence = sequence++
+                        });
+                    }
+
+                    //Any items matching the Para2 header
+                    foreach (var para3Item in paragraph3s.Where(f => f.ParagraphHeader2Id == para2Item.Id).OrderBy(f => f.Sequence).GroupBy(f => f.Header))
+                    {
+                        ++indexCounter; //there are multiple content and they will fall into the same index
+                        foreach (var par3 in para3Item)
+                        {
+                            var newPara3Container = new Paragraph3ContainerViewModel { Header = par3.Header };
+
+                            foreach (var paraContent in contents.Where(f => f.ParagraphHeader2Id == para2Item.Id && f.ParagraphHeader3Id == par3.Id))
+                            {
+                                newPara3Container.Para3s.Add(new Paragraph3ContentViewModel
+                                {
+                                    Content = paraContent.Content,
+                                    Sequence = sequence++,
+                                    PicLinks = pictures.Where(f => f.Item1 == paraContent.Id).Select(f => f.Item2).ToList(),
+                                    Id = indexCounter, //multiple index counter
+                                });
+                            }
+                            wikiItem.Paragraphs.Last().Para3Containers.Add(newPara3Container);
+                        }
+                    }
+                }
+            }
+        }
+
+        public void PictureCaptionUpdate(PersonaViewModel wikiItem)
+        {
+            int picCounter = 1;
+            foreach (var pic in wikiItem.Pictures)
+            {
+                if (picCounter == 1 && pic.PictureCaption.IsEmpty())
+                {
+                    pic.PictureCaption = pic.ParentName;
+                }
+                pic.CurrentCounter = picCounter++;
+            }
+        }
+
+        #endregion
+
 
         public List<PersonaViewModel> UpdateTags(List<PersonaViewModel> datas)
         {

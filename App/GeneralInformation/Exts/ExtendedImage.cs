@@ -204,21 +204,24 @@ namespace GeneralInformation
             {
                 Task.Run(() =>
                 {
-                    try
+                    RunOnAppDispatcher(() =>
                     {
-                        if (value is UriImageSource uriImageSource && uriImageSource.Uri != null)
+                        try
                         {
-                            LoadImageAsync(uriImageSource.Uri.ToString());
+                            if (value is UriImageSource uriImageSource && uriImageSource.Uri != null)
+                            {
+                                LoadImageAsync(uriImageSource.Uri.ToString());
+                            }
+                            else
+                            {
+                                base.Source = value;
+                            }
                         }
-                        else
+                        catch (Exception ex)
                         {
-                            base.Source = value;
+                            ExceptionHandler.CaptureException(ex);
                         }
-                    }
-                    catch (Exception ex)
-                    {
-                        ExceptionHandler.CaptureException(ex);
-                    }
+                    });
                 });
             }
         }

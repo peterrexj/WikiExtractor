@@ -1,7 +1,12 @@
-﻿using GeneralInformation.Models.Mix;
+﻿using GeneralInformation.Exts;
+using GeneralInformation.Models.Mix;
 using GeneralInformation.Services;
 using Pj.Library;
+using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using WikiExtractor.ViewModels;
 using Xamarin.Essentials;
@@ -14,6 +19,8 @@ namespace GeneralInformation.ViewModels
         public PersonaDetailViewModel()
         {
             var appInfo = DependencyService.Get<IAppInformation>();
+
+            PlayAudio = new Command<int>(async (id) => await SpeakNowDefaultSettings(id));
 
             AdsInterstitialId = appInfo.AdsInterstitialId;
             AdsBannerId = appInfo.AdsBannerId;
@@ -34,11 +41,11 @@ namespace GeneralInformation.ViewModels
         }
 
         #region Tab details
+        public string TextOnFirstTabInformationOnDetailPage { get; set; }
         public bool IsPicturesAvailable => Persona != null && Persona.Pictures != null && Persona.Pictures.Any(f => f.PicturePath != "NoImageAvailable.png");
         public bool IsPrimaryPictureAvailable => Persona != null && Persona.PicturePrimaryPath.HasValue();
         public bool IsMetaDataAvailable => Persona != null && Persona.Metadatas != null && Persona.Metadatas.Any();
         public bool IsDetailsAvailable => Persona != null && Persona.Paragraphs != null && Persona.Paragraphs.Any();
-
 
         private int? _availableCount;
         public int? AvailableTabCount
@@ -124,8 +131,6 @@ namespace GeneralInformation.ViewModels
         }
         #endregion
 
-        public string TextOnFirstTabInformationOnDetailPage { get; set; }
-
         #region Style 
         private IStyleModel styleModelDefault;
         public IStyleModel DefaultStyle
@@ -139,5 +144,70 @@ namespace GeneralInformation.ViewModels
         }
 
         #endregion
+
+        #region Text To Speech Service
+        public ICommand PlayAudio { get; set; }
+        private CancellationTokenSource cts;
+        private Stack<int> _playItems = new();
+        public async Task SpeakNowDefaultSettings(int textToSpeechId)
+        {
+            try
+            {
+                // This method will block until utterance finishes.
+                CancelSpeech();
+                cts = new CancellationTokenSource();
+
+                var contentForSpeech = GetContentsById(textToSpeechId);
+                if (contentForSpeech.HasValue())
+                {
+                    _playItems.Push(textToSpeechId);
+                }
+                await TextToSpeech.SpeakAsync(contentForSpeech, await SettingsHelper.SpeechSettings(), cancelToken: cts.Token).ContinueWith(t =>
+                {
+                    _playItems.Pop();
+                });
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
+        public void CancelSpeech()
+        {
+            try
+            {
+                if (cts == null) return;
+
+                if (!cts.IsCancellationRequested)
+                {
+                    if (_playItems.Count > 0)
+                    {
+                        cts.Cancel();
+
+                    }
+                }
+
+                cts = null;
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
+        #endregion
+
+        private string GetContentsById(int id)
+        {
+            if (Persona.Paragraphs.Any(f => f.Id == id))
+            {
+                return string.Join(Environment.NewLine, Persona.Paragraphs.Where(f => f.Id == id).Select(f => f.Content));
+            }
+            else
+            {
+                return string.Join(Environment.NewLine, Persona.Paragraphs.SelectMany(f => f.Para3Containers).SelectMany(f => f.Para3s).Where(f => f.Id == id).Select(f => f.Content));
+            }
+        }
     }
 }

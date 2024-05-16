@@ -11,10 +11,10 @@ namespace WikiExtractor.ViewModels
     {
         public PersonaViewModel()
         {
-            Metadatas = new List<MetadataViewModel>();
-            Pictures = new List<PictureViewModel>();
-            Paragraphs = new List<Paragraph2ContentViewModel>();
-            PrimaryMetadataContent = new List<MetadataViewModel>();
+            Metadatas = [];
+            Pictures = [];
+            Paragraphs = [];
+            PrimaryMetadataContent = [];
         }
         public int Id { get; set; }
 
@@ -129,27 +129,41 @@ namespace WikiExtractor.ViewModels
     {
         public Paragraph2ContentViewModel()
         {
-            PicLinks = new List<PictureViewModel>();
+            PicLinks = [];
+            Para3Containers = [];
         }
         public string Header2 { get; set; }
         public string Content { get; set; }
         public int Sequence { get; set; }
-        public List<Paragraph3ContentViewModel>? Para3s { get; set; }
-        public bool ContainsHeader3 => Para3s != null && Para3s.Any();
+        public List<Paragraph3ContainerViewModel> Para3Containers { get; set; }
+        public bool ContainsHeader3 => Para3Containers != null && Para3Containers?.SelectMany(f => f.Para3s).Any() == true;
+        public bool ContainsHeader3Content => ContainsHeader3 && Para3Containers?.SelectMany(f => f.Para3s).Any(f => f.Content.HasValue()) == true;
+
         public bool ContainsHeader2Content => Content.HasValue();
         public List<PictureViewModel>? PicLinks { get; set; }
+        public int Id { get; set; }
+    }
+
+    public class Paragraph3ContainerViewModel
+    {
+        public Paragraph3ContainerViewModel()
+        {
+            Para3s = [];
+        }
+        public string Header { get; set; }
+        public List<Paragraph3ContentViewModel> Para3s { get; set; }
     }
 
     public class Paragraph3ContentViewModel
     {
         public Paragraph3ContentViewModel()
         {
-            PicLinks = new List<PictureViewModel>();
+            PicLinks = [];
         }
-        public string Header3 { get; set; }
-        public string Content { get; set; }
+        public int Id { get; set; }
         public int Sequence { get; set; }
-        public List<PictureViewModel>? PicLinks { get; set; }
+        public string Content { get; set; }
+        public List<PictureViewModel> PicLinks { get; set; }
     }
 
     public class PersonaAutoCompleteModel

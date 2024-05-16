@@ -1,9 +1,11 @@
-﻿using GeneralInformation.Exts;
+﻿using FontAwesome;
+using GeneralInformation.Exts;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
 using MarcTron.Plugin.Controls;
 using Pj.Library;
 using Syncfusion.XForms.Border;
+using Syncfusion.XForms.Buttons;
 using Syncfusion.XForms.EffectsView;
 using Syncfusion.XForms.Graphics;
 using System;
@@ -79,7 +81,11 @@ namespace GeneralInformation.Views
                 CaptureErrorOnPage(ex);
             }
         }
-
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            personaDetailViewModel?.CancelSpeech();
+        }
         private void LoadWithPageBinding()
         {
             int.TryParse(MasterId, out var result);
@@ -255,21 +261,6 @@ namespace GeneralInformation.Views
                 VerticalOptions = LayoutOptions.FillAndExpand
             };
 
-            var sfGradient = new SfGradientView();
-
-            var grStart = new SfGradientStop();
-            grStart.Offset = 0.0;
-            grStart.SetBinding(SfGradientStop.ColorProperty, "DefaultStyle.SubPageDetailsContentGradientStartColor", converter: SharedServices.ToColorConverterAsValueConverter);
-
-            var grStop = new SfGradientStop();
-            grStop.Offset = 0.8;
-            grStart.SetBinding(SfGradientStop.ColorProperty, "DefaultStyle.SubPageDetailsContentGradientEndColor", converter: SharedServices.ToColorConverterAsValueConverter);
-
-            sfGradient.BackgroundBrush = new SfLinearGradientBrush
-            {
-                GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection() { grStart, grStop }
-            };
-
             var stackLayout = new StackLayout
             {
                 Padding = new Thickness(10, 0, 8, 0),
@@ -277,47 +268,88 @@ namespace GeneralInformation.Views
                 HorizontalOptions = LayoutOptions.FillAndExpand
             };
 
-            if (paraContents.Any(f => f.Content.HasValue()) || paraContents.Any(f => f.Para3s.Any(g => g.Content.HasValue())))
+
+            if (paraContents.Any(f => f.Content.HasValue()) || paraContents.Any(f => f.Para3Containers.SelectMany(f => f.Para3s).Any(g => g.Content.HasValue())))
+            //if (paraContents.Any(f => f.ContainsHeader2Content) || paraContents.Any(f => f.ContainsHeader3Content))
             {
-                stackLayout.Children.Add(RenderDynamicContentLabel(paraContents.Where(f => f.Header2.HasValue()).FirstOrDefault().Header2 ?? "", "DetailsTabHeaderText", "DefaultStyle.DefaultFontFamilyBold"));
+                //Render Para2 header
+                var header2 = paraContents.FirstOrDefault(f => f.Header2.HasValue());
+                if (header2?.Header2.HasValue() == true)
+                {
+                    stackLayout.Children.Add(BuildHeader2(header2.Header2 ?? "", header2.Id, header2.ContainsHeader2Content));
+                }
+
+                //Render Para2 contents
                 foreach (var paraContent in paraContents)
                 {
                     if (paraContent.Content.HasValue())
                     {
                         foreach (var img in paraContent.PicLinks)
                         {
-                            stackLayout.Children.Add(RenderParagraphContentImage(img));
+                            stackLayout.Children.Add(BuildParagraphImage(img));
                         }
-                        stackLayout.Children.Add(RenderDynamicContentLabel(paraContent.Content, "DetailsTabContentText", "DefaultStyle.DefaultFontFamily"));
+                        stackLayout.Children.Add(BuildContentParagraph(paraContent.Content));
                     }
 
                     //Para3 here
-                    if (paraContent.Para3s != null && paraContent.Para3s.Any())
+                    foreach (var para3Grp in paraContent.Para3Containers)
                     {
-                        foreach (var para3Grp in paraContent.Para3s.OrderBy(f => f.Sequence).GroupBy(f => f.Header3))
+                        if (para3Grp.Header.HasValue() == true)
                         {
-                            stackLayout.Children.Add(RenderDynamicContentLabel(para3Grp.Where(f => f.Header3.HasValue()).FirstOrDefault().Header3 ?? "", "DetailsTabSubHeaderText", "DefaultStyle.DefaultFontFamilyBold"));
+                            //Render Para3 header
 
-                            foreach (var para3Content in para3Grp)
+                            //the condition check for the id below is not correct
+                            stackLayout.Children.Add(BuildHeader3(para3Grp.Header, para3Grp.Para3s.FirstOrDefault()?.Id ?? 0 , para3Grp.Para3s.Any(f => f.Content.HasValue())));
+                        }
+
+                        foreach (var para3Content in para3Grp.Para3s)
+                        {
+                            foreach (var img in para3Content.PicLinks)
                             {
-                                foreach (var img in para3Content.PicLinks)
-                                {
-                                    stackLayout.Children.Add(RenderParagraphContentImage(img));
-                                }
-                                stackLayout.Children.Add(RenderDynamicContentLabel(para3Content.Content, "DetailsTabContentText", "DefaultStyle.DefaultFontFamily"));
+                                stackLayout.Children.Add(BuildParagraphImage(img));
                             }
+                            stackLayout.Children.Add(BuildContentParagraph(para3Content.Content));
                         }
                     }
                 }
             }
-            mainGrid.Children.Add(sfGradient);
+            mainGrid.Children.Add(BuildPara2GradientBackground());
             mainGrid.Children.Add(stackLayout);
             return mainGrid;
         }
 
-        private Label RenderDynamicContentLabel(string content, string style, string bindingPathToFontFamily)
+        private FlexLayout BuildHeader2(string content, int contentId, bool isPlayButtonRequired, string bindingPathToFontFamily = "DefaultStyle.DefaultFontFamily")
         {
-            var lbl = new Label { Text = content };
+            var flexLayout = new FlexLayout();
+
+            flexLayout.Children.Add(BuildContentParagraphDynamic(content, "DetailsTabHeaderText", bindingPathToFontFamily));
+            if (isPlayButtonRequired)
+            {
+                flexLayout.Children.Add(BuildPlayButton(contentId, isHeader2: true, isHeader3: false));
+            }
+
+            return flexLayout;
+        }
+        private FlexLayout BuildHeader3(string content, int contentId, bool isPlayButtonRequired, string bindingPathToFontFamily = "DefaultStyle.DefaultFontFamily")
+        {
+            var flexLayout = new FlexLayout();
+
+            flexLayout.Children.Add(BuildContentParagraphDynamic(content, "DetailsTabSubHeaderText", bindingPathToFontFamily));
+
+            if (isPlayButtonRequired)
+            {
+                flexLayout.Children.Add(BuildPlayButton(contentId, isHeader2: false, isHeader3: true));
+            }
+
+            return flexLayout;
+        }
+        private Label BuildContentParagraph(string content, string bindingPathToFontFamily = "DefaultStyle.DefaultFontFamily")
+        {
+            return BuildContentParagraphDynamic(content, "DetailsTabContentText", bindingPathToFontFamily);
+        }
+        private Label BuildContentParagraphDynamic(string content, string style, string bindingPathToFontFamily)
+        {
+            var lbl = new Label { Text = content, HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.Center };
             lbl.SetBinding(Label.FontFamilyProperty, bindingPathToFontFamily);
             lbl.SetBinding(Label.TextColorProperty, "DefaultStyle.DefaultFontColor", converter: SharedServices.ToColorConverterAsValueConverter);
             var resource = Application.Current.Resources[style];
@@ -325,7 +357,7 @@ namespace GeneralInformation.Views
                 lbl.Style = (Style)resource;
             return lbl;
         }
-        private Grid RenderParagraphContentImage(PictureViewModel picModel)
+        private Grid BuildParagraphImage(PictureViewModel picModel)
         {
             var grid = new Grid
             {
@@ -394,6 +426,60 @@ namespace GeneralInformation.Views
             }
             return grid;
         }
+        private SfButton BuildPlayButton(int contentId, bool isHeader2, bool isHeader3)
+        {
+            var sfButton = new SfButton
+            {
+                BackgroundColor = Color.Transparent,
+                Command = personaDetailViewModel.PlayAudio,
+                CommandParameter = contentId
+            };
+
+            var sfBtnImage = new Image
+            {
+                Source = new FontImageSource
+                {
+                    FontFamily = "FontAwesome5Solid",
+                    Glyph = FontAwesomeIcons.Play,
+                },
+                HeightRequest = 20,
+                WidthRequest = 20,
+                
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center,
+            };
+
+            if (isHeader2)
+            {
+                sfBtnImage.Margin = new Thickness { Bottom = 0, Left = 10, Right = 0, Top = 10 };
+            }
+            else if (isHeader3)
+            {
+                sfBtnImage.Margin = new Thickness { Bottom = 0, Left = 10, Right = 0, Top = 0 };
+            }
+
+            sfBtnImage.Source.SetBinding(FontImageSource.ColorProperty, "DefaultStyle.DefaultFontColor", converter: SharedServices.ToColorConverterAsValueConverter);
+
+            sfButton.Content = sfBtnImage;
+
+            return sfButton;
+        }
+        private SfGradientView BuildPara2GradientBackground()
+        {
+            var gradientView = new SfGradientView();
+
+            var gradientStart = new SfGradientStop { Offset = 0.0 };
+            gradientStart.SetBinding(SfGradientStop.ColorProperty, "DefaultStyle.SubPageDetailsContentGradientStartColor", converter: SharedServices.ToColorConverterAsValueConverter);
+
+            var gradientStop = new SfGradientStop { Offset = 0.8 };
+            gradientStop.SetBinding(SfGradientStop.ColorProperty, "DefaultStyle.SubPageDetailsContentGradientEndColor", converter: SharedServices.ToColorConverterAsValueConverter);
+
+            gradientView.BackgroundBrush = new SfLinearGradientBrush
+            {
+                GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection() { gradientStart, gradientStop }
+            };
+            return gradientView;
+        }
 
         private void SfBorderOnContentDetailImage_SizeChanged(object sender, EventArgs e)
         {
@@ -434,6 +520,7 @@ namespace GeneralInformation.Views
             try
             {
                 tabView.SelectedIndex = 0;
+                personaDetailViewModel.CancelSpeech();
             }
             catch (Exception ex)
             {
@@ -452,6 +539,7 @@ namespace GeneralInformation.Views
                 {
                     tabView.SelectedIndex = 0;
                 }
+                personaDetailViewModel.CancelSpeech();
             }
             catch (Exception ex)
             {
@@ -471,6 +559,8 @@ namespace GeneralInformation.Views
                 {
                     tabView.SelectedIndex = 0;
                 }
+
+                personaDetailViewModel.CancelSpeech();
             }
             catch (Exception ex)
             {

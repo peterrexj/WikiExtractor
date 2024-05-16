@@ -4,8 +4,10 @@ using Pj.Library;
 using Syncfusion.DataSource;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
-using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Essentials;
 using static GeneralInformation.Models.Mix.MainListSortDescriptorModel;
 
 namespace GeneralInformation.Exts
@@ -123,6 +125,34 @@ namespace GeneralInformation.Exts
         public static void SaveTheme(AppThemes theme)
         {
             DatabaseService.UserStoreDatabase.SettingsRepository.Update("AppTheme", theme.ToString());
+        }
+
+        private static SpeechOptions speechOptions;
+        public async static Task<SpeechOptions> SpeechSettings()
+        {
+            if (speechOptions == null)
+            {
+                IEnumerable<Locale> locales = await TextToSpeech.GetLocalesAsync(); 
+
+                Locale locale = null;
+
+                if (locales != null)
+                {
+                    var cultureName = CultureInfo.CurrentCulture.NativeName;
+                    locale = locales?.Where(f => f.Name == cultureName).FirstOrDefault();
+                    locale ??= locales?.Where(f => f.Name == "English (Australia)").FirstOrDefault();
+                    locale ??= locales?.Where(f => f.Name.StartsWith("English")).FirstOrDefault();
+                }
+
+                var settings = new SpeechOptions()
+                {
+                    Volume = 1.0f,
+                    Pitch = 1.0f,
+                    Locale = locale
+                };
+                speechOptions = settings;
+            }
+            return speechOptions;
         }
     }
 }
