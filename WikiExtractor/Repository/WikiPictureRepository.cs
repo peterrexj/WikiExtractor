@@ -34,6 +34,19 @@ namespace WikiExtractor.Repository
             return createStr.ToString();
         }
 
+        public List<WikiPicture> GetByMasterId(int masterId)
+        {
+            return Task.Run(() => _dbHelper.DbHelper.SqliteConnection.QueryAsync<WikiPicture>($@"Select * from {_tableName} where MasterId = {masterId}")).Result;
+        }
+        public List<WikiPicture> GetAllPrimaryPictures()
+        {
+            return Task.Run(() => _dbHelper.DbHelper.SqliteConnection.QueryAsync<WikiPicture>($@"Select * from {_tableName} where IsPrimary = 1")).Result;
+        }
+        public List<WikiPicture> GetAllPrimaryPicturesWithFields(params string[] fields)
+        {
+            return Task.Run(() => _dbHelper.DbHelper.SqliteConnection.QueryAsync<WikiPicture>($@"Select {string.Join(",", fields)} from {_tableName} where IsPrimary = 1")).Result;
+        }
+
         public void DeleteByMasterId(int masterId)
         {
             var ids = GetAll()

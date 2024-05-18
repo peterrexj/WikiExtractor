@@ -29,6 +29,15 @@ namespace WikiExtractor.Repository
             return createStr.ToString();
         }
 
+        public List<ParagraphPrimaryContent> GetByMasterId(int masterId)
+        {
+            return Task.Run(() => _dbHelper.DbHelper.SqliteConnection.QueryAsync<ParagraphPrimaryContent>($@"Select * from {_tableName} where MasterId = {masterId}")).Result;
+        }
+        public List<ParagraphPrimaryContent> GetByMasterIdWithFields(int masterId, params string[] fields)
+        {
+            return Task.Run(() => _dbHelper.DbHelper.SqliteConnection.QueryAsync<ParagraphPrimaryContent>($@"Select {string.Join(",", fields)} from {_tableName} where MasterId = {masterId}")).Result;
+        }
+
         public void DeleteByMasterId(int masterId)
         {
             var ids = GetAll()
