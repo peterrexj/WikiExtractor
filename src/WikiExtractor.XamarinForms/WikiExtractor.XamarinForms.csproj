@@ -1,0 +1,110 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+		<LangVersion>latest</LangVersion>
+		<ProduceReferenceAssemblyInOutDir>true</ProduceReferenceAssemblyInOutDir>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="CALIBRI.TTF" />
+	  <None Remove="Fonts\calibrib.ttf" />
+	  <None Remove="Fonts\Font Awesome 5 Free-Solid-900.otf" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\AppMenuItem.cs" Link="Models\DbModels\AppMenuItem.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\Image.cs" Link="Models\DbModels\Image.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\Master.cs" Link="Models\DbModels\Master.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\Metadata.cs" Link="Models\DbModels\Metadata.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\ParagraphContent.cs" Link="Models\DbModels\ParagraphContent.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\ParagraphHeader2.cs" Link="Models\DbModels\ParagraphHeader2.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\ParagraphHeader3.cs" Link="Models\DbModels\ParagraphHeader3.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\ParagraphImage.cs" Link="Models\DbModels\ParagraphImage.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\ParagraphPrimaryContent.cs" Link="Models\DbModels\ParagraphPrimaryContent.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\PhoneSettings.cs" Link="Models\DbModels\PhoneSettings.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\RequestRecord.cs" Link="Models\DbModels\RequestRecord.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\Tag.cs" Link="Models\DbModels\Tag.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\TagItem.cs" Link="Models\DbModels\TagItem.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\UserStore\ItemReadTrackerModel.cs" Link="Models\DbModels\UserStore\ItemReadTrackerModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Exts\ConfigData.cs" Link="Exts\ConfigData.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\EnumsWiki.cs" Link="Models\ExtractModels\EnumsWiki.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\MetaDataModel.cs" Link="Models\ExtractModels\MetaDataModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\WikiImageModel.cs" Link="Models\ExtractModels\WikiImageModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\WikiPageModel.cs" Link="Models\ExtractModels\WikiPageModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\WikiPageViewModel.cs" Link="Models\ExtractModels\WikiPageViewModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\WikiParagraphDetailModel.cs" Link="Models\ExtractModels\WikiParagraphDetailModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\WikiParagraphModel.cs" Link="Models\ExtractModels\WikiParagraphModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\WikiWhatToExtractModel.cs" Link="Models\ExtractModels\WikiWhatToExtractModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Process\ProcessConstants.cs" Link="WikiProcess\ProcessConstants.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Process\WikiAppController.cs" Link="WikiProcess\WikiAppController.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\AppMenuItemRepository.cs" Link="Repository\AppMenuItemRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\IWikiDatabase.cs" Link="Repository\IWikiDatabase.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\MasterRepository.cs" Link="Repository\MasterRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\MetadataRepository.cs" Link="Repository\MetadataRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\ParagraphContentRepository.cs" Link="Repository\ParagraphContentRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\ParagraphHeader2Repository.cs" Link="Repository\ParagraphHeader2Repository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\ParagraphHeader3Repository.cs" Link="Repository\ParagraphHeader3Repository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\ParagraphImageRepository.cs" Link="Repository\ParagraphImageRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\ParagraphPrimaryContentRepository.cs" Link="Repository\ParagraphPrimaryContentRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\PhoneSettingsRepository.cs" Link="Repository\PhoneSettingsRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\RequestRecordRepository.cs" Link="Repository\RequestRecordRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\TagItemRepository.cs" Link="Repository\TagItemRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\TagRepository.cs" Link="Repository\TagRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\WikiPictureRepository.cs" Link="Repository\WikiPictureRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\BasePropertyChangeModel.cs" Link="Models\ViewModels\BasePropertyChangeModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\BaseViewModel.cs" Link="Models\ViewModels\BaseViewModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\IListDynamicHeight.cs" Link="Models\ViewModels\IListDynamicHeight.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\PersonaViewModel.cs" Link="Models\ViewModels\PersonaViewModel.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Fonts\CALIBRI.TTF" />
+	  <EmbeddedResource Include="Fonts\calibrib.ttf" />
+	  <EmbeddedResource Include="Fonts\Font Awesome 5 Free-Solid-900.otf" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MagicGradients" Version="1.3.1" />
+		<PackageReference Include="MarcTron.Admob" Version="1.9.0.6" />
+		<PackageReference Include="Microsoft.AppCenter.Analytics" Version="5.0.3" />
+		<PackageReference Include="Microsoft.AppCenter.Crashes" Version="5.0.3" />
+		<PackageReference Include="Pj.Library" Version="1.0.4.30" />
+		<PackageReference Include="Pj.Library.Datastore.Sqlite" Version="1.0.4.30" />
+		<PackageReference Include="Pj.Library.Mobile.Sqlite" Version="1.0.4.30" />
+		<PackageReference Include="Syncfusion.Xamarin.Buttons" Version="23.1.39" />
+		<PackageReference Include="Syncfusion.Xamarin.Core" Version="23.1.39" />
+		<PackageReference Include="Syncfusion.Xamarin.SfAutoComplete" Version="23.1.39" />
+		<PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="23.1.39" />
+		<PackageReference Include="Syncfusion.Xamarin.SfCarousel" Version="23.1.39" />
+		<PackageReference Include="Syncfusion.Xamarin.SfListView" Version="23.1.39" />
+		<PackageReference Include="Syncfusion.Xamarin.SfPopupLayout" Version="23.1.39" />
+		<PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="23.1.39" />
+		<PackageReference Include="TestAny.Essentials.Api.Lite" Version="1.0.5.28" />
+		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
+		<PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Models\DbModels\UserStore\" />
+		<Folder Include="Models\ExtractModels\" />
+		<Folder Include="Controls\" />
+		<Folder Include="Resources\" />
+		<Folder Include="WikiProcess\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\WikiListOfItemsPage.xaml.cs">
+	    <DependentUpon>WikiListOfItemsPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Views\PersonaDetailPage.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Views\WikiListOfItemsPage.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
+	</ItemGroup>
+</Project>
