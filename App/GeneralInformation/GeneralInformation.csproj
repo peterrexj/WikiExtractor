@@ -72,9 +72,9 @@
 		<PackageReference Include="MarcTron.Admob" Version="1.9.0.6" />
 		<PackageReference Include="Microsoft.AppCenter.Analytics" Version="5.0.3" />
 		<PackageReference Include="Microsoft.AppCenter.Crashes" Version="5.0.3" />
-		<PackageReference Include="Pj.Library" Version="1.0.4.29" />
-		<PackageReference Include="Pj.Library.Datastore.Sqlite" Version="1.0.4.29" />
-		<PackageReference Include="Pj.Library.Mobile.Sqlite" Version="1.0.4.29" />
+		<PackageReference Include="Pj.Library" Version="1.0.4.30" />
+		<PackageReference Include="Pj.Library.Datastore.Sqlite" Version="1.0.4.30" />
+		<PackageReference Include="Pj.Library.Mobile.Sqlite" Version="1.0.4.30" />
 		<PackageReference Include="Syncfusion.Xamarin.Buttons" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.Core" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfAutoComplete" Version="23.1.39" />

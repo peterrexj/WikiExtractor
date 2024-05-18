@@ -130,20 +130,20 @@ namespace WikiExtractor.Process
             {
                 Name = master.Name,
                 WikiPath = master.Route,
-                PicturePrimaryPath = pic.FirstOrDefault(f => f.Path.HasValueOptimized() && f.IsPrimaryBool)?.Path ?? "",
-                PicturePrimaryCaption = pic.FirstOrDefault(f => f.Path.HasValueOptimized() && f.IsPrimaryBool)?.Caption ?? "",
-                Pictures = [.. pic.Where(f => f.Path.HasValueOptimized()).OrderBy(f => f.Sequence)
+                PicturePrimaryPath = pic.FirstOrDefault(f => f.Path.HasValue() && f.IsPrimaryBool)?.Path ?? "",
+                PicturePrimaryCaption = pic.FirstOrDefault(f => f.Path.HasValue() && f.IsPrimaryBool)?.Caption ?? "",
+                Pictures = [.. pic.Where(f => f.Path.HasValue()).OrderBy(f => f.Sequence)
                     .Select(f => new PictureViewModel
                     {
                         Id = f.Id,
                         PicturePath = f.Path,
-                        PictureCaption = f.Caption.HasValueOptimized() && f.Caption.Length >= ConfigData.MinLengthOfPictureCaption ? f.Caption : string.Empty,
+                        PictureCaption = f.Caption.HasValue() && f.Caption.Length >= ConfigData.MinLengthOfPictureCaption ? f.Caption : string.Empty,
                         Sequence = f.Sequence,
                         Width = f.Width,
                         Height = f.Height,
                         ParentName = master.Name,
                     })],
-                Metadatas = [.. metadata.Where(item => item.TypeByEnum == MetadataType.Detail && item.Value.HasValueOptimized()).OrderBy(f => f.Sequence)
+                Metadatas = [.. metadata.Where(item => item.TypeByEnum == MetadataType.Detail && item.Value.HasValue()).OrderBy(f => f.Sequence)
                     .Select(item => new MetadataViewModel
                     {
                         Key = item.Key,
@@ -151,12 +151,12 @@ namespace WikiExtractor.Process
                         Sequence = item.Sequence,
                         GroupHeader = item.Value //Need to get the group header
                     })],
-                MainContent = mainContItem.FirstOrDefault(f => f != null && f.Content.HasValueOptimized())?.Content ?? "",
+                MainContent = mainContItem.FirstOrDefault(f => f != null && f.Content.HasValue())?.Content ?? "",
                 Paragraphs =
                 [
                     new Paragraph2ContentViewModel
                     {
-                        Content = mainContItem.FirstOrDefault(f => f != null && f.Content.HasValueOptimized())?.Content ?? "",
+                        Content = mainContItem.FirstOrDefault(f => f != null && f.Content.HasValue())?.Content ?? "",
                         Header2 = master.Name,
                         Sequence = 0
                     }
