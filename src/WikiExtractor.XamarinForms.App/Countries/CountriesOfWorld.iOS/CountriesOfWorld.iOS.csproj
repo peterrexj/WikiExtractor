@@ -109,7 +109,6 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include=".DS_Store" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -297,7 +296,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\WikiExtractor.XamarinForms\WikiExtractor.XamarinForms.csproj">
-      <Project>{e50e292e-bd03-460e-8bcd-57b34f4547e3}</Project>
+      <Project>{A5B199A8-230C-4AE6-AB54-87A68C15C272}</Project>
       <Name>WikiExtractor.XamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
