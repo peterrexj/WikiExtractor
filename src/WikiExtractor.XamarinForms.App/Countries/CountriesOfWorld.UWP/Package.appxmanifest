@@ -9,7 +9,7 @@
   <Identity
     Name="YourSimpleApps.CountryInsights"
     Publisher="CN=39208EA1-D5D2-424A-8611-3802B30527E1"
-    Version="1.0.4.0" />
+    Version="1.0.6.0" />
 
   <mp:PhoneIdentity PhoneProductId="b7e6db39-1c6c-46e2-a1d8-170eb783cb72" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
