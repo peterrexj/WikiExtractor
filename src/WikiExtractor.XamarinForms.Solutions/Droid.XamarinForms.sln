@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34212.112
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WikiExtractor.XamarinForms", "..\WikiExtractor.XamarinForms\WikiExtractor.XamarinForms.csproj", "{414F31EC-48C5-4C85-96AD-E772F4A94618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChristianCatholicSaints.Android", "..\WikiExtractor.XamarinForms.App\ChristianCatholicSaints\ChristianCatholicSaints.Android\ChristianCatholicSaints.Android.csproj", "{0AB90154-CA7B-4368-AE73-B36A464AE270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesOfWorld.Android", "..\WikiExtractor.XamarinForms.App\Countries\CountriesOfWorld.Android\CountriesOfWorld.Android.csproj", "{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopesOfChurch.Android", "..\WikiExtractor.XamarinForms.App\Popes\PopesOfChurch.Android\PopesOfChurch.Android.csproj", "{DD3C65BA-4093-4228-8D79-72A2F879F8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldLeaders.Android", "..\WikiExtractor.XamarinForms.App\WorldLeaders\WorldLeaders.Android\WorldLeaders.Android.csproj", "{4209DD17-2588-4B96-8DA3-9F9EE48B91C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{414F31EC-48C5-4C85-96AD-E772F4A94618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414F31EC-48C5-4C85-96AD-E772F4A94618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414F31EC-48C5-4C85-96AD-E772F4A94618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414F31EC-48C5-4C85-96AD-E772F4A94618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB90154-CA7B-4368-AE73-B36A464AE270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB90154-CA7B-4368-AE73-B36A464AE270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB90154-CA7B-4368-AE73-B36A464AE270}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0AB90154-CA7B-4368-AE73-B36A464AE270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB90154-CA7B-4368-AE73-B36A464AE270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB90154-CA7B-4368-AE73-B36A464AE270}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD358CA4-F927-40F6-8647-D3DCA1B4FFE1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DD3C65BA-4093-4228-8D79-72A2F879F8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3C65BA-4093-4228-8D79-72A2F879F8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3C65BA-4093-4228-8D79-72A2F879F8D3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DD3C65BA-4093-4228-8D79-72A2F879F8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3C65BA-4093-4228-8D79-72A2F879F8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3C65BA-4093-4228-8D79-72A2F879F8D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4209DD17-2588-4B96-8DA3-9F9EE48B91C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4209DD17-2588-4B96-8DA3-9F9EE48B91C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4209DD17-2588-4B96-8DA3-9F9EE48B91C2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4209DD17-2588-4B96-8DA3-9F9EE48B91C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4209DD17-2588-4B96-8DA3-9F9EE48B91C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4209DD17-2588-4B96-8DA3-9F9EE48B91C2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CC56B01-0AC5-4965-9025-FD3BA17A010C}
+	EndGlobalSection
+EndGlobal
