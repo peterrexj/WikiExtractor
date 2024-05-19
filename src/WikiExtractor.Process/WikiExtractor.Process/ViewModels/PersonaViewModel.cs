@@ -11,10 +11,10 @@ namespace WikiExtractor.ViewModels
     {
         public PersonaViewModel()
         {
-            Metadatas = [];
-            Pictures = [];
-            Paragraphs = [];
-            PrimaryMetadataContent = [];
+            Metadatas = new List<MetadataViewModel>();
+            Pictures = new List<PictureViewModel>();
+            Paragraphs = new List<Paragraph2ContentViewModel>();
+            PrimaryMetadataContent = new List<MetadataViewModel>();
         }
         public int Id { get; set; }
 
@@ -129,8 +129,8 @@ namespace WikiExtractor.ViewModels
     {
         public Paragraph2ContentViewModel()
         {
-            PicLinks = [];
-            Para3Containers = [];
+            PicLinks = new List<PictureViewModel>();
+            Para3Containers = new List<Paragraph3ContainerViewModel>();
         }
         public string Header2 { get; set; }
         public string Content { get; set; }
@@ -148,7 +148,7 @@ namespace WikiExtractor.ViewModels
     {
         public Paragraph3ContainerViewModel()
         {
-            Para3s = [];
+            Para3s = new List<Paragraph3ContentViewModel>();
         }
         public string Header { get; set; }
         public List<Paragraph3ContentViewModel> Para3s { get; set; }
@@ -158,7 +158,7 @@ namespace WikiExtractor.ViewModels
     {
         public Paragraph3ContentViewModel()
         {
-            PicLinks = [];
+            PicLinks = new List<PictureViewModel>();
         }
         public int Id { get; set; }
         public int Sequence { get; set; }

@@ -132,7 +132,7 @@ namespace WikiExtractor.Process
                 WikiPath = master.Route,
                 PicturePrimaryPath = pic.FirstOrDefault(f => f.Path.HasValue() && f.IsPrimaryBool)?.Path ?? "",
                 PicturePrimaryCaption = pic.FirstOrDefault(f => f.Path.HasValue() && f.IsPrimaryBool)?.Caption ?? "",
-                Pictures = [.. pic.Where(f => f.Path.HasValue()).OrderBy(f => f.Sequence)
+                Pictures = pic.Where(f => f.Path.HasValue()).OrderBy(f => f.Sequence)
                     .Select(f => new PictureViewModel
                     {
                         Id = f.Id,
@@ -142,25 +142,25 @@ namespace WikiExtractor.Process
                         Width = f.Width,
                         Height = f.Height,
                         ParentName = master.Name,
-                    })],
-                Metadatas = [.. metadata.Where(item => item.TypeByEnum == MetadataType.Detail && item.Value.HasValue()).OrderBy(f => f.Sequence)
+                    }).ToList(),
+                Metadatas = metadata.Where(item => item.TypeByEnum == MetadataType.Detail && item.Value.HasValue()).OrderBy(f => f.Sequence)
                     .Select(item => new MetadataViewModel
                     {
                         Key = item.Key,
                         Description = item.Value,
                         Sequence = item.Sequence,
                         GroupHeader = item.Value //Need to get the group header
-                    })],
+                    }).ToList(),
                 MainContent = mainContItem.FirstOrDefault(f => f != null && f.Content.HasValue())?.Content ?? "",
-                Paragraphs =
-                [
+                Paragraphs = new List<Paragraph2ContentViewModel>
+                {
                     new Paragraph2ContentViewModel
                     {
                         Content = mainContItem.FirstOrDefault(f => f != null && f.Content.HasValue())?.Content ?? "",
                         Header2 = master.Name,
                         Sequence = 0
                     }
-                ]
+                }
             };
 
             return item;
