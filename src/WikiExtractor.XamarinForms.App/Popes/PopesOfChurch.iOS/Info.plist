@@ -27,7 +27,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.pj.popesofchurch</string>
 	<key>CFBundleVersion</key>
-	<string>2.0</string>
+	<string>3.0</string>
 	<key>UILaunchStoryboardName</key>
 	<string>SplashScreen</string>
 	<key>CFBundleName</key>
@@ -43,7 +43,7 @@
 	<key>UIMainStoryboardFile</key>
 	<string>SplashScreen</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>3.0</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 </dict>
