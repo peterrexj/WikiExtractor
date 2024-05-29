@@ -88,7 +88,6 @@
 	<ItemGroup>
 		<Folder Include="Models\DbModels\UserStore\" />
 		<Folder Include="Models\ExtractModels\" />
-		<Folder Include="Controls\" />
 		<Folder Include="Resources\" />
 		<Folder Include="WikiProcess\" />
 	</ItemGroup>
@@ -100,6 +99,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <EmbeddedResource Update="Controls\Header2ListItemTemplate.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Controls\Header3ListItemTemplate.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Controls\ImageListItemTemplate.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Controls\ParagraphContentListItemTemplate.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
 	  <EmbeddedResource Update="Views\PersonaDetailPage.xaml">
 	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
 	  </EmbeddedResource>

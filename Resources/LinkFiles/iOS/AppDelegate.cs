@@ -5,6 +5,7 @@ using Microsoft.AppCenter.Crashes;
 using Syncfusion.ListView.XForms.iOS;
 using Syncfusion.SfAutoComplete.XForms.iOS;
 using Syncfusion.XForms.iOS.Buttons;
+using Syncfusion.XForms.iOS.Graphics;
 using Syncfusion.XForms.iOS.PopupLayout;
 using Syncfusion.XForms.iOS.TabView;
 using System;
@@ -61,6 +62,7 @@ namespace Wiki.iOS
             SfChipGroupRenderer.Init();
             SfSegmentedControlRenderer.Init();
             SfTabViewRenderer.Init();
+            SfGradientViewRenderer.Init();
 
 #if DEBUG
             DisplayCrashReport();

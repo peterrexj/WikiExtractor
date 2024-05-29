@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataTemplate
+    x:Class="WikiExtractor.XamarinForms.Controls.Header3ListItemTemplate"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:fontAwesome="clr-namespace:FontAwesome"
+    xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms">
+    <ViewCell>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <sfGradient:SfGradientView Grid.ColumnSpan="2">
+                <sfGradient:SfGradientView.BackgroundBrush>
+                    <sfGradient:SfLinearGradientBrush>
+                        <sfGradient:SfLinearGradientBrush.GradientStops>
+                            <sfGradient:SfGradientStop Offset="0.0" Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SubPageHeader3GradientStartColor, Converter={StaticResource stringToColorConverter}}" />
+                            <sfGradient:SfGradientStop Offset="1.0" Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SubPageHeader3GradientEndColor, Converter={StaticResource stringToColorConverter}}" />
+                        </sfGradient:SfLinearGradientBrush.GradientStops>
+                    </sfGradient:SfLinearGradientBrush>
+                </sfGradient:SfGradientView.BackgroundBrush>
+            </sfGradient:SfGradientView>
+            <Label
+                Grid.Column="0"
+                Margin="{OnPlatform Android={OnIdiom Phone='5,0,0,0',
+                                                     Tablet='5,0,0,0'},
+                                    iOS={OnIdiom Phone='5,0,0,0',
+                                                 Tablet='5,0,0,0'},
+                                    UWP='5,0,0,0'}"
+                FontAttributes="Bold"
+                FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
+                FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                       Tablet=22},
+                                      iOS={OnIdiom Phone=20,
+                                                   Tablet=24},
+                                      UWP={OnIdiom Phone=16,
+                                                   Tablet=22,
+                                                   Desktop=22},
+                                      macOS=22,
+                                      WPF=22}"
+                HorizontalOptions="StartAndExpand"
+                LineBreakMode="WordWrap"
+                Text="{Binding Content}"
+                TextColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
+                VerticalOptions="Center" />
+            <sfButtons:SfButton
+                Grid.Column="1"
+                Padding="0,5,0,5"
+                BackgroundColor="Transparent"
+                Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.PlayAudio}"
+                CommandParameter="{Binding ContentLinkId}"
+                HorizontalOptions="Start"
+                HorizontalTextAlignment="Start"
+                IsVisible="{Binding IsPlayButtonRequired}">
+                <Image
+                    Margin="5,0,0,0"
+                    HeightRequest="20"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="20">
+                    <Image.Source>
+                        <FontImageSource
+                            FontFamily="FontAwesome5Solid"
+                            Glyph="{x:Static fontAwesome:FontAwesomeIcons.Play}"
+                            Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
+                    </Image.Source>
+                </Image>
+            </sfButtons:SfButton>
+        </Grid>
+    </ViewCell>
+</DataTemplate>

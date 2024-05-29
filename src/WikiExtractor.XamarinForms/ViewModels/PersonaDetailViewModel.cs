@@ -4,11 +4,13 @@ using GeneralInformation.Services;
 using Pj.Library;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using WikiExtractor.ViewModels;
+using WikiExtractor.XamarinForms.ViewModels;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -18,6 +20,7 @@ namespace GeneralInformation.ViewModels
     {
         public PersonaDetailViewModel()
         {
+            ItemDetailItems = new ObservableCollection<ItemDetailListViewModel>();
             var appInfo = DependencyService.Get<IAppInformation>();
 
             PlayAudio = new Command<int>(async (id) => await SpeakNowDefaultSettings(id));
@@ -37,6 +40,17 @@ namespace GeneralInformation.ViewModels
             {
                 _persona = value;
                 OnPropertyChanged("Persona");
+            }
+        }
+
+        private ObservableCollection<ItemDetailListViewModel> _itemDetailItems;
+        public ObservableCollection<ItemDetailListViewModel> ItemDetailItems
+        {
+            get => _itemDetailItems;
+            set
+            {
+                _itemDetailItems = value;
+                OnPropertyChanged("ItemDetailItems");
             }
         }
 

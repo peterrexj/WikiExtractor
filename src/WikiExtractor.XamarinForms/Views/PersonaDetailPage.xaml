@@ -5,9 +5,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
     xmlns:carousel="clr-namespace:Syncfusion.SfCarousel.XForms;assembly=Syncfusion.SfCarousel.XForms"
-    xmlns:converters="clr-namespace:GeneralInformation.Converters"
     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     xmlns:local="clr-namespace:GeneralInformation"
+    xmlns:localControls="clr-namespace:WikiExtractor.XamarinForms.Controls"
     xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
@@ -18,7 +18,11 @@
     ios:Page.UseSafeArea="False">
     <ContentPage.Resources>
         <ResourceDictionary>
-            <converters:StringToColorConverter x:Key="stringToColorConverter" />
+            <localControls:ItemDetailListTemplateSelector x:Key="ItemDetailListTemplateSelector" />
+            <localControls:Header2ListItemTemplate x:Key="Header2ListItemTemplate" />
+            <localControls:Header3ListItemTemplate x:Key="Header3ListItemTemplate" />
+            <localControls:ParagraphContentListItemTemplate x:Key="ParagraphContentListItemTemplate" />
+            <localControls:ImageListItemTemplate x:Key="ImageListItemTemplate" />
         </ResourceDictionary>
     </ContentPage.Resources>
     <Shell.TitleView>
@@ -510,11 +514,12 @@
                                 </Grid>
                             </tabView:SfTabItem.HeaderContent>
                             <tabView:SfTabItem.Content>
-                                <ScrollView>
-                                    <StackLayout>
-                                        <StackLayout x:Name="ParaContentsStack" />
-                                    </StackLayout>
-                                </ScrollView>
+                                <syncfusionList:SfListView
+                                    Padding="10,2,8,0"
+                                    AutoFitMode="DynamicHeight"
+                                    ItemTemplate="{StaticResource ItemDetailListTemplateSelector}"
+                                    ItemsSource="{Binding ItemDetailItems}"
+                                    SelectionMode="None" />
                             </tabView:SfTabItem.Content>
                         </tabView:SfTabItem>
                         <tabView:SfTabItem x:Name="tabPictures">

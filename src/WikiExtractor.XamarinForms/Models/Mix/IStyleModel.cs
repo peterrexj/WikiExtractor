@@ -34,8 +34,8 @@ namespace GeneralInformation.Models.Mix
         string SegSelectedTextFgColor { get; set; }
         string SegTextFgColor { get; set; }
         string SortButtonColor { get; set; }
-        string SubPageDetailsContentGradientEndColor { get; set; }
-        string SubPageDetailsContentGradientStartColor { get; set; }
+        string AppShellFooterGradientEnd { get; set; }
+        string AppShellFooterGradientStart { get; set; }
         IGradientSource SubPageFactsBoxBorderBgSource { get; set; }
         string SubPageFactsFontColor { get; set; }
         IGradientSource SubPagePictureTitleBoxBorderBgSource { get; set; }
@@ -44,6 +44,10 @@ namespace GeneralInformation.Models.Mix
         string SubPageTopHeaderBoxBorderColor { get; set; }
         string SubPageTopHeaderFontColor { get; set; }
         string SubPageTopHeaderWikiFontColor { get; set; }
+        string SubPageHeader2GradientStartColor { get; set; }
+        string SubPageHeader2GradientEndColor { get; set; }
+        string SubPageHeader3GradientStartColor { get; set; }
+        string SubPageHeader3GradientEndColor { get; set; }
         string SwitchBusyIndicatorColorOFF { get; set; }
         string SwitchBusyIndicatorColorON { get; set; }
         string SwitchThumbBorderColorOFF { get; set; }

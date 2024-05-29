@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataTemplate
+    x:Class="WikiExtractor.XamarinForms.Controls.ImageListItemTemplate"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:GeneralInformation"
+    xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms">
+    <ViewCell>
+        <Grid
+            Margin="0,5,0,5"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <sfBorder:SfBorder
+                Grid.Row="0"
+                AutomationId="{Binding ImageDimension}"
+                BackgroundColor="Transparent"
+                BorderColor="LightGray"
+                BorderWidth="1"
+                CornerRadius="5"
+                HeightRequest="{Binding ImageHeight}"
+                HorizontalOptions="FillAndExpand"
+                SizeChanged="SfBorder_SizeChanged"
+                VerticalOptions="FillAndExpand">
+                <local:ExtendedImage
+                    x:Name="img"
+                    Margin="5,2,5,6"
+                    Aspect="AspectFit"
+                    CustomSource="{Binding ImageLocalPath}"
+                    HorizontalOptions="FillAndExpand"
+                    LocalFileName="{Binding ImageFileName}"
+                    VerticalOptions="FillAndExpand" />
+                <!--<ActivityIndicator
+                        Grid.Row="0"
+                        BindingContext="{x:Reference img}"
+                        IsRunning="{Binding IsLoading}" />-->
+            </sfBorder:SfBorder>
+            <Label
+                Grid.Row="1"
+                Margin="5,-2,5,0"
+                FontAttributes="Bold"
+                FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamilyBold}"
+                FontSize="{OnPlatform Android={OnIdiom Phone=13,
+                                                       Tablet=14},
+                                      iOS={OnIdiom Phone=13,
+                                                   Tablet=14},
+                                      UWP={OnIdiom Phone=12,
+                                                   Tablet=14,
+                                                   Desktop=14},
+                                      macOS=14,
+                                      WPF=14}"
+                HorizontalOptions="Center"
+                LineBreakMode="WordWrap"
+                Text="{Binding ImageCaption}"
+                TextColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
+        </Grid>
+    </ViewCell>
+</DataTemplate>

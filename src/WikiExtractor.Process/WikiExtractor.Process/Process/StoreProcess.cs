@@ -17,6 +17,15 @@ namespace WikiExtractor.Process
             userStoreDatabase = new UserStoreDatabase();
         }
 
+        private bool PrimaryDataAlreadyExists(WikiPageModel wikiPageModel, WikiWhatToExtractModel wikiExtractInfo)
+        {
+            return wikiDatabase.MasterRepository.RecordExists(new Master
+            {
+                Name = wikiPageModel.Header,
+                Route = wikiPageModel.Route,
+                Sequence = wikiExtractInfo.Sequence,
+            });
+        }
         private int StoreMaster(WikiPageModel wikiPageModel, WikiWhatToExtractModel wikiExtractInfo)
         {
             return wikiDatabase.MasterRepository.Add(new Master
@@ -264,6 +273,9 @@ namespace WikiExtractor.Process
             {
                 return 0;
             }
+
+            //check if the master record already contains this record
+            if (PrimaryDataAlreadyExists(wikiPageModel, wikiExtractInfo)) return 0;
 
             var masterId = StoreMaster(wikiPageModel, wikiExtractInfo);
             StoreTags(wikiExtractInfo.Tags, masterId);

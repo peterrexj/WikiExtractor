@@ -8,7 +8,6 @@ namespace GeneralInformation.Exts
 {
     public static class ThemeHelper
     {
-
         public static IStyleModel GetDefaultStyle()
         {
             return GetDefaultStyle(SettingsHelper.SelectedTheme);
@@ -63,13 +62,13 @@ namespace GeneralInformation.Exts
             {
                 appResources["AppShellForegroundIconColor"] = styleModel.AppShellForegroundIconColor;
             }
-            if (appResources.ContainsKey("AppShellFooterGradientStart") && styleModel.SubPageDetailsContentGradientStartColor.HasValue())
+            if (appResources.ContainsKey("AppShellFooterGradientStart") && styleModel.AppShellFooterGradientStart.HasValue())
             {
-                appResources["AppShellFooterGradientStart"] = styleModel.SubPageDetailsContentGradientStartColor;
+                appResources["AppShellFooterGradientStart"] = styleModel.AppShellFooterGradientStart;
             }
-            if (appResources.ContainsKey("AppShellFooterGradientEnd") && styleModel.SubPageDetailsContentGradientEndColor.HasValue())
+            if (appResources.ContainsKey("AppShellFooterGradientEnd") && styleModel.AppShellFooterGradientEnd.HasValue())
             {
-                appResources["AppShellFooterGradientEnd"] = styleModel.SubPageDetailsContentGradientEndColor;
+                appResources["AppShellFooterGradientEnd"] = styleModel.AppShellFooterGradientEnd;
             }
         }
 

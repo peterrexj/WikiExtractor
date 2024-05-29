@@ -1,13 +1,9 @@
-﻿using FontAwesome;
-using GeneralInformation.Exts;
+﻿using GeneralInformation.Exts;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
 using MarcTron.Plugin.Controls;
 using Pj.Library;
-using Syncfusion.XForms.Border;
-using Syncfusion.XForms.Buttons;
 using Syncfusion.XForms.EffectsView;
-using Syncfusion.XForms.Graphics;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -16,6 +12,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using WikiExtractor.Exts;
 using WikiExtractor.ViewModels;
+using WikiExtractor.XamarinForms.Controls;
+using WikiExtractor.XamarinForms.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -27,12 +25,11 @@ namespace GeneralInformation.Views
     {
         public string MasterId { get; set; }
 
-        private List<Grid> _paraGrids;
-        private const int DefaultHeightImageInDetailsPage = 300;
-        ConcurrentDictionary<string, ExtendedImage> extendImageCtrlsInPage = new();
-        private bool _isExternalImageLoadComplete = false;
-
         private PersonaDetailViewModel personaDetailViewModel;
+        private ConcurrentDictionary<string, ExtendedImage> extendImagesInPage = new();
+
+        private const int DefaultHeightImageInDetailsPage = 300;
+        private bool _isExternalImageLoadComplete = false;
 
         private void CaptureErrorOnPage(Exception exception)
         {
@@ -109,6 +106,13 @@ namespace GeneralInformation.Views
                 BindingContext = personaDetailViewModel;
                 Task.Run(LoadSubPageItemDataDetails);
             }
+
+            // Set the DataTemplateSelector properties
+            var itemTemplateSelector = (ItemDetailListTemplateSelector)Resources["ItemDetailListTemplateSelector"];
+            itemTemplateSelector.Header2Template = (DataTemplate)Resources["Header2ListItemTemplate"];
+            itemTemplateSelector.Header3Template = (DataTemplate)Resources["Header3ListItemTemplate"];
+            itemTemplateSelector.ParagraphContentTemplate = (DataTemplate)Resources["ParagraphContentListItemTemplate"];
+            itemTemplateSelector.ImageTemplate = (DataTemplate)Resources["ImageListItemTemplate"];
         }
         private void LoadImagesRequiredForThisPageAsync()
         {
@@ -137,9 +141,9 @@ namespace GeneralInformation.Views
 
                         Task.WhenAll(tasks).ContinueWith(t =>
                         {
-                            if (extendImageCtrlsInPage != null)
+                            if (extendImagesInPage != null)
                             {
-                                foreach (var exImgCtrl in extendImageCtrlsInPage)
+                                foreach (var exImgCtrl in extendImagesInPage)
                                 {
                                     try
                                     {
@@ -155,7 +159,7 @@ namespace GeneralInformation.Views
                                         CaptureErrorOnPage(ex);
                                     }
                                 }
-                                extendImageCtrlsInPage = null;
+                                extendImagesInPage = null;
                             }
                         });
                         _isExternalImageLoadComplete = true;
@@ -191,9 +195,9 @@ namespace GeneralInformation.Views
                         personaDetailViewModel.Persona.Metadatas.Add(new MetadataViewModel { Key = "", Description = personaDetailViewModel.Persona.Name });
                     }
 
-                    LoadParaDetails();
+                    BuildDetailItemModel();
                     personaDetailViewModel.TriggerEvents();
-                    //RunOnAppDispatcher(() => tabView.VisibleHeaderCount = personaDetailViewModel.AvailableTabCount);
+                    RunOnAppDispatcher(() => LoadImagesRequiredForThisPageAsync());
                     RunOnAppDispatcher(() => tabView.SelectedIndex = 0);
                     RunOnAppDispatcher(InitializeAdsControls);
                 }
@@ -207,304 +211,72 @@ namespace GeneralInformation.Views
                 }
             });
         }
-        public void LoadParaGrids()
-        {
-            _paraGrids = new List<Grid>();
-
-            foreach (var grpContent in personaDetailViewModel?.Persona?.Paragraphs.OrderBy(f => f.Sequence).GroupBy(f => f.Header2))
-            {
-                try
-                {
-                    _paraGrids.Add(RenderPara2ContentV2(grpContent.ToList()));
-                }
-                catch (Exception ex)
-                {
-                    CaptureErrorOnPage(ex);
-                }
-            }
-            RunOnAppDispatcher(() => LoadImagesRequiredForThisPageAsync());
-        }
-        private void LoadParaDetails()
+        
+        private void BuildDetailItemModel()
         {
             try
             {
-                LoadParaGrids();
-                RenderParaContents();
-            }
-            catch (Exception ex)
-            {
-                CaptureErrorOnPage(ex);
-            }
-        }
-        private void RenderParaContents()
-        {
-            RunOnAppDispatcher(() =>
-            {
-                foreach (var grpContent in _paraGrids)
+                foreach (var grpContent in personaDetailViewModel?.Persona?.Paragraphs.OrderBy(f => f.Sequence).GroupBy(f => f.Header2))
                 {
-                    try
+                    if (grpContent.Any(f => f.Content.HasValue()) || grpContent.Any(f => f.Para3Containers.SelectMany(f => f.Para3s).Any(g => g.Content.HasValue())))
+                    //if (paraContents.Any(f => f.ContainsHeader2Content) || paraContents.Any(f => f.ContainsHeader3Content))
                     {
-                        ParaContentsStack.Children.Add(grpContent);
-                    }
-                    catch (Exception ex)
-                    {
-                        CaptureErrorOnPage(ex);
-                    }
-                }
-            });
-        }
-        private Grid RenderPara2ContentV2(List<Paragraph2ContentViewModel> paraContents)
-        {
-            var mainGrid = new Grid
-            {
-                HorizontalOptions = LayoutOptions.FillAndExpand,
-                VerticalOptions = LayoutOptions.FillAndExpand
-            };
-
-            var stackLayout = new StackLayout
-            {
-                Padding = new Thickness(10, 0, 8, 0),
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                HorizontalOptions = LayoutOptions.FillAndExpand
-            };
-
-
-            if (paraContents.Any(f => f.Content.HasValue()) || paraContents.Any(f => f.Para3Containers.SelectMany(f => f.Para3s).Any(g => g.Content.HasValue())))
-            //if (paraContents.Any(f => f.ContainsHeader2Content) || paraContents.Any(f => f.ContainsHeader3Content))
-            {
-                //Render Para2 header
-                var header2 = paraContents.FirstOrDefault(f => f.Header2.HasValue());
-                if (header2?.Header2.HasValue() == true)
-                {
-                    stackLayout.Children.Add(BuildHeader2(header2.Header2 ?? "", header2.Id, header2.ContainsHeader2Content));
-                }
-
-                //Render Para2 contents
-                foreach (var paraContent in paraContents)
-                {
-                    if (paraContent.Content.HasValue())
-                    {
-                        foreach (var img in paraContent.PicLinks)
+                        //Render Para2 header
+                        var header2 = grpContent.FirstOrDefault(f => f.Header2.HasValue());
+                        if (header2?.Header2.HasValue() == true)
                         {
-                            stackLayout.Children.Add(BuildParagraphImage(img));
-                        }
-                        stackLayout.Children.Add(BuildContentParagraph(paraContent.Content));
-                    }
-
-                    //Para3 here
-                    foreach (var para3Grp in paraContent.Para3Containers)
-                    {
-                        if (para3Grp.Header.HasValue() == true)
-                        {
-                            //Render Para3 header
-
-                            //the condition check for the id below is not correct
-                            stackLayout.Children.Add(BuildHeader3(para3Grp.Header, para3Grp.Para3s.FirstOrDefault()?.Id ?? 0 , para3Grp.Para3s.Any(f => f.Content.HasValue())));
+                            personaDetailViewModel.ItemDetailItems.Add(BuildHeader2Row(header2));
                         }
 
-                        foreach (var para3Content in para3Grp.Para3s)
+                        //Render Para2 contents
+                        foreach (var paraContent in grpContent)
+                        
                         {
-                            foreach (var img in para3Content.PicLinks)
+                            foreach (var img in paraContent.PicLinks)
                             {
-                                stackLayout.Children.Add(BuildParagraphImage(img));
+                                personaDetailViewModel.ItemDetailItems.Add(BuildImageRow(img));
                             }
-                            stackLayout.Children.Add(BuildContentParagraph(para3Content.Content));
-                        }
-                    }
-                }
-            }
-            mainGrid.Children.Add(BuildPara2GradientBackground());
-            mainGrid.Children.Add(stackLayout);
-            return mainGrid;
-        }
+                            if (paraContent.Content.HasValue())
+                            {
+                                if (personaDetailViewModel.ItemDetailItems.Any() && personaDetailViewModel.ItemDetailItems.Last()?.Type == "Header2Text")
+                                {
+                                    personaDetailViewModel.ItemDetailItems.Last().Content = $"{personaDetailViewModel.ItemDetailItems.Last().Content}{Environment.NewLine}{paraContent.Content}";
+                                }
+                                else
+                                {
+                                    personaDetailViewModel.ItemDetailItems.Add(BuildPara2ContentRow(paraContent));
+                                }
+                            }
+                            //Para3 here
+                            foreach (var para3Grp in paraContent.Para3Containers)
+                            {
+                                if (para3Grp.Header.HasValue() == true)
+                                {
+                                    //Render Para3 header
+                                    personaDetailViewModel.ItemDetailItems.Add(BuildHeader3Row(para3Grp));
+                                }
 
-        private FlexLayout BuildHeader2(string content, int contentId, bool isPlayButtonRequired, string bindingPathToFontFamily = "DefaultStyle.DefaultFontFamily")
-        {
-            var flexLayout = new FlexLayout();
+                                foreach (var para3Content in para3Grp.Para3s)
+                                {
+                                    foreach (var img in para3Content.PicLinks)
+                                    {
+                                        personaDetailViewModel.ItemDetailItems.Add(BuildImageRow(img));
+                                    }
 
-            flexLayout.Children.Add(BuildContentParagraphDynamic(content, "DetailsTabHeaderText", bindingPathToFontFamily));
-            if (isPlayButtonRequired)
-            {
-                flexLayout.Children.Add(BuildPlayButton(contentId, isHeader2: true, isHeader3: false));
-            }
-
-            return flexLayout;
-        }
-        private FlexLayout BuildHeader3(string content, int contentId, bool isPlayButtonRequired, string bindingPathToFontFamily = "DefaultStyle.DefaultFontFamily")
-        {
-            var flexLayout = new FlexLayout();
-
-            flexLayout.Children.Add(BuildContentParagraphDynamic(content, "DetailsTabSubHeaderText", bindingPathToFontFamily));
-
-            if (isPlayButtonRequired)
-            {
-                flexLayout.Children.Add(BuildPlayButton(contentId, isHeader2: false, isHeader3: true));
-            }
-
-            return flexLayout;
-        }
-        private Label BuildContentParagraph(string content, string bindingPathToFontFamily = "DefaultStyle.DefaultFontFamily")
-        {
-            return BuildContentParagraphDynamic(content, "DetailsTabContentText", bindingPathToFontFamily);
-        }
-        private Label BuildContentParagraphDynamic(string content, string style, string bindingPathToFontFamily)
-        {
-            var lbl = new Label { Text = content, HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.Center };
-            lbl.SetBinding(Label.FontFamilyProperty, bindingPathToFontFamily);
-            lbl.SetBinding(Label.TextColorProperty, "DefaultStyle.DefaultFontColor", converter: SharedServices.ToColorConverterAsValueConverter);
-            var resource = Application.Current.Resources[style];
-            if (resource != null && resource.GetType() == typeof(Style))
-                lbl.Style = (Style)resource;
-            return lbl;
-        }
-        private Grid BuildParagraphImage(PictureViewModel picModel)
-        {
-            var grid = new Grid
-            {
-                RowDefinitions =
-                {
-                    new RowDefinition { Height = new GridLength(0, GridUnitType.Auto) },
-                    new RowDefinition { Height = new GridLength(0, GridUnitType.Auto) },
-                },
-                HorizontalOptions = LayoutOptions.FillAndExpand,
-                VerticalOptions = LayoutOptions.FillAndExpand,
-            };
-
-            try
-            {
-                var sfBorder = new SfBorder
-                {
-                    HorizontalOptions = LayoutOptions.FillAndExpand,
-                    VerticalOptions = LayoutOptions.FillAndExpand,
-                    BackgroundColor = Color.Transparent,
-                    BorderColor = Color.LightGray,
-                    BorderWidth = 1,
-                    CornerRadius = 5,
-                    HeightRequest = (picModel.Height <= 0 || picModel.Height > DefaultHeightImageInDetailsPage) ? DefaultHeightImageInDetailsPage : picModel.Height,
-                    AutomationId = $"{(picModel.Height <= 0 ? DefaultHeightImageInDetailsPage : picModel.Height)},{(picModel.Width <= 0 ? DefaultHeightImageInDetailsPage : picModel.Width)}"
-                };
-
-                sfBorder.SizeChanged += SfBorderOnContentDetailImage_SizeChanged;
-                var img = new ExtendedImage
-                {
-                    CustomSource = Path.Combine(ConfigData.LocalStorageCacheFolderPath, picModel.PictureLocalFileName),
-                    LocalFileName = picModel.PictureLocalFileName,
-                    Margin = new Thickness(5, 2, 5, 2),
-                    Aspect = Aspect.AspectFit,
-                    HorizontalOptions = LayoutOptions.FillAndExpand,
-                    VerticalOptions = LayoutOptions.FillAndExpand,
-                };
-
-                RunOnAppDispatcher(() =>
-                {
-                    if (extendImageCtrlsInPage != null) //This can be null when all images are loaded or nothing to load
-                    {
-                        extendImageCtrlsInPage.AddOrUpdate(img.LocalFileName, img);
-                    }
-                });
-
-                sfBorder.Content = img;
-
-                var lbl = new Label { Text = picModel.PictureCaption };
-                lbl.SetBinding(Label.FontFamilyProperty, "DefaultStyle.DefaultFontFamilyBold");
-                lbl.SetBinding(Label.TextColorProperty, "DefaultStyle.DefaultFontColor", converter: SharedServices.ToColorConverterAsValueConverter);
-
-                var resource = Application.Current.Resources["DetailsTabImageCaptionText"];
-                if (resource != null && resource.GetType() == typeof(Style))
-                    lbl.Style = (Style)resource;
-
-                Grid.SetRow(sfBorder, 0);
-                Grid.SetRow(lbl, 1);
-
-                grid.Children.Add(sfBorder);
-                grid.Children.Add(lbl);
-
-            }
-            catch (Exception ex)
-            {
-                CaptureErrorOnPage(ex);
-            }
-            return grid;
-        }
-        private SfButton BuildPlayButton(int contentId, bool isHeader2, bool isHeader3)
-        {
-            var sfButton = new SfButton
-            {
-                BackgroundColor = Color.Transparent,
-                Command = personaDetailViewModel.PlayAudio,
-                CommandParameter = contentId
-            };
-
-            var sfBtnImage = new Image
-            {
-                Source = new FontImageSource
-                {
-                    FontFamily = "FontAwesome5Solid",
-                    Glyph = FontAwesomeIcons.Play,
-                },
-                HeightRequest = 20,
-                WidthRequest = 20,
-                
-                HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.Center,
-            };
-
-            if (isHeader2)
-            {
-                sfBtnImage.Margin = new Thickness { Bottom = 0, Left = 10, Right = 0, Top = 10 };
-            }
-            else if (isHeader3)
-            {
-                sfBtnImage.Margin = new Thickness { Bottom = 0, Left = 10, Right = 0, Top = 0 };
-            }
-
-            sfBtnImage.Source.SetBinding(FontImageSource.ColorProperty, "DefaultStyle.DefaultFontColor", converter: SharedServices.ToColorConverterAsValueConverter);
-
-            sfButton.Content = sfBtnImage;
-
-            return sfButton;
-        }
-        private SfGradientView BuildPara2GradientBackground()
-        {
-            var gradientView = new SfGradientView();
-
-            var gradientStart = new SfGradientStop { Offset = 0.0 };
-            gradientStart.SetBinding(SfGradientStop.ColorProperty, "DefaultStyle.SubPageDetailsContentGradientStartColor", converter: SharedServices.ToColorConverterAsValueConverter);
-
-            var gradientStop = new SfGradientStop { Offset = 0.8 };
-            gradientStop.SetBinding(SfGradientStop.ColorProperty, "DefaultStyle.SubPageDetailsContentGradientEndColor", converter: SharedServices.ToColorConverterAsValueConverter);
-
-            gradientView.BackgroundBrush = new SfLinearGradientBrush
-            {
-                GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection() { gradientStart, gradientStop }
-            };
-            return gradientView;
-        }
-
-        private void SfBorderOnContentDetailImage_SizeChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                if (sender != null)
-                {
-                    var width = ((SfBorder)sender).Bounds.Width;
-                    if (width > 600) width = 600; //For Tablet with higher width, the width is set back to 600
-                    var automationId = ((SfBorder)sender).AutomationId?.SplitAndTrim(",")?.ToList();
-                    if (width > 0 && automationId?.Count() == 2)
-                    {
-                        //item 0 - height
-                        //item 1 - width
-
-                        var actualHeight = (automationId[0].ToDouble() / automationId[1].ToDouble()) * width;
-                        ((SfBorder)sender).HeightRequest = actualHeight;
-                        //For tablets, since the width is shortend, the picture will sit in the centre with gaps around the border.
-                        //hence removing the border and radius
-                        if (width >= 600)
-                        {
-                            ((SfBorder)sender).WidthRequest = width;
-                            ((SfBorder)sender).BorderColor = Color.Transparent;
-                            ((SfBorder)sender).BorderWidth = 0;
-                            ((SfBorder)sender).CornerRadius = 0;
+                                    if (personaDetailViewModel.ItemDetailItems.Any() && personaDetailViewModel.ItemDetailItems.Last()?.Type == "Header3Text")
+                                    {
+                                        personaDetailViewModel.ItemDetailItems.Last().Content = $"{personaDetailViewModel.ItemDetailItems.Last().Content}{Environment.NewLine}{para3Content.Content}";
+                                    }
+                                    else
+                                    {
+                                        personaDetailViewModel.ItemDetailItems.Add(new WikiExtractor.XamarinForms.ViewModels.ItemDetailListViewModel
+                                        {
+                                            Type = "Header3Text",
+                                            Content = para3Content.Content ?? "",
+                                        });
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -514,6 +286,33 @@ namespace GeneralInformation.Views
                 CaptureErrorOnPage(ex);
             }
         }
+
+        private ItemDetailListViewModel BuildPara2ContentRow(Paragraph2ContentViewModel para) => new() { Type = "Header2Text", Content = para.Content, };
+        private ItemDetailListViewModel BuildPara3ContentRow(Paragraph3ContentViewModel para) => new() { Type = "Header3Text", Content = para.Content, };
+
+        private ItemDetailListViewModel BuildHeader2Row(Paragraph2ContentViewModel para) => new()
+        {
+            Type = "Header2",
+            Content = para.Header2 ?? "",
+            ContentLinkId = para.Id,
+            IsPlayButtonRequired = para.ContainsHeader2Content
+        };
+        private ItemDetailListViewModel BuildHeader3Row(Paragraph3ContainerViewModel para) => new()
+        {
+            Type = "Header3",
+            Content = para.Header ?? "",
+            ContentLinkId = para.Para3s.FirstOrDefault()?.Id ?? 0,
+            IsPlayButtonRequired = para.Para3s.Any(f => f.Content.HasValue())
+        };
+        private ItemDetailListViewModel BuildImageRow(PictureViewModel pictureViewModel) => new()
+        {
+            Type = "Image",
+            ImageLocalPath = Path.Combine(ConfigData.LocalStorageCacheFolderPath, pictureViewModel.PictureLocalFileName),
+            ImageFileName = pictureViewModel.PictureLocalFileName,
+            ImageHeight = (pictureViewModel.Height <= 0 || pictureViewModel.Height > DefaultHeightImageInDetailsPage) ? DefaultHeightImageInDetailsPage : pictureViewModel.Height,
+            ImageDimension = $"{(pictureViewModel.Height <= 0 ? DefaultHeightImageInDetailsPage : pictureViewModel.Height)},{(pictureViewModel.Width <= 0 ? DefaultHeightImageInDetailsPage : pictureViewModel.Width)}",
+            ImageCaption = pictureViewModel.PictureCaption,
+        };
 
         private void First_TabItem_Clicked(object sender, EventArgs e)
         {
@@ -531,6 +330,7 @@ namespace GeneralInformation.Views
         {
             try
             {
+                //tabView.SelectedIndex = personaDetailViewModel.IsMetaDataAvailable ? 1 : 0;
                 if (_isExternalImageLoadComplete)
                 {
                     tabView.SelectedIndex = personaDetailViewModel.IsMetaDataAvailable ? 1 : 0;

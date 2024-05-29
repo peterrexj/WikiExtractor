@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataTemplate
+    x:Class="WikiExtractor.XamarinForms.Controls.ParagraphContentListItemTemplate"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ViewCell>
+        <StackLayout>
+            <Label
+                Margin="0,0,0,10"
+                Padding="0,0,0,10"
+                CharacterSpacing="{OnPlatform Android={OnIdiom Phone=0.3,
+                                                               Tablet=0.4},
+                                              iOS={OnIdiom Phone=0.3,
+                                                           Tablet=0.4},
+                                              UWP={OnIdiom Phone=0.3,
+                                                           Tablet=0.4,
+                                                           Desktop=0.4},
+                                              macOS=0.4,
+                                              WPF=0.4}"
+                FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
+                FontSize="{OnPlatform Android={OnIdiom Phone=14,
+                                                       Tablet=17},
+                                      iOS={OnIdiom Phone=18,
+                                                   Tablet=20},
+                                      UWP={OnIdiom Phone=14,
+                                                   Tablet=17,
+                                                   Desktop=17},
+                                      macOS=17,
+                                      WPF=17}"
+                LineBreakMode="WordWrap"
+                LineHeight="{OnPlatform Android={OnIdiom Phone=1.2,
+                                                         Tablet=1.2},
+                                        iOS={OnIdiom Phone=1,
+                                                     Tablet=1.2},
+                                        UWP={OnIdiom Phone=1,
+                                                     Tablet=1.2,
+                                                     Desktop=1.2},
+                                        macOS=1.2,
+                                        WPF=1.2}"
+                Text="{Binding Content}"
+                TextColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
+                VerticalOptions="Center" />
+        </StackLayout>
+    </ViewCell>
+</DataTemplate>

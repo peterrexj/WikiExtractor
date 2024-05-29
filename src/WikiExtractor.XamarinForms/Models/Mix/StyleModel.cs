@@ -67,20 +67,19 @@ namespace GeneralInformation.Models.Mix
         public virtual string AutoCompleteTextColor { get; set; }
         public virtual string AutoCompleteWaterColor { get; set; }
 
-
         //Details Page
         public virtual string SubPageTopHeaderBoxBorderColor { get; set; }
         public virtual IGradientSource SubPageTopHeaderBoxBorderBgSource { get; set; }
         public virtual string SubPageTopHeaderFontColor { get; set; }
         public virtual string SubPageTopHeaderWikiFontColor { get; set; }
+        public virtual string SubPageHeader2GradientStartColor { get; set; }
+        public virtual string SubPageHeader2GradientEndColor { get; set; }
+        public virtual string SubPageHeader3GradientStartColor { get; set; }
+        public virtual string SubPageHeader3GradientEndColor { get; set; }
 
         //List Items facts
         public virtual IGradientSource SubPageFactsBoxBorderBgSource { get; set; }
         public virtual string SubPageFactsFontColor { get; set; }
-
-        //Details Page back gradient
-        public virtual string SubPageDetailsContentGradientStartColor { get; set; }
-        public virtual string SubPageDetailsContentGradientEndColor { get; set; }
 
         //Picture title bottom box
         public virtual IGradientSource SubPagePictureTitleBoxBorderBgSource { get; set; }
@@ -93,6 +92,10 @@ namespace GeneralInformation.Models.Mix
 
         public virtual string AppShellBackgroundColor { get; set; }
         public virtual string AppShellForegroundIconColor { get; set; }
+
+        //App Shell gradient
+        public virtual string AppShellFooterGradientStart { get; set; }
+        public virtual string AppShellFooterGradientEnd { get; set; }
 
         //Popup
         public virtual IGradientSource PopupHeaderBgSource { get; set; }

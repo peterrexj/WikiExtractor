@@ -4,7 +4,6 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
-    xmlns:converters="clr-namespace:GeneralInformation.Converters"
     xmlns:fontAwesome="clr-namespace:FontAwesome"
     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     xmlns:local="clr-namespace:GeneralInformation"
@@ -29,11 +28,6 @@
             TextColor="{Binding DefaultStyle.AppShellTitleFontColor}"
             VerticalTextAlignment="Center" />
     </Shell.TitleView>
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <converters:StringToColorConverter x:Key="stringToColorConverter" />
-        </ResourceDictionary>
-    </ContentPage.Resources>
     <ContentPage.Content>
         <Grid>
             <magic:GradientView GradientSource="{Binding DefaultStyle.MgPageBgSource}" VerticalOptions="FillAndExpand" />
