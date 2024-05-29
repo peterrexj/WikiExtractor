@@ -247,13 +247,13 @@
       <Version>1.9.0.6</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library">
-      <Version>1.0.4.30</Version>
+      <Version>1.0.4.31</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Datastore.Sqlite">
-      <Version>1.0.4.30</Version>
+      <Version>1.0.4.31</Version>
     </PackageReference>
     <PackageReference Include="Pj.Library.Mobile.Sqlite">
-      <Version>1.0.4.30</Version>
+      <Version>1.0.4.31</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Buttons">
       <Version>23.1.39</Version>
