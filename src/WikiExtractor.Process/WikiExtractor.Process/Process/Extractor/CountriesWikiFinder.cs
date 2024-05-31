@@ -206,13 +206,13 @@ namespace WikiExtractor.Process.Extractor
 
             ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_Rank);
             ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_TotalKm);
-            if (extractionType == "Countries")
-            {
-                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_Land);
-                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_Water);
-                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_WaterPercentage);
-                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_FlagImage);
-            }
+            //if (extractionType == "Countries")
+            //{
+            //    ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_Land);
+            //    ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_Water);
+            //    ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_WaterPercentage);
+            //    ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_FlagImage);
+            //}
 
 
             listOfName.Sequence = sequence++;
