@@ -14,6 +14,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WikiExtractor.Exts;
 using WikiExtractor.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -164,12 +165,10 @@ namespace GeneralInformation.Views
                         SharedServices.PageDataTransferModel.IsMarkedAsViewed = personaObj.ItemReadStatus;
                     });
 
-//#if DEBUG == false
-                    if (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS)
+                    if (ConfigData.DisplayAds && (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS))
                     {
                         taskGroup.Add(() => LoadInterstitialAds());
                     }
-//#endif
 
                     taskGroup.WaitAll();
                 }
@@ -199,7 +198,7 @@ namespace GeneralInformation.Views
         {
             try
             {
-                if (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS)
+                if (ConfigData.DisplayAds && (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS))
                 {
                     DatabaseService.UserStoreDatabase.RequestRecordRepository.RefreshCountData();
                     DatabaseService.UserStoreDatabase.AppSettingsRepository.UpdateLimitsOnInitialize(
@@ -219,7 +218,7 @@ namespace GeneralInformation.Views
         {
             try
             {
-                if (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS)
+                if (ConfigData.DisplayAds && (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS))
                 {
                     if (stackBannerAds.Children.Count == 0)
                     {

@@ -45,6 +45,8 @@ namespace GeneralInformation
             }
 
             ConfigData.LocalStorageCacheFolderPath = DependencyService.Get<IAppInformation>().ImageCacheFolder;
+            ConfigData.DisplayAds = DependencyService.Get<IAppInformation>().DisplayAds;
+
             if (ConfigData.LocalStorageCacheFolderPath.IsEmpty())
             {
                 Crashes.TrackError(new Exception("LocalStorageCacheFolderPath is empty!"));

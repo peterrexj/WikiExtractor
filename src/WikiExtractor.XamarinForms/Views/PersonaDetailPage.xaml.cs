@@ -58,6 +58,13 @@ namespace GeneralInformation.Views
             try
             {
                 InitializeComponent();
+
+                // Set the DataTemplateSelector properties
+                var itemTemplateSelector = (ItemDetailListTemplateSelector)Resources["ItemDetailListTemplateSelector"];
+                itemTemplateSelector.Header2Template = (DataTemplate)Resources["Header2ListItemTemplate"];
+                itemTemplateSelector.Header3Template = (DataTemplate)Resources["Header3ListItemTemplate"];
+                itemTemplateSelector.ParagraphContentTemplate = (DataTemplate)Resources["ParagraphContentListItemTemplate"];
+                itemTemplateSelector.ImageTemplate = (DataTemplate)Resources["ImageListItemTemplate"];
             }
             catch (Exception ex)
             {
@@ -93,26 +100,22 @@ namespace GeneralInformation.Views
 
             personaDetailViewModel.DefaultStyle = ThemeHelper.GetDefaultStyle();
 
-            if (Device.RuntimePlatform == Device.UWP)
-            {
-                var task = Task.Run(LoadSubPageItemDataDetails);
-                Task.WhenAll(task).ContinueWith(t =>
-                {
-                    BindingContext = personaDetailViewModel;
-                });
-            }
-            else
-            {
-                BindingContext = personaDetailViewModel;
-                Task.Run(LoadSubPageItemDataDetails);
-            }
+            LoadSubPageItemDataDetails();
+            BindingContext = personaDetailViewModel;
 
-            // Set the DataTemplateSelector properties
-            var itemTemplateSelector = (ItemDetailListTemplateSelector)Resources["ItemDetailListTemplateSelector"];
-            itemTemplateSelector.Header2Template = (DataTemplate)Resources["Header2ListItemTemplate"];
-            itemTemplateSelector.Header3Template = (DataTemplate)Resources["Header3ListItemTemplate"];
-            itemTemplateSelector.ParagraphContentTemplate = (DataTemplate)Resources["ParagraphContentListItemTemplate"];
-            itemTemplateSelector.ImageTemplate = (DataTemplate)Resources["ImageListItemTemplate"];
+            //if (Device.RuntimePlatform == Device.UWP)
+            //{
+            //var task = Task.Run(LoadSubPageItemDataDetails);
+            //Task.WhenAll(task).ContinueWith(t =>
+            //{
+            //    BindingContext = personaDetailViewModel;
+            //});
+            //}
+            //else
+            //{
+            //    BindingContext = personaDetailViewModel;
+            //    Task.Run(LoadSubPageItemDataDetails);
+            //}
         }
         private void LoadImagesRequiredForThisPageAsync()
         {
@@ -147,12 +150,12 @@ namespace GeneralInformation.Views
                                 {
                                     try
                                     {
-                                        RunOnAppDispatcher(() =>
-                                        {
-                                            var currentSource = exImgCtrl.Value.CustomSource;
-                                            exImgCtrl.Value.Source = null;
-                                            exImgCtrl.Value.Source = currentSource;
-                                        });
+                                        //RunOnAppDispatcher(() =>
+                                        //{
+                                        var currentSource = exImgCtrl.Value.CustomSource;
+                                        exImgCtrl.Value.Source = null;
+                                        exImgCtrl.Value.Source = currentSource;
+                                        //});
                                     }
                                     catch (Exception ex)
                                     {
@@ -196,10 +199,15 @@ namespace GeneralInformation.Views
                     }
 
                     BuildDetailItemModel();
+                    //personaDetailViewModel.TriggerEvents();
+                    //RunOnAppDispatcher(() => LoadImagesRequiredForThisPageAsync());
+                    //RunOnAppDispatcher(() => tabView.SelectedIndex = 0);
+                    //RunOnAppDispatcher(InitializeAdsControls);
+
+                    LoadImagesRequiredForThisPageAsync();
+                    tabView.SelectedIndex = 0;
+                    InitializeAdsControls();
                     personaDetailViewModel.TriggerEvents();
-                    RunOnAppDispatcher(() => LoadImagesRequiredForThisPageAsync());
-                    RunOnAppDispatcher(() => tabView.SelectedIndex = 0);
-                    RunOnAppDispatcher(InitializeAdsControls);
                 }
                 catch (Exception ex)
                 {
@@ -211,7 +219,7 @@ namespace GeneralInformation.Views
                 }
             });
         }
-        
+
         private void BuildDetailItemModel()
         {
             try
@@ -230,7 +238,7 @@ namespace GeneralInformation.Views
 
                         //Render Para2 contents
                         foreach (var paraContent in grpContent)
-                        
+
                         {
                             foreach (var img in paraContent.PicLinks)
                             {
@@ -427,7 +435,7 @@ namespace GeneralInformation.Views
         {
             try
             {
-                if (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS)
+                if (ConfigData.DisplayAds && (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS))
                 {
                     if (stackBannerAds.Children.Count == 0)
                     {

@@ -10,25 +10,29 @@
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
             <sfGradient:SfGradientView Grid.ColumnSpan="2">
                 <sfGradient:SfGradientView.BackgroundBrush>
-                    <sfGradient:SfLinearGradientBrush>
+                    <sfGradient:SfLinearGradientBrush StartPoint="0, 0.5" EndPoint="1, 0.5">
                         <sfGradient:SfLinearGradientBrush.GradientStops>
                             <sfGradient:SfGradientStop Offset="0.0" Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SubPageHeader3GradientStartColor, Converter={StaticResource stringToColorConverter}}" />
-                            <sfGradient:SfGradientStop Offset="1.0" Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SubPageHeader3GradientEndColor, Converter={StaticResource stringToColorConverter}}" />
+                            <sfGradient:SfGradientStop Offset="0.5" Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SubPageHeader3GradientEndColor, Converter={StaticResource stringToColorConverter}}" />
+                            <sfGradient:SfGradientStop Offset="1.0" Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SubPageHeader3GradientStartColor, Converter={StaticResource stringToColorConverter}}" />
                         </sfGradient:SfLinearGradientBrush.GradientStops>
                     </sfGradient:SfLinearGradientBrush>
                 </sfGradient:SfGradientView.BackgroundBrush>
             </sfGradient:SfGradientView>
             <Label
                 Grid.Column="0"
-                Margin="{OnPlatform Android={OnIdiom Phone='5,0,0,0',
-                                                     Tablet='5,0,0,0'},
-                                    iOS={OnIdiom Phone='5,0,0,0',
-                                                 Tablet='5,0,0,0'},
-                                    UWP='5,0,0,0'}"
+                Margin="{OnPlatform Android={OnIdiom Phone='5,7,0,7',
+                                                     Tablet='5,7,0,7'},
+                                    iOS={OnIdiom Phone='5,7,0,7',
+                                                 Tablet='5,7,0,7'},
+                                    UWP='5,7,0,7'}"
                 FontAttributes="Bold"
                 FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
                 FontSize="{OnPlatform Android={OnIdiom Phone=16,
@@ -57,6 +61,7 @@
                 <Image
                     Margin="5,0,0,0"
                     HeightRequest="20"
+                    MinimumHeightRequest="20"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     WidthRequest="20">
@@ -64,7 +69,7 @@
                         <FontImageSource
                             FontFamily="FontAwesome5Solid"
                             Glyph="{x:Static fontAwesome:FontAwesomeIcons.Play}"
-                            Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
+                            Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.PlayButtonBackgroundColor, Converter={StaticResource stringToColorConverter}}" />
                     </Image.Source>
                 </Image>
             </sfButtons:SfButton>

@@ -7,6 +7,7 @@
         string AdsInterstitialId { get; }
         int ShowFirstInterstitialAdOnClickLimit { get; }
         int ShowLaterInterstitialAdOnClickLimit { get; }
+        bool DisplayAds { get; }
 
         string ImageCacheFolder { get; }
         int ImageCacheTotalDaysToInvalidate { get; }

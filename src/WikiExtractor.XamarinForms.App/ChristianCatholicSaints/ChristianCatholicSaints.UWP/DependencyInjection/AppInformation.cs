@@ -18,6 +18,8 @@ namespace Wiki.Uwp
 
         public int ShowLaterInterstitialAdOnClickLimit => 8;
 
+        public bool DisplayAds => false;
+
         #region Style Implementation
 
         public int StyleOnImageHeightRequestOnListPage => 130;

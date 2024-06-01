@@ -101,5 +101,9 @@ namespace GeneralInformation.Models.Mix
         public virtual IGradientSource PopupHeaderBgSource { get; set; }
         public virtual IGradientSource PopupFooterBgSource { get; set; }
         public virtual IGradientSource PopupContentBgSource { get; set; }
+
+        //Play button
+        public virtual string PlayButtonBackgroundColor { get; set; }
+
     }
 }

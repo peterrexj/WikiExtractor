@@ -10,25 +10,30 @@
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
             <sfGradient:SfGradientView Grid.ColumnSpan="2">
                 <sfGradient:SfGradientView.BackgroundBrush>
+                    <!--<sfGradient:SfLinearGradientBrush StartPoint="0, 0.5" EndPoint="1, 0.5">-->
                     <sfGradient:SfLinearGradientBrush>
                         <sfGradient:SfLinearGradientBrush.GradientStops>
                             <sfGradient:SfGradientStop Offset="0.0" Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SubPageHeader2GradientStartColor, Converter={StaticResource stringToColorConverter}}" />
                             <sfGradient:SfGradientStop Offset="1.0" Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SubPageHeader2GradientEndColor, Converter={StaticResource stringToColorConverter}}" />
+                            <!--<sfGradient:SfGradientStop Offset="1.0" Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.SubPageHeader2GradientStartColor, Converter={StaticResource stringToColorConverter}}" />-->
                         </sfGradient:SfLinearGradientBrush.GradientStops>
                     </sfGradient:SfLinearGradientBrush>
                 </sfGradient:SfGradientView.BackgroundBrush>
             </sfGradient:SfGradientView>
             <Label
                 Grid.Column="0"
-                Margin="{OnPlatform Android={OnIdiom Phone='5,0,0,0',
-                                                     Tablet='5,0,0,0'},
-                                    iOS={OnIdiom Phone='5,0,0,0',
-                                                 Tablet='5,0,0,0'},
-                                    UWP='5,0,0,0'}"
+                Margin="{OnPlatform Android={OnIdiom Phone='5,10,0,10',
+                                                     Tablet='5,10,0,10'},
+                                    iOS={OnIdiom Phone='5,10,0,10',
+                                                 Tablet='5,10,0,10'},
+                                    UWP='5,10,0,10'}"
                 FontAttributes="Bold"
                 FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
                 FontSize="{OnPlatform Android={OnIdiom Phone=20,
@@ -58,13 +63,14 @@
                     Margin="5,0,0,0"
                     HeightRequest="20"
                     HorizontalOptions="Center"
+                    MinimumHeightRequest="20"
                     VerticalOptions="Center"
                     WidthRequest="20">
                     <Image.Source>
                         <FontImageSource
                             FontFamily="FontAwesome5Solid"
                             Glyph="{x:Static fontAwesome:FontAwesomeIcons.Play}"
-                            Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
+                            Color="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.PlayButtonBackgroundColor, Converter={StaticResource stringToColorConverter}}" />
                     </Image.Source>
                 </Image>
             </sfButtons:SfButton>
