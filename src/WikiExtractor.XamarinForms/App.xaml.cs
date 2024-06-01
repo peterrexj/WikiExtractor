@@ -45,7 +45,7 @@ namespace GeneralInformation
             }
 
             ConfigData.LocalStorageCacheFolderPath = DependencyService.Get<IAppInformation>().ImageCacheFolder;
-            ConfigData.DisplayAds = DependencyService.Get<IAppInformation>().DisplayAds;
+            ConfigData.DisplayAds = DependencyService.Get<IAppEnvironment>().DisplayAds;
 
             if (ConfigData.LocalStorageCacheFolderPath.IsEmpty())
             {

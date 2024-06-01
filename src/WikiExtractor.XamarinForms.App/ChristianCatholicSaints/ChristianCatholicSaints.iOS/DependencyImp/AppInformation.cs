@@ -17,8 +17,6 @@ namespace Wiki.iOS
 
         public int ShowLaterInterstitialAdOnClickLimit => 5;
 
-        public bool DisplayAds => true;
-
         #region Style Implementation
 
         public int StyleOnImageHeightRequestOnListPage => 130;

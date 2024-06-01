@@ -17,5 +17,7 @@ namespace Wiki.iOS
         }
 
         public void SetStatusBarColor(System.Drawing.Color color, bool darkStatusBarTint) { }
+
+        public bool DisplayAds => true;
     }
 }

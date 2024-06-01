@@ -21,5 +21,7 @@ namespace ChristianCatholicSaints.UWP.DeviceDependencyImpl
         {
            
         }
+
+        public bool DisplayAds => false;
     }
 }

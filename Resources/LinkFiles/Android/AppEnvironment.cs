@@ -36,5 +36,7 @@ namespace Wiki.Droid
                 window.DecorView.SystemUiVisibility = darkStatusBarTint ? flag : 0;
             }
         }
+
+        public bool DisplayAds => true;
     }
 }

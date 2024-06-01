@@ -11,5 +11,7 @@ namespace GeneralInformation.Services
         void SetStatusBarColor(Color color, bool darkStatusBarTint);
 
         IStyleModel GetStyle(AppThemes theme);
+
+        bool DisplayAds { get; }
     }
 }
