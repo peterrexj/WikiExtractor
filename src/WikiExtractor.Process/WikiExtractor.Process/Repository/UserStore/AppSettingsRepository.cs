@@ -54,28 +54,5 @@ namespace WikiExtractor.Repository.UserStore
 
             return createStr.ToString();
         }
-
-        #region Google Ads Service
-        private int _firstLimitOnAds = 3;
-        private int _thenOnLimitOnAds = 6;
-
-        public void UpdateLimitsOnInitialize(int firstLimit, int thenLimit)
-        {
-            _firstLimitOnAds = firstLimit;
-            _thenOnLimitOnAds = thenLimit;
-        }
-
-        public void InitializeGoogleAds()
-        {
-            Update("AdsIntersitialLimitOnRecord", _firstLimitOnAds.ToString());
-            ConfigData.AdsIntersitialLimitOnRecord = _firstLimitOnAds;
-        }
-
-        public void GoogleAdsIntersitialUpdateLimit()
-        {
-            Update("AdsIntersitialLimitOnRecord", _thenOnLimitOnAds.ToString());
-            ConfigData.AdsIntersitialLimitOnRecord = _thenOnLimitOnAds;
-        }
-        #endregion
     }
 }

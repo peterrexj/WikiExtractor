@@ -6,6 +6,7 @@ using Microsoft.AppCenter.Crashes;
 using Pj.Library;
 using System;
 using WikiExtractor.Exts;
+using WikiExtractor.XamarinForms.Exts;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -44,8 +45,9 @@ namespace GeneralInformation
                 }
             }
 
+            AdsHelper.InitializeAds();
+
             ConfigData.LocalStorageCacheFolderPath = DependencyService.Get<IAppInformation>().ImageCacheFolder;
-            ConfigData.DisplayAds = DependencyService.Get<IAppEnvironment>().DisplayAds;
 
             if (ConfigData.LocalStorageCacheFolderPath.IsEmpty())
             {

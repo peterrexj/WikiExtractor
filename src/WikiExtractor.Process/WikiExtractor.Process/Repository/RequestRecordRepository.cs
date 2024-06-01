@@ -31,11 +31,6 @@ namespace WikiExtractor.Repository
             return createStr.ToString();
         }
 
-        public void RefreshCountData()
-        {
-            DeleteAll();
-        }
-
         public void UpdateCount()
         {
             var data = new RequestRecord { RequestDate = DateTime.Today.Date, RequestCount = IncrementCount() };
@@ -53,21 +48,13 @@ namespace WikiExtractor.Repository
 
         public int GetCount()
         {
-            var data = Get(/*d => d.RequestDate == DateTime.Today.Date*/).FirstOrDefault();
-            if (data == null)
-                return 0;
-            else
-                return data.RequestCount;
+            var dataAvailable = Find(new RequestRecord { RequestDate = DateTime.Today.Date });
+            if (dataAvailable != null && dataAvailable.Any())
+            {
+                return dataAvailable.Max(f => f.RequestCount);
+            }
+            return 0;
         }
         public int IncrementCount() => GetCount() + 1;
-        public bool RequestOnLimit
-        {
-            get
-            {
-                var count = GetCount();
-                if (count < ConfigData.AdsIntersitialLimitOnRecord) return false;
-                return count % ConfigData.AdsIntersitialLimitOnRecord == 0;
-            }
-        }
     }
 }

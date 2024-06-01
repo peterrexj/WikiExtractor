@@ -1,11 +1,7 @@
 ﻿using GeneralInformation.Exts;
 using GeneralInformation.Models.Mix;
-using GeneralInformation.Repository;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
-using MarcTron.Plugin;
-using MarcTron.Plugin.Controls;
-using Microsoft.AppCenter.Crashes;
 using Pj.Library;
 using Syncfusion.SfAutoComplete.XForms;
 using Syncfusion.XForms.Buttons;
@@ -14,8 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WikiExtractor.Exts;
 using WikiExtractor.ViewModels;
+using WikiExtractor.XamarinForms.Exts;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -49,7 +45,6 @@ namespace GeneralInformation.Views
                     taskGroup.Add(() => personaListViewModel.HideItemRead = SettingsHelper.ShouldShowAlreadyReadItem());
                     taskGroup.Add(() => personaListViewModel.SortBySelectedIndex = Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)), SettingsHelper.GetSortAttributeBySelected(SettingsHelper.GetCurrentSortDescriptor())));
                     taskGroup.Add(() => RunOnAppDispatcher(InitializeAdsControls));
-                    taskGroup.Add(() => RunOnAppDispatcher(InitializeAdsService));
                     taskGroup.WaitAll();
 
                     personaListViewModel.AutocompleteList = personaListViewModel.Personas.Select(f => new WikiExtractor.ViewModels.PersonaAutoCompleteModel { Id = f.Id, Name = f.Name });
@@ -165,11 +160,6 @@ namespace GeneralInformation.Views
                         SharedServices.PageDataTransferModel.IsMarkedAsViewed = personaObj.ItemReadStatus;
                     });
 
-                    if (ConfigData.DisplayAds && (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS))
-                    {
-                        taskGroup.Add(() => LoadInterstitialAds());
-                    }
-
                     taskGroup.WaitAll();
                 }
                 catch (Exception ex)
@@ -194,77 +184,21 @@ namespace GeneralInformation.Views
         }
 
         #region Ads
-        private void InitializeAdsService()
-        {
-            try
-            {
-                if (ConfigData.DisplayAds && (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS))
-                {
-                    DatabaseService.UserStoreDatabase.RequestRecordRepository.RefreshCountData();
-                    DatabaseService.UserStoreDatabase.AppSettingsRepository.UpdateLimitsOnInitialize(
-                        DependencyService.Get<IAppInformation>().ShowFirstInterstitialAdOnClickLimit,
-                        DependencyService.Get<IAppInformation>().ShowLaterInterstitialAdOnClickLimit);
-                    DatabaseService.UserStoreDatabase.AppSettingsRepository.InitializeGoogleAds();
-                    CrossMTAdmob.Current.LoadInterstitial(personaListViewModel.AdsInterstitialId);
-                    CrossMTAdmob.Current.OnInterstitialOpened += Current_OnInterstitialOpened;
-                }
-            }
-            catch (Exception ex)
-            {
-                ExceptionHandler.CaptureException(ex);
-            }
-        }
         private void InitializeAdsControls()
         {
             try
             {
-                if (ConfigData.DisplayAds && (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS))
+                if (AdsHelper.IsAdsServiceAvailable)
                 {
                     if (stackBannerAds.Children.Count == 0)
                     {
-                        MTAdView ads = new MTAdView();
-                        ads.AdsId = personaListViewModel.AdsBannerId;
-                        ads.HeightRequest = 50;
-                        stackBannerAds.Children.Add(ads);
+                        var adsBanner = AdsHelper.BuildAdsBanner();
+                        if (adsBanner != null)
+                        {
+                            stackBannerAds.Children.Add(adsBanner);
+                        }
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                ExceptionHandler.CaptureException(ex);
-            }
-        }
-        private void Current_OnInterstitialOpened(object sender, EventArgs e)
-        {
-            try
-            {
-                DatabaseService.UserStoreDatabase.AppSettingsRepository.GoogleAdsIntersitialUpdateLimit();
-            }
-            catch (Exception ex)
-            {
-                ExceptionHandler.CaptureException(ex);
-            }
-            finally
-            {
-                personaListViewModel.IsBusy = false;
-            }
-        }
-        private void LoadInterstitialAds()
-        {
-            try
-            {
-                //disabling the Interstitial loaded to false
-                /*&& CrossMTAdmob.Current.IsInterstitialLoaded()*/
-
-                if (DatabaseService.UserStoreDatabase.RequestRecordRepository.RequestOnLimit)
-                {
-                    RunOnAppDispatcher(() =>
-                    {
-                        CrossMTAdmob.Current.ShowInterstitial();
-                        CrossMTAdmob.Current.LoadInterstitial(personaListViewModel.AdsInterstitialId);
-                    });
-                }
-                DatabaseService.UserStoreDatabase.RequestRecordRepository.UpdateCount();
             }
             catch (Exception ex)
             {

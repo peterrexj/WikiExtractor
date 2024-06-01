@@ -1,18 +1,19 @@
 ﻿using GeneralInformation.Exts;
+using GeneralInformation.Repository;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
-using MarcTron.Plugin.Controls;
+using MarcTron.Plugin;
 using Pj.Library;
 using Syncfusion.XForms.EffectsView;
 using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using WikiExtractor.Exts;
 using WikiExtractor.ViewModels;
 using WikiExtractor.XamarinForms.Controls;
+using WikiExtractor.XamarinForms.Exts;
 using WikiExtractor.XamarinForms.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -103,6 +104,7 @@ namespace GeneralInformation.Views
             LoadSubPageItemDataDetails();
             BindingContext = personaDetailViewModel;
 
+            LoadInterstitialAds();
             //if (Device.RuntimePlatform == Device.UWP)
             //{
             //var task = Task.Run(LoadSubPageItemDataDetails);
@@ -435,16 +437,15 @@ namespace GeneralInformation.Views
         {
             try
             {
-                if (ConfigData.DisplayAds && (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS))
+                if (AdsHelper.IsAdsServiceAvailable)
                 {
                     if (stackBannerAds.Children.Count == 0)
                     {
-                        MTAdView ads = new MTAdView
+                        var adsBanner = AdsHelper.BuildAdsBanner();
+                        if (adsBanner != null)
                         {
-                            AdsId = personaDetailViewModel.AdsBannerId,
-                            HeightRequest = 50
-                        };
-                        stackBannerAds.Children.Add(ads);
+                            stackBannerAds.Children.Add(adsBanner);
+                        }
                     }
 
                     //if (stackBannerAdsOnPopup.Children.Count == 0)
@@ -455,6 +456,24 @@ namespace GeneralInformation.Views
                     //    stackBannerAds.Children.Add(ads);
                     //}
                 }
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
+        private void LoadInterstitialAds()
+        {
+            try
+            {
+                if (!AdsHelper.IsAdsServiceAvailable) return;
+                if (AdsHelper.IsInterstitialAvailable)
+                {
+                    CrossMTAdmob.Current.ShowInterstitial();
+                    CrossMTAdmob.Current.LoadInterstitial(AdsHelper.AdsInterstitialId);
+                }
+                DatabaseService.UserStoreDatabase.RequestRecordRepository.UpdateCount();
             }
             catch (Exception ex)
             {

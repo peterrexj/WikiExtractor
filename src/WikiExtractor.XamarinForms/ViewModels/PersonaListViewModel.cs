@@ -15,12 +15,9 @@ namespace GeneralInformation.ViewModels
     {
         public PersonaListViewModel()
         {
-            var appInfo = DependencyService.Get<IAppInformation>();
-            AdsInterstitialId = appInfo.AdsInterstitialId;
-            AdsBannerId = appInfo.AdsBannerId;
             StyleDrive = new StyleDrive
             {
-                StyleOnImageHeightRequestOnListPage = appInfo.StyleOnImageHeightRequestOnListPage,
+                StyleOnImageHeightRequestOnListPage = DependencyService.Get<IAppInformation>().StyleOnImageHeightRequestOnListPage,
                 //StyleOnListItemHeightRequestOnListPage = StylePropertyHelper.GetStyleOnListItemHeightRequestOnListPage()
             };
 
@@ -89,35 +86,6 @@ namespace GeneralInformation.ViewModels
 
         #endregion
 
-        #region Ads
-        private string _adsBannerId;
-        public string AdsBannerId
-        {
-            get
-            {
-                return _adsBannerId;
-            }
-            set
-            {
-                _adsBannerId = value;
-                OnPropertyChanged("AdsBannerId");
-            }
-        }
-
-        private string _adsInterstitialId;
-        public string AdsInterstitialId
-        {
-            get
-            {
-                return _adsInterstitialId;
-            }
-            set
-            {
-                _adsInterstitialId = value;
-                OnPropertyChanged("AdsInterstitialId");
-            }
-        }
-        #endregion
     }
 
     public class StyleDrive
