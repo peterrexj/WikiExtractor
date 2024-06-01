@@ -84,6 +84,7 @@ namespace WikiExtractor.XamarinForms.Exts
                     if (currentCount % AdsInterstitialLimitOnRecord == 0)
                     {
                         DatabaseService.UserStoreDatabase.AppSettingsRepository.UpdateGoogleAdsLimitOnIntersitial(AdsInterstitialLimitOnRecordRound2);
+                        AdsInterstitialLimitOnRecord = AdsInterstitialLimitOnRecordRound2;
                         return true;
                     }
                     return false;
