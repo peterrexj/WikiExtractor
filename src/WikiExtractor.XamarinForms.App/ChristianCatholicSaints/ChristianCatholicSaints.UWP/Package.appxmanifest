@@ -9,7 +9,7 @@
   <Identity
     Name="YourSimpleApps.3028692AC882E"
     Publisher="CN=39208EA1-D5D2-424A-8611-3802B30527E1"
-    Version="1.0.15.0" />
+    Version="1.0.16.0" />
 
   <mp:PhoneIdentity PhoneProductId="c05e367f-5b12-4c32-bd01-3787160899bc" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
