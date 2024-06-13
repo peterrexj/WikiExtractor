@@ -9,6 +9,7 @@ using System;
 using System.Collections.Concurrent;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using WikiExtractor.Exts;
 using WikiExtractor.ViewModels;
@@ -28,6 +29,7 @@ namespace GeneralInformation.Views
 
         private PersonaDetailViewModel personaDetailViewModel;
         private ConcurrentDictionary<string, ExtendedImage> extendImagesInPage = new();
+        private readonly CancellationTokenSource _cancellationTokenSource;
 
         private const int DefaultHeightImageInDetailsPage = 300;
         private bool _isExternalImageLoadComplete = false;
@@ -66,6 +68,7 @@ namespace GeneralInformation.Views
                 itemTemplateSelector.Header3Template = (DataTemplate)Resources["Header3ListItemTemplate"];
                 itemTemplateSelector.ParagraphContentTemplate = (DataTemplate)Resources["ParagraphContentListItemTemplate"];
                 itemTemplateSelector.ImageTemplate = (DataTemplate)Resources["ImageListItemTemplate"];
+                _cancellationTokenSource = new CancellationTokenSource();
             }
             catch (Exception ex)
             {
@@ -90,6 +93,7 @@ namespace GeneralInformation.Views
         {
             base.OnDisappearing();
             personaDetailViewModel?.CancelSpeech();
+            _cancellationTokenSource?.Cancel();
         }
         private void LoadWithPageBinding()
         {
@@ -133,6 +137,8 @@ namespace GeneralInformation.Views
                                         {
                                             LocalFilePath = lPath,
                                             pic.PicturePath,
+                                            pic.Width,
+                                            pic.Height,
                                             DownloadRequired = toDownload
                                         };
 
@@ -141,7 +147,7 @@ namespace GeneralInformation.Views
                         //Only select download those images which are rendered in the Details tab. The curasel uses image rather the extendedImage
                         var tasks = requiredItems.Where(f => f.DownloadRequired).Select(async item =>
                         {
-                            await CacheImageDownloadHelper.DownloadImage(item.LocalFilePath, item.PicturePath);
+                            await CacheImageDownloadHelper.DownloadImage(item.LocalFilePath, item.PicturePath,  _cancellationTokenSource.Token, item.Width, item.Height, 90);
                         });
 
                         Task.WhenAll(tasks).ContinueWith(t =>
@@ -208,7 +214,7 @@ namespace GeneralInformation.Views
 
                     LoadImagesRequiredForThisPageAsync();
                     tabView.SelectedIndex = 0;
-                    InitializeAdsControls();
+                    RunOnAppDispatcher(InitializeAdsControls);
                     personaDetailViewModel.TriggerEvents();
                 }
                 catch (Exception ex)

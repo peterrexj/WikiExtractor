@@ -1,6 +1,5 @@
 ﻿using Syncfusion.ListView.XForms.UWP;
 using Syncfusion.XForms.UWP.PopupLayout;
-using TestAny.Essentials.Core;
 
 namespace CountriesOfWorld.UWP
 {
@@ -11,7 +10,6 @@ namespace CountriesOfWorld.UWP
             this.InitializeComponent();
             SfPopupLayoutRenderer.Init();
             SfListViewRenderer.Init();
-            TestAnyAppConfig.InitializeFramework();
 
             LoadApplication(new GeneralInformation.App());
         }

@@ -6,57 +6,59 @@
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   IgnorableNamespaces="uap mp">
 
-  <Identity
-    Name="YourSimpleApps.PopesoftheCatholicChurch"
-    Publisher="CN=39208EA1-D5D2-424A-8611-3802B30527E1"
-    Version="1.0.3.0" />
+	<Identity
+	  Name="YourSimpleApps.PopesoftheCatholicChurch"
+	  Publisher="CN=39208EA1-D5D2-424A-8611-3802B30527E1"
+	  Version="1.0.3.0" />
 
-  <mp:PhoneIdentity PhoneProductId="72f74109-cae6-48af-bae3-36471a25057a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+	<mp:PhoneIdentity PhoneProductId="72f74109-cae6-48af-bae3-36471a25057a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
-  <Properties>
-    <DisplayName>Popes of the Catholic Church</DisplayName>
-    <PublisherDisplayName>Your Simple Apps</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
-  </Properties>
+	<Properties>
+		<DisplayName>Popes of the Catholic Church</DisplayName>
+		<PublisherDisplayName>Your Simple Apps</PublisherDisplayName>
+		<Logo>Assets\StoreLogo.png</Logo>
+	</Properties>
 
-  <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
-  </Dependencies>
+	<Dependencies>
+		<TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+	</Dependencies>
 
-  <Resources>
-    <Resource Language="x-generate"/>
-  </Resources>
+	<Resources>
+		<Resource Language="x-generate"/>
+	</Resources>
 
-  <Applications>
-    <Application Id="App"
-      Executable="$targetnametoken$.exe"
-      EntryPoint="PopesOfChurch.UWP.App">
-      <uap:VisualElements
-        DisplayName="Popes of the Catholic Church"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="The app contains a comprehensive list of the history of the papacy in the Catholic Church, organized chronologically and searchable by the names of the popes. The app is also categorized by the century in which each pope served. Each pope&apos;s entry should include a wealth of information and details about their life and papacy, complemented by relevant images that provide context for the information"
-        BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
-          <uap:ShowNameOnTiles>
-            <uap:ShowOn Tile="square150x150Logo" />
-            <uap:ShowOn Tile="wide310x150Logo" />
-            <uap:ShowOn Tile="square310x310Logo" />
-          </uap:ShowNameOnTiles>
-        </uap:DefaultTile>
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
-        <uap:InitialRotationPreference>
-          <uap:Rotation Preference="landscape"/>
-          <uap:Rotation Preference="portrait"/>
-          <uap:Rotation Preference="landscapeFlipped"/>
-          <uap:Rotation Preference="portraitFlipped"/></uap:InitialRotationPreference>
-        <uap:LockScreen BadgeLogo="Assets\BadgeLogo.png" Notification="badgeAndTileText"/>
-      </uap:VisualElements>
-    </Application>
-  </Applications>
+	<Applications>
+		<Application Id="App"
+		  Executable="$targetnametoken$.exe"
+		  EntryPoint="PopesOfChurch.UWP.App">
+			<uap:VisualElements
+			  DisplayName="Popes of the Catholic Church"
+			  Square150x150Logo="Assets\Square150x150Logo.png"
+			  Square44x44Logo="Assets\Square44x44Logo.png"
+			  Description="The app contains a comprehensive list of the history of the papacy in the Catholic Church, organized chronologically and searchable by the names of the popes. The app is also categorized by the century in which each pope served. Each pope&apos;s entry should include a wealth of information and details about their life and papacy, complemented by relevant images that provide context for the information"
+			  BackgroundColor="transparent">
+				<uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
+					<uap:ShowNameOnTiles>
+						<uap:ShowOn Tile="square150x150Logo" />
+						<uap:ShowOn Tile="wide310x150Logo" />
+						<uap:ShowOn Tile="square310x310Logo" />
+					</uap:ShowNameOnTiles>
+				</uap:DefaultTile>
+				<uap:SplashScreen Image="Assets\SplashScreen.png" />
+				<uap:InitialRotationPreference>
+					<uap:Rotation Preference="landscape"/>
+					<uap:Rotation Preference="portrait"/>
+					<uap:Rotation Preference="landscapeFlipped"/>
+					<uap:Rotation Preference="portraitFlipped"/>
+				</uap:InitialRotationPreference>
+				<uap:LockScreen BadgeLogo="Assets\BadgeLogo.png" Notification="badgeAndTileText"/>
+			</uap:VisualElements>
+		</Application>
+	</Applications>
 
-  <Capabilities>
-    <Capability Name="internetClient" />
-    <uap:Capability Name="removableStorage"/>
-  </Capabilities>
+	<Capabilities>
+		<Capability Name="internetClient" />
+		<uap:Capability Name="removableStorage"/>
+		<uap:Capability Name="picturesLibrary" />
+	</Capabilities>
 </Package>

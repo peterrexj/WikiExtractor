@@ -288,6 +288,9 @@
                                                                     HorizontalOptions="FillAndExpand"
                                                                     LocalFileName="{Binding PicturePrimaryLocalFileName}"
                                                                     VerticalOptions="Start"
+                                                                    ImageHeight="{Binding PicturePrimaryHeight}"
+                                                                    ImageWidth="{Binding PicturePrimaryWidth}"
+                                                                    PageCancellationTokenSource="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.PageCancellationTokenSource}"
                                                                     WidthRequest="120" />
                                                                 <ActivityIndicator
                                                                     Grid.Row="0"

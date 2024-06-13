@@ -92,22 +92,25 @@ namespace WikiExtractor.Process
                                 Description = f.Value
                             }).ToList() : new List<MetadataViewModel>()
                    let isPrimaryMetadataEnabled = isPrimaryMetadataContentEnabled ? primaryMetadata.Any() : false
+                   let masterItem = masterGroup.FirstOrDefault()
 
                    select new PersonaViewModel
                    {
-                       Id = masterGroup.FirstOrDefault()!.master.Id,
+                       Id = masterItem!.master.Id,
                        RandomId = RandomHelper.RandomNumberGeneratorBetweenRange(0, totalMasterCount),
-                       Name = masterGroup.FirstOrDefault()!.master.Name,
-                       WikiPath = masterGroup.FirstOrDefault()!.master.Route,
-                       MainContent = masterGroup.FirstOrDefault()!.mainContItem?.Content ?? "",
-                       PicturePrimaryPath = masterGroup.FirstOrDefault()!.primaryPic?.Path ?? "NoImageAvailable.png",
-                       PicturePrimaryCaption = masterGroup.FirstOrDefault()!.primaryPic?.Caption ?? "",
+                       Name = masterItem!.master.Name,
+                       WikiPath = masterItem!.master.Route,
+                       MainContent = masterItem!.mainContItem?.Content ?? "",
+                       PicturePrimaryPath = masterItem!.primaryPic?.Path ?? "NoImageAvailable.png",
+                       PicturePrimaryCaption = masterItem!.primaryPic?.Caption ?? "",
+                       PicturePrimaryHeight = masterItem!.primaryPic?.Height ?? 0,
+                       PicturePrimaryWidth = masterItem!.primaryPic?.Width ?? 0,
                        IsPrimaryMetadataContentEnabled = isPrimaryMetadataEnabled,
                        PrimaryMetadataContent = primaryMetadata,
                        //Tags = masterGroup.Select(f => f.tag).Select(f => f.Name).Distinct().ToList(),
                        IsBusy = false,
                        ListHeight = minListHeight,
-                       ItemReadStatus = masterGroup.FirstOrDefault()!.itemReadStatus.IsReadAsBool,
+                       ItemReadStatus = masterItem!.itemReadStatus.IsReadAsBool,
                    };
         }
 

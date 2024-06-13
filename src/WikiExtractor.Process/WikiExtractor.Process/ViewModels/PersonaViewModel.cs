@@ -36,6 +36,8 @@ namespace WikiExtractor.ViewModels
         public string PicturePrimaryPath { get; set; }
         public string PicturePrimaryLocalFileName => $"{Name.RemoveSpecialChars(excludeUnderscore: false)}{Path.GetExtension(PicturePrimaryPath)}";
         public string PicturePrimaryCaption { get; set; }
+        public int PicturePrimaryWidth { get; set; }
+        public int PicturePrimaryHeight { get; set; }
         public bool IsPrimaryMetadataContentEnabled { get; set; }
         public bool ShowPrimaryContentMetadata => IsPrimaryMetadataContentEnabled;
         public bool HidePrimaryContentMetadata => !IsPrimaryMetadataContentEnabled;

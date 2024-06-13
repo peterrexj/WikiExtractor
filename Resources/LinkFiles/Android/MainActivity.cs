@@ -1,19 +1,13 @@
-﻿using System;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.OS;
-using Pj.Library;
-using Android.Views;
-using GeneralInformation;
-using System.Diagnostics;
-using System.Threading.Tasks;
-using System.IO;
 using Android.Gms.Ads;
+using Android.OS;
+using Android.Runtime;
+using GeneralInformation;
 using Microsoft.AppCenter.Crashes;
-using TestAny.Essentials.Core;
 using Syncfusion.XForms.Android.PopupLayout;
+using System;
+using System.Threading.Tasks;
 
 namespace Wiki.Droid
 {
@@ -35,7 +29,6 @@ namespace Wiki.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             SfPopupLayoutRenderer.Init();
             MobileAds.Initialize(ApplicationContext);
-            TestAnyAppConfig.InitializeFramework();
 
             LoadApplication(new App());
         }

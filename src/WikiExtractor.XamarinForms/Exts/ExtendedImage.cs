@@ -2,6 +2,7 @@
 using Pj.Library;
 using System;
 using System.IO;
+using System.Threading;
 using System.Threading.Tasks;
 using WikiExtractor.Exts;
 using WikiExtractor.ViewModels;
@@ -115,6 +116,7 @@ namespace GeneralInformation
         }
         #endregion
 
+        #region Picture Source
         public static readonly BindableProperty PictureSourceProperty =
             BindableProperty.Create(
                 propertyName: "PictureSource",
@@ -173,11 +175,56 @@ namespace GeneralInformation
             }
         }
 
+        #endregion
+
+        #region Image Width
+
+        public static readonly BindableProperty ImageWidthProperty =
+            BindableProperty.Create(nameof(ImageWidth), typeof(int), typeof(ExtendedImage), default(int));
+
+        public int ImageWidth
+        {
+            get { return (int)GetValue(ImageWidthProperty); }
+            set { SetValue(ImageWidthProperty, value); }
+        }
+
+        #endregion
+
+        #region Image Height
+
+        public static readonly BindableProperty ImageHeightProperty =
+            BindableProperty.Create(nameof(ImageHeight), typeof(int), typeof(ExtendedImage), default(int));
+
+        public int ImageHeight
+        {
+            get { return (int)GetValue(ImageHeightProperty); }
+            set { SetValue(ImageHeightProperty, value); }
+        }
+
+        #endregion
+
+        #region Cancellation Token from the page
+
+        public static readonly BindableProperty PageCancellationTokenSourceProperty =
+            BindableProperty.Create(nameof(PageCancellationTokenSource), typeof(CancellationTokenSource), typeof(ExtendedImage), default(CancellationTokenSource));
+
+        public CancellationTokenSource PageCancellationTokenSource
+        {
+            get { return (CancellationTokenSource)GetValue(PageCancellationTokenSourceProperty); }
+            set { SetValue(PageCancellationTokenSourceProperty, value); }
+        }
+
+        #endregion
+
         private async Task GetImageStreamFromUrl(string url)
         {
             try
             {
-                await CacheImageDownloadHelper.DownloadImage(_localFileName, url);
+                if (PageCancellationTokenSource == null)
+                {
+                    PageCancellationTokenSource = new CancellationTokenSource();
+                }
+                await CacheImageDownloadHelper.DownloadImage(_localFileName, url, PageCancellationTokenSource.Token, ImageWidth, ImageHeight, 80);
             }
             catch (Exception ex)
             {

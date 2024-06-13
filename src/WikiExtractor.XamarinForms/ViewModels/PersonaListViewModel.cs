@@ -1,9 +1,9 @@
 ﻿using GeneralInformation.Models.Mix;
 using GeneralInformation.Services;
-using Newtonsoft.Json;
 using Syncfusion.XForms.Buttons;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Threading;
 using System.Windows.Input;
 using WikiExtractor.ViewModels;
 using Xamarin.Essentials;
@@ -30,6 +30,8 @@ namespace GeneralInformation.ViewModels
                  new SfSegmentItem { Text = "UnRead" },
                  new SfSegmentItem { Text = "Random" }
             };
+
+            PageCancellationTokenSource = new CancellationTokenSource();
         }
 
         public string Title { get; set; }
@@ -84,6 +86,19 @@ namespace GeneralInformation.ViewModels
             }
         }
 
+        #endregion
+
+        #region PageCancellationTokenSource 
+        private CancellationTokenSource pageCancellationTokenSource;
+        public CancellationTokenSource PageCancellationTokenSource
+        {
+            get => pageCancellationTokenSource;
+            set
+            {
+                pageCancellationTokenSource = value;
+                OnPropertyChanged("PageCancellationTokenSource");
+            }
+        }
         #endregion
 
     }

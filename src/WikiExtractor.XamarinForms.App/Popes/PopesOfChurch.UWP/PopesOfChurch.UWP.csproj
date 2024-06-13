@@ -104,6 +104,9 @@
     <Compile Include="..\..\..\..\Resources\LinkFiles\Uwp\ConfigHelper.cs">
       <Link>DeviceDependencyImpl\ConfigHelper.cs</Link>
     </Compile>
+    <Compile Include="..\..\..\..\Resources\LinkFiles\Uwp\ImageService.cs">
+      <Link>DeviceDependencyImpl\ImageService.cs</Link>
+    </Compile>
     <Compile Include="..\..\..\..\Resources\LinkFiles\Uwp\LocalStorage.cs">
       <Link>DeviceDependencyImpl\LocalStorage.cs</Link>
     </Compile>
@@ -226,9 +229,6 @@
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfCarousel">
       <Version>23.1.39</Version>
-    </PackageReference>
-    <PackageReference Include="TestAny.Essentials.Api.Lite">
-      <Version>1.0.6</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.14" />

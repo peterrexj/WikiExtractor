@@ -12,7 +12,6 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
-using TestAny.Essentials.Core;
 using UIKit;
 
 namespace Wiki.iOS
@@ -50,8 +49,6 @@ namespace Wiki.iOS
             {
                 //Ignore the exception if the ads cannot be initialized
             }
-
-            TestAnyAppConfig.InitializeFramework();
 
             Xamarin.Essentials.Platform.Init(() => GetCurrentUIViewController());
 
