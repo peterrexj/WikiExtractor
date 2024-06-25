@@ -16,6 +16,7 @@ namespace Wiki.iOS
     public class ImageService : IImageService
     {
         private static readonly SemaphoreSlim FileLock = new(1, 1);
+        private static readonly string _userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
 
         public async Task<string> DownloadAndResizeImageAsync(string imageUrl, string outputFilePath, CancellationToken cancellationToken, int width = 100, int height = 100, double scalePercentage = 100)
         {
@@ -24,73 +25,76 @@ namespace Wiki.iOS
             try
             {
                 using (HttpClient httpClient = new HttpClient())
-                using (HttpResponseMessage response = await httpClient.GetAsync(imageUrl, cancellationToken))
                 {
-                    if (!response.IsSuccessStatusCode) return null;
-
-                    response.EnsureSuccessStatusCode();
-                    using (Stream inputStream = await response.Content.ReadAsStreamAsync())
-                    using (var memoryStream = new MemoryStream())
+                    httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(_userAgent);
+                    using (HttpResponseMessage response = await httpClient.GetAsync(imageUrl, cancellationToken))
                     {
-                        await inputStream.CopyToAsync(memoryStream, cancellationToken);
-                        memoryStream.Seek(0, SeekOrigin.Begin);
-                        originalImage = UIImage.LoadFromData(NSData.FromStream(memoryStream));
+                        if (!response.IsSuccessStatusCode) return null;
 
-                        nfloat newWidth = 0;
-                        nfloat newHeight = 0;
-
-                        try
+                        response.EnsureSuccessStatusCode();
+                        using (Stream inputStream = await response.Content.ReadAsStreamAsync())
+                        using (var memoryStream = new MemoryStream())
                         {
-                            //Set the value from the source without depending
-                            newWidth = originalImage.Size.Width;
-                            newHeight = originalImage.Size.Height;
-                        }
-                        catch (Exception) { }
+                            await inputStream.CopyToAsync(memoryStream, cancellationToken);
+                            memoryStream.Seek(0, SeekOrigin.Begin);
+                            originalImage = UIImage.LoadFromData(NSData.FromStream(memoryStream));
 
-                        if (newWidth == 0) newWidth = (nfloat)width;
-                        if (newHeight == 0) newHeight = (nfloat)height;
+                            nfloat newWidth = 0;
+                            nfloat newHeight = 0;
 
-                        if (scalePercentage > 0)
-                        {
-                            newWidth = (nfloat)(newWidth * scalePercentage / 100);
-                            newHeight = (nfloat)(newHeight * scalePercentage / 100);
-                        }
+                            try
+                            {
+                                //Set the value from the source without depending
+                                newWidth = originalImage.Size.Width;
+                                newHeight = originalImage.Size.Height;
+                            }
+                            catch (Exception) { }
 
-                        // Create a new scaled image
-                        UIGraphics.BeginImageContext(new SizeF((float)newWidth, (float)newHeight));
-                        originalImage.Draw(new RectangleF(0, 0, (float)newWidth, (float)newHeight));
+                            if (newWidth == 0) newWidth = (nfloat)width;
+                            if (newHeight == 0) newHeight = (nfloat)height;
 
-                        resizedImage = UIGraphics.GetImageFromCurrentImageContext();
-                        UIGraphics.EndImageContext();
+                            if (scalePercentage > 0)
+                            {
+                                newWidth = (nfloat)(newWidth * scalePercentage / 100);
+                                newHeight = (nfloat)(newHeight * scalePercentage / 100);
+                            }
 
-                        NSData imgData = null;
-                        var imageType = GetImageType(outputFilePath);
+                            // Create a new scaled image
+                            UIGraphics.BeginImageContext(new SizeF((float)newWidth, (float)newHeight));
+                            originalImage.Draw(new RectangleF(0, 0, (float)newWidth, (float)newHeight));
 
-                        imgData = imageType switch
-                        {
-                            ImageType.Png => resizedImage.AsPNG(),
-                            _ => resizedImage.AsJPEG(0.8f),
-                        };
-                        
-                        await FileLock.WaitAsync();
-                        try
-                        {
-                            File.WriteAllBytes(outputFilePath, imgData.ToArray());
-                        }
-                        catch (FileLoadException ex)
-                        {
-                            if (ex.Message.Contains("The process cannot access the file because it is being used by another process") == false)
+                            resizedImage = UIGraphics.GetImageFromCurrentImageContext();
+                            UIGraphics.EndImageContext();
+
+                            NSData imgData = null;
+                            var imageType = GetImageType(outputFilePath);
+
+                            imgData = imageType switch
+                            {
+                                ImageType.Png => resizedImage.AsPNG(),
+                                _ => resizedImage.AsJPEG(0.8f),
+                            };
+
+                            await FileLock.WaitAsync();
+                            try
+                            {
+                                File.WriteAllBytes(outputFilePath, imgData.ToArray());
+                            }
+                            catch (FileLoadException ex)
+                            {
+                                if (ex.Message.Contains("The process cannot access the file because it is being used by another process") == false)
+                                {
+                                    throw;
+                                }
+                            }
+                            catch (Exception)
                             {
                                 throw;
                             }
-                        }
-                        catch (Exception)
-                        {
-                            throw;
-                        }
-                        finally
-                        {
-                            FileLock.Release();
+                            finally
+                            {
+                                FileLock.Release();
+                            }
                         }
                     }
                 }

@@ -28,18 +28,33 @@ namespace WikiExtractor.Process.Modules
             wikiAppController.AddMenuItem("United States", "US Pre", "Presidents of United States", menuItemCounter++);
             wikiAppController.AddMenuItem("India", "IN PM", "Prime ministers of India", menuItemCounter++);
             wikiAppController.AddMenuItem("Canada", "CN PM", "Prime ministers of Canada", menuItemCounter++);
-
-          
+            wikiAppController.AddMenuItem("Germany", "GER PM", "Presidents of Germany", menuItemCounter++);
+            wikiAppController.AddMenuItem("France", "FR PM", "Presidents of France", menuItemCounter++);
+            wikiAppController.AddMenuItem("New Zealand", "NewZealand PM", "Prime ministers of New Zealand", menuItemCounter++);
+            wikiAppController.AddMenuItem("Japan", "JPN PM", "Prime ministers of Japan", menuItemCounter++);
 
             //EnablePrimaryMetadataContent();
 
+            
+
+            var stkJapan = toStore.ExtractListTabularData("Japan", "/wiki/List_of_prime_ministers_of_Japan", new List<string> { "All", "JPN PM" }).ToStack();
+
+            var stkNewZealand = toStore.ExtractListTabularData("NewZealand", "/wiki/List_of_prime_ministers_of_New_Zealand", new List<string> { "All", "NewZealand PM" }).ToStack();
+
+            var stkFrance = toStore.ExtractListTabularData("France", "/wiki/List_of_presidents_of_France", new List<string> { "All", "FR PM" }).ToStack();
+
+            var stkGermany = toStore.ExtractListTabularData("Germany", "/wiki/List_of_presidents_of_Germany", new List<string> { "All", "GER PM" }).ToStack();
+
             var stkUnitedKingdom = toStore.ExtractListTabularData("UnitedKingdom", "/wiki/List_of_prime_ministers_of_the_United_Kingdom", new List<string> { "All", "UK PM" }).ToStack();
+
+
             var stkUnitedStates = toStore.ExtractListTabularData("UnitedStates", "/wiki/List_of_presidents_of_the_United_States", new List<string> { "All", "US Pre" }).ToStack();
             var stkIndia = toStore.ExtractListTabularData("India", "/wiki/List_of_prime_ministers_of_India", new List<string> { "All", "IN PM" }).ToStack();
             var stkAustralia = toStore.ExtractListTabularData("Australia", "/wiki/List_of_prime_ministers_of_Australia", new List<string> { "All", "AUS PM" }).ToStack();
             var stkCanada = toStore.ExtractListTabularData("Canada", "/wiki/List_of_prime_ministers_of_Canada", new List<string> { "All", "CN PM" }).ToStack();
             
-            var stacks = new List<Stack<WikiWhatToExtractModel>> { stkAustralia, stkUnitedKingdom, stkIndia, stkUnitedStates, stkCanada };
+
+            var stacks = new List<Stack<WikiWhatToExtractModel>> { stkAustralia, stkUnitedKingdom, stkIndia, stkUnitedStates, stkCanada, stkGermany, stkFrance, stkNewZealand, stkJapan };
             List<WikiWhatToExtractModel> worldLeadersCollection = new();
 
             bool hasElements;

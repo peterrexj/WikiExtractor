@@ -34,6 +34,22 @@ namespace WikiExtractor.Process.Extractor
             {
                 return wikiFinder.ExtractListTabularData_Australia(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
             }
+            else if (country.EqualsIgnoreCase("Germany"))
+            {
+                return wikiFinder.ExtractListTabularData_Germany(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+            }
+            else if (country.EqualsIgnoreCase("France"))
+            {
+                return wikiFinder.ExtractListTabularData_France(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+            }
+            else if (country.EqualsIgnoreCase("NewZealand"))
+            {
+                return wikiFinder.ExtractListTabularData_NewZealand(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+            }
+            else if (country.EqualsIgnoreCase("Japan"))
+            {
+                return wikiFinder.ExtractListTabularData_Japan(WikiPageRouteResponseAsHtmlDocument(route, null), tags);
+            }
             else
             {
                 return null;

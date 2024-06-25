@@ -14,6 +14,7 @@ namespace Wiki.Droid
     public class ImageService : IImageService
     {
         private static readonly SemaphoreSlim FileLock = new SemaphoreSlim(1, 1);
+        private static readonly string _userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
 
         public async Task<string> DownloadAndResizeImageAsync(string imageUrl, string outputFilePath, CancellationToken cancellationToken, int width = 100, int height = 100, double scalePercentage = 100)
         {
@@ -25,63 +26,66 @@ namespace Wiki.Droid
                 handler.ServerCertificateCustomValidationCallback = (message, certificate, chain, sslPolicyErrors) => true;
 
                 using (HttpClient httpClient = new HttpClient(handler))
-                using (HttpResponseMessage response = await httpClient.GetAsync(imageUrl, cancellationToken))
                 {
-                    if (!response.IsSuccessStatusCode) return null;
-
-                    response.EnsureSuccessStatusCode();
-                    using (Stream inputStream = await response.Content.ReadAsStreamAsync())
-                    using (var memoryStream = new MemoryStream())
+                    httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(_userAgent);
+                    using (HttpResponseMessage response = await httpClient.GetAsync(imageUrl, cancellationToken))
                     {
-                        await inputStream.CopyToAsync(memoryStream, cancellationToken);
-                        memoryStream.Seek(0, SeekOrigin.Begin);
+                        if (!response.IsSuccessStatusCode) return null;
 
-                        original = BitmapFactory.DecodeStream(memoryStream);
-
-                        int newWidth = 0;
-                        int newHeight = 0;
-
-                        try
+                        response.EnsureSuccessStatusCode();
+                        using (Stream inputStream = await response.Content.ReadAsStreamAsync())
+                        using (var memoryStream = new MemoryStream())
                         {
-                            //Set the value from the source without depending
-                            newWidth = original.Width;
-                            newHeight = original.Height;
-                        }
-                        catch (Exception) { }
+                            await inputStream.CopyToAsync(memoryStream, cancellationToken);
+                            memoryStream.Seek(0, SeekOrigin.Begin);
 
-                        if (newWidth == 0) newWidth = width;
-                        if (newHeight == 0) newHeight = height;
+                            original = BitmapFactory.DecodeStream(memoryStream);
 
-                        if (scalePercentage > 0)
-                        {
-                            newWidth = (int)(newWidth * scalePercentage / 100);
-                            newHeight = (int)(newHeight * scalePercentage / 100);
-                        }
+                            int newWidth = 0;
+                            int newHeight = 0;
 
-                        resized = Bitmap.CreateScaledBitmap(original, newWidth, newHeight, true);
-
-                        await FileLock.WaitAsync();
-                        try
-                        {
-                            using (var outputStream = File.OpenWrite(outputFilePath))
+                            try
                             {
-                                resized.Compress(GetCompressFormat(outputFilePath), 80, outputStream);
+                                //Set the value from the source without depending
+                                newWidth = original.Width;
+                                newHeight = original.Height;
                             }
-                        }
-                        catch (FileLoadException ex)
-                        {
-                            if (ex.Message.Contains("The process cannot access the file because it is being used by another process") == false)
+                            catch (Exception) { }
+
+                            if (newWidth == 0) newWidth = width;
+                            if (newHeight == 0) newHeight = height;
+
+                            if (scalePercentage > 0)
+                            {
+                                newWidth = (int)(newWidth * scalePercentage / 100);
+                                newHeight = (int)(newHeight * scalePercentage / 100);
+                            }
+
+                            resized = Bitmap.CreateScaledBitmap(original, newWidth, newHeight, true);
+
+                            await FileLock.WaitAsync();
+                            try
+                            {
+                                using (var outputStream = File.OpenWrite(outputFilePath))
+                                {
+                                    resized.Compress(GetCompressFormat(outputFilePath), 80, outputStream);
+                                }
+                            }
+                            catch (FileLoadException ex)
+                            {
+                                if (ex.Message.Contains("The process cannot access the file because it is being used by another process") == false)
+                                {
+                                    throw;
+                                }
+                            }
+                            catch (Exception)
                             {
                                 throw;
                             }
-                        }
-                        catch (Exception)
-                        {
-                            throw;
-                        }
-                        finally
-                        {
-                            FileLock.Release();
+                            finally
+                            {
+                                FileLock.Release();
+                            }
                         }
                     }
                 }
@@ -95,7 +99,7 @@ namespace Wiki.Droid
             finally
             {
                 original?.Dispose();
-                resized?.Dispose(); 
+                resized?.Dispose();
             }
         }
 
