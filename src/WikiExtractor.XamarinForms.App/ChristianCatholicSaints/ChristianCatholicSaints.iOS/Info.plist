@@ -27,7 +27,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.pj.ChristianCatholicSaints</string>
 	<key>CFBundleVersion</key>
-	<string>5.0</string>
+	<string>6.0</string>
 	<key>UILaunchStoryboardName</key>
 	<string>SplashScreen</string>
 	<key>CFBundleName</key>
@@ -43,7 +43,7 @@
 	<key>UIMainStoryboardFile</key>
 	<string>SplashScreen</string>
 	<key>CFBundleShortVersionString</key>
-	<string>5.0</string>
+	<string>6.0</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>NSAppTransportSecurity</key>
