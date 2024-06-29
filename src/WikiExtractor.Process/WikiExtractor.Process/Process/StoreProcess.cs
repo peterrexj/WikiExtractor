@@ -48,7 +48,13 @@ namespace WikiExtractor.Process
 
         private void StoreMetadata(List<MetaDataModel> metadatas, int masterId)
         {
-            foreach (var metadata in metadatas.Where(f => f.Type != MetadataType.Image))
+            var metaFiltered = metadatas
+                .Where(f => f.Type != MetadataType.Image)
+                .GroupBy(f => f.Name)
+                .Select(f => f.ToList().First())
+                .ToList();
+
+            foreach (var metadata in metaFiltered)
             {
                 wikiDatabase.MetadataRepository.Add(new Metadata
                 {
@@ -74,7 +80,16 @@ namespace WikiExtractor.Process
         {
             bool hasPrimaryWikiPictureIdentified = false;
             int counter = 0;
-            foreach (var imageType in metadatas.Where(f => f.Type == MetadataType.Image).Select(s => s.ToImageDbModel()).OrderBy(f => f.Sequence))
+
+            var imgExcludeKeywords = new List<string> { "Signatur" };
+
+            var filteredImages = metadatas
+                .Where(f => f.Type == MetadataType.Image)
+                .Select(s => s.ToImageDbModel())
+                .Where(f => !imgExcludeKeywords.Any(g => f.Path?.ContainsIgnoreCase(g) == true))
+                .OrderBy(f => f.Sequence);
+
+            foreach (var imageType in filteredImages)
             {
                 imageType.MasterId = masterId;
                 if (hasPrimaryWikiPictureIdentified == false)
@@ -94,6 +109,12 @@ namespace WikiExtractor.Process
             {
                 var imageDbModel = imageType.ToImageDbModel();
                 imageDbModel.MasterId = masterId;
+
+                if (imgExcludeKeywords.Any(g => imageDbModel.Path?.ContainsIgnoreCase(g) == true))
+                {
+                    continue; // Skip this iteration and move to the next one
+                }
+
                 if (hasPrimaryWikiPictureIdentified == false)
                 {
                     hasPrimaryWikiPictureIdentified = true;
@@ -148,7 +169,7 @@ namespace WikiExtractor.Process
 
             Func<ParagraphContent, int> UpdateParaContent = (model) =>
             {
-                var data = paraContentDbModels.FirstOrDefault(f => f.MasterId == model.MasterId && f.ParagraphHeader2Id == model.ParagraphHeader2Id && f.ParagraphHeader3Id == model.ParagraphHeader3Id 
+                var data = paraContentDbModels.FirstOrDefault(f => f.MasterId == model.MasterId && f.ParagraphHeader2Id == model.ParagraphHeader2Id && f.ParagraphHeader3Id == model.ParagraphHeader3Id
                     && f.HashContent == model.HashContent);
                 if (data != null)
                 {

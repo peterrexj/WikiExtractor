@@ -47,6 +47,7 @@ namespace WikiExtractor.Process.Extractor
         private WikiWhatToExtractModel? ExtractListTabularData_Australia_Rows(HtmlNode[] elements)
         {
             var listOfName = new WikiWhatToExtractModel();
+            listOfName.AdditionalMetaData!.Add("Country", "Australia");
 
             int tColCounter = 1;
 
@@ -130,6 +131,7 @@ namespace WikiExtractor.Process.Extractor
         private WikiWhatToExtractModel? ExtractListTabularData_India_Rows(HtmlNode[] elements)
         {
             var listOfName = new WikiWhatToExtractModel();
+            listOfName.AdditionalMetaData!.Add("Country", "India");
 
             int tColCounter = 1;
 
@@ -213,6 +215,7 @@ namespace WikiExtractor.Process.Extractor
         private WikiWhatToExtractModel? ExtractListTabularData_UnitedStates_Rows(HtmlNode[] elements)
         {
             var listOfName = new WikiWhatToExtractModel();
+            listOfName.AdditionalMetaData!.Add("Country", "United States");
 
             int tcolCounter = 1;
 
@@ -288,6 +291,7 @@ namespace WikiExtractor.Process.Extractor
         private WikiWhatToExtractModel? ExtractListTabularData_UnitedKingdom_Rows(HtmlNode[] elements)
         {
             var listOfName = new WikiWhatToExtractModel();
+            listOfName.AdditionalMetaData!.Add("Country", "United Kingdom");
 
             int tcolCounter = 1;
 
@@ -369,6 +373,7 @@ namespace WikiExtractor.Process.Extractor
         private WikiWhatToExtractModel? ExtractListTabularData_Canada_Rows(HtmlNode[] elements)
         {
             var listOfName = new WikiWhatToExtractModel();
+            listOfName.AdditionalMetaData!.Add("Country", "Canada");
 
             int tcolCounter = 1;
 
@@ -460,6 +465,7 @@ namespace WikiExtractor.Process.Extractor
         private WikiWhatToExtractModel? ExtractListTabularData_Germany_Rows(HtmlNode[] elements)
         {
             var listOfName = new WikiWhatToExtractModel();
+            listOfName.AdditionalMetaData!.Add("Country", "Germany");
 
             int tColCounter = 1;
 
@@ -547,6 +553,7 @@ namespace WikiExtractor.Process.Extractor
         private WikiWhatToExtractModel? ExtractListTabularData_France_Rows(HtmlNode[] elements)
         {
             var listOfName = new WikiWhatToExtractModel();
+            listOfName.AdditionalMetaData!.Add("Country", "France");
 
             int tColCounter = 1;
 
@@ -634,6 +641,7 @@ namespace WikiExtractor.Process.Extractor
         private WikiWhatToExtractModel? ExtractListTabularData_NewZealand_Rows(HtmlNode[] elements)
         {
             var listOfName = new WikiWhatToExtractModel();
+            listOfName.AdditionalMetaData!.Add("Country", "New Zealand");
 
             int tColCounter = 1;
 
@@ -721,6 +729,7 @@ namespace WikiExtractor.Process.Extractor
         private WikiWhatToExtractModel? ExtractListTabularData_Japan_Rows(HtmlNode[] elements)
         {
             var listOfName = new WikiWhatToExtractModel();
+            listOfName.AdditionalMetaData!.Add("Country", "Japan");
 
             int tColCounter = 1;
 

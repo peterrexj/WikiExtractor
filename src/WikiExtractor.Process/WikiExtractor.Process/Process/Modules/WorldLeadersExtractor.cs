@@ -22,39 +22,35 @@ namespace WikiExtractor.Process.Modules
             Initialize(true);
             int menuItemCounter = 0;
 
-            wikiAppController!.AddMenuItem("World Leaders", "All", "World Leaders", menuItemCounter++);
+            if (wikiAppController == null) return;
+            if (toStore == null) return;
+
+            wikiAppController.AddMenuItem("World Leaders", "All", "World Leaders", menuItemCounter++);
             wikiAppController.AddMenuItem("Australia", "AUS PM", "Prime ministers of Australia", menuItemCounter++);
-            wikiAppController.AddMenuItem("United Kingdom", "UK PM", "Prime ministers of United Kingdom", menuItemCounter++);
+            wikiAppController.AddMenuItem("New Zealand", "NewZealand PM", "Prime ministers of New Zealand", menuItemCounter++);
+            wikiAppController.AddMenuItem("Japan", "JPN PM", "Prime ministers of Japan", menuItemCounter++);
             wikiAppController.AddMenuItem("United States", "US Pre", "Presidents of United States", menuItemCounter++);
+            wikiAppController.AddMenuItem("United Kingdom", "UK PM", "Prime ministers of United Kingdom", menuItemCounter++);
             wikiAppController.AddMenuItem("India", "IN PM", "Prime ministers of India", menuItemCounter++);
             wikiAppController.AddMenuItem("Canada", "CN PM", "Prime ministers of Canada", menuItemCounter++);
             wikiAppController.AddMenuItem("Germany", "GER PM", "Presidents of Germany", menuItemCounter++);
             wikiAppController.AddMenuItem("France", "FR PM", "Presidents of France", menuItemCounter++);
-            wikiAppController.AddMenuItem("New Zealand", "NewZealand PM", "Prime ministers of New Zealand", menuItemCounter++);
-            wikiAppController.AddMenuItem("Japan", "JPN PM", "Prime ministers of Japan", menuItemCounter++);
 
             //EnablePrimaryMetadataContent();
 
-            
-
-            var stkJapan = toStore.ExtractListTabularData("Japan", "/wiki/List_of_prime_ministers_of_Japan", new List<string> { "All", "JPN PM" }).ToStack();
-
+            var stkAustralia = toStore.ExtractListTabularData("Australia", "/wiki/List_of_prime_ministers_of_Australia", new List<string> { "All", "AUS PM" }).ToStack();
             var stkNewZealand = toStore.ExtractListTabularData("NewZealand", "/wiki/List_of_prime_ministers_of_New_Zealand", new List<string> { "All", "NewZealand PM" }).ToStack();
-
+            var stkJapan = toStore.ExtractListTabularData("Japan", "/wiki/List_of_prime_ministers_of_Japan", new List<string> { "All", "JPN PM" }).ToStack();
+            var stkUnitedStates = toStore.ExtractListTabularData("UnitedStates", "/wiki/List_of_presidents_of_the_United_States", new List<string> { "All", "US Pre" }).ToStack();
+            var stkUnitedKingdom = toStore.ExtractListTabularData("UnitedKingdom", "/wiki/List_of_prime_ministers_of_the_United_Kingdom", new List<string> { "All", "UK PM" }).ToStack();
+            var stkIndia = toStore.ExtractListTabularData("India", "/wiki/List_of_prime_ministers_of_India", new List<string> { "All", "IN PM" }).ToStack();
+            var stkCanada = toStore.ExtractListTabularData("Canada", "/wiki/List_of_prime_ministers_of_Canada", new List<string> { "All", "CN PM" }).ToStack();
             var stkFrance = toStore.ExtractListTabularData("France", "/wiki/List_of_presidents_of_France", new List<string> { "All", "FR PM" }).ToStack();
-
             var stkGermany = toStore.ExtractListTabularData("Germany", "/wiki/List_of_presidents_of_Germany", new List<string> { "All", "GER PM" }).ToStack();
 
-            var stkUnitedKingdom = toStore.ExtractListTabularData("UnitedKingdom", "/wiki/List_of_prime_ministers_of_the_United_Kingdom", new List<string> { "All", "UK PM" }).ToStack();
+            //var stacks = new List<Stack<WikiWhatToExtractModel>> { stkGermany };
 
-
-            var stkUnitedStates = toStore.ExtractListTabularData("UnitedStates", "/wiki/List_of_presidents_of_the_United_States", new List<string> { "All", "US Pre" }).ToStack();
-            var stkIndia = toStore.ExtractListTabularData("India", "/wiki/List_of_prime_ministers_of_India", new List<string> { "All", "IN PM" }).ToStack();
-            var stkAustralia = toStore.ExtractListTabularData("Australia", "/wiki/List_of_prime_ministers_of_Australia", new List<string> { "All", "AUS PM" }).ToStack();
-            var stkCanada = toStore.ExtractListTabularData("Canada", "/wiki/List_of_prime_ministers_of_Canada", new List<string> { "All", "CN PM" }).ToStack();
-            
-
-            var stacks = new List<Stack<WikiWhatToExtractModel>> { stkAustralia, stkUnitedKingdom, stkIndia, stkUnitedStates, stkCanada, stkGermany, stkFrance, stkNewZealand, stkJapan };
+            var stacks = new List<Stack<WikiWhatToExtractModel>> { stkAustralia, stkNewZealand, stkJapan, stkUnitedStates, stkUnitedKingdom, stkIndia, stkCanada, stkFrance, stkGermany };
             List<WikiWhatToExtractModel> worldLeadersCollection = new();
 
             bool hasElements;
@@ -71,14 +67,6 @@ namespace WikiExtractor.Process.Modules
                     }
                 }
             } while (hasElements);
-
-
-            //var saintsCollection =
-            //    listOfSaintsByCentury21
-            //    .Union(listOfSaintsByEachPope07).Union(listOfSaintsByEachPope08)
-            //    //.Take(100)
-            //    .ToList()
-            //    .WithDefaultFilters();
 
             int totalCount = worldLeadersCollection.Count;
             int currentIndex = 1;
@@ -150,6 +138,7 @@ namespace WikiExtractor.Process.Modules
             }
             wikiAppController!.EnableWithPrimaryMetadataContent(new List<string>
             {
+                "Country",
                 "Preceded by",
                 "Succeeded by",
                 "Political party",
@@ -188,7 +177,7 @@ namespace WikiExtractor.Process.Modules
             foreach (var item in data)
             {
                 Console.WriteLine($"Removing metadata [not required]: {item.Name}");
-                wikiAppController.RemoveMetadataInfo(item.Id, "Portrait", "No", "Website" );
+                wikiAppController.RemoveMetadataInfo(item.Id, "Portrait", "No", "Website");
             }
         }
 

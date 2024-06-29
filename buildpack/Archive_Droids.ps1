@@ -95,8 +95,8 @@ $saints = [IO.Path]::Combine($PSScriptRoot, '..\src\WikiExtractor.XamarinForms.A
 Build-XamarinAndroidProject -ProjectFilePath $saints -outputFolder $outputFolderSaints -aabFilePath $outputFolderSaintsAabFile -androidSigningKeyAlias $AndroidSigningKeyAlias -androidSigningKeyPass $AndroidSigningKeyPass -androidSigningStorePass $AndroidSigningStorePass -androidSigningKeyStore $AndroidSigningKeyStore
 
 
-# if (Test-Path -Path $outputFolderSaintsAabFile -PathType Leaf) {
-#     Push-AabToSauceLabs -AabFilePath $outputFolderSaintsAabFile -Description "Catholic saints app for testing"
-# } else {
-#     Write-Output "AAB file not found: $outputFolderSaintsAabFile"
-# }
+if (Test-Path -Path $outputFolderSaintsAabFile -PathType Leaf) {
+    Push-AabToSauceLabs -AabFilePath $outputFolderSaintsAabFile -Description "Catholic saints app for testing"
+} else {
+    Write-Output "AAB file not found: $outputFolderSaintsAabFile"
+}

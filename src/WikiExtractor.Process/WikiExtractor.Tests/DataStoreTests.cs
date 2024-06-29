@@ -279,7 +279,7 @@ namespace WikiExtractor.Tests
             {
                 return Directory.EnumerateFiles(
                     IoHelper.CombinePath(PjUtility.Runtime.ExecutingRepositoryRootFolder,
-                    "App\\Databases"), "*.db")
+                    "Resources\\Databases"), "*.db")
                     .Where(f => Path.GetFileNameWithoutExtension(f).EqualsIgnoreCase("UserStore") == false);
             }
         }
