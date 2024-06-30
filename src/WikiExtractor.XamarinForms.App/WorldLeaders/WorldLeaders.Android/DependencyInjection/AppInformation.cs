@@ -7,11 +7,11 @@ namespace Wiki.Droid
 {
     public class AppInformation : IAppInformation
     {
-        public string AppCentreAppKey => "4a88ff7e-2001-4194-8ed2-3913845c6fe0";
+        public string AppCentreAppKey => "aac840ce-dff7-4071-92b1-e12e8a7426f4";
 
-        public string AdsBannerId => "ca-app-pub-4219645367584712/5897223389";
+        public string AdsBannerId => "ca-app-pub-4219645367584712/1240528817";
 
-        public string AdsInterstitialId => "ca-app-pub-4219645367584712/4584141715";
+        public string AdsInterstitialId => "ca-app-pub-4219645367584712/4014031811";
 
         public int ShowFirstInterstitialAdOnClickLimit => 1;
 

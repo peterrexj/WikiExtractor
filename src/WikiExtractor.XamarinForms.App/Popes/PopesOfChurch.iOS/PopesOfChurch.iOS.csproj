@@ -118,9 +118,6 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <BundleResource Include="Resources\xamarin_logo.png" />
-    <BundleResource Include="Resources\xamarin_logo%402x.png" />
-    <BundleResource Include="Resources\xamarin_logo%403x.png" />
     <InterfaceDefinition Include="Resources\SplashScreen.storyboard" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\1024.png">
       <Visible>true</Visible>
