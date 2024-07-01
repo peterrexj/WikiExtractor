@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesOfWorld.iOS", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopesOfChurch.iOS", "..\WikiExtractor.XamarinForms.App\Popes\PopesOfChurch.iOS\PopesOfChurch.iOS.csproj", "{1F3EF033-C41B-4576-9946-F21D662B197C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldLeaders.iOS", "..\WikiExtractor.XamarinForms.App\WorldLeaders\WorldLeaders.iOS\WorldLeaders.iOS.csproj", "{A52E3158-5899-4514-AAAC-486A4C3F37E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{1F3EF033-C41B-4576-9946-F21D662B197C}.Release|iPhone.Build.0 = Release|iPhone
 		{1F3EF033-C41B-4576-9946-F21D662B197C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{1F3EF033-C41B-4576-9946-F21D662B197C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Debug|iPhone.Build.0 = Debug|iPhone
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Release|iPhone.ActiveCfg = Release|iPhone
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Release|iPhone.Build.0 = Release|iPhone
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{A52E3158-5899-4514-AAAC-486A4C3F37E5}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
