@@ -72,8 +72,8 @@
     <MtouchArch>ARM64</MtouchArch>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
-    <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
-    <CodesignProvision>PopeOfTheChurchProvisionProfile</CodesignProvision>
+    <CodesignKey>Apple Development: Created via API (965CR7HS5Q)</CodesignKey>
+    <CodesignProvision>WorldLeadersHubProfile</CodesignProvision>
     <CodesignEntitlements>
     </CodesignEntitlements>
     <LangVersion>latest</LangVersion>
@@ -297,7 +297,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\WikiExtractor.XamarinForms\WikiExtractor.XamarinForms.csproj">
-      <Project>{e50e292e-bd03-460e-8bcd-57b34f4547e3}</Project>
+      <Project>{A5B199A8-230C-4AE6-AB54-87A68C15C272}</Project>
       <Name>WikiExtractor.XamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
