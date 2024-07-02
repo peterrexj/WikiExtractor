@@ -106,9 +106,6 @@
       <Link>DependencyImp\SqliteFileHelper.cs</Link>
     </Compile>
     <Compile Include="DependencyImp\AppInformation.cs" />
-    <None Include="..\..\..\..\Resources\Databases\WikiStoreWorldLeaders.db">
-      <Link>WikiStoreWorldLeaders.db</Link>
-    </None>
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -234,6 +231,9 @@
     <ImageAsset Include="Assets.xcassets\start_logo.imageset\splash.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <BundleResource Include="..\..\..\..\Resources\Databases\WikiStoreWorldLeaders.db">
+      <Link>WikiStoreWorldLeaders.db</Link>
+    </BundleResource>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
