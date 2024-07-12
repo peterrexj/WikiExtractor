@@ -42,7 +42,7 @@
     <MtouchArch>x86_64</MtouchArch>
     <LangVersion>latest</LangVersion>
     <OptimizePNGs>true</OptimizePNGs>
-    <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
+    <CodesignKey>iPhone Distribution</CodesignKey>
     <CodesignProvision>Automatic</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
@@ -54,12 +54,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARM64</MtouchArch>
-    <CodesignKey>Apple Development: Created via API (965CR7HS5Q)</CodesignKey>
+    <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
-    <CodesignProvision>VS: com.pj.popesofchurch Development</CodesignProvision>
+    <CodesignProvision>Automatic</CodesignProvision>
     <DeviceSpecificBuild>false</DeviceSpecificBuild>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -72,8 +72,8 @@
     <MtouchArch>ARM64</MtouchArch>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
-    <CodesignKey>Apple Development: Created via API (965CR7HS5Q)</CodesignKey>
-    <CodesignProvision>WorldLeadersHubProfile</CodesignProvision>
+    <CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
+    <CodesignProvision>Automatic</CodesignProvision>
     <CodesignEntitlements>
     </CodesignEntitlements>
     <LangVersion>latest</LangVersion>
