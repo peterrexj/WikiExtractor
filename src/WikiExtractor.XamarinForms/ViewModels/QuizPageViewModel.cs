@@ -101,12 +101,12 @@ namespace WikiExtractor.XamarinForms.ViewModels
                 _styleModelDefault = value;
                 OnPropertyChanged(nameof(DefaultStyle));
 
-                CustomPaletteColors =
-                [
+                CustomPaletteColors = new ObservableCollection<Color>
+                {
                     Color.FromHex(DefaultStyle.ChartCorrectAnswerColor),
                     Color.FromHex(DefaultStyle.ChartWrongAnswerColor),
                     Color.FromHex(DefaultStyle.ChartNotAnsweredColor)
-                ];
+                };
 
                 QuizCorrectAnswerColor = Color.FromHex(DefaultStyle.ChartCorrectAnswerColor);
                 QuizWrongAnswerColor = Color.FromHex(DefaultStyle.ChartWrongAnswerColor);
@@ -237,10 +237,10 @@ namespace WikiExtractor.XamarinForms.ViewModels
         {
             if (Questions?.Count == 0)
             {
-                ChartPassFailData =
-                [
+                ChartPassFailData = new ObservableCollection<DataModel>
+                {
                     new DataModel { Category = $"No quiz questions", Value = 0 }
-                ];
+                };
             }
             var correct = Questions.Count(q => q.HasUserAnswered && q.IsCorrect);
             var wrong = Questions.Count(q => q.HasUserAnswered && !q.IsCorrect);
@@ -251,12 +251,12 @@ namespace WikiExtractor.XamarinForms.ViewModels
             var wrongPercentage = Math.Round((double)wrong / Questions.Count * 100, 0);
             var notAnsweredPercentage = Math.Round((double)notAnswered / Questions.Count * 100, 0);
 
-            ChartPassFailData =
-            [
+            ChartPassFailData = new ObservableCollection<DataModel>
+            {
                 new DataModel { Category = $"Correct ({correctPercentage}%)", Value = correct },
                 new DataModel { Category = $"Wrong ({wrongPercentage}%)", Value = wrong },
                 new DataModel { Category = $"Not Answered ({notAnsweredPercentage}%)", Value = notAnswered }
-            ];
+            };
         }
     }
 }

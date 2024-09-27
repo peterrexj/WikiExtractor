@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Pj.Library;
 using WikiApp;
 using WikiExtractor.DbModels;
@@ -15,14 +13,23 @@ using WikiExtractor.ViewModels;
 
 namespace WikiExtractor.Process.Process
 {
-    public class QuizController(IWikiDatabase wikiDb, IUserStoreDatabase userStoreDb)
+    public class QuizController
     {
+        private readonly IWikiDatabase _wikiDb;
+        private readonly IUserStoreDatabase _userStoreDb;
+
+        public QuizController(IWikiDatabase wikiDb, IUserStoreDatabase userStoreDb)
+        {
+            _wikiDb = wikiDb;
+            _userStoreDb = userStoreDb;
+        }
+
         public List<QuizQuestionViewModel> GenerateQuizQuestionsForNewSession()
         {
             // Retrieve data from the database once and work with it in-memory
-            var quizDefinitionsDb = wikiDb.QuizDefinitionRepository.GetAll().ToList();
-            var quizResponseDb = userStoreDb.QuizResponseRepository.GetAll().ToList();
-            var quizMasterMetadataDb = wikiDb.QuizMasterMetadataRepository.GetAll().ToList();
+            var quizDefinitionsDb = _wikiDb.QuizDefinitionRepository.GetAll().ToList();
+            var quizResponseDb = _userStoreDb.QuizResponseRepository.GetAll().ToList();
+            var quizMasterMetadataDb = _wikiDb.QuizMasterMetadataRepository.GetAll().ToList();
 
             // Use a HashSet for faster lookups
             var quizResponseKeys = new HashSet<(int MasterId, string MetadataKey)>(
@@ -44,9 +51,9 @@ namespace WikiExtractor.Process.Process
             var masterIds = new HashSet<int>(randomQuestions.Select(q => q.MasterId));
             var metadataKeys = new HashSet<string>(randomQuestions.Select(q => q.MetadataKey).Distinct(), StringComparer.OrdinalIgnoreCase);
 
-            var masterDataInvolvedInQuizWithPictures = (from master in wikiDb.MasterRepository.GetAll()
+            var masterDataInvolvedInQuizWithPictures = (from master in _wikiDb.MasterRepository.GetAll()
                                                         where masterIds.Contains(master.Id)
-                                                        join pic in wikiDb.WikiPictureRepository.GetAll()
+                                                        join pic in _wikiDb.WikiPictureRepository.GetAll()
                                                             on master.Id equals pic.MasterId into picsGroup
                                                         from pic in picsGroup.DefaultIfEmpty(new WikiPicture
                                                         {
@@ -60,11 +67,11 @@ namespace WikiExtractor.Process.Process
                                                             PrimaryPicture = picsGroup.FirstOrDefault(f => f.Path.HasValue() && f.IsPrimaryBool)
                                                         }).ToList();
 
-            var metadataRawDb = wikiDb.MetadataRepository.GetAll()
+            var metadataRawDb = _wikiDb.MetadataRepository.GetAll()
                 .Where(f => metadataKeys.Contains(f.Key))
                 .ToList();
 
-            var masterMetadataGroups = wikiDb.MetadataRepository.GetAll()
+            var masterMetadataGroups = _wikiDb.MetadataRepository.GetAll()
                 .Where(m => masterIds.Contains(m.MasterId))
                 .GroupBy(m => m.MasterId)
                 .ToDictionary(g => g.Key, g => g.ToList());
@@ -123,20 +130,20 @@ namespace WikiExtractor.Process.Process
             }
 
             var metadatas = quizDefinitionData.Where(f => f.Metadata.HasValue()).Select(f => f.Metadata).ToList();
-            var metadataDb = (from f in wikiDb.MetadataRepository.GetAll()
-                join quiz in quizDefinitionData
-                    on f.Key.ToLower() equals quiz.Metadata.ToLower()
-                where quiz.Metadata.HasValue()
-                group new { f, quiz } by f.Key into grouped
-                select new
-                {
-                    Key = grouped.Key,
-                    Childs = grouped.Where(g =>
-                            g.quiz.MaxLengthForAnswer == 0 ||
-                            g.f.Value.Length <= g.quiz.MaxLengthForAnswer)
-                        .Select(g => g.f)
-                        .ToList()
-                }).ToList();
+            var metadataDb = (from f in _wikiDb.MetadataRepository.GetAll()
+                              join quiz in quizDefinitionData
+                                  on f.Key.ToLower() equals quiz.Metadata.ToLower()
+                              where quiz.Metadata.HasValue()
+                              group new { f, quiz } by f.Key into grouped
+                              select new
+                              {
+                                  Key = grouped.Key,
+                                  Childs = grouped.Where(g =>
+                                          g.quiz.MaxLengthForAnswer == 0 ||
+                                          g.f.Value.Length <= g.quiz.MaxLengthForAnswer)
+                                      .Select(g => g.f)
+                                      .ToList()
+                              }).ToList();
 
             foreach (var metadata in metadatas)
             {
@@ -144,14 +151,14 @@ namespace WikiExtractor.Process.Process
                 var dataDefinition = quizDefinitionData.FirstOrDefault(f => f.Metadata.EqualsIgnoreCase(metadata));
                 if (dataFromDb?.Childs.Count() > 20)
                 {
-                    wikiDb.QuizDefinitionRepository.Add(new QuizDefinition
+                    _wikiDb.QuizDefinitionRepository.Add(new QuizDefinition
                     { MetadataKey = metadata, QuestionPhrase = dataDefinition?.QuestionRephrase }, checkAlreadyExists: true);
                 }
 
                 foreach (var metadataChild in dataFromDb.Childs)
                 {
                     Console.WriteLine($"Inserting Master - Metadata information between {metadataChild.MasterId} and {metadataChild.Key}");
-                    wikiDb.QuizMasterMetadataRepository.Add(new QuizMasterMetadata
+                    _wikiDb.QuizMasterMetadataRepository.Add(new QuizMasterMetadata
                     {
                         MasterId = metadataChild.MasterId,
                         MetadataKey = metadataChild.Key
@@ -159,13 +166,13 @@ namespace WikiExtractor.Process.Process
                 }
             }
 
-            var dataDefinitionsDb = wikiDb.QuizDefinitionRepository.GetAll();
+            var dataDefinitionsDb = _wikiDb.QuizDefinitionRepository.GetAll();
             if (!dataDefinitionsDb.Any())
             {
                 throw new Exception("The definition data was generated, check the code");
             }
 
-            var quizMasterMetadataDb = wikiDb.QuizMasterMetadataRepository.GetAll();
+            var quizMasterMetadataDb = _wikiDb.QuizMasterMetadataRepository.GetAll();
             if (!quizMasterMetadataDb.Any())
             {
                 throw new Exception("The master metadata data was generated, check the code");
@@ -175,12 +182,12 @@ namespace WikiExtractor.Process.Process
 
         public int GetQuestionSetId()
         {
-            return userStoreDb.QuizResponseRepository.GetNewQuestionSetId();
+            return _userStoreDb.QuizResponseRepository.GetNewQuestionSetId();
         }
 
         public void SaveResponse(QuizResponse responseModel)
         {
-            userStoreDb.QuizResponseRepository.Add(responseModel, checkAlreadyExists: false);
+            _userStoreDb.QuizResponseRepository.Add(responseModel, checkAlreadyExists: false);
         }
     }
 }
