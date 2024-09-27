@@ -5,9 +5,11 @@ using Microsoft.AppCenter.Crashes;
 using Syncfusion.ListView.XForms.iOS;
 using Syncfusion.SfAutoComplete.XForms.iOS;
 using Syncfusion.SfBusyIndicator.XForms.iOS;
+using Syncfusion.SfChart.XForms.iOS.Renderers;
 using Syncfusion.XForms.iOS.Buttons;
 using Syncfusion.XForms.iOS.Graphics;
 using Syncfusion.XForms.iOS.PopupLayout;
+using Syncfusion.XForms.iOS.ProgressBar;
 using Syncfusion.XForms.iOS.TabView;
 using System;
 using System.Diagnostics;
@@ -57,12 +59,15 @@ namespace Wiki.iOS
             new SfAutoCompleteRenderer();
             SfListViewRenderer.Init();
             SfChipRenderer.Init();
-            SfChipRenderer.Init();
             SfChipGroupRenderer.Init();
             SfSegmentedControlRenderer.Init();
             SfTabViewRenderer.Init();
             SfGradientViewRenderer.Init();
             SfPopupLayoutRenderer.Init();
+            SfCircularProgressBarRenderer.Init();
+            SfGradientViewRenderer.Init();
+            SfChartRenderer.Init();
+
 
 #if DEBUG
             DisplayCrashReport();
