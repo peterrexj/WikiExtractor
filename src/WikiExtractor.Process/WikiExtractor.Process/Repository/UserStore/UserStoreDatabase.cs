@@ -1,5 +1,6 @@
 ﻿using Pj.Library;
 using Pj.Library.Mobile.Model;
+using WikiExtractor.Process.Repository;
 
 namespace WikiExtractor.Repository.UserStore
 {
@@ -9,6 +10,7 @@ namespace WikiExtractor.Repository.UserStore
         public SettingsSqliteRepository SettingsRepository { get; set; }
         public RequestRecordRepository RequestRecordRepository { get; set; }
         public AppSettingsRepository AppSettingsRepository { get; set; }
+        public QuizResponseRepository QuizResponseRepository { get; set; }
 
         protected List<IRepositoryBaseAppExtension> repoExtensions;
         AppDatabase appDatabase;
@@ -28,11 +30,13 @@ namespace WikiExtractor.Repository.UserStore
             AppSettingsRepository = new AppSettingsRepository(appDatabase._dbHelperUserStore);
             RequestRecordRepository = new RequestRecordRepository(appDatabase._dbHelperUserStore);
             SettingsRepository = new SettingsSqliteRepository(appDatabase._dbHelperUserStore);
-           
+            QuizResponseRepository = new QuizResponseRepository(appDatabase._dbHelperUserStore);
+
             repoExtensions.Add(SettingsRepository);
             repoExtensions.Add(ItemReadTrackerRepository);
             repoExtensions.Add(RequestRecordRepository);
             repoExtensions.Add(AppSettingsRepository);
+            repoExtensions.Add(QuizResponseRepository);
 
             int currentDbVersion = 0;
             bool requireDbInitialization = false;

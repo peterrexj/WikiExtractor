@@ -157,7 +157,6 @@ namespace WikiExtractor.Process.Modules
             }, 5);
 
         }
-
         public void CleanDataWithDump()
         {
             Initialize(false);

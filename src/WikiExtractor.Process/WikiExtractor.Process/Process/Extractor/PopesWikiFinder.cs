@@ -1,12 +1,5 @@
-﻿using Aspose.Cells;
-using HtmlAgilityPack;
+﻿using HtmlAgilityPack;
 using Pj.Library;
-using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web;
 using WikiExtractor.Exts;
 using WikiExtractor.Models;
@@ -15,15 +8,15 @@ namespace WikiExtractor.Process.Extractor
 {
     public class PopesWikiFinder
     {
-        private const string _metadata_PontiffNumber = "Pontiff number";
-        private const string _metadata_Pontificate = "Pontificate";
-        private const string _metadata_EnglishName = "English Name";
-        private const string _metadata_LatinName = "Latin Name";
-        private const string _metadata_DateAndPlaceOfBirth = "Date & Place Of Birth";
-        private const string _metadata_AgeAtStartEndOfPapacy = "Age at start/nend of papacy";
-        private const string _metadata_Notes = "Extras";
-        private const string _metadata_PersonalName = "Personal Name";
-        private const string _metadata_PortaritImage = "Portait Image";
+        private const string MetadataPontiffNumber = "Pontiff number";
+        private const string MetadataPontificate = "Pontificate";
+        private const string MetadataEnglishName = "English Name";
+        private const string MetadataLatinName = "Latin Name";
+        private const string MetadataDateAndPlaceOfBirth = "Date & Place Of Birth";
+        private const string MetadataAgeAtStartEndOfPapacy = "Age at start/nend of papacy";
+        private const string MetadataNotes = "Extras";
+        private const string MetadataPersonalName = "Personal Name";
+        private const string MetadataPortaritImage = "Portait Image";
 
         public List<WikiWhatToExtractModel> ExtractByCenturyFromTable(HtmlDocument document, string tableFinderText, List<string>? tags, bool hasPortrait, bool hasPersonalName)
         {
@@ -45,34 +38,32 @@ namespace WikiExtractor.Process.Extractor
 
             var tableData = document.DocumentNode.SelectNodes($"//table/caption[contains(text(), '{tableFinderText}')]//..//tbody/tr").Skip(1);
 
-            int elePos_Poitiff = 0;
-            int elePos_Pontificate = 0;
-            int elePos_Potrait = 0;
-            int elePos_PersonalName = 0;
-            int elePos_Names = 0;
-            int elePos_DateAndPlaceOfBirth = 0;
-            int elePos_AgeAtStartEndOfPapacy = 0;
-            int elePos_Notes = 0;
+            int elePosPoitiff = 0;
+            int elePosPontificate = 0;
+            int elePosPersonalName = 0;
+            int elePosNames = 0;
+            int elePosDateAndPlaceOfBirth = 0;
+            int elePosAgeAtStartEndOfPapacy = 0;
+            int elePosNotes = 0;
 
             if (hasPortrait && hasPersonalName)
             {
-                elePos_Poitiff = 0;
-                elePos_Pontificate = 1;
-                elePos_Potrait = 2;
-                elePos_Names = 3;
-                elePos_PersonalName = 4;
-                elePos_DateAndPlaceOfBirth = 5;
-                elePos_AgeAtStartEndOfPapacy = 6;
-                elePos_Notes = 7;
+                elePosPoitiff = 0;
+                elePosPontificate = 1;
+                elePosNames = 3;
+                elePosPersonalName = 4;
+                elePosDateAndPlaceOfBirth = 5;
+                elePosAgeAtStartEndOfPapacy = 6;
+                elePosNotes = 7;
             }
             else
             {
-                elePos_Poitiff = 0;
-                elePos_Pontificate = 1;
-                elePos_Names = 2;
-                elePos_DateAndPlaceOfBirth = 3;
-                elePos_AgeAtStartEndOfPapacy = 4;
-                elePos_Notes = 5;
+                elePosPoitiff = 0;
+                elePosPontificate = 1;
+                elePosNames = 2;
+                elePosDateAndPlaceOfBirth = 3;
+                elePosAgeAtStartEndOfPapacy = 4;
+                elePosNotes = 5;
             }
 
             foreach (var item in tableData)
@@ -83,15 +74,15 @@ namespace WikiExtractor.Process.Extractor
                 }
                 var elements = item.ChildNodes.Where(f => f.Name == "td").ToArray();
 
-                if (elements[elePos_Names].ChildNodes.Count < 4) //Name column does not contain enough information
+                if (elements[elePosNames].ChildNodes.Count < 4) //Name column does not contain enough information
                 {
                     continue;
                 }
 
                 var listOfName = new WikiWhatToExtractModel();
                 int counter = 1;
-                listOfName.AdditionalMetaData!.Add(_metadata_PontiffNumber, elements[elePos_Poitiff].DecodedInnerText(removeNewLine: true).Trim());
-                listOfName.AdditionalMetaData!.Add(_metadata_Pontificate, elements[elePos_Pontificate].DecodedInnerText(removeNewLine: true).Trim());
+                listOfName.AdditionalMetaData!.Add(MetadataPontiffNumber, elements[elePosPoitiff].DecodedInnerText(removeNewLine: true).Trim());
+                listOfName.AdditionalMetaData!.Add(MetadataPontificate, elements[elePosPontificate].DecodedInnerText(removeNewLine: true).Trim());
 
 
                 if (hasPortrait)
@@ -106,14 +97,14 @@ namespace WikiExtractor.Process.Extractor
                 }
 
                 //Names with HyperLinks
-                if (elements[elePos_Names].ChildNodes.Count >= 4)
+                if (elements[elePosNames].ChildNodes.Count >= 4)
                 {
-                    var engName = elements[elePos_Names].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i" || f.Name == "a")?.DecodedInnerText(removeNewLine: true).Trim();
-                    listOfName.AdditionalMetaData!.AddOrUpdate(_metadata_EnglishName, engName);
-                    listOfName.AdditionalMetaData!.AddOrUpdate(_metadata_LatinName, elements[elePos_Names].ChildNodes.FirstOrDefault(f => f.Name == "span")?.DecodedInnerText(removeNewLine: true).Trim());
-                    if (elements[elePos_Names].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i")?.ChildNodes.Where(f => f.Name == "a").Count() == 1)
+                    var engName = elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i" || f.Name == "a")?.DecodedInnerText(removeNewLine: true).Trim();
+                    listOfName.AdditionalMetaData!.AddOrUpdate(MetadataEnglishName, engName);
+                    listOfName.AdditionalMetaData!.AddOrUpdate(MetadataLatinName, elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "span")?.DecodedInnerText(removeNewLine: true).Trim());
+                    if (elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i")?.ChildNodes.Where(f => f.Name == "a").Count() == 1)
                     {
-                        var anchor = elements[elePos_Names].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i")?.ChildNodes.FirstOrDefault(f => f.Name == "a");
+                        var anchor = elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i")?.ChildNodes.FirstOrDefault(f => f.Name == "a");
                         if (anchor != null && anchor.Attributes.Count > 0)
                         {
                             if (anchor.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()))
@@ -122,9 +113,9 @@ namespace WikiExtractor.Process.Extractor
                             }
                         }
                     }
-                    else if (elements[elePos_Names].ChildNodes.Where(f => f.Name == "a").Count() == 1)
+                    else if (elements[elePosNames].ChildNodes.Where(f => f.Name == "a").Count() == 1)
                     {
-                        var anchor = elements[elePos_Names].ChildNodes.FirstOrDefault(f => f.Name == "a");
+                        var anchor = elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "a");
                         if (anchor != null && anchor.Attributes.Count > 0)
                         {
                             if (anchor.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()))
@@ -145,45 +136,45 @@ namespace WikiExtractor.Process.Extractor
 
                 if (hasPersonalName)
                 {
-                    listOfName.AdditionalMetaData!.Add(_metadata_PersonalName, elements[elePos_PersonalName].DecodedInnerText(removeNewLine: true).Trim());
+                    listOfName.AdditionalMetaData!.Add(MetadataPersonalName, elements[elePosPersonalName].DecodedInnerText(removeNewLine: true).Trim());
                 }
 
-                listOfName.AdditionalMetaData!.Add(_metadata_DateAndPlaceOfBirth, elements[elePos_DateAndPlaceOfBirth].DecodedInnerText(removeNewLine: true).Trim());
-                listOfName.AdditionalMetaData!.Add(_metadata_AgeAtStartEndOfPapacy, elements[elePos_AgeAtStartEndOfPapacy].DecodedInnerText(removeNewLine: true).Trim());
-                listOfName.AdditionalMetaData!.Add(_metadata_Notes, elements[elePos_Notes].DecodedInnerText(removeNewLine: false).Trim());
+                listOfName.AdditionalMetaData!.Add(MetadataDateAndPlaceOfBirth, elements[elePosDateAndPlaceOfBirth].DecodedInnerText(removeNewLine: true).Trim());
+                listOfName.AdditionalMetaData!.Add(MetadataAgeAtStartEndOfPapacy, elements[elePosAgeAtStartEndOfPapacy].DecodedInnerText(removeNewLine: true).Trim());
+                listOfName.AdditionalMetaData!.Add(MetadataNotes, elements[elePosNotes].DecodedInnerText(removeNewLine: false).Trim());
 
                 if (listOfName.Route.IsEmpty())
                 {
                     throw new Exception("Did not extract the route!");
                 }
-                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_PontiffNumber);
-                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_Pontificate);
-                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_EnglishName);
-                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_LatinName);
-                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_DateAndPlaceOfBirth);
-                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_AgeAtStartEndOfPapacy);
-                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_Notes);
+                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, MetadataPontiffNumber);
+                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, MetadataPontificate);
+                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, MetadataEnglishName);
+                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, MetadataLatinName);
+                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, MetadataDateAndPlaceOfBirth);
+                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, MetadataAgeAtStartEndOfPapacy, checkIsEmpty: false);
+                ValidateAdditionalMetaData(listOfName.AdditionalMetaData, MetadataNotes);
                 if (hasPersonalName)
                 {
-                    ValidateAdditionalMetaData(listOfName.AdditionalMetaData, _metadata_PersonalName);
+                    ValidateAdditionalMetaData(listOfName.AdditionalMetaData, MetadataPersonalName, checkIsEmpty: false);
                 }
-                listOfName.Title = listOfName.AdditionalMetaData[_metadata_EnglishName];
+                listOfName.Title = listOfName.AdditionalMetaData[MetadataEnglishName];
                 listOfName.Tags = tags;
                 listOfName.Sequence = sequence++;
 
                 listOfNames.Add(listOfName);
 
-                Console.WriteLine($"Extraction -> {listOfName.AdditionalMetaData[_metadata_PontiffNumber]} - {listOfName.AdditionalMetaData[_metadata_EnglishName]} [{listOfName.AdditionalMetaData[_metadata_LatinName]}]");
-                Console.WriteLine($"Details -> Pontificate: {listOfName.AdditionalMetaData[_metadata_Pontificate]}");
-                Console.WriteLine($"Details -> Date and Place of birth: {listOfName.AdditionalMetaData[_metadata_DateAndPlaceOfBirth]}");
-                Console.WriteLine($"Details -> Age at start & end of papacy: {listOfName.AdditionalMetaData[_metadata_AgeAtStartEndOfPapacy]}");
-                if (listOfName.AdditionalMetaData.ContainsKey(_metadata_PersonalName))
+                Console.WriteLine($"Extraction -> {listOfName.AdditionalMetaData[MetadataPontiffNumber]} - {listOfName.AdditionalMetaData[MetadataEnglishName]} [{listOfName.AdditionalMetaData[MetadataLatinName]}]");
+                Console.WriteLine($"Details -> Pontificate: {listOfName.AdditionalMetaData[MetadataPontificate]}");
+                Console.WriteLine($"Details -> Date and Place of birth: {listOfName.AdditionalMetaData[MetadataDateAndPlaceOfBirth]}");
+                Console.WriteLine($"Details -> Age at start & end of papacy: {listOfName.AdditionalMetaData[MetadataAgeAtStartEndOfPapacy]}");
+                if (listOfName.AdditionalMetaData.ContainsKey(MetadataPersonalName))
                 {
-                    Console.WriteLine($"Details -> Personal Name: {listOfName.AdditionalMetaData[_metadata_PersonalName]}");
+                    Console.WriteLine($"Details -> Personal Name: {listOfName.AdditionalMetaData[MetadataPersonalName]}");
                 }
-                if (listOfName.AdditionalMetaData.ContainsKey(_metadata_PortaritImage))
+                if (listOfName.AdditionalMetaData.ContainsKey(MetadataPortaritImage))
                 {
-                    Console.WriteLine($"Details -> Portait Link: {listOfName.AdditionalMetaData[_metadata_PortaritImage]}");
+                    Console.WriteLine($"Details -> Portait Link: {listOfName.AdditionalMetaData[MetadataPortaritImage]}");
                 }
                 Console.WriteLine("-----------------------------------------------------------------------");
                 Console.WriteLine("");
@@ -191,7 +182,7 @@ namespace WikiExtractor.Process.Extractor
             return listOfNames.OrderByDescending(f => f.Sequence).ToList();
         }
 
-        private void ValidateAdditionalMetaData(Dictionary<string, string> data, string field)
+        private void ValidateAdditionalMetaData(Dictionary<string, string> data, string field, bool checkIsEmpty = true)
         {
             if (data == null)
             {
@@ -203,7 +194,10 @@ namespace WikiExtractor.Process.Extractor
             }
             if (data.ContainsKey(field) && data[field].IsEmpty())
             {
-                throw new Exception($"Additional data extraction failed to extract any data for the {field}");
+                if (checkIsEmpty)
+                {
+                    throw new Exception($"Additional data extraction failed to extract any data for the {field}");
+                }
             }
         }
     }

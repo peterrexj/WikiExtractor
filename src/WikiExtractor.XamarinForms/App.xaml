@@ -3,16 +3,14 @@
     x:Class="GeneralInformation.App"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
-    xmlns:converters="clr-namespace:GeneralInformation.Converters"
-    xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms">
+    xmlns:converters="clr-namespace:GeneralInformation.Converters">
     <!--
         Define global resources and styles here, that apply to all pages in your app.
     -->
     <Application.Resources>
         <ResourceDictionary>
             <converters:StringToColorConverter x:Key="stringToColorConverter" />
-            
+
             <!--
                 Adding a variable to control app shell should have a corresponding property in the style model and update in ThemeHelper.UpdateAppThemes
             -->

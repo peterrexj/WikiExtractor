@@ -5,9 +5,10 @@
 );
 
 CREATE TABLE [tblMaster] (
-	[Id]	INTEGER NOT NULL UNIQUE,
-	[Name]	TEXT,
-	[Route] TEXT,
+	[Id]		INTEGER NOT NULL UNIQUE,
+	[Name]		TEXT,
+	[Route]		TEXT,
+	[ForQuiz]	INTEGER,
 	PRIMARY KEY([Id] AUTOINCREMENT)
 );
 

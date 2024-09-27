@@ -21,6 +21,8 @@ namespace GeneralInformation.Repository
         public TagRepository TagRepository { get; set; }
         public TagItemRepository TagItemRepository { get; set; }
         public AppMenuItemRepository AppMenuItemRepository { get; set; }
+        public QuizMasterMetadataRepository QuizMasterMetadataRepository { get; set; }
+        public QuizDefinitionRepository QuizDefinitionRepository { get; set; }
 
         public override void InitializeDatabase()
         {
@@ -36,12 +38,16 @@ namespace GeneralInformation.Repository
             TagItemRepository = new TagItemRepository(_dbHelper);
             TagRepository = new TagRepository(_dbHelper);
             AppMenuItemRepository= new AppMenuItemRepository(_dbHelper);
+            QuizMasterMetadataRepository = new QuizMasterMetadataRepository(_dbHelper);
+            QuizDefinitionRepository = new QuizDefinitionRepository(_dbHelper);
 
             base.CollectRepository(MasterRepository, MetadataRepository, ParagraphPrimaryContentRepository,
                 ParagraphHeader2Repository, ParagraphHeader3Repository, ParagraphContentRepository,
                 ParagraphImageRepository,
                 WikiPictureRepository, PhoneSettingsRepository, TagItemRepository, TagRepository,
-                AppMenuItemRepository);
+                AppMenuItemRepository, 
+                QuizMasterMetadataRepository, QuizDefinitionRepository
+                );
 
             base.InitializeDatabase();
         }

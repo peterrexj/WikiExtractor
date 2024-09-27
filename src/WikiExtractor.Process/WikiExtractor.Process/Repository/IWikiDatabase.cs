@@ -1,4 +1,6 @@
-﻿namespace WikiExtractor.Repository
+﻿using WikiExtractor.Process.Repository;
+
+namespace WikiExtractor.Repository
 {
     public interface IWikiDatabase
     {
@@ -14,6 +16,8 @@
         TagRepository TagRepository { get; set; }
         TagItemRepository TagItemRepository { get; set; }
         AppMenuItemRepository AppMenuItemRepository { get; set; }
+        QuizMasterMetadataRepository QuizMasterMetadataRepository { get; set; }
+        QuizDefinitionRepository QuizDefinitionRepository { get; set; }
 
         void InitializeDatabase();
     }

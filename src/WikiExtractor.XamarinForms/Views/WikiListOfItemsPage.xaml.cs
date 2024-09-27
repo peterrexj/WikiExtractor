@@ -12,6 +12,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WikiExtractor.ViewModels;
 using WikiExtractor.XamarinForms.Exts;
+using WikiExtractor.XamarinForms.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -125,10 +126,7 @@ namespace GeneralInformation.Views
         {
             try
             {
-                App.Current.Dispatcher.BeginInvokeOnMainThread(() =>
-                {
-                    action();
-                });
+                App.Current.Dispatcher.BeginInvokeOnMainThread(action);
             }
             catch (Exception ex)
             {
@@ -525,6 +523,11 @@ namespace GeneralInformation.Views
                     }
                 });
             }
+        }
+
+        private async void BtnTakeQuiz_OnClicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync($"{nameof(QuizPage)}");
         }
     }
 }

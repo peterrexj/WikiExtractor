@@ -5,7 +5,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading;
 using System.Windows.Input;
+using Syncfusion.XForms.EffectsView;
 using WikiExtractor.ViewModels;
+using WikiExtractor.XamarinForms.Views;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -13,6 +15,9 @@ namespace GeneralInformation.ViewModels
 {
     public class PersonaListViewModel : BaseViewModel
     {
+        public ICommand TakeQuizCommand { get; set; }
+        private bool _shouldProcessQuizRequest = true;
+
         public PersonaListViewModel()
         {
             StyleDrive = new StyleDrive
@@ -32,6 +37,7 @@ namespace GeneralInformation.ViewModels
             };
 
             PageCancellationTokenSource = new CancellationTokenSource();
+            TakeQuizCommand = new Command<SfEffectsView>(TakeQuiz);
         }
 
         public string Title { get; set; }
@@ -101,6 +107,17 @@ namespace GeneralInformation.ViewModels
         }
         #endregion
 
+        private async void TakeQuiz(SfEffectsView button)
+        {
+            if (_shouldProcessQuizRequest)
+            {
+                _shouldProcessQuizRequest = false;
+
+                await Shell.Current.GoToAsync($"{nameof(QuizPage)}");
+
+                _shouldProcessQuizRequest = true;
+            }
+        }
     }
 
     public class StyleDrive

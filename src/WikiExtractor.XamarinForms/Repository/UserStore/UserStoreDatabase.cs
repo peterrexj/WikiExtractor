@@ -2,6 +2,7 @@
 using Pj.Library;
 using Pj.Library.Mobile.Model;
 using Pj.Library.Mobile.Sqlite;
+using WikiExtractor.Process.Repository;
 using WikiExtractor.Repository;
 using WikiExtractor.Repository.UserStore;
 using Xamarin.Forms;
@@ -14,6 +15,7 @@ namespace GeneralInformation.Repository.UserStore
         public new SettingsSqliteRepository SettingsRepository => base.SettingsRepository;
         public RequestRecordRepository RequestRecordRepository { get; set; }
         public AppSettingsRepository AppSettingsRepository { get; set; }
+        public QuizResponseRepository QuizResponseRepository { get; set; }
 
         public UserStoreDatabase() : base(DatabaseHelper.DatabaseType.SqLiteDevice, DependencyService.Get<ILocalStorage>().SqlLiteHelper)
         {
@@ -39,15 +41,18 @@ namespace GeneralInformation.Repository.UserStore
             }
         }
 
-        public override void InitializeDatabase()
+        public sealed override void InitializeDatabase()
         {
             ItemReadTrackerRepository = new ItemReadTrackerRepository(_dbHelper);
             RequestRecordRepository = new RequestRecordRepository(_dbHelper);
             AppSettingsRepository = new AppSettingsRepository(_dbHelper);
+            QuizResponseRepository = new QuizResponseRepository(_dbHelper);
 
             base.CollectRepository(ItemReadTrackerRepository, 
                 RequestRecordRepository,
-                AppSettingsRepository);
+                AppSettingsRepository,
+                QuizResponseRepository);
+            
             base.InitializeDatabase();
 
             //The current version of DB is driven from the interface implementation

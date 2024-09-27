@@ -40,7 +40,14 @@
                             BorderColor="{Binding DefaultStyle.TopPanelBorderColor, Converter={StaticResource stringToColorConverter}}"
                             BorderWidth="1"
                             CornerRadius="3"
-                            HeightRequest="90"
+                            HeightRequest="{OnPlatform Android={OnIdiom Phone=90,
+                                                                        Tablet=110},
+                                                       iOS={OnIdiom Phone=90,
+                                                                    Tablet=110},
+                                                       UWP={OnIdiom Phone=90,
+                                                                    Tablet=110,
+                                                                    Desktop=110},
+                                                       Default=110}"
                             HorizontalOptions="Start"
                             VerticalOptions="Center">
                             <Grid>
@@ -49,12 +56,12 @@
                                     <Grid>
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=90, Tablet=130}, iOS={OnIdiom Phone=90, Tablet=100}, UWP={OnIdiom Phone=90, Default=130}}" />
-                                            <ColumnDefinition Width="30" />
+                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=90, Tablet=160}, iOS={OnIdiom Phone=90, Tablet=160}, UWP={OnIdiom Phone=90, Default=160}}" />
+                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=30, Tablet=40}, iOS={OnIdiom Phone=30, Tablet=40}, UWP={OnIdiom Phone=30, Default=40}}" />
                                             <ColumnDefinition Width="5" />
                                         </Grid.ColumnDefinitions>
                                         <Grid.RowDefinitions>
-                                            <RowDefinition Height="40" />
+                                            <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=40, Tablet=45}, iOS={OnIdiom Phone=40, Tablet=45}, UWP={OnIdiom Phone=40, Tablet=45, Desktop=45}, Default=45}" />
                                         </Grid.RowDefinitions>
                                         <syncAutoComplete:SfAutoComplete
                                             x:Name="autoComplete"
@@ -70,12 +77,30 @@
                                             DropDownBorderColor="{Binding DefaultStyle.AutoCompleteDropdownBorderColor, Converter={StaticResource stringToColorConverter}}"
                                             DropDownItemFontFamily="{Binding DefaultStyle.DefaultFontFamily}"
                                             DropDownTextColor="{Binding DefaultStyle.AutoCompleteDropdownTextColor, Converter={StaticResource stringToColorConverter}}"
+                                            DropDownTextSize="{OnPlatform Android={OnIdiom Phone=12,
+                                                                                           Tablet=18},
+                                                                          iOS={OnIdiom Phone=12,
+                                                                                       Tablet=18},
+                                                                          UWP={OnIdiom Phone=12,
+                                                                                       Default=18}}"
                                             FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
                                             HighlightedTextColor="{Binding DefaultStyle.AutoCompleteHighlightedTextColor, Converter={StaticResource stringToColorConverter}}"
                                             HighlightedTextFontAttributes="Bold"
                                             IgnoreDiacritic="False"
+                                            IndicatorTextSize="{OnPlatform Android={OnIdiom Phone=12,
+                                                                                            Tablet=18},
+                                                                           iOS={OnIdiom Phone=12,
+                                                                                        Tablet=18},
+                                                                           UWP={OnIdiom Phone=12,
+                                                                                        Default=18}}"
                                             IsEnabled="{Binding IsBusy}"
                                             NoResultsFoundFontFamily="{Binding DefaultStyle.DefaultFontFamily}"
+                                            NoResultsFoundFontSize="{OnPlatform Android={OnIdiom Phone=12,
+                                                                                                 Tablet=18},
+                                                                                iOS={OnIdiom Phone=12,
+                                                                                             Tablet=18},
+                                                                                UWP={OnIdiom Phone=12,
+                                                                                             Default=18}}"
                                             NoResultsFoundText="No Results Found"
                                             NoResultsFoundTextColor="{Binding DefaultStyle.AutoCompleteNoResultsFoundTextColor, Converter={StaticResource stringToColorConverter}}"
                                             SelectionChanged="autoComplete_SelectionChanged"
@@ -85,6 +110,12 @@
                                             SuggestionMode="Contains"
                                             TextColor="{Binding DefaultStyle.AutoCompleteTextColor, Converter={StaticResource stringToColorConverter}}"
                                             TextHighlightMode="MultipleOccurrence"
+                                            TextSize="{OnPlatform Android={OnIdiom Phone=12,
+                                                                                   Tablet=18},
+                                                                  iOS={OnIdiom Phone=12,
+                                                                               Tablet=18},
+                                                                  UWP={OnIdiom Phone=12,
+                                                                               Default=18}}"
                                             ValueChanged="autoComplete_ValueChanged"
                                             Watermark="Enter here to search"
                                             WatermarkColor="{Binding DefaultStyle.AutoCompleteWaterColor, Converter={StaticResource stringToColorConverter}}" />
@@ -100,11 +131,11 @@
                                                                                  Default='10,0,5,0'}}"
                                                 FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
                                                 FontSize="{OnPlatform Android={OnIdiom Phone=12,
-                                                                                       Tablet=14},
+                                                                                       Tablet=18},
                                                                       iOS={OnIdiom Phone=12,
-                                                                                   Tablet=14},
+                                                                                   Tablet=18},
                                                                       UWP={OnIdiom Phone=12,
-                                                                                   Default=14}}"
+                                                                                   Default=18}}"
                                                 HorizontalTextAlignment="Center"
                                                 Text="Hide viewed"
                                                 TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
@@ -120,46 +151,48 @@
                                                 Orientation="Horizontal"
                                                 StateChanged="swtToggleItemRead_StateChanged"
                                                 VisualType="Custom">
-                                                <VisualStateManager.VisualStateGroups>
-                                                    <VisualStateGroup x:Name="CommonStates">
 
-                                                        <VisualState x:Name="On">
-                                                            <VisualState.Setters>
+                                                <!--  Define Switch Appearance  -->
+                                                <sfButtons:SfSwitch.Style>
+                                                    <Style TargetType="sfButtons:SfSwitch">
+                                                        <Style.Triggers>
+                                                            <!--  When the switch is On  -->
+                                                            <DataTrigger
+                                                                Binding="{Binding IsOn, Source={x:Reference swtToggleItemRead}}"
+                                                                TargetType="sfButtons:SfSwitch"
+                                                                Value="True">
                                                                 <Setter Property="SwitchSettings">
                                                                     <Setter.Value>
                                                                         <sfButtons:DefaultSwitchSettings
                                                                             x:TypeArguments="sfButtons:OnState"
-                                                                            BusyIndicatorColor="{Binding DefaultStyle.SwitchBusyIndicatorColorON, Converter={StaticResource stringToColorConverter}}"
                                                                             ThumbBorderColor="{Binding DefaultStyle.SwitchThumbBorderColorON, Converter={StaticResource stringToColorConverter}}"
                                                                             ThumbColor="{Binding DefaultStyle.SwitchThumbColorON, Converter={StaticResource stringToColorConverter}}"
-                                                                            TrackBorderColor="{Binding DefaultStyle.SwitchTrackBorderColorON, Converter={StaticResource stringToColorConverter}}"
                                                                             TrackColor="{Binding DefaultStyle.SwitchTrackColorON, Converter={StaticResource stringToColorConverter}}" />
                                                                     </Setter.Value>
                                                                 </Setter>
-                                                            </VisualState.Setters>
-                                                        </VisualState>
+                                                            </DataTrigger>
 
-                                                        <VisualState x:Name="Off">
-                                                            <VisualState.Setters>
+                                                            <!--  When the switch is Off  -->
+                                                            <DataTrigger
+                                                                Binding="{Binding IsOn, Source={x:Reference swtToggleItemRead}}"
+                                                                TargetType="sfButtons:SfSwitch"
+                                                                Value="False">
                                                                 <Setter Property="SwitchSettings">
                                                                     <Setter.Value>
                                                                         <sfButtons:DefaultSwitchSettings
                                                                             x:TypeArguments="sfButtons:OffState"
-                                                                            BusyIndicatorColor="{Binding DefaultStyle.SwitchBusyIndicatorColorOFF, Converter={StaticResource stringToColorConverter}}"
                                                                             ThumbBorderColor="{Binding DefaultStyle.SwitchThumbBorderColorOFF, Converter={StaticResource stringToColorConverter}}"
                                                                             ThumbColor="{Binding DefaultStyle.SwitchThumbColorOFF, Converter={StaticResource stringToColorConverter}}"
-                                                                            TrackBorderColor="{Binding DefaultStyle.SwitchTrackBorderColorOFF, Converter={StaticResource stringToColorConverter}}"
                                                                             TrackColor="{Binding DefaultStyle.SwitchTrackColorOFF, Converter={StaticResource stringToColorConverter}}" />
                                                                     </Setter.Value>
                                                                 </Setter>
-                                                            </VisualState.Setters>
-                                                        </VisualState>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </sfButtons:SfSwitch.Style>
 
-                                                    </VisualStateGroup>
-                                                </VisualStateManager.VisualStateGroups>
                                             </sfButtons:SfSwitch>
                                         </FlexLayout>
-
                                         <sfButtons:SfButton
                                             x:Name="btnThemePick"
                                             Grid.Column="2"
@@ -185,11 +218,13 @@
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="*" />
                                             <ColumnDefinition Width="30" />
-                                            <ColumnDefinition Width="5" />
+                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=110, Tablet=200}, iOS={OnIdiom Phone=110, Tablet=200}, UWP=200, macOS=200, WPF=200}" />
+                                            <ColumnDefinition Width="4" />
                                         </Grid.ColumnDefinitions>
                                         <Grid.RowDefinitions>
-                                            <RowDefinition Height="28" />
+                                            <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=28, Tablet=40}, iOS={OnIdiom Phone=28, Tablet=28}, UWP=28, macOS=28, WPF=28}" />
                                         </Grid.RowDefinitions>
+
 
                                         <sfButtons:SfSegmentedControl
                                             x:Name="sfSegmentSortOrder"
@@ -199,8 +234,22 @@
                                             BorderColor="{Binding DefaultStyle.SegBorderColor, Converter={StaticResource stringToColorConverter}}"
                                             FontColor="{Binding DefaultStyle.SegTextFgColor, Converter={StaticResource stringToColorConverter}}"
                                             FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
+                                            FontSize="{OnPlatform Android={OnIdiom Phone=10,
+                                                                                   Tablet=20},
+                                                                  iOS={OnIdiom Phone=10,
+                                                                               Tablet=20},
+                                                                  UWP=20,
+                                                                  macOS=20,
+                                                                  WPF=20}"
                                             ItemsSource="{Binding SortByCollection}"
-                                            SegmentHeight="25"
+                                            SegmentHeight="{OnPlatform Android={OnIdiom Phone=25,
+                                                                                        Tablet=40},
+                                                                       iOS={OnIdiom Phone=25,
+                                                                                    Tablet=40},
+                                                                       UWP={OnIdiom Phone=25,
+                                                                                    Tablet=40,
+                                                                                    Desktop=40},
+                                                                       Default=40}"
                                             SelectedIndex="{Binding SortBySelectedIndex}"
                                             SelectionChanged="sfSegmentSortOrder_SelectionChanged"
                                             SelectionTextColor="{Binding DefaultStyle.SegSelectedTextFgColor, Converter={StaticResource stringToColorConverter}}"
@@ -228,6 +277,26 @@
                                                 </Image.Source>
                                             </Image>
                                         </sfButtons:SfButton>
+
+                                        <sfEffectsView:SfEffectsView
+                                            x:Name="TakeQuizButton"
+                                            Grid.Column="2"
+                                            BackgroundColor="{Binding DefaultStyle.ButtonQuizBackColor, Converter={StaticResource stringToColorConverter}}"
+                                            CornerRadius="5"
+                                            FadeOutRipple="True"
+                                            RippleAnimationDuration="200"
+                                            TouchUpCommand="{Binding TakeQuizCommand}"
+                                            TouchUpCommandParameter="{x:Reference TakeQuizButton}">
+                                            <Label
+                                                FontAttributes="Bold"
+                                                FontSize="Medium"
+                                                HorizontalOptions="Center"
+                                                Text="Take Quiz"
+                                                TextColor="{Binding DefaultStyle.ButtonQuizFontColor, Converter={StaticResource stringToColorConverter}}"
+                                                VerticalOptions="Center" />
+
+                                        </sfEffectsView:SfEffectsView>
+
                                     </Grid>
                                 </StackLayout>
                             </Grid>
@@ -286,11 +355,11 @@
                                                                     CustomSource="{Binding PicturePrimaryPath}"
                                                                     HeightRequest="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StyleDrive.StyleOnImageHeightRequestOnListPage}"
                                                                     HorizontalOptions="FillAndExpand"
-                                                                    LocalFileName="{Binding PicturePrimaryLocalFileName}"
-                                                                    VerticalOptions="Start"
                                                                     ImageHeight="{Binding PicturePrimaryHeight}"
                                                                     ImageWidth="{Binding PicturePrimaryWidth}"
+                                                                    LocalFileName="{Binding PicturePrimaryLocalFileName}"
                                                                     PageCancellationTokenSource="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.PageCancellationTokenSource}"
+                                                                    VerticalOptions="Start"
                                                                     WidthRequest="120" />
                                                                 <ActivityIndicator
                                                                     Grid.Row="0"
@@ -420,17 +489,17 @@
                                                                                                             FontAttributes="Bold"
                                                                                                             FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamilyBold}"
                                                                                                             FontSize="{OnIdiom Phone=11,
-                                                                                                                               Tablet=16}"
+                                                                                                                               Tablet=18}"
                                                                                                             Text="{Binding Key}" />
                                                                                                         <Span
                                                                                                             FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
                                                                                                             FontSize="{OnIdiom Phone=12,
-                                                                                                                               Tablet=16}"
+                                                                                                                               Tablet=18}"
                                                                                                             Text=": " />
                                                                                                         <Span
                                                                                                             FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
                                                                                                             FontSize="{OnIdiom Phone=13,
-                                                                                                                               Tablet=16}"
+                                                                                                                               Tablet=18}"
                                                                                                             Text="{Binding Description}" />
                                                                                                     </FormattedString>
                                                                                                 </Label.FormattedText>

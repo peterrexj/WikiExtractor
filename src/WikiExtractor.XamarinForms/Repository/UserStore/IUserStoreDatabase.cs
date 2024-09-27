@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using WikiExtractor.Process.Repository;
 
 namespace WikiExtractor.Repository.UserStore
 {
@@ -11,6 +7,8 @@ namespace WikiExtractor.Repository.UserStore
         ItemReadTrackerRepository ItemReadTrackerRepository { get; set; }
         AppSettingsRepository AppSettingsRepository { get; set; }
         RequestRecordRepository RequestRecordRepository { get; set; }
+        QuizResponseRepository QuizResponseRepository { get; set; }
+
 
         void InitializeDatabase();
     }

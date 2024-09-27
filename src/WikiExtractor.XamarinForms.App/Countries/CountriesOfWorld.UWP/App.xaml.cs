@@ -91,6 +91,7 @@ namespace CountriesOfWorld.UWP
                     typeof(FontAwesomeIcons).GetTypeInfo().Assembly,
                     typeof(Calibri).GetTypeInfo().Assembly,
                     typeof(CalibriBold).GetTypeInfo().Assembly,
+                    typeof(SfRadioButtonRenderer).GetTypeInfo().Assembly
                 };
 
                     Xamarin.Forms.Forms.Init(e, assembliesToInclude);

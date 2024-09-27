@@ -91,7 +91,7 @@ namespace WikiExtractor.Process.Modules
                 try
                 {
                     toStore.PersonaSinglePageContentExtractWithSaveToStore(saint);
-                    Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Saints [{saint.Title}]: {saint.Route}");
+                    Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Popes [{saint.Title}]: {saint.Route}");
                     //Thread.Sleep(1000);
                     currentIndex = currentIndex + 1;
                 }
@@ -124,6 +124,7 @@ namespace WikiExtractor.Process.Modules
         public void Test()
         {
             Initialize(false);
+            wikiAppController.CommonMetadata();
             //wikiAppController.DisablePrimaryMetadataContent();
             //wikiAppController.EnableWithPrimaryMetadataContent(new List<string> { "Pontiff number", "English Name", "Personal Name", "Latin Name", "Date & Place Of Birth", "Died", "Church" });
 

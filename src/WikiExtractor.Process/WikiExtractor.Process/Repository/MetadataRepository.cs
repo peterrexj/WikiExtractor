@@ -21,11 +21,11 @@ namespace WikiExtractor.Repository
             if (databaseVersion <= 0)
             {
                 createStr.Append($@"CREATE TABLE [{_tableName}] (
-	                                [Id]	INTEGER NOT NULL UNIQUE,
+	                                [Id]	    INTEGER NOT NULL UNIQUE,
 	                                [MasterId]	INTEGER,
 	                                [Key]		TEXT,
 	                                [Value]		TEXT,
-	                                [Sequence]		INTEGER,
+	                                [Sequence]	INTEGER,
 	                                [Type]		TEXT,
 	                                PRIMARY KEY([Id] AUTOINCREMENT)
                                     );");

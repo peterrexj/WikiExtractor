@@ -18,9 +18,9 @@ namespace WikiExtractor.Repository
             if (databaseVersion <= 0)
             {
                 createStr.Append($@"CREATE TABLE [{_tableName}] (
-	                                [Id]	INTEGER NOT NULL UNIQUE,
-	                                [Name]	TEXT,
-	                                [Route] TEXT,
+	                                [Id]	    INTEGER NOT NULL UNIQUE,
+	                                [Name]	    TEXT,
+	                                [Route]     TEXT,
 	                                PRIMARY KEY([Id] AUTOINCREMENT)
                                     );");
             }

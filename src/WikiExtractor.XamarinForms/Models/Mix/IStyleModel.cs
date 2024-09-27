@@ -48,14 +48,10 @@ namespace GeneralInformation.Models.Mix
         string SubPageHeader2GradientEndColor { get; set; }
         string SubPageHeader3GradientStartColor { get; set; }
         string SubPageHeader3GradientEndColor { get; set; }
-        string SwitchBusyIndicatorColorOFF { get; set; }
-        string SwitchBusyIndicatorColorON { get; set; }
         string SwitchThumbBorderColorOFF { get; set; }
         string SwitchThumbBorderColorON { get; set; }
         string SwitchThumbColorOFF { get; set; }
         string SwitchThumbColorON { get; set; }
-        string SwitchTrackBorderColorOFF { get; set; }
-        string SwitchTrackBorderColorON { get; set; }
         string SwitchTrackColorOFF { get; set; }
         string SwitchTrackColorON { get; set; }
         IGradientSource TabHeadBgSource { get; set; }
@@ -64,5 +60,26 @@ namespace GeneralInformation.Models.Mix
         string ThemeButtonColor { get; set; }
         IGradientSource TopPanelBgSource { get; set; }
         string TopPanelBorderColor { get; set; }
+
+        IGradientSource ChartBgSource { get; set; }
+        string ChartBorderColor { get; set; }
+        string ChartLegendColor { get; set; }
+        string ChartDataMarkerColor { get; set; }
+        string ChartCorrectAnswerColor { get; set; }
+        string ChartWrongAnswerColor { get; set; }
+        string ChartNotAnsweredColor { get; set; }
+        string ChartDataMarkerFontColor { get; set; }
+        string QuizQuestionBackColor { get; set; }
+        string QuizAnswerDefaultFontBackColor { get; set; }
+        string QuizAnswerDefaultBackColor { get; set; }
+        string QuizAnswerSelectionBackColor { get; set; }
+        string QuizProgressColor { get; set; }
+        string QuizProgressTrackColor { get; set; }
+        string ButtonQuizBackColor { get; set; }
+        string ButtonQuizFontColor { get; set; }
+        string QuizNextButtonBackColor01 { get; set; }
+        string QuizNextButtonBackColor02 { get; set; }
+        string PopupHeaderFooterBackColor { get; set; }
+        string PopupContentBackColor { get; set; }
     }
 }

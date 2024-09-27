@@ -23,13 +23,18 @@
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\ParagraphImage.cs" Link="Models\DbModels\ParagraphImage.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\ParagraphPrimaryContent.cs" Link="Models\DbModels\ParagraphPrimaryContent.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\PhoneSettings.cs" Link="Models\DbModels\PhoneSettings.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\QuizDefinition.cs" Link="Models\DbModels\QuizDefinition.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\QuizMasterMetadata.cs" Link="Models\DbModels\QuizMasterMetadata.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\QuizResponse.cs" Link="Models\DbModels\QuizResponse.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\RequestRecord.cs" Link="Models\DbModels\RequestRecord.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\Tag.cs" Link="Models\DbModels\Tag.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\TagItem.cs" Link="Models\DbModels\TagItem.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\DbModels\UserStore\ItemReadTrackerModel.cs" Link="Models\DbModels\UserStore\ItemReadTrackerModel.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Exts\ConfigData.cs" Link="Exts\ConfigData.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Exts\RandomGeneratorHelper.cs" Link="Exts\RandomGeneratorHelper.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\EnumsWiki.cs" Link="Models\ExtractModels\EnumsWiki.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\MetaDataModel.cs" Link="Models\ExtractModels\MetaDataModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\QuizDefinitionJsonModel.cs" Link="Models\Mix\QuizDefinitionJsonModel.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\WikiImageModel.cs" Link="Models\ExtractModels\WikiImageModel.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\WikiPageModel.cs" Link="Models\ExtractModels\WikiPageModel.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\WikiPageViewModel.cs" Link="Models\ExtractModels\WikiPageViewModel.cs" />
@@ -37,6 +42,7 @@
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\WikiParagraphModel.cs" Link="Models\ExtractModels\WikiParagraphModel.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Models\WikiWhatToExtractModel.cs" Link="Models\ExtractModels\WikiWhatToExtractModel.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Process\ProcessConstants.cs" Link="WikiProcess\ProcessConstants.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Process\QuizController.cs" Link="WikiProcess\QuizController.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Process\WikiAppController.cs" Link="WikiProcess\WikiAppController.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\AppMenuItemRepository.cs" Link="Repository\AppMenuItemRepository.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\IWikiDatabase.cs" Link="Repository\IWikiDatabase.cs" />
@@ -48,6 +54,9 @@
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\ParagraphImageRepository.cs" Link="Repository\ParagraphImageRepository.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\ParagraphPrimaryContentRepository.cs" Link="Repository\ParagraphPrimaryContentRepository.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\PhoneSettingsRepository.cs" Link="Repository\PhoneSettingsRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\QuizDefinitionRepository.cs" Link="Repository\QuizDefinitionRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\QuizMasterMetadataRepository.cs" Link="Repository\QuizMasterMetadataRepository.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\QuizResponseRepository.cs" Link="Repository\QuizResponseRepository.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\RequestRecordRepository.cs" Link="Repository\RequestRecordRepository.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\TagItemRepository.cs" Link="Repository\TagItemRepository.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\Repository\TagRepository.cs" Link="Repository\TagRepository.cs" />
@@ -56,6 +65,7 @@
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\BaseViewModel.cs" Link="Models\ViewModels\BaseViewModel.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\IListDynamicHeight.cs" Link="Models\ViewModels\IListDynamicHeight.cs" />
 		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\PersonaViewModel.cs" Link="Models\ViewModels\PersonaViewModel.cs" />
+		<Compile Include="..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\QuizQuestionViewModel.cs" Link="Models\ViewModels\QuizQuestionViewModel.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -77,8 +87,10 @@
 		<PackageReference Include="Syncfusion.Xamarin.SfAutoComplete" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfCarousel" Version="23.1.39" />
+		<PackageReference Include="Syncfusion.Xamarin.SfChart" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfListView" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfPopupLayout" Version="23.1.39" />
+		<PackageReference Include="Syncfusion.Xamarin.SfProgressBar" Version="23.1.39" />
 		<PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="23.1.39" />
 		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
 		<PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
@@ -111,6 +123,9 @@
 	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
 	  </EmbeddedResource>
 	  <EmbeddedResource Update="Views\PersonaDetailPage.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Views\QuizPage.xaml">
 	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
 	  </EmbeddedResource>
 	  <EmbeddedResource Update="Views\WikiListOfItemsPage.xaml">

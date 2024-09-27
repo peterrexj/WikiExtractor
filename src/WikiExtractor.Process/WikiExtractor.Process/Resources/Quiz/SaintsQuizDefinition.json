@@ -1,0 +1,47 @@
+[
+  {
+    "Metadata": "Died",
+    "QuestionRephrase": "When was {MasterId} called to heaven?",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Born",
+    "QuestionRephrase": "In what year was {MasterId} born?",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Beatified",
+    "QuestionRephrase": "In what year was {MasterId} beatified?",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Feast",
+    "QuestionRephrase": "On what day is the Feast of {MasterId} celebrated?",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Canonized",
+    "QuestionRephrase": "In what year was {MasterId} canonized?",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Major shrine",
+    "QuestionRephrase": "Where is the major shrine of {MasterId} located?",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Feast day",
+    "QuestionRephrase": "On what day is the Feast of {MasterId} celebrated?",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Ordination",
+    "QuestionRephrase": "In what year was {MasterId} ordained?",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Consecration",
+    "QuestionRephrase": "When did {MasterId} receive consecration?",
+    "MaxLengthForAnswer": 100
+  }
+]

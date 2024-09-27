@@ -1,4 +1,5 @@
-﻿using GeneralInformation.Services;
+﻿using System.Collections.ObjectModel;
+using GeneralInformation.Services;
 using MagicGradients;
 using System.Drawing;
 using WikiExtractor.ViewModels;
@@ -44,16 +45,12 @@ namespace GeneralInformation.Models.Mix
         public virtual string SegSelectedBgColor { get; set; }
 
         //SfSwitch
-        public virtual string SwitchBusyIndicatorColorON { get; set; }
         public virtual string SwitchThumbBorderColorON { get; set; }
         public virtual string SwitchThumbColorON { get; set; }
-        public virtual string SwitchTrackBorderColorON { get; set; }
         public virtual string SwitchTrackColorON { get; set; }
 
-        public virtual string SwitchBusyIndicatorColorOFF { get; set; }
         public virtual string SwitchThumbBorderColorOFF { get; set; }
         public virtual string SwitchThumbColorOFF { get; set; }
-        public virtual string SwitchTrackBorderColorOFF { get; set; }
         public virtual string SwitchTrackColorOFF { get; set; }
 
         //Auto Complete
@@ -105,5 +102,31 @@ namespace GeneralInformation.Models.Mix
         //Play button
         public virtual string PlayButtonBackgroundColor { get; set; }
 
+        //Charts
+        public IGradientSource ChartBgSource { get; set; }
+        public string ChartBorderColor { get; set; }
+        public string ChartLegendColor { get; set; }
+        public string ChartDataMarkerColor { get; set; }
+
+        public string ChartCorrectAnswerColor { get; set; }
+        public string ChartWrongAnswerColor { get; set; }
+        public string ChartNotAnsweredColor { get; set; }
+        public string ChartDataMarkerFontColor { get; set; }
+
+        public string QuizQuestionBackColor { get; set; }
+        public string QuizAnswerDefaultFontBackColor { get; set; }
+        public string QuizAnswerDefaultBackColor { get; set; }
+        public string QuizAnswerSelectionBackColor { get; set; }
+        public string QuizProgressColor { get; set; }
+        public string QuizProgressTrackColor { get; set; }
+        public string QuizNextButtonBackColor01 { get; set; }
+        public string QuizNextButtonBackColor02 { get; set; }
+        public string PopupHeaderFooterBackColor { get; set; }
+        public string PopupContentBackColor { get; set; }
+
+        //Buttons
+        //Take Quiz
+        public string ButtonQuizBackColor { get; set; }
+        public string ButtonQuizFontColor { get; set; }
     }
 }

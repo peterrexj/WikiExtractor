@@ -84,7 +84,16 @@
     <PackageReference Include="Pj.Library.Mobile.Sqlite">
       <Version>1.0.4.31</Version>
     </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator">
+      <Version>23.1.39</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfChart">
+      <Version>23.1.39</Version>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfPopupLayout">
+      <Version>23.1.39</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfProgressBar">
       <Version>23.1.39</Version>
     </PackageReference>
     <PackageReference Include="System.Formats.Asn1">

@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="WikiExtractor.XamarinForms.Views.QuizPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+    xmlns:local="clr-namespace:GeneralInformation"
+    xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
+    xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
+    xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfBusy="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+    xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
+    xmlns:sfGradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+    xmlns:sfPopup="clr-namespace:Syncfusion.XForms.PopupLayout;assembly=Syncfusion.SfPopupLayout.XForms"
+    xmlns:syncfusionList="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <sfPopup:SfPopupLayout
+                x:Name="SummaryPopup"
+                Padding="10,25,10,20"
+                StaysOpen="True">
+                <sfPopup:SfPopupLayout.PopupView>
+                    <sfPopup:PopupView
+                        AcceptButtonText="Accept"
+                        AnimationMode="Zoom"
+                        AppearanceMode="OneButton"
+                        ShowCloseButton="False">
+                        <sfPopup:PopupView.HeaderTemplate>
+                            <DataTemplate>
+                                <Grid BackgroundColor="{Binding DefaultStyle.PopupHeaderFooterBackColor, Converter={StaticResource stringToColorConverter}}">
+                                    <Label
+                                        BackgroundColor="Transparent"
+                                        FontAttributes="Bold"
+                                        FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
+                                        FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                                               Tablet=24},
+                                                              iOS={OnIdiom Phone=16,
+                                                                           Tablet=24},
+                                                              UWP={OnIdiom Phone=16,
+                                                                           Tablet=24,
+                                                                           Desktop=24},
+                                                              macOS=24,
+                                                              WPF=24}"
+                                        HorizontalTextAlignment="Center"
+                                        Text="Summary"
+                                        TextColor="{Binding DefaultStyle.SubPageTopHeaderFontColor, Converter={StaticResource stringToColorConverter}}"
+                                        VerticalTextAlignment="Center" />
+                                </Grid>
+                            </DataTemplate>
+                        </sfPopup:PopupView.HeaderTemplate>
+                        <sfPopup:PopupView.FooterTemplate>
+                            <DataTemplate>
+                                <Grid BackgroundColor="{Binding DefaultStyle.PopupHeaderFooterBackColor, Converter={StaticResource stringToColorConverter}}">
+                                    <Button
+                                        BackgroundColor="Transparent"
+                                        Command="{Binding ClosePopupCommand}"
+                                        FontAttributes="Bold"
+                                        FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
+                                        FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                                               Tablet=24},
+                                                              iOS={OnIdiom Phone=16,
+                                                                           Tablet=24},
+                                                              UWP={OnIdiom Phone=16,
+                                                                           Tablet=24,
+                                                                           Desktop=24},
+                                                              macOS=24,
+                                                              WPF=24}"
+                                        Text="Close Quiz"
+                                        TextColor="{Binding DefaultStyle.SubPageTopHeaderFontColor, Converter={StaticResource stringToColorConverter}}" />
+                                </Grid>
+                            </DataTemplate>
+                        </sfPopup:PopupView.FooterTemplate>
+                        <sfPopup:PopupView.ContentTemplate>
+                            <DataTemplate>
+                                <Grid BackgroundColor="{Binding DefaultStyle.PopupContentBackColor, Converter={StaticResource stringToColorConverter}}">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="30*" />
+                                        <RowDefinition Height="70*" />
+                                    </Grid.RowDefinitions>
+                                    <FlexLayout Grid.Row="0">
+                                        <sfBorder:SfBorder
+                                            Margin="12,5,12,2"
+                                            BorderColor="{Binding DefaultStyle.ChartBorderColor, Converter={StaticResource stringToColorConverter}}"
+                                            BorderWidth="1"
+                                            CornerRadius="3"
+                                            HorizontalOptions="Start"
+                                            VerticalOptions="Center">
+                                            <Grid>
+                                                <magic:GradientView GradientSource="{Binding DefaultStyle.ChartBgSource}" VerticalOptions="FillAndExpand" />
+
+                                                <chart:SfChart BackgroundColor="Transparent">
+                                                    <chart:SfChart.Series>
+                                                        <chart:DoughnutSeries
+                                                            ConnectorLineType="Bezier"
+                                                            DataMarkerPosition="OutsideExtended"
+                                                            DoughnutCoefficient="0.5"
+                                                            EnableDataPointSelection="true"
+                                                            EnableSmartLabels="True"
+                                                            ExplodeAll="False"
+                                                            ExplodeOnTouch="True"
+                                                            ItemsSource="{Binding ChartPassFailData}"
+                                                            LegendIcon="Circle"
+                                                            StrokeColor="DarkGray"
+                                                            StrokeWidth="1"
+                                                            XBindingPath="Category"
+                                                            YBindingPath="Value">
+                                                            <chart:PieSeries.ColorModel>
+                                                                <chart:ChartColorModel CustomBrushes="{Binding CustomPaletteColors}" Palette="Custom" />
+                                                            </chart:PieSeries.ColorModel>
+                                                            <chart:DoughnutSeries.DataMarker>
+                                                                <chart:ChartDataMarker ShowMarker="True">
+                                                                    <chart:ChartDataMarker.LabelTemplate>
+                                                                        <DataTemplate>
+                                                                            <StackLayout Orientation="Vertical">
+                                                                                <Label>
+                                                                                    <Label.FormattedText>
+                                                                                        <FormattedString>
+                                                                                            <Span
+                                                                                                FontAttributes="Bold"
+                                                                                                FontFamily="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.DefaultFontFamily}"
+                                                                                                FontSize="{OnPlatform Android={OnIdiom Phone=12,
+                                                                                                                                       Tablet=20},
+                                                                                                                      iOS={OnIdiom Phone=12,
+                                                                                                                                   Tablet=14},
+                                                                                                                      UWP={OnIdiom Phone=12,
+                                                                                                                                   Tablet=14,
+                                                                                                                                   Desktop=16},
+                                                                                                                      macOS=14,
+                                                                                                                      WPF=14}"
+                                                                                                Text="{Binding Category}"
+                                                                                                TextColor="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DefaultStyle.ChartDataMarkerFontColor, Converter={StaticResource stringToColorConverter}}" />
+                                                                                        </FormattedString>
+                                                                                    </Label.FormattedText>
+                                                                                </Label>
+                                                                            </StackLayout>
+                                                                        </DataTemplate>
+                                                                    </chart:ChartDataMarker.LabelTemplate>
+                                                                </chart:ChartDataMarker>
+                                                            </chart:DoughnutSeries.DataMarker>
+                                                        </chart:DoughnutSeries>
+                                                    </chart:SfChart.Series>
+                                                </chart:SfChart>
+                                            </Grid>
+
+                                        </sfBorder:SfBorder>
+                                    </FlexLayout>
+                                    <syncfusionList:SfListView
+                                        x:Name="lstAnswers"
+                                        Grid.Row="1"
+                                        AllowSwiping="True"
+                                        AutoFitMode="DynamicHeight"
+                                        BackgroundColor="Transparent"
+                                        ItemsSource="{Binding Questions}"
+                                        SelectionMode="None">
+                                        <syncfusionList:SfListView.ItemTemplate>
+                                            <DataTemplate>
+                                                <Frame
+                                                    Margin="{OnPlatform Android={OnIdiom Phone='5,2,5,2',
+                                                                                         Tablet='8,2,8,2'},
+                                                                        iOS={OnIdiom Phone='5,2,5,2',
+                                                                                     Tablet='8,2,8,2'},
+                                                                        UWP={OnIdiom Desktop='8,2,8,2',
+                                                                                     Tablet='8,2,8,2',
+                                                                                     Phone='5,2,5,2'}}"
+                                                    Padding="{OnPlatform Android={OnIdiom Phone=1,
+                                                                                          Tablet=4},
+                                                                         iOS={OnIdiom Phone=1,
+                                                                                      Tablet=4},
+                                                                         UWP={OnIdiom Desktop=4,
+                                                                                      Tablet=5,
+                                                                                      Phone=1}}"
+                                                    BackgroundColor="{Binding QuizUserAnswerBasedBackgroundColor, Converter={StaticResource stringToColorConverter}}"
+                                                    HasShadow="{OnPlatform Android=true,
+                                                                           iOS=false,
+                                                                           UWP=true,
+                                                                           WPF=true}">
+
+                                                    <StackLayout Margin="0,0,0,10">
+                                                        <Label
+                                                            Margin="5,0,0,0"
+                                                            FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
+                                                            FontSize="{OnPlatform Android={OnIdiom Phone=13,
+                                                                                                   Tablet=24},
+                                                                                  iOS={OnIdiom Phone=13,
+                                                                                               Tablet=24},
+                                                                                  UWP=24,
+                                                                                  macOS=24,
+                                                                                  WPF=24}"
+                                                            LineBreakMode="CharacterWrap"
+                                                            TextColor="{Binding DefaultStyle.QuizAnswerDefaultFontBackColor, Converter={StaticResource stringToColorConverter}}">
+                                                            <Label.FormattedText>
+                                                                <FormattedString>
+                                                                    <Span Text="Q." />
+                                                                    <Span Text="{Binding Id}" />
+                                                                    <Span Text="  " />
+                                                                    <Span Text="{Binding Question}" />
+                                                                </FormattedString>
+                                                            </Label.FormattedText>
+                                                        </Label>
+                                                        <Label
+                                                            Margin="5,-3,0,0"
+                                                            FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
+                                                            FontSize="{OnPlatform Android={OnIdiom Phone=13,
+                                                                                                   Tablet=24},
+                                                                                  iOS={OnIdiom Phone=13,
+                                                                                               Tablet=24},
+                                                                                  UWP=24,
+                                                                                  macOS=24,
+                                                                                  WPF=24}"
+                                                            LineBreakMode="CharacterWrap"
+                                                            TextColor="{Binding DefaultStyle.QuizAnswerDefaultFontBackColor, Converter={StaticResource stringToColorConverter}}">
+                                                            <Label.FormattedText>
+                                                                <FormattedString>
+                                                                    <Span Text="Answer: " />
+                                                                    <Span Text="{Binding CorrectAnswer}" />
+                                                                </FormattedString>
+                                                            </Label.FormattedText>
+                                                        </Label>
+                                                    </StackLayout>
+                                                </Frame>
+                                            </DataTemplate>
+                                        </syncfusionList:SfListView.ItemTemplate>
+                                    </syncfusionList:SfListView>
+                                </Grid>
+
+
+
+                            </DataTemplate>
+                        </sfPopup:PopupView.ContentTemplate>
+                    </sfPopup:PopupView>
+                </sfPopup:SfPopupLayout.PopupView>
+            </sfPopup:SfPopupLayout>
+
+            <magic:GradientView
+                Grid.Row="0"
+                Grid.RowSpan="2"
+                GradientSource="{Binding DefaultStyle.MgPageBgSource}"
+                VerticalOptions="FillAndExpand" />
+            <StackLayout Grid.Row="0">
+                <StackLayout Margin="0,15,0,15">
+                    <progressBar:SfLinearProgressBar
+                        Progress="{Binding ProgressValue}"
+                        ProgressColor="{Binding DefaultStyle.QuizProgressColor, Converter={StaticResource stringToColorConverter}}"
+                        SegmentCount="10"
+                        TrackColor="{Binding DefaultStyle.QuizProgressTrackColor, Converter={StaticResource stringToColorConverter}}" />
+                </StackLayout>
+                <StackLayout>
+                    <sfBorder:SfBorder
+                        BorderColor="{Binding DefaultStyle.ListItemBoxBorderColor, Converter={StaticResource stringToColorConverter}}"
+                        BorderWidth="1"
+                        VerticalOptions="Center">
+                        <Grid>
+                            <magic:GradientView GradientSource="{Binding DefaultStyle.TopPanelBgSource}" VerticalOptions="FillAndExpand" />
+
+                            <StackLayout Padding="10">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.25*, Tablet=0.25*}, iOS={OnIdiom Phone=0.25*, Tablet=0.25*}, UWP=0.25*, macOS=0.25*, WPF=0.25}" />
+                                        <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.75*, Tablet=0.75*}, iOS={OnIdiom Phone=0.75*, Tablet=0.75*}, UWP=0.75*, macOS=0.75, WPF=0.75}" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <local:ExtendedImage
+                                            x:Name="imgList"
+                                            Grid.Row="0"
+                                            Aspect="AspectFit"
+                                            CustomSource="{Binding CurrentQuestion.MasterPicPath}"
+                                            HeightRequest="{Binding StyleDrive.StyleOnImageHeightRequestOnListPage}"
+                                            HorizontalOptions="FillAndExpand"
+                                            ImageHeight="{Binding CurrentQuestion.MasterPicHeight}"
+                                            ImageWidth="{Binding CurrentQuestion.MasterPicWidth}"
+                                            LocalFileName="{Binding CurrentQuestion.MasterPicLocalFileName}"
+                                            PageCancellationTokenSource="{Binding PageCancellationTokenSource}"
+                                            VerticalOptions="Start"
+                                            WidthRequest="120" />
+                                        <Label
+                                            Grid.Row="1"
+                                            Margin="0,-6,0,0"
+                                            FontAttributes="Bold"
+                                            FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
+                                            FontSize="{OnPlatform Android={OnIdiom Phone=10,
+                                                                                   Tablet=14},
+                                                                  iOS={OnIdiom Phone=10,
+                                                                               Tablet=14},
+                                                                  UWP=14,
+                                                                  macOS=14,
+                                                                  WPF=14}"
+                                            HorizontalOptions="CenterAndExpand"
+                                            LineBreakMode="CharacterWrap"
+                                            Text="{Binding CurrentQuestion.MasterName}"
+                                            TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
+                                    </Grid>
+
+                                    <Grid Grid.Column="1">
+                                        <StackLayout
+                                            Grid.Row="0"
+                                            Padding="5,3,5,5"
+                                            HorizontalOptions="CenterAndExpand"
+                                            VerticalOptions="CenterAndExpand">
+
+                                            <Label
+                                                Padding="10"
+                                                BackgroundColor="{Binding DefaultStyle.QuizQuestionBackColor, Converter={StaticResource stringToColorConverter}}"
+                                                FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
+                                                FontSize="{OnPlatform Android={OnIdiom Phone=20,
+                                                                                       Tablet=35},
+                                                                      iOS={OnIdiom Phone=20,
+                                                                                   Tablet=35},
+                                                                      UWP=35,
+                                                                      macOS=35,
+                                                                      WPF=35}"
+                                                Text="{Binding CurrentQuestion.Question}"
+                                                TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
+
+                                        </StackLayout>
+                                    </Grid>
+                                </Grid>
+                            </StackLayout>
+                        </Grid>
+                    </sfBorder:SfBorder>
+                </StackLayout>
+                <ScrollView>
+                    <StackLayout>
+
+                        <Label
+                            Margin="{OnPlatform Android={OnIdiom Phone='10,10,10,0',
+                                                                 Tablet='10,20,10,0'},
+                                                iOS={OnIdiom Phone='10,10,10,0',
+                                                             Tablet='10,20,10,0'},
+                                                UWP={OnIdiom Phone='10,10,10,0',
+                                                             Tablet='10,20,10,0',
+                                                             Desktop='10,20,10,0'},
+                                                macOS='10,20,10,0',
+                                                WPF='10,20,10,0'}"
+                            Padding="10,0,0,3"
+                            FontAttributes="Bold"
+                            FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
+                            FontSize="{OnPlatform Android={OnIdiom Phone=18,
+                                                                   Tablet=30},
+                                                  iOS={OnIdiom Phone=18,
+                                                               Tablet=30},
+                                                  UWP=30,
+                                                  macOS=30,
+                                                  WPF=30}"
+                            Text="Question:"
+                            TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Question " />
+                                    <Span Text="(" />
+                                    <Span Text="{Binding CurrentIndex}" />
+                                    <Span Text="/" />
+                                    <Span Text="{Binding TotalQuestions}" />
+                                    <Span Text=") :" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <sfEffectsView:SfEffectsView
+                            x:Name="answer1EffectsView"
+                            Margin="{OnPlatform Android={OnIdiom Phone='10,10,10,0',
+                                                                 Tablet='10,10,10,0'},
+                                                iOS={OnIdiom Phone='10,10,10,0',
+                                                             Tablet='10,10,10,0'},
+                                                UWP={OnIdiom Phone='10,10,10,0',
+                                                             Tablet='10,10,10,0',
+                                                             Desktop='10,10,10,0'},
+                                                macOS='10,10,10,0',
+                                                WPF='10,10,10,0'}"
+                            AnimationCompleted="answer1EffectsView_AnimationCompleted"
+                            AutomationId="{Binding Id}"
+                            CornerRadius="5"
+                            RippleAnimationDuration="300"
+                            TouchDownEffects="Ripple">
+                            <Label
+                                x:Name="lblAnswer1Option"
+                                Padding="10"
+                                BackgroundColor="{Binding DefaultStyle.QuizAnswerDefaultBackColor, Converter={StaticResource stringToColorConverter}}"
+                                FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
+                                FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                                       Tablet=30},
+                                                      iOS={OnIdiom Phone=16,
+                                                                   Tablet=30},
+                                                      UWP=30,
+                                                      macOS=30,
+                                                      WPF=30}"
+                                Text="{Binding Answer1}"
+                                TextColor="{Binding DefaultStyle.QuizAnswerDefaultFontBackColor, Converter={StaticResource stringToColorConverter}}" />
+                        </sfEffectsView:SfEffectsView>
+
+                        <sfEffectsView:SfEffectsView
+                            x:Name="answer2EffectsView"
+                            Margin="{OnPlatform Android={OnIdiom Phone='10,10,10,0',
+                                                                 Tablet='10,12,10,0'},
+                                                iOS={OnIdiom Phone='10,10,10,0',
+                                                             Tablet='10,12,10,0'},
+                                                UWP={OnIdiom Phone='10,10,10,0',
+                                                             Tablet='10,12,10,0',
+                                                             Desktop='10,12,10,0'},
+                                                macOS='10,12,10,0',
+                                                WPF='10,12,10,0'}"
+                            AnimationCompleted="answer2EffectsView_AnimationCompleted"
+                            AutomationId="{Binding Id}"
+                            CornerRadius="5"
+                            RippleAnimationDuration="300"
+                            TouchDownEffects="Ripple">
+                            <Label
+                                x:Name="lblAnswer2Option"
+                                Padding="10"
+                                BackgroundColor="{Binding DefaultStyle.QuizAnswerDefaultBackColor, Converter={StaticResource stringToColorConverter}}"
+                                FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
+                                FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                                       Tablet=30},
+                                                      iOS={OnIdiom Phone=16,
+                                                                   Tablet=30},
+                                                      UWP=30,
+                                                      macOS=30,
+                                                      WPF=30}"
+                                Text="{Binding Answer2}"
+                                TextColor="{Binding DefaultStyle.QuizAnswerDefaultFontBackColor, Converter={StaticResource stringToColorConverter}}" />
+                        </sfEffectsView:SfEffectsView>
+
+                        <sfEffectsView:SfEffectsView
+                            x:Name="answer3EffectsView"
+                            Margin="{OnPlatform Android={OnIdiom Phone='10,10,10,0',
+                                                                 Tablet='10,12,10,0'},
+                                                iOS={OnIdiom Phone='10,10,10,0',
+                                                             Tablet='10,12,10,0'},
+                                                UWP={OnIdiom Phone='10,10,10,0',
+                                                             Tablet='10,12,10,0',
+                                                             Desktop='10,12,10,0'},
+                                                macOS='10,12,10,0',
+                                                WPF='10,12,10,0'}"
+                            AnimationCompleted="answer3EffectsView_AnimationCompleted"
+                            AutomationId="{Binding Id}"
+                            CornerRadius="5"
+                            RippleAnimationDuration="300"
+                            TouchDownEffects="Ripple">
+                            <Label
+                                x:Name="lblAnswer3Option"
+                                Padding="10"
+                                BackgroundColor="{Binding DefaultStyle.QuizAnswerDefaultBackColor, Converter={StaticResource stringToColorConverter}}"
+                                FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
+                                FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                                       Tablet=30},
+                                                      iOS={OnIdiom Phone=16,
+                                                                   Tablet=30},
+                                                      UWP=30,
+                                                      macOS=30,
+                                                      WPF=30}"
+                                Text="{Binding Answer3}"
+                                TextColor="{Binding DefaultStyle.QuizAnswerDefaultFontBackColor, Converter={StaticResource stringToColorConverter}}" />
+                        </sfEffectsView:SfEffectsView>
+
+                        <sfEffectsView:SfEffectsView
+                            x:Name="answer4EffectsView"
+                            Margin="{OnPlatform Android={OnIdiom Phone='10,10,10,0',
+                                                                 Tablet='10,12,10,0'},
+                                                iOS={OnIdiom Phone='10,10,10,0',
+                                                             Tablet='10,12,10,0'},
+                                                UWP={OnIdiom Phone='10,10,10,0',
+                                                             Tablet='10,12,10,0',
+                                                             Desktop='10,12,10,0'},
+                                                macOS='10,12,10,0',
+                                                WPF='10,12,10,0'}"
+                            AnimationCompleted="answer4EffectsView_AnimationCompleted"
+                            AutomationId="{Binding Id}"
+                            CornerRadius="5"
+                            RippleAnimationDuration="300"
+                            TouchDownEffects="Ripple">
+                            <Label
+                                x:Name="lblAnswer4Option"
+                                Padding="10"
+                                BackgroundColor="{Binding DefaultStyle.QuizAnswerDefaultBackColor, Converter={StaticResource stringToColorConverter}}"
+                                FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
+                                FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                                       Tablet=30},
+                                                      iOS={OnIdiom Phone=16,
+                                                                   Tablet=30},
+                                                      UWP=30,
+                                                      macOS=30,
+                                                      WPF=30}"
+                                Text="{Binding Answer4}"
+                                TextColor="{Binding DefaultStyle.QuizAnswerDefaultFontBackColor, Converter={StaticResource stringToColorConverter}}" />
+                        </sfEffectsView:SfEffectsView>
+
+
+
+                        <Grid Margin="{OnPlatform Android={OnIdiom Phone='0,10,0,0', Tablet='0,15,0,0'}, iOS={OnIdiom Phone='0,10,0,0', Tablet='0,15,0,0'}, UWP={OnIdiom Phone='0,10,0,0', Tablet='0,15,0,0', Desktop='0,15,0,0'}, macOS='0,15,0,0', WPF='0,15,0,0'}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="60" />
+                                <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=100, Tablet=200}, iOS={OnIdiom Phone=100, Tablet=200}, UWP=200, macOS=200, WPF=200}" />
+                                <ColumnDefinition Width="10" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=50, Tablet=80}, iOS={OnIdiom Phone=50, Tablet=80}, UWP=80, macOS=80, WPF=80}" />
+                            </Grid.RowDefinitions>
+
+                            <sfBusy:SfBusyIndicator
+                                x:Name="busyIndicator"
+                                Grid.Column="1"
+                                AnimationType="Ball"
+                                IsBusy="False"
+                                TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
+                                ViewBoxHeight="{OnPlatform Android={OnIdiom Phone=50,
+                                                                            Tablet=80},
+                                                           iOS={OnIdiom Phone=50,
+                                                                        Tablet=80},
+                                                           UWP=80,
+                                                           macOS=80,
+                                                           WPF=80}"
+                                ViewBoxWidth="{OnPlatform Android={OnIdiom Phone=50,
+                                                                           Tablet=80},
+                                                          iOS={OnIdiom Phone=50,
+                                                                       Tablet=80},
+                                                          UWP=80,
+                                                          macOS=80,
+                                                          WPF=80}">
+                                <sfBusy:SfBusyIndicator.BackgroundColor>
+                                    <OnPlatform
+                                        x:TypeArguments="Color"
+                                        Android="Transparent"
+                                        iOS="Transparent" />
+                                </sfBusy:SfBusyIndicator.BackgroundColor>
+                            </sfBusy:SfBusyIndicator>
+
+                            <sfGradient:SfGradientView Grid.Column="2">
+                                <sfGradient:SfGradientView.BackgroundBrush>
+                                    <sfGradient:SfLinearGradientBrush>
+                                        <sfGradient:SfLinearGradientBrush.GradientStops>
+                                            <sfGradient:SfGradientStop Offset="0.2" Color="{Binding DefaultStyle.QuizNextButtonBackColor01, Converter={StaticResource stringToColorConverter}}" />
+                                            <sfGradient:SfGradientStop Offset="1.2" Color="{Binding DefaultStyle.QuizNextButtonBackColor02, Converter={StaticResource stringToColorConverter}}" />
+                                        </sfGradient:SfLinearGradientBrush.GradientStops>
+                                    </sfGradient:SfLinearGradientBrush>
+                                </sfGradient:SfGradientView.BackgroundBrush>
+                            </sfGradient:SfGradientView>
+                            <sfEffectsView:SfEffectsView
+                                x:Name="lblNext"
+                                Grid.Column="2"
+                                AnimationCompleted="lblNext_OnAnimationCompleted"
+                                AutomationId="{Binding Id}"
+                                CornerRadius="5"
+                                RippleAnimationDuration="300"
+                                TouchDownEffects="Ripple">
+
+                                <Label
+                                    Margin="{OnPlatform Android={OnIdiom Phone='5,10,0,10',
+                                                                         Tablet='5,10,0,10'},
+                                                        iOS={OnIdiom Phone='5,10,0,10',
+                                                                     Tablet='5,10,0,10'},
+                                                        UWP='5,10,0,10'}"
+                                    FontAttributes="Bold"
+                                    FontFamily="{Binding DefaultStyle.DefaultFontFamily}"
+                                    FontSize="{OnPlatform Android={OnIdiom Phone=20,
+                                                                           Tablet=36},
+                                                          iOS={OnIdiom Phone=20,
+                                                                       Tablet=28},
+                                                          UWP={OnIdiom Phone=20,
+                                                                       Tablet=26,
+                                                                       Desktop=26},
+                                                          macOS=26,
+                                                          WPF=26}"
+                                    HorizontalOptions="CenterAndExpand"
+                                    LineBreakMode="WordWrap"
+                                    Text="Next"
+                                    TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
+                                    VerticalOptions="Center" />
+                            </sfEffectsView:SfEffectsView>
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+            <StackLayout x:Name="StackBannerAds" Grid.Row="1" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

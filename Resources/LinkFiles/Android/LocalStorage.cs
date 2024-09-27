@@ -26,10 +26,6 @@ namespace Wiki.Droid
 
     public class LocalStorageFactory : ISqlitHelper
     {
-        public LocalStorageFactory() 
-        {
-        }
-
         public bool CopyDatabase()
         {
             try
@@ -59,7 +55,7 @@ namespace Wiki.Droid
             Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), DatabaseFileName);
         public string DatabaseFileName => DependencyService.Get<IAppInformation>().DbUserStore;
         public bool IsDatabaseOnCopyMode => false;
-        public int CurrentVersion => 2;
+        public int CurrentVersion => 3;
         public bool HasSettingsTable => true;
 
         private bool _forceCopy;

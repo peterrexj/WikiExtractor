@@ -1,11 +1,8 @@
 ﻿using GeneralInformation.Repository;
-using GeneralInformation.ViewModels;
 using GeneralInformation.Views;
-using Pj.Library;
 using System;
-using System.Collections.Generic;
-using WikiExtractor.DbModels;
 using WikiExtractor.Process;
+using WikiExtractor.XamarinForms.Views;
 using Xamarin.Forms;
 
 namespace GeneralInformation
@@ -39,6 +36,7 @@ namespace GeneralInformation
 
             Routing.RegisterRoute(nameof(WikiListOfItemsPage), typeof(WikiListOfItemsPage));
             Routing.RegisterRoute(nameof(PersonaDetailPage), typeof(PersonaDetailPage));
+            Routing.RegisterRoute(nameof(QuizPage), typeof(QuizPage));
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)

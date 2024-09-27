@@ -1,0 +1,38 @@
+[
+  {
+    "Metadata": "Country",
+    "QuestionRephrase": "{MasterId}, leader of which country?"
+  },
+  {
+    "Metadata": "Birth-Death",
+    "QuestionRephrase": "When was {MasterId} born, and if applicable, when did they pass away?"
+  },
+  {
+    "Metadata": "Took office",
+    "QuestionRephrase": "{MasterId}, took office in (considering all terms or just the most recent one)?"
+  },
+  {
+    "Metadata": "Left office",
+    "QuestionRephrase": "{MasterId}, left office in (considering all terms or just the most recent one)?"
+  },
+  {
+    "Metadata": "Time in office",
+    "QuestionRephrase": "{MasterId}, duration in office (counting all terms or just one)?"
+  },
+  {
+    "Metadata": "Duration",
+    "QuestionRephrase": "{MasterId}, duration in office (counting all terms or just one)?"
+  },
+  {
+    "Metadata": "Spouse",
+    "QuestionRephrase": "Who is spouse of {MasterId}"
+  },
+  {
+    "Metadata": "Preceded by",
+    "QuestionRephrase": "{MasterId}, was preceded by whom (considering any term or just the most recent one)"
+  },
+  {
+    "Metadata": "Succeeded by",
+    "QuestionRephrase": "{MasterId}, was succeeded by whom (considering any term or just the most recent one)"
+  }
+]

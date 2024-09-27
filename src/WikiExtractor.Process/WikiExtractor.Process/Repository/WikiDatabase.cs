@@ -20,6 +20,8 @@ namespace WikiExtractor.Repository
         public TagItemRepository TagItemRepository { get; set; }
         public AppMenuItemRepository AppMenuItemRepository { get; set; }
         public RequestRecordRepository RequestRecordRepository { get; set; }
+        public QuizMasterMetadataRepository QuizMasterMetadataRepository { get; set; }
+        public QuizDefinitionRepository QuizDefinitionRepository { get; set; }
 
         protected List<IRepositoryBaseAppExtension> repoExtensions;
 
@@ -48,6 +50,8 @@ namespace WikiExtractor.Repository
             TagItemRepository = new TagItemRepository(appDatabase._dbHelper);
             AppMenuItemRepository = new AppMenuItemRepository(appDatabase._dbHelper);
             RequestRecordRepository = new RequestRecordRepository(appDatabase._dbHelper);
+            QuizMasterMetadataRepository = new QuizMasterMetadataRepository(appDatabase._dbHelper);
+            QuizDefinitionRepository = new QuizDefinitionRepository(appDatabase._dbHelper);
 
             repoExtensions.Add(MasterRepository);
             repoExtensions.Add(MetadataRepository);
@@ -63,6 +67,8 @@ namespace WikiExtractor.Repository
             repoExtensions.Add(AppMenuItemRepository);
             repoExtensions.Add(RequestRecordRepository);
             repoExtensions.Add(SettingsRepository);
+            repoExtensions.Add(QuizMasterMetadataRepository);
+            repoExtensions.Add(QuizDefinitionRepository);
 
             int currentDbVersion = 0;
             bool requireDbInitialization = false;
@@ -99,14 +105,6 @@ namespace WikiExtractor.Repository
                     }
                 }
             }
-
-            //ExecuteSchema(MasterRepository.SchemaScript(0));
-            //ExecuteSchema(MetadataRepository.SchemaScript(0));
-            //ExecuteSchema(ParagraphPrimaryContentRepository.SchemaScript(0));
-            //ExecuteSchema(ParagraphHeader2Repository.SchemaScript(0));
-            //ExecuteSchema(ParagraphHeader3Repository.SchemaScript(0));
-            //ExecuteSchema(ParagraphContentRepository.SchemaScript(0));
-            //ExecuteSchema(WikiPictureRepository.SchemaScript(0));
         }
 
         private void ExecuteSchema(string script)

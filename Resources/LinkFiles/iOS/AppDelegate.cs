@@ -4,6 +4,7 @@ using Google.MobileAds;
 using Microsoft.AppCenter.Crashes;
 using Syncfusion.ListView.XForms.iOS;
 using Syncfusion.SfAutoComplete.XForms.iOS;
+using Syncfusion.SfBusyIndicator.XForms.iOS;
 using Syncfusion.XForms.iOS.Buttons;
 using Syncfusion.XForms.iOS.Graphics;
 using Syncfusion.XForms.iOS.PopupLayout;
@@ -52,6 +53,7 @@ namespace Wiki.iOS
 
             Xamarin.Essentials.Platform.Init(() => GetCurrentUIViewController());
 
+            new SfBusyIndicatorRenderer();
             new SfAutoCompleteRenderer();
             SfListViewRenderer.Init();
             SfChipRenderer.Init();
@@ -60,6 +62,7 @@ namespace Wiki.iOS
             SfSegmentedControlRenderer.Init();
             SfTabViewRenderer.Init();
             SfGradientViewRenderer.Init();
+            SfPopupLayoutRenderer.Init();
 
 #if DEBUG
             DisplayCrashReport();

@@ -17,7 +17,7 @@ namespace WikiExtractor.Process
     {
         readonly IWikiDatabase wikiDatabase;
         readonly IUserStoreDatabase userStoreDatabase;
-
+        
         public WikiAppController(IWikiDatabase wikiDb, IUserStoreDatabase userStoreDb)
         {
             wikiDatabase = wikiDb;
@@ -115,7 +115,7 @@ namespace WikiExtractor.Process
         }
 
         #region Get Data
-        
+
         public PersonaViewModel GetItemData(int masterId)
         {
             var master = wikiDatabase.MasterRepository.GetById(masterId);
@@ -328,10 +328,10 @@ namespace WikiExtractor.Process
 
         public void CommonMetadata()
         {
-
             var primaryContent = wikiDatabase.PhoneSettingsRepository.PrimaryMetadatDisplayContent;
 
-            var t = wikiDatabase.MetadataRepository.Get(f => f.TypeByEnum == MetadataType.Detail).ToList();
+            var t = wikiDatabase.MetadataRepository.Get(f => f.TypeByEnum == MetadataType.Detail)
+                .Where(f => f.Value.HasValue()).ToList();
             var properties = t.GroupBy(f => f.Key)
                 .Select(f => new
                 {

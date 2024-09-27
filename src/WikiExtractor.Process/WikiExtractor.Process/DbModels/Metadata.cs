@@ -1,9 +1,5 @@
 ﻿using Pj.Library.Helpers.Database.Repository;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WikiExtractor.Models;
 
 namespace WikiExtractor.DbModels
@@ -15,6 +11,7 @@ namespace WikiExtractor.DbModels
 		public string Value { get; set; }
 		public string Type { get; set; }
 		public int Sequence { get; set; }
+		
 		public MetadataType TypeByEnum => Type != null ? (MetadataType)Enum.Parse(typeof(MetadataType), Type) : MetadataType.GroupHeader;
     }
 }

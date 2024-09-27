@@ -24,12 +24,29 @@
 		<None Update="Repository\SchemaDb.sql">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
+		<None Update="Resources\Quiz\PopesQuizDefinition.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\Quiz\SaintsQuizDefinition.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\Quiz\WorldLeadersQuizDefinition.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
 		<None Update="Resources\Saints_AddtionalLinks.txt">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 		<None Update="Resources\Saints_IgnoreList.txt">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="D:\Pro\WikiExtractor\src\WikiExtractor.Process\WikiExtractor.Process\DbModels\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="D:\Pro\WikiExtractor\src\WikiExtractor.Process\WikiExtractor.Process\DbModels\.editorconfig" />
 	</ItemGroup>
 
 </Project>
