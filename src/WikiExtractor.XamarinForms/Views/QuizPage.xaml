@@ -181,7 +181,13 @@
 
                                                     <StackLayout Margin="0,0,0,10">
                                                         <Label
-                                                            Margin="5,0,0,0"
+                                                            Margin="{OnPlatform Android={OnIdiom Phone='5,0,0,0',
+                                                                                         Tablet='5,0,0,0'},
+                                                                        iOS={OnIdiom Phone='5,10,0,0',
+                                                                                     Tablet='5,10,0,0'},
+                                                                        UWP={OnIdiom Desktop='5,10,0,0',
+                                                                                     Tablet='5,10,0,0',
+                                                                                     Phone='5,10,0,0'}}"
                                                             FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
                                                             FontSize="{OnPlatform Android={OnIdiom Phone=13,
                                                                                                    Tablet=24},
@@ -190,7 +196,7 @@
                                                                                   UWP=24,
                                                                                   macOS=24,
                                                                                   WPF=24}"
-                                                            LineBreakMode="CharacterWrap"
+                                                            LineBreakMode="WordWrap"
                                                             TextColor="{Binding DefaultStyle.QuizAnswerDefaultFontBackColor, Converter={StaticResource stringToColorConverter}}">
                                                             <Label.FormattedText>
                                                                 <FormattedString>

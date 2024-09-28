@@ -256,7 +256,7 @@ namespace WikiExtractor.XamarinForms.ViewModels
         private async void ClosePopupAction()
         {
             _sfPopup?.Dismiss();
-            await Task.Delay(200);
+            await Task.Delay(1000);
             await Shell.Current.GoToAsync("..");
         }
 

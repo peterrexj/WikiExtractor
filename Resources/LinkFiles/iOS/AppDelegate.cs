@@ -42,8 +42,6 @@ namespace Wiki.iOS
 
             global::Xamarin.Forms.Forms.Init();
 
-            SfPopupLayoutRenderer.Init();
-            LoadApplication(new App());
             try
             {
                 MobileAds.SharedInstance.Start(CompletionHandler);
@@ -55,6 +53,8 @@ namespace Wiki.iOS
 
             Xamarin.Essentials.Platform.Init(() => GetCurrentUIViewController());
 
+            SfPopupLayoutRenderer.Init();
+            SfGradientViewRenderer.Init();
             new SfBusyIndicatorRenderer();
             new SfAutoCompleteRenderer();
             SfListViewRenderer.Init();
@@ -62,12 +62,10 @@ namespace Wiki.iOS
             SfChipGroupRenderer.Init();
             SfSegmentedControlRenderer.Init();
             SfTabViewRenderer.Init();
-            SfGradientViewRenderer.Init();
-            SfPopupLayoutRenderer.Init();
             SfCircularProgressBarRenderer.Init();
-            SfGradientViewRenderer.Init();
             SfChartRenderer.Init();
 
+            LoadApplication(new App());
 
 #if DEBUG
             DisplayCrashReport();
