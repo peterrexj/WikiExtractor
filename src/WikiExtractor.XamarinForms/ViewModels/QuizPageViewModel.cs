@@ -4,8 +4,10 @@ using GeneralInformation.Models.Mix;
 using GeneralInformation.Services;
 using GeneralInformation.ViewModels;
 using Pj.Library;
+using Syncfusion.SfBusyIndicator.XForms;
 using Syncfusion.XForms.PopupLayout;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading;
@@ -108,17 +110,66 @@ namespace WikiExtractor.XamarinForms.ViewModels
                     Color.FromHex(DefaultStyle.ChartNotAnsweredColor)
                 };
 
-                QuizCorrectAnswerColor = Color.FromHex(DefaultStyle.ChartCorrectAnswerColor);
-                QuizWrongAnswerColor = Color.FromHex(DefaultStyle.ChartWrongAnswerColor);
-                QuizAnswerDefaultBackColor = Color.FromHex(DefaultStyle.QuizAnswerDefaultBackColor);
-                QuizAnswerSelectionBackColor = Color.FromHex(DefaultStyle.QuizAnswerSelectionBackColor);
+                QuizCorrectAnswerColor = DefaultStyle.ChartCorrectAnswerColor;
+                QuizWrongAnswerColor = DefaultStyle.ChartWrongAnswerColor;
+                QuizAnswerDefaultBackColor = DefaultStyle.QuizAnswerDefaultBackColor;
+                QuizAnswerSelectionBackColor = DefaultStyle.QuizAnswerSelectionBackColor;
+
+                Answer1BackColor = DefaultStyle.QuizAnswerDefaultBackColor;
+                Answer2BackColor = DefaultStyle.QuizAnswerDefaultBackColor;
+                Answer3BackColor = DefaultStyle.QuizAnswerDefaultBackColor;
+                Answer4BackColor = DefaultStyle.QuizAnswerDefaultBackColor;
             }
         }
 
-        public Color QuizCorrectAnswerColor { get; set; }
-        public Color QuizWrongAnswerColor { get; set; }
-        public Color QuizAnswerDefaultBackColor { get; set; }
-        public Color QuizAnswerSelectionBackColor { get; set; }
+        private string _answer1BackColor;
+        public string Answer1BackColor
+        {
+            get => _answer1BackColor;
+            set
+            {
+                _answer1BackColor = value;
+                OnPropertyChanged(nameof(Answer1BackColor));
+            }
+        }
+
+        private string _answer2BackColor;
+        public string Answer2BackColor
+        {
+            get => _answer2BackColor;
+            set
+            {
+                _answer2BackColor = value;
+                OnPropertyChanged(nameof(Answer2BackColor));
+            }
+        }
+
+        private string _answer3BackColor;
+        public string Answer3BackColor
+        {
+            get => _answer3BackColor;
+            set
+            {
+                _answer3BackColor = value;
+                OnPropertyChanged(nameof(Answer3BackColor));
+            }
+        }
+
+        private string _answer4BackColor;
+        public string Answer4BackColor
+        {
+            get => _answer4BackColor;
+            set
+            {
+                _answer4BackColor = value;
+                OnPropertyChanged(nameof(Answer4BackColor));
+            }
+        }
+
+        public string QuizCorrectAnswerColor { get; set; }
+        public string QuizWrongAnswerColor { get; set; }
+        public string QuizAnswerDefaultBackColor { get; set; }
+        public string QuizAnswerSelectionBackColor { get; set; }
 
         public StyleDrive StyleDrive { get; set; } = new()
         {
@@ -258,5 +309,150 @@ namespace WikiExtractor.XamarinForms.ViewModels
                 new DataModel { Category = $"Not Answered ({notAnsweredPercentage}%)", Value = notAnswered }
             };
         }
+
+        #region answer interaction
+
+        public void AnswersSetDefaultColor()
+        {
+            Answer1BackColor = QuizAnswerDefaultBackColor;
+            Answer2BackColor = QuizAnswerDefaultBackColor;
+            Answer3BackColor = QuizAnswerDefaultBackColor;
+            Answer4BackColor = QuizAnswerDefaultBackColor;
+        }
+
+        public async void OnAnswerClick(int answerIndex)
+        {
+            try
+            {
+                await Task.Run(() =>
+                {
+                    try
+                    {
+                        ViewHelper.RunOnAppDispatcher(() =>
+                        {
+                            // Reset all labels to LightGray
+                            AnswersSetDefaultColor();
+
+                            // Apply DarkGray to the selected answer
+                            switch (answerIndex)
+                            {
+                                case 1:
+                                    Answer1BackColor = QuizAnswerSelectionBackColor;
+                                    CurrentQuestion.UserSelection = Answer1;
+                                    break;
+                                case 2:
+                                    Answer2BackColor = QuizAnswerSelectionBackColor;
+                                    CurrentQuestion.UserSelection = Answer2;
+                                    break;
+                                case 3:
+                                    Answer3BackColor = QuizAnswerSelectionBackColor;
+                                    CurrentQuestion.UserSelection = Answer3;
+                                    break;
+                                case 4:
+                                    Answer4BackColor = QuizAnswerSelectionBackColor;
+                                    CurrentQuestion.UserSelection = Answer4;
+                                    break;
+                            }
+                        });
+                    }
+                    catch (Exception innerException)
+                    {
+                        ExceptionHandler.CaptureException(innerException);
+                    }
+                });
+            }
+            catch (Exception outerException)
+            {
+                ExceptionHandler.CaptureException(outerException);
+            }
+        }
+
+        public async Task OnNextClick(SfBusyIndicator busyIndicator)
+        {
+            try
+            {
+                await Task.Run(async () =>
+                {
+                    try
+                    {
+                        await ViewHelper.RunOnAppDispatcherAsync(() => { busyIndicator.IsBusy = true; });
+
+                        // Mapping answer options to their corresponding labels
+                        var answerLabels = new Dictionary<object, int>
+                        {
+                            { Answer1, 1 },
+                            { Answer2, 2 },
+                            { Answer3, 3 },
+                            { Answer4, 4 }
+                        };
+
+                        // Apply color to the selected answer
+                        var selectedAnswer = CurrentQuestion.UserSelection;
+                        if (selectedAnswer != null)
+                        {
+                            var isCorrect = CurrentQuestion.IsCorrect;
+                            ApplyAnswerColor(answerLabels[selectedAnswer], isCorrect);
+
+                            // Highlight the correct answer if the selected answer is incorrect
+                            if (!isCorrect)
+                            {
+                                var correctAnswer = CurrentQuestion.CorrectAnswer;
+                                ApplyAnswerColor(answerLabels[correctAnswer], true);
+                            }
+
+                            await Task.Delay(1000);
+
+                            AnswersSetDefaultColor();
+                        }
+
+                        SaveCurrentResponse();
+
+                        if (CurrentIndex == Questions.Count)
+                        {
+                            CalculateSummary();
+
+                            ShowSummaryPopup();
+                        }
+                        else if (Questions.Count > CurrentIndex)
+                        {
+                            CurrentIndex += 1;
+                        }
+                    }
+                    catch (Exception innerException)
+                    {
+                        ExceptionHandler.CaptureException(innerException);
+                    }
+                    finally
+                    {
+                        await ViewHelper.RunOnAppDispatcherAsync(() => { busyIndicator.IsBusy = false; });
+                    }
+                });
+            }
+            catch (Exception outerException)
+            {
+                ExceptionHandler.CaptureException(outerException);
+            }
+        }
+
+        private void ApplyAnswerColor(int answerPosition, bool isCorrect)
+        {
+            if (answerPosition == 1)
+            {
+                Answer1BackColor = isCorrect ? QuizCorrectAnswerColor : QuizWrongAnswerColor;
+            }
+            else if (answerPosition == 2)
+            {
+                Answer2BackColor = isCorrect ? QuizCorrectAnswerColor : QuizWrongAnswerColor;
+            }
+            else if (answerPosition == 3)
+            {
+                Answer3BackColor = isCorrect ? QuizCorrectAnswerColor : QuizWrongAnswerColor;
+            }
+            else if (answerPosition == 4)
+            {
+                Answer4BackColor = isCorrect ? QuizCorrectAnswerColor : QuizWrongAnswerColor;
+            }
+        }
+        #endregion
     }
 }

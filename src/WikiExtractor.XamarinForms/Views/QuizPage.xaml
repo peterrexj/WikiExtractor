@@ -382,7 +382,7 @@
                             <Label
                                 x:Name="lblAnswer1Option"
                                 Padding="10"
-                                BackgroundColor="{Binding DefaultStyle.QuizAnswerDefaultBackColor, Converter={StaticResource stringToColorConverter}}"
+                                BackgroundColor="{Binding Answer1BackColor, Converter={StaticResource stringToColorConverter}}"
                                 FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
                                 FontSize="{OnPlatform Android={OnIdiom Phone=16,
                                                                        Tablet=30},
@@ -414,7 +414,7 @@
                             <Label
                                 x:Name="lblAnswer2Option"
                                 Padding="10"
-                                BackgroundColor="{Binding DefaultStyle.QuizAnswerDefaultBackColor, Converter={StaticResource stringToColorConverter}}"
+                                BackgroundColor="{Binding Answer2BackColor, Converter={StaticResource stringToColorConverter}}"
                                 FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
                                 FontSize="{OnPlatform Android={OnIdiom Phone=16,
                                                                        Tablet=30},
@@ -446,7 +446,7 @@
                             <Label
                                 x:Name="lblAnswer3Option"
                                 Padding="10"
-                                BackgroundColor="{Binding DefaultStyle.QuizAnswerDefaultBackColor, Converter={StaticResource stringToColorConverter}}"
+                                BackgroundColor="{Binding Answer3BackColor, Converter={StaticResource stringToColorConverter}}"
                                 FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
                                 FontSize="{OnPlatform Android={OnIdiom Phone=16,
                                                                        Tablet=30},
@@ -478,7 +478,7 @@
                             <Label
                                 x:Name="lblAnswer4Option"
                                 Padding="10"
-                                BackgroundColor="{Binding DefaultStyle.QuizAnswerDefaultBackColor, Converter={StaticResource stringToColorConverter}}"
+                                BackgroundColor="{Binding Answer4BackColor, Converter={StaticResource stringToColorConverter}}"
                                 FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
                                 FontSize="{OnPlatform Android={OnIdiom Phone=16,
                                                                        Tablet=30},
