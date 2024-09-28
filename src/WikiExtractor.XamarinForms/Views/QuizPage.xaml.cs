@@ -39,7 +39,6 @@ namespace WikiExtractor.XamarinForms.Views
                 _viewModel.IsBusy = false;
             }
         }
-
         
 
         private async void answer1EffectsView_AnimationCompleted(object sender, EventArgs e)

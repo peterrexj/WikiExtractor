@@ -402,10 +402,10 @@ namespace WikiExtractor.XamarinForms.ViewModels
 
                             await Task.Delay(1000);
 
+                            SaveCurrentResponse();
+
                             AnswersSetDefaultColor();
                         }
-
-                        SaveCurrentResponse();
 
                         if (CurrentIndex == Questions.Count)
                         {
