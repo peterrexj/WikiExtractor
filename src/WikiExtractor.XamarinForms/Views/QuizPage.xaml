@@ -181,13 +181,13 @@
 
                                                     <StackLayout Margin="0,0,0,10">
                                                         <Label
-                                                            Margin="{OnPlatform Android={OnIdiom Phone='5,0,0,0',
-                                                                                         Tablet='5,0,0,0'},
-                                                                        iOS={OnIdiom Phone='5,10,0,0',
-                                                                                     Tablet='5,10,0,0'},
-                                                                        UWP={OnIdiom Desktop='5,10,0,0',
-                                                                                     Tablet='5,10,0,0',
-                                                                                     Phone='5,10,0,0'}}"
+                                                            Margin="{OnPlatform Android={OnIdiom Phone='5,5,0,0',
+                                                                                                 Tablet='5,5,0,0'},
+                                                                                iOS={OnIdiom Phone='5,10,0,0',
+                                                                                             Tablet='5,10,0,0'},
+                                                                                UWP={OnIdiom Desktop='5,10,0,0',
+                                                                                             Tablet='5,10,0,0',
+                                                                                             Phone='5,10,0,0'}}"
                                                             FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
                                                             FontSize="{OnPlatform Android={OnIdiom Phone=13,
                                                                                                    Tablet=24},
