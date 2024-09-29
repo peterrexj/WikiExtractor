@@ -120,8 +120,7 @@ namespace GeneralInformation
                         QuizAnswerDefaultFontBackColor = "#535353",
                         QuizProgressColor = "#ca4060",
                         QuizProgressTrackColor = "#240a10",
-                        QuizNextButtonBackColor01 = "#782944",
-                        QuizNextButtonBackColor02 = "#c4436f",
+                        QuizNextButtonBackColor = "#7b2a41",
 
                         PopupHeaderFooterBackColor = "#2b2b2b",
                         PopupContentBackColor = "#404040",
@@ -236,8 +235,7 @@ namespace GeneralInformation
                         QuizAnswerSelectionBackColor = "#8d8d8d",
                         QuizProgressColor = "#58c3c3",
                         QuizProgressTrackColor = "#1a3939",
-                        QuizNextButtonBackColor01 = "#419191",
-                        QuizNextButtonBackColor02 = "#5ed1d1",
+                        QuizNextButtonBackColor = "#419191",
 
                         ButtonQuizBackColor = "#89A4C7",
                         ButtonQuizFontColor = "#DEECFC",

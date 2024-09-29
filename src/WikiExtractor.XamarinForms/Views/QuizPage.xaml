@@ -540,21 +540,11 @@
                             </sfBusy:SfBusyIndicator>
 
                             <Grid Grid.Column="2">
-                                <sfGradient:SfGradientView>
-                                    <sfGradient:SfGradientView.BackgroundBrush>
-                                        <sfGradient:SfLinearGradientBrush>
-                                            <sfGradient:SfLinearGradientBrush.GradientStops>
-                                                <sfGradient:SfGradientStop Offset="0.2" Color="{Binding DefaultStyle.QuizNextButtonBackColor01, Converter={StaticResource stringToColorConverter}}" />
-                                                <sfGradient:SfGradientStop Offset="1.2" Color="{Binding DefaultStyle.QuizNextButtonBackColor02, Converter={StaticResource stringToColorConverter}}" />
-                                            </sfGradient:SfLinearGradientBrush.GradientStops>
-                                        </sfGradient:SfLinearGradientBrush>
-                                    </sfGradient:SfGradientView.BackgroundBrush>
-                                </sfGradient:SfGradientView>
-
                                 <sfEffectsView:SfEffectsView
                                     x:Name="lblNext"
                                     AnimationCompleted="lblNext_OnAnimationCompleted"
                                     AutomationId="{Binding Id}"
+                                    BackgroundColor="{Binding DefaultStyle.QuizNextButtonBackColor, Converter={StaticResource stringToColorConverter}}"
                                     CornerRadius="5"
                                     RippleAnimationDuration="300"
                                     TouchDownEffects="Ripple">

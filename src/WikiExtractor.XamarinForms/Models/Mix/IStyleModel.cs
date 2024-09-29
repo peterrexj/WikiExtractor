@@ -77,8 +77,7 @@ namespace GeneralInformation.Models.Mix
         string QuizProgressTrackColor { get; set; }
         string ButtonQuizBackColor { get; set; }
         string ButtonQuizFontColor { get; set; }
-        string QuizNextButtonBackColor01 { get; set; }
-        string QuizNextButtonBackColor02 { get; set; }
+        string QuizNextButtonBackColor { get; set; }
         string PopupHeaderFooterBackColor { get; set; }
         string PopupContentBackColor { get; set; }
     }

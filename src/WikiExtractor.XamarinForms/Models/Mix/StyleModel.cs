@@ -119,8 +119,7 @@ namespace GeneralInformation.Models.Mix
         public string QuizAnswerSelectionBackColor { get; set; }
         public string QuizProgressColor { get; set; }
         public string QuizProgressTrackColor { get; set; }
-        public string QuizNextButtonBackColor01 { get; set; }
-        public string QuizNextButtonBackColor02 { get; set; }
+        public string QuizNextButtonBackColor { get; set; }
         public string PopupHeaderFooterBackColor { get; set; }
         public string PopupContentBackColor { get; set; }
 
