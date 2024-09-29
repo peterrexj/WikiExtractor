@@ -305,25 +305,28 @@
                                     </Grid>
 
                                     <Grid Grid.Column="1">
-                                        
-                                            <Label
+                                        <Frame
                                             Grid.Row="0"
-                                                Padding="10"
-                                                BackgroundColor="{Binding DefaultStyle.QuizQuestionBackColor, Converter={StaticResource stringToColorConverter}}"
+                                            Padding="10"
+                                            BackgroundColor="{Binding DefaultStyle.QuizQuestionBackColor, Converter={StaticResource stringToColorConverter}}"
+                                            CornerRadius="5">
+                                            <Label
                                                 FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
                                                 FontSize="{OnPlatform Android={OnIdiom Phone=20,
-                                                                                       Tablet=35},
+                                                                                       Tablet=30},
                                                                       iOS={OnIdiom Phone=20,
-                                                                                   Tablet=35},
-                                                                      UWP=35,
-                                                                      macOS=35,
-                                                                      WPF=35}"
-                                                Text="{Binding CurrentQuestion.Question}"
+                                                                                   Tablet=30},
+                                                                      UWP=30,
+                                                                      macOS=30,
+                                                                      WPF=30}"
+                                                HorizontalTextAlignment="Start"
                                                 LineBreakMode="WordWrap"
-                                                HorizontalTextAlignment="Center"
-                                                VerticalTextAlignment="Center"
-                                                TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
-                                        
+                                                Text="{Binding CurrentQuestion.Question}"
+                                                TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
+                                                VerticalTextAlignment="Center" />
+                                        </Frame>
+
+
                                     </Grid>
                                 </Grid>
                             </StackLayout>
