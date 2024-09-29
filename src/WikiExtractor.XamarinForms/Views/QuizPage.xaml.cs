@@ -75,7 +75,7 @@ namespace WikiExtractor.XamarinForms.Views
                 {
                     if (StackBannerAds.Children.Count == 0)
                     {
-                        var adsBanner = AdsHelper.BuildAdsBanner();
+                        var adsBanner = AdsHelper.BuildAdsQuizBanner();
                         if (adsBanner != null)
                         {
                             StackBannerAds.Children.Add(adsBanner);

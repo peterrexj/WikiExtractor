@@ -14,6 +14,7 @@ namespace WikiExtractor.XamarinForms.Exts
         public static bool DisplayAds { get; set; }
         public static string AdsInterstitialId { get; set; }
         public static string AdsBannerId { get; set; }
+        public static string AdsQuizBannerId { get; set; }
 
         public static int AdsInterstitialLimitOnRecord { get; set; }
         private static int AdsInterstitialLimitOnRecordRound2 { get; set; }
@@ -25,6 +26,7 @@ namespace WikiExtractor.XamarinForms.Exts
                 var appInfo = DependencyService.Get<IAppInformation>();
                 AdsInterstitialId = appInfo.AdsInterstitialId;
                 AdsBannerId = appInfo.AdsBannerId;
+                AdsQuizBannerId = appInfo.AdsQuizBannerId;
                 DisplayAds = DependencyService.Get<IAppEnvironment>().DisplayAds;
 
                 if (IsAdsServiceAvailable)
@@ -104,6 +106,22 @@ namespace WikiExtractor.XamarinForms.Exts
                 return new()
                 {
                     AdsId = AdsBannerId,
+                    HeightRequest = 50
+                };
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(new Exception($"Ads Service error: {ex.Message}"));
+                return null;
+            }
+        }
+        public static MTAdView? BuildAdsQuizBanner()
+        {
+            try
+            {
+                return new()
+                {
+                    AdsId = AdsQuizBannerId,
                     HeightRequest = 50
                 };
             }

@@ -4,6 +4,7 @@
     {
         string AppCentreAppKey { get; }
         string AdsBannerId { get; }
+        string AdsQuizBannerId { get; }
         string AdsInterstitialId { get; }
         int ShowFirstInterstitialAdOnClickLimit { get; }
         int ShowLaterInterstitialAdOnClickLimit { get; }

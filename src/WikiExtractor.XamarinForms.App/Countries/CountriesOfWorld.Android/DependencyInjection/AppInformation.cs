@@ -10,7 +10,7 @@ namespace Wiki.Droid
         public string AppCentreAppKey => "eda9cb2c-4d70-49ba-a98f-6e54d37873d2";
 
         public string AdsBannerId => "ca-app-pub-4219645367584712/3041169107";
-
+        public string AdsQuizBannerId => "ca-app-pub-4219645367584712/2354361942";
         public string AdsInterstitialId => "ca-app-pub-4219645367584712/4901045689";
 
         public int ShowFirstInterstitialAdOnClickLimit => 1;

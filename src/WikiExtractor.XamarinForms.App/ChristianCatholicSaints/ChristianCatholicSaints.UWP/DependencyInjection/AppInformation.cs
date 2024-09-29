@@ -11,7 +11,7 @@ namespace Wiki.Uwp
         public string AppCentreAppKey => "92149c55-3f37-4263-9b9d-26f7eedbd8fc";
 
         public string AdsBannerId => "ca-app-pub-4219645367584712/9833451000";
-
+        public string AdsQuizBannerId => "ca-app-pub-4219645367584712/9085860639";
         public string AdsInterstitialId => "ca-app-pub-4219645367584712/3235891676";
 
         public int ShowFirstInterstitialAdOnClickLimit => 3;

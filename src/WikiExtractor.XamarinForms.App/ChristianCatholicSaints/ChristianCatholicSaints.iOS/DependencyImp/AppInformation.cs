@@ -10,7 +10,7 @@ namespace Wiki.iOS
         public string AppCentreAppKey => "c335a6cd-9eaa-4382-97f1-0028cbd5c2c2";
 
         public string AdsBannerId => "ca-app-pub-4219645367584712/4824498021";
-       
+        public string AdsQuizBannerId => "ca-app-pub-4219645367584712/9258719634";
         public string AdsInterstitialId => "ca-app-pub-4219645367584712/6454657353";
 
         public int ShowFirstInterstitialAdOnClickLimit => 1;

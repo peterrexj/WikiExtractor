@@ -289,7 +289,13 @@
                                             TouchUpCommandParameter="{x:Reference TakeQuizButton}">
                                             <Label
                                                 FontAttributes="Bold"
-                                                FontSize="Medium"
+                                                FontSize="{OnPlatform Android={OnIdiom Phone=16,
+                                                                                       Tablet=22},
+                                                                      iOS={OnIdiom Phone=16,
+                                                                                   Tablet=22},
+                                                                      UWP=22,
+                                                                      macOS=22,
+                                                                      WPF=22}"
                                                 HorizontalOptions="Center"
                                                 Text="Take Quiz"
                                                 TextColor="{Binding DefaultStyle.ButtonQuizFontColor, Converter={StaticResource stringToColorConverter}}"
