@@ -1,9 +1,11 @@
-﻿using GeneralInformation.Models.Mix;
+﻿using System;
+using GeneralInformation.Models.Mix;
 using GeneralInformation.Services;
 using Syncfusion.XForms.Buttons;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using Syncfusion.XForms.EffectsView;
 using WikiExtractor.ViewModels;
@@ -109,14 +111,27 @@ namespace GeneralInformation.ViewModels
 
         private async void TakeQuiz(SfEffectsView button)
         {
+            IsBusy = true;
+
+            await Task.Delay(200);
+
             if (_shouldProcessQuizRequest)
             {
                 _shouldProcessQuizRequest = false;
 
-                await Shell.Current.GoToAsync($"{nameof(QuizPage)}");
+                try
+                {
+                    await Shell.Current.GoToAsync($"{nameof(QuizPage)}");
+                }
+                catch (Exception e)
+                {
+                    ExceptionHandler.CaptureException(e);
+                }
 
                 _shouldProcessQuizRequest = true;
             }
+
+            IsBusy = false;
         }
     }
 

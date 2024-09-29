@@ -237,7 +237,7 @@ namespace GeneralInformation
                         QuizProgressTrackColor = "#1a3939",
                         QuizNextButtonBackColor = "#419191",
 
-                        ButtonQuizBackColor = "#89A4C7",
+                        ButtonQuizBackColor = "#657993",
                         ButtonQuizFontColor = "#DEECFC",
                     };
                 default: return null;

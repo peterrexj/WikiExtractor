@@ -9,6 +9,7 @@
     xmlns:local="clr-namespace:GeneralInformation"
     xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
     xmlns:sfBorder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfBusy="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
     xmlns:sfBusyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
     xmlns:sfButtons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:sfEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
@@ -278,9 +279,37 @@
                                             </Image>
                                         </sfButtons:SfButton>
 
+                                        <sfBusy:SfBusyIndicator
+                                            x:Name="busyIndicator"
+                                            Grid.Column="2"
+                                            AnimationType="Ball"
+                                            IsBusy="{Binding IsFree}"
+                                            TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}"
+                                            ViewBoxHeight="{OnPlatform Android={OnIdiom Phone=30,
+                                                                                        Tablet=50},
+                                                                       iOS={OnIdiom Phone=30,
+                                                                                    Tablet=50},
+                                                                       UWP=80,
+                                                                       macOS=80,
+                                                                       WPF=80}"
+                                            ViewBoxWidth="{OnPlatform Android={OnIdiom Phone=30,
+                                                                                       Tablet=50},
+                                                                      iOS={OnIdiom Phone=30,
+                                                                                   Tablet=50},
+                                                                      UWP=80,
+                                                                      macOS=80,
+                                                                      WPF=80}">
+                                            <sfBusy:SfBusyIndicator.BackgroundColor>
+                                                <OnPlatform
+                                                    x:TypeArguments="Color"
+                                                    Android="Transparent"
+                                                    iOS="Transparent" />
+                                            </sfBusy:SfBusyIndicator.BackgroundColor>
+                                        </sfBusy:SfBusyIndicator>
                                         <sfEffectsView:SfEffectsView
                                             x:Name="TakeQuizButton"
                                             Grid.Column="2"
+                                            IsVisible="{Binding IsBusy}"
                                             BackgroundColor="{Binding DefaultStyle.ButtonQuizBackColor, Converter={StaticResource stringToColorConverter}}"
                                             CornerRadius="5"
                                             FadeOutRipple="True"
@@ -289,6 +318,7 @@
                                             TouchUpCommandParameter="{x:Reference TakeQuizButton}">
                                             <Label
                                                 FontAttributes="Bold"
+                                                IsVisible="{Binding IsBusy}"
                                                 FontSize="{OnPlatform Android={OnIdiom Phone=16,
                                                                                        Tablet=22},
                                                                       iOS={OnIdiom Phone=16,
