@@ -305,13 +305,9 @@
                                     </Grid>
 
                                     <Grid Grid.Column="1">
-                                        <StackLayout
-                                            Grid.Row="0"
-                                            Padding="5,3,5,5"
-                                            HorizontalOptions="CenterAndExpand"
-                                            VerticalOptions="CenterAndExpand">
-
+                                        
                                             <Label
+                                            Grid.Row="0"
                                                 Padding="10"
                                                 BackgroundColor="{Binding DefaultStyle.QuizQuestionBackColor, Converter={StaticResource stringToColorConverter}}"
                                                 FontFamily="{Binding DefaultStyle.DefaultFontFamilyBold}"
@@ -323,9 +319,11 @@
                                                                       macOS=35,
                                                                       WPF=35}"
                                                 Text="{Binding CurrentQuestion.Question}"
+                                                LineBreakMode="WordWrap"
+                                                HorizontalTextAlignment="Center"
+                                                VerticalTextAlignment="Center"
                                                 TextColor="{Binding DefaultStyle.DefaultFontColor, Converter={StaticResource stringToColorConverter}}" />
-
-                                        </StackLayout>
+                                        
                                     </Grid>
                                 </Grid>
                             </StackLayout>
