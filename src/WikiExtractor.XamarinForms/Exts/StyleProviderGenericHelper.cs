@@ -236,6 +236,10 @@ namespace GeneralInformation
                         QuizProgressColor = "#58c3c3",
                         QuizProgressTrackColor = "#1a3939",
                         QuizNextButtonBackColor = "#419191",
+                        QuizAnswerDefaultFontBackColor = "#34495e",
+
+                        PopupHeaderFooterBackColor = "#e5e7e9",
+                        PopupContentBackColor = "#e5e7e9",
 
                         ButtonQuizBackColor = "#657993",
                         ButtonQuizFontColor = "#DEECFC",
