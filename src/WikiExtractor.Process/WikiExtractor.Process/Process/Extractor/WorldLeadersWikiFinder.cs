@@ -137,11 +137,11 @@ namespace WikiExtractor.Process.Extractor
 
             foreach (var elm in elements)
             {
-                if (tColCounter == 2)
+                if (tColCounter == 1)
                 {
                     Common_Portrait_Extract(elm, listOfName);
                 }
-                if (tColCounter == 3)
+                if (tColCounter == 2)
                 {
                     Common_PersonDetail_Extract(elm, listOfName, titleRemoveInnerSpan: false, extractBirthDeath: false);
                     Common_Complex_BirthDeath(elm, listOfName);

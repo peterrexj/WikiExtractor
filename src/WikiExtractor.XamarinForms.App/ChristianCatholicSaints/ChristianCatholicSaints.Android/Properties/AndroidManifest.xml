@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.pj.christiancatholicsaints" android:versionCode="16" android:installLocation="preferExternal" android:versionName="16.0">
-	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="34" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.pj.christiancatholicsaints" android:versionCode="17" android:installLocation="preferExternal" android:versionName="17.0">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="35" />
 	<application android:label="Catholic Saints" android:theme="@style/MainTheme" android:icon="@mipmap/appicon" android:fullBackupContent="@xml/appcenter_backup_rule">
 		<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-4219645367584712~8231475165" />
 	</application>

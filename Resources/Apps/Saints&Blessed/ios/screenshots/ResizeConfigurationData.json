@@ -1,0 +1,49 @@
+{
+  "Configurations": [
+    {
+      "ImageFormatName": ".jpg",
+      "InputFolderPath": "D:\\Pro\\WikiExtractor\\Resources\\Apps\\Saints&Blessed\\ios\\screenshots\\iPhone\\SourceBlended",
+      "DeviceTypeName": "iOS",
+      "RelativeRootPathFromSource": "..",
+      "FolderName": "5.5",
+      "Width": 1242,
+      "Height": 2208
+    },
+    {
+      "ImageFormatName": ".jpg",
+      "InputFolderPath": "D:\\Pro\\WikiExtractor\\Resources\\Apps\\Saints&Blessed\\ios\\screenshots\\iPhone\\SourceBlended",
+      "DeviceTypeName": "iOS",
+      "RelativeRootPathFromSource": "..",
+      "FolderName": "6.5",
+      "Width": 1242,
+      "Height": 2688
+    },
+    {
+      "ImageFormatName": ".jpg",
+      "InputFolderPath": "D:\\Pro\\WikiExtractor\\Resources\\Apps\\Saints&Blessed\\ios\\screenshots\\iPhone\\SourceBlended",
+      "DeviceTypeName": "iOS",
+      "RelativeRootPathFromSource": "..",
+      "FolderName": "6.7",
+      "Width": 1290,
+      "Height": 2796
+    },
+    {
+      "ImageFormatName": ".jpg",
+      "InputFolderPath": "D:\\Pro\\WikiExtractor\\Resources\\Apps\\Saints&Blessed\\ios\\screenshots\\iPad\\SourceBlended",
+      "DeviceTypeName": "iOS",
+      "RelativeRootPathFromSource": "..",
+      "FolderName": "13",
+      "Width": 2064,
+      "Height": 2752
+    },
+    {
+      "ImageFormatName": ".jpg",
+      "InputFolderPath": "D:\\Pro\\WikiExtractor\\Resources\\Apps\\Saints&Blessed\\ios\\screenshots\\iPad\\SourceBlended",
+      "DeviceTypeName": "iOS",
+      "RelativeRootPathFromSource": "..",
+      "FolderName": "12.9",
+      "Width": 2048,
+      "Height": 2732
+    }
+  ]
+}

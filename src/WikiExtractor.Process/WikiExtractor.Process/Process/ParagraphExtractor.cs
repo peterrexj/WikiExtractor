@@ -50,36 +50,54 @@ namespace WikiExtractor.Process
 
                 foreach (var item in allItemsUnderMainBody)
                 {
-                    if (item.Name == "h2")
+                    if (item.Name == "h2" ||
+                        (item.Name == "div" && item.Attributes["class"]?.Value.Contains("mw-heading mw-heading2") == true))
                     {
-                        if (!foundHeaderParaInfo) foundHeaderParaInfo = true;
-                        currentHeaderH2 = item.DecodedInnerText(removeNewLine: true);
-                        currentSubHeaderH3 = string.Empty;
+                        HtmlNode? h2Node = null;
+                        h2Node = item.Name == "h2"
+                            ? item
+                            : item.SelectSingleNode(".//h2");
 
-                        if (currentHeaderH2.HasValue() && currentParaInfoModel.Header.HasValue() && !currentHeaderH2.EqualsIgnoreCase(currentParaInfoModel.Header))
+                        if (h2Node != null)
                         {
-                            //New header and new section
-                            paraDetailsList.Add(currentParaInfoModel.DeepClone());
+                            if (!foundHeaderParaInfo) foundHeaderParaInfo = true;
+                            currentHeaderH2 = h2Node.DecodedInnerText(removeNewLine: true);
+                            currentSubHeaderH3 = string.Empty;
 
-                            currentParaInfoModel = new WikiParagraphModel
+                            if (currentHeaderH2.HasValue() && currentParaInfoModel.Header.HasValue() && !currentHeaderH2.EqualsIgnoreCase(currentParaInfoModel.Header))
                             {
-                                Sequence = paraDetailsList.Count + 1,
-                                Header = currentHeaderH2,
-                            };
-                        }
-                        else
-                        {
-                            if (currentParaInfoModel.Sequence == 0)
-                            {
-                                currentParaInfoModel.Sequence = paraDetailsList.Count + 1;
+                                //New header and new section
+                                paraDetailsList.Add(currentParaInfoModel.DeepClone());
+
+                                currentParaInfoModel = new WikiParagraphModel
+                                {
+                                    Sequence = paraDetailsList.Count + 1,
+                                    Header = currentHeaderH2,
+                                };
                             }
-                        }
+                            else
+                            {
+                                if (currentParaInfoModel.Sequence == 0)
+                                {
+                                    currentParaInfoModel.Sequence = paraDetailsList.Count + 1;
+                                }
+                            }
 
-                        currentParaInfoModel.Header = currentHeaderH2;
+                            currentParaInfoModel.Header = currentHeaderH2;
+                        }
                     }
-                    else if (item.Name == "h3")
+                    else if (item.Name == "h3" ||
+                             (item.Name == "div" && item.Attributes["class"]?.Value.Contains("mw-heading mw-heading3") == true))
                     {
-                        currentSubHeaderH3 = item.DecodedInnerText(removeNewLine: true);
+                        HtmlNode? h3Node = null;
+                        h3Node = item.Name == "h3"
+                            ? item
+                            : item.SelectSingleNode(".//h3");
+
+                        if (h3Node != null)
+                        {
+                            currentSubHeaderH3 = item.DecodedInnerText(removeNewLine: true);
+                        }
                     }
                     else if (item.Name == "p" && (foundHeaderParaInfo == false || currentHeaderH2.IsEmpty()))
                     {

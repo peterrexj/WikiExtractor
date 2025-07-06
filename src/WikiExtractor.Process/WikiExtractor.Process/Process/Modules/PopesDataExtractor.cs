@@ -31,11 +31,11 @@ namespace WikiExtractor.Process.Modules
             var centuryPopes03 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 3rd century", new List<string> { "All", "3rd century" }, hasPortrait: false, hasPersonalName: false);
             var centuryPopes04 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 4th century", new List<string> { "All", "4th century" }, hasPortrait: false, hasPersonalName: false);
             var centuryPopes05 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 5th century", new List<string> { "All", "5th century" }, hasPortrait: false, hasPersonalName: false);
-            var centuryPopes06 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 6th century", new List<string> { "All", "6th century" }, hasPortrait: false, hasPersonalName: false);
-            var centuryPopes07 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 7th century", new List<string> { "All", "7th century" }, hasPortrait: false, hasPersonalName: false);
+            var centuryPopes06 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 6th century", new List<string> { "All", "6th century" }, hasPortrait: true, hasPersonalName: true);
+            var centuryPopes07 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 7th century", new List<string> { "All", "7th century" }, hasPortrait: true, hasPersonalName: true);
             var centuryPopes08 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 8th century", new List<string> { "All", "8th century" }, hasPortrait: true, hasPersonalName: true);
             var centuryPopes09 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 9th century", new List<string> { "All", "9th century" }, hasPortrait: true, hasPersonalName: true);
-            var centuryPopes10 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 10th century", new List<string> { "All", "10th century" }, hasPortrait: false, hasPersonalName: false);
+            var centuryPopes10 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 10th century", new List<string> { "All", "10th century" }, hasPortrait: true, hasPersonalName: true);
             var centuryPopes11 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 11th century", new List<string> { "All", "11th century" }, hasPortrait: true, hasPersonalName: true);
             var centuryPopes12 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 12th century", new List<string> { "All", "12th century" }, hasPortrait: true, hasPersonalName: true);
             var centuryPopes13 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 13th century", new List<string> { "All", "13th century" }, hasPortrait: true, hasPersonalName: true);
