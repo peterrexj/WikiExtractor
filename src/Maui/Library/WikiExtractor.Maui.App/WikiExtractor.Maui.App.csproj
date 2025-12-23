@@ -174,7 +174,7 @@
 		<Compile Include="..\PjLibraryCompat.cs" Link="PjLibraryCompat.cs" />
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\..\..\..\..\PjAds.Maui\PjAds.Maui.csproj" />
+	  <ProjectReference Include="..\PjAds.Maui\PjAds.Maui.csproj" />
 	</ItemGroup>
 
 	<!-- Project References -->
