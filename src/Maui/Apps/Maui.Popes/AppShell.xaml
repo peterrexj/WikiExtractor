@@ -1,14 +1,99 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="Maui.Popes.AppShell"
+    x:Class="Maui.Wiki.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Maui.Popes"
-    Title="Maui.Popes">
+    xmlns:local="clr-namespace:Maui.Wiki"
+    xmlns:views="clr-namespace:WikiExtractor.Maui.App.Views;assembly=WikiExtractor.Maui.App"
+    Title="Wiki of Church"
+    FlyoutBackgroundColor="{DynamicResource WikiAppBackgroundColor}"
+    FlyoutWidth="300"
+    BackgroundColor="{DynamicResource WikiAppBackgroundColor}"
+    ForegroundColor="{DynamicResource WikiAppDefaultForegroundColor}"
+    TitleColor="{DynamicResource WikiAppDefaultForegroundColor}">
 
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid
+                x:Name="FlyoutItemLayout"
+                ColumnSpacing="0"
+                HeightRequest="50"
+                RowSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.05*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Image
+                    x:Name="FlyoutItemImage"
+                    HeightRequest="24"
+                    HorizontalOptions="Center"
+                    Source="{Binding FlyoutIcon}"
+                    VerticalOptions="Center"
+                    WidthRequest="24">
+                </Image>
+                <Label
+                    x:Name="FlyoutItemLabel"
+                    Grid.Column="1"
+                    FontAttributes="Bold"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    HorizontalTextAlignment="Start"
+                    Text="{Binding Title}"
+                    TextColor="{DynamicResource WikiAppDefaultForegroundColor}"
+                    VerticalTextAlignment="Center"
+                    Margin="10,0,1,0">
+                </Label>
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="Transparent" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{DynamicResource WikiAppDefaultForegroundColor}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource WikiAppPrimaryColor}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </VisualStateManager.VisualStateGroups>
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <Shell.FlyoutFooter>
+        <Grid BackgroundColor="{DynamicResource WikiAppAccentColor}">
+            <Label
+                Margin="5"
+                FontAttributes="Italic,Bold"
+                FontSize="14"
+                HorizontalOptions="Center"
+                Text="Powered By Wikipedia"
+                TextColor="White" />
+        </Grid>
+    </Shell.FlyoutFooter>
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{DynamicResource WikiAppBackgroundColor}" />
+                <Setter Property="Shell.ForegroundColor" Value="{DynamicResource WikiAppDefaultForegroundColor}" />
+                <Setter Property="Shell.TitleColor" Value="{DynamicResource WikiAppDefaultForegroundColor}" />
+            </Style>
+            <Style BasedOn="{StaticResource BaseStyle}" TargetType="TabBar" />
+            <Style BasedOn="{StaticResource BaseStyle}" TargetType="FlyoutItem" />
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <!-- Default content - will be populated dynamically by WikiAppController -->
+    <!--
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    -->
 
 </Shell>

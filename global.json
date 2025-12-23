@@ -1,0 +1,8 @@
+{
+  "sdk": {
+    "version": "9.0.305"
+  },
+  "msbuild-sdks": {
+    "Microsoft.Android.Sdk": "36.0.0"
+  }
+}

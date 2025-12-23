@@ -1,16 +1,22 @@
 ﻿using Android.App;
 using Android.Runtime;
+using System;
 
-namespace Maui.Popes
+namespace Maui.Wiki
 {
     [Application]
-    public class MainApplication : MauiApplication
+    public class MainApplication : Android.App.Application
     {
         public MainApplication(IntPtr handle, JniHandleOwnership ownership)
             : base(handle, ownership)
         {
         }
 
-        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+        public override void OnCreate()
+        {
+            base.OnCreate();
+            // Initialize MAUI app
+            MauiProgram.CreateMauiApp();
+        }
     }
 }

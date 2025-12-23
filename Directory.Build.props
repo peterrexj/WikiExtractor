@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <MauiVersion>9.0.100</MauiVersion>
+  </PropertyGroup>
+  
+  <!-- Define compilation constants based on target framework -->
+  <PropertyGroup>
+    <!-- Disable NET9_0_OR_GREATER to prevent collection expressions from being used -->
+    <DefineConstants Condition="'$(TargetFramework)' == 'net9.0'">$(DefineConstants);DISABLE_NET9_FEATURES</DefineConstants>
+    
+    <!-- Handle .NET 8 targets when using .NET 9 SDK -->
+    <DefineConstants Condition="'$(TargetFramework)' == 'net8.0' OR '$(TargetFramework)' == 'net8.0-android' OR '$(TargetFramework)' == 'net8.0-android33.0' OR '$(TargetFramework)' == 'net8.0-ios' OR '$(TargetFramework)' == 'net8.0-maccatalyst'">$(DefineConstants);NET8_0;NET8_0_OR_GREATER</DefineConstants>
+    
+    <!-- Ensure NET9_0_OR_GREATER is not defined for non-.NET 9 targets -->
+    <DefineConstants Condition="'$(TargetFramework)' != 'net9.0'">$(DefineConstants);DISABLE_NET9_FEATURES</DefineConstants>
+  </PropertyGroup>
+</Project>

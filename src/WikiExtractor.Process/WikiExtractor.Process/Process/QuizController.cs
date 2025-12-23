@@ -45,7 +45,7 @@ namespace WikiExtractor.Process.Process
                 // take action to reset and start the quiz again
             }
 
-            int questionCount = 10;
+            int questionCount = 3; //TODO: Change to 10 or configurable
             var randomQuestions = RandomGeneratorHelper.RandomizeSubset(newQuizOptions, questionCount, ensureUnique: false);
 
             var masterIds = new HashSet<int>(randomQuestions.Select(q => q.MasterId));

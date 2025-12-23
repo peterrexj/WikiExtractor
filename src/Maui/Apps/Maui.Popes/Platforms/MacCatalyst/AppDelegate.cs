@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Maui.Popes
+namespace Maui.Wiki
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Maui.Popes
+namespace Maui.Wiki
 {
     public class Program
     {

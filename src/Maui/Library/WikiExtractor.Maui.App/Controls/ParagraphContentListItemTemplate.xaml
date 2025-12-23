@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DataTemplate
+    x:Class="WikiExtractor.Maui.App.Controls.ParagraphContentListItemTemplate"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    
+    <!-- Enhanced Paragraph template with proper spacing and background -->
+    <Border
+        Margin="{OnIdiom Phone='5,3,5,3', Tablet='8,5,8,5', Desktop='8,5,8,5', Default='5,3,5,3'}"
+        Padding="{OnIdiom Phone='12,8', Tablet='16,12', Desktop='16,12', Default='12,8'}"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="Fill"
+        BackgroundColor="{DynamicResource WikiAppContentBackgroundColor}"
+        StrokeShape="RoundRectangle 4"
+        Stroke="{DynamicResource WikiAppGrayColor}"
+        StrokeThickness="0.5">
+        
+        <Label
+            CharacterSpacing="{OnIdiom Phone=0.3, Tablet=0.4, Desktop=0.4, Default=0.3}"
+            FontFamily="{StaticResource DefaultFontFamily}"
+            FontSize="{OnIdiom Phone=14, Tablet=17, Desktop=17, Default=14}"
+            LineBreakMode="WordWrap"
+            LineHeight="{OnIdiom Phone=1.3, Tablet=1.4, Desktop=1.4, Default=1.3}"
+            Text="{Binding Content}"
+            TextColor="{DynamicResource WikiAppDefaultFontColor}"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            VerticalTextAlignment="Start"
+            HorizontalTextAlignment="Start" />
+    </Border>
+</DataTemplate>
