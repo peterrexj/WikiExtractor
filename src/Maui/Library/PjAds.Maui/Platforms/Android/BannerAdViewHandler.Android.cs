@@ -1,36 +1,58 @@
 #if ANDROID
 using Android.Content;
-using AndroidX.Fragment.App;
 using Android.Gms.Ads;
 using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Handlers;
 using PjAds.Maui.Controls;
 using PjAds.Maui.Models;
 using PjAds.Maui.Services;
+using Android.Views;
 
 namespace PjAds.Maui.Controls
 {
-    /// <summary>
-    /// Android-specific handler for BannerAdView
-    /// </summary>
     public partial class BannerAdViewHandler : ViewHandler<BannerAdView, Android.Views.View>
     {
         private IBannerAdService? _bannerAdService;
         private ILogger<BannerAdViewHandler>? _logger;
+        private AdView? _adView;
 
         protected override Android.Views.View CreatePlatformView()
         {
-            var context = Context ?? Platform.CurrentActivity ?? Android.App.Application.Context;
-            var adView = new AdView(context);
-            
-            // Get services
             _bannerAdService = MauiContext?.Services?.GetService<IBannerAdService>();
             _logger = MauiContext?.Services?.GetService<ILogger<BannerAdViewHandler>>();
 
-            // Set up initial configuration
-            UpdateAdConfiguration(adView);
-            
-            // Subscribe to events
+            // Create a FrameLayout as a container (similar to the UIView container in iOS)
+            // This allows us to swap the AdView inside it without breaking the MAUI layout
+            var container = new Android.Widget.FrameLayout(Context);
+            container.LayoutParameters = new ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MatchParent,
+                ViewGroup.LayoutParams.WrapContent);
+
+            _adView = CreateNativeAdView();
+            if (_adView != null)
+            {
+                container.AddView(_adView);
+            }
+
+            return container;
+        }
+
+        private AdView CreateNativeAdView()
+        {
+            var adView = new AdView(Context);
+
+            if (!string.IsNullOrEmpty(VirtualView.AdUnitId))
+                adView.AdUnitId = VirtualView.AdUnitId;
+
+            adView.AdSize = ConvertToAndroidAdSize(VirtualView.AdSize);
+
+            return adView;
+        }
+
+        protected override void ConnectHandler(Android.Views.View platformView)
+        {
+            base.ConnectHandler(platformView);
+
             if (_bannerAdService != null)
             {
                 _bannerAdService.AdLoaded += OnAdLoaded;
@@ -39,20 +61,11 @@ namespace PjAds.Maui.Controls
                 _bannerAdService.AdImpression += OnAdImpression;
             }
 
-            return adView;
-        }
-
-        protected override void ConnectHandler(Android.Views.View platformView)
-        {
-            base.ConnectHandler(platformView);
-            
-            // Load the ad when the view is connected
             LoadAd();
         }
 
         protected override void DisconnectHandler(Android.Views.View platformView)
         {
-            // Unsubscribe from events
             if (_bannerAdService != null)
             {
                 _bannerAdService.AdLoaded -= OnAdLoaded;
@@ -61,69 +74,54 @@ namespace PjAds.Maui.Controls
                 _bannerAdService.AdImpression -= OnAdImpression;
             }
 
-            // Destroy the ad
-            if (platformView is AdView adView)
-            {
-                adView.Destroy();
-            }
-            
+            _adView?.Destroy();
+            _adView = null;
+
             base.DisconnectHandler(platformView);
         }
 
-        protected void UpdateAdUnitId()
+        // --- Partial Method Implementations ---
+
+        partial void UpdateAdUnitId() => RecreateAdView();
+
+        partial void UpdateAdSize() => RecreateAdView();
+
+        partial void UpdateBannerType() => LoadAd();
+
+        private void RecreateAdView()
         {
-            if (PlatformView is AdView adView && !string.IsNullOrEmpty(VirtualView.AdUnitId))
+            if (PlatformView is Android.Widget.FrameLayout container)
             {
-                adView.AdUnitId = VirtualView.AdUnitId;
+                _logger?.LogInformation("Recreating Android AdView due to property change.");
+
+                // Clean up old view
+                _adView?.Destroy();
+                container.RemoveAllViews();
+
+                // Create and add new view
+                _adView = CreateNativeAdView();
+                container.AddView(_adView);
+
                 LoadAd();
-            }
-        }
-
-        protected void UpdateAdSize()
-        {
-            if (PlatformView is AdView adView)
-            {
-                var androidAdSize = ConvertToAndroidAdSize(VirtualView.AdSize);
-                adView.AdSize = androidAdSize;
-                LoadAd();
-            }
-        }
-
-        protected void UpdateBannerType()
-        {
-            // Banner type is handled by the service, just reload the ad
-            LoadAd();
-        }
-
-        private void UpdateAdConfiguration(Android.Views.View platformView)
-        {
-            if (platformView is AdView adView)
-            {
-                if (!string.IsNullOrEmpty(VirtualView.AdUnitId))
-                {
-                    adView.AdUnitId = VirtualView.AdUnitId;
-                }
-
-                var androidAdSize = ConvertToAndroidAdSize(VirtualView.AdSize);
-                adView.AdSize = androidAdSize;
             }
         }
 
         private void LoadAd()
         {
-            if (PlatformView == null || _bannerAdService == null || string.IsNullOrEmpty(VirtualView.AdUnitId))
+            if (_adView == null || _bannerAdService == null || string.IsNullOrEmpty(VirtualView.AdUnitId))
                 return;
 
             try
             {
+                // We pass _adView specifically to the service
                 _ = Task.Run(async () =>
                 {
-                    await _bannerAdService.LoadBannerAdAsync(PlatformView, VirtualView.AdUnitId);
+                    await _bannerAdService.LoadBannerAdAsync(_adView, VirtualView.AdUnitId);
                 });
             }
             catch (Exception ex)
             {
-                _logger?.LogError(ex, "Failed to load banner ad");
+                _logger?.LogError(ex, "Failed to load Android banner ad");
             }
         }
 
@@ -141,25 +139,10 @@ namespace PjAds.Maui.Controls
             };
         }
 
-        private void OnAdLoaded(object? sender, AdLoadedEventArgs e)
-        {
-            VirtualView.OnAdLoaded(e);
-        }
-
-        private void OnAdFailedToLoad(object? sender, AdFailedToLoadEventArgs e)
-        {
-            VirtualView.OnAdFailedToLoad(e);
-        }
-
-        private void OnAdClicked(object? sender, AdClickedEventArgs e)
-        {
-            VirtualView.OnAdClicked(e);
-        }
-
-        private void OnAdImpression(object? sender, AdImpressionEventArgs e)
-        {
-            VirtualView.OnAdImpression(e);
-        }
+        private void OnAdLoaded(object? sender, AdLoadedEventArgs e) => VirtualView?.OnAdLoaded(e);
+        private void OnAdFailedToLoad(object? sender, AdFailedToLoadEventArgs e) => VirtualView?.OnAdFailedToLoad(e);
+        private void OnAdClicked(object? sender, AdClickedEventArgs e) => VirtualView?.OnAdClicked(e);
+        private void OnAdImpression(object? sender, AdImpressionEventArgs e) => VirtualView?.OnAdImpression(e);
     }
 }
 #endif

@@ -11,26 +11,19 @@ namespace WikiExtractor.Maui.App.Exts
 {
     public static class StylePropertyHelper
     {
-
-        public static IStyleModel LoadStyle(WikiExtractor.Maui.App.Services.AppThemes appTheme)
-        {
-            return CustomServices.AppEnvironment.GetStyle(appTheme);
-        }
-
         public static int GetStyleOnListItemHeightRequestOnListPage()
         {
-            var appInfo = CustomServices.AppInformation;
             if (DeviceInfo.Idiom == DeviceIdiom.Phone)
             {
-                return appInfo.StyleOnListItemHeightRequestOnListPagePhone;
+                return SharedServiceCore.AppInformation.StyleOnListItemHeightRequestOnListPagePhone;
             }
             else if (DeviceInfo.Idiom == DeviceIdiom.Tablet)
             {
-                return appInfo.StyleOnListItemHeightRequestOnListPageTablet;
+                return SharedServiceCore.AppInformation.StyleOnListItemHeightRequestOnListPageTablet;
             }
             else if (DeviceInfo.Idiom == DeviceIdiom.Desktop)
             {
-                return appInfo.StyleOnListItemHeightRequestOnListPageDesktop;
+                return SharedServiceCore.AppInformation.StyleOnListItemHeightRequestOnListPageDesktop;
             }
             return ConfigData.MinHeightOfListItemInListPage;
         }

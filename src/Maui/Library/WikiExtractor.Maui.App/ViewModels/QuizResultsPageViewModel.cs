@@ -1,10 +1,8 @@
 using System.Collections.ObjectModel;
 using System.Windows.Input;
-using Microsoft.Maui.Graphics;
-using Syncfusion.Maui.Charts;
 using WikiExtractor.Maui.App.ViewModels.Charts;
 using WikiExtractor.ViewModels;
-using Microsoft.Maui.Controls;
+using WikiExtractor.Maui.App.Services;
 
 namespace WikiExtractor.Maui.App.ViewModels;
 
@@ -18,6 +16,7 @@ public class QuizResultsPageViewModel : BaseViewModel, IQueryAttributable
         {
             _chartPassFailData = value;
             OnPropertyChanged();
+            OnPropertyChanged(nameof(CorrectCountText));
         }
     }
 
@@ -43,47 +42,71 @@ public class QuizResultsPageViewModel : BaseViewModel, IQueryAttributable
         }
     }
 
+    private ObservableCollection<QuizPageQuestionViewModel> _tempQuestions;
+    private ObservableCollection<DataModel> _tempChartData;
+
     public ICommand CloseQuizCommand { get; set; }
 
     public QuizResultsPageViewModel()
     {
         CloseQuizCommand = new Command(async () => await CloseQuizAsync());
-
-        // Initialize default colors (will be overridden when data is passed)
-        CustomChartColors = new ObservableCollection<Brush>
-        {
-            new SolidColorBrush(Color.FromArgb("#4CAF50")), // Green for correct
-            new SolidColorBrush(Color.FromArgb("#F44336")), // Red for wrong
-            new SolidColorBrush(Color.FromArgb("#FF9800"))  // Orange for not answered
-        };
     }
 
-    public void Initialize(ObservableCollection<QuizPageQuestionViewModel> questions,
-                          ObservableCollection<DataModel> chartData,
-                          ObservableCollection<Brush> chartColors)
+    public string CorrectCountText
     {
-        Questions = questions;
-        ChartPassFailData = chartData;
-        CustomChartColors = chartColors;
+        get
+        {
+            if (ChartPassFailData == null || ChartPassFailData.Count == 0)
+                return "0/0";
+
+            // Find the "Correct" category and the total sum of all values
+            var correct = ChartPassFailData.FirstOrDefault(d => d.Category.StartsWith("correct", StringComparison.InvariantCultureIgnoreCase))?.Value ?? 0;
+            var total = ChartPassFailData.Sum(d => d.Value);
+
+            return $"{correct}/{total}";
+        }
+    }
+
+    public async Task LoadChartDataAsync()
+    {
+        // 1. Wait for the transition
+        await Task.Delay(1000);
+
+        // 2. Await the actual results from your Service TCS
+        var colors = await SharedServiceCore.ThemeHandler.GetChartColorsAsync();
+
+        // 3. Update on Main Thread
+        MainThread.BeginInvokeOnMainThread(() =>
+        {
+            // Assign colors first
+            CustomChartColors = colors;
+
+            // Assign data
+            if (_tempQuestions != null) Questions = _tempQuestions;
+            if (_tempChartData != null) ChartPassFailData = _tempChartData;
+
+            // Force the Score text to update
+            OnPropertyChanged(nameof(CorrectCountText));
+
+            IsPageBusy = false;
+        });
     }
 
     public void ApplyQueryAttributes(IDictionary<string, object> query)
     {
         try
         {
-            if (query.ContainsKey("Questions") && query["Questions"] is ObservableCollection<QuizPageQuestionViewModel> questions)
+            // 1. Capture the data from the navigation dictionary
+            if (query.TryGetValue("Questions", out var q) && q is ObservableCollection<QuizPageQuestionViewModel> questions)
             {
-                Questions = questions;
+                // Don't assign to the Public Property yet to prevent the ListView from 
+                // trying to render while the page animation is running
+                _tempQuestions = questions;
             }
 
-            if (query.ContainsKey("ChartData") && query["ChartData"] is ObservableCollection<DataModel> chartData)
+            if (query.TryGetValue("ChartData", out var c) && c is ObservableCollection<DataModel> chartData)
             {
-                ChartPassFailData = chartData;
-            }
-
-            if (query.ContainsKey("ChartColors") && query["ChartColors"] is ObservableCollection<Brush> chartColors)
-            {
-                CustomChartColors = chartColors;
+                _tempChartData = chartData;
             }
         }
         catch (Exception ex)

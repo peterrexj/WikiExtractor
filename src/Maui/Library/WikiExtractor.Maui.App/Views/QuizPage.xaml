@@ -3,192 +3,87 @@
     x:Class="WikiExtractor.Maui.App.Views.QuizPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ads="clr-namespace:PjAds.Maui.Controls;assembly=PjAds.Maui"
     xmlns:local="clr-namespace:WikiExtractor.Maui.App.Exts"
-    xmlns:sfEffectsView="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core">
+    xmlns:sfButtons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
+    xmlns:sfCore="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
+    xmlns:sfEffectsView="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
+    xmlns:stepProgressBar="clr-namespace:Syncfusion.Maui.ProgressBar;assembly=Syncfusion.Maui.ProgressBar">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
-            
-            <!-- Summary Popup -->
-            <Grid x:Name="SummaryPopup" IsVisible="{Binding IsPopupOpen}" BackgroundColor="{DynamicResource WikiAppPopupOverlayColor}">
-                <Border Style="{DynamicResource QuizPopupBorderStyle}">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto" />
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="Auto" />
-                        </Grid.RowDefinitions>
-                        
-                        <!-- Header -->
-                        <Grid Grid.Row="0" Style="{DynamicResource QuizPopupHeaderStyle}">
-                            <Label Text="Summary" 
-                                   FontAttributes="Bold" 
-                                   FontFamily="{StaticResource DefaultFontFamily}" 
-                                   FontSize="18" 
-                                   HorizontalTextAlignment="Center" 
-                                   TextColor="{DynamicResource WikiAppDefaultFontColor}" />
-                        </Grid>
-                        
-                        <!-- Content -->
-                        <ScrollView Grid.Row="1" Padding="10">
-                            <StackLayout>
-                                <!-- Simple chart placeholder -->
-                                <Border Margin="10" 
-                                        Stroke="{DynamicResource WikiAppChartBorderColor}" 
-                                        StrokeThickness="1" 
-                                        HeightRequest="150">
-                                    <Label Text="Chart Placeholder" 
-                                           HorizontalOptions="Center" 
-                                           VerticalOptions="Center" 
-                                           FontSize="16" 
-                                           TextColor="{DynamicResource WikiAppDefaultFontColor}" />
-                                </Border>
-                                
-                                <!-- Questions List -->
-                                <CollectionView ItemsSource="{Binding Questions}">
-                                    <CollectionView.ItemTemplate>
-                                        <DataTemplate>
-                                            <Frame Margin="5,2" 
-                                                   Padding="10" 
-                                                   BackgroundColor="{Binding QuizUserAnswerBasedBackgroundColor}">
-                                                <StackLayout>
-                                                    <Label FontFamily="{StaticResource DefaultFontFamily}" 
-                                                           FontAttributes="Bold"
-                                                           FontSize="14" 
-                                                           TextColor="{DynamicResource WikiAppQuizAnswerDefaultFontBackColor}">
-                                                        <Label.FormattedText>
-                                                            <FormattedString>
-                                                                <Span Text="Q." />
-                                                                <Span Text="{Binding Id}" />
-                                                                <Span Text="  " />
-                                                                <Span Text="{Binding Question}" />
-                                                            </FormattedString>
-                                                        </Label.FormattedText>
-                                                    </Label>
-                                                    <Label FontFamily="{StaticResource DefaultFontFamily}" 
-                                                           FontAttributes="Bold"
-                                                           FontSize="14" 
-                                                           TextColor="{DynamicResource WikiAppQuizAnswerDefaultFontBackColor}">
-                                                        <Label.FormattedText>
-                                                            <FormattedString>
-                                                                <Span Text="Answer: " />
-                                                                <Span Text="{Binding CorrectAnswer}" />
-                                                            </FormattedString>
-                                                        </Label.FormattedText>
-                                                    </Label>
-                                                </StackLayout>
-                                            </Frame>
-                                        </DataTemplate>
-                                    </CollectionView.ItemTemplate>
-                                </CollectionView>
-                            </StackLayout>
-                        </ScrollView>
-                        
-                        <!-- Footer -->
-                        <Grid Grid.Row="2" Style="{DynamicResource QuizPopupHeaderStyle}">
-                            <Button Text="Close Quiz" 
-                                    Command="{Binding ClosePopupCommand}" 
-                                    BackgroundColor="Transparent" 
-                                    FontAttributes="Bold" 
-                                    FontFamily="{StaticResource DefaultFontFamily}" 
-                                    FontSize="16" 
-                                    TextColor="{DynamicResource WikiAppDefaultFontColor}" />
-                        </Grid>
-                    </Grid>
-                </Border>
-            </Grid>
 
-            <!-- Main Content with Background -->
+            <!--  Main Content with Background  -->
             <Grid Grid.Row="0" Background="{DynamicResource WikiAppQuizPageBackgroundGradientBrush}">
                 <StackLayout>
-                    <!-- Progress Bar -->
+                    <!--  Progress Bar  -->
                     <StackLayout Margin="0,15,0,15">
-                        <ProgressBar Progress="{Binding ProgressValue}" 
-                                     ProgressColor="{DynamicResource WikiAppQuizProgressColor}" 
-                                     BackgroundColor="{DynamicResource WikiAppQuizProgressTrackColor}" />
+                        <stepProgressBar:SfLinearProgressBar
+                            Progress="{Binding ProgressValue}"
+                            ProgressFill="{DynamicResource WikiAppQuizProgressColor}"
+                            SegmentCount="10"
+                            TrackFill="{DynamicResource WikiAppQuizProgressTrackColor}" />
                     </StackLayout>
-                    
-                    <!-- Question Section -->
+
                     <StackLayout>
                         <Border Style="{DynamicResource TopBorderStyle}">
-                            <Grid Background="{DynamicResource WikiAppQuizTopPanelBackgroundGradientBrush}">
-                                <StackLayout Padding="10">
-                                    <Grid>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.25*, Tablet=0.25*}, iOS={OnIdiom Phone=0.25*, Tablet=0.25*}, WinUI=0.25*, MacCatalyst=0.25*}" />
-                                            <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.75*, Tablet=0.75*}, iOS={OnIdiom Phone=0.75*, Tablet=0.75*}, WinUI=0.75*, MacCatalyst=0.75}" />
-                                        </Grid.ColumnDefinitions>
-                                        
-                                        <!-- Image Column -->
-                                        <Grid Grid.Column="0">
-                                            <Grid.RowDefinitions>
-                                                <RowDefinition Height="*" />
-                                                <RowDefinition Height="Auto" />
-                                            </Grid.RowDefinitions>
-                                            <local:ExtendedImage
-                                                x:Name="imgList"
-                                                Grid.Row="0"
-                                                Aspect="AspectFit"
-                                                CustomSource="{Binding CurrentQuestion.MasterPicPath}"
-                                                HeightRequest="130"
-                                                HorizontalOptions="FillAndExpand"
-                                                ImageHeight="{Binding CurrentQuestion.MasterPicHeight}"
-                                                ImageWidth="{Binding CurrentQuestion.MasterPicWidth}"
-                                                LocalFileName="{Binding CurrentQuestion.MasterPicLocalFileName}"
-                                                PageCancellationTokenSource="{Binding PageCancellationTokenSource}"
-                                                VerticalOptions="Start"
-                                                WidthRequest="120" />
-                                            <Label
-                                                Grid.Row="1"
-                                                Margin="0,-6,0,0"
-                                                FontAttributes="Bold"
-                                                FontFamily="{StaticResource DefaultFontFamily}"
-                                                FontSize="{OnPlatform Android={OnIdiom Phone=10, Tablet=14}, iOS={OnIdiom Phone=10, Tablet=14}, WinUI=14, MacCatalyst=14}"
-                                                HorizontalOptions="CenterAndExpand"
-                                                LineBreakMode="CharacterWrap"
-                                                Text="{Binding CurrentQuestion.MasterName}"
-                                                TextColor="{DynamicResource WikiAppDefaultFontColor}" />
-                                        </Grid>
+                            <Grid
+                                Padding="12"
+                                Background="{DynamicResource WikiAppQuizTopPanelBackgroundGradientBrush}"
+                                ColumnDefinitions="Auto, *"
+                                ColumnSpacing="15">
 
-                                        <!-- Question Column -->
-                                        <Grid Grid.Column="1">
-                                            <!-- Padding="10" -->
-                                            <Frame
-                                                Grid.Row="0"
-                                                
-                                                BackgroundColor="{DynamicResource WikiAppQuizQuestionBackColor}"
-                                                HasShadow="False">
-                                                    <Label
-                                                        FontFamily="{StaticResource DefaultFontFamily}"
-                                                        FontAttributes="Bold"
-                                                        FontSize="{OnPlatform Android={OnIdiom Phone=20, Tablet=30}, iOS={OnIdiom Phone=20, Tablet=30}, WinUI=30, MacCatalyst=30}"
-                                                        HorizontalTextAlignment="Start"
-                                                        LineBreakMode="WordWrap"
-                                                        Text="{Binding CurrentQuestion.Question}"
-                                                        TextColor="{DynamicResource WikiAppDefaultFontColor}"
-                                                        VerticalTextAlignment="Center" />
-                                            </Frame>
-                                        </Grid>
+                                <VerticalStackLayout
+                                    Grid.Column="0"
+                                    Spacing="4"
+                                    VerticalOptions="Start"
+                                    WidthRequest="120">
+
+                                    <Grid HeightRequest="130" WidthRequest="120">
+
+                                        <local:ExtendedImage
+                                            x:Name="imgList"
+                                            Aspect="AspectFit"
+                                            CustomSource="{Binding CurrentQuestion.MasterPicPath}"
+                                            HeightRequest="130"
+                                            ImageHeight="{Binding CurrentQuestion.MasterPicHeight}"
+                                            ImageWidth="{Binding CurrentQuestion.MasterPicWidth}"
+                                            LocalFileName="{Binding CurrentQuestion.MasterPicLocalFileName}"
+                                            PageCancellationTokenSource="{Binding PageCancellationTokenSource}"
+                                            WidthRequest="120" />
+
+                                        <sfCore:SfBusyIndicator
+                                            HorizontalOptions="Center"
+                                            IndicatorColor="{DynamicResource WikiAppQuizAnswerDefaultFontBackColor}"
+                                            IsRunning="{Binding Source={x:Reference imgList}, Path=IsLoading}"
+                                            IsVisible="{Binding Source={x:Reference imgList}, Path=IsLoading}"
+                                            VerticalOptions="Center" />
+
                                     </Grid>
-                                </StackLayout>
+
+                                    <Label Style="{StaticResource WikiAppQuizSmallCaptionLabelStyle}" Text="{Binding CurrentQuestion.MasterName}" />
+                                </VerticalStackLayout>
+
+                                <Border
+                                    Grid.Column="1"
+                                    BackgroundColor="{DynamicResource WikiAppQuizQuestionBackColor}"
+                                    StrokeShape="RoundRectangle 8"
+                                    StrokeThickness="0">
+                                    <Label Style="{DynamicResource WikiAppQuizQuestionLabelStyle}" Text="{Binding CurrentQuestion.Question}" />
+                                </Border>
+
                             </Grid>
                         </Border>
                     </StackLayout>
-                    
-                    <!-- Answers Section -->
+
+                    <!--  Answers Section  -->
                     <ScrollView>
                         <StackLayout>
-                            <!-- Question Counter Label -->
-                            <Label
-                                Margin="{OnPlatform Android={OnIdiom Phone='10,10,10,0', Tablet='10,20,10,0'}, iOS={OnIdiom Phone='10,10,10,0', Tablet='10,20,10,0'}, WinUI={OnIdiom Phone='10,10,10,0', Tablet='10,20,10,0', Desktop='10,20,10,0'}, MacCatalyst='10,20,10,0'}"
-                                Padding="10,0,0,3"
-                                FontAttributes="Bold"
-                                FontFamily="{StaticResource DefaultFontFamily}"
-                                FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=30}, iOS={OnIdiom Phone=18, Tablet=30}, WinUI=30, MacCatalyst=30}"
-                                TextColor="{DynamicResource WikiAppDefaultFontColor}">
+                            <!--  Question Counter Label  -->
+                            <Label Style="{DynamicResource WikiAppQuizQuestionCounterLabelStyle}">
                                 <Label.FormattedText>
                                     <FormattedString>
                                         <Span Text="Question " />
@@ -201,92 +96,60 @@
                                 </Label.FormattedText>
                             </Label>
 
-                            <!-- Answer Buttons with SfEffectsView -->
-                            <sfEffectsView:SfEffectsView
-                                x:Name="answer1EffectsView"
-                                Margin="{OnPlatform Android={OnIdiom Phone='10,10,10,0', Tablet='10,10,10,0'}, iOS={OnIdiom Phone='10,10,10,0', Tablet='10,10,10,0'}, WinUI={OnIdiom Phone='10,10,10,0', Tablet='10,10,10,0', Desktop='10,10,10,0'}, MacCatalyst='10,10,10,0'}"
-                                AnimationCompleted="answer1EffectsView_AnimationCompleted"
-                                AutomationId="{Binding CurrentQuestion.Id}"
-                                RippleAnimationDuration="300"
-                                TouchDownEffects="Ripple">
+                            <!--  Answer Buttons with SfEffectsView  -->
+                            <sfEffectsView:SfEffectsView Style="{DynamicResource WikiAppQuizAnswerEffectStyle}" TouchUpCommand="{Binding AnswerSelectedCommand}">
+                                <sfEffectsView:SfEffectsView.TouchUpCommandParameter>
+                                    <x:Int32>1</x:Int32>
+                                </sfEffectsView:SfEffectsView.TouchUpCommandParameter>
                                 <Border StrokeShape="RoundRectangle 5">
                                     <Label
                                         x:Name="lblAnswer1Option"
-                                        Padding="10"
-                                        BackgroundColor="{Binding Answer1BackColor}"
-                                        FontFamily="{StaticResource DefaultFontFamily}"
-                                        FontAttributes="Bold"
-                                        FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=30}, iOS={OnIdiom Phone=16, Tablet=30}, WinUI=30, MacCatalyst=30}"
-                                        LineBreakMode="WordWrap"
-                                        Text="{Binding Answer1}"
-                                        TextColor="{DynamicResource WikiAppQuizAnswerDefaultFontBackColor}" />
+                                        Background="{Binding Answer1BackColor}"
+                                        Style="{DynamicResource WikiAppQuizAnswerLabelStyle}"
+                                        Text="{Binding Answer1}" />
                                 </Border>
                             </sfEffectsView:SfEffectsView>
 
-                            <sfEffectsView:SfEffectsView
-                                x:Name="answer2EffectsView"
-                                Margin="{OnPlatform Android={OnIdiom Phone='10,10,10,0', Tablet='10,12,10,0'}, iOS={OnIdiom Phone='10,10,10,0', Tablet='10,12,10,0'}, WinUI={OnIdiom Phone='10,10,10,0', Tablet='10,12,10,0', Desktop='10,12,10,0'}, MacCatalyst='10,12,10,0'}"
-                                AnimationCompleted="answer2EffectsView_AnimationCompleted"
-                                AutomationId="{Binding CurrentQuestion.Id}"
-                                RippleAnimationDuration="300"
-                                TouchDownEffects="Ripple">
+                            <sfEffectsView:SfEffectsView Style="{DynamicResource WikiAppQuizAnswerEffectStyle}" TouchUpCommand="{Binding AnswerSelectedCommand}">
+                                <sfEffectsView:SfEffectsView.TouchUpCommandParameter>
+                                    <x:Int32>2</x:Int32>
+                                </sfEffectsView:SfEffectsView.TouchUpCommandParameter>
                                 <Border StrokeShape="RoundRectangle 5">
                                     <Label
                                         x:Name="lblAnswer2Option"
-                                        Padding="10"
                                         BackgroundColor="{Binding Answer2BackColor}"
-                                        FontFamily="{StaticResource DefaultFontFamily}"
-                                        FontAttributes="Bold"
-                                        FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=30}, iOS={OnIdiom Phone=16, Tablet=30}, WinUI=30, MacCatalyst=30}"
-                                        LineBreakMode="WordWrap"
-                                        Text="{Binding Answer2}"
-                                        TextColor="{DynamicResource WikiAppQuizAnswerDefaultFontBackColor}" />
+                                        Style="{DynamicResource WikiAppQuizAnswerLabelStyle}"
+                                        Text="{Binding Answer2}" />
                                 </Border>
                             </sfEffectsView:SfEffectsView>
 
-                            <sfEffectsView:SfEffectsView
-                                x:Name="answer3EffectsView"
-                                Margin="{OnPlatform Android={OnIdiom Phone='10,10,10,0', Tablet='10,12,10,0'}, iOS={OnIdiom Phone='10,10,10,0', Tablet='10,12,10,0'}, WinUI={OnIdiom Phone='10,10,10,0', Tablet='10,12,10,0', Desktop='10,12,10,0'}, MacCatalyst='10,12,10,0'}"
-                                AnimationCompleted="answer3EffectsView_AnimationCompleted"
-                                AutomationId="{Binding CurrentQuestion.Id}"
-                                RippleAnimationDuration="300"
-                                TouchDownEffects="Ripple">
+                            <sfEffectsView:SfEffectsView Style="{DynamicResource WikiAppQuizAnswerEffectStyle}" TouchUpCommand="{Binding AnswerSelectedCommand}">
+                                <sfEffectsView:SfEffectsView.TouchUpCommandParameter>
+                                    <x:Int32>3</x:Int32>
+                                </sfEffectsView:SfEffectsView.TouchUpCommandParameter>
                                 <Border StrokeShape="RoundRectangle 5">
                                     <Label
                                         x:Name="lblAnswer3Option"
-                                        Padding="10"
                                         BackgroundColor="{Binding Answer3BackColor}"
-                                        FontFamily="{StaticResource DefaultFontFamily}"
-                                        FontAttributes="Bold"
-                                        FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=30}, iOS={OnIdiom Phone=16, Tablet=30}, WinUI=30, MacCatalyst=30}"
-                                        LineBreakMode="WordWrap"
-                                        Text="{Binding Answer3}"
-                                        TextColor="{DynamicResource WikiAppQuizAnswerDefaultFontBackColor}" />
+                                        Style="{DynamicResource WikiAppQuizAnswerLabelStyle}"
+                                        Text="{Binding Answer3}" />
                                 </Border>
                             </sfEffectsView:SfEffectsView>
 
-                            <sfEffectsView:SfEffectsView
-                                x:Name="answer4EffectsView"
-                                Margin="{OnPlatform Android={OnIdiom Phone='10,10,10,0', Tablet='10,12,10,0'}, iOS={OnIdiom Phone='10,10,10,0', Tablet='10,12,10,0'}, WinUI={OnIdiom Phone='10,10,10,0', Tablet='10,12,10,0', Desktop='10,12,10,0'}, MacCatalyst='10,12,10,0'}"
-                                AnimationCompleted="answer4EffectsView_AnimationCompleted"
-                                AutomationId="{Binding CurrentQuestion.Id}"
-                                RippleAnimationDuration="300"
-                                TouchDownEffects="Ripple">
+                            <sfEffectsView:SfEffectsView Style="{DynamicResource WikiAppQuizAnswerEffectStyle}" TouchUpCommand="{Binding AnswerSelectedCommand}">
+                                <sfEffectsView:SfEffectsView.TouchUpCommandParameter>
+                                    <x:Int32>4</x:Int32>
+                                </sfEffectsView:SfEffectsView.TouchUpCommandParameter>
                                 <Border StrokeShape="RoundRectangle 5">
                                     <Label
                                         x:Name="lblAnswer4Option"
-                                        Padding="10"
                                         BackgroundColor="{Binding Answer4BackColor}"
-                                        FontFamily="{StaticResource DefaultFontFamily}"
-                                        FontAttributes="Bold"
-                                        FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=30}, iOS={OnIdiom Phone=16, Tablet=30}, WinUI=30, MacCatalyst=30}"
-                                        LineBreakMode="WordWrap"
-                                        Text="{Binding Answer4}"
-                                        TextColor="{DynamicResource WikiAppQuizAnswerDefaultFontBackColor}" />
+                                        Style="{DynamicResource WikiAppQuizAnswerLabelStyle}"
+                                        Text="{Binding Answer4}" />
                                 </Border>
                             </sfEffectsView:SfEffectsView>
 
-                            <!-- Bottom Controls -->
+                            <!--  Bottom Controls  -->
                             <Grid Margin="{OnPlatform Android={OnIdiom Phone='0,10,0,0', Tablet='0,15,0,0'}, iOS={OnIdiom Phone='0,10,0,0', Tablet='0,15,0,0'}, WinUI={OnIdiom Phone='0,10,0,0', Tablet='0,15,0,0', Desktop='0,15,0,0'}, MacCatalyst='0,15,0,0'}">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*" />
@@ -298,30 +161,49 @@
                                     <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=50, Tablet=80}, iOS={OnIdiom Phone=50, Tablet=80}, WinUI=80, MacCatalyst=80}" />
                                 </Grid.RowDefinitions>
 
-                                <!-- Activity Indicator -->
-                                <ActivityIndicator
+                                <sfCore:SfBusyIndicator
                                     x:Name="busyIndicator"
                                     Grid.Column="1"
-                                    IsRunning="False"
-                                    Color="{DynamicResource WikiAppDefaultFontColor}"
-                                    HeightRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=80}, iOS={OnIdiom Phone=50, Tablet=80}, WinUI=80, MacCatalyst=80}"
-                                    WidthRequest="{OnPlatform Android={OnIdiom Phone=50, Tablet=80}, iOS={OnIdiom Phone=50, Tablet=80}, WinUI=80, MacCatalyst=80}" />
+                                    HeightRequest="{OnPlatform Android={OnIdiom Phone=50,
+                                                                                Tablet=80},
+                                                               iOS={OnIdiom Phone=50,
+                                                                            Tablet=80},
+                                                               WinUI=80,
+                                                               MacCatalyst=80}"
+                                    IsRunning="{Binding IsPageBusy}"
+                                    WidthRequest="{OnPlatform Android={OnIdiom Phone=50,
+                                                                               Tablet=80},
+                                                              iOS={OnIdiom Phone=50,
+                                                                           Tablet=80},
+                                                              WinUI=80,
+                                                              MacCatalyst=80}" />
 
-                                <!-- Next Button -->
-                                <Grid Grid.Column="2">
-                                    <Button x:Name="btnNext" 
-                                            Style="{DynamicResource QuizNextButtonStyle}"
-                                            Clicked="NextButton_Clicked" />
-                                </Grid>
+                                <!--  Next Button  -->
+                                <sfButtons:SfButton
+                                    Grid.Column="3"
+                                    Command="{Binding NextQuestionCommand}"
+                                    CommandParameter="{x:Reference busyIndicator}"
+                                    Style="{DynamicResource WikiAppQuizNextButtonStyle}" />
                             </Grid>
                         </StackLayout>
                     </ScrollView>
                 </StackLayout>
             </Grid>
-            
-            <!-- Banner Ads Section -->
-            <StackLayout x:Name="StackBannerAds" Grid.Row="1">
-                <!-- Ads removed as per migration plan -->
+
+            <!--  Banner Ads Section  -->
+            <StackLayout
+                Grid.Row="1"
+                Margin="5,5,5,5"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                VerticalOptions="Fill">
+
+                <ads:BannerAdView
+                    AdSize="Banner"
+                    AdUnitId="{Binding BannerAdsUnitId}"
+                    BannerType="Regular"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Fill" />
             </StackLayout>
         </Grid>
     </ContentPage.Content>

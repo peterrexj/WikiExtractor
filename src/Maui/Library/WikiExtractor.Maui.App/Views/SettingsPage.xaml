@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="WikiExtractor.Maui.App.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:sfButtons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
+    xmlns:viewmodels="clr-namespace:Maui.Wiki.ViewModels"
+    x:Name="thisPage"
+    Title="Settings"
+    BackgroundColor="{DynamicResource PageBackgroundColor}"
+    Shell.NavBarIsVisible="True">
+
+    <ContentPage.BindingContext>
+        <viewmodels:SettingsViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <ScrollView>
+            <VerticalStackLayout Padding="20" Spacing="25">
+
+                <VerticalStackLayout Spacing="12">
+                    <Label
+                        Margin="5,0"
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        Opacity="0.6"
+                        Text="APPEARANCE"
+                        TextColor="{DynamicResource SubPageTopHeaderFontColor}" />
+
+                    <Border
+                        Padding="15"
+                        BackgroundColor="{DynamicResource PopupContentBackColor}"
+                        StrokeShape="RoundRectangle 12"
+                        StrokeThickness="0">
+                        <VerticalStackLayout Spacing="15">
+                            <Grid ColumnDefinitions="Auto, *, Auto">
+                                <Label
+                                    Margin="0,0,10,0"
+                                    FontSize="20"
+                                    Text="🎨"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="1"
+                                    FontSize="16"
+                                    Text="Application Theme"
+                                    VerticalOptions="Center" />
+                                <Picker
+                                    Title="Select"
+                                    Grid.Column="2"
+                                    HorizontalTextAlignment="End"
+                                    IsEnabled="{Binding IsNotBusy}"
+                                    ItemsSource="{Binding Themes}"
+                                    SelectedItem="{Binding SelectedTheme}"
+                                    Style="{DynamicResource WikiAppPickerStyle}"
+                                    WidthRequest="120" />
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="12">
+                    <Label
+                        Margin="5,0"
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        Opacity="0.6"
+                        Text="PREFERENCES"
+                        TextColor="{DynamicResource SubPageTopHeaderFontColor}" />
+
+                    <Border
+                        Padding="0"
+                        BackgroundColor="{DynamicResource PopupContentBackColor}"
+                        StrokeShape="RoundRectangle 12"
+                        StrokeThickness="0">
+                        <VerticalStackLayout>
+                            <Grid Padding="15" ColumnDefinitions="Auto, *, Auto">
+                                <Label
+                                    Margin="0,0,10,0"
+                                    FontSize="20"
+                                    Text="👁️"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="1"
+                                    FontSize="16"
+                                    Text="Hide Viewed Items"
+                                    VerticalOptions="Center" />
+                                <sfButtons:SfSwitch
+                                    x:Name="hideViewedSwitch"
+                                    Grid.Column="2"
+                                    IsEnabled="{Binding IsNotBusy}"
+                                    IsOn="{Binding HideViewedItems}"
+                                    StateChanged="HideViewedSwitch_StateChanged" />
+                            </Grid>
+
+                            <BoxView
+                                Margin="15,0"
+                                BackgroundColor="{DynamicResource WikiAppBorderColor}"
+                                HeightRequest="1"
+                                Opacity="0.3" />
+
+                            <VerticalStackLayout Padding="15" Spacing="10">
+                                <Grid ColumnDefinitions="Auto, *">
+                                    <Label
+                                        Margin="0,0,10,0"
+                                        FontSize="20"
+                                        Text="🔃"
+                                        VerticalOptions="Center" />
+                                    <Label
+                                        Grid.Column="1"
+                                        FontSize="16"
+                                        Text="Sort Order"
+                                        VerticalOptions="Center" />
+                                </Grid>
+
+                                <sfButtons:SfSegmentedControl
+                                    x:Name="sfSegmentSortOrder"
+                                    Margin="0,5,0,0"
+                                    BackgroundColor="Transparent"
+                                    IsEnabled="{Binding IsNotBusy}"
+                                    ItemsSource="{Binding SortByCollection}"
+                                    SegmentHeight="40"
+                                    SelectedIndex="{Binding SortBySelectedIndex}"
+                                    SelectionChanged="SfSegmentSortOrder_SelectionChanged"
+                                    VisibleSegmentsCount="6">
+                                    <sfButtons:SfSegmentedControl.TextStyle>
+                                        <sfButtons:SegmentTextStyle FontSize="10" TextColor="Red" />
+                                    </sfButtons:SfSegmentedControl.TextStyle>
+                                    <sfButtons:SfSegmentedControl.SelectionIndicatorSettings>
+                                        <sfButtons:SelectionIndicatorSettings Background="{DynamicResource PrimaryColor}" TextColor="White" />
+                                    </sfButtons:SfSegmentedControl.SelectionIndicatorSettings>
+                                </sfButtons:SfSegmentedControl>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <Label
+                    Margin="0,20"
+                    FontSize="12"
+                    HorizontalTextAlignment="Center"
+                    Opacity="0.5"
+                    Text="WikiExtractor v2.0" />
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Border
+            BackgroundColor="#80000000"
+            InputTransparent="False"
+            IsVisible="{Binding IsPageBusy}"
+            StrokeThickness="0">
+            <VerticalStackLayout
+                HorizontalOptions="Center"
+                Spacing="15"
+                VerticalOptions="Center">
+                <ActivityIndicator
+                    HeightRequest="50"
+                    IsRunning="{Binding IsPageBusy}"
+                    WidthRequest="50"
+                    Color="White" />
+                <Label
+                    FontAttributes="Bold"
+                    Text="Applying Changes..."
+                    TextColor="White" />
+            </VerticalStackLayout>
+        </Border>
+    </Grid>
+</ContentPage>

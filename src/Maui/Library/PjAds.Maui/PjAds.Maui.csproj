@@ -1,48 +1,64 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net9.0;net9.0-android36.0;net9.0-ios18.0</TargetFrameworks>
-		<OutputType>Library</OutputType>
+		<!-- On Windows: include Android and Windows -->
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">
+			net9.0-android;net9.0-ios
+		</TargetFrameworks>
+
+		<!-- On non-Windows (Mac/Linux): exclude Android -->
+		<TargetFrameworks Condition="!$([MSBuild]::IsOSPlatform('windows'))">
+			net9.0-ios;net9.0-maccatalyst
+		</TargetFrameworks>
+		
+		
 		<RootNamespace>PjAds.Maui</RootNamespace>
 		<UseMaui>true</UseMaui>
-		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 
+		<PackageId>PjAds.Maui</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
+		
+		
 		<!-- Android configuration matching Maui.Popes -->
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+		<!--<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
 		<AndroidTargetApiLevel>36</AndroidTargetApiLevel>
 		<AndroidTargetFrameworkVersion>v15.0</AndroidTargetFrameworkVersion>
 		<AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-		<AndroidSdkDirectory>/Users/josephpe/Library/Android/sdk</AndroidSdkDirectory>
+		<AndroidSdkDirectory>/Users/josephpe/Library/Android/sdk</AndroidSdkDirectory>-->
 		
 		<!-- iOS configuration matching Maui.Popes -->
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.0</SupportedOSPlatformVersion>
-		<UseXcode16_3ForIOS>true</UseXcode16_3ForIOS>
+		<!--<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.0</SupportedOSPlatformVersion>
+		<UseXcode16_3ForIOS>true</UseXcode16_3ForIOS>-->
 		
 		<!-- Build properties to resolve PE image issues -->
-		<AndroidUseAapt2>true</AndroidUseAapt2>
-		<AndroidCreatePackagePerAbi>false</AndroidCreatePackagePerAbi>
+		<!--<AndroidUseAapt2>true</AndroidUseAapt2>-->
+
+		<!--<OutputType>Library</OutputType>
+		<SingleProject>true</SingleProject>-->
+
+		<!--<AndroidCreatePackagePerAbi>false</AndroidCreatePackagePerAbi>
 		<AndroidLinkMode>None</AndroidLinkMode>
-		<AndroidLinkSkip />
 		<AndroidLinkTool>r8</AndroidLinkTool>
 		<AndroidEnableMultiDex>true</AndroidEnableMultiDex>
-		<PublishTrimmed>true</PublishTrimmed>
 		<AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
 		<EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
 		<AndroidDexTool>d8</AndroidDexTool>
 		<AndroidPackageFormat>apk</AndroidPackageFormat>
-		<AndroidStoreUncompressedFileExtensions>.dll</AndroidStoreUncompressedFileExtensions>
+		<AndroidStoreUncompressedFileExtensions>.dll</AndroidStoreUncompressedFileExtensions>-->
+
+		<!--<AndroidLinkSkip />
+		<PublishTrimmed>true</PublishTrimmed>
 		<MtouchLink>None</MtouchLink>
 		
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<PackageId>PjAds.Maui</PackageId>
-		<PackageVersion>1.0.0</PackageVersion>
+		
 		<Authors>PeterRex</Authors>
 		<Description>A reusable MAUI library for Google AdMob integration supporting banner and interstitial ads for iOS and Android platforms.</Description>
 		<PackageTags>MAUI;AdMob;Ads;Banner;Interstitial;iOS;Android</PackageTags>
 		<RepositoryUrl>https://github.com/peterrexj/PjAds.Maui</RepositoryUrl>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>-->
 	</PropertyGroup>
 
 	<ItemGroup>

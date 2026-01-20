@@ -3,673 +3,554 @@
     x:Class="WikiExtractor.Maui.App.Views.PersonaDetailPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ads="clr-namespace:PjAds.Maui.Controls;assembly=PjAds.Maui"
+    xmlns:buttons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
     xmlns:local="clr-namespace:WikiExtractor.Maui.App.Exts"
     xmlns:localControls="clr-namespace:WikiExtractor.Maui.App.Controls"
-    xmlns:tabView="clr-namespace:Syncfusion.Maui.TabView;assembly=Syncfusion.Maui.TabView"
-    xmlns:buttons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
     xmlns:popup="clr-namespace:Syncfusion.Maui.Popup;assembly=Syncfusion.Maui.Popup"
     xmlns:sfList="clr-namespace:Syncfusion.Maui.ListView;assembly=Syncfusion.Maui.ListView"
-    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-    xmlns:pjads="clr-namespace:PjAds.Maui.Controls;assembly=PjAds.Maui">
-    
+    xmlns:tabView="clr-namespace:Syncfusion.Maui.TabView;assembly=Syncfusion.Maui.TabView"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+
     <ContentPage.Resources>
         <ResourceDictionary>
-            <!-- Create instances of the separate DataTemplate classes -->
+            <!--  Create instances of the separate DataTemplate classes  -->
             <localControls:Header2ListItemTemplate x:Key="Header2ListItemTemplate" />
             <localControls:Header3ListItemTemplate x:Key="Header3ListItemTemplate" />
             <localControls:ParagraphContentListItemTemplate x:Key="ParagraphContentListItemTemplate" />
             <localControls:ImageListItemTemplate x:Key="ImageListItemTemplate" />
-            
-            <!-- Reference the DataTemplate instances in the selector -->
-            <localControls:ItemDetailListTemplateSelector x:Key="ItemDetailListTemplateSelector"
+
+            <!--  Reference the DataTemplate instances in the selector  -->
+            <localControls:ItemDetailListTemplateSelector
+                x:Key="ItemDetailListTemplateSelector"
                 Header2Template="{StaticResource Header2ListItemTemplate}"
                 Header3Template="{StaticResource Header3ListItemTemplate}"
-                ParagraphContentTemplate="{StaticResource ParagraphContentListItemTemplate}"
-                ImageTemplate="{StaticResource ImageListItemTemplate}" />
+                ImageTemplate="{StaticResource ImageListItemTemplate}"
+                ParagraphContentTemplate="{StaticResource ParagraphContentListItemTemplate}" />
         </ResourceDictionary>
     </ContentPage.Resources>
-    
+
     <Shell.TitleView>
-        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
-              BackgroundColor="Transparent"
-              HeightRequest="{OnIdiom Phone=60, Tablet=80, Desktop=80, Default=60}"
-              Padding="{OnIdiom Phone='8,4', Tablet='12,6', Desktop='12,6', Default='8,4'}">
-            
-            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="Center">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="{OnIdiom Phone=52, Tablet=68, Desktop=68, Default=52}" />
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="Auto" />
-                    </Grid.ColumnDefinitions>
+        <Grid
+            Padding="{OnIdiom Phone='8,4',
+                              Tablet='12,6',
+                              Desktop='12,6',
+                              Default='8,4'}"
+            BackgroundColor="Transparent"
+            HeightRequest="{OnIdiom Phone=60,
+                                    Tablet=80,
+                                    Desktop=80,
+                                    Default=60}"
+            HorizontalOptions="Fill"
+            VerticalOptions="Fill">
 
-                    <!-- Profile Image with enhanced styling -->
-                    <Border
-                        Grid.Column="0"
-                        Stroke="{DynamicResource BorderControlGradientBrush}"
-                        StrokeThickness="1.5"
-                        Background="{DynamicResource WikiAppPersonaDetailProfileImageBg}"
+            <Grid HorizontalOptions="Fill" VerticalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="{OnIdiom Phone=52, Tablet=68, Desktop=68, Default=52}" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!--  Profile Image with enhanced styling  -->
+                <Border
+                    Grid.Column="0"
+                    Background="{DynamicResource WikiAppPersonaDetailProfileImageBg}"
+                    HeightRequest="{OnIdiom Phone=44,
+                                            Tablet=60,
+                                            Desktop=60,
+                                            Default=44}"
+                    HorizontalOptions="Center"
+                    Stroke="{DynamicResource BorderControlGradientBrush}"
+                    StrokeThickness="1.5"
+                    VerticalOptions="Center"
+                    WidthRequest="{OnIdiom Phone=44,
+                                           Tablet=60,
+                                           Desktop=60,
+                                           Default=44}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="{OnIdiom Phone=22, Tablet=30, Desktop=30, Default=22}" />
+                    </Border.StrokeShape>
+                    <Image
+                        x:Name="imgPrimary"
+                        Aspect="AspectFill"
+                        HorizontalOptions="Fill"
+                        Source="{Binding Persona.PicturePrimaryPath}"
+                        VerticalOptions="Fill">
+                        <Image.Clip>
+                            <RoundRectangleGeometry CornerRadius="{OnIdiom Phone=22, Tablet=30, Desktop=30, Default=22}" Rect="0,0,44,44" />
+                        </Image.Clip>
+                    </Image>
+                </Border>
+
+                <!--  Name and Subtitle Section  -->
+                <StackLayout
+                    Grid.Column="1"
+                    Margin="{OnIdiom Phone='10,0,8,0',
+                                     Tablet='14,0,12,0',
+                                     Desktop='14,0,12,0',
+                                     Default='10,0,8,0'}"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Center">
+
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="{OnIdiom Phone=16,
+                                           Tablet=22,
+                                           Desktop=24,
+                                           Default=16}"
+                        HorizontalOptions="Fill"
+                        LineBreakMode="TailTruncation"
+                        Text="{Binding Persona.Name}"
+                        VerticalOptions="Center" />
+
+                    <Label
+                        FontAttributes="Italic"
+                        FontSize="{OnIdiom Phone=11,
+                                           Tablet=14,
+                                           Desktop=16,
+                                           Default=11}"
+                        HorizontalOptions="Fill"
+                        LineBreakMode="TailTruncation"
+                        Opacity="0.8"
+                        Text="{Binding Persona.NameSubstitueFormatted}"
+                        VerticalOptions="Center" />
+                </StackLayout>
+
+                <!--  Wiki Source Link  -->
+                <Border
+                    Grid.Column="2"
+                    Padding="{OnIdiom Phone='6,3',
+                                      Tablet='10,5',
+                                      Desktop='10,5',
+                                      Default='6,3'}"
+                    Background="{DynamicResource WikiAppButtonBgColor}"
+                    HorizontalOptions="End"
+                    Stroke="{DynamicResource BorderControlGradientBrush}"
+                    StrokeThickness="1"
+                    VerticalOptions="Center">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapHyperLinkToWikiPage}" CommandParameter="{Binding Persona.WikiPath}" />
+                    </Border.GestureRecognizers>
+
+                    <Label
+                        FontSize="{OnIdiom Phone=9,
+                                           Tablet=11,
+                                           Desktop=12,
+                                           Default=9}"
                         HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        HeightRequest="{OnIdiom Phone=44, Tablet=60, Desktop=60, Default=44}"
-                        WidthRequest="{OnIdiom Phone=44, Tablet=60, Desktop=60, Default=44}">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="{OnIdiom Phone=22, Tablet=30, Desktop=30, Default=22}" />
-                        </Border.StrokeShape>
-                        <Image
-                            x:Name="imgPrimary"
-                            Aspect="AspectFill"
-                            Source="{Binding PicturePrimaryPath}"
-                            HorizontalOptions="FillAndExpand"
-                            VerticalOptions="FillAndExpand">
-                            <Image.Clip>
-                                <RoundRectangleGeometry
-                                    Rect="0,0,44,44"
-                                    CornerRadius="{OnIdiom Phone=22, Tablet=30, Desktop=30, Default=22}" />
-                            </Image.Clip>
-                        </Image>
-                    </Border>
-
-                    <!-- Name and Subtitle Section -->
-                    <StackLayout
-                        Grid.Column="1"
-                        Margin="{OnIdiom Phone='10,0,8,0', Tablet='14,0,12,0', Desktop='14,0,12,0', Default='10,0,8,0'}"
-                        VerticalOptions="Center"
-                        HorizontalOptions="FillAndExpand">
-                        
-                        <Label
-                            FontFamily="{StaticResource DefaultFontFamily}"
-                            FontAttributes="Bold"
-                            FontSize="{OnIdiom Phone=16, Tablet=22, Desktop=24, Default=16}"
-                            Text="{Binding Persona.Name}"
-                            TextColor="{DynamicResource WikiAppDefaultFontColor}"
-                            LineBreakMode="TailTruncation"
-                            HorizontalOptions="FillAndExpand"
-                            VerticalOptions="Center" />
-                        
-                        <Label
-                            FontFamily="{StaticResource DefaultFontFamily}"
-                            FontAttributes="Italic"
-                            FontSize="{OnIdiom Phone=11, Tablet=14, Desktop=16, Default=11}"
-                            Text="{Binding Persona.NameSubstitueFormatted}"
-                            TextColor="{DynamicResource WikiAppDefaultFontColor}"
-                            LineBreakMode="TailTruncation"
-                            HorizontalOptions="FillAndExpand"
-                            VerticalOptions="Center"
-                            Opacity="0.8" />
-                    </StackLayout>
-
-                    <!-- Wiki Source Link -->
-                    <Border
-                        Grid.Column="2"
-                        Background="{DynamicResource WikiAppButtonBgColor}"
-                        Stroke="{DynamicResource BorderControlGradientBrush}"
-                        StrokeThickness="1"
-                        Padding="{OnIdiom Phone='6,3', Tablet='10,5', Desktop='10,5', Default='6,3'}"
-                        HorizontalOptions="End"
-                        VerticalOptions="Center">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="12" />
-                        </Border.StrokeShape>
-                        <Border.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapHyperLinkToWikiPage}" CommandParameter="{Binding Persona.WikiPath}" />
-                        </Border.GestureRecognizers>
-                        
-                        <Label
-                            FontFamily="{StaticResource DefaultFontFamily}"
-                            FontSize="{OnIdiom Phone=9, Tablet=11, Desktop=12, Default=9}"
-                            Text="Wiki Source"
-                            TextColor="{DynamicResource WikiAppButtonFgColor}"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center" />
-                    </Border>
+                        Text="Wiki Source"
+                        VerticalOptions="Center" />
+                </Border>
             </Grid>
         </Grid>
     </Shell.TitleView>
-    
+
     <ContentPage.Content>
-        <Grid>
+        <Grid Background="{DynamicResource WikiAppPersonaDetailPageBgGradient}">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
-            <!-- Image Popup using Syncfusion Popup -->
-            <!-- <popup:SfPopup -->
-            <!--     x:Name="popupImageDisplay" -->
-            <!--     IsOpen="False" -->
-            <!--     ShowHeader="True" -->
-            <!--     ShowFooter="True" -->
-            <!--     ShowCloseButton="True" -->
-            <!--     AnimationMode="Zoom"> -->
-            <!--     <popup:SfPopup.HeaderTemplate> -->
-            <!--         <DataTemplate> -->
-            <!--             <Grid BackgroundColor="LightGray"> -->
-            <!--                 <Label -->
-            <!--                     BackgroundColor="Transparent" -->
-            <!--                     FontAttributes="Bold" -->
-            <!--                     FontFamily="Arial" -->
-            <!--                     FontSize="{OnIdiom Phone=16, Tablet=24, Desktop=24, Default=16}" -->
-            <!--                     HorizontalTextAlignment="Center" -->
-            <!--                     Text="{Binding Persona.Name}" -->
-            <!--                     TextColor="Black" -->
-            <!--                     VerticalTextAlignment="Center" /> -->
-            <!--             </Grid> -->
-            <!--         </DataTemplate> -->
-            <!--     </popup:SfPopup.HeaderTemplate> -->
-            <!--     <popup:SfPopup.ContentTemplate> -->
-            <!--         <DataTemplate> -->
-            <!--             <Grid BackgroundColor="White"> -->
-            <!--                 <Grid.RowDefinitions> -->
-            <!--                     <RowDefinition Height="*" /> -->
-            <!--                     <RowDefinition Height="100" /> -->
-            <!--                 </Grid.RowDefinitions> -->
-            <!--                 <Image -->
-            <!--                     Grid.Row="0" -->
-            <!--                     Margin="5" -->
-            <!--                     Aspect="AspectFit" -->
-            <!--                     Source="{Binding PopupImage.PicturePath}" /> -->
-            <!--                 <Label -->
-            <!--                     Grid.Row="1" -->
-            <!--                     BackgroundColor="Transparent" -->
-            <!--                     FontAttributes="Bold" -->
-            <!--                     FontFamily="Arial" -->
-            <!--                     FontSize="{OnIdiom Phone=16, Tablet=24, Desktop=24, Default=16}" -->
-            <!--                     HorizontalTextAlignment="Center" -->
-            <!--                     Text="{Binding PopupImage.PictureCaption}" -->
-            <!--                     TextColor="Black" -->
-            <!--                     VerticalTextAlignment="Center" /> -->
-            <!--             </Grid> -->
-            <!--         </DataTemplate> -->
-            <!--     </popup:SfPopup.ContentTemplate> -->
-            <!--     <popup:SfPopup.FooterTemplate> -->
-            <!--         <DataTemplate> -->
-            <!--             <Grid BackgroundColor="LightGray"> -->
-            <!--                 <Button -->
-            <!--                     x:Name="btnCloseOnPopup" -->
-            <!--                     BackgroundColor="Transparent" -->
-            <!--                     Clicked="btnCloseOnPopup_Clicked" -->
-            <!--                     FontFamily="Arial" -->
-            <!--                     FontSize="{OnIdiom Phone=16, Tablet=24, Desktop=24, Default=16}" -->
-            <!--                     Text="Close" -->
-            <!--                     TextColor="Black" /> -->
-            <!--             </Grid> -->
-            <!--         </DataTemplate> -->
-            <!--     </popup:SfPopup.FooterTemplate> -->
-            <!-- </popup:SfPopup> -->
 
-            <Grid Background="{DynamicResource WikiAppPersonaDetailPageBgGradient}">
-
-            <!-- Proper Grid structure for tab layout -->
+            <!--  Proper Grid structure for tab layout  -->
             <Grid
-                VerticalOptions="FillAndExpand"
-                HorizontalOptions="FillAndExpand"
-                IsEnabled="{Binding IsPageEnabled}">
+                Grid.Row="0"
+                HorizontalOptions="Fill"
+                IsEnabled="{Binding IsPageEnabled}"
+                VerticalOptions="Fill">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
-                
+
                 <tabView:SfTabView
                     x:Name="tabView"
                     Grid.Row="0"
-                    VerticalOptions="FillAndExpand"
-                    HorizontalOptions="FillAndExpand">
-                    
-                    <!-- Information Tab -->
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Fill">
+
+                    <!--  Information Tab  -->
                     <tabView:SfTabItem x:Name="tabUsefulInfo" Header="{Binding TextOnFirstTabInformationOnDetailPage}">
                         <tabView:SfTabItem.Content>
-                            <!-- Main container with proper row definitions -->
-                            <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                            <!--  Main container with proper row definitions  -->
+                            <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto" />
                                     <RowDefinition Height="*" />
-                                    <RowDefinition Height="Auto" />
                                 </Grid.RowDefinitions>
-                                
-                                <!-- Mark as Viewed Section with fixed height -->
+
                                 <Border
                                     Grid.Row="0"
-                                    StrokeThickness="2"
-                                    Stroke="{DynamicResource BorderTopGradientBrush}"
+                                    Margin="{OnIdiom Phone='10,8,10,5',
+                                                     Tablet='15,12,15,8',
+                                                     Desktop='15,12,15,8',
+                                                     Default='10,8,10,5'}"
+                                    Padding="{OnIdiom Phone='10,3',
+                                                      Tablet='20,16',
+                                                      Desktop='20,16',
+                                                      Default='15,12'}"
                                     Background="{DynamicResource BorderTopBackgroundGradientBrush}"
+                                    HorizontalOptions="Fill"
+                                    Stroke="{DynamicResource BorderTopGradientBrush}"
                                     StrokeShape="RoundRectangle 12,12,12,12"
-                                    Margin="{OnIdiom Phone='10,8,10,5', Tablet='15,12,15,8', Desktop='15,12,15,8', Default='10,8,10,5'}"
-                                    Padding="{OnIdiom Phone='15,12', Tablet='20,16', Desktop='20,16', Default='15,12'}"
-                                    HorizontalOptions="FillAndExpand"
-                                    VerticalOptions="Start"
-                                    HeightRequest="{OnIdiom Phone=80, Tablet=100, Desktop=100, Default=80}">
-                                    
-                                    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                                    StrokeThickness="1"
+                                    VerticalOptions="Start">
+
+                                    <Grid HorizontalOptions="Fill" VerticalOptions="Center">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="*" />
                                             <ColumnDefinition Width="Auto" />
                                             <ColumnDefinition Width="Auto" />
                                             <ColumnDefinition Width="Auto" />
                                         </Grid.ColumnDefinitions>
-                                        
-                                        <!-- Mark as Viewed Label with Icon -->
+                                        <!--  Mark as Viewed Label with Icon  -->
                                         <StackLayout
                                             Grid.Column="0"
+                                            HorizontalOptions="Start"
                                             Orientation="Horizontal"
-                                            VerticalOptions="Center"
-                                            HorizontalOptions="Start">
-                                            
+                                            VerticalOptions="Center">
+
                                             <Label
-                                                FontFamily="{StaticResource DefaultFontFamily}"
                                                 FontAttributes="Bold"
-                                                FontSize="{OnIdiom Phone=16, Tablet=20, Desktop=22, Default=16}"
+                                                FontSize="{OnIdiom Phone=12,
+                                                                   Tablet=20,
+                                                                   Desktop=22,
+                                                                   Default=16}"
                                                 Text="📖 Mark as Viewed"
-                                                TextColor="{DynamicResource WikiAppDefaultFontColor}"
                                                 VerticalOptions="Center" />
                                         </StackLayout>
-                                        
-                                        
-                                        <!-- Status Label -->
+                                        <!--  Status Label  -->
                                         <Label
                                             Grid.Column="2"
-                                            FontFamily="{StaticResource DefaultFontFamily}"
-                                            FontSize="{OnIdiom Phone=14, Tablet=18, Desktop=20, Default=14}"
-                                            TextColor="{DynamicResource WikiAppDefaultFontColor}"
-                                            VerticalOptions="Center"
+                                            Margin="{OnIdiom Phone='0,0,15,0',
+                                                             Tablet='0,0,20,0',
+                                                             Desktop='0,0,20,0',
+                                                             Default='0,0,15,0'}"
+                                            FontSize="{OnIdiom Phone=14,
+                                                               Tablet=18,
+                                                               Desktop=20,
+                                                               Default=14}"
                                             HorizontalTextAlignment="End"
-                                            Margin="{OnIdiom Phone='0,0,15,0', Tablet='0,0,20,0', Desktop='0,0,20,0', Default='0,0,15,0'}">
+                                            VerticalOptions="Center">
                                             <Label.Triggers>
-                                                <DataTrigger TargetType="Label" Binding="{Binding Persona.ItemReadStatus}" Value="True">
+                                                <DataTrigger
+                                                    Binding="{Binding Persona.ItemReadStatus}"
+                                                    TargetType="Label"
+                                                    Value="True">
                                                     <Setter Property="Text" Value="✅ Read" />
                                                 </DataTrigger>
-                                                <DataTrigger TargetType="Label" Binding="{Binding Persona.ItemReadStatus}" Value="False">
+                                                <DataTrigger
+                                                    Binding="{Binding Persona.ItemReadStatus}"
+                                                    TargetType="Label"
+                                                    Value="False">
                                                     <Setter Property="Text" Value="📖 Unread" />
                                                 </DataTrigger>
                                             </Label.Triggers>
                                         </Label>
-                                        
-                                        <!-- Switch Control -->
+                                        <!--  Switch Control  -->
                                         <buttons:SfSwitch
                                             x:Name="swtReadItem"
                                             Grid.Column="3"
+                                            HorizontalOptions="End"
                                             IsOn="{Binding Persona.ItemReadStatus}"
                                             StateChanged="swtReadItem_StateChanged"
-                                            VerticalOptions="Center"
-                                            HorizontalOptions="End" />
+                                            VerticalOptions="Center" />
                                     </Grid>
                                 </Border>
-                                
-                                <!-- List content container that fills remaining space -->
-                                <Border
+                                <!--  List content container that fills remaining space  -->
+
+                                <sfList:SfListView
                                     Grid.Row="1"
-                                    Margin="{OnIdiom Phone='10,5,10,5', Tablet='15,8,15,8', Desktop='15,8,15,8', Default='10,5,10,5'}"
-                                    VerticalOptions="FillAndExpand"
-                                    HorizontalOptions="FillAndExpand"
-                                    BackgroundColor="Transparent">
-                                    
-                                    <sfList:SfListView
-                                        ItemsSource="{Binding Persona.Metadatas}"
-                                        SelectionMode="None"
-                                        AutoFitMode="DynamicHeight"
-                                        VerticalOptions="FillAndExpand"
-                                        HorizontalOptions="FillAndExpand"
-                                        Margin="0">
-                                        <sfList:SfListView.ItemTemplate>
-                                            <DataTemplate>
-                                                <Border
-                                                    Margin="5,2,5,2"
-                                                    Padding="1"
-                                                    BackgroundColor="Transparent"
-                                                    VerticalOptions="Fill"
-                                                    HorizontalOptions="FillAndExpand">
-                                                    <Grid HorizontalOptions="FillAndExpand" Padding="10">
-                                                        <Grid Background="{DynamicResource WikiAppPersonaDetailMetadataItemBgGradient}">
-                                                            <Grid.ColumnDefinitions>
-                                                                <ColumnDefinition Width="{OnIdiom Phone=0.30*, Tablet=0.25*, Desktop=0.25*, Default=0.30*}" />
-                                                                <ColumnDefinition Width="{OnIdiom Phone=0.70*, Tablet=0.75*, Desktop=0.75*, Default=0.70*}" />
-                                                            </Grid.ColumnDefinitions>
-                                                            <Label
-                                                                Grid.Column="0"
-                                                                Padding="{OnIdiom Phone='5,0,0,0', Tablet='15,0,0,0', Desktop='15,0,0,0', Default='5,0,0,0'}"
-                                                                FontAttributes="Bold"
-                                                                FontFamily="Arial"
-                                                                FontSize="{OnIdiom Phone=12, Tablet=18, Desktop=20, Default=12}"
-                                                                LineBreakMode="WordWrap"
-                                                                Text="{Binding Key}"
-                                                                TextColor="{DynamicResource WikiAppPersonaDetailMetadataKeyTextColor}"
-                                                                VerticalOptions="Center"
-                                                                HorizontalOptions="Start" />
-                                                        
-                                                            <Label
-                                                                Grid.Column="1"
-                                                                Padding="2,2,5,2"
-                                                                CharacterSpacing="{OnIdiom Phone=0.3, Tablet=0.4, Desktop=0.4, Default=0.3}"
-                                                                FontFamily="Arial"
-                                                                FontSize="{OnIdiom Phone=14, Tablet=17, Desktop=17, Default=14}"
-                                                                HorizontalTextAlignment="{OnIdiom Phone=End, Tablet=Start, Desktop=Start, Default=End}"
-                                                                LineBreakMode="WordWrap"
-                                                                LineHeight="{OnIdiom Phone=1.1, Tablet=1.2, Desktop=1.2, Default=1.1}"
-                                                                Text="{Binding Description}"
-                                                                TextColor="{DynamicResource WikiAppPersonaDetailMetadataValueTextColor}"
-                                                                VerticalOptions="Center"
-                                                                HorizontalOptions="FillAndExpand" />
-                                                        </Grid>
-                                                    </Grid>
-                                                </Border>
-                                            </DataTemplate>
-                                        </sfList:SfListView.ItemTemplate>
-                                    </sfList:SfListView>
-                                </Border>
-                                 
-                                <!-- Banner Ad Area for Information Tab -->
-                               <Border
-                                   Grid.Row="2"
-                                   HeightRequest="60"
-                                   HorizontalOptions="FillAndExpand"
-                                   BackgroundColor="Transparent"
-                                   Margin="10,5,10,10"
-                                   VerticalOptions="End"
-                                   StrokeShape="RoundRectangle 8"
-                                   StrokeThickness="0">
-                                   
-                                   <pjads:BannerAdView
-                                       x:Name="bannerAdInformationTab"
-                                       AdUnitId="ca-app-pub-3940256099942544/6300978111"
-                                       AdSize="Banner"
-                                       HorizontalOptions="FillAndExpand"
-                                       VerticalOptions="FillAndExpand"
-                                       BackgroundColor="Transparent" />
-                               </Border>
+                                    AutoFitMode="DynamicHeight"
+                                    ItemsSource="{Binding Persona.Metadatas}"
+                                    SelectionMode="None"
+                                    VerticalOptions="Fill">
+                                    <sfList:SfListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border
+                                                Margin="5,2,5,2"
+                                                Padding="1"
+                                                BackgroundColor="Transparent"
+                                                HorizontalOptions="Fill"
+                                                VerticalOptions="Fill">
+
+                                                <Grid Padding="10" VerticalOptions="Fill">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="{OnIdiom Phone=0.30*, Tablet=0.25*, Desktop=0.25*, Default=0.30*}" />
+                                                        <ColumnDefinition Width="{OnIdiom Phone=0.70*, Tablet=0.75*, Desktop=0.75*, Default=0.70*}" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <Label
+                                                        Grid.Column="0"
+                                                        FontAttributes="Bold"
+                                                        FontSize="{OnIdiom Phone=13,
+                                                                           Tablet=18,
+                                                                           Desktop=20,
+                                                                           Default=12}"
+                                                        HorizontalOptions="Start"
+                                                        LineBreakMode="WordWrap"
+                                                        Text="{Binding Key}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        Grid.Column="1"
+                                                        CharacterSpacing="{OnIdiom Phone=0.3,
+                                                                                   Tablet=0.4,
+                                                                                   Desktop=0.4,
+                                                                                   Default=0.3}"
+                                                        FontAttributes="Bold"
+                                                        FontSize="{OnIdiom Phone=12,
+                                                                           Tablet=18,
+                                                                           Desktop=20,
+                                                                           Default=12}"
+                                                        HorizontalOptions="End"
+                                                        HorizontalTextAlignment="{OnIdiom Phone=End,
+                                                                                          Tablet=Start,
+                                                                                          Desktop=Start,
+                                                                                          Default=End}"
+                                                        LineBreakMode="WordWrap"
+                                                        LineHeight="{OnIdiom Phone=1.1,
+                                                                             Tablet=1.2,
+                                                                             Desktop=1.2,
+                                                                             Default=1.1}"
+                                                        Text="{Binding Description}"
+                                                        VerticalOptions="Center" />
+                                                </Grid>
+                                            </Border>
+                                        </DataTemplate>
+                                    </sfList:SfListView.ItemTemplate>
+                                </sfList:SfListView>
                             </Grid>
                         </tabView:SfTabItem.Content>
                     </tabView:SfTabItem>
-                    
-                    <!-- Details Tab -->
+
+                    <!--  Details Tab  -->
                     <tabView:SfTabItem x:Name="tabDetailContent" Header="Details">
                         <tabView:SfTabItem.Content>
-                            <!-- Enhanced Details tab with proper structure -->
-                            <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                            <!--  Enhanced Details tab with proper structure  -->
+                            <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="*" />
-                                    <RowDefinition Height="Auto" />
                                 </Grid.RowDefinitions>
-                                 
-                                <!-- Content container with proper margins and background -->
-                                <Border
-                                    Grid.Row="0"
-                                    VerticalOptions="FillAndExpand"
-                                    HorizontalOptions="FillAndExpand"
-                                    BackgroundColor="Transparent"
-                                    Margin="{OnIdiom Phone='8,8,8,8', Tablet='12,12,12,12', Desktop='12,12,12,12', Default='8,8,8,8'}">
-                                     
-                                    <ScrollView
-                                        VerticalOptions="FillAndExpand"
-                                        HorizontalOptions="FillAndExpand"
-                                        VerticalScrollBarVisibility="Default">
-                                         
-                                        <CollectionView
-                                            ItemTemplate="{StaticResource ItemDetailListTemplateSelector}"
-                                            ItemsSource="{Binding ItemDetailItems}"
-                                            VerticalOptions="FillAndExpand"
-                                            HorizontalOptions="FillAndExpand"
-                                            ItemSizingStrategy="MeasureAllItems"
-                                            SelectionMode="None">
-                                             
-                                            <!-- Enhanced item spacing -->
-                                            <CollectionView.ItemsLayout>
-                                                <LinearItemsLayout
-                                                    Orientation="Vertical"
-                                                    ItemSpacing="5" />
-                                            </CollectionView.ItemsLayout>
-                                        </CollectionView>
-                                    </ScrollView>
-                                </Border>
-                                
-                                <!-- Banner Ad Area for Details Tab -->
-                                <Border
-                                    Grid.Row="1"
-                                    HeightRequest="60"
-                                    HorizontalOptions="FillAndExpand"
-                                    BackgroundColor="Transparent"
-                                    Margin="10,5,10,5"
-                                    VerticalOptions="Fill"
-                                    StrokeShape="RoundRectangle 8"
-                                    StrokeThickness="0">
-                                    
-                                    <pjads:BannerAdView
-                                        x:Name="bannerAdDetailsTab"
-                                        AdUnitId="ca-app-pub-3940256099942544/6300978111"
-                                        AdSize="Banner"
-                                        HorizontalOptions="FillAndExpand"
-                                        VerticalOptions="FillAndExpand"
-                                        BackgroundColor="Transparent" />
-                                </Border>
+
+                                <CollectionView
+                                    HorizontalOptions="Fill"
+                                    ItemSizingStrategy="MeasureAllItems"
+                                    ItemTemplate="{StaticResource ItemDetailListTemplateSelector}"
+                                    ItemsSource="{Binding ItemDetailItems}"
+                                    SelectionMode="None"
+                                    VerticalOptions="Fill">
+
+                                    <!--  Enhanced item spacing  -->
+                                    <CollectionView.ItemsLayout>
+                                        <LinearItemsLayout ItemSpacing="5" Orientation="Vertical" />
+                                    </CollectionView.ItemsLayout>
+                                </CollectionView>
                             </Grid>
                         </tabView:SfTabItem.Content>
                     </tabView:SfTabItem>
-                    
-                    <!-- Pictures Tab - Enhanced Modern Design -->
+
+                    <!--  Pictures Tab - Enhanced Modern Design  -->
                     <tabView:SfTabItem x:Name="tabPictures" Header="{Binding PictureTitle}">
                         <tabView:SfTabItem.Content>
-                            <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                            <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="*" />
-                                    <RowDefinition Height="Auto" />
                                 </Grid.RowDefinitions>
-                                
-                                <!-- Enhanced ScrollView with better styling -->
-                                <ScrollView
-                                    Grid.Row="0"
-                                    VerticalOptions="FillAndExpand"
-                                    HorizontalOptions="FillAndExpand"
-                                    Margin="{OnIdiom Phone='8,8,8,8', Tablet='12,12,12,12', Desktop='12,12,12,12', Default='8,8,8,8'}"
-                                    BackgroundColor="Transparent">
-                                    
-                                    <CollectionView
-                                        x:Name="lstImages"
-                                        ItemsSource="{Binding Persona.Pictures}"
-                                        VerticalOptions="FillAndExpand"
-                                        HorizontalOptions="FillAndExpand"
-                                        BackgroundColor="Transparent">
-                                        
-                                        <!-- Enhanced Grid Layout with better spacing -->
-                                        <CollectionView.ItemsLayout>
-                                            <GridItemsLayout
-                                                Orientation="Vertical"
-                                                Span="{OnIdiom Phone=2, Tablet=3, Desktop=4, Default=2}"
-                                                HorizontalItemSpacing="{OnIdiom Phone=8, Tablet=12, Desktop=15, Default=8}"
-                                                VerticalItemSpacing="{OnIdiom Phone=8, Tablet=12, Desktop=15, Default=8}" />
-                                        </CollectionView.ItemsLayout>
-                                        
-                                        <!-- Modern Card-based Item Template -->
-                                        <CollectionView.ItemTemplate>
-                                            <DataTemplate>
-                                                <Border
-                                                    x:Name="lstImageEffectsLayer"
-                                                    StrokeThickness="0"
-                                                    HorizontalOptions="FillAndExpand"
-                                                    VerticalOptions="Fill"
-                                                    BackgroundColor="Transparent">
-                                                    <Border.StrokeShape>
-                                                        <RoundRectangle CornerRadius="{OnIdiom Phone=12, Tablet=16, Desktop=20, Default=12}" />
-                                                    </Border.StrokeShape>
-                                                    <Border.GestureRecognizers>
-                                                        <TapGestureRecognizer Tapped="lstImageEffectsLayer_Tapped" />
-                                                    </Border.GestureRecognizers>
-                                                    
-                                                    <!-- Modern Card Design with Shadow Effect -->
-                                                    <Border
-                                                        Background="{StaticResource WikiAppPersonaDetailPictureItemBgGradient}"
-                                                        StrokeShape="RoundRectangle 12"
-                                                        StrokeThickness="1"
-                                                        Stroke="{DynamicResource WikiAppPersonaDetailPictureItemBorder}"
-                                                        HorizontalOptions="FillAndExpand"
-                                                        VerticalOptions="FillAndExpand">
-                                                        
-                                                        <!-- Add subtle shadow effect -->
-                                                        <Border.Shadow>
-                                                            <Shadow
-                                                                Brush="{DynamicResource WikiAppPersonaDetailPictureItemShadow}"
-                                                                Offset="0,2"
-                                                                Radius="8"
-                                                                Opacity="0.3" />
-                                                        </Border.Shadow>
-                                                        
-                                                        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                                                            <Grid.RowDefinitions>
-                                                                <RowDefinition Height="{OnIdiom Phone=120, Tablet=180, Desktop=220, Default=120}" />
-                                                                <RowDefinition Height="Auto" />
-                                                            </Grid.RowDefinitions>
-                                                            
-                                                            <!-- Enhanced Image Container -->
-                                                            <Border
-                                                                Grid.Row="0"
-                                                                StrokeShape="RoundRectangle 12,12,0,0"
-                                                                StrokeThickness="0"
-                                                                HorizontalOptions="FillAndExpand"
-                                                                VerticalOptions="FillAndExpand"
-                                                                Margin="0">
-                                                                
-                                                                <Image
-                                                                    Aspect="AspectFill"
-                                                                    Source="{Binding PicturePath}"
-                                                                    HorizontalOptions="FillAndExpand"
-                                                                    VerticalOptions="FillAndExpand">
-                                                                    <Image.Clip>
-                                                                        <RoundRectangleGeometry
-                                                                            Rect="0,0,200,120"
-                                                                            CornerRadius="12,12,0,0" />
-                                                                    </Image.Clip>
-                                                                </Image>
-                                                                
-                                                                <!-- Overlay gradient for better text readability -->
-                                                                <Border
-                                                                    HorizontalOptions="FillAndExpand"
-                                                                    VerticalOptions="End"
-                                                                    HeightRequest="40"
-                                                                    StrokeThickness="0">
-                                                                    <Border.Background>
-                                                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                                                                            <GradientStop Color="Transparent" Offset="0.0" />
-                                                                            <GradientStop Color="{StaticResource WikiAppPopupOverlayColor}" Offset="1.0" />
-                                                                        </LinearGradientBrush>
-                                                                    </Border.Background>
-                                                                </Border>
-                                                            </Border>
-                                                            
-                                                            <!-- Enhanced Caption Area -->
-                                                            <Border
-                                                                Grid.Row="1"
-                                                                Padding="{OnIdiom Phone='8,6', Tablet='12,8', Desktop='15,10', Default='8,6'}"
-                                                                HorizontalOptions="FillAndExpand"
-                                                                VerticalOptions="Fill"
-                                                                StrokeThickness="0">
-                                                                
-                                                                <Label
-                                                                    FontFamily="{StaticResource DefaultFontFamily}"
-                                                                    FontSize="{OnIdiom Phone=11, Tablet=13, Desktop=15, Default=11}"
-                                                                    FontAttributes="None"
-                                                                    HorizontalTextAlignment="Center"
-                                                                    VerticalTextAlignment="Center"
-                                                                    LineBreakMode="WordWrap"
-                                                                    MaxLines="2"
-                                                                    Text="{Binding PictureCaption}"
-                                                                    TextColor="{DynamicResource WikiAppPersonaDetailPictureCaptionTextColor}"
-                                                                    HorizontalOptions="FillAndExpand"
-                                                                    VerticalOptions="Center"
-                                                                    LineHeight="1.2" />
-                                                            </Border>
-                                                        </Grid>
-                                                    </Border>
-                                                </Border>
-                                            </DataTemplate>
-                                        </CollectionView.ItemTemplate>
-                                    </CollectionView>
-                                </ScrollView>
-                                
-                                <!-- Banner Ad Area for Pictures Tab -->
-                                <Border
-                                    Grid.Row="1"
-                                    HeightRequest="60"
-                                    HorizontalOptions="FillAndExpand"
+
+                                <CollectionView
+                                    x:Name="lstImages"
                                     BackgroundColor="Transparent"
-                                    Margin="10,5,10,5"
-                                    VerticalOptions="Fill"
-                                    StrokeShape="RoundRectangle 8"
-                                    StrokeThickness="0">
-                                    
-                                    <pjads:BannerAdView
-                                        x:Name="bannerAdPicturesTab"
-                                        AdUnitId="ca-app-pub-3940256099942544/6300978111"
-                                        AdSize="Banner"
-                                        HorizontalOptions="FillAndExpand"
-                                        VerticalOptions="FillAndExpand"
-                                        BackgroundColor="Transparent" />
-                                </Border>
+                                    HorizontalOptions="Fill"
+                                    ItemsSource="{Binding Persona.Pictures}"
+                                    VerticalOptions="Fill">
+
+
+                                    <!--  Enhanced Grid Layout with better spacing  -->
+
+                                    <CollectionView.ItemsLayout>
+                                        <GridItemsLayout
+                                            HorizontalItemSpacing="{OnIdiom Phone=8,
+                                                                            Tablet=12,
+                                                                            Desktop=15,
+                                                                            Default=8}"
+                                            Orientation="Vertical"
+                                            Span="{OnIdiom Phone=2,
+                                                           Tablet=3,
+                                                           Desktop=4,
+                                                           Default=2}"
+                                            VerticalItemSpacing="{OnIdiom Phone=8,
+                                                                          Tablet=12,
+                                                                          Desktop=15,
+                                                                          Default=8}" />
+                                    </CollectionView.ItemsLayout>
+
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border
+                                                Margin="4"
+                                                Background="{StaticResource WikiAppPersonaDetailPictureItemBgGradient}"
+                                                Stroke="{DynamicResource WikiAppPersonaDetailPictureItemBorder}"
+                                                StrokeShape="RoundRectangle 12,12,12,12"
+                                                StrokeThickness="1">
+
+                                                <Border.Shadow>
+                                                    <Shadow
+                                                        Brush="{DynamicResource WikiAppPersonaDetailPictureItemShadow}"
+                                                        Opacity="0.3"
+                                                        Radius="8"
+                                                        Offset="0,2" />
+                                                </Border.Shadow>
+                                                <Border.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="lstImageEffectsLayer_Tapped" />
+                                                </Border.GestureRecognizers>
+
+                                                <Grid RowDefinitions="{OnIdiom Phone='120, Auto', Tablet='180, Auto', Desktop='220, Auto', Default='120, Auto'}">
+
+                                                    <Grid Grid.Row="0" IsClippedToBounds="True">
+                                                        <Image
+                                                            Aspect="AspectFill"
+                                                            HorizontalOptions="Fill"
+                                                            Source="{Binding PicturePath}"
+                                                            VerticalOptions="Fill" />
+
+                                                        <BoxView
+                                                            HeightRequest="40"
+                                                            InputTransparent="True"
+                                                            VerticalOptions="End">
+                                                            <BoxView.Background>
+                                                                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                                                    <GradientStop Offset="0.0" Color="Transparent" />
+                                                                    <GradientStop Offset="1.0" Color="{StaticResource WikiAppPopupOverlayColor}" />
+                                                                </LinearGradientBrush>
+                                                            </BoxView.Background>
+                                                        </BoxView>
+                                                    </Grid>
+
+                                                    <Label
+                                                        Grid.Row="1"
+                                                        Padding="{OnIdiom Phone='8,6',
+                                                                          Tablet='12,8',
+                                                                          Default='8,6'}"
+                                                        FontSize="{OnIdiom Phone=11,
+                                                                           Tablet=13,
+                                                                           Default=11}"
+                                                        HorizontalTextAlignment="Center"
+                                                        LineBreakMode="TailTruncation"
+                                                        MaxLines="2"
+                                                        Text="{Binding PictureCaption}"
+                                                        VerticalTextAlignment="Center" />
+                                                </Grid>
+                                            </Border>
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                </CollectionView>
                             </Grid>
                         </tabView:SfTabItem.Content>
                     </tabView:SfTabItem>
                 </tabView:SfTabView>
             </Grid>
-            </Grid>
-            
-            <!-- Loading Overlay -->
+
+            <StackLayout
+                Grid.Row="1"
+                Margin="5,5,5,5"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                VerticalOptions="Fill">
+
+                <ads:BannerAdView
+                    AdSize="Banner"
+                    AdUnitId="{Binding BannerAdsUnitId}"
+                    BannerType="Regular"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Fill" />
+            </StackLayout>
+            <!--  Loading Overlay  -->
             <Grid
-                IsVisible="{Binding IsDataLoading}"
+                Grid.RowSpan="2"
                 BackgroundColor="{DynamicResource WikiAppLoadingOverlayBgColor}"
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="FillAndExpand"
+                HorizontalOptions="Fill"
+                IsVisible="{Binding IsDataLoading}"
+                VerticalOptions="Fill"
                 ZIndex="1000">
-                
+
                 <Border
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
+                    Padding="{OnIdiom Phone='30,25',
+                                      Tablet='40,35',
+                                      Desktop='40,35',
+                                      Default='30,25'}"
                     Background="{DynamicResource WikiAppLoadingCardBg}"
+                    HorizontalOptions="Center"
+                    MinimumHeightRequest="{OnIdiom Phone=120,
+                                                   Tablet=160,
+                                                   Desktop=160,
+                                                   Default=120}"
+                    MinimumWidthRequest="{OnIdiom Phone=200,
+                                                  Tablet=280,
+                                                  Desktop=280,
+                                                  Default=200}"
                     Stroke="{DynamicResource WikiAppLoadingCardBorder}"
-                    StrokeThickness="1"
                     StrokeShape="RoundRectangle 16"
-                    Padding="{OnIdiom Phone='30,25', Tablet='40,35', Desktop='40,35', Default='30,25'}"
-                    MinimumWidthRequest="{OnIdiom Phone=200, Tablet=280, Desktop=280, Default=200}"
-                    MinimumHeightRequest="{OnIdiom Phone=120, Tablet=160, Desktop=160, Default=120}">
-                    
-                    <!-- Add subtle shadow effect -->
+                    StrokeThickness="1"
+                    VerticalOptions="Center">
+
+                    <!--  Add subtle shadow effect  -->
                     <Border.Shadow>
                         <Shadow
                             Brush="{DynamicResource WikiAppLoadingCardShadow}"
-                            Offset="0,4"
+                            Opacity="0.4"
                             Radius="12"
-                            Opacity="0.4" />
+                            Offset="0,4" />
                     </Border.Shadow>
-                    
+
                     <StackLayout
                         HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        Spacing="{OnIdiom Phone=15, Tablet=20, Desktop=20, Default=15}">
-                        
-                        <!-- Activity Indicator -->
+                        Spacing="{OnIdiom Phone=15,
+                                          Tablet=20,
+                                          Desktop=20,
+                                          Default=15}"
+                        VerticalOptions="Center">
+
+                        <!--  Activity Indicator  -->
                         <ActivityIndicator
+                            HeightRequest="{OnIdiom Phone=40,
+                                                    Tablet=50,
+                                                    Desktop=50,
+                                                    Default=40}"
+                            HorizontalOptions="Center"
                             IsRunning="{Binding IsDataLoading}"
-                            Color="{DynamicResource WikiAppLoadingIndicatorColor}"
-                            HeightRequest="{OnIdiom Phone=40, Tablet=50, Desktop=50, Default=40}"
-                            WidthRequest="{OnIdiom Phone=40, Tablet=50, Desktop=50, Default=40}"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center" />
-                        
-                        <!-- Loading Message -->
-                        <Label
-                            Text="{Binding LoadingMessage}"
-                            FontFamily="{StaticResource DefaultFontFamily}"
-                            FontSize="{OnIdiom Phone=16, Tablet=20, Desktop=22, Default=16}"
-                            FontAttributes="Bold"
-                            TextColor="{DynamicResource WikiAppLoadingTextColor}"
-                            HorizontalTextAlignment="Center"
-                            VerticalTextAlignment="Center"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center" />
-                        
-                        <!-- Subtitle -->
-                        <Label
-                            Text="Please wait while we prepare your content..."
-                            FontFamily="{StaticResource DefaultFontFamily}"
-                            FontSize="{OnIdiom Phone=12, Tablet=14, Desktop=16, Default=12}"
-                            TextColor="{DynamicResource WikiAppLoadingSubtitleColor}"
-                            HorizontalTextAlignment="Center"
-                            VerticalTextAlignment="Center"
-                            HorizontalOptions="Center"
                             VerticalOptions="Center"
-                            Opacity="0.8" />
+                            WidthRequest="{OnIdiom Phone=40,
+                                                   Tablet=50,
+                                                   Desktop=50,
+                                                   Default=40}"
+                            Color="{DynamicResource WikiAppLoadingIndicatorColor}" />
+
+                        <!--  Loading Message  -->
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="{OnIdiom Phone=16,
+                                               Tablet=20,
+                                               Desktop=22,
+                                               Default=16}"
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Center"
+                            Text="{Binding LoadingMessage}"
+                            VerticalOptions="Center"
+                            VerticalTextAlignment="Center" />
+
+                        <!--  Subtitle  -->
+                        <Label
+                            FontSize="{OnIdiom Phone=12,
+                                               Tablet=14,
+                                               Desktop=16,
+                                               Default=12}"
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Center"
+                            Opacity="0.8"
+                            Text="Please wait while we prepare your content..."
+                            VerticalOptions="Center"
+                            VerticalTextAlignment="Center" />
                     </StackLayout>
                 </Border>
             </Grid>

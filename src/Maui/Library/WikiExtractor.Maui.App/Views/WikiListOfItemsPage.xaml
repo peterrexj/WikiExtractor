@@ -3,15 +3,16 @@
     x:Class="WikiExtractor.Maui.App.Views.WikiListOfItemsPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:WikiExtractor.Maui.App"
-    xmlns:exts="clr-namespace:WikiExtractor.Maui.App.Exts"
+    xmlns:ads="clr-namespace:PjAds.Maui.Controls;assembly=PjAds.Maui"
     xmlns:core="http://schemas.syncfusion.com/maui"
-    xmlns:syncfusion="clr-namespace:Syncfusion.Maui.ListView;assembly=Syncfusion.Maui.ListView"
-    xmlns:sfButtons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
+    xmlns:exts="clr-namespace:WikiExtractor.Maui.App.Exts"
+    xmlns:local="clr-namespace:WikiExtractor.Maui.App"
+    xmlns:localControls="clr-namespace:WikiExtractor.Maui.App.Controls"
     xmlns:sfAutoComplete="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
     xmlns:sfBusy="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
+    xmlns:sfButtons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
     xmlns:sfEffects="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
-    xmlns:ads="clr-namespace:PjAds.Maui.Controls;assembly=PjAds.Maui"
+    xmlns:syncfusion="clr-namespace:Syncfusion.Maui.ListView;assembly=Syncfusion.Maui.ListView"
     x:Name="ListViewPage"
     Shell.NavBarIsVisible="True">
     <Shell.TitleView>
@@ -20,24 +21,30 @@
             FontAttributes="Bold"
             FontSize="Title"
             HorizontalTextAlignment="Start"
-            Text="{Binding Title}"
-            TextColor="{DynamicResource WikiAppWhiteColor}"
+            Text="Popes"
+            TextColor="{DynamicResource WikiAppTitleTextColor}"
             VerticalTextAlignment="Center" />
     </Shell.TitleView>
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Offset="0.1" Color="#222831" />
+                <GradientStop Offset="1.0" Color="#9DB2BF" />
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        
-        <!-- Main Content Area -->
+
+        <!--  Main Content Area  -->
         <Grid Grid.Row="0" IsEnabled="{Binding IsPageEnabled}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            
-            <!-- Search and Controls Section -->
+
+            <!--  Search and Controls Section  -->
             <FlexLayout Grid.Row="0">
                 <Grid>
                     <Border Style="{DynamicResource TopBorderStyle}">
@@ -48,72 +55,127 @@
                                         <ColumnDefinition Width="*" />
                                         <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=35, Tablet=45}, iOS={OnIdiom Phone=35, Tablet=45}, WinUI={OnIdiom Phone=35, Default=45}}" />
                                         <ColumnDefinition Width="10" />
-                                        <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=140, Tablet=220}, iOS={OnIdiom Phone=140, Tablet=220}, WinUI=220, MacCatalyst=220}" />
+                                        <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=100, Tablet=220}, iOS={OnIdiom Phone=100, Tablet=220}, WinUI=220, MacCatalyst=220}" />
                                     </Grid.ColumnDefinitions>
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="{OnPlatform Android={OnIdiom Phone=40, Tablet=45}, iOS={OnIdiom Phone=40, Tablet=45}, WinUI={OnIdiom Phone=40, Tablet=45, Desktop=45}, Default=45}" />
                                     </Grid.RowDefinitions>
-                                    
-                                    <!-- SfAutoComplete -->
-                                    <sfAutoComplete:SfAutocomplete
+
+                                    <!--  SfAutoComplete  -->
+                                    <!--<sfAutoComplete:SfAutocomplete
                                         x:Name="autoComplete"
                                         Grid.Column="0"
-                                        TextSearchMode="Contains"
                                         Margin="2,0,2,0"
-                                        BackgroundColor="{DynamicResource WikiAppSearchBackgroundColor}"
-                                        TextColor="{DynamicResource WikiAppSearchTextColor}"
-                                        PlaceholderColor="{DynamicResource WikiAppSearchPlaceholderColor}"
-                                        Placeholder="Enter here to search"
+                                        BackgroundColor="Transparent"
+                                        Completed="autoComplete_Completed"
+                                        DisplayMemberPath="Name"
                                         FontSize="{OnPlatform Android={OnIdiom Phone=12,
                                                                                Tablet=18},
                                                               iOS={OnIdiom Phone=12,
                                                                            Tablet=18},
                                                               WinUI={OnIdiom Phone=12,
-                                                                            Default=18}}"
+                                                                             Default=18}}"
                                         IsEnabled="{Binding IsNotBusy}"
                                         ItemsSource="{Binding AutocompleteList}"
-                                        DisplayMemberPath="Name"
                                         MaxDropDownHeight="200"
+                                        Placeholder="Enter here to search"
+                                        PlaceholderColor="{DynamicResource WikiAppSearchPlaceholderColor}"
                                         SelectionChanged="AutoComplete_SelectionChanged"
-                                        Unfocused="AutoComplete_Unfocused" />
-                                    
-                                    <!-- SfButton for Theme -->
-                                    <sfButtons:SfButton
-                                        x:Name="btnThemePick"
-                                        Grid.Column="1"
-                                        Clicked="BtnThemePick_Clicked"
-                                        Style="{DynamicResource ImageSmallRoundButton}"
-                                        HorizontalOptions="Center"
-                                        VerticalOptions="Center">
-                                        <core:SfButton.Content>
-                                            <DataTemplate>
-                                                <Grid>
-                                                    <Image Source="wiki_theme_icon.png"></Image>
-                                                </Grid>
-                                            </DataTemplate>
-                                        </core:SfButton.Content>
-                                    </sfButtons:SfButton>
-                                    
-                                    
-                                    <!-- SfButton for Take Quiz -->
-                                    <sfButtons:SfButton
-                                        x:Name="takeQuizButton"
-                                        Grid.Column="3"
-                                        IsVisible="{Binding IsNotBusy}"
-                                        BackgroundColor="{DynamicResource WikiAppGreenColor}"
-                                        Command="{Binding TakeQuizCommand}"
-                                        CommandParameter="{x:Reference takeQuizButton}"
-                                        Text="Take Quiz"
-                                        TextColor="{DynamicResource WikiAppWhiteColor}"
-                                        FontAttributes="Bold"
-                                        HorizontalOptions="Fill"
-                                        VerticalOptions="Center"
+                                        Stroke="Transparent"
+                                        TextColor="{DynamicResource WikiAppSearchTextColor}"
+                                        TextSearchMode="Contains"
+                                        Unfocused="AutoComplete_Unfocused" />-->
+
+                                    <sfAutoComplete:SfAutocomplete
+                                        x:Name="autoComplete"
+                                        Grid.Column="0"
+                                        Margin="2,0,2,0"
+                                        BackgroundColor="Transparent"
+                                        ClearButtonIconColor="{DynamicResource WikiAppAutoCompleteClearButtonColor}"
+                                        DisplayMemberPath="Name"
+                                        DropDownBackground="{DynamicResource WikiAppAutoCompleteDropdownBackgroundColor}"
+                                        DropDownItemFontFamily="{DynamicResource DefaultFontFamily}"
+                                        DropDownItemFontSize="{OnIdiom Phone=14,
+                                                                       Tablet=19,
+                                                                       Desktop=19,
+                                                                       TV=19,
+                                                                       Watch=12,
+                                                                       Default=14}"
+                                        DropDownItemTextColor="{DynamicResource WikiAppAutoCompleteDropdownTextColor}"
+                                        DropDownStroke="Transparent"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
                                         FontSize="{OnPlatform Android={OnIdiom Phone=12,
                                                                                Tablet=18},
                                                               iOS={OnIdiom Phone=12,
                                                                            Tablet=18},
-                                                              WinUI=18,
-                                                              MacCatalyst=18}" />
+                                                              WinUI={OnIdiom Phone=12,
+                                                                             Default=18}}"
+                                        HighlightedTextColor="{DynamicResource WikiAppAutoCompleteHighlightedTextColor}"
+                                        HighlightedTextFontAttributes="Bold"
+                                        IsClearButtonVisible="True"
+                                        IsEnabled="{Binding IsNotBusy}"
+                                        ItemsSource="{Binding AutocompleteList}"
+                                        MaxDropDownHeight="200"
+                                        MinimumPrefixCharacters="2"
+                                        Placeholder="Enter here to search"
+                                        PlaceholderColor="{DynamicResource WikiAppSearchPlaceholderColor}"
+                                        SelectedDropDownItemBackground="{DynamicResource WikiAppAutoCompleteSelectedDropDownItemBackground}"
+                                        SelectionChanged="autoComplete_SelectionChanged"
+                                        SelectionMode="Single"
+                                        SelectionTextHighlightColor="{DynamicResource WikiAppAutoCompleteSelectionTextHighlightColor}"
+                                        ShowBorder="False"
+                                        Stroke="Transparent"
+                                        TextColor="{DynamicResource WikiAppSearchTextColor}"
+                                        TextHighlightMode="MultipleOccurrence"
+                                        TextSearchMode="Contains"
+                                        Unfocused="autoComplete_Unfocused"
+                                        ValueChanged="autoComplete_ValueChanged">
+
+                                        <!--<sfAutoComplete:SfAutocomplete.NoResultsFoundTemplate>
+                                            <DataTemplate>
+                                                <Label
+                                                    Margin="70,10,0,0"
+                                                    FontAttributes="Italic"
+                                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                                    FontSize="{OnIdiom Phone=16,
+                                                                       Tablet=21,
+                                                                       Desktop=21,
+                                                                       TV=21,
+                                                                       Watch=14,
+                                                                       Default=16}"
+                                                    Text="Not Found"
+                                                    TextColor="{DynamicResource WikiAppAutoCompleteNoResultsFoundTextColor}" />
+                                            </DataTemplate>
+                                        </sfAutoComplete:SfAutocomplete.NoResultsFoundTemplate>-->
+
+                                    </sfAutoComplete:SfAutocomplete>
+
+                                    <!--  SfButton for Theme  -->
+                                    <sfButtons:SfButton
+                                        x:Name="btnThemePick"
+                                        Grid.Column="1"
+                                        Clicked="BtnThemePick_Clicked"
+                                        HorizontalOptions="Center"
+                                        Style="{DynamicResource ImageSmallRoundButton}"
+                                        VerticalOptions="Center">
+                                        <core:SfButton.Content>
+                                            <DataTemplate>
+                                                <Grid>
+                                                    <Image Source="theme_icon.png" />
+                                                </Grid>
+                                            </DataTemplate>
+                                        </core:SfButton.Content>
+                                    </sfButtons:SfButton>
+
+
+                                    <!--  SfButton for Take Quiz  -->
+                                    <sfButtons:SfButton
+                                        x:Name="takeQuizButton"
+                                        Grid.Column="3"
+                                        Command="{Binding TakeQuizCommand}"
+                                        CommandParameter="{x:Reference takeQuizButton}"
+                                        IsVisible="{Binding IsNotBusy}"
+                                        Style="{DynamicResource WikiAppQuizTakeButtonStyle}" />
                                 </Grid>
                             </StackLayout>
                         </Grid>
@@ -121,318 +183,273 @@
                 </Grid>
             </FlexLayout>
 
-            <!-- List section with proper containment -->
-            <ScrollView
+            <syncfusion:SfListView
+                x:Name="listOfItems"
                 Grid.Row="1"
-                VerticalOptions="FillAndExpand"
-                HorizontalOptions="FillAndExpand"
-                Padding="5"
-                Margin="0,10,0,0">
+                Margin="5,5,5,5"
+                AutoFitMode="DynamicHeight"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Fill"
+                IsEnabled="{Binding IsNotBusy}"
+                ItemsSource="{Binding Personas}"
+                SelectionMode="None"
+                VerticalOptions="Fill">
+                <syncfusion:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <sfEffects:SfEffectsView
+                            Margin="0,0,0,5"
+                            AutomationId="{Binding Id}"
+                            RippleAnimationDuration="300"
+                            TouchDownEffects="Ripple"
+                            TouchUp="itemOnList_TouchUp">
+                            <Border Style="{DynamicResource ListItemBorderStyle}">
+                                <Grid Padding="7,8,7,8">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.10*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, WinUI=0.15*, MacCatalyst=0.15*}" />
+                                        <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.90*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, WinUI=0.85*, MacCatalyst=*}" />
+                                    </Grid.ColumnDefinitions>
 
-                <syncfusion:SfListView
-                    x:Name="listOfItems"
-                    BackgroundColor="Transparent"
-                    IsEnabled="{Binding IsNotBusy}"
-                    ItemsSource="{Binding Personas}"
-                    SelectionMode="None"
-                    AutoFitMode="DynamicHeight"
-                    VerticalOptions="FillAndExpand"
-                    HorizontalOptions="FillAndExpand">
-                    <syncfusion:SfListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <sfEffects:SfEffectsView
-                                    x:Name="lstItemEffectsView"
-                                    Margin="0,0,0,5"
-                                    RippleAnimationDuration="300"
-                                    TouchDownEffects="Ripple"
-                                    AnimationCompleted="LstItemEffectsView_AnimationCompleted"
-                                    AutomationId="{Binding Id}">
-                                    <StackLayout>
-                                        <Border Style="{DynamicResource ListItemBorderStyle}">
-                                            <Grid Padding="8,10,8,10">
-                                        <StackLayout>
-                                            <Grid>
-                                                <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.35*, Tablet=0.10*}, iOS={OnIdiom Phone=0.35*, Tablet=0.15*}, WinUI=0.15*, MacCatalyst=0.15*}" />
-                                                    <ColumnDefinition Width="{OnPlatform Android={OnIdiom Phone=0.65*, Tablet=0.90*}, iOS={OnIdiom Phone=0.65*, Tablet=0.85*}, WinUI=0.85*, MacCatalyst=*}" />
-                                                </Grid.ColumnDefinitions>
-
-                                                <Grid Grid.Column="0">
-                                                    <Grid.RowDefinitions>
-                                                        <RowDefinition Height="*" />
-                                                    </Grid.RowDefinitions>
-                                                    <Image
-                                                        x:Name="imgList"
-                                                        Grid.Row="0"
-                                                        Margin="5,5,0,0"
-                                                        Aspect="AspectFit"
-                                                        HeightRequest="130"
-                                                        HorizontalOptions="FillAndExpand"
-                                                        VerticalOptions="Start"
-                                                        WidthRequest="120" />
-                                                        <!-- Source="{Binding PicturePrimaryPath}" -->
-                                                    
-                                                    <ActivityIndicator
-                                                        Grid.Row="0"
-                                                        IsRunning="{Binding IsLoading}"
-                                                        HorizontalOptions="Center"
-                                                        VerticalOptions="Center" />
-                                                </Grid>
-                                                <Grid Grid.Column="1">
-                                                    <Grid.RowDefinitions>
-                                                        <RowDefinition Height="25" />
-                                                        <RowDefinition Height="*" />
-                                                    </Grid.RowDefinitions>
-
-                                                    <StackLayout Grid.Row="0" 
-                                                                 Padding="8,0,0,10">
-                                                        <StackLayout.VerticalOptions>
-                                                            <OnPlatform x:TypeArguments="LayoutOptions">
-                                                                <On Platform="MacCatalyst" Value="CenterAndExpand" />
-                                                            </OnPlatform>
-                                                        </StackLayout.VerticalOptions>
-                                                        <FlexLayout AlignContent="Start">
-                                                            <Label
-                                                                Padding="0,0,3,0"
-                                                                FontAttributes="Bold"
-                                                                FontSize="{OnPlatform Android={OnIdiom Phone=18,
-                                                                                                       Tablet=22},
-                                                                                      iOS={OnIdiom Phone=18,
-                                                                                                   Tablet=22},
-                                                                                      WinUI=22,
-                                                                                      MacCatalyst=22}"
-                                                                LineBreakMode="TailTruncation"
-                                                                Text="{Binding Name}"
-                                                                TextColor="{DynamicResource WikiAppBlackColor}" />
-                                                            <ActivityIndicator
-                                                                Margin="0,-5,0,0"
-                                                                HeightRequest="{OnPlatform Android={OnIdiom Phone=30,
-                                                                                                            Tablet=40},
-                                                                                           iOS={OnIdiom Phone=30,
-                                                                                                        Tablet=40},
-                                                                                           WinUI=40,
-                                                                                           MacCatalyst=40}"
-                                                                IsRunning="{Binding IsLoading}"
-                                                                IsVisible="{OnPlatform Android=true,
-                                                                                       iOS=true,
-                                                                                       WinUI=false,
-                                                                                       MacCatalyst=false}"
-                                                                Color="{DynamicResource WikiAppBlueColor}" />
-                                                        </FlexLayout>
-                                                    </StackLayout>
-                                                    <Label
-                                                        Grid.Row="1"
-                                                        Margin="{OnPlatform Default='0,0,0,0',
-                                                                            iOS={OnIdiom Default='0,0,5,0',
-                                                                                         Tablet='0,0,5,0'}}"
-                                                        Padding="8,0,0,0"
-                                                        FontSize="{OnPlatform Android={OnIdiom Phone=12,
-                                                                                               Tablet=16},
-                                                                              iOS={OnIdiom Phone=11,
-                                                                                           Tablet=16},
-                                                                              WinUI=16,
-                                                                              MacCatalyst=13}"
-                                                        IsVisible="{Binding HidePrimaryContentMetadata}"
-                                                        LineBreakMode="TailTruncation"
-                                                        MaxLines="{OnPlatform Android={OnIdiom Phone=6,
-                                                                                               Tablet=4},
-                                                                              iOS={OnIdiom Phone=6,
-                                                                                           Tablet=4},
-                                                                              WinUI=4,
-                                                                              MacCatalyst=4}"
-                                                        Text="{Binding MainContent}"
-                                                        TextColor="{DynamicResource WikiAppBlackColor}" />
-
-                                                    <!-- Metadata List using ExtendedListView -->
-                                                    <exts:ExtendedListView
-                                                        Grid.Row="1"
-                                                        Margin="{OnPlatform Default='0,0,0,0',
-                                                                            iOS={OnIdiom Default='0,0,5,0',
-                                                                                         Tablet='0,0,5,0'}}"
-                                                        Padding="8,0,0,10"
-                                                        BackgroundColor="Transparent"
-                                                        AutoFitMode="DynamicHeight"
-                                                        HeightRequest="{Binding ListHeight}"
-                                                        IsEnabled="False"
-                                                        IsVisible="{Binding ShowPrimaryContentMetadata}"
-                                                        ItemsSource="{Binding PrimaryMetadataContent}"
-                                                        SelectionMode="None">
-                                                        <exts:ExtendedListView.ItemTemplate>
-                                                            <DataTemplate>
-                                                                <ViewCell>
-                                                                    <ViewCell.View>
-                                                                        <Grid>
-                                                                            <StackLayout Orientation="Vertical" Spacing="0">
-                                                                                <!-- Use a FlexLayout to allow wrapping of the key-value pair -->
-                                                                                <FlexLayout
-                                                                                    Direction="Row"
-                                                                                    Wrap="Wrap"
-                                                                                    AlignItems="Start"
-                                                                                    JustifyContent="Start">
-                                                                                    
-                                                                                    <!-- Key Label (Bold) -->
-                                                                                    <Label
-                                                                                        FontAttributes="Bold"
-                                                                                        FontSize="{OnIdiom Phone=11, Tablet=18}"
-                                                                                        Text="{Binding Key}"
-                                                                                        TextColor="{DynamicResource WikiAppBlackColor}"
-                                                                                        LineBreakMode="WordWrap" />
-                                                                                    
-                                                                                    <!-- Colon separator -->
-                                                                                    <Label
-                                                                                        FontSize="{OnIdiom Phone=12, Tablet=18}"
-                                                                                        Text=": "
-                                                                                        TextColor="{DynamicResource WikiAppBlackColor}" />
-                                                                                    
-                                                                                    <!-- Description Label (Wrappable) -->
-                                                                                    <Label
-                                                                                        FontSize="{OnIdiom Phone=13, Tablet=18}"
-                                                                                        Text="{Binding Description}"
-                                                                                        TextColor="{DynamicResource WikiAppBlackColor}"
-                                                                                        LineBreakMode="WordWrap"
-                                                                                        FlexLayout.Grow="1" />
-                                                                                </FlexLayout>
-                                                                            </StackLayout>
-                                                                        </Grid>
-                                                                    </ViewCell.View>
-                                                                </ViewCell>
-                                                            </DataTemplate>
-                                                        </exts:ExtendedListView.ItemTemplate>
-                                                    </exts:ExtendedListView>
-                                                </Grid>
-                                            </Grid>
-                                        </StackLayout>
+                                    <Grid Grid.Column="0" VerticalOptions="Start">
+                                        <Image
+                                            x:Name="imgList"
+                                            Margin="5,5,5,0"
+                                            Aspect="AspectFit"
+                                            HeightRequest="130"
+                                            Source="{Binding PicturePrimaryPath}"
+                                            WidthRequest="120" />
+                                        <ActivityIndicator
+                                            HorizontalOptions="Center"
+                                            IsRunning="{Binding IsLoading}"
+                                            VerticalOptions="Center" />
                                     </Grid>
-                                        </Border>
-                                    </StackLayout>
-                                </sfEffects:SfEffectsView>
-                            </ViewCell>
-                        </DataTemplate>
-                    </syncfusion:SfListView.ItemTemplate>
-                </syncfusion:SfListView>
-            </ScrollView>
+                                    <Grid Grid.Column="1" Margin="5,0,0,0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="25" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+
+                                        <StackLayout Grid.Row="0">
+                                            <StackLayout.VerticalOptions>
+                                                <OnPlatform x:TypeArguments="LayoutOptions">
+                                                    <On Platform="MacCatalyst" Value="CenterAndExpand" />
+                                                </OnPlatform>
+                                            </StackLayout.VerticalOptions>
+                                            <FlexLayout AlignContent="Start">
+                                                <Label
+                                                    Padding="0,0,0,0"
+                                                    FontAttributes="Bold"
+                                                    FontSize="{OnPlatform Android={OnIdiom Phone=18,
+                                                                                           Tablet=22},
+                                                                          iOS={OnIdiom Phone=18,
+                                                                                       Tablet=22},
+                                                                          WinUI=22,
+                                                                          MacCatalyst=22}"
+                                                    LineBreakMode="TailTruncation"
+                                                    Text="{Binding Name}"
+                                                    TextColor="{DynamicResource WikiAppListItemHeaderTextColor}" />
+                                                <ActivityIndicator
+                                                    Margin="0,-5,0,0"
+                                                    HeightRequest="{OnPlatform Android={OnIdiom Phone=30,
+                                                                                                Tablet=40},
+                                                                               iOS={OnIdiom Phone=30,
+                                                                                            Tablet=40},
+                                                                               WinUI=40,
+                                                                               MacCatalyst=40}"
+                                                    IsRunning="{Binding IsLoading}"
+                                                    IsVisible="{OnPlatform Android=true,
+                                                                           iOS=true,
+                                                                           WinUI=false,
+                                                                           MacCatalyst=false}"
+                                                    Color="{DynamicResource WikiAppListItemHeaderTextColor}" />
+                                            </FlexLayout>
+                                        </StackLayout>
+                                        <Label
+                                            Grid.Row="1"
+                                            Margin="{OnPlatform Default='0,0,0,0',
+                                                                iOS={OnIdiom Default='0,0,5,0',
+                                                                             Tablet='0,0,5,0'}}"
+                                            Padding="8,0,0,0"
+                                            FontSize="{OnPlatform Android={OnIdiom Phone=12,
+                                                                                   Tablet=16},
+                                                                  iOS={OnIdiom Phone=11,
+                                                                               Tablet=16},
+                                                                  WinUI=16,
+                                                                  MacCatalyst=13}"
+                                            IsVisible="{Binding HidePrimaryContentMetadata}"
+                                            LineBreakMode="TailTruncation"
+                                            MaxLines="{OnPlatform Android={OnIdiom Phone=6,
+                                                                                   Tablet=4},
+                                                                  iOS={OnIdiom Phone=6,
+                                                                               Tablet=4},
+                                                                  WinUI=4,
+                                                                  MacCatalyst=4}"
+                                            Text="{Binding MainContent}"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+
+                                        <!--  Metadata List using ExtendedListView  -->
+                                        <VerticalStackLayout
+                                            Grid.Row="1"
+                                            BindableLayout.ItemsSource="{Binding PrimaryMetadataContent}"
+                                            IsVisible="{Binding ShowPrimaryContentMetadata}"
+                                            Spacing="-5">
+
+                                            <BindableLayout.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Label Margin="0,0,0,2" LineBreakMode="WordWrap">
+                                                        <Label.FormattedText>
+                                                            <FormattedString>
+                                                                <Span
+                                                                    FontAttributes="Bold"
+                                                                    FontSize="13"
+                                                                    Text="{Binding Key}"
+                                                                    TextColor="{DynamicResource WikiAppListItemKeyTextColor}" />
+                                                                <Span Text=": " TextColor="{DynamicResource WikiAppListItemKeyTextColor}" />
+                                                                <Span
+                                                                    FontSize="13"
+                                                                    Text="{Binding Description}"
+                                                                    TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                                            </FormattedString>
+                                                        </Label.FormattedText>
+                                                    </Label>
+                                                </DataTemplate>
+                                            </BindableLayout.ItemTemplate>
+                                        </VerticalStackLayout>
+                                    </Grid>
+                                </Grid>
+                            </Border>
+                        </sfEffects:SfEffectsView>
+                    </DataTemplate>
+                </syncfusion:SfListView.ItemTemplate>
+            </syncfusion:SfListView>
         </Grid>
-        
-        <!-- Banner Ad for Wiki List Page -->
+
+        <!--  Banner Ad for Wiki List Page  -->
+        <!--<localControls:BannerAdControl Grid.Row="1" AdUnitId="{Binding BannerAdsUnitId}"/>-->
         <StackLayout
-            x:Name="stkBannerAdWikiList"
             Grid.Row="1"
-            HeightRequest="60"
-            HorizontalOptions="FillAndExpand"
             Margin="5,5,5,5"
+            HeightRequest="50"
+            HorizontalOptions="Center"
             VerticalOptions="Fill">
-            
+
             <ads:BannerAdView
-                x:Name="bannerAdWikiList"
-                AdUnitId="{Binding BannerAdUnitId}"
                 AdSize="Banner"
+                AdUnitId="{Binding BannerAdsUnitId}"
                 BannerType="Regular"
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="FillAndExpand"
-                AdLoaded="OnBannerAdLoaded"
-                AdFailedToLoad="OnBannerAdFailedToLoad"
-                AdClicked="OnBannerAdClicked" />
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill" />
         </StackLayout>
-        
-        <!-- Data Loading Overlay for WikiListOfItemsPage -->
+
+        <!--  Data Loading Overlay for WikiListOfItemsPage  -->
         <Grid
             x:Name="loadingOverlay"
             Grid.RowSpan="2"
-            IsVisible="{Binding IsDataLoading}"
             BackgroundColor="#80000000"
-            HorizontalOptions="FillAndExpand"
-            VerticalOptions="FillAndExpand"
+            HorizontalOptions="Fill"
+            IsVisible="{Binding IsDataLoading}"
+            VerticalOptions="Fill"
             ZIndex="1000">
-            
+
             <Border
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                BackgroundColor="#DC143C"
-                Stroke="{DynamicResource WikiAppLoadingCardBorder}"
-                StrokeThickness="1"
-                StrokeShape="RoundRectangle 12"
                 Padding="30,25,30,25"
-                MinimumWidthRequest="{OnIdiom Phone=280, Tablet=320, Desktop=320}"
-                MaximumWidthRequest="{OnIdiom Phone=320, Tablet=400, Desktop=400}">
-                
+                BackgroundColor="#DC143C"
+                HorizontalOptions="Center"
+                MaximumWidthRequest="{OnIdiom Phone=320,
+                                              Tablet=400,
+                                              Desktop=400}"
+                MinimumWidthRequest="{OnIdiom Phone=280,
+                                              Tablet=320,
+                                              Desktop=320}"
+                Stroke="{DynamicResource WikiAppLoadingCardBorder}"
+                StrokeShape="RoundRectangle 12"
+                StrokeThickness="1"
+                VerticalOptions="Center">
+
                 <Border.Shadow>
                     <Shadow
                         Brush="{DynamicResource WikiAppLoadingCardShadow}"
-                        Offset="0,4"
+                        Opacity="0.3"
                         Radius="12"
-                        Opacity="0.3" />
+                        Offset="0,4" />
                 </Border.Shadow>
-                
-                <StackLayout Spacing="20" HorizontalOptions="Center">
-                    <!-- Loading Message -->
+
+                <StackLayout HorizontalOptions="Center" Spacing="20">
+                    <!--  Loading Message  -->
                     <Label
-                        Text="{Binding LoadingMessage}"
-                        TextColor="{DynamicResource WikiAppLoadingTextColor}"
-                        FontSize="{OnIdiom Phone=16, Tablet=18, Desktop=18}"
                         FontAttributes="Bold"
-                        HorizontalOptions="Center"
-                        HorizontalTextAlignment="Center" />
-                    
-                    <!-- Subtitle -->
-                    <Label
-                        Text="Please wait while we prepare your content..."
-                        TextColor="{DynamicResource WikiAppLoadingSubtitleColor}"
-                        FontSize="{OnIdiom Phone=12, Tablet=14, Desktop=14}"
+                        FontSize="{OnIdiom Phone=16,
+                                           Tablet=18,
+                                           Desktop=18}"
                         HorizontalOptions="Center"
                         HorizontalTextAlignment="Center"
-                        LineBreakMode="WordWrap" />
+                        Text="{Binding LoadingMessage}" />
+
+                    <!--  Subtitle  -->
+                    <Label
+                        FontSize="{OnIdiom Phone=12,
+                                           Tablet=14,
+                                           Desktop=14}"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        LineBreakMode="WordWrap"
+                        Text="Please wait while we prepare your content..." />
                 </StackLayout>
             </Border>
         </Grid>
 
-        <!-- Navigation Loading Overlay for WikiListOfItemsPage -->
+        <!--  Navigation Loading Overlay for WikiListOfItemsPage  -->
         <Grid
             x:Name="navigationLoadingOverlay"
             Grid.RowSpan="2"
-            IsVisible="{Binding IsNavigating}"
             BackgroundColor="#80000000"
-            HorizontalOptions="FillAndExpand"
-            VerticalOptions="FillAndExpand"
+            HorizontalOptions="Fill"
+            IsVisible="{Binding IsNavigating}"
+            VerticalOptions="Fill"
             ZIndex="1001">
-            
+
             <Border
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                BackgroundColor="#DC143C"
-                Stroke="{DynamicResource WikiAppLoadingCardBorder}"
-                StrokeThickness="1"
-                StrokeShape="RoundRectangle 12"
                 Padding="30,25,30,25"
-                MinimumWidthRequest="{OnIdiom Phone=280, Tablet=320, Desktop=320}"
-                MaximumWidthRequest="{OnIdiom Phone=320, Tablet=400, Desktop=400}">
-                
+                BackgroundColor="#DC143C"
+                HorizontalOptions="Center"
+                MaximumWidthRequest="{OnIdiom Phone=320,
+                                              Tablet=400,
+                                              Desktop=400}"
+                MinimumWidthRequest="{OnIdiom Phone=280,
+                                              Tablet=320,
+                                              Desktop=320}"
+                Stroke="{DynamicResource WikiAppLoadingCardBorder}"
+                StrokeShape="RoundRectangle 12"
+                StrokeThickness="1"
+                VerticalOptions="Center">
+
                 <Border.Shadow>
                     <Shadow
                         Brush="{DynamicResource WikiAppLoadingCardShadow}"
-                        Offset="0,4"
+                        Opacity="0.3"
                         Radius="12"
-                        Opacity="0.3" />
+                        Offset="0,4" />
                 </Border.Shadow>
-                
-                <StackLayout Spacing="20" HorizontalOptions="Center">
-                    <!-- Navigation Message -->
+
+                <StackLayout HorizontalOptions="Center" Spacing="20">
+                    <!--  Navigation Message  -->
                     <Label
-                        Text="{Binding NavigationMessage}"
-                        TextColor="{DynamicResource WikiAppLoadingTextColor}"
-                        FontSize="{OnIdiom Phone=16, Tablet=18, Desktop=18}"
                         FontAttributes="Bold"
-                        HorizontalOptions="Center"
-                        HorizontalTextAlignment="Center" />
-                    
-                    <!-- Navigation Subtitle -->
-                    <Label
-                        Text="Navigating to details page..."
-                        TextColor="{DynamicResource WikiAppLoadingSubtitleColor}"
-                        FontSize="{OnIdiom Phone=12, Tablet=14, Desktop=14}"
+                        FontSize="{OnIdiom Phone=16,
+                                           Tablet=18,
+                                           Desktop=18}"
                         HorizontalOptions="Center"
                         HorizontalTextAlignment="Center"
-                        LineBreakMode="WordWrap" />
+                        Text="{Binding NavigationMessage}" />
+
+                    <!--  Navigation Subtitle  -->
+                    <Label
+                        FontSize="{OnIdiom Phone=12,
+                                           Tablet=14,
+                                           Desktop=14}"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        LineBreakMode="WordWrap"
+                        Text="Navigating to details page..." />
                 </StackLayout>
             </Border>
         </Grid>

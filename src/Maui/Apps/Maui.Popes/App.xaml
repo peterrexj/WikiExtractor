@@ -1,9 +1,10 @@
-﻿<?xml version = "1.0" encoding = "UTF-8" ?>
-<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Maui.Wiki"
-             xmlns:converters="clr-namespace:WikiExtractor.Maui.App.Converters;assembly=WikiExtractor.Maui.App"
-             x:Class="Maui.Wiki.App">
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Application
+    x:Class="Maui.Wiki.App"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:WikiExtractor.Maui.App.Converters;assembly=WikiExtractor.Maui.App"
+    xmlns:local="clr-namespace:Maui.Wiki">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -11,19 +12,11 @@
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
                 <!-- <ResourceDictionary Source="Extensions/Data/Theme.CommonButtonStyles.xaml" /> -->
             </ResourceDictionary.MergedDictionaries>
-            
-            <!-- Font Families - Define early to prevent StaticResource errors -->
-            <x:String x:Key="DefaultFontFamily">Calibri</x:String>
-            <x:String x:Key="DefaultFontFamilyBold">Calibri</x:String>
-            
-            <!-- Essential Colors - Define early to prevent DynamicResource errors in DataTemplates -->
-            <Color x:Key="WikiAppBlackColor">Black</Color>
-            <Color x:Key="WikiAppWhiteColor">White</Color>
-            <Color x:Key="WikiAppGrayColor">Gray</Color>
-            
-            <!-- Converters -->
+
+            <!--  Converters  -->
             <converters:StringToColorConverter x:Key="stringToColorConverter" />
             <converters:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+            <converters:BusyToOpacityConverter x:Key="BusyToOpacity" />
         </ResourceDictionary>
     </Application.Resources>
 </Application>

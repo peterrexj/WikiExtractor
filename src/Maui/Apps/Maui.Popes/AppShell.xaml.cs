@@ -1,12 +1,6 @@
 ﻿using System.Diagnostics;
-using System.Collections.Generic;
 using WikiExtractor.Maui.App.Repository;
-using WikiExtractor.Maui.App.Models;
-using Microsoft.Maui.Controls;
-using Maui.Wiki.Services;
 using WikiExtractor.Process;
-using WikiExtractor.Maui.App.Exts;
-using Maui.Wiki.Views;
 using WikiExtractor.Maui.App.Views;
 
 namespace Maui.Wiki
@@ -25,10 +19,12 @@ namespace Maui.Wiki
             Routing.RegisterRoute("QuizResultsPage", typeof(WikiExtractor.Maui.App.Views.QuizResultsPage));
             // Register the SettingsPage for navigation
             Routing.RegisterRoute("settings", typeof(SettingsPage));
-            
-            // Load flyout menu items after initialization
-            Loaded += OnShellLoaded;
-            
+
+            //// Load flyout menu items after initialization
+            //Loaded += OnShellLoaded;
+
+            _ = LoadDynamicMenuAsync();
+
             // Handle navigation to set the Tag property on WikiListOfItemsPage
             Navigating += OnNavigating;
         }
@@ -56,7 +52,68 @@ namespace Maui.Wiki
                 WikiExtractor.Maui.App.Exts.ExceptionHandler.CaptureException(ex, "AppShell.OnShellLoaded");
             }
         }
-        
+
+        private async Task LoadDynamicMenuAsync()
+        {
+            try
+            {
+                // Wait a tiny bit to ensure DB services are initialized if they are lazy
+                await Task.Delay(100);
+
+                if (DatabaseService.AppDatabase == null) return;
+
+                var wikiAppController = new WikiAppController(DatabaseService.AppDatabase, DatabaseService.UserStoreDatabase);
+                var flyoutItems = wikiAppController.AppMenuItems().ToList();
+
+                if (flyoutItems.Count == 0) return;
+
+                // Optional: Remove the placeholder if you want to start fresh
+                // Items.Clear(); 
+
+                for (int i = 0; i < flyoutItems.Count; i++)
+                {
+                    var flyItem = flyoutItems[i];
+                    Items.Add(new FlyoutItem
+                    {
+                        Title = flyItem.MenuItemName,
+                        AutomationId = flyItem.Tags,
+                        Items = {
+                            new ShellContent
+                            {
+                                Title = flyItem.MenuItemName,
+                                Route = flyItem.Tags,
+                                ContentTemplate = new DataTemplate(typeof(WikiExtractor.Maui.App.Views.WikiListOfItemsPage))
+                            }
+                        }
+                    });
+
+                    // Add settings after the first item
+                    if (i == 0)
+                    {
+                        Items.Add(new FlyoutItem
+                        {
+                            Title = "Settings",
+                            Route = "settings",
+                            Items = {
+                                new ShellContent
+                                {
+                                    Title = "Settings",
+                                    ContentTemplate = new DataTemplate(typeof(SettingsPage))
+                                }
+                            }
+                        });
+                    }
+                }
+
+                // Navigate to the first real item so the user leaves the "Loading" placeholder
+                await Shell.Current.GoToAsync($"//{flyoutItems[0].Tags}");
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Menu Load Error: {ex.Message}");
+            }
+        }
+
         private async Task LoadFlyoutMenuItems()
         {
             try

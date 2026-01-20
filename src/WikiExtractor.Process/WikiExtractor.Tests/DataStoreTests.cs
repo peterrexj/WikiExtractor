@@ -104,7 +104,7 @@ namespace WikiExtractor.Tests
 
             Parallel.ForEach(allMasterData, new ParallelOptions { MaxDegreeOfParallelism = 10 }, item =>
             {
-                var data = wikiAppController.GetViewModelById(item.Id);
+                var data = wikiAppController.GetViewModelByIdAsync(item.Id).GetAwaiter().GetResult();
                 //var data = GetViewModelv2Test(item.Id,
                 //    allMasterData, allPicsData, metadataData, paraPrimaryData, para2Data, para3Data, paraData);
                 Assert.IsNotNull(data);

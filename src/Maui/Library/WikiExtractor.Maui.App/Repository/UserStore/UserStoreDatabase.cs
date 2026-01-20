@@ -46,17 +46,9 @@ namespace WikiExtractor.Maui.App.Repository.UserStore
             try
             {
                 // Try ServiceLocator first
-                var localStorage = ServiceLocator.GetService<ILocalStorage>();
-                if (localStorage?.SqlLiteHelper != null)
+                if (SharedServiceCore.LocalStorage?.SqlLiteHelper != null)
                 {
-                    return localStorage.SqlLiteHelper;
-                }
-                
-                // Fallback to CustomServices
-                var customStorage = CustomServices.LocalStorage;
-                if (customStorage?.SqlLiteHelper != null)
-                {
-                    return customStorage.SqlLiteHelper;
+                    return SharedServiceCore.LocalStorage.SqlLiteHelper;
                 }
                 
                 throw new InvalidOperationException("LocalStorage service is not available during UserStoreDatabase initialization");

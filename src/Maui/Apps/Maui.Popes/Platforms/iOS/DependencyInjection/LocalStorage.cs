@@ -21,6 +21,14 @@ namespace Maui.Wiki.Platforms.iOS.DependencyInjection
                 return _sqlitHelper;
             }
         }
+
+        public ISqlitHelper DbStoreHelper
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
     }
 
     public class LocalStorageFactory : ISqlitHelper
@@ -38,7 +46,7 @@ namespace Maui.Wiki.Platforms.iOS.DependencyInjection
             {
                 try
                 {
-                    var appInfo = CustomServices.AppInformation;
+                    var appInfo = SharedServiceCore.AppInformation;
                     if (appInfo?.DbWikiStore != null)
                     {
                         return appInfo.DbWikiStore;

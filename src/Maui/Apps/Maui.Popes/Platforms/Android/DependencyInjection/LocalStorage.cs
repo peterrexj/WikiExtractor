@@ -20,6 +20,19 @@ namespace Maui.Wiki.Platforms.Android.DependencyInjection
                 return _qlitHelper;
             }
         }
+
+        private ISqlitHelper _dbSqliteHelper;
+        public ISqlitHelper DbStoreHelper
+        {
+            get
+            {
+                if ( _dbSqliteHelper == null)
+                {
+                    _dbSqliteHelper = new DbStorage();
+                }
+                return _dbSqliteHelper;
+            }
+        }
     }
 
     public class LocalStorageFactory : ISqlitHelper
@@ -52,10 +65,10 @@ namespace Maui.Wiki.Platforms.Android.DependencyInjection
         public string PlatformDatabasePath =>
             Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), DatabaseFileName);
         
-        public string DatabaseFileName => ServiceHelper.Services != null ?
-            Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<IAppInformation>(ServiceHelper.Services)?.DbUserStore ?? "WikiUserStore.db"
+        public string DatabaseFileName => SharedServiceCore.AppInformation != null ?
+            SharedServiceCore.AppInformation?.DbUserStore ?? "WikiUserStore.db"
             : "WikiUserStore.db";
-        
+
         public bool IsDatabaseOnCopyMode => false;
         public int CurrentVersion => 3;
         public bool HasSettingsTable => true;
@@ -98,8 +111,8 @@ namespace Maui.Wiki.Platforms.Android.DependencyInjection
         }
     }
 
-    public static class ServiceHelper
-    {
-        public static IServiceProvider Services { get; set; }
-    }
+    //public static class ServiceHelper
+    //{
+    //    public static IServiceProvider Services { get; set; }
+    //}
 }

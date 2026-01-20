@@ -1,15 +1,7 @@
-using Microsoft.Maui.Controls;
 using Pj.Library;
 using Syncfusion.Maui.Inputs;
-using Syncfusion.Maui.Buttons;
 using Syncfusion.Maui.Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Syncfusion.Maui.DataSource;
 using WikiExtractor.Maui.App.Exts;
-using WikiExtractor.Maui.App.Models;
 using WikiExtractor.Maui.App.Models.Mix;
 using WikiExtractor.Maui.App.Services;
 using WikiExtractor.Maui.App.ViewModels;
@@ -26,34 +18,10 @@ namespace WikiExtractor.Maui.App.Views
 
         private PersonaListViewModel personaListViewModel;
         private int _masterId;
-        private readonly IAdManager _adManager;
 
         public WikiListOfItemsPage()
         {
             InitializeComponent();
-            
-            try
-            {
-                // Get the ad manager from dependency injection with fallback
-                _adManager = GetAdManagerService();
-            }
-            catch (Exception ex)
-            {
-                System.Diagnostics.Debug.WriteLine($"Warning: Failed to initialize AdManager in WikiListOfItemsPage: {ex.Message}");
-                _adManager = null; // The code already handles null _adManager gracefully
-            }
-        }
-
-        private IAdManager GetAdManagerService()
-        {
-            try
-            {
-                return ServiceLocator.GetService<IAdManager>();
-            }
-            catch
-            {
-                return null; // The existing code already handles null _adManager
-            }
         }
 
         protected override async void OnAppearing()
@@ -63,7 +31,7 @@ namespace WikiExtractor.Maui.App.Views
                 if (BindingContext == null || personaListViewModel == null)
                 {
                     personaListViewModel = new PersonaListViewModel();
-                    
+
                     // Set initial loading state and bind context early for loading indicator visibility
                     personaListViewModel.IsDataLoading = true;
                     personaListViewModel.LoadingMessage = "Initializing list...";
@@ -79,9 +47,6 @@ namespace WikiExtractor.Maui.App.Views
 
                     await LoadRefreshData();
                 }
-
-                //personaListViewModel.DefaultStyle = ThemeHelper.GetDefaultStyle();
-                //ThemeHelper.UpdateAppThemes(personaListViewModel.DefaultStyle);
             }
             catch (Exception ex)
             {
@@ -95,8 +60,9 @@ namespace WikiExtractor.Maui.App.Views
             {
                 if (personaListViewModel != null)
                 {
-                    personaListViewModel.IsBusy = false;
+                    personaListViewModel.IsPageBusy = false;
                 }
+                autoComplete.Unfocus();
             }
             base.OnAppearing();
         }
@@ -105,36 +71,50 @@ namespace WikiExtractor.Maui.App.Views
         {
             try
             {
+                personaListViewModel.IsDataLoading = true;
                 personaListViewModel.LoadingMessage = "Loading persona data...";
-                await Task.Delay(200);
+                await Task.Delay(200); // Small delay to let UI show the loading state
 
-                TaskGroup taskGroup = new();
-                taskGroup.Add(() => personaListViewModel.Personas = SharedServices.WikiAppController.GetListOfWikiItems(Tags).ToList());
-                taskGroup.Add(() => personaListViewModel.Title = SharedServices.WikiAppController.AppMenuItems().FirstOrDefault(f => f.Tags == string.Join(",", Tags)).TitleOnThePage ?? string.Empty);
-                taskGroup.Add(() => personaListViewModel.HideItemRead = SettingsHelper.ShouldShowAlreadyReadItem());
-                taskGroup.Add(() => personaListViewModel.SortBySelectedIndex = Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)), SettingsHelper.GetSortAttributeBySelected(SettingsHelper.GetCurrentSortDescriptor())));
-                taskGroup.WaitAll();
+                // 1. Fetch data in parallel on background threads
+                var personasTask = Task.Run(() => SharedServices.WikiAppController.GetListOfWikiItems(Tags).ToList());
+                var titleTask = Task.Run(() => SharedServices.WikiAppController.AppMenuItems().FirstOrDefault(f => f.Tags == string.Join(",", Tags))?.TitleOnThePage ?? string.Empty);
+                var hideReadTask = Task.Run(() => SettingsHelper.ShouldShowAlreadyReadItem());
+                var sortIndexTask = Task.Run(() => Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)), SettingsHelper.GetSortAttributeBySelected(SettingsHelper.GetCurrentSortDescriptor())));
 
+                await Task.WhenAll(personasTask, titleTask, hideReadTask, sortIndexTask);
+
+                // 2. Update the UI-bound properties on the Main Thread
+                await MainThread.InvokeOnMainThreadAsync(() =>
+                {
+                    personaListViewModel.Personas = personasTask.Result;
+                    personaListViewModel.Title = titleTask.Result;
+                    personaListViewModel.HideItemRead = hideReadTask.Result;
+                    personaListViewModel.SortBySelectedIndex = sortIndexTask.Result;
+                });
+
+                // 3. Process Autocomplete (can be done on background, but assigned on Main)
                 personaListViewModel.LoadingMessage = "Building autocomplete list...";
-                await Task.Delay(200);
+                var autoList = personasTask.Result.Select(f => new WikiExtractor.ViewModels.PersonaAutoCompleteModel { Id = f.Id, Name = f.Name }).ToList();
 
-                personaListViewModel.AutocompleteList = personaListViewModel.Personas.Select(f => new WikiExtractor.ViewModels.PersonaAutoCompleteModel { Id = f.Id, Name = f.Name }).ToList();
+                await MainThread.InvokeOnMainThreadAsync(() =>
+                    personaListViewModel.AutocompleteList = autoList);
 
+                // 4. Apply Filters
                 personaListViewModel.LoadingMessage = "Applying filters...";
-                await Task.Delay(200);
-
                 await Task.Run(RefreshListOfListFilter);
 
                 personaListViewModel.LoadingMessage = "Finalizing...";
                 await Task.Delay(100);
-
-                // Complete loading
-                personaListViewModel.IsDataLoading = false;
             }
             catch (Exception ex)
             {
-                personaListViewModel.IsDataLoading = false;
-                throw;
+                ExceptionHandler.CaptureException(ex);
+            }
+            finally
+            {
+                // Use finally to ensure loading always stops even on error
+                await MainThread.InvokeOnMainThreadAsync(() =>
+                    personaListViewModel.IsDataLoading = false);
             }
         }
 
@@ -142,73 +122,90 @@ namespace WikiExtractor.Maui.App.Views
         {
             try
             {
+                personaListViewModel.IsDataLoading = true;
                 bool hasReadStatusChanged = false;
                 bool hasItemReadToggled = false;
 
                 personaListViewModel.LoadingMessage = "Checking read status...";
                 await Task.Delay(200);
 
-                TaskGroup taskGroup = new();
-                taskGroup.Add(() =>
+                // 1. Prepare Background Tasks
+                var readStatusTask = Task.Run(() =>
                 {
-                    //This section reach on two occasions
-                    //1. When redirected back from the subpage to the main page
-                    //2. Navigate to another page from the left menu and then come back to the same page
+                    // Perform the heavy LINQ join on a background thread
+                    var trackData = SharedServices.WikiAppController.GetItemReadTrackData();
 
-                    //Reading all the Item Read status and apply for the loaded items on this page
                     var mapData = (from data in personaListViewModel.Personas
-                                   join tagItemJoin in SharedServices.WikiAppController.GetItemReadTrackData() on data.Name equals tagItemJoin.ItemIdentifier into tagItemGrp
-                                   from tagItem in tagItemGrp
-                                   select new
-                                   {
-                                       Data = data,
-                                       Status = tagItem.IsReadAsBool
-                                   }).ToList();
+                                   join tagItemJoin in trackData on data.Name equals tagItemJoin.ItemIdentifier
+                                   select new { Data = data, Status = tagItemJoin.IsReadAsBool }).ToList();
 
-                    foreach (var data in mapData)
+                    // Local flags to avoid direct VM property access inside the background loop
+                    bool localStatusChanged = false;
+
+                    foreach (var item in mapData)
                     {
-                        data.Data.ItemReadStatus = data.Status;
+                        item.Data.ItemReadStatus = item.Status;
                     }
 
-                    //This section handles the Item Read from the sub page to main page. Stores the information in a shared place and utilize that see any changes need to apply
+                    // Handle Page Data Transfer
                     if (SharedServices.PageDataTransferModel.Name.HasValue())
                     {
-                        foreach (var item in personaListViewModel.Personas.Where(f => f.Name == SharedServices.PageDataTransferModel.Name))
+                        var targetName = SharedServices.PageDataTransferModel.Name;
+                        var isMarked = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
+
+                        foreach (var item in personaListViewModel.Personas.Where(f => f.Name == targetName))
                         {
-                            hasReadStatusChanged = item.ItemReadStatus != SharedServices.PageDataTransferModel.IsMarkedAsViewed;
-                            item.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
+                            if (item.ItemReadStatus != isMarked) localStatusChanged = true;
+                            item.ItemReadStatus = isMarked;
                         }
                         SharedServices.PageDataTransferModel.Clear();
                     }
-                    personaListViewModel.SearchItemName = "";
-                });
-                taskGroup.Add(() =>
-                {
-                    var hideItemReadStatusFromStore = SettingsHelper.ShouldShowAlreadyReadItem();
-                    hasItemReadToggled = hideItemReadStatusFromStore != personaListViewModel.HideItemRead;
-                    personaListViewModel.HideItemRead = hideItemReadStatusFromStore;
-                });
-                taskGroup.Add(() => personaListViewModel.SortBySelectedIndex = Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)), SettingsHelper.GetSortAttributeBySelected(SettingsHelper.GetCurrentSortDescriptor())));
-                taskGroup.WaitAll();
 
+                    return localStatusChanged;
+                });
+
+                var settingsTask = Task.Run(() =>
+                {
+                    var hideItemReadFromStore = SettingsHelper.ShouldShowAlreadyReadItem();
+                    bool toggled = hideItemReadFromStore != personaListViewModel.HideItemRead;
+                    return new { Hide = hideItemReadFromStore, Toggled = toggled };
+                });
+
+                var sortIndexTask = Task.Run(() =>
+                    Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)),
+                    SettingsHelper.GetSortAttributeBySelected(SettingsHelper.GetCurrentSortDescriptor())));
+
+                // 2. Wait for all
+                await Task.WhenAll(readStatusTask, settingsTask, sortIndexTask);
+
+                // 3. Apply results to ViewModel on Main Thread
+                hasReadStatusChanged = readStatusTask.Result;
+                hasItemReadToggled = settingsTask.Result.Toggled;
+
+                await MainThread.InvokeOnMainThreadAsync(() =>
+                {
+                    personaListViewModel.HideItemRead = settingsTask.Result.Hide;
+                    personaListViewModel.SortBySelectedIndex = sortIndexTask.Result;
+                    personaListViewModel.SearchItemName = ""; // Clear search on refresh
+                });
+
+                // 4. Trigger Filter Refresh if needed
                 if (hasReadStatusChanged || hasItemReadToggled)
                 {
                     personaListViewModel.LoadingMessage = "Updating filters...";
                     await Task.Delay(200);
-                    
                     await Task.Run(RefreshListOfListFilter);
                 }
-
-                personaListViewModel.LoadingMessage = "Finalizing...";
-                await Task.Delay(100);
-
-                // Complete loading
-                personaListViewModel.IsDataLoading = false;
             }
             catch (Exception ex)
             {
+                ExceptionHandler.CaptureException(ex);
+            }
+            finally
+            {
+                personaListViewModel.LoadingMessage = "Finalizing...";
+                await Task.Delay(100);
                 personaListViewModel.IsDataLoading = false;
-                throw;
             }
         }
 
@@ -218,43 +215,30 @@ namespace WikiExtractor.Maui.App.Views
 
             try
             {
-                // Start navigation loading state
+                // 1. Start UI feedback immediately on the Main Thread
                 personaListViewModel.IsNavigating = true;
+                personaListViewModel.IsPageBusy = true;
                 personaListViewModel.NavigationMessage = "Preparing navigation...";
-                await Task.Delay(100); // Brief delay for UI feedback
 
-                await Task.Run(() =>
+                // 2. Perform logic. No Task.Run needed here as these are simple assignments.
+                personaObj = personaListViewModel.Personas.FirstOrDefault(f => f.Id == _masterId);
+
+                if (personaObj != null)
                 {
-                    try
-                    {
-                        TaskGroup taskGroup = new();
+                    personaObj.IsPageBusy = true;
+                }
 
-                        taskGroup.Add(() =>
-                        {
-                            personaListViewModel.IsBusy = true;
-                            personaObj = personaListViewModel.Personas.FirstOrDefault(f => f.Id == _masterId);
-                            if (personaObj != null)
-                            {
-                                personaObj.IsBusy = true;
-                            }
-                            SharedServices.PageDataTransferModel.Clear();
-                            SharedServices.PageDataTransferModel.Id = _masterId;
-                            SharedServices.PageDataTransferModel.Name = personaObj?.Name;
-                            SharedServices.PageDataTransferModel.IsMarkedAsViewed = personaObj?.ItemReadStatus ?? false;
-                        });
+                // 3. Prepare Data Transfer Service
+                SharedServices.PageDataTransferModel.Clear();
+                SharedServices.PageDataTransferModel.Id = _masterId;
+                SharedServices.PageDataTransferModel.Name = personaObj?.Name;
+                SharedServices.PageDataTransferModel.IsMarkedAsViewed = personaObj?.ItemReadStatus ?? false;
 
-                        taskGroup.WaitAll();
-                    }
-                    catch (Exception ex)
-                    {
-                        ExceptionHandler.CaptureException(ex);
-                    }
-                });
-
-                // Update navigation message
+                // 4. Update message and allow the UI to render the change
                 personaListViewModel.NavigationMessage = "Opening details...";
-                await Task.Delay(100); // Brief delay for UI feedback
+                await Task.Delay(50); // Smallest delay just to ensure the message renders
 
+                // 5. Navigate
                 var route = $"{nameof(PersonaDetailPage)}?MasterId={_masterId}";
                 await Shell.Current.GoToAsync(route);
             }
@@ -264,33 +248,32 @@ namespace WikiExtractor.Maui.App.Views
             }
             finally
             {
-                // Always clean up navigation state
+                // 6. Clean up state
                 personaListViewModel.IsNavigating = false;
-                personaListViewModel.IsBusy = false;
+                personaListViewModel.IsPageBusy = false;
                 if (personaObj != null)
                 {
-                    personaObj.IsBusy = false;
+                    personaObj.IsPageBusy = false;
                 }
             }
         }
 
         #region Filter
-        
-        
-        private async Task RefreshListOfListFilter()
+
+        private void RefreshListOfListFilter()
         {
-            await Task.Run(() =>
+            // No Task.Run needed for UI-thread operations
+            MainThread.BeginInvokeOnMainThread(() =>
             {
                 try
                 {
-                    MainThread.BeginInvokeOnMainThread(() =>
+                    if (listOfItems.DataSource != null)
                     {
-                        if (listOfItems.DataSource != null)
-                        {
-                            listOfItems.DataSource.Filter = FilterPersonas;
-                            listOfItems.DataSource.RefreshFilter();
-                        }
-                    });
+                        // Assigning the delegate only once is better performance, 
+                        // but re-assigning is fine if the logic inside FilterPersonas changes.
+                        listOfItems.DataSource.Filter = FilterPersonas;
+                        listOfItems.DataSource.RefreshFilter();
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -301,154 +284,131 @@ namespace WikiExtractor.Maui.App.Views
 
         private bool FilterPersonas(object obj)
         {
-            try
-            {
-                var persona = obj as PersonaViewModel;
-                var filterText = string.Empty;
-                
-                // Priority order for filter text:
-                // 1. Selected item from autocomplete
-                // 2. SearchItemName from view model
-                // 3. Current text in autocomplete (for when user types but hasn't selected)
-                if (autoComplete.SelectedItem != null)
-                {
-                    filterText = (autoComplete.SelectedItem as WikiExtractor.ViewModels.PersonaAutoCompleteModel)?.Name ?? string.Empty;
-                }
-                else if (personaListViewModel.SearchItemName.HasValue())
-                {
-                    filterText = personaListViewModel.SearchItemName;
-                }
-                else if (!string.IsNullOrWhiteSpace(autoComplete.Text))
-                {
-                    filterText = autoComplete.Text;
-                }
+            if (obj is not PersonaViewModel persona) return false;
 
-                // Apply read status filter first
-                if (personaListViewModel.HideItemRead && persona.ItemReadStatus)
-                {
-                    return false;
-                }
-                
-                // If no filter text, show all items (that pass read status filter)
-                if (string.IsNullOrWhiteSpace(filterText))
-                {
-                    return true;
-                }
+            // Apply "Hide Read" logic first - it's the fastest "exit" for the filter
+            if (personaListViewModel.HideItemRead && persona.ItemReadStatus)
+                return false;
 
-                // Apply text filter using contains logic
-                return persona.Name.ContainsIgnoreCase(filterText);
-            }
-            catch (OperationCanceledException)
+            string filterText = string.Empty;
+
+            // Retrieve filter text safely from UI components
+            if (autoComplete.SelectedItem is WikiExtractor.ViewModels.PersonaAutoCompleteModel selected)
             {
-                return true;
+                filterText = selected.Name;
             }
-            catch (Exception ex)
+            else if (!string.IsNullOrWhiteSpace(personaListViewModel.SearchItemName))
             {
-                ExceptionHandler.CaptureException(ex);
-                return true;
+                filterText = personaListViewModel.SearchItemName;
             }
+            else if (!string.IsNullOrWhiteSpace(autoComplete.Text))
+            {
+                filterText = autoComplete.Text;
+            }
+
+            if (string.IsNullOrWhiteSpace(filterText))
+                return true;
+
+            return persona.Name.ContainsIgnoreCase(filterText);
         }
         #endregion
 
         #region Auto Complete
-        private async void AutoComplete_SelectionChanged(object sender, Syncfusion.Maui.Inputs.SelectionChangedEventArgs e)
+        private void autoComplete_SelectionChanged(object sender, Syncfusion.Maui.Inputs.SelectionChangedEventArgs e)
         {
-            await Task.Run(() =>
+            if (sender is not SfAutocomplete autocomplete) return;
+
+            try
             {
-                try
+                personaListViewModel.IsPageBusy = true;
+
+                // 1. Determine the Search Name
+                if (string.IsNullOrWhiteSpace(autocomplete.Text))
                 {
-                    personaListViewModel.IsBusy = true;
-                    if (sender is SfAutocomplete autocomplete)
-                    {
-                        MainThread.BeginInvokeOnMainThread(() =>
-                        {
-                            // Check if the autocomplete text is empty (cleared) - this is the key fix from LoanCalculator
-                            if (string.IsNullOrWhiteSpace(autocomplete.Text))
-                            {
-                                // Text was cleared - reset selection and refresh to show all items
-                                autocomplete.SelectedItem = null;
-                                personaListViewModel.SearchItemName = "";
-                                
-                                if (listOfItems.DataSource != null)
-                                {
-                                    listOfItems.DataSource.Filter = FilterPersonas;
-                                    listOfItems.DataSource.RefreshFilter();
-                                }
-                                
-                                // Close the dropdown
-                                autocomplete.IsDropDownOpen = false;
-                            }
-                            else if (listOfItems.DataSource != null)
-                            {
-                                // Handle normal selection changes when text is not empty
-                                // Handle item selection
-                                if (e.AddedItems != null && e.AddedItems.Count > 0)
-                                {
-                                    var castedArgs = e.AddedItems[0] as WikiExtractor.ViewModels.PersonaAutoCompleteModel;
-                                    if (castedArgs != null)
-                                    {
-                                        personaListViewModel.SearchItemName = castedArgs.Name;
-                                        listOfItems.DataSource.Filter = FilterPersonas;
-                                        listOfItems.DataSource.RefreshFilter();
-                                    }
-                                }
-                                // Handle item deselection or clearing
-                                else if (e.RemovedItems != null && e.RemovedItems.Count > 0)
-                                {
-                                    personaListViewModel.SearchItemName = "";
-                                    listOfItems.DataSource.Filter = FilterPersonas;
-                                    listOfItems.DataSource.RefreshFilter();
-                                }
-                                // Handle case where selection is cleared but no specific removed items
-                                else if (autocomplete.SelectedItem == null)
-                                {
-                                    personaListViewModel.SearchItemName = "";
-                                    listOfItems.DataSource.Filter = FilterPersonas;
-                                    listOfItems.DataSource.RefreshFilter();
-                                }
-                            }
-                        });
-                    }
+                    autocomplete.SelectedItem = null;
+                    personaListViewModel.SearchItemName = string.Empty;
+                    autocomplete.IsDropDownOpen = false;
                 }
-                catch (Exception ex)
+                else if (e.AddedItems?.Count > 0)
                 {
-                    ExceptionHandler.CaptureException(ex);
+                    var selected = e.AddedItems[0] as WikiExtractor.ViewModels.PersonaAutoCompleteModel;
+                    personaListViewModel.SearchItemName = selected?.Name ?? string.Empty;
                 }
-                finally
+                else if (autocomplete.SelectedItem == null)
                 {
-                    personaListViewModel.IsBusy = false;
+                    personaListViewModel.SearchItemName = string.Empty;
                 }
-            });
+
+                // 2. Refresh the UI List
+                RefreshListOfListFilter();
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+            finally
+            {
+                personaListViewModel.IsPageBusy = false;
+            }
         }
 
-        private async void AutoComplete_Unfocused(object sender, FocusEventArgs e)
+        private void autoComplete_Unfocused(object sender, FocusEventArgs e)
         {
-            await Task.Run(() =>
+            if (sender is not SfAutocomplete autocomplete) return;
+
+            try
             {
-                try
+                // 1. If no item was selected, treat the typed text as the filter
+                if (autocomplete.SelectedItem == null)
                 {
-                    if (sender is SfAutocomplete autocomplete)
-                    {
-                        MainThread.BeginInvokeOnMainThread(() =>
-                        {
-                            if (listOfItems.DataSource != null)
-                            {
-                                // Refresh the filter when autocomplete loses focus
-                                // This will handle cases where text was cleared but no selection change occurred
-                                listOfItems.DataSource.Filter = FilterPersonas;
-                                listOfItems.DataSource.RefreshFilter();
-                            }
-                        });
-                    }
+                    // Update the ViewModel with the raw text currently in the box
+                    personaListViewModel.SearchItemName = autocomplete.Text ?? string.Empty;
                 }
-                catch (Exception ex)
+
+                // 2. Refresh the list
+                if (listOfItems?.DataSource != null)
                 {
-                    ExceptionHandler.CaptureException(ex);
+                    // The FilterPersonas method will now use the SearchItemName we just set
+                    listOfItems.DataSource.Filter = FilterPersonas;
+                    listOfItems.DataSource.RefreshFilter();
                 }
-            });
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
         }
 
-        
+        private void autoComplete_ValueChanged(object sender, AutocompleteValueChangedEventArgs e)
+        {
+            try
+            {
+                // When the clear button is clicked, NewValue becomes null or empty
+                if (string.IsNullOrEmpty(e.NewValue?.ToString()))
+                {
+                    // 1. Reset the underlying filter value
+                    personaListViewModel.SearchItemName = string.Empty;
+
+                    // 2. Ensure SelectedItem is also cleared
+                    if (sender is SfAutocomplete autocomplete)
+                    {
+                        autocomplete.SelectedItem = null;
+                    }
+
+                    // 3. Refresh the UI list immediately
+                    if (listOfItems?.DataSource != null)
+                    {
+                        // FilterPersonas will now return 'true' for all items
+                        listOfItems.DataSource.RefreshFilter();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
         #endregion
 
 
@@ -469,10 +429,8 @@ namespace WikiExtractor.Maui.App.Views
                             WikiExtractor.Maui.App.Services.AppThemes.Forest => WikiExtractor.Maui.App.Services.AppThemes.Light,
                             _ => WikiExtractor.Maui.App.Services.AppThemes.Light // Default fallback
                         };
-                        
+
                         SettingsHelper.SaveTheme(nextTheme);
-                        personaListViewModel.DefaultStyle = ThemeHelper.GetDefaultStyle();
-                        ThemeHelper.UpdateAppThemes(personaListViewModel.DefaultStyle);
                     });
                 }
                 catch (Exception ex)
@@ -491,10 +449,10 @@ namespace WikiExtractor.Maui.App.Views
                     if (sender is SfEffectsView effectsView && effectsView.AutomationId != null)
                     {
                         _masterId = int.Parse(effectsView.AutomationId);
-                        
+
                         // Track user interaction for interstitial ad frequency
-                        _adManager?.TrackUserInteraction();
-                        
+                        //_adManager?.TrackUserInteraction();
+
                         await ProcessRequestToSubPage();
                     }
                 }
@@ -504,57 +462,37 @@ namespace WikiExtractor.Maui.App.Views
                 ExceptionHandler.CaptureException(ex);
             }
         }
-        
+
         private async void BtnTakeQuiz_OnClicked(object sender, EventArgs e)
         {
             // Track user interaction for interstitial ad frequency
-            _adManager?.TrackUserInteraction();
-            
+            //_adManager?.TrackUserInteraction();
+
             await Shell.Current.GoToAsync($"{nameof(QuizPage)}");
         }
 
-        #region Banner Ad Event Handlers
 
-        private void OnBannerAdLoaded(object sender, AdLoadedEventArgs e)
+        private async void itemOnList_TouchUp(object sender, EventArgs e)
         {
             try
             {
-                // Banner ad loaded successfully
-                System.Diagnostics.Debug.WriteLine($"Banner ad loaded successfully for {e.BannerType}");
+                if (sender != null)
+                {
+                    if (sender is SfEffectsView effectsView && effectsView.AutomationId != null)
+                    {
+                        _masterId = int.Parse(effectsView.AutomationId);
+
+                        // Track user interaction for interstitial ad frequency
+                        //_adManager?.TrackUserInteraction();
+
+                        await ProcessRequestToSubPage();
+                    }
+                }
             }
             catch (Exception ex)
             {
                 ExceptionHandler.CaptureException(ex);
             }
         }
-
-        private void OnBannerAdFailedToLoad(object sender, AdFailedToLoadEventArgs e)
-        {
-            try
-            {
-                // Banner ad failed to load
-                System.Diagnostics.Debug.WriteLine($"Banner ad failed to load: {e.ErrorMessage}");
-                ExceptionHandler.CaptureException(new Exception($"Banner ad load failed: {e.ErrorMessage}"));
-            }
-            catch (Exception ex)
-            {
-                ExceptionHandler.CaptureException(ex);
-            }
-        }
-
-        private void OnBannerAdClicked(object sender, AdClickedEventArgs e)
-        {
-            try
-            {
-                // Banner ad was clicked
-                System.Diagnostics.Debug.WriteLine($"Banner ad clicked for {e.BannerType}");
-            }
-            catch (Exception ex)
-            {
-                ExceptionHandler.CaptureException(ex);
-            }
-        }
-
-        #endregion
     }
 }

@@ -1,11 +1,16 @@
 ﻿using Android.App;
 using Android.Runtime;
+using Maui.Wiki.Platforms.Android;
 using System;
 
 namespace Maui.Wiki
 {
+#if DEBUG
+    [Application(UsesCleartextTraffic = true)]
+#else
     [Application]
-    public class MainApplication : Android.App.Application
+#endif
+    public class MainApplication : MauiApplication
     {
         public MainApplication(IntPtr handle, JniHandleOwnership ownership)
             : base(handle, ownership)
@@ -15,8 +20,10 @@ namespace Maui.Wiki
         public override void OnCreate()
         {
             base.OnCreate();
-            // Initialize MAUI app
-            MauiProgram.CreateMauiApp();
+            RegisterActivityLifecycleCallbacks(new CurrentActivityHelper());
         }
+
+        protected override MauiApp CreateMauiApp() =>
+            MauiProgram.CreateMauiApp();
     }
 }

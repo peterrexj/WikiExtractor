@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Threading.Tasks;
 using WikiExtractor.DbModels;
 using WikiExtractor.DbModels.UserStore;
 using WikiExtractor.Exts;
@@ -17,37 +18,46 @@ namespace WikiExtractor.Process
     {
         readonly IWikiDatabase wikiDatabase;
         readonly IUserStoreDatabase userStoreDatabase;
-        
+
         public WikiAppController(IWikiDatabase wikiDb, IUserStoreDatabase userStoreDb)
         {
             wikiDatabase = wikiDb;
             userStoreDatabase = userStoreDb;
         }
 
-        public PersonaViewModel GetViewModelById(int id)
+        public async Task<PersonaViewModel> GetViewModelByIdAsync(int id)
         {
-            return GetViewModelv2(id);
+            return await GetViewModelv2Async(id);
         }
 
-        private PersonaViewModel GetViewModelv2(int masterId)
+        private async Task<PersonaViewModel> GetViewModelv2Async(int masterId)
         {
-            PersonaViewModel? wikiItem = null;
-            List<ParagraphHeader2>? para2Items = null;
-            List<ParagraphHeader3>? para3Items = null;
-            List<ParagraphContent>? contents = null;
-            List<Tuple<int, PictureViewModel>>? pictures = null;
-            TaskGroup? tgrp = new();
+            // 1. Define the tasks for independent data fetching
+            // These start running immediately in parallel
+            var wikiItemTask = Task.Run(() => GetItemData(masterId));
+            var contentsTask = Task.Run(() => GetItemParagraphContents(masterId));
+            var para2ItemsTask = Task.Run(() => GetItemParagraph2s(masterId));
+            var para3ItemsTask = Task.Run(() => GetItemParagraph3s(masterId));
 
-            tgrp.Add(() => wikiItem = GetItemData(masterId));
-            tgrp.Add(() => contents = GetItemParagraphContents(masterId));
-            tgrp.Add(() => para2Items = GetItemParagraph2s(masterId));
-            tgrp.Add(() => para3Items = GetItemParagraph3s(masterId));
-            tgrp.WaitAll();
-            tgrp.Add(() => pictures = GetItemComputedImages(masterId, wikiItem));
-            tgrp.WaitAll();
+            // 2. Wait for the initial group to finish
+            // This is non-blocking; the thread is freed up while waiting
+            await Task.WhenAll(wikiItemTask, contentsTask, para2ItemsTask, para3ItemsTask);
 
+            // 3. Extract the results
+            var wikiItem = await wikiItemTask;
+            var contents = await contentsTask;
+            var para2Items = await para2ItemsTask;
+            var para3Items = await para3ItemsTask;
+
+            if (wikiItem == null) return null;
+
+            // 4. Run the dependent task (requires wikiItem result)
+            var pictures = await Task.Run(() => GetItemComputedImages(masterId, wikiItem));
+
+            // 5. Final assembly (synchronous logic)
             BuildParagraph2Paragraph3(wikiItem, contents, para2Items, para3Items, pictures);
             PictureCaptionUpdate(wikiItem);
+
             return wikiItem;
         }
 
@@ -108,7 +118,7 @@ namespace WikiExtractor.Process
                        IsPrimaryMetadataContentEnabled = isPrimaryMetadataEnabled,
                        PrimaryMetadataContent = primaryMetadata,
                        //Tags = masterGroup.Select(f => f.tag).Select(f => f.Name).Distinct().ToList(),
-                       IsBusy = false,
+                       IsPageBusy = false,
                        ListHeight = minListHeight,
                        ItemReadStatus = masterItem!.itemReadStatus.IsReadAsBool,
                    };

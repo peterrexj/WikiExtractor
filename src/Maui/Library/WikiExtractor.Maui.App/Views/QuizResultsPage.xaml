@@ -3,23 +3,33 @@
     x:Class="WikiExtractor.Maui.App.Views.QuizResultsPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ads="clr-namespace:PjAds.Maui.Controls;assembly=PjAds.Maui"
     xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
+    xmlns:conv="clr-namespace:WikiExtractor.Maui.App.Converters"
     xmlns:effects="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
-    xmlns:local="clr-namespace:WikiExtractor.Maui.App.Controls"
     xmlns:syncfusion="clr-namespace:Syncfusion.Maui.ListView;assembly=Syncfusion.Maui.ListView"
     Title="Quiz Results"
-    BackgroundColor="{DynamicResource PageBackgroundColor}">
+    Shell.NavBarIsVisible="False">
 
-    <ContentPage.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTrigger
+                x:Key="IconTrigger"
+                Binding="{Binding IsCorrect}"
+                TargetType="Label"
+                Value="True">
+                <Setter Property="Text" Value="✓" />
+                <Setter Property="TextColor" Value="Green" />
+            </DataTrigger>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
-            <!-- Header -->
+    <Grid>
+        <Grid
+            InputTransparent="{Binding IsPageBusy}"
+            Opacity="{Binding IsPageBusy, Converter={StaticResource BusyToOpacity}}"
+            RowDefinitions="Auto, *, Auto, Auto">
+
             <Border
                 Grid.Row="0"
                 BackgroundColor="{DynamicResource PopupHeaderFooterBackColor}"
@@ -27,193 +37,190 @@
                 <Label
                     Padding="20"
                     FontAttributes="Bold"
-                    FontFamily="{DynamicResource DefaultFontFamily}"
-                    FontSize="{OnPlatform Android={OnIdiom Phone=18, Tablet=26}, iOS={OnIdiom Phone=18, Tablet=26}, Default=26}"
+                    FontSize="18"
                     HorizontalTextAlignment="Center"
                     Text="Quiz Summary"
-                    TextColor="{DynamicResource SubPageTopHeaderFontColor}"
-                    VerticalTextAlignment="Center" />
+                    TextColor="{DynamicResource SubPageTopHeaderFontColor}" />
             </Border>
 
-            <!-- Content -->
-            <ScrollView Grid.Row="1" BackgroundColor="{DynamicResource PopupContentBackColor}">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="2*" />
-                        <RowDefinition Height="3*" />
-                    </Grid.RowDefinitions>
+            <syncfusion:SfListView
+                Grid.Row="1"
+                AutoFitMode="Height"
+                BackgroundColor="Transparent"
+                ItemsSource="{Binding Questions}"
+                SelectionMode="None">
 
-                    <!-- Chart Section -->
-                    <Border
-                        Grid.Row="0"
-                        Margin="12,10,12,5"
-                        BackgroundColor="{DynamicResource ChartBgColor}"
-                        Stroke="{DynamicResource ChartBorderColor}"
-                        StrokeThickness="1">
-                        <chart:SfCircularChart
-                            BackgroundColor="Transparent"
-                            Margin="{OnIdiom Phone='5,0,5,0', Tablet='20,10,20,10', Desktop='20,10,20,10', TV='20,10,20,10', Default='5,0,5,0'}">
-                            <chart:SfCircularChart.Legend>
-                                <chart:ChartLegend
-                                    Placement="{OnIdiom Phone=Bottom, Tablet=Left, Desktop=Left, TV=Left, Default=Bottom}"
-                                    ToggleSeriesVisibility="True">
-                                    <chart:ChartLegend.LabelStyle>
-                                        <chart:ChartLegendLabelStyle
-                                            FontFamily="{DynamicResource DefaultFontFamily}"
-                                            FontSize="{OnIdiom Phone=10, Tablet=18, Desktop=18, TV=18, Watch=8, Default=10}"
-                                            TextColor="{DynamicResource QuizAnswerDefaultFontBackColor}" />
-                                    </chart:ChartLegend.LabelStyle>
-                                </chart:ChartLegend>
-                            </chart:SfCircularChart.Legend>
-                            <chart:SfCircularChart.Series>
-                                <chart:DoughnutSeries
-                                    ExplodeAll="False"
-                                    ExplodeOnTouch="True"
-                                    InnerRadius="0.5"
-                                    ItemsSource="{Binding ChartPassFailData}"
-                                    LegendIcon="Circle"
-                                    PaletteBrushes="{Binding CustomChartColors}"
-                                    ShowDataLabels="True"
-                                    XBindingPath="Category"
-                                    YBindingPath="Value">
-                                    <chart:DoughnutSeries.DataLabelSettings>
-                                        <chart:CircularDataLabelSettings
-                                            LabelPosition="Outside"
-                                            UseSeriesPalette="True">
-                                            <chart:CircularDataLabelSettings.LabelStyle>
-                                                <chart:ChartDataLabelStyle
-                                                    FontFamily="{DynamicResource DefaultFontFamily}"
-                                                    FontSize="{OnIdiom Phone=10, Tablet=15, Desktop=15, TV=15, Watch=8, Default=10}"
-                                                    TextColor="{DynamicResource QuizAnswerDefaultFontBackColor}" />
-                                            </chart:CircularDataLabelSettings.LabelStyle>
-                                        </chart:CircularDataLabelSettings>
-                                    </chart:DoughnutSeries.DataLabelSettings>
-                                    <chart:DoughnutSeries.CenterView>
-                                        <StackLayout
-                                            HorizontalOptions="FillAndExpand"
-                                            VerticalOptions="FillAndExpand">
-                                            <Label
-                                                HorizontalTextAlignment="Center"
-                                                VerticalTextAlignment="Center">
-                                                <Label.FormattedText>
-                                                    <FormattedString>
-                                                        <Span
-                                                            FontAttributes="Bold"
-                                                            FontFamily="{DynamicResource DefaultFontFamilyBold}"
-                                                            FontSize="{OnIdiom Phone=12, Tablet=18, Desktop=18, TV=18, Watch=10, Default=12}"
-                                                            Text="Quiz Results"
-                                                            TextColor="{DynamicResource QuizAnswerDefaultFontBackColor}" />
-                                                    </FormattedString>
-                                                </Label.FormattedText>
-                                            </Label>
-                                        </StackLayout>
-                                    </chart:DoughnutSeries.CenterView>
-                                </chart:DoughnutSeries>
-                            </chart:SfCircularChart.Series>
-                        </chart:SfCircularChart>
-                    </Border>
+                <syncfusion:SfListView.HeaderTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout BackgroundColor="{DynamicResource PopupContentBackColor}">
+                            <Border
+                                Margin="12,10,12,5"
+                                BackgroundColor="{DynamicResource ChartBgColor}"
+                                HeightRequest="320"
+                                Stroke="{DynamicResource ChartBorderColor}"
+                                StrokeShape="RoundRectangle 12"
+                                StrokeThickness="1">
 
-                    <!-- Questions List Section -->
-                    <syncfusion:SfListView
-                        Grid.Row="1"
-                        Margin="5,5,5,10"
-                        BackgroundColor="Transparent"
-                        ItemsSource="{Binding Questions}"
-                        SelectionMode="None">
-                        <syncfusion:SfListView.ItemTemplate>
-                            <DataTemplate>
-                                <Border
-                                    Margin="{OnPlatform Android={OnIdiom Phone='5,2,5,2', Tablet='8,2,8,2'}, iOS={OnIdiom Phone='5,2,5,2', Tablet='8,2,8,2'}, Default='8,2,8,2'}"
-                                    Padding="{OnPlatform Android={OnIdiom Phone=8, Tablet=12}, iOS={OnIdiom Phone=8, Tablet=12}, Default=12}"
-                                    BackgroundColor="{Binding QuizUserAnswerBasedBackgroundColor}"
-                                    Stroke="{DynamicResource ListItemBoxBorderColor}"
-                                    StrokeThickness="1">
-                                    <StackLayout Spacing="5">
-                                        <Label
-                                            FontAttributes="Bold"
-                                            FontFamily="{DynamicResource DefaultFontFamilyBold}"
-                                            FontSize="{OnPlatform Android={OnIdiom Phone=14, Tablet=20}, iOS={OnIdiom Phone=14, Tablet=20}, Default=20}"
-                                            LineBreakMode="WordWrap"
-                                            TextColor="{DynamicResource QuizAnswerDefaultFontBackColor}">
-                                            <Label.FormattedText>
-                                                <FormattedString>
-                                                    <Span Text="Q." />
-                                                    <Span Text="{Binding Id}" />
-                                                    <Span Text="  " />
-                                                    <Span Text="{Binding Question}" />
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                        <Label
-                                            FontAttributes="Bold"
-                                            FontFamily="{DynamicResource DefaultFontFamilyBold}"
-                                            FontSize="{OnPlatform Android={OnIdiom Phone=13, Tablet=18}, iOS={OnIdiom Phone=13, Tablet=18}, Default=18}"
-                                            LineBreakMode="CharacterWrap"
-                                            TextColor="{DynamicResource QuizAnswerDefaultFontBackColor}">
-                                            <Label.FormattedText>
-                                                <FormattedString>
-                                                    <Span Text="Answer: " />
-                                                    <Span Text="{Binding CorrectAnswer}" />
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                    </StackLayout>
-                                </Border>
-                            </DataTemplate>
-                        </syncfusion:SfListView.ItemTemplate>
-                    </syncfusion:SfListView>
-                </Grid>
-            </ScrollView>
+                                <chart:SfCircularChart BackgroundColor="Transparent">
+                                    <chart:SfCircularChart.Legend>
+                                        <chart:ChartLegend Placement="Bottom" />
+                                    </chart:SfCircularChart.Legend>
 
-            <!-- Footer -->
+                                    <chart:SfCircularChart.Series>
+                                        <chart:DoughnutSeries
+                                            EnableAnimation="True"
+                                            InnerRadius="0.6"
+                                            ItemsSource="{Binding BindingContext.ChartPassFailData, Source={RelativeSource AncestorType={x:Type ContentPage}}}"
+                                            PaletteBrushes="{Binding BindingContext.CustomChartColors, Source={RelativeSource AncestorType={x:Type ContentPage}}}"
+                                            XBindingPath="Category"
+                                            YBindingPath="Value">
+
+                                            <chart:DoughnutSeries.CenterView>
+                                                <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                                                    <Label
+                                                        FontSize="12"
+                                                        HorizontalTextAlignment="Center"
+                                                        Opacity="0.7"
+                                                        Text="SCORE" />
+                                                    <Label
+                                                        FontAttributes="Bold"
+                                                        FontSize="24"
+                                                        HorizontalTextAlignment="Center"
+                                                        Text="{Binding BindingContext.CorrectCountText, Source={RelativeSource AncestorType={x:Type ContentPage}}}"
+                                                        TextColor="{DynamicResource QuizAnswerDefaultFontBackColor}" />
+                                                </VerticalStackLayout>
+                                            </chart:DoughnutSeries.CenterView>
+
+                                        </chart:DoughnutSeries>
+                                    </chart:SfCircularChart.Series>
+                                </chart:SfCircularChart>
+                            </Border>
+                            <Label
+                                Margin="20,10,0,5"
+                                FontAttributes="Bold"
+                                FontSize="16"
+                                Opacity="0.8"
+                                Text="Review Answers" />
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </syncfusion:SfListView.HeaderTemplate>
+
+                <syncfusion:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <Border
+                            Margin="12,4"
+                            Padding="15"
+                            BackgroundColor="{Binding QuizUserAnswerBasedBackgroundColor}"
+                            Stroke="{DynamicResource ListItemBoxBorderColor}"
+                            StrokeShape="RoundRectangle 10"
+                            StrokeThickness="1">
+
+                            <Grid ColumnDefinitions="30, *">
+                                <Label
+                                    Grid.Column="0"
+                                    Margin="0,2,0,0"
+                                    FontSize="20"
+                                    VerticalOptions="Start">
+                                    <Label.Triggers>
+                                        <DataTrigger
+                                            Binding="{Binding IsCorrect}"
+                                            TargetType="Label"
+                                            Value="True">
+                                            <Setter Property="Text" Value="✓" />
+                                            <Setter Property="TextColor" Value="#2ECC71" />
+                                        </DataTrigger>
+                                        <DataTrigger
+                                            Binding="{Binding IsCorrect}"
+                                            TargetType="Label"
+                                            Value="False">
+                                            <Setter Property="Text" Value="✕" />
+                                            <Setter Property="TextColor" Value="Yellow" />
+                                        </DataTrigger>
+                                    </Label.Triggers>
+                                </Label>
+
+                                <VerticalStackLayout Grid.Column="1" Spacing="4">
+                                    <Label LineBreakMode="WordWrap" TextColor="{DynamicResource QuizAnswerDefaultFontBackColor}">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span FontAttributes="Bold" Text="Q." />
+                                                <Span FontAttributes="Bold" Text="{Binding Id}" />
+                                                <Span Text="  " />
+                                                <Span Text="{Binding Question}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+
+                                    <Label
+                                        FontSize="13"
+                                        IsVisible="{Binding IsCorrect, Converter={StaticResource InvertedBoolConverter}}"
+                                        Opacity="0.9"
+                                        TextColor="{DynamicResource QuizAnswerDefaultFontBackColor}">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span FontAttributes="Bold" Text="Correct Answer: " />
+                                                <Span Text="{Binding CorrectAnswer}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </syncfusion:SfListView.ItemTemplate>
+            </syncfusion:SfListView>
+
             <Border
                 Grid.Row="2"
                 BackgroundColor="{DynamicResource PopupHeaderFooterBackColor}"
-                StrokeThickness="0">
-                <effects:SfEffectsView
-                    Margin="20,15"
-                    BackgroundColor="Transparent"
-                    TouchDownEffects="Ripple">
+                StrokeThickness="0"
+                VerticalOptions="End">
+                <effects:SfEffectsView TouchDownEffects="Ripple">
                     <effects:SfEffectsView.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding CloseQuizCommand}" />
                     </effects:SfEffectsView.GestureRecognizers>
+
                     <Label
+                        BackgroundColor="Transparent"
                         FontAttributes="Bold"
-                        FontFamily="{DynamicResource DefaultFontFamily}"
-                        FontSize="{OnPlatform Android={OnIdiom Phone=16, Tablet=24}, iOS={OnIdiom Phone=16, Tablet=24}, Default=24}"
+                        FontSize="16"
+                        HeightRequest="55"
                         HorizontalTextAlignment="Center"
-                        Text="Close Quiz"
+                        Text="Return to Menu"
                         TextColor="{DynamicResource SubPageTopHeaderFontColor}"
                         VerticalTextAlignment="Center" />
                 </effects:SfEffectsView>
             </Border>
-            
-            <!-- Banner Ad Content Area for Quiz Results Page -->
+
             <StackLayout
-                x:Name="stkBannerAdQuizResults"
                 Grid.Row="3"
-                HeightRequest="60"
-                HorizontalOptions="FillAndExpand"
-                BackgroundColor="{DynamicResource WikiAppPersonaDetailBottomContentBg}"
-                Margin="10,5,10,10"
-                VerticalOptions="End">
-                
-                <Border
-                    StrokeShape="RoundRectangle 8"
-                    Stroke="{DynamicResource WikiAppPersonaDetailBottomContentBorder}"
-                    StrokeThickness="1"
-                    HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand">
-                    
-                    <Label
-                        Text="Banner Ad Content Area - Quiz Results"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        FontSize="14"
-                        FontAttributes="Bold"
-                        TextColor="{DynamicResource WikiAppPersonaDetailBottomContentTextColor}" />
-                </Border>
+                Margin="5"
+                HeightRequest="50"
+                HorizontalOptions="Center">
+                <ads:BannerAdView
+                    AdSize="Banner"
+                    AdUnitId="{Binding BannerAdsUnitId}"
+                    BannerType="Regular" />
             </StackLayout>
         </Grid>
-    </ContentPage.Content>
+
+        <VerticalStackLayout
+            HorizontalOptions="Center"
+            IsVisible="{Binding IsPageBusy}"
+            Spacing="15"
+            VerticalOptions="Center">
+
+            <ActivityIndicator
+                HeightRequest="60"
+                IsRunning="{Binding IsPageBusy}"
+                WidthRequest="60"
+                Color="{DynamicResource PrimaryColor}" />
+
+            <Label
+                FontAttributes="Italic"
+                HorizontalTextAlignment="Center"
+                Text="Analyzing Results..."
+                TextColor="{DynamicResource SubPageTopHeaderFontColor}" />
+        </VerticalStackLayout>
+    </Grid>
 </ContentPage>

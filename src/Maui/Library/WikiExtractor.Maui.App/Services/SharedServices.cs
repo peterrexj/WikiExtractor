@@ -14,10 +14,6 @@ namespace WikiExtractor.Maui.App.Services
         private static QuizController _quizController;
         public static QuizController QuizController => _quizController ??= new QuizController(DatabaseService.AppDatabase, DatabaseService.UserStoreDatabase);
 
-        private static StringToColorConverter _toColorConverter;
-        public static StringToColorConverter ToColorConverter => _toColorConverter ??= new StringToColorConverter();
-        public static IValueConverter ToColorConverterAsValueConverter => ToColorConverter;
-
         public static PageDataTransferModel _pageDataTransferModel;
         public static PageDataTransferModel PageDataTransferModel => _pageDataTransferModel ??= new PageDataTransferModel();
     }

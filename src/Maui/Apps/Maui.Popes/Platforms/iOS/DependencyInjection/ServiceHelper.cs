@@ -1,9 +1,9 @@
-using Microsoft.Extensions.DependencyInjection;
+//using Microsoft.Extensions.DependencyInjection;
 
-namespace Maui.Wiki.Platforms.iOS.DependencyInjection
-{
-    public static class ServiceHelper
-    {
-        public static IServiceProvider Services { get; set; }
-    }
-}
+//namespace Maui.Wiki.Platforms.iOS.DependencyInjection
+//{
+//    public static class ServiceHelper
+//    {
+//        public static IServiceProvider Services { get; set; }
+//    }
+//}

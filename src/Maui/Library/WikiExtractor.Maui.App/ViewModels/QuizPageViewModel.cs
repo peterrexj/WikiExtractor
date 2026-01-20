@@ -1,20 +1,13 @@
-using Pj.Library;
+using Syncfusion.Maui.Core;
 // using Syncfusion.Maui.Popup; // Temporarily disabled
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Input;
+using WikiExtractor.Maui.App.Exts;
+using WikiExtractor.Maui.App.Models;
+using WikiExtractor.Maui.App.Services;
+using WikiExtractor.Maui.App.ViewModels.Charts;
 using WikiExtractor.Process.DbModels;
 using WikiExtractor.ViewModels;
-using WikiExtractor.Maui.App.Exts;
-using WikiExtractor.Maui.App.ViewModels.Charts;
-using Microsoft.Maui.Controls;
-using Syncfusion.Maui.Core;
-using WikiExtractor.Maui.App.Services;
-using WikiExtractor.Maui.App.Models.Mix;
 
 namespace WikiExtractor.Maui.App.ViewModels
 {
@@ -37,11 +30,21 @@ namespace WikiExtractor.Maui.App.ViewModels
         public ICommand NextQuestionCommand { get; set; }
         public ICommand ExitQuizCommand { get; set; }
 
+        public ICommand AnswerSelectedCommand { get; set; }
+
+        public Color QuizCorrectAnswerColor { get; set; }
+        public Color QuizWrongAnswerColor { get; set; }
+        public Color QuizAnswerDefaultBackColor { get; set; }
+        public Color QuizAnswerSelectionBackColor { get; set; }
+
+        private QuizThemeData? _theme = null;
+
         public QuizPageViewModel()
         {
             PageCancellationTokenSource = new CancellationTokenSource();
             ClosePopupCommand = new Command(ClosePopupAction);
-            NextQuestionCommand = new Command(async () => await OnNextClick(null));
+            NextQuestionCommand = new Command<SfBusyIndicator>(async (loader) => await OnNextClick(loader));
+            AnswerSelectedCommand = new Command<int>(async (index) => await OnAnswerClick(index));
             ExitQuizCommand = new Command(async () => await ExitQuiz());
         }
 
@@ -64,7 +67,7 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         public int TotalQuestions => Questions?.Count ?? 0;
 
-        public QuizPageQuestionViewModel CurrentQuestion => Questions?.FirstOrDefault(f => f.Id == CurrentIndex);
+        public QuizPageQuestionViewModel? CurrentQuestion => Questions?.FirstOrDefault(f => f.Id == CurrentIndex);
         public string Answer1 => CurrentQuestion?.AnswerCollection?[0] ?? "";
         public string Answer2 => CurrentQuestion?.AnswerCollection?[1] ?? "";
         public string Answer3 => CurrentQuestion?.AnswerCollection?[2] ?? "";
@@ -105,29 +108,8 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
         }
 
-        // Hardcoded quiz colors to avoid DefaultStyle dependency
-        public string QuizCorrectAnswerColor { get; set; } = "#4CAF50"; // Green
-        public string QuizWrongAnswerColor { get; set; } = "#F44336"; // Red
-        public string QuizAnswerDefaultBackColor { get; set; } = "#E0E0E0"; // Light Gray
-        public string QuizAnswerSelectionBackColor { get; set; } = "#2196F3"; // Blue
-
-        private void InitializeQuizColors()
-        {
-            CustomChartColors = new ObservableCollection<Microsoft.Maui.Controls.Brush>
-            {
-                new SolidColorBrush(Microsoft.Maui.Graphics.Color.FromArgb(QuizCorrectAnswerColor)),
-                new SolidColorBrush(Microsoft.Maui.Graphics.Color.FromArgb(QuizWrongAnswerColor)),
-                new SolidColorBrush(Microsoft.Maui.Graphics.Color.FromArgb("#9E9E9E")) // Gray for not answered
-            };
-
-            Answer1BackColor = QuizAnswerDefaultBackColor;
-            Answer2BackColor = QuizAnswerDefaultBackColor;
-            Answer3BackColor = QuizAnswerDefaultBackColor;
-            Answer4BackColor = QuizAnswerDefaultBackColor;
-        }
-
-        private string _answer1BackColor;
-        public string Answer1BackColor
+        private Color _answer1BackColor;
+        public Color Answer1BackColor
         {
             get => _answer1BackColor;
             set
@@ -137,8 +119,8 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
         }
 
-        private string _answer2BackColor;
-        public string Answer2BackColor
+        private Color _answer2BackColor;
+        public Color Answer2BackColor
         {
             get => _answer2BackColor;
             set
@@ -148,8 +130,8 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
         }
 
-        private string _answer3BackColor;
-        public string Answer3BackColor
+        private Color _answer3BackColor;
+        public Color Answer3BackColor
         {
             get => _answer3BackColor;
             set
@@ -159,8 +141,8 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
         }
 
-        private string _answer4BackColor;
-        public string Answer4BackColor
+        private Color _answer4BackColor;
+        public Color Answer4BackColor
         {
             get => _answer4BackColor;
             set
@@ -169,8 +151,6 @@ namespace WikiExtractor.Maui.App.ViewModels
                 OnPropertyChanged(nameof(Answer4BackColor));
             }
         }
-
-
 
         private CancellationTokenSource _pageCancellationTokenSource;
         public CancellationTokenSource PageCancellationTokenSource
@@ -187,7 +167,6 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         public async Task InitializeAsync()
         {
-            IsBusy = true;
             try
             {
                 // Initialize quiz colors without DefaultStyle dependency
@@ -203,6 +182,8 @@ namespace WikiExtractor.Maui.App.ViewModels
                 
                 // No need to set DefaultStyle on questions anymore
                 CurrentIndex = 1;
+
+                BannerAdsUnitId = SharedServiceCore.AdsConfig.QuizBannerAdUnitId ?? SharedServiceCore.AdsConfig.BannerAdUnitId;
             }
             catch (Exception e)
             {
@@ -211,8 +192,25 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
             finally
             {
-                IsBusy = false;
+                IsPageBusy = false;
             }
+        }
+
+        private async void InitializeQuizColors()
+        {
+            // This awaits the background task we started in App.xaml.cs
+            _theme = await SharedServiceCore.ThemeHandler.GetThemeDataAsync();
+
+            // Assign to properties that call OnPropertyChanged
+            QuizCorrectAnswerColor = _theme.CorrectColor;
+            QuizWrongAnswerColor = _theme.WrongColor;
+            QuizAnswerDefaultBackColor = _theme.DefaultBackColor;
+            QuizAnswerSelectionBackColor = _theme.SelectionBackColor;
+
+            Answer1BackColor = QuizAnswerDefaultBackColor;
+            Answer2BackColor = QuizAnswerDefaultBackColor;
+            Answer3BackColor = QuizAnswerDefaultBackColor;
+            Answer4BackColor = QuizAnswerDefaultBackColor;
         }
 
         public void SaveCurrentResponse()
@@ -237,19 +235,18 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         #region Navigation to Results
 
-        public async void ShowQuizResults()
+        public async Task ShowQuizResults()
         {
             try
             {
                 // Ensure navigation happens on the main UI thread
-                await Application.Current.Dispatcher.DispatchAsync(async () =>
+                await ViewHelper.RunOnAppDispatcherAsync(async () =>
                 {
                     // Navigate to QuizResultsPage with the quiz data using relative routing
                     await Shell.Current.GoToAsync("QuizResultsPage", new Dictionary<string, object>
                     {
                         ["Questions"] = Questions,
                         ["ChartData"] = ChartPassFailData,
-                        ["ChartColors"] = CustomChartColors
                     });
                 });
             }
@@ -257,7 +254,7 @@ namespace WikiExtractor.Maui.App.ViewModels
             {
                 ExceptionHandler.CaptureException(ex);
                 // Fallback - just go back if navigation fails
-                await Application.Current.Dispatcher.DispatchAsync(async () =>
+                await ViewHelper.RunOnAppDispatcherAsync(async () =>
                 {
                     await Shell.Current.GoToAsync("..");
                 });
@@ -280,17 +277,6 @@ namespace WikiExtractor.Maui.App.ViewModels
             {
                 _chartPassFailData = value;
                 OnPropertyChanged(nameof(ChartPassFailData));
-            }
-        }
-
-        private ObservableCollection<Microsoft.Maui.Controls.Brush> _customChartColors;
-        public ObservableCollection<Microsoft.Maui.Controls.Brush> CustomChartColors
-        {
-            get => _customChartColors;
-            set
-            {
-                _customChartColors = value;
-                OnPropertyChanged(nameof(CustomChartColors));
             }
         }
 
@@ -379,69 +365,65 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
         }
 
-        public async Task OnNextClick(SfBusyIndicator busyIndicator = null)
+        public async Task OnNextClick(SfBusyIndicator busyIndicator)
         {
+            // 1. Immediate UI update (Main Thread)
+            IsPageBusy = true;
+
             try
             {
-                await Task.Run(async () =>
+                var selectedAnswer = CurrentQuestion.UserSelection;
+                if (selectedAnswer != null)
                 {
-                    try
+                    // 2. Visual Feedback (Must be Main Thread)
+                    var answerLabels = new Dictionary<object, int>
                     {
-                        await ViewHelper.RunOnAppDispatcherAsync(() => { busyIndicator?.SetValue(SfBusyIndicator.IsRunningProperty, true); });
-                        
-                        // Mapping answer options to their corresponding labels
-                        var answerLabels = new Dictionary<object, int>
-                        {
-                            { Answer1, 1 },
-                            { Answer2, 2 },
-                            { Answer3, 3 },
-                            { Answer4, 4 }
-                        };
+                        { Answer1, 1 }, { Answer2, 2 }, { Answer3, 3 }, { Answer4, 4 }
+                    };
 
-                        // Apply color to the selected answer
-                        var selectedAnswer = CurrentQuestion.UserSelection;
-                        if (selectedAnswer != null)
-                        {
-                            var isCorrect = CurrentQuestion.IsCorrect;
-                            ApplyAnswerColor(answerLabels[selectedAnswer], isCorrect);
+                    var isCorrect = CurrentQuestion.IsCorrect;
+                    ApplyAnswerColor(answerLabels[selectedAnswer], isCorrect);
 
-                            // Highlight the correct answer if the selected answer is incorrect
-                            if (!isCorrect)
-                            {
-                                var correctAnswer = CurrentQuestion.CorrectAnswer;
-                                ApplyAnswerColor(answerLabels[correctAnswer], true);
-                            }
-
-                            await Task.Delay(1000);
-
-                            SaveCurrentResponse();
-
-                            AnswersSetDefaultColor();
-                        }
-
-                        if (CurrentIndex == Questions.Count)
-                        {
-                            CalculateSummary();
-                            ShowQuizResults();
-                        }
-                        else if (Questions.Count > CurrentIndex)
-                        {
-                            CurrentIndex += 1;
-                        }
-                    }
-                    catch (Exception innerException)
+                    if (!isCorrect)
                     {
-                        ExceptionHandler.CaptureException(innerException);
+                        ApplyAnswerColor(answerLabels[CurrentQuestion.CorrectAnswer], true);
                     }
-                    finally
+
+                    // Pause to let user see the answer
+                    await Task.Delay(1000);
+
+                    if (CurrentIndex != Questions.Count)
                     {
-                        await ViewHelper.RunOnAppDispatcherAsync(() => { busyIndicator?.SetValue(SfBusyIndicator.IsRunningProperty, false); });
+                        await Task.Run(() => SaveCurrentResponse());
                     }
-                });
+                    AnswersSetDefaultColor();
+                }
+
+                // 4. Navigation Logic
+                if (CurrentIndex == Questions.Count)
+                {
+                    await Task.Delay(500);
+                    await Task.WhenAll(
+                        Task.Run(() => SaveCurrentResponse()),
+                        Task.Run(() => CalculateSummary())
+                    );
+                    
+                    await ShowQuizResults();
+                    return;
+                }
+                else if (Questions.Count > CurrentIndex)
+                {
+                    CurrentIndex += 1;
+                }
             }
-            catch (Exception outerException)
+            catch (Exception ex)
             {
-                ExceptionHandler.CaptureException(outerException);
+                ExceptionHandler.CaptureException(ex);
+            }
+            finally
+            {
+                // 5. Turn off loader (Main Thread)
+                IsPageBusy = false;
             }
         }
 
@@ -469,7 +451,6 @@ namespace WikiExtractor.Maui.App.ViewModels
         }
         
         #endregion
-        
         
         
         private async Task ExitQuiz()

@@ -103,7 +103,7 @@ namespace WikiExtractor.Test.NFT
                        IsPrimaryMetadataContentEnabled = isPrimaryMetadataEnabled,
                        PrimaryMetadataContent = primaryMetadata,
                        //Tags = masterGroup.Select(f => f.tag).Select(f => f.Name).Distinct().ToList(),
-                       IsBusy = false,
+                       IsPageBusy = false,
                        ListHeight = minListHeight,
                        ItemReadStatus = masterGroup.FirstOrDefault()!.itemReadStatus.IsReadAsBool,
                    };
@@ -164,7 +164,7 @@ namespace WikiExtractor.Test.NFT
                        IsPrimaryMetadataContentEnabled = isPrimaryMetadataEnabled,
                        PrimaryMetadataContent = primaryMetadata,
                        //Tags = masterGroup.Select(f => f.tag).Select(f => f.Name).Distinct().ToList(),
-                       IsBusy = false,
+                       IsPageBusy = false,
                        ListHeight = minListHeight,
                        ItemReadStatus = masterGroup.FirstOrDefault()!.itemReadStatus.IsReadAsBool,
                    };

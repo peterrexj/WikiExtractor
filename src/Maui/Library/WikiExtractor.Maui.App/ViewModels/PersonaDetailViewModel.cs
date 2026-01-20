@@ -20,13 +20,12 @@ namespace WikiExtractor.Maui.App.ViewModels
         public PersonaDetailViewModel()
         {
             ItemDetailItems = new ObservableCollection<ItemDetailListViewModel>();
-            var appInfo = CustomServices.AppInformation;
 
             PlayAudio = new Command<int>(async (id) => await SpeakNowDefaultSettings(id));
             StopAudio = new Command(() => CancelSpeech());
 
             // Ads removed as per migration plan
-            TextOnFirstTabInformationOnDetailPage = appInfo?.TextOnFirstTabInformationOnDetailPage ?? "Information";
+            TextOnFirstTabInformationOnDetailPage = SharedServiceCore.AppInformation?.TextOnFirstTabInformationOnDetailPage ?? "Information";
         }
 
         private bool _isDataLoading;
@@ -140,62 +139,61 @@ namespace WikiExtractor.Maui.App.ViewModels
         }
         #endregion
 
-        #region Style 
-        private IStyleModel styleModelDefault;
-        public IStyleModel DefaultStyle
-        {
-            get => styleModelDefault;
-            set
-            {
-                styleModelDefault = value;
-                OnPropertyChanged("DefaultStyle");
-            }
-        }
-
-        #endregion
-
         #region Text To Speech Service
         public ICommand PlayAudio { get; set; }
         public ICommand StopAudio { get; set; }
         private CancellationTokenSource cts;
-        private Stack<int> _playItems = new();
         private int _currentPlayingId = -1;
         
         public async Task SpeakNowDefaultSettings(int textToSpeechId)
         {
             try
             {
-                // This method will block until utterance finishes.
+                // 1. Stop any current speech and IMMEDIATELY reset all UI buttons
                 CancelSpeech();
-                cts = new CancellationTokenSource();
 
+                await Task.Delay(100);
+
+                // 2. Prepare new speech
+                cts = new CancellationTokenSource();
                 var contentForSpeech = GetContentsById(textToSpeechId);
+
                 if (contentForSpeech.HasValue())
                 {
-                    _playItems.Push(textToSpeechId);
                     _currentPlayingId = textToSpeechId;
-                    
-                    // Set the playing state for the current item
+
+                    // 3. Update UI to "Stop" icon for the NEW item
                     SetPlayingState(textToSpeechId, true);
                 }
-                
-                await TextToSpeech.SpeakAsync(contentForSpeech, await SettingsHelper.SpeechSettings(), cancelToken: cts.Token).ContinueWith(t =>
+
+                try
                 {
-                    if (_playItems.Count > 0)
+                    // 4. Await the speech directly instead of using ContinueWith
+                    // This keeps the logic linear and predictable
+                    await TextToSpeech.SpeakAsync(contentForSpeech,
+                        await SettingsHelper.SpeechSettings(),
+                        cancelToken: cts.Token);
+                }
+                catch (OperationCanceledException)
+                {
+                    // Speech was cancelled by the user or a new speech request
+                    // We handle this silently as it's expected behavior
+                }
+                finally
+                {
+                    // 5. Always reset the UI when done, failed, or cancelled
+                    // Only reset if this specific task is still the "current" one
+                    if (_currentPlayingId == textToSpeechId)
                     {
-                        var playedId = _playItems.Pop();
-                        // Reset the playing state when speech completes
-                        Application.Current.Dispatcher.Dispatch(() =>
-                        {
-                            SetPlayingState(playedId, false);
-                        });
+                        SetPlayingState(textToSpeechId, false);
+                        _currentPlayingId = -1;
                     }
-                    _currentPlayingId = -1;
-                });
+                }
             }
             catch (Exception ex)
             {
                 ExceptionHandler.CaptureException(ex);
+                SetPlayingState(textToSpeechId, false);
             }
         }
 
@@ -203,20 +201,15 @@ namespace WikiExtractor.Maui.App.ViewModels
         {
             try
             {
-                if (cts == null) return;
-
-                if (!cts.IsCancellationRequested)
+                if (cts != null && !cts.IsCancellationRequested)
                 {
-                    if (_playItems.Count > 0)
-                    {
-                        cts.Cancel();
-                        // Reset playing state for currently playing item
-                        if (_currentPlayingId != -1)
-                        {
-                            SetPlayingState(_currentPlayingId, false);
-                            _currentPlayingId = -1;
-                        }
-                    }
+                    cts.Cancel();
+                }
+
+                // Force-reset the UI for the item that was playing
+                if (_currentPlayingId != -1)
+                {
+                    SetPlayingState(_currentPlayingId, false);
                 }
 
                 cts = null;

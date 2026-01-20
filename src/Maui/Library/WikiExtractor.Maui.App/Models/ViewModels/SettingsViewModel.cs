@@ -1,20 +1,15 @@
-using System;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Input;
 using WikiExtractor.Maui.App.Services;
 using WikiExtractor.Maui.App.Exts;
 using WikiExtractor.Maui.App.Models.Mix;
-using Microsoft.Maui.Controls;
-using Microsoft.Maui.ApplicationModel;
 using Syncfusion.Maui.Buttons;
+using WikiExtractor.ViewModels;
 
 namespace Maui.Wiki.ViewModels
 {
     public class SettingsViewModel : BaseViewModel
     {
-        private readonly WikiExtractor.Maui.App.Services.IThemeHandler _themeHandler;
+        private readonly IThemeHandler _themeHandler;
         private readonly IErrorHandlingService _errorHandlingService;
         private string? _selectedTheme;
         private bool isUpdating;
@@ -34,7 +29,7 @@ namespace Maui.Wiki.ViewModels
                     {
                         _selectedTheme = task.Result != null ?
                             Themes.FirstOrDefault(t => t == task.Result.ToString()) :
-                            Themes.FirstOrDefault(t => t == WikiExtractor.Maui.App.Services.SharedServiceCore.DefaultAppTheme.ToString());
+                            Themes.FirstOrDefault(t => t == SharedServiceCore.DefaultAppTheme.ToString());
                         
                         OnPropertyChanged(nameof(SelectedTheme));
                     });
@@ -52,7 +47,7 @@ namespace Maui.Wiki.ViewModels
                 // Await the theme change operation
                 MainThread.BeginInvokeOnMainThread(async () =>
                 {
-                    IsBusy = true; // Show spinner
+                    IsPageBusy = true; // Show spinner
                     IsUpdating = true;
 
                     await Task.Delay(500);
@@ -141,18 +136,9 @@ namespace Maui.Wiki.ViewModels
         // Default constructor for XAML instantiation
         public SettingsViewModel()
         {
-#if ANDROID
-            _themeHandler = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<WikiExtractor.Maui.App.Services.IThemeHandler>(
-                Maui.Wiki.Platforms.Android.DependencyInjection.ServiceHelper.Services);
-            _errorHandlingService = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<IErrorHandlingService>(
-                Maui.Wiki.Platforms.Android.DependencyInjection.ServiceHelper.Services);
-#elif IOS
-            _themeHandler = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<WikiExtractor.Maui.App.Services.IThemeHandler>(
-                Maui.Wiki.Platforms.iOS.DependencyInjection.ServiceHelper.Services);
-            _errorHandlingService = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<IErrorHandlingService>(
-                Maui.Wiki.Platforms.iOS.DependencyInjection.ServiceHelper.Services);
-#endif
-            
+            _themeHandler = SharedServiceCore.ThemeHandler;
+            _errorHandlingService = SharedServiceCore.ErrorHandlingService;
+
             Themes = new ObservableCollection<string>(Enum.GetNames(typeof(WikiExtractor.Maui.App.Services.AppThemes)));
             SortByCollection = new ObservableCollection<SfSegmentItem>
             {
@@ -181,7 +167,7 @@ namespace Maui.Wiki.ViewModels
             finally
             {
                 IsUpdating = false;
-                IsBusy = false; // Hide spinner
+                IsPageBusy = false; // Hide spinner
             }
         }
 

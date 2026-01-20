@@ -142,6 +142,11 @@ namespace PjAds.Maui.Controls
             handler.UpdateBannerType();
         }
 
+        // These tell the compiler that the implementation exists in the platform files
+        partial void UpdateAdUnitId();
+        partial void UpdateAdSize();
+        partial void UpdateBannerType();
+
 #if !IOS && !ANDROID
         protected override object CreatePlatformView()
         {

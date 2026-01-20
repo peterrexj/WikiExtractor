@@ -4,63 +4,71 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:WikiExtractor.Maui.App.Exts">
-    
-    <!-- Enhanced Image template with proper layout and styling -->
-    <Border
+
+    <!--  Enhanced Image template with proper layout and styling  -->
+    <!--<Border
         Margin="{OnIdiom Phone='5,5,5,8', Tablet='8,8,8,12', Desktop='8,8,8,12', Default='5,5,5,8'}"
         Padding="{OnIdiom Phone='8,8', Tablet='12,12', Desktop='12,12', Default='8,8'}"
-        HorizontalOptions="FillAndExpand"
+        HorizontalOptions="Fill"
         VerticalOptions="Fill"
         BackgroundColor="{DynamicResource WikiAppContentBackgroundColor}"
         StrokeShape="RoundRectangle 8"
         Stroke="{DynamicResource WikiAppGrayColor}"
-        StrokeThickness="1">
-        
-        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
-            
-            <!-- Image container with enhanced border -->
-            <Border
-                Grid.Row="0"
-                AutomationId="{Binding ImageDimension}"
-                BackgroundColor="Transparent"
-                Stroke="{DynamicResource WikiAppImageBorderColor}"
-                StrokeThickness="1"
-                HeightRequest="{Binding ImageHeight}"
-                HorizontalOptions="FillAndExpand"
-                SizeChanged="Border_SizeChanged"
-                VerticalOptions="FillAndExpand"
-                Margin="{OnIdiom Phone='0,0,0,8', Tablet='0,0,0,12', Desktop='0,0,0,12', Default='0,0,0,8'}">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="6" />
-                </Border.StrokeShape>
-                
-                <local:ExtendedImage
-                    x:Name="img"
-                    Margin="{OnIdiom Phone='4,4', Tablet='6,6', Desktop='6,6', Default='4,4'}"
-                    Aspect="AspectFit"
-                    CustomSource="{Binding ImageLocalPath}"
-                    HorizontalOptions="FillAndExpand"
-                    LocalFileName="{Binding ImageFileName}"
-                    VerticalOptions="FillAndExpand" />
-            </Border>
-            
-            <!-- Image caption with improved styling -->
-            <Label
-                Grid.Row="1"
-                FontAttributes="Bold"
-                FontFamily="{StaticResource DefaultFontFamily}"
-                FontSize="{OnIdiom Phone=12, Tablet=14, Desktop=14, Default=12}"
-                HorizontalOptions="FillAndExpand"
-                HorizontalTextAlignment="Center"
-                LineBreakMode="WordWrap"
-                Text="{Binding ImageCaption}"
-                TextColor="{DynamicResource WikiAppDefaultFontColor}"
-                VerticalOptions="Center"
-                VerticalTextAlignment="Center" />
-        </Grid>
-    </Border>
+        StrokeThickness="1">-->
+
+    <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!--  Image container with enhanced border  -->
+        <Border
+            Grid.Row="0"
+            Margin="{OnIdiom Phone='0,0,0,8',
+                             Tablet='0,0,0,12',
+                             Desktop='0,0,0,12',
+                             Default='0,0,0,8'}"
+            AutomationId="{Binding ImageDimension}"
+            BackgroundColor="Transparent"
+            HeightRequest="{Binding ImageHeight}"
+            HorizontalOptions="Fill"
+            SizeChanged="Border_SizeChanged"
+            Stroke="{DynamicResource WikiAppImageBorderColor}"
+            StrokeThickness="1"
+            VerticalOptions="Fill">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="6" />
+            </Border.StrokeShape>
+
+            <local:ExtendedImage
+                x:Name="img"
+                Margin="{OnIdiom Phone='4,4',
+                                 Tablet='6,6',
+                                 Desktop='6,6',
+                                 Default='4,4'}"
+                Aspect="AspectFit"
+                CustomSource="{Binding ImageLocalPath}"
+                HorizontalOptions="Fill"
+                LocalFileName="{Binding ImageFileName}"
+                VerticalOptions="Fill" />
+        </Border>
+
+        <!--  Image caption with improved styling  -->
+        <Label
+            Grid.Row="1"
+            FontAttributes="Bold"
+            FontFamily="{DynamicResource DefaultFontFamily}"
+            FontSize="{OnIdiom Phone=12,
+                               Tablet=14,
+                               Desktop=14,
+                               Default=12}"
+            HorizontalOptions="Fill"
+            HorizontalTextAlignment="Center"
+            LineBreakMode="WordWrap"
+            Text="{Binding ImageCaption}"
+            VerticalOptions="Center"
+            VerticalTextAlignment="Center" />
+    </Grid>
+    <!--</Border>-->
 </DataTemplate>

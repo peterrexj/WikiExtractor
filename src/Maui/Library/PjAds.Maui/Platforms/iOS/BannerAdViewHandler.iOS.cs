@@ -168,19 +168,19 @@ namespace PjAds.Maui.Controls
             }
         }
 
-        protected void UpdateAdUnitId()
+        partial void UpdateAdUnitId()
         {
             // Recreate the banner view with new ad unit ID
             RecreateAdView();
         }
 
-        protected void UpdateAdSize()
+        partial void UpdateAdSize()
         {
             // Recreate the banner view with new ad size
             RecreateAdView();
         }
 
-        protected void UpdateBannerType()
+        partial void UpdateBannerType()
         {
             // Banner type is handled by the service, just reload the ad
             LoadAd();

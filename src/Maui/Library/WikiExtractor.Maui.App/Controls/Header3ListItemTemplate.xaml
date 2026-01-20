@@ -4,95 +4,108 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:fontAwesome="clr-namespace:FontAwesome"
-    xmlns:sfButtons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons">
-    
-    <!-- Enhanced Header3 template with consistent styling -->
+    xmlns:sfButtons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
+    xmlns:viewModels="clr-namespace:WikiExtractor.Maui.App.ViewModels;assembly=WikiExtractor.Maui.App"
+    x:DataType="viewModels:ItemDetailListViewModel">
+
+    <!--  Enhanced Header3 template with consistent styling  -->
     <Border
-        Margin="{OnIdiom Phone='5,2,5,2', Tablet='8,3,8,3', Desktop='8,3,8,3', Default='5,2,5,2'}"
-        Padding="{OnIdiom Phone='10,6', Tablet='14,8', Desktop='14,8', Default='10,6'}"
-        HorizontalOptions="FillAndExpand"
-        VerticalOptions="Fill"
+        Margin="{OnIdiom Phone='5,2,5,2',
+                         Tablet='8,3,8,3',
+                         Desktop='8,3,8,3',
+                         Default='5,2,5,2'}"
+        Padding="{OnIdiom Phone='10,6',
+                          Tablet='14,8',
+                          Desktop='14,8',
+                          Default='10,6'}"
+        HorizontalOptions="Fill"
         StrokeShape="RoundRectangle 6"
-        StrokeThickness="0">
+        StrokeThickness="0"
+        VerticalOptions="Fill">
         <Border.Background>
             <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                <GradientStop Color="{StaticResource WikiAppHeader3BackgroundStart}" Offset="0.0" />
-                <GradientStop Color="{StaticResource WikiAppHeader3BackgroundMid}" Offset="0.5" />
-                <GradientStop Color="{StaticResource WikiAppHeader3BackgroundEnd}" Offset="1.0" />
+                <GradientStop Offset="0.0" Color="{DynamicResource WikiAppHeader3BackgroundStart}" />
+                <GradientStop Offset="0.5" Color="{DynamicResource WikiAppHeader3BackgroundMid}" />
+                <GradientStop Offset="1.0" Color="{DynamicResource WikiAppHeader3BackgroundEnd}" />
             </LinearGradientBrush>
         </Border.Background>
-        
-        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+
+        <Grid HorizontalOptions="Fill" VerticalOptions="Center">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
-            
-            <!-- Header3 text with improved layout -->
+
+            <!--  Header3 text with improved layout  -->
             <Label
                 Grid.Column="0"
                 FontAttributes="Bold"
-                FontFamily="{StaticResource DefaultFontFamily}"
-                FontSize="{OnIdiom Phone=16, Tablet=20, Desktop=22, Default=16}"
-                HorizontalOptions="FillAndExpand"
+                FontFamily="{DynamicResource DefaultFontFamily}"
+                FontSize="{OnIdiom Phone=16,
+                                   Tablet=20,
+                                   Desktop=22,
+                                   Default=16}"
+                HorizontalOptions="Fill"
                 LineBreakMode="WordWrap"
                 Text="{Binding Content}"
-                TextColor="{StaticResource WikiAppHeaderTextColor}"
                 VerticalOptions="Center"
                 VerticalTextAlignment="Center" />
-            
-            <!-- Play/Stop button with enhanced styling and state management -->
+
+            <!--  Play/Stop button with enhanced styling and state management  -->
             <StackLayout
                 Grid.Column="1"
-                Orientation="Horizontal"
                 HorizontalOptions="End"
-                VerticalOptions="Center"
                 IsVisible="{Binding IsPlayButtonRequired}"
-                Spacing="6">
-                
-                <!-- Play Button - Visible when not playing -->
+                Orientation="Horizontal"
+                Spacing="6"
+                VerticalOptions="Center">
+
+                <!--  Play Button - Visible when not playing  -->
                 <Border
-                    BackgroundColor="{StaticResource WikiAppAudioPlayButtonColor}"
-                    StrokeShape="RoundRectangle 18"
-                    StrokeThickness="0"
                     Padding="6"
+                    BackgroundColor="{DynamicResource WikiAppAudioPlayButtonColor}"
                     HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    IsVisible="{Binding IsPlaying, Converter={StaticResource InvertedBoolConverter}}">
+                    IsVisible="{Binding IsPlaying, Converter={StaticResource InvertedBoolConverter}}"
+                    MinimumWidthRequest="40"
+                    StrokeShape="RoundRectangle 12"
+                    StrokeThickness="1"
+                    VerticalOptions="Center">
                     <Border.GestureRecognizers>
-                        <TapGestureRecognizer
-                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.PlayAudio}"
-                            CommandParameter="{Binding ContentLinkId}" />
+                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.PlayAudio}" CommandParameter="{Binding ContentLinkId}" />
                     </Border.GestureRecognizers>
                     <Label
+                        FontAttributes="Bold"
+                        FontSize="{OnIdiom Phone=14,
+                                           Tablet=16,
+                                           Desktop=18,
+                                           Default=14}"
+                        HorizontalOptions="Center"
                         Text="▶"
-                        FontSize="{OnIdiom Phone=14, Tablet=16, Desktop=18, Default=14}"
-                        TextColor="{StaticResource WikiAppAudioButtonTextColor}"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        FontAttributes="Bold" />
+                        VerticalOptions="Center" />
                 </Border>
-                
-                <!-- Stop Button - Visible when playing -->
+
+                <!--  Stop Button - Visible when playing  -->
                 <Border
-                    BackgroundColor="{StaticResource WikiAppAudioStopButtonColor}"
-                    StrokeShape="RoundRectangle 18"
-                    StrokeThickness="0"
                     Padding="6"
+                    BackgroundColor="{DynamicResource WikiAppAudioStopButtonColor}"
                     HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    IsVisible="{Binding IsPlaying}">
+                    IsVisible="{Binding IsPlaying}"
+                    MinimumWidthRequest="40"
+                    StrokeShape="RoundRectangle 12"
+                    StrokeThickness="1"
+                    VerticalOptions="Center">
                     <Border.GestureRecognizers>
-                        <TapGestureRecognizer
-                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StopAudio}" />
+                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StopAudio}" />
                     </Border.GestureRecognizers>
                     <Label
-                        Text="⏹"
-                        FontSize="{OnIdiom Phone=14, Tablet=16, Desktop=18, Default=14}"
-                        TextColor="{StaticResource WikiAppAudioButtonTextColor}"
+                        FontAttributes="Bold"
+                        FontSize="{OnIdiom Phone=14,
+                                           Tablet=16,
+                                           Desktop=18,
+                                           Default=14}"
                         HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        FontAttributes="Bold" />
+                        Text="⏹"
+                        VerticalOptions="Center" />
                 </Border>
             </StackLayout>
         </Grid>

@@ -16,20 +16,12 @@ namespace GeneralInformation.Repository
         {
             try
             {
-                var localStorage = CustomServices.LocalStorage;
-                if (localStorage?.SqlLiteHelper != null)
+                if (SharedServiceCore.LocalStorage?.DbStoreHelper != null)
                 {
-                    return localStorage.SqlLiteHelper;
+                    return SharedServiceCore.LocalStorage.DbStoreHelper;
                 }
                 
-                // Fallback: try to get from ServiceLocator
-                var fallbackStorage = ServiceLocator.GetService<ILocalStorage>();
-                if (fallbackStorage?.SqlLiteHelper != null)
-                {
-                    return fallbackStorage.SqlLiteHelper;
-                }
-                
-                throw new InvalidOperationException("LocalStorage service is not available during AppDatabase initialization");
+                throw new InvalidOperationException("Local Db Storage service is not available during AppDatabase initialization");
             }
             catch (Exception ex)
             {

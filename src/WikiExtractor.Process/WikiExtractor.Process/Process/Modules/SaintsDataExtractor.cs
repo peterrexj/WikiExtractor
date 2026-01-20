@@ -373,7 +373,7 @@ namespace WikiExtractor.Process.Modules
             {
                 counter++;
                 Console.WriteLine($"Testing data for [{counter++}/{data.Count}]: {item.Name}");
-                var personaData = wikiAppController?.GetViewModelById(item.Id);
+                var personaData = wikiAppController?.GetViewModelByIdAsync(item.Id).GetAwaiter().GetResult();
             }
         }
 
@@ -383,7 +383,7 @@ namespace WikiExtractor.Process.Modules
             wikiAppController.CommonMetadata();
 
             var pp = wikiAppController.GetListOfWikiItems(new List<string> { "All" }).First();
-            var test = wikiAppController.GetViewModelById(pp.Id);
+            var test = wikiAppController.GetViewModelByIdAsync(pp.Id).GetAwaiter().GetResult();
             //var ppA = appCtrl.GetListOfWikiItems(new List<string> { "All" });
             //var tt = appCtrl.GetViewModelByRoute("/wiki/Paul_the_Apostle");
 

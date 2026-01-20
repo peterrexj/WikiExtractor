@@ -1,5 +1,6 @@
-using System.Collections.ObjectModel;
 using Microsoft.Maui.Controls;
+using System.Collections.ObjectModel;
+using WikiExtractor.Maui.App.Models;
 
 namespace WikiExtractor.Maui.App.Services
 {
@@ -18,17 +19,19 @@ namespace WikiExtractor.Maui.App.Services
         /// Loads the default style or the previously selected theme.
         /// </summary>
         void LoadDefaultStyle();
+        //Task LoadDefaultStyleAsync();
 
         /// <summary>
         /// Loads a specific theme style.
         /// </summary>
         /// <param name="appTheme">The theme to load.</param>
         void LoadDefaultStyle(AppThemes appTheme);
+        //void LoadDefaultStyleAsync(AppThemes appTheme);
 
-        /// <summary>
-        /// Gets a collection of brushes for chart colors.
-        /// </summary>
-        /// <returns>A collection of brushes for chart colors.</returns>
-        ObservableCollection<Brush> GetChartColors();
+        void InitializeQuizColorsBackground();
+        //void InitializeQuizColorsBackgroundAsync();
+
+        Task<ObservableCollection<Brush>> GetChartColorsAsync();
+        Task<QuizThemeData> GetThemeDataAsync();
     }
 }

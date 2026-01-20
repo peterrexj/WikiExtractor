@@ -5,19 +5,6 @@ namespace WikiExtractor.Maui.App.Exts
 {
     public static class CacheImageDownloadHelper
     {
-        private static IImageService? _imageService;
-        private static IImageService? ImageService
-        {
-            get
-            {
-                if (_imageService == null)
-                {
-                    _imageService = Services.CustomServices.ImageService;
-                }
-                return _imageService;
-            }
-        }
-
         private static int? _daysToHoldCacheImage;
         private static int DaysToHoldCacheImage
         {
@@ -27,7 +14,7 @@ namespace WikiExtractor.Maui.App.Exts
                 {
                     try
                     {
-                        _daysToHoldCacheImage = Services.CustomServices.AppInformation?.ImageCacheTotalDaysToInvalidate ?? 7; // Default to 7 days
+                        _daysToHoldCacheImage = SharedServiceCore.AppInformation?.ImageCacheTotalDaysToInvalidate ?? 7; // Default to 7 days
                     }
                     catch
                     {
@@ -61,7 +48,7 @@ namespace WikiExtractor.Maui.App.Exts
                 var shouldDownload = ValidateCachedLocalFile(filePathLocal, imageUrl);
                 if (shouldDownload)
                 {
-                    await ImageService.DownloadAndResizeImageAsync(imageUrl, filePathLocal, cancellationToken, width, height, scalePercentage);
+                    await SharedServiceCore.ImageService.DownloadAndResizeImageAsync(imageUrl, filePathLocal, cancellationToken, width, height, scalePercentage);
                 }
                 //var shouldDownload = ValidateCachedLocalFile(filePathLocal, imageUrl);
                 //if (shouldDownload)

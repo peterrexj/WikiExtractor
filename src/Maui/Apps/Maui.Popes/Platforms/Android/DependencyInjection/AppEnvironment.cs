@@ -11,19 +11,6 @@ namespace Maui.Wiki.Platforms.Android.DependencyInjection
 {
     public class AppEnvironment : IAppEnvironment
     {
-        public IStyleModel GetStyle(WikiExtractor.Maui.App.Services.AppThemes theme)
-        {
-            // Convert from Services.AppThemes to Models.Mix.AppThemes
-            var mixAppTheme = theme switch
-            {
-                WikiExtractor.Maui.App.Services.AppThemes.Dark => WikiExtractor.Maui.App.Models.Mix.AppThemes.Dark,
-                WikiExtractor.Maui.App.Services.AppThemes.Light => WikiExtractor.Maui.App.Models.Mix.AppThemes.Light,
-                _ => WikiExtractor.Maui.App.Models.Mix.AppThemes.Light // Default to Light
-            };
-            
-            IStyleModel styles = StyleProviderGenericHelper.LoadStyle(mixAppTheme);
-            return styles;
-        }
 
         public void SetStatusBarColor(Color color, bool darkStatusBarTint)
         {

@@ -7,7 +7,7 @@ using System;
 using System.Threading.Tasks;
 using Pj.Library;
 
-namespace Maui.Wiki.Views
+namespace WikiExtractor.Maui.App.Views
 {
     public partial class SettingsPage : ContentPage
     {
@@ -36,20 +36,16 @@ namespace Maui.Wiki.Views
         {
             try
             {
-                // Try ServiceLocator first
-                var service = ServiceLocator.GetService<WikiExtractor.Maui.App.Services.IThemeHandler>();
-                if (service != null) return service;
-                
                 // Try CustomServices fallback
-                var customService = CustomServices.ThemeHandler;
+                var customService = SharedServiceCore.ThemeHandler;
                 if (customService != null) return customService;
                 
                 // Create fallback instance
-                return new WikiExtractor.Maui.App.Services.ThemeHandler();
+                return new ThemeHandler();
             }
             catch
             {
-                return new WikiExtractor.Maui.App.Services.ThemeHandler();
+                return new ThemeHandler();
             }
         }
 

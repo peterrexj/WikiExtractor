@@ -2,6 +2,7 @@
 {
     public class BaseViewModel : BasePropertyChangeModel
     {
+        //TODO: Remove IsBusy inversion and check the usage
         private bool _isBusy;
         public bool IsBusy
         {
@@ -18,6 +19,20 @@
         }
         public bool IsFree => !IsBusy;
 
+        private bool _isPageBusy { get; set; }
+        public bool IsPageBusy
+        {
+            get
+            {
+                return _isPageBusy;
+            }
+            set
+            {
+                _isPageBusy = value;
+                OnPropertyChanged("IsPageBusy");
+            }
+        }
+
         private bool _isActive { get; set; }
         public bool IsActive
         {
@@ -29,6 +44,20 @@
             {
                 _isActive = value;
                 OnPropertyChanged("IsActive");
+            }
+        }
+
+        public string _bannerAdsUnitId;
+        public string BannerAdsUnitId
+        {
+            get
+            {
+                return _bannerAdsUnitId;
+            }
+            set
+            {
+                _bannerAdsUnitId = value;
+                OnPropertyChanged(nameof(BannerAdsUnitId));
             }
         }
     }

@@ -166,7 +166,7 @@ namespace WikiExtractor.Process.Modules
             foreach (var item in data)
             {
                 Console.WriteLine($"Primary image fix for: {item.Name}");
-                var personaData = wikiAppController?.GetViewModelById(item.Id);
+                var personaData = wikiAppController?.GetViewModelByIdAsync(item.Id).GetAwaiter().GetResult();
                 if (personaData != null && personaData.Metadatas?.Any(f => f.Key == "Portrait") == true)
                 {
                     wikiAppController.UpdatePrimaryImage(item.Id, personaData.Metadatas?.First(f => f.Key == "Portrait").Description);
@@ -190,7 +190,7 @@ namespace WikiExtractor.Process.Modules
             {
                 counter++;
                 Console.WriteLine($"Testing data for [{counter++}/{data.Count}]: {item.Name}");
-                var personaData = wikiAppController?.GetViewModelById(item.Id);
+                var personaData = wikiAppController?.GetViewModelByIdAsync(item.Id).GetAwaiter().GetResult();
             }
         }
 

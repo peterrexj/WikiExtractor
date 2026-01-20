@@ -4,6 +4,7 @@
 
     <!--  Colors  -->
     <Color x:Key="WikiAppDefaultForegroundColor">Black</Color>
+    <Color x:Key="WikiAppDefaultTextColor">Black</Color>
     <Color x:Key="WikiAppDefaultBackgroundColor">#F8FAFC</Color>
 
     <Color x:Key="WikiAppTabBarBackgroundGradientStart">#eaeff4</Color>
@@ -266,12 +267,12 @@
     <Color x:Key="WikiAppPersonaDetailPictureItemBgGradientEnd">#ffffff</Color>
     <Color x:Key="WikiAppPersonaDetailPictureCaptionTextColor">#2e3135</Color>
     <Color x:Key="WikiAppPersonaDetailPictureItemShadow">#40000000</Color>
-    
+
     <!--  Audio Control Button Colors  -->
     <Color x:Key="WikiAppAudioPlayButtonColor">#4CAF50</Color>
     <Color x:Key="WikiAppAudioStopButtonColor">#F44336</Color>
     <Color x:Key="WikiAppAudioButtonTextColor">White</Color>
-    
+
     <!--  Header Template Colors  -->
     <Color x:Key="WikiAppHeader2BackgroundStart">#4A90E2</Color>
     <Color x:Key="WikiAppHeader2BackgroundEnd">#357ABD</Color>
@@ -279,11 +280,11 @@
     <Color x:Key="WikiAppHeader3BackgroundMid">#3CB371</Color>
     <Color x:Key="WikiAppHeader3BackgroundEnd">#2E8B57</Color>
     <Color x:Key="WikiAppHeaderTextColor">White</Color>
-    
+
     <!--  Content Template Colors  -->
     <Color x:Key="WikiAppContentBackgroundColor">White</Color>
     <Color x:Key="WikiAppImageBorderColor">DarkGray</Color>
-    
+
     <!--  General UI Colors  -->
     <Color x:Key="WikiAppWhiteColor">White</Color>
     <Color x:Key="WikiAppBlackColor">Black</Color>
@@ -291,49 +292,54 @@
     <Color x:Key="WikiAppBlueColor">#2196F3</Color>
     <Color x:Key="WikiAppGreenColor">#4CAF50</Color>
     <Color x:Key="WikiAppPopupOverlayColor">#80000000</Color>
-    
+
     <!--  Search and Input Colors  -->
     <Color x:Key="WikiAppSearchBackgroundColor">White</Color>
     <Color x:Key="WikiAppSearchTextColor">Black</Color>
     <Color x:Key="WikiAppSearchPlaceholderColor">Gray</Color>
 
     <!--  PersonaDetailPage Gradient Brushes  -->
-    
-    <!-- Main page background gradient -->
+
+    <!--  Main page background gradient  -->
     <LinearGradientBrush x:Key="WikiAppPersonaDetailPageBgGradient" StartPoint="0,0" EndPoint="1,1">
-        <GradientStop Color="{StaticResource WikiAppPersonaDetailPageBgGradientStart}" Offset="0.0" />
-        <GradientStop Color="{StaticResource WikiAppPersonaDetailPageBgGradientEnd}" Offset="1.0" />
+        <GradientStop Offset="0.0" Color="{StaticResource WikiAppPersonaDetailPageBgGradientStart}" />
+        <GradientStop Offset="1.0" Color="{StaticResource WikiAppPersonaDetailPageBgGradientEnd}" />
     </LinearGradientBrush>
 
-    <!-- Metadata item background gradient -->
+    <!--  Metadata item background gradient  -->
     <LinearGradientBrush x:Key="WikiAppPersonaDetailMetadataItemBgGradient" StartPoint="0,0" EndPoint="1,1">
-        <GradientStop Color="{StaticResource WikiAppPersonaDetailMetadataItemBgGradientStart}" Offset="0.0" />
-        <GradientStop Color="{StaticResource WikiAppPersonaDetailMetadataItemBgGradientEnd}" Offset="1.0" />
+        <GradientStop Offset="0.0" Color="{StaticResource WikiAppPersonaDetailMetadataItemBgGradientStart}" />
+        <GradientStop Offset="1.0" Color="{StaticResource WikiAppPersonaDetailMetadataItemBgGradientEnd}" />
     </LinearGradientBrush>
 
-    <!-- Picture item background gradient -->
+    <!--  Picture item background gradient  -->
     <LinearGradientBrush x:Key="WikiAppPersonaDetailPictureItemBgGradient" StartPoint="0,0" EndPoint="1,1">
-        <GradientStop Color="{StaticResource WikiAppPersonaDetailPictureItemBgGradientStart}" Offset="0.0" />
-        <GradientStop Color="{StaticResource WikiAppPersonaDetailPictureItemBgGradientEnd}" Offset="1.0" />
+        <GradientStop Offset="0.0" Color="{StaticResource WikiAppPersonaDetailPictureItemBgGradientStart}" />
+        <GradientStop Offset="1.0" Color="{StaticResource WikiAppPersonaDetailPictureItemBgGradientEnd}" />
     </LinearGradientBrush>
 
     <!--  Loading Overlay Colors - Enhanced for better visibility  -->
     <Color x:Key="WikiAppLoadingOverlayBgColor">#FFFFFF</Color>
     <SolidColorBrush x:Key="WikiAppLoadingOverlayBg" Color="{StaticResource WikiAppLoadingOverlayBgColor}" />
-    
+
     <Color x:Key="WikiAppLoadingCardBgColor">#F0F4F8</Color>
     <SolidColorBrush x:Key="WikiAppLoadingCardBg" Color="{StaticResource WikiAppLoadingCardBgColor}" />
-    
+
     <Color x:Key="WikiAppLoadingCardBorderColor">#2196F3</Color>
     <SolidColorBrush x:Key="WikiAppLoadingCardBorder" Color="{StaticResource WikiAppLoadingCardBorderColor}" />
-    
+
     <Color x:Key="WikiAppLoadingCardShadowColor">#50000000</Color>
     <SolidColorBrush x:Key="WikiAppLoadingCardShadow" Color="{StaticResource WikiAppLoadingCardShadowColor}" />
-    
+
     <Color x:Key="WikiAppLoadingIndicatorColor">#2196F3</Color>
-    
+
     <Color x:Key="WikiAppLoadingTextColor">#1565C0</Color>
-    
+
     <Color x:Key="WikiAppLoadingSubtitleColor">#424242</Color>
+
+    <Color x:Key="WikiAppQuizCorrectAnswerColor">#4CAF50</Color>
+    <Color x:Key="WikiAppQuizWrongAnswerColor">#F44336</Color>
+    <Color x:Key="WikiAppQuizAnswerDefaultBackColor">#E0E0E0</Color>
+    <Color x:Key="WikiAppQuizAnswerSelectionBackColor">#424242</Color>
 
 </ResourceDictionary>

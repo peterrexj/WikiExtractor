@@ -5,12 +5,18 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Maui.Wiki"
     xmlns:views="clr-namespace:WikiExtractor.Maui.App.Views;assembly=WikiExtractor.Maui.App"
-    Title="Wiki of Church"
-    FlyoutBackgroundColor="{DynamicResource WikiAppBackgroundColor}"
-    FlyoutWidth="300"
     BackgroundColor="{DynamicResource WikiAppBackgroundColor}"
+    FlyoutBackgroundColor="{DynamicResource WikiAppBackgroundColor}"
+    FlyoutHeaderBehavior="Fixed"
+    FlyoutWidth="300"
     ForegroundColor="{DynamicResource WikiAppDefaultForegroundColor}"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.NavBarIsVisible="True"
     TitleColor="{DynamicResource WikiAppDefaultForegroundColor}">
+
+    <Shell.FlyoutHeader>
+        <Grid HeightRequest="0" />
+    </Shell.FlyoutHeader>
 
     <Shell.ItemTemplate>
         <DataTemplate>
@@ -29,20 +35,18 @@
                     HorizontalOptions="Center"
                     Source="{Binding FlyoutIcon}"
                     VerticalOptions="Center"
-                    WidthRequest="24">
-                </Image>
+                    WidthRequest="24" />
                 <Label
                     x:Name="FlyoutItemLabel"
                     Grid.Column="1"
+                    Margin="10,0,1,0"
                     FontAttributes="Bold"
                     FontSize="14"
                     HorizontalOptions="Start"
                     HorizontalTextAlignment="Start"
                     Text="{Binding Title}"
                     TextColor="{DynamicResource WikiAppDefaultForegroundColor}"
-                    VerticalTextAlignment="Center"
-                    Margin="10,0,1,0">
-                </Label>
+                    VerticalTextAlignment="Center" />
                 <VisualStateManager.VisualStateGroups>
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">
@@ -88,12 +92,12 @@
         </ResourceDictionary>
     </Shell.Resources>
 
-    <!-- Default content - will be populated dynamically by WikiAppController -->
-    <!--
+    <!--  Default content - will be populated dynamically by WikiAppController  -->
+
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-    -->
+        Title="Loading"
+        ContentTemplate="{DataTemplate views:SettingsPage}"
+        FlyoutItemIsVisible="False"
+        Route="initial" />
 
 </Shell>

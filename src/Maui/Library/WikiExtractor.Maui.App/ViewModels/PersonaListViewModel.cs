@@ -1,32 +1,23 @@
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Input;
 // using Syncfusion.Maui.Buttons; // Temporarily disabled
 // using Syncfusion.Maui.Core; // Temporarily disabled
-using Microsoft.Maui.Controls;
 using Syncfusion.Maui.Buttons;
-using Syncfusion.Maui.Core;
 using WikiExtractor.Maui.App.Services;
 using WikiExtractor.Maui.App.Exts;
-using WikiExtractor.Maui.App.Models.Mix;
 using WikiExtractor.ViewModels;
-using PjAds.Maui.Models;
 
 namespace WikiExtractor.Maui.App.ViewModels
 {
     public class PersonaListViewModel : BaseViewModel
     {
         public ICommand TakeQuizCommand { get; set; }
+        
         private bool _shouldProcessQuizRequest = true;
 
         public PersonaListViewModel()
         {
-            // Initialize ad configuration
-            var adConfig = ServiceLocator.GetService<AdConfiguration>();
-            BannerAdUnitId = adConfig?.BannerAdUnitId ?? string.Empty;
+            BannerAdsUnitId = SharedServiceCore.AdsConfig.BannerAdUnitId;
 
             SortByCollection = new System.Collections.ObjectModel.ObservableCollection<SfSegmentItem>
             {
@@ -92,8 +83,6 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         public string Title { get; set; }
         
-        public string BannerAdUnitId { get; set; }
-
         private IList<PersonaViewModel> _personas;
         public IList<PersonaViewModel> Personas { get => _personas; set => SetProperty(ref _personas, value); }
 
@@ -131,20 +120,6 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
         }
 
-        #region Style 
-        private IStyleModel styleModelDefault;
-        public IStyleModel DefaultStyle
-        {
-            get => styleModelDefault;
-            set
-            {
-                styleModelDefault = value;
-                OnPropertyChanged("DefaultStyle");
-            }
-        }
-
-        #endregion
-
         #region PageCancellationTokenSource 
         private CancellationTokenSource pageCancellationTokenSource;
         public CancellationTokenSource PageCancellationTokenSource
@@ -160,7 +135,7 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         private async void TakeQuiz(SfButton button)
         {
-            IsBusy = true;
+            IsPageBusy = true;
 
             await Task.Delay(200);
 
@@ -180,7 +155,7 @@ namespace WikiExtractor.Maui.App.ViewModels
                 _shouldProcessQuizRequest = true;
             }
 
-            IsBusy = false;
+            IsPageBusy = false;
         }
     }
 }

@@ -1,7 +1,9 @@
+using PjAds.Maui.Services;
 using System;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
+using WikiExtractor.Maui.App.Models;
 
 namespace WikiExtractor.Maui.App.Services
 {
@@ -10,6 +12,34 @@ namespace WikiExtractor.Maui.App.Services
     /// </summary>
     public static class SharedServiceCore
     {
+        private static IAppInformation? _appInformation;
+        public static IAppInformation? AppInformation => _appInformation ??= ServiceLocator.GetService<IAppInformation>();
+
+        private static IThemeHandler? _themeHandler;
+        public static IThemeHandler ThemeHandler => _themeHandler ??= ServiceLocator.GetService<IThemeHandler>();
+
+        private static IErrorHandlingService? errorHandlingService;
+        public static IErrorHandlingService ErrorHandlingService => errorHandlingService ??= ServiceLocator.GetService<IErrorHandlingService>();
+
+        private static IAdManager? _adManager;
+        public static IAdManager AdManager => _adManager ??= ServiceLocator.GetService<IAdManager>();
+
+        private static AdsConfig? _adsConfig;
+        public static AdsConfig AdsConfig => _adsConfig ??= ServiceLocator.GetService<AdsConfig>() ?? new AdsConfig();
+
+        /// <summary>
+        /// Get Image Service
+        /// Usage: var imageService = Services.ImageService;
+        /// </summary>
+        private static IImageService? _imageService;
+        public static IImageService? ImageService => _imageService ??= ServiceLocator.GetService<IImageService>();
+
+        private static ILocalStorage? _localStorage;
+        public static ILocalStorage? LocalStorage => _localStorage ??= ServiceLocator.GetService<ILocalStorage>();
+
+        private static IAppEnvironment? _appEnvironment;
+        public static IAppEnvironment? AppEnvironment => _appEnvironment ??= ServiceLocator.GetService<IAppEnvironment>();
+
         /// <summary>
         /// The default theme for the application.
         /// </summary>

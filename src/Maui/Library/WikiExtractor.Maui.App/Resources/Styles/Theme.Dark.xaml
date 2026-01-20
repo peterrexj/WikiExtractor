@@ -6,6 +6,16 @@
     <Color x:Key="WikiAppDefaultForegroundColor">#DDE6ED</Color>
     <Color x:Key="WikiAppDefaultBackgroundColor">#222831</Color>
 
+    <Color x:Key="WikiAppDefaultTextColor">Green</Color>
+
+    <Color x:Key="WikiAppTitleTextColor">Brown</Color>
+
+    <Color x:Key="WikiAppListItemHeaderTextColor">Brown</Color>
+    <Color x:Key="WikiAppListItemKeyTextColor">Yellow</Color>
+    <Color x:Key="WikiAppListItemDescriptionTextColor">blue</Color>
+    <Color x:Key="WikiAppListItemTextColor">Red</Color>
+
+
     <Color x:Key="WikiAppTabBarBackgroundGradientStart">#222831</Color>
     <Color x:Key="WikiAppTabBarBackgroundGradientEnd">#393E46</Color>
     <Color x:Key="WikiAppTabIndicatorStrokeColor">#9DB2BF</Color>
@@ -266,12 +276,12 @@
     <Color x:Key="WikiAppPersonaDetailPictureItemBgGradientEnd">#393E46</Color>
     <Color x:Key="WikiAppPersonaDetailPictureCaptionTextColor">#DDE6ED</Color>
     <Color x:Key="WikiAppPersonaDetailPictureItemShadow">#60000000</Color>
-    
+
     <!--  Audio Control Button Colors  -->
     <Color x:Key="WikiAppAudioPlayButtonColor">#4CAF50</Color>
     <Color x:Key="WikiAppAudioStopButtonColor">#F44336</Color>
     <Color x:Key="WikiAppAudioButtonTextColor">White</Color>
-    
+
     <!--  Header Template Colors  -->
     <Color x:Key="WikiAppHeader2BackgroundStart">#526D82</Color>
     <Color x:Key="WikiAppHeader2BackgroundEnd">#27374D</Color>
@@ -279,11 +289,11 @@
     <Color x:Key="WikiAppHeader3BackgroundMid">#526D82</Color>
     <Color x:Key="WikiAppHeader3BackgroundEnd">#393E46</Color>
     <Color x:Key="WikiAppHeaderTextColor">#DDE6ED</Color>
-    
+
     <!--  Content Template Colors  -->
     <Color x:Key="WikiAppContentBackgroundColor">#27374D</Color>
     <Color x:Key="WikiAppImageBorderColor">#526D82</Color>
-    
+
     <!--  General UI Colors  -->
     <Color x:Key="WikiAppWhiteColor">#DDE6ED</Color>
     <Color x:Key="WikiAppBlackColor">#27374D</Color>
@@ -291,7 +301,7 @@
     <Color x:Key="WikiAppBlueColor">#9BB0C1</Color>
     <Color x:Key="WikiAppGreenColor">#526D82</Color>
     <Color x:Key="WikiAppPopupOverlayColor">#80000000</Color>
-    
+
     <!--  Search and Input Colors  -->
     <Color x:Key="WikiAppSearchBackgroundColor">#27374D</Color>
     <Color x:Key="WikiAppSearchTextColor">#DDE6ED</Color>
@@ -314,20 +324,25 @@
     <!--  Loading Overlay Colors - Enhanced for better visibility  -->
     <Color x:Key="WikiAppLoadingOverlayBgColor">#000000</Color>
     <SolidColorBrush x:Key="WikiAppLoadingOverlayBg" Color="{StaticResource WikiAppLoadingOverlayBgColor}" />
-    
+
     <Color x:Key="WikiAppLoadingCardBgColor">#2D2D2D</Color>
     <SolidColorBrush x:Key="WikiAppLoadingCardBg" Color="{StaticResource WikiAppLoadingCardBgColor}" />
-    
+
     <Color x:Key="WikiAppLoadingCardBorderColor">#4CC9FE</Color>
     <SolidColorBrush x:Key="WikiAppLoadingCardBorder" Color="{StaticResource WikiAppLoadingCardBorderColor}" />
-    
+
     <Color x:Key="WikiAppLoadingCardShadowColor">#80000000</Color>
     <SolidColorBrush x:Key="WikiAppLoadingCardShadow" Color="{StaticResource WikiAppLoadingCardShadowColor}" />
-    
+
     <Color x:Key="WikiAppLoadingIndicatorColor">#4CC9FE</Color>
-    
+
     <Color x:Key="WikiAppLoadingTextColor">#FFFFFF</Color>
-    
+
     <Color x:Key="WikiAppLoadingSubtitleColor">#B0B0B0</Color>
+
+    <Color x:Key="WikiAppQuizCorrectAnswerColor">#4CAF50</Color>
+    <Color x:Key="WikiAppQuizWrongAnswerColor">#F44336</Color>
+    <Color x:Key="QuizAnswerDefaultBackColor">#E0E0E0</Color>
+    <Color x:Key="QuizAnswerSelectionBackColor">#424242</Color>
 
 </ResourceDictionary>

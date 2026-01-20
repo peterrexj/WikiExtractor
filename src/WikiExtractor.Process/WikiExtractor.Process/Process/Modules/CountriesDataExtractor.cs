@@ -102,7 +102,7 @@ namespace WikiExtractor.Process.Modules
             Initialize(false);
             wikiAppController.CommonMetadata();
             var testTagFilterData = wikiAppController.GetListOfWikiItems(new List<string> { "Country start with [R]" });
-            var contentTest = wikiAppController.GetViewModelById(1);
+            var contentTest = wikiAppController.GetViewModelByIdAsync(1).GetAwaiter().GetResult();
 
         }
     }

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:buttons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
+    xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
+    xmlns:converters="clr-namespace:WikiExtractor.Maui.App.Converters"
+    xmlns:core="http://schemas.syncfusion.com/maui"
+    xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+    xmlns:expander="clr-namespace:Syncfusion.Maui.Expander;assembly=Syncfusion.Maui.Expander"
+    xmlns:tabView="clr-namespace:Syncfusion.Maui.TabView;assembly=Syncfusion.Maui.TabView">
+
+    <!--  Converters  -->
+    <converters:StringToColorConverter x:Key="StringToColorConverter" />
+    <converters:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+
+    <!--  Font Families  -->
+    <x:String x:Key="DefaultFontFamily">Calibri</x:String>
+
+    <!--  Global style for Label  -->
+    <Style TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+        <Setter Property="TextColor" Value="{DynamicResource WikiAppDefaultTextColor}" />
+    </Style>
+
+    <!--  Global style for Span  -->
+    <Style TargetType="Span">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+    </Style>
+
+    <!--  Global style for Button  -->
+    <Style TargetType="Button">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+    </Style>
+
+    <!--  Global style for Entry  -->
+    <Style TargetType="Entry">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+    </Style>
+
+    <!--  Global style for SfNumericEntry  -->
+    <Style TargetType="editors:SfNumericEntry">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+    </Style>
+
+    <!--  Global style for SfAutocomplete  -->
+    <Style TargetType="editors:SfAutocomplete">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+        <Setter Property="DropDownItemFontFamily" Value="{StaticResource DefaultFontFamily}" />
+    </Style>
+
+    <!--  Global style for FontImageSource  -->
+    <Style TargetType="FontImageSource">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+    </Style>
+
+    <Style TargetType="buttons:SfButton">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+    </Style>
+
+    <!--  Styles for WikiApp  -->
+    <Style x:Key="TopBorderStyle" TargetType="Border">
+        <Setter Property="Margin" Value="0,5,0,2" />
+        <Setter Property="Stroke" Value="{DynamicResource BorderControlGradientBrush}" />
+        <Setter Property="Background" Value="{DynamicResource BorderControlBackgroundGradientBrush}" />
+        <Setter Property="StrokeThickness" Value="1" />
+        <Setter Property="StrokeShape" Value="RoundRectangle 3" />
+        <!-- <Setter Property="HeightRequest" Value="{OnIdiom Phone=60, Tablet=90, Desktop=90, Default=60}" /> -->
+        <Setter Property="HorizontalOptions" Value="Start" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+
+    <!--  Tab View  -->
+    <Style TargetType="tabView:SfTabView">
+        <Setter Property="HeaderHorizontalTextAlignment" Value="Center" />
+        <Setter Property="IndicatorCornerRadius" Value="1" />
+        <Setter Property="IndicatorStrokeThickness" Value="5" />
+        <Setter Property="IndicatorPlacement" Value="Bottom" />
+        <Setter Property="IndicatorWidthMode" Value="Stretch" />
+        <Setter Property="IndicatorBackground" Value="{DynamicResource WikiAppTabIndicatorStrokeColor}" />
+        <Setter Property="TabBarBackground" Value="{DynamicResource WikiAppTabBarBackgroundGradientBrush}" />
+    </Style>
+
+
+    <!--  Tab Item  -->
+    <Style TargetType="tabView:SfTabItem">
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+        <Setter Property="FontSize" Value="{OnIdiom Phone=10, Tablet=15, Desktop=15, TV=15, Watch=8, Default=10}" />
+
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup>
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{DynamicResource WikiAppTabTextColorNormal}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="Selected">
+                        <VisualState.Setters>
+                            <Setter Property="TextColor" Value="{DynamicResource WikiAppTabTextColorSelected}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+
+    <!--  Segment styles  -->
+    <Style x:Key="SegmentDefaultStyle" TargetType="buttons:SfSegmentedControl">
+        <!--  SelectedSegmentTextColor="{Binding DefaultStyle.SegSelectedTextFgColor, Converter={StaticResource StringToColorConverter}}"  -->
+        <!--  SelectionTextColor="{Binding DefaultStyle.SegSelectedTextFgColor, Converter={StaticResource StringToColorConverter}}"  -->
+        <Setter Property="StrokeThickness" Value="2" />
+        <Setter Property="CornerRadius" Value="15" />
+        <Setter Property="Stroke" Value="{DynamicResource WikiAppSegBorderColor}" />
+        <Setter Property="Background" Value="{DynamicResource WikiAppSegBgColor}" />
+        <Setter Property="SegmentHeight" Value="{OnIdiom Phone=40, Tablet=70, Desktop=70, TV=70, Default=40}" />
+        <Setter Property="buttons:SfSegmentedControl.TextStyle">
+            <Setter.Value>
+                <buttons:SegmentTextStyle
+                    FontFamily="{DynamicResource DefaultFontFamily}"
+                    FontSize="{OnIdiom Phone=12,
+                                       Tablet=17,
+                                       Desktop=17,
+                                       TV=17,
+                                       Watch=10,
+                                       Default=12}"
+                    TextColor="{DynamicResource WikiAppSegTextFgColor}" />
+            </Setter.Value>
+        </Setter>
+        <Setter Property="buttons:SfSegmentedControl.SelectionIndicatorSettings">
+            <Setter.Value>
+                <buttons:SelectionIndicatorSettings Background="{DynamicResource WikiAppSegSelectedBgColor}" SelectionIndicatorPlacement="Fill" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--  Style for ListView item border  -->
+    <Style x:Key="ListItemBorderStyle" TargetType="Border">
+        <Setter Property="Margin" Value="0,0,0,10" />
+        <Setter Property="Stroke" Value="{DynamicResource WikiAppLstBorderBrush}" />
+        <Setter Property="Background" Value="{DynamicResource WikiAppLstBgBrush}" />
+        <Setter Property="StrokeThickness" Value="2" />
+        <Setter Property="StrokeShape" Value="RoundRectangle 8" />
+        <Setter Property="HorizontalOptions" Value="Fill" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+
+    <Style x:Key="ButtonStyle" TargetType="buttons:SfButton">
+        <Setter Property="Background" Value="{DynamicResource WikiAppButtonBgColor}" />
+        <Setter Property="CornerRadius" Value="1" />
+        <Setter Property="Margin" Value="4" />
+        <Setter Property="MaximumHeightRequest" Value="50" />
+        <!--<Setter Property="HeightRequest" Value="50" />-->
+    </Style>
+    <Style x:Key="ButtonLabelStyle" TargetType="Label">
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="TextColor" Value="{DynamicResource WikiAppButtonFgColor}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+        <Setter Property="FontSize" Value="{OnIdiom Phone=14, Tablet=19, Desktop=19, TV=19, Watch=12, Default=14}" />
+    </Style>
+    <Style x:Key="ListIconButtonStyle" TargetType="buttons:SfButton">
+        <Setter Property="Background" Value="{DynamicResource WikiAppButtonBgColor}" />
+        <Setter Property="CornerRadius" Value="1" />
+        <Setter Property="Margin" Value="3,0,0,0" />
+        <Setter Property="ShowIcon" Value="True" />
+    </Style>
+    <Style x:Key="ImageSmallRoundButton" TargetType="buttons:SfButton">
+        <!-- <Setter Property="Background" Value="{DynamicResource WikiAppButtonBgColor}" /> -->
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="CornerRadius" Value="30" />
+        <Setter Property="HeightRequest" Value="30" />
+        <Setter Property="WidthRequest" Value="30" />
+        <Setter Property="Margin" Value="4,0,0,0" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+
+    <!--  Style for SfAutocomplete  -->
+    <Style x:Key="SfAutocompleteStyle" TargetType="editors:SfAutocomplete">
+        <Setter Property="Margin" Value="5,3,5,0" />
+        <Setter Property="SelectionTextHighlightColor" Value="{DynamicResource WikiAppAutoCompleteSelectionTextHighlightColor}" />
+        <Setter Property="SelectedDropDownItemBackground" Value="{DynamicResource WikiAppAutoCompleteSelectedDropDownItemBackground}" />
+        <Setter Property="ClearButtonIconColor" Value="{DynamicResource WikiAppAutoCompleteClearButtonColor}" />
+        <Setter Property="DropDownBackground" Value="{DynamicResource WikiAppAutoCompleteDropdownBackgroundColor}" />
+        <Setter Property="DropDownItemFontFamily" Value="{DynamicResource DefaultFontFamily}" />
+        <Setter Property="DropDownItemTextColor" Value="{DynamicResource WikiAppAutoCompleteDropdownTextColor}" />
+        <Setter Property="DropDownStroke" Value="{DynamicResource WikiAppAutoCompleteDropdownBorderColor}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+        <Setter Property="HighlightedTextColor" Value="{DynamicResource WikiAppAutoCompleteHighlightedTextColor}" />
+        <Setter Property="HighlightedTextFontAttributes" Value="Bold" />
+        <Setter Property="IsClearButtonVisible" Value="True" />
+        <Setter Property="MinimumPrefixCharacters" Value="2" />
+        <Setter Property="NoResultsFoundText" Value="No Results Found" />
+        <Setter Property="PlaceholderColor" Value="{DynamicResource WikiAppAutoCompleteWaterColor}" />
+        <Setter Property="Placeholder" Value="Enter here to search" />
+        <Setter Property="ShowBorder" Value="False" />
+        <Setter Property="TextColor" Value="{DynamicResource WikiAppAutoCompleteTextColor}" />
+        <Setter Property="TextHighlightMode" Value="MultipleOccurrence" />
+        <Setter Property="TextSearchMode" Value="Contains" />
+        <Setter Property="FontSize" Value="{OnIdiom Phone=14, Tablet=19, Desktop=19, TV=19, Watch=12, Default=14}" />
+        <Setter Property="DropDownItemFontSize" Value="{OnIdiom Phone=14, Tablet=19, Desktop=19, TV=19, Watch=12, Default=14}" />
+        <Setter Property="NoResultsFoundTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <Label
+                        Margin="70,10,0,0"
+                        FontAttributes="Italic"
+                        FontFamily="{DynamicResource DefaultFontFamily}"
+                        FontSize="{OnIdiom Phone=16,
+                                           Tablet=21,
+                                           Desktop=21,
+                                           TV=21,
+                                           Watch=14,
+                                           Default=16}"
+                        Text="Not Found"
+                        TextColor="{DynamicResource WikiAppAutoCompleteNoResultsFoundTextColor}" />
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--  Style for SfComboBox  -->
+    <Style x:Key="SfComboBoxStyle" TargetType="editors:SfComboBox">
+        <Setter Property="DropDownBackground" Value="{DynamicResource WikiAppComboDropDownBackgroundColor}" />
+        <Setter Property="DropDownItemFontFamily" Value="{DynamicResource DefaultFontFamily}" />
+        <Setter Property="DropDownItemTextColor" Value="{DynamicResource WikiAppComboDropDownTextColor}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+        <Setter Property="FontSize" Value="{OnIdiom Phone=14, Tablet=19, Desktop=19, TV=19, Watch=12, Default=14}" />
+        <Setter Property="DropDownItemFontSize" Value="{OnIdiom Phone=14, Tablet=19, Desktop=19, TV=19, Watch=12, Default=14}" />
+        <Setter Property="HighlightedTextColor" Value="{DynamicResource WikiAppComboHighlightedTextColor}" />
+        <Setter Property="IsClearButtonVisible" Value="False" />
+        <Setter Property="IsFilteringEnabled" Value="False" />
+        <Setter Property="SelectedDropDownItemBackground" Value="{DynamicResource WikiAppComboSelectedDropDownItemColor}" />
+        <Setter Property="TextColor" Value="{DynamicResource WikiAppComboTextColor}" />
+        <Setter Property="TextHighlightMode" Value="MultipleOccurrence" />
+        <Setter Property="TextSearchMode" Value="Contains" />
+    </Style>
+
+    <!--  Span Three Box on top  -->
+    <Style x:Key="SpanThreeBoxCurrencyStyle" TargetType="Span">
+        <Setter Property="CharacterSpacing" Value="1" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="FontSize" Value="{OnIdiom Phone=15, Tablet=26, Desktop=26, TV=26, Watch=26, Default=15}" />
+    </Style>
+    <Style x:Key="SpanThreeBoxAmountStyle" TargetType="Span">
+        <Setter Property="CharacterSpacing" Value="{OnIdiom Phone=-1, Tablet=0.5, Desktop=1, TV=1, Default=-1}" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="FontSize" Value="{OnIdiom Phone=18, Tablet=32, Desktop=32, TV=32, Watch=14, Default=18}" />
+    </Style>
+    <Style x:Key="SpanThreeBoxTextStyle" TargetType="Span">
+        <Setter Property="CharacterSpacing" Value="{OnIdiom Phone=-0.2, Tablet=0, Desktop=1, TV=1, Default=-0.2}" />
+        <Setter Property="FontSize" Value="{OnIdiom Phone=12, Tablet=20, Desktop=16, TV=16, Watch=10, Default=12}" />
+    </Style>
+
+    <!--  Quiz Styles  -->
+
+
+
+
+
+    <!--  PersonaDetailPage Specific Styles  -->
+
+    <!--  Style for PersonaDetailPage main background  -->
+    <!--<Style x:Key="PersonaDetailPageBackgroundStyle" TargetType="Grid">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Offset="0.0" Color="{DynamicResource WikiAppPersonaDetailPageBgGradientStart}" />
+                    <GradientStop Offset="1.0" Color="{DynamicResource WikiAppPersonaDetailPageBgGradientEnd}" />
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>-->
+
+
+
+</ResourceDictionary>

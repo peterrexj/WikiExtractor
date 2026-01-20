@@ -4,10 +4,6 @@ namespace Maui.Wiki.Platforms.iOS.DependencyInjection
 {
     public class AppInformation : IAppInformation
     {
-        public string AppCentreAppKey => "0bfcd53d-06a1-4bc3-86ab-03ca67d866e8";
-
-        // Ads properties removed as per migration plan
-
         #region Style Implementation
         public int StyleOnImageHeightRequestOnListPage => 130;
 
@@ -23,5 +19,13 @@ namespace Maui.Wiki.Platforms.iOS.DependencyInjection
 
         public string DbWikiStore => "WikiStore.db";
         public string DbUserStore => "WikiUserStore.db";
+
+        public string AdsAppId => "ca-app-pub-4219645367584712~8734202306";
+
+        public string AdsBannerId => "ca-app-pub-4219645367584712/8224449302";
+
+        public string AdsQuizBannerId => "ca-app-pub-4219645367584712/2322572355";
+
+        public string AdsInterstitialId => "ca-app-pub-4219645367584712/1495389423";
     }
 }

@@ -2,18 +2,15 @@
 using Microsoft.Extensions.Logging;
 using WikiExtractor.Maui.App.Services;
 using Syncfusion.Maui.Core.Hosting;
-using WikiExtractor.Maui.App.Repository;
-using System;
 using System.Diagnostics;
-using System.IO;
-using WikiExtractor.Maui.App.Exts;
 using Maui.Wiki.Services;
 using WikiExtractor.Process;
 using Maui.Wiki.ViewModels;
-using Maui.Wiki.Views;
 using WikiExtractor.Exts;
 using PjAds.Maui.Extensions;
 using PjAds.Maui.Models;
+using WikiExtractor.Maui.App.Views;
+using WikiExtractor.Maui.App.Models;
 
 namespace Maui.Wiki
 {
@@ -21,10 +18,12 @@ namespace Maui.Wiki
     {
         public static MauiApp CreateMauiApp()
         {
-            // Set up global exception handling at the earliest possible point
-            AppDomain.CurrentDomain.UnhandledException += OnUnhandledException;
-            TaskScheduler.UnobservedTaskException += OnUnobservedTaskException;
-            
+            //// Set up global exception handling at the earliest possible point
+            //AppDomain.CurrentDomain.UnhandledException += OnUnhandledException;
+            //TaskScheduler.UnobservedTaskException += OnUnobservedTaskException;
+
+            IAppInformation appInfo;
+
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
@@ -36,39 +35,40 @@ namespace Maui.Wiki
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                     fonts.AddFont("CALIBRI.TTF", "Calibri");
                     fonts.AddFont("calibrib.ttf", "CalibriBold");
+                    fonts.AddFont("PARCHM.TTF", "Parmch");
                     fonts.AddFont("Font Awesome 5 Free-Solid-900.otf", "FontAwesome");
-                })
+                });
                 // Configure PjAds for Popes app
-                .UsePjAds(new AdConfiguration
-                {
-                    // Test ad unit IDs - replace with production IDs for release
-#if DEBUG
-                    ApplicationId = DeviceInfo.Platform == DevicePlatform.Android
-                        ? "ca-app-pub-3940256099942544~3347511713"  // Test Android App ID
-                        : "ca-app-pub-3940256099942544~1458002511", // Test iOS App ID
-                    BannerAdUnitId = DeviceInfo.Platform == DevicePlatform.Android
-                        ? "ca-app-pub-3940256099942544/6300978111"  // Test Android Banner
-                        : "ca-app-pub-3940256099942544/2934735716", // Test iOS Banner
-                    InterstitialAdUnitId = DeviceInfo.Platform == DevicePlatform.Android
-                        ? "ca-app-pub-3940256099942544/1033173712"  // Test Android Interstitial
-                        : "ca-app-pub-3940256099942544/4411468910", // Test iOS Interstitial
-#else
-                    // Production ad unit IDs for Popes app - replace with actual IDs
-                    ApplicationId = DeviceInfo.Platform == DevicePlatform.Android
-                        ? "ca-app-pub-YOUR_ANDROID_APP_ID"
-                        : "ca-app-pub-YOUR_IOS_APP_ID",
-                    BannerAdUnitId = DeviceInfo.Platform == DevicePlatform.Android
-                        ? "ca-app-pub-YOUR_ANDROID_BANNER_ID"
-                        : "ca-app-pub-YOUR_IOS_BANNER_ID",
-                    InterstitialAdUnitId = DeviceInfo.Platform == DevicePlatform.Android
-                        ? "ca-app-pub-YOUR_ANDROID_INTERSTITIAL_ID"
-                        : "ca-app-pub-YOUR_IOS_INTERSTITIAL_ID",
-#endif
-                    FirstInterstitialAdThreshold = 1, // Show first interstitial after 1 interaction
-                    SubsequentInterstitialAdThreshold = 3, // Show subsequent interstitials every 3 interactions
-                    TestMode = true // Set to false for production
-                })
-                .ConfigurePjAdsHandlers();
+//                .UsePjAds(new AdConfiguration
+//                {
+//                    // Test ad unit IDs - replace with production IDs for release
+//#if DEBUG
+//                    ApplicationId = DeviceInfo.Platform == DevicePlatform.Android
+//                        ? "ca-app-pub-3940256099942544~3347511713"  // Test Android App ID
+//                        : "ca-app-pub-3940256099942544~1458002511", // Test iOS App ID
+//                    BannerAdUnitId = DeviceInfo.Platform == DevicePlatform.Android
+//                        ? "ca-app-pub-3940256099942544/6300978111"  // Test Android Banner
+//                        : "ca-app-pub-3940256099942544/2934735716", // Test iOS Banner
+//                    InterstitialAdUnitId = DeviceInfo.Platform == DevicePlatform.Android
+//                        ? "ca-app-pub-3940256099942544/1033173712"  // Test Android Interstitial
+//                        : "ca-app-pub-3940256099942544/4411468910", // Test iOS Interstitial
+//#else
+//                    // Production ad unit IDs for Popes app - replace with actual IDs
+//                    ApplicationId = DeviceInfo.Platform == DevicePlatform.Android
+//                        ? "ca-app-pub-YOUR_ANDROID_APP_ID"
+//                        : "ca-app-pub-YOUR_IOS_APP_ID",
+//                    BannerAdUnitId = DeviceInfo.Platform == DevicePlatform.Android
+//                        ? "ca-app-pub-YOUR_ANDROID_BANNER_ID"
+//                        : "ca-app-pub-YOUR_IOS_BANNER_ID",
+//                    InterstitialAdUnitId = DeviceInfo.Platform == DevicePlatform.Android
+//                        ? "ca-app-pub-YOUR_ANDROID_INTERSTITIAL_ID"
+//                        : "ca-app-pub-YOUR_IOS_INTERSTITIAL_ID",
+//#endif
+//                    FirstInterstitialAdThreshold = 1, // Show first interstitial after 1 interaction
+//                    SubsequentInterstitialAdThreshold = 3, // Show subsequent interstitials every 3 interactions
+//                    TestMode = true // Set to false for production
+//                })
+//                .ConfigurePjAdsHandlers();
 
             // Register services for dependency injection
             // DatabaseService is static, so we don't need to register it
@@ -99,15 +99,17 @@ namespace Maui.Wiki
             builder.Services.AddTransient<WikiExtractor.Maui.App.ViewModels.QuizResultsPageViewModel>();
             builder.Services.AddTransient<WikiExtractor.Maui.App.Views.QuizPage>();
             builder.Services.AddTransient<WikiExtractor.Maui.App.Views.QuizResultsPage>();
-            
+
             // Register platform-specific services
 #if ANDROID
-            builder.Services.AddSingleton<IAppInformation, Maui.Wiki.Platforms.Android.DependencyInjection.AppInformation>();
+            appInfo =new Maui.Wiki.Platforms.Android.DependencyInjection.AppInformation();
+            builder.Services.AddSingleton<IAppInformation>(appInfo);
             builder.Services.AddSingleton<IAppEnvironment, Maui.Wiki.Platforms.Android.DependencyInjection.AppEnvironment>();
             builder.Services.AddSingleton<IImageService, Maui.Wiki.Platforms.Android.DependencyInjection.ImageService>();
             builder.Services.AddSingleton<ILocalStorage, Maui.Wiki.Platforms.Android.DependencyInjection.LocalStorage>();
 #elif IOS
-            builder.Services.AddSingleton<IAppInformation, Maui.Wiki.Platforms.iOS.DependencyInjection.AppInformation>();
+            appInfo = new Maui.Wiki.Platforms.iOS.DependencyInjection.AppInformation();
+            builder.Services.AddSingleton<IAppInformation>(appInfo);
             builder.Services.AddSingleton<IAppEnvironment, Maui.Wiki.Platforms.iOS.DependencyInjection.AppEnvironment>();
             builder.Services.AddSingleton<IImageService, Maui.Wiki.Platforms.iOS.DependencyInjection.ImageService>();
             builder.Services.AddSingleton<ILocalStorage, Maui.Wiki.Platforms.iOS.DependencyInjection.LocalStorage>();
@@ -116,29 +118,55 @@ namespace Maui.Wiki
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
+            var adsConfig = new AdsConfig
+            {
+                ApplicationId = appInfo.AdsAppId,
+                BannerAdUnitId = appInfo.AdsBannerId,
+                QuizBannerAdUnitId = appInfo.AdsQuizBannerId,
+                InterstitialAdUnitId = appInfo.AdsInterstitialId,
+                AdsEnabled = true
+            };
+            builder.Services.AddSingleton(adsConfig);
+
+            builder.UsePjAds(new AdConfiguration
+            {
+                ApplicationId = adsConfig.ApplicationId,
+                //BannerAdUnitId = appInfo.AdsBannerId,
+                //QuizBannerAdUnitId = appInfo.AdsQuizBannerId,
+                //InterstitialAdUnitId = appInfo.AdsInterstitialId,
+                AdsEnabled = true,
+                TestMode =
+#if DEBUG
+            true,
+#else
+            false,
+#endif
+                FirstInterstitialAdThreshold = 1,
+                SubsequentInterstitialAdThreshold = 3
+            }).ConfigurePjAdsHandlers();
 
             var app = builder.Build();
 
             // Set up ServiceHelper for LocalStorage to access services
-#if ANDROID
-            Maui.Wiki.Platforms.Android.DependencyInjection.ServiceHelper.Services = app.Services;
-#elif IOS
-            Maui.Wiki.Platforms.iOS.DependencyInjection.ServiceHelper.Services = app.Services;
-#endif
+//#if ANDROID
+//            Maui.Wiki.Platforms.Android.DependencyInjection.ServiceHelper.Services = app.Services;
+//#elif IOS
+//            Maui.Wiki.Platforms.iOS.DependencyInjection.ServiceHelper.Services = app.Services;
+//#endif
 
             // Initialize the ServiceLocator with the service provider
-            WikiExtractor.Maui.App.Services.ServiceLocator.Initialize(app.Services);
+            //WikiExtractor.Maui.App.Services.ServiceLocator.Initialize(app.Services);
 
             // Initialize ConfigData.LocalStorageCacheFolderPath early
-            InitializeConfigData(app.Services);
+            //InitializeConfigData(app.Services);
             
             // Pre-initialize database access to ensure it's ready before UI components try to use it
-            InitializeDatabases();
+            //InitializeDatabases();
             
             
             // Initialize theme
-            var themeHandler = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<WikiExtractor.Maui.App.Services.IThemeHandler>(app.Services);
-            themeHandler?.LoadDefaultStyle();
+            //var themeHandler = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<WikiExtractor.Maui.App.Services.IThemeHandler>(app.Services);
+            //themeHandler?.LoadDefaultStyle();
 
             return app;
         }
