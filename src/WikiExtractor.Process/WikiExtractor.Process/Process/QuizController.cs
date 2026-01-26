@@ -152,7 +152,7 @@ namespace WikiExtractor.Process.Process
                 if (dataFromDb?.Childs.Count() > 20)
                 {
                     _wikiDb.QuizDefinitionRepository.Add(new QuizDefinition
-                    { MetadataKey = metadata, QuestionPhrase = dataDefinition?.QuestionRephrase }, checkAlreadyExists: true);
+                    { MetadataKey = metadata, QuestionPhrase = dataDefinition?.QuestionRephrase, Fact = dataDefinition?.Fact }, checkAlreadyExists: true);
                 }
 
                 foreach (var metadataChild in dataFromDb.Childs)

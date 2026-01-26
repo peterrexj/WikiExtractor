@@ -8,8 +8,8 @@ namespace WikiExtractor.Repository
     public class QuizDefinitionRepository : RepositorySqliteNetBase<QuizDefinition>, IRepositoryBase<QuizDefinition>, IRepositoryBaseAppExtension
     {
         public QuizDefinitionRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblQuizDefinition",
-            "MetadataKey, QuestionPhrase",
-            "MetadataKey, QuestionPhrase")
+            "MetadataKey, QuestionPhrase, Fact",
+            "MetadataKey, QuestionPhrase, Fact")
         {
         }
 
@@ -21,7 +21,8 @@ namespace WikiExtractor.Repository
                 createStr.Append($@"CREATE TABLE [{_tableName}] (
                               [Id]	            INTEGER NOT NULL UNIQUE,
                               [MetadataKey]	    TEXT,
-                                 [QuestionPhrase]	TEXT,
+                              [QuestionPhrase]	TEXT,
+                              [Fact]	        TEXT,
                               PRIMARY KEY([Id] AUTOINCREMENT)
                                  );");
             }

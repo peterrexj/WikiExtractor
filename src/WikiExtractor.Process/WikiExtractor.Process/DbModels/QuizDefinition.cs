@@ -6,5 +6,6 @@ namespace WikiExtractor.Process.DbModels
     {
         public string MetadataKey { get; set; }
         public string QuestionPhrase { get; set; }
+        public string Fact { get; set; }
     }
 }
