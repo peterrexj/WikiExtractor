@@ -2,61 +2,73 @@
   {
     "Metadata": "Pontiff number",
     "QuestionRephrase": "Which number corresponds to {MasterId} in the official list of popes?",
+    "Fact": "{MasterId} is the {AnswerId} pontiff in the official list of popes.",
     "MaxLengthForAnswer": 0
   },
   {
     "Metadata": "Pontificate",
     "QuestionRephrase": "How long was the pontificate of {MasterId}?",
+    "Fact": "The pontificate of {MasterId} lasted {AnswerId}.",
     "MaxLengthForAnswer": 0
   },
   {
     "Metadata": "English name",
     "QuestionRephrase": "What is the English name of the {MasterId}?",
+    "Fact": "The English name of {MasterId} is {AnswerId}.",
     "MaxLengthForAnswer": 0
   },
   {
     "Metadata": "Latin Name",
     "QuestionRephrase": "What is the Latin name of the {MasterId}?",
+    "Fact": "The Latin name of {MasterId} is {AnswerId}.",
     "MaxLengthForAnswer": 0
   },
   {
     "Metadata": "Date & Place Of Birth",
     "QuestionRephrase": "What is the date and place of birth of {MasterId}?",
+    "Fact": "The date and place of birth of {MasterId} is {AnswerId}.",
     "MaxLengthForAnswer": 0
   },
   {
     "Metadata": "Predecessor",
     "QuestionRephrase": "Who was the predecessor of {MasterId}?",
+    "Fact": "The predecessor of {MasterId} was {AnswerId}.",
     "MaxLengthForAnswer": 0
   },
   {
     "Metadata": "Successor",
     "QuestionRephrase": "Who was the successor of {MasterId}?",
+    "Fact": "The successor of {MasterId} was {AnswerId}.",
     "MaxLengthForAnswer": 0
   },
   {
     "Metadata": "Papacy began",
     "QuestionRephrase": "What date marks the beginning of {MasterId}'s papacy?",
+    "Fact": "{AnswerId} marks the beginning of {MasterId}'s papacy.",
     "MaxLengthForAnswer": 0
   },
   {
     "Metadata": "Papacy ended",
     "QuestionRephrase": "What date marks the end of {MasterId}'s papacy?",
+    "Fact": "{AnswerId} marks the end of {MasterId}'s papacy.",
     "MaxLengthForAnswer": 0
   },
   {
     "Metadata": "Died",
     "QuestionRephrase": "What date marks the death of {MasterId}?",
+    "Fact": "{AnswerId} marks the death of {MasterId}.",
     "MaxLengthForAnswer": 0
   },
   {
     "Metadata": "Born",
     "QuestionRephrase": "When was {MasterId} born?",
+    "Fact": "{MasterId} was born on {AnswerId}.",
     "MaxLengthForAnswer": 0
   },
   {
     "Metadata": "Personal Name",
     "QuestionRephrase": "What is the Personal name of the {MasterId}?",
+    "Fact": "The personal name of {MasterId} is {AnswerId}.",
     "MaxLengthForAnswer": 0
   }
 ]

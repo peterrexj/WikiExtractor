@@ -1,38 +1,47 @@
 [
   {
     "Metadata": "Country",
-    "QuestionRephrase": "{MasterId} leader of which country?"
+    "QuestionRephrase": "{MasterId} leader of which country?",
+    "Fact": "{MasterId} was the leader of {AnswerId}."
   },
   {
     "Metadata": "Birth-Death",
-    "QuestionRephrase": "When was {MasterId} born, and if applicable, when did they pass away?"
+    "QuestionRephrase": "When was {MasterId} born, and if applicable, when did they pass away?",
+    "Fact": "The birth and death dates for {MasterId} are {AnswerId}."
   },
   {
     "Metadata": "Took office",
-    "QuestionRephrase": "{MasterId} took office in (considering all terms or just the most recent one)?"
+    "QuestionRephrase": "{MasterId} took office in (considering all terms or just the most recent one)?",
+    "Fact": "{MasterId} took office in {AnswerId}."
   },
   {
     "Metadata": "Left office",
-    "QuestionRephrase": "{MasterId} left office in (considering all terms or just the most recent one)?"
+    "QuestionRephrase": "{MasterId} left office in (considering all terms or just the most recent one)?",
+    "Fact": "{MasterId} left office in {AnswerId}."
   },
   {
     "Metadata": "Time in office",
-    "QuestionRephrase": "{MasterId} duration in office (counting all terms or just one)?"
+    "QuestionRephrase": "{MasterId} duration in office (counting all terms or just one)?",
+    "Fact": "{MasterId}'s duration in office was {AnswerId}."
   },
   {
     "Metadata": "Duration",
-    "QuestionRephrase": "{MasterId} duration in office (counting all terms or just one)?"
+    "QuestionRephrase": "{MasterId} duration in office (counting all terms or just one)?",
+    "Fact": "{MasterId}'s duration in office was {AnswerId}."
   },
   {
     "Metadata": "Spouse",
-    "QuestionRephrase": "Who is spouse of {MasterId}?"
+    "QuestionRephrase": "Who is spouse of {MasterId}?",
+    "Fact": "The spouse of {MasterId} is {AnswerId}."
   },
   {
     "Metadata": "Preceded by",
-    "QuestionRephrase": "{MasterId} was preceded by whom (considering any term or just the most recent one)?"
+    "QuestionRephrase": "{MasterId} was preceded by whom (considering any term or just the most recent one)?",
+    "Fact": "{MasterId} was preceded by {AnswerId}."
   },
   {
     "Metadata": "Succeeded by",
-    "QuestionRephrase": "{MasterId} was succeeded by whom (considering any term or just the most recent one)?"
+    "QuestionRephrase": "{MasterId} was succeeded by whom (considering any term or just the most recent one)?",
+    "Fact": "{MasterId} was succeeded by {AnswerId}."
   }
 ]
