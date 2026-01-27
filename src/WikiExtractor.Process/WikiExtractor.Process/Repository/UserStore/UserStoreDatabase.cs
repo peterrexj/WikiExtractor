@@ -11,6 +11,7 @@ namespace WikiExtractor.Repository.UserStore
         public RequestRecordRepository RequestRecordRepository { get; set; }
         public AppSettingsRepository AppSettingsRepository { get; set; }
         public QuizResponseRepository QuizResponseRepository { get; set; }
+        public QuizFactStatusRepository QuizFactStatusRepository { get; set; }
 
         protected List<IRepositoryBaseAppExtension> repoExtensions;
         AppDatabase appDatabase;
@@ -31,12 +32,14 @@ namespace WikiExtractor.Repository.UserStore
             RequestRecordRepository = new RequestRecordRepository(appDatabase._dbHelperUserStore);
             SettingsRepository = new SettingsSqliteRepository(appDatabase._dbHelperUserStore);
             QuizResponseRepository = new QuizResponseRepository(appDatabase._dbHelperUserStore);
+            QuizFactStatusRepository = new QuizFactStatusRepository(appDatabase._dbHelperUserStore);
 
             repoExtensions.Add(SettingsRepository);
             repoExtensions.Add(ItemReadTrackerRepository);
             repoExtensions.Add(RequestRecordRepository);
             repoExtensions.Add(AppSettingsRepository);
             repoExtensions.Add(QuizResponseRepository);
+            repoExtensions.Add(QuizFactStatusRepository);
 
             int currentDbVersion = 0;
             bool requireDbInitialization = false;

@@ -16,6 +16,7 @@ namespace WikiExtractor.Maui.App.Repository.UserStore
         public RequestRecordRepository RequestRecordRepository { get; set; }
         public AppSettingsRepository AppSettingsRepository { get; set; }
         public QuizResponseRepository QuizResponseRepository { get; set; }
+        public QuizFactStatusRepository QuizFactStatusRepository { get; set; }
 
         public UserStoreDatabase() : base(DatabaseHelper.DatabaseType.SqLiteDevice, GetSafeLocalStorageHelper())
         {
@@ -65,11 +66,13 @@ namespace WikiExtractor.Maui.App.Repository.UserStore
             RequestRecordRepository = new RequestRecordRepository(_dbHelper);
             AppSettingsRepository = new AppSettingsRepository(_dbHelper);
             QuizResponseRepository = new QuizResponseRepository(_dbHelper);
+            QuizFactStatusRepository = new QuizFactStatusRepository(_dbHelper);
 
             CollectRepository(ItemReadTrackerRepository, 
                 RequestRecordRepository,
                 AppSettingsRepository,
-                QuizResponseRepository);
+                QuizResponseRepository,
+                QuizFactStatusRepository);
             
             base.InitializeDatabase();
 

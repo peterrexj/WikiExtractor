@@ -70,7 +70,7 @@ namespace Maui.Wiki.Platforms.Android.DependencyInjection
             : "WikiUserStore.db";
 
         public bool IsDatabaseOnCopyMode => false;
-        public int CurrentVersion => 3;
+        public int CurrentVersion => 4;
         public bool HasSettingsTable => true;
 
         private bool _forceCopy;

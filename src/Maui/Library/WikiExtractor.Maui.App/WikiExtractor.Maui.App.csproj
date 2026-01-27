@@ -60,6 +60,7 @@
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\ParagraphPrimaryContent.cs" Link="Models\DbModels\ParagraphPrimaryContent.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\PhoneSettings.cs" Link="Models\DbModels\PhoneSettings.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\QuizDefinition.cs" Link="Models\DbModels\QuizDefinition.cs" />
+	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\QuizFactStatus.cs" Link="Models\DbModels\QuizFactStatus.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\QuizMasterMetadata.cs" Link="Models\DbModels\QuizMasterMetadata.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\QuizResponse.cs" Link="Models\DbModels\QuizResponse.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\RequestRecord.cs" Link="Models\DbModels\RequestRecord.cs" />
@@ -91,6 +92,7 @@
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Repository\ParagraphPrimaryContentRepository.cs" Link="Repository\ParagraphPrimaryContentRepository.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Repository\PhoneSettingsRepository.cs" Link="Repository\PhoneSettingsRepository.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Repository\QuizDefinitionRepository.cs" Link="Repository\QuizDefinitionRepository.cs" />
+	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Repository\QuizFactStatusRepository.cs" Link="Repository\QuizFactStatusRepository.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Repository\QuizMasterMetadataRepository.cs" Link="Repository\QuizMasterMetadataRepository.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Repository\QuizResponseRepository.cs" Link="Repository\QuizResponseRepository.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Repository\RequestRecordRepository.cs" Link="Repository\RequestRecordRepository.cs" />

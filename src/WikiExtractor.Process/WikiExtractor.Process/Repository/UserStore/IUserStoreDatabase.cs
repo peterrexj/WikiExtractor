@@ -8,6 +8,7 @@ namespace WikiExtractor.Repository.UserStore
         AppSettingsRepository AppSettingsRepository { get; set; }
         RequestRecordRepository RequestRecordRepository { get; set; }
         QuizResponseRepository QuizResponseRepository { get; set; }
+        QuizFactStatusRepository QuizFactStatusRepository { get; set; }
 
         void InitializeDatabase();
     }

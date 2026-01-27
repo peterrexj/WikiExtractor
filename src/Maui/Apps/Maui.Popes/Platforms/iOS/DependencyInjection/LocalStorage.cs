@@ -69,7 +69,7 @@ namespace Maui.Wiki.Platforms.iOS.DependencyInjection
             }
         }
         public bool IsDatabaseOnCopyMode => false;
-        public int CurrentVersion => 2;
+        public int CurrentVersion => 4;
         public bool HasSettingsTable => true;
 
         private bool _forceCopy;
