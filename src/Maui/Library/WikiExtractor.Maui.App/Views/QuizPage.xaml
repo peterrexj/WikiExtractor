@@ -10,7 +10,7 @@
     xmlns:sfEffectsView="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
     xmlns:stepProgressBar="clr-namespace:Syncfusion.Maui.ProgressBar;assembly=Syncfusion.Maui.ProgressBar">
     <ContentPage.Content>
-        <Grid>
+        <Grid Style="{DynamicResource WikiAppPageBackgroundGridStyle}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="Auto" />
@@ -180,7 +180,7 @@
 
                                 <!--  Next Button  -->
                                 <sfButtons:SfButton
-                                    Grid.Column="3"
+                                    Grid.Column="2"
                                     Command="{Binding NextQuestionCommand}"
                                     CommandParameter="{x:Reference busyIndicator}"
                                     Style="{DynamicResource WikiAppQuizNextButtonStyle}" />

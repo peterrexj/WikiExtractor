@@ -67,6 +67,7 @@
             HorizontalTextAlignment="Center"
             LineBreakMode="WordWrap"
             Text="{Binding ImageCaption}"
+            TextColor="{DynamicResource WikiAppImageCaptionTextColor}"
             VerticalOptions="Center"
             VerticalTextAlignment="Center" />
     </Grid>

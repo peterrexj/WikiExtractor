@@ -1,3 +1,4 @@
+using WikiExtractor.Maui.App.Constants;
 using WikiExtractor.Maui.App.Services;
 
 namespace Maui.Wiki.Platforms.iOS.DependencyInjection
@@ -27,5 +28,10 @@ namespace Maui.Wiki.Platforms.iOS.DependencyInjection
         public string AdsQuizBannerId => "ca-app-pub-4219645367584712/2322572355";
 
         public string AdsInterstitialId => "ca-app-pub-4219645367584712/1495389423";
+
+        public List<string> GetRegisteredFontFamilies()
+        {
+            return RegisteredFonts.GetFontFamilies();
+        }
     }
 }

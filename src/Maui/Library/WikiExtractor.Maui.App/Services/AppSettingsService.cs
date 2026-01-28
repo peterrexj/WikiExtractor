@@ -13,12 +13,14 @@ namespace WikiExtractor.Maui.App.Services
         private const string SORT_DIRECTION_KEY = "SortDirection";
         private const string SHOW_ALREADY_READ_ITEM_KEY = "ShowAlreadyReadItem";
         private const string APP_THEME_KEY = "AppTheme";
+        private const string APP_FONT_FAMILY_KEY = "AppFontFamily";
 
         // Default Values
         private const string DEFAULT_SORT_PROPERTY = "Id";
         private const string DEFAULT_SORT_DIRECTION = "Ascending";
         private const bool DEFAULT_SHOW_READ_ITEMS = true;
         private const AppThemes DEFAULT_APP_THEME = AppThemes.Light;
+        private const string DEFAULT_FONT_FAMILY = "Calibri";
 
         /// <summary>
         /// Gets the current sort descriptor from secure storage
@@ -139,6 +141,37 @@ namespace WikiExtractor.Maui.App.Services
         }
 
         /// <summary>
+        /// Gets the current app font family
+        /// </summary>
+        public static async Task<string> GetAppFontFamilyAsync()
+        {
+            try
+            {
+                var fontFamily = await SecureStorage.GetAsync(APP_FONT_FAMILY_KEY);
+                return fontFamily ?? DEFAULT_FONT_FAMILY;
+            }
+            catch
+            {
+                return DEFAULT_FONT_FAMILY;
+            }
+        }
+
+        /// <summary>
+        /// Sets the app font family
+        /// </summary>
+        public static async Task SetAppFontFamilyAsync(string fontFamily)
+        {
+            try
+            {
+                await SecureStorage.SetAsync(APP_FONT_FAMILY_KEY, fontFamily);
+            }
+            catch
+            {
+                // Handle storage errors gracefully
+            }
+        }
+
+        /// <summary>
         /// Clears all app settings from secure storage
         /// </summary>
         public static async Task ClearAllSettingsAsync()
@@ -149,6 +182,7 @@ namespace WikiExtractor.Maui.App.Services
                 SecureStorage.Remove(SORT_DIRECTION_KEY);
                 SecureStorage.Remove(SHOW_ALREADY_READ_ITEM_KEY);
                 SecureStorage.Remove(APP_THEME_KEY);
+                SecureStorage.Remove(APP_FONT_FAMILY_KEY);
             }
             catch
             {

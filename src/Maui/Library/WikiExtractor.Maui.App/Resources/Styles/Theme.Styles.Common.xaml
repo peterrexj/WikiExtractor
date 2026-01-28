@@ -20,46 +20,62 @@
 
     <!--  Global style for Label  -->
     <Style TargetType="Label">
-        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
-        <Setter Property="TextColor" Value="{DynamicResource WikiAppDefaultTextColor}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+        <!--<Setter Property="TextColor" Value="{DynamicResource WikiAppDefaultTextColor}" />-->
     </Style>
 
     <!--  Global style for Span  -->
     <Style TargetType="Span">
-        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
     </Style>
 
     <!--  Global style for Button  -->
     <Style TargetType="Button">
-        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
     </Style>
 
     <!--  Global style for Entry  -->
     <Style TargetType="Entry">
-        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+    </Style>
+
+    <!--  Global style for Picker  -->
+    <Style TargetType="Picker">
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
     </Style>
 
     <!--  Global style for SfNumericEntry  -->
     <Style TargetType="editors:SfNumericEntry">
-        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
     </Style>
 
     <!--  Global style for SfAutocomplete  -->
     <Style TargetType="editors:SfAutocomplete">
-        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
-        <Setter Property="DropDownItemFontFamily" Value="{StaticResource DefaultFontFamily}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+        <Setter Property="DropDownItemFontFamily" Value="{DynamicResource DefaultFontFamily}" />
     </Style>
 
     <!--  Global style for FontImageSource  -->
     <Style TargetType="FontImageSource">
-        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
     </Style>
 
     <Style TargetType="buttons:SfButton">
-        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
     </Style>
 
     <!--  Styles for WikiApp  -->
+    <Style x:Key="WikiAppPageBackgroundGridStyle" TargetType="Grid">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Offset="0.1" Color="{DynamicResource WikiAppPageBackgroundGradientStart}" />
+                    <GradientStop Offset="1.0" Color="{DynamicResource WikiAppPageBackgroundGradientEnd}" />
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
     <Style x:Key="TopBorderStyle" TargetType="Border">
         <Setter Property="Margin" Value="0,5,0,2" />
         <Setter Property="Stroke" Value="{DynamicResource BorderControlGradientBrush}" />

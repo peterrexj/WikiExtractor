@@ -12,11 +12,13 @@ namespace Maui.Wiki.ViewModels
         private readonly IThemeHandler _themeHandler;
         private readonly IErrorHandlingService _errorHandlingService;
         private string? _selectedTheme;
+        private string? _selectedFontFamily;
         private bool isUpdating;
         private bool _hideViewedItems;
         private int _sortBySelectedIndex;
 
         public ObservableCollection<string> Themes { get; }
+        public ObservableCollection<string> FontFamilies { get; }
         public ObservableCollection<SfSegmentItem> SortByCollection { get; }
 
         public string? SelectedTheme
@@ -116,12 +118,50 @@ namespace Maui.Wiki.ViewModels
             }
         }
 
+        public string? SelectedFontFamily
+        {
+            get
+            {
+                if (_selectedFontFamily == null)
+                {
+                    AppSettingsService.GetAppFontFamilyAsync().ContinueWith(task =>
+                    {
+                        _selectedFontFamily = task.Result;
+                        OnPropertyChanged(nameof(SelectedFontFamily));
+                    });
+                }
+                return _selectedFontFamily;
+            }
+            set
+            {
+                if (value == null) return;
+                if (isUpdating) return;
+                if (_selectedFontFamily == value) return;
+
+                _selectedFontFamily = value;
+
+                MainThread.BeginInvokeOnMainThread(async () =>
+                {
+                    IsPageBusy = true;
+                    IsUpdating = true;
+
+                    await Task.Delay(300);
+                    await ChangeFontFamilyAsync(_selectedFontFamily);
+                });
+            }
+        }
+
         public SettingsViewModel(WikiExtractor.Maui.App.Services.IThemeHandler themeHandler, IErrorHandlingService errorHandlingService)
         {
             _themeHandler = themeHandler;
             _errorHandlingService = errorHandlingService;
             
             Themes = new ObservableCollection<string>(Enum.GetNames(typeof(WikiExtractor.Maui.App.Services.AppThemes)));
+            
+            // Get registered fonts from platform-specific implementation
+            var registeredFonts = SharedServiceCore.AppInformation?.GetRegisteredFontFamilies() ?? new List<string> { "Calibri" };
+            FontFamilies = new ObservableCollection<string>(registeredFonts);
+            
             SortByCollection = new ObservableCollection<SfSegmentItem>
             {
                 new SfSegmentItem { Text = "Default" },
@@ -140,6 +180,11 @@ namespace Maui.Wiki.ViewModels
             _errorHandlingService = SharedServiceCore.ErrorHandlingService;
 
             Themes = new ObservableCollection<string>(Enum.GetNames(typeof(WikiExtractor.Maui.App.Services.AppThemes)));
+            
+            // Get registered fonts from platform-specific implementation
+            var registeredFonts = SharedServiceCore.AppInformation?.GetRegisteredFontFamilies() ?? new List<string> { "Calibri" };
+            FontFamilies = new ObservableCollection<string>(registeredFonts);
+            
             SortByCollection = new ObservableCollection<SfSegmentItem>
             {
                 new SfSegmentItem { Text = "Default" },
@@ -180,6 +225,36 @@ namespace Maui.Wiki.ViewModels
         private async Task ApplyApplicationThemeAsync(WikiExtractor.Maui.App.Services.AppThemes theme)
         {
             await MainThread.InvokeOnMainThreadAsync(() => _themeHandler.LoadDefaultStyle(theme));
+        }
+
+        private async Task ChangeFontFamilyAsync(string fontFamily)
+        {
+            try
+            {
+                await AppSettingsService.SetAppFontFamilyAsync(fontFamily);
+                await ApplyFontFamilyAsync(fontFamily);
+                OnPropertyChanged(nameof(SelectedFontFamily));
+            }
+            catch (Exception ex)
+            {
+                _errorHandlingService?.HandleException(ex);
+            }
+            finally
+            {
+                IsUpdating = false;
+                IsPageBusy = false;
+            }
+        }
+
+        private async Task ApplyFontFamilyAsync(string fontFamily)
+        {
+            await MainThread.InvokeOnMainThreadAsync(() =>
+            {
+                if (Application.Current?.Resources != null)
+                {
+                    Application.Current.Resources["DefaultFontFamily"] = fontFamily;
+                }
+            });
         }
     }
 }

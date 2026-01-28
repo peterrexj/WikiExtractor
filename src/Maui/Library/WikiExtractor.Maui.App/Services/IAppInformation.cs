@@ -20,5 +20,11 @@ namespace WikiExtractor.Maui.App.Services
 
         string DbWikiStore { get; }
         string DbUserStore { get; }
+
+        /// <summary>
+        /// Gets the list of registered font families available in the application
+        /// </summary>
+        /// <returns>List of font family names</returns>
+        List<string> GetRegisteredFontFamilies();
     }
 }

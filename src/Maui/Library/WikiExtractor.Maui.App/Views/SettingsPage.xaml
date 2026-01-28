@@ -14,36 +14,27 @@
         <viewmodels:SettingsViewModel />
     </ContentPage.BindingContext>
 
-    <Grid>
+    <Grid Style="{DynamicResource WikiAppPageBackgroundGridStyle}">
         <ScrollView>
             <VerticalStackLayout Padding="20" Spacing="25">
 
-                <VerticalStackLayout Spacing="12">
+                <VerticalStackLayout Style="{StaticResource SettingsSectionContainerStyle}">
                     <Label
-                        Margin="5,0"
-                        FontAttributes="Bold"
-                        FontSize="12"
-                        Opacity="0.6"
-                        Text="APPEARANCE"
-                        TextColor="{DynamicResource SubPageTopHeaderFontColor}" />
+                        Style="{StaticResource SettingsSectionHeaderStyle}"
+                        Text="APPEARANCE" />
 
                     <Border
-                        Padding="15"
-                        BackgroundColor="{DynamicResource PopupContentBackColor}"
-                        StrokeShape="RoundRectangle 12"
-                        StrokeThickness="0">
-                        <VerticalStackLayout Spacing="15">
-                            <Grid ColumnDefinitions="Auto, *, Auto">
+                        Padding="0"
+                        Style="{StaticResource SettingsCardBorderStyle}">
+                        <VerticalStackLayout>
+                            <Grid Padding="15" ColumnDefinitions="Auto, *, Auto">
                                 <Label
-                                    Margin="0,0,10,0"
-                                    FontSize="20"
-                                    Text="🎨"
-                                    VerticalOptions="Center" />
+                                    Style="{StaticResource SettingsIconLabelStyle}"
+                                    Text="🎨" />
                                 <Label
                                     Grid.Column="1"
-                                    FontSize="16"
-                                    Text="Application Theme"
-                                    VerticalOptions="Center" />
+                                    Style="{StaticResource SettingsLabelStyle}"
+                                    Text="Application Theme" />
                                 <Picker
                                     Title="Select"
                                     Grid.Column="2"
@@ -54,36 +45,48 @@
                                     Style="{DynamicResource WikiAppPickerStyle}"
                                     WidthRequest="120" />
                             </Grid>
+
+                            <BoxView Style="{StaticResource SettingsDividerStyle}" />
+
+                            <Grid Padding="15" ColumnDefinitions="Auto, *, Auto">
+                                <Label
+                                    Style="{StaticResource SettingsIconLabelStyle}"
+                                    Text="🔤" />
+                                <Label
+                                    Grid.Column="1"
+                                    Style="{StaticResource SettingsLabelStyle}"
+                                    Text="Font Family" />
+                                <Picker
+                                    Title="Select"
+                                    Grid.Column="2"
+                                    HorizontalTextAlignment="End"
+                                    IsEnabled="{Binding IsNotBusy}"
+                                    ItemsSource="{Binding FontFamilies}"
+                                    SelectedItem="{Binding SelectedFontFamily}"
+                                    Style="{DynamicResource WikiAppPickerStyle}"
+                                    WidthRequest="140" />
+                            </Grid>
                         </VerticalStackLayout>
                     </Border>
                 </VerticalStackLayout>
 
-                <VerticalStackLayout Spacing="12">
+                <VerticalStackLayout Style="{StaticResource SettingsSectionContainerStyle}">
                     <Label
-                        Margin="5,0"
-                        FontAttributes="Bold"
-                        FontSize="12"
-                        Opacity="0.6"
-                        Text="PREFERENCES"
-                        TextColor="{DynamicResource SubPageTopHeaderFontColor}" />
+                        Style="{StaticResource SettingsSectionHeaderStyle}"
+                        Text="PREFERENCES" />
 
                     <Border
                         Padding="0"
-                        BackgroundColor="{DynamicResource PopupContentBackColor}"
-                        StrokeShape="RoundRectangle 12"
-                        StrokeThickness="0">
+                        Style="{StaticResource SettingsCardBorderStyle}">
                         <VerticalStackLayout>
                             <Grid Padding="15" ColumnDefinitions="Auto, *, Auto">
                                 <Label
-                                    Margin="0,0,10,0"
-                                    FontSize="20"
-                                    Text="👁️"
-                                    VerticalOptions="Center" />
+                                    Style="{StaticResource SettingsIconLabelStyle}"
+                                    Text="👁️" />
                                 <Label
                                     Grid.Column="1"
-                                    FontSize="16"
-                                    Text="Hide Viewed Items"
-                                    VerticalOptions="Center" />
+                                    Style="{StaticResource SettingsLabelStyle}"
+                                    Text="Hide Viewed Items" />
                                 <sfButtons:SfSwitch
                                     x:Name="hideViewedSwitch"
                                     Grid.Column="2"
@@ -92,24 +95,17 @@
                                     StateChanged="HideViewedSwitch_StateChanged" />
                             </Grid>
 
-                            <BoxView
-                                Margin="15,0"
-                                BackgroundColor="{DynamicResource WikiAppBorderColor}"
-                                HeightRequest="1"
-                                Opacity="0.3" />
+                            <BoxView Style="{StaticResource SettingsDividerStyle}" />
 
                             <VerticalStackLayout Padding="15" Spacing="10">
                                 <Grid ColumnDefinitions="Auto, *">
                                     <Label
-                                        Margin="0,0,10,0"
-                                        FontSize="20"
-                                        Text="🔃"
-                                        VerticalOptions="Center" />
+                                        Style="{StaticResource SettingsIconLabelStyle}"
+                                        Text="🔃" />
                                     <Label
                                         Grid.Column="1"
-                                        FontSize="16"
-                                        Text="Sort Order"
-                                        VerticalOptions="Center" />
+                                        Style="{StaticResource SettingsLabelStyle}"
+                                        Text="Sort Order" />
                                 </Grid>
 
                                 <sfButtons:SfSegmentedControl
@@ -123,10 +119,10 @@
                                     SelectionChanged="SfSegmentSortOrder_SelectionChanged"
                                     VisibleSegmentsCount="6">
                                     <sfButtons:SfSegmentedControl.TextStyle>
-                                        <sfButtons:SegmentTextStyle FontSize="10" TextColor="Red" />
+                                        <sfButtons:SegmentTextStyle FontSize="10" TextColor="{DynamicResource WikiAppSettingsSegmentTextColor}" />
                                     </sfButtons:SfSegmentedControl.TextStyle>
                                     <sfButtons:SfSegmentedControl.SelectionIndicatorSettings>
-                                        <sfButtons:SelectionIndicatorSettings Background="{DynamicResource PrimaryColor}" TextColor="White" />
+                                        <sfButtons:SelectionIndicatorSettings Background="{DynamicResource PrimaryColor}" TextColor="{DynamicResource WikiAppSettingsSegmentSelectedTextColor}" />
                                     </sfButtons:SfSegmentedControl.SelectionIndicatorSettings>
                                 </sfButtons:SfSegmentedControl>
                             </VerticalStackLayout>
@@ -135,20 +131,15 @@
                 </VerticalStackLayout>
 
                 <Label
-                    Margin="0,20"
-                    FontSize="12"
-                    HorizontalTextAlignment="Center"
-                    Opacity="0.5"
+                    Style="{StaticResource SettingsVersionLabelStyle}"
                     Text="WikiExtractor v2.0" />
 
             </VerticalStackLayout>
         </ScrollView>
 
         <Border
-            BackgroundColor="#80000000"
-            InputTransparent="False"
             IsVisible="{Binding IsPageBusy}"
-            StrokeThickness="0">
+            Style="{StaticResource SettingsLoadingOverlayStyle}">
             <VerticalStackLayout
                 HorizontalOptions="Center"
                 Spacing="15"
@@ -157,11 +148,10 @@
                     HeightRequest="50"
                     IsRunning="{Binding IsPageBusy}"
                     WidthRequest="50"
-                    Color="White" />
+                    Color="{DynamicResource WikiAppSettingsActivityIndicatorColor}" />
                 <Label
-                    FontAttributes="Bold"
-                    Text="Applying Changes..."
-                    TextColor="White" />
+                    Style="{StaticResource SettingsLoadingLabelStyle}"
+                    Text="Applying Changes..." />
             </VerticalStackLayout>
         </Border>
     </Grid>

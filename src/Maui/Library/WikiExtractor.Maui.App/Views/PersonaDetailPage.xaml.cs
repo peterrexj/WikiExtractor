@@ -88,7 +88,7 @@ namespace WikiExtractor.Maui.App.Views
                 {
                     DisplayAlert("Info", $"Page loaded in {Stopwatch.ElapsedMilliseconds} ms", "OK");
                 });
-            }
+        }
         }
 
         protected override void OnDisappearing()
@@ -149,12 +149,13 @@ namespace WikiExtractor.Maui.App.Views
 
                 // Step C: Run heavy processing in parallel
                 var buildListTask = Task.Run(() => BuildDetailItemModel(persona.Paragraphs));
-                var loadImagesTask = LoadImagesRequiredForThisPageAsync(persona.Pictures);
-
-                await Task.WhenAll(buildListTask, loadImagesTask);
+                
+                // Start image loading in background - don't block the UI
+                _ = LoadImagesRequiredForThisPageAsync(persona.Pictures);
 
                 var detailItems = await buildListTask;
 
+                // Step D: Update UI in a single dispatcher call to minimize overhead
                 RunOnAppDispatcher(() =>
                 {
                     personaDetailViewModel.LoadingMessage = "Rendering content...";
@@ -258,6 +259,7 @@ namespace WikiExtractor.Maui.App.Views
 
         private async Task LoadImagesRequiredForThisPageAsync(List<PictureViewModel> pictureViewModels)
         {
+            System.Threading.SemaphoreSlim semaphore = null;
             try
             {
                 // Null-safe access prevents the "Object Reference" error
@@ -270,35 +272,103 @@ namespace WikiExtractor.Maui.App.Views
                 var requiredItems = (from pic in pictureViewModels
                                      let lPath = Path.Combine(ConfigData.LocalStorageCacheFolderPath, pic.PictureLocalFileName ?? "")
                                      let toDownload = CacheImageDownloadHelper.ValidateCachedLocalFile(lPath, pic.PicturePath)
-                                     select new { LocalFilePath = lPath, pic.PicturePath, pic.Width, pic.Height, DownloadRequired = toDownload })
+                                     select new { LocalFilePath = lPath, pic.PicturePath, pic.Width, pic.Height, pic.PictureLocalFileName, DownloadRequired = toDownload })
                                      .ToList();
 
                 var downloads = requiredItems.Where(f => f.DownloadRequired).ToList();
-                if (downloads.Any())
+                
+                if (!downloads.Any())
                 {
-                    var tasks = downloads.Select(item =>
-                        CacheImageDownloadHelper.DownloadImage(item.LocalFilePath, item.PicturePath, _cancellationTokenSource.Token, item.Width, item.Height, 90));
-
-                    await Task.WhenAll(tasks);
-
-                    // Refresh image controls on UI thread after downloads finish
-                    if (extendImagesInPage != null && extendImagesInPage.Any())
-                    {
-                        RunOnAppDispatcher(() =>
-                        {
-                            foreach (var exImgCtrl in extendImagesInPage.Values)
-                            {
-                                var source = exImgCtrl.CustomSource;
-                                exImgCtrl.Source = null;
-                                exImgCtrl.Source = source;
-                            }
-                            extendImagesInPage.Clear();
-                        });
-                    }
+                    _isExternalImageLoadComplete = true;
+                    return;
                 }
+
+                // Update UI to show we're loading images
+                RunOnAppDispatcher(() =>
+                {
+                    personaDetailViewModel.LoadingMessage = $"Loading {downloads.Count} images...";
+                });
+
+                // Throttle concurrent downloads to avoid overwhelming slow networks
+                const int maxConcurrentDownloads = 3;
+                semaphore = new System.Threading.SemaphoreSlim(maxConcurrentDownloads, maxConcurrentDownloads);
+                
+                int completedCount = 0;
+                var downloadTasks = downloads.Select(async item =>
+                {
+                    try
+                    {
+                        await semaphore.WaitAsync(_cancellationTokenSource.Token);
+                        try
+                        {
+                            await CacheImageDownloadHelper.DownloadImage(
+                                item.LocalFilePath, 
+                                item.PicturePath, 
+                                _cancellationTokenSource.Token, 
+                                item.Width, 
+                                item.Height, 
+                                90);
+
+                            // Update individual image as soon as it's downloaded
+                            if (extendImagesInPage.TryGetValue(item.PictureLocalFileName ?? "", out var imageControl))
+                            {
+                                RunOnAppDispatcher(() =>
+                                {
+                                    var source = imageControl.CustomSource;
+                                    imageControl.Source = null;
+                                    imageControl.Source = source;
+                                });
+                            }
+
+                            // Update progress
+                            var current = System.Threading.Interlocked.Increment(ref completedCount);
+                            RunOnAppDispatcher(() =>
+                            {
+                                personaDetailViewModel.LoadingMessage = $"Loaded {current}/{downloads.Count} images...";
+                            });
+                        }
+                        finally
+                        {
+                            semaphore.Release();
+                        }
+                    }
+                    catch (OperationCanceledException)
+                    {
+                        // Expected when user navigates away - silently ignore
+                        System.Diagnostics.Debug.WriteLine($"Image download cancelled: {item.PicturePath}");
+                    }
+                    catch (Exception ex)
+                    {
+                        // Log but don't fail - continue with other downloads
+                        System.Diagnostics.Debug.WriteLine($"Failed to download image: {item.PicturePath} - {ex.Message}");
+                    }
+                });
+
+                await Task.WhenAll(downloadTasks);
+                
+                _isExternalImageLoadComplete = true;
+                
+                RunOnAppDispatcher(() =>
+                {
+                    personaDetailViewModel.LoadingMessage = "All images loaded!";
+                });
+            }
+            catch (OperationCanceledException)
+            {
+                // Expected when user navigates away from page
+                System.Diagnostics.Debug.WriteLine("Image loading cancelled by user navigation");
                 _isExternalImageLoadComplete = true;
             }
-            catch (Exception ex) { CaptureErrorOnPage(ex); }
+            catch (Exception ex) 
+            { 
+                CaptureErrorOnPage(ex);
+                _isExternalImageLoadComplete = true;
+            }
+            finally
+            {
+                // Clean up semaphore
+                semaphore?.Dispose();
+            }
         }
 
         private ItemDetailListViewModel BuildPara2ContentRow(Paragraph2ContentViewModel para) => new() { Type = "Header2Text", Content = para.Content, };
@@ -405,30 +475,26 @@ namespace WikiExtractor.Maui.App.Views
 
         private void lstImageEffectsLayer_Tapped(object sender, EventArgs e)
         {
-            // try
-            // {
-            //     if (sender is Border border && border.BindingContext is PictureViewModel pic)
-            //     {
-            //         personaDetailViewModel.PopupImage = pic;
-            //         popupImageDisplay.IsOpen = true;
-            //     }
-            // }
-            // catch (Exception ex)
-            // {
-            //     CaptureErrorOnPage(ex);
-            // }
+            try
+            {
+                // Image preview functionality can be added here if needed
+            }
+            catch (Exception ex)
+            {
+                CaptureErrorOnPage(ex);
+            }
         }
 
         private void btnCloseOnPopup_Clicked(object sender, EventArgs e)
         {
-            // try
-            // {
-            //     popupImageDisplay.IsOpen = false;
-            // }
-            // catch (Exception ex)
-            // {
-            //     CaptureErrorOnPage(ex);
-            // }
+            try
+            {
+                // Popup close functionality can be added here if needed
+            }
+            catch (Exception ex)
+            {
+                CaptureErrorOnPage(ex);
+            }
         }
 
         private void InitializeAdsControls()

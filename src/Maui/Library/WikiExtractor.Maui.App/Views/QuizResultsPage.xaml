@@ -19,12 +19,12 @@
                 TargetType="Label"
                 Value="True">
                 <Setter Property="Text" Value="✓" />
-                <Setter Property="TextColor" Value="Green" />
+                <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizResultsCorrectIconColor}" />
             </DataTrigger>
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid>
+    <Grid Style="{DynamicResource WikiAppPageBackgroundGridStyle}">
         <Grid
             InputTransparent="{Binding IsPageBusy}"
             Opacity="{Binding IsPageBusy, Converter={StaticResource BusyToOpacity}}"
@@ -40,7 +40,7 @@
                     FontSize="18"
                     HorizontalTextAlignment="Center"
                     Text="Quiz Summary"
-                    TextColor="{DynamicResource SubPageTopHeaderFontColor}" />
+                    TextColor="{DynamicResource WikiAppQuizResultsTitleTextColor}" />
             </Border>
 
             <syncfusion:SfListView
@@ -63,7 +63,11 @@
 
                                 <chart:SfCircularChart BackgroundColor="Transparent">
                                     <chart:SfCircularChart.Legend>
-                                        <chart:ChartLegend Placement="Bottom" />
+                                        <chart:ChartLegend Placement="Bottom">
+                                            <chart:ChartLegend.LabelStyle>
+                                                <chart:ChartLegendLabelStyle FontFamily="{DynamicResource DefaultFontFamily}" />
+                                            </chart:ChartLegend.LabelStyle>
+                                        </chart:ChartLegend>
                                     </chart:SfCircularChart.Legend>
 
                                     <chart:SfCircularChart.Series>
@@ -81,13 +85,14 @@
                                                         FontSize="12"
                                                         HorizontalTextAlignment="Center"
                                                         Opacity="0.7"
-                                                        Text="SCORE" />
+                                                        Text="SCORE"
+                                                        TextColor="{DynamicResource WikiAppQuizResultsScoreLabelTextColor}" />
                                                     <Label
                                                         FontAttributes="Bold"
                                                         FontSize="24"
                                                         HorizontalTextAlignment="Center"
                                                         Text="{Binding BindingContext.CorrectCountText, Source={RelativeSource AncestorType={x:Type ContentPage}}}"
-                                                        TextColor="{DynamicResource QuizAnswerDefaultFontBackColor}" />
+                                                        TextColor="{DynamicResource WikiAppQuizResultsScoreTextColor}" />
                                                 </VerticalStackLayout>
                                             </chart:DoughnutSeries.CenterView>
 
@@ -100,7 +105,8 @@
                                 FontAttributes="Bold"
                                 FontSize="16"
                                 Opacity="0.8"
-                                Text="Review Answers" />
+                                Text="Review Answers"
+                                TextColor="{DynamicResource WikiAppQuizResultsButtonTextColor}" />
                         </VerticalStackLayout>
                     </DataTemplate>
                 </syncfusion:SfListView.HeaderTemplate>
@@ -127,20 +133,20 @@
                                             TargetType="Label"
                                             Value="True">
                                             <Setter Property="Text" Value="✓" />
-                                            <Setter Property="TextColor" Value="#2ECC71" />
+                                            <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizResultsCorrectIconColor}" />
                                         </DataTrigger>
                                         <DataTrigger
                                             Binding="{Binding IsCorrect}"
                                             TargetType="Label"
                                             Value="False">
                                             <Setter Property="Text" Value="✕" />
-                                            <Setter Property="TextColor" Value="Yellow" />
+                                            <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizResultsIncorrectIconColor}" />
                                         </DataTrigger>
                                     </Label.Triggers>
                                 </Label>
 
                                 <VerticalStackLayout Grid.Column="1" Spacing="4">
-                                    <Label LineBreakMode="WordWrap" TextColor="{DynamicResource QuizAnswerDefaultFontBackColor}">
+                                    <Label LineBreakMode="WordWrap" TextColor="{DynamicResource WikiAppQuizResultsQuestionTextColor}">
                                         <Label.FormattedText>
                                             <FormattedString>
                                                 <Span FontAttributes="Bold" Text="Q." />
@@ -155,7 +161,7 @@
                                         FontSize="13"
                                         IsVisible="{Binding IsCorrect, Converter={StaticResource InvertedBoolConverter}}"
                                         Opacity="0.9"
-                                        TextColor="{DynamicResource QuizAnswerDefaultFontBackColor}">
+                                        TextColor="{DynamicResource WikiAppQuizResultsAnswerTextColor}">
                                         <Label.FormattedText>
                                             <FormattedString>
                                                 <Span FontAttributes="Bold" Text="Correct Answer: " />
@@ -172,7 +178,7 @@
 
             <Border
                 Grid.Row="2"
-                BackgroundColor="{DynamicResource PopupHeaderFooterBackColor}"
+                BackgroundColor="{DynamicResource WikiAppQuizCloseButtonBackgroundColor}"
                 StrokeThickness="0"
                 VerticalOptions="End">
                 <effects:SfEffectsView TouchDownEffects="Ripple">
@@ -187,7 +193,7 @@
                         HeightRequest="55"
                         HorizontalTextAlignment="Center"
                         Text="Return to Menu"
-                        TextColor="{DynamicResource SubPageTopHeaderFontColor}"
+                        TextColor="{DynamicResource WikiAppQuizCloseButtonTextColor}"
                         VerticalTextAlignment="Center" />
                 </effects:SfEffectsView>
             </Border>
@@ -220,7 +226,7 @@
                 FontAttributes="Italic"
                 HorizontalTextAlignment="Center"
                 Text="Analyzing Results..."
-                TextColor="{DynamicResource SubPageTopHeaderFontColor}" />
+                TextColor="{DynamicResource WikiAppQuizResultsLoadingTextColor}" />
         </VerticalStackLayout>
     </Grid>
 </ContentPage>

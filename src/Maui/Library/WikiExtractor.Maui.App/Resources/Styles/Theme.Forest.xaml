@@ -3,8 +3,78 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
     <!--  Colors  -->
-    <Color x:Key="WikiAppDefaultForegroundColor">#bed0c9</Color>
+    <!--<Color x:Key="WikiAppDefaultForegroundColor">#bed0c9</Color>-->
     <Color x:Key="WikiAppDefaultBackgroundColor">#183d3d</Color>
+
+    <!--Text Colors-->
+    <Color x:Key="WikiAppDefaultTextColor">#bed0c9</Color>
+    <!--<Color x:Key="WikiAppTitleTextColor">#c9d8d2</Color>-->
+    <!--<Color x:Key="WikiAppListItemHeaderTextColor">#c9d8d2</Color>-->
+    <!--<Color x:Key="WikiAppListItemKeyTextColor">#9EC8B9</Color>-->
+    <!--<Color x:Key="WikiAppListItemDescriptionTextColor">#bed0c9</Color>-->
+    <!--<Color x:Key="WikiAppListItemTextColor">#bed0c9</Color>-->
+    
+    <!--  Page Specific Text Colors  -->
+    <Color x:Key="WikiAppSettingsSectionHeaderTextColor">#9EC8B9</Color>
+    <Color x:Key="WikiAppSettingsLabelTextColor">#bed0c9</Color>
+    <Color x:Key="WikiAppSettingsVersionTextColor">#c9d8d2</Color>
+    <Color x:Key="WikiAppSettingsBusyTextColor">#f5cba7</Color>
+    <Color x:Key="WikiAppSettingsSegmentTextColor">#93b1a6</Color>
+    <Color x:Key="WikiAppSettingsSegmentSelectedTextColor">#f4f7f6</Color>
+    <Color x:Key="WikiAppSettingsActivityIndicatorColor">#9EC8B9</Color>
+    
+    <Color x:Key="WikiAppPersonaDetailNameTextColor">#9EC8B9</Color>
+    <Color x:Key="WikiAppPersonaDetailSubtitleTextColor">#bed0c9</Color>
+    <Color x:Key="WikiAppPersonaDetailWikiLinkTextColor">#c9d8d2</Color>
+    <Color x:Key="WikiAppPersonaDetailMarkViewedTextColor">#f5cba7</Color>
+    <!--<Color x:Key="WikiAppPersonaDetailCaptionTextColor">#bed0c9</Color>-->
+    <!--<Color x:Key="WikiAppPersonaDetailLoadingTextColor">#f5cba7</Color>-->
+    
+    <Color x:Key="WikiAppQuizResultsTitleTextColor">#9EC8B9</Color>
+    <Color x:Key="WikiAppQuizResultsScoreLabelTextColor">#c9d8d2</Color>
+    <Color x:Key="WikiAppQuizResultsScoreTextColor">#f5cba7</Color>
+    <Color x:Key="WikiAppQuizResultsButtonTextColor">#9EC8B9</Color>
+    <Color x:Key="WikiAppQuizResultsQuestionTextColor">#bed0c9</Color>
+    <Color x:Key="WikiAppQuizResultsAnswerTextColor">#f5cba7</Color>
+    <Color x:Key="WikiAppQuizResultsLoadingTextColor">#bed0c9</Color>
+    <Color x:Key="WikiAppQuizResultsCorrectIconColor">#9EC8B9</Color>
+    <Color x:Key="WikiAppQuizResultsIncorrectIconColor">#f5cba7</Color>
+    
+    <Color x:Key="WikiAppQuizPageQuestionTextColor">#bed0c9</Color>
+    <Color x:Key="WikiAppQuizPageCounterTextColor">#bed0c9</Color>
+    <Color x:Key="WikiAppQuizPageCaptionTextColor">#bed0c9</Color>
+    <Color x:Key="WikiAppQuizPageAnswerTextColor">#bed0c9</Color>
+    
+    <!--<Color x:Key="WikiAppWikiListSearchTextColor">#bed0c9</Color>-->
+    <!--<Color x:Key="WikiAppWikiListNoResultsTextColor">#f5cba7</Color>-->
+    <!--<Color x:Key="WikiAppWikiListLoadingOverlayBgColor">#80000000</Color>-->
+    <!--<Color x:Key="WikiAppWikiListLoadingCardBgColor">#5C8374</Color>-->
+    <!--<Color x:Key="WikiAppWikiListLoadingMessageTextColor">#dee7e4</Color>-->
+    <!--<Color x:Key="WikiAppWikiListLoadingSubtitleTextColor">#c9d8d2</Color>-->
+        <!--  Loading Card Gradient Colors  -->
+    <Color x:Key="WikiAppLoadingCardGradientStart">#2D4A2E</Color>
+    <Color x:Key="WikiAppLoadingCardGradientMid">#3A5A40</Color>
+    <Color x:Key="WikiAppLoadingCardGradientEnd">#2D4A2E</Color>
+    <!--<Color x:Key="WikiAppLoadingIndicatorColor">#81C784</Color>-->
+    <!--<Color x:Key="WikiAppLoadingTitleTextColor">#E8F5E9</Color>-->
+    <!--<Color x:Key="WikiAppLoadingSubtitleTextColor">#C8E6C9</Color>-->
+    <Color x:Key="WikiAppLoadingStrokeGradientStart">#81C784</Color>
+    <Color x:Key="WikiAppLoadingStrokeGradientEnd">#66BB6A</Color>
+        <!--  Template Text Colors  -->
+    <Color x:Key="WikiAppHeader2TextColor">#dee7e4</Color>
+    <Color x:Key="WikiAppHeader3TextColor">#c9d8d2</Color>
+    <Color x:Key="WikiAppImageCaptionTextColor">#bed0c9</Color>
+    <Color x:Key="WikiAppParagraphTextColor">#bed0c9</Color>
+    
+    <!--  Button Colors  -->
+    <!--<Color x:Key="WikiAppButtonTextColor">#bed0c9</Color>-->
+    <!--<Color x:Key="WikiAppButtonBackgroundColor">#5C8374</Color>-->
+    <Color x:Key="WikiAppQuizTakeButtonTextColor">#bed0c9</Color>
+    <Color x:Key="WikiAppQuizTakeButtonBackgroundColor">#5C8374</Color>
+    <Color x:Key="WikiAppQuizNextButtonTextColor">#bed0c9</Color>
+    <Color x:Key="WikiAppQuizNextButtonBackgroundColor">#2f5050</Color>
+    <!--<Color x:Key="WikiAppQuizCloseButtonTextColor">#bed0c9</Color>-->
+    <!--<Color x:Key="WikiAppQuizCloseButtonBackgroundColor">#495853</Color>-->
 
     <Color x:Key="WikiAppTabBarBackgroundGradientStart">#0e2424</Color>
     <Color x:Key="WikiAppTabBarBackgroundGradientEnd">#2f5050</Color>
@@ -322,11 +392,5 @@
     
     <Color x:Key="WikiAppLoadingCardShadowColor">#60004D40</Color>
     <SolidColorBrush x:Key="WikiAppLoadingCardShadow" Color="{StaticResource WikiAppLoadingCardShadowColor}" />
-    
-    <Color x:Key="WikiAppLoadingIndicatorColor">#1B5E20</Color>
-    
-    <Color x:Key="WikiAppLoadingTextColor">#0D4E12</Color>
-    
-    <Color x:Key="WikiAppLoadingSubtitleColor">#2E7D32</Color>
 
 </ResourceDictionary>

@@ -27,11 +27,20 @@ namespace WikiExtractor.Maui.App.Services
             Task.Run(async () => currentTheme = await GetCurrentThemeAsync()).Wait();
             currentTheme ??= SharedServiceCore.DefaultAppTheme;
             LoadDefaultStyle(currentTheme.Value);
+            
+            // Load saved font family
+            LoadSavedFontFamily();
         }
         public void LoadDefaultStyle(AppThemes appTheme)
         {
             try
             {
+                if (Application.Current?.Resources == null)
+                {
+                    System.Diagnostics.Debug.WriteLine("Application.Current.Resources is null, cannot load theme");
+                    return;
+                }
+
                 string themeFile;
                 switch (appTheme)
                 {
@@ -41,15 +50,20 @@ namespace WikiExtractor.Maui.App.Services
                     default: throw new ArgumentException("Unsupported theme");
                 }
                 ClearAllResources("WikiApp");
-                var buttonStyles = LoadResourceDictionary("Theme.CommonButtonStyles.xaml");
                 var commonStyles = LoadResourceDictionary("Theme.Styles.Common.xaml");
+                var commonStylesWikiPages = LoadResourceDictionary("Theme.Styles.WikiPages.xaml");
+                var commonStylesSettings = LoadResourceDictionary("Theme.Styles.Settings.xaml");
                 var commonStylesQuiz = LoadResourceDictionary("Theme.Styles.Quiz.xaml");
-                if (buttonStyles != null) Application.Current?.Resources.MergedDictionaries.Add(buttonStyles);
                 if (commonStyles != null) Application.Current?.Resources.MergedDictionaries.Add(commonStyles);
+                if (commonStylesWikiPages != null) Application.Current?.Resources.MergedDictionaries.Add(commonStylesWikiPages);
+                if (commonStylesSettings != null) Application.Current?.Resources.MergedDictionaries.Add(commonStylesSettings);
                 if (commonStylesQuiz != null) Application.Current?.Resources.MergedDictionaries.Add(commonStylesQuiz);
                 var themeStyles = LoadResourceDictionary(themeFile);
                 if (themeStyles != null) Application.Current?.Resources.MergedDictionaries.Add(themeStyles);
                 UpdateResources("WikiApp");
+                
+                // Reapply saved font family after theme change
+                LoadSavedFontFamily();
             }
             catch (Exception ex)
             {
@@ -144,6 +158,30 @@ namespace WikiExtractor.Maui.App.Services
                 }
             }
             catch { }
+        }
+        
+        private void LoadSavedFontFamily()
+        {
+            try
+            {
+                if (Application.Current?.Resources == null) return;
+                
+                Task.Run(async () =>
+                {
+                    var fontFamily = await AppSettingsService.GetAppFontFamilyAsync();
+                    await MainThread.InvokeOnMainThreadAsync(() =>
+                    {
+                        if (Application.Current?.Resources != null && !string.IsNullOrEmpty(fontFamily))
+                        {
+                            Application.Current.Resources["DefaultFontFamily"] = fontFamily;
+                        }
+                    });
+                });
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Error loading saved font family: {ex.Message}");
+            }
         }
     }
 }

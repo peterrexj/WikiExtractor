@@ -13,25 +13,25 @@
     xmlns:tabView="clr-namespace:Syncfusion.Maui.TabView;assembly=Syncfusion.Maui.TabView">
 
     <Style x:Key="WikiAppQuizTakeButtonStyle" TargetType="sfButtons:SfButton">
-        <Setter Property="BackgroundColor" Value="{DynamicResource WikiAppButtonBgColor}" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource WikiAppQuizTakeButtonBackgroundColor}" />
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
         <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=12, Tablet=18}, iOS={OnIdiom Phone=12, Tablet=18}, WinUI=18, MacCatalyst=18}" />
         <Setter Property="Text" Value="Take Quiz" />
-        <Setter Property="TextColor" Value="{DynamicResource WikiAppButtonFgColor}" />
+        <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizTakeButtonTextColor}" />
         <Setter Property="CornerRadius" Value="10" />
         <Setter Property="HorizontalOptions" Value="Fill" />
         <Setter Property="VerticalOptions" Value="Center" />
     </Style>
 
     <Style x:Key="WikiAppQuizNextButtonStyle" TargetType="sfButtons:SfButton">
-        <Setter Property="BackgroundColor" Value="{DynamicResource WikiAppButtonBgColor}" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource WikiAppQuizNextButtonBackgroundColor}" />
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
         <Setter Property="FontSize" Value="20" />
         <Setter Property="Text" Value="Next" />
         <Setter Property="CornerRadius" Value="10" />
-        <Setter Property="TextColor" Value="{DynamicResource WikiAppButtonFgColor}" />
+        <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizNextButtonTextColor}" />
         <Setter Property="HorizontalOptions" Value="Fill" />
         <Setter Property="VerticalOptions" Value="Fill" />
     </Style>
@@ -39,7 +39,7 @@
     <Style x:Key="WikiAppQuizSmallCaptionLabelStyle" TargetType="Label">
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
-        <Setter Property="TextColor" Value="{DynamicResource WikiAppDefaultFontColor}" />
+        <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizPageCaptionTextColor}" />
         <Setter Property="HorizontalOptions" Value="Center" />
         <Setter Property="HorizontalTextAlignment" Value="Center" />
         <Setter Property="LineBreakMode" Value="CharacterWrap" />
@@ -51,7 +51,7 @@
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="Padding" Value="12" />
         <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
-        <Setter Property="TextColor" Value="{DynamicResource WikiAppDefaultFontColor}" />
+        <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizPageQuestionTextColor}" />
         <Setter Property="HorizontalTextAlignment" Value="Start" />
         <Setter Property="VerticalOptions" Value="Center" />
         <Setter Property="VerticalTextAlignment" Value="Center" />
@@ -62,7 +62,7 @@
     <Style x:Key="WikiAppQuizQuestionCounterLabelStyle" TargetType="Label">
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
-        <Setter Property="TextColor" Value="{DynamicResource WikiAppDefaultFontColor}" />
+        <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizPageCounterTextColor}" />
         <Setter Property="Padding" Value="10,0,0,3" />
         <Setter Property="Margin" Value="{OnPlatform Android={OnIdiom Phone='10,10,10,0', Tablet='10,20,10,0'}, iOS={OnIdiom Phone='10,10,10,0', Tablet='10,20,10,0'}, WinUI={OnIdiom Phone='10,10,10,0', Tablet='10,20,10,0', Desktop='10,20,10,0'}, MacCatalyst='10,20,10,0'}" />
         <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=18, Tablet=30}, iOS={OnIdiom Phone=18, Tablet=30}, WinUI=30, MacCatalyst=30}" />
@@ -72,10 +72,9 @@
         <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=16, Tablet=30}, iOS={OnIdiom Phone=16, Tablet=30}, WinUI=30, MacCatalyst=30}" />
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
-        <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizAnswerDefaultFontBackColor}" />
+        <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizPageAnswerTextColor}" />
         <Setter Property="Padding" Value="10" />
         <Setter Property="LineBreakMode" Value="WordWrap" />
-        <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizAnswerDefaultFontBackColor}" />
     </Style>
 
     <Style x:Key="WikiAppQuizAnswerEffectStyle" TargetType="core:SfEffectsView">

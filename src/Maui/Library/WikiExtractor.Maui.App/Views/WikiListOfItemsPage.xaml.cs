@@ -414,30 +414,42 @@ namespace WikiExtractor.Maui.App.Views
 
         private async void BtnThemePick_Clicked(object sender, EventArgs e)
         {
-            await Task.Run(() =>
+            try
             {
-                try
+                await MainThread.InvokeOnMainThreadAsync(() =>
                 {
-                    MainThread.BeginInvokeOnMainThread(() =>
+                    // Cycle through all available themes: Light -> Dark -> Forest -> Light
+                    var currentTheme = SettingsHelper.SelectedTheme;
+                    var nextTheme = currentTheme switch
                     {
-                        // Cycle through all available themes: Light -> Dark -> Forest -> Light
-                        var currentTheme = SettingsHelper.SelectedTheme;
-                        var nextTheme = currentTheme switch
-                        {
-                            WikiExtractor.Maui.App.Services.AppThemes.Light => WikiExtractor.Maui.App.Services.AppThemes.Dark,
-                            WikiExtractor.Maui.App.Services.AppThemes.Dark => WikiExtractor.Maui.App.Services.AppThemes.Forest,
-                            WikiExtractor.Maui.App.Services.AppThemes.Forest => WikiExtractor.Maui.App.Services.AppThemes.Light,
-                            _ => WikiExtractor.Maui.App.Services.AppThemes.Light // Default fallback
-                        };
+                        WikiExtractor.Maui.App.Services.AppThemes.Light => WikiExtractor.Maui.App.Services.AppThemes.Dark,
+                        WikiExtractor.Maui.App.Services.AppThemes.Dark => WikiExtractor.Maui.App.Services.AppThemes.Forest,
+                        WikiExtractor.Maui.App.Services.AppThemes.Forest => WikiExtractor.Maui.App.Services.AppThemes.Light,
+                        _ => WikiExtractor.Maui.App.Services.AppThemes.Light // Default fallback
+                    };
 
-                        SettingsHelper.SaveTheme(nextTheme);
-                    });
-                }
-                catch (Exception ex)
-                {
-                    ExceptionHandler.CaptureException(ex);
-                }
-            });
+                    SettingsHelper.SaveTheme(nextTheme);
+                    
+                    // Apply the theme immediately
+                    SharedServiceCore.ThemeHandler?.LoadDefaultStyle(nextTheme);
+                });
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
+        private async void BtnSettings_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                await Shell.Current.GoToAsync("settings");
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
         }
 
         private async void LstItemEffectsView_AnimationCompleted(object sender, EventArgs e)
