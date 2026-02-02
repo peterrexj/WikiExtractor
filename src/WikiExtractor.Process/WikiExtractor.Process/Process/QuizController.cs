@@ -189,5 +189,191 @@ namespace WikiExtractor.Process.Process
         {
             _userStoreDb.QuizResponseRepository.Add(responseModel, checkAlreadyExists: false);
         }
+
+        /// <summary>
+        /// Fetches quiz facts that haven't been shown to the user yet.
+        /// Facts are fetched from QuizDefinition and have MasterId and AnswerId placeholders replaced.
+        /// </summary>
+        /// <param name="count">Number of facts to fetch</param>
+        /// <param name="masterId">Optional filter to get facts only for a specific master. If null, fetches from all masters.</param>
+        /// <returns>List of formatted quiz facts ready to display</returns>
+        public List<QuizFactViewModel> GetQuizFacts(int count, int? masterId = null)
+        {
+            if (count <= 0)
+            {
+                return new List<QuizFactViewModel>();
+            }
+
+            try
+            {
+                // Get all quiz definitions that have facts
+                var quizDefinitionsWithFacts = _wikiDb.QuizDefinitionRepository.GetAll()
+                    .Where(qd => !string.IsNullOrWhiteSpace(qd.Fact))
+                    .ToList();
+
+                if (!quizDefinitionsWithFacts.Any())
+                {
+                    return new List<QuizFactViewModel>();
+                }
+
+                // Get facts that have already been shown to the user
+                var shownFacts = _userStoreDb.QuizFactStatusRepository.GetAll()
+                    .Select(qfs => new { qfs.MasterId, qfs.MetadataKey })
+                    .ToHashSet();
+
+                // Get all quiz master metadata (combinations of master and metadata)
+                var quizMasterMetadata = _wikiDb.QuizMasterMetadataRepository.GetAll();
+
+                // Filter by masterId if provided
+                if (masterId.HasValue)
+                {
+                    quizMasterMetadata = quizMasterMetadata.Where(qmm => qmm.MasterId == masterId.Value);
+                }
+
+                var quizMasterMetadataList = quizMasterMetadata.ToList();
+
+                // Filter out facts that have already been shown
+                var availableFacts = quizMasterMetadataList
+                    .Where(qmm => !shownFacts.Contains(new { qmm.MasterId, qmm.MetadataKey }))
+                    .ToList();
+
+                // If no available facts, optionally we could reset and show all again
+                if (!availableFacts.Any())
+                {
+                    availableFacts = quizMasterMetadataList;
+                }
+
+                // Randomly select the requested number of facts
+                var selectedFacts = RandomGeneratorHelper.RandomizeSubset(availableFacts, 
+                    Math.Min(count, availableFacts.Count), 
+                    ensureUnique: true);
+
+                // Get master IDs and metadata keys for efficient lookup
+                var masterIds = selectedFacts.Select(sf => sf.MasterId).Distinct().ToList();
+                var metadataKeys = selectedFacts.Select(sf => sf.MetadataKey).Distinct().ToList();
+
+                // Fetch masters with their primary pictures
+                var mastersWithPictures = (from master in _wikiDb.MasterRepository.GetAll()
+                                          where masterIds.Contains(master.Id)
+                                          join pic in _wikiDb.WikiPictureRepository.GetAll()
+                                              on master.Id equals pic.MasterId into picsGroup
+                                          from pic in picsGroup.DefaultIfEmpty(new WikiPicture
+                                          {
+                                              MasterId = master.Id,
+                                              Path = "NoImageAvailable.png"
+                                          })
+                                          select new
+                                          {
+                                              Master = master,
+                                              PrimaryPicture = picsGroup.FirstOrDefault(p => p.Path.HasValue() && p.IsPrimaryBool)
+                                          }).ToList();
+
+                // Fetch metadata values
+                var metadataValues = _wikiDb.MetadataRepository.GetAll()
+                    .Where(m => masterIds.Contains(m.MasterId) && metadataKeys.Contains(m.Key))
+                    .ToList();
+
+                // Build the result
+                var result = new List<QuizFactViewModel>();
+
+                foreach (var selectedFact in selectedFacts)
+                {
+                    var masterData = mastersWithPictures.FirstOrDefault(m => m.Master.Id == selectedFact.MasterId);
+                    if (masterData == null) continue;
+
+                    var quizDefinition = quizDefinitionsWithFacts.FirstOrDefault(qd => 
+                        qd.MetadataKey.Equals(selectedFact.MetadataKey, StringComparison.OrdinalIgnoreCase));
+                    if (quizDefinition == null) continue;
+
+                    var metadataValue = metadataValues.FirstOrDefault(m => 
+                        m.MasterId == selectedFact.MasterId && 
+                        m.Key.Equals(selectedFact.MetadataKey, StringComparison.OrdinalIgnoreCase));
+                    if (metadataValue == null) continue;
+
+                    // Replace placeholders in the fact
+                    var factText = quizDefinition.Fact
+                        .Replace("{MasterId}", masterData.Master.Name)
+                        .Replace("{AnswerId}", metadataValue.Value);
+
+                    result.Add(new QuizFactViewModel
+                    {
+                        MasterId = selectedFact.MasterId,
+                        MetadataKey = selectedFact.MetadataKey,
+                        MasterName = masterData.Master.Name,
+                        MasterImagePath = masterData.PrimaryPicture?.Path ?? "NoImageAvailable.png",
+                        AnswerValue = metadataValue.Value,
+                        FactText = factText
+                    });
+                }
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                // Log the exception if you have logging infrastructure
+                Console.WriteLine($"Error in GetQuizFacts: {ex.Message}");
+                return new List<QuizFactViewModel>();
+            }
+        }
+
+        /// <summary>
+        /// Marks a quiz fact as shown to the user by adding an entry to QuizFactStatus table.
+        /// This prevents the same fact from being shown repeatedly.
+        /// </summary>
+        /// <param name="masterId">The master ID associated with the fact</param>
+        /// <param name="metadataKey">The metadata key identifying the fact type</param>
+        public void MarkFactAsShown(int masterId, string metadataKey)
+        {
+            try
+            {
+                var factStatus = new QuizFactStatus
+                {
+                    MasterId = masterId,
+                    MetadataKey = metadataKey,
+                    CreatedDateTime = DateTime.Now
+                };
+
+                _userStoreDb.QuizFactStatusRepository.Add(factStatus, checkAlreadyExists: true);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception if you have logging infrastructure
+                Console.WriteLine($"Error in MarkFactAsShown: {ex.Message}");
+            }
+        }
+
+        /// <summary>
+        /// Resets all shown facts for a specific master or all masters.
+        /// Useful for allowing users to see facts again after they've seen all available ones.
+        /// </summary>
+        /// <param name="masterId">Optional master ID. If null, resets all facts for all masters.</param>
+        public void ResetShownFacts(int? masterId = null)
+        {
+            try
+            {
+                var allShownFacts = _userStoreDb.QuizFactStatusRepository.GetAll().ToList();
+
+                if (masterId.HasValue)
+                {
+                    var factsToDelete = allShownFacts.Where(f => f.MasterId == masterId.Value).ToList();
+                    foreach (var fact in factsToDelete)
+                    {
+                        _userStoreDb.QuizFactStatusRepository.Delete(fact.Id.ToString());
+                    }
+                }
+                else
+                {
+                    foreach (var fact in allShownFacts.ToList())
+                    {
+                        _userStoreDb.QuizFactStatusRepository.Delete(fact.Id.ToString());
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception if you have logging infrastructure
+                Console.WriteLine($"Error in ResetShownFacts: {ex.Message}");
+            }
+        }
     }
 }

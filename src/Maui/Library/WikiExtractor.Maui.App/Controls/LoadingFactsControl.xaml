@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:WikiExtractor.Maui.App.ViewModels"
+             xmlns:local="clr-namespace:WikiExtractor.Maui.App.Controls"
+             x:Class="WikiExtractor.Maui.App.Controls.LoadingFactsControl"
+             x:Name="LoadingFactsControlRoot"
+             IsVisible="{Binding IsVisible}">
+
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <!-- Animation for fact transitions -->
+            <Style x:Key="FadeInStyle" TargetType="Label">
+                <Setter Property="Opacity" Value="1" />
+            </Style>
+        </ResourceDictionary>
+    </ContentView.Resources>
+
+    <!-- Main Overlay Container -->
+    <Grid x:Name="OverlayGrid"
+          BackgroundColor="{DynamicResource WikiAppLoadingOverlayBgColor}"
+          Opacity="0.95"
+          HorizontalOptions="Fill"
+          VerticalOptions="Fill">
+
+        <!-- Loading Card - Compact Design -->
+        <Border x:Name="LoadingCard"
+                BackgroundColor="{DynamicResource WikiAppLoadingCardBgColor}"
+                Stroke="{DynamicResource WikiAppLoadingCardBorderColor}"
+                StrokeThickness="1"
+                StrokeShape="RoundRectangle 16"
+                Padding="20,15"
+                Shadow="{Shadow Brush=Black, Offset='0,2', Radius=8, Opacity=0.3}"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                MaximumHeightRequest="500"
+                WidthRequest="380"
+                Margin="20">
+
+            <VerticalStackLayout Spacing="12">
+
+                <!-- Master Image (Optional Circle) - Smaller -->
+                <Border x:Name="ImageFrame"
+                        IsVisible="{Binding ShowImage}"
+                        WidthRequest="80"
+                        HeightRequest="80"
+                        StrokeShape="RoundRectangle 40"
+                        Stroke="{DynamicResource WikiAppLoadingCardBorderColor}"
+                        StrokeThickness="1"
+                        HorizontalOptions="Center">
+                    <Image Source="{Binding CurrentMasterImage}"
+                           Aspect="AspectFill"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+                </Border>
+
+                <!-- Fact Display Area (Facts Mode) - Fully Readable -->
+                <Border BackgroundColor="{DynamicResource WikiAppLoadingFactBg}"
+                        Stroke="{DynamicResource WikiAppLoadingFactBorderColor}"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 10"
+                        Padding="12"
+                        IsVisible="{Binding HasCurrentFact}">
+                    
+                    <!-- Fact Text - Fully Readable -->
+                    <Label x:Name="FactLabel"
+                           Text="{Binding CurrentFactText}"
+                           FontSize="14"
+                           LineBreakMode="WordWrap"
+                           TextColor="{DynamicResource WikiAppLoadingFactTextColor}"
+                           HorizontalOptions="FillAndExpand"
+                           HorizontalTextAlignment="Start"
+                           VerticalTextAlignment="Start">
+                        <Label.Style>
+                            <Style TargetType="Label">
+                                <Style.Triggers>
+                                    <!-- Fade in animation trigger -->
+                                    <DataTrigger TargetType="Label"
+                                                Binding="{Binding HasCurrentFact}"
+                                                Value="True">
+                                        <DataTrigger.EnterActions>
+                                            <local:FadeInAnimation />
+                                        </DataTrigger.EnterActions>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Label.Style>
+                    </Label>
+                </Border>
+
+                <!--  Simple Loading Text (Lite Mode)  -->
+                <Label x:Name="LoadingTextLabel"
+                       FontSize="15"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       Text="{Binding LoadingText}"
+                       TextColor="{DynamicResource WikiAppLoadingFactTextColor}"
+                       IsVisible="{Binding HasCurrentFact, Converter={StaticResource InvertedBoolConverter}}"
+                       VerticalOptions="Center" />
+
+                <!-- Small Loading Indicator at Bottom -->
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="8">
+                    <ActivityIndicator IsRunning="True"
+                                      Color="{DynamicResource WikiAppLoadingSpinnerColor}"
+                                      WidthRequest="16"
+                                      HeightRequest="16"
+                                      VerticalOptions="Center" />
+                    <Label Text="Loading..."
+                           FontSize="12"
+                           TextColor="{DynamicResource WikiAppLoadingHintTextColor}"
+                           VerticalOptions="Center"
+                           Opacity="0.8" />
+                </HorizontalStackLayout>
+
+            </VerticalStackLayout>
+        </Border>
+    </Grid>
+</ContentView>

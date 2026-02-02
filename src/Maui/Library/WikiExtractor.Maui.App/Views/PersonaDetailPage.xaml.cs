@@ -7,6 +7,7 @@ using WikiExtractor.Maui.App.Controls;
 using WikiExtractor.Maui.App.Exts;
 using WikiExtractor.Maui.App.ViewModels;
 using WikiExtractor.Maui.App.Services;
+using WikiExtractor.Maui.App.Models;
 
 namespace WikiExtractor.Maui.App.Views
 {
@@ -114,6 +115,17 @@ namespace WikiExtractor.Maui.App.Views
             personaDetailViewModel.IsDataLoading = true;
             personaDetailViewModel.LoadingMessage = "Loading details...";
 
+            // Initialize loading facts control with quiz facts
+            var loadingModel = new LoadingFactsModel
+            {
+                FactCount = 5,
+                FactDisplayDurationMs = 4000,
+                ShowMasterImage = true,
+                AutoMarkFactsAsShown = true,
+                MasterId = result
+            };
+            loadingFactsControl.Show(loadingModel);
+
             await Task.Yield();
             await Task.Delay(100);
 
@@ -185,6 +197,7 @@ namespace WikiExtractor.Maui.App.Views
                 {
                     personaDetailViewModel.LoadingMessage = "Finalizing...";
                     personaDetailViewModel.TriggerEvents();
+                    loadingFactsControl.Hide();
                     personaDetailViewModel.IsDataLoading = false;
                     personaDetailViewModel.IsPageBusy = false;
                 });
@@ -192,7 +205,11 @@ namespace WikiExtractor.Maui.App.Views
             catch (Exception ex)
             {
                 CaptureErrorOnPage(ex);
-                RunOnAppDispatcher(() => personaDetailViewModel.IsDataLoading = false);
+                RunOnAppDispatcher(() =>
+                {
+                    loadingFactsControl.Hide();
+                    personaDetailViewModel.IsDataLoading = false;
+                });
             }
         }
 

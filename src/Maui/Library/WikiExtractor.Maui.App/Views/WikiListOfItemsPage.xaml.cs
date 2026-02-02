@@ -8,6 +8,7 @@ using WikiExtractor.Maui.App.ViewModels;
 using WikiExtractor.ViewModels;
 using PjAds.Maui.Services;
 using PjAds.Maui.Models;
+using WikiExtractor.Maui.App.Models;
 
 namespace WikiExtractor.Maui.App.Views
 {
@@ -28,6 +29,10 @@ namespace WikiExtractor.Maui.App.Views
         {
             try
             {
+                // Ensure loading controls are hidden when page appears (e.g., navigating back)
+                loadingFactsControl?.Hide();
+                navigationLoadingFactsControl?.Hide();
+                
                 if (BindingContext == null || personaListViewModel == null)
                 {
                     personaListViewModel = new PersonaListViewModel();
@@ -73,6 +78,15 @@ namespace WikiExtractor.Maui.App.Views
             {
                 personaListViewModel.IsDataLoading = true;
                 personaListViewModel.LoadingMessage = "Loading persona data...";
+                
+                // Initialize loading facts control in lite mode
+                var loadingModel = new LoadingFactsModel
+                {
+                    ShowFacts = false,
+                    LoadingText = "Loading list..."
+                };
+                loadingFactsControl.Show(loadingModel);
+                
                 await Task.Delay(200); // Small delay to let UI show the loading state
 
                 // 1. Fetch data in parallel on background threads
@@ -113,6 +127,7 @@ namespace WikiExtractor.Maui.App.Views
             finally
             {
                 // Use finally to ensure loading always stops even on error
+                loadingFactsControl.Hide();
                 await MainThread.InvokeOnMainThreadAsync(() =>
                     personaListViewModel.IsDataLoading = false);
             }
@@ -125,6 +140,14 @@ namespace WikiExtractor.Maui.App.Views
                 personaListViewModel.IsDataLoading = true;
                 bool hasReadStatusChanged = false;
                 bool hasItemReadToggled = false;
+
+                // Show loading facts control for refresh in lite mode
+                var loadingModel = new LoadingFactsModel
+                {
+                    ShowFacts = false,
+                    LoadingText = "Refreshing data..."
+                };
+                loadingFactsControl.Show(loadingModel);
 
                 personaListViewModel.LoadingMessage = "Checking read status...";
                 await Task.Delay(200);
@@ -205,6 +228,7 @@ namespace WikiExtractor.Maui.App.Views
             {
                 personaListViewModel.LoadingMessage = "Finalizing...";
                 await Task.Delay(100);
+                loadingFactsControl.Hide();
                 personaListViewModel.IsDataLoading = false;
             }
         }
@@ -219,6 +243,17 @@ namespace WikiExtractor.Maui.App.Views
                 personaListViewModel.IsNavigating = true;
                 personaListViewModel.IsPageBusy = true;
                 personaListViewModel.NavigationMessage = "Preparing navigation...";
+
+                // Initialize navigation loading facts control
+                var loadingModel = new LoadingFactsModel
+                {
+                    FactCount = 3,
+                    FactDisplayDurationMs = 3000,
+                    ShowMasterImage = true,
+                    AutoMarkFactsAsShown = true,
+                    MasterId = _masterId
+                };
+                navigationLoadingFactsControl.Show(loadingModel);
 
                 // 2. Perform logic. No Task.Run needed here as these are simple assignments.
                 personaObj = personaListViewModel.Personas.FirstOrDefault(f => f.Id == _masterId);
@@ -249,6 +284,7 @@ namespace WikiExtractor.Maui.App.Views
             finally
             {
                 // 6. Clean up state
+                navigationLoadingFactsControl.Hide();
                 personaListViewModel.IsNavigating = false;
                 personaListViewModel.IsPageBusy = false;
                 if (personaObj != null)

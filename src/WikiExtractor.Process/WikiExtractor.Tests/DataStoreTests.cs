@@ -1,9 +1,12 @@
 ﻿using Pj.Library;
 using System.Data;
+using System.Text.RegularExpressions;
 using WikiExtractor.DbModels;
 using WikiExtractor.Exts;
 using WikiExtractor.Models;
 using WikiExtractor.Process;
+using WikiExtractor.Process.DbModels;
+using WikiExtractor.Process.Process;
 using WikiExtractor.Repository;
 using WikiExtractor.Repository.UserStore;
 using WikiExtractor.ViewModels;
@@ -272,6 +275,194 @@ namespace WikiExtractor.Tests
                 }
             }
         }
+
+        #region Quiz Data Validation Tests
+
+        [TestCaseSource(nameof(DatabaseFiles))]
+        public void Quiz_Every_Question_Should_Contain_MasterId_Placeholder(string dbFilePath)
+        {
+            ProcessConstants.DatabasePath = dbFilePath;
+            WikiDatabase wikiDatabase = new WikiDatabase();
+            UserStoreDatabase userStoreDatabase = new UserStoreDatabase();
+            QuizController quizController = new QuizController(wikiDatabase, userStoreDatabase);
+
+            List<QuizDefinition> allQuizDefinitions;
+            try
+            {
+                var query = wikiDatabase.QuizDefinitionRepository.GetAll();
+                allQuizDefinitions = query.ToList();
+            }
+            catch (Exception ex) when (ex.Message.Contains("no such table") || ex.InnerException?.Message.Contains("no such table") == true)
+            {
+                Assert.Ignore($"Database does not have quiz tables: {Path.GetFileName(dbFilePath)}");
+                return;
+            }
+            
+            if (!allQuizDefinitions.Any())
+            {
+                Assert.Ignore($"Database has no quiz definitions: {Path.GetFileName(dbFilePath)}");
+                return;
+            }
+
+            foreach (var quizDef in allQuizDefinitions)
+            {
+                Assert.IsNotNull(quizDef.QuestionPhrase, 
+                    $"Quiz definition with MetadataKey '{quizDef.MetadataKey}' has null QuestionPhrase");
+                Assert.IsTrue(quizDef.QuestionPhrase.Contains("{MasterId}"), 
+                    $"Quiz question for MetadataKey '{quizDef.MetadataKey}' does not contain {{MasterId}} placeholder. Question: {quizDef.QuestionPhrase}");
+            }
+        }
+
+        [TestCaseSource(nameof(DatabaseFiles))]
+        public void Quiz_Every_Question_Should_Have_Corresponding_Answer_In_Metadata(string dbFilePath)
+        {
+            ProcessConstants.DatabasePath = dbFilePath;
+            WikiDatabase wikiDatabase = new WikiDatabase();
+            UserStoreDatabase userStoreDatabase = new UserStoreDatabase();
+            QuizController quizController = new QuizController(wikiDatabase, userStoreDatabase);
+
+            List<QuizDefinition> allQuizDefinitions;
+            List<QuizMasterMetadata> allQuizMasterMetadata;
+            try
+            {
+                var defQuery = wikiDatabase.QuizDefinitionRepository.GetAll();
+                allQuizDefinitions = defQuery.ToList();
+                var metaQuery = wikiDatabase.QuizMasterMetadataRepository.GetAll();
+                allQuizMasterMetadata = metaQuery.ToList();
+            }
+            catch (Exception ex) when (ex.Message.Contains("no such table") || ex.InnerException?.Message.Contains("no such table") == true)
+            {
+                Assert.Ignore($"Database does not have quiz tables: {Path.GetFileName(dbFilePath)}");
+                return;
+            }
+
+            if (!allQuizDefinitions.Any() || !allQuizMasterMetadata.Any())
+            {
+                Assert.Ignore($"Database has no quiz data: {Path.GetFileName(dbFilePath)}");
+                return;
+            }
+
+            var allMetadata = wikiDatabase.MetadataRepository.GetAll().ToList();
+
+            foreach (var quizMasterMeta in allQuizMasterMetadata)
+            {
+                // Find the corresponding quiz definition
+                var quizDef = allQuizDefinitions.FirstOrDefault(qd => 
+                    qd.MetadataKey.Equals(quizMasterMeta.MetadataKey, StringComparison.OrdinalIgnoreCase));
+                
+                Assert.IsNotNull(quizDef, 
+                    $"No quiz definition found for MetadataKey '{quizMasterMeta.MetadataKey}'");
+
+                // Find the corresponding answer in metadata
+                var answer = allMetadata.FirstOrDefault(m => 
+                    m.MasterId == quizMasterMeta.MasterId && 
+                    m.Key.Equals(quizMasterMeta.MetadataKey, StringComparison.OrdinalIgnoreCase));
+
+                Assert.IsNotNull(answer, 
+                    $"No answer found in Metadata for MasterId={quizMasterMeta.MasterId}, MetadataKey='{quizMasterMeta.MetadataKey}'");
+                Assert.IsTrue(answer.Value.HasValue(), 
+                    $"Answer value is empty for MasterId={quizMasterMeta.MasterId}, MetadataKey='{quizMasterMeta.MetadataKey}'");
+            }
+        }
+
+        [TestCaseSource(nameof(DatabaseFiles))]
+        public void Quiz_Every_Answer_Should_Contain_Letters_Numbers_Or_Both_Not_Just_SpecialChars(string dbFilePath)
+        {
+            ProcessConstants.DatabasePath = dbFilePath;
+            WikiDatabase wikiDatabase = new WikiDatabase();
+            UserStoreDatabase userStoreDatabase = new UserStoreDatabase();
+            QuizController quizController = new QuizController(wikiDatabase, userStoreDatabase);
+
+            List<QuizDefinition> allQuizDefinitions;
+            List<QuizMasterMetadata> allQuizMasterMetadata;
+            try
+            {
+                var defQuery = wikiDatabase.QuizDefinitionRepository.GetAll();
+                allQuizDefinitions = defQuery.ToList();
+                var metaQuery = wikiDatabase.QuizMasterMetadataRepository.GetAll();
+                allQuizMasterMetadata = metaQuery.ToList();
+            }
+            catch (Exception ex) when (ex.Message.Contains("no such table") || ex.InnerException?.Message.Contains("no such table") == true)
+            {
+                Assert.Ignore($"Database does not have quiz tables: {Path.GetFileName(dbFilePath)}");
+                return;
+            }
+
+            if (!allQuizDefinitions.Any() || !allQuizMasterMetadata.Any())
+            {
+                Assert.Ignore($"Database has no quiz data: {Path.GetFileName(dbFilePath)}");
+                return;
+            }
+
+            var allMetadata = wikiDatabase.MetadataRepository.GetAll().ToList();
+
+            // Regex to check if answer contains at least one letter (including Unicode) or number (not just punctuation/symbols)
+            // \p{L} matches any Unicode letter, \p{N} matches any Unicode number
+            var alphanumericRegex = new Regex(@"[\p{L}\p{N}]");
+            // List of acceptable special-only values that represent "unknown" or "not applicable"
+            var acceptableSpecialOnlyValues = new[] { "—", "?", "–", "N/A", "n/a", "-" };
+
+            foreach (var quizMasterMeta in allQuizMasterMetadata)
+            {
+                var answer = allMetadata.FirstOrDefault(m => 
+                    m.MasterId == quizMasterMeta.MasterId && 
+                    m.Key.Equals(quizMasterMeta.MetadataKey, StringComparison.OrdinalIgnoreCase));
+
+                if (answer != null && answer.Value.HasValue())
+                {
+                    // Skip acceptable special-only values like "—" or "?" which represent unknown data
+                    if (acceptableSpecialOnlyValues.Contains(answer.Value.Trim()))
+                    {
+                        continue;
+                    }
+
+                    Assert.IsTrue(alphanumericRegex.IsMatch(answer.Value), 
+                        $"Answer value for MasterId={quizMasterMeta.MasterId}, MetadataKey='{quizMasterMeta.MetadataKey}' " +
+                        $"contains only special characters: '{answer.Value}'. It should contain at least one letter or number, " +
+                        $"or be an acceptable placeholder like '—' or '?'.");
+                }
+            }
+        }
+
+        [TestCaseSource(nameof(DatabaseFiles))]
+        public void Quiz_Every_Fact_Should_Contain_MasterId_And_AnswerId_Placeholders(string dbFilePath)
+        {
+            ProcessConstants.DatabasePath = dbFilePath;
+            WikiDatabase wikiDatabase = new WikiDatabase();
+            UserStoreDatabase userStoreDatabase = new UserStoreDatabase();
+            QuizController quizController = new QuizController(wikiDatabase, userStoreDatabase);
+
+            List<QuizDefinition> allQuizDefinitions;
+            try
+            {
+                var query = wikiDatabase.QuizDefinitionRepository.GetAll()
+                    .Where(qd => !string.IsNullOrWhiteSpace(qd.Fact));
+                allQuizDefinitions = query.ToList();
+            }
+            catch (Exception ex) when (ex.Message.Contains("no such table") || ex.InnerException?.Message.Contains("no such table") == true)
+            {
+                Assert.Ignore($"Database does not have quiz tables: {Path.GetFileName(dbFilePath)}");
+                return;
+            }
+
+            if (!allQuizDefinitions.Any())
+            {
+                Assert.Ignore($"Database has no quiz facts: {Path.GetFileName(dbFilePath)}");
+                return;
+            }
+
+            foreach (var quizDef in allQuizDefinitions)
+            {
+                Assert.IsNotNull(quizDef.Fact, 
+                    $"Quiz definition with MetadataKey '{quizDef.MetadataKey}' has null Fact");
+                Assert.IsTrue(quizDef.Fact.Contains("{MasterId}"), 
+                    $"Quiz fact for MetadataKey '{quizDef.MetadataKey}' does not contain {{MasterId}} placeholder. Fact: {quizDef.Fact}");
+                Assert.IsTrue(quizDef.Fact.Contains("{AnswerId}"), 
+                    $"Quiz fact for MetadataKey '{quizDef.MetadataKey}' does not contain {{AnswerId}} placeholder. Fact: {quizDef.Fact}");
+            }
+        }
+
+        #endregion
 
         public static IEnumerable<string> DatabaseFiles
         {

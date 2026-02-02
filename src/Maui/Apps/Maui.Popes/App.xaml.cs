@@ -38,8 +38,14 @@ namespace Maui.Wiki
                 _themeHandler.LoadDefaultStyle();
                 _themeHandler.InitializeQuizColorsBackground();
 
-                //// Initialize database and app controller with proper error handling
-                ////InitializeAppController();
+                // INITIALIZE FACT CACHE
+                // Pre-load quiz facts in background - non-blocking to prevent ANR
+                FactCacheService.Instance.Initialize();
+                // Don't block - let cache populate in background
+
+                // INITIALIZE DATABASE AND APP CONTROLLER
+                // Warm up database access in background to prevent ANR on first list page load
+                InitializeAppControllerAsync();
 
             }
             catch (Exception ex)
@@ -49,18 +55,25 @@ namespace Maui.Wiki
             }
         }
 
-        //private void InitializeAppController()
-        //{
-        //    try
-        //    {
-        //        var wikiAppController = new WikiAppController(DatabaseService.AppDatabase, DatabaseService.UserStoreDatabase);
-        //        var flyoutItems = wikiAppController.AppMenuItems();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        LogException(ex, "Failed to initialize WikiAppController");
-        //    }
-        //}
+        private void InitializeAppControllerAsync()
+        {
+            // Warm up database access on background thread - non-blocking
+            Task.Run(async () =>
+            {
+                try
+                {
+                    // Touch the database to initialize connections
+                    _ = SharedServices.WikiAppController.AppMenuItems();
+                    
+                    // Also ensure fact cache is populated (non-blocking)
+                    await FactCacheService.Instance.WaitForInitializationAsync(5000);
+                }
+                catch (Exception ex)
+                {
+                    LogException(ex, "Background initialization failed");
+                }
+            });
+        }
 
         //private void SetupExceptionHandling()
         //{

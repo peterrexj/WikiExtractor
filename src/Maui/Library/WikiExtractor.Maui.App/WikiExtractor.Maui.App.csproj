@@ -103,6 +103,7 @@
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\BaseViewModel.cs" Link="Models\ViewModels\BaseViewModel.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\IListDynamicHeight.cs" Link="Models\ViewModels\IListDynamicHeight.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\PersonaViewModel.cs" Link="Models\ViewModels\PersonaViewModel.cs" />
+	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\QuizFactViewModel.cs" Link="Models\ViewModels\QuizFactViewModel.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\QuizQuestionViewModel.cs" Link="Models\ViewModels\QuizQuestionViewModel.cs" />
 	</ItemGroup>
 

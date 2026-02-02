@@ -8,8 +8,8 @@
     <Color x:Key="PrimaryDark">#ac99ea</Color>
     <Color x:Key="PrimaryDarkText">#242424</Color>
     <Color x:Key="Secondary">#DFD8F7</Color>
-    <Color x:Key="SecondaryDarkText">#9880e5</Color>
-    <Color x:Key="Tertiary">#2B0B98</Color>
+    <Color x:Key="SecondaryDarkText">#9880e5</Color> <!-- OBSOLETE: Not used anywhere in the application -->
+    <Color x:Key="Tertiary">#2B0B98</Color> <!-- OBSOLETE: Not used anywhere in the application -->
 
     <Color x:Key="White">White</Color>
     <Color x:Key="Black">Black</Color>
@@ -26,18 +26,31 @@
     <Color x:Key="Gray900">#212121</Color>
     <Color x:Key="Gray950">#141414</Color>
 
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}" />
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}" />
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}" />
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}" />
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}" />
 
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="Gray100Brush" Color="{StaticResource Gray100}" />
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="Gray200Brush" Color="{StaticResource Gray200}" />
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="Gray300Brush" Color="{StaticResource Gray300}" />
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="Gray400Brush" Color="{StaticResource Gray400}" />
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="Gray500Brush" Color="{StaticResource Gray500}" />
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="Gray600Brush" Color="{StaticResource Gray600}" />
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}" />
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="Gray950Brush" Color="{StaticResource Gray950}" />
 </ResourceDictionary>

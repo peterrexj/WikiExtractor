@@ -337,40 +337,61 @@
     <Color x:Key="WikiAppPersonaDetailPictureItemShadow">#50000000</Color>
     
     <!--  Audio Control Button Colors  -->
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppAudioPlayButtonColor">#4CAF50</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppAudioStopButtonColor">#F44336</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppAudioButtonTextColor">White</Color>
     
     <!--  Header Template Colors  -->
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppHeader2BackgroundStart">#5C8374</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppHeader2BackgroundEnd">#183d3d</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppHeader3BackgroundStart">#2f5050</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppHeader3BackgroundMid">#5C8374</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppHeader3BackgroundEnd">#2f5050</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppHeaderTextColor">#bed0c9</Color>
     
     <!--  Content Template Colors  -->
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppContentBackgroundColor">#183d3d</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppImageBorderColor">#5C8374</Color>
     
     <!--  General UI Colors  -->
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppWhiteColor">#bed0c9</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppBlackColor">#183d3d</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppGrayColor">#5C8374</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppBlueColor">#40826D</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppGreenColor">#5C8374</Color>
     <Color x:Key="WikiAppPopupOverlayColor">#80000000</Color>
     
     <!--  Search and Input Colors  -->
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppSearchBackgroundColor">#bed0c9</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppSearchTextColor">#183d3d</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppSearchPlaceholderColor">#5C8374</Color>
 
     <!--  PersonaDetailPage Gradient Brushes  -->
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <LinearGradientBrush x:Key="WikiAppPersonaDetailPageBgGradient" StartPoint="0,0" EndPoint="1,1">
         <GradientStop Offset="0.0" Color="{StaticResource WikiAppPersonaDetailPageBgGradientStart}" />
         <GradientStop Offset="1.0" Color="{StaticResource WikiAppPersonaDetailPageBgGradientEnd}" />
     </LinearGradientBrush>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <LinearGradientBrush x:Key="WikiAppPersonaDetailMetadataItemBgGradient" StartPoint="0,0" EndPoint="1,1">
         <GradientStop Offset="0.0" Color="{StaticResource WikiAppPersonaDetailMetadataItemBgGradientStart}" />
         <GradientStop Offset="1.0" Color="{StaticResource WikiAppPersonaDetailMetadataItemBgGradientEnd}" />
@@ -382,15 +403,38 @@
 
     <!--  Loading Overlay Colors  -->
     <Color x:Key="WikiAppLoadingOverlayBgColor">#004D40</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="WikiAppLoadingOverlayBg" Color="{StaticResource WikiAppLoadingOverlayBgColor}" />
     
     <Color x:Key="WikiAppLoadingCardBgColor">#D4F1D4</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="WikiAppLoadingCardBg" Color="{StaticResource WikiAppLoadingCardBgColor}" />
     
     <Color x:Key="WikiAppLoadingCardBorderColor">#2E7D32</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="WikiAppLoadingCardBorder" Color="{StaticResource WikiAppLoadingCardBorderColor}" />
     
     <Color x:Key="WikiAppLoadingCardShadowColor">#60004D40</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <SolidColorBrush x:Key="WikiAppLoadingCardShadow" Color="{StaticResource WikiAppLoadingCardShadowColor}" />
+
+    <!--  Loading Spinner and Text Colors  -->
+    <Color x:Key="WikiAppLoadingSpinnerColor">#2E7D32</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
+    <Color x:Key="WikiAppLoadingTextColor">#1B5E20</Color>
+    <Color x:Key="WikiAppLoadingHintTextColor">#43A047</Color>
+
+    <!--  Loading Facts Display Colors  -->
+    <Color x:Key="WikiAppLoadingFactBgColor">#C8E6C9</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
+    <SolidColorBrush x:Key="WikiAppLoadingFactBg" Color="{StaticResource WikiAppLoadingFactBgColor}" />
+
+    <Color x:Key="WikiAppLoadingFactBorderColor">#388E3C</Color>
+    <!-- OBSOLETE: Not used anywhere in the application -->
+    <SolidColorBrush x:Key="WikiAppLoadingFactBorder" Color="{StaticResource WikiAppLoadingFactBorderColor}" />
+
+    <!-- OBSOLETE: Not used anywhere in the application -->
+    <Color x:Key="WikiAppLoadingFactTitleColor">#1B5E20</Color>
+    <Color x:Key="WikiAppLoadingFactTextColor">#2E7D32</Color>
 
 </ResourceDictionary>

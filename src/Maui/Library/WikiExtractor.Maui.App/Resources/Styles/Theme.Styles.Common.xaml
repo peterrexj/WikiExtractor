@@ -183,6 +183,7 @@
         <Setter Property="Margin" Value="3,0,0,0" />
         <Setter Property="ShowIcon" Value="True" />
     </Style>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Style x:Key="ImageSmallRoundButton" TargetType="buttons:SfButton">
         <!-- <Setter Property="Background" Value="{DynamicResource WikiAppButtonBgColor}" /> -->
         <Setter Property="Background" Value="Transparent" />
@@ -256,16 +257,19 @@
     </Style>
 
     <!--  Span Three Box on top  -->
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Style x:Key="SpanThreeBoxCurrencyStyle" TargetType="Span">
         <Setter Property="CharacterSpacing" Value="1" />
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="FontSize" Value="{OnIdiom Phone=15, Tablet=26, Desktop=26, TV=26, Watch=26, Default=15}" />
     </Style>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Style x:Key="SpanThreeBoxAmountStyle" TargetType="Span">
         <Setter Property="CharacterSpacing" Value="{OnIdiom Phone=-1, Tablet=0.5, Desktop=1, TV=1, Default=-1}" />
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="FontSize" Value="{OnIdiom Phone=18, Tablet=32, Desktop=32, TV=32, Watch=14, Default=18}" />
     </Style>
+    <!-- OBSOLETE: Not used anywhere in the application -->
     <Style x:Key="SpanThreeBoxTextStyle" TargetType="Span">
         <Setter Property="CharacterSpacing" Value="{OnIdiom Phone=-0.2, Tablet=0, Desktop=1, TV=1, Default=-0.2}" />
         <Setter Property="FontSize" Value="{OnIdiom Phone=12, Tablet=20, Desktop=16, TV=16, Watch=10, Default=12}" />

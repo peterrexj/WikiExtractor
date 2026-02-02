@@ -472,109 +472,13 @@
                     HorizontalOptions="Fill"
                     VerticalOptions="Fill" />
             </StackLayout>
-            <!--  Loading Overlay  -->
-            <Grid
+            <!--  Loading Facts Control  -->
+            <localControls:LoadingFactsControl
+                x:Name="loadingFactsControl"
                 Grid.RowSpan="2"
-                BackgroundColor="{DynamicResource WikiAppLoadingOverlayBgColor}"
                 HorizontalOptions="Fill"
-                IsVisible="{Binding IsDataLoading}"
                 VerticalOptions="Fill"
-                ZIndex="1000">
-
-                <Border
-                    Padding="{OnIdiom Phone='35,30',
-                                      Tablet='45,40',
-                                      Desktop='45,40',
-                                      Default='35,30'}"
-                    HorizontalOptions="Center"
-                    MinimumHeightRequest="{OnIdiom Phone=160,
-                                                   Tablet=200,
-                                                   Desktop=200,
-                                                   Default=160}"
-                    MinimumWidthRequest="{OnIdiom Phone=240,
-                                                  Tablet=320,
-                                                  Desktop=320,
-                                                  Default=240}"
-                StrokeShape="RoundRectangle 20"
-                StrokeThickness="2"
-                VerticalOptions="Center">
-                
-                <Border.Stroke>
-                    <RadialGradientBrush Center="0.5,0.5" Radius="0.8">
-                        <GradientStop Offset="0.0" Color="{DynamicResource WikiAppLoadingStrokeGradientStart}" />
-                        <GradientStop Offset="1.0" Color="{DynamicResource WikiAppLoadingStrokeGradientEnd}" />
-                    </RadialGradientBrush>
-                </Border.Stroke>
-                
-                <Border.Background>
-                    <RadialGradientBrush Center="0.5,0.3" Radius="1.2">
-                        <GradientStop Offset="0.0" Color="{DynamicResource WikiAppLoadingCardGradientStart}" />
-                        <GradientStop Offset="0.5" Color="{DynamicResource WikiAppLoadingCardGradientMid}" />
-                        <GradientStop Offset="1.0" Color="{DynamicResource WikiAppLoadingCardGradientEnd}" />
-                    </RadialGradientBrush>
-                </Border.Background>
-                
-                <Border.Shadow>
-                    <Shadow
-                        Brush="{DynamicResource WikiAppLoadingShadowColor}"
-                        Opacity="0.5"
-                        Offset="0,6"
-                        Radius="16" />
-                </Border.Shadow>
-
-                    <StackLayout
-                        HorizontalOptions="Center"
-                        Spacing="{OnIdiom Phone=18,
-                                          Tablet=24,
-                                          Desktop=24,
-                                          Default=18}"
-                        VerticalOptions="Center">
-
-                        <!--  Activity Indicator  -->
-                        <ActivityIndicator
-                            HeightRequest="{OnIdiom Phone=50,
-                                                    Tablet=60,
-                                                    Desktop=60,
-                                                    Default=50}"
-                            HorizontalOptions="Center"
-                            IsRunning="{Binding IsDataLoading}"
-                            VerticalOptions="Center"
-                            WidthRequest="{OnIdiom Phone=50,
-                                                   Tablet=60,
-                                                   Desktop=60,
-                                                   Default=50}"
-                            Color="{DynamicResource WikiAppLoadingIndicatorColor}" />
-
-                        <!--  Loading Message  -->
-                        <Label
-                            FontAttributes="Bold"
-                            FontSize="{OnIdiom Phone=17,
-                                               Tablet=22,
-                                               Desktop=24,
-                                               Default=17}"
-                            HorizontalOptions="Center"
-                            HorizontalTextAlignment="Center"
-                            Text="{Binding LoadingMessage}"
-                            TextColor="{DynamicResource WikiAppLoadingTitleTextColor}"
-                            VerticalOptions="Center"
-                            VerticalTextAlignment="Center" />
-
-                        <!--  Subtitle  -->
-                        <Label
-                            FontSize="{OnIdiom Phone=13,
-                                               Tablet=15,
-                                               Desktop=17,
-                                               Default=13}"
-                            HorizontalOptions="Center"
-                            HorizontalTextAlignment="Center"
-                            Opacity="0.85"
-                            Text="Please wait while we prepare your content..."
-                            TextColor="{DynamicResource WikiAppLoadingSubtitleTextColor}"
-                            VerticalOptions="Center"
-                            VerticalTextAlignment="Center" />
-                    </StackLayout>
-                </Border>
-            </Grid>
+                ZIndex="1000" />
         </Grid>
     </ContentPage.Content>
 </ContentPage>

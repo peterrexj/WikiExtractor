@@ -372,3 +372,5 @@ FodyWeavers.xsd
 # Mac ds store files
 **/*.DS_Store
 /Tools/Cache
+/src/Maui/Library/WikiExtractor.Maui.App/nul
+/nul
