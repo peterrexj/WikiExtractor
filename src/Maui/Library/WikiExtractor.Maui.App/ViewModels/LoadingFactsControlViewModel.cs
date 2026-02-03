@@ -18,6 +18,8 @@ namespace WikiExtractor.Maui.App.ViewModels
         private Timer? _factRotationTimer;
         private int _currentFactIndex = 0;
         private bool _isDisposed = false;
+        private readonly List<QuizFactViewModel> _displayedFacts = new(); // Track facts actually shown to user
+        private readonly object _displayedFactsLock = new(); // Thread safety for displayed facts list
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -53,7 +55,22 @@ namespace WikiExtractor.Maui.App.ViewModels
             get => _currentFact;
             set
             {
+                var oldFact = _currentFact;
                 _currentFact = value;
+                
+                // Track newly displayed fact (thread-safe)
+                if (value != null && value != oldFact)
+                {
+                    lock (_displayedFactsLock)
+                    {
+                        if (!_displayedFacts.Contains(value))
+                        {
+                            _displayedFacts.Add(value);
+                            System.Diagnostics.Debug.WriteLine($"[FactTracking] Added fact to displayed list. Total displayed: {_displayedFacts.Count}");
+                        }
+                    }
+                }
+                
                 OnPropertyChanged();
                 OnPropertyChanged(nameof(HasCurrentFact));
                 OnPropertyChanged(nameof(CurrentFactText));
@@ -258,7 +275,41 @@ namespace WikiExtractor.Maui.App.ViewModels
                 StopFactRotation();
                 IsVisible = false;
 
-                // No need to mark facts - cache handles rotation automatically
+                // Mark only the facts that were actually displayed in the UI (thread-safe)
+                List<QuizFactViewModel>? factsToMark = null;
+                
+                if (Model?.AutoMarkFactsAsShown == true)
+                {
+                    lock (_displayedFactsLock)
+                    {
+                        if (_displayedFacts.Any())
+                        {
+                            factsToMark = new List<QuizFactViewModel>(_displayedFacts);
+                            _displayedFacts.Clear(); // Clear immediately while we have the lock
+                            System.Diagnostics.Debug.WriteLine($"[FactTracking] Queued {factsToMark.Count} displayed facts to mark as shown");
+                        }
+                    }
+                }
+                
+                // Mark facts in background without blocking UI
+                if (factsToMark != null && factsToMark.Any())
+                {
+                    Task.Run(() =>
+                    {
+                        try
+                        {
+                            foreach (var fact in factsToMark)
+                            {
+                                SharedServices.QuizController.MarkFactAsShown(fact.MasterId, fact.MetadataKey);
+                                System.Diagnostics.Debug.WriteLine($"[FactTracking] Marked as shown: MasterId={fact.MasterId}, Key={fact.MetadataKey}");
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            ExceptionHandler.CatchException(ex, "LoadingFactsControlViewModel.Hide.MarkFactsAsShown");
+                        }
+                    });
+                }
                 
                 // Invoke completion callback on main thread
                 if (Model?.OnLoadComplete != null)

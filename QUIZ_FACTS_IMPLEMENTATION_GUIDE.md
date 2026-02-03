@@ -42,8 +42,9 @@ This document describes the implementation of the Quiz Facts Loading Control, a 
 ✅ **Image Display**: Optional circular image display with master's photo
 ✅ **Theme Support**: Integrated with Dark and Forest themes
 ✅ **Performance Optimized**: Efficient database queries with HashSet lookups
-✅ **Auto-Tracking**: Automatically marks facts as shown
+✅ **Auto-Tracking**: Automatically marks ONLY displayed facts as shown (not loaded facts)
 ✅ **Graceful Degradation**: Works even when all facts have been shown (cycles)
+✅ **Efficient Marking**: If 10 facts are loaded but only 2 are displayed, only those 2 are marked as shown
 
 ## Database Schema
 
@@ -203,9 +204,37 @@ private void ShowLoadingWithCallback()
 | `FactCount` | int | 5 | Number of facts to fetch and display |
 | `FactDisplayDurationMs` | int | 3000 | Duration in milliseconds to show each fact |
 | `ShowMasterImage` | bool | true | Whether to display master's image in circle |
-| `AutoMarkFactsAsShown` | bool | true | Automatically mark facts as shown when displayed |
+| `AutoMarkFactsAsShown` | bool | true | Automatically mark facts as shown when control is hidden (only marks facts actually displayed in UI) |
 | `MasterId` | int? | null | Optional filter for facts from specific master |
 | `OnLoadComplete` | Action? | null | Callback when page load completes |
+
+## Important Behavior: Fact Marking Strategy
+
+### Only Displayed Facts Are Marked as Shown
+
+The system implements **smart fact tracking** to avoid marking facts that were loaded but never displayed:
+
+**Scenario Example:**
+- Control loads 10 facts into cache
+- Page loading completes quickly
+- Only 2 facts are rotated and displayed in UI
+- User sees control for only 6 seconds total
+
+**Result:** Only the 2 facts actually displayed are marked as shown, not all 10 loaded facts.
+
+**How It Works:**
+1. Facts are loaded into cache for performance
+2. As each fact is displayed (set as `CurrentFact`), it's added to a tracking list
+3. When `Hide()` is called, only facts in the tracking list are marked as shown
+4. Tracking list is cleared for next use
+
+**Benefits:**
+- Accurate fact tracking based on actual user visibility
+- No wasted "shown" flags for facts user never saw
+- Maximizes variety for future loading screens
+- Respects user's time and attention
+
+This ensures facts are only marked as shown if they were truly displayed to the user, not just preloaded in the background.
 
 ## Performance Considerations
 

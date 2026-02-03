@@ -111,6 +111,7 @@ public class QuizFactViewModel
 
 **Capabilities:**
 - Automatic fact rotation with Timer
+- **Smart fact tracking**: Only marks facts actually displayed in UI, not preloaded facts
 - Property change notifications
 - Dispose pattern for cleanup
 - Error handling and logging
@@ -126,7 +127,7 @@ public class LoadingFactsModel
     public int FactCount { get; set; } = 5;
     public int FactDisplayDurationMs { get; set; } = 3000;
     public bool ShowMasterImage { get; set; } = true;
-    public bool AutoMarkFactsAsShown { get; set; } = true;
+    public bool AutoMarkFactsAsShown { get; set; } = true; // Marks only displayed facts
     public int? MasterId { get; set; } = null;
     public Action? OnLoadComplete { get; set; }
 }

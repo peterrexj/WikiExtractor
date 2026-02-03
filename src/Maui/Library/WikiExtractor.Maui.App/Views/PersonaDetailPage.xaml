@@ -10,10 +10,14 @@
     xmlns:popup="clr-namespace:Syncfusion.Maui.Popup;assembly=Syncfusion.Maui.Popup"
     xmlns:sfList="clr-namespace:Syncfusion.Maui.ListView;assembly=Syncfusion.Maui.ListView"
     xmlns:tabView="clr-namespace:Syncfusion.Maui.TabView;assembly=Syncfusion.Maui.TabView"
-    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:converters="clr-namespace:WikiExtractor.Maui.App.Converters">
 
     <ContentPage.Resources>
         <ResourceDictionary>
+            <!--  Converters  -->
+            <converters:ImagePathToSourceConverter x:Key="ImagePathConverter" />
+            
             <!--  Create instances of the separate DataTemplate classes  -->
             <localControls:Header2ListItemTemplate x:Key="Header2ListItemTemplate" />
             <localControls:Header3ListItemTemplate x:Key="Header3ListItemTemplate" />
@@ -74,7 +78,7 @@
                         x:Name="imgPrimary"
                         Aspect="AspectFill"
                         HorizontalOptions="Fill"
-                        Source="{Binding Persona.PicturePrimaryPath}"
+                        Source="{Binding Persona.PicturePrimaryPath, Converter={StaticResource ImagePathConverter}}"
                         VerticalOptions="Fill">
                         <Image.Clip>
                             <RoundRectangleGeometry CornerRadius="{OnIdiom Phone=22, Tablet=30, Desktop=30, Default=22}" Rect="0,0,44,44" />

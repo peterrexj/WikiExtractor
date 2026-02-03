@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33027.239
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11426.168 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChristianCatholicSaints", "ChristianCatholicSaints", "{C9C4A67A-BDA6-4F39-8340-1D2B180E498A}"
 EndProject
@@ -66,6 +66,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pj.Library.Mobile.Sqlite", "..\..\PjLibrary\Pj.Library.Mobile.Sqlite\Pj.Library.Mobile.Sqlite.csproj", "{C43D4093-7419-4599-A525-577B0B177F12}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PjAds.Maui", "Maui\Library\PjAds.Maui\PjAds.Maui.csproj", "{5CA5099E-4140-4F10-BC3E-16E53A3FB635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiExtractor.Maui.UITests", "..\Tests\WikiExtractor.Maui.UITests\WikiExtractor.Maui.UITests.csproj", "{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -723,6 +725,30 @@ Global
 		{5CA5099E-4140-4F10-BC3E-16E53A3FB635}.Release|x64.Build.0 = Release|Any CPU
 		{5CA5099E-4140-4F10-BC3E-16E53A3FB635}.Release|x86.ActiveCfg = Release|Any CPU
 		{5CA5099E-4140-4F10-BC3E-16E53A3FB635}.Release|x86.Build.0 = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|ARM.Build.0 = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|x64.Build.0 = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Debug|x86.Build.0 = Debug|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|ARM.Build.0 = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|iPhone.Build.0 = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|x64.ActiveCfg = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|x64.Build.0 = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|x86.ActiveCfg = Release|Any CPU
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -751,6 +777,7 @@ Global
 		{0705C7C5-6729-4ACC-A92B-39315D5597F3} = {AFE4A4AB-5513-45F8-AA8F-91A20A756492}
 		{C43D4093-7419-4599-A525-577B0B177F12} = {AFE4A4AB-5513-45F8-AA8F-91A20A756492}
 		{5CA5099E-4140-4F10-BC3E-16E53A3FB635} = {44059152-2680-43F2-9E70-A089F96852BF}
+		{2FD4E6CC-DC53-FC00-4EC3-D287185E1802} = {FE5039A4-0988-44A9-AFCB-FB2B64B61F88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84F28530-2A4C-4DC5-8790-47BBFC43F235}

@@ -13,8 +13,14 @@
     xmlns:sfButtons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
     xmlns:sfEffects="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
     xmlns:syncfusion="clr-namespace:Syncfusion.Maui.ListView;assembly=Syncfusion.Maui.ListView"
+    xmlns:converters="clr-namespace:WikiExtractor.Maui.App.Converters"
     x:Name="ListViewPage"
     Shell.NavBarIsVisible="True">
+    
+    <ContentPage.Resources>
+        <converters:ImagePathToSourceConverter x:Key="ImagePathConverter" />
+    </ContentPage.Resources>
+    
     <Shell.TitleView>
         <Label
             BackgroundColor="Transparent"
@@ -237,7 +243,7 @@
                                             Margin="5,5,5,0"
                                             Aspect="AspectFit"
                                             HeightRequest="130"
-                                            Source="{Binding PicturePrimaryPath}"
+                                            Source="{Binding PicturePrimaryPath, Converter={StaticResource ImagePathConverter}}"
                                             WidthRequest="120" />
                                         <ActivityIndicator
                                             HorizontalOptions="Center"

@@ -3,12 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodels="clr-namespace:WikiExtractor.Maui.App.ViewModels"
              xmlns:local="clr-namespace:WikiExtractor.Maui.App.Controls"
+             xmlns:converters="clr-namespace:WikiExtractor.Maui.App.Converters"
              x:Class="WikiExtractor.Maui.App.Controls.LoadingFactsControl"
              x:Name="LoadingFactsControlRoot"
              IsVisible="{Binding IsVisible}">
 
     <ContentView.Resources>
         <ResourceDictionary>
+            <!-- Converters -->
+            <converters:ImagePathToSourceConverter x:Key="ImagePathConverter" />
+            
             <!-- Animation for fact transitions -->
             <Style x:Key="FadeInStyle" TargetType="Label">
                 <Setter Property="Opacity" Value="1" />
@@ -16,14 +20,19 @@
         </ResourceDictionary>
     </ContentView.Resources>
 
-    <!-- Main Overlay Container -->
+    <!-- Main Overlay Container with layered opacity -->
     <Grid x:Name="OverlayGrid"
-          BackgroundColor="{DynamicResource WikiAppLoadingOverlayBgColor}"
-          Opacity="0.95"
           HorizontalOptions="Fill"
           VerticalOptions="Fill">
+        
+        <!-- Semi-transparent background overlay -->
+        <BoxView 
+            BackgroundColor="{DynamicResource WikiAppLoadingOverlayBgColor}"
+            Opacity="0.7"
+            HorizontalOptions="Fill"
+            VerticalOptions="Fill" />
 
-        <!-- Loading Card - Compact Design -->
+        <!-- Loading Card - Fully opaque (no opacity applied) -->
         <Border x:Name="LoadingCard"
                 BackgroundColor="{DynamicResource WikiAppLoadingCardBgColor}"
                 Stroke="{DynamicResource WikiAppLoadingCardBorderColor}"
@@ -39,19 +48,24 @@
 
             <VerticalStackLayout Spacing="12">
 
-                <!-- Master Image (Optional Circle) - Smaller -->
+                <!-- Master Primary Image (Optional Circle) - Styled like PersonaDetailPage -->
                 <Border x:Name="ImageFrame"
                         IsVisible="{Binding ShowImage}"
                         WidthRequest="80"
                         HeightRequest="80"
+                        Background="{DynamicResource WikiAppPersonaDetailProfileImageBg}"
+                        Stroke="{DynamicResource BorderControlGradientBrush}"
+                        StrokeThickness="2"
                         StrokeShape="RoundRectangle 40"
-                        Stroke="{DynamicResource WikiAppLoadingCardBorderColor}"
-                        StrokeThickness="1"
                         HorizontalOptions="Center">
-                    <Image Source="{Binding CurrentMasterImage}"
+                    <Image Source="{Binding CurrentMasterImage, Converter={StaticResource ImagePathConverter}}"
                            Aspect="AspectFill"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center" />
+                           HorizontalOptions="Fill"
+                           VerticalOptions="Fill">
+                        <Image.Clip>
+                            <RoundRectangleGeometry CornerRadius="40" Rect="0,0,80,80" />
+                        </Image.Clip>
+                    </Image>
                 </Border>
 
                 <!-- Fact Display Area (Facts Mode) - Fully Readable -->
