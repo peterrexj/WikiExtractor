@@ -24,7 +24,7 @@ namespace WikiExtractor.Maui.App.Services
         private const int MinimumCacheSize = 30; // Keep at least this many facts cached (increased for continuous display)
         private const int MaximumCacheSize = 100; // Don't exceed this many cached facts (large buffer for long overlays)
         private const int DefaultFetchCount = 40; // Fetch this many facts per refresh (large batch)
-        private const int MaxDisplayedFactsTracking = 10; // Track last N facts to avoid immediate repeats (reduced for better rotation)
+        private const int MaxDisplayedFactsTracking = 50; // Track last N facts to avoid immediate repeats (increased to prevent cycling during long overlays)
 
         private FactCacheService()
         {
@@ -98,8 +98,9 @@ namespace WikiExtractor.Maui.App.Services
         /// </summary>
         /// <param name="count">Number of facts to retrieve</param>
         /// <param name="masterId">Optional master ID filter</param>
+        /// <param name="excludeFactKeys">Optional list of fact keys to exclude from results (for current session)</param>
         /// <returns>List of cached facts (may be less than requested if cache is low)</returns>
-        public List<QuizFactViewModel> GetFacts(int count, int? masterId = null)
+        public List<QuizFactViewModel> GetFacts(int count, int? masterId = null, List<(int MasterId, string MetadataKey)>? excludeFactKeys = null)
         {
             if (count <= 0) return new List<QuizFactViewModel>();
 
@@ -108,9 +109,16 @@ namespace WikiExtractor.Maui.App.Services
 
             System.Diagnostics.Debug.WriteLine($"[FactCache] GetFacts called. Count requested: {count}, MasterId: {masterId}, Total cache: {allFacts.Length}");
 
-            // Get set of recently displayed fact keys for fast lookup
+            // Get set of recently displayed fact keys for fast lookup (includes session exclusions)
             var displayedKeys = _displayedFactKeys.ToHashSet();
-            System.Diagnostics.Debug.WriteLine($"[FactCache] Recently displayed facts: {displayedKeys.Count}");
+            if (excludeFactKeys != null && excludeFactKeys.Any())
+            {
+                foreach (var key in excludeFactKeys)
+                {
+                    displayedKeys.Add(key);
+                }
+            }
+            System.Diagnostics.Debug.WriteLine($"[FactCache] Recently displayed facts: {displayedKeys.Count} (session exclusions: {excludeFactKeys?.Count ?? 0})");
 
             // Filter facts based on criteria
             var availableFacts = allFacts
@@ -120,16 +128,29 @@ namespace WikiExtractor.Maui.App.Services
 
             System.Diagnostics.Debug.WriteLine($"[FactCache] Available facts after filtering: {availableFacts.Count}");
 
-            // If we filtered out too many, allow reusing displayed facts
+            // If we filtered out too many, check if we can cycle through displayed facts
+            // This allows rotation even when all facts for a masterId have been shown in current session
             if (availableFacts.Count < count && allFacts.Length > 0)
             {
+                System.Diagnostics.Debug.WriteLine($"[FactCache] Not enough available facts ({availableFacts.Count}), looking for additional facts to cycle...");
+                
+                // Get facts for this masterId that haven't been added yet (allow cycling through session exclusions)
                 var additionalFacts = allFacts
                     .Where(f => !masterId.HasValue || f.MasterId == masterId.Value)
                     .Where(f => !availableFacts.Contains(f))
-                    .Take(count - availableFacts.Count);
+                    .Where(f => !_displayedFactKeys.Contains((f.MasterId, f.MetadataKey))) // Still avoid recently shown from other sessions
+                    .Take(count - availableFacts.Count)
+                    .ToList();
                 
-                availableFacts.AddRange(additionalFacts);
-                System.Diagnostics.Debug.WriteLine($"[FactCache] Added {additionalFacts.Count()} additional facts. Total available: {availableFacts.Count}");
+                if (additionalFacts.Any())
+                {
+                    availableFacts.AddRange(additionalFacts);
+                    System.Diagnostics.Debug.WriteLine($"[FactCache] Added {additionalFacts.Count} additional facts (excluding recent history). Total available: {availableFacts.Count}");
+                }
+                else
+                {
+                    System.Diagnostics.Debug.WriteLine($"[FactCache] No additional facts available for masterId={masterId}. This might indicate cache needs refresh.");
+                }
             }
 
             // Take requested count
@@ -164,10 +185,10 @@ namespace WikiExtractor.Maui.App.Services
         /// Gets facts asynchronously - will load from database if cache is empty.
         /// This method is safe to call on UI thread but may take time on first call.
         /// </summary>
-        public async Task<List<QuizFactViewModel>> GetFactsAsync(int count, int? masterId = null)
+        public async Task<List<QuizFactViewModel>> GetFactsAsync(int count, int? masterId = null, List<(int MasterId, string MetadataKey)>? excludeFactKeys = null)
         {
             // Try cache first
-            var cachedFacts = GetFacts(count, masterId);
+            var cachedFacts = GetFacts(count, masterId, excludeFactKeys);
             
             // If we got enough from cache, return immediately
             if (cachedFacts.Count >= count || cachedFacts.Count >= MinimumCacheSize)
@@ -265,13 +286,39 @@ namespace WikiExtractor.Maui.App.Services
         }
 
         /// <summary>
-        /// Marks facts as shown and triggers cache refresh
+        /// Marks facts as shown and triggers cache refresh.
+        /// Immediately updates internal tracking to prevent returning same facts before DB update completes.
+        /// Does NOT remove from cache to allow facts to remain available for other masters.
         /// </summary>
         public void MarkFactsAsShown(List<QuizFactViewModel> facts)
         {
             if (facts == null || !facts.Any()) return;
 
-            // Mark all facts as shown in background
+            System.Diagnostics.Debug.WriteLine($"[FactCache] MarkFactsAsShown called with {facts.Count} facts");
+
+            // IMMEDIATELY update displayed keys tracking (before async DB update)
+            // This prevents returning the same facts on next request before DB update completes
+            foreach (var fact in facts)
+            {
+                var factKey = (fact.MasterId, fact.MetadataKey);
+                
+                // Add to displayed keys tracking (will be excluded from future GetFacts calls)
+                if (!_displayedFactKeys.Contains(factKey))
+                {
+                    _displayedFactKeys.Enqueue(factKey);
+                    System.Diagnostics.Debug.WriteLine($"[FactCache] Added to displayed keys: MasterId={fact.MasterId}, Key={fact.MetadataKey}");
+                }
+                
+                // Keep tracking list bounded
+                while (_displayedFactKeys.Count > MaxDisplayedFactsTracking)
+                {
+                    _displayedFactKeys.TryDequeue(out _);
+                }
+            }
+
+            System.Diagnostics.Debug.WriteLine($"[FactCache] Updated displayed keys. Total tracked: {_displayedFactKeys.Count}");
+
+            // Mark in database and refresh cache in background
             Task.Run(() =>
             {
                 foreach (var fact in facts)
@@ -281,6 +328,7 @@ namespace WikiExtractor.Maui.App.Services
                         SharedServices.QuizController.MarkFactAsShown(
                             fact.MasterId, 
                             fact.MetadataKey);
+                        System.Diagnostics.Debug.WriteLine($"[FactCache] Marked in DB: MasterId={fact.MasterId}, Key={fact.MetadataKey}");
                     }
                     catch (Exception ex)
                     {
@@ -288,8 +336,16 @@ namespace WikiExtractor.Maui.App.Services
                     }
                 }
 
-                // Refresh cache after marking facts
-                RefreshCacheAsync().Wait();
+                // Refresh cache after marking facts (will load fresh unshown facts from DB)
+                try
+                {
+                    RefreshCacheAsync().Wait();
+                    System.Diagnostics.Debug.WriteLine($"[FactCache] Cache refreshed after marking. Cache size: {_factCache.Count}");
+                }
+                catch (Exception ex)
+                {
+                    ExceptionHandler.CatchException(ex, "FactCacheService.MarkFactsAsShown.Refresh");
+                }
             });
         }
 

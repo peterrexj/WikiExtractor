@@ -126,7 +126,9 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
 
             // Get first fact immediately from cache (instant if pre-loaded)
-            var initialFacts = FactCacheService.Instance.GetFacts(1, Model.MasterId);
+            // Pass empty exclusion list for first fact
+            var sessionExclusions = GetSessionExclusionList();
+            var initialFacts = FactCacheService.Instance.GetFacts(1, Model.MasterId, sessionExclusions);
             
             if (initialFacts != null && initialFacts.Any())
             {
@@ -141,7 +143,8 @@ namespace WikiExtractor.Maui.App.ViewModels
                 {
                     try
                     {
-                        var facts = await FactCacheService.Instance.GetFactsAsync(1, Model.MasterId);
+                        var sessionExclusions = GetSessionExclusionList();
+                        var facts = await FactCacheService.Instance.GetFactsAsync(1, Model.MasterId, sessionExclusions);
                         
                         await MainThread.InvokeOnMainThreadAsync(() =>
                         {
@@ -211,7 +214,9 @@ namespace WikiExtractor.Maui.App.ViewModels
                 if (Model == null) return;
 
                 // Get next fact from cache (instant if cache is populated)
-                var nextFacts = FactCacheService.Instance.GetFacts(1, Model.MasterId);
+                // Exclude facts already displayed in this session
+                var sessionExclusions = GetSessionExclusionList();
+                var nextFacts = FactCacheService.Instance.GetFacts(1, Model.MasterId, sessionExclusions);
                 
                 System.Diagnostics.Debug.WriteLine($"[FactRotation] Timer elapsed. Retrieved {nextFacts?.Count ?? 0} facts. Cache size: {FactCacheService.Instance.CacheSize}");
                 
@@ -291,24 +296,10 @@ namespace WikiExtractor.Maui.App.ViewModels
                     }
                 }
                 
-                // Mark facts in background without blocking UI
+                // Mark facts in background without blocking UI (using FactCacheService)
                 if (factsToMark != null && factsToMark.Any())
                 {
-                    Task.Run(() =>
-                    {
-                        try
-                        {
-                            foreach (var fact in factsToMark)
-                            {
-                                SharedServices.QuizController.MarkFactAsShown(fact.MasterId, fact.MetadataKey);
-                                System.Diagnostics.Debug.WriteLine($"[FactTracking] Marked as shown: MasterId={fact.MasterId}, Key={fact.MetadataKey}");
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            ExceptionHandler.CatchException(ex, "LoadingFactsControlViewModel.Hide.MarkFactsAsShown");
-                        }
-                    });
+                    FactCacheService.Instance.MarkFactsAsShown(factsToMark);
                 }
                 
                 // Invoke completion callback on main thread
@@ -357,6 +348,19 @@ namespace WikiExtractor.Maui.App.ViewModels
         protected void OnPropertyChanged([CallerMemberName] string? propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        /// <summary>
+        /// Gets the list of fact keys already displayed in this loading session
+        /// </summary>
+        private List<(int MasterId, string MetadataKey)> GetSessionExclusionList()
+        {
+            lock (_displayedFactsLock)
+            {
+                return _displayedFacts
+                    .Select(f => (f.MasterId, f.MetadataKey))
+                    .ToList();
+            }
         }
 
         public void Dispose()

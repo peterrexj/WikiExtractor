@@ -11,7 +11,7 @@ namespace WikiExtractor.Process.Repository
     {
         public QuizFactStatusRepository(DatabaseHelper databaseHelper) : base(databaseHelper, "tblQuizFactStatus",
             "MasterId, MetadataKey, CreatedDateTime",
-            "MasterId, MetadataKey, CreatedDateTime")
+            "MasterId, MetadataKey")
         { }
 
         public string SchemaScript(int databaseVersion)
