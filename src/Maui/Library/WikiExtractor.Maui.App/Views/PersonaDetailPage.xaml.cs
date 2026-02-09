@@ -115,14 +115,11 @@ namespace WikiExtractor.Maui.App.Views
             personaDetailViewModel.IsDataLoading = true;
             personaDetailViewModel.LoadingMessage = "Loading details...";
 
-            // Initialize loading facts control with quiz facts
+            // Initialize loading facts control (simplified - one fact per overlay)
             var loadingModel = new LoadingFactsModel
             {
-                FactCount = 5,
-                FactDisplayDurationMs = 4000,
                 ShowMasterImage = true,
-                AutoMarkFactsAsShown = true,
-                MasterId = result
+                AutoMarkFactsAsShown = true
             };
             loadingFactsControl.Show(loadingModel);
 

@@ -247,11 +247,9 @@ namespace WikiExtractor.Maui.App.Views
                 // Initialize navigation loading facts control
                 var loadingModel = new LoadingFactsModel
                 {
-                    FactCount = 3,
-                    FactDisplayDurationMs = 3000,
                     ShowMasterImage = true,
                     AutoMarkFactsAsShown = true,
-                    MasterId = _masterId
+                    ShowFacts = true
                 };
                 navigationLoadingFactsControl.Show(loadingModel);
 
