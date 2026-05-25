@@ -33,7 +33,16 @@ namespace WikiExtractor.ViewModels
         public string NameSubstitueFormatted => NameSubstitue.HasValue() ? $"{Environment.NewLine}({NameSubstitue})" : string.Empty;
         public string WikiPath { get; set; }
         public string MainContent { get; set; }
-        public string PicturePrimaryPath { get; set; }
+        private string _picturePrimaryPath;
+        public string PicturePrimaryPath
+        {
+            get => _picturePrimaryPath;
+            set
+            {
+                _picturePrimaryPath = value;
+                OnPropertyChanged(nameof(PicturePrimaryPath));
+            }
+        }
         public string PicturePrimaryLocalFileName => $"{Name.RemoveSpecialChars(excludeUnderscore: false)}{Path.GetExtension(PicturePrimaryPath)}";
         public string PicturePrimaryCaption { get; set; }
         public int PicturePrimaryWidth { get; set; }

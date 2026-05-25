@@ -36,8 +36,14 @@ namespace WikiExtractor.Maui.App.ViewModels
         public Color QuizWrongAnswerColor { get; set; }
         public Color QuizAnswerDefaultBackColor { get; set; }
         public Color QuizAnswerSelectionBackColor { get; set; }
+        public Color QuizProgressDefaultColor { get; set; }
+        public Color QuizProgressCorrectColor { get; set; }
+        public Color QuizProgressWrongColor { get; set; }
+        public Color QuizProgressSkipColor { get; set; }
 
         private QuizThemeData? _theme = null;
+        private bool _isProcessingNext = false;
+        public bool IsNextEnabled => !_isProcessingNext;
 
         public QuizPageViewModel()
         {
@@ -179,8 +185,12 @@ namespace WikiExtractor.Maui.App.ViewModels
                     SharedServices.QuizController.GenerateQuizQuestionsForNewSession()
                         .Select(q => new QuizPageQuestionViewModel(q))
                         .ToList());
-                
-                // No need to set DefaultStyle on questions anymore
+
+                // Seed segment colors after questions are created
+                var defaultSegColor = Application.Current.Resources.TryGetValue("WikiAppListItemBoxBorderColor", out var dc) ? (Color)dc : Color.FromArgb("#888888");
+                foreach (var q in Questions)
+                    q.SegmentColor = defaultSegColor;
+
                 CurrentIndex = 1;
 
                 BannerAdsUnitId = SharedServiceCore.AdsConfig.QuizBannerAdUnitId ?? SharedServiceCore.AdsConfig.BannerAdUnitId;
@@ -207,10 +217,23 @@ namespace WikiExtractor.Maui.App.ViewModels
             QuizAnswerDefaultBackColor = _theme.DefaultBackColor;
             QuizAnswerSelectionBackColor = _theme.SelectionBackColor;
 
+            // Progress bar segment colors
+            QuizProgressDefaultColor = Application.Current.Resources.TryGetValue("WikiAppListItemBoxBorderColor", out var defCol) ? (Color)defCol : Color.FromArgb("#888888");
+            QuizProgressCorrectColor = Color.FromArgb("#7EC8A0");  // soft green
+            QuizProgressWrongColor = Color.FromArgb("#E88080");    // soft red
+            QuizProgressSkipColor = Color.FromArgb("#C8A06E");     // soft amber for skipped
+
             Answer1BackColor = QuizAnswerDefaultBackColor;
             Answer2BackColor = QuizAnswerDefaultBackColor;
             Answer3BackColor = QuizAnswerDefaultBackColor;
             Answer4BackColor = QuizAnswerDefaultBackColor;
+
+            // Initialize all question segment colors to default
+            if (Questions != null)
+            {
+                foreach (var q in Questions)
+                    q.SegmentColor = QuizProgressDefaultColor;
+            }
         }
 
         public void SaveCurrentResponse()
@@ -367,6 +390,9 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         public async Task OnNextClick(SfBusyIndicator busyIndicator)
         {
+            if (_isProcessingNext) return;
+            _isProcessingNext = true;
+            OnPropertyChanged(nameof(IsNextEnabled));
             // 1. Immediate UI update (Main Thread)
             IsPageBusy = true;
 
@@ -402,17 +428,20 @@ namespace WikiExtractor.Maui.App.ViewModels
                 // 4. Navigation Logic
                 if (CurrentIndex == Questions.Count)
                 {
+                    // Color the last question segment before results
+                    UpdateCurrentSegmentColor(selectedAnswer != null);
                     await Task.Delay(500);
                     await Task.WhenAll(
                         Task.Run(() => SaveCurrentResponse()),
                         Task.Run(() => CalculateSummary())
                     );
-                    
+
                     await ShowQuizResults();
                     return;
                 }
                 else if (Questions.Count > CurrentIndex)
                 {
+                    UpdateCurrentSegmentColor(selectedAnswer != null);
                     CurrentIndex += 1;
                 }
             }
@@ -424,7 +453,24 @@ namespace WikiExtractor.Maui.App.ViewModels
             {
                 // 5. Turn off loader (Main Thread)
                 IsPageBusy = false;
+                _isProcessingNext = false;
+                OnPropertyChanged(nameof(IsNextEnabled));
             }
+        }
+
+        private void UpdateCurrentSegmentColor(bool wasAnswered)
+        {
+            var question = CurrentQuestion;
+            if (question == null) return;
+            Application.Current.Dispatcher.Dispatch(() =>
+            {
+                if (!wasAnswered)
+                    question.SegmentColor = QuizProgressSkipColor;
+                else if (question.IsCorrect)
+                    question.SegmentColor = QuizProgressCorrectColor;
+                else
+                    question.SegmentColor = QuizProgressWrongColor;
+            });
         }
 
         private void ApplyAnswerColor(int answerPosition, bool isCorrect)

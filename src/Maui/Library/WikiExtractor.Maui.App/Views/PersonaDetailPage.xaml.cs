@@ -1,6 +1,6 @@
 using Pj.Library;
 using Syncfusion.Maui.Buttons;
-using System.Collections.Concurrent;
+using RoundRectangle = Microsoft.Maui.Controls.Shapes.RoundRectangle;
 using WikiExtractor.Exts;
 using WikiExtractor.ViewModels;
 using WikiExtractor.Maui.App.Controls;
@@ -17,11 +17,15 @@ namespace WikiExtractor.Maui.App.Views
         public string MasterId { get; set; }
 
         private PersonaDetailViewModel personaDetailViewModel;
-        private ConcurrentDictionary<string, ExtendedImage> extendImagesInPage = new();
         private readonly CancellationTokenSource _cancellationTokenSource;
 
         private const int DefaultHeightImageInDetailsPage = 300;
         private bool _isExternalImageLoadComplete = false;
+
+        // Title bar elements — built imperatively so iOS Shell.TitleView renders correctly
+        private Image imgPrimary;
+        private Label lblTitleName;
+        private Label lblTitleSubtitle;
 
         private void CaptureErrorOnPage(Exception exception)
         {
@@ -34,9 +38,10 @@ namespace WikiExtractor.Maui.App.Views
         {
             try
             {
-                Application.Current.Dispatcher.Dispatch(() =>
+                Application.Current?.Dispatcher.Dispatch(() =>
                 {
-                    action();
+                    try { action(); }
+                    catch (Exception ex) { CaptureErrorOnPage(ex); }
                 });
             }
             catch (Exception ex)
@@ -44,11 +49,8 @@ namespace WikiExtractor.Maui.App.Views
                 CaptureErrorOnPage(ex);
             }
         }
-        System.Diagnostics.Stopwatch Stopwatch = new System.Diagnostics.Stopwatch();
-
         public PersonaDetailPage()
         {
-            Stopwatch.Start();
             try
             {
                 InitializeComponent();
@@ -60,11 +62,168 @@ namespace WikiExtractor.Maui.App.Views
                 itemTemplateSelector.ParagraphContentTemplate = (DataTemplate)Resources["ParagraphContentListItemTemplate"];
                 itemTemplateSelector.ImageTemplate = (DataTemplate)Resources["ImageListItemTemplate"];
                 _cancellationTokenSource = new CancellationTokenSource();
+
+                // Seed the dynamic resource so ParagraphContentListItemTemplate can resolve it before data loads
+                if (!Application.Current.Resources.ContainsKey("WikiAppParagraphFontSize"))
+                    Application.Current.Resources["WikiAppParagraphFontSize"] = AppSettingsService.DEFAULT_PARAGRAPH_FONT_SIZE;
+
+                BuildTitleView();
             }
             catch (Exception ex)
             {
                 CaptureErrorOnPage(ex);
             }
+        }
+
+        private void BuildTitleView()
+        {
+            bool isTablet = DeviceIdiom.Tablet == DeviceInfo.Idiom;
+            bool isIos = DeviceInfo.Platform == DevicePlatform.iOS;
+
+            double imageSize = isIos ? (isTablet ? 36 : 32) : (isTablet ? 40 : 34);
+            double cornerRadius = imageSize / 2;
+            double imageColWidth = imageSize;
+            double navHeight = isIos ? 44 : 56;
+            double nameFontSize = isTablet ? 18 : 16;
+            double subtitleFontSize = isTablet ? 13 : 11;
+            double titleViewWidth = isTablet ? 460 : 300;
+
+            imgPrimary = new Image
+            {
+                Aspect = Aspect.AspectFill,
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill
+            };
+
+            var imageBorder = new Border
+            {
+                HeightRequest = imageSize,
+                WidthRequest = imageSize,
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center,
+                StrokeThickness = 2,
+                Content = imgPrimary
+            };
+            imageBorder.SetDynamicResource(Border.BackgroundProperty, "WikiAppPersonaDetailProfileImageBg");
+            imageBorder.SetDynamicResource(Border.StrokeProperty, "WikiAppPrimaryAccentColor");
+            imageBorder.StrokeShape = new RoundRectangle { CornerRadius = new CornerRadius(cornerRadius) };
+
+            lblTitleName = new Label
+            {
+                FontAttributes = FontAttributes.Bold,
+                FontSize = nameFontSize,
+                HorizontalOptions = LayoutOptions.Fill,
+                HorizontalTextAlignment = TextAlignment.Start,
+                VerticalOptions = LayoutOptions.End,
+                VerticalTextAlignment = TextAlignment.End,
+                LineBreakMode = LineBreakMode.TailTruncation
+            };
+            lblTitleName.SetDynamicResource(Label.TextColorProperty, "WikiAppPersonaDetailNameTextColor");
+
+            lblTitleSubtitle = new Label
+            {
+                FontAttributes = FontAttributes.Italic,
+                FontSize = subtitleFontSize,
+                HorizontalOptions = LayoutOptions.Fill,
+                HorizontalTextAlignment = TextAlignment.Start,
+                VerticalOptions = LayoutOptions.Start,
+                VerticalTextAlignment = TextAlignment.Start,
+                LineBreakMode = LineBreakMode.TailTruncation,
+                Opacity = 0.8
+            };
+            lblTitleSubtitle.SetDynamicResource(Label.TextColorProperty, "WikiAppPersonaDetailSubtitleTextColor");
+
+            var textGrid = new Grid
+            {
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Center,
+                Margin = new Thickness(6, 0, isTablet ? 8 : 6, 0),
+                RowDefinitions =
+                {
+                    new RowDefinition { Height = GridLength.Auto },
+                    new RowDefinition { Height = GridLength.Auto }
+                }
+            };
+            Grid.SetRow(lblTitleName, 0);
+            Grid.SetRow(lblTitleSubtitle, 1);
+            textGrid.Children.Add(lblTitleName);
+            textGrid.Children.Add(lblTitleSubtitle);
+
+            var wikiLabel = new Label
+            {
+                Text = "Wiki",
+                FontAttributes = FontAttributes.Bold,
+                FontSize = isTablet ? 12 : 10,
+                TextColor = Colors.White,
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center
+            };
+
+            var wikiTapGesture = new TapGestureRecognizer();
+            wikiTapGesture.SetBinding(TapGestureRecognizer.CommandProperty,
+                new Binding("BindingContext.TapHyperLinkToWikiPage", source: this));
+            wikiTapGesture.SetBinding(TapGestureRecognizer.CommandParameterProperty,
+                new Binding("BindingContext.Persona.WikiPath", source: this));
+
+            var wikiBorder = new Border
+            {
+                Padding = new Thickness(isTablet ? 12 : 8, isTablet ? 6 : 4),
+                HorizontalOptions = LayoutOptions.End,
+                VerticalOptions = LayoutOptions.Center,
+                StrokeThickness = 0,
+                StrokeShape = new RoundRectangle { CornerRadius = new CornerRadius(10) },
+                Content = wikiLabel
+            };
+            wikiBorder.SetDynamicResource(Border.BackgroundProperty, "WikiAppPrimaryAccentColor");
+            wikiBorder.GestureRecognizers.Add(wikiTapGesture);
+
+            var titleGrid = new Grid
+            {
+                BackgroundColor = Colors.Transparent,
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
+                HeightRequest = navHeight,
+                WidthRequest = titleViewWidth,
+                Margin = new Thickness(isIos ? -12 : -16, 0, 0, 0),
+                Padding = new Thickness(0, 0, isTablet ? 8 : 6, 0),
+                ColumnDefinitions =
+                {
+                    new ColumnDefinition { Width = new GridLength(imageColWidth) },
+                    new ColumnDefinition { Width = GridLength.Star },
+                    new ColumnDefinition { Width = GridLength.Auto }
+                }
+            };
+
+            Grid.SetColumn(imageBorder, 0);
+            Grid.SetColumn(textGrid, 1);
+            Grid.SetColumn(wikiBorder, 2);
+
+            titleGrid.Children.Add(imageBorder);
+            titleGrid.Children.Add(textGrid);
+            titleGrid.Children.Add(wikiBorder);
+
+            _titleGrid = titleGrid;
+            // Applied in OnNavigatedTo once the Shell nav bar is live
+        }
+
+        private Grid _titleGrid;
+
+        protected override void OnNavigatedTo(NavigatedToEventArgs args)
+        {
+            base.OnNavigatedTo(args);
+            if (_titleGrid != null)
+                Shell.SetTitleView(this, _titleGrid);
+        }
+
+        private void ApplySwitchThemeColors()
+        {
+            try
+            {
+                var settings = swtReadItem.SwitchSettings;
+                settings.SetDynamicResource(Syncfusion.Maui.Buttons.SwitchSettings.TrackBackgroundProperty, "WikiAppSwitchTrackColorOn");
+                settings.SetDynamicResource(Syncfusion.Maui.Buttons.SwitchSettings.ThumbBackgroundProperty, "WikiAppSwitchThumbColorOn");
+            }
+            catch { }
         }
 
         protected override async void OnAppearing()
@@ -72,24 +231,12 @@ namespace WikiExtractor.Maui.App.Views
             try
             {
                 base.OnAppearing();
-
-                await Task.Yield();
-                await Task.Delay(100);
-
                 await LoadWithPageBinding();
             }
             catch (Exception ex)
             {
                 CaptureErrorOnPage(ex);
             }
-            finally
-            {
-                Stopwatch.Stop();
-                ViewHelper.RunOnAppDispatcher(() =>
-                {
-                    DisplayAlert("Info", $"Page loaded in {Stopwatch.ElapsedMilliseconds} ms", "OK");
-                });
-        }
         }
 
         protected override void OnDisappearing()
@@ -110,23 +257,21 @@ namespace WikiExtractor.Maui.App.Views
                 BindingContext = personaDetailViewModel;
             }
 
+            await personaDetailViewModel.LoadFontSizeAsync();
+
             personaDetailViewModel.BannerAdsUnitId = SharedServiceCore.AdsConfig.BannerAdUnitId;
             personaDetailViewModel.IsPageBusy = true;
             personaDetailViewModel.IsDataLoading = true;
             personaDetailViewModel.LoadingMessage = "Loading details...";
 
             // Initialize loading facts control (simplified - one fact per overlay)
-            var loadingModel = new LoadingFactsModel
+            /*var loadingModel = new LoadingFactsModel
             {
                 ShowMasterImage = true,
                 AutoMarkFactsAsShown = true
             };
-            loadingFactsControl.Show(loadingModel);
+            loadingFactsControl.Show(loadingModel);*/
 
-            await Task.Yield();
-            await Task.Delay(100);
-
-            // Load data first, then bind to avoid ListView refresh issues
             await LoadSubPageItemDataDetails();
         }
 
@@ -137,10 +282,10 @@ namespace WikiExtractor.Maui.App.Views
                 personaDetailViewModel.IsPageBusy = true;
                 personaDetailViewModel.IsDataLoading = true;
                 personaDetailViewModel.LoadingMessage = "Fetching data...";
-                await Task.Yield();
-                await Task.Delay(100);
 
-                // Step A: Get the data from DB/Service on a background thread
+                // Let the Shell enter animation complete before hitting the DB on the main thread
+                await Task.Delay(80);
+
                 var persona = await SharedServices.WikiAppController.GetViewModelByIdAsync(MasterId.ToInteger());
 
                 if (persona == null)
@@ -149,52 +294,51 @@ namespace WikiExtractor.Maui.App.Views
                     return;
                 }
 
-                // Step B: Set the Persona object immediately so headers/titles bind to the UI
                 persona.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
                 if (!personaDetailViewModel.IsMetaDataAvailable)
                 {
                     persona.Metadatas.Add(new MetadataViewModel { Key = "", Description = persona.Name });
                 }
 
-                // Step C: Run heavy processing in parallel
                 var buildListTask = Task.Run(() => BuildDetailItemModel(persona.Paragraphs));
-                
-                // Start image loading in background - don't block the UI
                 _ = LoadImagesRequiredForThisPageAsync(persona.Pictures);
-
                 var detailItems = await buildListTask;
-
-                // Step D: Update UI in a single dispatcher call to minimize overhead
-                RunOnAppDispatcher(() =>
-                {
-                    personaDetailViewModel.LoadingMessage = "Rendering content...";
-                });
-                await Task.Yield();
-                await Task.Delay(100);
 
                 RunOnAppDispatcher(() =>
                 {
                     personaDetailViewModel.Persona = persona;
-                });
-
-                RunOnAppDispatcher(() =>
-                {
-                    personaDetailViewModel.LoadingMessage = "Rendering detailed content...";
-                });
-                await Task.Yield();
-                await Task.Delay(100);
-
-                RunOnAppDispatcher(() =>
-                {
                     personaDetailViewModel.ItemDetailItems = detailItems;
-                });
-                
-                // Step D: Finalize
-                RunOnAppDispatcher(() =>
-                {
                     personaDetailViewModel.LoadingMessage = "Finalizing...";
                     personaDetailViewModel.TriggerEvents();
-                    loadingFactsControl.Hide();
+
+                    // Shell.TitleView does not inherit BindingContext on iOS — set directly
+                    lblTitleName.Text = persona.Name;
+                    lblTitleSubtitle.Text = persona.NameSubstitueFormatted;
+                    if (imgPrimary != null)
+                    {
+                        var picPath = persona.PicturePrimaryPath;
+                        imgPrimary.Source = string.IsNullOrEmpty(picPath) || picPath == "NoImageAvailable.png"
+                            ? "no_image_available.png"
+                            : picPath;
+                    }
+
+                    // Re-apply after text is populated — MAUI Shell nav bar does not re-render
+                    // child label text changes unless the TitleView reference is reassigned.
+                    if (_titleGrid != null)
+                        Shell.SetTitleView(this, _titleGrid);
+
+                    // Set initial selected tab colour (Syncfusion VSM+DynamicResource is unreliable)
+                    if (Application.Current?.Resources.TryGetValue("WikiAppTabTextColorSelected", out var selObj) == true && selObj is Color selectedColor &&
+                        Application.Current?.Resources.TryGetValue("WikiAppTabTextColorNormal", out var normObj) == true && normObj is Color normalColor)
+                    {
+                        tabUsefulInfo.TextColor = selectedColor;
+                        tabDetailContent.TextColor = normalColor;
+                        tabPictures.TextColor = normalColor;
+                    }
+
+                    ApplySwitchThemeColors();
+
+                    /*loadingFactsControl.Hide();*/
                     personaDetailViewModel.IsDataLoading = false;
                     personaDetailViewModel.IsPageBusy = false;
                 });
@@ -204,7 +348,7 @@ namespace WikiExtractor.Maui.App.Views
                 CaptureErrorOnPage(ex);
                 RunOnAppDispatcher(() =>
                 {
-                    loadingFactsControl.Hide();
+                    /*loadingFactsControl.Hide();*/
                     personaDetailViewModel.IsDataLoading = false;
                 });
             }
@@ -252,10 +396,12 @@ namespace WikiExtractor.Maui.App.Views
                                 {
                                     foreach (var img in para3Content.PicLinks) tempList.Add(BuildImageRow(img));
 
+                                    if (!para3Content.Content.HasValue()) continue;
+
                                     if (tempList.Count > 0 && tempList.Last().Type == "Header3Text")
                                         tempList.Last().Content += $"{Environment.NewLine}{para3Content.Content}";
                                     else
-                                        tempList.Add(new ItemDetailListViewModel { Type = "Header3Text", Content = para3Content.Content ?? "" });
+                                        tempList.Add(new ItemDetailListViewModel { Type = "Header3Text", Content = para3Content.Content });
                                 }
                             }
                         }
@@ -323,15 +469,14 @@ namespace WikiExtractor.Maui.App.Views
                                 item.Height, 
                                 90);
 
-                            // Update individual image as soon as it's downloaded
-                            if (extendImagesInPage.TryGetValue(item.PictureLocalFileName ?? "", out var imageControl))
+                            // Notify the bound ExtendedImage by reassigning ImageLocalPath — the
+                            // CustomSource binding fires ApplySource which now finds the file on disk.
+                            var localPath = item.LocalFilePath;
+                            var detailItem = personaDetailViewModel.ItemDetailItems
+                                ?.FirstOrDefault(d => d.ImageFileName == item.PictureLocalFileName);
+                            if (detailItem != null)
                             {
-                                RunOnAppDispatcher(() =>
-                                {
-                                    var source = imageControl.CustomSource;
-                                    imageControl.Source = null;
-                                    imageControl.Source = source;
-                                });
+                                RunOnAppDispatcher(() => detailItem.ImageLocalPath = localPath);
                             }
 
                             // Update progress
@@ -489,59 +634,28 @@ namespace WikiExtractor.Maui.App.Views
 
         private void lstImageEffectsLayer_Tapped(object sender, EventArgs e)
         {
+            // Image tap — reserved for future full-screen preview
+        }
+
+        private void tabView_SelectionChanged(object sender, Syncfusion.Maui.TabView.TabSelectionChangedEventArgs e)
+        {
             try
             {
-                // Image preview functionality can be added here if needed
+                var tabs = new[] { tabUsefulInfo, tabDetailContent, tabPictures };
+                if (Application.Current?.Resources.TryGetValue("WikiAppTabTextColorSelected", out var selObj) == true && selObj is Color selectedColor &&
+                    Application.Current?.Resources.TryGetValue("WikiAppTabTextColorNormal", out var normObj) == true && normObj is Color normalColor)
+                {
+                    for (int i = 0; i < tabs.Length; i++)
+                    {
+                        if (tabs[i] != null)
+                            tabs[i].TextColor = i == e.NewIndex ? selectedColor : normalColor;
+                    }
+                }
             }
             catch (Exception ex)
             {
                 CaptureErrorOnPage(ex);
             }
-        }
-
-        private void btnCloseOnPopup_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                // Popup close functionality can be added here if needed
-            }
-            catch (Exception ex)
-            {
-                CaptureErrorOnPage(ex);
-            }
-        }
-
-        private void InitializeAdsControls()
-        {
-            try
-            {
-                // Ads removed as per migration plan
-            }
-            catch (Exception ex)
-            {
-                ExceptionHandler.CaptureException(ex);
-            }
-        }
-
-        private async void btnStartQuiz_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                // Navigate to quiz page
-                await Shell.Current.GoToAsync($"//QuizPage?MasterId={MasterId}");
-            }
-            catch (Exception ex)
-            {
-                CaptureErrorOnPage(ex);
-            }
-        }
-
-
-        public void CleanupResources()
-        {
-            personaDetailViewModel?.CleanupResources();
-            _cancellationTokenSource?.Cancel();
-            _cancellationTokenSource?.Dispose();
         }
     }
 }

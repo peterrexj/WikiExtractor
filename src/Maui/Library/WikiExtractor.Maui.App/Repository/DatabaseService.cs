@@ -8,10 +8,10 @@ namespace WikiExtractor.Maui.App.Repository
 {
     public static class DatabaseService
     {
-        private static AppDatabase appDatabase;
-        public static AppDatabase AppDatabase => appDatabase ??= new AppDatabase();
+        private static readonly Lazy<AppDatabase> _appDatabase = new(() => new AppDatabase());
+        public static AppDatabase AppDatabase => _appDatabase.Value;
 
-        private static UserStoreDatabase userStoreDatabase;
-        public static UserStoreDatabase UserStoreDatabase => userStoreDatabase ??= new UserStoreDatabase();
+        private static readonly Lazy<UserStoreDatabase> _userStoreDatabase = new(() => new UserStoreDatabase());
+        public static UserStoreDatabase UserStoreDatabase => _userStoreDatabase.Value;
     }
 }

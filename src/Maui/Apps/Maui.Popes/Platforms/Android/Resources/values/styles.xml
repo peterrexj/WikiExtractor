@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
-  <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
-    <item name="android:colorPrimary">#512BD4</item>
-    <item name="android:colorPrimaryDark">#2B0B98</item>
-    <item name="android:colorAccent">#2B0B98</item>
+  <style name="AppTheme" parent="Maui.MainTheme.NoActionBar">
+    <item name="colorPrimary">#222831</item>
+    <item name="colorPrimaryDark">#1A1E28</item>
+    <item name="colorAccent">#4A90D9</item>
+    <item name="android:windowBackground">#222831</item>
   </style>
 
-  <style name="Maui.SplashTheme" parent="android:Theme.Material.Light.NoActionBar">
+  <!--  Extends the MAUI activity theme with a dark window background so the
+        bare window is never exposed as white during the splash-to-shell transition.  -->
+  <style name="Maui.MainTheme.NoActionBar.Dark" parent="Maui.MainTheme.NoActionBar">
+    <item name="android:windowBackground">#222831</item>
+  </style>
+
+  <style name="Maui.SplashTheme" parent="Theme.AppCompat.NoActionBar">
     <item name="android:windowBackground">@drawable/maui_splash</item>
   </style>
 </resources>

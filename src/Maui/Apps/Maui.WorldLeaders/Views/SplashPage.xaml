@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Maui.WorldLeaders.Views.SplashPage"
+    NavigationPage.HasNavigationBar="False"
+    Shell.NavBarIsVisible="False"
+    BackgroundColor="{DynamicResource WikiAppDefaultBackgroundColor}">
+
+    <Grid RowDefinitions="*,Auto,Auto,Auto,*"
+          HorizontalOptions="Fill"
+          VerticalOptions="Fill">
+
+        <!-- Logo -->
+        <Image
+            x:Name="LogoImage"
+            Grid.Row="1"
+            Source="appicon_1024.png"
+            HeightRequest="160"
+            WidthRequest="160"
+            HorizontalOptions="Center"
+            Opacity="0" />
+
+        <!-- App name + tagline -->
+        <VerticalStackLayout
+            x:Name="TitleStack"
+            Grid.Row="2"
+            HorizontalOptions="Center"
+            Spacing="4"
+            Margin="0,20,0,0"
+            Opacity="0">
+            <Label
+                Text="World Leaders Hub"
+                FontFamily="{DynamicResource DefaultFontFamily}"
+                FontSize="36"
+                FontAttributes="Bold"
+                TextColor="{DynamicResource WikiAppDefaultTextColor}"
+                HorizontalOptions="Center" />
+            <Label
+                Text="Powered by Wikipedia"
+                FontFamily="{DynamicResource DefaultFontFamily}"
+                FontSize="13"
+                TextColor="{DynamicResource WikiAppLoadingHintTextColor}"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+
+        <!-- Fact / loading area -->
+        <VerticalStackLayout
+            x:Name="FactStack"
+            Grid.Row="3"
+            HorizontalOptions="Center"
+            Spacing="10"
+            Margin="30,28,30,0"
+            Opacity="0">
+
+            <ActivityIndicator
+                x:Name="Spinner"
+                IsRunning="True"
+                Color="{DynamicResource WikiAppLoadingSpinnerColor}"
+                HorizontalOptions="Center"
+                WidthRequest="28"
+                HeightRequest="28" />
+
+            <Label
+                x:Name="FactLabel"
+                FontFamily="{DynamicResource DefaultFontFamily}"
+                FontSize="13"
+                LineBreakMode="WordWrap"
+                TextColor="{DynamicResource WikiAppLoadingFactTextColor}"
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center"
+                MaximumWidthRequest="320" />
+        </VerticalStackLayout>
+
+    </Grid>
+</ContentPage>

@@ -8,6 +8,9 @@ namespace WikiExtractor.Maui.App.Services
         Dark,
         Light,
         Forest,
+        Candy,
+        Sunset,
+        Ocean,
         //Warm
     }
 }

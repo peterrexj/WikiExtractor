@@ -1,6 +1,6 @@
 ﻿using Microsoft.Maui.Controls;
 
-[assembly: ExportFont("Font Awesome 5 Free-Solid-900.otf", Alias = "FontAwesome5Solid")]
+[assembly: ExportFont("Font Awesome 5 Free-Solid-900.otf", Alias = "FontAwesome")]
 namespace FontAwesome
 {
     /// <summary>

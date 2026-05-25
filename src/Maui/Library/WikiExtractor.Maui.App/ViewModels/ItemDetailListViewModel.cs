@@ -23,7 +23,19 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
         }
 
-        public string ImageLocalPath { get; set; }
+        private string _imageLocalPath;
+        public string ImageLocalPath
+        {
+            get => _imageLocalPath;
+            set
+            {
+                if (_imageLocalPath != value)
+                {
+                    _imageLocalPath = value;
+                    OnPropertyChanged(nameof(ImageLocalPath));
+                }
+            }
+        }
         public string ImageFileName { get; set; }
         public double ImageHeight { get; set; }
         public string ImageDimension { get; set; }

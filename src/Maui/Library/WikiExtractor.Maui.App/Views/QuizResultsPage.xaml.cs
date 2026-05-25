@@ -1,3 +1,4 @@
+using WikiExtractor.Maui.App.Exts;
 using WikiExtractor.Maui.App.Services;
 using WikiExtractor.Maui.App.ViewModels;
 
@@ -16,10 +17,17 @@ public partial class QuizResultsPage : ContentPage
     {
         base.OnAppearing();
 
-        if (BindingContext is QuizResultsPageViewModel vm)
+        try
         {
-            await vm.LoadChartDataAsync();
-            vm.BannerAdsUnitId = SharedServiceCore.AdsConfig?.QuizBannerAdUnitId ?? SharedServiceCore.AdsConfig?.BannerAdUnitId;
+            if (BindingContext is QuizResultsPageViewModel vm)
+            {
+                await vm.LoadChartDataAsync();
+                vm.BannerAdsUnitId = SharedServiceCore.AdsConfig?.QuizBannerAdUnitId ?? SharedServiceCore.AdsConfig?.BannerAdUnitId;
+            }
+        }
+        catch (Exception ex)
+        {
+            ExceptionHandler.CaptureException(ex);
         }
     }
 }

@@ -23,6 +23,33 @@ namespace WikiExtractor.Maui.App.ViewModels
 
             PlayAudio = new Command<int>(async (id) => await SpeakNowDefaultSettings(id));
             StopAudio = new Command(() => CancelSpeech());
+            ToggleAudio = new Command<int>(async (id) =>
+            {
+                if (_currentPlayingId == id)
+                    CancelSpeech();
+                else
+                    await SpeakNowDefaultSettings(id);
+            });
+
+            IncreaseFontSize = new Command(() =>
+            {
+                if (ContentFontSize < AppSettingsService.MAX_PARAGRAPH_FONT_SIZE)
+                {
+                    ContentFontSize += 1;
+                    AppSettingsService.SetParagraphFontSizeAsync(ContentFontSize);
+                    ApplyFontSizeToResource();
+                }
+            });
+
+            DecreaseFontSize = new Command(() =>
+            {
+                if (ContentFontSize > AppSettingsService.MIN_PARAGRAPH_FONT_SIZE)
+                {
+                    ContentFontSize -= 1;
+                    AppSettingsService.SetParagraphFontSizeAsync(ContentFontSize);
+                    ApplyFontSizeToResource();
+                }
+            });
 
             // Ads removed as per migration plan
             TextOnFirstTabInformationOnDetailPage = SharedServiceCore.AppInformation?.TextOnFirstTabInformationOnDetailPage ?? "Information";
@@ -41,6 +68,25 @@ namespace WikiExtractor.Maui.App.ViewModels
         }
 
         public bool IsPageEnabled => !IsDataLoading;
+
+        private double _contentFontSize = AppSettingsService.DEFAULT_PARAGRAPH_FONT_SIZE;
+        public double ContentFontSize
+        {
+            get => _contentFontSize;
+            set
+            {
+                _contentFontSize = value;
+                OnPropertyChanged(nameof(ContentFontSize));
+                OnPropertyChanged(nameof(CanIncreaseFontSize));
+                OnPropertyChanged(nameof(CanDecreaseFontSize));
+            }
+        }
+
+        public bool CanIncreaseFontSize => ContentFontSize < AppSettingsService.MAX_PARAGRAPH_FONT_SIZE;
+        public bool CanDecreaseFontSize => ContentFontSize > AppSettingsService.MIN_PARAGRAPH_FONT_SIZE;
+
+        public ICommand IncreaseFontSize { get; set; }
+        public ICommand DecreaseFontSize { get; set; }
 
         private string _loadingMessage = "Loading details...";
         public string LoadingMessage
@@ -142,6 +188,7 @@ namespace WikiExtractor.Maui.App.ViewModels
         #region Text To Speech Service
         public ICommand PlayAudio { get; set; }
         public ICommand StopAudio { get; set; }
+        public ICommand ToggleAudio { get; set; }
         private CancellationTokenSource cts;
         private int _currentPlayingId = -1;
         
@@ -254,6 +301,17 @@ namespace WikiExtractor.Maui.App.ViewModels
         {
             CancelSpeech();
             cts?.Dispose();
+        }
+
+        public async Task LoadFontSizeAsync()
+        {
+            ContentFontSize = await AppSettingsService.GetParagraphFontSizeAsync();
+            ApplyFontSizeToResource();
+        }
+        public void ApplyFontSizeToResource()
+        {
+            if (Application.Current?.Resources != null)
+                Application.Current.Resources["WikiAppParagraphFontSize"] = ContentFontSize;
         }
     }
 }

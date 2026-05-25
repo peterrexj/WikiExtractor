@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet-ildasm ~/.nuget/packages/pj.library/1.0.5.5/lib/net9.0/Pj.Library.dll)"
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 using System.Collections.Concurrent;
-using Maui.Wiki.Services;
+using WikiExtractor.Maui.App.Exts;
 using WikiExtractor.Maui.App.Services;
 using WikiExtractor.ViewModels;
 
@@ -48,7 +48,7 @@ namespace WikiExtractor.Maui.App.Services
                 }
                 catch (Exception ex)
                 {
-                    ExceptionHandler.CatchException(ex, "FactCacheService.Initialize");
+                    ExceptionHandler.CaptureException(ex, "FactCacheService.Initialize");
                 }
             });
         }
@@ -65,7 +65,7 @@ namespace WikiExtractor.Maui.App.Services
             }
 
             var startTime = DateTime.Now;
-            while (_factCache.Count < MinimumCacheSize && 
+            while (_factCache.Count < MinimumCacheSize &&
                    (DateTime.Now - startTime).TotalMilliseconds < timeoutMs)
             {
                 await Task.Delay(100).ConfigureAwait(false);
@@ -83,7 +83,7 @@ namespace WikiExtractor.Maui.App.Services
             }
 
             var startTime = DateTime.Now;
-            while (_factCache.Count < MinimumCacheSize && 
+            while (_factCache.Count < MinimumCacheSize &&
                    (DateTime.Now - startTime).TotalMilliseconds < timeoutMs)
             {
                 Thread.Sleep(100);
@@ -222,7 +222,7 @@ namespace WikiExtractor.Maui.App.Services
             }
             catch (Exception ex)
             {
-                ExceptionHandler.CatchException(ex, "FactCacheService.GetFactsAsync");
+                ExceptionHandler.CaptureException(ex, "FactCacheService.GetFactsAsync");
             }
 
             return cachedFacts;
@@ -277,7 +277,7 @@ namespace WikiExtractor.Maui.App.Services
             }
             catch (Exception ex)
             {
-                ExceptionHandler.CatchException(ex, "FactCacheService.RefreshCacheAsync");
+                ExceptionHandler.CaptureException(ex, "FactCacheService.RefreshCacheAsync");
             }
             finally
             {
@@ -332,20 +332,12 @@ namespace WikiExtractor.Maui.App.Services
                     }
                     catch (Exception ex)
                     {
-                        ExceptionHandler.CatchException(ex, "FactCacheService.MarkFactsAsShown");
+                        ExceptionHandler.CaptureException(ex, "FactCacheService.MarkFactsAsShown");
                     }
                 }
 
-                // Refresh cache after marking facts (will load fresh unshown facts from DB)
-                try
-                {
-                    RefreshCacheAsync().Wait();
-                    System.Diagnostics.Debug.WriteLine($"[FactCache] Cache refreshed after marking. Cache size: {_factCache.Count}");
-                }
-                catch (Exception ex)
-                {
-                    ExceptionHandler.CatchException(ex, "FactCacheService.MarkFactsAsShown.Refresh");
-                }
+                // Refresh cache after marking facts
+                RefreshCacheAsync().Wait();
             });
         }
 
@@ -383,7 +375,7 @@ namespace WikiExtractor.Maui.App.Services
                 }
                 catch (Exception ex)
                 {
-                    ExceptionHandler.CatchException(ex, "FactCacheService.PreloadFactsForMaster", 
+                    ExceptionHandler.CaptureException(ex, "FactCacheService.PreloadFactsForMaster", 
                         $"MasterId: {masterId}");
                 }
             });

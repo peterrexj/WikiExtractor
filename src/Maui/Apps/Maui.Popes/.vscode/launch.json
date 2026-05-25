@@ -1,0 +1,108 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Maui.Popes - Android Debug (Emulator)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-maui-android-debug",
+      "program": "${workspaceFolder}/Maui/Apps/Maui.Popes/bin/Debug/net9.0-android36.0/android-arm64/linked/Maui.Wiki.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "internalConsole",
+      "platforms": ["macOS"],
+      "configurations": {
+        "TargetFramework": "net9.0-android36.0",
+        "Configuration": "Debug",
+        "Platform": "Android",
+        "Architecture": "arm64",
+        "DeviceType": "Emulator"
+      },
+      "sourceMap": true,
+      "logging": {
+        "moduleLoad": true,
+        "programOutput": true,
+        "engineLogging": false,
+        "trace": false
+      }
+    },
+    {
+      "name": "Maui.Popes - Android Debug (Physical Device)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-maui-android-debug",
+      "program": "${workspaceFolder}/Maui/Apps/Maui.Popes/bin/Debug/net9.0-android36.0/android-arm64/linked/Maui.Wiki.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "internalConsole",
+      "platforms": ["macOS"],
+      "configurations": {
+        "TargetFramework": "net9.0-android36.0",
+        "Configuration": "Debug",
+        "Platform": "Android",
+        "Architecture": "arm64",
+        "DeviceType": "Device"
+      },
+      "sourceMap": true,
+      "logging": {
+        "moduleLoad": true,
+        "programOutput": true,
+        "engineLogging": false,
+        "trace": false
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "label": "build-maui-android-debug",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "-f",
+        "net9.0-android36.0",
+        "-c",
+        "Debug",
+        "${workspaceFolder}/Maui/Apps/Maui.Popes/Maui.Popes.csproj"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "isBackground": false,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "run-maui-android-debug",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "maui",
+        "run",
+        "-f",
+        "net9.0-android36.0",
+        "-c",
+        "Debug",
+        "--device"
+      ],
+      "cwd": "${workspaceFolder}/Maui/Apps/Maui.Popes",
+      "group": {
+        "kind": "test"
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    }
+  ]
+}
+

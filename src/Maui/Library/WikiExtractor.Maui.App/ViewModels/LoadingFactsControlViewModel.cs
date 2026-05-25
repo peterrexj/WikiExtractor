@@ -1,17 +1,15 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Timers;
-using Maui.Wiki.Services;
+using WikiExtractor.Maui.App.Exts;
 using WikiExtractor.Maui.App.Models;
 using WikiExtractor.Maui.App.Services;
 using WikiExtractor.ViewModels;
-using Timer = System.Timers.Timer;
 
 namespace WikiExtractor.Maui.App.ViewModels
 {
     /// <summary>
     /// ViewModel for the Loading Facts Control
-    /// Manages fact rotation, timing, and display logic
+    /// Manages fact display logic (single fact, no rotation)
     /// </summary>
     public class LoadingFactsControlViewModel : INotifyPropertyChanged, IDisposable
     {
@@ -34,8 +32,6 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
         }
 
-        // Removed Facts collection - no longer needed since we show only one fact
-
         private QuizFactViewModel? _currentFact;
         public QuizFactViewModel? CurrentFact
         {
@@ -43,7 +39,7 @@ namespace WikiExtractor.Maui.App.ViewModels
             set
             {
                 _currentFact = value;
-                
+
                 // Mark fact as shown immediately when displayed
                 if (value != null && Model?.AutoMarkFactsAsShown == true)
                 {
@@ -60,7 +56,7 @@ namespace WikiExtractor.Maui.App.ViewModels
                         }
                     });
                 }
-                
+
                 OnPropertyChanged();
                 OnPropertyChanged(nameof(HasCurrentFact));
                 OnPropertyChanged(nameof(CurrentFactText));
@@ -122,7 +118,7 @@ namespace WikiExtractor.Maui.App.ViewModels
                 {
                     // Get one random unshown fact (any master, no filtering)
                     var facts = await Task.Run(() => SharedServices.QuizController.GetQuizFacts(1, masterId: null));
-                    
+
                     if (facts != null && facts.Any())
                     {
                         await MainThread.InvokeOnMainThreadAsync(() =>
@@ -136,10 +132,10 @@ namespace WikiExtractor.Maui.App.ViewModels
                         // No facts available - reset all and try again
                         System.Diagnostics.Debug.WriteLine($"[Facts] No unshown facts available. Resetting all facts...");
                         SharedServices.QuizController.ResetShownFacts();
-                        
+
                         // Try again after reset
                         facts = await Task.Run(() => SharedServices.QuizController.GetQuizFacts(1, masterId: null));
-                        
+
                         await MainThread.InvokeOnMainThreadAsync(() =>
                         {
                             if (facts != null && facts.Any())
@@ -164,7 +160,7 @@ namespace WikiExtractor.Maui.App.ViewModels
                 catch (Exception ex)
                 {
                     ExceptionHandler.CatchException(ex, "LoadingFactsControlViewModel.InitializeFacts");
-                    
+
                     // Show fallback on error
                     await MainThread.InvokeOnMainThreadAsync(() =>
                     {
@@ -180,12 +176,9 @@ namespace WikiExtractor.Maui.App.ViewModels
             });
         }
 
-        // Rotation removed - no longer needed
-
         /// <summary>
         /// Shows the loading facts control with the specified configuration
         /// </summary>
-        /// <param name="model">Configuration model for loading facts</param>
         public void Show(LoadingFactsModel model)
         {
             try
@@ -195,7 +188,7 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
             catch (Exception ex)
             {
-                ExceptionHandler.CatchException(ex, "LoadingFactsControlViewModel.Show");
+                ExceptionHandler.CaptureException(ex, "LoadingFactsControlViewModel.Show");
             }
         }
 
@@ -207,7 +200,7 @@ namespace WikiExtractor.Maui.App.ViewModels
             try
             {
                 IsVisible = false;
-                
+
                 // Invoke completion callback on main thread
                 if (Model?.OnLoadComplete != null)
                 {
@@ -219,14 +212,14 @@ namespace WikiExtractor.Maui.App.ViewModels
                         }
                         catch (Exception ex)
                         {
-                            ExceptionHandler.CatchException(ex, "LoadingFactsControlViewModel.Hide.OnLoadComplete");
+                            ExceptionHandler.CaptureException(ex, "LoadingFactsControlViewModel.Hide.OnLoadComplete");
                         }
                     });
                 }
             }
             catch (Exception ex)
             {
-                ExceptionHandler.CatchException(ex, "LoadingFactsControlViewModel.Hide");
+                ExceptionHandler.CaptureException(ex, "LoadingFactsControlViewModel.Hide");
             }
         }
 

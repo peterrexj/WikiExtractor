@@ -153,6 +153,36 @@ namespace WikiExtractor.Maui.App.ViewModels
         public bool IsCorrect => CorrectAnswer == UserSelection;
         public bool HasUserAnswered => !string.IsNullOrEmpty(UserSelection);
 
+        public Color ResultAccentColor
+        {
+            get
+            {
+                if (!HasUserAnswered)
+                    return GetAppColor("WikiAppQuizProgressSkipColor", "#C8A06E");
+                return IsCorrect
+                    ? GetAppColor("WikiAppQuizCorrectAnswerColor", "#7EC8A0")
+                    : GetAppColor("WikiAppQuizWrongAnswerColor", "#E88080");
+            }
+        }
+
+        private static Color GetAppColor(string key, string fallback)
+        {
+            if (Application.Current?.Resources.TryGetValue(key, out var val) == true && val is Color c)
+                return c;
+            return Color.FromArgb(fallback);
+        }
+
+        private Color _segmentColor;
+        public Color SegmentColor
+        {
+            get => _segmentColor;
+            set
+            {
+                _segmentColor = value;
+                OnPropertyChanged(nameof(SegmentColor));
+            }
+        }
+
         public string QuizUserAnswerBasedBackgroundColor =>
             HasUserAnswered
                 ? IsCorrect ? "#4CAF50" : "#F44336"  // Green for correct, Red for wrong

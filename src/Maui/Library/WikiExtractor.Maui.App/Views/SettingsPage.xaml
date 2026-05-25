@@ -7,34 +7,54 @@
     xmlns:viewmodels="clr-namespace:Maui.Wiki.ViewModels"
     x:Name="thisPage"
     Title="Settings"
-    BackgroundColor="{DynamicResource PageBackgroundColor}"
-    Shell.NavBarIsVisible="True">
-
-    <ContentPage.BindingContext>
-        <viewmodels:SettingsViewModel />
-    </ContentPage.BindingContext>
+    Shell.NavBarIsVisible="True"
+    BackgroundColor="{DynamicResource WikiAppDefaultBackgroundColor}">
 
     <Grid Style="{DynamicResource WikiAppPageBackgroundGridStyle}">
         <ScrollView>
-            <VerticalStackLayout Padding="20" Spacing="25">
+            <VerticalStackLayout
+                Padding="{OnIdiom Phone='16,16', Tablet='24,20', Default='16,16'}"
+                Spacing="{OnIdiom Phone=20, Tablet=28, Default=20}">
 
-                <VerticalStackLayout Style="{StaticResource SettingsSectionContainerStyle}">
+                <!-- ═══ APPEARANCE ═══ -->
+                <VerticalStackLayout Spacing="10">
                     <Label
-                        Style="{StaticResource SettingsSectionHeaderStyle}"
-                        Text="APPEARANCE" />
+                        Margin="4,0"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
+                        CharacterSpacing="1.2"
+                        Opacity="0.75"                        Text="&#xf53f;  APPEARANCE"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
-                        Padding="0"
-                        Style="{StaticResource SettingsCardBorderStyle}">
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+
                         <VerticalStackLayout>
-                            <Grid Padding="15" ColumnDefinitions="Auto, *, Auto">
+                            <!-- Theme row -->
+                            <Grid
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                ColumnDefinitions="32,*,Auto"
+                                ColumnSpacing="12"
+                                VerticalOptions="Center">
                                 <Label
-                                    Style="{StaticResource SettingsIconLabelStyle}"
-                                    Text="🎨" />
+                                    Grid.Column="0"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
+                                    HorizontalOptions="Center"
+                                    Text="&#xf042;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
                                 <Label
                                     Grid.Column="1"
-                                    Style="{StaticResource SettingsLabelStyle}"
-                                    Text="Application Theme" />
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                    Text="Application Theme"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
                                 <Picker
                                     Title="Select"
                                     Grid.Column="2"
@@ -43,19 +63,36 @@
                                     ItemsSource="{Binding Themes}"
                                     SelectedItem="{Binding SelectedTheme}"
                                     Style="{DynamicResource WikiAppPickerStyle}"
-                                    WidthRequest="120" />
+                                    WidthRequest="{OnIdiom Phone=120, Tablet=150, Default=120}" />
                             </Grid>
 
-                            <BoxView Style="{StaticResource SettingsDividerStyle}" />
+                            <BoxView
+                                Margin="16,0"
+                                BackgroundColor="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                HeightRequest="0.5"
+                                Opacity="0.4" />
 
-                            <Grid Padding="15" ColumnDefinitions="Auto, *, Auto">
+                            <!-- Font row -->
+                            <Grid
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                ColumnDefinitions="32,*,Auto"
+                                ColumnSpacing="12"
+                                VerticalOptions="Center">
                                 <Label
-                                    Style="{StaticResource SettingsIconLabelStyle}"
-                                    Text="🔤" />
+                                    Grid.Column="0"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
+                                    HorizontalOptions="Center"
+                                    Text="&#xf031;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
                                 <Label
                                     Grid.Column="1"
-                                    Style="{StaticResource SettingsLabelStyle}"
-                                    Text="Font Family" />
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                    Text="Font Family"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
                                 <Picker
                                     Title="Select"
                                     Grid.Column="2"
@@ -64,29 +101,51 @@
                                     ItemsSource="{Binding FontFamilies}"
                                     SelectedItem="{Binding SelectedFontFamily}"
                                     Style="{DynamicResource WikiAppPickerStyle}"
-                                    WidthRequest="140" />
+                                    WidthRequest="{OnIdiom Phone=140, Tablet=170, Default=140}" />
                             </Grid>
                         </VerticalStackLayout>
                     </Border>
                 </VerticalStackLayout>
 
-                <VerticalStackLayout Style="{StaticResource SettingsSectionContainerStyle}">
+                <!-- ═══ PREFERENCES ═══ -->
+                <VerticalStackLayout Spacing="10">
                     <Label
-                        Style="{StaticResource SettingsSectionHeaderStyle}"
-                        Text="PREFERENCES" />
+                        Margin="4,0"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
+                        CharacterSpacing="1.2"
+                        Opacity="0.75"                        Text="&#xf0ad;  PREFERENCES"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
-                        Padding="0"
-                        Style="{StaticResource SettingsCardBorderStyle}">
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+
                         <VerticalStackLayout>
-                            <Grid Padding="15" ColumnDefinitions="Auto, *, Auto">
+                            <!-- Hide Viewed row -->
+                            <Grid
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                ColumnDefinitions="32,*,Auto"
+                                ColumnSpacing="12"
+                                VerticalOptions="Center">
                                 <Label
-                                    Style="{StaticResource SettingsIconLabelStyle}"
-                                    Text="👁️" />
+                                    Grid.Column="0"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
+                                    HorizontalOptions="Center"
+                                    Text="&#xf070;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
                                 <Label
                                     Grid.Column="1"
-                                    Style="{StaticResource SettingsLabelStyle}"
-                                    Text="Hide Viewed Items" />
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                    Text="Hide Viewed Items"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
                                 <sfButtons:SfSwitch
                                     x:Name="hideViewedSwitch"
                                     Grid.Column="2"
@@ -95,34 +154,55 @@
                                     StateChanged="HideViewedSwitch_StateChanged" />
                             </Grid>
 
-                            <BoxView Style="{StaticResource SettingsDividerStyle}" />
+                            <BoxView
+                                Margin="16,0"
+                                BackgroundColor="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                HeightRequest="0.5"
+                                Opacity="0.4" />
 
-                            <VerticalStackLayout Padding="15" Spacing="10">
-                                <Grid ColumnDefinitions="Auto, *">
+                            <!-- Sort Order row -->
+                            <VerticalStackLayout
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                Spacing="12">
+                                <Grid
+                                    ColumnDefinitions="32,*"
+                                    ColumnSpacing="12">
                                     <Label
-                                        Style="{StaticResource SettingsIconLabelStyle}"
-                                        Text="🔃" />
+                                        Grid.Column="0"
+                                        FontFamily="FontAwesome"
+                                        FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
+                                        HorizontalOptions="Center"
+                                        Text="&#xf15d;"
+                                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                        VerticalOptions="Center" />
                                     <Label
                                         Grid.Column="1"
-                                        Style="{StaticResource SettingsLabelStyle}"
-                                        Text="Sort Order" />
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                        Text="Sort Order"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                        VerticalOptions="Center" />
                                 </Grid>
 
                                 <sfButtons:SfSegmentedControl
                                     x:Name="sfSegmentSortOrder"
-                                    Margin="0,5,0,0"
                                     BackgroundColor="Transparent"
                                     IsEnabled="{Binding IsNotBusy}"
                                     ItemsSource="{Binding SortByCollection}"
-                                    SegmentHeight="40"
+                                    SegmentHeight="{OnIdiom Phone=36, Tablet=42, Default=36}"
                                     SelectedIndex="{Binding SortBySelectedIndex}"
                                     SelectionChanged="SfSegmentSortOrder_SelectionChanged"
                                     VisibleSegmentsCount="6">
                                     <sfButtons:SfSegmentedControl.TextStyle>
-                                        <sfButtons:SegmentTextStyle FontSize="10" TextColor="{DynamicResource WikiAppSettingsSegmentTextColor}" />
+                                        <sfButtons:SegmentTextStyle
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="{OnIdiom Phone=10, Tablet=12, Default=10}"
+                                            TextColor="{DynamicResource WikiAppSettingsSegmentTextColor}" />
                                     </sfButtons:SfSegmentedControl.TextStyle>
                                     <sfButtons:SfSegmentedControl.SelectionIndicatorSettings>
-                                        <sfButtons:SelectionIndicatorSettings Background="{DynamicResource PrimaryColor}" TextColor="{DynamicResource WikiAppSettingsSegmentSelectedTextColor}" />
+                                        <sfButtons:SelectionIndicatorSettings
+                                            Background="{DynamicResource WikiAppPrimaryAccentColor}"
+                                            TextColor="{DynamicResource WikiAppSettingsSegmentSelectedTextColor}" />
                                     </sfButtons:SfSegmentedControl.SelectionIndicatorSettings>
                                 </sfButtons:SfSegmentedControl>
                             </VerticalStackLayout>
@@ -130,16 +210,152 @@
                     </Border>
                 </VerticalStackLayout>
 
+                <!-- ═══ AUDIO ═══ -->
+                <VerticalStackLayout Spacing="10">
+                    <Label
+                        Margin="4,0"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
+                        CharacterSpacing="1.2"
+                        Opacity="0.75"                        Text="&#xf028;  AUDIO"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+
+                    <Border
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+
+                        <VerticalStackLayout>
+                            <!-- Speech Pitch row -->
+                            <VerticalStackLayout
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                Spacing="8">
+                                <Grid
+                                    ColumnDefinitions="32,*,Auto"
+                                    ColumnSpacing="12">
+                                    <Label
+                                        Grid.Column="0"
+                                        FontFamily="FontAwesome"
+                                        FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
+                                        HorizontalOptions="Center"
+                                        Text="&#xf130;"
+                                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                        VerticalOptions="Center" />
+                                    <Label
+                                        Grid.Column="1"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                        Text="Voice Pitch"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                        VerticalOptions="Center" />
+                                    <Label
+                                        x:Name="lblSpeechPitch"
+                                        Grid.Column="2"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="{OnIdiom Phone=13, Tablet=15, Default=13}"
+                                        Opacity="0.75"                                        Text="{Binding SpeechPitch, StringFormat='{0:F1}'}"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                        VerticalOptions="Center" />
+                                </Grid>
+                                <Slider
+                                    x:Name="sliderSpeechPitch"
+                                    IsEnabled="{Binding IsNotBusy}"
+                                    Maximum="2.0"
+                                    Minimum="0.5"
+                                    ThumbColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    MinimumTrackColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    MaximumTrackColor="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                    Value="{Binding SpeechPitch}"
+                                    ValueChanged="SliderSpeechPitch_ValueChanged" />
+                                <Grid ColumnDefinitions="*,*,*">
+                                    <Label
+                                        Grid.Column="0"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="11"
+                                        HorizontalTextAlignment="Start"
+                                        Opacity="0.4"
+                                        Text="Low"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}" />
+                                    <Label
+                                        Grid.Column="1"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="11"
+                                        HorizontalTextAlignment="Center"
+                                        Opacity="0.4"
+                                        Text="Normal"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}" />
+                                    <Label
+                                        Grid.Column="2"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="11"
+                                        HorizontalTextAlignment="End"
+                                        Opacity="0.4"
+                                        Text="High"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}" />
+                                </Grid>
+                            </VerticalStackLayout>
+
+                            <BoxView
+                                Margin="16,0"
+                                BackgroundColor="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                HeightRequest="0.5"
+                                Opacity="0.4" />
+
+                            <!-- Voice picker row -->
+                            <Grid
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                ColumnDefinitions="32,*,Auto"
+                                ColumnSpacing="12"
+                                VerticalOptions="Center">
+                                <Label
+                                    Grid.Column="0"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
+                                    HorizontalOptions="Center"
+                                    Text="&#xf2b9;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="1"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                    Text="Voice"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
+                                <Picker
+                                    Title="Select"
+                                    Grid.Column="2"
+                                    HorizontalTextAlignment="End"
+                                    IsEnabled="{Binding IsNotBusy}"
+                                    ItemsSource="{Binding AvailableVoices}"
+                                    SelectedItem="{Binding SelectedVoice}"
+                                    Style="{DynamicResource WikiAppPickerStyle}"
+                                    WidthRequest="{OnIdiom Phone=160, Tablet=200, Default=160}" />
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Version footer -->
                 <Label
-                    Style="{StaticResource SettingsVersionLabelStyle}"
-                    Text="WikiExtractor v2.0" />
+                    x:Name="lblVersion"
+                    Margin="0,8,0,16"
+                    FontFamily="{DynamicResource DefaultFontFamily}"
+                    FontSize="{OnIdiom Phone=12, Tablet=14, Default=12}"
+                    HorizontalTextAlignment="Center"
+                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}" />
 
             </VerticalStackLayout>
         </ScrollView>
 
+        <!-- Loading overlay -->
         <Border
             IsVisible="{Binding IsPageBusy}"
-            Style="{StaticResource SettingsLoadingOverlayStyle}">
+            BackgroundColor="#80000000"
+            InputTransparent="False"
+            StrokeThickness="0">
             <VerticalStackLayout
                 HorizontalOptions="Center"
                 Spacing="15"
@@ -150,8 +366,10 @@
                     WidthRequest="50"
                     Color="{DynamicResource WikiAppSettingsActivityIndicatorColor}" />
                 <Label
-                    Style="{StaticResource SettingsLoadingLabelStyle}"
-                    Text="Applying Changes..." />
+                    FontAttributes="Bold"
+                    FontFamily="{DynamicResource DefaultFontFamily}"
+                    Text="Applying Changes..."
+                    TextColor="{DynamicResource WikiAppSettingsBusyTextColor}" />
             </VerticalStackLayout>
         </Border>
     </Grid>

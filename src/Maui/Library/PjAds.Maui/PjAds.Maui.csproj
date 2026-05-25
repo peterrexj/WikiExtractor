@@ -3,12 +3,12 @@
 	<PropertyGroup>
 		<!-- On Windows: include Android and Windows -->
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">
-			net9.0-android;net9.0-ios
+			net9.0-android36.0;net9.0-ios18.0
 		</TargetFrameworks>
 
-		<!-- On non-Windows (Mac/Linux): exclude Android -->
+		<!-- On non-Windows (Mac/Linux): include all platforms -->
 		<TargetFrameworks Condition="!$([MSBuild]::IsOSPlatform('windows'))">
-			net9.0-ios;net9.0-maccatalyst
+			net9.0-android36.0;net9.0-ios18.0;net9.0-maccatalyst18.0
 		</TargetFrameworks>
 		
 		

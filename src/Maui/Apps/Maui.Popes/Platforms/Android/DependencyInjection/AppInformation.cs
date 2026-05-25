@@ -23,6 +23,7 @@ namespace Maui.Wiki.Platforms.Android.DependencyInjection
 
         public string DbWikiStore => "WikiStorePopes.db";
         public string DbUserStore => "WikiUserStore.db";
+        public string HeaderIcon => "appicon_1024.png";
 
         public string AdsAppId => "ca-app-pub-4219645367584712~1706236868";
 

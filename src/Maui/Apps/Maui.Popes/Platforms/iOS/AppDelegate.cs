@@ -4,6 +4,7 @@ using System.Diagnostics;
 using UIKit;
 using WikiExtractor.Maui.App.Exts;
 using ObjCRuntime;
+using Google.MobileAds;
 
 namespace Maui.Wiki
 {
@@ -12,10 +13,35 @@ namespace Maui.Wiki
     {
         protected override MauiApp CreateMauiApp()
         {
-            // Set up iOS-specific exception handling
-            SetupNativeExceptionHandling();
+            Debug.WriteLine("🍎 [iOS] AppDelegate.CreateMauiApp started");
+
+            Debug.WriteLine("[PjAds] AppDelegate — calling MobileAds.SharedInstance.Start");
+            MobileAds.SharedInstance.Start(status =>
+            {
+                Debug.WriteLine("[PjAds] AppDelegate — MobileAds init complete");
+            });
+            Debug.WriteLine("[PjAds] AppDelegate — MobileAds.Start called (callback fires async)");
             
-            return MauiProgram.CreateMauiApp();
+            try
+            {
+                Debug.WriteLine("🔧 [iOS] Setting up native exception handling");
+                // Set up iOS-specific exception handling
+                SetupNativeExceptionHandling();
+                Debug.WriteLine("✅ [iOS] Native exception handling set up");
+                
+                Debug.WriteLine("🔧 [iOS] Calling MauiProgram.CreateMauiApp");
+                var app = MauiProgram.CreateMauiApp();
+                Debug.WriteLine("✅ [iOS] MauiProgram.CreateMauiApp completed");
+                
+                return app;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"❌ [iOS] EXCEPTION in CreateMauiApp: {ex.GetType().Name}");
+                Debug.WriteLine($"❌ [iOS] Message: {ex.Message}");
+                Debug.WriteLine($"❌ [iOS] StackTrace: {ex.StackTrace}");
+                throw;
+            }
         }
 
         private void SetupNativeExceptionHandling()

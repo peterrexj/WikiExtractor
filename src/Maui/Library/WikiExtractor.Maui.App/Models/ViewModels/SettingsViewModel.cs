@@ -4,8 +4,9 @@ using WikiExtractor.Maui.App.Exts;
 using WikiExtractor.Maui.App.Models.Mix;
 using Syncfusion.Maui.Buttons;
 using WikiExtractor.ViewModels;
+using Microsoft.Maui.Media;
 
-namespace Maui.Wiki.ViewModels
+namespace WikiExtractor.Maui.App.ViewModels
 {
     public class SettingsViewModel : BaseViewModel
     {
@@ -16,10 +17,13 @@ namespace Maui.Wiki.ViewModels
         private bool isUpdating;
         private bool _hideViewedItems;
         private int _sortBySelectedIndex;
+        private float _speechPitch;
+        private string? _selectedVoice;
 
         public ObservableCollection<string> Themes { get; }
         public ObservableCollection<string> FontFamilies { get; }
         public ObservableCollection<SfSegmentItem> SortByCollection { get; }
+        public ObservableCollection<string> AvailableVoices { get; } = new();
 
         public string? SelectedTheme
         {
@@ -32,8 +36,8 @@ namespace Maui.Wiki.ViewModels
                         _selectedTheme = task.Result != null ?
                             Themes.FirstOrDefault(t => t == task.Result.ToString()) :
                             Themes.FirstOrDefault(t => t == SharedServiceCore.DefaultAppTheme.ToString());
-                        
-                        OnPropertyChanged(nameof(SelectedTheme));
+
+                        MainThread.BeginInvokeOnMainThread(() => OnPropertyChanged(nameof(SelectedTheme)));
                     });
                 }
                 return _selectedTheme;
@@ -70,56 +74,119 @@ namespace Maui.Wiki.ViewModels
 
         public bool HideViewedItems
         {
-            get
-            {
-                if (_hideViewedItems == false)
-                {
-                    _hideViewedItems = SettingsHelper.ShouldShowAlreadyReadItem();
-                }
-                return _hideViewedItems;
-            }
+            get => _hideViewedItems;
             set
             {
                 if (_hideViewedItems != value)
                 {
                     _hideViewedItems = value;
                     OnPropertyChanged();
-                    // Save the setting immediately when changed
-                    SettingsHelper.SaveShouldShowAlreadyReadItems(value);
+                    Task.Run(() => SettingsHelper.SaveShouldShowAlreadyReadItems(value));
                 }
             }
         }
 
         public int SortBySelectedIndex
         {
-            get
-            {
-                if (_sortBySelectedIndex == 0)
-                {
-                    _sortBySelectedIndex = Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)),
-                        SettingsHelper.GetSortAttributeBySelected(SettingsHelper.GetCurrentSortDescriptor()));
-                }
-                return _sortBySelectedIndex;
-            }
+            get => _sortBySelectedIndex;
             set
             {
                 if (_sortBySelectedIndex != value)
                 {
                     _sortBySelectedIndex = value;
                     OnPropertyChanged();
-                    // Save the setting immediately when changed
                     var sortAttrib = (MainListSortDescriptorModel.SortByAttribute)Enum.ToObject(typeof(MainListSortDescriptorModel.SortByAttribute), value);
                     var sortInfo = SettingsHelper.GetSortDescriptorBySelectedItem(sortAttrib);
                     if (sortInfo != null)
                     {
-                        SettingsHelper.SaveSortDescriptor(sortInfo.PropertyName, sortInfo.Direction.ToString());
+                        Task.Run(() => SettingsHelper.SaveSortDescriptor(sortInfo.PropertyName, sortInfo.Direction.ToString()));
                     }
                 }
             }
         }
 
-        public string? SelectedFontFamily
+        public float SpeechPitch
         {
+            get => _speechPitch;
+            set
+            {
+                if (Math.Abs(_speechPitch - value) < 0.01f) return;
+                _speechPitch = value;
+                OnPropertyChanged();
+                Task.Run(() => SettingsHelper.SaveSpeechPitch(value));
+            }
+        }
+
+        public string? SelectedVoice
+        {
+            get => _selectedVoice;
+            set
+            {
+                if (_selectedVoice == value) return;
+                _selectedVoice = value;
+                OnPropertyChanged();
+                if (value != null)
+                {
+                    Task.Run(() =>
+                    {
+                        SettingsHelper.SaveSpeechVoice(value);
+                        SettingsHelper.ResetSpeechSettings();
+                    });
+                }
+            }
+        }
+
+        public async Task LoadVoicesAsync()
+        {
+            try
+            {
+                var savedVoice = await Task.Run(() => SettingsHelper.GetSpeechVoice());
+                var locales = await TextToSpeech.GetLocalesAsync();
+                var english = locales
+                    .Where(l => l.Language.StartsWith("en", StringComparison.OrdinalIgnoreCase))
+                    .OrderBy(l => l.Name)
+                    .Select(l => l.Name)
+                    .Distinct()
+                    .ToList();
+
+                await MainThread.InvokeOnMainThreadAsync(() =>
+                {
+                    AvailableVoices.Clear();
+                    AvailableVoices.Add("System Default");
+                    foreach (var v in english)
+                        AvailableVoices.Add(v);
+
+                    _selectedVoice = AvailableVoices.Contains(savedVoice) ? savedVoice : "System Default";
+                    OnPropertyChanged(nameof(SelectedVoice));
+                });
+            }
+            catch { }
+        }
+
+        public async Task LoadAsync()
+        {
+            try
+            {
+                var hideRead = await Task.Run(() => SettingsHelper.ShouldShowAlreadyReadItem());
+                var sortDescriptor = await Task.Run(() => SettingsHelper.GetCurrentSortDescriptor());
+                var sortIndex = Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)),
+                    SettingsHelper.GetSortAttributeBySelected(sortDescriptor));
+                var pitch = await Task.Run(() => SettingsHelper.GetSpeechPitch());
+
+                await MainThread.InvokeOnMainThreadAsync(() =>
+                {
+                    _hideViewedItems = hideRead;
+                    OnPropertyChanged(nameof(HideViewedItems));
+                    _sortBySelectedIndex = sortIndex;
+                    OnPropertyChanged(nameof(SortBySelectedIndex));
+                    _speechPitch = pitch;
+                    OnPropertyChanged(nameof(SpeechPitch));
+                });
+            }
+            catch { }
+        }
+
+        public string? SelectedFontFamily        {
             get
             {
                 if (_selectedFontFamily == null)
@@ -127,7 +194,7 @@ namespace Maui.Wiki.ViewModels
                     AppSettingsService.GetAppFontFamilyAsync().ContinueWith(task =>
                     {
                         _selectedFontFamily = task.Result;
-                        OnPropertyChanged(nameof(SelectedFontFamily));
+                        MainThread.BeginInvokeOnMainThread(() => OnPropertyChanged(nameof(SelectedFontFamily)));
                     });
                 }
                 return _selectedFontFamily;
@@ -219,6 +286,7 @@ namespace Maui.Wiki.ViewModels
         private async Task SaveAndApplyApplicationThemeAsync(WikiExtractor.Maui.App.Services.AppThemes theme)
         {
             await WikiExtractor.Maui.App.Services.SharedServiceCore.SaveData(new WikiExtractor.Maui.App.Services.ThemeSelect { Theme = theme });
+            AppSettingsService.SetThemeBackgroundColor(theme);
             await ApplyApplicationThemeAsync(theme);
         }
 

@@ -13,13 +13,14 @@ namespace Maui.Wiki.Platforms.iOS.DependencyInjection
         public int StyleOnListItemHeightRequestOnListPageDesktop => 200;
         #endregion
         
-        public string TextOnFirstTabInformationOnDetailPage => "Wiki facts";
+        public string TextOnFirstTabInformationOnDetailPage => "Pope facts";
 
         public string ImageCacheFolder => System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData);
         public int ImageCacheTotalDaysToInvalidate => 30;
 
-        public string DbWikiStore => "WikiStore.db";
+        public string DbWikiStore => "WikiStorePopes.db";
         public string DbUserStore => "WikiUserStore.db";
+        public string HeaderIcon => "appicon_1024.png";
 
         public string AdsAppId => "ca-app-pub-4219645367584712~8734202306";
 

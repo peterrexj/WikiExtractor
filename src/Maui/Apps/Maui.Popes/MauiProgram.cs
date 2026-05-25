@@ -1,16 +1,17 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 using WikiExtractor.Maui.App.Services;
+using WikiExtractor.Maui.App.ViewModels;
 using Syncfusion.Maui.Core.Hosting;
 using System.Diagnostics;
-using Maui.Wiki.Services;
 using WikiExtractor.Process;
-using Maui.Wiki.ViewModels;
 using WikiExtractor.Exts;
+using WikiExtractor.Maui.App.Exts;
 using PjAds.Maui.Extensions;
 using PjAds.Maui.Models;
 using WikiExtractor.Maui.App.Views;
 using WikiExtractor.Maui.App.Models;
+using Maui.Wiki.Views;
 
 namespace Maui.Wiki
 {
@@ -31,12 +32,13 @@ namespace Maui.Wiki
                 .ConfigureSyncfusionCore()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                    fonts.AddFont("CALIBRI.TTF", "Calibri");
-                    fonts.AddFont("calibrib.ttf", "CalibriBold");
                     fonts.AddFont("PARCHM.TTF", "Parmch");
                     fonts.AddFont("Font Awesome 5 Free-Solid-900.otf", "FontAwesome");
+                    fonts.AddFont("CALIBRI.TTF", "Calibri");
+                    fonts.AddFont("Lato-Regular.ttf", "Lato");
+                    fonts.AddFont("Nunito-Regular.ttf", "Nunito");
+                    fonts.AddFont("Pacifico-Regular.ttf", "Pacifico");
+                    fonts.AddFont("Raleway-Regular.ttf", "Raleway");
                 });
                 // Configure PjAds for Popes app
 //                .UsePjAds(new AdConfiguration
@@ -83,6 +85,7 @@ namespace Maui.Wiki
             builder.Services.AddSingleton<WikiExtractor.Maui.App.Services.IThemeHandler, WikiExtractor.Maui.App.Services.ThemeHandler>();
             builder.Services.AddTransient<SettingsViewModel>();
             builder.Services.AddTransient<SettingsPage>();
+            builder.Services.AddSingleton<SplashPage>();
             
             // Register the App class for dependency injection
             builder.Services.AddSingleton<App>();
@@ -102,17 +105,17 @@ namespace Maui.Wiki
 
             // Register platform-specific services
 #if ANDROID
-            appInfo =new Maui.Wiki.Platforms.Android.DependencyInjection.AppInformation();
+            appInfo = new Maui.Wiki.Platforms.Android.DependencyInjection.AppInformation();
             builder.Services.AddSingleton<IAppInformation>(appInfo);
-            builder.Services.AddSingleton<IAppEnvironment, Maui.Wiki.Platforms.Android.DependencyInjection.AppEnvironment>();
-            builder.Services.AddSingleton<IImageService, Maui.Wiki.Platforms.Android.DependencyInjection.ImageService>();
-            builder.Services.AddSingleton<ILocalStorage, Maui.Wiki.Platforms.Android.DependencyInjection.LocalStorage>();
+            builder.Services.AddSingleton<IAppEnvironment, WikiExtractor.Maui.App.Platforms.Android.DependencyInjection.AppEnvironment>();
+            builder.Services.AddSingleton<IImageService, WikiExtractor.Maui.App.Platforms.Android.DependencyInjection.ImageService>();
+            builder.Services.AddSingleton<ILocalStorage, WikiExtractor.Maui.App.Platforms.Android.DependencyInjection.LocalStorage>();
 #elif IOS
             appInfo = new Maui.Wiki.Platforms.iOS.DependencyInjection.AppInformation();
             builder.Services.AddSingleton<IAppInformation>(appInfo);
-            builder.Services.AddSingleton<IAppEnvironment, Maui.Wiki.Platforms.iOS.DependencyInjection.AppEnvironment>();
-            builder.Services.AddSingleton<IImageService, Maui.Wiki.Platforms.iOS.DependencyInjection.ImageService>();
-            builder.Services.AddSingleton<ILocalStorage, Maui.Wiki.Platforms.iOS.DependencyInjection.LocalStorage>();
+            builder.Services.AddSingleton<IAppEnvironment, WikiExtractor.Maui.App.Platforms.iOS.DependencyInjection.AppEnvironment>();
+            builder.Services.AddSingleton<IImageService, WikiExtractor.Maui.App.Platforms.iOS.DependencyInjection.ImageService>();
+            builder.Services.AddSingleton<ILocalStorage, WikiExtractor.Maui.App.Platforms.iOS.DependencyInjection.LocalStorage>();
 #endif
 
 #if DEBUG
@@ -131,9 +134,9 @@ namespace Maui.Wiki
             builder.UsePjAds(new AdConfiguration
             {
                 ApplicationId = adsConfig.ApplicationId,
-                //BannerAdUnitId = appInfo.AdsBannerId,
-                //QuizBannerAdUnitId = appInfo.AdsQuizBannerId,
-                //InterstitialAdUnitId = appInfo.AdsInterstitialId,
+                BannerAdUnitId = appInfo.AdsBannerId,
+                QuizBannerAdUnitId = appInfo.AdsQuizBannerId,
+                InterstitialAdUnitId = appInfo.AdsInterstitialId,
                 AdsEnabled = true,
                 TestMode =
 #if DEBUG
@@ -197,7 +200,7 @@ namespace Maui.Wiki
                 Debug.WriteLine(ex.StackTrace);
 
                 // Log to app's exception handler
-                WikiExtractor.Maui.App.Exts.ExceptionHandler.CaptureException(ex, source, $"IsTerminating: {isTerminating}");
+                ExceptionHandler.CaptureException(ex, source, $"IsTerminating: {isTerminating}");
 
                 // Additional platform-specific handling for iOS
 #if IOS
@@ -239,33 +242,6 @@ namespace Maui.Wiki
                 {
                     Debug.WriteLine("UserStoreDatabase initialized successfully");
                 }
-
-#if IOS
-                // For iOS, explicitly check if database files exist and are accessible
-                var localStorage = new Maui.Wiki.Platforms.iOS.DependencyInjection.LocalStorageFactory();
-                var dbPath = localStorage.PlatformDatabasePath;
-                var bundlePath = Foundation.NSBundle.MainBundle.PathForResource(
-                    Path.GetFileNameWithoutExtension(localStorage.DatabaseFileName),
-                    Path.GetExtension(localStorage.DatabaseFileName)?.TrimStart('.'));
-                
-                Debug.WriteLine($"iOS Database path: {dbPath}");
-                Debug.WriteLine($"iOS Bundle path: {bundlePath}");
-                
-                // Force copy of database files
-                localStorage.ForceCopy = true;
-                var copyResult = localStorage.CopyDatabase();
-                Debug.WriteLine($"Database copy result: {copyResult}");
-                
-                // Verify database files exist
-                if (File.Exists(dbPath))
-                {
-                    Debug.WriteLine($"Database file exists at: {dbPath}, size: {new FileInfo(dbPath).Length} bytes");
-                }
-                else
-                {
-                    Debug.WriteLine($"WARNING: Database file does not exist at: {dbPath}");
-                }
-#endif
             }
             catch (Exception ex)
             {
@@ -300,7 +276,7 @@ namespace Maui.Wiki
             catch (Exception ex)
             {
                 Debug.WriteLine($"Error initializing ConfigData: {ex.Message}");
-                WikiExtractor.Maui.App.Exts.ExceptionHandler.CaptureException(ex, "ConfigData initialization failed");
+                ExceptionHandler.CaptureException(ex, "ConfigData initialization failed");
             }
         }
     }

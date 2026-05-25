@@ -127,30 +127,58 @@ namespace WikiExtractor.Maui.App.Exts
             DatabaseService.UserStoreDatabase.SettingsRepository.Update("AppTheme", theme.ToString());
         }
 
+        public static float GetSpeechPitch() =>
+            float.TryParse(DatabaseService.UserStoreDatabase.SettingsRepository.Get(f => f.Name == "SpeechPitch").FirstOrDefault()?.Value, out var p) ? p : 1.0f;
+
+        public static void SaveSpeechPitch(float pitch)
+        {
+            DatabaseService.UserStoreDatabase.SettingsRepository.Update("SpeechPitch", pitch.ToString("F2"));
+            ResetSpeechSettings();
+        }
+
+        public static string GetSpeechVoice() =>
+            DatabaseService.UserStoreDatabase.SettingsRepository.Get(f => f.Name == "SpeechVoice").FirstOrDefault()?.Value ?? "System Default";
+
+        public static void SaveSpeechVoice(string voiceName)
+        {
+            DatabaseService.UserStoreDatabase.SettingsRepository.Update("SpeechVoice", voiceName);
+            ResetSpeechSettings();
+        }
+
         private static SpeechOptions speechOptions;
+
+        public static void ResetSpeechSettings() => speechOptions = null;
+
         public async static Task<SpeechOptions> SpeechSettings()
         {
             if (speechOptions == null)
             {
-                IEnumerable<Locale> locales = await TextToSpeech.GetLocalesAsync(); 
+                IEnumerable<Locale> locales = await TextToSpeech.GetLocalesAsync();
 
                 Locale locale = null;
+                var savedVoice = GetSpeechVoice();
 
                 if (locales != null)
                 {
-                    var cultureName = CultureInfo.CurrentCulture.NativeName;
-                    locale = locales?.Where(f => f.Name == cultureName).FirstOrDefault();
-                    locale ??= locales?.Where(f => f.Name == "English (Australia)").FirstOrDefault();
-                    locale ??= locales?.Where(f => f.Name.StartsWith("English")).FirstOrDefault();
+                    if (savedVoice != "System Default")
+                        locale = locales.FirstOrDefault(f => f.Name == savedVoice);
+
+                    if (locale == null)
+                    {
+                        var cultureName = CultureInfo.CurrentCulture.NativeName;
+                        locale = locales?.Where(f => f.Name == cultureName).FirstOrDefault();
+                        locale ??= locales?.Where(f => f.Name == "English (United States)").FirstOrDefault();
+                        locale ??= locales?.Where(f => f.Name == "English (Australia)").FirstOrDefault();
+                        locale ??= locales?.Where(f => f.Name.StartsWith("English")).FirstOrDefault();
+                    }
                 }
 
-                var settings = new SpeechOptions()
+                speechOptions = new SpeechOptions()
                 {
                     Volume = 1.0f,
-                    Pitch = 1.0f,
+                    Pitch = GetSpeechPitch(),
                     Locale = locale
                 };
-                speechOptions = settings;
             }
             return speechOptions;
         }

@@ -1,9 +1,10 @@
 using WikiExtractor.Maui.App.Services;
 using WikiExtractor.Maui.App.Models.Mix;
 using WikiExtractor.Maui.App.Exts;
-using Maui.Wiki.ViewModels;
+using WikiExtractor.Maui.App.ViewModels;
 using Syncfusion.Maui.Buttons;
 using System;
+using System.Threading;
 using System.Threading.Tasks;
 using Pj.Library;
 
@@ -11,36 +12,71 @@ namespace WikiExtractor.Maui.App.Views
 {
     public partial class SettingsPage : ContentPage
     {
+        private CancellationTokenSource _pitchDebounce;
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            try
+            {
+                if (BindingContext is SettingsViewModel vm)
+                {
+                    await vm.LoadAsync();
+                    await vm.LoadVoicesAsync();
+                }
+                ApplySwitchThemeColors();
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
+        private void ApplySwitchThemeColors()
+        {
+            try
+            {
+                var settings = hideViewedSwitch.SwitchSettings;
+                settings.SetDynamicResource(Syncfusion.Maui.Buttons.SwitchSettings.TrackBackgroundProperty, "WikiAppSwitchTrackColorOn");
+                settings.SetDynamicResource(Syncfusion.Maui.Buttons.SwitchSettings.ThumbBackgroundProperty, "WikiAppSwitchThumbColorOn");
+            }
+            catch { }
+        }
+
         public SettingsPage()
         {
             InitializeComponent();
-            
+
             try
             {
-                // Get the required services from the service provider with fallback
                 var themeHandler = GetThemeHandlerService();
                 var errorHandlingService = GetErrorHandlingService();
-                
-                // Set the binding context with the required services
                 BindingContext = new SettingsViewModel(themeHandler, errorHandlingService);
             }
             catch (Exception ex)
             {
-                // Fallback: create ViewModel without services if they're not available
                 System.Diagnostics.Debug.WriteLine($"Warning: Failed to initialize SettingsPage with services: {ex.Message}");
                 BindingContext = new SettingsViewModel(null, null);
             }
+
+            try
+            {
+                var name = AppInfo.Current.Name;
+                var version = AppInfo.Current.VersionString;
+                lblVersion.Text = $"{name} v{version}";
+            }
+            catch
+            {
+                lblVersion.Text = string.Empty;
+            }
         }
 
-        private WikiExtractor.Maui.App.Services.IThemeHandler GetThemeHandlerService()
+        private IThemeHandler GetThemeHandlerService()
         {
             try
             {
-                // Try CustomServices fallback
                 var customService = SharedServiceCore.ThemeHandler;
                 if (customService != null) return customService;
-                
-                // Create fallback instance
                 return new ThemeHandler();
             }
             catch
@@ -51,58 +87,38 @@ namespace WikiExtractor.Maui.App.Views
 
         private IErrorHandlingService GetErrorHandlingService()
         {
-            try
-            {
-                return ServiceLocator.GetService<IErrorHandlingService>();
-            }
-            catch
-            {
-                return null; // SettingsViewModel should handle null gracefully
-            }
+            try { return ServiceLocator.GetService<IErrorHandlingService>(); }
+            catch { return null; }
         }
 
         private async void HideViewedSwitch_StateChanged(object sender, SwitchStateChangedEventArgs e)
         {
-            await Task.Run(() =>
-            {
-                try
-                {
-                    // The ViewModel property setter already handles saving the setting
-                    // This event handler is mainly for any additional UI feedback if needed
-                    if (BindingContext is SettingsViewModel viewModel)
-                    {
-                        // The binding will automatically update the ViewModel property
-                        // which in turn saves the setting via SettingsHelper
-                    }
-                }
-                catch (Exception ex)
-                {
-                    // Handle any errors - you might want to inject an error handling service
-                    System.Diagnostics.Debug.WriteLine($"Error in HideViewedSwitch_StateChanged: {ex.Message}");
-                }
-            });
+            await Task.CompletedTask;
         }
 
         private async void SfSegmentSortOrder_SelectionChanged(object sender, Syncfusion.Maui.Buttons.SelectionChangedEventArgs e)
         {
-            await Task.Run(() =>
+            await Task.CompletedTask;
+        }
+
+        private void SliderSpeechPitch_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            _pitchDebounce?.Cancel();
+            _pitchDebounce?.Dispose();
+            _pitchDebounce = new CancellationTokenSource();
+            var token = _pitchDebounce.Token;
+            Task.Delay(300, token).ContinueWith(t =>
             {
                 try
                 {
-                    // The ViewModel property setter already handles saving the setting
-                    // This event handler is mainly for any additional processing if needed
-                    if (BindingContext is SettingsViewModel viewModel)
-                    {
-                        // The binding will automatically update the ViewModel property
-                        // which in turn saves the setting via SettingsHelper
-                    }
+                    if (!t.IsCanceled && BindingContext is SettingsViewModel vm)
+                        vm.SpeechPitch = (float)e.NewValue;
                 }
                 catch (Exception ex)
                 {
-                    // Handle any errors
-                    System.Diagnostics.Debug.WriteLine($"Error in SfSegmentSortOrder_SelectionChanged: {ex.Message}");
+                    ExceptionHandler.CaptureException(ex);
                 }
-            });
+            }, TaskScheduler.FromCurrentSynchronizationContext());
         }
     }
 }

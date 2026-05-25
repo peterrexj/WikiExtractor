@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using WikiExtractor.Maui.App.Services;
 
-namespace Maui.Wiki.Services
+namespace WikiExtractor.Maui.App.Services
 {
     public class SecureStorageService : ISecureStorageService
     {

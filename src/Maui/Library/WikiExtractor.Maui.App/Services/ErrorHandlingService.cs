@@ -1,8 +1,9 @@
 using System.Diagnostics;
+using WikiExtractor.Maui.App.Exts;
 using WikiExtractor.Maui.App.Services;
 using WikiExtractor.Process;
 
-namespace Maui.Wiki.Services
+namespace WikiExtractor.Maui.App.Services
 {
     public class ErrorHandlingService : IErrorHandlingService
     {

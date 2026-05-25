@@ -8,109 +8,62 @@
     xmlns:viewModels="clr-namespace:WikiExtractor.Maui.App.ViewModels;assembly=WikiExtractor.Maui.App"
     x:DataType="viewModels:ItemDetailListViewModel">
 
-    <!--  Enhanced Header3 template with consistent styling  -->
-    <Border
-        Margin="{OnIdiom Phone='5,2,5,2',
-                         Tablet='8,3,8,3',
-                         Desktop='8,3,8,3',
-                         Default='5,2,5,2'}"
-        Padding="{OnIdiom Phone='10,6',
-                          Tablet='14,8',
-                          Desktop='14,8',
-                          Default='10,6'}"
+    <!--  Header3 — sub-section heading, indented from Header2  -->
+    <Grid
+        Margin="{OnIdiom Phone='28,4,14,2', Tablet='36,6,18,2', Default='28,4,14,2'}"
         HorizontalOptions="Fill"
-        StrokeShape="RoundRectangle 6"
-        StrokeThickness="0"
         VerticalOptions="Fill">
-        <Border.Background>
-            <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                <GradientStop Offset="0.0" Color="{DynamicResource WikiAppHeader3BackgroundStart}" />
-                <GradientStop Offset="0.5" Color="{DynamicResource WikiAppHeader3BackgroundMid}" />
-                <GradientStop Offset="1.0" Color="{DynamicResource WikiAppHeader3BackgroundEnd}" />
-            </LinearGradientBrush>
-        </Border.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
 
-        <Grid HorizontalOptions="Fill" VerticalOptions="Center">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
-            </Grid.ColumnDefinitions>
+        <!--  Muted accent left bar  -->
+        <BoxView
+            Grid.Column="0"
+            BackgroundColor="{DynamicResource WikiAppListItemKeyTextColor}"
+            CornerRadius="1.5"
+            HorizontalOptions="Fill"
+            Opacity="0.6"
+            VerticalOptions="Fill" />
 
-            <!--  Header3 text with improved layout  -->
-            <Label
-                Grid.Column="0"
-                FontAttributes="Bold"
-                FontFamily="{DynamicResource DefaultFontFamily}"
-                FontSize="{OnIdiom Phone=16,
-                                   Tablet=20,
-                                   Desktop=22,
-                                   Default=16}"
-                HorizontalOptions="Fill"
-                LineBreakMode="WordWrap"
-                Text="{Binding Content}"
-                TextColor="{DynamicResource WikiAppHeader3TextColor}"
-                VerticalOptions="Center"
-                VerticalTextAlignment="Center" />
+        <!--  Header3 text  -->
+        <Label
+            Grid.Column="1"
+            Margin="8,0,0,0"
+            FontAttributes="Bold"
+            FontFamily="{DynamicResource DefaultFontFamily}"
+            FontSize="{OnIdiom Phone=15, Tablet=19, Default=15}"
+            HorizontalOptions="Fill"
+            LineBreakMode="WordWrap"
+            Text="{Binding Content}"
+            TextColor="{DynamicResource WikiAppHeader3TextColor}"
+            VerticalOptions="Center" />
 
-            <!--  Play/Stop button with enhanced styling and state management  -->
-            <StackLayout
-                Grid.Column="1"
-                HorizontalOptions="End"
-                IsVisible="{Binding IsPlayButtonRequired}"
-                Orientation="Horizontal"
-                Spacing="6"
-                VerticalOptions="Center">
-
-                <!--  Play Button - Visible when not playing  -->
-                <Border
-                    Padding="6"
-                    BackgroundColor="{DynamicResource WikiAppAudioPlayButtonColor}"
-                    HorizontalOptions="Center"
-                    IsVisible="{Binding IsPlaying, Converter={StaticResource InvertedBoolConverter}}"
-                    MinimumWidthRequest="40"
-                    StrokeShape="RoundRectangle 12"
-                    StrokeThickness="1"
-                    VerticalOptions="Center">
-                    <Border.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.PlayAudio}" CommandParameter="{Binding ContentLinkId}" />
-                    </Border.GestureRecognizers>
-                    <Label
-                        FontAttributes="Bold"
-                        FontSize="{OnIdiom Phone=14,
-                                           Tablet=16,
-                                           Desktop=18,
-                                           Default=14}"
-                        HorizontalOptions="Center"
-                        Text="▶"
-                        TextColor="{DynamicResource WikiAppAudioButtonTextColor}"
-                        VerticalOptions="Center" />
-                </Border>
-
-                <!--  Stop Button - Visible when playing  -->
-                <Border
-                    Padding="6"
-                    BackgroundColor="{DynamicResource WikiAppAudioStopButtonColor}"
-                    HorizontalOptions="Center"
-                    IsVisible="{Binding IsPlaying}"
-                    MinimumWidthRequest="40"
-                    StrokeShape="RoundRectangle 12"
-                    StrokeThickness="1"
-                    VerticalOptions="Center">
-                    <Border.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StopAudio}" />
-                    </Border.GestureRecognizers>
-                    <Label
-                        FontAttributes="Bold"
-                        FontSize="{OnIdiom Phone=14,
-                                           Tablet=16,
-                                           Desktop=18,
-                                           Default=14}"
-                        HorizontalOptions="Center"
-                        Text="⏹"
-                        TextColor="{DynamicResource WikiAppAudioButtonTextColor}"
-                        VerticalOptions="Center" />
-                </Border>
-            </StackLayout>
-        </Grid>
-    </Border>
+        <!--  Play/Stop audio — subtle icon-only, no background  -->
+        <Label
+            Grid.Column="2"
+            Margin="8,0,4,0"
+            FontFamily="FontAwesome"
+            FontSize="{OnIdiom Phone=13, Tablet=16, Default=13}"
+            HorizontalOptions="End"
+            IsVisible="{Binding IsPlayButtonRequired}"
+            Opacity="0.45"
+            Text="&#xf04b;"
+            TextColor="{DynamicResource WikiAppHeader3TextColor}"
+            VerticalOptions="Center">
+            <Label.Triggers>
+                <DataTrigger Binding="{Binding IsPlaying}" TargetType="Label" Value="True">
+                    <Setter Property="Text" Value="&#xf04d;" />
+                    <Setter Property="TextColor" Value="{DynamicResource WikiAppPrimaryAccentColor}" />
+                    <Setter Property="Opacity" Value="1.0" />
+                    <Setter Property="FontSize" Value="{OnIdiom Phone=11, Tablet=14, Default=11}" />
+                </DataTrigger>
+            </Label.Triggers>
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ToggleAudio}" CommandParameter="{Binding ContentLinkId}" />
+            </Label.GestureRecognizers>
+        </Label>
+    </Grid>
 </DataTemplate>

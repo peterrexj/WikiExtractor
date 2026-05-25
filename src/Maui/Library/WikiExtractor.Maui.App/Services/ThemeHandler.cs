@@ -23,11 +23,23 @@ namespace WikiExtractor.Maui.App.Services
         }
         public void LoadDefaultStyle()
         {
-            AppThemes? currentTheme = null;
-            Task.Run(async () => currentTheme = await GetCurrentThemeAsync()).Wait();
-            currentTheme ??= SharedServiceCore.DefaultAppTheme;
-            LoadDefaultStyle(currentTheme.Value);
-            
+            // Avoid .Wait() on the main thread — it deadlocks on iOS when the awaited
+            // work tries to marshal back to the main thread (e.g. SecureStorage).
+            // Fall back to the default theme synchronously; the saved preference is
+            // a nice-to-have that can be applied later.
+            var currentTheme = SharedServiceCore.DefaultAppTheme;
+            LoadDefaultStyle(currentTheme);
+
+            // Apply the user's saved theme asynchronously after the UI is up
+            Task.Run(async () =>
+            {
+                var saved = await GetCurrentThemeAsync();
+                if (saved.HasValue && saved.Value != currentTheme)
+                {
+                    await MainThread.InvokeOnMainThreadAsync(() => LoadDefaultStyle(saved.Value));
+                }
+            });
+
             // Load saved font family
             LoadSavedFontFamily();
         }
@@ -41,19 +53,23 @@ namespace WikiExtractor.Maui.App.Services
                     return;
                 }
 
+                // File names use underscores, not dots (e.g. Theme_Dark.xaml)
                 string themeFile;
                 switch (appTheme)
                 {
-                    case AppThemes.Dark: themeFile = "Theme.Dark.xaml"; break;
-                    case AppThemes.Light: themeFile = "Theme.Light.xaml"; break;
-                    case AppThemes.Forest: themeFile = "Theme.Forest.xaml"; break;
-                    default: throw new ArgumentException("Unsupported theme");
+                    case AppThemes.Dark: themeFile = "Theme_Dark.xaml"; break;
+                    case AppThemes.Light: themeFile = "Theme_Light.xaml"; break;
+                    case AppThemes.Forest: themeFile = "Theme_Forest.xaml"; break;
+                    case AppThemes.Candy: themeFile = "Theme_Candy.xaml"; break;
+                    case AppThemes.Sunset: themeFile = "Theme_Sunset.xaml"; break;
+                    case AppThemes.Ocean: themeFile = "Theme_Ocean.xaml"; break;
+                    default: themeFile = "Theme_Dark.xaml"; break;
                 }
                 ClearAllResources("WikiApp");
-                var commonStyles = LoadResourceDictionary("Theme.Styles.Common.xaml");
-                var commonStylesWikiPages = LoadResourceDictionary("Theme.Styles.WikiPages.xaml");
-                var commonStylesSettings = LoadResourceDictionary("Theme.Styles.Settings.xaml");
-                var commonStylesQuiz = LoadResourceDictionary("Theme.Styles.Quiz.xaml");
+                var commonStyles = LoadResourceDictionary("Theme_Styles_Common.xaml");
+                var commonStylesWikiPages = LoadResourceDictionary("Theme_Styles_WikiPages.xaml");
+                var commonStylesSettings = LoadResourceDictionary("Theme_Styles_Settings.xaml");
+                var commonStylesQuiz = LoadResourceDictionary("Theme_Styles_Quiz.xaml");
                 if (commonStyles != null) Application.Current?.Resources.MergedDictionaries.Add(commonStyles);
                 if (commonStylesWikiPages != null) Application.Current?.Resources.MergedDictionaries.Add(commonStylesWikiPages);
                 if (commonStylesSettings != null) Application.Current?.Resources.MergedDictionaries.Add(commonStylesSettings);
@@ -61,9 +77,12 @@ namespace WikiExtractor.Maui.App.Services
                 var themeStyles = LoadResourceDictionary(themeFile);
                 if (themeStyles != null) Application.Current?.Resources.MergedDictionaries.Add(themeStyles);
                 UpdateResources("WikiApp");
-                
+
                 // Reapply saved font family after theme change
                 LoadSavedFontFamily();
+
+                // Refresh quiz colors so the next quiz session picks up the new theme
+                InitializeQuizColorsBackground();
             }
             catch (Exception ex)
             {
@@ -138,7 +157,9 @@ namespace WikiExtractor.Maui.App.Services
         private void ClearAllResources(string prefix)
         {
             if (Application.Current?.Resources == null) return;
-            var keysToRemove = Application.Current.Resources.Keys.OfType<string>().Where(k => k.StartsWith(prefix)).ToList();
+            // Exclude user preferences that use the WikiApp prefix but are not theme resources
+            var excluded = new HashSet<string> { "WikiAppParagraphFontSize" };
+            var keysToRemove = Application.Current.Resources.Keys.OfType<string>().Where(k => k.StartsWith(prefix) && !excluded.Contains(k)).ToList();
             foreach (var key in keysToRemove) Application.Current.Resources.Remove(key);
             var dictionariesToRemove = Application.Current.Resources.MergedDictionaries.Where(d => d.Keys.OfType<string>().Any(k => k.StartsWith(prefix))).ToList();
             foreach (var dictionary in dictionariesToRemove) Application.Current.Resources.MergedDictionaries.Remove(dictionary);
@@ -165,18 +186,13 @@ namespace WikiExtractor.Maui.App.Services
             try
             {
                 if (Application.Current?.Resources == null) return;
-                
-                Task.Run(async () =>
-                {
-                    var fontFamily = await AppSettingsService.GetAppFontFamilyAsync();
-                    await MainThread.InvokeOnMainThreadAsync(() =>
-                    {
-                        if (Application.Current?.Resources != null && !string.IsNullOrEmpty(fontFamily))
-                        {
-                            Application.Current.Resources["DefaultFontFamily"] = fontFamily;
-                        }
-                    });
-                });
+
+                var fontFamily = AppSettingsService.GetAppFontFamilyAsync().GetAwaiter().GetResult();
+                var fontSize = AppSettingsService.GetParagraphFontSizeAsync().GetAwaiter().GetResult();
+
+                if (!string.IsNullOrEmpty(fontFamily))
+                    Application.Current.Resources["DefaultFontFamily"] = fontFamily;
+                Application.Current.Resources["WikiAppParagraphFontSize"] = fontSize;
             }
             catch (Exception ex)
             {

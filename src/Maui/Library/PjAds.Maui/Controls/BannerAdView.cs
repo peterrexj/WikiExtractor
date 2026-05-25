@@ -103,7 +103,7 @@ namespace PjAds.Maui.Controls
 #elif ANDROID
     public partial class BannerAdViewHandler : ViewHandler<BannerAdView, Android.Views.View>
 #else
-    public partial class BannerAdViewHandler : ViewHandler<BannerAdView, object>
+    public partial class BannerAdViewHandler : ViewHandler<BannerAdView, Microsoft.Maui.Platform.ContentView>
 #endif
     {
         /// <summary>
@@ -142,16 +142,16 @@ namespace PjAds.Maui.Controls
             handler.UpdateBannerType();
         }
 
+#if IOS || ANDROID
         // These tell the compiler that the implementation exists in the platform files
         partial void UpdateAdUnitId();
         partial void UpdateAdSize();
         partial void UpdateBannerType();
-
-#if !IOS && !ANDROID
-        protected override object CreatePlatformView()
+#else
+        protected override Microsoft.Maui.Platform.ContentView CreatePlatformView()
         {
-            // Return a placeholder object for unsupported platforms
-            return new object();
+            // Return a placeholder view for unsupported platforms
+            return new Microsoft.Maui.Platform.ContentView();
         }
 
         protected virtual void UpdateAdUnitId() { }

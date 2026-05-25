@@ -1,27 +1,30 @@
 ﻿using WikiExtractor.Maui.App.Services;
 using WikiExtractor.Exts;
 using Pj.Library;
+using Maui.Wiki.Views;
 
 namespace Maui.Wiki
 {
     public partial class App : Application
     {
         private readonly IThemeHandler _themeHandler;
+        private readonly SplashPage _splashPage;
 
-        public App(IServiceProvider serviceProvider, IThemeHandler themeHandler)
+        public App(IServiceProvider serviceProvider, IThemeHandler themeHandler, SplashPage splashPage)
         {
             try
             {
                 InitializeComponent();
 
                 _themeHandler = themeHandler;
+                _splashPage = splashPage;
                 ServiceLocator.ServiceProvider = serviceProvider;
 
                 AppDomain.CurrentDomain.UnhandledException += HandleUnhandledException;
                 TaskScheduler.UnobservedTaskException += HandleTaskSchedulerException;
 
                 // Register Syncfusion license
-                Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1JGaF5cXGpCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdlWX5fcXZVQ2ZYVE1wVkpWYEs=");
+                Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1JHaF5cWWdCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdlWXpfd3RQR2VZUUFwWERWYEo=");
 
                 // Initialize LocalStorageCacheFolderPath using dependency injection
 
@@ -105,7 +108,7 @@ namespace Maui.Wiki
         //    Debug.WriteLine(ex.StackTrace);
 
         //    // Log to app's exception handler
-        //    WikiExtractor.Maui.App.Exts.ExceptionHandler.CaptureException(ex, source);
+        //    WikiExtractor.Maui.App.Services.ExceptionHandler.CaptureException(ex, source);
 
         //    // You could also log to a file, send to a remote service, etc.
         //}
@@ -135,10 +138,47 @@ namespace Maui.Wiki
         {
             try
             {
-                return new Window(new AppShell());
+                System.Diagnostics.Debug.WriteLine("🪟 [App] CreateWindow START");
+                Console.WriteLine("🪟 [App] CreateWindow START");
+
+                var window = new Window(_splashPage);
+                System.Diagnostics.Debug.WriteLine("✅ [App] Window created with SplashPage");
+                Console.WriteLine("✅ [App] Window created with SplashPage");
+
+                return window;
             }
             catch (Exception ex)
             {
+                // Log the full exception with all inner exceptions
+                System.Diagnostics.Debug.WriteLine("❌❌❌ [App.CreateWindow] CRITICAL EXCEPTION ❌❌❌");
+                Console.WriteLine("❌❌❌ [App.CreateWindow] CRITICAL EXCEPTION ❌❌❌");
+                
+                var currentEx = ex;
+                var depth = 0;
+                while (currentEx != null)
+                {
+                    var prefix = depth == 0 ? "OUTER" : $"INNER-{depth}";
+                    System.Diagnostics.Debug.WriteLine($"❌ [{prefix}] Exception Type: {currentEx.GetType().FullName}");
+                    System.Diagnostics.Debug.WriteLine($"❌ [{prefix}] Message: {currentEx.Message}");
+                    System.Diagnostics.Debug.WriteLine($"❌ [{prefix}] StackTrace: {currentEx.StackTrace}");
+                    Console.WriteLine($"❌ [{prefix}] Exception Type: {currentEx.GetType().FullName}");
+                    Console.WriteLine($"❌ [{prefix}] Message: {currentEx.Message}");
+                    Console.WriteLine($"❌ [{prefix}] StackTrace: {currentEx.StackTrace}");
+                    
+                    // Check for TargetInvocationException which wraps the real exception
+                    if (currentEx is System.Reflection.TargetInvocationException)
+                    {
+                        System.Diagnostics.Debug.WriteLine($"❌ [{prefix}] This is a TargetInvocationException - checking InnerException");
+                        Console.WriteLine($"❌ [{prefix}] This is a TargetInvocationException - checking InnerException");
+                    }
+                    
+                    currentEx = currentEx.InnerException;
+                    depth++;
+                }
+                
+                System.Diagnostics.Debug.WriteLine("❌❌❌ [App.CreateWindow] END EXCEPTION DETAILS ❌❌❌");
+                Console.WriteLine("❌❌❌ [App.CreateWindow] END EXCEPTION DETAILS ❌❌❌");
+                
                 LogException(ex, "Window creation failed");
 
                 // Create a simple fallback window with an error message

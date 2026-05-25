@@ -29,16 +29,21 @@ namespace WikiExtractor.Maui.App.Controls
                         //item 0 - height
                         //item 1 - width
 
-                        var actualHeight = (automationId[0].ToDouble() / automationId[1].ToDouble()) * width;
-                        ((Border)sender).HeightRequest = actualHeight;
-                        //For tablets, since the width is shortened, the picture will sit in the centre with gaps around the border.
-                        //hence removing the border and radius
-                        if (width >= 600)
+                        var imgHeight = automationId[0].ToDouble();
+                        var imgWidth = automationId[1].ToDouble();
+                        if (width > 0 && imgWidth > 0)
                         {
-                            ((Border)sender).WidthRequest = width;
-                            ((Border)sender).Stroke = Colors.Transparent;
-                            ((Border)sender).StrokeThickness = 1;
-                            ((Border)sender).StrokeShape = new RoundRectangle { CornerRadius = 5 };
+                            var actualHeight = (imgHeight / imgWidth) * width;
+                            ((Border)sender).HeightRequest = actualHeight;
+                            //For tablets, since the width is shortened, the picture will sit in the centre with gaps around the border.
+                            //hence removing the border and radius
+                            if (width >= 600)
+                            {
+                                ((Border)sender).WidthRequest = width;
+                                ((Border)sender).Stroke = Colors.Transparent;
+                                ((Border)sender).StrokeThickness = 1;
+                                ((Border)sender).StrokeShape = new RoundRectangle { CornerRadius = 5 };
+                            }
                         }
                     }
                 }

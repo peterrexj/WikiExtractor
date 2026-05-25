@@ -14,10 +14,10 @@ namespace WikiExtractor.Maui.App.Constants
             return new List<string>
             {
                 "Calibri",
-                "CalibriBold",
-                "Parmch",
-                "OpenSansRegular",
-                "OpenSansSemibold"
+                "Lato",
+                "Nunito",
+                "Pacifico",
+                "Raleway"
             };
         }
     }

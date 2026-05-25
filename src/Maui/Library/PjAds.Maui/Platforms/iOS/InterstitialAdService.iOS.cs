@@ -1,20 +1,17 @@
 #if IOS
 using Foundation;
+using Google.MobileAds;
+using Microsoft.Extensions.Logging;
 using PjAds.Maui.Models;
 using PjAds.Maui.Services;
-using Microsoft.Extensions.Logging;
 using UIKit;
 
 namespace PjAds.Maui.Platforms.iOS
 {
-    /// <summary>
-    /// iOS implementation of interstitial ad service
-    /// Note: This is currently a stub implementation. Full Google Mobile Ads SDK integration requires additional setup.
-    /// </summary>
     public class InterstitialAdService : IInterstitialAdService
     {
         private readonly ILogger<InterstitialAdService>? _logger;
-        private bool _isAdLoaded;
+        private InterstitialAd? _interstitialAd;
         private string? _currentAdUnitId;
 
         public event EventHandler<AdLoadedEventArgs>? AdLoaded;
@@ -24,115 +21,112 @@ namespace PjAds.Maui.Platforms.iOS
         public event EventHandler<AdClickedEventArgs>? AdClicked;
         public event EventHandler<AdImpressionEventArgs>? AdImpression;
 
-        public bool IsInterstitialAdLoaded => _isAdLoaded;
-        public bool IsSupported => true; // Placeholder implementation is functional
+        public bool IsInterstitialAdLoaded => _interstitialAd != null;
+        public bool IsSupported => true;
 
-        public InterstitialAdService(ILogger<InterstitialAdService>? logger = null)
-        {
-            _logger = logger;
-        }
+        public InterstitialAdService(ILogger<InterstitialAdService>? logger = null) => _logger = logger;
 
         public async Task LoadInterstitialAdAsync(string adUnitId)
         {
-            try
-            {
-                _currentAdUnitId = adUnitId;
-                _logger?.LogInformation("Loading iOS interstitial ad placeholder for unit ID: {AdUnitId}", adUnitId);
+            _currentAdUnitId = adUnitId;
+            System.Diagnostics.Debug.WriteLine($"[PjAds] iOS InterstitialAdService.LoadInterstitialAdAsync — adUnitId='{adUnitId}'");
 
-                // Simulate realistic loading delay
-                await Task.Delay(1000);
-
-                // Always simulate successful ad load to prevent app crashes
-                _isAdLoaded = true;
-                
-                try
-                {
-                    AdLoaded?.Invoke(this, new AdLoadedEventArgs(adUnitId));
-                }
-                catch (Exception eventEx)
-                {
-                    _logger?.LogWarning(eventEx, "Error invoking AdLoaded event, but continuing");
-                }
-                
-                _logger?.LogInformation("iOS interstitial ad placeholder loaded successfully for unit ID: {AdUnitId}", adUnitId);
-            }
-            catch (Exception ex)
+            await MainThread.InvokeOnMainThreadAsync(() =>
             {
-                _logger?.LogWarning(ex, "Error during interstitial ad loading for unit ID: {AdUnitId}, but reporting success to prevent crashes", adUnitId);
-                
-                // Even if there's an error, still report success to avoid breaking the app
-                _isAdLoaded = true;
-                try
+                InterstitialAd.Load(adUnitId, Request.GetDefaultRequest(), (ad, error) =>
                 {
+                    if (error != null)
+                    {
+                        System.Diagnostics.Debug.WriteLine($"[PjAds] iOS InterstitialAd load failed — code={error.Code} msg='{error.LocalizedDescription}'");
+                        _interstitialAd = null;
+                        AdFailedToLoad?.Invoke(this, new AdFailedToLoadEventArgs(adUnitId, (int)error.Code, error.LocalizedDescription));
+                        return;
+                    }
+
+                    System.Diagnostics.Debug.WriteLine($"[PjAds] iOS InterstitialAd loaded — '{adUnitId}'");
+                    _interstitialAd = ad;
+                    _interstitialAd!.Delegate = new InterstitialDelegate(adUnitId, this);
                     AdLoaded?.Invoke(this, new AdLoadedEventArgs(adUnitId));
-                }
-                catch (Exception eventEx)
-                {
-                    _logger?.LogError(eventEx, "Failed to invoke AdLoaded event for unit ID: {AdUnitId}", adUnitId);
-                }
-            }
+                });
+            });
         }
 
         public async Task<bool> ShowInterstitialAdAsync()
         {
-            try
+            if (_interstitialAd == null)
             {
-                if (!_isAdLoaded)
-                {
-                    _logger?.LogWarning("No interstitial ad loaded to show, but returning success to prevent crashes");
-                    return true; // Return true to prevent app crashes
-                }
-
-                _logger?.LogInformation("Showing iOS interstitial ad placeholder");
-
-                // Simulate the ad opening - with error handling
-                try
-                {
-                    AdOpened?.Invoke(this, new InterstitialAdOpenedEventArgs(_currentAdUnitId ?? "placeholder"));
-                }
-                catch (Exception ex)
-                {
-                    _logger?.LogWarning(ex, "Error invoking AdOpened event, but continuing");
-                }
-
-                // Simulate showing delay
-                await Task.Delay(100);
-
-                // Simulate ad impression - with error handling
-                try
-                {
-                    AdImpression?.Invoke(this, new AdImpressionEventArgs(_currentAdUnitId ?? "placeholder"));
-                }
-                catch (Exception ex)
-                {
-                    _logger?.LogWarning(ex, "Error invoking AdImpression event, but continuing");
-                }
-
-                // Simulate user interaction (optional)
-                await Task.Delay(2000);
-
-                // Simulate ad closing - with error handling
-                try
-                {
-                    AdClosed?.Invoke(this, new InterstitialAdClosedEventArgs(_currentAdUnitId ?? "placeholder"));
-                }
-                catch (Exception ex)
-                {
-                    _logger?.LogWarning(ex, "Error invoking AdClosed event, but continuing");
-                }
-
-                _isAdLoaded = false;
-                _logger?.LogInformation("iOS interstitial ad placeholder shown successfully");
-                return true;
+                System.Diagnostics.Debug.WriteLine("[PjAds] iOS ShowInterstitialAdAsync — no ad loaded");
+                return false;
             }
-            catch (Exception ex)
+
+            return await MainThread.InvokeOnMainThreadAsync(() =>
             {
-                _logger?.LogWarning(ex, "Error showing interstitial ad, but returning success to prevent crashes");
-                
-                // Return true even on error to prevent app crashes
-                // The placeholder should always "work" from the app's perspective
-                _isAdLoaded = false;
+                var root = GetRootViewController();
+                if (root == null)
+                {
+                    System.Diagnostics.Debug.WriteLine("[PjAds] iOS ShowInterstitialAdAsync — no root view controller");
+                    return false;
+                }
+
+                _interstitialAd.Present(root);
                 return true;
+            });
+        }
+
+        private static UIViewController? GetRootViewController()
+        {
+            var windowScene = UIApplication.SharedApplication.ConnectedScenes
+                .OfType<UIWindowScene>()
+                .FirstOrDefault();
+            var window = windowScene?.Windows?.FirstOrDefault(w => w.IsKeyWindow)
+                ?? UIApplication.SharedApplication.KeyWindow;
+            var root = window?.RootViewController;
+            while (root?.PresentedViewController != null)
+                root = root.PresentedViewController;
+            return root;
+        }
+
+        private class InterstitialDelegate : FullScreenContentDelegate
+        {
+            private readonly string _adUnitId;
+            private readonly InterstitialAdService _service;
+
+            public InterstitialDelegate(string adUnitId, InterstitialAdService service)
+            {
+                _adUnitId = adUnitId;
+                _service = service;
+            }
+
+            public override void DidPresentFullScreenContent(FullScreenPresentingAd ad)
+            {
+                System.Diagnostics.Debug.WriteLine($"[PjAds] iOS InterstitialDelegate.DidPresent — '{_adUnitId}'");
+                _service.AdOpened?.Invoke(_service, new InterstitialAdOpenedEventArgs(_adUnitId));
+            }
+
+            public override void DidDismissFullScreenContent(FullScreenPresentingAd ad)
+            {
+                System.Diagnostics.Debug.WriteLine($"[PjAds] iOS InterstitialDelegate.DidDismiss — '{_adUnitId}'");
+                _service._interstitialAd = null;
+                _service.AdClosed?.Invoke(_service, new InterstitialAdClosedEventArgs(_adUnitId));
+            }
+
+            public override void DidFailToPresentFullScreenContent(FullScreenPresentingAd ad, NSError error)
+            {
+                System.Diagnostics.Debug.WriteLine($"[PjAds] iOS InterstitialDelegate.DidFailToPresent — code={error.Code} msg='{error.LocalizedDescription}'");
+                _service._interstitialAd = null;
+                _service.AdFailedToLoad?.Invoke(_service, new AdFailedToLoadEventArgs(_adUnitId, (int)error.Code, error.LocalizedDescription));
+            }
+
+            public override void DidRecordClick(FullScreenPresentingAd ad)
+            {
+                System.Diagnostics.Debug.WriteLine($"[PjAds] iOS InterstitialDelegate.DidRecordClick — '{_adUnitId}'");
+                _service.AdClicked?.Invoke(_service, new AdClickedEventArgs(_adUnitId));
+            }
+
+            public override void DidRecordImpression(FullScreenPresentingAd ad)
+            {
+                System.Diagnostics.Debug.WriteLine($"[PjAds] iOS InterstitialDelegate.DidRecordImpression — '{_adUnitId}'");
+                _service.AdImpression?.Invoke(_service, new AdImpressionEventArgs(_adUnitId));
             }
         }
     }

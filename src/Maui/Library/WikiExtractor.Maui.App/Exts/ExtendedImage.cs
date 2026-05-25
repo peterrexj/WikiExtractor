@@ -1,314 +1,204 @@
-using Pj.Library;
-using System;
 using System.IO;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
-using WikiExtractor.Maui.App.Exts;
+using WikiExtractor.Exts;
 
 namespace WikiExtractor.Maui.App.Exts
 {
     public class ExtendedImage : Image
     {
-        public ExtendedImage()
+        // Shared across all instances — avoids socket exhaustion from per-download HttpClient
+        private static readonly HttpClient _httpClient = new HttpClient
         {
+            Timeout = TimeSpan.FromSeconds(30)
+        };
 
-        }
+        // Tracks the in-flight load so a rapid binding update cancels the previous one
+        private CancellationTokenSource _loadCts;
 
-        void RunOnAppDispatcher(Action action)
-        {
-            try
-            {
-                Application.Current.Dispatcher.Dispatch(() =>
-                {
-                    action();
-                });
-            }
-            catch (Exception ex)
-            {
-                // TODO: Implement proper exception handling
-                System.Diagnostics.Debug.WriteLine($"ExtendedImage Exception: {ex.Message}");
-            }
-        }
+        #region LocalFileName — filename only, resolved to the app's local storage folder
 
-        #region Local Image Path
         public static readonly BindableProperty LocalFileNameProperty =
             BindableProperty.Create(
-                propertyName: "LocalFileName",
-                returnType: typeof(string),
-                declaringType: typeof(ExtendedImage),
-                defaultValue: default(string),
-                propertyChanged: OnLocalFileNamePropertyChanged);
+                nameof(LocalFileName),
+                typeof(string),
+                typeof(ExtendedImage),
+                default(string));
 
-        private string _localFileName;
         public string LocalFileName
         {
-            get { return (string)GetValue(LocalFileNameProperty); }
-            set { SetValue(LocalFileNameProperty, value); }
+            get => (string)GetValue(LocalFileNameProperty);
+            set => SetValue(LocalFileNameProperty, value);
         }
 
-        private static void OnLocalFileNamePropertyChanged(BindableObject bindable, object oldValue, object newValue)
+        // Resolves LocalFileName to a full path using the same folder as the rest of the app.
+        // Returns null when LocalFileName is not set.
+        private string ResolveLocalPath(string fileName)
         {
-            var control = (ExtendedImage)bindable;
-            if (newValue != null && !string.IsNullOrEmpty((string)newValue))
-            {
-                control._localFileName = Path.Combine(FileSystem.CacheDirectory, (string)newValue);
-            }
-            else
-            {
-                control._localFileName = null;
-            }
+            if (string.IsNullOrEmpty(fileName)) return null;
+            return Path.Combine(ConfigData.LocalStorageCacheFolderPath, fileName);
         }
 
         #endregion
 
-        #region CustomSource
+        #region CustomSource — accepts a local file path string or a URL string
+
         public static readonly BindableProperty CustomSourceProperty =
             BindableProperty.Create(
-                propertyName: "CustomSource",
-                returnType: typeof(ImageSource),
-                declaringType: typeof(ExtendedImage),
-                defaultValue: default(ImageSource),
+                nameof(CustomSource),
+                typeof(string),
+                typeof(ExtendedImage),
+                default(string),
                 propertyChanged: OnCustomSourcePropertyChanged);
 
         private static void OnCustomSourcePropertyChanged(BindableObject bindable, object oldValue, object newValue)
         {
-            try
-            {
-                var control = (ExtendedImage)bindable;
-                if (newValue is UriImageSource uriImageSource && uriImageSource.Uri != null)
-                {
-                    control.CustomSource = ImageSource.FromUri(((Microsoft.Maui.Controls.UriImageSource)newValue).Uri);
-                }
-                else if (newValue is FileImageSource)
-                {
-                    control.CustomSource = (Microsoft.Maui.Controls.FileImageSource)newValue;
-                }
-            }
-            catch (Exception ex)
-            {
-                // TODO: Implement proper exception handling
-                System.Diagnostics.Debug.WriteLine($"ExtendedImage Exception: {ex.Message}");
-            }
+            var control = (ExtendedImage)bindable;
+            var path = newValue as string;
+            control.ApplySource(path);
         }
 
-        public ImageSource CustomSource
+        public string CustomSource
         {
-            get => base.Source;
-            set
-            {
-                Task.Run(() =>
-                    RunOnAppDispatcher(() =>
-                    {
-                        try
-                        {
-                            if (value is UriImageSource uriImageSource && uriImageSource.Uri != null)
-                            {
-                                base.Source = null;
-                                LoadImageAsync(uriImageSource.Uri.ToString());
-                            }
-                            else
-                            {
-                                base.Source = null;
-                                base.Source = ImageSource.FromFile(((Microsoft.Maui.Controls.FileImageSource)value).File);
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            // TODO: Implement proper exception handling
-                            System.Diagnostics.Debug.WriteLine($"ExtendedImage Exception: {ex.Message}");
-                        }
-                    })
-                );
-            }
+            get => (string)GetValue(CustomSourceProperty);
+            set => SetValue(CustomSourceProperty, value);
         }
+
         #endregion
 
-        #region Picture Source
-        public static readonly BindableProperty PictureSourceProperty =
+        #region PageCancellationTokenSource — linked when the host page navigates away
+
+        public static readonly BindableProperty PageCancellationTokenSourceProperty =
             BindableProperty.Create(
-                propertyName: "PictureSource",
-                returnType: typeof(object),
-                declaringType: typeof(ExtendedImage),
-                defaultValue: default(object),
-                propertyChanged: OnPictureSourcePropertyChanged);
+                nameof(PageCancellationTokenSource),
+                typeof(CancellationTokenSource),
+                typeof(ExtendedImage),
+                default(CancellationTokenSource));
 
-        private static void OnPictureSourcePropertyChanged(BindableObject bindable, object oldValue, object newValue)
+        public CancellationTokenSource PageCancellationTokenSource
         {
-            try
-            {
-                var control = (ExtendedImage)bindable;
-                control.PictureSource = newValue;
-            }
-            catch (Exception ex)
-            {
-                // TODO: Implement proper exception handling
-                System.Diagnostics.Debug.WriteLine($"ExtendedImage Exception: {ex.Message}");
-            }
-        }
-
-        public object PictureSource
-        {
-            set
-            {
-                Task.Run(() =>
-                    RunOnAppDispatcher(() =>
-                    {
-                        try
-                        {
-                            if (value == null) { return; }
-                            
-                            // TODO: Implement PictureViewModel handling when available
-                            // For now, handle basic image source
-                            if (value is string imagePath)
-                            {
-                                if (File.Exists(imagePath))
-                                {
-                                    base.Source = null;
-                                    base.Source = ImageSource.FromFile(imagePath);
-                                }
-                                else if (!string.IsNullOrEmpty(imagePath) && imagePath.StartsWith("http"))
-                                {
-                                    if (string.IsNullOrEmpty(_localFileName))
-                                    {
-                                        var fileName = Path.GetFileName(imagePath);
-                                        if (!string.IsNullOrEmpty(fileName))
-                                        {
-                                            _localFileName = Path.Combine(FileSystem.CacheDirectory, fileName);
-                                        }
-                                    }
-                                    if (!string.IsNullOrEmpty(_localFileName))
-                                    {
-                                        base.Source = null;
-                                        LoadImageAsync(imagePath);
-                                    }
-                                }
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            // TODO: Implement proper exception handling
-                            System.Diagnostics.Debug.WriteLine($"ExtendedImage Exception: {ex.Message}");
-                        }
-                    })
-                );
-            }
+            get => (CancellationTokenSource)GetValue(PageCancellationTokenSourceProperty);
+            set => SetValue(PageCancellationTokenSourceProperty, value);
         }
 
         #endregion
 
-        #region Image Width
+        #region ImageWidth / ImageHeight — metadata for external callers, not used internally
 
         public static readonly BindableProperty ImageWidthProperty =
             BindableProperty.Create(nameof(ImageWidth), typeof(int), typeof(ExtendedImage), default(int));
 
         public int ImageWidth
         {
-            get { return (int)GetValue(ImageWidthProperty); }
-            set { SetValue(ImageWidthProperty, value); }
+            get => (int)GetValue(ImageWidthProperty);
+            set => SetValue(ImageWidthProperty, value);
         }
-
-        #endregion
-
-        #region Image Height
 
         public static readonly BindableProperty ImageHeightProperty =
             BindableProperty.Create(nameof(ImageHeight), typeof(int), typeof(ExtendedImage), default(int));
 
         public int ImageHeight
         {
-            get { return (int)GetValue(ImageHeightProperty); }
-            set { SetValue(ImageHeightProperty, value); }
+            get => (int)GetValue(ImageHeightProperty);
+            set => SetValue(ImageHeightProperty, value);
         }
 
         #endregion
 
-        #region Cancellation Token from the page
-
-        public static readonly BindableProperty PageCancellationTokenSourceProperty =
-            BindableProperty.Create(nameof(PageCancellationTokenSource), typeof(CancellationTokenSource), typeof(ExtendedImage), default(CancellationTokenSource));
-
-        public CancellationTokenSource PageCancellationTokenSource
+        // Entry point for both the bindable property change and the post-download refresh.
+        // Cancels any in-flight load before starting a new one.
+        private void ApplySource(string path)
         {
-            get { return (CancellationTokenSource)GetValue(PageCancellationTokenSourceProperty); }
-            set { SetValue(PageCancellationTokenSourceProperty, value); }
+            // Cancel previous load (rapid binding updates, question change in quiz)
+            _loadCts?.Cancel();
+            _loadCts?.Dispose();
+            _loadCts = new CancellationTokenSource();
+            var token = _loadCts.Token;
+
+            _ = LoadAsync(path, token);
         }
 
-        #endregion
+        // Called from PersonaDetailPage after a background download completes to refresh the image.
+        public void RefreshFromLocalFile()
+        {
+            var localPath = ResolveLocalPath(LocalFileName);
+            if (localPath != null)
+                ApplySource(localPath);
+        }
 
-        private async Task GetImageStreamFromUrl(string url)
+        private async Task LoadAsync(string path, CancellationToken token)
         {
             try
             {
-                if (string.IsNullOrEmpty(_localFileName))
+                if (string.IsNullOrEmpty(path))
                 {
+                    SetSourceOnMainThread(null, token);
                     return;
                 }
-                
-                if (PageCancellationTokenSource == null)
+
+                // Local file — check disk first, then show
+                if (!path.StartsWith("http", StringComparison.OrdinalIgnoreCase))
                 {
-                    PageCancellationTokenSource = new CancellationTokenSource();
+                    if (File.Exists(path))
+                        SetSourceOnMainThread(ImageSource.FromFile(path), token);
+                    else
+                        SetSourceOnMainThread(null, token);
+                    return;
                 }
-                // TODO: Implement CacheImageDownloadHelper when available
-                // For now, use basic HTTP client to download image
-                using var httpClient = new HttpClient();
-                var imageBytes = await httpClient.GetByteArrayAsync(url);
-                await File.WriteAllBytesAsync(_localFileName, imageBytes);
+
+                // Remote URL — resolve to local cache path via LocalFileName
+                var localPath = ResolveLocalPath(LocalFileName);
+                if (string.IsNullOrEmpty(localPath))
+                {
+                    // Derive filename from URL when LocalFileName is not bound
+                    var derived = Path.GetFileName(new Uri(path).LocalPath);
+                    if (!string.IsNullOrEmpty(derived))
+                        localPath = Path.Combine(ConfigData.LocalStorageCacheFolderPath, derived);
+                }
+
+                if (string.IsNullOrEmpty(localPath))
+                    return;
+
+                // Serve from cache when available
+                if (File.Exists(localPath))
+                {
+                    SetSourceOnMainThread(ImageSource.FromFile(localPath), token);
+                    return;
+                }
+
+                // Download — respect both the per-load token and the page-level token
+                using var linked = PageCancellationTokenSource != null
+                    ? CancellationTokenSource.CreateLinkedTokenSource(token, PageCancellationTokenSource.Token)
+                    : CancellationTokenSource.CreateLinkedTokenSource(token);
+
+                var imageBytes = await _httpClient.GetByteArrayAsync(path, linked.Token);
+                if (linked.Token.IsCancellationRequested) return;
+
+                await File.WriteAllBytesAsync(localPath, imageBytes, linked.Token);
+                if (linked.Token.IsCancellationRequested) return;
+
+                SetSourceOnMainThread(ImageSource.FromFile(localPath), token);
+            }
+            catch (OperationCanceledException)
+            {
+                // Navigation away or rapid update — silently discard
             }
             catch (Exception ex)
             {
-                // TODO: Implement proper exception handling
-                System.Diagnostics.Debug.WriteLine($"ExtendedImage Exception: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"[ExtendedImage] LoadAsync failed for '{path}': {ex.Message}");
             }
         }
-        public async void LoadImageAsync(string imageUrl)
+
+        private void SetSourceOnMainThread(ImageSource source, CancellationToken token)
         {
-            try
+            if (token.IsCancellationRequested) return;
+            Application.Current?.Dispatcher.Dispatch(() =>
             {
-                if (string.IsNullOrEmpty(_localFileName))
-                {
-                    return;
-                }
-                
-                await GetImageStreamFromUrl(imageUrl);
-                base.Source = null;
-                base.Source = ImageSource.FromFile(_localFileName);
-            }
-            catch (Exception ex)
-            {
-                // TODO: Implement proper exception handling
-                System.Diagnostics.Debug.WriteLine($"ExtendedImage Exception: {ex.Message}");
-            }
-        }
-        public new ImageSource Source
-        {
-            get => base.Source;
-            set
-            {
-                Task.Run(() =>
-                {
-                    RunOnAppDispatcher(() =>
-                    {
-                        try
-                        {
-                            if (value is UriImageSource uriImageSource && uriImageSource.Uri != null)
-                            {
-                                LoadImageAsync(uriImageSource.Uri.ToString());
-                            }
-                            else
-                            {
-                                base.Source = value;
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            // TODO: Implement proper exception handling
-                            System.Diagnostics.Debug.WriteLine($"ExtendedImage Exception: {ex.Message}");
-                        }
-                    });
-                });
-            }
+                if (!token.IsCancellationRequested)
+                    base.Source = source;
+            });
         }
     }
 }

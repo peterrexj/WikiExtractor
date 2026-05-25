@@ -79,6 +79,7 @@
                     <!-- Fact Text - Fully Readable -->
                     <Label x:Name="FactLabel"
                            Text="{Binding CurrentFactText}"
+                           FontFamily="{DynamicResource DefaultFontFamily}"
                            FontSize="14"
                            LineBreakMode="WordWrap"
                            TextColor="{DynamicResource WikiAppLoadingFactTextColor}"
@@ -104,6 +105,7 @@
 
                 <!--  Simple Loading Text (Lite Mode)  -->
                 <Label x:Name="LoadingTextLabel"
+                       FontFamily="{DynamicResource DefaultFontFamily}"
                        FontSize="15"
                        FontAttributes="Bold"
                        HorizontalOptions="Center"
@@ -120,6 +122,7 @@
                                       HeightRequest="16"
                                       VerticalOptions="Center" />
                     <Label Text="Loading..."
+                           FontFamily="{DynamicResource DefaultFontFamily}"
                            FontSize="12"
                            TextColor="{DynamicResource WikiAppLoadingHintTextColor}"
                            VerticalOptions="Center"

@@ -168,28 +168,12 @@ namespace PjAds.Maui.Services
             }
         }
 
-        private async Task InitializeMobileAdsSDK()
+        private Task InitializeMobileAdsSDK()
         {
-            try
-            {
-#if ANDROID
-                await Task.Run(() =>
-                {
-                    Android.Gms.Ads.MobileAds.Initialize(Platform.CurrentActivity ?? global::Android.App.Application.Context);
-                });
-#elif IOS
-                await Task.Run(() =>
-                {
-                    Google.MobileAds.MobileAds.SharedInstance.Start(null);
-                });
-#endif
-                _logger?.LogDebug("Mobile Ads SDK initialized");
-            }
-            catch (Exception ex)
-            {
-                _logger?.LogError(ex, "Failed to initialize Mobile Ads SDK");
-                throw;
-            }
+            // MobileAds.Initialize is called in MainActivity.OnCreate (Android) and AppDelegate (iOS)
+            // before any ad loads — nothing to do here.
+            _logger?.LogDebug("Mobile Ads SDK initialization delegated to platform entry point");
+            return Task.CompletedTask;
         }
     }
 }

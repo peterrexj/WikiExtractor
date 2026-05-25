@@ -91,7 +91,7 @@ namespace WikiExtractor.Process
                    join itemReadStatusJoin in userStoreDatabase.ItemReadTrackerRepository.GetAll() on master.Name equals itemReadStatusJoin.ItemIdentifier into itemReadStatusGroup
                    from itemReadStatus in itemReadStatusGroup.DefaultIfEmpty(new ItemReadTrackerModel { ItemIdentifier = master.Name, IsRead = 0 })
 
-                   where tags?.Contains(tag.Name) == true || tag.Name.IsEmpty()
+                   where tags == null || tags.Count == 0 || tags.Contains(tag.Name) || tag.Name.IsEmpty()
                    group new { master, mainContItem, primaryPic, metadata, tagItem, tag, itemReadStatus } by new { master.Id } into masterGroup
 
                    let primaryMetadata = isPrimaryMetadataContentEnabled ? masterGroup.Select(f => f.metadata).Where(f => primaryMetadataContentFields.Contains(f.Key) && f.Value.HasValue())

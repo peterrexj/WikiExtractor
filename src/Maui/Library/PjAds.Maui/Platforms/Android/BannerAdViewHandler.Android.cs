@@ -16,17 +16,20 @@ namespace PjAds.Maui.Controls
         private ILogger<BannerAdViewHandler>? _logger;
         private AdView? _adView;
 
+        private int BannerHeightPx =>
+            (int)(50 * (Context?.Resources?.DisplayMetrics?.Density ?? 1f));
+
         protected override Android.Views.View CreatePlatformView()
         {
             _bannerAdService = MauiContext?.Services?.GetService<IBannerAdService>();
             _logger = MauiContext?.Services?.GetService<ILogger<BannerAdViewHandler>>();
 
-            // Create a FrameLayout as a container (similar to the UIView container in iOS)
-            // This allows us to swap the AdView inside it without breaking the MAUI layout
+            System.Diagnostics.Debug.WriteLine($"[PjAds] CreatePlatformView — service={(_bannerAdService != null ? "OK" : "NULL")}");
+
             var container = new Android.Widget.FrameLayout(Context);
             container.LayoutParameters = new ViewGroup.LayoutParams(
                 ViewGroup.LayoutParams.MatchParent,
-                ViewGroup.LayoutParams.WrapContent);
+                BannerHeightPx);
 
             _adView = CreateNativeAdView();
             if (_adView != null)
@@ -52,6 +55,8 @@ namespace PjAds.Maui.Controls
         protected override void ConnectHandler(Android.Views.View platformView)
         {
             base.ConnectHandler(platformView);
+
+            System.Diagnostics.Debug.WriteLine($"[PjAds] ConnectHandler — AdUnitId='{VirtualView?.AdUnitId}' service={(_bannerAdService != null ? "OK" : "NULL")}");
 
             if (_bannerAdService != null)
             {
@@ -92,15 +97,18 @@ namespace PjAds.Maui.Controls
         {
             if (PlatformView is Android.Widget.FrameLayout container)
             {
-                _logger?.LogInformation("Recreating Android AdView due to property change.");
+                System.Diagnostics.Debug.WriteLine($"[PjAds] RecreateAdView — AdUnitId='{VirtualView?.AdUnitId}'");
 
-                // Clean up old view
                 _adView?.Destroy();
                 container.RemoveAllViews();
 
-                // Create and add new view
                 _adView = CreateNativeAdView();
                 container.AddView(_adView);
+
+                // Ensure container keeps its fixed height after recreation
+                container.LayoutParameters = new ViewGroup.LayoutParams(
+                    ViewGroup.LayoutParams.MatchParent,
+                    BannerHeightPx);
 
                 LoadAd();
             }
@@ -108,19 +116,30 @@ namespace PjAds.Maui.Controls
 
         private void LoadAd()
         {
-            if (_adView == null || _bannerAdService == null || string.IsNullOrEmpty(VirtualView.AdUnitId))
+            System.Diagnostics.Debug.WriteLine($"[PjAds] LoadAd — adView={(_adView != null ? "OK" : "NULL")} service={(_bannerAdService != null ? "OK" : "NULL")} unitId='{VirtualView?.AdUnitId}'");
+
+            if (_adView == null || _bannerAdService == null || string.IsNullOrEmpty(VirtualView?.AdUnitId))
+            {
+                System.Diagnostics.Debug.WriteLine("[PjAds] LoadAd — bailed out (null guard)");
                 return;
+            }
 
             try
             {
-                // We pass _adView specifically to the service
-                _ = Task.Run(async () =>
-                {
-                    await _bannerAdService.LoadBannerAdAsync(_adView, VirtualView.AdUnitId);
-                });
+                var adView = _adView;
+                var unitId = VirtualView.AdUnitId;
+                _ = _bannerAdService.LoadBannerAdAsync(adView, unitId)
+                    .ContinueWith(t =>
+                    {
+                        if (t.IsFaulted)
+                            System.Diagnostics.Debug.WriteLine($"[PjAds] LoadBannerAdAsync faulted: {t.Exception?.Flatten().InnerException?.Message}");
+                        else
+                            System.Diagnostics.Debug.WriteLine("[PjAds] LoadBannerAdAsync completed OK");
+                    });
             }
             catch (Exception ex)
             {
+                System.Diagnostics.Debug.WriteLine($"[PjAds] LoadAd exception: {ex.Message}");
                 _logger?.LogError(ex, "Failed to load Android banner ad");
             }
         }
@@ -139,8 +158,18 @@ namespace PjAds.Maui.Controls
             };
         }
 
-        private void OnAdLoaded(object? sender, AdLoadedEventArgs e) => VirtualView?.OnAdLoaded(e);
-        private void OnAdFailedToLoad(object? sender, AdFailedToLoadEventArgs e) => VirtualView?.OnAdFailedToLoad(e);
+        private void OnAdLoaded(object? sender, AdLoadedEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine($"[PjAds] OnAdLoaded — {e.AdUnitId}");
+            VirtualView?.OnAdLoaded(e);
+        }
+
+        private void OnAdFailedToLoad(object? sender, AdFailedToLoadEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine($"[PjAds] OnAdFailedToLoad — {e.AdUnitId} code={e.ErrorCode} msg={e.ErrorMessage}");
+            VirtualView?.OnAdFailedToLoad(e);
+        }
+
         private void OnAdClicked(object? sender, AdClickedEventArgs e) => VirtualView?.OnAdClicked(e);
         private void OnAdImpression(object? sender, AdImpressionEventArgs e) => VirtualView?.OnAdImpression(e);
     }

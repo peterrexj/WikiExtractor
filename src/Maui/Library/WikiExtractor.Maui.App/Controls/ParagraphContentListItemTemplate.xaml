@@ -6,51 +6,17 @@
     xmlns:viewModels="clr-namespace:WikiExtractor.Maui.App.ViewModels;assembly=WikiExtractor.Maui.App"
     x:DataType="viewModels:ItemDetailListViewModel">
 
-    <!--  Enhanced Paragraph template with proper spacing and background  -->
-    <!--<Border
-        Margin="{OnIdiom Phone='5,3,5,3',
-                         Tablet='8,5,8,5',
-                         Desktop='8,5,8,5',
-                         Default='5,3,5,3'}"
-        Padding="{OnIdiom Phone='12,8',
-                          Tablet='16,12',
-                          Desktop='16,12',
-                          Default='12,8'}"
-        BackgroundColor="{DynamicResource WikiAppContentBackgroundColor}"
-        HorizontalOptions="Fill"
-        Stroke="{DynamicResource WikiAppGrayColor}"
-        StrokeShape="RoundRectangle 4"
-        StrokeThickness="0.5"
-        VerticalOptions="Fill">-->
-
     <Label
-        Margin="{OnIdiom Phone='5,3,5,3',
-                         Tablet='8,5,8,5',
-                         Desktop='8,5,8,5',
-                         Default='5,3,5,3'}"
-        Padding="{OnIdiom Phone='5,0,5,0',
-                          Tablet='16,12',
-                          Desktop='16,12',
-                          Default='12,8'}"
-        CharacterSpacing="{OnIdiom Phone=0.3,
-                                   Tablet=0.4,
-                                   Desktop=0.4,
-                                   Default=0.3}"
+        Margin="{OnIdiom Phone='28,0,14,16', Tablet='36,0,18,20', Default='28,0,14,16'}"
+        CharacterSpacing="{OnIdiom Phone=0.2, Tablet=0.3, Default=0.2}"
         FontFamily="{DynamicResource DefaultFontFamily}"
-        FontSize="{OnIdiom Phone=14,
-                           Tablet=17,
-                           Desktop=17,
-                           Default=14}"
+        FontSize="{DynamicResource WikiAppParagraphFontSize}"
         HorizontalOptions="Fill"
         HorizontalTextAlignment="Start"
         LineBreakMode="WordWrap"
-        LineHeight="{OnIdiom Phone=1.3,
-                             Tablet=1.4,
-                             Desktop=1.4,
-                             Default=1.3}"
+        LineHeight="{OnIdiom Phone=1.55, Tablet=1.6, Default=1.55}"
         Text="{Binding Content}"
         TextColor="{DynamicResource WikiAppParagraphTextColor}"
         VerticalOptions="Fill"
         VerticalTextAlignment="Start" />
-    <!--</Border>-->
 </DataTemplate>

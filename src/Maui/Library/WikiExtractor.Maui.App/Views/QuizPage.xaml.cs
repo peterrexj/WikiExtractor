@@ -20,29 +20,40 @@ namespace WikiExtractor.Maui.App.Views
         {
             base.OnAppearing();
 
-            // Prevent re-loading if they navigate back to this page
-            if (_isInitialized) return;
-
-            _viewModel.IsPageBusy = true;
-
-            // Give the UI a tiny moment to finish the "Slide" animation of the page
-            await Task.Delay(100);
-
-            if (_viewModel != null)
+            try
             {
-                await _viewModel.InitializeAsync();
-                _isInitialized = true;
+                // Prevent re-loading if they navigate back to this page
+                if (_isInitialized) return;
+
+                if (_viewModel != null)
+                {
+                    _viewModel.IsPageBusy = true;
+
+                    // Give the UI a tiny moment to finish the "Slide" animation of the page
+                    await Task.Delay(100);
+
+                    await _viewModel.InitializeAsync();
+                    _isInitialized = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+                if (_viewModel != null) _viewModel.IsPageBusy = false;
             }
         }
 
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
-            
-            // Clean up any resources if needed
-            if (_viewModel != null)
+
+            try
             {
-                _viewModel.CleanupResources();
+                _viewModel?.CleanupResources();
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
             }
         }
 
