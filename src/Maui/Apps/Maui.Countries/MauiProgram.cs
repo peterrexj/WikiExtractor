@@ -41,6 +41,7 @@ namespace Maui.Countries
             builder.Services.AddSingleton<ISecureStorageService, SecureStorageService>();
             builder.Services.AddSingleton<IErrorHandlingService, ErrorHandlingService>();
             builder.Services.AddSingleton<IAlertService, AlertService>();
+            builder.Services.AddSingleton<INoAdsService, NoAdsService>();
 
             builder.Services.AddSingleton<WikiExtractor.Maui.App.Services.IThemeHandler, WikiExtractor.Maui.App.Services.ThemeHandler>();
             builder.Services.AddTransient<SettingsViewModel>();
@@ -86,7 +87,7 @@ namespace Maui.Countries
             };
             builder.Services.AddSingleton(adsConfig);
 
-            builder.UsePjAds(new AdConfiguration
+            var adConfig = new AdConfiguration
             {
                 ApplicationId = adsConfig.ApplicationId,
                 BannerAdUnitId = appInfo.AdsBannerId,
@@ -101,11 +102,10 @@ namespace Maui.Countries
 #endif
                 FirstInterstitialAdThreshold = 1,
                 SubsequentInterstitialAdThreshold = 3
-            }).ConfigurePjAdsHandlers();
+            };
+            builder.UsePjAds(adConfig).ConfigurePjAdsHandlers();
 
-            var app = builder.Build();
-
-            return app;
+            return builder.Build();
         }
     }
 }

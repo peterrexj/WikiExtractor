@@ -141,8 +141,8 @@
 		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.6" />
 		<PackageReference Include="Xamarin.AndroidX.AppCompat.AppCompatResources" Version="1.7.1.1" />
 
-		<PackageReference Include="Xamarin.AndroidX.Activity" Version="1.10.1.1" />
-		<PackageReference Include="Xamarin.AndroidX.SavedState" Version="1.2.1.16" />
+		<PackageReference Include="Xamarin.AndroidX.Activity" Version="1.10.1.2" />
+		<PackageReference Include="Xamarin.AndroidX.SavedState" Version="1.2.1.17" />
 		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime" Version="2.9.2.1" />
 
 		<ProguardConfiguration Include="proguard.cfg" />
@@ -218,10 +218,15 @@
 		<!-- AppCenter packages (MAUI compatible) -->
 		<PackageReference Include="Microsoft.AppCenter.Analytics" Version="5.0.3" Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) != 'ios'" />
 		<PackageReference Include="Microsoft.AppCenter.Crashes" Version="5.0.3" Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) != 'ios'" />
-		
+
+		<!-- Firebase Crashlytics - Android only (iOS GoogleUtilities version conflict with MobileAds) -->
+		<PackageReference Include="Plugin.Firebase.Crashlytics" Version="3.1.1" Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'" />
+
 		<!-- Google AdMob packages for PjAds.Maui -->
 		<!--<PackageReference Include="Xamarin.GooglePlayServices.Ads" Version="123.2.0" Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'" />-->
 		<!--<PackageReference Include="Xamarin.Google.iOS.MobileAds" Version="8.13.0.3" Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'" />-->
+
+		<PackageReference Include="Plugin.InAppBilling" Version="8.0.5" />
 	</ItemGroup>
 	
 	<ItemGroup>

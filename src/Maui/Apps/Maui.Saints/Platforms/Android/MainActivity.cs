@@ -4,6 +4,7 @@ using Android.Gms.Ads;
 using Android.OS;
 using Microsoft.Maui;
 using Microsoft.Maui.ApplicationModel;
+using Plugin.Firebase.Core.Platforms.Android;
 using WikiExtractor.Maui.App.Services;
 
 namespace Maui.Saints
@@ -21,6 +22,7 @@ namespace Maui.Saints
             base.OnCreate(savedInstanceState);
             Platform.Init(this, savedInstanceState);
 
+            CrossFirebase.Initialize(this);
             MobileAds.Initialize(this);
         }
     }

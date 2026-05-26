@@ -24,8 +24,24 @@ namespace WikiExtractor.Maui.App.Services
         private static IAdManager? _adManager;
         public static IAdManager AdManager => _adManager ??= ServiceLocator.GetService<IAdManager>();
 
+        private static INoAdsService? _noAdsService;
+        public static INoAdsService? NoAdsService => _noAdsService ??= ServiceLocator.GetService<INoAdsService>();
+
         private static AdsConfig? _adsConfig;
         public static AdsConfig AdsConfig => _adsConfig ??= ServiceLocator.GetService<AdsConfig>() ?? new AdsConfig();
+
+        // Disables ads on both config objects so AdManager.IsAdsEnabled returns false immediately.
+        public static void DisableAds()
+        {
+            try
+            {
+                AdsConfig.AdsEnabled = false;
+                var adManager = AdManager;
+                if (adManager != null)
+                    adManager.Configuration.AdsEnabled = false;
+            }
+            catch { }
+        }
 
         /// <summary>
         /// Get Image Service

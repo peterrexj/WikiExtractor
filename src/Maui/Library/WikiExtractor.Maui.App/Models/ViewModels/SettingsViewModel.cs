@@ -19,11 +19,30 @@ namespace WikiExtractor.Maui.App.ViewModels
         private int _sortBySelectedIndex;
         private float _speechPitch;
         private string? _selectedVoice;
+        private bool _noAdsEnabled;
+        private bool _noAdsBusy;
 
         public ObservableCollection<string> Themes { get; }
         public ObservableCollection<string> FontFamilies { get; }
         public ObservableCollection<SfSegmentItem> SortByCollection { get; }
         public ObservableCollection<string> AvailableVoices { get; } = new();
+
+        public bool NoAdsEnabled
+        {
+            get => _noAdsEnabled;
+            private set { _noAdsEnabled = value; OnPropertyChanged(); OnPropertyChanged(nameof(ShowRemoveAdsButton)); }
+        }
+
+        public bool NoAdsBusy
+        {
+            get => _noAdsBusy;
+            private set { _noAdsBusy = value; OnPropertyChanged(); }
+        }
+
+        public bool ShowRemoveAdsButton => !_noAdsEnabled;
+
+        public Command RemoveAdsCommand { get; }
+        public Command RestoreAdsCommand { get; }
 
         public string? SelectedTheme
         {
@@ -173,6 +192,8 @@ namespace WikiExtractor.Maui.App.ViewModels
                     SettingsHelper.GetSortAttributeBySelected(sortDescriptor));
                 var pitch = await Task.Run(() => SettingsHelper.GetSpeechPitch());
 
+                var noAds = SharedServiceCore.NoAdsService?.IsNoAdsEnabled ?? false;
+
                 await MainThread.InvokeOnMainThreadAsync(() =>
                 {
                     _hideViewedItems = hideRead;
@@ -181,6 +202,7 @@ namespace WikiExtractor.Maui.App.ViewModels
                     OnPropertyChanged(nameof(SortBySelectedIndex));
                     _speechPitch = pitch;
                     OnPropertyChanged(nameof(SpeechPitch));
+                    NoAdsEnabled = noAds;
                 });
             }
             catch { }
@@ -222,13 +244,13 @@ namespace WikiExtractor.Maui.App.ViewModels
         {
             _themeHandler = themeHandler;
             _errorHandlingService = errorHandlingService;
-            
+
             Themes = new ObservableCollection<string>(Enum.GetNames(typeof(WikiExtractor.Maui.App.Services.AppThemes)));
-            
+
             // Get registered fonts from platform-specific implementation
             var registeredFonts = SharedServiceCore.AppInformation?.GetRegisteredFontFamilies() ?? new List<string> { "Calibri" };
             FontFamilies = new ObservableCollection<string>(registeredFonts);
-            
+
             SortByCollection = new ObservableCollection<SfSegmentItem>
             {
                 new SfSegmentItem { Text = "Default" },
@@ -238,6 +260,9 @@ namespace WikiExtractor.Maui.App.ViewModels
                 new SfSegmentItem { Text = "UnRead" },
                 new SfSegmentItem { Text = "Random" }
             };
+
+            RemoveAdsCommand = new Command(async () => await OnRemoveAdsAsync());
+            RestoreAdsCommand = new Command(async () => await OnRestoreAdsAsync());
         }
 
         // Default constructor for XAML instantiation
@@ -247,11 +272,11 @@ namespace WikiExtractor.Maui.App.ViewModels
             _errorHandlingService = SharedServiceCore.ErrorHandlingService;
 
             Themes = new ObservableCollection<string>(Enum.GetNames(typeof(WikiExtractor.Maui.App.Services.AppThemes)));
-            
+
             // Get registered fonts from platform-specific implementation
             var registeredFonts = SharedServiceCore.AppInformation?.GetRegisteredFontFamilies() ?? new List<string> { "Calibri" };
             FontFamilies = new ObservableCollection<string>(registeredFonts);
-            
+
             SortByCollection = new ObservableCollection<SfSegmentItem>
             {
                 new SfSegmentItem { Text = "Default" },
@@ -261,6 +286,9 @@ namespace WikiExtractor.Maui.App.ViewModels
                 new SfSegmentItem { Text = "UnRead" },
                 new SfSegmentItem { Text = "Random" }
             };
+
+            RemoveAdsCommand = new Command(async () => await OnRemoveAdsAsync());
+            RestoreAdsCommand = new Command(async () => await OnRestoreAdsAsync());
         }
 
         private async Task ChangeThemeAsync(string selectedTheme)
@@ -323,6 +351,79 @@ namespace WikiExtractor.Maui.App.ViewModels
                     Application.Current.Resources["DefaultFontFamily"] = fontFamily;
                 }
             });
+        }
+
+        private async Task OnRemoveAdsAsync()
+        {
+            if (NoAdsBusy) return;
+            var noAdsService = SharedServiceCore.NoAdsService;
+            if (noAdsService == null) return;
+            var productId = SharedServiceCore.AppInformation?.NoAdsProductId;
+            if (string.IsNullOrEmpty(productId)) return;
+
+            NoAdsBusy = true;
+            try
+            {
+                var result = await noAdsService.PurchaseNoAdsAsync(productId);
+                switch (result)
+                {
+                    case NoAdsPurchaseResult.Purchased:
+                    case NoAdsPurchaseResult.AlreadyOwned:
+                        NoAdsEnabled = true;
+                        ApplyNoAdsToAdManager();
+                        break;
+                    case NoAdsPurchaseResult.Cancelled:
+                        break;
+                    case NoAdsPurchaseResult.Failed:
+                        await Application.Current!.MainPage!.DisplayAlert("Purchase Failed", "Unable to complete the purchase. Please try again.", "OK");
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                _errorHandlingService?.HandleException(ex);
+            }
+            finally
+            {
+                NoAdsBusy = false;
+            }
+        }
+
+        private async Task OnRestoreAdsAsync()
+        {
+            if (NoAdsBusy) return;
+            var noAdsService = SharedServiceCore.NoAdsService;
+            if (noAdsService == null) return;
+            var productId = SharedServiceCore.AppInformation?.NoAdsProductId;
+            if (string.IsNullOrEmpty(productId)) return;
+
+            NoAdsBusy = true;
+            try
+            {
+                var restored = await noAdsService.RestoreNoAdsAsync(productId);
+                if (restored)
+                {
+                    NoAdsEnabled = true;
+                    ApplyNoAdsToAdManager();
+                }
+                else
+                {
+                    await Application.Current!.MainPage!.DisplayAlert("Restore", "No previous purchase found.", "OK");
+                }
+            }
+            catch (Exception ex)
+            {
+                _errorHandlingService?.HandleException(ex);
+            }
+            finally
+            {
+                NoAdsBusy = false;
+            }
+        }
+
+        private static void ApplyNoAdsToAdManager()
+        {
+            SharedServiceCore.DisableAds();
         }
     }
 }

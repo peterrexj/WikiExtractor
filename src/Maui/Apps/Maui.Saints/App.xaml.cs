@@ -1,3 +1,4 @@
+using WikiExtractor.Maui.App.Exts;
 using WikiExtractor.Maui.App.Services;
 using WikiExtractor.Exts;
 using Pj.Library;
@@ -53,6 +54,18 @@ namespace Maui.Saints
                 {
                     _ = SharedServices.WikiAppController.AppMenuItems();
                     await FactCacheService.Instance.WaitForInitializationAsync(5000);
+                    var noAdsService = SharedServiceCore.NoAdsService;
+                    if (noAdsService != null)
+                    {
+                        var entitled = await noAdsService.LoadLocalEntitlementAsync();
+                        if (entitled)
+                            SharedServiceCore.DisableAds();
+                        else
+                        {
+                            var pendingResolved = await noAdsService.CheckPendingPurchaseAsync();
+                            if (pendingResolved) SharedServiceCore.DisableAds();
+                        }
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -75,6 +88,7 @@ namespace Maui.Saints
         private void LogException(Exception? exception, string source)
         {
             if (exception == null) return;
+            ExceptionHandler.CaptureException(exception, source);
         }
 
         protected override Window CreateWindow(IActivationState? activationState)

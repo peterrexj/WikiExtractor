@@ -231,18 +231,6 @@ namespace WikiExtractor.Maui.App.Views
             {
                 var personaObj = personaListViewModel.Personas.FirstOrDefault(f => f.Id == _masterId);
 
-                // Initialize navigation loading facts control
-                var loadingModel = new LoadingFactsModel
-                {
-                    ShowMasterImage = true,
-                    AutoMarkFactsAsShown = true,
-                    ShowFacts = true
-                };
-                navigationLoadingFactsControl.Show(loadingModel);
-
-                // 2. Perform logic. No Task.Run needed here as these are simple assignments.
-                personaObj = personaListViewModel.Personas.FirstOrDefault(f => f.Id == _masterId);
-
                 if (personaObj != null)
                 {
                     personaObj.IsPageBusy = true;
@@ -252,6 +240,9 @@ namespace WikiExtractor.Maui.App.Views
                 SharedServices.PageDataTransferModel.Id = _masterId;
                 SharedServices.PageDataTransferModel.Name = personaObj?.Name;
                 SharedServices.PageDataTransferModel.IsMarkedAsViewed = personaObj?.ItemReadStatus ?? false;
+
+                SharedServiceCore.AdManager?.RecordUserInteraction();
+                await (SharedServiceCore.AdManager?.TryShowInterstitialAdAsync() ?? Task.FromResult(false));
 
                 var route = $"{nameof(PersonaDetailPage)}?MasterId={_masterId}";
                 await Shell.Current.GoToAsync(route);
@@ -430,6 +421,8 @@ namespace WikiExtractor.Maui.App.Views
         {
             try
             {
+                SharedServiceCore.AdManager?.RecordUserInteraction();
+                await (SharedServiceCore.AdManager?.TryShowInterstitialAdAsync() ?? Task.FromResult(false));
                 await Shell.Current.GoToAsync($"{nameof(QuizPage)}");
             }
             catch (Exception ex)

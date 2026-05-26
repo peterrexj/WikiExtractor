@@ -208,6 +208,8 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         private async void InitializeQuizColors()
         {
+            try
+            {
             // This awaits the background task we started in App.xaml.cs
             _theme = await SharedServiceCore.ThemeHandler.GetThemeDataAsync();
 
@@ -233,6 +235,11 @@ namespace WikiExtractor.Maui.App.ViewModels
             {
                 foreach (var q in Questions)
                     q.SegmentColor = QuizProgressDefaultColor;
+            }
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex, "QuizPageViewModel.InitializeQuizColors");
             }
         }
 

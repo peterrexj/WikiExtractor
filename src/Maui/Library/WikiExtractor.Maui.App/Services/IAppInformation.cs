@@ -6,6 +6,7 @@ namespace WikiExtractor.Maui.App.Services
         public string AdsBannerId { get; }
         public string AdsQuizBannerId { get; }
         public string AdsInterstitialId { get; }
+        public string NoAdsProductId { get; }
 
 
         string ImageCacheFolder { get; }

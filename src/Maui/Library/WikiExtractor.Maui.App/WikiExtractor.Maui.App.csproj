@@ -99,7 +99,7 @@
 	<ItemGroup Condition="$(TargetFramework.StartsWith('net9.0-android'))">
 		<PackageReference Include="Xamarin.AndroidX.Core" Version="1.16.0.3" />
 		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.6" />
-		<PackageReference Include="Xamarin.AndroidX.Activity" Version="1.10.1.1" />
+		<PackageReference Include="Xamarin.AndroidX.Activity" Version="1.10.1.2" />
 		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime" Version="2.9.2.1" />
 		<PackageReference Include="Xamarin.GooglePlayServices.Ads" Version="123.2.0" />
 	</ItemGroup>
@@ -150,7 +150,13 @@
 		<!-- AppCenter packages (MAUI compatible) - temporarily commented out to isolate PE image metadata error -->
 		<!-- <PackageReference Include="Microsoft.AppCenter.Analytics" Version="5.0.3" /> -->
 		<!-- <PackageReference Include="Microsoft.AppCenter.Crashes" Version="5.0.3" /> -->
-		
+
+		<!-- Firebase Crashlytics - Android only (iOS GoogleUtilities version conflict with MobileAds) -->
+		<PackageReference Include="Plugin.Firebase.Crashlytics" Version="3.1.1" Condition="$(TargetFramework.StartsWith('net9.0-android'))" />
+
+		<!-- In-App Billing for Remove Ads IAP -->
+		<PackageReference Include="Plugin.InAppBilling" Version="8.0.5" />
+
 		<!-- Additional MAUI packages -->
 		<!--<PackageReference Include="Microsoft.Maui.Essentials" Version="$(MauiVersion)" />-->
 	</ItemGroup>

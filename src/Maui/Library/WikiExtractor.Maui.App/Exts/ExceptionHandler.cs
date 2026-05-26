@@ -36,7 +36,7 @@ namespace WikiExtractor.Maui.App.Exts
             {
                 var docsPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
                 var logDir = Path.Combine(docsPath, "Logs");
-                
+
                 if (!Directory.Exists(logDir))
                 {
                     Directory.CreateDirectory(logDir);
@@ -91,7 +91,7 @@ namespace WikiExtractor.Maui.App.Exts
                 sb.AppendLine($"Exception: {exception.GetType().FullName}");
                 sb.AppendLine($"Message: {exception.Message}");
                 sb.AppendLine($"Stack Trace: {exception.StackTrace}");
-                
+
                 if (exception.InnerException != null)
                 {
                     sb.AppendLine($"Inner Exception: {exception.InnerException.GetType().FullName}");
@@ -110,37 +110,41 @@ namespace WikiExtractor.Maui.App.Exts
 
                 // Log to debug output
                 Debug.WriteLine(sb.ToString());
-                
+
                 // Log to file
                 LogToFile(sb.ToString());
 
-#if DEBUG
-                // In debug mode, we can rethrow for the debugger
-                // But wrap in a check to prevent infinite recursion
-                if (!exception.StackTrace?.Contains("ExceptionHandler.CaptureException") ?? true)
-                {
-                    Debug.WriteLine("DEBUG MODE: Exception captured but not rethrown to prevent app crash");
-                }
-#else
-                // In release mode, log but don't crash
-                Dictionary<string, string> errorContext = new();
-                if (specificDetails != null)
-                {
-                    int counter = 0;
-                    foreach (var detail in specificDetails.Where(f => f.HasValue()))
-                    {
-                        errorContext.Add($"Context{counter++}", detail);
-                    }
-                }
-                // If AppCenter is configured in the future:
-                // RunOnAppDispatcher(() => Crashes.TrackError(exception, DeviceDetails.GenerateMetaInformation(errorContext)));
-#endif
+                // Send to Firebase Crashlytics
+                RecordToCrashlytics(exception, specificDetails);
             }
             catch (Exception ex)
             {
                 // Last resort logging if exception handling itself fails
                 Debug.WriteLine($"Error in exception handler: {ex.Message}");
                 LogToFile($"Error in exception handler: {ex.Message}\n{ex.StackTrace}");
+            }
+        }
+
+        private static void RecordToCrashlytics(Exception exception, string[]? specificDetails)
+        {
+            try
+            {
+#if ANDROID && !DEBUG
+                var crashlytics = Plugin.Firebase.Crashlytics.CrossFirebaseCrashlytics.Current;
+                if (specificDetails != null)
+                {
+                    int counter = 0;
+                    foreach (var detail in specificDetails.Where(f => f.HasValue()))
+                    {
+                        crashlytics.SetCustomKey($"context{counter++}", detail);
+                    }
+                }
+                crashlytics.RecordException(exception);
+#endif
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Failed to record to Crashlytics: {ex.Message}");
             }
         }
 

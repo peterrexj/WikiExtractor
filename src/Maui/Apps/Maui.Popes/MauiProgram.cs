@@ -80,6 +80,7 @@ namespace Maui.Wiki
             builder.Services.AddSingleton<ISecureStorageService, SecureStorageService>();
             builder.Services.AddSingleton<IErrorHandlingService, ErrorHandlingService>();
             builder.Services.AddSingleton<IAlertService, AlertService>();
+            builder.Services.AddSingleton<INoAdsService, NoAdsService>();
             
             // Register theme services
             builder.Services.AddSingleton<WikiExtractor.Maui.App.Services.IThemeHandler, WikiExtractor.Maui.App.Services.ThemeHandler>();
@@ -131,7 +132,7 @@ namespace Maui.Wiki
             };
             builder.Services.AddSingleton(adsConfig);
 
-            builder.UsePjAds(new AdConfiguration
+            var adConfig = new AdConfiguration
             {
                 ApplicationId = adsConfig.ApplicationId,
                 BannerAdUnitId = appInfo.AdsBannerId,
@@ -146,32 +147,10 @@ namespace Maui.Wiki
 #endif
                 FirstInterstitialAdThreshold = 1,
                 SubsequentInterstitialAdThreshold = 3
-            }).ConfigurePjAdsHandlers();
+            };
+            builder.UsePjAds(adConfig).ConfigurePjAdsHandlers();
 
-            var app = builder.Build();
-
-            // Set up ServiceHelper for LocalStorage to access services
-//#if ANDROID
-//            Maui.Wiki.Platforms.Android.DependencyInjection.ServiceHelper.Services = app.Services;
-//#elif IOS
-//            Maui.Wiki.Platforms.iOS.DependencyInjection.ServiceHelper.Services = app.Services;
-//#endif
-
-            // Initialize the ServiceLocator with the service provider
-            //WikiExtractor.Maui.App.Services.ServiceLocator.Initialize(app.Services);
-
-            // Initialize ConfigData.LocalStorageCacheFolderPath early
-            //InitializeConfigData(app.Services);
-            
-            // Pre-initialize database access to ensure it's ready before UI components try to use it
-            //InitializeDatabases();
-            
-            
-            // Initialize theme
-            //var themeHandler = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<WikiExtractor.Maui.App.Services.IThemeHandler>(app.Services);
-            //themeHandler?.LoadDefaultStyle();
-
-            return app;
+            return builder.Build();
         }
 
         // Global unhandled exception handler for the AppDomain

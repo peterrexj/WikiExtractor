@@ -338,6 +338,123 @@
                     </Border>
                 </VerticalStackLayout>
 
+                <!-- ═══ PREMIUM ═══ -->
+                <VerticalStackLayout Spacing="10">
+                    <Label
+                        Margin="4,0"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
+                        CharacterSpacing="1.2"
+                        Opacity="0.75"
+                        Text="&#xf521;  PREMIUM"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+
+                    <Border
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+
+                        <VerticalStackLayout>
+                            <!-- No Ads status / purchase row -->
+                            <Grid
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                ColumnDefinitions="32,*,Auto"
+                                ColumnSpacing="12"
+                                VerticalOptions="Center">
+                                <Label
+                                    Grid.Column="0"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
+                                    HorizontalOptions="Center"
+                                    Text="&#xf05e;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
+                                <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="2">
+                                    <Label
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                        Text="Remove Ads"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}" />
+                                    <Label
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="{OnIdiom Phone=12, Tablet=13, Default=12}"
+                                        IsVisible="{Binding NoAdsEnabled}"
+                                        Opacity="0.65"
+                                        Text="Purchased — Ads are off"
+                                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+                                </VerticalStackLayout>
+                                <StackLayout
+                                    Grid.Column="2"
+                                    Orientation="Horizontal"
+                                    Spacing="8"
+                                    VerticalOptions="Center">
+                                    <ActivityIndicator
+                                        HeightRequest="22"
+                                        IsRunning="{Binding NoAdsBusy}"
+                                        IsVisible="{Binding NoAdsBusy}"
+                                        WidthRequest="22"
+                                        Color="{DynamicResource WikiAppPrimaryAccentColor}" />
+                                    <Button
+                                        Command="{Binding RemoveAdsCommand}"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="{OnIdiom Phone=13, Tablet=15, Default=13}"
+                                        IsEnabled="{Binding IsNotBusy}"
+                                        IsVisible="{Binding ShowRemoveAdsButton}"
+                                        Padding="14,8"
+                                        Text="Buy"
+                                        BackgroundColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                        TextColor="White"
+                                        CornerRadius="8" />
+                                </StackLayout>
+                            </Grid>
+
+                            <BoxView
+                                Margin="16,0"
+                                BackgroundColor="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                HeightRequest="0.5"
+                                Opacity="0.4" />
+
+                            <!-- Restore purchases row -->
+                            <Grid
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                ColumnDefinitions="32,*,Auto"
+                                ColumnSpacing="12"
+                                VerticalOptions="Center">
+                                <Label
+                                    Grid.Column="0"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
+                                    HorizontalOptions="Center"
+                                    Text="&#xf0e2;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="1"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                    Text="Restore Purchases"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
+                                <Button
+                                    Grid.Column="2"
+                                    Command="{Binding RestoreAdsCommand}"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=13, Tablet=15, Default=13}"
+                                    IsEnabled="{Binding IsNotBusy}"
+                                    Padding="14,8"
+                                    Text="Restore"
+                                    BackgroundColor="Transparent"
+                                    BorderColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    BorderWidth="1"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    CornerRadius="8" />
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
                 <!-- Version footer -->
                 <Label
                     x:Name="lblVersion"

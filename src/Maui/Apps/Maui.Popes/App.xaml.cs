@@ -1,4 +1,5 @@
-﻿using WikiExtractor.Maui.App.Services;
+﻿using WikiExtractor.Maui.App.Exts;
+using WikiExtractor.Maui.App.Services;
 using WikiExtractor.Exts;
 using Pj.Library;
 using Maui.Wiki.Views;
@@ -67,9 +68,21 @@ namespace Maui.Wiki
                 {
                     // Touch the database to initialize connections
                     _ = SharedServices.WikiAppController.AppMenuItems();
-                    
+
                     // Also ensure fact cache is populated (non-blocking)
                     await FactCacheService.Instance.WaitForInitializationAsync(5000);
+                    var noAdsService = SharedServiceCore.NoAdsService;
+                    if (noAdsService != null)
+                    {
+                        var entitled = await noAdsService.LoadLocalEntitlementAsync();
+                        if (entitled)
+                            SharedServiceCore.DisableAds();
+                        else
+                        {
+                            var pendingResolved = await noAdsService.CheckPendingPurchaseAsync();
+                            if (pendingResolved) SharedServiceCore.DisableAds();
+                        }
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -127,9 +140,7 @@ namespace Maui.Wiki
         private void LogException(Exception? exception, string source)
         {
             if (exception == null) return;
-
-            //var errorHandlingService = ServiceLocator.GetService<IErrorHandlingService>();
-            //errorHandlingService?.HandleException(exception, "An unhandled exception occurred.");
+            ExceptionHandler.CaptureException(exception, source);
         }
 
         

@@ -30,6 +30,7 @@ namespace Maui.Saints.Platforms.iOS.DependencyInjection
 
         public string AdsInterstitialId => "ca-app-pub-3940256099942544/4411468910";
 
+        public string NoAdsProductId => "no_ads";
         public List<string> GetRegisteredFontFamilies()
         {
             return RegisteredFonts.GetFontFamilies();

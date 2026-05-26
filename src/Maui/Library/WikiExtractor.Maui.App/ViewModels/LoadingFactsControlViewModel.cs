@@ -52,7 +52,7 @@ namespace WikiExtractor.Maui.App.ViewModels
                         }
                         catch (Exception ex)
                         {
-                            ExceptionHandler.CatchException(ex, "LoadingFactsControlViewModel.CurrentFact.MarkAsShown");
+                            ExceptionHandler.CaptureException(ex, "LoadingFactsControlViewModel.CurrentFact.MarkAsShown");
                         }
                     });
                 }
@@ -159,7 +159,7 @@ namespace WikiExtractor.Maui.App.ViewModels
                 }
                 catch (Exception ex)
                 {
-                    ExceptionHandler.CatchException(ex, "LoadingFactsControlViewModel.InitializeFacts");
+                    ExceptionHandler.CaptureException(ex, "LoadingFactsControlViewModel.InitializeFacts");
 
                     // Show fallback on error
                     await MainThread.InvokeOnMainThreadAsync(() =>
