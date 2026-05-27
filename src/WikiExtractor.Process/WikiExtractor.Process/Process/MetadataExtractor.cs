@@ -147,7 +147,15 @@ namespace WikiExtractor.Process
                 {
                     var metaData = new MetaDataModel(_counter++, "Image", MetadataType.Image);
                     image.Attributes?.Where(s => s.Name.HasValue() && s.Value.HasValue())
-                               .Iter(s => metaData.CustomMetadata.AddOrUpdate(s.Name, s.Value));
+                               .Iter(s =>
+                               {
+                                   var val = s.Value;
+                                   if (s.Name.EqualsIgnoreCase("src") && val.StartsWith("//"))
+                                   {
+                                       val = $"https:{val}";
+                                   }
+                                   metaData.CustomMetadata.AddOrUpdate(s.Name, val);
+                               });
 
                     if (metaData.CustomMetadata.ContainsKey("height") && metaData.CustomMetadata["height"].HasValue())
                     {

@@ -16,7 +16,7 @@ namespace WikiExtractor.Process.Extractor
         public List<WikiWhatToExtractModel> ExtractListTabularData(HtmlDocument document, List<string>? tags)
         {
             List<WikiWhatToExtractModel> listOfNames = new List<WikiWhatToExtractModel>();
-            var temp = document.DocumentNode.SelectNodes("//table[contains(@class, 'wikitable ')]/tbody/tr");
+            var temp = document.DocumentNode.SelectNodes("//table[contains(@class, 'wikitable')]/tbody/tr");
             int counter = 0;
             bool hasExtracted = false;
             foreach (var item in temp)
