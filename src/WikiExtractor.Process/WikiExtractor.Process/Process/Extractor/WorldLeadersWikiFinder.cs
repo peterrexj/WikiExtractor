@@ -789,6 +789,108 @@ namespace WikiExtractor.Process.Extractor
             return listOfName;
         }
 
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Sweden(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Sweden");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Norway(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Norway");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Denmark(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Denmark");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Finland(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Finland");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Netherlands(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Netherlands");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Belgium(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Belgium");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Italy(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Italy");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Spain(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Spain");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Poland(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Poland");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Ireland(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Ireland");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Portugal(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Portugal");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Greece(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Greece");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_CzechRepublic(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Czech Republic");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Hungary(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Hungary");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Austria(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Austria");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Switzerland(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Switzerland");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Romania(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Romania");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Bulgaria(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Bulgaria");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Croatia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Croatia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Serbia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Serbia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Slovakia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Slovakia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Slovenia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Slovenia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Ukraine(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Ukraine");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Russia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Russia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Iceland(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Iceland");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Estonia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Estonia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Latvia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Latvia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Lithuania(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Lithuania");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Brazil(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Brazil");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Mexico(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Mexico");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Argentina(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Argentina");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Chile(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Chile");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Colombia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Colombia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Peru(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Peru");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Venezuela(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Venezuela");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Uruguay(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Uruguay");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Paraguay(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Paraguay");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Bolivia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Bolivia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Ecuador(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Ecuador");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_CostaRica(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Costa Rica");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Panama(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Panama");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Cuba(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Cuba");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_DominicanRepublic(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Dominican Republic");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Guatemala(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Guatemala");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Honduras(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Honduras");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_ElSalvador(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "El Salvador");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_China(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "China");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_SouthKorea(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "South Korea");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_NorthKorea(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "North Korea");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Indonesia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Indonesia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Malaysia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Malaysia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Singapore(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Singapore");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Thailand(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Thailand");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Vietnam(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Vietnam");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Philippines(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Philippines");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Pakistan(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Pakistan");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Bangladesh(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Bangladesh");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_SriLanka(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Sri Lanka");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Nepal(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Nepal");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Myanmar(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Myanmar");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Kazakhstan(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Kazakhstan");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Uzbekistan(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Uzbekistan");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Israel(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Israel");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Turkey(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Turkey");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Iran(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Iran");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Iraq(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Iraq");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_SaudiArabia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Saudi Arabia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Jordan(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Jordan");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Morocco(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Morocco");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_UnitedArabEmirates(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "United Arab Emirates");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Qatar(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Qatar");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Kuwait(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Kuwait");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_SouthAfrica(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "South Africa");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Nigeria(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Nigeria");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Kenya(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Kenya");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Egypt(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Egypt");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Ethiopia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Ethiopia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Ghana(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Ghana");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Zimbabwe(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Zimbabwe");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Zambia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Zambia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Uganda(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Uganda");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Tanzania(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Tanzania");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Angola(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Angola");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Mozambique(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Mozambique");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Namibia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Namibia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Botswana(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Botswana");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Madagascar(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Madagascar");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Algeria(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Algeria");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Tunisia(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Tunisia");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Libya(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Libya");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Sudan(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Sudan");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Cameroon(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Cameroon");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_IvoryCoast(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Ivory Coast");
+        public List<WikiWhatToExtractModel> ExtractListTabularData_Senegal(HtmlDocument document, List<string>? tags) => ExtractListTabularData_Stub(document, tags, "Senegal");
+
+        private List<WikiWhatToExtractModel> ExtractListTabularData_Stub(HtmlDocument document, List<string>? tags, string country)
+        {
+            // TODO: implement column mapping for this country
+            Console.WriteLine($"[STUB] {country} — HTML downloaded, extraction not yet implemented.");
+            return new List<WikiWhatToExtractModel>();
+        }
+
         private void Common_Portrait_Extract(HtmlNode? elm, WikiWhatToExtractModel listOfName, string fieldName = "Portrait")
         {
             if (elm == null) return;
