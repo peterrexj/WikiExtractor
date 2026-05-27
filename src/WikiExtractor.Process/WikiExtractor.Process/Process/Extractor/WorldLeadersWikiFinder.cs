@@ -375,35 +375,41 @@ namespace WikiExtractor.Process.Extractor
             var listOfName = new WikiWhatToExtractModel();
             listOfName.AdditionalMetaData!.Add("Country", "Canada");
 
+            // No. column is a <th> (not <td>), so .//td skips it — all indices shift by -1
+            // td1=portrait, td2=name+birth-death, td3=combined term "start – end",
+            // td4=electoral mandates, td5=party colour swatch, td6=party name,
+            // td7=parliamentary seat, td8=cabinet, td9=refs
             int tcolCounter = 1;
 
             foreach (var elm in elements)
             {
-                if (tcolCounter == 2)
+                if (tcolCounter == 1)
                 {
                     Common_Portrait_Extract(elm, listOfName);
                 }
-                if (tcolCounter == 3)
+                if (tcolCounter == 2)
                 {
                     Common_PersonDetail_Extract(elm, listOfName, titleRemoveInnerSpan: false, extractBirthDeath: true);
                 }
-                if (tcolCounter == 4)
+                if (tcolCounter == 3)
                 {
-                    Common_DateType01_Extract(elm, listOfName, "Took office", null, removeSpecialChars: false);
+                    // Term of office is a single combined cell: "start – end"
+                    var term = elm.DecodedInnerText(removeNewLine: true).SplitAndTrim("–");
+                    if (term.Count() >= 2)
+                    {
+                        listOfName.AdditionalMetaData!.AddOrUpdate("Took office", term.First().Trim());
+                        listOfName.AdditionalMetaData!.AddOrUpdate("Left office", term.Skip(1).First().Trim());
+                    }
                 }
-                if (tcolCounter == 5)
-                {
-                    Common_DateType01_Extract(elm, listOfName, "Left office", new[] { "incumbent" }, removeSpecialChars: false);
-                }
-                if (tcolCounter == 8)
+                if (tcolCounter == 6)
                 {
                     Common_SimpleDataType01_Extract(elm, listOfName, "Political party", removeSpecialChars: false);
                 }
-                if (tcolCounter == 9)
+                if (tcolCounter == 7)
                 {
                     Common_SimpleDataType01_Extract(elm, listOfName, "Riding", removeSpecialChars: false);
                 }
-                if (tcolCounter == 10)
+                if (tcolCounter == 8)
                 {
                     Common_SimpleDataType01_Extract(elm, listOfName, "Cabinet", removeSpecialChars: false);
                 }

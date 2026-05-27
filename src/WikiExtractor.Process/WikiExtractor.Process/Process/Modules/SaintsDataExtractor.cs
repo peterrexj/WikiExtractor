@@ -103,8 +103,8 @@ namespace WikiExtractor.Process.Modules
 
             var listOfSaintsByAllPope = toStore.ExtractByAllPopeListData("/wiki/List_of_saints_by_pope", new List<string> { "All", "By Pope" });
             var listOfPatronSaints = toStore.ExtractPatronSaintsListData("/wiki/List_of_patron_saints_by_occupation_and_activity", new List<string> { "All", "Patron Saints" });
-            var listOfSaints = toStore.ExtractListTabularData("/wiki/List_of_saints", new List<string> { "All" });
             var listOfBeatified = toStore.ExtractListTabularData("/wiki/List_of_beatified_people", new List<string> { "All", "Beatified" });
+            var listOfCatholicSaints = toStore.ExtractListTabularData("/wiki/List_of_Catholic_saints", new List<string> { "All" });
 
 
             var saintsCollection =
@@ -129,11 +129,11 @@ namespace WikiExtractor.Process.Modules
                 .Union(listOfSaintsByCentury3)
                 .Union(listOfSaintsByCentury2)
                 .Union(listOfSaintsByCentury1)
-                .Union(listOfSaints)
                 .Union(listOfSaintsFromLocalUrlFile01)
                 .Union(listOfSaintsByAllPope)
                 .Union(listOfPatronSaints)
                 .Union(listOfBeatified)
+                .Union(listOfCatholicSaints)
                 .Union(listOfSaintsByEachPope01).Union(listOfSaintsByEachPope02)
                 .Union(listOfSaintsByEachPope03).Union(listOfSaintsByEachPope04)
                 .Union(listOfSaintsByEachPope05).Union(listOfSaintsByEachPope06)

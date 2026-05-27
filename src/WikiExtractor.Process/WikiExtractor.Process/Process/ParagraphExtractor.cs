@@ -145,7 +145,15 @@ namespace WikiExtractor.Process
                         if (img != null && img.Count == 1)
                         {
                             img.FirstOrDefault()!.Attributes.Where(s => s.Name.HasValue() && s.Value.HasValue())
-                                .Iter(s => imageItem.CustomMetadata.AddOrUpdate(s.Name, s.Value));
+                                .Iter(s =>
+                                {
+                                    var val = s.Value;
+                                    if (s.Name.EqualsIgnoreCase("src") && val.StartsWith("//"))
+                                    {
+                                        val = $"https:{val}";
+                                    }
+                                    imageItem.CustomMetadata.AddOrUpdate(s.Name, val);
+                                });
                         }
                         var imgCaption = helperHtml.LoadHtmlAndSelectNodes(item.InnerHtml, "//figcaption");
                         if (imgCaption != null && imgCaption.Count == 1 && imgCaption.FirstOrDefault()!.InnerText.HasValue())
@@ -268,7 +276,15 @@ namespace WikiExtractor.Process
             if (imgNodes != null && imgNodes.Count == 1)
             {
                 imgNodes.FirstOrDefault()!.Attributes.Where(s => s.Name.HasValue() && s.Value.HasValue())
-                    .Iter(s => imageItem.CustomMetadata.AddOrUpdate(s.Name, s.Value));
+                    .Iter(s =>
+                    {
+                        var val = s.Value;
+                        if (s.Name.EqualsIgnoreCase("src") && val.StartsWith("//"))
+                        {
+                            val = $"https:{val}";
+                        }
+                        imageItem.CustomMetadata.AddOrUpdate(s.Name, val);
+                    });
             }
             var imgCaption = helperHtml.LoadHtmlAndSelectNodes(imgParentContainer.InnerHtml, "//div[contains(@class, 'thumbcaption')]");
             if (imgCaption != null && imgCaption.Count == 1 && imgCaption.FirstOrDefault()!.InnerText.HasValue())
