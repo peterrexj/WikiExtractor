@@ -15,13 +15,13 @@ namespace WikiExtractor.Process
 
             ProcessConstants.UseCache = true;
 
-            //var worldLeadersExtractor = new WorldLeadersExtractor();
-            //worldLeadersExtractor.ExtractData();
-            //worldLeadersExtractor.CleanDataWithDump();
-            //worldLeadersExtractor.EnablePrimaryMetadataContent();
-            //worldLeadersExtractor.EnableQuizData("WorldLeadersQuizDefinition.json");
-            //worldLeadersExtractor.CopyDatabaseFileToRootDbFolder();
-            //worldLeadersExtractor.QuizDataInsightsToBuildQuiz("WorldLeaders");
+            var worldLeadersExtractor = new WorldLeadersExtractor();
+            worldLeadersExtractor.ExtractData();
+            worldLeadersExtractor.CleanDataWithDump();
+            worldLeadersExtractor.EnablePrimaryMetadataContent();
+            worldLeadersExtractor.EnableQuizData("WorldLeadersQuizDefinition.json");
+            worldLeadersExtractor.CopyDatabaseFileToRootDbFolder();
+            worldLeadersExtractor.QuizDataInsightsToBuildQuiz("WorldLeaders");
 
 
             //var saintsExtractor = new SaintsDataExtractor();
@@ -34,13 +34,13 @@ namespace WikiExtractor.Process
             //saintsExtractor.QuizDataInsightsToBuildQuiz("Saints");
 
 
-            var popesExtractor = new PopesDataExtractor();
-            popesExtractor.ExtractData();
-            popesExtractor.EnablePrimaryMetadataContent();
-            popesExtractor.EnableQuizData("PopesQuizDefinition.json");
-            popesExtractor.CopyDatabaseFileToRootDbFolder();
-            //popesExtractor.Test();
-            popesExtractor.QuizDataInsightsToBuildQuiz("Popes");
+            //var popesExtractor = new PopesDataExtractor();
+            //popesExtractor.ExtractData();
+            //popesExtractor.EnablePrimaryMetadataContent();
+            //popesExtractor.EnableQuizData("PopesQuizDefinition.json");
+            //popesExtractor.CopyDatabaseFileToRootDbFolder();
+            ////popesExtractor.Test();
+            //popesExtractor.QuizDataInsightsToBuildQuiz("Popes");
 
 
             //var countriesExtractor = new CountriesDataExtractor();

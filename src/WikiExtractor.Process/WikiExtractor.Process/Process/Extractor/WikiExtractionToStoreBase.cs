@@ -48,6 +48,7 @@ namespace WikiExtractor.Process.Extractor
                 var resp = new TestApiHttp()
                    .SetEnvironment("https://en.wikipedia.org")
                    .PrepareRequest(route)
+                   .AddDefaultWebHeaders()
                    .GetWithRetry(
                        assertOk: true,
                        timeToSleepBetweenRetryInMilliseconds: 1000,
