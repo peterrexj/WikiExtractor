@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">
-			net9.0-android36.0;net9.0-ios18.0
+			net9.0-android36.0
 		</TargetFrameworks>
 		<TargetFrameworks Condition="!$([MSBuild]::IsOSPlatform('windows'))">
 			net9.0-android36.0;net9.0-ios18.0

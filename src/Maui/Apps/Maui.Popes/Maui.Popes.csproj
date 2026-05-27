@@ -4,7 +4,7 @@
 		<!-- iOS targeting with Xcode 16.3 compatibility -->
 		<!-- On Windows: include Android and Windows -->
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">
-			net9.0-android36.0;net9.0-ios18.0
+			net9.0-android36.0
 		</TargetFrameworks>
 
 		<!-- On non-Windows (Mac/Linux): include both Android and iOS -->
