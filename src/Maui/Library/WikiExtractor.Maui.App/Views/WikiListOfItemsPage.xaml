@@ -322,11 +322,12 @@
                                     StrokeShape="RoundRectangle 0"
                                     BackgroundColor="{DynamicResource WikiAppPersonaDetailProfileImageBg}">
                                     <Grid>
-                                        <Image
+                                        <exts:ExtendedImage
                                             Aspect="AspectFill"
                                             HorizontalOptions="Fill"
                                             VerticalOptions="Fill"
-                                            Source="{Binding PicturePrimaryPath, Converter={StaticResource ImagePathConverter}}" />
+                                            CustomSource="{Binding PicturePrimaryPath}"
+                                            LocalFileName="{Binding PicturePrimaryLocalFileName}" />
 
                                         <!--  Read badge — shown when item has been read  -->
                                         <Border

@@ -316,10 +316,20 @@ namespace WikiExtractor.Maui.App.Views
                     lblTitleSubtitle.Text = persona.NameSubstitueFormatted;
                     if (imgPrimary != null)
                     {
-                        var picPath = persona.PicturePrimaryPath;
-                        imgPrimary.Source = string.IsNullOrEmpty(picPath) || picPath == "NoImageAvailable.png"
-                            ? "no_image_available.png"
-                            : picPath;
+                        var picUrl = persona.PicturePrimaryPath;
+                        if (string.IsNullOrEmpty(picUrl) || picUrl == "NoImageAvailable.png")
+                        {
+                            imgPrimary.Source = ImageSource.FromFile("no_image_available.png");
+                        }
+                        else
+                        {
+                            var localPath = Path.Combine(ConfigData.LocalStorageCacheFolderPath, persona.PicturePrimaryLocalFileName);
+                            imgPrimary.Source = File.Exists(localPath)
+                                ? ImageSource.FromFile(localPath)
+                                : ImageSource.FromFile("no_image_available.png");
+                            if (!File.Exists(localPath))
+                                _ = DownloadAndRefreshTitleImageAsync(picUrl, localPath);
+                        }
                     }
 
                     // Re-apply after text is populated — MAUI Shell nav bar does not re-render
@@ -527,6 +537,41 @@ namespace WikiExtractor.Maui.App.Views
             {
                 // Clean up semaphore
                 semaphore?.Dispose();
+            }
+        }
+
+        private async Task DownloadAndRefreshTitleImageAsync(string url, string localPath)
+        {
+            try
+            {
+                using var client = new System.Net.Http.HttpClient { Timeout = TimeSpan.FromSeconds(30) };
+                const int maxAttempts = 2;
+                byte[] bytes = null;
+                for (int attempt = 1; attempt <= maxAttempts; attempt++)
+                {
+                    try
+                    {
+                        bytes = await client.GetByteArrayAsync(url, _cancellationTokenSource.Token);
+                        break;
+                    }
+                    catch (OperationCanceledException) { throw; }
+                    catch (Exception) when (attempt < maxAttempts)
+                    {
+                        await Task.Delay(1000, _cancellationTokenSource.Token);
+                    }
+                }
+                if (bytes == null || _cancellationTokenSource.Token.IsCancellationRequested) return;
+                await File.WriteAllBytesAsync(localPath, bytes, _cancellationTokenSource.Token);
+                RunOnAppDispatcher(() =>
+                {
+                    if (imgPrimary != null && File.Exists(localPath))
+                        imgPrimary.Source = ImageSource.FromFile(localPath);
+                });
+            }
+            catch (OperationCanceledException) { }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"[DetailPage] Title image download failed: {ex.Message}");
             }
         }
 

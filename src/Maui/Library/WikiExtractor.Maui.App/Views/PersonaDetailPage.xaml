@@ -388,11 +388,12 @@
                                                 <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
 
                                                     <!--  Image fills entire card  -->
-                                                    <Image
+                                                    <local:ExtendedImage
                                                         Aspect="AspectFill"
                                                         HorizontalOptions="Fill"
-                                                        Source="{Binding PicturePath}"
-                                                        VerticalOptions="Fill" />
+                                                        VerticalOptions="Fill"
+                                                        CustomSource="{Binding PicturePath}"
+                                                        LocalFileName="{Binding PictureLocalFileName}" />
 
                                                     <!--  Bottom gradient scrim  -->
                                                     <BoxView

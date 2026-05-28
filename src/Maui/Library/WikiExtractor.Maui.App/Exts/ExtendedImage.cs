@@ -134,17 +134,18 @@ namespace WikiExtractor.Maui.App.Exts
             {
                 if (string.IsNullOrEmpty(path))
                 {
-                    SetSourceOnMainThread(null, token);
+                    SetSourceOnMainThread(ImageSource.FromFile("no_image_available.png"), token);
                     return;
                 }
 
                 // Local file — check disk first, then show
                 if (!path.StartsWith("http", StringComparison.OrdinalIgnoreCase))
                 {
-                    if (File.Exists(path))
-                        SetSourceOnMainThread(ImageSource.FromFile(path), token);
-                    else
-                        SetSourceOnMainThread(null, token);
+                    SetSourceOnMainThread(
+                        File.Exists(path)
+                            ? ImageSource.FromFile(path)
+                            : ImageSource.FromFile("no_image_available.png"),
+                        token);
                     return;
                 }
 
@@ -159,7 +160,10 @@ namespace WikiExtractor.Maui.App.Exts
                 }
 
                 if (string.IsNullOrEmpty(localPath))
+                {
+                    SetSourceOnMainThread(ImageSource.FromFile("no_image_available.png"), token);
                     return;
+                }
 
                 // Serve from cache when available
                 if (File.Exists(localPath))
@@ -173,8 +177,26 @@ namespace WikiExtractor.Maui.App.Exts
                     ? CancellationTokenSource.CreateLinkedTokenSource(token, PageCancellationTokenSource.Token)
                     : CancellationTokenSource.CreateLinkedTokenSource(token);
 
-                var imageBytes = await _httpClient.GetByteArrayAsync(path, linked.Token);
-                if (linked.Token.IsCancellationRequested) return;
+                byte[] imageBytes = null;
+                const int maxAttempts = 2;
+                for (int attempt = 1; attempt <= maxAttempts; attempt++)
+                {
+                    try
+                    {
+                        imageBytes = await _httpClient.GetByteArrayAsync(path, linked.Token);
+                        break;
+                    }
+                    catch (OperationCanceledException)
+                    {
+                        throw;
+                    }
+                    catch (Exception) when (attempt < maxAttempts)
+                    {
+                        await Task.Delay(1000, linked.Token);
+                    }
+                }
+
+                if (imageBytes == null || linked.Token.IsCancellationRequested) return;
 
                 await File.WriteAllBytesAsync(localPath, imageBytes, linked.Token);
                 if (linked.Token.IsCancellationRequested) return;
@@ -188,6 +210,7 @@ namespace WikiExtractor.Maui.App.Exts
             catch (Exception ex)
             {
                 System.Diagnostics.Debug.WriteLine($"[ExtendedImage] LoadAsync failed for '{path}': {ex.Message}");
+                SetSourceOnMainThread(ImageSource.FromFile("no_image_available.png"), token);
             }
         }
 
