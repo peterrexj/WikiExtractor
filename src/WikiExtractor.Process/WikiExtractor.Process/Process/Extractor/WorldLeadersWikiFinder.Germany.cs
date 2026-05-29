@@ -88,9 +88,9 @@ namespace WikiExtractor.Process.Extractor
             Console.WriteLine("-----------------------------------------------------------------------");
             Console.WriteLine("");
 
-            ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Birth-Death");
-            ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Took office");
-            ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Left office");
+            if (!ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Birth-Death")) return null;
+            if (!ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Took office")) return null;
+            if (!ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Left office")) return null;
             ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Time in office");
             ValidateAdditionalMetaData(listOfName.AdditionalMetaData, "Party");
 

@@ -93,9 +93,12 @@ namespace WikiExtractor.Process.Process
 
                 var correctAnswer = correctMetadata.Value;
 
+                if (!IsMeaningfulAnswer(correctAnswer))
+                    continue;
+
                 var randomAnswers = RandomGeneratorHelper.RandomizeSubset(
                     metadataRawDb
-                        .Where(f => f.Key.EqualsIgnoreCase(randomQuestion.MetadataKey) && f.Value != correctAnswer)
+                        .Where(f => f.Key.EqualsIgnoreCase(randomQuestion.MetadataKey) && f.Value != correctAnswer && IsMeaningfulAnswer(f.Value))
                         .Select(f => f.Value)
                         .Distinct()
                         .ToList(), 3, ensureUnique: true)
@@ -139,8 +142,9 @@ namespace WikiExtractor.Process.Process
                               {
                                   Key = grouped.Key,
                                   Childs = grouped.Where(g =>
-                                          g.quiz.MaxLengthForAnswer == 0 ||
-                                          g.f.Value.Length <= g.quiz.MaxLengthForAnswer)
+                                          IsMeaningfulAnswer(g.f.Value) &&
+                                          (g.quiz.MaxLengthForAnswer == 0 ||
+                                          g.f.Value.Length <= g.quiz.MaxLengthForAnswer))
                                       .Select(g => g.f)
                                       .ToList()
                               }).ToList();
@@ -347,6 +351,18 @@ namespace WikiExtractor.Process.Process
         /// Useful for allowing users to see facts again after they've seen all available ones.
         /// </summary>
         /// <param name="masterId">Optional master ID. If null, resets all facts for all masters.</param>
+        private static bool IsMeaningfulAnswer(string? value)
+        {
+            if (string.IsNullOrWhiteSpace(value)) return false;
+            var trimmed = value.Trim();
+            if (trimmed.Length == 0) return false;
+            // Reject values that are only special characters / dashes / punctuation
+            if (trimmed.All(c => !char.IsLetterOrDigit(c))) return false;
+            // Reject common placeholder patterns like "---", "--", "-"
+            if (System.Text.RegularExpressions.Regex.IsMatch(trimmed, @"^[-–—]+$")) return false;
+            return true;
+        }
+
         public void ResetShownFacts(int? masterId = null)
         {
             try

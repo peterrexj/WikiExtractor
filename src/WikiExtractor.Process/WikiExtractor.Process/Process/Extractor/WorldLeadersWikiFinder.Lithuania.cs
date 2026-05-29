@@ -73,9 +73,9 @@ namespace WikiExtractor.Process.Extractor
             Console.WriteLine($"Extraction: {m.Title} [{m.Route}]");
             if (modernEra)
             {
-                ValidateAdditionalMetaData(m.AdditionalMetaData, "Birth-Death");
-                ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office");
-                ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office");
+                if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Birth-Death")) return null;
+                if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office")) return null;
+                if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office")) return null;
             }
             m.Sequence = sequence++; return m;
         }

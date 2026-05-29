@@ -315,7 +315,7 @@ namespace WikiExtractor.Process.Modules
                 var bagItem = bag.FirstOrDefault(f => f.Item3.Id == leader.Id);
                 if (bagItem == null || bagItem.Item1 == null || bagItem.Item2 == null || bagItem.Item3 == null)
                 {
-                    throw new Exception("Bag item cannot be mapped, this could be due to the extraction failure");
+                    Console.WriteLine($"[WARN] Bag item not found for [{leader.Title}]: {leader.Route} — page extraction likely failed");
                 }
             });
 
@@ -326,6 +326,7 @@ namespace WikiExtractor.Process.Modules
                 try
                 {
                     var bagItem = bag.FirstOrDefault(f => f.Item3.Id == leader.Id);
+                    if (bagItem == null) return;
                     toStore.SinglePageContentStore(bagItem.Item1, bagItem.Item2, bagItem.Item3);
                     Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Leader [{leader.Title}]: {leader.Route}");
                     //Thread.Sleep(1000);

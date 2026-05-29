@@ -35,28 +35,28 @@ namespace WikiExtractor.Process.Extractor
             var m = new WikiWhatToExtractModel();
             m.AdditionalMetaData!.Add("Country", "Panama");
             int c = 1;
-            // Tables 0-2 (7 TDs — ordinal=TH): c1=portrait, c2=empty, c3=name, c4=took, c5=left, c6=tenure, c7=party
-            // Table 3 (8 TDs — ordinal=TH, with Elected): c1=portrait, c2=empty, c3=name, c4=elected, c5=took, c6=left, c7=tenure, c8=party
-            bool withElection = elements.Length >= 8;
+            // 6 TDs: c1=portrait, c2=name, c3=took, c4=left, c5=tenure, c6=party
+            // 7 TDs (with election year): c1=portrait, c2=name, c3=election, c4=took, c5=left, c6=tenure, c7=party
+            bool withElection = elements.Length >= 7;
             foreach (var elm in elements)
             {
                 if (c == 1) Common_Portrait_Extract(elm, m);
-                if (c == 3) Common_PersonDetail_Extract(elm, m, titleRemoveInnerSpan: false, extractBirthDeath: true);
-                if (!withElection && c == 4) Common_DateType01_Extract(elm, m, "Took office", null, removeSpecialChars: true);
-                if (!withElection && c == 5) Common_DateType01_Extract(elm, m, "Left office", new[] { "Incumbent" }, removeSpecialChars: true);
-                if (!withElection && c == 6) Common_SimpleDataType01_Extract(elm, m, "Time in office", removeSpecialChars: false);
-                if (!withElection && c == 7) Common_SimpleDataType01_Extract(elm, m, "Political Party", removeSpecialChars: false);
-                if (withElection && c == 5) Common_DateType01_Extract(elm, m, "Took office", null, removeSpecialChars: true);
-                if (withElection && c == 6) Common_DateType01_Extract(elm, m, "Left office", new[] { "Incumbent" }, removeSpecialChars: true);
-                if (withElection && c == 7) Common_SimpleDataType01_Extract(elm, m, "Time in office", removeSpecialChars: false);
-                if (withElection && c == 8) Common_SimpleDataType01_Extract(elm, m, "Political Party", removeSpecialChars: false);
+                if (c == 2) Common_PersonDetail_Extract(elm, m, titleRemoveInnerSpan: false, extractBirthDeath: true);
+                if (!withElection && c == 3) Common_DateType01_Extract(elm, m, "Took office", null, removeSpecialChars: true);
+                if (!withElection && c == 4) Common_DateType01_Extract(elm, m, "Left office", new[] { "Incumbent" }, removeSpecialChars: true);
+                if (!withElection && c == 5) Common_SimpleDataType01_Extract(elm, m, "Time in office", removeSpecialChars: false);
+                if (!withElection && c == 6) Common_SimpleDataType01_Extract(elm, m, "Political Party", removeSpecialChars: false);
+                if (withElection && c == 4) Common_DateType01_Extract(elm, m, "Took office", null, removeSpecialChars: true);
+                if (withElection && c == 5) Common_DateType01_Extract(elm, m, "Left office", new[] { "Incumbent" }, removeSpecialChars: true);
+                if (withElection && c == 6) Common_SimpleDataType01_Extract(elm, m, "Time in office", removeSpecialChars: false);
+                if (withElection && c == 7) Common_SimpleDataType01_Extract(elm, m, "Political Party", removeSpecialChars: false);
                 c++;
             }
             if (m.Title.IsEmpty()) return null;
             Console.WriteLine($"Extraction: {m.Title} [{m.Route}]");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Birth-Death");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office");
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Birth-Death")) return null;
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office")) return null;
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office")) return null;
             m.Sequence = sequence++; return m;
         }
     }

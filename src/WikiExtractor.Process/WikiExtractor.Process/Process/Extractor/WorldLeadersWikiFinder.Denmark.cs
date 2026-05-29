@@ -45,15 +45,15 @@ namespace WikiExtractor.Process.Extractor
                 if (c == 5) Common_DateType01_Extract(elm, m, "Left office", new[] { "Incumbent" }, removeSpecialChars: true);
                 if (c == 6) Common_SimpleDataType01_Extract(elm, m, "Time in office", removeSpecialChars: false);
                 // party swatch alternates between TD (c7=empty,c8=party) and TH (skipped, c7=party)
-                if (c == 7 && elm.InnerText.Trim().IsNotEmpty()) Common_SimpleDataType01_Extract(elm, m, "Political Party", removeSpecialChars: false);
+                if (c == 7 && elm.InnerText.Trim().HasValue()) Common_SimpleDataType01_Extract(elm, m, "Political Party", removeSpecialChars: false);
                 if (c == 8 && !m.AdditionalMetaData.Any(x => x.Key == "Political Party")) Common_SimpleDataType01_Extract(elm, m, "Political Party", removeSpecialChars: false);
                 c++;
             }
             if (m.Title.IsEmpty()) return null;
             Console.WriteLine($"Extraction: {m.Title} [{m.Route}]");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Birth-Death");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office");
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Birth-Death")) return null;
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office")) return null;
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office")) return null;
             m.Sequence = sequence++; return m;
         }
     }

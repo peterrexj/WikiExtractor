@@ -37,7 +37,8 @@ namespace WikiExtractor.Process.Extractor
             int c = 1;
             // Early-era (tables 1-2, 1814-1905): td1=name, td2=portrait (dual-person rows)
             // Modern-era (tables 3-5, 1905-present): td1=portrait, td2=name (ordinal is TH, skipped)
-            bool earlyEra = elements[0].SelectSingleNode(".//a[@href]") != null;
+            // Distinguish by whether c1 contains an image (modern) or just a name link (early)
+            bool earlyEra = elements[0].SelectSingleNode(".//img") == null;
             foreach (var elm in elements)
             {
                 if (earlyEra)
@@ -61,9 +62,9 @@ namespace WikiExtractor.Process.Extractor
             }
             if (m.Title.IsEmpty()) return null;
             Console.WriteLine($"Extraction: {m.Title} [{m.Route}]");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Birth-Death");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office");
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Birth-Death")) return null;
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office")) return null;
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office")) return null;
             m.Sequence = sequence++; return m;
         }
     }

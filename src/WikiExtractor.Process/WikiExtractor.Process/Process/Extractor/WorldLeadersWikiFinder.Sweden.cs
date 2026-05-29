@@ -43,7 +43,8 @@ namespace WikiExtractor.Process.Extractor
                 if (c == 2) Common_Complex_BirthDeath(elm, m);
                 if (c == 4)
                 {
-                    var term = elm.DecodedInnerText(removeNewLine: true).SplitAndTrim("–");
+                    var raw = elm.DecodedInnerText(removeNewLine: true);
+                    var term = raw.SplitAndTrim("–");
                     if (term.Count() >= 2)
                     {
                         m.AdditionalMetaData!.AddOrUpdate("Took office", term.First().Trim());
@@ -56,9 +57,9 @@ namespace WikiExtractor.Process.Extractor
             }
             if (m.Title.IsEmpty()) return null;
             Console.WriteLine($"Extraction: {m.Title} [{m.Route}]");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Birth-Death");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office");
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Birth-Death")) return null;
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office")) return null;
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office")) return null;
             m.Sequence = sequence++; return m;
         }
     }

@@ -50,7 +50,8 @@ namespace WikiExtractor.Process.Extractor
 
             var personElm = elm.SelectNodes($"{elm.XPath}//b/a")?.FirstOrDefault() ??
                         elm.SelectNodes($"{elm.XPath}/a")?.FirstOrDefault() ??
-                        elm.SelectNodes($"{elm.XPath}/div/a")?.FirstOrDefault();
+                        elm.SelectNodes($"{elm.XPath}/div/a")?.FirstOrDefault() ??
+                        elm.SelectNodes($"{elm.XPath}//span[contains(@class,'fn')]/a")?.FirstOrDefault();
 
             if (personElm != null)
             {
@@ -204,20 +205,12 @@ namespace WikiExtractor.Process.Extractor
         }
 
 
-        private void ValidateAdditionalMetaData(Dictionary<string, string> data, string field)
+        private bool ValidateAdditionalMetaData(Dictionary<string, string> data, string field)
         {
-            if (data == null)
-            {
-                throw new ArgumentNullException(nameof(data));
-            }
-            if (data.ContainsKey(field) == false)
-            {
-                throw new Exception($"Additional data extraction failed to extract {field}");
-            }
-            if (data.ContainsKey(field) && data[field].IsEmpty())
-            {
-                throw new Exception($"Additional data extraction failed to extract any data for the {field}");
-            }
+            if (data == null) throw new ArgumentNullException(nameof(data));
+            if (!data.ContainsKey(field)) return false;
+            if (data[field].IsEmpty()) return false;
+            return true;
         }
 
         private WikiWhatToExtractModel? ExtractListTabularData_Monarch_Rows(HtmlNode[] elements, string country)
@@ -238,8 +231,8 @@ namespace WikiExtractor.Process.Extractor
             }
             if (m.Title.IsEmpty()) return null;
             Console.WriteLine($"Extraction: {m.Title} [{m.Route}]");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office");
-            ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office");
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Took office")) return null;
+            if (!ValidateAdditionalMetaData(m.AdditionalMetaData, "Left office")) return null;
             m.Sequence = sequence++; return m;
         }
     }

@@ -54,7 +54,7 @@ namespace WikiExtractor.Repository
             //_dbHelper.DbHelper.ExecuteNonQuery(File.ReadAllText(IoHelper.CombinePath(PjUtility.Runtime.ExecutingFolder, "Repository", "SchemaDb.sql")));
         }
 
-        public System.Data.SQLite.SQLiteConnection? Connection => _dbHelper.DbHelper.Connection as System.Data.SQLite.SQLiteConnection;
-        public System.Data.SQLite.SQLiteConnection? ConnectionUserStore => _dbHelperUserStore.DbHelper.Connection as System.Data.SQLite.SQLiteConnection;
+        public Microsoft.Data.Sqlite.SqliteConnection? Connection => _dbHelper.DbHelper.Connection as Microsoft.Data.Sqlite.SqliteConnection;
+        public Microsoft.Data.Sqlite.SqliteConnection? ConnectionUserStore => _dbHelperUserStore.DbHelper.Connection as Microsoft.Data.Sqlite.SqliteConnection;
     }
 }

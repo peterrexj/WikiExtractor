@@ -326,7 +326,8 @@ namespace WikiExtractor.Process
         }
         public void UpdatePrimaryImage(int masterId, string picUrl)
         {
-            var picModel = wikiDatabase.WikiPictureRepository.Get(f => f.MasterId == masterId && f.IsPrimaryBool).First();
+            var picModel = wikiDatabase.WikiPictureRepository.Get(f => f.MasterId == masterId && f.IsPrimaryBool).FirstOrDefault();
+            if (picModel == null) return;
             picModel.Path = picUrl;
             wikiDatabase.WikiPictureRepository.Update(picModel, "Path");
         }
