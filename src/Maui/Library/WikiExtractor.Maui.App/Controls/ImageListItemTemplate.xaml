@@ -33,7 +33,6 @@
                 Aspect="AspectFit"
                 CustomSource="{Binding ImageLocalPath}"
                 HorizontalOptions="Fill"
-                LocalFileName="{Binding ImageFileName}"
                 VerticalOptions="Fill" />
         </Border>
 
@@ -41,7 +40,7 @@
             Grid.Row="1"
             Margin="0,6,0,0"
             FontFamily="{DynamicResource DefaultFontFamily}"
-            FontSize="{OnIdiom Phone=12, Tablet=14, Default=12}"
+            FontSize="{OnIdiom Phone=12, Tablet=17, Default=17}"
             HorizontalOptions="Fill"
             HorizontalTextAlignment="Center"
             LineBreakMode="WordWrap"

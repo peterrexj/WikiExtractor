@@ -6,7 +6,7 @@ Priority order: Acquisition → Retention → Polish
 
 ## Feature 1 — Share Item
 
-**Status:** Not started
+**Status:** Done
 
 **Why:**
 The only feature on this list that reaches people outside the app.
@@ -34,7 +34,7 @@ The shared text includes the item name, a one-line description, and the Wikipedi
 
 ## Feature 2 — Favourites
 
-**Status:** Not started
+**Status:** Done
 
 **Why:**
 Gives users a personal collection inside the app.

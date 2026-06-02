@@ -1,9 +1,22 @@
 param(
-    [string]$EmulatorName = "Medium_Phone_API_36.1"
+    [switch]$Tablet,
+    [string]$Avd = ""
 )
 
 $Project   = "Maui.WorldLeaders.csproj"
 $BundleId  = "com.pj.worldleadershub"
+
+# Default AVD names — override with -Avd "name" for anything else
+$PhoneAvd  = "Medium_Phone_API_36.1"
+$TabletAvd = "Medium_Tablet_API_36.1"
+
+if ($Avd -ne "") {
+    $EmulatorName = $Avd
+} elseif ($Tablet) {
+    $EmulatorName = $TabletAvd
+} else {
+    $EmulatorName = $PhoneAvd
+}
 
 # ── Java 21 via Homebrew (required for Android manifest merger) ──────────────
 $javaHome = "/opt/homebrew/opt/openjdk@21"
@@ -38,6 +51,7 @@ Write-Host "==> Finding emulator: $EmulatorName..."
 $avds = & $EmulatorExe -list-avds 2>$null
 if ($avds -notcontains $EmulatorName) {
     Write-Host "ERROR: No emulator found matching '$EmulatorName'" -ForegroundColor Red
+    Write-Host "Available AVDs:"
     $avds | ForEach-Object { Write-Host "    $_" }
     exit 1
 }

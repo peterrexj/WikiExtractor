@@ -6,17 +6,20 @@ using WikiExtractor.Maui.App.Services;
 using WikiExtractor.Process.Repository;
 using WikiExtractor.Repository;
 using WikiExtractor.Repository.UserStore;
+using WikiExtractor.DbModels.UserStore;
 
 namespace WikiExtractor.Maui.App.Repository.UserStore
 {
     public class UserStoreDatabase : AppSqliteRepository, IUserStoreDatabase
     {
         public ItemReadTrackerRepository ItemReadTrackerRepository { get; set; }
+        public FavouriteTrackerRepository FavouriteTrackerRepository { get; set; }
         public new SettingsSqliteRepository SettingsRepository => base.SettingsRepository;
         public RequestRecordRepository RequestRecordRepository { get; set; }
         public AppSettingsRepository AppSettingsRepository { get; set; }
         public QuizResponseRepository QuizResponseRepository { get; set; }
         public QuizFactStatusRepository QuizFactStatusRepository { get; set; }
+        public StreakTrackerRepository StreakTrackerRepository { get; set; }
 
         public UserStoreDatabase() : base(DatabaseHelper.DatabaseType.SqLiteDevice, GetSafeLocalStorageHelper())
         {
@@ -63,26 +66,50 @@ namespace WikiExtractor.Maui.App.Repository.UserStore
         public sealed override void InitializeDatabase()
         {
             ItemReadTrackerRepository = new ItemReadTrackerRepository(_dbHelper);
+            FavouriteTrackerRepository = new FavouriteTrackerRepository(_dbHelper);
             RequestRecordRepository = new RequestRecordRepository(_dbHelper);
             AppSettingsRepository = new AppSettingsRepository(_dbHelper);
             QuizResponseRepository = new QuizResponseRepository(_dbHelper);
             QuizFactStatusRepository = new QuizFactStatusRepository(_dbHelper);
+            StreakTrackerRepository = new StreakTrackerRepository(_dbHelper);
 
-            CollectRepository(ItemReadTrackerRepository, 
+            CollectRepository(ItemReadTrackerRepository,
+                FavouriteTrackerRepository,
                 RequestRecordRepository,
                 AppSettingsRepository,
                 QuizResponseRepository,
-                QuizFactStatusRepository);
+                QuizFactStatusRepository,
+                StreakTrackerRepository);
             
             base.InitializeDatabase();
-
-            //The current version of DB is driven from the interface implementation
-            //Based on the current version, the schema will be generated and used to execute from create/modify table
-            //On any requirement to update or create table, in the repository add the script according to the version of database to get the right script
 
             var currentDbVersion = SettingsRepository.GetValue("DatabaseVersion").ToInteger();
             if (sqliteFileHelper.CurrentVersion != currentDbVersion)
             {
+                // Run migration scripts for the new version before updating the stored version
+                var repos = new IRepositoryBaseAppExtension[]
+                {
+                    ItemReadTrackerRepository,
+                    FavouriteTrackerRepository,
+                    RequestRecordRepository,
+                    AppSettingsRepository,
+                    QuizResponseRepository,
+                    QuizFactStatusRepository,
+                    StreakTrackerRepository
+                };
+                foreach (var repo in repos)
+                {
+                    try
+                    {
+                        var script = repo.SchemaScript(sqliteFileHelper.CurrentVersion);
+                        if (!string.IsNullOrWhiteSpace(script))
+                            _dbHelper.DbHelper.ExecuteNonQuery(script);
+                    }
+                    catch (Exception ex)
+                    {
+                        ExceptionHandler.CaptureException(ex);
+                    }
+                }
                 SettingsRepository.Update("DatabaseVersion", sqliteFileHelper.CurrentVersion.ToString());
             }
         }

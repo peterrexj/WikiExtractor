@@ -77,6 +77,13 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
         }
 
+        private bool _isOffline;
+        public bool IsOffline
+        {
+            get => _isOffline;
+            set { _isOffline = value; OnPropertyChanged(nameof(IsOffline)); }
+        }
+
         private string _navigationMessage = "Opening details...";
         public string NavigationMessage
         {
@@ -124,6 +131,7 @@ namespace WikiExtractor.Maui.App.ViewModels
             var filtered = source.Where(p =>
             {
                 if (HideItemRead && p.ItemReadStatus) return false;
+                if (_showFavouritesOnly && !p.IsFavourite) return false;
                 if (string.IsNullOrWhiteSpace(_searchText)) return true;
                 return p.Name.ContainsIgnoreCase(_searchText);
             });
@@ -149,6 +157,7 @@ namespace WikiExtractor.Maui.App.ViewModels
             var filtered = sorted.Where(p =>
             {
                 if (HideItemRead && p.ItemReadStatus) return false;
+                if (_showFavouritesOnly && !p.IsFavourite) return false;
                 if (string.IsNullOrWhiteSpace(_searchText)) return true;
                 return p.Name.ContainsIgnoreCase(_searchText);
             });
@@ -185,8 +194,21 @@ namespace WikiExtractor.Maui.App.ViewModels
             get => hideItemRead;
             set
             {
+                if (hideItemRead == value) return;
                 hideItemRead = value;
                 OnPropertyChanged("HideItemRead");
+                ApplyFilter();
+            }
+        }
+
+        private bool _showFavouritesOnly;
+        public bool ShowFavouritesOnly
+        {
+            get => _showFavouritesOnly;
+            set
+            {
+                if (SetProperty(ref _showFavouritesOnly, value))
+                    ApplyFilter();
             }
         }
 

@@ -103,6 +103,81 @@
                                     Style="{DynamicResource WikiAppPickerStyle}"
                                     WidthRequest="{OnIdiom Phone=140, Tablet=170, Default=140}" />
                             </Grid>
+
+                            <BoxView
+                                Margin="16,0"
+                                BackgroundColor="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                HeightRequest="0.5"
+                                Opacity="0.4" />
+
+                            <!-- Font Size row -->
+                            <VerticalStackLayout
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                Spacing="8">
+                                <Grid
+                                    ColumnDefinitions="32,*,Auto"
+                                    ColumnSpacing="12">
+                                    <Label
+                                        Grid.Column="0"
+                                        FontFamily="FontAwesome"
+                                        FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
+                                        HorizontalOptions="Center"
+                                        Text="&#xf034;"
+                                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                        VerticalOptions="Center" />
+                                    <Label
+                                        Grid.Column="1"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                        Text="Content Font Size"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                        VerticalOptions="Center" />
+                                    <Label
+                                        Grid.Column="2"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="{OnIdiom Phone=13, Tablet=15, Default=13}"
+                                        Opacity="0.75"
+                                        Text="{Binding ParagraphFontSize, StringFormat='{0:F0}'}"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                        VerticalOptions="Center" />
+                                </Grid>
+                                <Slider
+                                    x:Name="sliderFontSize"
+                                    IsEnabled="{Binding IsNotBusy}"
+                                    Maximum="{Binding MaxParagraphFontSize}"
+                                    Minimum="{Binding MinParagraphFontSize}"
+                                    ThumbColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    MinimumTrackColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    MaximumTrackColor="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                    Value="{Binding ParagraphFontSize}"
+                                    ValueChanged="SliderFontSize_ValueChanged" />
+                                <Grid ColumnDefinitions="*,*,*">
+                                    <Label
+                                        Grid.Column="0"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="11"
+                                        HorizontalTextAlignment="Start"
+                                        Opacity="0.4"
+                                        Text="Small"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}" />
+                                    <Label
+                                        Grid.Column="1"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="11"
+                                        HorizontalTextAlignment="Center"
+                                        Opacity="0.4"
+                                        Text="Normal"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}" />
+                                    <Label
+                                        Grid.Column="2"
+                                        FontFamily="{DynamicResource DefaultFontFamily}"
+                                        FontSize="11"
+                                        HorizontalTextAlignment="End"
+                                        Opacity="0.4"
+                                        Text="Large"
+                                        TextColor="{DynamicResource WikiAppSettingsLabelTextColor}" />
+                                </Grid>
+                            </VerticalStackLayout>
                         </VerticalStackLayout>
                     </Border>
                 </VerticalStackLayout>
@@ -451,6 +526,233 @@
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     CornerRadius="8" />
                             </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- ═══ ACTIVITY ═══ -->
+                <VerticalStackLayout Spacing="10">
+                    <Label
+                        Margin="4,0"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
+                        CharacterSpacing="1.2"
+                        Opacity="0.75"
+                        Text="&#xf017;  ACTIVITY"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+
+                    <Border
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+
+                        <VerticalStackLayout>
+                            <!-- Current streak row -->
+                            <Grid
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                ColumnDefinitions="32,*,Auto"
+                                ColumnSpacing="12"
+                                VerticalOptions="Center">
+                                <Label
+                                    Grid.Column="0"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
+                                    HorizontalOptions="Center"
+                                    Text="&#xf46d;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="1"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                    Text="Current Streak"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="2"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                    FontAttributes="Bold"
+                                    Text="{Binding CurrentStreak, StringFormat='{0} days'}"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
+                            </Grid>
+
+                            <BoxView
+                                Margin="16,0"
+                                BackgroundColor="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                HeightRequest="0.5"
+                                Opacity="0.4" />
+
+                            <!-- Best streak row -->
+                            <Grid
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                ColumnDefinitions="32,*,Auto"
+                                ColumnSpacing="12"
+                                VerticalOptions="Center">
+                                <Label
+                                    Grid.Column="0"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
+                                    HorizontalOptions="Center"
+                                    Text="&#xf091;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="1"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                    Text="Best Streak"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="2"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                    FontAttributes="Bold"
+                                    Text="{Binding BestStreak, StringFormat='{0} days'}"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- ═══ ABOUT ═══ -->
+                <VerticalStackLayout Spacing="10">
+                    <Label
+                        Margin="4,0"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
+                        CharacterSpacing="1.2"
+                        Opacity="0.75"
+                        Text="&#xf05a;  ABOUT"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+
+                    <Border
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+                        <VerticalStackLayout>
+
+                            <!-- Share the app -->
+                            <Grid
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                ColumnDefinitions="32,*,Auto"
+                                ColumnSpacing="12"
+                                VerticalOptions="Center">
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding ShareAppCommand}" />
+                                </Grid.GestureRecognizers>
+                                <Label
+                                    Grid.Column="0"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=16, Tablet=20, Default=20}"
+                                    HorizontalOptions="Center"
+                                    Text="&#xf1e0;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="1"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=19, Default=19}"
+                                    Text="Share the App"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="2"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=13, Tablet=17, Default=17}"
+                                    Opacity="0.4"
+                                    Text="&#xf054;"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
+                            </Grid>
+
+                            <BoxView
+                                Margin="16,0"
+                                BackgroundColor="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                HeightRequest="0.5"
+                                Opacity="0.4" />
+
+                            <!-- Rate the app -->
+                            <Grid
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                ColumnDefinitions="32,*,Auto"
+                                ColumnSpacing="12"
+                                VerticalOptions="Center">
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding RateAppCommand}" />
+                                </Grid.GestureRecognizers>
+                                <Label
+                                    Grid.Column="0"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=16, Tablet=20, Default=20}"
+                                    HorizontalOptions="Center"
+                                    Text="&#xf005;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="1"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=19, Default=19}"
+                                    Text="Rate the App"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="2"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=13, Tablet=17, Default=17}"
+                                    Opacity="0.4"
+                                    Text="&#xf054;"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
+                            </Grid>
+
+                            <BoxView
+                                Margin="16,0"
+                                BackgroundColor="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                HeightRequest="0.5"
+                                Opacity="0.4" />
+
+                            <!-- Send feedback -->
+                            <Grid
+                                Padding="{OnIdiom Phone='16,14', Tablet='20,16', Default='16,14'}"
+                                ColumnDefinitions="32,*,Auto"
+                                ColumnSpacing="12"
+                                VerticalOptions="Center">
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding SendFeedbackCommand}" />
+                                </Grid.GestureRecognizers>
+                                <Label
+                                    Grid.Column="0"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=16, Tablet=20, Default=20}"
+                                    HorizontalOptions="Center"
+                                    Text="&#xf0e0;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="1"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=19, Default=19}"
+                                    Text="Send Feedback"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Column="2"
+                                    FontFamily="FontAwesome"
+                                    FontSize="{OnIdiom Phone=13, Tablet=17, Default=17}"
+                                    Opacity="0.4"
+                                    Text="&#xf054;"
+                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                    VerticalOptions="Center" />
+                            </Grid>
+
                         </VerticalStackLayout>
                     </Border>
                 </VerticalStackLayout>

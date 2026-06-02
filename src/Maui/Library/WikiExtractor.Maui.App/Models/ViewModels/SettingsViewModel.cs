@@ -21,6 +21,9 @@ namespace WikiExtractor.Maui.App.ViewModels
         private string? _selectedVoice;
         private bool _noAdsEnabled;
         private bool _noAdsBusy;
+        private int _currentStreak;
+        private int _bestStreak;
+        private double _paragraphFontSize = AppSettingsService.DEFAULT_PARAGRAPH_FONT_SIZE;
 
         public ObservableCollection<string> Themes { get; }
         public ObservableCollection<string> FontFamilies { get; }
@@ -41,8 +44,44 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         public bool ShowRemoveAdsButton => !_noAdsEnabled;
 
+        public int CurrentStreak
+        {
+            get => _currentStreak;
+            private set { _currentStreak = value; OnPropertyChanged(); }
+        }
+
+        public int BestStreak
+        {
+            get => _bestStreak;
+            private set { _bestStreak = value; OnPropertyChanged(); }
+        }
+
+        public double ParagraphFontSize
+        {
+            get => _paragraphFontSize;
+            set
+            {
+                var clamped = Math.Max(AppSettingsService.MIN_PARAGRAPH_FONT_SIZE, Math.Min(AppSettingsService.MAX_PARAGRAPH_FONT_SIZE, value));
+                if (Math.Abs(_paragraphFontSize - clamped) < 0.1) return;
+                _paragraphFontSize = clamped;
+                OnPropertyChanged();
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    if (Application.Current?.Resources != null)
+                        Application.Current.Resources["WikiAppParagraphFontSize"] = clamped;
+                });
+                Task.Run(() => AppSettingsService.SetParagraphFontSizeAsync(clamped));
+            }
+        }
+
+        public double MinParagraphFontSize => AppSettingsService.MIN_PARAGRAPH_FONT_SIZE;
+        public double MaxParagraphFontSize => AppSettingsService.MAX_PARAGRAPH_FONT_SIZE;
+
         public Command RemoveAdsCommand { get; }
         public Command RestoreAdsCommand { get; }
+        public Command ShareAppCommand { get; }
+        public Command RateAppCommand { get; }
+        public Command SendFeedbackCommand { get; }
 
         public string? SelectedTheme
         {
@@ -191,6 +230,8 @@ namespace WikiExtractor.Maui.App.ViewModels
                 var sortIndex = Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)),
                     SettingsHelper.GetSortAttributeBySelected(sortDescriptor));
                 var pitch = await Task.Run(() => SettingsHelper.GetSpeechPitch());
+                var streak = await Task.Run(() => SharedServices.WikiAppController.GetStreak());
+                var fontSize = await AppSettingsService.GetParagraphFontSizeAsync();
 
                 var noAds = SharedServiceCore.NoAdsService?.IsNoAdsEnabled ?? false;
 
@@ -203,6 +244,10 @@ namespace WikiExtractor.Maui.App.ViewModels
                     _speechPitch = pitch;
                     OnPropertyChanged(nameof(SpeechPitch));
                     NoAdsEnabled = noAds;
+                    CurrentStreak = streak.CurrentStreak;
+                    BestStreak = streak.BestStreak;
+                    _paragraphFontSize = fontSize;
+                    OnPropertyChanged(nameof(ParagraphFontSize));
                 });
             }
             catch { }
@@ -263,6 +308,9 @@ namespace WikiExtractor.Maui.App.ViewModels
 
             RemoveAdsCommand = new Command(async () => await OnRemoveAdsAsync());
             RestoreAdsCommand = new Command(async () => await OnRestoreAdsAsync());
+            ShareAppCommand = new Command(async () => await OnShareAppAsync());
+            RateAppCommand = new Command(async () => await OnRateAppAsync());
+            SendFeedbackCommand = new Command(async () => await OnSendFeedbackAsync());
         }
 
         // Default constructor for XAML instantiation
@@ -289,6 +337,9 @@ namespace WikiExtractor.Maui.App.ViewModels
 
             RemoveAdsCommand = new Command(async () => await OnRemoveAdsAsync());
             RestoreAdsCommand = new Command(async () => await OnRestoreAdsAsync());
+            ShareAppCommand = new Command(async () => await OnShareAppAsync());
+            RateAppCommand = new Command(async () => await OnRateAppAsync());
+            SendFeedbackCommand = new Command(async () => await OnSendFeedbackAsync());
         }
 
         private async Task ChangeThemeAsync(string selectedTheme)
@@ -424,6 +475,62 @@ namespace WikiExtractor.Maui.App.ViewModels
         private static void ApplyNoAdsToAdManager()
         {
             SharedServiceCore.DisableAds();
+        }
+
+        private async Task OnShareAppAsync()
+        {
+            try
+            {
+                var link = SharedServiceCore.AppInformation?.AppShareLink ?? "https://www.yoursimpleapps.com";
+                await Share.RequestAsync(new ShareTextRequest
+                {
+                    Uri = link,
+                    Title = "Check out this app!"
+                });
+            }
+            catch (Exception ex)
+            {
+                _errorHandlingService?.HandleException(ex);
+            }
+        }
+
+        private async Task OnRateAppAsync()
+        {
+            try
+            {
+                var link = SharedServiceCore.AppInformation?.RateAppLink;
+                if (string.IsNullOrEmpty(link)) return;
+
+                var canOpen = await Launcher.Default.CanOpenAsync(link);
+                if (!canOpen)
+                {
+                    // Fall back to the web share link (works on emulators / devices without the store app)
+                    var webLink = SharedServiceCore.AppInformation?.AppShareLink;
+                    if (!string.IsNullOrEmpty(webLink))
+                        await Launcher.Default.OpenAsync(webLink);
+                    return;
+                }
+
+                await Launcher.Default.OpenAsync(link);
+            }
+            catch (Exception ex)
+            {
+                _errorHandlingService?.HandleException(ex);
+            }
+        }
+
+        private async Task OnSendFeedbackAsync()
+        {
+            try
+            {
+                var email = SharedServiceCore.AppInformation?.FeedbackEmail ?? "support@yoursimpleapps.com";
+                var subject = Uri.EscapeDataString($"Feedback - {AppInfo.Current.Name}");
+                await Launcher.Default.OpenAsync($"mailto:{email}?subject={subject}");
+            }
+            catch (Exception ex)
+            {
+                _errorHandlingService?.HandleException(ex);
+            }
         }
     }
 }

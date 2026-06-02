@@ -1,5 +1,6 @@
 using Pj.Library;
 using Syncfusion.Maui.Buttons;
+using Syncfusion.Maui.Popup;
 using RoundRectangle = Microsoft.Maui.Controls.Shapes.RoundRectangle;
 using WikiExtractor.Exts;
 using WikiExtractor.ViewModels;
@@ -26,6 +27,8 @@ namespace WikiExtractor.Maui.App.Views
         private Image imgPrimary;
         private Label lblTitleName;
         private Label lblTitleSubtitle;
+
+        private SfPopup _imageViewerPopup;
 
         private void CaptureErrorOnPage(Exception exception)
         {
@@ -230,6 +233,8 @@ namespace WikiExtractor.Maui.App.Views
         {
             try
             {
+                Connectivity.Current.ConnectivityChanged -= OnConnectivityChanged;
+                Connectivity.Current.ConnectivityChanged += OnConnectivityChanged;
                 base.OnAppearing();
                 await LoadWithPageBinding();
             }
@@ -241,9 +246,20 @@ namespace WikiExtractor.Maui.App.Views
 
         protected override void OnDisappearing()
         {
+            Connectivity.Current.ConnectivityChanged -= OnConnectivityChanged;
             base.OnDisappearing();
             personaDetailViewModel?.CancelSpeech();
             _cancellationTokenSource?.Cancel();
+        }
+
+        private void OnConnectivityChanged(object sender, ConnectivityChangedEventArgs e)
+        {
+            var isOffline = e.NetworkAccess != NetworkAccess.Internet;
+            MainThread.BeginInvokeOnMainThread(() =>
+            {
+                if (personaDetailViewModel != null)
+                    personaDetailViewModel.IsOffline = isOffline;
+            });
         }
 
         private async Task LoadWithPageBinding()
@@ -258,6 +274,8 @@ namespace WikiExtractor.Maui.App.Views
             }
 
             await personaDetailViewModel.LoadFontSizeAsync();
+
+            personaDetailViewModel.IsOffline = Connectivity.Current.NetworkAccess != NetworkAccess.Internet;
 
             personaDetailViewModel.BannerAdsUnitId = SharedServiceCore.AdsConfig.BannerAdUnitId;
             personaDetailViewModel.IsPageBusy = true;
@@ -295,6 +313,7 @@ namespace WikiExtractor.Maui.App.Views
                 }
 
                 persona.ItemReadStatus = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
+                persona.IsFavourite = SharedServices.WikiAppController.IsFavourite(persona.Name);
                 if (!personaDetailViewModel.IsMetaDataAvailable)
                 {
                     persona.Metadatas.Add(new MetadataViewModel { Key = "", Description = persona.Name });
@@ -310,6 +329,7 @@ namespace WikiExtractor.Maui.App.Views
                     personaDetailViewModel.ItemDetailItems = detailItems;
                     personaDetailViewModel.LoadingMessage = "Finalizing...";
                     personaDetailViewModel.TriggerEvents();
+                    UpdateFavouriteIcon(persona.IsFavourite);
 
                     // Shell.TitleView does not inherit BindingContext on iOS — set directly
                     lblTitleName.Text = persona.Name;
@@ -319,16 +339,21 @@ namespace WikiExtractor.Maui.App.Views
                         var picUrl = persona.PicturePrimaryPath;
                         if (string.IsNullOrEmpty(picUrl) || picUrl == "NoImageAvailable.png")
                         {
-                            imgPrimary.Source = ImageSource.FromFile("no_image_available.png");
+                            imgPrimary.Source = ImagePipeline.Instance.Placeholder;
                         }
                         else
                         {
-                            var localPath = Path.Combine(ConfigData.LocalStorageCacheFolderPath, persona.PicturePrimaryLocalFileName);
-                            imgPrimary.Source = File.Exists(localPath)
-                                ? ImageSource.FromFile(localPath)
-                                : ImageSource.FromFile("no_image_available.png");
-                            if (!File.Exists(localPath))
-                                _ = DownloadAndRefreshTitleImageAsync(picUrl, localPath);
+                            var cached = ImagePipeline.DiskPath(picUrl);
+                            imgPrimary.Source = File.Exists(cached)
+                                ? ImageSource.FromFile(cached)
+                                : ImagePipeline.Instance.Placeholder;
+
+                            _ = ImagePipeline.Instance.GetAsync(picUrl, _cancellationTokenSource.Token)
+                                .ContinueWith(t => RunOnAppDispatcher(() =>
+                                {
+                                    if (imgPrimary != null && !_cancellationTokenSource.IsCancellationRequested)
+                                        imgPrimary.Source = t.Result;
+                                }), TaskScheduler.Default);
                         }
                     }
 
@@ -540,41 +565,6 @@ namespace WikiExtractor.Maui.App.Views
             }
         }
 
-        private async Task DownloadAndRefreshTitleImageAsync(string url, string localPath)
-        {
-            try
-            {
-                using var client = new System.Net.Http.HttpClient { Timeout = TimeSpan.FromSeconds(30) };
-                const int maxAttempts = 2;
-                byte[] bytes = null;
-                for (int attempt = 1; attempt <= maxAttempts; attempt++)
-                {
-                    try
-                    {
-                        bytes = await client.GetByteArrayAsync(url, _cancellationTokenSource.Token);
-                        break;
-                    }
-                    catch (OperationCanceledException) { throw; }
-                    catch (Exception) when (attempt < maxAttempts)
-                    {
-                        await Task.Delay(1000, _cancellationTokenSource.Token);
-                    }
-                }
-                if (bytes == null || _cancellationTokenSource.Token.IsCancellationRequested) return;
-                await File.WriteAllBytesAsync(localPath, bytes, _cancellationTokenSource.Token);
-                RunOnAppDispatcher(() =>
-                {
-                    if (imgPrimary != null && File.Exists(localPath))
-                        imgPrimary.Source = ImageSource.FromFile(localPath);
-                });
-            }
-            catch (OperationCanceledException) { }
-            catch (Exception ex)
-            {
-                System.Diagnostics.Debug.WriteLine($"[DetailPage] Title image download failed: {ex.Message}");
-            }
-        }
-
         private ItemDetailListViewModel BuildPara2ContentRow(Paragraph2ContentViewModel para) => new() { Type = "Header2Text", Content = para.Content, };
         private ItemDetailListViewModel BuildPara3ContentRow(Paragraph3ContentViewModel para) => new() { Type = "Header3Text", Content = para.Content, };
 
@@ -677,9 +667,183 @@ namespace WikiExtractor.Maui.App.Views
             });
         }
 
+        private async void ShareButton_Tapped(object sender, EventArgs e)
+        {
+            try
+            {
+                var persona = personaDetailViewModel?.Persona;
+                if (persona == null) return;
+
+                var text = string.IsNullOrWhiteSpace(persona.MainContent)
+                    ? persona.Name
+                    : $"{persona.Name} — {persona.MainContent}";
+
+                var request = new ShareTextRequest
+                {
+                    Title = persona.Name,
+                    Text = text,
+                    Uri = persona.WikiPath
+                };
+
+                await Share.Default.RequestAsync(request);
+            }
+            catch (Exception ex)
+            {
+                CaptureErrorOnPage(ex);
+            }
+        }
+
+        private async void FavouriteButton_Tapped(object sender, EventArgs e)
+        {
+            try
+            {
+                var persona = personaDetailViewModel?.Persona;
+                if (persona == null) return;
+
+                var newValue = !persona.IsFavourite;
+                await Task.Run(() => SharedServices.WikiAppController.UpdateFavourite(persona.Name, newValue));
+                persona.IsFavourite = newValue;
+                RunOnAppDispatcher(() => UpdateFavouriteIcon(newValue));
+            }
+            catch (Exception ex)
+            {
+                CaptureErrorOnPage(ex);
+            }
+        }
+
+        private void UpdateFavouriteIcon(bool isFavourite)
+        {
+            if (lblFavouriteIcon == null) return;
+            lblFavouriteIcon.Text = "";
+            if (Application.Current?.Resources.TryGetValue("WikiAppListItemDescriptionTextColor", out var colorObj) == true && colorObj is Color grey)
+                lblFavouriteIcon.TextColor = isFavourite ? Color.FromArgb("#E53935") : grey;
+            else
+                lblFavouriteIcon.TextColor = isFavourite ? Color.FromArgb("#E53935") : Colors.Gray;
+        }
+
         private void lstImageEffectsLayer_Tapped(object sender, EventArgs e)
         {
-            // Image tap — reserved for future full-screen preview
+            try
+            {
+                if ((sender as Border)?.BindingContext is not PictureViewModel pic) return;
+                EnsureImagePopup();
+                _imageViewerPopup.BindingContext = pic;
+                _imageViewerPopup.Show();
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
+        private void EnsureImagePopup()
+        {
+            if (_imageViewerPopup != null) return;
+
+            bool isTablet = DeviceInfo.Idiom == DeviceIdiom.Tablet;
+
+            Color accentColor = Colors.White;
+            if (Application.Current?.Resources.TryGetValue("WikiAppPrimaryAccentColor", out var ac) == true && ac is Color c)
+                accentColor = c;
+
+            // --- image ---
+            var image = new Exts.ExtendedImage
+            {
+                Aspect = Aspect.AspectFit,
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
+                Margin = new Thickness(8)
+            };
+
+            var contentGrid = new Grid
+            {
+                BackgroundColor = Color.FromArgb("#0D0D0D"),
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill
+            };
+            contentGrid.Children.Add(image);
+
+            // --- custom header: caption label (wrapping) + X button centered ---
+            var captionLabel = new Label
+            {
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Center,
+                HorizontalTextAlignment = TextAlignment.Center,
+                VerticalTextAlignment = TextAlignment.Center,
+                LineBreakMode = LineBreakMode.WordWrap,
+                MaxLines = -1,
+                FontSize = isTablet ? 15 : 13,
+                TextColor = accentColor,
+                Margin = new Thickness(isTablet ? 14 : 12, 0, isTablet ? 48 : 44, 0)
+            };
+            captionLabel.SetDynamicResource(Label.FontFamilyProperty, "DefaultFontFamily");
+
+            var closeLabel = new Label
+            {
+                FontFamily = "FontAwesome",
+                FontSize = isTablet ? 18 : 16,
+                Text = "",
+                TextColor = Colors.Gray,
+                HorizontalOptions = LayoutOptions.End,
+                VerticalOptions = LayoutOptions.Center,
+                HorizontalTextAlignment = TextAlignment.Center,
+                VerticalTextAlignment = TextAlignment.Center,
+                WidthRequest = isTablet ? 44 : 40,
+                Margin = new Thickness(0, 0, isTablet ? 8 : 6, 0)
+            };
+            closeLabel.GestureRecognizers.Add(new TapGestureRecognizer
+            {
+                Command = new Command(() => { try { _imageViewerPopup?.Dismiss(); } catch { } })
+            });
+
+            var headerGrid = new Grid
+            {
+                BackgroundColor = Color.FromArgb("#161616"),
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
+                Padding = new Thickness(0, 10),
+                MinimumHeightRequest = isTablet ? 52 : 46
+            };
+            headerGrid.Children.Add(captionLabel);
+            headerGrid.Children.Add(closeLabel);
+
+            // --- popup ---
+            _imageViewerPopup = new SfPopup
+            {
+                AnimationDuration = 300,
+                AnimationMode = PopupAnimationMode.Zoom,
+                IsFullScreen = false,
+                ShowHeader = true,
+                ShowCloseButton = false,
+                ShowFooter = false,
+                HeightRequest = isTablet ? 600 : 480,
+                WidthRequest = isTablet ? 640 : 360,
+                PopupStyle = new PopupStyle
+                {
+                    CornerRadius = 18,
+                    HasShadow = true,
+                    OverlayColor = Color.FromArgb("#BB000000"),
+                    PopupBackground = Color.FromArgb("#0D0D0D"),
+                    Stroke = accentColor,
+                    StrokeThickness = 2,
+                    HeaderBackground = Color.FromArgb("#161616")
+                }
+            };
+
+            _imageViewerPopup.HeaderTemplate = new DataTemplate(() => headerGrid);
+            _imageViewerPopup.ContentTemplate = new DataTemplate(() => contentGrid);
+
+            _imageViewerPopup.Opened += (s, e) =>
+            {
+                if (_imageViewerPopup.BindingContext is PictureViewModel p)
+                    image.CustomSource = p.PicturePath;
+            };
+
+            _imageViewerPopup.BindingContextChanged += (s, e) =>
+            {
+                if (_imageViewerPopup.BindingContext is PictureViewModel p)
+                    captionLabel.Text = p.PictureCaption ?? string.Empty;
+            };
         }
 
         private void tabView_SelectionChanged(object sender, Syncfusion.Maui.TabView.TabSelectionChangedEventArgs e)

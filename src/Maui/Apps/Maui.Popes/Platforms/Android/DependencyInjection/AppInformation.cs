@@ -25,6 +25,10 @@ namespace Maui.Wiki.Platforms.Android.DependencyInjection
         public string DbUserStore => "WikiUserStore.db";
         public string HeaderIcon => "appicon_1024.png";
 
+        public string AppShareLink => "https://play.google.com/store/apps/details?id=com.pj.popes.wiki";
+        public string RateAppLink => "market://details?id=com.pj.popes.wiki";
+        public string FeedbackEmail => "support@yoursimpleapps.com";
+
         public string AdsAppId => "ca-app-pub-4219645367584712~1706236868";
 
         public string AdsBannerId => "ca-app-pub-3940256099942544/6300978111"; //"ca-app-pub-4219645367584712/5749138243";

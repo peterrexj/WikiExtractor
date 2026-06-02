@@ -62,6 +62,7 @@
         <Grid Grid.Row="0" IsEnabled="{Binding IsPageEnabled}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
@@ -78,10 +79,12 @@
                     <Shadow Brush="#40000000" Offset="0,3" Radius="8" Opacity="1" />
                 </Border.Shadow>
 
-                <Grid ColumnSpacing="6">
+                <Grid x:Name="toolbarGrid" ColumnSpacing="6">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="32" />
+                        <ColumnDefinition Width="32" />
                         <ColumnDefinition Width="32" />
                         <ColumnDefinition Width="32" />
                     </Grid.ColumnDefinitions>
@@ -91,11 +94,11 @@
                         Grid.Column="0"
                         BackgroundColor="{DynamicResource WikiAppAutoCompleteDropdownBackgroundColor}"
                         HeightRequest="44"
-                        Padding="12,0,8,0"
+                        Padding="12,0,4,0"
                         Stroke="{DynamicResource WikiAppAutoCompleteDropdownBorderColor}"
                         StrokeShape="RoundRectangle 22"
                         StrokeThickness="1">
-                        <Grid ColumnDefinitions="Auto,*" ColumnSpacing="6">
+                        <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="4">
                             <Label
                                 Grid.Column="0"
                                 FontFamily="FontAwesome"
@@ -108,6 +111,8 @@
                                 Grid.Column="1"
                                 BackgroundColor="Transparent"
                                 DisplayMemberPath="Name"
+                                Focused="autoComplete_Focused"
+                                IsClearButtonVisible="False"
                                 IsEnabled="{Binding IsNotBusy}"
                                 ItemsSource="{Binding AutocompleteList}"
                                 Margin="0"
@@ -116,23 +121,42 @@
                                 Style="{DynamicResource SfAutocompleteStyle}"
                                 Unfocused="autoComplete_Unfocused"
                                 ValueChanged="autoComplete_ValueChanged" />
+                            <!--  Always-visible clear button  -->
+                            <Label
+                                x:Name="btnClearSearch"
+                                Grid.Column="2"
+                                FontFamily="FontAwesome"
+                                FontSize="14"
+                                Text="&#xf057;"
+                                TextColor="{DynamicResource WikiAppAutoCompleteWaterColor}"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                Padding="6,0">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="btnClearSearch_Tapped" />
+                                </Label.GestureRecognizers>
+                            </Label>
                         </Grid>
                     </Border>
 
                     <!--  Quiz button  -->
+                    <Grid
+                        x:Name="quizButtonContainer"
+                        Grid.Column="1">
                     <sfButtons:SfButton
                         x:Name="takeQuizButton"
-                        Grid.Column="1"
                         Command="{Binding TakeQuizCommand}"
                         CommandParameter="{x:Reference takeQuizButton}"
                         IsVisible="{Binding IsNotBusy}"
                         HeightRequest="36"
-                        FontSize="{OnPlatform Android={OnIdiom Phone=10, Tablet=14}, iOS={OnIdiom Phone=10, Tablet=14}, WinUI=13, MacCatalyst=13}"
+                        FontSize="{OnPlatform Android={OnIdiom Phone=10, Tablet=16}, iOS={OnIdiom Phone=10, Tablet=16}, WinUI=16, MacCatalyst=16}"
                         VerticalOptions="Center"
                         Style="{DynamicResource WikiAppQuizTakeButtonStyle}" />
+                    </Grid>
 
                     <!--  Theme button  -->
                     <Grid
+                        x:Name="themeButtonContainer"
                         Grid.Column="2"
                         HeightRequest="32"
                         WidthRequest="32">
@@ -177,6 +201,7 @@
 
                     <!--  Settings button  -->
                     <Border
+                        x:Name="settingsButtonContainer"
                         Grid.Column="3"
                         BackgroundColor="{DynamicResource WikiAppTopPanelBackgroundColor}"
                         HeightRequest="32"
@@ -204,17 +229,106 @@
                             </core:SfButton.Content>
                         </sfButtons:SfButton>
                     </Border>
+
+                    <!--  Favourites filter button  -->
+                    <Border
+                        x:Name="btnFavouritesFilter"
+                        Grid.Column="4"
+                        HeightRequest="32"
+                        WidthRequest="32"
+                        Stroke="{DynamicResource WikiAppTopPanelBorderColor}"
+                        StrokeShape="RoundRectangle 9"
+                        StrokeThickness="1">
+                        <Border.Triggers>
+                            <DataTrigger Binding="{Binding ShowFavouritesOnly}" TargetType="Border" Value="True">
+                                <Setter Property="BackgroundColor" Value="{DynamicResource WikiAppPrimaryAccentColor}" />
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ShowFavouritesOnly}" TargetType="Border" Value="False">
+                                <Setter Property="BackgroundColor" Value="{DynamicResource WikiAppTopPanelBackgroundColor}" />
+                            </DataTrigger>
+                        </Border.Triggers>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="BtnFavouritesFilter_Clicked" />
+                        </Border.GestureRecognizers>
+                        <Label
+                            FontFamily="FontAwesome"
+                            FontSize="14"
+                            HorizontalOptions="Center"
+                            Text="&#xf004;"
+                            VerticalOptions="Center">
+                            <Label.Triggers>
+                                <DataTrigger Binding="{Binding ShowFavouritesOnly}" TargetType="Label" Value="True">
+                                    <Setter Property="TextColor" Value="White" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding ShowFavouritesOnly}" TargetType="Label" Value="False">
+                                    <Setter Property="TextColor" Value="{DynamicResource WikiAppIconColor}" />
+                                </DataTrigger>
+                            </Label.Triggers>
+                        </Label>
+                    </Border>
+
+                    <!--  Shuffle / Surprise Me button  -->
+                    <Border
+                        x:Name="btnShuffleItem"
+                        Grid.Column="5"
+                        BackgroundColor="{DynamicResource WikiAppTopPanelBackgroundColor}"
+                        HeightRequest="32"
+                        WidthRequest="32"
+                        Stroke="{DynamicResource WikiAppTopPanelBorderColor}"
+                        StrokeShape="RoundRectangle 9"
+                        StrokeThickness="1">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="BtnShuffleItem_Clicked" />
+                        </Border.GestureRecognizers>
+                        <Label
+                            FontFamily="FontAwesome"
+                            FontSize="14"
+                            HorizontalOptions="Center"
+                            Text="&#xf074;"
+                            TextColor="{DynamicResource WikiAppIconColor}"
+                            VerticalOptions="Center" />
+                    </Border>
+                </Grid>
+            </Border>
+
+            <!--  Offline indicator row — sits between toolbar and list  -->
+            <Border
+                Grid.Row="1"
+                Margin="{OnIdiom Phone='10,2,10,4', Tablet='14,2,14,6', Default='10,2,10,4'}"
+                Padding="{OnIdiom Phone='12,7', Tablet='16,9', Default='12,7'}"
+                BackgroundColor="#1AFF5252"
+                HorizontalOptions="Fill"
+                IsVisible="{Binding IsOffline}"
+                Stroke="#FF5252"
+                StrokeShape="RoundRectangle 8"
+                StrokeThickness="1">
+                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="10" VerticalOptions="Center">
+                    <Label
+                        Grid.Column="0"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=14, Tablet=20, Default=20}"
+                        Text="&#xf1eb;"
+                        TextColor="#FF5252"
+                        VerticalOptions="Center" />
+                    <Label
+                        Grid.Column="1"
+                        FontFamily="{DynamicResource DefaultFontFamily}"
+                        FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}"
+                        FontAttributes="Bold"
+                        Text="No internet connection"
+                        TextColor="#FF5252"
+                        VerticalOptions="Center" />
                 </Grid>
             </Border>
 
             <!--  List  -->
             <CollectionView
                 x:Name="listOfItems"
-                Grid.Row="1"
+                Grid.Row="2"
                 BackgroundColor="Transparent"
                 IsEnabled="{Binding IsNotBusy}"
                 ItemsSource="{Binding FilteredPersonas}"
-                ItemSizingStrategy="MeasureAllItems"
+                ItemSizingStrategy="MeasureFirstItem"
                 SelectionMode="None">
 
                 <CollectionView.ItemsLayout>
@@ -326,8 +440,7 @@
                                             Aspect="AspectFill"
                                             HorizontalOptions="Fill"
                                             VerticalOptions="Fill"
-                                            CustomSource="{Binding PicturePrimaryPath}"
-                                            LocalFileName="{Binding PicturePrimaryLocalFileName}" />
+                                            CustomSource="{Binding PicturePrimaryPath}" />
 
                                         <!--  Read badge — shown when item has been read  -->
                                         <Border
@@ -355,6 +468,47 @@
                                                 VerticalOptions="Center"
                                                 VerticalTextAlignment="Center" />
                                         </Border>
+
+                                        <!--  Favourite badge — shown when item is favourited  -->
+                                        <Border
+                                            Margin="6"
+                                            BackgroundColor="#E53935"
+                                            HeightRequest="22"
+                                            HorizontalOptions="Start"
+                                            IsVisible="{Binding IsFavourite}"
+                                            Stroke="Transparent"
+                                            StrokeShape="RoundRectangle 11"
+                                            StrokeThickness="0"
+                                            VerticalOptions="Start"
+                                            WidthRequest="22">
+                                            <Border.Shadow>
+                                                <Shadow Brush="#80000000" Offset="0,1" Radius="4" Opacity="0.6" />
+                                            </Border.Shadow>
+                                            <Label
+                                                FontFamily="FontAwesome"
+                                                FontSize="10"
+                                                HorizontalOptions="Center"
+                                                HorizontalTextAlignment="Center"
+                                                InputTransparent="True"
+                                                Text="&#xf004;"
+                                                TextColor="White"
+                                                VerticalOptions="Center"
+                                                VerticalTextAlignment="Center" />
+                                        </Border>
+
+                                        <!--  Heart tap target — fills image area to toggle favourite  -->
+                                        <Border
+                                            BackgroundColor="Transparent"
+                                            HorizontalOptions="Fill"
+                                            Stroke="Transparent"
+                                            StrokeThickness="0"
+                                            VerticalOptions="Fill">
+                                            <Border.GestureRecognizers>
+                                                <TapGestureRecognizer
+                                                    CommandParameter="{Binding Id}"
+                                                    Tapped="heartOnListItem_Tapped" />
+                                            </Border.GestureRecognizers>
+                                        </Border>
                                     </Grid>
                                 </Border>
 
@@ -371,7 +525,7 @@
                                         CharacterSpacing="0.3"
                                         FontAttributes="Bold"
                                         FontFamily="{DynamicResource DefaultFontFamily}"
-                                        FontSize="{OnPlatform Android={OnIdiom Phone=17, Tablet=21}, iOS={OnIdiom Phone=17, Tablet=21}, WinUI=21, MacCatalyst=21}"
+                                        FontSize="{OnPlatform Android={OnIdiom Phone=17, Tablet=24}, iOS={OnIdiom Phone=17, Tablet=24}, WinUI=24, MacCatalyst=24}"
                                         LineBreakMode="WordWrap"
                                         Text="{Binding Name}"
                                         TextColor="{DynamicResource WikiAppListItemHeaderTextColor}" />
@@ -387,7 +541,7 @@
                                     <Label
                                         Grid.Row="2"
                                         FontFamily="{DynamicResource DefaultFontFamily}"
-                                        FontSize="{OnPlatform Android={OnIdiom Phone=13, Tablet=15}, iOS={OnIdiom Phone=12, Tablet=15}, WinUI=15, MacCatalyst=13}"
+                                        FontSize="{OnPlatform Android={OnIdiom Phone=13, Tablet=19}, iOS={OnIdiom Phone=12, Tablet=19}, WinUI=19, MacCatalyst=19}"
                                         IsVisible="{Binding HidePrimaryContentMetadata}"
                                         LineBreakMode="WordWrap"
                                         Text="{Binding MainContent}"
@@ -406,13 +560,13 @@
                                                             <Span
                                                                 FontAttributes="Bold"
                                                                 FontFamily="{DynamicResource DefaultFontFamily}"
-                                                                FontSize="13"
+                                                                FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}"
                                                                 Text="{Binding Key}"
                                                                 TextColor="{DynamicResource WikiAppListItemKeyTextColor}" />
-                                                            <Span FontFamily="{DynamicResource DefaultFontFamily}" FontSize="13" Text=": " TextColor="{DynamicResource WikiAppListItemKeyTextColor}" />
+                                                            <Span FontFamily="{DynamicResource DefaultFontFamily}" FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}" Text=": " TextColor="{DynamicResource WikiAppListItemKeyTextColor}" />
                                                             <Span
                                                                 FontFamily="{DynamicResource DefaultFontFamily}"
-                                                                FontSize="13"
+                                                                FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}"
                                                                 Text="{Binding Description}"
                                                                 TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
                                                         </FormattedString>
@@ -436,8 +590,47 @@
             AdUnitId="{Binding BannerAdsUnitId}"
             BannerType="Regular"
             HeightRequest="50"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+
+
+        <!--  Streak toast banner  -->
+        <Border
+            x:Name="streakBanner"
+            Grid.RowSpan="2"
+            Margin="16,12,16,0"
+            Padding="16,12"
+            BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
             HorizontalOptions="Fill"
-            VerticalOptions="Fill" />
+            InputTransparent="True"
+            IsVisible="False"
+            Stroke="{DynamicResource WikiAppPrimaryAccentColor}"
+            StrokeShape="RoundRectangle 14"
+            StrokeThickness="1.5"
+            VerticalOptions="Start"
+            ZIndex="999">
+            <Border.Shadow>
+                <Shadow Brush="#50000000" Offset="0,4" Radius="12" Opacity="1" />
+            </Border.Shadow>
+            <Grid ColumnDefinitions="Auto,*" ColumnSpacing="12" VerticalOptions="Center">
+                <Label
+                    x:Name="streakBannerIcon"
+                    Grid.Column="0"
+                    FontFamily="FontAwesome"
+                    FontSize="{OnIdiom Phone=22, Tablet=32, Default=32}"
+                    Text="&#xf46d;"
+                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                    VerticalOptions="Center" />
+                <Label
+                    x:Name="streakBannerText"
+                    Grid.Column="1"
+                    FontFamily="{DynamicResource DefaultFontFamily}"
+                    FontSize="{OnIdiom Phone=14, Tablet=20, Default=20}"
+                    FontAttributes="Bold"
+                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                    VerticalOptions="Center" />
+            </Grid>
+        </Border>
 
         <!--  Loading overlays — disabled, kept for re-enable if needed
         <localControls:LoadingFactsControl

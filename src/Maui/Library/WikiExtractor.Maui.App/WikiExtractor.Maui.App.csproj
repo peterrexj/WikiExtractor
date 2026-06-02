@@ -52,10 +52,13 @@
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\QuizFactStatus.cs" Link="Models\DbModels\QuizFactStatus.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\QuizMasterMetadata.cs" Link="Models\DbModels\QuizMasterMetadata.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\QuizResponse.cs" Link="Models\DbModels\QuizResponse.cs" />
+	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\QuizStatsModel.cs" Link="Models\DbModels\QuizStatsModel.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\RequestRecord.cs" Link="Models\DbModels\RequestRecord.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\Tag.cs" Link="Models\DbModels\Tag.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\TagItem.cs" Link="Models\DbModels\TagItem.cs" />
+	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\UserStore\FavouriteTrackerModel.cs" Link="Models\DbModels\UserStore\FavouriteTrackerModel.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\UserStore\ItemReadTrackerModel.cs" Link="Models\DbModels\UserStore\ItemReadTrackerModel.cs" />
+	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\DbModels\UserStore\StreakTrackerModel.cs" Link="Models\DbModels\UserStore\StreakTrackerModel.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Exts\ConfigData.cs" Link="Exts\ConfigData.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Exts\RandomGeneratorHelper.cs" Link="Exts\RandomGeneratorHelper.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Models\EnumsWiki.cs" Link="Models\ExtractModels\EnumsWiki.cs" />
@@ -88,6 +91,7 @@
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Repository\TagItemRepository.cs" Link="Repository\TagItemRepository.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Repository\TagRepository.cs" Link="Repository\TagRepository.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Repository\WikiPictureRepository.cs" Link="Repository\WikiPictureRepository.cs" />
+	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\Repository\UserStore\StreakTrackerRepository.cs" Link="Repository\UserStore\StreakTrackerRepository.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\BasePropertyChangeModel.cs" Link="Models\ViewModels\BasePropertyChangeModel.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\BaseViewModel.cs" Link="Models\ViewModels\BaseViewModel.cs" />
 	  <Compile Include="..\..\..\WikiExtractor.Process\WikiExtractor.Process\ViewModels\IListDynamicHeight.cs" Link="Models\ViewModels\IListDynamicHeight.cs" />

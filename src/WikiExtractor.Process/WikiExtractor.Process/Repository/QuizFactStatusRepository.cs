@@ -17,9 +17,9 @@ namespace WikiExtractor.Process.Repository
         public string SchemaScript(int databaseVersion)
         {
             var createStr = new StringBuilder();
-            if (databaseVersion <= 3)
+            if (databaseVersion <= 3 || databaseVersion == 5)
             {
-                createStr.Append($@"CREATE TABLE [{_tableName}] (
+                createStr.Append($@"CREATE TABLE IF NOT EXISTS [{_tableName}] (
 	                                [Id]	            INTEGER NOT NULL UNIQUE,
 	                                [MasterId]          INTEGER,
                                     [MetadataKey]       TEXT,

@@ -22,6 +22,10 @@ namespace Maui.Countries.Platforms.Android.DependencyInjection
         public string DbUserStore => "CountryUserStore.db";
         public string HeaderIcon => "appicon_1024.png";
 
+        public string AppShareLink => "https://play.google.com/store/apps/details?id=com.pj.countries.wiki";
+        public string RateAppLink => "market://details?id=com.pj.countries.wiki";
+        public string FeedbackEmail => "support@yoursimpleapps.com";
+
         public string AdsAppId => "ca-app-pub-4219645367584712~3489544050";
 
         public string AdsBannerId => "ca-app-pub-4219645367584712/3041169107";

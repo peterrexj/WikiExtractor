@@ -24,6 +24,10 @@ namespace WikiExtractor.Maui.App.Services
 
         string HeaderIcon { get; }
 
+        string AppShareLink { get; }
+        string RateAppLink { get; }
+        string FeedbackEmail { get; }
+
         /// <summary>
         /// Gets the list of registered font families available in the application
         /// </summary>

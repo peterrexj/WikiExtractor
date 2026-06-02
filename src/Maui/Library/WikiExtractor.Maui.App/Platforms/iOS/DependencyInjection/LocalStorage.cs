@@ -41,8 +41,8 @@ namespace WikiExtractor.Maui.App.Platforms.iOS.DependencyInjection
 
         public bool CopyDatabase() => true;
 
-        public string PlatformDatabasePath => NSBundle.MainBundle.PathForResource(Path.GetFileNameWithoutExtension(DatabaseFileName), "db")
-            ?? Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), DatabaseFileName);
+        public string PlatformDatabasePath =>
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), DatabaseFileName);
 
         public string DatabaseFileName
         {
@@ -51,27 +51,27 @@ namespace WikiExtractor.Maui.App.Platforms.iOS.DependencyInjection
                 try
                 {
                     var appInfo = SharedServiceCore.AppInformation;
-                    if (appInfo?.DbWikiStore != null)
+                    if (appInfo?.DbUserStore != null)
                     {
-                        return appInfo.DbWikiStore;
+                        return appInfo.DbUserStore;
                     }
 
                     var fallbackAppInfo = ServiceLocator.GetService<IAppInformation>();
-                    if (fallbackAppInfo?.DbWikiStore != null)
+                    if (fallbackAppInfo?.DbUserStore != null)
                     {
-                        return fallbackAppInfo.DbWikiStore;
+                        return fallbackAppInfo.DbUserStore;
                     }
 
-                    return "WikiStore.db";
+                    return "WikiUserStore.db";
                 }
                 catch
                 {
-                    return "WikiStore.db";
+                    return "WikiUserStore.db";
                 }
             }
         }
         public bool IsDatabaseOnCopyMode => false;
-        public int CurrentVersion => 4;
+        public int CurrentVersion => 5;
         public bool HasSettingsTable => true;
 
         private bool _forceCopy;

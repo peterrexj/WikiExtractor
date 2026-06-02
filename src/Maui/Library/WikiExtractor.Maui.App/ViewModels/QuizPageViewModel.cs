@@ -68,6 +68,7 @@ namespace WikiExtractor.Maui.App.ViewModels
                 OnPropertyChanged(nameof(Answer3));
                 OnPropertyChanged(nameof(Answer4));
                 OnPropertyChanged(nameof(ProgressValue));
+                StartTimer();
             }
         }
 
@@ -170,6 +171,85 @@ namespace WikiExtractor.Maui.App.ViewModels
         }
 
         public bool CanGoBack => true;
+
+        #region Timer
+
+        private const int TimerSeconds = 15;
+        private CancellationTokenSource _timerCts;
+
+        private double _timerProgress = 1.0;
+        public double TimerProgress
+        {
+            get => _timerProgress;
+            set { _timerProgress = value; OnPropertyChanged(nameof(TimerProgress)); }
+        }
+
+        private string _timerText = $"{TimerSeconds}";
+        public string TimerText
+        {
+            get => _timerText;
+            set { _timerText = value; OnPropertyChanged(nameof(TimerText)); }
+        }
+
+        private Color _timerColor;
+        public Color TimerColor
+        {
+            get => _timerColor;
+            set { _timerColor = value; OnPropertyChanged(nameof(TimerColor)); }
+        }
+
+        public void StopTimer() => _timerCts?.Cancel();
+
+        public void StartTimer()
+        {
+            _timerCts?.Cancel();
+            _timerCts = new CancellationTokenSource();
+            var token = _timerCts.Token;
+            _ = RunTimerAsync(token);
+        }
+
+        private async Task RunTimerAsync(CancellationToken token)
+        {
+            const int intervalMs = 100;
+            int totalTicks = TimerSeconds * (1000 / intervalMs);
+            int remaining = totalTicks;
+
+            while (remaining > 0 && !token.IsCancellationRequested)
+            {
+                await Task.Delay(intervalMs, token).ContinueWith(_ => { });
+                if (token.IsCancellationRequested) return;
+
+                remaining--;
+                double progress = (double)remaining / totalTicks;
+                int secondsLeft = (int)Math.Ceiling(remaining / (double)(1000 / intervalMs));
+
+                var color = progress > 0.5
+                    ? Color.FromArgb("#7EC8A0")
+                    : progress > 0.25
+                        ? Color.FromArgb("#F0A830")
+                        : Color.FromArgb("#E88080");
+
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    TimerProgress = progress;
+                    TimerText = secondsLeft.ToString();
+                    TimerColor = color;
+                });
+            }
+
+            if (!token.IsCancellationRequested)
+            {
+                // Time ran out — auto-advance as unanswered
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    TimerProgress = 0;
+                    TimerText = "0";
+                });
+                await OnNextClick(null);
+            }
+        }
+
+        #endregion
 
         public async Task InitializeAsync()
         {
@@ -399,6 +479,7 @@ namespace WikiExtractor.Maui.App.ViewModels
         {
             if (_isProcessingNext) return;
             _isProcessingNext = true;
+            StopTimer();
             OnPropertyChanged(nameof(IsNextEnabled));
             // 1. Immediate UI update (Main Thread)
             IsPageBusy = true;
@@ -520,6 +601,7 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         public void CleanupResources()
         {
+            StopTimer();
             PageCancellationTokenSource?.Cancel();
             PageCancellationTokenSource?.Dispose();
         }

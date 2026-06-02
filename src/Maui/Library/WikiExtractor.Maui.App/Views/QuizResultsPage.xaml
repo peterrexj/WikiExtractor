@@ -105,7 +105,7 @@
                                                     <Label
                                                         CharacterSpacing="1.5"
                                                         FontFamily="{DynamicResource DefaultFontFamily}"
-                                                        FontSize="{OnIdiom Phone=10, Tablet=13, Default=10}"
+                                                        FontSize="{OnIdiom Phone=10, Tablet=14, Default=14}"
                                                         HorizontalTextAlignment="Center"
                                                         Opacity="0.6"
                                                         Text="SCORE"
@@ -113,7 +113,7 @@
                                                     <Label
                                                         FontAttributes="Bold"
                                                         FontFamily="{DynamicResource DefaultFontFamily}"
-                                                        FontSize="{OnIdiom Phone=26, Tablet=32, Default=26}"
+                                                        FontSize="{OnIdiom Phone=26, Tablet=36, Default=36}"
                                                         HorizontalTextAlignment="Center"
                                                         Text="{Binding BindingContext.CorrectCountText, Source={RelativeSource AncestorType={x:Type ContentPage}}}"
                                                         TextColor="{DynamicResource WikiAppQuizResultsScoreTextColor}" />
@@ -139,7 +139,7 @@
                                     CharacterSpacing="0.5"
                                     FontAttributes="Bold"
                                     FontFamily="{DynamicResource DefaultFontFamily}"
-                                    FontSize="{OnIdiom Phone=15, Tablet=18, Default=15}"
+                                    FontSize="{OnIdiom Phone=15, Tablet=21, Default=21}"
                                     Text="Review Answers"
                                     TextColor="{DynamicResource WikiAppListItemHeaderTextColor}"
                                     VerticalOptions="Center" />
@@ -178,7 +178,7 @@
                                 <Label
                                     Grid.Column="1"
                                     FontFamily="FontAwesome"
-                                    FontSize="{OnIdiom Phone=18, Tablet=22, Default=18}"
+                                    FontSize="{OnIdiom Phone=18, Tablet=26, Default=26}"
                                     HorizontalOptions="Center"
                                     VerticalOptions="Center">
                                     <Label.Triggers>
@@ -203,7 +203,7 @@
                                     Spacing="5">
                                     <Label
                                         FontFamily="{DynamicResource DefaultFontFamily}"
-                                        FontSize="{OnIdiom Phone=14, Tablet=16, Default=14}"
+                                        FontSize="{OnIdiom Phone=14, Tablet=20, Default=20}"
                                         LineBreakMode="WordWrap"
                                         LineHeight="1.35"
                                         TextColor="{DynamicResource WikiAppQuizResultsQuestionTextColor}">
@@ -219,7 +219,7 @@
 
                                     <Label
                                         FontFamily="{DynamicResource DefaultFontFamily}"
-                                        FontSize="{OnIdiom Phone=13, Tablet=15, Default=13}"
+                                        FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}"
                                         IsVisible="{Binding IsCorrect, Converter={StaticResource InvertedBoolConverter}}"
                                         LineBreakMode="WordWrap"
                                         Opacity="0.85"
@@ -234,7 +234,7 @@
 
                                     <Label
                                         FontFamily="{DynamicResource DefaultFontFamily}"
-                                        FontSize="{OnIdiom Phone=12, Tablet=14, Default=12}"
+                                        FontSize="{OnIdiom Phone=12, Tablet=17, Default=17}"
                                         IsVisible="{Binding HasUserAnswered, Converter={StaticResource InvertedBoolConverter}}"
                                         Opacity="0.6"
                                         Text="Skipped"
@@ -287,8 +287,8 @@
                 AdUnitId="{Binding BannerAdsUnitId}"
                 BannerType="Regular"
                 HeightRequest="50"
-                HorizontalOptions="Fill"
-                VerticalOptions="Fill" />
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
         </Grid>
 
         <!--  Loading overlay  -->

@@ -34,6 +34,9 @@ namespace WikiExtractor.Maui.App.Views
                 /*loadingFactsControl?.Hide();*/
                 /*navigationLoadingFactsControl?.Hide();*/
 
+                Connectivity.Current.ConnectivityChanged -= OnConnectivityChanged;
+                Connectivity.Current.ConnectivityChanged += OnConnectivityChanged;
+
                 var currentTagKey = string.Join(",", Tags);
                 bool tagChanged = _loadedTagKey != null && _loadedTagKey != currentTagKey;
 
@@ -41,6 +44,7 @@ namespace WikiExtractor.Maui.App.Views
                 {
                     // First load or different flyout item — reset view model so list and title reload fresh
                     personaListViewModel = new PersonaListViewModel();
+                    personaListViewModel.IsOffline = Connectivity.Current.NetworkAccess != NetworkAccess.Internet;
                     BindingContext = personaListViewModel;
                     personaListViewModel.IsDataLoading = true;
                     personaListViewModel.LoadingMessage = "Initializing list...";
@@ -49,6 +53,7 @@ namespace WikiExtractor.Maui.App.Views
                 }
                 else
                 {
+                    personaListViewModel.IsOffline = Connectivity.Current.NetworkAccess != NetworkAccess.Internet;
                     personaListViewModel.IsDataLoading = true;
                     personaListViewModel.LoadingMessage = "Refreshing data...";
 
@@ -68,7 +73,24 @@ namespace WikiExtractor.Maui.App.Views
                 try { autoComplete?.Unfocus(); } catch { }
                 ApplyFontFamilyToAutocomplete();
             }
+            ShowDailyStreakToast();
             base.OnAppearing();
+        }
+
+        protected override void OnDisappearing()
+        {
+            Connectivity.Current.ConnectivityChanged -= OnConnectivityChanged;
+            base.OnDisappearing();
+        }
+
+        private void OnConnectivityChanged(object sender, ConnectivityChangedEventArgs e)
+        {
+            var isOffline = e.NetworkAccess != NetworkAccess.Internet;
+            MainThread.BeginInvokeOnMainThread(() =>
+            {
+                if (personaListViewModel != null)
+                    personaListViewModel.IsOffline = isOffline;
+            });
         }
 
         private async Task LoadInitialData()
@@ -103,8 +125,9 @@ namespace WikiExtractor.Maui.App.Views
                 });
                 var hideReadTask = Task.Run(() => SettingsHelper.ShouldShowAlreadyReadItem());
                 var sortIndexTask = Task.Run(() => Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)), SettingsHelper.GetSortAttributeBySelected(SettingsHelper.GetCurrentSortDescriptor())));
+                var showFavTask = Task.Run(() => SettingsHelper.GetShowFavouritesOnly());
 
-                await Task.WhenAll(titleTask, hideReadTask, sortIndexTask);
+                await Task.WhenAll(titleTask, hideReadTask, sortIndexTask, showFavTask);
 
                 await MainThread.InvokeOnMainThreadAsync(() =>
                 {
@@ -112,6 +135,7 @@ namespace WikiExtractor.Maui.App.Views
                     personaListViewModel.Title = titleTask.Result;
                     personaListViewModel.HideItemRead = hideReadTask.Result;
                     personaListViewModel.SortBySelectedIndex = sortIndexTask.Result;
+                    personaListViewModel.ShowFavouritesOnly = showFavTask.Result;
                     lblNavTitle.Text = titleTask.Result;
                 });
 
@@ -143,7 +167,6 @@ namespace WikiExtractor.Maui.App.Views
             {
                 personaListViewModel.IsDataLoading = true;
                 bool hasReadStatusChanged = false;
-                bool hasItemReadToggled = false;
 
                 /*var loadingModel = new LoadingFactsModel
                 {
@@ -168,48 +191,58 @@ namespace WikiExtractor.Maui.App.Views
                     foreach (var item in mapData)
                         item.Data.ItemReadStatus = item.Status;
 
+                    // Batch-sync IsFavourite for all items so cross-menu favouriting is reflected
+                    var favData = SharedServices.WikiAppController.GetFavouriteTrackData();
+                    var favLookup = favData.ToDictionary(f => f.ItemIdentifier, f => f.IsFavouriteAsBool, StringComparer.OrdinalIgnoreCase);
+                    foreach (var persona in personasSnapshot)
+                    {
+                        var isFav = favLookup.TryGetValue(persona.Name, out var v) && v;
+                        if (persona.IsFavourite != isFav)
+                        {
+                            persona.IsFavourite = isFav;
+                            localStatusChanged = true;
+                        }
+                    }
+
                     if (SharedServices.PageDataTransferModel.Name.HasValue())
                     {
                         var targetName = SharedServices.PageDataTransferModel.Name;
                         var isMarked = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
 
                         foreach (var item in personasSnapshot.Where(f => f.Name == targetName))
-                        {
-                            if (item.ItemReadStatus != isMarked) localStatusChanged = true;
                             item.ItemReadStatus = isMarked;
-                        }
+
+                        // Always re-filter when returning from a detail page — the item's
+                        // read/fav state may have changed and the DB read above may already
+                        // reflect the new value, so diffing gives a false "no change".
+                        localStatusChanged = true;
                         SharedServices.PageDataTransferModel.Clear();
                     }
 
                     return localStatusChanged;
                 });
 
-                var settingsTask = Task.Run(() =>
-                {
-                    var hideItemReadFromStore = SettingsHelper.ShouldShowAlreadyReadItem();
-                    bool toggled = hideItemReadFromStore != personaListViewModel.HideItemRead;
-                    return new { Hide = hideItemReadFromStore, Toggled = toggled };
-                });
+                var settingsTask = Task.Run(() => SettingsHelper.ShouldShowAlreadyReadItem());
+                var showFavTask = Task.Run(() => SettingsHelper.GetShowFavouritesOnly());
 
                 var sortIndexTask = Task.Run(() =>
                     Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)),
                     SettingsHelper.GetSortAttributeBySelected(SettingsHelper.GetCurrentSortDescriptor())));
 
-                await Task.WhenAll(readStatusTask, settingsTask, sortIndexTask);
+                await Task.WhenAll(readStatusTask, settingsTask, showFavTask, sortIndexTask);
 
                 hasReadStatusChanged = readStatusTask.Result;
-                hasItemReadToggled = settingsTask.Result.Toggled;
 
                 await MainThread.InvokeOnMainThreadAsync(() =>
                 {
-                    personaListViewModel.HideItemRead = settingsTask.Result.Hide;
+                    // HideItemRead setter now calls ApplyFilter() when the value changes,
+                    // so no separate ApplyFilter call is needed for the hide-read toggle path.
+                    personaListViewModel.HideItemRead = settingsTask.Result;
+                    personaListViewModel.ShowFavouritesOnly = showFavTask.Result;
                     personaListViewModel.SortBySelectedIndex = sortIndexTask.Result;
-                    personaListViewModel.SearchText = string.Empty;
-                    autoComplete.Text = string.Empty;
-                    autoComplete.SelectedItem = null;
                 });
 
-                if (hasReadStatusChanged || hasItemReadToggled)
+                if (hasReadStatusChanged)
                 {
                     await MainThread.InvokeOnMainThreadAsync(() => personaListViewModel.ApplyFilter());
                 }
@@ -268,6 +301,28 @@ namespace WikiExtractor.Maui.App.Views
 
         #region Auto Complete
 
+        private static readonly GridLength[] _toolbarCollapsedWidths = { new GridLength(80), new GridLength(32), new GridLength(32), new GridLength(32), new GridLength(32) };
+
+        private bool _toolbarExpanded;
+
+        private void autoComplete_Focused(object sender, FocusEventArgs e)
+        {
+            try
+            {
+                if (toolbarGrid?.ColumnDefinitions == null || toolbarGrid.ColumnDefinitions.Count < 6) return;
+                for (int i = 1; i <= 5; i++)
+                    toolbarGrid.ColumnDefinitions[i].Width = new GridLength(0);
+                toolbarGrid.ColumnSpacing = 0;
+                quizButtonContainer.IsVisible = false;
+                themeButtonContainer.IsVisible = false;
+                settingsButtonContainer.IsVisible = false;
+                btnFavouritesFilter.IsVisible = false;
+                btnShuffleItem.IsVisible = false;
+                _toolbarExpanded = true;
+            }
+            catch (Exception ex) { ExceptionHandler.CaptureException(ex); }
+        }
+
         private void autoComplete_SelectionChanged(object sender, Syncfusion.Maui.Inputs.SelectionChangedEventArgs e)
         {
             if (sender is not SfAutocomplete autocomplete) return;
@@ -287,6 +342,8 @@ namespace WikiExtractor.Maui.App.Views
                 {
                     var selected = e.AddedItems[0] as PersonaAutoCompleteModel;
                     personaListViewModel.SearchText = selected?.Name ?? string.Empty;
+                    autocomplete.IsDropDownOpen = false;
+                    autocomplete.Unfocus();
                 }
                 else if (autocomplete.SelectedItem == null)
                 {
@@ -312,6 +369,20 @@ namespace WikiExtractor.Maui.App.Views
 
             try
             {
+                // Restore toolbar columns
+                if (toolbarGrid?.ColumnDefinitions != null && toolbarGrid.ColumnDefinitions.Count >= 6)
+                {
+                    for (int i = 1; i <= 5; i++)
+                        toolbarGrid.ColumnDefinitions[i].Width = _toolbarCollapsedWidths[i - 1];
+                    toolbarGrid.ColumnSpacing = 6;
+                }
+                quizButtonContainer.IsVisible = true;
+                themeButtonContainer.IsVisible = true;
+                settingsButtonContainer.IsVisible = true;
+                btnFavouritesFilter.IsVisible = true;
+                btnShuffleItem.IsVisible = true;
+                _toolbarExpanded = false;
+
                 if (autocomplete.SelectedItem == null)
                     personaListViewModel.SearchText = autocomplete.Text ?? string.Empty;
 
@@ -334,7 +405,10 @@ namespace WikiExtractor.Maui.App.Views
                     personaListViewModel.SearchText = string.Empty;
 
                     if (sender is SfAutocomplete autocomplete)
+                    {
                         autocomplete.SelectedItem = null;
+                        autocomplete.Unfocus();
+                    }
 
                     RefreshFilter();
                 }
@@ -343,6 +417,37 @@ namespace WikiExtractor.Maui.App.Views
             {
                 ExceptionHandler.CaptureException(ex);
             }
+        }
+
+        private void btnClearSearch_Tapped(object sender, TappedEventArgs e)
+        {
+            try
+            {
+                autoComplete.IsDropDownOpen = false;
+                autoComplete.SelectedItem = null;
+                autoComplete.Text = string.Empty;
+
+                if (personaListViewModel != null)
+                {
+                    personaListViewModel.SearchText = string.Empty;
+                    RefreshFilter();
+                }
+
+                // Defer the second clear pass so Syncfusion processes the tap first,
+                // which ensures the visual text is wiped even when no item was selected
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    try
+                    {
+                        autoComplete.IsDropDownOpen = false;
+                        autoComplete.Text = string.Empty;
+                        if (_toolbarExpanded)
+                            autoComplete.Unfocus();
+                    }
+                    catch { }
+                });
+            }
+            catch (Exception ex) { ExceptionHandler.CaptureException(ex); }
         }
 
         #endregion
@@ -417,6 +522,58 @@ namespace WikiExtractor.Maui.App.Views
             }
         }
 
+        private void BtnFavouritesFilter_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                if (personaListViewModel == null) return;
+                var newValue = !personaListViewModel.ShowFavouritesOnly;
+                personaListViewModel.ShowFavouritesOnly = newValue;
+                Task.Run(() => SettingsHelper.SaveShowFavouritesOnly(newValue));
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
+        private async void BtnShuffleItem_Clicked(object sender, TappedEventArgs e)
+        {
+            try
+            {
+                var list = personaListViewModel?.FilteredPersonas;
+                if (list == null || list.Count == 0) return;
+                var random = list[new Random().Next(list.Count)];
+                _masterId = random.Id;
+                await ProcessRequestToSubPage();
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
+        private async void heartOnListItem_Tapped(object sender, TappedEventArgs e)
+        {
+            try
+            {
+                if (e.Parameter is not int id) return;
+                var persona = personaListViewModel?.Personas?.FirstOrDefault(f => f.Id == id);
+                if (persona == null) return;
+
+                var newValue = !persona.IsFavourite;
+                await Task.Run(() => SharedServices.WikiAppController.UpdateFavourite(persona.Name, newValue));
+                persona.IsFavourite = newValue;
+
+                if (personaListViewModel!.ShowFavouritesOnly)
+                    personaListViewModel.ApplyFilter();
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
         private async void BtnTakeQuiz_OnClicked(object sender, EventArgs e)
         {
             try
@@ -431,8 +588,48 @@ namespace WikiExtractor.Maui.App.Views
             }
         }
 
-        private void ApplyFontFamilyToAutocomplete()
+        private void ShowDailyStreakToast()
         {
+            try
+            {
+                var today = DateTime.UtcNow.ToString("yyyy-MM-dd");
+                var lastShown = Preferences.Get("StreakToastLastShownDate", string.Empty);
+                if (lastShown == today) return;
+                Preferences.Set("StreakToastLastShownDate", today);
+
+                var streak = Task.Run(() => SharedServices.WikiAppController.UpdateStreak()).GetAwaiter().GetResult();
+                var message = streak.CurrentStreak == 1
+                    ? "Welcome back! Start your streak today."
+                    : $"Day {streak.CurrentStreak} streak! Keep it going.";
+
+                MainThread.BeginInvokeOnMainThread(async () =>
+                {
+                    try
+                    {
+                        streakBannerText.Text = message;
+                        streakBanner.Opacity = 0;
+                        streakBanner.TranslationY = -60;
+                        streakBanner.IsVisible = true;
+
+                        await Task.WhenAll(
+                            streakBanner.FadeTo(1, 300, Easing.CubicOut),
+                            streakBanner.TranslateTo(0, 0, 300, Easing.CubicOut));
+
+                        await Task.Delay(3000);
+
+                        await Task.WhenAll(
+                            streakBanner.FadeTo(0, 400, Easing.CubicIn),
+                            streakBanner.TranslateTo(0, -60, 400, Easing.CubicIn));
+
+                        streakBanner.IsVisible = false;
+                    }
+                    catch { }
+                });
+            }
+            catch { }
+        }
+
+        private void ApplyFontFamilyToAutocomplete()        {
             try
             {
                 if (autoComplete == null) return;

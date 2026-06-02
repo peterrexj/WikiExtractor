@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="WikiExtractor.Maui.App.Views.StatsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ads="clr-namespace:PjAds.Maui.Controls;assembly=PjAds.Maui"
+    xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
+    Title="My Progress"
+    Shell.NavBarIsVisible="True"
+    BackgroundColor="{DynamicResource WikiAppDefaultBackgroundColor}">
+
+    <Grid Style="{DynamicResource WikiAppPageBackgroundGridStyle}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout
+                Padding="{OnIdiom Phone='16,16', Tablet='24,20', Default='16,16'}"
+                Spacing="16">
+
+                <!-- ═══ READING ═══ -->
+                <VerticalStackLayout Spacing="10">
+                    <Label
+                        Margin="4,0"
+                        CharacterSpacing="1.2"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
+                        Opacity="0.75"
+                        Text="&#xf02d;  READING"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+
+                    <Border
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+                        <Grid
+                            ColumnDefinitions="*,*"
+                            ColumnSpacing="0">
+
+                            <!-- Doughnut chart -->
+                            <chart:SfCircularChart
+                                Grid.Column="0"
+                                BackgroundColor="Transparent"
+                                HeightRequest="{OnIdiom Phone=180, Tablet=220, Default=180}">
+                                <chart:SfCircularChart.Series>
+                                    <chart:DoughnutSeries
+                                        EnableAnimation="True"
+                                        InnerRadius="0.60"
+                                        ItemsSource="{Binding ReadChartData}"
+                                        PaletteBrushes="{Binding ChartColors}"
+                                        XBindingPath="Category"
+                                        YBindingPath="Value">
+                                        <chart:DoughnutSeries.CenterView>
+                                            <VerticalStackLayout HorizontalOptions="Center" Spacing="2" VerticalOptions="Center">
+                                                <Label
+                                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                                    FontSize="{OnIdiom Phone=9, Tablet=13, Default=13}"
+                                                    HorizontalTextAlignment="Center"
+                                                    Opacity="0.6"
+                                                    Text="READ"
+                                                    TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                                <Label
+                                                    FontAttributes="Bold"
+                                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                                    FontSize="{OnIdiom Phone=20, Tablet=30, Default=30}"
+                                                    HorizontalTextAlignment="Center"
+                                                    Text="{Binding ReadProgressText}"
+                                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+                                            </VerticalStackLayout>
+                                        </chart:DoughnutSeries.CenterView>
+                                    </chart:DoughnutSeries>
+                                </chart:SfCircularChart.Series>
+                            </chart:SfCircularChart>
+
+                            <!-- Stat cards -->
+                            <VerticalStackLayout
+                                Grid.Column="1"
+                                Spacing="10"
+                                VerticalOptions="Center"
+                                Padding="0,0,16,0">
+
+                                <Border
+                                    BackgroundColor="{DynamicResource WikiAppQuizCardBackgroundColor}"
+                                    Padding="12,10"
+                                    StrokeShape="RoundRectangle 10"
+                                    Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                    StrokeThickness="1">
+                                    <VerticalStackLayout Spacing="2">
+                                        <Label
+                                            FontFamily="FontAwesome"
+                                            FontSize="14"
+                                            Text="&#xf02d;"
+                                            TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="{OnIdiom Phone=20, Tablet=30, Default=30}"
+                                            Text="{Binding TotalRead}"
+                                            TextColor="{DynamicResource WikiAppListItemHeaderTextColor}" />
+                                        <Label
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="11"
+                                            Opacity="0.6"
+                                            Text="Articles Read"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                    </VerticalStackLayout>
+                                </Border>
+
+                                <Border
+                                    BackgroundColor="{DynamicResource WikiAppQuizCardBackgroundColor}"
+                                    Padding="12,10"
+                                    StrokeShape="RoundRectangle 10"
+                                    Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                    StrokeThickness="1">
+                                    <VerticalStackLayout Spacing="2">
+                                        <Label
+                                            FontFamily="FontAwesome"
+                                            FontSize="14"
+                                            Text="&#xf004;"
+                                            TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="{OnIdiom Phone=20, Tablet=30, Default=30}"
+                                            Text="{Binding TotalFavourites}"
+                                            TextColor="{DynamicResource WikiAppListItemHeaderTextColor}" />
+                                        <Label
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="11"
+                                            Opacity="0.6"
+                                            Text="Favourites"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                    </VerticalStackLayout>
+                                </Border>
+
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- streak section goes here -->
+
+                <!-- ═══ STREAK ═══ -->
+                <VerticalStackLayout Spacing="10">
+                    <Label
+                        Margin="4,0"
+                        CharacterSpacing="1.2"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
+                        Opacity="0.75"
+                        Text="&#xf46d;  STREAK"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+
+                    <Grid ColumnDefinitions="*,*" ColumnSpacing="10">
+
+                        <!-- Current streak card -->
+                        <Border
+                            Grid.Column="0"
+                            BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                            Padding="16,14"
+                            Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                            StrokeShape="RoundRectangle 14"
+                            StrokeThickness="1">
+                            <VerticalStackLayout Spacing="4" HorizontalOptions="Center">
+                                <Label
+                                    FontFamily="FontAwesome"
+                                    FontSize="22"
+                                    HorizontalTextAlignment="Center"
+                                    Text="&#xf46d;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=28, Tablet=36, Default=28}"
+                                    HorizontalTextAlignment="Center"
+                                    Text="{Binding CurrentStreak}"
+                                    TextColor="{DynamicResource WikiAppListItemHeaderTextColor}" />
+                                <Label
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="11"
+                                    HorizontalTextAlignment="Center"
+                                    Opacity="0.6"
+                                    Text="Current Streak"
+                                    TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                <Label
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="10"
+                                    HorizontalTextAlignment="Center"
+                                    Opacity="0.5"
+                                    Text="days"
+                                    TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                            </VerticalStackLayout>
+                        </Border>
+
+                        <!-- Best streak card -->
+                        <Border
+                            Grid.Column="1"
+                            BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                            Padding="16,14"
+                            Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                            StrokeShape="RoundRectangle 14"
+                            StrokeThickness="1">
+                            <VerticalStackLayout Spacing="4" HorizontalOptions="Center">
+                                <Label
+                                    FontFamily="FontAwesome"
+                                    FontSize="22"
+                                    HorizontalTextAlignment="Center"
+                                    Text="&#xf091;"
+                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="{OnIdiom Phone=28, Tablet=36, Default=28}"
+                                    HorizontalTextAlignment="Center"
+                                    Text="{Binding BestStreak}"
+                                    TextColor="{DynamicResource WikiAppListItemHeaderTextColor}" />
+                                <Label
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="11"
+                                    HorizontalTextAlignment="Center"
+                                    Opacity="0.6"
+                                    Text="Best Streak"
+                                    TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                <Label
+                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                    FontSize="10"
+                                    HorizontalTextAlignment="Center"
+                                    Opacity="0.5"
+                                    Text="days"
+                                    TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                            </VerticalStackLayout>
+                        </Border>
+
+                    </Grid>
+                </VerticalStackLayout>
+
+                <!-- quiz all-time section goes here -->
+
+                <!-- ═══ QUIZ — ALL TIME ═══ -->
+                <VerticalStackLayout Spacing="10">
+                    <Label
+                        Margin="4,0"
+                        CharacterSpacing="1.2"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
+                        Opacity="0.75"
+                        Text="&#xf059;  QUIZ"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+
+                    <Border
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+                        <Grid ColumnDefinitions="*,*" ColumnSpacing="0">
+
+                            <!-- Doughnut -->
+                            <chart:SfCircularChart
+                                Grid.Column="0"
+                                BackgroundColor="Transparent"
+                                HeightRequest="{OnIdiom Phone=180, Tablet=220, Default=180}">
+                                <chart:SfCircularChart.Series>
+                                    <chart:DoughnutSeries
+                                        EnableAnimation="True"
+                                        InnerRadius="0.60"
+                                        ItemsSource="{Binding QuizAllTimeData}"
+                                        PaletteBrushes="{Binding SessionChartColors}"
+                                        XBindingPath="Category"
+                                        YBindingPath="Value">
+                                        <chart:DoughnutSeries.CenterView>
+                                            <VerticalStackLayout HorizontalOptions="Center" Spacing="2" VerticalOptions="Center">
+                                                <Label
+                                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                                    FontSize="{OnIdiom Phone=9, Tablet=13, Default=13}"
+                                                    HorizontalTextAlignment="Center"
+                                                    Opacity="0.6"
+                                                    Text="ACCURACY"
+                                                    TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                                <Label
+                                                    FontAttributes="Bold"
+                                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                                    FontSize="{OnIdiom Phone=20, Tablet=30, Default=30}"
+                                                    HorizontalTextAlignment="Center"
+                                                    Text="{Binding AccuracyText}"
+                                                    TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+                                            </VerticalStackLayout>
+                                        </chart:DoughnutSeries.CenterView>
+                                    </chart:DoughnutSeries>
+                                </chart:SfCircularChart.Series>
+                            </chart:SfCircularChart>
+
+                            <!-- Stat cards -->
+                            <VerticalStackLayout
+                                Grid.Column="1"
+                                Padding="0,0,16,0"
+                                Spacing="10"
+                                VerticalOptions="Center">
+
+                                <Border
+                                    BackgroundColor="{DynamicResource WikiAppQuizCardBackgroundColor}"
+                                    Padding="12,10"
+                                    Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                    StrokeShape="RoundRectangle 10"
+                                    StrokeThickness="1">
+                                    <VerticalStackLayout Spacing="2">
+                                        <Label
+                                            FontFamily="FontAwesome"
+                                            FontSize="14"
+                                            Text="&#xf11b;"
+                                            TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="{OnIdiom Phone=20, Tablet=30, Default=30}"
+                                            Text="{Binding TotalSessions}"
+                                            TextColor="{DynamicResource WikiAppListItemHeaderTextColor}" />
+                                        <Label
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="11"
+                                            Opacity="0.6"
+                                            Text="Sessions Played"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                    </VerticalStackLayout>
+                                </Border>
+
+                            </VerticalStackLayout>
+
+                        </Grid>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- session trend section goes here -->
+
+                <!-- ═══ SCORE TREND ═══ -->
+                <VerticalStackLayout
+                    IsVisible="{Binding HasSessionTrend}"
+                    Spacing="10">
+                    <Label
+                        Margin="4,0"
+                        CharacterSpacing="1.2"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
+                        Opacity="0.75"
+                        Text="&#xf201;  SCORE TREND"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+
+                    <Border
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Padding="12,12"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+                        <chart:SfCartesianChart
+                            BackgroundColor="Transparent"
+                            HeightRequest="{OnIdiom Phone=180, Tablet=220, Default=180}">
+
+                            <chart:SfCartesianChart.XAxes>
+                                <chart:CategoryAxis
+                                    IsVisible="False"
+                                    ShowMajorGridLines="False" />
+                            </chart:SfCartesianChart.XAxes>
+
+                            <chart:SfCartesianChart.YAxes>
+                                <chart:NumericalAxis
+                                    Maximum="100"
+                                    Minimum="0"
+                                    ShowMajorGridLines="True"
+                                    Interval="25">
+                                    <chart:NumericalAxis.LabelStyle>
+                                        <chart:ChartAxisLabelStyle
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="10"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                    </chart:NumericalAxis.LabelStyle>
+                                </chart:NumericalAxis>
+                            </chart:SfCartesianChart.YAxes>
+
+                            <chart:ColumnSeries
+                                EnableAnimation="True"
+                                ItemsSource="{Binding SessionTrendData}"
+                                XBindingPath="Category"
+                                YBindingPath="Value"
+                                Fill="{DynamicResource WikiAppPrimaryAccentColor}"
+                                CornerRadius="4" />
+
+                        </chart:SfCartesianChart>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- topic accuracy section goes here -->
+
+                <!-- ═══ TOPIC ACCURACY ═══ -->
+                <VerticalStackLayout
+                    IsVisible="{Binding HasTopicData}"
+                    Spacing="10">
+                    <Label
+                        Margin="4,0"
+                        CharacterSpacing="1.2"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
+                        Opacity="0.75"
+                        Text="&#xf080;  TOPIC ACCURACY"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+
+                    <Border
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Padding="12,12"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+                        <chart:SfCartesianChart
+                            BackgroundColor="Transparent"
+                            IsTransposed="True"
+                            HeightRequest="{OnIdiom Phone=200, Tablet=240, Default=200}">
+
+                            <chart:SfCartesianChart.XAxes>
+                                <chart:CategoryAxis
+                                    ShowMajorGridLines="False">
+                                    <chart:CategoryAxis.LabelStyle>
+                                        <chart:ChartAxisLabelStyle
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="10"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                    </chart:CategoryAxis.LabelStyle>
+                                </chart:CategoryAxis>
+                            </chart:SfCartesianChart.XAxes>
+
+                            <chart:SfCartesianChart.YAxes>
+                                <chart:NumericalAxis
+                                    Maximum="100"
+                                    Minimum="0"
+                                    ShowMajorGridLines="True"
+                                    Interval="25">
+                                    <chart:NumericalAxis.LabelStyle>
+                                        <chart:ChartAxisLabelStyle
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="10"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                    </chart:NumericalAxis.LabelStyle>
+                                </chart:NumericalAxis>
+                            </chart:SfCartesianChart.YAxes>
+
+                            <chart:ColumnSeries
+                                EnableAnimation="True"
+                                ItemsSource="{Binding TopicData}"
+                                XBindingPath="Category"
+                                YBindingPath="Value"
+                                Fill="{DynamicResource WikiAppPrimaryAccentColor}"
+                                CornerRadius="4" />
+
+                        </chart:SfCartesianChart>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- hardest subjects + insight + overlay go here -->
+
+                <!-- ═══ HARDEST SUBJECTS ═══ -->
+                <VerticalStackLayout
+                    IsVisible="{Binding HasHardestSubjects}"
+                    Spacing="10">
+                    <Label
+                        Margin="4,0"
+                        CharacterSpacing="1.2"
+                        FontAttributes="Bold"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
+                        Opacity="0.75"
+                        Text="&#xf071;  HARDEST SUBJECTS"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+
+                    <Border
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Padding="12,12"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+                        <chart:SfCartesianChart
+                            BackgroundColor="Transparent"
+                            IsTransposed="True"
+                            HeightRequest="{OnIdiom Phone=180, Tablet=220, Default=180}">
+
+                            <chart:SfCartesianChart.XAxes>
+                                <chart:CategoryAxis
+                                    ShowMajorGridLines="False">
+                                    <chart:CategoryAxis.LabelStyle>
+                                        <chart:ChartAxisLabelStyle
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="10"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                    </chart:CategoryAxis.LabelStyle>
+                                </chart:CategoryAxis>
+                            </chart:SfCartesianChart.XAxes>
+
+                            <chart:SfCartesianChart.YAxes>
+                                <chart:NumericalAxis
+                                    Maximum="100"
+                                    Minimum="0"
+                                    ShowMajorGridLines="True"
+                                    Interval="25">
+                                    <chart:NumericalAxis.LabelStyle>
+                                        <chart:ChartAxisLabelStyle
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="10"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                                    </chart:NumericalAxis.LabelStyle>
+                                </chart:NumericalAxis>
+                            </chart:SfCartesianChart.YAxes>
+
+                            <chart:ColumnSeries
+                                EnableAnimation="True"
+                                ItemsSource="{Binding HardestSubjectsData}"
+                                XBindingPath="Category"
+                                YBindingPath="Value"
+                                Fill="{DynamicResource WikiAppPrimaryAccentColor}"
+                                CornerRadius="4" />
+
+                        </chart:SfCartesianChart>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- ═══ INSIGHTS ═══ -->
+                <Border
+                    BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                    Padding="16,14"
+                    Stroke="{DynamicResource WikiAppPrimaryAccentColor}"
+                    StrokeShape="RoundRectangle 14"
+                    StrokeThickness="1">
+                    <VerticalStackLayout Spacing="8">
+                        <HorizontalStackLayout Spacing="8">
+                            <Label
+                                FontFamily="FontAwesome"
+                                FontSize="14"
+                                Text="&#xf0eb;"
+                                TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                VerticalOptions="Center" />
+                            <Label
+                                CharacterSpacing="1.0"
+                                FontAttributes="Bold"
+                                FontFamily="{DynamicResource DefaultFontFamily}"
+                                FontSize="12"
+                                Opacity="0.75"
+                                Text="INSIGHTS"
+                                TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                VerticalOptions="Center" />
+                        </HorizontalStackLayout>
+                        <Label
+                            FontFamily="{DynamicResource DefaultFontFamily}"
+                            FontSize="{OnIdiom Phone=14, Tablet=20, Default=20}"
+                            LineHeight="1.4"
+                            Text="{Binding InsightText}"
+                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
+                    </VerticalStackLayout>
+                </Border>
+
+                <BoxView HeightRequest="8" Color="Transparent" />
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <ads:BannerAdView
+            Grid.Row="1"
+            AdSize="Banner"
+            AdUnitId="{Binding BannerAdsUnitId}"
+            BannerType="Regular"
+            HeightRequest="50"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+
+        <!-- Loading overlay -->
+        <Border
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            IsVisible="{Binding IsPageBusy}"
+            BackgroundColor="#80000000"
+            InputTransparent="False"
+            StrokeThickness="0">
+            <VerticalStackLayout
+                HorizontalOptions="Center"
+                Spacing="14"
+                VerticalOptions="Center">
+                <ActivityIndicator
+                    HeightRequest="50"
+                    IsRunning="{Binding IsPageBusy}"
+                    WidthRequest="50"
+                    Color="{DynamicResource WikiAppPrimaryAccentColor}" />
+                <Label
+                    FontAttributes="Bold"
+                    FontFamily="{DynamicResource DefaultFontFamily}"
+                    Text="Loading stats..."
+                    TextColor="White" />
+            </VerticalStackLayout>
+        </Border>
+
+    </Grid>
+</ContentPage>
