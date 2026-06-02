@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using TestAny.Essentials.Core.Dtos.Api;
 using WikiExtractor.DbModels;
 using WikiExtractor.Models;
 
@@ -16,6 +17,42 @@ namespace WikiExtractor.Process.Extractor
         protected readonly ParagraphExtractor paragraphExtractor = new ParagraphExtractor();
         protected readonly MetadataExtractor metadataExtractor = new MetadataExtractor();
         protected readonly StoreProcess storeProcess = new StoreProcess();
+
+        private static HeaderCollection WebHeaderCollection = new HeaderCollection
+                {
+                    new TestApiHeader("User-Agent",
+                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) " +
+                        "AppleWebKit/537.36 (KHTML, like Gecko) " +
+                        "Chrome/136.0.0.0 Safari/537.36"),
+
+                    new TestApiHeader("Accept",
+                        "text/html,application/xhtml+xml,application/xml;q=0.9," +
+                        "image/avif,image/webp,image/apng,*/*;q=0.8"),
+
+                    new TestApiHeader("Accept-Language",
+                        "en-AU,en;q=0.9"),
+
+                    new TestApiHeader("Accept-Encoding",
+                        "gzip, deflate, br"),
+
+                    new TestApiHeader("Cache-Control", "max-age=0"),
+
+                    new TestApiHeader("Upgrade-Insecure-Requests", "1"),
+
+                    // Modern Chromium client hints
+                    new TestApiHeader("sec-ch-ua",
+                        "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\""),
+
+                    new TestApiHeader("sec-ch-ua-mobile", "?0"),
+
+                    new TestApiHeader("sec-ch-ua-platform", "\"Windows\""),
+
+                    // Fetch metadata
+                    new TestApiHeader("Sec-Fetch-Dest", "document"),
+                    new TestApiHeader("Sec-Fetch-Mode", "navigate"),
+                    new TestApiHeader("Sec-Fetch-Site", "none"),
+                    new TestApiHeader("Sec-Fetch-User", "?1")
+                };
 
         protected string GetRouteToFileName(string route)
         {
@@ -48,7 +85,7 @@ namespace WikiExtractor.Process.Extractor
                 var resp = new TestApiHttp()
                    .SetEnvironment("https://en.wikipedia.org")
                    .PrepareRequest(route)
-                   .AddDefaultWebHeaders()
+                   .AddHeaders(WebHeaderCollection)
                    .GetWithRetry(
                        assertOk: true,
                        timeToSleepBetweenRetryInMilliseconds: 1000,
@@ -61,6 +98,12 @@ namespace WikiExtractor.Process.Extractor
                 resp.AssertResponseStatusForSuccess();
                 ToCache(route, resp.ResponseBody.ContentString);
                 cache = resp.ResponseBody.ContentString;
+
+                if (ProcessConstants.RequestDelayInMilliseconds > 0)
+                {
+                    Console.WriteLine($"Delaying for {ProcessConstants.RequestDelayInMilliseconds} ms to respect server load...");
+                    Thread.Sleep(ProcessConstants.RequestDelayInMilliseconds);
+                }
             }
             return cache;
         }
@@ -107,7 +150,7 @@ namespace WikiExtractor.Process.Extractor
             return storeProcess.StoreInformation(wikiPageModel, metaDatas, wikiData);
         }
 
-        public int PersonaSinglePageContentExtractWithSaveToStore(WikiWhatToExtractModel wikiData, 
+        public int PersonaSinglePageContentExtractWithSaveToStore(WikiWhatToExtractModel wikiData,
             List<string> excludedAdditionalMetadata = null)
         {
             var response = WikiPageRouteResponseAsHtmlDocument(wikiData.Route, null);

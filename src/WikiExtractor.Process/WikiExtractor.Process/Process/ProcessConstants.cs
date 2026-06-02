@@ -12,5 +12,6 @@ namespace WikiExtractor.Process
         public static string UserStoreDatabasePath { get; set; }
         public static string CacheFolder { get; set; }
         public static bool UseCache { get; set; } = true;
+        public static int RequestDelayInMilliseconds { get; set; } = 2000;
     }
 }

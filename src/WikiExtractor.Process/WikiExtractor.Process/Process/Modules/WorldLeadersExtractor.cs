@@ -293,6 +293,7 @@ namespace WikiExtractor.Process.Modules
             {
                 try
                 {
+                    if (ProcessConstants.UseCache == false) Thread.Sleep(1000);
                     //Thread.Sleep(1000);
                     lock (_lock)
                     {

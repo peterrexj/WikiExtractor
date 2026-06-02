@@ -14,6 +14,7 @@ namespace WikiExtractor.Process
             var serviceProvider = ContainerConfiguration.Configure();
 
             ProcessConstants.UseCache = true;
+            ProcessConstants.RequestDelayInMilliseconds = ProcessConstants.UseCache ? 0 : 2000;
 
             var worldLeadersExtractor = new WorldLeadersExtractor();
             worldLeadersExtractor.ExtractData();
