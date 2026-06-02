@@ -13,6 +13,7 @@ namespace WikiExtractor.Maui.App.Views
     public partial class SettingsPage : ContentPage
     {
         private CancellationTokenSource _pitchDebounce;
+        private CancellationTokenSource _fontSizeDebounce;
 
         protected override async void OnAppearing()
         {
@@ -113,6 +114,26 @@ namespace WikiExtractor.Maui.App.Views
                 {
                     if (!t.IsCanceled && BindingContext is SettingsViewModel vm)
                         vm.SpeechPitch = (float)e.NewValue;
+                }
+                catch (Exception ex)
+                {
+                    ExceptionHandler.CaptureException(ex);
+                }
+            }, TaskScheduler.FromCurrentSynchronizationContext());
+        }
+
+        private void SliderFontSize_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            _fontSizeDebounce?.Cancel();
+            _fontSizeDebounce?.Dispose();
+            _fontSizeDebounce = new CancellationTokenSource();
+            var token = _fontSizeDebounce.Token;
+            Task.Delay(200, token).ContinueWith(t =>
+            {
+                try
+                {
+                    if (!t.IsCanceled && BindingContext is SettingsViewModel vm)
+                        vm.ParagraphFontSize = e.NewValue;
                 }
                 catch (Exception ex)
                 {

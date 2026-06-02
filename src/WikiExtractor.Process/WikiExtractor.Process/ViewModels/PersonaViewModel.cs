@@ -51,7 +51,7 @@ namespace WikiExtractor.ViewModels
         public bool ShowPrimaryContentMetadata => IsPrimaryMetadataContentEnabled;
         public bool HidePrimaryContentMetadata => !IsPrimaryMetadataContentEnabled;
 
-        public bool _itemReadStatus;
+        private bool _itemReadStatus;
         public bool ItemReadStatus
         {
             get => _itemReadStatus;
@@ -59,6 +59,17 @@ namespace WikiExtractor.ViewModels
             {
                 _itemReadStatus = value;
                 OnPropertyChanged("ItemReadStatus");
+            }
+        }
+
+        private bool _isFavourite;
+        public bool IsFavourite
+        {
+            get => _isFavourite;
+            set
+            {
+                _isFavourite = value;
+                OnPropertyChanged(nameof(IsFavourite));
             }
         }
 

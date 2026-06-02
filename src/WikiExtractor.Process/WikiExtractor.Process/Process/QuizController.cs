@@ -194,6 +194,76 @@ namespace WikiExtractor.Process.Process
             _userStoreDb.QuizResponseRepository.Add(responseModel, checkAlreadyExists: false);
         }
 
+        public QuizStatsModel GetQuizStats()
+        {
+            var all = _userStoreDb.QuizResponseRepository.GetAll().ToList();
+
+            var totalCorrect  = all.Count(r => r.UserResponse == 1);
+            var totalWrong    = all.Count(r => r.UserResponse == 0);
+            var totalSkipped  = all.Count(r => r.UserResponse == -1);
+            var totalSessions = all.Select(r => r.QuestionSetId).Distinct().Count();
+
+            // Per-session scores (last 15 sessions)
+            var sessionScores = all
+                .GroupBy(r => r.QuestionSetId)
+                .OrderBy(g => g.Key)
+                .TakeLast(15)
+                .Select(g => new QuizSessionScore
+                {
+                    SessionId   = g.Key,
+                    Correct     = g.Count(r => r.UserResponse == 1),
+                    Total       = g.Count(),
+                    PlayedAt    = g.Min(r => r.CreatedDateTime)
+                })
+                .ToList();
+
+            // Per-topic accuracy (MetadataKey)
+            var topicAccuracy = all
+                .GroupBy(r => r.MetadataKey)
+                .Where(g => g.Count(r => r.UserResponse != -1) >= 3)
+                .Select(g => new QuizTopicAccuracy
+                {
+                    Topic    = g.Key,
+                    Correct  = g.Count(r => r.UserResponse == 1),
+                    Answered = g.Count(r => r.UserResponse != -1)
+                })
+                .OrderBy(t => t.Correct / (double)Math.Max(t.Answered, 1))
+                .ToList();
+
+            // Hardest subjects (bottom 5 by accuracy, min 2 answered)
+            var subjectAccuracy = all
+                .GroupBy(r => r.MasterId)
+                .Where(g => g.Count(r => r.UserResponse != -1) >= 2)
+                .Select(g => new QuizSubjectAccuracy
+                {
+                    MasterId = g.Key,
+                    Correct  = g.Count(r => r.UserResponse == 1),
+                    Answered = g.Count(r => r.UserResponse != -1)
+                })
+                .OrderBy(s => s.Correct / (double)Math.Max(s.Answered, 1))
+                .Take(5)
+                .ToList();
+
+            // Resolve master names
+            var masterIds  = subjectAccuracy.Select(s => s.MasterId).ToList();
+            var masterNames = _wikiDb.MasterRepository.GetAll()
+                .Where(m => masterIds.Contains(m.Id))
+                .ToDictionary(m => m.Id, m => m.Name);
+            foreach (var s in subjectAccuracy)
+                s.MasterName = masterNames.TryGetValue(s.MasterId, out var n) ? n : s.MasterId.ToString();
+
+            return new QuizStatsModel
+            {
+                TotalCorrect   = totalCorrect,
+                TotalWrong     = totalWrong,
+                TotalSkipped   = totalSkipped,
+                TotalSessions  = totalSessions,
+                SessionScores  = sessionScores,
+                TopicAccuracy  = topicAccuracy,
+                SubjectAccuracy = subjectAccuracy
+            };
+        }
+
         /// <summary>
         /// Fetches quiz facts that haven't been shown to the user yet.
         /// Facts are fetched from QuizDefinition and have MasterId and AnswerId placeholders replaced.

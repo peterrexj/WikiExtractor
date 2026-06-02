@@ -7,7 +7,6 @@
     xmlns:buttons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
     xmlns:local="clr-namespace:WikiExtractor.Maui.App.Exts"
     xmlns:localControls="clr-namespace:WikiExtractor.Maui.App.Controls"
-    xmlns:popup="clr-namespace:Syncfusion.Maui.Popup;assembly=Syncfusion.Maui.Popup"
     xmlns:sfList="clr-namespace:Syncfusion.Maui.ListView;assembly=Syncfusion.Maui.ListView"
     xmlns:tabView="clr-namespace:Syncfusion.Maui.TabView;assembly=Syncfusion.Maui.TabView"
     xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
@@ -36,7 +35,7 @@
             <!--  Tab item style with explicit text colors — Syncfusion VSM+DynamicResource is unreliable  -->
             <Style x:Key="TabItemStyle" TargetType="tabView:SfTabItem">
                 <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
-                <Setter Property="FontSize" Value="{OnIdiom Phone=13, Tablet=15, Default=13}" />
+                <Setter Property="FontSize" Value="{OnIdiom Phone=13, Tablet=19, Default=19}" />
                 <Setter Property="TextColor" Value="{DynamicResource WikiAppTabTextColorNormal}" />
             </Style>
         </ResourceDictionary>
@@ -50,6 +49,7 @@
                   IgnoreSafeArea="{OnPlatform iOS=True, Default=False}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
@@ -88,10 +88,10 @@
                                                      Tablet='15,12,15,8',
                                                      Desktop='15,12,15,8',
                                                      Default='10,8,10,5'}"
-                                    Padding="{OnIdiom Phone='10,3',
-                                                      Tablet='20,16',
-                                                      Desktop='20,16',
-                                                      Default='15,12'}"
+                                    Padding="{OnIdiom Phone='10,8',
+                                                      Tablet='20,12',
+                                                      Desktop='20,12',
+                                                      Default='10,8'}"
                                     Background="{DynamicResource BorderTopBackgroundGradientBrush}"
                                     HorizontalOptions="Fill"
                                     Stroke="{DynamicResource BorderTopGradientBrush}"
@@ -99,63 +99,61 @@
                                     StrokeThickness="1"
                                     VerticalOptions="Start">
 
-                                    <Grid HorizontalOptions="Fill" VerticalOptions="Center">
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="Auto" />
-                                            <ColumnDefinition Width="Auto" />
-                                        </Grid.ColumnDefinitions>
+                                    <Grid
+                                        ColumnDefinitions="*,*,*"
+                                        HorizontalOptions="Fill"
+                                        VerticalOptions="Center">
 
-                                        <!--  Mark as Viewed label  -->
-                                        <StackLayout
-                                            Grid.Column="0"
-                                            HorizontalOptions="Start"
-                                            Orientation="Horizontal"
-                                            Spacing="8"
-                                            VerticalOptions="Center">
-                                            <Label
-                                                FontFamily="FontAwesome"
-                                                FontSize="{OnIdiom Phone=14, Tablet=20, Default=14}"
-                                                Text="&#xf518;"
-                                                TextColor="{DynamicResource WikiAppPersonaDetailMarkViewedTextColor}"
-                                                VerticalOptions="Center" />
-                                            <Label
-                                                FontAttributes="Bold"
-                                                FontFamily="{DynamicResource DefaultFontFamily}"
-                                                FontSize="{OnIdiom Phone=13, Tablet=18, Default=13}"
-                                                Text="Mark as Viewed"
-                                                TextColor="{DynamicResource WikiAppPersonaDetailMarkViewedTextColor}"
-                                                VerticalOptions="Center" />
-                                        </StackLayout>
-
-                                        <!--  Read / Unread status  -->
+                                        <!--  Favourite  -->
                                         <Label
-                                            Grid.Column="1"
-                                            Margin="{OnIdiom Phone='0,0,12,0', Tablet='0,0,16,0', Default='0,0,12,0'}"
-                                            FontFamily="{DynamicResource DefaultFontFamily}"
-                                            FontSize="{OnIdiom Phone=12, Tablet=16, Default=12}"
-                                            HorizontalTextAlignment="End"
+                                            x:Name="lblFavouriteIcon"
+                                            Grid.Column="0"
+                                            FontFamily="FontAwesome"
+                                            FontSize="{OnIdiom Phone=22, Tablet=32, Default=32}"
+                                            Text="&#xf004;"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}"
+                                            HorizontalOptions="Center"
                                             VerticalOptions="Center">
-                                            <Label.Triggers>
-                                                <DataTrigger Binding="{Binding Persona.ItemReadStatus}" TargetType="Label" Value="True">
-                                                    <Setter Property="Text" Value="Read" />
-                                                    <Setter Property="TextColor" Value="{DynamicResource WikiAppPrimaryAccentColor}" />
-                                                </DataTrigger>
-                                                <DataTrigger Binding="{Binding Persona.ItemReadStatus}" TargetType="Label" Value="False">
-                                                    <Setter Property="Text" Value="Unread" />
-                                                    <Setter Property="TextColor" Value="{DynamicResource WikiAppListItemDescriptionTextColor}" />
-                                                </DataTrigger>
-                                            </Label.Triggers>
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="FavouriteButton_Tapped" />
+                                            </Label.GestureRecognizers>
                                         </Label>
 
-                                        <!--  Switch  -->
-                                        <buttons:SfSwitch
-                                            x:Name="swtReadItem"
+                                        <!--  Share  -->
+                                        <Label
+                                            Grid.Column="1"
+                                            FontFamily="FontAwesome"
+                                            FontSize="{OnIdiom Phone=22, Tablet=32, Default=32}"
+                                            Text="&#xf1e0;"
+                                            TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                            HorizontalOptions="Center"
+                                            VerticalOptions="Center">
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="ShareButton_Tapped" />
+                                            </Label.GestureRecognizers>
+                                        </Label>
+
+                                        <!--  Mark as Read  -->
+                                        <VerticalStackLayout
                                             Grid.Column="2"
-                                            HorizontalOptions="End"
-                                            IsOn="{Binding Persona.ItemReadStatus}"
-                                            StateChanged="swtReadItem_StateChanged"
-                                            VerticalOptions="Center" />
+                                            HorizontalOptions="Center"
+                                            VerticalOptions="Center"
+                                            Spacing="2">
+                                            <buttons:SfSwitch
+                                                x:Name="swtReadItem"
+                                                HorizontalOptions="Center"
+                                                IsOn="{Binding Persona.ItemReadStatus}"
+                                                StateChanged="swtReadItem_StateChanged"
+                                                VerticalOptions="Center" />
+                                            <Label
+                                                FontFamily="{DynamicResource DefaultFontFamily}"
+                                                FontSize="{OnIdiom Phone=10, Tablet=15, Default=15}"
+                                                Text="Mark Read"
+                                                TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}"
+                                                HorizontalOptions="Center"
+                                                Opacity="0.6" />
+                                        </VerticalStackLayout>
+
                                     </Grid>
                                 </Border>
                                 <!--  List content container that fills remaining space  -->
@@ -193,7 +191,7 @@
                                                             Grid.Column="0"
                                                             FontAttributes="Bold"
                                                             FontFamily="{DynamicResource DefaultFontFamily}"
-                                                            FontSize="{OnIdiom Phone=13, Tablet=17, Default=13}"
+                                                            FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}"
                                                             HorizontalOptions="Start"
                                                             LineBreakMode="WordWrap"
                                                             Text="{Binding Key}"
@@ -204,7 +202,7 @@
                                                             Grid.Column="1"
                                                             CharacterSpacing="0.2"
                                                             FontFamily="{DynamicResource DefaultFontFamily}"
-                                                            FontSize="{OnIdiom Phone=13, Tablet=17, Default=13}"
+                                                            FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}"
                                                             HorizontalOptions="Fill"
                                                             HorizontalTextAlignment="Start"
                                                             LineBreakMode="WordWrap"
@@ -259,7 +257,7 @@
                                         Margin="0,0,6,0"
                                         FontAttributes="Bold"
                                         FontFamily="{DynamicResource DefaultFontFamily}"
-                                        FontSize="{OnIdiom Phone=18, Tablet=22, Default=18}"
+                                        FontSize="{OnIdiom Phone=18, Tablet=26, Default=26}"
                                         HorizontalOptions="Center"
                                         Opacity="0.55"
                                         Text="&#x2212;"
@@ -280,7 +278,7 @@
                                         Grid.Column="1"
                                         Margin="0,0,6,0"
                                         FontFamily="{DynamicResource DefaultFontFamily}"
-                                        FontSize="{OnIdiom Phone=12, Tablet=14, Default=12}"
+                                        FontSize="{OnIdiom Phone=12, Tablet=17, Default=17}"
                                         HorizontalOptions="Center"
                                         Opacity="0.45"
                                         Text="{Binding ContentFontSize, StringFormat='{0:0}'}"
@@ -293,7 +291,7 @@
                                         Grid.Column="2"
                                         FontAttributes="Bold"
                                         FontFamily="{DynamicResource DefaultFontFamily}"
-                                        FontSize="{OnIdiom Phone=18, Tablet=22, Default=18}"
+                                        FontSize="{OnIdiom Phone=18, Tablet=26, Default=26}"
                                         HorizontalOptions="Center"
                                         Opacity="0.55"
                                         Text="&#x002B;"
@@ -392,8 +390,7 @@
                                                         Aspect="AspectFill"
                                                         HorizontalOptions="Fill"
                                                         VerticalOptions="Fill"
-                                                        CustomSource="{Binding PicturePath}"
-                                                        LocalFileName="{Binding PictureLocalFileName}" />
+                                                        CustomSource="{Binding PicturePath}" />
 
                                                     <!--  Bottom gradient scrim  -->
                                                     <BoxView
@@ -412,7 +409,7 @@
                                                     <Label
                                                         Padding="{OnIdiom Phone='10,6', Tablet='14,8', Default='10,6'}"
                                                         FontFamily="{DynamicResource DefaultFontFamily}"
-                                                        FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
+                                                        FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
                                                         HorizontalOptions="Fill"
                                                         HorizontalTextAlignment="Center"
                                                         InputTransparent="True"
@@ -434,20 +431,50 @@
             </Grid>
 
             <ads:BannerAdView
-                Grid.Row="1"
+                Grid.Row="2"
                 AdSize="Banner"
                 AdUnitId="{Binding BannerAdsUnitId}"
                 BannerType="Regular"
                 HeightRequest="50"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+
+            <!--  Offline indicator row — sits between content and ads  -->
+            <Border
+                Grid.Row="1"
+                Margin="{OnIdiom Phone='10,2,10,4', Tablet='14,2,14,6', Default='10,2,10,4'}"
+                Padding="{OnIdiom Phone='12,7', Tablet='16,9', Default='12,7'}"
+                BackgroundColor="#1AFF5252"
                 HorizontalOptions="Fill"
-                VerticalOptions="Fill" />
+                IsVisible="{Binding IsOffline}"
+                Stroke="#FF5252"
+                StrokeShape="RoundRectangle 8"
+                StrokeThickness="1">
+                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="10" VerticalOptions="Center">
+                    <Label
+                        Grid.Column="0"
+                        FontFamily="FontAwesome"
+                        FontSize="{OnIdiom Phone=14, Tablet=20, Default=20}"
+                        Text="&#xf1eb;"
+                        TextColor="#FF5252"
+                        VerticalOptions="Center" />
+                    <Label
+                        Grid.Column="1"
+                        FontFamily="{DynamicResource DefaultFontFamily}"
+                        FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}"
+                        FontAttributes="Bold"
+                        Text="No internet connection"
+                        TextColor="#FF5252"
+                        VerticalOptions="Center" />
+                </Grid>
+            </Border>
 
             <!--  Loading overlay — covers the full page while data is being fetched  -->
             <Grid
-                Grid.RowSpan="2"
+                Grid.RowSpan="3"
                 BackgroundColor="{DynamicResource WikiAppDefaultBackgroundColor}"
                 HorizontalOptions="Fill"
-                InputTransparent="False"
+                InputTransparent="{Binding IsPageEnabled}"
                 IsVisible="{Binding IsDataLoading}"
                 VerticalOptions="Fill"
                 ZIndex="100">
@@ -480,6 +507,9 @@
                 VerticalOptions="Fill"
                 ZIndex="1000" />
             -->
+
         </Grid>
+
     </ContentPage.Content>
+
 </ContentPage>

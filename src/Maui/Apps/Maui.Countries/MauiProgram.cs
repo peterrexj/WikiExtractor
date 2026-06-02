@@ -46,6 +46,8 @@ namespace Maui.Countries
             builder.Services.AddSingleton<WikiExtractor.Maui.App.Services.IThemeHandler, WikiExtractor.Maui.App.Services.ThemeHandler>();
             builder.Services.AddTransient<SettingsViewModel>();
             builder.Services.AddTransient<SettingsPage>();
+            builder.Services.AddTransient<WikiExtractor.Maui.App.ViewModels.StatsPageViewModel>();
+            builder.Services.AddTransient<WikiExtractor.Maui.App.Views.StatsPage>();
             builder.Services.AddSingleton<SplashPage>();
 
             builder.Services.AddSingleton<App>();

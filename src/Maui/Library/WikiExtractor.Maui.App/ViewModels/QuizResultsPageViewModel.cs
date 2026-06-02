@@ -45,8 +45,9 @@ public class QuizResultsPageViewModel : BaseViewModel, IQueryAttributable
     private ObservableCollection<QuizPageQuestionViewModel> _tempQuestions;
     private ObservableCollection<DataModel> _tempChartData;
 
-    public ICommand CloseQuizCommand { get; set; }
     private bool _isClosing = false;
+
+    public ICommand CloseQuizCommand { get; set; }
 
     public QuizResultsPageViewModel()
     {
@@ -122,12 +123,10 @@ public class QuizResultsPageViewModel : BaseViewModel, IQueryAttributable
         _isClosing = true;
         try
         {
-            // Navigate back to the list page (go back twice - from results to quiz to list)
             await Shell.Current.GoToAsync("../..");
         }
         catch (Exception ex)
         {
-            // Handle navigation error
             System.Diagnostics.Debug.WriteLine($"Navigation error: {ex.Message}");
             try { await Shell.Current.GoToAsync(".."); } catch { }
         }

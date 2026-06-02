@@ -107,6 +107,16 @@ namespace WikiExtractor.Maui.App.Exts
             DatabaseService.UserStoreDatabase.SettingsRepository.Update("ShowAlreadyReadItem", shouldShowAlreadyReadItems.ToString());
         }
 
+        public static bool GetShowFavouritesOnly()
+        {
+            return DatabaseService.UserStoreDatabase.SettingsRepository.Get(f => f.Name == "ShowFavouritesOnly").FirstOrDefault()?.Value?.ToBool() ?? false;
+        }
+
+        public static void SaveShowFavouritesOnly(bool showFavouritesOnly)
+        {
+            DatabaseService.UserStoreDatabase.SettingsRepository.Update("ShowFavouritesOnly", showFavouritesOnly.ToString());
+        }
+
         public static WikiExtractor.Maui.App.Services.AppThemes SelectedTheme
         {
             get
@@ -114,7 +124,7 @@ namespace WikiExtractor.Maui.App.Exts
                 var direction = DatabaseService.UserStoreDatabase.SettingsRepository.Get(f => f.Name == "AppTheme").FirstOrDefault();
                 if (direction == null || direction.Value.IsEmpty())
                 {
-                    return WikiExtractor.Maui.App.Services.AppThemes.Light;
+                    return WikiExtractor.Maui.App.Services.SharedServiceCore.DefaultAppTheme;
                 }
                 else
                 {

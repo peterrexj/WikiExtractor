@@ -1,9 +1,28 @@
 #!/bin/zsh
 
-SIMULATOR_NAME="iPhone 16 Pro"
+# Usage:
+#   ./run-ios-countries.sh                # iPhone 16 Pro (default)
+#   ./run-ios-countries.sh --ipad         # iPad Pro 13-inch (M4)
+#   ./run-ios-countries.sh --device "iPad mini (A17 Pro)"
+
 PROJECT="Maui.Countries.csproj"
 APP_BUNDLE="bin/Debug/net9.0-ios18.0/iossimulator-arm64/Maui.Countries.app"
 BUNDLE_ID="com.pj.countriesofworld"
+
+SIMULATOR_NAME="iPhone 16 Pro"
+
+for arg in "$@"; do
+  case "$arg" in
+    --ipad)   SIMULATOR_NAME="iPad Pro 13-inch (M4)" ;;
+    --device) ;;
+  esac
+done
+
+for i in $(seq 1 $#); do
+  if [ "${@[$i]}" = "--device" ] && [ $((i+1)) -le $# ]; then
+    SIMULATOR_NAME="${@[$((i+1))]}"
+  fi
+done
 
 cd "$(dirname "$0")"
 

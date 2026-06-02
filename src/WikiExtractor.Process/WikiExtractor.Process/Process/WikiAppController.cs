@@ -91,8 +91,11 @@ namespace WikiExtractor.Process
                    join itemReadStatusJoin in userStoreDatabase.ItemReadTrackerRepository.GetAll() on master.Name equals itemReadStatusJoin.ItemIdentifier into itemReadStatusGroup
                    from itemReadStatus in itemReadStatusGroup.DefaultIfEmpty(new ItemReadTrackerModel { ItemIdentifier = master.Name, IsRead = 0 })
 
+                   join itemFavouriteJoin in userStoreDatabase.FavouriteTrackerRepository.GetAll() on master.Name equals itemFavouriteJoin.ItemIdentifier into itemFavouriteGroup
+                   from itemFavourite in itemFavouriteGroup.DefaultIfEmpty(new FavouriteTrackerModel { ItemIdentifier = master.Name, IsFavourite = 0 })
+
                    where tags == null || tags.Count == 0 || tags.Contains(tag.Name) || tag.Name.IsEmpty()
-                   group new { master, mainContItem, primaryPic, metadata, tagItem, tag, itemReadStatus } by new { master.Id } into masterGroup
+                   group new { master, mainContItem, primaryPic, metadata, tagItem, tag, itemReadStatus, itemFavourite } by new { master.Id } into masterGroup
 
                    let primaryMetadata = isPrimaryMetadataContentEnabled ? masterGroup.Select(f => f.metadata).Where(f => primaryMetadataContentFields.Contains(f.Key) && f.Value.HasValue())
                             .Take(maxMetadataItems)
@@ -121,6 +124,7 @@ namespace WikiExtractor.Process
                        IsPageBusy = false,
                        ListHeight = minListHeight,
                        ItemReadStatus = masterItem!.itemReadStatus.IsReadAsBool,
+                       IsFavourite = masterItem!.itemFavourite.IsFavouriteAsBool,
                    };
         }
 
@@ -337,6 +341,11 @@ namespace WikiExtractor.Process
             return userStoreDatabase.ItemReadTrackerRepository.GetAll();
         }
 
+        public IEnumerable<FavouriteTrackerModel> GetFavouriteTrackData()
+        {
+            return userStoreDatabase.FavouriteTrackerRepository.GetAll();
+        }
+
         public void CommonMetadata()
         {
             var primaryContent = wikiDatabase.PhoneSettingsRepository.PrimaryMetadatDisplayContent;
@@ -407,6 +416,70 @@ namespace WikiExtractor.Process
                     itemReadStatus.IsRead = readStatusInt;
                     userStoreDatabase.ItemReadTrackerRepository.Update(itemReadStatus);
                 }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public bool IsFavourite(string name)
+        {
+            var record = userStoreDatabase.FavouriteTrackerRepository.Get(f => f.ItemIdentifier.EqualsIgnoreCase(name)).FirstOrDefault();
+            return record?.IsFavouriteAsBool == true;
+        }
+
+        public void UpdateFavourite(string name, bool isFavourite)
+        {
+            try
+            {
+                var favInt = isFavourite ? 1 : 0;
+                var record = userStoreDatabase.FavouriteTrackerRepository.Get(f => f.ItemIdentifier.EqualsIgnoreCase(name)).FirstOrDefault();
+                if (record == null)
+                {
+                    userStoreDatabase.FavouriteTrackerRepository.Add(new FavouriteTrackerModel { ItemIdentifier = name, IsFavourite = favInt }, checkAlreadyExists: true);
+                }
+                else
+                {
+                    record.IsFavourite = favInt;
+                    userStoreDatabase.FavouriteTrackerRepository.Update(record);
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public StreakTrackerModel GetStreak()
+        {
+            return userStoreDatabase.StreakTrackerRepository.Get().FirstOrDefault()
+                ?? new StreakTrackerModel { LastOpenDate = string.Empty, CurrentStreak = 0, BestStreak = 0 };
+        }
+
+        public StreakTrackerModel UpdateStreak()
+        {
+            try
+            {
+                var today = DateTime.UtcNow.ToString("yyyy-MM-dd");
+                var record = userStoreDatabase.StreakTrackerRepository.Get().FirstOrDefault();
+
+                if (record == null)
+                {
+                    record = new StreakTrackerModel { LastOpenDate = today, CurrentStreak = 1, BestStreak = 1 };
+                    userStoreDatabase.StreakTrackerRepository.Add(record, checkAlreadyExists: false);
+                    return record;
+                }
+
+                if (record.LastOpenDate == today)
+                    return record;
+
+                var yesterday = DateTime.UtcNow.AddDays(-1).ToString("yyyy-MM-dd");
+                record.CurrentStreak = record.LastOpenDate == yesterday ? record.CurrentStreak + 1 : 1;
+                record.BestStreak = Math.Max(record.BestStreak, record.CurrentStreak);
+                record.LastOpenDate = today;
+                userStoreDatabase.StreakTrackerRepository.Update(record);
+                return record;
             }
             catch (Exception)
             {

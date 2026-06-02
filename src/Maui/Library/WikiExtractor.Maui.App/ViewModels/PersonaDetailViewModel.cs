@@ -69,6 +69,13 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         public bool IsPageEnabled => !IsDataLoading;
 
+        private bool _isOffline;
+        public bool IsOffline
+        {
+            get => _isOffline;
+            set { _isOffline = value; OnPropertyChanged(nameof(IsOffline)); }
+        }
+
         private double _contentFontSize = AppSettingsService.DEFAULT_PARAGRAPH_FONT_SIZE;
         public double ContentFontSize
         {

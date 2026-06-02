@@ -1,9 +1,28 @@
 #!/bin/zsh
 
-SIMULATOR_NAME="iPhone 16 Pro"
+# Usage:
+#   ./run-ios-saints.sh                   # iPhone 16 Pro (default)
+#   ./run-ios-saints.sh --ipad            # iPad Pro 13-inch (M4)
+#   ./run-ios-saints.sh --device "iPad mini (A17 Pro)"
+
 PROJECT="Maui.Saints.csproj"
 APP_BUNDLE="bin/Debug/net9.0-ios18.0/iossimulator-arm64/Maui.Saints.app"
 BUNDLE_ID="com.peterrexj.christiancatholicsaints"
+
+SIMULATOR_NAME="iPhone 16 Pro"
+
+for arg in "$@"; do
+  case "$arg" in
+    --ipad)   SIMULATOR_NAME="iPad Pro 13-inch (M4)" ;;
+    --device) ;;
+  esac
+done
+
+for i in $(seq 1 $#); do
+  if [ "${@[$i]}" = "--device" ] && [ $((i+1)) -le $# ]; then
+    SIMULATOR_NAME="${@[$((i+1))]}"
+  fi
+done
 
 cd "$(dirname "$0")"
 

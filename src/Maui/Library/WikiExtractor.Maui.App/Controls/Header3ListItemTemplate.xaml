@@ -34,7 +34,7 @@
             Margin="8,0,0,0"
             FontAttributes="Bold"
             FontFamily="{DynamicResource DefaultFontFamily}"
-            FontSize="{OnIdiom Phone=15, Tablet=19, Default=15}"
+            FontSize="{OnIdiom Phone=15, Tablet=21, Default=21}"
             HorizontalOptions="Fill"
             LineBreakMode="WordWrap"
             Text="{Binding Content}"
@@ -46,7 +46,7 @@
             Grid.Column="2"
             Margin="8,0,4,0"
             FontFamily="FontAwesome"
-            FontSize="{OnIdiom Phone=13, Tablet=16, Default=13}"
+            FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}"
             HorizontalOptions="End"
             IsVisible="{Binding IsPlayButtonRequired}"
             Opacity="0.45"
@@ -58,7 +58,7 @@
                     <Setter Property="Text" Value="&#xf04d;" />
                     <Setter Property="TextColor" Value="{DynamicResource WikiAppPrimaryAccentColor}" />
                     <Setter Property="Opacity" Value="1.0" />
-                    <Setter Property="FontSize" Value="{OnIdiom Phone=11, Tablet=14, Default=11}" />
+                    <Setter Property="FontSize" Value="{OnIdiom Phone=11, Tablet=17, Default=17}" />
                 </DataTrigger>
             </Label.Triggers>
             <Label.GestureRecognizers>
