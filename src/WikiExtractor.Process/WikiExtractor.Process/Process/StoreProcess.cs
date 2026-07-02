@@ -86,6 +86,7 @@ namespace WikiExtractor.Process
             var filteredImages = metadatas
                 .Where(f => f.Type == MetadataType.Image)
                 .Select(s => s.ToImageDbModel())
+                .Where(f => f.Path.HasValue())
                 .Where(f => !imgExcludeKeywords.Any(g => f.Path?.ContainsIgnoreCase(g) == true))
                 .OrderBy(f => f.Sequence);
 
@@ -110,9 +111,9 @@ namespace WikiExtractor.Process
                 var imageDbModel = imageType.ToImageDbModel();
                 imageDbModel.MasterId = masterId;
 
-                if (imgExcludeKeywords.Any(g => imageDbModel.Path?.ContainsIgnoreCase(g) == true))
+                if (!imageDbModel.Path.HasValue() || imgExcludeKeywords.Any(g => imageDbModel.Path?.ContainsIgnoreCase(g) == true))
                 {
-                    continue; // Skip this iteration and move to the next one
+                    continue;
                 }
 
                 if (hasPrimaryWikiPictureIdentified == false)

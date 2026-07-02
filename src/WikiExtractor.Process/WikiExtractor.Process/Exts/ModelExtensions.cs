@@ -28,6 +28,10 @@ namespace WikiExtractor.Exts
                 //image.Path = $"https:{HttpUtility.UrlDecode(image.Path)}";
                 image.Path = $"https:{image.Path}";
             }
+            if (!image.Path.StartsWith("http://") && !image.Path.StartsWith("https://") && !image.Path.StartsWith("//"))
+            {
+                image.Path = string.Empty;
+            }
             image.Width = GetValueMetaDataAttribute(model.CustomMetadata, "data-file-width").ToInteger();
             image.Height = GetValueMetaDataAttribute(model.CustomMetadata, "data-file-height").ToInteger();
             if (model.Description.HasValue())
