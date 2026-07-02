@@ -130,7 +130,7 @@
 
     <Color x:Key="WikiAppComboDropDownBackgroundColor">#D3756B</Color>
     <Color x:Key="WikiAppComboDropDownTextColor">#F5EBEB</Color>
-    <Color x:Key="WikiAppComboHighlightedTextColor">#F0997D</Color>
+    <Color x:Key="WikiAppComboHighlightedTextColor">#FFFFFF</Color>
     <Color x:Key="WikiAppComboSelectedDropDownItemColor">#5a3232</Color>
     <Color x:Key="WikiAppComboTextColor">#5a3232</Color>
 

@@ -85,16 +85,16 @@ namespace WikiExtractor.Process.Modules
             }
             wikiAppController!.EnableWithPrimaryMetadataContent(new List<string>
             {
+                "Government",
+                "Currency",
                 "Total in km2 (mi2)",
                 "Time zone",
-                "Currency",
-                "Government",
+                "Calling code",
+                "Official languages",
                 "Density (Population)",
                 "Per capita (GDP (PPP))",
-                "Calling code",
-                "Land in km2 (mi2)",
-                "Water in km2 (mi2)"
-            }, 9);
+                "Internet TLD",
+            }, 6);
         }
 
         public void Test()

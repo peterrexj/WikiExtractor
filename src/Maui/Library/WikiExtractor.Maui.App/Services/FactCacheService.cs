@@ -319,14 +319,14 @@ namespace WikiExtractor.Maui.App.Services
             System.Diagnostics.Debug.WriteLine($"[FactCache] Updated displayed keys. Total tracked: {_displayedFactKeys.Count}");
 
             // Mark in database and refresh cache in background
-            Task.Run(() =>
+            _ = Task.Run(async () =>
             {
                 foreach (var fact in facts)
                 {
                     try
                     {
                         SharedServices.QuizController.MarkFactAsShown(
-                            fact.MasterId, 
+                            fact.MasterId,
                             fact.MetadataKey);
                         System.Diagnostics.Debug.WriteLine($"[FactCache] Marked in DB: MasterId={fact.MasterId}, Key={fact.MetadataKey}");
                     }
@@ -336,8 +336,8 @@ namespace WikiExtractor.Maui.App.Services
                     }
                 }
 
-                // Refresh cache after marking facts
-                RefreshCacheAsync().Wait();
+                // Refresh cache after marking facts — await instead of .Wait() to avoid thread starvation
+                await RefreshCacheAsync();
             });
         }
 

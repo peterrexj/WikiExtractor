@@ -52,7 +52,6 @@ namespace Maui.WorldLeaders
 
             builder.Services.AddSingleton<App>();
 
-            builder.Services.AddSingleton<WikiExtractor.Maui.App.ViewModels.PersonaListViewModel>();
             builder.Services.AddSingleton<WikiExtractor.Maui.App.ViewModels.PersonaDetailViewModel>();
 
             builder.Services.AddTransient<WikiExtractor.Maui.App.Views.PersonaDetailPage>();

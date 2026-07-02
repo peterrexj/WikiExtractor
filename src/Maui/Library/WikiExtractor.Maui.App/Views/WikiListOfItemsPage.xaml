@@ -21,6 +21,7 @@
 
     <ContentPage.Resources>
         <converters:ImagePathToSourceConverter x:Key="ImagePathConverter" />
+        <converters:MetadataToFormattedStringConverter x:Key="MetadataFormattedConverter" />
     </ContentPage.Resources>
 
     <Shell.TitleView>
@@ -177,12 +178,13 @@
                                 VerticalOptions="Fill">
                                 <core:SfButton.Content>
                                     <DataTemplate>
-                                        <Image
-                                            HeightRequest="15"
+                                        <Label
+                                            FontFamily="FontAwesome"
+                                            FontSize="14"
                                             HorizontalOptions="Center"
-                                            Source="theme_icon.png"
-                                            VerticalOptions="Center"
-                                            WidthRequest="15" />
+                                            Text="&#xf042;"
+                                            TextColor="{DynamicResource WikiAppIconColor}"
+                                            VerticalOptions="Center" />
                                     </DataTemplate>
                                 </core:SfButton.Content>
                             </sfButtons:SfButton>
@@ -328,7 +330,7 @@
                 BackgroundColor="Transparent"
                 IsEnabled="{Binding IsNotBusy}"
                 ItemsSource="{Binding FilteredPersonas}"
-                ItemSizingStrategy="MeasureFirstItem"
+                ItemSizingStrategy="MeasureAllItems"
                 SelectionMode="None">
 
                 <CollectionView.ItemsLayout>
@@ -430,6 +432,7 @@
                                 <!--  Inner image card — rounded on left to match outer card  -->
                                 <Border
                                     Grid.Column="0"
+                                    MaximumHeightRequest="{OnPlatform Android={OnIdiom Phone=160, Tablet=200}, iOS={OnIdiom Phone=160, Tablet=200}, WinUI=200, MacCatalyst=200}"
                                     Padding="0"
                                     Stroke="Transparent"
                                     StrokeThickness="0"
@@ -454,9 +457,6 @@
                                             StrokeThickness="0"
                                             VerticalOptions="Start"
                                             WidthRequest="22">
-                                            <Border.Shadow>
-                                                <Shadow Brush="#80000000" Offset="0,1" Radius="4" Opacity="0.6" />
-                                            </Border.Shadow>
                                             <Label
                                                 FontFamily="FontAwesome"
                                                 FontSize="11"
@@ -481,9 +481,6 @@
                                             StrokeThickness="0"
                                             VerticalOptions="Start"
                                             WidthRequest="22">
-                                            <Border.Shadow>
-                                                <Shadow Brush="#80000000" Offset="0,1" Radius="4" Opacity="0.6" />
-                                            </Border.Shadow>
                                             <Label
                                                 FontFamily="FontAwesome"
                                                 FontSize="10"
@@ -513,11 +510,11 @@
                                 </Border>
 
                                 <!--  Content  -->
-                                <Grid Grid.Column="1" Padding="14,12,14,10">
+                                <Grid Grid.Column="1" Padding="14,12,14,10" VerticalOptions="Start">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto" />
                                         <RowDefinition Height="Auto" />
-                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="Auto" />
                                     </Grid.RowDefinitions>
 
                                     <Label
@@ -549,24 +546,27 @@
 
                                     <VerticalStackLayout
                                         Grid.Row="2"
-                                        BindableLayout.ItemsSource="{Binding PrimaryMetadataContent}"
                                         IsVisible="{Binding ShowPrimaryContentMetadata}"
-                                        Spacing="3">
+                                        Spacing="2">
+                                        <BindableLayout.ItemsSource>
+                                            <Binding Path="PrimaryMetadataContent" />
+                                        </BindableLayout.ItemsSource>
                                         <BindableLayout.ItemTemplate>
                                             <DataTemplate x:DataType="wvm:MetadataViewModel">
-                                                <Label LineBreakMode="WordWrap">
+                                                <Label
+                                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                                    FontSize="{OnPlatform Android={OnIdiom Phone=13, Tablet=19}, iOS={OnIdiom Phone=12, Tablet=19}, WinUI=19, MacCatalyst=19}"
+                                                    LineBreakMode="WordWrap">
                                                     <Label.FormattedText>
                                                         <FormattedString>
                                                             <Span
                                                                 FontAttributes="Bold"
-                                                                FontFamily="{DynamicResource DefaultFontFamily}"
-                                                                FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}"
                                                                 Text="{Binding Key}"
                                                                 TextColor="{DynamicResource WikiAppListItemKeyTextColor}" />
-                                                            <Span FontFamily="{DynamicResource DefaultFontFamily}" FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}" Text=": " TextColor="{DynamicResource WikiAppListItemKeyTextColor}" />
                                                             <Span
-                                                                FontFamily="{DynamicResource DefaultFontFamily}"
-                                                                FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}"
+                                                                Text=": "
+                                                                TextColor="{DynamicResource WikiAppListItemKeyTextColor}" />
+                                                            <Span
                                                                 Text="{Binding Description}"
                                                                 TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
                                                         </FormattedString>

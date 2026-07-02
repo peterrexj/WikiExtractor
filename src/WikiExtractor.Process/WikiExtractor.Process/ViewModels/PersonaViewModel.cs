@@ -73,7 +73,35 @@ namespace WikiExtractor.ViewModels
             }
         }
 
-        public List<MetadataViewModel> PrimaryMetadataContent { get; set; }
+        private List<MetadataViewModel> _primaryMetadataContent;
+        public List<MetadataViewModel> PrimaryMetadataContent
+        {
+            get => _primaryMetadataContent;
+            set
+            {
+                _primaryMetadataContent = value;
+                _primaryMetadataFormatted = null; // invalidate cache
+            }
+        }
+
+        private string _primaryMetadataFormatted;
+        /// <summary>
+        /// Pre-formatted single string for the metadata rows, e.g. "Born: 1942\nParty: Democrat".
+        /// Binding to this instead of BindableLayout eliminates per-cell FormattedString inflation.
+        /// </summary>
+        public string PrimaryMetadataFormatted
+        {
+            get
+            {
+                if (_primaryMetadataFormatted != null) return _primaryMetadataFormatted;
+                if (_primaryMetadataContent == null || _primaryMetadataContent.Count == 0)
+                    return _primaryMetadataFormatted = string.Empty;
+                _primaryMetadataFormatted = string.Join("\n",
+                    _primaryMetadataContent.Select(m => $"{m.Key}: {m.Description}"));
+                return _primaryMetadataFormatted;
+            }
+        }
+
         public List<MetadataViewModel> Metadatas { get; set; }
 
         private List<PictureViewModel> _pictures;

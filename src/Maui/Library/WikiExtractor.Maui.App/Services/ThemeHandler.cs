@@ -40,8 +40,8 @@ namespace WikiExtractor.Maui.App.Services
                 }
             });
 
-            // Load saved font family
-            LoadSavedFontFamily();
+            // Load saved font family asynchronously so it doesn't block the caller
+            _ = LoadSavedFontFamilyAsync();
         }
         public void LoadDefaultStyle(AppThemes appTheme)
         {
@@ -79,7 +79,7 @@ namespace WikiExtractor.Maui.App.Services
                 UpdateResources("WikiApp");
 
                 // Reapply saved font family after theme change
-                LoadSavedFontFamily();
+                _ = LoadSavedFontFamilyAsync();
 
                 // Refresh quiz colors so the next quiz session picks up the new theme
                 InitializeQuizColorsBackground();
@@ -181,18 +181,22 @@ namespace WikiExtractor.Maui.App.Services
             catch { }
         }
         
-        private void LoadSavedFontFamily()
+        private async Task LoadSavedFontFamilyAsync()
         {
             try
             {
                 if (Application.Current?.Resources == null) return;
 
-                var fontFamily = AppSettingsService.GetAppFontFamilyAsync().GetAwaiter().GetResult();
-                var fontSize = AppSettingsService.GetParagraphFontSizeAsync().GetAwaiter().GetResult();
+                var fontFamily = await AppSettingsService.GetAppFontFamilyAsync();
+                var fontSize = await AppSettingsService.GetParagraphFontSizeAsync();
 
-                if (!string.IsNullOrEmpty(fontFamily))
-                    Application.Current.Resources["DefaultFontFamily"] = fontFamily;
-                Application.Current.Resources["WikiAppParagraphFontSize"] = fontSize;
+                await MainThread.InvokeOnMainThreadAsync(() =>
+                {
+                    if (Application.Current?.Resources == null) return;
+                    if (!string.IsNullOrEmpty(fontFamily))
+                        Application.Current.Resources["DefaultFontFamily"] = fontFamily;
+                    Application.Current.Resources["WikiAppParagraphFontSize"] = fontSize;
+                });
             }
             catch (Exception ex)
             {

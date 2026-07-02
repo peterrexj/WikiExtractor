@@ -352,22 +352,13 @@ namespace WikiExtractor.Process.Modules
             wikiAppController!.EnableWithPrimaryMetadataContent(new List<string>
             {
                 "Country",
+                "Birth-Death",
                 "Preceded by",
                 "Succeeded by",
                 "Political party",
-                "Birth-Death",
-                "Riding",
-                "Cabinet",
-                "Children",
-                "Spouse",
-                "Resting place",
-                "Constituency",
+                "Party",
                 "Monarch",
-                "Education",
-                "Occupation",
-                "Days in office",
-                "Term",
-            }, 5);
+            }, 6);
 
         }
         public void CleanDataWithDump()

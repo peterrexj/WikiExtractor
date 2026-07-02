@@ -215,15 +215,14 @@ namespace WikiExtractor.Process.Modules
                 "Born",
                 "Died",
                 "Feast",
-                "Feast day",
+                "Canonized",
                 "Beatified",
+                "Venerated in",
                 "Major shrine",
+                "Feast day",
                 "Church",
                 "Buried",
-                "Venerated in",
-                "Canonized",
-                "Predecessor"
-            }, 5);
+            }, 6);
             
         }
 

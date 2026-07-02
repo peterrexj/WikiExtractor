@@ -257,9 +257,9 @@ namespace WikiExtractor.Process
                                 }
                                 if (rawContent.HasValue() && listOfWords.Count > 0)
                                 {
-                                    rawContent += Environment.NewLine;
+                                    rawContent += ", ";
                                 }
-                                rawContent += string.Join(Environment.NewLine, listOfWords).Trim();
+                                rawContent += string.Join(", ", listOfWords).Trim();
                                 content.Append($"{appendSpace}{rawContent}");
                             }
                             else

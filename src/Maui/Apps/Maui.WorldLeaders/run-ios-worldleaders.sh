@@ -48,6 +48,9 @@ else
   echo "    Simulator already booted"
 fi
 
+echo "==> Cleaning..."
+dotnet clean "$PROJECT" -f net9.0-ios18.0 -c Debug
+
 echo "==> Building..."
 dotnet build "$PROJECT" -f net9.0-ios18.0 -c Debug || exit 1
 

@@ -63,15 +63,13 @@ namespace WikiExtractor.Process
 
         public IEnumerable<PersonaViewModel> GetListOfWikiItems(List<string> tags = null, int minListHeight = ConfigData.MinHeightOfListItemInListPage)
         {
-            //var masters = wikiDatabase.MasterRepository.GetAll();
-            //if (masters == null || masters.IsEmpty()) return new List<PersonaViewModel>();
-
+            // Read all PhoneSettings once before the query — each property access is a DB round-trip.
             var isPrimaryMetadataContentEnabled = wikiDatabase.PhoneSettingsRepository.IsPrimaryMetadatDisplayEnabled;
             var primaryMetadataContentFields = wikiDatabase.PhoneSettingsRepository.PrimaryMetadatDisplayContent;
             var maxMetadataItems = wikiDatabase.PhoneSettingsRepository.MaxMetadataItemToDisplay;
             var totalMasterCount = wikiDatabase.MasterRepository.TotalCount;
 
-            return from master in wikiDatabase.MasterRepository.GetAll()
+            var results = (from master in wikiDatabase.MasterRepository.GetAll()
 
                    join tagItemJoin in wikiDatabase.TagItemRepository.GetAll() on master.Id equals tagItemJoin.MasterId into tagItemGrp
                    from tagItem in tagItemGrp.DefaultIfEmpty(new TagItem { Id = 0, MasterId = master.Id })
@@ -110,7 +108,6 @@ namespace WikiExtractor.Process
                    select new PersonaViewModel
                    {
                        Id = masterItem!.master.Id,
-                       RandomId = RandomHelper.RandomNumberGeneratorBetweenRange(0, totalMasterCount),
                        Name = masterItem!.master.Name,
                        WikiPath = masterItem!.master.Route,
                        MainContent = masterItem!.mainContItem?.Content ?? "",
@@ -125,7 +122,13 @@ namespace WikiExtractor.Process
                        ListHeight = minListHeight,
                        ItemReadStatus = masterItem!.itemReadStatus.IsReadAsBool,
                        IsFavourite = masterItem!.itemFavourite.IsFavouriteAsBool,
-                   };
+                   }).ToList();
+
+            // Assign RandomId after materialisation — avoids creating a new Random() per row inside the query.
+            for (int i = 0; i < results.Count; i++)
+                results[i].RandomId = RandomHelper.RandomNumberGeneratorBetweenRange(0, totalMasterCount);
+
+            return results;
         }
 
         #region Get Data

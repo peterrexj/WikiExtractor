@@ -4,6 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:sfButtons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
+    xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
     xmlns:viewmodels="clr-namespace:Maui.Wiki.ViewModels"
     x:Name="thisPage"
     Title="Settings"
@@ -55,15 +56,20 @@
                                     Text="Application Theme"
                                     TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
                                     VerticalOptions="Center" />
-                                <Picker
-                                    Title="Select"
+                                <editors:SfComboBox
                                     Grid.Column="2"
-                                    HorizontalTextAlignment="End"
+                                    BackgroundColor="Transparent"
+                                    DropDownBackground="{DynamicResource WikiAppComboDropDownBackgroundColor}"
+                                    DropDownItemTextColor="{DynamicResource WikiAppComboDropDownTextColor}"
+                                    HighlightedTextColor="{DynamicResource WikiAppComboHighlightedTextColor}"
+                                    IsClearButtonVisible="False"
                                     IsEnabled="{Binding IsNotBusy}"
                                     ItemsSource="{Binding Themes}"
-                                    SelectedItem="{Binding SelectedTheme}"
-                                    Style="{DynamicResource WikiAppPickerStyle}"
-                                    WidthRequest="{OnIdiom Phone=120, Tablet=150, Default=120}" />
+                                    SelectedDropDownItemBackground="{DynamicResource WikiAppComboSelectedDropDownItemColor}"
+                                    SelectedItem="{Binding SelectedTheme, Mode=TwoWay}"
+                                    Style="{DynamicResource SfComboBoxStyle}"
+                                    TextColor="{DynamicResource WikiAppComboTextColor}"
+                                    WidthRequest="{OnIdiom Phone=130, Tablet=160, Default=130}" />
                             </Grid>
 
                             <BoxView

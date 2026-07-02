@@ -22,6 +22,10 @@ namespace WikiExtractor.Maui.App.Views
         private int _masterId;
         private string? _loadedTagKey;
 
+        // Set to true when a read or favourite mutation occurs so LoadRefreshData knows to reload.
+        // Avoids full-table DB reads on every OnAppearing when nothing changed.
+        private bool _readFavDirty;
+
         public WikiListOfItemsPage()
         {
             InitializeComponent();
@@ -73,7 +77,7 @@ namespace WikiExtractor.Maui.App.Views
                 try { autoComplete?.Unfocus(); } catch { }
                 ApplyFontFamilyToAutocomplete();
             }
-            ShowDailyStreakToast();
+            _ = ShowDailyStreakToastAsync();
             base.OnAppearing();
         }
 
@@ -133,10 +137,13 @@ namespace WikiExtractor.Maui.App.Views
                 {
                     personaListViewModel.Personas = personas;
                     personaListViewModel.Title = titleTask.Result;
-                    personaListViewModel.HideItemRead = hideReadTask.Result;
-                    personaListViewModel.SortBySelectedIndex = sortIndexTask.Result;
-                    personaListViewModel.ShowFavouritesOnly = showFavTask.Result;
                     lblNavTitle.Text = titleTask.Result;
+                    // Batch-set all filter properties and apply once — avoids 3 separate
+                    // full CollectionView rebuilds from individual setter calls.
+                    personaListViewModel.BatchSetFiltersAndApply(
+                        hideReadTask.Result,
+                        showFavTask.Result,
+                        sortIndexTask.Result);
                 });
 
                 personaListViewModel.LoadingMessage = "Building autocomplete list...";
@@ -144,9 +151,6 @@ namespace WikiExtractor.Maui.App.Views
 
                 await MainThread.InvokeOnMainThreadAsync(() =>
                     personaListViewModel.AutocompleteList = autoList);
-
-                personaListViewModel.LoadingMessage = "Applying filters...";
-                await MainThread.InvokeOnMainThreadAsync(() => personaListViewModel.ApplyFilter());
                 _loadedTagKey = tagKey;
             }
             catch (Exception ex)
@@ -168,12 +172,13 @@ namespace WikiExtractor.Maui.App.Views
                 personaListViewModel.IsDataLoading = true;
                 bool hasReadStatusChanged = false;
 
-                /*var loadingModel = new LoadingFactsModel
+                var hasPendingTransfer = SharedServices.PageDataTransferModel.Name.HasValue();
+                if (!_readFavDirty && !hasPendingTransfer)
                 {
-                    ShowFacts = false,
-                    LoadingText = "Refreshing data..."
-                };
-                loadingFactsControl.Show(loadingModel);*/
+                    // Nothing changed since last load — skip the DB round-trips entirely
+                    personaListViewModel.IsDataLoading = false;
+                    return;
+                }
 
                 personaListViewModel.LoadingMessage = "Checking read status...";
 
@@ -182,45 +187,55 @@ namespace WikiExtractor.Maui.App.Views
 
                 var readStatusTask = Task.Run(() =>
                 {
+                    // Compute all mutations off the main thread — build lists of changes but do NOT
+                    // touch any bound ViewModel properties here; that happens on the main thread below.
                     var trackData = SharedServices.WikiAppController.GetItemReadTrackData();
-                    var mapData = (from data in personasSnapshot
-                                   join tagItemJoin in trackData on data.Name equals tagItemJoin.ItemIdentifier
-                                   select new { Data = data, Status = tagItemJoin.IsReadAsBool }).ToList();
+                    var readUpdates = (from data in personasSnapshot
+                                       join tagItemJoin in trackData on data.Name equals tagItemJoin.ItemIdentifier
+                                       select (Persona: data, Status: tagItemJoin.IsReadAsBool)).ToList();
 
-                    bool localStatusChanged = false;
-                    foreach (var item in mapData)
-                        item.Data.ItemReadStatus = item.Status;
-
-                    // Batch-sync IsFavourite for all items so cross-menu favouriting is reflected
                     var favData = SharedServices.WikiAppController.GetFavouriteTrackData();
                     var favLookup = favData.ToDictionary(f => f.ItemIdentifier, f => f.IsFavouriteAsBool, StringComparer.OrdinalIgnoreCase);
-                    foreach (var persona in personasSnapshot)
-                    {
-                        var isFav = favLookup.TryGetValue(persona.Name, out var v) && v;
-                        if (persona.IsFavourite != isFav)
-                        {
-                            persona.IsFavourite = isFav;
-                            localStatusChanged = true;
-                        }
-                    }
+                    var favUpdates = personasSnapshot
+                        .Select(p => (Persona: p, IsFav: favLookup.TryGetValue(p.Name, out var v) && v))
+                        .Where(x => x.Persona.IsFavourite != x.IsFav)
+                        .ToList();
 
-                    if (SharedServices.PageDataTransferModel.Name.HasValue())
-                    {
-                        var targetName = SharedServices.PageDataTransferModel.Name;
-                        var isMarked = SharedServices.PageDataTransferModel.IsMarkedAsViewed;
-
-                        foreach (var item in personasSnapshot.Where(f => f.Name == targetName))
-                            item.ItemReadStatus = isMarked;
-
-                        // Always re-filter when returning from a detail page — the item's
-                        // read/fav state may have changed and the DB read above may already
-                        // reflect the new value, so diffing gives a false "no change".
-                        localStatusChanged = true;
+                    bool hasPageTransfer = SharedServices.PageDataTransferModel.Name.HasValue();
+                    string transferName = hasPageTransfer ? SharedServices.PageDataTransferModel.Name : null;
+                    bool transferMarked = hasPageTransfer && SharedServices.PageDataTransferModel.IsMarkedAsViewed;
+                    if (hasPageTransfer)
                         SharedServices.PageDataTransferModel.Clear();
-                    }
 
-                    return localStatusChanged;
+                    return (readUpdates, favUpdates, hasPageTransfer, transferName, transferMarked);
                 });
+
+                // Build a proxy task that applies mutations on the main thread after the background work is done.
+                // We wrap it so Task.WhenAll can still wait on the full pipeline.
+                var applyMutationsTask = readStatusTask.ContinueWith(async t =>
+                {
+                    var (readUpdates, favUpdates, hasPageTransfer, transferName, transferMarked) = t.Result;
+                    await MainThread.InvokeOnMainThreadAsync(() =>
+                    {
+                        foreach (var (persona, status) in readUpdates)
+                            persona.ItemReadStatus = status;
+                        foreach (var (persona, isFav) in favUpdates)
+                            persona.IsFavourite = isFav;
+                        if (hasPageTransfer)
+                        {
+                            foreach (var item in personasSnapshot.Where(f => f.Name == transferName))
+                                item.ItemReadStatus = transferMarked;
+                        }
+                    });
+                    return hasPageTransfer || favUpdates.Count > 0 || readUpdates.Any(u => u.Persona.ItemReadStatus != u.Status);
+                }, TaskScheduler.Default).Unwrap();
+
+                // Shim: keep a bool task for hasReadStatusChanged
+                var hasChangedTask = applyMutationsTask.ContinueWith(t =>
+                    readStatusTask.Result.hasPageTransfer
+                    || readStatusTask.Result.favUpdates.Count > 0
+                    || readStatusTask.Result.readUpdates.Count > 0,
+                    TaskScheduler.Default);
 
                 var settingsTask = Task.Run(() => SettingsHelper.ShouldShowAlreadyReadItem());
                 var showFavTask = Task.Run(() => SettingsHelper.GetShowFavouritesOnly());
@@ -229,9 +244,9 @@ namespace WikiExtractor.Maui.App.Views
                     Array.IndexOf(Enum.GetValues(typeof(MainListSortDescriptorModel.SortByAttribute)),
                     SettingsHelper.GetSortAttributeBySelected(SettingsHelper.GetCurrentSortDescriptor())));
 
-                await Task.WhenAll(readStatusTask, settingsTask, showFavTask, sortIndexTask);
+                await Task.WhenAll(applyMutationsTask, settingsTask, showFavTask, sortIndexTask);
 
-                hasReadStatusChanged = readStatusTask.Result;
+                hasReadStatusChanged = hasChangedTask.Result;
 
                 await MainThread.InvokeOnMainThreadAsync(() =>
                 {
@@ -246,6 +261,8 @@ namespace WikiExtractor.Maui.App.Views
                 {
                     await MainThread.InvokeOnMainThreadAsync(() => personaListViewModel.ApplyFilter());
                 }
+
+                _readFavDirty = false;
             }
             catch (Exception ex)
             {
@@ -564,6 +581,7 @@ namespace WikiExtractor.Maui.App.Views
                 var newValue = !persona.IsFavourite;
                 await Task.Run(() => SharedServices.WikiAppController.UpdateFavourite(persona.Name, newValue));
                 persona.IsFavourite = newValue;
+                _readFavDirty = true;
 
                 if (personaListViewModel!.ShowFavouritesOnly)
                     personaListViewModel.ApplyFilter();
@@ -588,7 +606,7 @@ namespace WikiExtractor.Maui.App.Views
             }
         }
 
-        private void ShowDailyStreakToast()
+        private async Task ShowDailyStreakToastAsync()
         {
             try
             {
@@ -597,34 +615,27 @@ namespace WikiExtractor.Maui.App.Views
                 if (lastShown == today) return;
                 Preferences.Set("StreakToastLastShownDate", today);
 
-                var streak = Task.Run(() => SharedServices.WikiAppController.UpdateStreak()).GetAwaiter().GetResult();
+                var streak = await Task.Run(() => SharedServices.WikiAppController.UpdateStreak());
                 var message = streak.CurrentStreak == 1
                     ? "Welcome back! Start your streak today."
                     : $"Day {streak.CurrentStreak} streak! Keep it going.";
 
-                MainThread.BeginInvokeOnMainThread(async () =>
-                {
-                    try
-                    {
-                        streakBannerText.Text = message;
-                        streakBanner.Opacity = 0;
-                        streakBanner.TranslationY = -60;
-                        streakBanner.IsVisible = true;
+                streakBannerText.Text = message;
+                streakBanner.Opacity = 0;
+                streakBanner.TranslationY = -60;
+                streakBanner.IsVisible = true;
 
-                        await Task.WhenAll(
-                            streakBanner.FadeTo(1, 300, Easing.CubicOut),
-                            streakBanner.TranslateTo(0, 0, 300, Easing.CubicOut));
+                await Task.WhenAll(
+                    streakBanner.FadeTo(1, 300, Easing.CubicOut),
+                    streakBanner.TranslateTo(0, 0, 300, Easing.CubicOut));
 
-                        await Task.Delay(3000);
+                await Task.Delay(3000);
 
-                        await Task.WhenAll(
-                            streakBanner.FadeTo(0, 400, Easing.CubicIn),
-                            streakBanner.TranslateTo(0, -60, 400, Easing.CubicIn));
+                await Task.WhenAll(
+                    streakBanner.FadeTo(0, 400, Easing.CubicIn),
+                    streakBanner.TranslateTo(0, -60, 400, Easing.CubicIn));
 
-                        streakBanner.IsVisible = false;
-                    }
-                    catch { }
-                });
+                streakBanner.IsVisible = false;
             }
             catch { }
         }

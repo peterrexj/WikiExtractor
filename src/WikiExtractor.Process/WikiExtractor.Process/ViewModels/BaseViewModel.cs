@@ -2,7 +2,6 @@
 {
     public class BaseViewModel : BasePropertyChangeModel
     {
-        //TODO: Remove IsBusy inversion and check the usage
         private bool _isBusy;
         public bool IsBusy
         {
@@ -12,7 +11,7 @@
             }
             set
             {
-                _isBusy = !value;
+                _isBusy = value;
                 OnPropertyChanged("IsBusy");
                 OnPropertyChanged("IsFree");
             }

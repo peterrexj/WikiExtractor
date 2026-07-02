@@ -100,11 +100,31 @@ namespace WikiExtractor.Maui.App.ViewModels
         private IList<PersonaViewModel> _personas;
         public IList<PersonaViewModel> Personas { get => _personas; set => SetProperty(ref _personas, value); }
 
-        private ObservableCollection<PersonaViewModel> _filteredPersonas = new();
-        public ObservableCollection<PersonaViewModel> FilteredPersonas
+        // When true, property setters that would normally call ApplyFilter() are silenced.
+        // Caller must call ApplyFilter() manually after clearing the flag.
+        private bool _suppressFilter;
+
+        private readonly RangeObservableCollection<PersonaViewModel> _filteredPersonas = new();
+        public ObservableCollection<PersonaViewModel> FilteredPersonas => _filteredPersonas;
+
+        /// <summary>
+        /// Set HideItemRead, ShowFavouritesOnly, and SortBySelectedIndex together without
+        /// triggering ApplyFilter on each setter, then apply the filter once at the end.
+        /// </summary>
+        public void BatchSetFiltersAndApply(bool hideRead, bool showFavOnly, int sortIndex)
         {
-            get => _filteredPersonas;
-            private set => SetProperty(ref _filteredPersonas, value);
+            _suppressFilter = true;
+            try
+            {
+                HideItemRead = hideRead;
+                ShowFavouritesOnly = showFavOnly;
+                SortBySelectedIndex = sortIndex;
+            }
+            finally
+            {
+                _suppressFilter = false;
+            }
+            ApplyFilter();
         }
 
         private string _searchText = string.Empty;
@@ -125,6 +145,7 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         public void ApplyFilter()
         {
+            if (_suppressFilter) return;
             var source = Personas;
             if (source == null) return;
 
@@ -134,13 +155,14 @@ namespace WikiExtractor.Maui.App.ViewModels
                 if (_showFavouritesOnly && !p.IsFavourite) return false;
                 if (string.IsNullOrWhiteSpace(_searchText)) return true;
                 return p.Name.ContainsIgnoreCase(_searchText);
-            });
+            }).ToList();
 
-            FilteredPersonas = new ObservableCollection<PersonaViewModel>(filtered);
+            _filteredPersonas.ReplaceRange(filtered);
         }
 
         public void ApplySortAndFilter(MainListSortDescriptorModel sortInfo)
         {
+            if (_suppressFilter) return;
             var source = Personas;
             if (source == null) return;
 
@@ -160,9 +182,9 @@ namespace WikiExtractor.Maui.App.ViewModels
                 if (_showFavouritesOnly && !p.IsFavourite) return false;
                 if (string.IsNullOrWhiteSpace(_searchText)) return true;
                 return p.Name.ContainsIgnoreCase(_searchText);
-            });
+            }).ToList();
 
-            FilteredPersonas = new ObservableCollection<PersonaViewModel>(filtered);
+            _filteredPersonas.ReplaceRange(filtered);
         }
 
         private IEnumerable<PersonaAutoCompleteModel> _autoCompleteList;
@@ -197,7 +219,7 @@ namespace WikiExtractor.Maui.App.ViewModels
                 if (hideItemRead == value) return;
                 hideItemRead = value;
                 OnPropertyChanged("HideItemRead");
-                ApplyFilter();
+                if (!_suppressFilter) ApplyFilter();
             }
         }
 
@@ -207,7 +229,7 @@ namespace WikiExtractor.Maui.App.ViewModels
             get => _showFavouritesOnly;
             set
             {
-                if (SetProperty(ref _showFavouritesOnly, value))
+                if (SetProperty(ref _showFavouritesOnly, value) && !_suppressFilter)
                     ApplyFilter();
             }
         }
@@ -248,6 +270,23 @@ namespace WikiExtractor.Maui.App.ViewModels
             }
 
             IsPageBusy = false;
+        }
+    }
+
+    /// <summary>
+    /// ObservableCollection that supports efficient bulk replace without full CollectionView teardown.
+    /// ReplaceRange fires a single Reset notification instead of N individual Remove+Add notifications,
+    /// which prevents the CollectionView from recycling every cell when the filter is applied.
+    /// </summary>
+    internal sealed class RangeObservableCollection<T> : ObservableCollection<T>
+    {
+        public void ReplaceRange(IList<T> newItems)
+        {
+            Items.Clear();
+            foreach (var item in newItems)
+                Items.Add(item);
+            OnCollectionChanged(new System.Collections.Specialized.NotifyCollectionChangedEventArgs(
+                System.Collections.Specialized.NotifyCollectionChangedAction.Reset));
         }
     }
 }

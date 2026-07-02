@@ -21,7 +21,8 @@ namespace WikiExtractor.Maui.App.Services
 
         private ImagePipeline() { }
 
-        public ImageSource Placeholder => ImageSource.FromFile("no_image_available.png");
+        private static readonly ImageSource _placeholder = ImageSource.FromFile("no_image_available.png");
+        public ImageSource Placeholder => _placeholder;
 
         public Task<ImageSource> GetAsync(string url, CancellationToken ct = default)
         {
