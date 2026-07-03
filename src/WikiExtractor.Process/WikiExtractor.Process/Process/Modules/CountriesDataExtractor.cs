@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WikiExtractor.Process.Extractor;
 using WikiExtractor.Exts;
+using WikiExtractor.Models;
+using WikiExtractor.Process.Extractor;
 using Pj.Library;
 
 namespace WikiExtractor.Process.Modules
@@ -52,22 +54,78 @@ namespace WikiExtractor.Process.Modules
             int totalCount = countriesCollection.Count;
             int currentIndex = 1;
 
-            //foreach (var saints in saintsCollection)
+            Console.WriteLine($"\n[Countries] Collection assembled: {totalCount} countries");
+
+            ConcurrentBag<Tuple<WikiPageModel, List<MetaDataModel>, WikiWhatToExtractModel>> bag = new();
+            ConcurrentBag<Guid> fetchFailedIds = new();
+
+            LogPhase("Fetch pages");
+            long fetchStart = Environment.TickCount64;
             Parallel.ForEach(countriesCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, country =>
             {
+                int idx;
+                lock (_lock) { idx = currentIndex++; }
+                LogProgress("Fetch", idx, totalCount, fetchStart, $"{country.Title}  ({country.Route})");
                 try
                 {
-                    toStore.PersonaSinglePageContentExtractWithSaveToStore(country, excludedMetadata);
-                    Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Country [{country.Title}]: {country.Route}");
-                    //Thread.Sleep(1000);
-                    currentIndex = currentIndex + 1;
+                    var rawData = toStore.SinglePageContentExtract(country, excludedMetadata);
+                    bag.Add(new Tuple<WikiPageModel, List<MetaDataModel>, WikiWhatToExtractModel>(rawData.Item1, rawData.Item2, country));
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    fetchFailedIds.Add(country.Id);
+                    Console.WriteLine($"  [FETCH ERROR] {country.Title}: {ex.Message}");
                 }
-
             });
+            LogPhaseSummary("Fetch", totalCount, fetchStart);
+
+            foreach (var country in countriesCollection)
+            {
+                var bagItem = bag.FirstOrDefault(f => f.Item3.Id == country.Id);
+                if (bagItem == null || bagItem.Item1 == null || bagItem.Item2 == null)
+                    if (!fetchFailedIds.Contains(country.Id))
+                        Console.WriteLine($"  [WARN] No page data for [{country.Title}]: {country.Route}");
+            }
+
+            currentIndex = 1;
+            ConcurrentDictionary<Guid, int> storedMasterIds = new();
+            LogPhase("Store to DB");
+            long storeStart = Environment.TickCount64;
+            Parallel.ForEach(countriesCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, country =>
+            {
+                int idx;
+                lock (_lock) { idx = currentIndex++; }
+                LogProgress("Store", idx, totalCount, storeStart, country.Title);
+                try
+                {
+                    var bagItem = bag.FirstOrDefault(f => f.Item3.Id == country.Id);
+                    if (bagItem == null) return;
+                    var masterId = toStore.SinglePageContentStore(bagItem.Item1, bagItem.Item2, bagItem.Item3);
+                    storedMasterIds[country.Id] = masterId;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"  [STORE ERROR] {country.Title}: {ex.Message}");
+                }
+            });
+            LogPhaseSummary("Store", totalCount, storeStart);
+
+            var extractionRecords = countriesCollection.Select(country =>
+            {
+                var bagItem = bag.FirstOrDefault(f => f.Item3.Id == country.Id);
+                return new ExtractionReporter.ExtractionRecord
+                {
+                    Item = country,
+                    PageModel = bagItem?.Item1,
+                    Metadatas = bagItem?.Item2,
+                    PageFetchFailed = fetchFailedIds.Contains(country.Id),
+                    StoredMasterId = storedMasterIds.TryGetValue(country.Id, out var mid) ? mid : 0,
+                };
+            }).ToList();
+
+            var reportFolder = Path.Combine(Path.GetDirectoryName(ProcessConstants.DatabasePath)!, "..", "Reports");
+            var reporter = new ExtractionReporter(reportFolder, "Countries");
+            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000);
 
 
             ////Temp code

@@ -236,44 +236,42 @@ namespace WikiExtractor.Process.Modules
             var stkIvoryCoast = toStore.ExtractListTabularData("IvoryCoast", "/wiki/List_of_presidents_of_Ivory_Coast", new List<string> { "All", "CIV Pre" }).ToStack();
             var stkSenegal = toStore.ExtractListTabularData("Senegal", "/wiki/List_of_presidents_of_Senegal", new List<string> { "All", "SEN Pre" }).ToStack();
 
-            //var stacks = new List<Stack<WikiWhatToExtractModel>> { stkGermany };
-
-            var stacks = new List<Stack<WikiWhatToExtractModel>>
+            var allStacks = new List<Stack<WikiWhatToExtractModel>>
             {
-                stkAustralia, stkNewZealand, stkJapan, stkUnitedStates, stkUnitedKingdom, stkIndia, stkCanada, stkFrance, stkGermany,
-                stkSweden, stkNorway, stkDenmark, stkFinland, stkNetherlands, stkBelgium,
-                stkItaly, stkSpain, stkPoland, stkIreland, stkPortugal, stkGreece,
-                stkCzechRepublic, stkHungary, stkAustria, stkSwitzerland,
-                stkRomania, stkBulgaria, stkCroatia, stkSerbia, stkSlovakia, stkSlovenia,
-                stkUkraine, stkRussia, stkIceland, stkEstonia, stkLatvia, stkLithuania,
-                stkBrazil, stkMexico, stkArgentina, stkChile, stkColombia, stkPeru,
-                stkVenezuela, stkUruguay, stkParaguay, stkBolivia, stkEcuador,
-                stkCostaRica, stkPanama, stkCuba, stkDominicanRepublic,
-                stkGuatemala, stkHonduras, stkElSalvador,
-                stkChina, stkSouthKorea, stkNorthKorea, stkIndonesia,
-                stkMalaysia, stkSingapore, stkThailand, stkVietnam, stkPhilippines,
-                stkPakistan, stkBangladesh, stkSriLanka, stkNepal, stkMyanmar,
-                stkKazakhstan, stkUzbekistan,
-                stkIsrael, stkTurkey, stkIran, stkIraq,
-                stkSaudiArabia, stkJordan, stkMorocco, stkUnitedArabEmirates, stkQatar, stkKuwait,
-                stkSouthAfrica, stkNigeria, stkKenya, stkEgypt, stkEthiopia, stkGhana,
-                stkZimbabwe, stkZambia, stkUganda, stkTanzania, stkAngola, stkMozambique,
-                stkNamibia, stkBotswana, stkMadagascar,
-                stkAlgeria, stkTunisia, stkLibya, stkSudan,
+                stkAustralia, stkNewZealand, stkJapan, stkUnitedStates, stkUnitedKingdom,
+                stkIndia, stkCanada, stkFrance, stkGermany, stkSweden,
+                stkNorway, stkDenmark, stkFinland, stkNetherlands, stkBelgium,
+                stkItaly, stkSpain, stkPoland, stkIreland, stkPortugal,
+                stkGreece, stkCzechRepublic, stkHungary, stkAustria, stkSwitzerland,
+                stkRomania, stkBulgaria, stkCroatia, stkSerbia, stkSlovakia,
+                stkSlovenia, stkUkraine, stkRussia, stkIceland, stkEstonia,
+                stkLatvia, stkLithuania, stkBrazil, stkMexico, stkArgentina,
+                stkChile, stkColombia, stkPeru, stkVenezuela, stkUruguay,
+                stkParaguay, stkBolivia, stkEcuador, stkCostaRica, stkPanama,
+                stkCuba, stkDominicanRepublic, stkGuatemala, stkHonduras, stkElSalvador,
+                stkChina, stkSouthKorea, stkNorthKorea, stkIndonesia, stkMalaysia,
+                stkSingapore, stkThailand, stkVietnam, stkPhilippines, stkPakistan,
+                stkBangladesh, stkSriLanka, stkNepal, stkMyanmar, stkKazakhstan,
+                stkUzbekistan, stkIsrael, stkTurkey, stkIran, stkIraq,
+                stkSaudiArabia, stkJordan, stkMorocco, stkUnitedArabEmirates, stkQatar,
+                stkKuwait, stkSouthAfrica, stkNigeria, stkKenya, stkEgypt,
+                stkEthiopia, stkGhana, stkZimbabwe, stkZambia, stkUganda,
+                stkTanzania, stkAngola, stkMozambique, stkNamibia, stkBotswana,
+                stkMadagascar, stkAlgeria, stkTunisia, stkLibya, stkSudan,
                 stkCameroon, stkIvoryCoast, stkSenegal,
             };
+
             List<WikiWhatToExtractModel> worldLeadersCollection = new();
 
             bool hasElements;
             do
             {
                 hasElements = false;
-                foreach (var stack in stacks)
+                foreach (var stack in allStacks)
                 {
                     if (stack.Count > 0)
                     {
                         worldLeadersCollection.Add(stack.Pop());
-                        Console.WriteLine(worldLeadersCollection.Last().Title);
                         hasElements = true;
                     }
                 }
@@ -282,65 +280,86 @@ namespace WikiExtractor.Process.Modules
             int totalCount = worldLeadersCollection.Count;
             int currentIndex = 1;
 
+            Console.WriteLine($"\n[WorldLeaders] Collection assembled: {totalCount} leaders across {allStacks.Count} countries");
+
             ConcurrentBag<Tuple<WikiPageModel, List<MetaDataModel>, WikiWhatToExtractModel>> bag = new();
+            ConcurrentBag<Guid> fetchFailedIds = new();
 
             var parallelOptions = new ParallelOptions
             {
                 MaxDegreeOfParallelism = ProcessConstants.UseCache ? 5 : 1
             };
 
+            LogPhase("Fetch pages");
+            long fetchStart = Environment.TickCount64;
             Parallel.ForEach(worldLeadersCollection, parallelOptions, leader =>
             {
+                int idx;
+                lock (_lock) { idx = currentIndex++; }
+                LogProgress("Fetch", idx, totalCount, fetchStart, $"{leader.Title}  ({leader.Route})");
                 try
                 {
-                    if (ProcessConstants.UseCache == false) Thread.Sleep(1000);
-                    //Thread.Sleep(1000);
-                    lock (_lock)
-                    {
-                        Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] World Leaders [{leader.Title}]: {leader.Route}");
-                        currentIndex = currentIndex + 1;
-                    }
                     var rawData = toStore.SinglePageContentExtract(leader);
                     bag.Add(new Tuple<WikiPageModel, List<MetaDataModel>, WikiWhatToExtractModel>(rawData.Item1, rawData.Item2, leader));
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    fetchFailedIds.Add(leader.Id);
+                    Console.WriteLine($"  [FETCH ERROR] {leader.Title}: {ex.Message}");
                 }
             });
+            LogPhaseSummary("Fetch", totalCount, fetchStart);
 
-
-            ////foreach (var saints in saintsCollection)
-            Parallel.ForEach(worldLeadersCollection, new ParallelOptions { MaxDegreeOfParallelism = 5 }, leader =>
+            // Warn about any items that came back empty
+            foreach (var leader in worldLeadersCollection)
             {
                 var bagItem = bag.FirstOrDefault(f => f.Item3.Id == leader.Id);
-                if (bagItem == null || bagItem.Item1 == null || bagItem.Item2 == null || bagItem.Item3 == null)
-                {
-                    Console.WriteLine($"[WARN] Bag item not found for [{leader.Title}]: {leader.Route} — page extraction likely failed");
-                }
-            });
+                if (bagItem == null || bagItem.Item1 == null || bagItem.Item2 == null)
+                    Console.WriteLine($"  [WARN] No page data for [{leader.Title}]: {leader.Route} — extraction likely failed");
+            }
 
             currentIndex = 1;
-            //foreach (var saints in saintsCollection)
+            ConcurrentDictionary<Guid, int> storedMasterIds = new();
+            LogPhase("Store to DB");
+            long storeStart = Environment.TickCount64;
             Parallel.ForEach(worldLeadersCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, leader =>
             {
+                int idx;
+                lock (_lock) { idx = currentIndex++; }
+                LogProgress("Store", idx, totalCount, storeStart, leader.Title);
                 try
                 {
                     var bagItem = bag.FirstOrDefault(f => f.Item3.Id == leader.Id);
                     if (bagItem == null) return;
-                    toStore.SinglePageContentStore(bagItem.Item1, bagItem.Item2, bagItem.Item3);
-                    Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Leader [{leader.Title}]: {leader.Route}");
-                    //Thread.Sleep(1000);
-                    currentIndex = currentIndex + 1;
+                    var masterId = toStore.SinglePageContentStore(bagItem.Item1, bagItem.Item2, bagItem.Item3);
+                    storedMasterIds[leader.Id] = masterId;
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    Console.WriteLine($"  [STORE ERROR] {leader.Title}: {ex.Message}");
                 }
             });
+            LogPhaseSummary("Store", totalCount, storeStart);
 
             ////Clean the data
             //CleanDataWithDump();
+
+            var extractionRecords = worldLeadersCollection.Select(leader =>
+            {
+                var bagItem = bag.FirstOrDefault(f => f.Item3.Id == leader.Id);
+                return new ExtractionReporter.ExtractionRecord
+                {
+                    Item = leader,
+                    PageModel = bagItem?.Item1,
+                    Metadatas = bagItem?.Item2,
+                    PageFetchFailed = fetchFailedIds.Contains(leader.Id),
+                    StoredMasterId = storedMasterIds.TryGetValue(leader.Id, out var mid) ? mid : 0,
+                };
+            }).ToList();
+
+            var reportFolder = Path.Combine(Path.GetDirectoryName(ProcessConstants.DatabasePath)!, "..", "Reports");
+            var reporter = new ExtractionReporter(reportFolder, "WorldLeaders");
+            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000);
         }
 
         public void EnablePrimaryMetadataContent()

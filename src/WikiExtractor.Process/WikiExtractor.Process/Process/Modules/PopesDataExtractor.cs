@@ -1,5 +1,6 @@
 ﻿using Pj.Library;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using WikiExtractor.Exts;
+using WikiExtractor.Models;
 using WikiExtractor.Process.Extractor;
 
 namespace WikiExtractor.Process.Modules
@@ -81,26 +83,81 @@ namespace WikiExtractor.Process.Modules
                  .ToList()
              .WithDefaultFilters();
 
-
             int totalCount = popesCollection.Count;
             int currentIndex = 1;
 
-            //foreach (var saints in saintsCollection)
-            Parallel.ForEach(popesCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, saint =>
+            Console.WriteLine($"\n[Popes] Collection assembled: {totalCount} popes");
+
+            ConcurrentBag<Tuple<WikiPageModel, List<MetaDataModel>, WikiWhatToExtractModel>> bag = new();
+            ConcurrentBag<Guid> fetchFailedIds = new();
+
+            LogPhase("Fetch pages");
+            long fetchStart = Environment.TickCount64;
+            Parallel.ForEach(popesCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, pope =>
             {
+                int idx;
+                lock (_lock) { idx = currentIndex++; }
+                LogProgress("Fetch", idx, totalCount, fetchStart, $"{pope.Title}  ({pope.Route})");
                 try
                 {
-                    toStore.PersonaSinglePageContentExtractWithSaveToStore(saint);
-                    Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Popes [{saint.Title}]: {saint.Route}");
-                    //Thread.Sleep(1000);
-                    currentIndex = currentIndex + 1;
+                    var rawData = toStore.SinglePageContentExtract(pope);
+                    bag.Add(new Tuple<WikiPageModel, List<MetaDataModel>, WikiWhatToExtractModel>(rawData.Item1, rawData.Item2, pope));
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    fetchFailedIds.Add(pope.Id);
+                    Console.WriteLine($"  [FETCH ERROR] {pope.Title}: {ex.Message}");
                 }
-
             });
+            LogPhaseSummary("Fetch", totalCount, fetchStart);
+
+            foreach (var pope in popesCollection)
+            {
+                var bagItem = bag.FirstOrDefault(f => f.Item3.Id == pope.Id);
+                if (bagItem == null || bagItem.Item1 == null || bagItem.Item2 == null)
+                    if (!fetchFailedIds.Contains(pope.Id))
+                        Console.WriteLine($"  [WARN] No page data for [{pope.Title}]: {pope.Route}");
+            }
+
+            currentIndex = 1;
+            ConcurrentDictionary<Guid, int> storedMasterIds = new();
+            LogPhase("Store to DB");
+            long storeStart = Environment.TickCount64;
+            Parallel.ForEach(popesCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, pope =>
+            {
+                int idx;
+                lock (_lock) { idx = currentIndex++; }
+                LogProgress("Store", idx, totalCount, storeStart, pope.Title);
+                try
+                {
+                    var bagItem = bag.FirstOrDefault(f => f.Item3.Id == pope.Id);
+                    if (bagItem == null) return;
+                    var masterId = toStore.SinglePageContentStore(bagItem.Item1, bagItem.Item2, bagItem.Item3);
+                    storedMasterIds[pope.Id] = masterId;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"  [STORE ERROR] {pope.Title}: {ex.Message}");
+                }
+            });
+            LogPhaseSummary("Store", totalCount, storeStart);
+
+            var extractionRecords = popesCollection.Select(pope =>
+            {
+                var bagItem = bag.FirstOrDefault(f => f.Item3.Id == pope.Id);
+                return new ExtractionReporter.ExtractionRecord
+                {
+                    Item = pope,
+                    PageModel = bagItem?.Item1,
+                    Metadatas = bagItem?.Item2,
+                    PageFetchFailed = fetchFailedIds.Contains(pope.Id),
+                    StoredMasterId = storedMasterIds.TryGetValue(pope.Id, out var mid) ? mid : 0,
+                };
+            }).ToList();
+
+            var reportFolder = Path.Combine(Path.GetDirectoryName(ProcessConstants.DatabasePath)!, "..", "Reports");
+            var reporter = new ExtractionReporter(reportFolder, "Popes");
+            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000);
         }
 
         public void EnablePrimaryMetadataContent()

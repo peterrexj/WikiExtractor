@@ -138,67 +138,89 @@ namespace WikiExtractor.Process.Modules
                 .Union(listOfSaintsByEachPope03).Union(listOfSaintsByEachPope04)
                 .Union(listOfSaintsByEachPope05).Union(listOfSaintsByEachPope06)
                 .Union(listOfSaintsByEachPope07).Union(listOfSaintsByEachPope08)
-                //.Take(100)
                 .ToList()
                 .WithDefaultFilters();
 
             int totalCount = saintsCollection.Count;
             int currentIndex = 1;
 
+            Console.WriteLine($"\n[Saints] Collection assembled: {totalCount} saints");
+
             ConcurrentBag<Tuple<WikiPageModel, List<MetaDataModel>, WikiWhatToExtractModel>> bag = new();
+            ConcurrentBag<Guid> fetchFailedIds = new();
 
             var parallelOptions = new ParallelOptions
             {
                 MaxDegreeOfParallelism = ProcessConstants.UseCache ? 5 : 1
             };
-            
+
+            LogPhase("Fetch pages");
+            long fetchStart = Environment.TickCount64;
             Parallel.ForEach(saintsCollection, parallelOptions, saint =>
             {
+                int idx;
+                lock (_lock) { idx = currentIndex++; }
+                LogProgress("Fetch", idx, totalCount, fetchStart, $"{saint.Title}  ({saint.Route})");
                 try
                 {
-                    //Thread.Sleep(1000);
-                    lock (_lock)
-                    {
-                        Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Saints [{saint.Title}]: {saint.Route}");
-                        currentIndex = currentIndex + 1;
-                    }
                     var rawData = toStore.SinglePageContentExtract(saint);
                     bag.Add(new Tuple<WikiPageModel, List<MetaDataModel>, WikiWhatToExtractModel>(rawData.Item1, rawData.Item2, saint));
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    fetchFailedIds.Add(saint.Id);
+                    Console.WriteLine($"  [FETCH ERROR] {saint.Title}: {ex.Message}");
                 }
             });
+            LogPhaseSummary("Fetch", totalCount, fetchStart);
 
-
-            //foreach (var saints in saintsCollection)
-            Parallel.ForEach(saintsCollection, new ParallelOptions { MaxDegreeOfParallelism = 5 }, saint =>
+            foreach (var saint in saintsCollection)
             {
                 var bagItem = bag.FirstOrDefault(f => f.Item3.Id == saint.Id);
-                if (bagItem == null || bagItem.Item1 == null || bagItem.Item2 == null || bagItem.Item3 == null)
-                {
-                    throw new Exception("Bag item cannot be mapped, this could be due to the extraction failure");
-                }
-            });
+                if (bagItem == null || bagItem.Item1 == null || bagItem.Item2 == null)
+                    if (!fetchFailedIds.Contains(saint.Id))
+                        Console.WriteLine($"  [WARN] No page data for [{saint.Title}]: {saint.Route}");
+            }
 
             currentIndex = 1;
-            //foreach (var saints in saintsCollection)
+            ConcurrentDictionary<Guid, int> storedMasterIds = new();
+            LogPhase("Store to DB");
+            long storeStart = Environment.TickCount64;
             Parallel.ForEach(saintsCollection, new ParallelOptions { MaxDegreeOfParallelism = 1 }, saint =>
             {
+                int idx;
+                lock (_lock) { idx = currentIndex++; }
+                LogProgress("Store", idx, totalCount, storeStart, saint.Title);
                 try
                 {
                     var bagItem = bag.FirstOrDefault(f => f.Item3.Id == saint.Id);
-                    toStore.SinglePageContentStore(bagItem.Item1, bagItem.Item2, bagItem.Item3);
-                    Console.WriteLine($"[{currentIndex}/{totalCount}] [{(int)(((decimal)currentIndex / (decimal)totalCount) * 100)}%] Saints [{saint.Title}]: {saint.Route}");
-                    //Thread.Sleep(1000);
-                    currentIndex = currentIndex + 1;
+                    if (bagItem == null) return;
+                    var masterId = toStore.SinglePageContentStore(bagItem.Item1, bagItem.Item2, bagItem.Item3);
+                    storedMasterIds[saint.Id] = masterId;
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    Console.WriteLine($"  [STORE ERROR] {saint.Title}: {ex.Message}");
                 }
             });
+            LogPhaseSummary("Store", totalCount, storeStart);
+
+            var extractionRecords = saintsCollection.Select(saint =>
+            {
+                var bagItem = bag.FirstOrDefault(f => f.Item3.Id == saint.Id);
+                return new ExtractionReporter.ExtractionRecord
+                {
+                    Item = saint,
+                    PageModel = bagItem?.Item1,
+                    Metadatas = bagItem?.Item2,
+                    PageFetchFailed = fetchFailedIds.Contains(saint.Id),
+                    StoredMasterId = storedMasterIds.TryGetValue(saint.Id, out var mid) ? mid : 0,
+                };
+            }).ToList();
+
+            var reportFolder = Path.Combine(Path.GetDirectoryName(ProcessConstants.DatabasePath)!, "..", "Reports");
+            var reporter = new ExtractionReporter(reportFolder, "Saints");
+            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000);
 
             //Clean the data
             CleanDataWithDump();

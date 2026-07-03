@@ -18,6 +18,10 @@ namespace WikiExtractor.Process.Extractor
         protected readonly MetadataExtractor metadataExtractor = new MetadataExtractor();
         protected readonly StoreProcess storeProcess = new StoreProcess();
 
+        // Shared across all extractor instances — tracks when the last live Wikipedia fetch
+        // completed so we can sleep only the *remaining* gap rather than a flat interval.
+        private static long _lastWikiFetchCompletedMs = 0;
+
         private static HeaderCollection WebHeaderCollection = new HeaderCollection
                 {
                     new TestApiHeader("User-Agent",
@@ -99,11 +103,20 @@ namespace WikiExtractor.Process.Extractor
                 ToCache(route, resp.ResponseBody.ContentString);
                 cache = resp.ResponseBody.ContentString;
 
-                if (ProcessConstants.RequestDelayInMilliseconds > 0)
+                // Only sleep the gap that hasn't already elapsed during the HTTP round-trip.
+                // If the request itself took longer than the minimum interval, no sleep needed.
+                var minGap = ProcessConstants.RequestDelayInMilliseconds;
+                if (minGap > 0)
                 {
-                    Console.WriteLine($"Delaying for {ProcessConstants.RequestDelayInMilliseconds} ms to respect server load...");
-                    Thread.Sleep(ProcessConstants.RequestDelayInMilliseconds);
+                    var elapsed = (int)(Environment.TickCount64 - _lastWikiFetchCompletedMs);
+                    var remaining = minGap - elapsed;
+                    if (remaining > 0)
+                    {
+                        Console.WriteLine($"Throttle: sleeping {remaining}ms of {minGap}ms gap (fetch took {elapsed}ms)…");
+                        Thread.Sleep(remaining);
+                    }
                 }
+                _lastWikiFetchCompletedMs = Environment.TickCount64;
             }
             return cache;
         }

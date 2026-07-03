@@ -18,7 +18,31 @@ namespace WikiExtractor.Process
 
         public HtmlNodeCollection? _ItemsUnderMainBody(HtmlDocument document)
         {
-            return document.DocumentNode.SelectNodes("//div[contains(@class, 'mw-body-content')]//div[contains(@class,'mw-parser-output')]").FirstOrDefault()?.ChildNodes;
+            // Prefer the specific content div (works across old and new Wikipedia layouts)
+            var node = document.DocumentNode.SelectSingleNode("//div[contains(@class,'mw-content-ltr') and contains(@class,'mw-parser-output')]")
+                    ?? document.DocumentNode.SelectNodes("//div[contains(@class,'mw-body-content')]//div[contains(@class,'mw-parser-output')]")?.FirstOrDefault();
+            if (node == null) return null;
+
+            // Wikipedia 2024+: entire article is wrapped in a single <section data-mw-section-id="0">
+            // which itself contains nested <section> elements. Flatten by selecting all meaningful
+            // descendants directly so the caller loop still works element-by-element.
+            var firstMeaningful = node.ChildNodes.FirstOrDefault(n => n.Name == "section" || n.Name == "p" || n.Name == "div" || n.Name == "h2" || n.Name == "figure");
+            if (firstMeaningful?.Name == "section")
+            {
+                // Collect children of all top-level sections in order
+                var doc = new HtmlDocument();
+                var wrapper = doc.CreateElement("div");
+                foreach (var section in node.ChildNodes.Where(n => n.Name == "section"))
+                {
+                    foreach (var child in section.ChildNodes.ToList())
+                    {
+                        wrapper.AppendChild(child.CloneNode(true));
+                    }
+                }
+                return wrapper.ChildNodes;
+            }
+
+            return node.ChildNodes;
         }
 
         public WikiPageModel? ExtractParaInfo(HtmlDocument document, string route, string name)
@@ -209,6 +233,12 @@ namespace WikiExtractor.Process
                 }
 
 
+
+                // Flush the last accumulated section (never triggered by a follow-on h2)
+                if (currentParaInfoModel.Header.HasValue() && currentParaInfoModel.ParagraghInternalModels.Count > 0)
+                {
+                    paraDetailsList.Add(currentParaInfoModel);
+                }
 
                 var exclusionList = new[] { "See also", "References", "Further reading", "External links", "Bibliography" };
                 var returnList = paraDetailsList.Where(f => !exclusionList.ContainsIgnoreCase(f.Header) && f.ParagraghInternalModels.Count > 0).ToList();

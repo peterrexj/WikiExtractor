@@ -1,0 +1,60 @@
+{
+  "profiles": {
+    "WorldLeaders - Extract": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode worldleaders-extract"
+    },
+    "WorldLeaders - Post Process": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode worldleaders-postprocess"
+    },
+    "WorldLeaders - Full": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode worldleaders-full"
+    },
+    "Saints - Extract": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode saints-extract"
+    },
+    "Saints - Post Process": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode saints-postprocess"
+    },
+    "Saints - Full": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode saints-full"
+    },
+    "Popes - Extract": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode popes-extract"
+    },
+    "Popes - Post Process": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode popes-postprocess"
+    },
+    "Popes - Full": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode popes-full"
+    },
+    "Countries - Extract": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode countries-extract"
+    },
+    "Countries - Post Process": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode countries-postprocess"
+    },
+    "Countries - Full": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode countries-full"
+    },
+    "All - Extract": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode all-extract"
+    },
+    "All - Full": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode all-full"
+    }
+  }
+}
