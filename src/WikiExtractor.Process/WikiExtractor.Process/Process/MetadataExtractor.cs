@@ -159,7 +159,7 @@ namespace WikiExtractor.Process
 
                     if (metaData.CustomMetadata.ContainsKey("height") && metaData.CustomMetadata["height"].HasValue())
                     {
-                        if (metaData.CustomMetadata["height"].ToInteger() < 40)
+                        if (metaData.CustomMetadata["height"].ToInteger() < 12)
                         {
                             continue;
                         }

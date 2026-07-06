@@ -10,7 +10,7 @@ namespace WikiExtractor.Process
         {
             var serviceProvider = ContainerConfiguration.Configure();
 
-            ProcessConstants.UseCache = false;
+            ProcessConstants.UseCache = true;
             ProcessConstants.RequestDelayInMilliseconds = ProcessConstants.UseCache ? 0 : 2000;
 
             string mode = "all-extract";

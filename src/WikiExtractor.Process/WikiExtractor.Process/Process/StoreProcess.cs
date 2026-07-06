@@ -81,49 +81,53 @@ namespace WikiExtractor.Process
             bool hasPrimaryWikiPictureIdentified = false;
             int counter = 0;
 
-            // URLs containing these fragments are non-portrait images commonly found in
-            // Wikipedia infoboxes: signatures, party/country logos, flags, coats of arms,
-            // office icons, map thumbnails, and other decorative metadata graphics.
-            var imgExcludeKeywords = new List<string>
+            // Signatures are never useful — exclude from storage entirely.
+            var imgExcludeFromStorage = new List<string>
             {
-                "Signatur",          // handwritten signatures
+                "Signatur",          // handwritten signatures (e.g. Signature_of_John_Paul_II.svg)
                 "signature",
-                "Logo",              // party / organisation logos
+            };
+
+            // These images are worth storing in the gallery but should never be chosen
+            // as the primary image — a portrait/photo should always take priority.
+            var imgSkipForPrimary = new List<string>
+            {
+                "Logo",              // party / organisation / route logos
                 "logo",
                 "Flag_of",           // national / regional flags
                 "flag_of",
                 "Coat_of_arms",      // coats of arms
                 "coat_of_arms",
-                "Coa_",              // short coat-of-arms prefix
-                "emblem",
+                "Coa_",              // short coat-of-arms prefix (e.g. Coa_Pius_IX.svg)
+                "emblem",            // office/position emblems
                 "Emblem",
                 "Seal_of",           // official seals
                 "seal_of",
-                "Map_of",            // map images
+                "Map_of",            // labelled map images
                 "map_of",
-                "locator",           // location-dot maps
+                "locator",           // location-dot / globe maps
                 "Locator",
                 "blank_map",
                 "BlankMap",
-                "Icon",              // office/role icons
+                "Icon",              // small office/role icons
                 "icon",
                 "Arrow",             // arrow / directional graphics
                 "arrow",
                 "Commons-logo",      // Wikimedia Commons logo
-                "Wikimedia",
             };
 
             var filteredImages = metadatas
                 .Where(f => f.Type == MetadataType.Image)
                 .Select(s => s.ToImageDbModel())
                 .Where(f => f.Path.HasValue())
-                .Where(f => !imgExcludeKeywords.Any(g => f.Path?.ContainsIgnoreCase(g) == true))
+                .Where(f => !imgExcludeFromStorage.Any(g => f.Path?.ContainsIgnoreCase(g) == true))
                 .OrderBy(f => f.Sequence);
 
             foreach (var imageType in filteredImages)
             {
                 imageType.MasterId = masterId;
-                if (hasPrimaryWikiPictureIdentified == false)
+                bool skipForPrimary = imgSkipForPrimary.Any(g => imageType.Path?.ContainsIgnoreCase(g) == true);
+                if (hasPrimaryWikiPictureIdentified == false && !skipForPrimary)
                 {
                     hasPrimaryWikiPictureIdentified = true;
                     imageType.IsPrimary = 1;
@@ -141,12 +145,13 @@ namespace WikiExtractor.Process
                 var imageDbModel = imageType.ToImageDbModel();
                 imageDbModel.MasterId = masterId;
 
-                if (!imageDbModel.Path.HasValue() || imgExcludeKeywords.Any(g => imageDbModel.Path?.ContainsIgnoreCase(g) == true))
+                if (!imageDbModel.Path.HasValue() || imgExcludeFromStorage.Any(g => imageDbModel.Path?.ContainsIgnoreCase(g) == true))
                 {
                     continue;
                 }
 
-                if (hasPrimaryWikiPictureIdentified == false)
+                bool skipForPrimary = imgSkipForPrimary.Any(g => imageDbModel.Path?.ContainsIgnoreCase(g) == true);
+                if (hasPrimaryWikiPictureIdentified == false && !skipForPrimary)
                 {
                     hasPrimaryWikiPictureIdentified = true;
                     imageDbModel.IsPrimary = 1;
