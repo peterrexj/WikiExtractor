@@ -159,6 +159,7 @@ namespace WikiExtractor.Process.Process
                     { MetadataKey = metadata, QuestionPhrase = dataDefinition?.QuestionRephrase, Fact = dataDefinition?.Fact }, checkAlreadyExists: true);
                 }
 
+                if (dataFromDb == null) continue;
                 foreach (var metadataChild in dataFromDb.Childs)
                 {
                     Console.WriteLine($"Inserting Master - Metadata information between {metadataChild.MasterId} and {metadataChild.Key}");
@@ -173,13 +174,15 @@ namespace WikiExtractor.Process.Process
             var dataDefinitionsDb = _wikiDb.QuizDefinitionRepository.GetAll();
             if (!dataDefinitionsDb.Any())
             {
-                throw new Exception("The definition data was generated, check the code");
+                Console.WriteLine("[Quiz] No quiz definitions generated — not enough data (expected for single-item runs).");
+                return;
             }
 
             var quizMasterMetadataDb = _wikiDb.QuizMasterMetadataRepository.GetAll();
             if (!quizMasterMetadataDb.Any())
             {
-                throw new Exception("The master metadata data was generated, check the code");
+                Console.WriteLine("[Quiz] No quiz master metadata generated — not enough data (expected for single-item runs).");
+                return;
             }
 
         }

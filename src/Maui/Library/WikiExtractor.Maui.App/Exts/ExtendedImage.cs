@@ -102,8 +102,28 @@ namespace WikiExtractor.Maui.App.Exts
 
             var src = await ImagePipeline.Instance.GetAsync(url, linked.Token);
 
-            // Guard: cell may have been recycled to a different item while we were waiting
-            if (gen != _generation || linked.IsCancellationRequested) return;
+            // Guard: cancelled means the page is gone — bail out
+            if (linked.IsCancellationRequested) return;
+
+            // If pipeline returned placeholder (failed/rate-limited), retry up to 3 times while
+            // still on this page. Delays match ImagePipeline's 429 backoff windows.
+            if (ReferenceEquals(src, ImagePipeline.Instance.Placeholder))
+            {
+                int[] retryDelaysMs = { 3000, 8000, 20000 };
+                foreach (var delayMs in retryDelaysMs)
+                {
+                    try { await Task.Delay(delayMs, linked.Token); }
+                    catch (OperationCanceledException) { return; }
+
+                    if (linked.IsCancellationRequested) return;
+
+                    src = await ImagePipeline.Instance.GetAsync(url, linked.Token);
+
+                    if (linked.IsCancellationRequested) return;
+
+                    if (!ReferenceEquals(src, ImagePipeline.Instance.Placeholder)) break;
+                }
+            }
 
             Application.Current?.Dispatcher.Dispatch(() =>
             {

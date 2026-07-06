@@ -368,6 +368,8 @@ FodyWeavers.xsd
 /Results
 /local-settings*.json
 /App/Databases/UserStore.db
+/src/WikiExtractor.Process/WikiExtractor.Process/ExtractionReports/
+**/ExtractionReports/
 
 # Mac ds store files
 **/*.DS_Store

@@ -31,6 +31,10 @@ namespace WikiExtractor.Process
             {
                 // ── WorldLeaders ──────────────────────────────────────────────────────
                 case "worldleaders-single":
+                    RunWorldLeaders(target);
+                    RunWorldLeadersPostProcess();
+                    break;
+
                 case "worldleaders-extract":
                     RunWorldLeaders(target);
                     break;
@@ -46,6 +50,10 @@ namespace WikiExtractor.Process
 
                 // ── Saints ────────────────────────────────────────────────────────────
                 case "saints-single":
+                    RunSaints(target);
+                    RunSaintsPostProcess();
+                    break;
+
                 case "saints-extract":
                     RunSaints(target);
                     break;
@@ -61,6 +69,10 @@ namespace WikiExtractor.Process
 
                 // ── Popes ─────────────────────────────────────────────────────────────
                 case "popes-single":
+                    RunPopes(target);
+                    RunPopesPostProcess();
+                    break;
+
                 case "popes-extract":
                     RunPopes(target);
                     break;
@@ -76,6 +88,10 @@ namespace WikiExtractor.Process
 
                 // ── Countries ─────────────────────────────────────────────────────────
                 case "countries-single":
+                    RunCountries(target);
+                    RunCountriesPostProcess();
+                    break;
+
                 case "countries-extract":
                     RunCountries(target);
                     break;
@@ -135,6 +151,7 @@ namespace WikiExtractor.Process
             e.TestData();
             e.CopyDatabaseFileToRootDbFolder();
             e.QuizDataInsightsToBuildQuiz("WorldLeaders");
+            e.WritePostProcessReport();
         }
 
         private static void RunSaints(string? target = null)
@@ -152,6 +169,7 @@ namespace WikiExtractor.Process
             e.TestData();
             e.CopyDatabaseFileToRootDbFolder();
             e.QuizDataInsightsToBuildQuiz("Saints");
+            e.WritePostProcessReport();
         }
 
         private static void RunPopes(string? target = null)
@@ -167,6 +185,7 @@ namespace WikiExtractor.Process
             e.EnableQuizData("PopesQuizDefinition.json");
             e.CopyDatabaseFileToRootDbFolder();
             e.QuizDataInsightsToBuildQuiz("Popes");
+            e.WritePostProcessReport();
         }
 
         private static void RunCountries(string? target = null)
@@ -180,6 +199,7 @@ namespace WikiExtractor.Process
             var e = new CountriesDataExtractor();
             e.EnablePrimaryMetadataContent();
             e.CopyDatabaseFileToRootDbFolder();
+            e.WritePostProcessReport();
         }
     }
 }

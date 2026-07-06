@@ -93,5 +93,13 @@ namespace WikiExtractor.Process.Modules
             QuizInsightsController.QuizDataInsightsToBuildQuiz(appName);
             QuizInsightsController.ExportQuizDataVisualQuestionsToCsv(appName);
         }
+
+        public void WritePostProcessReport()
+        {
+            Initialize(false);
+            var reportFolder = Path.Combine(Path.GetDirectoryName(ProcessConstants.DatabasePath)!, "..", "ExtractionReports");
+            var reporter = new PostProcessReporter(wikiAppController!, ProcessConstants.DatabasePath, reportFolder);
+            reporter.Write();
+        }
     }
 }

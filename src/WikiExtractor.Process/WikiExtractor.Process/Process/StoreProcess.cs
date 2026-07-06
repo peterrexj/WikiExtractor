@@ -81,7 +81,37 @@ namespace WikiExtractor.Process
             bool hasPrimaryWikiPictureIdentified = false;
             int counter = 0;
 
-            var imgExcludeKeywords = new List<string> { "Signatur" };
+            // URLs containing these fragments are non-portrait images commonly found in
+            // Wikipedia infoboxes: signatures, party/country logos, flags, coats of arms,
+            // office icons, map thumbnails, and other decorative metadata graphics.
+            var imgExcludeKeywords = new List<string>
+            {
+                "Signatur",          // handwritten signatures
+                "signature",
+                "Logo",              // party / organisation logos
+                "logo",
+                "Flag_of",           // national / regional flags
+                "flag_of",
+                "Coat_of_arms",      // coats of arms
+                "coat_of_arms",
+                "Coa_",              // short coat-of-arms prefix
+                "emblem",
+                "Emblem",
+                "Seal_of",           // official seals
+                "seal_of",
+                "Map_of",            // map images
+                "map_of",
+                "locator",           // location-dot maps
+                "Locator",
+                "blank_map",
+                "BlankMap",
+                "Icon",              // office/role icons
+                "icon",
+                "Arrow",             // arrow / directional graphics
+                "arrow",
+                "Commons-logo",      // Wikimedia Commons logo
+                "Wikimedia",
+            };
 
             var filteredImages = metadatas
                 .Where(f => f.Type == MetadataType.Image)
