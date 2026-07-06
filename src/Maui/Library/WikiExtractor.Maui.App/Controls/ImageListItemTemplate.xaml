@@ -33,7 +33,8 @@
                 Aspect="AspectFit"
                 CustomSource="{Binding ImageLocalPath}"
                 HorizontalOptions="Fill"
-                VerticalOptions="Fill" />
+                VerticalOptions="Fill"
+                PageCancellationTokenSource="{Binding PageCancellationTokenSource}" />
         </Border>
 
         <Label

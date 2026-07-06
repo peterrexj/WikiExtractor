@@ -25,7 +25,7 @@ namespace WikiExtractor.Process.Modules
             toStore = new PopesWikiExtractionToStore();
         }
 
-        public void ExtractData()
+        public void ExtractData(string? targetTitle = null)
         {
             Initialize(true);
             var centuryPopes01 = toStore!.ExtractListTabularByCentury("/wiki/List_of_popes", "Popes of the 1st century", new List<string> { "All", "1st century" }, hasPortrait: false, hasPersonalName: false);
@@ -82,6 +82,14 @@ namespace WikiExtractor.Process.Modules
                  .Union(centuryPopes05).Union(centuryPopes04).Union(centuryPopes03).Union(centuryPopes02).Union(centuryPopes01)
                  .ToList()
              .WithDefaultFilters();
+
+            if (!string.IsNullOrWhiteSpace(targetTitle))
+            {
+                popesCollection = popesCollection
+                    .Where(p => p.Title.Contains(targetTitle, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+                Console.WriteLine($"\n[Popes] Target filter '{targetTitle}' → {popesCollection.Count} match(es)");
+            }
 
             int totalCount = popesCollection.Count;
             int currentIndex = 1;
@@ -157,7 +165,7 @@ namespace WikiExtractor.Process.Modules
 
             var reportFolder = Path.Combine(Path.GetDirectoryName(ProcessConstants.DatabasePath)!, "..", "Reports");
             var reporter = new ExtractionReporter(reportFolder, "Popes");
-            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000);
+            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000, skipImageValidation: true);
         }
 
         public void EnablePrimaryMetadataContent()

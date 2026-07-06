@@ -17,7 +17,11 @@ namespace WikiExtractor.Maui.App.Services
 
         private readonly ConcurrentDictionary<string, Task<ImageSource>> _inFlight = new();
 
-        private static readonly HttpClient _http = new() { Timeout = TimeSpan.FromSeconds(30) };
+        private static readonly HttpClient _http = new()
+        {
+            Timeout = TimeSpan.FromSeconds(30),
+            DefaultRequestHeaders = { { "User-Agent", "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" } }
+        };
 
         private ImagePipeline() { }
 
@@ -46,6 +50,9 @@ namespace WikiExtractor.Maui.App.Services
                             }, TaskContinuationOptions.ExecuteSynchronously);
         }
 
+        // Backoff delays for successive 429 responses (ms): 3s, 8s, 20s, 45s
+        private static readonly int[] _rateLimitBackoffMs = { 3000, 8000, 20000, 45000 };
+
         private async Task<ImageSource> FetchAsync(string url, CancellationToken ct)
         {
             try
@@ -60,12 +67,54 @@ namespace WikiExtractor.Maui.App.Services
                 }
 
                 byte[] bytes = null;
-                for (int attempt = 1; attempt <= 2; attempt++)
+                for (int attempt = 0; attempt < 5; attempt++)
                 {
-                    try { bytes = await _http.GetByteArrayAsync(url, ct); break; }
+                    HttpResponseMessage response;
+                    try
+                    {
+                        response = await _http.GetAsync(url, HttpCompletionOption.ResponseContentRead, ct);
+                    }
                     catch (OperationCanceledException) { throw; }
-                    catch when (attempt < 2) { await Task.Delay(1000, ct); }
+                    catch (Exception ex)
+                    {
+                        // Network error — one silent retry after 2s, then give up
+                        if (attempt == 0) { await Task.Delay(2000, ct); continue; }
+                        Debug.WriteLine($"[ImagePipeline] Network error: {ex.Message}  {url}");
+                        break;
+                    }
+
+                    using (response)
+                    {
+                        if (response.IsSuccessStatusCode)
+                        {
+                            bytes = await response.Content.ReadAsByteArrayAsync(ct);
+                            break;
+                        }
+
+                        if ((int)response.StatusCode == 429)
+                        {
+                            if (attempt >= _rateLimitBackoffMs.Length)
+                            {
+                                Debug.WriteLine($"[ImagePipeline] 429 — exhausted retries: {url}");
+                                break;
+                            }
+
+                            // Honour Retry-After if Wikipedia provides it, else use our schedule
+                            int waitMs = _rateLimitBackoffMs[attempt];
+                            if (response.Headers.RetryAfter?.Delta is TimeSpan delta)
+                                waitMs = (int)Math.Clamp(delta.TotalMilliseconds, 1000, 60_000);
+
+                            Debug.WriteLine($"[ImagePipeline] 429 attempt {attempt + 1}/5 — waiting {waitMs}ms: {url}");
+                            await Task.Delay(waitMs, ct);
+                            continue;
+                        }
+
+                        // Other HTTP error (404, 403, etc.) — no point retrying
+                        Debug.WriteLine($"[ImagePipeline] HTTP {(int)response.StatusCode}: {url}");
+                        break;
+                    }
                 }
+
                 if (bytes == null) return Placeholder;
 
                 await File.WriteAllBytesAsync(diskPath, bytes, ct);

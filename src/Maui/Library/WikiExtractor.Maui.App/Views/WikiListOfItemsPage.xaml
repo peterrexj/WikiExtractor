@@ -60,7 +60,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0" IsEnabled="{Binding IsPageEnabled}">
+        <Grid Grid.Row="0" BackgroundColor="{DynamicResource WikiAppDefaultBackgroundColor}" IsEnabled="{Binding IsPageEnabled}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
@@ -338,11 +338,11 @@
                 </CollectionView.ItemsLayout>
 
                 <CollectionView.Header>
-                    <BoxView HeightRequest="4" Color="Transparent" />
+                    <BoxView HeightRequest="4" BackgroundColor="Transparent" />
                 </CollectionView.Header>
 
                 <CollectionView.Footer>
-                    <BoxView HeightRequest="16" Color="Transparent" />
+                    <BoxView HeightRequest="16" BackgroundColor="Transparent" />
                 </CollectionView.Footer>
 
                 <CollectionView.EmptyView>
@@ -443,7 +443,8 @@
                                             Aspect="AspectFill"
                                             HorizontalOptions="Fill"
                                             VerticalOptions="Fill"
-                                            CustomSource="{Binding PicturePrimaryPath}" />
+                                            CustomSource="{Binding PicturePrimaryPath}"
+                                            PageCancellationTokenSource="{Binding BindingContext.PageCancellationTokenSource, Source={x:Reference ListViewPage}}" />
 
                                         <!--  Read badge — shown when item has been read  -->
                                         <Border

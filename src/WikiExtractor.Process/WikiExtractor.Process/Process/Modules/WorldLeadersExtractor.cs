@@ -17,7 +17,7 @@ namespace WikiExtractor.Process.Modules
             toStore = new WorldLeadersWikiExtractionToStore();
         }
 
-        public void ExtractData()
+        public void ExtractData(string? targetTitle = null)
         {
             Initialize(true);
             int menuItemCounter = 0;
@@ -130,7 +130,7 @@ namespace WikiExtractor.Process.Modules
             wikiAppController.AddMenuItem("Ivory Coast", "CIV Pre", "Presidents of Ivory Coast", menuItemCounter++);
             wikiAppController.AddMenuItem("Senegal", "SEN Pre", "Presidents of Senegal", menuItemCounter++);
 
-            //EnablePrimaryMetadataContent();
+            EnablePrimaryMetadataContent();
 
             var stkAustralia = toStore.ExtractListTabularData("Australia", "/wiki/List_of_prime_ministers_of_Australia", new List<string> { "All", "AUS PM" }).ToStack();
             var stkNewZealand = toStore.ExtractListTabularData("NewZealand", "/wiki/List_of_prime_ministers_of_New_Zealand", new List<string> { "All", "NewZealand PM" }).ToStack();
@@ -277,6 +277,14 @@ namespace WikiExtractor.Process.Modules
                 }
             } while (hasElements);
 
+            if (!string.IsNullOrWhiteSpace(targetTitle))
+            {
+                worldLeadersCollection = worldLeadersCollection
+                    .Where(l => l.Title.Contains(targetTitle, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+                Console.WriteLine($"\n[WorldLeaders] Target filter '{targetTitle}' → {worldLeadersCollection.Count} match(es)");
+            }
+
             int totalCount = worldLeadersCollection.Count;
             int currentIndex = 1;
 
@@ -359,7 +367,7 @@ namespace WikiExtractor.Process.Modules
 
             var reportFolder = Path.Combine(Path.GetDirectoryName(ProcessConstants.DatabasePath)!, "..", "Reports");
             var reporter = new ExtractionReporter(reportFolder, "WorldLeaders");
-            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000);
+            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000, skipImageValidation: true);
         }
 
         public void EnablePrimaryMetadataContent()

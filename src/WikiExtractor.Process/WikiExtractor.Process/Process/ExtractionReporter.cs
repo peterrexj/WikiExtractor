@@ -38,7 +38,7 @@ namespace WikiExtractor.Process
 
         // ─── Entry point ─────────────────────────────────────────────────────────
 
-        public void WriteReports(List<ExtractionRecord> records, int imageValidationDelayMs = 500)
+        public void WriteReports(List<ExtractionRecord> records, int imageValidationDelayMs = 500, bool skipImageValidation = false)
         {
             var timestamp = $"{DateTime.Now:yyyyMMdd_HHmmss}";
             var successPath = Path.Combine(_reportFolder, $"report_success_{_runLabel}_{timestamp}.txt");
@@ -53,8 +53,10 @@ namespace WikiExtractor.Process
             Console.WriteLine($"[REPORT] Success  → {successPath}");
             Console.WriteLine($"[REPORT] Failures → {failurePath}");
 
-            if (successRecords.Count > 0)
+            if (!skipImageValidation && successRecords.Count > 0)
                 ValidateImages(successPath, successRecords, imageValidationDelayMs);
+            else if (skipImageValidation)
+                Console.WriteLine("[REPORT] Image validation skipped.");
         }
 
         // ─── Failure report ───────────────────────────────────────────────────────

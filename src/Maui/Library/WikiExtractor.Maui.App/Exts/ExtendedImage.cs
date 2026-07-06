@@ -77,10 +77,12 @@ namespace WikiExtractor.Maui.App.Exts
 
         private async void ApplySource(string url, int gen)
         {
-            _loadCts?.Cancel();
-            _loadCts?.Dispose();
+            // Cancel any previous load for this cell
+            var oldCts = _loadCts;
             _loadCts = new CancellationTokenSource();
             var token = _loadCts.Token;
+            oldCts?.Cancel();
+            oldCts?.Dispose();
 
             base.Source = ImagePipeline.Instance.Placeholder;
 
@@ -100,11 +102,13 @@ namespace WikiExtractor.Maui.App.Exts
 
             var src = await ImagePipeline.Instance.GetAsync(url, linked.Token);
 
-            if (gen != _generation || linked.Token.IsCancellationRequested) return;
+            // Guard: cell may have been recycled to a different item while we were waiting
+            if (gen != _generation || linked.IsCancellationRequested) return;
 
             Application.Current?.Dispatcher.Dispatch(() =>
             {
-                if (gen == _generation)
+                // Re-check inside dispatch — generation may have changed again on the UI thread
+                if (gen == _generation && CustomSource == url)
                     base.Source = src;
             });
         }

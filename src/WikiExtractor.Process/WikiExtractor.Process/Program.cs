@@ -14,37 +14,40 @@ namespace WikiExtractor.Process
             ProcessConstants.RequestDelayInMilliseconds = ProcessConstants.UseCache ? 0 : 2000;
 
             string mode = "all-extract";
+            string? target = null;
             for (int i = 0; i < args.Length - 1; i++)
             {
                 if (args[i].Equals("--mode", StringComparison.OrdinalIgnoreCase))
-                {
                     mode = args[i + 1].ToLower();
-                    break;
-                }
+                else if (args[i].Equals("--target", StringComparison.OrdinalIgnoreCase))
+                    target = args[i + 1];
             }
 
             Console.WriteLine($"[Mode] {mode}");
+            if (target != null) Console.WriteLine($"[Target] {target}");
             Console.WriteLine();
 
             switch (mode)
             {
                 // ── WorldLeaders ──────────────────────────────────────────────────────
+                case "worldleaders-single":
                 case "worldleaders-extract":
-                    RunWorldLeaders();
+                    RunWorldLeaders(target);
                     break;
 
                 case "worldleaders-postprocess":
                     RunWorldLeadersPostProcess();
                     break;
 
-                case "worldleaders-full":
-                    RunWorldLeaders();
+                        case "worldleaders-full":
+                    RunWorldLeaders(target);
                     RunWorldLeadersPostProcess();
                     break;
 
                 // ── Saints ────────────────────────────────────────────────────────────
+                case "saints-single":
                 case "saints-extract":
-                    RunSaints();
+                    RunSaints(target);
                     break;
 
                 case "saints-postprocess":
@@ -52,13 +55,14 @@ namespace WikiExtractor.Process
                     break;
 
                 case "saints-full":
-                    RunSaints();
+                    RunSaints(target);
                     RunSaintsPostProcess();
                     break;
 
                 // ── Popes ─────────────────────────────────────────────────────────────
+                case "popes-single":
                 case "popes-extract":
-                    RunPopes();
+                    RunPopes(target);
                     break;
 
                 case "popes-postprocess":
@@ -66,13 +70,14 @@ namespace WikiExtractor.Process
                     break;
 
                 case "popes-full":
-                    RunPopes();
+                    RunPopes(target);
                     RunPopesPostProcess();
                     break;
 
                 // ── Countries ─────────────────────────────────────────────────────────
+                case "countries-single":
                 case "countries-extract":
-                    RunCountries();
+                    RunCountries(target);
                     break;
 
                 case "countries-postprocess":
@@ -80,7 +85,7 @@ namespace WikiExtractor.Process
                     break;
 
                 case "countries-full":
-                    RunCountries();
+                    RunCountries(target);
                     RunCountriesPostProcess();
                     break;
 
@@ -115,10 +120,10 @@ namespace WikiExtractor.Process
 
         // ── Runners ───────────────────────────────────────────────────────────────────
 
-        private static void RunWorldLeaders()
+        private static void RunWorldLeaders(string? target = null)
         {
             var e = new WorldLeadersExtractor();
-            e.ExtractData();
+            e.ExtractData(target);
         }
 
         private static void RunWorldLeadersPostProcess()
@@ -132,10 +137,10 @@ namespace WikiExtractor.Process
             e.QuizDataInsightsToBuildQuiz("WorldLeaders");
         }
 
-        private static void RunSaints()
+        private static void RunSaints(string? target = null)
         {
             var e = new SaintsDataExtractor();
-            e.ExtractData();
+            e.ExtractData(target);
         }
 
         private static void RunSaintsPostProcess()
@@ -149,10 +154,10 @@ namespace WikiExtractor.Process
             e.QuizDataInsightsToBuildQuiz("Saints");
         }
 
-        private static void RunPopes()
+        private static void RunPopes(string? target = null)
         {
             var e = new PopesDataExtractor();
-            e.ExtractData();
+            e.ExtractData(target);
         }
 
         private static void RunPopesPostProcess()
@@ -164,10 +169,10 @@ namespace WikiExtractor.Process
             e.QuizDataInsightsToBuildQuiz("Popes");
         }
 
-        private static void RunCountries()
+        private static void RunCountries(string? target = null)
         {
             var e = new CountriesDataExtractor();
-            e.ExtractData();
+            e.ExtractData(target);
         }
 
         private static void RunCountriesPostProcess()

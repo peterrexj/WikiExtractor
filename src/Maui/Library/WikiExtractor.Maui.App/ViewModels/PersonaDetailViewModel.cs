@@ -155,6 +155,21 @@ namespace WikiExtractor.Maui.App.ViewModels
 
         #endregion
 
+        #region PageCancellationTokenSource
+
+        private CancellationTokenSource _pageCancellationTokenSource;
+        public CancellationTokenSource PageCancellationTokenSource
+        {
+            get => _pageCancellationTokenSource;
+            set
+            {
+                _pageCancellationTokenSource = value;
+                OnPropertyChanged(nameof(PageCancellationTokenSource));
+            }
+        }
+
+        #endregion
+
         public void TriggerEvents()
         {
             // Commented out to prevent ListView scroll reset

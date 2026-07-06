@@ -23,7 +23,7 @@ namespace WikiExtractor.Process.Modules
             toStore = new CountriesWikiExtractionToStore();
         }
 
-        public void ExtractData()
+        public void ExtractData(string? targetTitle = null)
         {
             Initialize(true);
             var excludedMetadata = new List<string> { "Rank", "FlagImage" };
@@ -50,6 +50,14 @@ namespace WikiExtractor.Process.Modules
             EnablePrimaryMetadataContent();
 
             var countriesCollection = countries.OrderBy(f => f.Sequence).Union(noncountries.OrderBy(f => f.Sequence)).ToList().WithDefaultFilters();
+
+            if (!string.IsNullOrWhiteSpace(targetTitle))
+            {
+                countriesCollection = countriesCollection
+                    .Where(c => c.Title.Contains(targetTitle, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+                Console.WriteLine($"\n[Countries] Target filter '{targetTitle}' → {countriesCollection.Count} match(es)");
+            }
 
             int totalCount = countriesCollection.Count;
             int currentIndex = 1;
@@ -125,7 +133,7 @@ namespace WikiExtractor.Process.Modules
 
             var reportFolder = Path.Combine(Path.GetDirectoryName(ProcessConstants.DatabasePath)!, "..", "Reports");
             var reporter = new ExtractionReporter(reportFolder, "Countries");
-            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000);
+            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000, skipImageValidation: true);
 
 
             ////Temp code

@@ -19,20 +19,28 @@ namespace WikiExtractor.Maui.App.Platforms.iOS.DependencyInjection
                 Debug.WriteLine($"[iOS-DbStorage] File exists: {File.Exists(PlatformDatabasePath)}");
                 Debug.WriteLine($"[iOS-DbStorage] ForceCopy: {ForceCopy}");
 
-                if (!File.Exists(PlatformDatabasePath) || ForceCopy)
-                {
-                    string sourcePath = NSBundle.MainBundle.PathForResource(Path.GetFileNameWithoutExtension(DatabaseFileName), Path.GetExtension(DatabaseFileName).TrimStart('.'));
-                    Debug.WriteLine($"[iOS-DbStorage] Source path: {sourcePath ?? "null"}");
+                string sourcePath = NSBundle.MainBundle.PathForResource(Path.GetFileNameWithoutExtension(DatabaseFileName), Path.GetExtension(DatabaseFileName).TrimStart('.'));
+                Debug.WriteLine($"[iOS-DbStorage] Source path: {sourcePath ?? "null"}");
 
-                    if (sourcePath != null && File.Exists(sourcePath))
+                if (sourcePath != null && File.Exists(sourcePath))
+                {
+                    long assetLen = new FileInfo(sourcePath).Length;
+                    long deviceLen = File.Exists(PlatformDatabasePath) ? new FileInfo(PlatformDatabasePath).Length : 0;
+                    Debug.WriteLine($"[iOS-DbStorage] Asset size: {assetLen}  Device size: {deviceLen}");
+
+                    if (!File.Exists(PlatformDatabasePath) || ForceCopy || assetLen != deviceLen)
                     {
                         File.Copy(sourcePath, PlatformDatabasePath, true);
                         Debug.WriteLine($"[iOS-DbStorage] Database copied successfully");
                     }
                     else
                     {
-                        Debug.WriteLine($"[iOS-DbStorage] Source database not found in bundle");
+                        Debug.WriteLine($"[iOS-DbStorage] Database up to date, skipping copy");
                     }
+                }
+                else
+                {
+                    Debug.WriteLine($"[iOS-DbStorage] Source database not found in bundle");
                 }
                 return true;
             }

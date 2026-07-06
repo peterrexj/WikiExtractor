@@ -9,7 +9,10 @@ namespace WikiExtractor.Maui.App.Platforms.Android.DependencyInjection
         {
             try
             {
-                if (!File.Exists(PlatformDatabasePath) || ForceCopy)
+                long assetLen = DatabaseFileAssetLength;
+                long deviceLen = DatabaseFileLength;
+
+                if (!File.Exists(PlatformDatabasePath) || ForceCopy || assetLen != deviceLen)
                 {
                     using (var br = new BinaryReader(global::Android.App.Application.Context.Assets.Open(DatabaseFileName)))
                     using (var bw = new BinaryWriter(new FileStream(PlatformDatabasePath, FileMode.Create)))

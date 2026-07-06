@@ -273,6 +273,8 @@ namespace WikiExtractor.Maui.App.Views
                 BindingContext = personaDetailViewModel;
             }
 
+            personaDetailViewModel.PageCancellationTokenSource = _cancellationTokenSource;
+
             await personaDetailViewModel.LoadFontSizeAsync();
 
             personaDetailViewModel.IsOffline = Connectivity.Current.NetworkAccess != NetworkAccess.Internet;
@@ -592,6 +594,7 @@ namespace WikiExtractor.Maui.App.Views
             ImageHeight = (pictureViewModel.Height <= 0 || pictureViewModel.Height > DefaultHeightImageInDetailsPage) ? DefaultHeightImageInDetailsPage : pictureViewModel.Height,
             ImageDimension = $"{(pictureViewModel.Height <= 0 ? DefaultHeightImageInDetailsPage : pictureViewModel.Height)},{(pictureViewModel.Width <= 0 ? DefaultHeightImageInDetailsPage : pictureViewModel.Width)}",
             ImageCaption = pictureViewModel.PictureCaption,
+            PageCancellationTokenSource = _cancellationTokenSource,
         };
 
         private void First_TabItem_Clicked(object sender, EventArgs e)

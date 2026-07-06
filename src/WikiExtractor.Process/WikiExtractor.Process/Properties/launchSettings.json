@@ -1,5 +1,9 @@
 {
   "profiles": {
+    "WorldLeaders - Single (Albanese)": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode worldleaders-single --target \"Anthony Albanese\""
+    },
     "WorldLeaders - Extract": {
       "commandName": "Project",
       "commandLineArgs": "--mode worldleaders-extract"
@@ -11,6 +15,10 @@
     "WorldLeaders - Full": {
       "commandName": "Project",
       "commandLineArgs": "--mode worldleaders-full"
+    },
+    "Saints - Single (Francis of Assisi)": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode saints-single --target \"Francis of Assisi\""
     },
     "Saints - Extract": {
       "commandName": "Project",
@@ -24,6 +32,10 @@
       "commandName": "Project",
       "commandLineArgs": "--mode saints-full"
     },
+    "Popes - Single (John Paul I)": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode popes-single --target \"John Paul\""
+    },
     "Popes - Extract": {
       "commandName": "Project",
       "commandLineArgs": "--mode popes-extract"
@@ -35,6 +47,10 @@
     "Popes - Full": {
       "commandName": "Project",
       "commandLineArgs": "--mode popes-full"
+    },
+    "Countries - Single (Australia)": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode countries-single --target \"Australia\""
     },
     "Countries - Extract": {
       "commandName": "Project",

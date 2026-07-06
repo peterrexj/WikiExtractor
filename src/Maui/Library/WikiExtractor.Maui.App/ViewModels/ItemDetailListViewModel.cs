@@ -1,9 +1,11 @@
 using System.ComponentModel;
+using System.Threading;
 
 namespace WikiExtractor.Maui.App.ViewModels
 {
     public class ItemDetailListViewModel : INotifyPropertyChanged
     {
+        public CancellationTokenSource PageCancellationTokenSource { get; set; }
         public string Type { get; set; }
         public string Content { get; set; }
         public int ContentLinkId { get; set; }

@@ -25,7 +25,7 @@ namespace WikiExtractor.Maui.App.Platforms.Android.DependencyInjection
         {
             get
             {
-                if ( _dbSqliteHelper == null)
+                if (_dbSqliteHelper == null)
                 {
                     _dbSqliteHelper = new DbStorage();
                 }

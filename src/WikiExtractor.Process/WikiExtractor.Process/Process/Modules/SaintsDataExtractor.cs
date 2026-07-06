@@ -25,7 +25,7 @@ namespace WikiExtractor.Process.Modules
             base.Initialize(doClean);
             toStore = new SaintsWikiExtractionToStore();
         }
-        public void ExtractData()
+        public void ExtractData(string? targetTitle = null)
         {
             Initialize(true);
             
@@ -141,6 +141,14 @@ namespace WikiExtractor.Process.Modules
                 .ToList()
                 .WithDefaultFilters();
 
+            if (!string.IsNullOrWhiteSpace(targetTitle))
+            {
+                saintsCollection = saintsCollection
+                    .Where(s => s.Title.Contains(targetTitle, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+                Console.WriteLine($"\n[Saints] Target filter '{targetTitle}' → {saintsCollection.Count} match(es)");
+            }
+
             int totalCount = saintsCollection.Count;
             int currentIndex = 1;
 
@@ -220,7 +228,7 @@ namespace WikiExtractor.Process.Modules
 
             var reportFolder = Path.Combine(Path.GetDirectoryName(ProcessConstants.DatabasePath)!, "..", "Reports");
             var reporter = new ExtractionReporter(reportFolder, "Saints");
-            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000);
+            reporter.WriteReports(extractionRecords, imageValidationDelayMs: ProcessConstants.UseCache ? 0 : 2000, skipImageValidation: true);
 
             //Clean the data
             CleanDataWithDump();
