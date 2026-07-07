@@ -69,7 +69,7 @@ namespace WikiExtractor.Maui.App.Platforms.Android.DependencyInjection
             : "WikiUserStore.db";
 
         public bool IsDatabaseOnCopyMode => false;
-        public int CurrentVersion => 5;
+        public int CurrentVersion => 6;
         public bool HasSettingsTable => true;
 
         private bool _forceCopy;

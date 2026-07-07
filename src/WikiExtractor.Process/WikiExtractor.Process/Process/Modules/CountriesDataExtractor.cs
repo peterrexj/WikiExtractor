@@ -26,7 +26,7 @@ namespace WikiExtractor.Process.Modules
         public void ExtractData(string? targetTitle = null)
         {
             Initialize(true);
-            var excludedMetadata = new List<string> { "Rank", "FlagImage" };
+            var excludedMetadata = new List<string> { "Rank" };
             var countries = toStore!.ListByDependencyArea_ForCountries("/wiki/List_of_countries_and_dependencies_by_area", new List<string> { "Countries", "All" }).ToList();
             var noncountries = toStore!.ListByDependencyArea_ForNonCountries("/wiki/List_of_countries_and_dependencies_by_area", new List<string> { "Other known nations", "All" }).ToList();
 
@@ -108,6 +108,17 @@ namespace WikiExtractor.Process.Modules
                 {
                     var bagItem = bag.FirstOrDefault(f => f.Item3.Id == country.Id);
                     if (bagItem == null) return;
+
+                    // Prepend the flag as the primary image (Sequence = -1 sorts before all infobox images).
+                    // FlagImage is stored in AdditionalMetaData by CountriesWikiFinder.
+                    if (country.AdditionalMetaData.TryGetValue("FlagImage", out var flagUrl) && flagUrl.HasValue())
+                    {
+                        var flagMeta = new MetaDataModel(-1, "FlagImage", MetadataType.Image);
+                        flagMeta.CustomMetadata["src"] = flagUrl;
+                        flagMeta.Description = "Flag";
+                        bagItem.Item2.Insert(0, flagMeta);
+                    }
+
                     var masterId = toStore.SinglePageContentStore(bagItem.Item1, bagItem.Item2, bagItem.Item3);
                     storedMasterIds[country.Id] = masterId;
                 }

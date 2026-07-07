@@ -118,15 +118,18 @@ namespace WikiExtractor.Process
 
             var filteredImages = metadatas
                 .Where(f => f.Type == MetadataType.Image)
-                .Select(s => s.ToImageDbModel())
-                .Where(f => f.Path.HasValue())
-                .Where(f => !imgExcludeFromStorage.Any(g => f.Path?.ContainsIgnoreCase(g) == true))
-                .OrderBy(f => f.Sequence);
+                .Select(s => (meta: s, image: s.ToImageDbModel()))
+                .Where(f => f.image.Path.HasValue())
+                .Where(f => !imgExcludeFromStorage.Any(g => f.image.Path?.ContainsIgnoreCase(g) == true))
+                .OrderBy(f => f.image.Sequence);
 
-            foreach (var imageType in filteredImages)
+            foreach (var (meta, imageType) in filteredImages)
             {
                 imageType.MasterId = masterId;
-                bool skipForPrimary = imgSkipForPrimary.Any(g => imageType.Path?.ContainsIgnoreCase(g) == true);
+                // An entry explicitly named "FlagImage" is a pre-selected primary (e.g. Countries) —
+                // bypass the imgSkipForPrimary filter which would otherwise skip Flag_of_* images.
+                bool forcePrimary = meta.Name == "FlagImage";
+                bool skipForPrimary = !forcePrimary && imgSkipForPrimary.Any(g => imageType.Path?.ContainsIgnoreCase(g) == true);
                 if (hasPrimaryWikiPictureIdentified == false && !skipForPrimary)
                 {
                     hasPrimaryWikiPictureIdentified = true;

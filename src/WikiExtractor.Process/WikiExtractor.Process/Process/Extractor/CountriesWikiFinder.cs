@@ -165,7 +165,7 @@ namespace WikiExtractor.Process.Extractor
                 var n = Path.GetFileName(flagUrl);
                 var m = n.ReplaceWithRegex("(\\d+)px", "150px");
                 var newFlagUrl = flagUrl.Replace(n, m);
-                if (newFlagUrl.StartsWith("http") == false)
+                if (newFlagUrl.StartsWith("http") == false && newFlagUrl.StartsWith("//") == false)
                 {
                     newFlagUrl = $"https://{newFlagUrl}";
                 }
