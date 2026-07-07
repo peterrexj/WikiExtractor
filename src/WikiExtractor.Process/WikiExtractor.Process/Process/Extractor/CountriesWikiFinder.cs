@@ -161,10 +161,7 @@ namespace WikiExtractor.Process.Extractor
             if (flagIcon != null && flagIcon.Attributes.Count > 0 && flagIcon.Attributes.Any(f => f.Name == "src") &&
                 flagIcon.Attributes.FirstOrDefault(f => f.Name == "src")?.Value.HasValue() == true)
             {
-                var flagUrl = flagIcon.Attributes["src"].Value;
-                var n = Path.GetFileName(flagUrl);
-                var m = n.ReplaceWithRegex("(\\d+)px", "150px");
-                var newFlagUrl = flagUrl.Replace(n, m);
+                var newFlagUrl = flagIcon.Attributes["src"].Value;
                 if (newFlagUrl.StartsWith("http") == false && newFlagUrl.StartsWith("//") == false)
                 {
                     newFlagUrl = $"https://{newFlagUrl}";
