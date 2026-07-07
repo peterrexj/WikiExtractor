@@ -74,7 +74,10 @@ namespace WikiExtractor.Process.Extractor
                 }
                 var elements = item.ChildNodes.Where(f => f.Name == "td").ToArray();
 
-                if (elements[elePosNames].ChildNodes.Count < 4) //Name column does not contain enough information
+                // Wikipedia's name cells are structured as: <b>Name <a href>...</a></b><br/><span>Latin</span>
+                // That's 3 direct element children — the old ">= 4" guard was based on a stale page structure.
+                var nameElementChildCount = elements[elePosNames].ChildNodes.Count(f => f.Name != "#text");
+                if (nameElementChildCount < 2) // need at least <b/i/a> and <span> for Latin name
                 {
                     continue;
                 }
@@ -84,54 +87,25 @@ namespace WikiExtractor.Process.Extractor
                 listOfName.AdditionalMetaData!.Add(MetadataPontiffNumber, elements[elePosPoitiff].DecodedInnerText(removeNewLine: true).Trim());
                 listOfName.AdditionalMetaData!.Add(MetadataPontificate, elements[elePosPontificate].DecodedInnerText(removeNewLine: true).Trim());
 
-
-                if (hasPortrait)
-                {
-                    //skip portait from this extraction as the images are extracted from the source page of each item
-
-                    //var portraitAnchor = elements[elePos_Potrait].ChildNodes.FirstOrDefault(f => f.Name == "a");
-                    //if (portraitAnchor != null && portraitAnchor.Attributes.Count > 0 && portraitAnchor.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()))
-                    //{
-                    //    listOfName.AdditionalMetaData!.Add(_metadata_PortaritImage, HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: portraitAnchor.Attributes["href"].Value, removeNewLine: false)));
-                    //}
-                }
-
                 //Names with HyperLinks
-                if (elements[elePosNames].ChildNodes.Count >= 4)
                 {
                     var engName = elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i" || f.Name == "a")?.DecodedInnerText(removeNewLine: true).Trim();
                     listOfName.AdditionalMetaData!.AddOrUpdate(MetadataEnglishName, engName);
                     listOfName.AdditionalMetaData!.AddOrUpdate(MetadataLatinName, elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "span")?.DecodedInnerText(removeNewLine: true).Trim());
-                    if (elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i")?.ChildNodes.Where(f => f.Name == "a").Count() == 1)
+
+                    // Find the <a> anywhere inside the name cell — covers <b><a>, <i><a>, direct <a>
+                    var anchor = elements[elePosNames].Descendants("a").FirstOrDefault(a => a.Attributes["href"]?.Value.HasValue() == true);
+                    if (anchor != null)
                     {
-                        var anchor = elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i")?.ChildNodes.FirstOrDefault(f => f.Name == "a");
-                        if (anchor != null && anchor.Attributes.Count > 0)
+                        var href = HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: anchor.Attributes["href"].Value, removeNewLine: false));
+                        // Strip absolute URL prefix if Wikipedia returns full URL (//en.wikipedia.org/wiki/...)
+                        const string wikiPrefix = "//en.wikipedia.org";
+                        if (href.StartsWith(wikiPrefix, StringComparison.OrdinalIgnoreCase))
                         {
-                            if (anchor.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()))
-                            {
-                                listOfName.Route = HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: anchor.Attributes["href"].Value, removeNewLine: false));
-                            }
+                            href = href.Substring(wikiPrefix.Length);
                         }
+                        listOfName.Route = href;
                     }
-                    else if (elements[elePosNames].ChildNodes.Where(f => f.Name == "a").Count() == 1)
-                    {
-                        var anchor = elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "a");
-                        if (anchor != null && anchor.Attributes.Count > 0)
-                        {
-                            if (anchor.Attributes.Any(a => a.Name == "href" && a.Value.HasValue()))
-                            {
-                                listOfName.Route = HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: anchor.Attributes["href"].Value, removeNewLine: false));
-                            }
-                        }
-                    }
-                    else
-                    {
-                        throw new Exception("There is more than 1 <a>, take a closer look");
-                    }
-                }
-                else
-                {
-                    throw new Exception("There is more nodes than expected, take a closer look");
                 }
 
                 if (hasPersonalName)
