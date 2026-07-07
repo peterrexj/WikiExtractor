@@ -342,11 +342,73 @@
                         <tabView:SfTabItem.Content>
                             <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
                                 <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
                                     <RowDefinition Height="*" />
                                 </Grid.RowDefinitions>
 
+                                <!--  Refresh All bar — visible only when tapped or needed  -->
+                                <Border
+                                    x:Name="refreshAllBar"
+                                    Grid.Row="0"
+                                    Margin="{OnIdiom Phone='10,8,10,2', Tablet='14,10,14,4', Default='10,8,10,2'}"
+                                    BackgroundColor="#1A000000"
+                                    HorizontalOptions="Fill"
+                                    IsVisible="False"
+                                    Padding="{OnIdiom Phone='12,7', Tablet='16,9', Default='12,7'}"
+                                    Stroke="#30FFFFFF"
+                                    StrokeShape="RoundRectangle 10"
+                                    StrokeThickness="1">
+                                    <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="10" VerticalOptions="Center">
+                                        <Label
+                                            Grid.Column="0"
+                                            FontFamily="FontAwesome"
+                                            FontSize="{OnIdiom Phone=13, Tablet=18, Default=13}"
+                                            Text="&#xf071;"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}"
+                                            VerticalOptions="Center"
+                                            Opacity="0.7" />
+                                        <Label
+                                            Grid.Column="1"
+                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                            FontSize="{OnIdiom Phone=12, Tablet=16, Default=12}"
+                                            Text="Some images failed to load"
+                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}"
+                                            VerticalOptions="Center"
+                                            Opacity="0.7" />
+                                        <Border
+                                            Grid.Column="2"
+                                            BackgroundColor="{DynamicResource WikiAppPrimaryAccentColor}"
+                                            Padding="{OnIdiom Phone='10,5', Tablet='14,7', Default='10,5'}"
+                                            Stroke="Transparent"
+                                            StrokeShape="RoundRectangle 8"
+                                            VerticalOptions="Center">
+                                            <Grid ColumnDefinitions="Auto,Auto" ColumnSpacing="5">
+                                                <Label
+                                                    Grid.Column="0"
+                                                    FontFamily="FontAwesome"
+                                                    FontSize="{OnIdiom Phone=11, Tablet=15, Default=11}"
+                                                    Text="&#xf021;"
+                                                    TextColor="White"
+                                                    VerticalOptions="Center" />
+                                                <Label
+                                                    Grid.Column="1"
+                                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                                    FontSize="{OnIdiom Phone=11, Tablet=15, Default=11}"
+                                                    FontAttributes="Bold"
+                                                    Text="Refresh All"
+                                                    TextColor="White"
+                                                    VerticalOptions="Center" />
+                                            </Grid>
+                                            <Border.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="refreshAllImages_Tapped" />
+                                            </Border.GestureRecognizers>
+                                        </Border>
+                                    </Grid>
+                                </Border>
+
                                 <CollectionView
                                     x:Name="lstImages"
+                                    Grid.Row="1"
                                     BackgroundColor="Transparent"
                                     HorizontalOptions="Fill"
                                     ItemsSource="{Binding Persona.Pictures}"
@@ -363,66 +425,111 @@
 
                                     <CollectionView.ItemTemplate>
                                         <DataTemplate>
-                                            <Border
-                                                Margin="2"
-                                                BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                                            <!--  Outer Grid so retry button can sit above the card's StrokeShape clip  -->
+                                            <Grid
                                                 HeightRequest="{OnIdiom Phone=155, Tablet=220, Desktop=260, Default=155}"
-                                                HorizontalOptions="Fill"
-                                                Stroke="{DynamicResource WikiAppPersonaDetailPictureItemBorder}"
-                                                StrokeShape="RoundRectangle 16"
-                                                StrokeThickness="1">
+                                                HorizontalOptions="Fill">
 
-                                                <Border.Shadow>
-                                                    <Shadow
-                                                        Brush="{DynamicResource WikiAppPersonaDetailPictureItemShadow}"
-                                                        Opacity="0.4"
-                                                        Radius="10"
-                                                        Offset="0,3" />
-                                                </Border.Shadow>
-                                                <Border.GestureRecognizers>
-                                                    <TapGestureRecognizer Tapped="lstImageEffectsLayer_Tapped" />
-                                                </Border.GestureRecognizers>
+                                                <Border
+                                                    Margin="2"
+                                                    BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                                                    HorizontalOptions="Fill"
+                                                    VerticalOptions="Fill"
+                                                    Stroke="{DynamicResource WikiAppPersonaDetailPictureItemBorder}"
+                                                    StrokeShape="RoundRectangle 16"
+                                                    StrokeThickness="1">
 
-                                                <!--  Full-height image with caption overlay  -->
-                                                <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
+                                                    <Border.Shadow>
+                                                        <Shadow
+                                                            Brush="{DynamicResource WikiAppPersonaDetailPictureItemShadow}"
+                                                            Opacity="0.4"
+                                                            Radius="10"
+                                                            Offset="0,3" />
+                                                    </Border.Shadow>
+                                                    <Border.GestureRecognizers>
+                                                        <TapGestureRecognizer Tapped="lstImageEffectsLayer_Tapped" />
+                                                    </Border.GestureRecognizers>
 
-                                                    <!--  Image fills entire card  -->
-                                                    <local:ExtendedImage
-                                                        Aspect="AspectFill"
-                                                        HorizontalOptions="Fill"
-                                                        VerticalOptions="Fill"
-                                                        CustomSource="{Binding PicturePath}"
-                                                        PageCancellationTokenSource="{Binding BindingContext.PageCancellationTokenSource, Source={x:Reference DetailViewPage}}" />
+                                                    <!--  Image with caption overlay  -->
+                                                    <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
 
-                                                    <!--  Bottom gradient scrim  -->
-                                                    <BoxView
-                                                        HeightRequest="{OnIdiom Phone=70, Tablet=90, Default=70}"
-                                                        InputTransparent="True"
-                                                        VerticalOptions="End">
-                                                        <BoxView.Background>
-                                                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                                                                <GradientStop Offset="0.0" Color="Transparent" />
-                                                                <GradientStop Offset="1.0" Color="#CC000000" />
-                                                            </LinearGradientBrush>
-                                                        </BoxView.Background>
-                                                    </BoxView>
+                                                        <local:ExtendedImage
+                                                            x:Name="galleryImage"
+                                                            Aspect="AspectFill"
+                                                            HorizontalOptions="Fill"
+                                                            VerticalOptions="Fill"
+                                                            CustomSource="{Binding PicturePath}"
+                                                            PageCancellationTokenSource="{Binding BindingContext.PageCancellationTokenSource, Source={x:Reference DetailViewPage}}" />
 
-                                                    <!--  Caption overlaid on gradient  -->
+                                                        <!--  Bottom gradient scrim  -->
+                                                        <BoxView
+                                                            HeightRequest="{OnIdiom Phone=70, Tablet=90, Default=70}"
+                                                            InputTransparent="True"
+                                                            VerticalOptions="End">
+                                                            <BoxView.Background>
+                                                                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                                                    <GradientStop Offset="0.0" Color="Transparent" />
+                                                                    <GradientStop Offset="1.0" Color="#CC000000" />
+                                                                </LinearGradientBrush>
+                                                            </BoxView.Background>
+                                                        </BoxView>
+
+                                                        <!--  Caption overlaid on gradient  -->
+                                                        <Label
+                                                            Padding="{OnIdiom Phone='10,6', Tablet='14,8', Default='10,6'}"
+                                                            FontFamily="{DynamicResource DefaultFontFamily}"
+                                                            FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
+                                                            HorizontalOptions="Fill"
+                                                            HorizontalTextAlignment="Center"
+                                                            InputTransparent="True"
+                                                            LineBreakMode="TailTruncation"
+                                                            MaxLines="2"
+                                                            Text="{Binding PictureCaption}"
+                                                            TextColor="White"
+                                                            VerticalOptions="End"
+                                                            VerticalTextAlignment="End" />
+                                                    </Grid>
+                                                </Border>
+
+                                                <!--  Loading spinner — bottom-right, visible while fetch is in flight  -->
+                                                <ActivityIndicator
+                                                    Margin="0,0,9,9"
+                                                    Color="{DynamicResource WikiAppPrimaryAccentColor}"
+                                                    HeightRequest="20"
+                                                    HorizontalOptions="End"
+                                                    InputTransparent="True"
+                                                    IsRunning="{Binding IsImageLoading, Source={x:Reference galleryImage}}"
+                                                    IsVisible="{Binding IsImageLoading, Source={x:Reference galleryImage}}"
+                                                    VerticalOptions="End"
+                                                    WidthRequest="20" />
+
+                                                <!--  Retry button — bottom-right, visible when failed and not retrying  -->
+                                                <Border
+                                                    Margin="0,0,9,9"
+                                                    BackgroundColor="#B0000000"
+                                                    HeightRequest="30"
+                                                    HorizontalOptions="End"
+                                                    IsVisible="{Binding IsShowingPlaceholder, Source={x:Reference galleryImage}}"
+                                                    Stroke="#50FFFFFF"
+                                                    StrokeShape="RoundRectangle 15"
+                                                    StrokeThickness="1"
+                                                    VerticalOptions="End"
+                                                    WidthRequest="30">
                                                     <Label
-                                                        Padding="{OnIdiom Phone='10,6', Tablet='14,8', Default='10,6'}"
-                                                        FontFamily="{DynamicResource DefaultFontFamily}"
-                                                        FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
-                                                        HorizontalOptions="Fill"
+                                                        FontFamily="FontAwesome"
+                                                        FontSize="12"
+                                                        HorizontalOptions="Center"
                                                         HorizontalTextAlignment="Center"
                                                         InputTransparent="True"
-                                                        LineBreakMode="TailTruncation"
-                                                        MaxLines="2"
-                                                        Text="{Binding PictureCaption}"
+                                                        Text="&#xf021;"
                                                         TextColor="White"
-                                                        VerticalOptions="End"
-                                                        VerticalTextAlignment="End" />
-                                                </Grid>
-                                            </Border>
+                                                        VerticalOptions="Center"
+                                                        VerticalTextAlignment="Center" />
+                                                    <Border.GestureRecognizers>
+                                                        <TapGestureRecognizer Command="{Binding RetryCommand, Source={x:Reference galleryImage}}" />
+                                                    </Border.GestureRecognizers>
+                                                </Border>
+                                            </Grid>
                                         </DataTemplate>
                                     </CollectionView.ItemTemplate>
                                 </CollectionView>

@@ -440,6 +440,7 @@
                                     BackgroundColor="{DynamicResource WikiAppPersonaDetailProfileImageBg}">
                                     <Grid>
                                         <exts:ExtendedImage
+                                            x:Name="listItemPrimaryImage"
                                             Aspect="AspectFill"
                                             HorizontalOptions="Fill"
                                             VerticalOptions="Fill"
@@ -505,6 +506,45 @@
                                                 <TapGestureRecognizer
                                                     CommandParameter="{Binding Id}"
                                                     Tapped="heartOnListItem_Tapped" />
+                                            </Border.GestureRecognizers>
+                                        </Border>
+
+                                        <!--  Loading spinner — bottom-right, visible while fetch is in flight  -->
+                                        <ActivityIndicator
+                                            Margin="0,0,5,5"
+                                            Color="{DynamicResource WikiAppPrimaryAccentColor}"
+                                            HeightRequest="18"
+                                            HorizontalOptions="End"
+                                            InputTransparent="True"
+                                            IsRunning="{Binding IsImageLoading, Source={x:Reference listItemPrimaryImage}}"
+                                            IsVisible="{Binding IsImageLoading, Source={x:Reference listItemPrimaryImage}}"
+                                            VerticalOptions="End"
+                                            WidthRequest="18" />
+
+                                        <!--  Retry button — bottom-right, only visible when image failed to load  -->
+                                        <Border
+                                            Margin="0,0,5,5"
+                                            BackgroundColor="#B0000000"
+                                            HeightRequest="26"
+                                            HorizontalOptions="End"
+                                            IsVisible="{Binding IsShowingPlaceholder, Source={x:Reference listItemPrimaryImage}}"
+                                            Stroke="#50FFFFFF"
+                                            StrokeShape="RoundRectangle 13"
+                                            StrokeThickness="1"
+                                            VerticalOptions="End"
+                                            WidthRequest="26">
+                                            <Label
+                                                FontFamily="FontAwesome"
+                                                FontSize="11"
+                                                HorizontalOptions="Center"
+                                                HorizontalTextAlignment="Center"
+                                                InputTransparent="True"
+                                                Text="&#xf021;"
+                                                TextColor="White"
+                                                VerticalOptions="Center"
+                                                VerticalTextAlignment="Center" />
+                                            <Border.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding RetryCommand, Source={x:Reference listItemPrimaryImage}}" />
                                             </Border.GestureRecognizers>
                                         </Border>
                                     </Grid>
