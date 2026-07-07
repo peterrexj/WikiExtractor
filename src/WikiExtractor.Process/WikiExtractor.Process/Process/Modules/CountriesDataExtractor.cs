@@ -109,14 +109,17 @@ namespace WikiExtractor.Process.Modules
                     var bagItem = bag.FirstOrDefault(f => f.Item3.Id == country.Id);
                     if (bagItem == null) return;
 
-                    // Prepend the flag as the primary image (Sequence = -1 sorts before all infobox images).
-                    // FlagImage is stored in AdditionalMetaData by CountriesWikiFinder.
-                    if (country.AdditionalMetaData.TryGetValue("FlagImage", out var flagUrl) && flagUrl.HasValue())
+                    // Promote the infobox flag image (Flag_of_*) to primary by renaming it "FlagImage"
+                    // and setting Sequence = -1 so it sorts before all other images.
+                    // StoreProcess.forcePrimary bypasses imgSkipForPrimary for entries named "FlagImage".
+                    var infoboxFlag = bagItem.Item2
+                        .FirstOrDefault(f => f.Type == MetadataType.Image &&
+                            (f.CustomMetadata.TryGetValue("src", out var s) &&
+                             (s.ContainsIgnoreCase("Flag_of") || s.ContainsIgnoreCase("flag_of"))));
+                    if (infoboxFlag != null)
                     {
-                        var flagMeta = new MetaDataModel(-1, "FlagImage", MetadataType.Image);
-                        flagMeta.CustomMetadata["src"] = flagUrl;
-                        flagMeta.Description = "Flag";
-                        bagItem.Item2.Insert(0, flagMeta);
+                        infoboxFlag.Name = "FlagImage";
+                        infoboxFlag.Sequence = -1;
                     }
 
                     var masterId = toStore.SinglePageContentStore(bagItem.Item1, bagItem.Item2, bagItem.Item3);
