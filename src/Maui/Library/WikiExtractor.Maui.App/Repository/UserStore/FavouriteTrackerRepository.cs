@@ -17,7 +17,7 @@ namespace WikiExtractor.Repository.UserStore
             var createStr = new StringBuilder();
             if (databaseVersion <= 1)
             {
-                createStr.Append($@"CREATE TABLE [{_tableName}] (
+                createStr.Append($@"CREATE TABLE IF NOT EXISTS [{_tableName}] (
 	                                [Id]	            INTEGER NOT NULL UNIQUE,
                                     [ItemIdentifier]    TEXT,
 	                                [IsFavourite]       INTEGER,

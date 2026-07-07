@@ -43,7 +43,7 @@ namespace WikiExtractor.Repository.UserStore
             var createStr = new StringBuilder();
             if (databaseVersion <= 0)
             {
-                createStr.Append($@"CREATE TABLE [{_tableName}] (
+                createStr.Append($@"CREATE TABLE IF NOT EXISTS [{_tableName}] (
 	                                [Id]	INTEGER NOT NULL UNIQUE,
 	                                [Name]  TEXT,
                                     [Value] TEXT,
