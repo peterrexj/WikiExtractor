@@ -20,7 +20,7 @@ namespace WikiExtractor.Repository
             var createStr = new StringBuilder();
             if (databaseVersion <= 0)
             {
-                createStr.Append($@"CREATE TABLE [{_tableName}] (
+                createStr.Append($@"CREATE TABLE IF NOT EXISTS [{_tableName}] (
 	                                [Id]	         INTEGER NOT NULL UNIQUE,
 	                                [RequestDate]    DATE,
                                     [RequestCount]   INTEGER,

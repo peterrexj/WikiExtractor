@@ -58,8 +58,10 @@ namespace WikiExtractor.Process.Modules
         {
             if (doClean)
             {
+                // Only delete the main wiki DB — UserStore.db holds user data (favourites,
+                // read state, streaks) that must survive extraction re-runs.
+                AppDatabase.IsInitialized = false;
                 IoHelper.DeleteFile(ProcessConstants.DatabasePath);
-                IoHelper.DeleteFile(ProcessConstants.UserStoreDatabasePath);
             }
 
             var wikiDb = new WikiDatabase();

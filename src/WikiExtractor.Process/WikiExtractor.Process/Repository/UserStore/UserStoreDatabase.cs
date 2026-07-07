@@ -63,6 +63,7 @@ namespace WikiExtractor.Repository.UserStore
             if (requireDbInitialization)
             {
                 repoExtensions.Iter(f => appDatabase._dbHelperUserStore.DbHelper.ExecuteNonQuery(f.SchemaScript(0)));
+                SettingsRepository.Add("DatabaseVersion", "1");
             }
             else
             {
@@ -75,7 +76,8 @@ namespace WikiExtractor.Repository.UserStore
                             var qry = repo.SchemaScript(currentDbVersion);
                             if (qry.HasValue())
                             {
-                                appDatabase._dbHelper.DbHelper.ExecuteNonQuery(qry);
+                                // Use _dbHelperUserStore — not _dbHelper (which is the main wiki DB)
+                                appDatabase._dbHelperUserStore.DbHelper.ExecuteNonQuery(qry);
                             }
                         }
                     }
