@@ -36,7 +36,7 @@ namespace WikiExtractor.Process.Extractor
             //    .Select(tr => tr.Elements("th").Select(td => td.InnerText.Trim()).ToList())
             //    .ToList();
 
-            var tableData = document.DocumentNode.SelectNodes($"//table/caption[contains(text(), '{tableFinderText}')]//..//tbody/tr").Skip(1);
+            var tableData = document.DocumentNode.SelectNodes($"//table[caption[contains(text(), '{tableFinderText}')]]/tbody/tr")?.Skip(1) ?? Enumerable.Empty<HtmlNode>();
 
             int elePosPoitiff = 0;
             int elePosPontificate = 0;

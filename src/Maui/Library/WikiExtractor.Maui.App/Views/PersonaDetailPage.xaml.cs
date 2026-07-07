@@ -724,6 +724,50 @@ namespace WikiExtractor.Maui.App.Views
                 lblFavouriteIcon.TextColor = isFavourite ? Color.FromArgb("#E53935") : Colors.Gray;
         }
 
+        private void refreshAllImages_Tapped(object sender, EventArgs e)
+        {
+            try
+            {
+                RetryAllGalleryImages();
+            }
+            catch (Exception ex)
+            {
+                CaptureErrorOnPage(ex);
+            }
+        }
+
+        private void RetryAllGalleryImages()
+        {
+            foreach (var img in GetAllGalleryImages())
+            {
+                if (img.IsShowingPlaceholder)
+                    img.Retry();
+            }
+            refreshAllBar.IsVisible = false;
+        }
+
+        private IEnumerable<Exts.ExtendedImage> GetAllGalleryImages()
+        {
+            return FindDescendants<Exts.ExtendedImage>(lstImages);
+        }
+
+        private static IEnumerable<T> FindDescendants<T>(Element root) where T : Element
+        {
+            if (root is T match) yield return match;
+            if (root is IElementController ctrl)
+                foreach (var child in ctrl.LogicalChildren)
+                    foreach (var found in FindDescendants<T>(child))
+                        yield return found;
+        }
+
+        // Called by ExtendedImage property changes bubbled via a notification — checked on tab switch
+        internal void NotifyGalleryImageStateChanged()
+        {
+            if (refreshAllBar == null) return;
+            var any = GetAllGalleryImages().Any(img => img.IsShowingPlaceholder);
+            refreshAllBar.IsVisible = any;
+        }
+
         private void lstImageEffectsLayer_Tapped(object sender, EventArgs e)
         {
             try
@@ -862,6 +906,13 @@ namespace WikiExtractor.Maui.App.Views
                         if (tabs[i] != null)
                             tabs[i].TextColor = i == e.NewIndex ? selectedColor : normalColor;
                     }
+                }
+
+                // When switching to the Pictures tab, check whether any images failed and show the banner
+                if (e.NewIndex == 2)
+                {
+                    // Slight delay so cells have time to render and report their state
+                    Dispatcher.DispatchDelayed(TimeSpan.FromMilliseconds(500), NotifyGalleryImageStateChanged);
                 }
             }
             catch (Exception ex)

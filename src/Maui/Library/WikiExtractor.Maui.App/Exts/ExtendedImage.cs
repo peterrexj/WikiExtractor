@@ -1,6 +1,7 @@
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using Microsoft.Maui.Controls;
 using WikiExtractor.Maui.App.Services;
 
@@ -11,6 +12,13 @@ namespace WikiExtractor.Maui.App.Exts
         private CancellationTokenSource _loadCts;
         private int _generation;
 
+        public ICommand RetryCommand { get; }
+
+        public ExtendedImage()
+        {
+            RetryCommand = new Command(Retry);
+        }
+
         #region CustomSource
 
         public static readonly BindableProperty CustomSourceProperty =
@@ -19,11 +27,13 @@ namespace WikiExtractor.Maui.App.Exts
                 typeof(string),
                 typeof(ExtendedImage),
                 default(string),
-                propertyChanged: OnCustomSourcePropertyChanged);
+                propertyChanged: OnCustomSourceChanged);
 
-        private static void OnCustomSourcePropertyChanged(BindableObject bindable, object oldValue, object newValue)
+        private static void OnCustomSourceChanged(BindableObject bindable, object oldValue, object newValue)
         {
             var ctrl = (ExtendedImage)bindable;
+            // Skip restart when MAUI re-binds the same URL (e.g. first CollectionView cell during initial layout)
+            if (string.Equals(oldValue as string, newValue as string, StringComparison.Ordinal)) return;
             var gen = Interlocked.Increment(ref ctrl._generation);
             ctrl.ApplySource(newValue as string, gen);
         }
@@ -53,6 +63,40 @@ namespace WikiExtractor.Maui.App.Exts
 
         #endregion
 
+        #region IsShowingPlaceholder
+
+        public static readonly BindableProperty IsShowingPlaceholderProperty =
+            BindableProperty.Create(
+                nameof(IsShowingPlaceholder),
+                typeof(bool),
+                typeof(ExtendedImage),
+                false);
+
+        public bool IsShowingPlaceholder
+        {
+            get => (bool)GetValue(IsShowingPlaceholderProperty);
+            private set => SetValue(IsShowingPlaceholderProperty, value);
+        }
+
+        #endregion
+
+        #region IsImageLoading
+
+        public static readonly BindableProperty IsImageLoadingProperty =
+            BindableProperty.Create(
+                nameof(IsImageLoading),
+                typeof(bool),
+                typeof(ExtendedImage),
+                false);
+
+        public bool IsImageLoading
+        {
+            get => (bool)GetValue(IsImageLoadingProperty);
+            private set => SetValue(IsImageLoadingProperty, value);
+        }
+
+        #endregion
+
         #region ImageWidth / ImageHeight
 
         public static readonly BindableProperty ImageWidthProperty =
@@ -75,62 +119,126 @@ namespace WikiExtractor.Maui.App.Exts
 
         #endregion
 
+        public void Retry()
+        {
+            var url = CustomSource;
+            if (string.IsNullOrEmpty(url)) return;
+            ImagePipeline.Instance.Invalidate(url);
+            IsShowingPlaceholder = false;
+            var gen = Interlocked.Increment(ref _generation);
+            ApplySource(url, gen);
+        }
+
         private async void ApplySource(string url, int gen)
         {
-            // Cancel any previous load for this cell
-            var oldCts = _loadCts;
-            _loadCts = new CancellationTokenSource();
-            var token = _loadCts.Token;
-            oldCts?.Cancel();
-            oldCts?.Dispose();
-
-            base.Source = ImagePipeline.Instance.Placeholder;
-
-            if (string.IsNullOrEmpty(url)) return;
-
-            if (!url.StartsWith("http", StringComparison.OrdinalIgnoreCase))
+            // async void — must catch everything to prevent app crash
+            try
             {
-                base.Source = File.Exists(url)
-                    ? ImageSource.FromFile(url)
-                    : ImagePipeline.Instance.Placeholder;
-                return;
-            }
+                var oldCts = _loadCts;
+                _loadCts = new CancellationTokenSource();
+                var token = _loadCts.Token;
+                oldCts?.Cancel();
+                oldCts?.Dispose();
 
-            using var linked = PageCancellationTokenSource != null
-                ? CancellationTokenSource.CreateLinkedTokenSource(token, PageCancellationTokenSource.Token)
-                : CancellationTokenSource.CreateLinkedTokenSource(token);
+                base.Source = ImagePipeline.Instance.Placeholder;
+                IsShowingPlaceholder = false;
+                IsImageLoading = true;
 
-            var src = await ImagePipeline.Instance.GetAsync(url, linked.Token);
-
-            // Guard: cancelled means the page is gone — bail out
-            if (linked.IsCancellationRequested) return;
-
-            // If pipeline returned placeholder (failed/rate-limited), retry up to 3 times while
-            // still on this page. Delays match ImagePipeline's 429 backoff windows.
-            if (ReferenceEquals(src, ImagePipeline.Instance.Placeholder))
-            {
-                int[] retryDelaysMs = { 3000, 8000, 20000 };
-                foreach (var delayMs in retryDelaysMs)
+                if (string.IsNullOrEmpty(url))
                 {
-                    try { await Task.Delay(delayMs, linked.Token); }
-                    catch (OperationCanceledException) { return; }
+                    IsImageLoading = false;
+                    return;
+                }
 
-                    if (linked.IsCancellationRequested) return;
+                if (!url.StartsWith("http", StringComparison.OrdinalIgnoreCase))
+                {
+                    var fileSrc = File.Exists(url) ? ImageSource.FromFile(url) : ImagePipeline.Instance.Placeholder;
+                    base.Source = fileSrc;
+                    IsShowingPlaceholder = ReferenceEquals(fileSrc, ImagePipeline.Instance.Placeholder);
+                    IsImageLoading = false;
+                    return;
+                }
 
-                    src = await ImagePipeline.Instance.GetAsync(url, linked.Token);
+                // Reading .Token on a disposed CancellationTokenSource throws ObjectDisposedException —
+                // guard so a page tear-down race doesn't crash the app.
+                CancellationTokenSource linked = null;
+                try
+                {
+                    var pageCts = PageCancellationTokenSource;
+                    linked = pageCts != null
+                        ? CancellationTokenSource.CreateLinkedTokenSource(token, pageCts.Token)
+                        : CancellationTokenSource.CreateLinkedTokenSource(token);
+                }
+                catch (ObjectDisposedException)
+                {
+                    // Page already torn down — treat as cancelled
+                    IsImageLoading = false;
+                    return;
+                }
 
-                    if (linked.IsCancellationRequested) return;
+                using (linked)
+                {
+                    var src = await ImagePipeline.Instance.GetAsync(url, linked.Token);
 
-                    if (!ReferenceEquals(src, ImagePipeline.Instance.Placeholder)) break;
+                    if (linked.IsCancellationRequested)
+                    {
+                        IsImageLoading = false;
+                        return;
+                    }
+
+                    // Show retry icon immediately on first failure; stop spinner — background retries are silent
+                    if (ReferenceEquals(src, ImagePipeline.Instance.Placeholder))
+                    {
+                        Application.Current?.Dispatcher.Dispatch(() =>
+                        {
+                            if (gen == _generation && CustomSource == url)
+                            {
+                                IsShowingPlaceholder = true;
+                                IsImageLoading = false;
+                            }
+                        });
+
+                        int[] retryDelaysMs = { 3000, 8000, 20000 };
+                        foreach (var delayMs in retryDelaysMs)
+                        {
+                            try { await Task.Delay(delayMs, linked.Token); }
+                            catch (OperationCanceledException)
+                            {
+                                // Cancelled during delay — spinner already hidden above
+                                return;
+                            }
+
+                            if (linked.IsCancellationRequested) return;
+
+                            src = await ImagePipeline.Instance.GetAsync(url, linked.Token);
+
+                            if (linked.IsCancellationRequested) return;
+
+                            if (!ReferenceEquals(src, ImagePipeline.Instance.Placeholder)) break;
+                        }
+                    }
+
+                    Application.Current?.Dispatcher.Dispatch(() =>
+                    {
+                        if (gen == _generation && CustomSource == url)
+                        {
+                            base.Source = src;
+                            IsShowingPlaceholder = ReferenceEquals(src, ImagePipeline.Instance.Placeholder);
+                            IsImageLoading = false;
+                        }
+                    });
                 }
             }
-
-            Application.Current?.Dispatcher.Dispatch(() =>
+            catch (Exception)
             {
-                // Re-check inside dispatch — generation may have changed again on the UI thread
-                if (gen == _generation && CustomSource == url)
-                    base.Source = src;
-            });
+                // Swallow all unexpected errors — ensure spinner is always cleared
+                try
+                {
+                    IsImageLoading = false;
+                    IsShowingPlaceholder = true;
+                }
+                catch { }
+            }
         }
     }
 }

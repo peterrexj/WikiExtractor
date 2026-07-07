@@ -161,6 +161,7 @@ namespace WikiExtractor.Process
                     imageDbModel.IsPrimary = 0;
                 }
 
+                imageDbModel.Sequence = counter++;
                 wikiDatabase.WikiPictureRepository.Add(imageDbModel, checkAlreadyExists: true);
                 imageType.Id = imageDbModel.Id;
             }
