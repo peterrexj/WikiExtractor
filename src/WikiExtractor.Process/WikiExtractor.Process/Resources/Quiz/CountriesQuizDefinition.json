@@ -1,0 +1,50 @@
+[
+  {
+    "Metadata": "Capital",
+    "QuestionRephrase": "What is the capital city of {MasterId}?",
+    "Fact": "The capital city of {MasterId} is {AnswerId}.",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Official languages",
+    "QuestionRephrase": "What is the official language of {MasterId}?",
+    "Fact": "The official language(s) of {MasterId} is {AnswerId}.",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Government",
+    "QuestionRephrase": "What type of government does {MasterId} have?",
+    "Fact": "{MasterId} has a {AnswerId} form of government.",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Currency",
+    "QuestionRephrase": "What is the currency used in {MasterId}?",
+    "Fact": "The currency of {MasterId} is {AnswerId}.",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Total in km2 (mi2)",
+    "QuestionRephrase": "What is the total area of {MasterId}?",
+    "Fact": "The total area of {MasterId} is {AnswerId}.",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Time zone",
+    "QuestionRephrase": "What time zone does {MasterId} use?",
+    "Fact": "{MasterId} uses the time zone {AnswerId}.",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Calling code",
+    "QuestionRephrase": "What is the international calling code for {MasterId}?",
+    "Fact": "The calling code for {MasterId} is {AnswerId}.",
+    "MaxLengthForAnswer": 100
+  },
+  {
+    "Metadata": "Internet TLD",
+    "QuestionRephrase": "What is the Internet top-level domain for {MasterId}?",
+    "Fact": "The Internet TLD for {MasterId} is {AnswerId}.",
+    "MaxLengthForAnswer": 100
+  }
+]

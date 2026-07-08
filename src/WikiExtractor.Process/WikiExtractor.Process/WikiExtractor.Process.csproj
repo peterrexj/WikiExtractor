@@ -33,6 +33,9 @@
 		<None Update="Resources\Quiz\WorldLeadersQuizDefinition.json">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
+		<None Update="Resources\Quiz\CountriesQuizDefinition.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
 		<None Update="Resources\Saints_AddtionalLinks.txt">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
