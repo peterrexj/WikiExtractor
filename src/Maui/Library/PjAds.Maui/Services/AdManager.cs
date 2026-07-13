@@ -76,7 +76,7 @@ namespace PjAds.Maui.Services
 
         public bool ShouldShowInterstitialAd()
         {
-            if (!IsAdsEnabled || !InterstitialAdService.IsInterstitialAdLoaded)
+            if (!IsAdsEnabled || !Configuration.InterstitialAdsEnabled || !InterstitialAdService.IsInterstitialAdLoaded)
                 return false;
 
             var threshold = _hasShownFirstInterstitial 
@@ -121,7 +121,7 @@ namespace PjAds.Maui.Services
         {
             try
             {
-                if (!IsAdsEnabled) return;
+                if (!IsAdsEnabled || !Configuration.InterstitialAdsEnabled) return;
 
                 await InterstitialAdService.LoadInterstitialAdAsync(Configuration.InterstitialAdUnitId);
                 _logger?.LogDebug("Interstitial ad preloaded");

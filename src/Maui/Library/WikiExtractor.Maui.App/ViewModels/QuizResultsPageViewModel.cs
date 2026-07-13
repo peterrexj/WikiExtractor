@@ -6,7 +6,7 @@ using WikiExtractor.Maui.App.Services;
 
 namespace WikiExtractor.Maui.App.ViewModels;
 
-public class QuizResultsPageViewModel : BaseViewModel, IQueryAttributable
+public class QuizResultsPageViewModel : MauiBaseViewModel, IQueryAttributable
 {
     private ObservableCollection<DataModel> _chartPassFailData;
     public ObservableCollection<DataModel> ChartPassFailData

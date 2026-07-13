@@ -12,7 +12,7 @@ using Pj.Library;
 
 namespace WikiExtractor.Maui.App.ViewModels
 {
-    public class PersonaListViewModel : BaseViewModel
+    public class PersonaListViewModel : MauiBaseViewModel
     {
         public ICommand TakeQuizCommand { get; set; }
         

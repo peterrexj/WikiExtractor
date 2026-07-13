@@ -104,6 +104,7 @@ namespace Maui.WorldLeaders
 #else
             false,
 #endif
+                InterstitialAdsEnabled = true,
                 FirstInterstitialAdThreshold = 1,
                 SubsequentInterstitialAdThreshold = 3
             };

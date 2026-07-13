@@ -31,9 +31,9 @@ namespace Maui.Wiki.Platforms.Android.DependencyInjection
 
         public string AdsAppId => "ca-app-pub-4219645367584712~1706236868";
 
-        public string AdsBannerId => "ca-app-pub-3940256099942544/6300978111"; //"ca-app-pub-4219645367584712/5749138243";
+        public string AdsBannerId => "ca-app-pub-4219645367584712/5749138243";
 
-        public string AdsQuizBannerId => "ca-app-pub-3940256099942544/6300978111"; //"ca-app-pub-4219645367584712/1177011646";
+        public string AdsQuizBannerId => "ca-app-pub-4219645367584712/1177011646";
 
         public string AdsInterstitialId => "ca-app-pub-4219645367584712/3071004011";
 

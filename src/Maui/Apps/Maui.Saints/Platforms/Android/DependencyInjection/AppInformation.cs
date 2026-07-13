@@ -26,13 +26,13 @@ namespace Maui.Saints.Platforms.Android.DependencyInjection
         public string RateAppLink => "market://details?id=com.pj.saints.wiki";
         public string FeedbackEmail => "support@yoursimpleapps.com";
 
-        public string AdsAppId => "ca-app-pub-3940256099942544~3347511713";
+        public string AdsAppId => "ca-app-pub-4219645367584712~8231475165";
 
-        public string AdsBannerId => "ca-app-pub-3940256099942544/6300978111";
+        public string AdsBannerId => "ca-app-pub-4219645367584712/9833451000";
 
-        public string AdsQuizBannerId => "ca-app-pub-3940256099942544/6300978111";
+        public string AdsQuizBannerId => "ca-app-pub-4219645367584712/9085860639";
 
-        public string AdsInterstitialId => "ca-app-pub-3940256099942544/1033173712";
+        public string AdsInterstitialId => "ca-app-pub-4219645367584712/3235891676";
 
         public string NoAdsProductId => "no_ads";
         public List<string> GetRegisteredFontFamilies()

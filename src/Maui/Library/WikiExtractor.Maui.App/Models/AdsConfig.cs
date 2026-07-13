@@ -32,5 +32,10 @@ namespace WikiExtractor.Maui.App.Models
         /// Whether ads are enabled
         /// </summary>
         public bool AdsEnabled { get; set; } = true;
+
+        /// <summary>
+        /// Whether interstitial ads are enabled (independent of banner ads)
+        /// </summary>
+        public bool InterstitialAdsEnabled { get; set; } = true;
     }
 }

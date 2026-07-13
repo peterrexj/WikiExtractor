@@ -8,7 +8,7 @@ using WikiExtractor.ViewModels;
 
 namespace WikiExtractor.Maui.App.ViewModels
 {
-    public class StatsPageViewModel : BaseViewModel
+    public class StatsPageViewModel : MauiBaseViewModel
     {
         // ── Reading stats ───────────────────────────────────────────────
         private int _totalRead;

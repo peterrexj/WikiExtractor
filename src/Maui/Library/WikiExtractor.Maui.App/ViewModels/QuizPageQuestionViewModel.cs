@@ -8,7 +8,7 @@ using WikiExtractor.Maui.App.Models.Mix;
 
 namespace WikiExtractor.Maui.App.ViewModels
 {
-    public class QuizPageQuestionViewModel : BaseViewModel
+    public class QuizPageQuestionViewModel : MauiBaseViewModel
     {
         public QuizPageQuestionViewModel(QuizQuestionViewModel quizQuestionViewModel)
         {

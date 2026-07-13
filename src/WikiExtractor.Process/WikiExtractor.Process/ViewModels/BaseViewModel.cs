@@ -60,6 +60,6 @@
             }
         }
 
-        public bool AdsEnabled => WikiExtractor.Maui.App.Services.SharedServiceCore.AdsConfig.AdsEnabled;
+        public virtual bool AdsEnabled => false;
     }
 }

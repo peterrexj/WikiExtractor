@@ -11,7 +11,7 @@ using WikiExtractor.ViewModels;
 
 namespace WikiExtractor.Maui.App.ViewModels
 {
-    public class QuizPageViewModel : BaseViewModel
+    public class QuizPageViewModel : MauiBaseViewModel
     {
         // Temporary replacement for SfPopup - using simple boolean flag
         

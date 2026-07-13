@@ -26,13 +26,13 @@ namespace Maui.Saints.Platforms.iOS.DependencyInjection
         public string RateAppLink => "itms-apps://itunes.apple.com/app/idYOUR_APP_ID?action=write-review"; // TODO: replace with App Store ID
         public string FeedbackEmail => "support@yoursimpleapps.com";
 
-        public string AdsAppId => "ca-app-pub-3940256099942544~1458002511";
+        public string AdsAppId => "ca-app-pub-4219645367584712~6335237852";
 
-        public string AdsBannerId => "ca-app-pub-3940256099942544/2934735716";
+        public string AdsBannerId => "ca-app-pub-4219645367584712/4824498021";
 
-        public string AdsQuizBannerId => "ca-app-pub-3940256099942544/2934735716";
+        public string AdsQuizBannerId => "ca-app-pub-4219645367584712/9258719634";
 
-        public string AdsInterstitialId => "ca-app-pub-3940256099942544/4411468910";
+        public string AdsInterstitialId => "ca-app-pub-4219645367584712/6454657353";
 
         public string NoAdsProductId => "no_ads";
         public List<string> GetRegisteredFontFamilies()

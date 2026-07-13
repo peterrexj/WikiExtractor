@@ -8,7 +8,7 @@ using Microsoft.Maui.Media;
 
 namespace WikiExtractor.Maui.App.ViewModels
 {
-    public class SettingsViewModel : BaseViewModel
+    public class SettingsViewModel : MauiBaseViewModel
     {
         private readonly IThemeHandler _themeHandler;
         private readonly IErrorHandlingService _errorHandlingService;

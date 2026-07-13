@@ -15,7 +15,7 @@ using Microsoft.Maui.Controls;
 
 namespace WikiExtractor.Maui.App.ViewModels
 {
-    public class PersonaDetailViewModel : BaseViewModel
+    public class PersonaDetailViewModel : MauiBaseViewModel
     {
         public PersonaDetailViewModel()
         {

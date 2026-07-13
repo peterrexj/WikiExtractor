@@ -31,6 +31,11 @@ namespace PjAds.Maui.Models
         public bool AdsEnabled { get; set; } = true;
 
         /// <summary>
+        /// Whether interstitial ads are enabled (independent of banner ads)
+        /// </summary>
+        public bool InterstitialAdsEnabled { get; set; } = true;
+
+        /// <summary>
         /// Test mode - uses test ad unit IDs
         /// </summary>
         public bool TestMode { get; set; } = false;
