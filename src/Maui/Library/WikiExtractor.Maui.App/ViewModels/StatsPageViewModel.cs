@@ -78,13 +78,12 @@ namespace WikiExtractor.Maui.App.ViewModels
         private ObservableCollection<Brush> _sessionChartColors = new();
         public ObservableCollection<Brush> SessionChartColors { get => _sessionChartColors; private set { _sessionChartColors = value; OnPropertyChanged(); } }
 
-        public string BannerAdsUnitId { get; private set; }
-
         public async Task InitializeAsync()
         {
             try
             {
                 IsPageBusy = true;
+                BannerAdsUnitId = SharedServiceCore.AdsConfig.BannerAdUnitId;
 
                 var themeTask    = SharedServiceCore.ThemeHandler.GetThemeDataAsync();
                 var streakTask   = Task.Run(() => SharedServices.WikiAppController.GetStreak());
@@ -179,8 +178,6 @@ namespace WikiExtractor.Maui.App.ViewModels
 
                 // Insight
                 InsightText = BuildInsight(quiz, readCount, total, streak);
-
-                BannerAdsUnitId = SharedServiceCore.AdsConfig.BannerAdUnitId;
             }
             catch (Exception ex)
             {

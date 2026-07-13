@@ -9,7 +9,8 @@
     Shell.NavBarIsVisible="True"
     BackgroundColor="{DynamicResource WikiAppDefaultBackgroundColor}">
 
-    <Grid Style="{DynamicResource WikiAppPageBackgroundGridStyle}">
+    <Grid Style="{DynamicResource WikiAppPageBackgroundGridStyle}"
+          IgnoreSafeArea="{OnPlatform iOS=True, Default=False}">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
@@ -26,10 +27,10 @@
                         Margin="4,0"
                         CharacterSpacing="1.2"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
                         Opacity="0.75"
-                        Text="&#xf02d;  READING"
+                        Text="&#xF8FD;  READING"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
@@ -91,9 +92,9 @@
                                     StrokeThickness="1">
                                     <VerticalStackLayout Spacing="2">
                                         <Label
-                                            FontFamily="FontAwesome"
+                                            FontFamily="FluentIcons"
                                             FontSize="14"
-                                            Text="&#xf02d;"
+                                            Text="&#xF8FD;"
                                             TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
                                         <Label
                                             FontAttributes="Bold"
@@ -118,9 +119,9 @@
                                     StrokeThickness="1">
                                     <VerticalStackLayout Spacing="2">
                                         <Label
-                                            FontFamily="FontAwesome"
+                                            FontFamily="FluentIcons"
                                             FontSize="14"
-                                            Text="&#xf004;"
+                                            Text="&#xF479;"
                                             TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
                                         <Label
                                             FontAttributes="Bold"
@@ -150,10 +151,10 @@
                         Margin="4,0"
                         CharacterSpacing="1.2"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
                         Opacity="0.75"
-                        Text="&#xf46d;  STREAK"
+                        Text="&#xF836;  STREAK"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Grid ColumnDefinitions="*,*" ColumnSpacing="10">
@@ -168,10 +169,10 @@
                             StrokeThickness="1">
                             <VerticalStackLayout Spacing="4" HorizontalOptions="Center">
                                 <Label
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="22"
                                     HorizontalTextAlignment="Center"
-                                    Text="&#xf46d;"
+                                    Text="&#xF836;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
                                 <Label
                                     FontAttributes="Bold"
@@ -207,10 +208,10 @@
                             StrokeThickness="1">
                             <VerticalStackLayout Spacing="4" HorizontalOptions="Center">
                                 <Label
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="22"
                                     HorizontalTextAlignment="Center"
-                                    Text="&#xf091;"
+                                    Text="&#xF836;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
                                 <Label
                                     FontAttributes="Bold"
@@ -247,10 +248,10 @@
                         Margin="4,0"
                         CharacterSpacing="1.2"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
                         Opacity="0.75"
-                        Text="&#xf059;  QUIZ"
+                        Text="&#xF63D;  QUIZ"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
@@ -310,9 +311,9 @@
                                     StrokeThickness="1">
                                     <VerticalStackLayout Spacing="2">
                                         <Label
-                                            FontFamily="FontAwesome"
+                                            FontFamily="FluentIcons"
                                             FontSize="14"
-                                            Text="&#xf11b;"
+                                            Text="&#xE68A;"
                                             TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
                                         <Label
                                             FontAttributes="Bold"
@@ -345,10 +346,10 @@
                         Margin="4,0"
                         CharacterSpacing="1.2"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
                         Opacity="0.75"
-                        Text="&#xf201;  SCORE TREND"
+                        Text="&#xF33F;  SCORE TREND"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
@@ -404,10 +405,10 @@
                         Margin="4,0"
                         CharacterSpacing="1.2"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
                         Opacity="0.75"
-                        Text="&#xf080;  TOPIC ACCURACY"
+                        Text="&#xF33F;  TOPIC ACCURACY"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
@@ -470,10 +471,10 @@
                         Margin="4,0"
                         CharacterSpacing="1.2"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
                         Opacity="0.75"
-                        Text="&#xf071;  HARDEST SUBJECTS"
+                        Text="&#xF869;  HARDEST SUBJECTS"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
@@ -536,9 +537,9 @@
                     <VerticalStackLayout Spacing="8">
                         <HorizontalStackLayout Spacing="8">
                             <Label
-                                FontFamily="FontAwesome"
+                                FontFamily="FluentIcons"
                                 FontSize="14"
-                                Text="&#xf0eb;"
+                                Text="&#xF4D6;"
                                 TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                 VerticalOptions="Center" />
                             <Label
@@ -569,9 +570,11 @@
             Grid.Row="1"
             AdSize="Banner"
             AdUnitId="{Binding BannerAdsUnitId}"
+            BackgroundColor="Transparent"
             BannerType="Regular"
             HeightRequest="50"
             HorizontalOptions="Center"
+            IsVisible="{Binding AdsEnabled}"
             VerticalOptions="Center" />
 
         <!-- Loading overlay -->

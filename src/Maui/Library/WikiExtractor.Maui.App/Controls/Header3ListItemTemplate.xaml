@@ -3,7 +3,7 @@
     x:Class="WikiExtractor.Maui.App.Controls.Header3ListItemTemplate"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:fontAwesome="clr-namespace:FontAwesome"
+    
     xmlns:sfButtons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
     xmlns:viewModels="clr-namespace:WikiExtractor.Maui.App.ViewModels;assembly=WikiExtractor.Maui.App"
     x:DataType="viewModels:ItemDetailListViewModel">
@@ -45,17 +45,17 @@
         <Label
             Grid.Column="2"
             Margin="8,0,4,0"
-            FontFamily="FontAwesome"
+            FontFamily="FluentIcons"
             FontSize="{OnIdiom Phone=13, Tablet=19, Default=19}"
             HorizontalOptions="End"
             IsVisible="{Binding IsPlayButtonRequired}"
             Opacity="0.45"
-            Text="&#xf04b;"
+            Text="&#xF605;"
             TextColor="{DynamicResource WikiAppHeader3TextColor}"
             VerticalOptions="Center">
             <Label.Triggers>
                 <DataTrigger Binding="{Binding IsPlaying}" TargetType="Label" Value="True">
-                    <Setter Property="Text" Value="&#xf04d;" />
+                    <Setter Property="Text" Value="&#xF5D8;" />
                     <Setter Property="TextColor" Value="{DynamicResource WikiAppPrimaryAccentColor}" />
                     <Setter Property="Opacity" Value="1.0" />
                     <Setter Property="FontSize" Value="{OnIdiom Phone=11, Tablet=17, Default=17}" />

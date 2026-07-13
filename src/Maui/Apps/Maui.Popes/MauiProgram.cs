@@ -33,12 +33,15 @@ namespace Maui.Wiki
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("PARCHM.TTF", "Parmch");
-                    fonts.AddFont("Font Awesome 5 Free-Solid-900.otf", "FontAwesome");
-                    fonts.AddFont("CALIBRI.TTF", "Calibri");
+                    fonts.AddFont("FluentSystemIcons-Regular.ttf", "FluentIcons");
                     fonts.AddFont("Lato-Regular.ttf", "Lato");
                     fonts.AddFont("Nunito-Regular.ttf", "Nunito");
                     fonts.AddFont("Pacifico-Regular.ttf", "Pacifico");
                     fonts.AddFont("Raleway-Regular.ttf", "Raleway");
+                    fonts.AddFont("Merriweather-Regular.ttf", "Merriweather");
+                    fonts.AddFont("PlayfairDisplay-Regular.ttf", "PlayfairDisplay");
+                    fonts.AddFont("SourceSerif4-Regular.ttf", "SourceSerif4");
+                    fonts.AddFont("Quicksand-Regular.ttf", "Quicksand");
                 });
                 // Configure PjAds for Popes app
 //                .UsePjAds(new AdConfiguration

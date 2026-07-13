@@ -22,10 +22,10 @@
                     <Label
                         Margin="4,0"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
                         CharacterSpacing="1.2"
-                        Opacity="0.75"                        Text="&#xf53f;  APPEARANCE"
+                        Opacity="0.75"                        Text="&#xF2F5;  APPEARANCE"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
@@ -43,10 +43,10 @@
                                 VerticalOptions="Center">
                                 <Label
                                     Grid.Column="0"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
                                     HorizontalOptions="Center"
-                                    Text="&#xf042;"
+                                    Text="&#xF2BD;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     VerticalOptions="Center" />
                                 <Label
@@ -63,13 +63,56 @@
                                     DropDownItemTextColor="{DynamicResource WikiAppComboDropDownTextColor}"
                                     HighlightedTextColor="{DynamicResource WikiAppComboHighlightedTextColor}"
                                     IsClearButtonVisible="False"
+                                    IsEditable="False"
                                     IsEnabled="{Binding IsNotBusy}"
                                     ItemsSource="{Binding Themes}"
-                                    SelectedDropDownItemBackground="{DynamicResource WikiAppComboSelectedDropDownItemColor}"
+                                    SelectedDropDownItemBackground="{DynamicResource WikiAppPrimaryAccentColor}"
                                     SelectedItem="{Binding SelectedTheme, Mode=TwoWay}"
                                     Style="{DynamicResource SfComboBoxStyle}"
                                     TextColor="{DynamicResource WikiAppComboTextColor}"
-                                    WidthRequest="{OnIdiom Phone=130, Tablet=160, Default=130}" />
+                                    WidthRequest="{OnIdiom Phone=130, Tablet=160, Default=130}">
+                                    <editors:SfComboBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid ColumnDefinitions="14,*" ColumnSpacing="8" Padding="8,0" VerticalOptions="Center">
+                                                <BoxView
+                                                    Grid.Column="0"
+                                                    WidthRequest="14"
+                                                    HeightRequest="14"
+                                                    CornerRadius="3"
+                                                    VerticalOptions="Center">
+                                                    <BoxView.Triggers>
+                                                        <DataTrigger TargetType="BoxView" Binding="{Binding .}" Value="Dark">
+                                                            <Setter Property="Color" Value="#1A1A2E" />
+                                                        </DataTrigger>
+                                                        <DataTrigger TargetType="BoxView" Binding="{Binding .}" Value="Light">
+                                                            <Setter Property="Color" Value="#F5F5F5" />
+                                                        </DataTrigger>
+                                                        <DataTrigger TargetType="BoxView" Binding="{Binding .}" Value="Forest">
+                                                            <Setter Property="Color" Value="#2D5A27" />
+                                                        </DataTrigger>
+                                                        <DataTrigger TargetType="BoxView" Binding="{Binding .}" Value="Candy">
+                                                            <Setter Property="Color" Value="#FF6B9D" />
+                                                        </DataTrigger>
+                                                        <DataTrigger TargetType="BoxView" Binding="{Binding .}" Value="Sunset">
+                                                            <Setter Property="Color" Value="#FF6B35" />
+                                                        </DataTrigger>
+                                                        <DataTrigger TargetType="BoxView" Binding="{Binding .}" Value="Ocean">
+                                                            <Setter Property="Color" Value="#006994" />
+                                                        </DataTrigger>
+                                                    </BoxView.Triggers>
+                                                </BoxView>
+                                                <Label
+                                                    Grid.Column="1"
+                                                    Text="{Binding .}"
+                                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                                    FontSize="{OnIdiom Phone=14, Tablet=16, Default=14}"
+                                                    TextColor="{DynamicResource WikiAppComboDropDownTextColor}"
+                                                    VerticalOptions="Center"
+                                                    VerticalTextAlignment="Center" />
+                                            </Grid>
+                                        </DataTemplate>
+                                    </editors:SfComboBox.ItemTemplate>
+                                </editors:SfComboBox>
                             </Grid>
 
                             <BoxView
@@ -86,10 +129,10 @@
                                 VerticalOptions="Center">
                                 <Label
                                     Grid.Column="0"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
                                     HorizontalOptions="Center"
-                                    Text="&#xf031;"
+                                    Text="&#xF2F5;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     VerticalOptions="Center" />
                                 <Label
@@ -99,15 +142,35 @@
                                     Text="Font Family"
                                     TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
                                     VerticalOptions="Center" />
-                                <Picker
-                                    Title="Select"
+                                <editors:SfComboBox
                                     Grid.Column="2"
-                                    HorizontalTextAlignment="End"
+                                    BackgroundColor="Transparent"
+                                    DropDownBackground="{DynamicResource WikiAppComboDropDownBackgroundColor}"
+                                    DropDownItemTextColor="{DynamicResource WikiAppComboDropDownTextColor}"
+                                    HighlightedTextColor="{DynamicResource WikiAppComboHighlightedTextColor}"
+                                    IsClearButtonVisible="False"
                                     IsEnabled="{Binding IsNotBusy}"
+                                    IsEditable="False"
                                     ItemsSource="{Binding FontFamilies}"
-                                    SelectedItem="{Binding SelectedFontFamily}"
-                                    Style="{DynamicResource WikiAppPickerStyle}"
-                                    WidthRequest="{OnIdiom Phone=140, Tablet=170, Default=140}" />
+                                    SelectedDropDownItemBackground="{DynamicResource WikiAppPrimaryAccentColor}"
+                                    SelectedItem="{Binding SelectedFontFamily, Mode=TwoWay}"
+                                    Style="{DynamicResource SfComboBoxStyle}"
+                                    TextColor="{DynamicResource WikiAppComboTextColor}"
+                                    WidthRequest="{OnIdiom Phone=160, Tablet=190, Default=160}">
+                                    <editors:SfComboBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <Label
+                                                Text="{Binding .}"
+                                                FontFamily="{Binding .}"
+                                                FontSize="{OnIdiom Phone=14, Tablet=16, Default=14}"
+                                                TextColor="{DynamicResource WikiAppComboDropDownTextColor}"
+                                                VerticalOptions="Center"
+                                                VerticalTextAlignment="Center"
+                                                HorizontalOptions="Fill"
+                                                Padding="8,0" />
+                                        </DataTemplate>
+                                    </editors:SfComboBox.ItemTemplate>
+                                </editors:SfComboBox>
                             </Grid>
 
                             <BoxView
@@ -125,10 +188,10 @@
                                     ColumnSpacing="12">
                                     <Label
                                         Grid.Column="0"
-                                        FontFamily="FontAwesome"
+                                        FontFamily="FluentIcons"
                                         FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
                                         HorizontalOptions="Center"
-                                        Text="&#xf034;"
+                                        Text="&#xF18A;"
                                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                         VerticalOptions="Center" />
                                     <Label
@@ -193,10 +256,10 @@
                     <Label
                         Margin="4,0"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
                         CharacterSpacing="1.2"
-                        Opacity="0.75"                        Text="&#xf0ad;  PREFERENCES"
+                        Opacity="0.75"                        Text="&#xEE86;  PREFERENCES"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
@@ -214,10 +277,10 @@
                                 VerticalOptions="Center">
                                 <Label
                                     Grid.Column="0"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
                                     HorizontalOptions="Center"
-                                    Text="&#xf070;"
+                                    Text="&#xE5F5;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     VerticalOptions="Center" />
                                 <Label
@@ -250,10 +313,10 @@
                                     ColumnSpacing="12">
                                     <Label
                                         Grid.Column="0"
-                                        FontFamily="FontAwesome"
+                                        FontFamily="FluentIcons"
                                         FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
                                         HorizontalOptions="Center"
-                                        Text="&#xf15d;"
+                                        Text="&#xF18A;"
                                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                         VerticalOptions="Center" />
                                     <Label
@@ -296,10 +359,10 @@
                     <Label
                         Margin="4,0"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
                         CharacterSpacing="1.2"
-                        Opacity="0.75"                        Text="&#xf028;  AUDIO"
+                        Opacity="0.75"                        Text="&#xEB42;  AUDIO"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
@@ -318,10 +381,10 @@
                                     ColumnSpacing="12">
                                     <Label
                                         Grid.Column="0"
-                                        FontFamily="FontAwesome"
+                                        FontFamily="FluentIcons"
                                         FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
                                         HorizontalOptions="Center"
-                                        Text="&#xf130;"
+                                        Text="&#xE7F9;"
                                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                         VerticalOptions="Center" />
                                     <Label
@@ -392,10 +455,10 @@
                                 VerticalOptions="Center">
                                 <Label
                                     Grid.Column="0"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
                                     HorizontalOptions="Center"
-                                    Text="&#xf2b9;"
+                                    Text="&#xF31F;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     VerticalOptions="Center" />
                                 <Label
@@ -424,11 +487,11 @@
                     <Label
                         Margin="4,0"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
                         CharacterSpacing="1.2"
                         Opacity="0.75"
-                        Text="&#xf521;  PREMIUM"
+                        Text="&#xF18A;  PREMIUM"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
@@ -446,10 +509,10 @@
                                 VerticalOptions="Center">
                                 <Label
                                     Grid.Column="0"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
                                     HorizontalOptions="Center"
-                                    Text="&#xf05e;"
+                                    Text="&#xF62D;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     VerticalOptions="Center" />
                                 <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="2">
@@ -505,10 +568,10 @@
                                 VerticalOptions="Center">
                                 <Label
                                     Grid.Column="0"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
                                     HorizontalOptions="Center"
-                                    Text="&#xf0e2;"
+                                    Text="&#xF199;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     VerticalOptions="Center" />
                                 <Label
@@ -541,11 +604,11 @@
                     <Label
                         Margin="4,0"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
                         CharacterSpacing="1.2"
                         Opacity="0.75"
-                        Text="&#xf017;  ACTIVITY"
+                        Text="&#xF2DD;  ACTIVITY"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
@@ -563,10 +626,10 @@
                                 VerticalOptions="Center">
                                 <Label
                                     Grid.Column="0"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
                                     HorizontalOptions="Center"
-                                    Text="&#xf46d;"
+                                    Text="&#xF836;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     VerticalOptions="Center" />
                                 <Label
@@ -600,10 +663,10 @@
                                 VerticalOptions="Center">
                                 <Label
                                     Grid.Column="0"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=16, Tablet=20, Default=16}"
                                     HorizontalOptions="Center"
-                                    Text="&#xf091;"
+                                    Text="&#xF836;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     VerticalOptions="Center" />
                                 <Label
@@ -631,11 +694,11 @@
                     <Label
                         Margin="4,0"
                         FontAttributes="Bold"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=11, Tablet=16, Default=16}"
                         CharacterSpacing="1.2"
                         Opacity="0.75"
-                        Text="&#xf05a;  ABOUT"
+                        Text="&#xF4A3;  ABOUT"
                         TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
 
                     <Border
@@ -656,10 +719,10 @@
                                 </Grid.GestureRecognizers>
                                 <Label
                                     Grid.Column="0"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=16, Tablet=20, Default=20}"
                                     HorizontalOptions="Center"
-                                    Text="&#xf1e0;"
+                                    Text="&#xF6AF;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     VerticalOptions="Center" />
                                 <Label
@@ -671,10 +734,10 @@
                                     VerticalOptions="Center" />
                                 <Label
                                     Grid.Column="2"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=13, Tablet=17, Default=17}"
                                     Opacity="0.4"
-                                    Text="&#xf054;"
+                                    Text="&#xF2B0;"
                                     TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
                                     VerticalOptions="Center" />
                             </Grid>
@@ -696,10 +759,10 @@
                                 </Grid.GestureRecognizers>
                                 <Label
                                     Grid.Column="0"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=16, Tablet=20, Default=20}"
                                     HorizontalOptions="Center"
-                                    Text="&#xf005;"
+                                    Text="&#xF70F;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     VerticalOptions="Center" />
                                 <Label
@@ -711,10 +774,10 @@
                                     VerticalOptions="Center" />
                                 <Label
                                     Grid.Column="2"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=13, Tablet=17, Default=17}"
                                     Opacity="0.4"
-                                    Text="&#xf054;"
+                                    Text="&#xF2B0;"
                                     TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
                                     VerticalOptions="Center" />
                             </Grid>
@@ -736,10 +799,10 @@
                                 </Grid.GestureRecognizers>
                                 <Label
                                     Grid.Column="0"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=16, Tablet=20, Default=20}"
                                     HorizontalOptions="Center"
-                                    Text="&#xf0e0;"
+                                    Text="&#xF506;"
                                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                     VerticalOptions="Center" />
                                 <Label
@@ -751,10 +814,10 @@
                                     VerticalOptions="Center" />
                                 <Label
                                     Grid.Column="2"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=13, Tablet=17, Default=17}"
                                     Opacity="0.4"
-                                    Text="&#xf054;"
+                                    Text="&#xF2B0;"
                                     TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
                                     VerticalOptions="Center" />
                             </Grid>

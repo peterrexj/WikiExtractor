@@ -59,7 +59,7 @@ namespace WikiExtractor.Maui.App.Services
         /// <summary>
         /// The default theme for the application.
         /// </summary>
-        public const AppThemes DefaultAppTheme = AppThemes.Dark;
+        public const AppThemes DefaultAppTheme = AppThemes.Light;
 
         /// <summary>
         /// Saves data to a file.

@@ -48,7 +48,6 @@ public class QuizResultsPageViewModel : BaseViewModel, IQueryAttributable
     private bool _isClosing = false;
 
     public ICommand CloseQuizCommand { get; set; }
-
     public QuizResultsPageViewModel()
     {
         CloseQuizCommand = new Command(async () => await CloseQuizAsync());

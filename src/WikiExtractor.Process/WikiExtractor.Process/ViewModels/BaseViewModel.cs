@@ -59,5 +59,7 @@
                 OnPropertyChanged(nameof(BannerAdsUnitId));
             }
         }
+
+        public bool AdsEnabled => WikiExtractor.Maui.App.Services.SharedServiceCore.AdsConfig.AdsEnabled;
     }
 }

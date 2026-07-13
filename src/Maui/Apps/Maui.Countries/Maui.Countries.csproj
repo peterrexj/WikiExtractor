@@ -139,7 +139,7 @@
 		<!-- Firebase Crashlytics - Android only (iOS GoogleUtilities version conflict with MobileAds) -->
 		<PackageReference Include="Plugin.Firebase.Crashlytics" Version="3.1.1" Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'" />
 
-		<PackageReference Include="Plugin.InAppBilling" Version="8.0.5" />
+		<!-- <PackageReference Include="Plugin.InAppBilling" Version="8.0.5" /> -->
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\..\Library\WikiExtractor.Maui.App\WikiExtractor.Maui.App.csproj" />

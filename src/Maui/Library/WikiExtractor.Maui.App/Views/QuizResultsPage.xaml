@@ -36,10 +36,10 @@
                         VerticalOptions="Center"
                         WidthRequest="30">
                         <Label
-                            FontFamily="FontAwesome"
+                            FontFamily="FluentIcons"
                             FontSize="14"
                             HorizontalOptions="Center"
-                            Text="&#xf091;"
+                            Text="&#xF836;"
                             TextColor="White"
                             VerticalTextAlignment="Center" />
                     </Border>
@@ -177,21 +177,21 @@
                                 <!--  Correct/incorrect icon  -->
                                 <Label
                                     Grid.Column="1"
-                                    FontFamily="FontAwesome"
+                                    FontFamily="FluentIcons"
                                     FontSize="{OnIdiom Phone=18, Tablet=26, Default=26}"
                                     HorizontalOptions="Center"
                                     VerticalOptions="Center">
                                     <Label.Triggers>
                                         <DataTrigger Binding="{Binding HasUserAnswered}" TargetType="Label" Value="False">
-                                            <Setter Property="Text" Value="&#xf059;" />
+                                            <Setter Property="Text" Value="&#xF63D;" />
                                             <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizResultsAnswerTextColor}" />
                                         </DataTrigger>
                                         <DataTrigger Binding="{Binding IsCorrect}" TargetType="Label" Value="True">
-                                            <Setter Property="Text" Value="&#xf058;" />
+                                            <Setter Property="Text" Value="&#xF2B7;" />
                                             <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizResultsCorrectIconColor}" />
                                         </DataTrigger>
                                         <DataTrigger Binding="{Binding IsCorrect}" TargetType="Label" Value="False">
-                                            <Setter Property="Text" Value="&#xf057;" />
+                                            <Setter Property="Text" Value="&#xF36D;" />
                                             <Setter Property="TextColor" Value="{DynamicResource WikiAppQuizResultsIncorrectIconColor}" />
                                         </DataTrigger>
                                     </Label.Triggers>
@@ -264,9 +264,9 @@
                         Spacing="10"
                         VerticalOptions="Center">
                         <Label
-                            FontFamily="FontAwesome"
+                            FontFamily="FluentIcons"
                             FontSize="16"
-                            Text="&#xf015;"
+                            Text="&#xF480;"
                             TextColor="White"
                             VerticalOptions="Center" />
                         <Label
@@ -285,9 +285,11 @@
                 Grid.Row="3"
                 AdSize="Banner"
                 AdUnitId="{Binding BannerAdsUnitId}"
+                BackgroundColor="Transparent"
                 BannerType="Regular"
                 HeightRequest="50"
                 HorizontalOptions="Center"
+                IsVisible="{Binding AdsEnabled}"
                 VerticalOptions="Center" />
         </Grid>
 

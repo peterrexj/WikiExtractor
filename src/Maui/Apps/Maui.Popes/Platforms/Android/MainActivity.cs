@@ -17,7 +17,9 @@ namespace Maui.Wiki
             SetTheme(Resource.Style.Maui_MainTheme_NoActionBar_Dark);
 
             var bgHex = AppSettingsService.GetThemeBackgroundColor();
-            Window?.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.ParseColor(bgHex)));
+            var bgColor = Android.Graphics.Color.ParseColor(bgHex);
+            Window?.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(bgColor));
+            Window?.SetNavigationBarColor(bgColor);
 
             base.OnCreate(savedInstanceState);
             Platform.Init(this, savedInstanceState);

@@ -27,6 +27,7 @@ namespace PjAds.Maui.Controls
             System.Diagnostics.Debug.WriteLine($"[PjAds] CreatePlatformView — service={(_bannerAdService != null ? "OK" : "NULL")}");
 
             var container = new Android.Widget.FrameLayout(Context);
+            container.SetBackgroundColor(Android.Graphics.Color.Transparent);
             container.LayoutParameters = new ViewGroup.LayoutParams(
                 ViewGroup.LayoutParams.MatchParent,
                 BannerHeightPx);
@@ -34,6 +35,7 @@ namespace PjAds.Maui.Controls
             _adView = CreateNativeAdView();
             if (_adView != null)
             {
+                _adView.SetBackgroundColor(Android.Graphics.Color.Transparent);
                 container.AddView(_adView);
             }
 
@@ -43,6 +45,7 @@ namespace PjAds.Maui.Controls
         private AdView CreateNativeAdView()
         {
             var adView = new AdView(Context);
+            adView.SetBackgroundColor(Android.Graphics.Color.Transparent);
 
             if (!string.IsNullOrEmpty(VirtualView.AdUnitId))
                 adView.AdUnitId = VirtualView.AdUnitId;
@@ -105,7 +108,6 @@ namespace PjAds.Maui.Controls
                 _adView = CreateNativeAdView();
                 container.AddView(_adView);
 
-                // Ensure container keeps its fixed height after recreation
                 container.LayoutParameters = new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.MatchParent,
                     BannerHeightPx);
@@ -118,9 +120,9 @@ namespace PjAds.Maui.Controls
         {
             System.Diagnostics.Debug.WriteLine($"[PjAds] LoadAd — adView={(_adView != null ? "OK" : "NULL")} service={(_bannerAdService != null ? "OK" : "NULL")} unitId='{VirtualView?.AdUnitId}'");
 
-            if (_adView == null || _bannerAdService == null || string.IsNullOrEmpty(VirtualView?.AdUnitId))
+            if (_adView == null || _bannerAdService == null || string.IsNullOrEmpty(VirtualView?.AdUnitId) || VirtualView?.IsVisible == false)
             {
-                System.Diagnostics.Debug.WriteLine("[PjAds] LoadAd — bailed out (null guard)");
+                System.Diagnostics.Debug.WriteLine("[PjAds] LoadAd — bailed out (null guard or ads disabled)");
                 return;
             }
 
@@ -160,12 +162,14 @@ namespace PjAds.Maui.Controls
 
         private void OnAdLoaded(object? sender, AdLoadedEventArgs e)
         {
+            if (e.AdUnitId != VirtualView?.AdUnitId) return;
             System.Diagnostics.Debug.WriteLine($"[PjAds] OnAdLoaded — {e.AdUnitId}");
             VirtualView?.OnAdLoaded(e);
         }
 
         private void OnAdFailedToLoad(object? sender, AdFailedToLoadEventArgs e)
         {
+            if (e.AdUnitId != VirtualView?.AdUnitId) return;
             System.Diagnostics.Debug.WriteLine($"[PjAds] OnAdFailedToLoad — {e.AdUnitId} code={e.ErrorCode} msg={e.ErrorMessage}");
             VirtualView?.OnAdFailedToLoad(e);
         }

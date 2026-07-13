@@ -78,6 +78,12 @@ namespace WikiExtractor.Maui.App.Services
                 if (themeStyles != null) Application.Current?.Resources.MergedDictionaries.Add(themeStyles);
                 UpdateResources("WikiApp");
 
+                // Sync Android navigation bar color to the new theme background
+                if (Application.Current?.Resources.TryGetValue("WikiAppDefaultBackgroundColor", out var bgObj) == true && bgObj is Color bgColor)
+                {
+                    SharedServiceCore.AppEnvironment?.SetStatusBarColor(bgColor, false);
+                }
+
                 // Reapply saved font family after theme change
                 _ = LoadSavedFontFamilyAsync();
 

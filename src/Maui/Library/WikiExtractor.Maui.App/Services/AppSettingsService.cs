@@ -22,7 +22,7 @@ namespace WikiExtractor.Maui.App.Services
         private const string DEFAULT_SORT_DIRECTION = "Ascending";
         private const bool DEFAULT_SHOW_READ_ITEMS = true;
         private const AppThemes DEFAULT_APP_THEME = AppThemes.Light;
-        private const string DEFAULT_FONT_FAMILY = "Calibri";
+        private const string DEFAULT_FONT_FAMILY = "Lato";
         public const double DEFAULT_PARAGRAPH_FONT_SIZE = 14.0;
         public const double MIN_PARAGRAPH_FONT_SIZE = 10.0;
         public const double MAX_PARAGRAPH_FONT_SIZE = 24.0;

@@ -21,10 +21,10 @@
                 VerticalOptions="Center"
                 WidthRequest="34">
                 <Label
-                    FontFamily="FontAwesome"
+                    FontFamily="FluentIcons"
                     FontSize="16"
                     HorizontalOptions="Center"
-                    Text="&#xf059;"
+                    Text="&#xF63D;"
                     TextColor="White"
                     VerticalTextAlignment="Center" />
             </Border>
@@ -297,9 +297,11 @@
                 Grid.Row="2"
                 AdSize="Banner"
                 AdUnitId="{Binding BannerAdsUnitId}"
+                BackgroundColor="Transparent"
                 BannerType="Regular"
                 HeightRequest="50"
                 HorizontalOptions="Center"
+                IsVisible="{Binding AdsEnabled}"
                 VerticalOptions="Center" />
         </Grid>
     </ContentPage.Content>

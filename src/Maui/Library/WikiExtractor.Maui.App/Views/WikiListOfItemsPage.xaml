@@ -102,9 +102,9 @@
                         <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="4">
                             <Label
                                 Grid.Column="0"
-                                FontFamily="FontAwesome"
+                                FontFamily="FluentIcons"
                                 FontSize="15"
-                                Text="&#xf002;"
+                                Text="&#xF68F;"
                                 TextColor="{DynamicResource WikiAppAutoCompleteWaterColor}"
                                 VerticalOptions="Center" />
                             <sfAutoComplete:SfAutocomplete
@@ -126,9 +126,9 @@
                             <Label
                                 x:Name="btnClearSearch"
                                 Grid.Column="2"
-                                FontFamily="FontAwesome"
+                                FontFamily="FluentIcons"
                                 FontSize="14"
-                                Text="&#xf057;"
+                                Text="&#xF36D;"
                                 TextColor="{DynamicResource WikiAppAutoCompleteWaterColor}"
                                 VerticalOptions="Center"
                                 HorizontalOptions="Center"
@@ -179,10 +179,10 @@
                                 <core:SfButton.Content>
                                     <DataTemplate>
                                         <Label
-                                            FontFamily="FontAwesome"
+                                            FontFamily="FluentIcons"
                                             FontSize="14"
                                             HorizontalOptions="Center"
-                                            Text="&#xf042;"
+                                            Text="&#xF2BD;"
                                             TextColor="{DynamicResource WikiAppIconColor}"
                                             VerticalOptions="Center" />
                                     </DataTemplate>
@@ -221,10 +221,10 @@
                             <core:SfButton.Content>
                                 <DataTemplate>
                                     <Label
-                                        FontFamily="FontAwesome"
+                                        FontFamily="FluentIcons"
                                         FontSize="14"
                                         HorizontalOptions="Center"
-                                        Text="&#xf013;"
+                                        Text="&#xF6A9;"
                                         TextColor="{DynamicResource WikiAppIconColor}"
                                         VerticalOptions="Center" />
                                 </DataTemplate>
@@ -253,10 +253,10 @@
                             <TapGestureRecognizer Tapped="BtnFavouritesFilter_Clicked" />
                         </Border.GestureRecognizers>
                         <Label
-                            FontFamily="FontAwesome"
+                            FontFamily="FluentIcons"
                             FontSize="14"
                             HorizontalOptions="Center"
-                            Text="&#xf004;"
+                            Text="&#xF479;"
                             VerticalOptions="Center">
                             <Label.Triggers>
                                 <DataTrigger Binding="{Binding ShowFavouritesOnly}" TargetType="Label" Value="True">
@@ -283,10 +283,10 @@
                             <TapGestureRecognizer Tapped="BtnShuffleItem_Clicked" />
                         </Border.GestureRecognizers>
                         <Label
-                            FontFamily="FontAwesome"
+                            FontFamily="FluentIcons"
                             FontSize="14"
                             HorizontalOptions="Center"
-                            Text="&#xf074;"
+                            Text="&#xEF36;"
                             TextColor="{DynamicResource WikiAppIconColor}"
                             VerticalOptions="Center" />
                     </Border>
@@ -307,9 +307,9 @@
                 <Grid ColumnDefinitions="Auto,*" ColumnSpacing="10" VerticalOptions="Center">
                     <Label
                         Grid.Column="0"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=14, Tablet=20, Default=20}"
-                        Text="&#xf1eb;"
+                        Text="&#xF8AC;"
                         TextColor="#FF5252"
                         VerticalOptions="Center" />
                     <Label
@@ -382,10 +382,10 @@
                         <!--  Filter returned no results  -->
                         <Label
                             IsVisible="{Binding HasSearchText}"
-                            FontFamily="FontAwesome"
+                            FontFamily="FluentIcons"
                             FontSize="48"
                             HorizontalOptions="Center"
-                            Text="&#xf002;"
+                            Text="&#xF68F;"
                             TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
                         <Label
                             IsVisible="{Binding HasSearchText}"
@@ -441,7 +441,7 @@
                                     <Grid>
                                         <exts:ExtendedImage
                                             x:Name="listItemPrimaryImage"
-                                            Aspect="AspectFill"
+                                            Aspect="AspectFit"
                                             HorizontalOptions="Fill"
                                             VerticalOptions="Fill"
                                             CustomSource="{Binding PicturePrimaryPath}"
@@ -460,12 +460,12 @@
                                             VerticalOptions="Start"
                                             WidthRequest="22">
                                             <Label
-                                                FontFamily="FontAwesome"
+                                                FontFamily="FluentIcons"
                                                 FontSize="11"
                                                 HorizontalOptions="Center"
                                                 HorizontalTextAlignment="Center"
                                                 InputTransparent="True"
-                                                Text="&#xf00c;"
+                                                Text="&#xF294;"
                                                 TextColor="White"
                                                 VerticalOptions="Center"
                                                 VerticalTextAlignment="Center" />
@@ -484,12 +484,12 @@
                                             VerticalOptions="Start"
                                             WidthRequest="22">
                                             <Label
-                                                FontFamily="FontAwesome"
+                                                FontFamily="FluentIcons"
                                                 FontSize="10"
                                                 HorizontalOptions="Center"
                                                 HorizontalTextAlignment="Center"
                                                 InputTransparent="True"
-                                                Text="&#xf004;"
+                                                Text="&#xF479;"
                                                 TextColor="White"
                                                 VerticalOptions="Center"
                                                 VerticalTextAlignment="Center" />
@@ -534,12 +534,12 @@
                                             VerticalOptions="End"
                                             WidthRequest="26">
                                             <Label
-                                                FontFamily="FontAwesome"
+                                                FontFamily="FluentIcons"
                                                 FontSize="11"
                                                 HorizontalOptions="Center"
                                                 HorizontalTextAlignment="Center"
                                                 InputTransparent="True"
-                                                Text="&#xf021;"
+                                                Text="&#xF190;"
                                                 TextColor="White"
                                                 VerticalOptions="Center"
                                                 VerticalTextAlignment="Center" />
@@ -602,12 +602,15 @@
                                                         <FormattedString>
                                                             <Span
                                                                 FontAttributes="Bold"
+                                                                FontFamily="{DynamicResource DefaultFontFamily}"
                                                                 Text="{Binding Key}"
                                                                 TextColor="{DynamicResource WikiAppListItemKeyTextColor}" />
                                                             <Span
+                                                                FontFamily="{DynamicResource DefaultFontFamily}"
                                                                 Text=": "
                                                                 TextColor="{DynamicResource WikiAppListItemKeyTextColor}" />
                                                             <Span
+                                                                FontFamily="{DynamicResource DefaultFontFamily}"
                                                                 Text="{Binding Description}"
                                                                 TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}" />
                                                         </FormattedString>
@@ -629,9 +632,11 @@
             Grid.Row="1"
             AdSize="Banner"
             AdUnitId="{Binding BannerAdsUnitId}"
+            BackgroundColor="Transparent"
             BannerType="Regular"
             HeightRequest="50"
             HorizontalOptions="Center"
+            IsVisible="{Binding AdsEnabled}"
             VerticalOptions="Center" />
 
 
@@ -657,9 +662,9 @@
                 <Label
                     x:Name="streakBannerIcon"
                     Grid.Column="0"
-                    FontFamily="FontAwesome"
+                    FontFamily="FluentIcons"
                     FontSize="{OnIdiom Phone=22, Tablet=32, Default=32}"
-                    Text="&#xf46d;"
+                    Text="&#xF836;"
                     TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                     VerticalOptions="Center" />
                 <Label

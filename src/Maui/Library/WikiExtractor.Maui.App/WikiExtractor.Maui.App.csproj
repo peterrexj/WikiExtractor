@@ -158,8 +158,8 @@
 		<!-- Firebase Crashlytics - Android only (iOS GoogleUtilities version conflict with MobileAds) -->
 		<PackageReference Include="Plugin.Firebase.Crashlytics" Version="3.1.1" Condition="$(TargetFramework.StartsWith('net9.0-android'))" />
 
-		<!-- In-App Billing for Remove Ads IAP -->
-		<PackageReference Include="Plugin.InAppBilling" Version="8.0.5" />
+		<!-- In-App Billing for Remove Ads IAP - removed for submission, implementation preserved -->
+		<!-- <PackageReference Include="Plugin.InAppBilling" Version="8.0.5" /> -->
 
 		<!-- Additional MAUI packages -->
 		<!--<PackageReference Include="Microsoft.Maui.Essentials" Version="$(MauiVersion)" />-->

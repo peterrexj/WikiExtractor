@@ -4,16 +4,19 @@
 #   ./run-ios-countries.sh                # iPhone 16 Pro (default)
 #   ./run-ios-countries.sh --ipad         # iPad Pro 13-inch (M4)
 #   ./run-ios-countries.sh --device "iPad mini (A17 Pro)"
+#   ./run-ios-countries.sh --clean                        # clean before build
 
 PROJECT="Maui.Countries.csproj"
 APP_BUNDLE="bin/Debug/net9.0-ios18.0/iossimulator-arm64/Maui.Countries.app"
 BUNDLE_ID="com.pj.countriesofworld"
 
 SIMULATOR_NAME="iPhone 16 Pro"
+CLEAN=false
 
 for arg in "$@"; do
   case "$arg" in
     --ipad)   SIMULATOR_NAME="iPad Pro 13-inch (M4)" ;;
+    --clean)  CLEAN=true ;;
     --device) ;;
   esac
 done
@@ -47,8 +50,10 @@ else
   echo "    Simulator already booted"
 fi
 
-echo "==> Cleaning..."
-dotnet clean "$PROJECT" -f net9.0-ios18.0 -c Debug
+if [ "$CLEAN" = "true" ]; then
+  echo "==> Cleaning..."
+  dotnet clean "$PROJECT" -f net9.0-ios18.0 -c Debug
+fi
 
 echo "==> Building..."
 dotnet build "$PROJECT" -f net9.0-ios18.0 -c Debug || exit 1

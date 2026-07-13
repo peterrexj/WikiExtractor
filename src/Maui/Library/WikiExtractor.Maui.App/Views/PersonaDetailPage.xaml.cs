@@ -717,11 +717,33 @@ namespace WikiExtractor.Maui.App.Views
         private void UpdateFavouriteIcon(bool isFavourite)
         {
             if (lblFavouriteIcon == null) return;
-            lblFavouriteIcon.Text = "";
-            if (Application.Current?.Resources.TryGetValue("WikiAppListItemDescriptionTextColor", out var colorObj) == true && colorObj is Color grey)
-                lblFavouriteIcon.TextColor = isFavourite ? Color.FromArgb("#E53935") : grey;
+            lblFavouriteIcon.Text = "";
+            var accentColor = Color.FromArgb("#E53935");
+            if (Application.Current?.Resources.TryGetValue("WikiAppPrimaryAccentColor", out var accentObj) == true && accentObj is Color accent)
+                accentColor = accent;
+            if (isFavourite)
+            {
+                lblFavouriteIcon.TextColor = Colors.White;
+                if (borderFavouriteIcon != null)
+                {
+                    borderFavouriteIcon.BackgroundColor = accentColor;
+                    borderFavouriteIcon.Stroke = accentColor;
+                    borderFavouriteIcon.StrokeThickness = 0;
+                }
+            }
             else
-                lblFavouriteIcon.TextColor = isFavourite ? Color.FromArgb("#E53935") : Colors.Gray;
+            {
+                if (Application.Current?.Resources.TryGetValue("WikiAppListItemDescriptionTextColor", out var greyObj) == true && greyObj is Color grey)
+                    lblFavouriteIcon.TextColor = grey;
+                else
+                    lblFavouriteIcon.TextColor = Colors.Gray;
+                if (borderFavouriteIcon != null)
+                {
+                    borderFavouriteIcon.BackgroundColor = Colors.Transparent;
+                    borderFavouriteIcon.Stroke = Colors.Transparent;
+                    borderFavouriteIcon.StrokeThickness = 0;
+                }
+            }
         }
 
         private void refreshAllImages_Tapped(object sender, EventArgs e)
@@ -827,9 +849,9 @@ namespace WikiExtractor.Maui.App.Views
 
             var closeLabel = new Label
             {
-                FontFamily = "FontAwesome",
+                FontFamily = "FluentIcons",
                 FontSize = isTablet ? 18 : 16,
-                Text = "",
+                Text = "",
                 TextColor = Colors.Gray,
                 HorizontalOptions = LayoutOptions.End,
                 VerticalOptions = LayoutOptions.Center,

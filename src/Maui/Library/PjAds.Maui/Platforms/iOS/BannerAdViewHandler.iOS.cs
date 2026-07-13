@@ -114,9 +114,9 @@ namespace PjAds.Maui.Controls
         {
             System.Diagnostics.Debug.WriteLine($"[PjAds] iOS LoadAd — bannerView={(_bannerView != null ? "OK" : "NULL")} service={(_bannerAdService != null ? "OK" : "NULL")} unitId='{VirtualView?.AdUnitId}'");
 
-            if (_bannerView == null || _bannerAdService == null || string.IsNullOrEmpty(VirtualView?.AdUnitId))
+            if (_bannerView == null || _bannerAdService == null || string.IsNullOrEmpty(VirtualView?.AdUnitId) || VirtualView?.IsVisible == false)
             {
-                System.Diagnostics.Debug.WriteLine("[PjAds] iOS LoadAd — bailed out (null guard)");
+                System.Diagnostics.Debug.WriteLine("[PjAds] iOS LoadAd — bailed out (null guard or ads disabled)");
                 return;
             }
 
@@ -147,12 +147,14 @@ namespace PjAds.Maui.Controls
 
         private void OnAdLoaded(object? sender, AdLoadedEventArgs e)
         {
+            if (e.AdUnitId != VirtualView?.AdUnitId) return;
             System.Diagnostics.Debug.WriteLine($"[PjAds] iOS OnAdLoaded — {e.AdUnitId}");
             VirtualView?.OnAdLoaded(e);
         }
 
         private void OnAdFailedToLoad(object? sender, AdFailedToLoadEventArgs e)
         {
+            if (e.AdUnitId != VirtualView?.AdUnitId) return;
             System.Diagnostics.Debug.WriteLine($"[PjAds] iOS OnAdFailedToLoad — {e.AdUnitId} code={e.ErrorCode} msg={e.ErrorMessage}");
             VirtualView?.OnAdFailedToLoad(e);
         }

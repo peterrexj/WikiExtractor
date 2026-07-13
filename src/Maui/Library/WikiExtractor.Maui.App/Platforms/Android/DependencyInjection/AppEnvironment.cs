@@ -32,6 +32,7 @@ namespace WikiExtractor.Maui.App.Platforms.Android.DependencyInjection
                 (byte)(color.Blue * 255),
                 (byte)(color.Alpha * 255));
             window.SetStatusBarColor(androidColor);
+            window.SetNavigationBarColor(androidColor);
 
             if (Build.VERSION.SdkInt >= BuildVersionCodes.M)
             {

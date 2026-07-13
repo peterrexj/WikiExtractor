@@ -106,26 +106,35 @@
                                         VerticalOptions="Center">
 
                                         <!--  Favourite  -->
-                                        <Label
-                                            x:Name="lblFavouriteIcon"
+                                        <Border
+                                            x:Name="borderFavouriteIcon"
                                             Grid.Column="0"
-                                            FontFamily="FontAwesome"
-                                            FontSize="{OnIdiom Phone=22, Tablet=32, Default=32}"
-                                            Text="&#xf004;"
-                                            TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}"
+                                            BackgroundColor="Transparent"
                                             HorizontalOptions="Center"
-                                            VerticalOptions="Center">
-                                            <Label.GestureRecognizers>
+                                            VerticalOptions="Center"
+                                            Padding="10,6"
+                                            Stroke="Transparent"
+                                            StrokeShape="RoundRectangle 10"
+                                            StrokeThickness="0">
+                                            <Border.GestureRecognizers>
                                                 <TapGestureRecognizer Tapped="FavouriteButton_Tapped" />
-                                            </Label.GestureRecognizers>
-                                        </Label>
+                                            </Border.GestureRecognizers>
+                                            <Label
+                                                x:Name="lblFavouriteIcon"
+                                                FontFamily="FluentIcons"
+                                                FontSize="{OnIdiom Phone=22, Tablet=32, Default=32}"
+                                                Text="&#xF479;"
+                                                TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}"
+                                                HorizontalOptions="Center"
+                                                VerticalOptions="Center" />
+                                        </Border>
 
                                         <!--  Share  -->
                                         <Label
                                             Grid.Column="1"
-                                            FontFamily="FontAwesome"
+                                            FontFamily="FluentIcons"
                                             FontSize="{OnIdiom Phone=22, Tablet=32, Default=32}"
-                                            Text="&#xf1e0;"
+                                            Text="&#xF6AF;"
                                             TextColor="{DynamicResource WikiAppPrimaryAccentColor}"
                                             HorizontalOptions="Center"
                                             VerticalOptions="Center">
@@ -361,9 +370,9 @@
                                     <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="10" VerticalOptions="Center">
                                         <Label
                                             Grid.Column="0"
-                                            FontFamily="FontAwesome"
+                                            FontFamily="FluentIcons"
                                             FontSize="{OnIdiom Phone=13, Tablet=18, Default=13}"
-                                            Text="&#xf071;"
+                                            Text="&#xF869;"
                                             TextColor="{DynamicResource WikiAppListItemDescriptionTextColor}"
                                             VerticalOptions="Center"
                                             Opacity="0.7" />
@@ -385,9 +394,9 @@
                                             <Grid ColumnDefinitions="Auto,Auto" ColumnSpacing="5">
                                                 <Label
                                                     Grid.Column="0"
-                                                    FontFamily="FontAwesome"
+                                                    FontFamily="FluentIcons"
                                                     FontSize="{OnIdiom Phone=11, Tablet=15, Default=11}"
-                                                    Text="&#xf021;"
+                                                    Text="&#xF190;"
                                                     TextColor="White"
                                                     VerticalOptions="Center" />
                                                 <Label
@@ -516,12 +525,12 @@
                                                     VerticalOptions="End"
                                                     WidthRequest="30">
                                                     <Label
-                                                        FontFamily="FontAwesome"
+                                                        FontFamily="FluentIcons"
                                                         FontSize="12"
                                                         HorizontalOptions="Center"
                                                         HorizontalTextAlignment="Center"
                                                         InputTransparent="True"
-                                                        Text="&#xf021;"
+                                                        Text="&#xF190;"
                                                         TextColor="White"
                                                         VerticalOptions="Center"
                                                         VerticalTextAlignment="Center" />
@@ -543,9 +552,11 @@
                 Grid.Row="2"
                 AdSize="Banner"
                 AdUnitId="{Binding BannerAdsUnitId}"
+                BackgroundColor="Transparent"
                 BannerType="Regular"
                 HeightRequest="50"
                 HorizontalOptions="Center"
+                IsVisible="{Binding AdsEnabled}"
                 VerticalOptions="Center" />
 
             <!--  Offline indicator row — sits between content and ads  -->
@@ -562,9 +573,9 @@
                 <Grid ColumnDefinitions="Auto,*" ColumnSpacing="10" VerticalOptions="Center">
                     <Label
                         Grid.Column="0"
-                        FontFamily="FontAwesome"
+                        FontFamily="FluentIcons"
                         FontSize="{OnIdiom Phone=14, Tablet=20, Default=20}"
-                        Text="&#xf1eb;"
+                        Text="&#xF8AC;"
                         TextColor="#FF5252"
                         VerticalOptions="Center" />
                     <Label

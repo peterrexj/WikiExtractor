@@ -4,16 +4,19 @@
 #   ./run-ios-worldleaders.sh             # iPhone 16 Pro (default)
 #   ./run-ios-worldleaders.sh --ipad      # iPad Pro 13-inch (M4)
 #   ./run-ios-worldleaders.sh --device "iPad mini (A17 Pro)"
+#   ./run-ios-worldleaders.sh --clean                        # clean before build
 
 PROJECT="Maui.WorldLeaders.csproj"
 APP_BUNDLE="bin/Debug/net9.0-ios18.0/iossimulator-arm64/Maui.WorldLeaders.app"
 BUNDLE_ID="com.pj.worldleadershub"
 
 SIMULATOR_NAME="iPhone 16 Pro"
+CLEAN=false
 
 for arg in "$@"; do
   case "$arg" in
     --ipad)   SIMULATOR_NAME="iPad Pro 13-inch (M4)" ;;
+    --clean)  CLEAN=true ;;
     --device) ;;  # handled below
   esac
 done
@@ -48,8 +51,10 @@ else
   echo "    Simulator already booted"
 fi
 
-echo "==> Cleaning..."
-dotnet clean "$PROJECT" -f net9.0-ios18.0 -c Debug
+if [ "$CLEAN" = "true" ]; then
+  echo "==> Cleaning..."
+  dotnet clean "$PROJECT" -f net9.0-ios18.0 -c Debug
+fi
 
 echo "==> Building..."
 dotnet build "$PROJECT" -f net9.0-ios18.0 -c Debug || exit 1
