@@ -327,6 +327,7 @@
             <CollectionView
                 x:Name="listOfItems"
                 Grid.Row="2"
+                Margin="10,0,10,0"
                 BackgroundColor="Transparent"
                 IsEnabled="{Binding IsNotBusy}"
                 ItemsSource="{Binding FilteredPersonas}"
@@ -412,7 +413,7 @@
                     <DataTemplate x:DataType="wvm:PersonaViewModel">
                         <!--  Outer card  -->
                         <Border
-                            Margin="0,0,14,12"
+                            Margin="0,0,0,12"
                             Stroke="Transparent"
                             StrokeThickness="0"
                             Style="{DynamicResource ListItemBorderStyle}">
@@ -436,7 +437,7 @@
                                     Padding="0"
                                     Stroke="Transparent"
                                     StrokeThickness="0"
-                                    StrokeShape="RoundRectangle 0"
+                                    StrokeShape="RoundRectangle 18,0,0,18"
                                     BackgroundColor="{DynamicResource WikiAppPersonaDetailProfileImageBg}">
                                     <Grid>
                                         <exts:ExtendedImage
