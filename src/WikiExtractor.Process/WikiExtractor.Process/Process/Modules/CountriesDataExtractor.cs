@@ -177,6 +177,18 @@ namespace WikiExtractor.Process.Modules
             }, 6);
         }
 
+        public void CleanDataWithDump()
+        {
+            Initialize(false);
+            var data = wikiAppController.GetListOfWikiItems(new List<string> { "All" }).ToList();
+
+            foreach (var item in data)
+            {
+                Console.WriteLine($"Removing metadata [not required]: {item.Name}");
+                wikiAppController.RemoveMetadataInfo(item.Id, "FlagImage", "");
+            }
+        }
+
         public void Test()
         {
             Initialize(false);

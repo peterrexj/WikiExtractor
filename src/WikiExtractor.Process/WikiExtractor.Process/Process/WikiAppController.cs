@@ -331,9 +331,14 @@ namespace WikiExtractor.Process
         {
             return wikiDatabase.WikiPictureRepository.Get(f => f.IsPrimaryBool).Select(f => f.Path).Where(f => f.HasValue()).ToList();
         }
+
+        public WikiPicture? GetPrimaryImage(int masterId)
+        {
+            return wikiDatabase.WikiPictureRepository.Get(f => f.MasterId == masterId && f.IsPrimaryBool)?.FirstOrDefault();
+        }
         public void UpdatePrimaryImage(int masterId, string picUrl)
         {
-            var picModel = wikiDatabase.WikiPictureRepository.Get(f => f.MasterId == masterId && f.IsPrimaryBool).FirstOrDefault();
+            var picModel = GetPrimaryImage(masterId);
             if (picModel == null) return;
             picModel.Path = picUrl;
             wikiDatabase.WikiPictureRepository.Update(picModel, "Path");
@@ -397,7 +402,7 @@ namespace WikiExtractor.Process
         {
             foreach (var key in metadataKeys)
             {
-                foreach (var item in wikiDatabase.MetadataRepository.Get(f => f.MasterId == masterId).Where(f => f.Key == key))
+                foreach (var item in wikiDatabase.MetadataRepository.Get(f => f.MasterId == masterId).Where(f => f.Key.ToLower().Trim() == key.ToLower()))
                 {
                     wikiDatabase.MetadataRepository.Delete(item.Id.ToString());
                 }

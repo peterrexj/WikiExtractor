@@ -2,6 +2,7 @@
 using WikiExtractor.Exts;
 using WikiExtractor.Models;
 using WikiExtractor.Process.Extractor;
+using WikiExtractor.Repository;
 
 namespace WikiExtractor.Process.Modules
 {
@@ -388,21 +389,30 @@ namespace WikiExtractor.Process.Modules
             }, 6);
 
         }
-        public void CleanDataWithDump()
+
+        public void FixPrimaryImage()
         {
             Initialize(false);
-
             var data = wikiAppController.GetListOfWikiItems(new List<string> { "All" }).ToList();
-
             foreach (var item in data)
             {
                 Console.WriteLine($"Primary image fix for: {item.Name}");
                 var personaData = wikiAppController?.GetViewModelByIdAsync(item.Id).GetAwaiter().GetResult();
                 if (personaData != null && personaData.Metadatas?.Any(f => f.Key == "Portrait") == true)
                 {
-                    wikiAppController.UpdatePrimaryImage(item.Id, personaData.Metadatas?.First(f => f.Key == "Portrait").Description);
+                    var existingPrimaryImage = wikiAppController.GetPrimaryImage(item.Id);
+                    if (existingPrimaryImage == null)
+                    {
+                        wikiAppController.UpdatePrimaryImage(item.Id, personaData.Metadatas?.First(f => f.Key == "Portrait").Description);
+                    }
                 }
             }
+        }
+
+        public void CleanDataWithDump()
+        {
+            Initialize(false);
+            var data = wikiAppController.GetListOfWikiItems(new List<string> { "All" }).ToList();
 
             foreach (var item in data)
             {

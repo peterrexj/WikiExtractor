@@ -86,6 +86,7 @@ namespace WikiExtractor.Process
             {
                 "Signatur",          // handwritten signatures (e.g. Signature_of_John_Paul_II.svg)
                 "signature",
+                "Singnature"
             };
 
             // These images are worth storing in the gallery but should never be chosen

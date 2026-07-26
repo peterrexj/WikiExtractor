@@ -43,7 +43,7 @@ namespace WikiExtractor.Process
                     RunWorldLeadersPostProcess();
                     break;
 
-                        case "worldleaders-full":
+                case "worldleaders-full":
                     RunWorldLeaders(target);
                     RunWorldLeadersPostProcess();
                     break;
@@ -146,6 +146,7 @@ namespace WikiExtractor.Process
         {
             var e = new WorldLeadersExtractor();
             e.EnablePrimaryMetadataContent();
+            e.FixPrimaryImage();
             e.CleanDataWithDump();
             e.EnableQuizData("WorldLeadersQuizDefinition.json");
             e.TestData();
@@ -198,7 +199,10 @@ namespace WikiExtractor.Process
         {
             var e = new CountriesDataExtractor();
             e.EnablePrimaryMetadataContent();
+            e.CleanDataWithDump();
+            e.EnableQuizData("CountriesQuizDefinition.json");
             e.CopyDatabaseFileToRootDbFolder();
+            e.QuizDataInsightsToBuildQuiz("Countries");
             e.WritePostProcessReport();
         }
     }
