@@ -146,21 +146,15 @@ namespace WikiExtractor.Maui.App.Services
         {
             try
             {
-                var xaml = PjUtility.Runtime.GetAssembly("WikiExtractor.Maui.App").GetEmbeddedResourceAsText($"WikiExtractor.Maui.App.Resources.Styles.{resourcePath}");
-                var resourceDictionary = new ResourceDictionary();
-                resourceDictionary.LoadFromXaml(xaml);
-                return resourceDictionary;
-            }
-            catch { return null; }
-        }
-        private string GetEmbeddedResourceAsText(Assembly assembly, string resourcePath)
-        {
-            try
-            {
-                using var stream = assembly.GetManifestResourceStream(resourcePath);
+                var assembly = typeof(ThemeHandler).Assembly;
+                var streamName = $"WikiExtractor.Maui.App.Resources.Styles.{resourcePath}";
+                using var stream = assembly.GetManifestResourceStream(streamName);
                 if (stream == null) return null;
                 using var reader = new StreamReader(stream);
-                return reader.ReadToEnd();
+                var xaml = reader.ReadToEnd();
+                var dict = new ResourceDictionary();
+                dict.LoadFromXaml(xaml);
+                return dict;
             }
             catch { return null; }
         }

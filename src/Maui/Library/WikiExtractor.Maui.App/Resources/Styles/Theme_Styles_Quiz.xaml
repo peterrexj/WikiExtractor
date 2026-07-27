@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xaml-comp compile="true" ?>
+<?xaml-comp compile="false" ?>
 <ResourceDictionary
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -13,8 +13,8 @@
     xmlns:tabView="clr-namespace:Syncfusion.Maui.TabView;assembly=Syncfusion.Maui.TabView">
 
     <Style x:Key="WikiAppQuizTakeButtonStyle" TargetType="sfButtons:SfButton">
-        <Setter Property="Background" Value="{DynamicResource WikiAppPrimaryAccentColor}" />
-        <Setter Property="BackgroundColor" Value="{DynamicResource WikiAppPrimaryAccentColor}" />
+        <Setter Property="Background" Value="{DynamicResource WikiAppQuizTakeButtonBackgroundColor}" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource WikiAppQuizTakeButtonBackgroundColor}" />
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
         <Setter Property="FontSize" Value="{OnPlatform Android={OnIdiom Phone=12, Tablet=18}, iOS={OnIdiom Phone=12, Tablet=18}, WinUI=18, MacCatalyst=18}" />

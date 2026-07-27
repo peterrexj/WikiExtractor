@@ -493,7 +493,7 @@
                                                 HorizontalTextAlignment="Center"
                                                 InputTransparent="True"
                                                 Text="&#xF47A;"
-                                                TextColor="White"
+                                                TextColor="{DynamicResource WikiAppIconColor}"
                                                 VerticalOptions="Center"
                                                 VerticalTextAlignment="Center" />
                                         </Border>

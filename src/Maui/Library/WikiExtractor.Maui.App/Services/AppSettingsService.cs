@@ -21,7 +21,7 @@ namespace WikiExtractor.Maui.App.Services
         private const string DEFAULT_SORT_PROPERTY = "Id";
         private const string DEFAULT_SORT_DIRECTION = "Ascending";
         private const bool DEFAULT_SHOW_READ_ITEMS = true;
-        private const AppThemes DEFAULT_APP_THEME = AppThemes.Light;
+        private const AppThemes DEFAULT_APP_THEME = AppThemes.Dark;
         private const string DEFAULT_FONT_FAMILY = "Lato";
         public const double DEFAULT_PARAGRAPH_FONT_SIZE = 14.0;
         public const double MIN_PARAGRAPH_FONT_SIZE = 10.0;

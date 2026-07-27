@@ -35,6 +35,37 @@
 
 		<!-- Exclude the old Theme.CommonStyles.xaml from Extensions/Data to prevent duplicate resource identifiers -->
 		<None Remove="Extensions\Data\Theme.CommonStyles.xaml" />
+
+		<!-- Remove theme ResourceDictionaries from the MAUI XAML compiler pipeline so
+		     the raw XML bytes are always preserved as embedded resources in both debug
+		     and release builds. They are re-declared as EmbeddedResource below. -->
+		<MauiXaml Remove="Resources\Styles\Theme_Dark.xaml" />
+		<MauiXaml Remove="Resources\Styles\Theme_Light.xaml" />
+		<MauiXaml Remove="Resources\Styles\Theme_Forest.xaml" />
+		<MauiXaml Remove="Resources\Styles\Theme_Candy.xaml" />
+		<MauiXaml Remove="Resources\Styles\Theme_Sunset.xaml" />
+		<MauiXaml Remove="Resources\Styles\Theme_Ocean.xaml" />
+		<MauiXaml Remove="Resources\Styles\Theme_Warm.xaml" />
+		<MauiXaml Remove="Resources\Styles\Theme_Styles_Common.xaml" />
+		<MauiXaml Remove="Resources\Styles\Theme_Styles_WikiPages.xaml" />
+		<MauiXaml Remove="Resources\Styles\Theme_Styles_Settings.xaml" />
+		<MauiXaml Remove="Resources\Styles\Theme_Styles_Quiz.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Re-embed theme files as plain EmbeddedResource so GetManifestResourceStream
+		     can read them at runtime regardless of XAML compilation settings. -->
+		<EmbeddedResource Include="Resources\Styles\Theme_Dark.xaml"><Generator></Generator></EmbeddedResource>
+		<EmbeddedResource Include="Resources\Styles\Theme_Light.xaml"><Generator></Generator></EmbeddedResource>
+		<EmbeddedResource Include="Resources\Styles\Theme_Forest.xaml"><Generator></Generator></EmbeddedResource>
+		<EmbeddedResource Include="Resources\Styles\Theme_Candy.xaml"><Generator></Generator></EmbeddedResource>
+		<EmbeddedResource Include="Resources\Styles\Theme_Sunset.xaml"><Generator></Generator></EmbeddedResource>
+		<EmbeddedResource Include="Resources\Styles\Theme_Ocean.xaml"><Generator></Generator></EmbeddedResource>
+		<EmbeddedResource Include="Resources\Styles\Theme_Warm.xaml"><Generator></Generator></EmbeddedResource>
+		<EmbeddedResource Include="Resources\Styles\Theme_Styles_Common.xaml"><Generator></Generator></EmbeddedResource>
+		<EmbeddedResource Include="Resources\Styles\Theme_Styles_WikiPages.xaml"><Generator></Generator></EmbeddedResource>
+		<EmbeddedResource Include="Resources\Styles\Theme_Styles_Settings.xaml"><Generator></Generator></EmbeddedResource>
+		<EmbeddedResource Include="Resources\Styles\Theme_Styles_Quiz.xaml"><Generator></Generator></EmbeddedResource>
 	</ItemGroup>
 
 	<ItemGroup>
