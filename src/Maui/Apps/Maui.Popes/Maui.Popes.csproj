@@ -113,7 +113,7 @@
 		<Optimize>true</Optimize>
 		<AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
 		<AndroidLinkMode>None</AndroidLinkMode>
-		<AndroidLinkTool>r8</AndroidLinkTool>
+		<AndroidLinkTool>d8</AndroidLinkTool>
 		<AndroidEnableProguard>false</AndroidEnableProguard>
 		<AndroidEnableR8FullMode>false</AndroidEnableR8FullMode>
 		<EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
