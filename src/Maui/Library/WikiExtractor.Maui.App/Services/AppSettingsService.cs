@@ -174,6 +174,24 @@ namespace WikiExtractor.Maui.App.Services
             catch { return "#222831"; }
         }
 
+        // Returns true when the stored theme bg is light enough to need dark status-bar icons.
+        public static bool IsThemeBackgroundLight()
+        {
+            try
+            {
+                var hex = GetThemeBackgroundColor().TrimStart('#');
+                if (hex.Length == 6)
+                {
+                    var r = Convert.ToInt32(hex.Substring(0, 2), 16) / 255f;
+                    var g = Convert.ToInt32(hex.Substring(2, 2), 16) / 255f;
+                    var b = Convert.ToInt32(hex.Substring(4, 2), 16) / 255f;
+                    return (r * 0.299f + g * 0.587f + b * 0.114f) > 0.5f;
+                }
+            }
+            catch { }
+            return false;
+        }
+
         /// <summary>
         /// Gets the current app font family
         /// </summary>

@@ -19,21 +19,19 @@
 		<AndroidLinkSkip />
 		<AndroidEnableMultiDex>true</AndroidEnableMultiDex>
 		<AndroidDexTool>d8</AndroidDexTool>
-		<AndroidPackageFormat>apk</AndroidPackageFormat>
+		<AndroidPackageFormat Condition="'$(Configuration)' == 'Debug'">apk</AndroidPackageFormat>
+		<AndroidPackageFormat Condition="'$(Configuration)' == 'Release'">aab</AndroidPackageFormat>
 
-		<RuntimeIdentifier Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">iossimulator-arm64</RuntimeIdentifier>
-		<CodesignKey Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">-</CodesignKey>
-		<CodesignProvision Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'"></CodesignProvision>
-		<CodesignEntitlements Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'"></CodesignEntitlements>
-		<MtouchLink>None</MtouchLink>
 
 		<!-- App Identifier -->
 		<ApplicationTitle>Catholic Saints</ApplicationTitle>
 		<ApplicationId>com.peterrexj.christiancatholicsaints</ApplicationId>
 
-		<!-- Versions -->
-		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
-		<ApplicationVersion>1</ApplicationVersion>
+		<!-- Versions - update per platform independently before each store release -->
+		<ApplicationDisplayVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">1.0</ApplicationDisplayVersion>
+		<ApplicationDisplayVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">1.0</ApplicationDisplayVersion>
+		<ApplicationVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">1</ApplicationVersion>
+		<ApplicationVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">1</ApplicationVersion>
 
 		<WindowsPackageType>None</WindowsPackageType>
 
@@ -44,7 +42,6 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 
 		<DefaultLanguage>en-au</DefaultLanguage>
-		<AndroidSigningKeyStore>catholicsaints.keystore</AndroidSigningKeyStore>
 	</PropertyGroup>
 
 	<!-- Debug Configuration -->
@@ -62,17 +59,42 @@
 		<PublishTrimmed>false</PublishTrimmed>
 	</PropertyGroup>
 
+	<!-- iOS Debug (simulator) -->
+	<PropertyGroup Condition="'$(Configuration)' == 'Debug' and '$(TargetFramework)' == 'net9.0-ios18.0'">
+		<RuntimeIdentifier>iossimulator-arm64</RuntimeIdentifier>
+		<CodesignKey>-</CodesignKey>
+		<CodesignProvision></CodesignProvision>
+		<CodesignEntitlements></CodesignEntitlements>
+		<MtouchLink>None</MtouchLink>
+	</PropertyGroup>
+
+	<!-- iOS Release (App Store) -->
+	<PropertyGroup Condition="'$(Configuration)' == 'Release' and '$(TargetFramework)' == 'net9.0-ios18.0'">
+		<RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
+		<CodesignKey>Apple Distribution: Peter Joseph (5PNCUV7LZ5)</CodesignKey>
+		<CodesignProvision>Automatic:Distribution</CodesignProvision>
+		<MtouchLink>None</MtouchLink>
+		<ArchiveOnBuild>true</ArchiveOnBuild>
+	</PropertyGroup>
+
 	<!-- Release Configuration -->
 	<PropertyGroup Condition="'$(Configuration)' == 'Release' and '$(TargetFramework)' == 'net9.0-android36.0'">
-		<DebugSymbols>false</DebugSymbols>
-		<DebugType>none</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>portable</DebugType>
 		<Optimize>true</Optimize>
 		<AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
-		<AndroidLinkMode>SdkOnly</AndroidLinkMode>
-		<AndroidEnableProguard>true</AndroidEnableProguard>
-		<AndroidEnableR8FullMode>true</AndroidEnableR8FullMode>
+		<AndroidLinkMode>None</AndroidLinkMode>
+		<AndroidLinkTool>r8</AndroidLinkTool>
+		<AndroidEnableProguard>false</AndroidEnableProguard>
+		<AndroidEnableR8FullMode>false</AndroidEnableR8FullMode>
 		<EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+		<RunAOTCompilation>false</RunAOTCompilation>
 		<PublishTrimmed>false</PublishTrimmed>
+		<AndroidKeyStore>true</AndroidKeyStore>
+		<AndroidSigningKeyStore>..\..\..\..\Resources\droidCerts\catholicsaints.keystore</AndroidSigningKeyStore>
+		<AndroidSigningStorePass>CatholicSaintsPassword@01</AndroidSigningStorePass>
+		<AndroidSigningKeyAlias>keyalias.alias</AndroidSigningKeyAlias>
+		<AndroidSigningKeyPass>CatholicSaintsPassword@01</AndroidSigningKeyPass>
 	</PropertyGroup>
 
 	<ItemGroup Condition="$(TargetFramework.StartsWith('net9.0-android'))">

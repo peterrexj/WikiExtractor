@@ -45,54 +45,58 @@ namespace WikiExtractor.Maui.App.Services
         }
         public void LoadDefaultStyle(AppThemes appTheme)
         {
+            if (!MainThread.IsMainThread)
+            {
+                MainThread.BeginInvokeOnMainThread(() => LoadDefaultStyle(appTheme));
+                return;
+            }
+
             try
             {
-                if (Application.Current?.Resources == null)
-                {
-                    System.Diagnostics.Debug.WriteLine("Application.Current.Resources is null, cannot load theme");
-                    return;
-                }
+                if (Application.Current?.Resources == null) return;
 
-                // File names use underscores, not dots (e.g. Theme_Dark.xaml)
-                string themeFile;
-                switch (appTheme)
+                string themeFile = appTheme switch
                 {
-                    case AppThemes.Dark: themeFile = "Theme_Dark.xaml"; break;
-                    case AppThemes.Light: themeFile = "Theme_Light.xaml"; break;
-                    case AppThemes.Forest: themeFile = "Theme_Forest.xaml"; break;
-                    case AppThemes.Candy: themeFile = "Theme_Candy.xaml"; break;
-                    case AppThemes.Sunset: themeFile = "Theme_Sunset.xaml"; break;
-                    case AppThemes.Ocean: themeFile = "Theme_Ocean.xaml"; break;
-                    default: themeFile = "Theme_Dark.xaml"; break;
-                }
+                    AppThemes.Dark    => "Theme_Dark.xaml",
+                    AppThemes.Light   => "Theme_Light.xaml",
+                    AppThemes.Forest  => "Theme_Forest.xaml",
+                    AppThemes.Candy   => "Theme_Candy.xaml",
+                    AppThemes.Sunset  => "Theme_Sunset.xaml",
+                    AppThemes.Ocean   => "Theme_Ocean.xaml",
+                    _                 => "Theme_Dark.xaml",
+                };
+
                 ClearAllResources("WikiApp");
-                var commonStyles = LoadResourceDictionary("Theme_Styles_Common.xaml");
-                var commonStylesWikiPages = LoadResourceDictionary("Theme_Styles_WikiPages.xaml");
+                var commonStyles         = LoadResourceDictionary("Theme_Styles_Common.xaml");
+                var commonStylesWiki     = LoadResourceDictionary("Theme_Styles_WikiPages.xaml");
                 var commonStylesSettings = LoadResourceDictionary("Theme_Styles_Settings.xaml");
-                var commonStylesQuiz = LoadResourceDictionary("Theme_Styles_Quiz.xaml");
-                if (commonStyles != null) Application.Current?.Resources.MergedDictionaries.Add(commonStyles);
-                if (commonStylesWikiPages != null) Application.Current?.Resources.MergedDictionaries.Add(commonStylesWikiPages);
-                if (commonStylesSettings != null) Application.Current?.Resources.MergedDictionaries.Add(commonStylesSettings);
-                if (commonStylesQuiz != null) Application.Current?.Resources.MergedDictionaries.Add(commonStylesQuiz);
-                var themeStyles = LoadResourceDictionary(themeFile);
-                if (themeStyles != null) Application.Current?.Resources.MergedDictionaries.Add(themeStyles);
-                UpdateResources("WikiApp");
+                var commonStylesQuiz     = LoadResourceDictionary("Theme_Styles_Quiz.xaml");
+                var themeStyles          = LoadResourceDictionary(themeFile);
+                if (commonStyles         != null) Application.Current.Resources.MergedDictionaries.Add(commonStyles);
+                if (commonStylesWiki     != null) Application.Current.Resources.MergedDictionaries.Add(commonStylesWiki);
+                if (commonStylesSettings != null) Application.Current.Resources.MergedDictionaries.Add(commonStylesSettings);
+                if (commonStylesQuiz     != null) Application.Current.Resources.MergedDictionaries.Add(commonStylesQuiz);
+                if (themeStyles          != null) Application.Current.Resources.MergedDictionaries.Add(themeStyles);
+                // Promote merged keys into the top-level dictionary so DynamicResource bindings
+                // re-evaluate. Set each key once — no null bounce needed.
+                foreach (var dict in Application.Current.Resources.MergedDictionaries)
+                    foreach (var kvp in dict)
+                        if (kvp.Key is string k && k.StartsWith("WikiApp"))
+                            Application.Current.Resources[k] = kvp.Value;
 
-                // Sync Android navigation bar color to the new theme background
-                if (Application.Current?.Resources.TryGetValue("WikiAppDefaultBackgroundColor", out var bgObj) == true && bgObj is Color bgColor)
+                // Status bar color — run after resources are applied so the color is available
+                if (Application.Current.Resources.TryGetValue("WikiAppDefaultBackgroundColor", out var bgObj) && bgObj is Color bgColor)
                 {
-                    SharedServiceCore.AppEnvironment?.SetStatusBarColor(bgColor, false);
+                    var isLightBg = (bgColor.Red * 0.299f + bgColor.Green * 0.587f + bgColor.Blue * 0.114f) > 0.5f;
+                    SharedServiceCore.AppEnvironment?.SetStatusBarColor(bgColor, isLightBg);
                 }
 
-                // Reapply saved font family after theme change
                 _ = LoadSavedFontFamilyAsync();
-
-                // Refresh quiz colors so the next quiz session picks up the new theme
                 InitializeQuizColorsBackground();
             }
             catch (Exception ex)
             {
-                throw new Exception($"Exception thrown from the style provider {ex}");
+                System.Diagnostics.Debug.WriteLine($"[ThemeHandler] LoadDefaultStyle error: {ex.Message}");
             }
         }
         private TaskCompletionSource<ObservableCollection<Brush>> _chartColorsTcs = new();
@@ -170,23 +174,6 @@ namespace WikiExtractor.Maui.App.Services
             var dictionariesToRemove = Application.Current.Resources.MergedDictionaries.Where(d => d.Keys.OfType<string>().Any(k => k.StartsWith(prefix))).ToList();
             foreach (var dictionary in dictionariesToRemove) Application.Current.Resources.MergedDictionaries.Remove(dictionary);
         }
-        static void UpdateResources(string prefix)
-        {
-            try
-            {
-                var resKeys = Application.Current?.Resources.Keys.Cast<string>().Where(k => k.StartsWith(prefix)) ?? Enumerable.Empty<string>();
-                var mergedKeys = Application.Current?.Resources.MergedDictionaries.SelectMany(f => f.Keys.Cast<string>()).Where(k => k.StartsWith(prefix)) ?? Enumerable.Empty<string>();
-                var keys = resKeys.Union(mergedKeys).ToList();
-                foreach (var key in keys)
-                {
-                    var temp = Application.Current.Resources[key];
-                    Application.Current.Resources[key] = null;
-                    Application.Current.Resources[key] = temp;
-                }
-            }
-            catch { }
-        }
-        
         private async Task LoadSavedFontFamilyAsync()
         {
             try

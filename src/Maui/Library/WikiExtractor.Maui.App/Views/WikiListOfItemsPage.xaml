@@ -22,6 +22,7 @@
     <ContentPage.Resources>
         <converters:ImagePathToSourceConverter x:Key="ImagePathConverter" />
         <converters:MetadataToFormattedStringConverter x:Key="MetadataFormattedConverter" />
+        <converters:InvertedBoolConverter x:Key="InvertedBoolConverter" />
     </ContentPage.Resources>
 
     <Shell.TitleView>
@@ -472,13 +473,37 @@
                                                 VerticalTextAlignment="Center" />
                                         </Border>
 
-                                        <!--  Favourite badge — shown when item is favourited  -->
+                                        <!--  Favourite badge — outline when not favourited, filled red when favourited  -->
+                                        <Border
+                                            Margin="6"
+                                            BackgroundColor="Transparent"
+                                            HeightRequest="22"
+                                            HorizontalOptions="Start"
+                                            IsVisible="{Binding IsFavourite, Converter={StaticResource InvertedBoolConverter}}"
+                                            InputTransparent="True"
+                                            Stroke="Transparent"
+                                            StrokeShape="RoundRectangle 11"
+                                            StrokeThickness="0"
+                                            VerticalOptions="Start"
+                                            WidthRequest="22">
+                                            <Label
+                                                FontFamily="FluentIcons"
+                                                FontSize="12"
+                                                HorizontalOptions="Center"
+                                                HorizontalTextAlignment="Center"
+                                                InputTransparent="True"
+                                                Text="&#xF47A;"
+                                                TextColor="White"
+                                                VerticalOptions="Center"
+                                                VerticalTextAlignment="Center" />
+                                        </Border>
                                         <Border
                                             Margin="6"
                                             BackgroundColor="#E53935"
                                             HeightRequest="22"
                                             HorizontalOptions="Start"
                                             IsVisible="{Binding IsFavourite}"
+                                            InputTransparent="True"
                                             Stroke="Transparent"
                                             StrokeShape="RoundRectangle 11"
                                             StrokeThickness="0"
