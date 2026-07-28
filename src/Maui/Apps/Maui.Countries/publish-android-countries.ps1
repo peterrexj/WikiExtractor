@@ -62,6 +62,30 @@ $aab = Get-ChildItem $OutDir -Filter "$BundleId-Signed.aab" -ErrorAction Silentl
 if (-not $aab) { $aab = Get-ChildItem $OutDir -Filter "*.aab" -ErrorAction SilentlyContinue | Select-Object -First 1 }
 if (-not $aab) { Write-Error "AAB not found under $OutDir"; exit 1 }
 
+# ── Locate debug symbols zip ─────────────────────────────────────────────────
+$sym = Get-ChildItem $OutDir -Filter "*-symbols.zip" -ErrorAction SilentlyContinue | Select-Object -First 1
+if (-not $sym) { $sym = Get-ChildItem "bin/Release/$AndroidTF" -Filter "*-symbols.zip" -ErrorAction SilentlyContinue | Select-Object -First 1 }
+
+# ── Locate R8 mapping file ────────────────────────────────────────────────────
+$map = Get-Item "bin/Release/$AndroidTF/mapping.txt" -ErrorAction SilentlyContinue
+if (-not $map) { $map = Get-ChildItem "bin/Release/$AndroidTF" -Filter "mapping.txt" -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1 }
+
 Write-Host ""
 Write-Host "==> Done. Upload this file to the Play Store:" -ForegroundColor Green
 Write-Host "    $($aab.FullName)" -ForegroundColor Cyan
+if ($map) {
+    Write-Host ""
+    Write-Host "==> Upload this R8 mapping file in Play Console (Android vitals > Deobfuscation files):" -ForegroundColor Green
+    Write-Host "    $($map.FullName)" -ForegroundColor Cyan
+} else {
+    Write-Host ""
+    Write-Host "WARNING: mapping.txt not found. Only present when AndroidLinkTool=r8." -ForegroundColor Yellow
+}
+if ($sym) {
+    Write-Host ""
+    Write-Host "==> Upload this symbols file in Play Console (App bundle explorer > Downloads > Native debug symbols):" -ForegroundColor Green
+    Write-Host "    $($sym.FullName)" -ForegroundColor Cyan
+} else {
+    Write-Host ""
+    Write-Host "WARNING: Symbols zip not found. Only present when AndroidIncludeDebugSymbols=true and AOT is enabled." -ForegroundColor Yellow
+}
