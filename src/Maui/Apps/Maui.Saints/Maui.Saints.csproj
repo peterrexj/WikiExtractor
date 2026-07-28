@@ -83,6 +83,7 @@
 		<DebugType>portable</DebugType>
 		<Optimize>true</Optimize>
 		<AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+		<AndroidSupportedAbis>arm64-v8a;armeabi-v7a;x86_64</AndroidSupportedAbis>
 		<AndroidLinkMode>None</AndroidLinkMode>
 		<AndroidLinkTool>d8</AndroidLinkTool>
 		<AndroidEnableProguard>false</AndroidEnableProguard>
@@ -90,6 +91,7 @@
 		<EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
 		<RunAOTCompilation>false</RunAOTCompilation>
 		<PublishTrimmed>false</PublishTrimmed>
+		<AndroidIncludeDebugSymbols>true</AndroidIncludeDebugSymbols>
 		<AndroidKeyStore>true</AndroidKeyStore>
 		<AndroidSigningKeyStore>..\..\..\..\Resources\droidCerts\catholicsaints.keystore</AndroidSigningKeyStore>
 		<AndroidSigningStorePass>CatholicSaintsPassword@01</AndroidSigningStorePass>
