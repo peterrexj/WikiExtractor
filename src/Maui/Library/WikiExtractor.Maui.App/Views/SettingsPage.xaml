@@ -483,7 +483,8 @@
                 </VerticalStackLayout>
 
                 <!-- ═══ PREMIUM ═══ -->
-                <VerticalStackLayout Spacing="10">
+                <!-- ═══ TURNED OFF ═══ -->
+                <VerticalStackLayout Spacing="10" IsVisible="False">
                     <Label
                         Margin="4,0"
                         FontAttributes="Bold"
