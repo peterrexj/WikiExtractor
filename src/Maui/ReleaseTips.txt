@@ -1,0 +1,6 @@
+For Android
+
+- Go to each project and update the version in two places
+- Using powershell, in each project folder run the publish script
+- Test in Sauce Labs
+- Create release in Play Store and upload the new version

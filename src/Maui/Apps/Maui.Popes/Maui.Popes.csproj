@@ -1,26 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<!-- iOS targeting with Xcode 16.3 compatibility -->
-		<!-- On Windows: include Android and Windows -->
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">
 			net9.0-android36.0
 		</TargetFrameworks>
-
-		<!-- On non-Windows (Mac/Linux): include both Android and iOS -->
 		<TargetFrameworks Condition="!$([MSBuild]::IsOSPlatform('windows'))">
 			net9.0-android36.0;net9.0-ios18.0
 		</TargetFrameworks>
-		<!--<TargetFrameworks>net9.0-android36.0;net9.0-ios18.0</TargetFrameworks>-->
-		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
-		<!-- <TargetFrameworks>$(TargetFrameworks);net9.0-tizen</TargetFrameworks> -->
-
-		<!-- Note for MacCatalyst:
-		The default runtime is maccatalyst-x64, except in Release config, in which case the default is maccatalyst-x64;maccatalyst-arm64.
-		When specifying both architectures, use the plural <RuntimeIdentifiers> instead of the singular <RuntimeIdentifier>.
-		The Mac App Store will NOT accept apps with ONLY maccatalyst-arm64 indicated;
-		either BOTH runtimes must be indicated or ONLY macatalyst-x64. -->
-		<!-- For example: <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers> -->
 
 		<OutputType>Exe</OutputType>
 		<RootNamespace>Maui.Wiki</RootNamespace>
@@ -29,45 +15,33 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		
-		<!-- Build properties to resolve PE image issues -->
 		<AndroidUseAapt2>true</AndroidUseAapt2>
-		<!--<AndroidCreatePackagePerAbi>false</AndroidCreatePackagePerAbi>-->
-		<!--<AndroidLinkMode>None</AndroidLinkMode>-->
 		<AndroidLinkSkip />
 		<AndroidEnableMultiDex>true</AndroidEnableMultiDex>
-		<!--<PublishTrimmed>true</PublishTrimmed>-->
-		<!--<AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
-		<EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>-->
 		<AndroidDexTool>d8</AndroidDexTool>
 		<AndroidPackageFormat Condition="'$(Configuration)' == 'Debug'">apk</AndroidPackageFormat>
 		<AndroidPackageFormat Condition="'$(Configuration)' == 'Release'">aab</AndroidPackageFormat>
-		<!-- Use specific runtime identifiers for each platform -->
-		<!--<RuntimeIdentifier Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">android-arm64</RuntimeIdentifier>-->
-		
-
-		<!--<AndroidStoreUncompressedFileExtensions>.dll</AndroidStoreUncompressedFileExtensions>-->
 
 		<!-- Display name -->
 		<ApplicationTitle>Popes</ApplicationTitle>
-
+		
 		<!-- App Identifier -->
-		<ApplicationId>com.peterrexj.popesofchurch</ApplicationId>
-
+		<ApplicationId Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">com.pj.popesofchurch</ApplicationId>
+		<ApplicationId Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">com.pj.popesofchurch</ApplicationId>
+		
 		<!-- Versions - update per platform independently before each store release -->
-		<ApplicationDisplayVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">1.0</ApplicationDisplayVersion>
+		<ApplicationDisplayVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">19.0</ApplicationDisplayVersion>
 		<ApplicationDisplayVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">1.0</ApplicationDisplayVersion>
-		<ApplicationVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">1</ApplicationVersion>
+		<ApplicationVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">19</ApplicationVersion>
 		<ApplicationVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">1</ApplicationVersion>
 
 		<!-- To develop, package, and publish an app to the Microsoft Store, see: https://aka.ms/MauiTemplateUnpackaged -->
 		<WindowsPackageType>None</WindowsPackageType>
 
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.0</SupportedOSPlatformVersion>
-		<!-- Force compatibility with Xcode 16.3 -->
 		<UseXcode16_3ForIOS>true</UseXcode16_3ForIOS>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">15.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
-		
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	
 		<DefaultLanguage>en-au</DefaultLanguage>
@@ -128,35 +102,6 @@
 		<AndroidSigningKeyPass>CatholicSaintsPassword@01</AndroidSigningKeyPass>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(TargetFramework)' == 'net9.0-android'">
-		<AndroidSupportedAbis>arm64-v8a;x86_64</AndroidSupportedAbis>
-
-		<AndroidTargetApiLevel>34</AndroidTargetApiLevel>
-		<AndroidTargetFrameworkVersion>v14.0</AndroidTargetFrameworkVersion>
-		<AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-		<!--<AndroidSdkDirectory>/Users/josephpe/Library/Android/sdk</AndroidSdkDirectory>-->
-
-		<PublishTrimmed>false</PublishTrimmed>
-		<AndroidLinkTool>none</AndroidLinkTool>
-		<AndroidLinkMode>None</AndroidLinkMode>
-		<AndroidEnableProguard>false</AndroidEnableProguard>
-
-		<AndroidEnableR8FullMode>false</AndroidEnableR8FullMode>
-
-		<RunAOTCompilation>false</RunAOTCompilation>
-		<AndroidEnablePreloadAssembliesDefault>true</AndroidEnablePreloadAssembliesDefault>
-		
-		<!--<PublishTrimmed>false</PublishTrimmed>
-		<TrimMode>none</TrimMode>
-		<AndroidLinkTool>r8</AndroidLinkTool>
-		<AndroidLinkMode>None</AndroidLinkMode>
-		<AndroidEnableProguard>true</AndroidEnableProguard>-->
-		
-		<!--<AndroidLinkTool>r8</AndroidLinkTool>
-		<AndroidEnableProguard>true</AndroidEnableProguard>
-		<AndroidProguardConfig>proguard.cfg</AndroidProguardConfig>-->
-	</PropertyGroup>
-
 	<ItemGroup Condition="$(TargetFramework.StartsWith('net9.0-android'))">
 		<PackageReference Include="Xamarin.GooglePlayServices.Ads" Version="123.2.0" />
 
@@ -175,24 +120,6 @@
 		<PackageReference Include="Xamarin.Google.iOS.MobileAds" Version="8.13.0.3" />
 	</ItemGroup>
 	
-	
-	<!--<PropertyGroup Condition="'$(TargetFramework)' == 'net9.0-android'">
-		<AndroidSupportedAbis>arm64-v8a;x86_64</AndroidSupportedAbis>
-		--><!--<AndroidProguardConfig>proguard.cfg</AndroidProguardConfig>--><!--
-	</PropertyGroup>
-
-	--><!-- Add this PropertyGroup to enable ProGuard/R8 and point to the existing proguard.cfg when building Android --><!--
-	<PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
-		--><!-- Enable ProGuard/R8 shrinking/obfuscation step so AndroidProguardConfig is honored --><!--
-		<AndroidEnableProguard>true</AndroidEnableProguard>
-
-		  --><!-- Ensure R8 is used (already present in your project, keep for clarity) --><!--
-		  <AndroidLinkTool>r8</AndroidLinkTool>
-
-		  --><!-- Ensure the proguard config is respected (you already have proguard.cfg in repo) --><!--
-		  <AndroidProguardConfig>proguard.cfg</AndroidProguardConfig>
-	</PropertyGroup>-->
-
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.png" Color="#222831" />
@@ -217,10 +144,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<!--<PackageReference Include="Pj.Library" Version="1.0.5.1" />
-		<PackageReference Include="Pj.Library.Datastore.Sqlite" Version="1.0.5.1" />
-		<PackageReference Include="Pj.Library.Mobile.Sqlite" Version="1.0.5.1" />-->
-		
 		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
@@ -244,10 +167,6 @@
 
 		<!-- Firebase Crashlytics - Android only (iOS GoogleUtilities version conflict with MobileAds) -->
 		<PackageReference Include="Plugin.Firebase.Crashlytics" Version="3.1.1" Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'" />
-
-		<!-- Google AdMob packages for PjAds.Maui -->
-		<!--<PackageReference Include="Xamarin.GooglePlayServices.Ads" Version="123.2.0" Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'" />-->
-		<!--<PackageReference Include="Xamarin.Google.iOS.MobileAds" Version="8.13.0.3" Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'" />-->
 
 		<!-- <PackageReference Include="Plugin.InAppBilling" Version="8.0.5" /> -->
 	</ItemGroup>

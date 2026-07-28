@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">
@@ -25,7 +25,9 @@
 
 		<!-- App Identifier -->
 		<ApplicationTitle>Countries Insights</ApplicationTitle>
-		<ApplicationId>com.pj.countriesofworld</ApplicationId>
+
+		<ApplicationId Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">com.pj.countries</ApplicationId>
+		<ApplicationId Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">com.pj.countriesofworld</ApplicationId>
 
 		<!-- Versions - update per platform independently before each store release -->
 		<ApplicationDisplayVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">18.0</ApplicationDisplayVersion>
