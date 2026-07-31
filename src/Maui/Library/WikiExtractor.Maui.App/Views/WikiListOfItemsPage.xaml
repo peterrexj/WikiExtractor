@@ -421,13 +421,18 @@
                         <!--  Swipe-to-read container  -->
                         <Grid x:Name="swipeContainer">
                             <!--  Swipe action layer: green = mark read, amber = mark unread  -->
+                            <!--  No ListItemBorderStyle here — that style sets Background (gradient brush)
+                                  which overrides BackgroundColor, and VerticalOptions=Start which shrinks
+                                  this border to label height instead of filling the cell.  -->
                             <Border
                                 x:Name="swipeGreenLayer"
                                 Margin="0,0,0,12"
                                 Opacity="0"
                                 StrokeThickness="0"
-                                BackgroundColor="{DynamicResource WikiAppSwipeReadBackgroundColor}"
-                                Style="{DynamicResource ListItemBorderStyle}">
+                                StrokeShape="RoundRectangle 18"
+                                HorizontalOptions="Fill"
+                                VerticalOptions="Fill"
+                                BackgroundColor="{DynamicResource WikiAppSwipeReadBackgroundColor}">
                                 <Border.Triggers>
                                     <DataTrigger TargetType="Border" Binding="{Binding ItemReadStatus}" Value="True">
                                         <Setter Property="BackgroundColor" Value="#D97706" />
