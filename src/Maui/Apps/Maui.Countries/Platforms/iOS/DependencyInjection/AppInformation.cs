@@ -22,9 +22,9 @@ namespace Maui.Countries.Platforms.iOS.DependencyInjection
         public string DbUserStore => "CountryUserStore.db";
         public string HeaderIcon => "appicon_1024.png";
 
-        public string AppShareLink => "https://apps.apple.com/app/idYOUR_APP_ID"; // TODO: replace with App Store ID
-        public string RateAppLink => "itms-apps://itunes.apple.com/app/idYOUR_APP_ID?action=write-review"; // TODO: replace with App Store ID
-        public string FeedbackEmail => "support@yoursimpleapps.com";
+        public string AppShareLink => "https://apps.apple.com/app/id6472267884";
+        public string RateAppLink => "itms-apps://itunes.apple.com/app/id6472267884?action=write-review";
+        public string FeedbackEmail => "yoursimpleapps@gmail.com";
 
         public string AdsAppId => "ca-app-pub-4219645367584712~1323561667";
 

@@ -121,6 +121,8 @@
                                 SelectionChanged="autoComplete_SelectionChanged"
                                 Stroke="Transparent"
                                 Style="{DynamicResource SfAutocompleteStyle}"
+                                TextColor="{DynamicResource WikiAppAutoCompleteTextColor}"
+                                TextSearchMode="Contains"
                                 Unfocused="autoComplete_Unfocused"
                                 ValueChanged="autoComplete_ValueChanged" />
                             <!--  Always-visible clear button  -->
@@ -325,7 +327,7 @@
             </Border>
 
             <!--  List  -->
-            <CollectionView
+            <localControls:SwipeCollectionView
                 x:Name="listOfItems"
                 Grid.Row="2"
                 Margin="10,0,10,0"
@@ -333,7 +335,11 @@
                 IsEnabled="{Binding IsNotBusy}"
                 ItemsSource="{Binding FilteredPersonas}"
                 ItemSizingStrategy="MeasureAllItems"
-                SelectionMode="None">
+                SelectionMode="None"
+                SwipeThreshold="120"
+                ItemSwipeProgress="listOfItems_SwipeProgress"
+                ItemSwiped="listOfItems_ItemSwiped"
+                ItemSwipeCancelled="listOfItems_SwipeCancelled">
 
                 <CollectionView.ItemsLayout>
                     <LinearItemsLayout ItemSpacing="0" Orientation="Vertical" />
@@ -412,18 +418,55 @@
 
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="wvm:PersonaViewModel">
+                        <!--  Swipe-to-read container  -->
+                        <Grid x:Name="swipeContainer">
+                            <!--  Swipe action layer: green = mark read, amber = mark unread  -->
+                            <Border
+                                x:Name="swipeGreenLayer"
+                                Margin="0,0,0,12"
+                                Opacity="0"
+                                StrokeThickness="0"
+                                BackgroundColor="{DynamicResource WikiAppSwipeReadBackgroundColor}"
+                                Style="{DynamicResource ListItemBorderStyle}">
+                                <Border.Triggers>
+                                    <DataTrigger TargetType="Border" Binding="{Binding ItemReadStatus}" Value="True">
+                                        <Setter Property="BackgroundColor" Value="#D97706" />
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Border" Binding="{Binding ItemReadStatus}" Value="False">
+                                        <Setter Property="BackgroundColor" Value="{DynamicResource WikiAppSwipeReadBackgroundColor}" />
+                                    </DataTrigger>
+                                </Border.Triggers>
+                                <Label
+                                    x:Name="swipeActionLabel"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Center"
+                                    Margin="24,0,0,0"
+                                    Text="Mark Read"
+                                    TextColor="White"
+                                    FontSize="16"
+                                    FontAttributes="Bold">
+                                    <Label.Triggers>
+                                        <DataTrigger TargetType="Label" Binding="{Binding ItemReadStatus}" Value="True">
+                                            <Setter Property="Text" Value="Mark Unread" />
+                                        </DataTrigger>
+                                        <DataTrigger TargetType="Label" Binding="{Binding ItemReadStatus}" Value="False">
+                                            <Setter Property="Text" Value="Mark Read" />
+                                        </DataTrigger>
+                                    </Label.Triggers>
+                                </Label>
+                            </Border>
                         <!--  Outer card  -->
-                        <Border
+                        <localControls:HorizontalSwipeBorder
+                            x:Name="swipeCard"
                             Margin="0,0,0,12"
                             Stroke="Transparent"
                             StrokeThickness="0"
                             Style="{DynamicResource ListItemBorderStyle}">
-
-                            <Border.GestureRecognizers>
+                            <localControls:HorizontalSwipeBorder.GestureRecognizers>
                                 <TapGestureRecognizer
                                     CommandParameter="{Binding Id}"
                                     Tapped="itemOnList_Tapped" />
-                            </Border.GestureRecognizers>
+                            </localControls:HorizontalSwipeBorder.GestureRecognizers>
 
                             <Grid>
                                 <Grid.ColumnDefinitions>
@@ -647,10 +690,11 @@
                                     </VerticalStackLayout>
                                 </Grid>
                             </Grid>
-                        </Border>
+                        </localControls:HorizontalSwipeBorder>
+                        </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
-            </CollectionView>
+            </localControls:SwipeCollectionView>
         </Grid>
 
         <!--  Banner Ad  -->

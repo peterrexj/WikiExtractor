@@ -89,12 +89,19 @@ namespace WikiExtractor.Process.Extractor
 
                 //Names with HyperLinks
                 {
-                    var engName = elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i" || f.Name == "a")?.DecodedInnerText(removeNewLine: true).Trim();
+                    // Prefer <b> or <i> over a bare <a> — some cells have an honorific <a> (e.g. "Ven.", "Bl.", "St")
+                    // before the pope's <b>Name</b>, so we must not pick up the honorific link as the name.
+                    var nameNode = elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "b" || f.Name == "i")
+                                   ?? elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "a");
+                    var engName = nameNode?.DecodedInnerText(removeNewLine: true).Trim();
                     listOfName.AdditionalMetaData!.AddOrUpdate(MetadataEnglishName, engName);
                     listOfName.AdditionalMetaData!.AddOrUpdate(MetadataLatinName, elements[elePosNames].ChildNodes.FirstOrDefault(f => f.Name == "span")?.DecodedInnerText(removeNewLine: true).Trim());
 
-                    // Find the <a> anywhere inside the name cell — covers <b><a>, <i><a>, direct <a>
-                    var anchor = elements[elePosNames].Descendants("a").FirstOrDefault(a => a.Attributes["href"]?.Value.HasValue() == true);
+                    // Find the <a> for the pope's own page — prefer an anchor inside <b> or <i> first,
+                    // then fall back to any <a> in the cell. This skips honorific links like "Ven." or "Bl."
+                    // that appear before the bold name and would otherwise be picked up first.
+                    var anchor = (nameNode?.Descendants("a").FirstOrDefault(a => a.Attributes["href"]?.Value.HasValue() == true))
+                                 ?? elements[elePosNames].Descendants("a").FirstOrDefault(a => a.Attributes["href"]?.Value.HasValue() == true);
                     if (anchor != null)
                     {
                         var href = HttpUtility.UrlDecode(HtmlAgilityEx.DecodedInnerText(content: anchor.Attributes["href"].Value, removeNewLine: false));

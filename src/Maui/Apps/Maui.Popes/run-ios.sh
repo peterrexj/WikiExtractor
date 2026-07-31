@@ -8,7 +8,7 @@
 
 PROJECT="Maui.Popes.csproj"
 APP_BUNDLE="bin/Debug/net9.0-ios18.0/iossimulator-arm64/Maui.Popes.app"
-BUNDLE_ID="com.peterrexj.popesofchurch"
+BUNDLE_ID="com.pj.popesofchurch"
 
 SIMULATOR_NAME="iPhone 16 Pro"
 CLEAN=false

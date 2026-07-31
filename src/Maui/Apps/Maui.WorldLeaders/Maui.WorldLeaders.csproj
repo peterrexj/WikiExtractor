@@ -25,7 +25,8 @@
 
 		<!-- App Identifier -->
 		<ApplicationTitle>World Leaders Hub</ApplicationTitle>
-		<ApplicationId>com.pj.worldleadershub</ApplicationId>
+		<ApplicationId Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">com.pj.worldleadershub</ApplicationId>
+		<ApplicationId Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">com.pj.worldleadershub</ApplicationId>
 
 		<!-- Versions - update per platform independently before each store release -->
 		<ApplicationDisplayVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">10.0</ApplicationDisplayVersion>

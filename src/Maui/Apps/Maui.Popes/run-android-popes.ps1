@@ -3,7 +3,7 @@ param(
 )
 
 $Project   = "Maui.Popes.csproj"
-$BundleId  = "com.peterrexj.popesofchurch"
+$BundleId  = "com.pj.popesofchurch"
 
 # ── Java 21 via Homebrew (required for Android manifest merger) ──────────────
 $javaHome = "/opt/homebrew/opt/openjdk@21"

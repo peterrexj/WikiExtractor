@@ -30,11 +30,22 @@
 	<string>Assets.xcassets/appicon.appiconset</string>
 	<key>CFBundleDisplayName</key>
 	<string>World Leaders Hub</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.pj.worldleadershub</string>
 	<key>CFBundleName</key>
 	<string>World Leaders Hub</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-4219645367584712~1266796586</string>
 	<key>GADIsAdManagerApp</key>
 	<true/>
+	<key>UIRequiresPersistentWiFi</key>
+	<true/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

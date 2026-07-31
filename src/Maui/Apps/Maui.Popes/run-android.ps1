@@ -4,7 +4,7 @@ param(
 )
 
 $Project   = "Maui.Popes.csproj"
-$BundleId  = "com.peterrexj.popesofchurch"
+$BundleId  = "com.pj.popesofchurch"
 
 $PhoneAvd  = "Medium_Phone_API_36.1"
 $TabletAvd = "Medium_Tablet_API_36.1"

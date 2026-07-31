@@ -22,9 +22,9 @@ namespace Maui.Saints.Platforms.Android.DependencyInjection
         public string DbUserStore => "WikiUserStore.db";
         public string HeaderIcon => "appicon_1024.png";
 
-        public string AppShareLink => "https://play.google.com/store/apps/details?id=com.pj.saints.wiki";
-        public string RateAppLink => "market://details?id=com.pj.saints.wiki";
-        public string FeedbackEmail => "support@yoursimpleapps.com";
+        public string AppShareLink => "https://play.google.com/store/apps/details?id=com.pj.christiancatholicsaints";
+        public string RateAppLink => "market://details?id=com.pj.christiancatholicsaints";
+        public string FeedbackEmail => "yoursimpleapps@gmail.com";
 
         public string AdsAppId => "ca-app-pub-4219645367584712~8231475165";
 

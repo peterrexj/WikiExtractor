@@ -22,9 +22,9 @@ namespace Maui.WorldLeaders.Platforms.Android.DependencyInjection
         public string DbUserStore => "WorldLeadersUserStore.db";
         public string HeaderIcon => "appicon_1024.png";
 
-        public string AppShareLink => "https://play.google.com/store/apps/details?id=com.pj.worldleaders.wiki";
-        public string RateAppLink => "market://details?id=com.pj.worldleaders.wiki";
-        public string FeedbackEmail => "support@yoursimpleapps.com";
+        public string AppShareLink => "https://play.google.com/store/apps/details?id=com.pj.worldleadershub";
+        public string RateAppLink => "market://details?id=com.pj.worldleadershub";
+        public string FeedbackEmail => "yoursimpleapps@gmail.com";
 
         public string AdsAppId => "ca-app-pub-4219645367584712~7724393725";
 

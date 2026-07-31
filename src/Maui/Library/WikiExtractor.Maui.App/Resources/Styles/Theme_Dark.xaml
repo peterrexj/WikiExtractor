@@ -162,6 +162,7 @@
     <Color x:Key="WikiAppAutoCompleteHighlightedTextColor">#F87171</Color>
     <Color x:Key="WikiAppAutoCompleteWaterColor">#475569</Color>
     <Color x:Key="WikiAppAutoCompleteTextColor">#E2E8F0</Color>
+    <Color x:Key="WikiAppSwipeReadBackgroundColor">#16A34A</Color>
     <Color x:Key="WikiAppAutoCompleteNoResultsFoundTextColor">#94A3B8</Color>
 
     <!--  AppShell  -->

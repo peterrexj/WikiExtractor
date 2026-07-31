@@ -30,6 +30,16 @@ namespace Maui.Wiki
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
                 .ConfigureSyncfusionCore()
+                .ConfigureMauiHandlers(handlers =>
+                {
+#if ANDROID
+                    handlers.AddHandler<WikiExtractor.Maui.App.Controls.SwipeCollectionView,
+                        WikiExtractor.Maui.App.Platforms.Android.SwipeCollectionViewHandler>();
+#elif IOS
+                    handlers.AddHandler<WikiExtractor.Maui.App.Controls.SwipeCollectionView,
+                        WikiExtractor.Maui.App.Platforms.iOS.SwipeCollectionViewHandler>();
+#endif
+                })
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("PARCHM.TTF", "Parmch");

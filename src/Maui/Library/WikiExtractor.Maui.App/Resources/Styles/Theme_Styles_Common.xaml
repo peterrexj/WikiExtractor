@@ -226,18 +226,20 @@
         <Setter Property="NoResultsFoundTemplate">
             <Setter.Value>
                 <DataTemplate>
-                    <Label
-                        Margin="70,10,0,0"
-                        FontAttributes="Italic"
-                        FontFamily="{DynamicResource DefaultFontFamily}"
-                        FontSize="{OnIdiom Phone=16,
-                                           Tablet=21,
-                                           Desktop=21,
-                                           TV=21,
-                                           Watch=14,
-                                           Default=16}"
-                        Text="Not Found"
-                        TextColor="{DynamicResource WikiAppAutoCompleteNoResultsFoundTextColor}" />
+                    <Grid BackgroundColor="{DynamicResource WikiAppAutoCompleteDropdownBackgroundColor}">
+                        <Label
+                            Margin="70,10,0,0"
+                            FontAttributes="Italic"
+                            FontFamily="{DynamicResource DefaultFontFamily}"
+                            FontSize="{OnIdiom Phone=16,
+                                               Tablet=21,
+                                               Desktop=21,
+                                               TV=21,
+                                               Watch=14,
+                                               Default=16}"
+                            Text="Not Found"
+                            TextColor="{DynamicResource WikiAppAutoCompleteNoResultsFoundTextColor}" />
+                    </Grid>
                 </DataTemplate>
             </Setter.Value>
         </Setter>

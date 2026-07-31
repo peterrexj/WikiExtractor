@@ -4,6 +4,9 @@
     <item name="colorPrimary">#222831</item>
     <item name="colorPrimaryDark">#1A1E28</item>
     <item name="colorAccent">#4A90D9</item>
+    <item name="colorControlActivated">#E2E8F0</item>
+    <item name="android:textColorPrimary">#E2E8F0</item>
+    <item name="android:textCursorDrawable">@null</item>
     <item name="android:windowBackground">#222831</item>
   </style>
 

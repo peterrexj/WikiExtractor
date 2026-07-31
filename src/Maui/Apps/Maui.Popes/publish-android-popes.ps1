@@ -1,5 +1,5 @@
 $Project  = "Maui.Popes.csproj"
-$BundleId = "com.peterrexj.popesofchurch"
+$BundleId = "com.pj.popesofchurch"
 
 # ── Resolve Android target framework from csproj ─────────────────────────────
 $xml = [xml](Get-Content $Project)

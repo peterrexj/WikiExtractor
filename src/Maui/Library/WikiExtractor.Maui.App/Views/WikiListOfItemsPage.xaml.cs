@@ -9,6 +9,7 @@ using WikiExtractor.Maui.App.ViewModels;
 using WikiExtractor.ViewModels;
 using PjAds.Maui.Services;
 using PjAds.Maui.Models;
+using WikiExtractor.Maui.App.Controls;
 using WikiExtractor.Maui.App.Models;
 
 namespace WikiExtractor.Maui.App.Views
@@ -173,7 +174,9 @@ namespace WikiExtractor.Maui.App.Views
                 bool hasReadStatusChanged = false;
 
                 var hasPendingTransfer = SharedServices.PageDataTransferModel.Name.HasValue();
-                if (!_readFavDirty && !hasPendingTransfer)
+                var latestHideRead = await Task.Run(() => SettingsHelper.ShouldShowAlreadyReadItem());
+                var settingsChanged = latestHideRead != personaListViewModel.HideItemRead;
+                if (!_readFavDirty && !hasPendingTransfer && !settingsChanged)
                 {
                     // Nothing changed since last load — skip the DB round-trips entirely
                     personaListViewModel.IsDataLoading = false;
@@ -237,7 +240,7 @@ namespace WikiExtractor.Maui.App.Views
                     || readStatusTask.Result.readUpdates.Count > 0,
                     TaskScheduler.Default);
 
-                var settingsTask = Task.Run(() => SettingsHelper.ShouldShowAlreadyReadItem());
+                var settingsTask = Task.FromResult(latestHideRead); // already read above before the early-exit check
                 var showFavTask = Task.Run(() => SettingsHelper.GetShowFavouritesOnly());
 
                 var sortIndexTask = Task.Run(() =>
@@ -257,7 +260,7 @@ namespace WikiExtractor.Maui.App.Views
                     personaListViewModel.SortBySelectedIndex = sortIndexTask.Result;
                 });
 
-                if (hasReadStatusChanged)
+                if (hasReadStatusChanged || settingsChanged)
                 {
                     await MainThread.InvokeOnMainThreadAsync(() => personaListViewModel.ApplyFilter());
                 }
@@ -584,6 +587,183 @@ namespace WikiExtractor.Maui.App.Views
                 _readFavDirty = true;
 
                 if (personaListViewModel!.ShowFavouritesOnly)
+                    personaListViewModel.ApplyFilter();
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+            }
+        }
+
+        // ── Swipe-to-read (driven by ItemTouchHelper via SwipeCollectionView) ──────
+
+        // Tracks items currently being animated so we don't double-trigger.
+        private readonly HashSet<object> _swipeInFlight = new();
+
+        // Extract card and green-layer from the DataTemplate root Grid by x:Name.
+        // Using FindByName is immune to child-order changes in the XAML template.
+        private static (View? card, View? greenLayer) ExtractSwipeViews(View? itemView)
+        {
+            if (itemView is not Element root) return (null, null);
+            var card  = root.FindByName<View>("swipeCard");
+            var green = root.FindByName<View>("swipeGreenLayer");
+            return (card, green);
+        }
+
+        private void listOfItems_SwipeProgress(object sender, ItemSwipeProgressEventArgs e)
+        {
+            if (_swipeInFlight.Contains(e.BindingContext)) return;
+            var (card, greenLayer) = ExtractSwipeViews(e.ItemView);
+            if (card == null) return;
+
+            var screenWidth = DeviceDisplay.MainDisplayInfo.Width / DeviceDisplay.MainDisplayInfo.Density;
+            var x = Math.Max(0, (double)e.TranslationX);
+            card.TranslationX = x;
+            if (greenLayer != null)
+                greenLayer.Opacity = Math.Min(1.0, x / (screenWidth / 2));
+        }
+
+        private void listOfItems_ItemSwiped(object sender, ItemSwipedEventArgs e)
+        {
+            if (e.Direction != SwipeDirection.Right) return;
+            if (!_swipeInFlight.Add(e.BindingContext)) return;
+
+            var (card, greenLayer) = ExtractSwipeViews(e.ItemView);
+            if (card == null) { _swipeInFlight.Remove(e.BindingContext); return; }
+
+            var container = (e.ItemView as Element)?.FindByName<Grid>("swipeContainer");
+            if (container == null) { _swipeInFlight.Remove(e.BindingContext); return; }
+
+            var screenWidth = DeviceDisplay.MainDisplayInfo.Width / DeviceDisplay.MainDisplayInfo.Density;
+
+            // Determine whether the item will disappear after the action:
+            // only when marking an unread item as read AND hide-read is ON.
+            bool isCurrentlyRead = e.BindingContext is WikiExtractor.ViewModels.PersonaViewModel p && p.ItemReadStatus;
+            bool willDisappear   = !isCurrentlyRead && personaListViewModel?.HideItemRead == true;
+
+            _ = willDisappear
+                ? FlyOffAndCollapseAsync(card, greenLayer, container, screenWidth, e.BindingContext)
+                : FlyOffAndReturnAsync(card, greenLayer, container, screenWidth, e.BindingContext);
+        }
+
+        private void listOfItems_SwipeCancelled(object sender, ItemSwipeProgressEventArgs e)
+        {
+            _swipeInFlight.Remove(e.BindingContext);
+            var (card, greenLayer) = ExtractSwipeViews(e.ItemView);
+            if (card == null) return;
+            _ = SpringBackAsync(card, greenLayer);
+        }
+
+        private static async Task SpringBackAsync(View card, View? greenLayer)
+        {
+            try
+            {
+                var t1 = card.TranslationX != 0 ? card.TranslateTo(0, 0, 200, Easing.SpringOut) : Task.CompletedTask;
+                var t2 = greenLayer?.Opacity > 0 ? greenLayer.FadeTo(0, 200) : Task.CompletedTask;
+                await Task.WhenAll(t1, t2);
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+                card.TranslationX = 0;
+                card.Opacity = 1;
+                if (greenLayer != null) greenLayer.Opacity = 0;
+            }
+        }
+
+        // Item will leave the list (marking unread→read with hide-read ON).
+        // Full fly-off + row collapse, no visual reset needed.
+        private async Task FlyOffAndCollapseAsync(View card, View? greenLayer, Grid container, double screenWidth, object bindingContext)
+        {
+            try
+            {
+                if (greenLayer != null)
+                    await greenLayer.FadeTo(1, 150, Easing.CubicOut);
+
+                await Task.WhenAll(
+                    card.TranslateTo(screenWidth, 0, 500, Easing.CubicIn),
+                    card.FadeTo(0, 500, Easing.CubicIn)
+                );
+
+                await Task.WhenAll(
+                    container.ScaleYTo(0, 380, Easing.CubicIn),
+                    container.FadeTo(0, 380, Easing.CubicIn)
+                );
+
+                await MarkSwipeReadAsync(bindingContext);
+
+                // Reset visual state for when the cell is recycled
+                container.ScaleY = 1;
+                container.Opacity = 1;
+                card.TranslationX = 0;
+                card.Opacity = 1;
+                if (greenLayer != null) greenLayer.Opacity = 0;
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+                container.ScaleY = 1;
+                container.Opacity = 1;
+                card.TranslationX = 0;
+                card.Opacity = 1;
+                if (greenLayer != null) greenLayer.Opacity = 0;
+            }
+            finally
+            {
+                _swipeInFlight.Remove(bindingContext);
+            }
+        }
+
+        // Item stays in the list (hide-read OFF, or toggling unread).
+        // Fly card off to the right, then spring it back — action layer flashes briefly.
+        private async Task FlyOffAndReturnAsync(View card, View? greenLayer, Grid container, double screenWidth, object bindingContext)
+        {
+            try
+            {
+                if (greenLayer != null)
+                    await greenLayer.FadeTo(1, 120, Easing.CubicOut);
+
+                // Fly off
+                await Task.WhenAll(
+                    card.TranslateTo(screenWidth, 0, 400, Easing.CubicIn),
+                    card.FadeTo(0, 400, Easing.CubicIn)
+                );
+
+                await MarkSwipeReadAsync(bindingContext);
+
+                // Reset position instantly (off-screen) then spring back into view
+                card.TranslationX = -screenWidth * 0.3;
+                card.Opacity = 0;
+                if (greenLayer != null) greenLayer.Opacity = 0;
+
+                await Task.WhenAll(
+                    card.TranslateTo(0, 0, 350, Easing.SpringOut),
+                    card.FadeTo(1, 300, Easing.CubicOut)
+                );
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.CaptureException(ex);
+                card.TranslationX = 0;
+                card.Opacity = 1;
+                if (greenLayer != null) greenLayer.Opacity = 0;
+            }
+            finally
+            {
+                _swipeInFlight.Remove(bindingContext);
+            }
+        }
+
+        private async Task MarkSwipeReadAsync(object bindingContext)
+        {
+            try
+            {
+                if (bindingContext is not WikiExtractor.ViewModels.PersonaViewModel persona) return;
+                var newValue = !persona.ItemReadStatus;
+                await Task.Run(() => SharedServices.WikiAppController.UpdateItemRead(persona.Name, newValue));
+                persona.ItemReadStatus = newValue;
+                _readFavDirty = true;
+                if (personaListViewModel?.HideItemRead == true && newValue)
                     personaListViewModel.ApplyFilter();
             }
             catch (Exception ex)

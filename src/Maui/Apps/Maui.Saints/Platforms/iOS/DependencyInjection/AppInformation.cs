@@ -22,9 +22,9 @@ namespace Maui.Saints.Platforms.iOS.DependencyInjection
         public string DbUserStore => "WikiUserStore.db";
         public string HeaderIcon => "appicon_1024.png";
 
-        public string AppShareLink => "https://apps.apple.com/app/idYOUR_APP_ID"; // TODO: replace with App Store ID
-        public string RateAppLink => "itms-apps://itunes.apple.com/app/idYOUR_APP_ID?action=write-review"; // TODO: replace with App Store ID
-        public string FeedbackEmail => "support@yoursimpleapps.com";
+        public string AppShareLink => "https://apps.apple.com/app/id6470120151";
+        public string RateAppLink => "itms-apps://itunes.apple.com/app/id6470120151?action=write-review";
+        public string FeedbackEmail => "yoursimpleapps@gmail.com";
 
         public string AdsAppId => "ca-app-pub-4219645367584712~6335237852";
 

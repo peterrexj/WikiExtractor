@@ -8,7 +8,7 @@
 
 PROJECT="Maui.Saints.csproj"
 APP_BUNDLE="bin/Debug/net9.0-ios18.0/iossimulator-arm64/Maui.Saints.app"
-BUNDLE_ID="com.peterrexj.christiancatholicsaints"
+BUNDLE_ID="com.pj.ChristianCatholicSaints"
 
 SIMULATOR_NAME="iPhone 16 Pro"
 CLEAN=false

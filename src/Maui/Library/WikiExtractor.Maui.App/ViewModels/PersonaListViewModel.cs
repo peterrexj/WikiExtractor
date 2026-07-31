@@ -15,7 +15,8 @@ namespace WikiExtractor.Maui.App.ViewModels
     public class PersonaListViewModel : MauiBaseViewModel
     {
         public ICommand TakeQuizCommand { get; set; }
-        
+        public ICommand MarkAsReadCommand { get; }
+
         private bool _shouldProcessQuizRequest = true;
 
         public PersonaListViewModel()
@@ -34,6 +35,22 @@ namespace WikiExtractor.Maui.App.ViewModels
 
             PageCancellationTokenSource = new CancellationTokenSource();
             TakeQuizCommand = new Command<SfButton>(TakeQuiz);
+            MarkAsReadCommand = new Command<int>(async (id) => await OnMarkAsReadAsync(id));
+        }
+
+        private async Task OnMarkAsReadAsync(int id)
+        {
+            try
+            {
+                var persona = Personas?.FirstOrDefault(p => p.Id == id);
+                if (persona == null) return;
+                var newValue = !persona.ItemReadStatus;
+                await Task.Run(() => SharedServices.WikiAppController.UpdateItemRead(persona.Name, newValue));
+                persona.ItemReadStatus = newValue;
+                if (HideItemRead && newValue)
+                    ApplyFilter();
+            }
+            catch { }
         }
 
         private bool _isDataLoading;

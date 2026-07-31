@@ -30,11 +30,22 @@
 	<string>Assets.xcassets/appicon.appiconset</string>
 	<key>CFBundleDisplayName</key>
 	<string>Catholic Saints</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.pj.ChristianCatholicSaints</string>
 	<key>CFBundleName</key>
 	<string>Catholic Saints</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-4219645367584712~6335237852</string>
 	<key>GADIsAdManagerApp</key>
 	<true/>
+	<key>UIRequiresPersistentWiFi</key>
+	<true/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
