@@ -49,6 +49,10 @@ namespace WikiExtractor.Maui.App.Platforms.iOS
     // Drives swipe-to-act on iOS using a UIPanGestureRecognizer added to the UICollectionView.
     // shouldRecognizeSimultaneouslyWith returns true so the built-in scroll gesture and our
     // horizontal pan can both track the same touch — scroll coexists with swipe naturally.
+    //
+    // [Preserve] is required: the linker sees [Export] methods as unreachable from C# and strips
+    // them in release builds, silently breaking gesture delegation at runtime.
+    [Foundation.Preserve(AllMembers = true)]
     file class SwipePanDelegate : NSObject, IUIGestureRecognizerDelegate
     {
         private readonly UICollectionView _collectionView;
