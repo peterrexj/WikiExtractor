@@ -74,9 +74,9 @@
     <!--<Color x:Key="WikiAppButtonTextColor">#FFE599</Color>-->
     <!--<Color x:Key="WikiAppButtonBackgroundColor">#6A5ACD</Color>-->
     <!-- OBSOLETE: Not used anywhere in the application -->
-    <Color x:Key="WikiAppQuizTakeButtonTextColor">#F0F9FF</Color>
+    <Color x:Key="WikiAppQuizTakeButtonTextColor">#FFF7ED</Color>
     <!-- OBSOLETE: Not used anywhere in the application -->
-    <Color x:Key="WikiAppQuizTakeButtonBackgroundColor">#1D4ED8</Color>
+    <Color x:Key="WikiAppQuizTakeButtonBackgroundColor">#D97706</Color>
     <!-- OBSOLETE: Not used anywhere in the application -->
     <Color x:Key="WikiAppQuizNextButtonTextColor">#E2E8F0</Color>
     <!-- OBSOLETE: Not used anywhere in the application -->
