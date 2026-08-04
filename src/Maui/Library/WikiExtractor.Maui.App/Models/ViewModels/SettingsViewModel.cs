@@ -82,6 +82,10 @@ namespace WikiExtractor.Maui.App.ViewModels
         public Command ShareAppCommand { get; }
         public Command RateAppCommand { get; }
         public Command SendFeedbackCommand { get; }
+        public Command<string> OpenOtherAppCommand { get; }
+
+        public IReadOnlyList<WikiExtractor.Maui.App.Services.OtherAppInfo> OtherApps
+            => SharedServiceCore.AppInformation?.OtherApps ?? Array.Empty<WikiExtractor.Maui.App.Services.OtherAppInfo>();
 
         public string? SelectedTheme
         {
@@ -311,6 +315,7 @@ namespace WikiExtractor.Maui.App.ViewModels
             ShareAppCommand = new Command(async () => await OnShareAppAsync());
             RateAppCommand = new Command(async () => await OnRateAppAsync());
             SendFeedbackCommand = new Command(async () => await OnSendFeedbackAsync());
+            OpenOtherAppCommand = new Command<string>(async url => await OnOpenOtherAppAsync(url));
         }
 
         // Default constructor for XAML instantiation
@@ -340,6 +345,7 @@ namespace WikiExtractor.Maui.App.ViewModels
             ShareAppCommand = new Command(async () => await OnShareAppAsync());
             RateAppCommand = new Command(async () => await OnRateAppAsync());
             SendFeedbackCommand = new Command(async () => await OnSendFeedbackAsync());
+            OpenOtherAppCommand = new Command<string>(async url => await OnOpenOtherAppAsync(url));
         }
 
         private async Task ChangeThemeAsync(string selectedTheme)
@@ -512,6 +518,19 @@ namespace WikiExtractor.Maui.App.ViewModels
                 }
 
                 await Launcher.Default.OpenAsync(link);
+            }
+            catch (Exception ex)
+            {
+                _errorHandlingService?.HandleException(ex);
+            }
+        }
+
+        private async Task OnOpenOtherAppAsync(string? url)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(url)) return;
+                await Launcher.Default.OpenAsync(url);
             }
             catch (Exception ex)
             {

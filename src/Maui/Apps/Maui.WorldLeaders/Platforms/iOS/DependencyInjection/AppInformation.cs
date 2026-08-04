@@ -35,6 +35,14 @@ namespace Maui.WorldLeaders.Platforms.iOS.DependencyInjection
         public string AdsInterstitialId => "ca-app-pub-4219645367584712/4668637936";
 
         public string NoAdsProductId => "no_ads";
+
+        public IReadOnlyList<OtherAppInfo> OtherApps => new[]
+        {
+            new OtherAppInfo("All Popes",        "Every pope in Catholic history",    "app_popes.png",       "https://apps.apple.com/app/id6471321897"),
+            new OtherAppInfo("All Saints",       "Catholic saints & their stories",   "app_saints.png",      "https://apps.apple.com/app/id6470120151"),
+            new OtherAppInfo("Countries",        "Explore every country on Earth",    "app_countries.png",   "https://apps.apple.com/app/id6472267884"),
+        };
+
         public List<string> GetRegisteredFontFamilies()
         {
             return RegisteredFonts.GetFontFamilies();

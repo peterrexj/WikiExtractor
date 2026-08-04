@@ -38,6 +38,14 @@ namespace Maui.Wiki.Platforms.Android.DependencyInjection
         public string AdsInterstitialId => "ca-app-pub-4219645367584712/3071004011";
 
         public string NoAdsProductId => "no_ads";
+
+        public IReadOnlyList<OtherAppInfo> OtherApps => new[]
+        {
+            new OtherAppInfo("All Saints",       "Catholic saints & their stories",  "app_saints.png",      "https://play.google.com/store/apps/details?id=com.pj.christiancatholicsaints"),
+            new OtherAppInfo("Countries",        "Explore every country on Earth",    "app_countries.png",   "https://play.google.com/store/apps/details?id=com.pj.countriesofworld"),
+            new OtherAppInfo("World Leaders",    "Heads of state past & present",     "app_worldleaders.png","https://play.google.com/store/apps/details?id=com.pj.worldleadershub"),
+        };
+
         public List<string> GetRegisteredFontFamilies()
         {
             return RegisteredFonts.GetFontFamilies();
