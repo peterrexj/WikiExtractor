@@ -6,6 +6,7 @@
     xmlns:sfButtons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
     xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
     xmlns:viewmodels="clr-namespace:Maui.Wiki.ViewModels"
+    xmlns:settingsvm="clr-namespace:WikiExtractor.Maui.App.ViewModels"
     x:Name="thisPage"
     Title="Settings"
     Shell.NavBarIsVisible="True"
@@ -823,6 +824,92 @@
                                     VerticalOptions="Center" />
                             </Grid>
 
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- ═══ MORE FROM DEVELOPER ═══ -->
+                <VerticalStackLayout Spacing="10">
+                    <Label
+                        Margin="4,0"
+                        FontAttributes="Bold"
+                        FontFamily="FluentIcons"
+                        FontSize="{OnIdiom Phone=11, Tablet=13, Default=11}"
+                        CharacterSpacing="1.2"
+                        Opacity="0.75"
+                        Text="&#xF4E8;  MORE FROM DEVELOPER"
+                        TextColor="{DynamicResource WikiAppPrimaryAccentColor}" />
+
+                    <Border
+                        BackgroundColor="{DynamicResource WikiAppListItemBoxBackgroundColor}"
+                        Stroke="{DynamicResource WikiAppListItemBoxBorderColor}"
+                        StrokeShape="RoundRectangle 14"
+                        StrokeThickness="1">
+                        <VerticalStackLayout
+                            BindableLayout.ItemsSource="{Binding OtherApps}">
+                            <BindableLayout.ItemTemplate>
+                                <DataTemplate>
+                                    <VerticalStackLayout>
+                                        <Grid
+                                            Padding="{OnIdiom Phone='12,12', Tablet='16,14', Default='12,12'}"
+                                            ColumnDefinitions="52,*,Auto"
+                                            ColumnSpacing="12"
+                                            VerticalOptions="Center">
+                                            <Grid.GestureRecognizers>
+                                                <TapGestureRecognizer
+                                                    Command="{Binding Source={RelativeSource AncestorType={x:Type settingsvm:SettingsViewModel}}, Path=OpenOtherAppCommand}"
+                                                    CommandParameter="{Binding StoreUrl}" />
+                                            </Grid.GestureRecognizers>
+                                            <Border
+                                                Grid.Column="0"
+                                                HeightRequest="44"
+                                                WidthRequest="44"
+                                                StrokeThickness="0"
+                                                StrokeShape="RoundRectangle 10"
+                                                HorizontalOptions="Center"
+                                                VerticalOptions="Center">
+                                                <Image
+                                                    Aspect="AspectFit"
+                                                    Source="{Binding IconImage}"
+                                                    HeightRequest="44"
+                                                    WidthRequest="44" />
+                                            </Border>
+                                            <VerticalStackLayout
+                                                Grid.Column="1"
+                                                VerticalOptions="Center"
+                                                Spacing="2">
+                                                <Label
+                                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                                    FontSize="{OnIdiom Phone=15, Tablet=17, Default=15}"
+                                                    FontAttributes="Bold"
+                                                    Text="{Binding Name}"
+                                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                                    VerticalOptions="Center" />
+                                                <Label
+                                                    FontFamily="{DynamicResource DefaultFontFamily}"
+                                                    FontSize="{OnIdiom Phone=12, Tablet=13, Default=12}"
+                                                    Opacity="0.6"
+                                                    Text="{Binding Description}"
+                                                    TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                                    VerticalOptions="Center" />
+                                            </VerticalStackLayout>
+                                            <Label
+                                                Grid.Column="2"
+                                                FontFamily="FluentIcons"
+                                                FontSize="{OnIdiom Phone=13, Tablet=17, Default=13}"
+                                                Opacity="0.4"
+                                                Text="&#xF2B0;"
+                                                TextColor="{DynamicResource WikiAppSettingsLabelTextColor}"
+                                                VerticalOptions="Center" />
+                                        </Grid>
+                                        <BoxView
+                                            Margin="16,0"
+                                            BackgroundColor="{DynamicResource WikiAppListItemBoxBorderColor}"
+                                            HeightRequest="0.5"
+                                            Opacity="0.4" />
+                                    </VerticalStackLayout>
+                                </DataTemplate>
+                            </BindableLayout.ItemTemplate>
                         </VerticalStackLayout>
                     </Border>
                 </VerticalStackLayout>

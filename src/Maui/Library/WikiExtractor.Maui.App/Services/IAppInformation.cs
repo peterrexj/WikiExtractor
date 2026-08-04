@@ -1,5 +1,7 @@
 namespace WikiExtractor.Maui.App.Services
 {
+    public record OtherAppInfo(string Name, string Description, string IconImage, string StoreUrl);
+
     public interface IAppInformation
     {
         public string AdsAppId { get; }
@@ -27,6 +29,8 @@ namespace WikiExtractor.Maui.App.Services
         string AppShareLink { get; }
         string RateAppLink { get; }
         string FeedbackEmail { get; }
+
+        IReadOnlyList<OtherAppInfo> OtherApps { get; }
 
         /// <summary>
         /// Gets the list of registered font families available in the application
