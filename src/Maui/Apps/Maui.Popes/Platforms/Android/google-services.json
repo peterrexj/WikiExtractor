@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "113626556477",
+    "project_id": "catholic-saints-9c9e2",
+    "storage_bucket": "catholic-saints-9c9e2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113626556477:android:17885a5a8ca8d16de9e254",
+        "android_client_info": {
+          "package_name": "com.pj.christiancatholicsaints"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEb31d2LVwsEAwQrT4Dpu5EDVjetAyQPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113626556477:android:1db25474b004275be9e254",
+        "android_client_info": {
+          "package_name": "com.pj.popesofchurch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEb31d2LVwsEAwQrT4Dpu5EDVjetAyQPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
