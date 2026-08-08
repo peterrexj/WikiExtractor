@@ -1,21 +1,21 @@
 #!/bin/zsh
 
 # Usage:
-#   ./run-ios-worldleaders.sh             # iPhone 16 Pro (default)
-#   ./run-ios-worldleaders.sh --ipad      # iPad Pro 13-inch (M4)
+#   ./run-ios-worldleaders.sh             # iPhone 17 Pro (default)
+#   ./run-ios-worldleaders.sh --ipad      # iPad Pro 13-inch (M5)
 #   ./run-ios-worldleaders.sh --device "iPad mini (A17 Pro)"
 #   ./run-ios-worldleaders.sh --clean                        # clean before build
 
 PROJECT="Maui.WorldLeaders.csproj"
-APP_BUNDLE="bin/Debug/net9.0-ios18.0/iossimulator-arm64/Maui.WorldLeaders.app"
+APP_BUNDLE="bin/Debug/net10.0-ios26.5/iossimulator-arm64/Maui.WorldLeaders.app"
 BUNDLE_ID="com.pj.worldleadershub"
 
-SIMULATOR_NAME="iPhone 16 Pro"
+SIMULATOR_NAME="iPhone 17 Pro"
 CLEAN=false
 
 for arg in "$@"; do
   case "$arg" in
-    --ipad)   SIMULATOR_NAME="iPad Pro 13-inch (M4)" ;;
+    --ipad)   SIMULATOR_NAME="iPad Pro 13-inch (M5)" ;;
     --clean)  CLEAN=true ;;
     --device) ;;  # handled below
   esac
@@ -31,7 +31,7 @@ done
 cd "$(dirname "$0")"
 
 echo "==> Finding simulator: $SIMULATOR_NAME..."
-SIMULATOR_ID=$(xcrun simctl list devices available | grep "$SIMULATOR_NAME" | grep -v "unavailable" | head -1 | sed 's/.*(\([A-F0-9-]*\)).*/\1/')
+SIMULATOR_ID=$(xcrun simctl list devices available | awk '/-- iOS 26\.5 --/{f=1;next} /^--/{f=0} f' | grep "$SIMULATOR_NAME" | grep -v "unavailable" | head -1 | sed 's/.*(\([A-F0-9-]*\)).*/\1/')
 
 if [ -z "$SIMULATOR_ID" ]; then
   echo "ERROR: No simulator found matching '$SIMULATOR_NAME'"
@@ -53,11 +53,11 @@ fi
 
 if [ "$CLEAN" = "true" ]; then
   echo "==> Cleaning..."
-  dotnet clean "$PROJECT" -f net9.0-ios18.0 -c Debug
+  dotnet clean "$PROJECT" -f net10.0-ios26.5 -c Debug
 fi
 
 echo "==> Building..."
-dotnet build "$PROJECT" -f net9.0-ios18.0 -c Debug || exit 1
+dotnet build "$PROJECT" -f net10.0-ios26.5 -c Debug || exit 1
 
 echo "==> Installing..."
 xcrun simctl install "$SIMULATOR_ID" "$APP_BUNDLE" || exit 1

@@ -4,7 +4,7 @@ param(
 )
 
 $Project   = "Maui.Countries.csproj"
-$BundleId  = "com.pj.countriesofworld"
+$BundleId  = "com.pj.countries"
 
 $PhoneAvd  = "Medium_Phone_API_36.1"
 $TabletAvd = "Medium_Tablet_API_36.1"
@@ -80,13 +80,13 @@ $serial = (& $AdbExe devices | Select-String "emulator" | Select-String "device$
 Write-Host "    Serial: $serial"
 
 Write-Host "==> Building..."
-dotnet build $Project -f net9.0-android36.0 -c Debug -p:AndroidSdkDirectory=$SdkRoot -p:EmbedAssembliesIntoApk=true
+dotnet build $Project -f net10.0-android36.0 -c Debug -p:AndroidSdkDirectory=$SdkRoot -p:EmbedAssembliesIntoApk=true
 if ($LASTEXITCODE -ne 0) { exit 1 }
 
 Write-Host "==> Finding APK..."
-$apk = Get-ChildItem "bin/Debug/net9.0-android36.0" -Filter "*-Signed.apk" -Recurse | Select-Object -First 1
-if (-not $apk) { $apk = Get-ChildItem "bin/Debug/net9.0-android36.0" -Filter "*.apk" -Recurse | Select-Object -First 1 }
-if (-not $apk) { Write-Error "APK not found under bin/Debug/net9.0-android36.0"; exit 1 }
+$apk = Get-ChildItem "bin/Debug/net10.0-android36.0" -Filter "*-Signed.apk" -Recurse | Select-Object -First 1
+if (-not $apk) { $apk = Get-ChildItem "bin/Debug/net10.0-android36.0" -Filter "*.apk" -Recurse | Select-Object -First 1 }
+if (-not $apk) { Write-Error "APK not found under bin/Debug/net10.0-android36.0"; exit 1 }
 Write-Host "    APK: $($apk.FullName)"
 
 Write-Host "==> Stopping existing app..."

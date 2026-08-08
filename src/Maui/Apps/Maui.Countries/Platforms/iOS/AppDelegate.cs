@@ -1,7 +1,6 @@
 using Foundation;
 using System;
 using System.Diagnostics;
-using UIKit;
 using WikiExtractor.Maui.App.Exts;
 using ObjCRuntime;
 using Google.MobileAds;

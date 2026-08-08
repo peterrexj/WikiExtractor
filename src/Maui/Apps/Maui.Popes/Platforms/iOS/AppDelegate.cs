@@ -1,7 +1,6 @@
 ﻿using Foundation;
 using System;
 using System.Diagnostics;
-using UIKit;
 using WikiExtractor.Maui.App.Exts;
 using ObjCRuntime;
 using Google.MobileAds;
@@ -21,7 +20,7 @@ namespace Maui.Wiki
                 Debug.WriteLine("[PjAds] AppDelegate — MobileAds init complete");
             });
             Debug.WriteLine("[PjAds] AppDelegate — MobileAds.Start called (callback fires async)");
-            
+
             try
             {
                 Debug.WriteLine("🔧 [iOS] Setting up native exception handling");
