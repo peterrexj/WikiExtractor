@@ -1,0 +1,17 @@
+<Project>
+  <!-- Injects a build_id into firebase-crashlytics.properties inside the extracted AAR JARs.
+       Plugin.Firebase.Crashlytics NuGet does not run the Gradle plugin that normally does this.
+       Imported by all 4 app csproj files. Runs on Android only (Debug + Release, APK + AAB). -->
+  <Target Name="InjectCrashlyticsBuildId"
+          AfterTargets="_GetLibraryImports"
+          BeforeTargets="_BuildApkEmbed;_BuildApkFastDev"
+          Condition="$(TargetFramework.StartsWith('net10.0-android'))">
+    <PropertyGroup>
+      <_CrashlyticsBuildId>$([System.Guid]::NewGuid().ToString())</_CrashlyticsBuildId>
+      <_PythonExe Condition="$([MSBuild]::IsOSPlatform('windows'))">python</_PythonExe>
+      <_PythonExe Condition="!$([MSBuild]::IsOSPlatform('windows'))">python3</_PythonExe>
+    </PropertyGroup>
+    <Exec Command="$(_PythonExe) &quot;$(MSBuildThisFileDirectory)inject-crashlytics-buildid.py&quot; &quot;$(_CrashlyticsBuildId)&quot; &quot;$(IntermediateOutputPath)&quot;"
+          WorkingDirectory="$(MSBuildProjectDirectory)" />
+  </Target>
+</Project>

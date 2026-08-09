@@ -8,7 +8,7 @@ using Microsoft.Maui.ApplicationModel;
 using Plugin.Firebase.Core.Platforms.Android;
 using WikiExtractor.Maui.App.Services;
 
-namespace Maui.Wiki
+namespace Maui.WorldLeaders
 {
     [Activity(Theme = "@style/Maui.SplashTheme", MainLauncher = true, LaunchMode = LaunchMode.SingleTop, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize | ConfigChanges.Density)]
     public class MainActivity : MauiAppCompatActivity

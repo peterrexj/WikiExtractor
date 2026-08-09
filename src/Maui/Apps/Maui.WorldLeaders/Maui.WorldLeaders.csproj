@@ -174,4 +174,6 @@
 		<ProjectReference Include="..\..\Library\WikiExtractor.Maui.App\WikiExtractor.Maui.App.csproj" />
 	</ItemGroup>
 
+	<Import Project="..\InjectCrashlyticsBuildId.targets" />
+
 </Project>

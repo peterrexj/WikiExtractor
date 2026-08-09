@@ -5,14 +5,32 @@ param(
 $Project   = "Maui.Popes.csproj"
 $BundleId  = "com.pj.popesofchurch"
 
-# ── Java 21 via Homebrew (required for Android manifest merger) ──────────────
-$javaHome = "/opt/homebrew/opt/openjdk@21"
-if (Test-Path $javaHome) {
-    $env:JAVA_HOME = $javaHome
-    $env:PATH = "$javaHome/bin:$env:PATH"
-    Write-Host "==> Using Java: $javaHome"
+# ── Locate Java 17+ (required for Android manifest merger) ───────────────────
+$_isWin = $IsWindows -or ($env:OS -eq 'Windows_NT')
+if ($env:JAVA_HOME -and (Test-Path (Join-Path $env:JAVA_HOME "bin"))) {
+    Write-Host "==> Using JAVA_HOME: $env:JAVA_HOME"
 } else {
-    Write-Host "WARNING: Java 21 not found at $javaHome, using system default" -ForegroundColor Yellow
+    $pf = if ($_isWin) { $env:ProgramFiles } else { $null }
+    $_javaCandidates = if ($_isWin) {
+        @(
+            (Get-ChildItem "$pf\Eclipse Adoptium" -Filter "jdk-21*" -EA SilentlyContinue | Sort-Object Name -Descending | Select-Object -First 1 -ExpandProperty FullName),
+            (Get-ChildItem "$pf\Microsoft"        -Filter "jdk-21*" -EA SilentlyContinue | Sort-Object Name -Descending | Select-Object -First 1 -ExpandProperty FullName),
+            "$pf\Java\jdk-21",
+            "$pf\Android\Android Studio\jbr"
+        )
+    } else {
+        @("/opt/homebrew/opt/openjdk@21", "/usr/local/opt/openjdk@21",
+          "/usr/lib/jvm/java-21-openjdk-amd64", "/usr/lib/jvm/java-21-openjdk")
+    }
+    $_javaHome = $_javaCandidates | Where-Object { $_ -and (Test-Path $_) } | Select-Object -First 1
+    if ($_javaHome) {
+        $env:JAVA_HOME = $_javaHome
+        $sep = if ($_isWin) { ';' } else { ':' }
+        $env:PATH = (Join-Path $_javaHome "bin") + $sep + $env:PATH
+        Write-Host "==> Using Java: $_javaHome"
+    } else {
+        Write-Host "WARNING: Java 21 not found. If the build fails, install JDK 21 and set JAVA_HOME." -ForegroundColor Yellow
+    }
 }
 
 # Locate Android SDK — check env var first, then common paths
